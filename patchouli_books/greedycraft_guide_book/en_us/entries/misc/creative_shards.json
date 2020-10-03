@@ -1,0 +1,21 @@
+{
+    "name": "§5创造之魂",
+    "icon": "additions:greedycraft-creative_soul",
+    "category": "patchouli:misc_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(5)创造之魂碎片$()能够用于制作一些创造模式专属的物品，它的更高级形式是$(d)创造之魂$()。创造碎片可以通过奖励箱和某些任务获取。$(br)创造之魂的合成需要借助龙之研究的聚合合成。请查阅JEI获取其合成表。"
+        },
+		{
+            "type": "spotlight",
+			"item": "additions:greedycraft-creative_shard",
+            "text": "用于合成创造之魂。"
+        },
+		{
+            "type": "spotlight",
+			"item": "additions:greedycraft-creative_soul",
+            "text": "仅仅是无限创造之力的一小部分。"
+        }
+    ]
+}

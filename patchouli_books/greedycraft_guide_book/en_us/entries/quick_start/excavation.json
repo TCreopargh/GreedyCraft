@@ -1,0 +1,16 @@
+{
+    "name": "连锁挖掘",
+    "icon": "oeintegration:excavatemodifier",
+    "category": "patchouli:quick_start_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "默认按住§c~§r键破坏方块时进行连锁挖掘，不过你并不能一开始就连锁挖掘。要连锁挖掘，你的工具上必须有$(d)挖掘附魔$()，如果是匠魂工具，需要有$(6)挖掘强化$()。挖掘强化使用工具装配台附到匠魂工具上即可。挖掘附魔和挖掘强化都有5级，只有满级才能发挥出连锁挖掘的全部效果。匠魂的挖掘强化不管多少级都只占用一个强化槽。与此相关的合成表如右图所示。$(c)注意: $(4)$(l)连锁挖掘会消耗巨量饥饿值。$()$(c)因此，建议在地下的巨型洞窟中探索以寻找矿物。"
+        }, 
+ 	{
+            "type": "crafting",
+            "recipe": "crafttweaker:oemod1",
+	    "recipe2": "crafttweaker:oebook"
+        }
+    ]
+}

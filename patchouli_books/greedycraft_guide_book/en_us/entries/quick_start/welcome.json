@@ -1,0 +1,18 @@
+{
+    "name": "§5欢迎游玩",
+    "icon": "minecraft:grass",
+    "category": "patchouli:quick_start_category",
+    "priority": "true",
+    "pages": [
+        {
+            "type": "text",
+            "text": "欢迎游玩$(#ff80ab)贪婪整合包$(3)$(o) by TCreopargh$()。本书将对本整合包中的一些基本机制进行讲解。"
+        },
+	{
+            "type": "link",
+            "text": "$(#f4511e)点击下面的链接打开贪婪整合包的官方网站。",
+	    "url": "http://greedycraft.tcreopargh.xyz",
+            "link_text": "前往官网"
+        }
+    ]
+}

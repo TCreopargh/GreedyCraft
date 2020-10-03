@@ -1,0 +1,15 @@
+{
+    "name": "清理掉落物",
+    "icon": "additions:greedycraft-item_purger",
+    "category": "patchouli:misc_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "如果你在跑图时觉得卡顿，可能是因为有大量掉落物造成的，因为区块生成时往往会产生很多掉落物。你可以使用$(6)超时空扫帚$()来清理它们。或者你也可以使用$(5)/purge$()指令清理。另外，R键菜单中的“清理内存”选项也有助于提升性能。"
+        }, 
+ 	{
+            "type": "crafting",
+            "recipe": "crafttweaker:auto_gen_11266081"
+        }
+    ]
+}
