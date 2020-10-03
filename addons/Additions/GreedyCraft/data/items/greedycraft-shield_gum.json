@@ -1,0 +1,26 @@
+{
+  "name": "§d盾牌®软糖",
+  "shines": true,
+  "tooltip": [
+    "§e吃下后获得持续10秒的80%减伤效果！",
+    "§6不过你需要很长时间才能吃下它...",
+    "§d§l专家模式专属"
+  ],
+  "hunger": 8,
+  "saturation": 0.625,
+  "always_edible": true,
+  "eat_time": 60,
+  "eaten_effects": [
+    {
+      "potion": {
+        "name": "minecraft:resistance",
+        "duration": 200,
+        "amplifier": 3,
+        "ambient": false,
+        "show_particles": true
+      },
+      "type": "additions:potion"
+    }
+  ],
+  "type": "additions:food"
+}

@@ -1,0 +1,16 @@
+{
+    "preset_type": "additions:empty",
+    "pools": [
+        {
+            "name": "main",
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "minecraft:chests/simple_dungeon",
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}

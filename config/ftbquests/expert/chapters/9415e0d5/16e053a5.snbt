@@ -1,0 +1,28 @@
+{
+	title: "§e建筑§6小帮手",
+	x: 8.0d,
+	y: 3.5d,
+	description: "获得凿子，可以轻松地改变方块的样式",
+	tasks: [{
+		uid: "9780cd77",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "chisel:chisel_iron"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "68248525",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "ce5fbb89",
+		type: "xp",
+		xp: 100
+	}]
+}

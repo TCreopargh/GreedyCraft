@@ -1,0 +1,82 @@
+{
+	"pools": [
+		{
+			"name": "epic_potions",
+			"rolls": 1,
+			"entries": [
+				{
+					"entryName": "potion_e1",
+					"type": "item",
+					"name": "minecraft:potion",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{Potion:\"treasure2:extra_strong_healing\"}"
+						}
+					]
+				},
+				{
+					"entryName": "potion_e2",
+					"type": "item",
+					"name": "minecraft:potion",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{Potion:\"treasure2:extra_strong_strength\"}"
+						}
+					]
+				},
+				{
+					"entryName": "potion_e3",
+					"type": "item",
+					"name": "minecraft:potion",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{Potion:\"treasure2:extra_strong_leaping\"}"
+						}
+					]
+				},
+				{
+					"entryName": "potion_e4",
+					"type": "item",
+					"name": "minecraft:potion",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{Potion:\"treasure2:extra_strong_swiftness\"}"
+						}
+					]
+				},
+				{
+					"entryName": "potion_e5",
+					"type": "item",
+					"name": "minecraft:potion",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{Potion:\"treasure2:extra_strong_regeneration\"}"
+						}
+					]
+				},
+				{
+					"entryName": "potion_e6",
+					"type": "item",
+					"name": "minecraft:potion",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{Potion:\"treasure2:extra_strong_poison\"}"
+						}
+					]
+				}	
+			]
+		}
+	]
+}

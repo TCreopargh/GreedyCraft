@@ -1,0 +1,33 @@
+{
+	title: "§b高科技匠魂",
+	x: -2.0d,
+	y: -6.0d,
+	shape: "diamond",
+	description: "获得智能输出端",
+	dependencies: [
+		"6b08fde1"
+	],
+	tasks: [{
+		uid: "acdd3216",
+		type: "item",
+		items: [{
+			item: "tinker_io:smart_output"
+		}]
+	}],
+	rewards: [{
+		uid: "f14ea78e",
+		type: "item",
+		item: "tconstruct:materials",
+		count: 1280
+	},
+	{
+		uid: "51d4ddb6",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "c9c70f53",
+		type: "xp",
+		xp: 1000
+	}]
+}

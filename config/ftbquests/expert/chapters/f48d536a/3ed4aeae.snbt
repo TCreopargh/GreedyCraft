@@ -1,0 +1,44 @@
+{
+	title: "§c恐惧之书",
+	x: 10.0d,
+	y: 0.0d,
+	description: "获得恐惧之地死灵之书",
+	dependencies: [
+		"50fa4126"
+	],
+	tasks: [{
+		uid: "63239cee",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "abyssalcraft:necronomicon_dre",
+			tag: {
+				PotEnergy: 0.0f
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3ed1b36e",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "abyssalcraft:gatewaykeydl"
+		}
+	},
+	{
+		uid: "31444252",
+		type: "xp",
+		xp: 8000
+	},
+	{
+		uid: "7d5ecd7a",
+		type: "loot",
+		table: 1
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	title: "§c更好的红石",
+	x: 4.0d,
+	y: 7.5d,
+	description: "获得粘性红石",
+	tasks: [{
+		uid: "27afb96c",
+		type: "item",
+		items: [{
+			item: "redstonepaste:redstonepaste"
+		}]
+	}],
+	rewards: [{
+		uid: "140947a9",
+		type: "item",
+		item: "redstonepaste:redstonepaste",
+		count: 320
+	},
+	{
+		uid: "c44b97dc",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "9ac3a29c",
+		type: "loot",
+		table: 0
+	}]
+}

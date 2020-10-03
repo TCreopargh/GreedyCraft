@@ -1,0 +1,38 @@
+{
+	title: "坚持不懈I",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "minecraft:leather_helmet"
+	},
+	x: -5.5d,
+	y: -3.0d,
+	description: "达成指定的游戏时间",
+	tasks: [{
+		uid: "51ecd589",
+		type: "stat",
+		stat: "stat.playOneMinute",
+		value: 69120
+	}],
+	rewards: [{
+		uid: "f3652806",
+		type: "item",
+		item: "minecraft:clock"
+	},
+	{
+		uid: "e7957246",
+		type: "xp",
+		xp: 250
+	},
+	{
+		uid: "ea039bca",
+		type: "item",
+		item: "minecraft:bed"
+	},
+	{
+		uid: "9bbd2e01",
+		type: "loot",
+		table: 0
+	}]
+}

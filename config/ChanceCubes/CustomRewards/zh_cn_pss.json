@@ -1,0 +1,18 @@
+{
+  "chancecubes:pssst_zh_cn": {
+    "chance": -5,
+    "Entity": [
+      {
+        "entity": {
+          "id": "Creeper"
+        }
+      }
+    ],
+    "Message": [
+      {
+        "message": "Ğê...ÎÒÔÚÕâ£¡",
+        "range": 25
+      }
+    ]
+  }
+}

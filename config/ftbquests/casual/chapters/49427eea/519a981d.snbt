@@ -1,0 +1,30 @@
+{
+	title: "§e存储气体",
+	x: -4.5d,
+	y: 1.5d,
+	description: "获得一个气体储罐",
+	tasks: [{
+		uid: "0408eb81",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mekanism:gastank",
+			tag: {
+				tier: 0
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6206ccde",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "a66d8ff3",
+		type: "xp",
+		xp: 350
+	}]
+}

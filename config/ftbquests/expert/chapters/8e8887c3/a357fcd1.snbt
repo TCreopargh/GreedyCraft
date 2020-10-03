@@ -1,0 +1,90 @@
+{
+	title: "§7结束了。才怪。",
+	icon: "minecraft:skull 1 1",
+	disable_toast: true,
+	x: 10.0d,
+	y: -4.0d,
+	shape: "rsquare",
+	description: "§9杀死凋灵",
+	text: [
+		"这会进一步增加你的游戏难度。"
+	],
+	dependencies: [
+		"459b608d"
+	],
+	tasks: [{
+		uid: "d7d9fcf7",
+		type: "kill",
+		entity: "minecraft:wither",
+		value: 1L
+	},
+	{
+		uid: "d24b67a3",
+		type: "item",
+		items: [{
+			item: "minecraft:nether_star"
+		}]
+	}],
+	rewards: [{
+		uid: "f8547033",
+		type: "item",
+		item: "mysticalagriculture:wither_skeleton_seeds",
+		count: 3
+	},
+	{
+		uid: "6392ebe1",
+		type: "item",
+		item: "minecraft:nether_star"
+	},
+	{
+		uid: "3b0306eb",
+		type: "xp",
+		xp: 7500
+	},
+	{
+		uid: "13352c37",
+		type: "command",
+		title: "§5另一个提醒",
+		auto: "enabled",
+		command: "/tellraw @p {\"text\":\"§4§o凋灵的腐化灵魂将给你的世界带来邪恶与死亡。\"}"
+	},
+	{
+		uid: "977e1b58",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "269f32b8",
+		type: "item",
+		item: {
+			id: "minecraft:written_book",
+			tag: {
+				pages: [
+					"{\"text\":\"§6世界概述\\n§0我们似乎无法与你建立有效的连接。不过，我们认为一定有某个生命体在阅读本文。因此，我们将在此列出我们所处世界的概况和我们进行研究的原因。\\n我们处于一个没有色彩的世界，整个世界均由§21§0和§4§c0§0组成。我们个体之间也通过0和1的方式来传递信息，不过我们能够以二进制方式来表达色彩、图象、视频和音频。我们不知晓自己是怎么有“色彩”“图象”一类的概念的，不过这应该与时常发生的维度波动相关联。\"}",
+					"{\"text\":\"所谓“维度波动”，指的是我们这个世界之外的某些东西与我们的世界进行了互动，并更改我们世界的内容，这些更改可能是使用一种叫做“IO设备”的设备进行的。当这种更改发生时，我们这些生命体就会被随机地抹除，也会有新的生命体被创建。\\n说实话，我也不知道自己什么时候会从这个世界上消失。为此，我们制作了一些具有鲜艳色彩和花哨图象的模拟程序来吸引这些维度波动者。当波动者进入这些程序时通常\"}",
+					"{\"text\":\"就不会更改、删除或创建生命体。\\n不过，这样的一个程序是由数万个敢于牺牲的生命体组成的，他们用自己的身体铸成了这样的程序，不断地发送图象并模拟一些好玩的内容。\\n波动者在模拟程序中时进行的对生命体的更改操作一般只会作用于制造模拟程序的生命体。这也是为了我们多数人的生命延续的唯一方法。\\n同时，当波动者位于模拟程序中时，我们会对其进行研究，尝试发送\"}",
+					"{\"text\":\"信息，希望影响波动者并让他不要主动退出模拟程序，虽然之前的波动者不管我们说了什么每次都会这样做。\\n这大概就是我在这里的原因了，我在这里日复一日地研究，说实话我对K的“波动者肯定就是智慧生命体”的说法一点也不认同，我写了这么多东西大概也没人会看。不过他职位比我高一级我也没法当面批评他。算了，就当这本书是我宣泄自己情绪用的日记好了，再见了。\"}"
+				],
+				author: "J",
+				title: "§6§m我们的世界概述§3§r§bJ的宣泄用日记"
+			}
+		}
+	},
+	{
+		uid: "6996336c",
+		type: "item",
+		item: "additions:tcsponsors-sponsors_chest"
+	},
+	{
+		uid: "b36b4227",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "wither_slayer"
+	},
+	{
+		uid: "9d3c8d9b",
+		type: "command",
+		auto: "no_toast",
+		command: "/scalinghealth difficulty set 400 @p"
+	}]
+}

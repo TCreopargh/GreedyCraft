@@ -1,0 +1,26 @@
+{
+	title: "§a热电子加工台",
+	x: -3.5d,
+	y: -2.5d,
+	description: "获得热电子加工台",
+	dependencies: [
+		"99f6417a"
+	],
+	tasks: [{
+		uid: "81d6c1dd",
+		type: "item",
+		items: [{
+			item: "forestry:fabricator"
+		}]
+	}],
+	rewards: [{
+		uid: "358dd757",
+		type: "xp",
+		xp: 250
+	},
+	{
+		uid: "08fab55c",
+		type: "loot",
+		table: 0
+	}]
+}

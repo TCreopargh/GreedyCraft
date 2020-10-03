@@ -1,0 +1,46 @@
+{
+  "name": "§d超级医疗包",
+  "tooltip": [
+    "§7使用后提高80点最大生命值，持续60秒",
+    "§7并获得60秒的生命恢复V效果",
+    "§7同时回复64点生命值"
+  ],
+  "hunger": 0,
+  "saturation": 0.0,
+  "always_edible": true,
+  "eat_time": 16,
+  "is_drink": true,
+  "eaten_effects": [
+    {
+      "potion": {
+        "name": "minecraft:health_boost",
+        "duration": 1200,
+        "amplifier": 19,
+        "ambient": false,
+        "show_particles": true
+      },
+      "type": "additions:potion"
+    },
+    {
+      "potion": {
+        "name": "minecraft:instant_health",
+        "duration": 1,
+        "amplifier": 4,
+        "ambient": false,
+        "show_particles": true
+      },
+      "type": "additions:potion"
+    },
+    {
+      "potion": {
+        "name": "minecraft:regeneration",
+        "duration": 1200,
+        "amplifier": 4,
+        "ambient": false,
+        "show_particles": true
+      },
+      "type": "additions:potion"
+    }
+  ],
+  "type": "additions:food"
+}

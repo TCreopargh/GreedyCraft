@@ -1,0 +1,29 @@
+{
+	title: "§b这是怎么做到的？！",
+	x: 2.0d,
+	y: 3.5d,
+	description: "获得罐中奶牛",
+	tasks: [{
+		uid: "99a71bbe",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:cow_jar"
+		}]
+	}],
+	rewards: [{
+		uid: "398af88b",
+		type: "item",
+		item: "minecraft:leather",
+		count: 30
+	},
+	{
+		uid: "1ebedf8d",
+		type: "xp",
+		xp: 500
+	},
+	{
+		uid: "e7338643",
+		type: "loot",
+		table: 1
+	}]
+}

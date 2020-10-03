@@ -1,0 +1,21 @@
+{
+	title: "§6蜜蜂的§d甜蜜的家",
+	x: -8.5d,
+	y: 0.0d,
+	description: "获得一个简易蜂房",
+	dependencies: [
+		"5f88aa7f"
+	],
+	tasks: [{
+		uid: "a40c5206",
+		type: "item",
+		items: [{
+			item: "forestry:bee_house"
+		}]
+	}],
+	rewards: [{
+		uid: "becafef7",
+		type: "loot",
+		table: 0
+	}]
+}

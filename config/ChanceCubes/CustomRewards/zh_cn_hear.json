@@ -1,0 +1,22 @@
+{
+  "chancecubes:hearts_zh_cn": {
+    "chance": 0,
+    "Particle": [
+      {
+        "particle": "heart"
+      },
+      {
+        "particle": "heart"
+      },
+      {
+        "particle": "heart"
+      },
+      {
+        "particle": "heart"
+      },
+      {
+        "particle": "heart"
+      }
+    ]
+  }
+}

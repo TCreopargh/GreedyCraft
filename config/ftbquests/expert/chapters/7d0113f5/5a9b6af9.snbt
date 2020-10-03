@@ -1,0 +1,32 @@
+{
+	title: "§5屈服于黑暗",
+	x: 6.0d,
+	y: -1.5d,
+	description: "获得虚空金属",
+	dependencies: [
+		"087117dd"
+	],
+	tasks: [{
+		uid: "665349fd",
+		type: "item",
+		items: [{
+			item: "thaumcraft:ingot 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "2140bf66",
+		type: "item",
+		item: "thaumcraft:ingot 1 1",
+		count: 5
+	},
+	{
+		uid: "b392306a",
+		type: "xp",
+		xp: 6000
+	},
+	{
+		uid: "f22de838",
+		type: "loot",
+		table: 2
+	}]
+}

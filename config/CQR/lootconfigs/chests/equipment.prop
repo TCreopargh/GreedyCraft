@@ -1,0 +1,38 @@
+#############################################################
+#Documentation on the wiki                                  #
+#    https://cq-repoured.fandom.com/wiki/Loot_Configuration #
+#############################################################
+dHelmet = minecraft:diamond_helmet,0,1,1,2
+dChestPlate = minecraft:diamond_chestplate,0,1,1,1
+dLeggins = minecraft:diamond_leggings,0,1,1,1
+dBoots = minecraft:diamond_boots,0,1,1,2
+
+gHelmet = minecraft:golden_helmet,0,1,1,50,true,5,20,false,25
+gChestPlate = minecraft:golden_chestplate,0,1,1,50,true,5,20,false,25
+gLeggins = minecraft:golden_leggings,0,1,1,50,true,5,20,false,25
+gBoots = minecraft:golden_boots,0,1,1,50,true,5,20,false,25
+
+iHelmet = minecraft:iron_helmet,0,1,1,80,true,5,20,false,40
+iChestPlate = minecraft:iron_chestplate,0,1,1,80,true,5,20,false,40
+iLeggins = minecraft:iron_leggings,0,1,1,80,true,5,20,false,40
+iBoots = minecraft:iron_boots,0,1,1,80,true,5,20,false,40
+
+cHelmet = minecraft:chainmail_helmet,0,1,1,50,true,5,20,false,25
+cChestPlate = minecraft:chainmail_chestplate,0,1,1,50,true,5,20,false,25
+cLeggins = minecraft:chainmail_leggings,0,1,1,50,true,5,20,false,25
+cBoots = minecraft:chainmail_boots,0,1,1,50,true,5,20,false,25
+
+dSword = minecraft:diamond_sword,0,1,1,3
+gSword = minecraft:golden_sword,0,1,1,50,true,5,20,false,25
+iSword = minecraft:iron_sword,0,1,1,70,true,5,20,false,35
+iDagger = cqrepoured:dagger_iron,0,1,1,70,true,5,20,false,35
+dDagger = cqrepoured:dagger_diamond,0,1,1,3
+iGreatsword = cqrepoured:great_sword_iron,0,1,1,35,true,5,20,false,20
+dGreatsword = cqrepoured:great_sword_diamond,0,1,1,2
+iSpear = cqrepoured:spear_iron,0,1,1,40,true,5,20,false,20
+dSpear = cqrepoured:spear_diamond,0,1,1,2
+revolver = cqrepoured:revolver,0,1,1,15
+ironBullet = cqrepoured:bullet_iron,0,5,15,10
+fieryBullet = cqrepoured:bullet_fire,0,2,5,5
+bow = minecraft:bow,0,1,1,30
+arrow = minecraft:arrow,0,8,16,20

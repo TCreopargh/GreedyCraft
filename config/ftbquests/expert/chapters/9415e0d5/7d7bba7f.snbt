@@ -1,0 +1,32 @@
+{
+	title: "§a妈妈再也不用担心我丢经验了",
+	x: -8.0d,
+	y: -0.5d,
+	description: "制作一个经验方块来保存你的经验",
+	text: [
+		"Shift右击存储经验，右击取得经验"
+	],
+	tasks: [{
+		uid: "f6d864a3",
+		type: "item",
+		items: [{
+			item: "globalxp:xp_block"
+		}]
+	}],
+	rewards: [{
+		uid: "cd9473a8",
+		type: "xp",
+		xp: 200
+	},
+	{
+		uid: "55f2e767",
+		type: "item",
+		item: "actuallyadditions:item_solidified_experience",
+		count: 16
+	},
+	{
+		uid: "011609cc",
+		type: "loot",
+		table: 0
+	}]
+}

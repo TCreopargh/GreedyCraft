@@ -1,0 +1,49 @@
+{
+	title: "§3凝视深渊",
+	x: 6.0d,
+	y: -1.5d,
+	description: "击败堕落者阿索拉并获得深渊之眼",
+	dependencies: [
+		"48323d8b"
+	],
+	tasks: [{
+		uid: "8f9ae330",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "abyssalcraft:eoa"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8e4e1f0e",
+		type: "item",
+		item: "abyssalcraft:cingot",
+		count: 16
+	},
+	{
+		uid: "f5432bba",
+		type: "xp",
+		xp: 4500
+	},
+	{
+		uid: "ebf05b0b",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "ad7df534",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "abyssal_conquerer"
+	},
+	{
+		uid: "6cb2a4a1",
+		type: "command",
+		auto: "no_toast",
+		command: "/scalinghealth difficulty set 225 @p"
+	}]
+}

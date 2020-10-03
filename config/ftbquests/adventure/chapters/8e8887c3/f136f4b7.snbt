@@ -1,0 +1,46 @@
+{
+	title: "§6强力聚合",
+	x: 10.0d,
+	y: 2.0d,
+	shape: "square",
+	description: "升级你的聚合装置到神龙级",
+	dependencies: [
+		"5f44ba77"
+	],
+	tasks: [{
+		uid: "c3f59f57",
+		type: "item",
+		items: [{
+			item: "draconicevolution:crafting_injector 1 2"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "230af784",
+		type: "item",
+		item: "draconicevolution:crafting_injector 1 2",
+		count: 3
+	},
+	{
+		uid: "dd7ffbf3",
+		type: "item",
+		item: "draconicevolution:dragon_heart",
+		count: 2
+	},
+	{
+		uid: "9fa275fc",
+		type: "item",
+		item: "draconicevolution:draconic_block",
+		count: 4
+	},
+	{
+		uid: "2ee6f388",
+		type: "xp",
+		xp: 10000
+	},
+	{
+		uid: "4aa7d805",
+		type: "loot",
+		table: 2
+	}]
+}

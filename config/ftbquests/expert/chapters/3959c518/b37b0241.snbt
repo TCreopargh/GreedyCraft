@@ -1,0 +1,16 @@
+{
+	x: 1.5d,
+	y: 2.0d,
+	tasks: [{
+		uid: "2d31ca66",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-ancient_tome"
+		}]
+	}],
+	rewards: [{
+		uid: "2009e8a4",
+		type: "loot",
+		table: 3
+	}]
+}

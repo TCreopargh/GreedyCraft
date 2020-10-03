@@ -1,0 +1,43 @@
+{
+  "chancecubes:sethbling_reward_zh_cn": {
+    "chance": 30,
+    "Item": [
+      {
+        "item": {
+          "id": "minecraft:redstone",
+          "Count": 32
+        }
+      },
+      {
+        "item": {
+          "id": "minecraft:repeater",
+          "Count": 3
+        }
+      },
+      {
+        "item": {
+          "id": "minecraft:comparator",
+          "Count": 3
+        }
+      },
+      {
+        "item": {
+          "id": "minecraft:redstone_lamp",
+          "Count": 3
+        }
+      },
+      {
+        "item": {
+          "id": "minecraft:redstone_torch",
+          "Count": 3
+        }
+      }
+    ],
+    "Message": [
+      {
+        "message": "¡ìcÏëÍæºìÊ¯Âğ£¿ÈÃÄãÍæ¸ö¹»",
+        "range": 25
+      }
+    ]
+  }
+}

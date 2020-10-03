@@ -1,0 +1,24 @@
+{
+  "cause": {
+    "item": {
+      "item": "additions:greedycraft-pearl_of_knowledge",
+      "damage": "any"
+    },
+    "type": "additions:item_right_click"
+  },
+  "effects": [
+    {
+      "command": "/xp 59049 @p",
+      "command_sender_name": "",
+      "type": "additions:command"
+    },
+    {
+      "type": "additions:consume_item"
+    },
+    {
+      "command": "/particle happyVillager ~ ~ ~ 2 2 2 0.1 300 force",
+      "command_sender_name": "",
+      "type": "additions:command"
+    }
+  ]
+}

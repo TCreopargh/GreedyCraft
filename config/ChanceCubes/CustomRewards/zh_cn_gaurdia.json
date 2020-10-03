@@ -1,0 +1,29 @@
+{
+  "chancecubes:guardians_zh_cn": {
+    "chance": -35,
+    "Area": [
+      {
+        "xSize": 5,
+        "ySize": 5,
+        "zSize": 5,
+        "block": "minecraft:water",
+        "xOff": -2,
+        "yOff": 0,
+        "zOff": -2,
+        "falling": false,
+        "delay": 0,
+        "causesUpdate": false,
+        "relativeToPlayer": false
+      }
+    ],
+    "Entity": [
+      {
+        "entity": {
+          "id": "guardian"
+        },
+        "delay": 5,
+        "copies": 1
+      }
+    ]
+  }
+}

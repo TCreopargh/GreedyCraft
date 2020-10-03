@@ -1,0 +1,33 @@
+{
+	title: "清洁能源VI",
+	x: 0.5d,
+	y: -8.0d,
+	description: "制作指定的太阳能电池板",
+	dependencies: [
+		"27c1c996"
+	],
+	tasks: [{
+		uid: "05802638",
+		type: "item",
+		items: [{
+			item: "solarflux:solar_panel_6"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7b903048",
+		type: "item",
+		item: "solarflux:solar_panel_6",
+		count: 2
+	},
+	{
+		uid: "aad9186a",
+		type: "xp",
+		xp: 3200
+	},
+	{
+		uid: "509e4f02",
+		type: "loot",
+		table: 1
+	}]
+}

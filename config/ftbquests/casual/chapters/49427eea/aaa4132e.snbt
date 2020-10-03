@@ -1,0 +1,23 @@
+{
+	title: "§6随身工作台",
+	x: 21.0d,
+	y: 11.0d,
+	description: "获得工作台升级蛋糕",
+	tasks: [{
+		uid: "ba44440f",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:crafting_food"
+		}]
+	}],
+	rewards: [{
+		uid: "1cd37e45",
+		type: "xp",
+		xp: 500
+	},
+	{
+		uid: "70dd1dbd",
+		type: "loot",
+		table: 1
+	}]
+}

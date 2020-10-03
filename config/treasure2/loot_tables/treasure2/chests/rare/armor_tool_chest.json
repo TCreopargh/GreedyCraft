@@ -1,0 +1,140 @@
+{
+	"version": "1.0",
+	"pools": [
+		{
+			"name": "treasure",
+			"rolls": {
+				"min": 2,
+				"max": 3
+			},
+			"entries": [
+                {
+                    "type": "loot_table",
+                    "name": "treasure2:loot_tables/treasure2/treasure/rare",
+                    "weight": 30
+                }
+			]
+		},	
+		{
+			"name": "charms",
+			"rolls": 1,
+			"entries": [
+                {
+                    "type": "loot_table",
+                    "name": "treasure2:loot_tables/treasure2/treasure/rare_charms",
+                    "weight": 1
+                }
+			]
+		},			
+		{
+			"name": "items",
+			"rolls": {
+				"min": 3,
+				"max": 5
+			},
+			"entries": [
+                {
+                    "type": "loot_table",
+                    "name": "treasure2:loot_tables/treasure2/items/rare",
+                    "weight": 1
+                }
+			]
+		},
+		{
+			"name": "armor",
+			"rolls": {
+				"min": 1,
+				"max": 2
+			},
+			"entries": [
+                {
+                    "type": "loot_table",
+                    "name": "treasure2:loot_tables/treasure2/armor/rare",
+                    "weight": 1
+                }			
+			]
+		},
+		{
+			"name": "food",
+			"rolls": {
+				"min": 0,
+				"max": 2
+			},
+			"entries": [
+	                {
+                    "type": "loot_table",
+                    "name": "treasure2:loot_tables/treasure2/food/rare",
+                    "weight": 1
+                }				
+			]
+		},
+		{
+			"name": "tools",
+			"rolls": 1,
+			"entries": [
+		                {
+                    "type": "loot_table",
+                    "name": "treasure2:loot_tables/treasure2/tools/rare",
+                    "weight": 1
+                }			
+			]
+		},	
+		
+		{
+			"name": "scarce_items",
+			"rolls": {
+				"min": 0,
+				"max": 5
+			},
+			"entries": [
+                {
+                    "type": "loot_table",
+                    "name": "treasure2:loot_tables/treasure2/items/scarce",
+                    "weight": 1
+                }
+			]
+		},
+		{
+			"name": "scarce_armor",
+			"rolls": {
+				"min": 0,
+				"max": 2
+			},
+			"entries": [
+                {
+                    "type": "loot_table",
+                    "name": "treasure2:loot_tables/treasure2/armor/scarce",
+                    "weight": 1
+                }			
+			]
+		},
+		{
+			"name": "scarce_food",
+			"rolls": {
+				"min": 0,
+				"max": 3
+			},
+			"entries": [
+	                {
+                    "type": "loot_table",
+                    "name": "treasure2:loot_tables/treasure2/food/scarce",
+                    "weight": 1
+                }				
+			]
+		},
+		{
+			"name": "scarce_tools",
+			"rolls": {
+				"min": 0,
+				"max": 2
+			},
+			"entries": [
+		                {
+                    "type": "loot_table",
+                    "name": "treasure2:loot_tables/treasure2/tools/scarce",
+                    "weight": 1
+                }			
+			]
+		}
+	]
+}

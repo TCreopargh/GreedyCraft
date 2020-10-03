@@ -1,0 +1,38 @@
+{
+	title: "§b就是个冰箱",
+	x: 0.5d,
+	y: -4.0d,
+	description: "获得冷冻机",
+	tasks: [{
+		uid: "38262ca7",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					1b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			Damage: 14s
+		}]
+	}],
+	rewards: [{
+		uid: "45516602",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "c661ac70",
+		type: "xp",
+		xp: 750
+	}]
+}

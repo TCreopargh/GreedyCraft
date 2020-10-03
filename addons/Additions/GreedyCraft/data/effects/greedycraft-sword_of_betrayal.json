@@ -1,0 +1,23 @@
+{
+  "cause": {
+    "item": {
+      "item": "cyclicmagic:emerald_sword",
+      "damage": "any",
+      "tag": "{display:{Lore:[\"§4§o这把剑会违抗它主人的意愿。\"],Name:\"§c叛徒之剑\"}}"
+    },
+    "target_self": true,
+    "type": "additions:item_attack"
+  },
+  "effects": [
+    {
+      "potion": {
+        "name": "minecraft:instant_damage",
+        "duration": 1,
+        "amplifier": 3,
+        "ambient": false,
+        "show_particles": true
+      },
+      "type": "additions:potion"
+    }
+  ]
+}

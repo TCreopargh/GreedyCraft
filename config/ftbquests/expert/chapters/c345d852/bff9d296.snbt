@@ -1,0 +1,30 @@
+{
+	title: "§b农场核心",
+	x: -3.5d,
+	y: 2.5d,
+	description: "获得农场齿轮箱",
+	dependencies: [
+		"322f3076"
+	],
+	tasks: [{
+		uid: "187c3239",
+		type: "item",
+		items: [{
+			id: "forestry:ffarm",
+			tag: {
+				FarmBlock: 0
+			},
+			Damage: 2s
+		}]
+	}],
+	rewards: [{
+		uid: "9dacd671",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "c524b432",
+		type: "xp",
+		xp: 600
+	}]
+}

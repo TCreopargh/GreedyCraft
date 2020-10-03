@@ -1,0 +1,16 @@
+{
+  "name": "§6Doge",
+  "tooltip": [
+    "§6手动狗头。",
+    "§b§o赞助者物品 by Xing_XiaoWang"
+  ],
+  "attribute_modifiers": [
+    {
+      "attribute_name": "generic.movementSpeed",
+      "amount": 0.10000000149011612,
+      "slot": "mainhand",
+      "uuid": "d5be0acb-a18a-47fc-b6ab-20d446d2e4a1"
+    }
+  ],
+  "type": "additions:simple"
+}

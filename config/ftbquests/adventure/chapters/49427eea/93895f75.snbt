@@ -1,0 +1,28 @@
+{
+	title: "§6这也能做电容？！",
+	x: 3.0d,
+	y: 13.0d,
+	description: "获得不死图腾电容",
+	tasks: [{
+		uid: "e00ed500",
+		type: "item",
+		items: [{
+			item: "enderio:item_capacitor_totemic"
+		}]
+	}],
+	rewards: [{
+		uid: "184d453a",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "d916600f",
+		type: "xp",
+		xp: 6666
+	},
+	{
+		uid: "c0c0e3c8",
+		type: "item",
+		item: "enderio:item_capacitor_totemic"
+	}]
+}

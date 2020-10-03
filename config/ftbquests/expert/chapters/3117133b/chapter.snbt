@@ -1,0 +1,18 @@
+{
+	title: "§e天境传说",
+	icon: "tinkersaether:valkyrie_ingot",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "",
+	images: [{
+		x: 2.0d,
+		y: -5.5d,
+		width: 8.0d,
+		height: 4.0d,
+		rotation: 0.0d,
+		image: "greedycraft:quests/aether.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

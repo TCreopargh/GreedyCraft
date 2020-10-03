@@ -1,0 +1,27 @@
+{
+	title: "§d积少成多",
+	x: 0.0d,
+	y: -5.5d,
+	description: "获得先锋奖章",
+	dependencies: [
+		"10ed0c5b"
+	],
+	tasks: [{
+		uid: "f84c41ae",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-pioneer_medal"
+		}]
+	}],
+	rewards: [{
+		uid: "2804ab95",
+		type: "item",
+		item: "additions:greedycraft-reward_ticket_epic",
+		count: 10
+	},
+	{
+		uid: "7b156357",
+		type: "xp",
+		xp: 50000
+	}]
+}

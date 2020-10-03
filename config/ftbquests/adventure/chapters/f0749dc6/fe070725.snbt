@@ -1,0 +1,77 @@
+{
+	title: "§6守护者V",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "minecraft:diamond_chestplate"
+	},
+	x: 2.0d,
+	y: 5.0d,
+	description: "累计受到指定伤害",
+	dependencies: [
+		"ae732102"
+	],
+	tasks: [{
+		uid: "7608bc5c",
+		type: "stat",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:iron_chestplate"
+		},
+		stat: "stat.damageTaken",
+		value: 2500000
+	}],
+	rewards: [{
+		uid: "13d2b50d",
+		type: "xp",
+		xp: 100000
+	},
+	{
+		uid: "13ba7676",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "cyclicmagic:soulstone"
+		},
+		count: 32
+	},
+	{
+		uid: "37f559b3",
+		type: "item",
+		item: "scalinghealth:heartcontainer",
+		count: 5
+	},
+	{
+		uid: "8c95e777",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bountifulbaubles:shieldankh",
+			tag: {
+				HideFlags: 2
+			}
+		}
+	},
+	{
+		uid: "afa7ee85",
+		type: "item",
+		item: "tconstruct:materials 1 50"
+	},
+	{
+		uid: "6083cba8",
+		type: "item",
+		item: "additions:greedycraft-ordinary_medal"
+	},
+	{
+		uid: "c9c7639d",
+		type: "loot",
+		table: 3
+	}]
+}

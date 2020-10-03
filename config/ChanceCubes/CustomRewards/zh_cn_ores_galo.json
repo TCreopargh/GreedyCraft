@@ -1,0 +1,43 @@
+{
+  "chancecubes:ores_galore_zh_cn": {
+    "chance": 50,
+    "Item": [
+      {
+        "item": {
+          "id": "minecraft:coal",
+          "Count": 1
+        }
+      },
+      {
+        "item": {
+          "id": "minecraft:redstone",
+          "Count": 1
+        }
+      },
+      {
+        "item": {
+          "id": "minecraft:iron_ingot",
+          "Count": 1
+        }
+      },
+      {
+        "item": {
+          "id": "minecraft:gold_ingot",
+          "Count": 1
+        }
+      },
+      {
+        "item": {
+          "id": "minecraft:diamond",
+          "Count": 1
+        }
+      },
+      {
+        "item": {
+          "id": "minecraft:emerald",
+          "Count": 1
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+	"name": "Beached Ship 1",
+	"description": "",
+	"author": "mason",
+	"archetypes": ["surface"],
+	"type": "ruin",
+	"rarities": ["common"],
+	"biomeWhiteList": ["beach", "swamp"],
+	"biomeBlackList": [],
+	"offset": {
+		"x": 0,
+		"y": -2,
+		"z": 0
+	},
+	"decayRuleSetName": ["default_ruleset", "aged_ruleset"],
+	"nullBlockName": "minecraft:air"
+}

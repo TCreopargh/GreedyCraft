@@ -1,0 +1,1244 @@
+{
+	title: "随机奖励 §9[稀有]",
+	loot_size: 1,
+	hide_tooltip: true,
+	use_title: true,
+	rewards: [{
+		item: "minecraft:obsidian",
+		count: 16,
+		random_bonus: 16
+	},
+	{
+		item: "minecraft:diamond_block",
+		count: 3,
+		random_bonus: 3
+	},
+	{
+		item: "minecraft:emerald_block",
+		count: 3,
+		random_bonus: 3
+	},
+	{
+		item: "thermalfoundation:material 1 130",
+		count: 8,
+		random_bonus: 8
+	},
+	{
+		item: "thermalfoundation:material 1 163",
+		count: 6,
+		random_bonus: 6
+	},
+	{
+		item: "minecraft:anvil",
+		random_bonus: 1
+	},
+	{
+		item: "minecraft:enchanting_table",
+		count: 2,
+		random_bonus: 2
+	},
+	{
+		item: "minecraft:bookshelf",
+		count: 32,
+		random_bonus: 32
+	},
+	{
+		item: "minecraft:end_crystal"
+	},
+	{
+		item: "ae2wtlib:infinity_booster_card",
+		count: 10,
+		random_bonus: 10
+	},
+	{
+		item: "actuallyadditions:block_crystal",
+		random_bonus: 1
+	},
+	{
+		item: "actuallyadditions:block_crystal 1 1",
+		random_bonus: 1
+	},
+	{
+		item: "actuallyadditions:block_crystal 1 2",
+		random_bonus: 1
+	},
+	{
+		item: "actuallyadditions:block_crystal 1 3",
+		random_bonus: 3
+	},
+	{
+		item: "actuallyadditions:block_crystal 1 4",
+		random_bonus: 1
+	},
+	{
+		item: "actuallyadditions:block_crystal 1 5",
+		random_bonus: 2
+	},
+	{
+		item: "projecte:item.pe_matter"
+	},
+	{
+		item: "mysticalagriculture:superium_furnace"
+	},
+	{
+		item: "mysticalagriculture:crafting 1 3",
+		count: 4,
+		random_bonus: 4
+	},
+	{
+		item: "mysticalagriculture:crafting 1 19",
+		count: 4,
+		random_bonus: 4
+	},
+	{
+		item: "mysticalagriculture:crafting 1 20",
+		count: 4,
+		random_bonus: 4
+	},
+	{
+		item: "mysticalagriculture:crafting 1 36",
+		count: 2,
+		random_bonus: 2
+	},
+	{
+		item: "draconicevolution:draconic_core",
+		count: 4,
+		random_bonus: 4
+	},
+	{
+		item: "draconicevolution:draconium_block",
+		count: 4,
+		random_bonus: 4
+	},
+	{
+		item: "thermalfoundation:material 1 134",
+		count: 3,
+		random_bonus: 3
+	},
+	{
+		item: "thermalfoundation:material 1 160",
+		count: 4,
+		random_bonus: 4
+	},
+	{
+		item: "thermalfoundation:material 1 161",
+		count: 4,
+		random_bonus: 4
+	},
+	{
+		item: "thermalfoundation:material 1 162",
+		count: 4,
+		random_bonus: 4
+	},
+	{
+		item: "thermalfoundation:material 1 165",
+		count: 4,
+		random_bonus: 4
+	},
+	{
+		item: "thermalfoundation:material 1 167",
+		count: 2,
+		random_bonus: 2
+	},
+	{
+		item: "threng:material",
+		count: 2,
+		random_bonus: 3
+	},
+	{
+		item: "enderio:item_alloy_ingot 1 6",
+		count: 3,
+		random_bonus: 3
+	},
+	{
+		item: "botania:manaresource",
+		count: 6,
+		random_bonus: 6
+	},
+	{
+		item: "redstonearsenal:material 1 32",
+		count: 4,
+		random_bonus: 4
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thermalexpansion:capacitor",
+			tag: {
+				Energy: 4000000
+			},
+			Damage: 1s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thermalexpansion:capacitor",
+			tag: {
+				Energy: 9000000
+			},
+			Damage: 2s
+		}
+	},
+	{
+		item: "cyclicmagic:heart_food"
+	},
+	{
+		item: "scalinghealth:heartcontainer"
+	},
+	{
+		item: "cyclicmagic:crafting_food"
+	},
+	{
+		item: "cyclicmagic:inventory_food"
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "additions:greedycraft-item_purger"
+		}
+	},
+	{
+		item: "avaritia:resource 1 2",
+		count: 6,
+		random_bonus: 6
+	},
+	{
+		item: "waystones:waystone",
+		random_bonus: 1
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "waystones:warp_stone"
+		},
+		random_bonus: 1
+	},
+	{
+		item: "appliedenergistics2:material 1 36",
+		count: 4,
+		random_bonus: 4
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "appliedenergistics2:storage_cell_16k",
+			tag: {}
+		},
+		random_bonus: 1
+	},
+	{
+		item: "rftools:infused_diamond",
+		count: 4,
+		random_bonus: 4
+	},
+	{
+		item: "ironchest:iron_chest 1 2",
+		count: 2,
+		random_bonus: 2
+	},
+	{
+		item: {
+			id: "minecraft:potion",
+			tag: {
+				CustomPotionEffects: [{
+					ShowParticles: 0b,
+					Duration: 2400,
+					Id: 1,
+					Amplifier: 126
+				},
+				{
+					ShowParticles: 0b,
+					Duration: 2400,
+					Id: 8,
+					Amplifier: 126
+				}],
+				CustomPotionColor: 720859,
+				display: {
+					Lore: [
+						"§a感受疾风吧！"
+					],
+					Name: "§b§o卡其脱离太"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_2"
+			}
+		},
+		random_bonus: 1
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_3"
+			}
+		}
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_1"
+			}
+		},
+		random_bonus: 8
+	},
+	{
+		item: {
+			id: "minecraft:stick",
+			tag: {
+				ench: [{
+					lvl: 10,
+					id: 19
+				}],
+				display: {
+					Lore: [
+						"§d§o你不要过来啊！！！"
+					],
+					Name: "§b击退之杖"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:blue_shulker_box",
+			tag: {
+				BlockEntityTag: {
+					Items: [{
+						Slot: 0,
+						id: "blue_shulker_box",
+						Count: 1,
+						tag: {
+							BlockEntityTag: {
+								Items: [{
+									Slot: 0,
+									id: "blue_shulker_box",
+									Count: 1,
+									tag: {
+										BlockEntityTag: {
+											Items: [{
+												Slot: 0,
+												id: "blue_shulker_box",
+												Count: 1,
+												tag: {
+													BlockEntityTag: {
+														Items: [{
+															Slot: 0,
+															id: "blue_shulker_box",
+															Count: 1,
+															tag: {
+																BlockEntityTag: {
+																	Items: [{
+																		Slot: 0,
+																		id: "blue_shulker_box",
+																		Count: 1,
+																		tag: {
+																			BlockEntityTag: {
+																				Items: [{
+																					Slot: 0,
+																					id: "blue_shulker_box",
+																					Count: 1,
+																					tag: {
+																						BlockEntityTag: {
+																							Items: [{
+																								Slot: 0,
+																								id: "blue_shulker_box",
+																								Count: 1,
+																								tag: {
+																									BlockEntityTag: {
+																										Items: [{
+																											Slot: 0,
+																											id: "blue_shulker_box",
+																											Count: 1,
+																											tag: {
+																												BlockEntityTag: {
+																													Items: [{
+																														Slot: 0,
+																														id: "blue_shulker_box",
+																														Count: 1,
+																														tag: {
+																															BlockEntityTag: {
+																																Items: [{
+																																	Slot: 0,
+																																	id: "blue_shulker_box",
+																																	Count: 1,
+																																	tag: {
+																																		BlockEntityTag: {
+																																			Items: [{
+																																				Slot: 0,
+																																				id: "blue_shulker_box",
+																																				Count: 1,
+																																				tag: {
+																																					BlockEntityTag: {
+																																						Items: [{
+																																							Slot: 0,
+																																							id: "blue_shulker_box",
+																																							Count: 1,
+																																							tag: {
+																																								BlockEntityTag: {
+																																									Items: [{
+																																										Slot: 0,
+																																										id: "blue_shulker_box",
+																																										Count: 1,
+																																										tag: {
+																																											BlockEntityTag: {
+																																												Items: [{
+																																													Slot: 0,
+																																													id: "blue_shulker_box",
+																																													Count: 1,
+																																													tag: {
+																																														BlockEntityTag: {
+																																															Items: [{
+																																																Slot: 0,
+																																																id: "blue_shulker_box",
+																																																Count: 1,
+																																																tag: {
+																																																	BlockEntityTag: {
+																																																		Items: [{
+																																																			Slot: 0,
+																																																			id: "gold_block",
+																																																			Count: 64
+																																																		},
+																																																		{
+																																																			Slot: 1,
+																																																			id: "diamond_block",
+																																																			Count: 16
+																																																		}]
+																																																	},
+																																																	display: {
+																																																		Lore: [
+																																																			"§b§o看来你已经到达了终点。"
+																																																		],
+																																																		Name: "§d§o最后的箱子"
+																																																	}
+																																																}
+																																															}]
+																																														},
+																																														display: {
+																																															Lore: [
+																																																"§b禁止套娃！！"
+																																															],
+																																															Name: "§c套娃之箱"
+																																														}
+																																													}
+																																												}]
+																																											},
+																																											display: {
+																																												Lore: [
+																																													"§b禁止套娃！！"
+																																												],
+																																												Name: "§c套娃之箱"
+																																											}
+																																										}
+																																									}]
+																																								},
+																																								display: {
+																																									Lore: [
+																																										"§b禁止套娃！！"
+																																									],
+																																									Name: "§c套娃之箱"
+																																								}
+																																							}
+																																						}]
+																																					},
+																																					display: {
+																																						Lore: [
+																																							"§b禁止套娃！！"
+																																						],
+																																						Name: "§c套娃之箱"
+																																					}
+																																				}
+																																			}]
+																																		},
+																																		display: {
+																																			Lore: [
+																																				"§b禁止套娃！！"
+																																			],
+																																			Name: "§c套娃之箱"
+																																		}
+																																	}
+																																}]
+																															},
+																															display: {
+																																Lore: [
+																																	"§b禁止套娃！！"
+																																],
+																																Name: "§c套娃之箱"
+																															}
+																														}
+																													}]
+																												},
+																												display: {
+																													Lore: [
+																														"§b禁止套娃！！"
+																													],
+																													Name: "§c套娃之箱"
+																												}
+																											}
+																										}]
+																									},
+																									display: {
+																										Lore: [
+																											"§b禁止套娃！！"
+																										],
+																										Name: "§c套娃之箱"
+																									}
+																								}
+																							}]
+																						},
+																						display: {
+																							Lore: [
+																								"§b禁止套娃！！"
+																							],
+																							Name: "§c套娃之箱"
+																						}
+																					}
+																				}]
+																			},
+																			display: {
+																				Lore: [
+																					"§b禁止套娃！！"
+																				],
+																				Name: "§c套娃之箱"
+																			}
+																		}
+																	}]
+																},
+																display: {
+																	Lore: [
+																		"§b禁止套娃！！"
+																	],
+																	Name: "§c套娃之箱"
+																}
+															}
+														}]
+													},
+													display: {
+														Lore: [
+															"§b禁止套娃！！"
+														],
+														Name: "§c套娃之箱"
+													}
+												}
+											}]
+										},
+										display: {
+											Lore: [
+												"§b禁止套娃！！"
+											],
+											Name: "§c套娃之箱"
+										}
+									}
+								}]
+							},
+							display: {
+								Lore: [
+									"§b禁止套娃！！"
+								],
+								Name: "§c套娃之箱"
+							}
+						}
+					}]
+				},
+				display: {
+					Lore: [
+						"§b禁止套娃！！"
+					],
+					Name: "§c套娃之箱"
+				}
+			}
+		}
+	},
+	{
+		item: "actuallyadditions:item_solidified_experience",
+		count: 32,
+		random_bonus: 64
+	},
+	{
+		item: "minecraft:ender_pearl",
+		random_bonus: 16
+	},
+	{
+		item: "minecraft:blaze_rod",
+		random_bonus: 8
+	},
+	{
+		item: "thermalfoundation:material 1 2048",
+		random_bonus: 8
+	},
+	{
+		item: "cyclicmagic:apple_emerald",
+		random_bonus: 2
+	},
+	{
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:villager"
+				}
+			}
+		},
+		random_bonus: 1
+	},
+	{
+		item: "mysticalagriculture:redstone_seeds",
+		random_bonus: 3
+	},
+	{
+		item: "mysticalagriculture:gold_seeds",
+		random_bonus: 3
+	},
+	{
+		item: "mysticalagriculture:signalum_seeds",
+		random_bonus: 3
+	},
+	{
+		item: "mysticalagriculture:crafting 1 18",
+		random_bonus: 4
+	},
+	{
+		item: "mysticalagriculture:crafting 1 19",
+		random_bonus: 4
+	},
+	{
+		item: "mysticalagriculture:crafting 1 20",
+		random_bonus: 3
+	},
+	{
+		item: "mysticalagriculture:crafting 1 35",
+		random_bonus: 8
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "advanced-fishing:blazing_fishing_pole"
+		}
+	},
+	{
+		item: "prefab:item_moderate_house"
+	},
+	{
+		item: "lootbags:loot_opener"
+	},
+	{
+		item: "lootbags:loot_recycler"
+	},
+	{
+		item: "lootbags:loot_storage"
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "lootbags:itemlootbag",
+			Damage: 4s
+		},
+		random_bonus: 3
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "lootbags:itemlootbag",
+			Damage: 3s
+		},
+		random_bonus: 4
+	},
+	{
+		item: "minecraft:cookie",
+		count: 64,
+		random_bonus: 64
+	},
+	{
+		item: "mysticalagriculture:ghast_seeds",
+		random_bonus: 4
+	},
+	{
+		item: "abyssalcraft:cingot",
+		random_bonus: 5
+	},
+	{
+		item: "twilightforest:fiery_ingot",
+		random_bonus: 5
+	},
+	{
+		item: "minecraft:quartz_block",
+		count: 32,
+		random_bonus: 64
+	},
+	{
+		item: "conarm:gauntlet_mat"
+	},
+	{
+		item: "conarm:gauntlet_mat_speed"
+	},
+	{
+		item: "minecraft:ender_pearl",
+		random_bonus: 16
+	},
+	{
+		item: "minecraft:ender_eye",
+		random_bonus: 8
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "waystones:warp_stone"
+		}
+	},
+	{
+		item: "waystones:warp_scroll",
+		random_bonus: 3
+	},
+	{
+		item: "waystones:waystone",
+		random_bonus: 1
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"prefab:structuresconfiguration": {
+					configuration: {
+						wareHouseFacing: "north",
+						structureEnumName: "WatchTower"
+					}
+				}
+			},
+			id: "prefab:item_basic_structure",
+			tag: {
+				ForgeCaps: {
+					"prefab:structuresconfiguration": {
+						configuration: {
+							wareHouseFacing: "north",
+							structureEnumName: "WatchTower"
+						}
+					}
+				},
+				id: "prefab:item_basic_structure",
+				Count: 1b,
+				Damage: 0s
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"prefab:structuresconfiguration": {
+					configuration: {
+						wareHouseFacing: "north",
+						structureEnumName: "AquaBase"
+					}
+				}
+			},
+			id: "prefab:item_basic_structure",
+			tag: {
+				ForgeCaps: {
+					"prefab:structuresconfiguration": {
+						configuration: {
+							wareHouseFacing: "north",
+							structureEnumName: "AquaBase"
+						}
+					}
+				},
+				id: "prefab:item_basic_structure",
+				Count: 1b,
+				Damage: 0s
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"prefab:structuresconfiguration": {
+					configuration: {
+						wareHouseFacing: "north",
+						structureEnumName: "MineshaftEntrance"
+					}
+				}
+			},
+			id: "prefab:item_basic_structure",
+			tag: {
+				ForgeCaps: {
+					"prefab:structuresconfiguration": {
+						configuration: {
+							wareHouseFacing: "north",
+							structureEnumName: "MineshaftEntrance"
+						}
+					}
+				},
+				id: "prefab:item_basic_structure",
+				Count: 1b,
+				Damage: 0s
+			}
+		}
+	},
+	{
+		item: "prefab:item_fish_pond"
+	},
+	{
+		item: "prefab:item_monster_masher"
+	},
+	{
+		item: "thermalfoundation:upgrade"
+	},
+	{
+		item: "thermalfoundation:upgrade 1 33"
+	},
+	{
+		item: {
+			id: "xnet:advanced_connector",
+			tag: {
+				display: {
+					LocName: "tile.xnet.advanced_connector_blue.name"
+				}
+			}
+		},
+		random_bonus: 6
+	},
+	{
+		item: {
+			id: "xnet:netcable",
+			tag: {
+				display: {
+					LocName: "tile.xnet.netcable_blue.name"
+				}
+			}
+		},
+		count: 64,
+		random_bonus: 64
+	},
+	{
+		item: "additions:greedycraft-blood_sigil",
+		random_bonus: 8
+	},
+	{
+		item: "additions:greedycraft-bloody_sacrifice",
+		random_bonus: 8
+	},
+	{
+		item: "additions:greedycraft-poop",
+		count: 2,
+		random_bonus: 6
+	},
+	{
+		item: "additions:greedycraft-lucky_clover",
+		count: 3,
+		random_bonus: 8
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "inventorypets:meta_pet"
+		},
+		weight: 3
+	},
+	{
+		item: "additions:greedycraft-medkit_small",
+		count: 3,
+		random_bonus: 6
+	},
+	{
+		item: "additions:greedycraft-medkit_big",
+		random_bonus: 2
+	},
+	{
+		item: "openmodularturrets:machine_gun_turret",
+		random_bonus: 4
+	},
+	{
+		item: "openmodularturrets:ammo_meta 1 1",
+		random_bonus: 640
+	},
+	{
+		item: "openmodularturrets:turret_base 1 3",
+		random_bonus: 3
+	},
+	{
+		item: "tinymobfarm:iron_farm"
+	},
+	{
+		item: "tinymobfarm:gold_farm"
+	},
+	{
+		item: "additions:greedycraft-experience_block",
+		random_bonus: 14
+	},
+	{
+		item: "minecraft:skull 1 1",
+		count: 3,
+		random_bonus: 3
+	},
+	{
+		item: "tconstruct:materials 1 14",
+		random_bonus: 32
+	},
+	{
+		item: "conarm:resist_mat",
+		random_bonus: 16
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mekanismgenerators:generator",
+			Damage: 6s
+		}
+	},
+	{
+		item: "actuallyadditions:block_giant_chest_large",
+		random_bonus: 3
+	},
+	{
+		item: {
+			id: "minecraft:skull",
+			tag: {
+				SkullOwner: {
+					Id: "2d06868c-6d9b-433a-a356-1a7993b62b8d",
+					Properties: {
+						textures: [{
+							Signature: "O0XiCmq/OoNtTpR6LkV2ktMJ0Ao1Y8hReDuOjUeol4fPgOo4+nwDdlcRn/+yammpzHwZRHGLxVbBWhY7cMfXQtAh3jTQ8WLl+6HGzGZsx2SFi0wc8PTrETwkb9Ax/MrHK1rqe/dcA1P0OHBl+khHce0dnhELMb2ZPo321UUlt+wvkGR+sTxJuplu5BUVyD9iX7tuylecg0JYg7M2RIKQ0F2cQppgs/bXc5kGim88pb577qKVnHeOPNi2is59/izYf2emJngfmpU5WR1qyTLAvwSdngEKGgczCj3+NMLERicJKA3Mmo7aJVmkIk+GJHxZIt3V4p6x9nhcYCDxQP2Mghb+OdtjNZrgIVwa9bAY/uODSPxB58IbtExttnfwfCn/K+x2kLX0vjuTYexLiqDEW3ryU9dV0MxCAXdTBWtuZiPgfQmhMTtqnmwFaJhL2DU+QUTtWUxkpn/F+dzO0qzA5Gxfy2+vysHjWdBVrBAA2APvIAGrTOwk/tFdxVZMDh6De5BoyK7JEClYGiD+7m7nAcnf5NsZQx86tZIxB+pZcK8uqs0ZhMApwsGd1ZIZ2aEDvk+Cv2X2M6YtzYeWMTqh7Z6KzZBvo67lYHRGv7LzkzXQISHBoxhtXNGh0qS3/7P0UbyBT7ZQQXJSchCXuA9IYFnbQeO16HsvMeI9gJQlCD8=",
+							Value: "ewogICJ0aW1lc3RhbXAiIDogMTU5NzkyODU1Njg0MywKICAicHJvZmlsZUlkIiA6ICIyZDA2ODY4YzZkOWI0MzNhYTM1NjFhNzk5M2I2MmI4ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJUQ3Jlb3BhcmdoIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzE5Zjc4MTI1OTc4NTQ2NzZlYjljOGNkYjBkNjAzZjY4MDgxM2E0ZjQ1MGIyZWMyODE3OGE2ZWE4ZWI2YjE4MDYiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+						}]
+					},
+					Name: "TCreopargh"
+				}
+			},
+			Damage: 3s
+		},
+		random_bonus: 5
+	},
+	{
+		item: "projectex:collector"
+	},
+	{
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "headcrumbs:human"
+				}
+			}
+		},
+		random_bonus: 8
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:diamond_sword",
+			tag: {
+				ench: [{
+					lvl: 1,
+					id: 255
+				}],
+				display: {
+					Lore: [
+						"§7锋利 X",
+						"§7耐久 X",
+						"§7抢夺 X",
+						"§7火焰附加 X",
+						"§7击退 X",
+						"§7亡灵杀手 X",
+						"§7节肢杀手 X",
+						"§b无法破坏",
+						"§0以上附魔§0均为胡扯§r"
+					],
+					Name: "§c超§6级§e无§a敌§b炫§9酷§d大§5宝§啊§4剑"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"prefab:structuresconfiguration": {
+					configuration: {
+						wareHouseFacing: "north",
+						structureEnumName: "AdvancedHorseStable"
+					}
+				}
+			},
+			id: "prefab:item_basic_structure",
+			tag: {
+				ForgeCaps: {
+					"prefab:structuresconfiguration": {
+						configuration: {
+							wareHouseFacing: "north",
+							structureEnumName: "AdvancedHorseStable"
+						}
+					}
+				},
+				id: "prefab:item_basic_structure",
+				Count: 1b,
+				Damage: 0s
+			}
+		}
+	},
+	{
+		item: "prefab:item_advanced_warehouse"
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"prefab:structuresconfiguration": {
+					configuration: {
+						wareHouseFacing: "north",
+						structureEnumName: "MagicTemple"
+					}
+				}
+			},
+			id: "prefab:item_basic_structure",
+			tag: {
+				ForgeCaps: {
+					"prefab:structuresconfiguration": {
+						configuration: {
+							wareHouseFacing: "north",
+							structureEnumName: "MagicTemple"
+						}
+					}
+				},
+				id: "prefab:item_basic_structure",
+				Count: 1b,
+				Damage: 0s
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				display: {
+					Name: "§eTCreopargh§b的刷怪蛋"
+				},
+				EntityTag: {
+					Username: "TCreopargh",
+					id: "headcrumbs:human"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"prefab:structuresconfiguration": {
+					configuration: {
+						wareHouseFacing: "north",
+						structureEnumName: "AdvancedCoop"
+					}
+				}
+			},
+			id: "prefab:item_basic_structure",
+			tag: {
+				ForgeCaps: {
+					"prefab:structuresconfiguration": {
+						configuration: {
+							wareHouseFacing: "north",
+							structureEnumName: "AdvancedCoop"
+						}
+					}
+				},
+				id: "prefab:item_basic_structure",
+				Count: 1b,
+				Damage: 0s
+			}
+		}
+	},
+	{
+		item: {
+			id: "botania:specialflower",
+			tag: {
+				type: "tinkle"
+			}
+		},
+		random_bonus: 2
+	},
+	{
+		item: {
+			id: "botania:specialflower",
+			tag: {
+				type: "annoyingflower"
+			}
+		},
+		random_bonus: 2
+	},
+	{
+		item: {
+			id: "botania:specialflower",
+			tag: {
+				type: "bloodyenchantress"
+			}
+		},
+		random_bonus: 2
+	},
+	{
+		item: {
+			id: "extrabotany:rewardbag",
+			tag: {
+				weight: 189
+			},
+			Damage: 3s
+		},
+		random_bonus: 4
+	},
+	{
+		item: "additions:tcsponsors-sponsor_chest_fragment",
+		random_bonus: 2,
+		weight: 2
+	},
+	{
+		item: "bountiful:bountyboarditem"
+	},
+	{
+		item: {
+			id: "minecraft:stick",
+			tag: {
+				ench: [{
+					lvl: 10,
+					id: 19
+				}],
+				display: {
+					Lore: [
+						"§d§o你不要过来啊！！！"
+					],
+					Name: "§b击退之杖"
+				}
+			}
+		}
+	},
+	{
+		item: "enderio:item_material 1 20",
+		random_bonus: 20
+	},
+	{
+		item: "fluxnetworks:fluxplug"
+	},
+	{
+		item: "fluxnetworks:fluxpoint"
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "cyclicmagic:emerald_sword",
+			tag: {
+				display: {
+					Lore: [
+						"§4§o这把剑会违抗它主人的意愿。"
+					],
+					Name: "§c叛徒之剑"
+				}
+			}
+		}
+	},
+	{
+		item: "chancecubes:compact_giant_chance_cube"
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "additions:greedycraft-guide_book"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "hooked:hook",
+			tag: {
+				baubleModifier: "wild",
+				inhibited: 1b
+			},
+			Damage: 2s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "hooked:hook",
+			tag: {
+				baubleModifier: "angry"
+			},
+			Damage: 4s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "additions:greedycraft-tower_chest_key"
+		}
+	},
+	{
+		item: "additions:greedycraft-delivery_order",
+		random_bonus: 1,
+		weight: 2
+	},
+	{
+		item: "additions:greedycraft-sunny_doll",
+		random_bonus: 1
+	},
+	{
+		item: "storagedrawers:upgrade_storage 1 4",
+		random_bonus: 3
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -6677120288058627187L,
+					AS_Amulet_HolderMost: 3244428519259456314L
+				}
+			},
+			id: "ironchest:iron_shulker_box_light_blue",
+			Damage: 5s
+		}
+	}],
+	loot_crate: {
+		string_id: "loot_level_2",
+		item_name: "奖励箱 §9[稀有]",
+		color: 5592575,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

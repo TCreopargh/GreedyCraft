@@ -1,0 +1,21 @@
+{
+  "cause": {
+    "item": {
+      "item": "additions:tcsponsors-snake_rune",
+      "damage": "any"
+    },
+    "type": "additions:item_in_hand"
+  },
+  "effects": [
+    {
+      "potion": {
+        "name": "minecraft:invisibility",
+        "duration": 50,
+        "amplifier": 0,
+        "ambient": false,
+        "show_particles": true
+      },
+      "type": "additions:potion"
+    }
+  ]
+}

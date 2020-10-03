@@ -1,0 +1,42 @@
+{
+	title: "旅行者I",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "minecraft:leather_boots"
+	},
+	x: -0.5d,
+	y: -3.0d,
+	description: "行走指定的距离",
+	tasks: [{
+		uid: "31969db1",
+		type: "stat",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:iron_boots"
+		},
+		stat: "stat.walkOneCm",
+		value: 250000
+	}],
+	rewards: [{
+		uid: "518a3c6e",
+		type: "item",
+		item: {
+			id: "naturescompass:naturescompass",
+			tag: {}
+		}
+	},
+	{
+		uid: "7366a1b5",
+		type: "xp",
+		xp: 250
+	},
+	{
+		uid: "3ee7ade8",
+		type: "loot",
+		table: 0
+	}]
+}

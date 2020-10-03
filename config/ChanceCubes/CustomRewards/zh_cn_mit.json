@@ -1,0 +1,31 @@
+{
+  "chancecubes:mitas_zh_cn": {
+    "chance": 50,
+    "Item": [
+      {
+        "item": {
+          "id": "minecraft:gold_nugget",
+          "Count": 32
+        }
+      },
+      {
+        "item": {
+          "id": "minecraft:gold_ingot",
+          "Count": 8
+        }
+      },
+      {
+        "item": {
+          "id": "minecraft:golden_carrot",
+          "Count": 16
+        }
+      },
+      {
+        "item": {
+          "id": "minecraft:golden_helmet",
+          "Count": 1
+        }
+      }
+    ]
+  }
+}

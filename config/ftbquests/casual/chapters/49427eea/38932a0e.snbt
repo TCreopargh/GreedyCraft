@@ -1,0 +1,27 @@
+{
+	title: "最好的机器B",
+	x: 0.5d,
+	y: 9.0d,
+	description: "升级SAG磨粉机",
+	dependencies: [
+		"acafd08c"
+	],
+	tasks: [{
+		uid: "a0b33fa0",
+		type: "item",
+		items: [{
+			item: "enderio:block_enhanced_sag_mill"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ef160120",
+		type: "xp",
+		xp: 4000
+	},
+	{
+		uid: "44912d63",
+		type: "loot",
+		table: 2
+	}]
+}

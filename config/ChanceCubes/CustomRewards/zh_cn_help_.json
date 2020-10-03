@@ -1,0 +1,77 @@
+{
+  "chancecubes:help_me_zh_cn": {
+    "chance": -10,
+    "Area": [
+      {
+        "xSize": 3,
+        "ySize": 1,
+        "zSize": 3,
+        "block": "minecraft:stonebrick",
+        "xOff": -1,
+        "yOff": -1,
+        "zOff": -1,
+        "falling": false,
+        "delay": 0,
+        "causesUpdate": true,
+        "relativeToPlayer": false
+      },
+      {
+        "xSize": 3,
+        "ySize": 3,
+        "zSize": 3,
+        "block": "minecraft:iron_bars",
+        "xOff": -1,
+        "yOff": 0,
+        "zOff": -1,
+        "falling": false,
+        "delay": 0,
+        "causesUpdate": true,
+        "relativeToPlayer": false
+      },
+      {
+        "xSize": 1,
+        "ySize": 3,
+        "zSize": 1,
+        "block": "minecraft:air",
+        "xOff": 0,
+        "yOff": 0,
+        "zOff": 0,
+        "falling": false,
+        "delay": 1,
+        "causesUpdate": true,
+        "relativeToPlayer": false
+      }
+    ],
+    "Entity": [
+      {
+        "entity": {
+          "id": "villager"
+        },
+        "removeBlocks": false,
+        "delay": 5
+      }
+    ],
+    "Command": [
+      {
+        "command": "/summon tnt %x %y %z {Fuse:80}",
+        "delay": 5
+      },
+      {
+        "command": "/setblock ~2 ~1 ~0 minecraft:wall_sign 2 replace {Text1:\"{\\\"text\\\":\\\"Help Me!\\\"}\"}",
+        "delay": 5
+      },
+      {
+        "command": "/setblock ~-2 ~1 ~0 minecraft:wall_sign 2 replace {Text1:\"{\\\"text\\\":\\\"Help Me!\\\"}\"}",
+        "delay": 5
+      },
+      {
+        "command": "/setblock ~0 ~1 ~2 minecraft:wall_sign 2 replace {Text1:\"{\\\"text\\\":\\\"Help Me!\\\"}\"}",
+        "delay": 5
+      },
+      {
+        "command": "/setblock ~0 ~1 ~-2 minecraft:wall_sign 2 replace {Text1:\"{\\\"text\\\":\\\"Help Me!\\\"}\"}",
+        "delay": 5
+      }
+    ]
+  }
+}

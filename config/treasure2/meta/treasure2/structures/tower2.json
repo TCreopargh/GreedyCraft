@@ -1,0 +1,12 @@
+{
+	"name": "tower2",
+	"description": "",
+	"author": "gottsch",
+	"archetypes": ["surface"],
+	"type": "ruin",
+	"themes": ["dungeon"],
+	"rarities": ["common"],
+	"biomeWhiteList": [],
+	"biomeBlackList": [],
+	"decayRuleSetName": ["default_ruleset", "aged_ruleset", "ruinous_ruleset"]
+}

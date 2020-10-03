@@ -1,0 +1,35 @@
+{
+  "name": "§a医疗包",
+  "tooltip": [
+    "§7使用后回复16点生命值",
+    "§7并获得20秒的生命恢复I效果"
+  ],
+  "hunger": 0,
+  "saturation": 0.0,
+  "always_edible": true,
+  "eat_time": 16,
+  "is_drink": true,
+  "eaten_effects": [
+    {
+      "potion": {
+        "name": "minecraft:instant_health",
+        "duration": 1,
+        "amplifier": 2,
+        "ambient": false,
+        "show_particles": true
+      },
+      "type": "additions:potion"
+    },
+    {
+      "potion": {
+        "name": "minecraft:regeneration",
+        "duration": 400,
+        "amplifier": 0,
+        "ambient": false,
+        "show_particles": true
+      },
+      "type": "additions:potion"
+    }
+  ],
+  "type": "additions:food"
+}

@@ -1,0 +1,75 @@
+{
+	"version": "1.0",
+	"pools": [
+		{
+			"name": "uncommon_food",
+			"rolls": 1,
+			"entries": [
+				{
+					"entryName": "sugar",
+					"type": "item",
+					"name": "minecraft:sugar",
+					"weight": 20,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 3
+							}
+						}
+					]	
+				},
+				{
+					"entryName": "carrot",
+					"type": "item",
+					"name": "minecraft:carrot",
+					"weight": 35,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 5
+							}
+						}
+					]	
+				},
+				{
+					"entryName": "cocoa_beans",
+					"type": "item",
+					"name": "minecraft:dye",
+					"weight": 20,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						},
+						{
+							"function": "set_data",
+							"data": 3
+						}
+					]	
+				},
+				{
+					"entryName": "cookie",
+					"type": "item",
+					"name": "minecraft:cookie",
+					"weight": 15,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					]	
+				}
+			]
+		}
+	]
+}

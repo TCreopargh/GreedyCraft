@@ -1,0 +1,23 @@
+{
+  "item_block": {
+    "name": "§a经验矿石",
+    "ore_dict": "oreExperience",
+    "type": "additions:block_simple"
+  },
+  "name": "§a经验矿石",
+  "material": "minecraft:stone",
+  "place_sound": "minecraft:block.stone.place",
+  "break_sound": "minecraft:block.stone.break",
+  "hit_sound": "minecraft:block.stone.hit",
+  "step_sound": "minecraft:block.stone.step",
+  "fall_sound": "minecraft:block.stone.fall",
+  "map_color": "minecraft:lime",
+  "hardness": 3.0,
+  "resistance": 12.0,
+  "harvest_level": 3,
+  "harvest_tool": "pickaxe",
+  "light_level": 6,
+  "xp_dropped_min": 10,
+  "xp_dropped_max": 20,
+  "type": "additions:simple"
+}

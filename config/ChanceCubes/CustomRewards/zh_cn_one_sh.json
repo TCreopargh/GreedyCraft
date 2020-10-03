@@ -1,0 +1,39 @@
+{
+  "chancecubes:one_shot_zh_cn": {
+    "chance": 75,
+    "Item": [
+      {
+        "item": {
+          "id": "minecraft:bow",
+          "Count": 1,
+          "Damage": 1
+        },
+        "tag": {
+          "ench": [
+            {
+              "id": 48,
+              "lvl": 5
+            },
+            {
+              "id": 49,
+              "lvl": 3
+            },
+            {
+              "id": 50,
+              "lvl": 2
+            }
+          ],
+          "display": {
+            "Name": "“ª∑¢»ÎªÍπ≠"
+          }
+        }
+      },
+      {
+        "item": {
+          "id": "minecraft:arrow",
+          "Count": 1
+        }
+      }
+    ]
+  }
+}

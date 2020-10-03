@@ -1,0 +1,31 @@
+{
+	title: "§a粉碎机",
+	x: -2.0d,
+	y: 3.5d,
+	description: "获得粉碎机，将矿物碎块打成污浊的矿粉",
+	dependencies: [
+		"89933c6e"
+	],
+	tasks: [{
+		uid: "85e606a4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mekanism:machineblock",
+			Damage: 3s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8462aab6",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "655888c2",
+		type: "xp",
+		xp: 800
+	}]
+}

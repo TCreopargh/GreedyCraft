@@ -1,0 +1,13 @@
+{
+  "chancecubes:ticket_rare_zh_cn": {
+    "chance": 40,
+    "Item": [
+      {
+        "item": {
+          "id": "additions:greedycraft-reward_ticket_rare",
+          "Count": 1
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+	title: "§e平凡人生",
+	x: 8.0d,
+	y: -0.5d,
+	description: "和一个村民结婚生子",
+	tasks: [{
+		uid: "1799beb4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mca:baby_boy"
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mca:baby_girl"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "83e82d85",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "881d63e3",
+		type: "item",
+		item: "minecraft:emerald",
+		count: 9
+	},
+	{
+		uid: "43bc195d",
+		type: "loot",
+		table: 1
+	}]
+}

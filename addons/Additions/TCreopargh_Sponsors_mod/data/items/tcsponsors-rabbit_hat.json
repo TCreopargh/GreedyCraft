@@ -1,0 +1,13 @@
+{
+  "name": "§d兔兔帽",
+  "tooltip": [
+    "§e蹦蹦跳跳。",
+    "§b§o赞助者物品 by QAQ_Strawberry"
+  ],
+  "max_stack": 1,
+  "durability": 800,
+  "has_overlay": false,
+  "enchantability": 10,
+  "repair_stacks": {},
+  "type": "additions:hat"
+}

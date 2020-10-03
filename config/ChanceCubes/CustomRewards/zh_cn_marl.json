@@ -1,0 +1,19 @@
+{
+  "chancecubes:finding_marlin_zh_cn": {
+    "chance": 10,
+    "Item": [
+      {
+        "item": {
+          "id": "minecraft:fish",
+          "Count": 1,
+          "Damage": 2,
+          "tag": {
+            "display": {
+              "Name": "Marlin"
+            }
+          }
+        }
+      }
+    ]
+  }
+}

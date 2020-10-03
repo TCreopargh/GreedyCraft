@@ -1,0 +1,35 @@
+{
+  "cause": {
+    "item": {
+      "item": "avaritia:ultimate_stew",
+      "damage": "any",
+      "tag": "{display:{Lore:[\"§a芜湖，起飞！\",\"§b§o赞助者物品 by§b§o DemonUK\"],Name:\"§eDemonUK的肉蛋葱鸡\"}}"
+    },
+    "type": "additions:item_right_click"
+  },
+  "effects": [
+    {
+      "potion": {
+        "name": "minecraft:levitation",
+        "duration": 200,
+        "amplifier": 9,
+        "ambient": false,
+        "show_particles": true
+      },
+      "type": "additions:potion"
+    },
+    {
+      "potion": {
+        "name": "minecraft:saturation",
+        "duration": 1,
+        "amplifier": 19,
+        "ambient": false,
+        "show_particles": true
+      },
+      "type": "additions:potion"
+    },
+    {
+      "type": "additions:consume_item"
+    }
+  ]
+}

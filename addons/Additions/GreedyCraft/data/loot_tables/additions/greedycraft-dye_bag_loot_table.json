@@ -1,0 +1,302 @@
+{
+    "preset_type": "additions:empty",
+    "pools": [
+        {
+            "name": "main",
+            "rolls": {
+				"min": 1,
+                "max": 6
+			},
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:dye",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "count": {
+                                "min": 5,
+                                "max": 16
+                            },
+                            "function": "minecraft:set_count"
+                        },
+                        {
+                            "data": 0,
+                            "function": "minecraft:set_data"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:dye",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "count": {
+                                "min": 5,
+                                "max": 16
+                            },
+                            "function": "minecraft:set_count"
+                        },
+                        {
+                            "data": 1,
+                            "function": "minecraft:set_data"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:dye",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "count": {
+                                "min": 5,
+                                "max": 16
+                            },
+                            "function": "minecraft:set_count"
+                        },
+                        {
+                            "data": 2,
+                            "function": "minecraft:set_data"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:dye",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "count": {
+                                "min": 5,
+                                "max": 16
+                            },
+                            "function": "minecraft:set_count"
+                        },
+                        {
+                            "data": 3,
+                            "function": "minecraft:set_data"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:dye",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "count": {
+                                "min": 5,
+                                "max": 16
+                            },
+                            "function": "minecraft:set_count"
+                        },
+                        {
+                            "data": 4,
+                            "function": "minecraft:set_data"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:dye",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "count": {
+                                "min": 5,
+                                "max": 16
+                            },
+                            "function": "minecraft:set_count"
+                        },
+                        {
+                            "data": 5,
+                            "function": "minecraft:set_data"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:dye",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "count": {
+                                "min": 5,
+                                "max": 16
+                            },
+                            "function": "minecraft:set_count"
+                        },
+                        {
+                            "data": 6,
+                            "function": "minecraft:set_data"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:dye",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "count": {
+                                "min": 5,
+                                "max": 16
+                            },
+                            "function": "minecraft:set_count"
+                        },
+                        {
+                            "data": 7,
+                            "function": "minecraft:set_data"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:dye",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "count": {
+                                "min": 5,
+                                "max": 16
+                            },
+                            "function": "minecraft:set_count"
+                        },
+                        {
+                            "data": 8,
+                            "function": "minecraft:set_data"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:dye",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "count": {
+                                "min": 5,
+                                "max": 16
+                            },
+                            "function": "minecraft:set_count"
+                        },
+                        {
+                            "data": 9,
+                            "function": "minecraft:set_data"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:dye",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "count": {
+                                "min": 5,
+                                "max": 16
+                            },
+                            "function": "minecraft:set_count"
+                        },
+                        {
+                            "data": 10,
+                            "function": "minecraft:set_data"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:dye",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "count": {
+                                "min": 5,
+                                "max": 16
+                            },
+                            "function": "minecraft:set_count"
+                        },
+                        {
+                            "data": 11,
+                            "function": "minecraft:set_data"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:dye",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "count": {
+                                "min": 5,
+                                "max": 16
+                            },
+                            "function": "minecraft:set_count"
+                        },
+                        {
+                            "data": 12,
+                            "function": "minecraft:set_data"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:dye",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "count": {
+                                "min": 5,
+                                "max": 16
+                            },
+                            "function": "minecraft:set_count"
+                        },
+                        {
+                            "data": 13,
+                            "function": "minecraft:set_data"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:dye",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "count": {
+                                "min": 5,
+                                "max": 16
+                            },
+                            "function": "minecraft:set_count"
+                        },
+                        {
+                            "data": 14,
+                            "function": "minecraft:set_data"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:dye",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "count": {
+                                "min": 5,
+                                "max": 16
+                            },
+                            "function": "minecraft:set_count"
+                        },
+                        {
+                            "data": 15,
+                            "function": "minecraft:set_data"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

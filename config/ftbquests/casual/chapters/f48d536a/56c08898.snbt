@@ -1,0 +1,36 @@
+{
+	title: "§3我在哪？让我出去！",
+	icon: "abyssalcraft:stone",
+	x: 16.5d,
+	y: 3.5d,
+	description: "从奥穆索掉落，进入黑暗领域",
+	dependencies: [
+		"18558d0b"
+	],
+	tasks: [{
+		uid: "381fa846",
+		type: "dimension",
+		dim: 53
+	}],
+	rewards: [{
+		uid: "10c552aa",
+		type: "xp",
+		xp: 8000
+	},
+	{
+		uid: "e532fa3a",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "cyclicmagic:charm_void",
+			tag: {}
+		}
+	},
+	{
+		uid: "f32f198a",
+		type: "loot",
+		table: 2
+	}]
+}

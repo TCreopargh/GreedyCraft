@@ -1,0 +1,29 @@
+{
+	title: "§b回家的路",
+	x: 6.0d,
+	y: 5.5d,
+	description: "获得信标",
+	tasks: [{
+		uid: "a13288a0",
+		type: "item",
+		items: [{
+			item: "minecraft:beacon"
+		}]
+	}],
+	rewards: [{
+		uid: "9b437813",
+		type: "item",
+		item: "minecraft:gold_block",
+		count: 9
+	},
+	{
+		uid: "91297ca7",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "03561835",
+		type: "xp",
+		xp: 2000
+	}]
+}

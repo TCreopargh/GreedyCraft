@@ -1,0 +1,28 @@
+{
+	title: "§6赴汤蹈火",
+	x: 4.0d,
+	y: 1.5d,
+	description: "获得熔岩行者靴，可以让你在岩浆上行走",
+	tasks: [{
+		uid: "f301622c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "lavawaderbauble:lavawaderbauble"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "896ac32d",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "6878285e",
+		type: "xp",
+		xp: 2500
+	}]
+}

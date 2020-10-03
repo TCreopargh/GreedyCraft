@@ -1,0 +1,34 @@
+{
+	title: "§b深渊之眼",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "abyssalcraft:eoa"
+	},
+	x: 8.0d,
+	y: -6.0d,
+	description: "要召唤凋零，你必须击败深渊荒芜之地的守护者阿索拉并取得深渊之眼",
+	tasks: [{
+		uid: "9cca1a83",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "abyssalcraft:eoa"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0d6e8b28",
+		type: "gamestage",
+		stage: "abyssal_conquerer"
+	}],
+	rewards: [{
+		uid: "45510853",
+		type: "xp",
+		xp: 1000
+	}]
+}

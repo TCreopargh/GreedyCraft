@@ -1,0 +1,39 @@
+{
+  "chancecubes:squid_horde_zh_cn": {
+    "chance": 5,
+    "Area": [
+      {
+        "xSize": 3,
+        "ySize": 2,
+        "zSize": 3,
+        "block": "minecraft:water",
+        "xOff": -1,
+        "yOff": 0,
+        "zOff": -1,
+        "falling": false,
+        "delay": 5,
+        "causesUpdate": true,
+        "relativeToPlayer": false
+      }
+    ],
+    "Message": [
+      {
+        "message": "§2大军压境!",
+        "range": 25
+      },
+      {
+        "message": "§9这次是鱿鱼军团!!",
+        "delay": 20,
+        "range": 25
+      }
+    ],
+    "Entity": [
+      {
+        "entity": {
+          "id": "Squid"
+        },
+        "copies": 14
+      }
+    ]
+  }
+}

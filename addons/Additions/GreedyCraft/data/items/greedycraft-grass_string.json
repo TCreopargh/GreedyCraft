@@ -1,0 +1,6 @@
+{
+  "name": "§2草绳",
+  "tooltip": "§a100%纯天然，就是容易断。",
+  "ore_dict": "string",
+  "type": "additions:simple"
+}

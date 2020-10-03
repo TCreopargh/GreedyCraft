@@ -1,0 +1,26 @@
+{
+  "chancecubes:watch_world_burn_zh_cn": {
+    "chance": -5,
+    "Area": [
+      {
+        "xSize": 7,
+        "ySize": 1,
+        "zSize": 7,
+        "block": "minecraft:fire",
+        "xOff": -3,
+        "yOff": 0,
+        "zOff": -3,
+        "falling": false,
+        "delay": 0,
+        "causesUpdate": true,
+        "relativeToPlayer": true
+      }
+    ],
+    "Message": [
+      {
+        "message": "§6有些人就是想看着世界在大火中燃烧。",
+        "range": 25
+      }
+    ]
+  }
+}

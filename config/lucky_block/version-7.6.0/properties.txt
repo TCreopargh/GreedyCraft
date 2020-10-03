@@ -1,0 +1,3 @@
+spawnrate=200
+structureChance=2
+doDropsOnCreativeMode=false

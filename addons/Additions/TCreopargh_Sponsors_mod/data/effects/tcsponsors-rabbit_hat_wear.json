@@ -1,0 +1,27 @@
+{
+  "cause": {
+    "equipment": [
+      {
+        "slot": "head",
+        "item": {
+          "item": "additions:tcsponsors-rabbit_hat",
+          "damage": "any"
+        }
+      }
+    ],
+    "pieces_required": 1,
+    "type": "additions:item_equipped"
+  },
+  "effects": [
+    {
+      "potion": {
+        "name": "minecraft:jump_boost",
+        "duration": 50,
+        "amplifier": 2,
+        "ambient": false,
+        "show_particles": true
+      },
+      "type": "additions:potion"
+    }
+  ]
+}

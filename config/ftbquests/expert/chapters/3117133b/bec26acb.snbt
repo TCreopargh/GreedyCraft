@@ -1,0 +1,32 @@
+{
+	title: "§6杀死太阳",
+	icon: "minecraft:blaze_powder",
+	x: 1.5d,
+	y: 2.5d,
+	description: "制作极寒圣物，战胜烈阳巨魔",
+	dependencies: [
+		"b5350524"
+	],
+	tasks: [{
+		uid: "aadcfdd8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "additions:greedycraft-cryonic_artifact"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b24906f8",
+		type: "xp",
+		xp: 10000
+	},
+	{
+		uid: "1776a5a8",
+		type: "loot",
+		table: 2
+	}]
+}

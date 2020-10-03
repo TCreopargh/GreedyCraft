@@ -1,0 +1,31 @@
+{
+	title: "§6解放双手",
+	x: 8.0d,
+	y: 6.0d,
+	description: "获得数字型采矿机",
+	dependencies: [
+		"24e548e5"
+	],
+	tasks: [{
+		uid: "a5070208",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mekanism:machineblock",
+			Damage: 4s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5188c17f",
+		type: "loot",
+		table: 3
+	},
+	{
+		uid: "63b035bb",
+		type: "xp",
+		xp: 10000
+	}]
+}

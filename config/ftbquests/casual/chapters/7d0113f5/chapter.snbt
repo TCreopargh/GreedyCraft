@@ -1,0 +1,34 @@
+{
+	title: "§d神秘时代",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "thaumcraft:thaumonomicon"
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "",
+	images: [{
+		x: 4.5d,
+		y: 4.5d,
+		width: 8.0d,
+		height: 4.0d,
+		rotation: 0.0d,
+		image: "greedycraft:quests/thaumcraft.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 4.0d,
+		y: 1.5d,
+		width: 1.0d,
+		height: 1.0d,
+		rotation: 0.0d,
+		image: "greedycraft:quests/important.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

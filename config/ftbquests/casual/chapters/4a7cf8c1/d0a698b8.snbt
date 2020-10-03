@@ -1,0 +1,21 @@
+{
+	title: "§b魔力过载",
+	icon: "botania:pool",
+	x: -2.5d,
+	y: 0.0d,
+	description: "提交指定数量的植物魔法魔力",
+	can_repeat: true,
+	dependencies: [
+		"727f6d18"
+	],
+	tasks: [{
+		uid: "2b7c40a2",
+		type: "botania_mana",
+		value: 5000000L
+	}],
+	rewards: [{
+		uid: "5a37a70b",
+		type: "item",
+		item: "additions:greedycraft-mana_singularity"
+	}]
+}

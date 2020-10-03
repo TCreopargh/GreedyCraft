@@ -1,0 +1,14 @@
+{
+  "chancecubes:wool_zh_cn": {
+    "chance": 25,
+    "Item": [
+      {
+        "item": {
+          "id": "minecraft:wool",
+          "Count": 16,
+          "Damage": "%%RND(0,16)%%"
+        }
+      }
+    ]
+  }
+}

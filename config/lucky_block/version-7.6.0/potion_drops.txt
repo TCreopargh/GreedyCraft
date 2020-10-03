@@ -1,0 +1,63 @@
+/ == GOOD ==
+
+/ Speed
+group(type=effect,ID=1,range=4,amplifier=2,duration=600;type=particle,ID=splashpotion,potion="swiftness";type=item,ID=#randList(cookie,sugar),posOffset=#circleOffset(0.0,2.0),amount=30)@luck=2
+
+/ Strenth + Resistance + Armor
+group(type=effect,ID=5,range=4,amplifier=1,duration=600;type=effect,ID=11,range=4,amplifier=1,duration=600;type=particle,ID=splashpotion,potion="strength";type=item,ID=iron_sword,posOffset=#circleOffset(0.0,2.0);type=item,ID=iron_helmet,posOffset=#circleOffset(0.0,2.0);type=item,ID=iron_chestplate,posOffset=#circleOffset(0.0,2.0);type=item,ID=iron_leggings,posOffset=#circleOffset(0.0,2.0);type=item,ID=iron_boots,posOffset=#circleOffset(0.0,2.0))@luck=2
+
+/ Health + Regeneration
+group(type=effect,ID=6,range=4,amplifier=3;type=effect,ID=10,range=4,amplifier=1,duration=300;type=particle,ID=splashpotion,potion="healing";type=particle,ID=heart,size=(1.5,0.5,1.5),particleAmount=300)@luck=2
+
+/ Jump Boost
+group(type=effect,ID=8,range=4,amplifier=2,duration=600;type=particle,ID=splashpotion,potion="leaping";type=entity,ID=Rabbit,posOffset=#circleOffset(0.0,2.0),amount=8)@luck=2
+
+/ Invisibility
+group(type=effect,ID=14,range=4,duration=300;type=particle,ID=splashpotion,potion="invisibility";type=particle,ID=explode,size=(2.0,1.0,2.0),particleAmount=300,amount=30,delay=#rand(0.0,8.0))@luck=2
+
+/ Health Boost + Absorbtion
+group(type=effect,ID=21,range=4,amplifier=1,duration=600;type=effect,ID=6,range=4,amplifier=3;type=effect,ID=22,range=4,amplifier=1,duration=600;type=particle,ID=splashpotion,potion="healing";type=entity,ID=horse,NBTTag=(OwnerUUID=#pUUID,ArmorItem=(id=golden_horse_armor,Count=1),SaddleItem=(id=saddle,Count=1)))@luck=2
+
+/ Saturation
+group(type=effect,ID=23,range=4,amplifier=3,duration=600;type=particle,ID=splashpotion,potion="strength";type=block,ID=cake;type=item,ID=#randList(apple,baked_potato,bread,carrot,cooked_chicken,cooked_fish,cooked_mutton,cooked_porkchop,cooked_beef,cooked_rabbit,cookie,golden_apple,golden_carrot,melon,mushroom_stew,potato,pumpkin_pie,rabbit_stew,beef,fish,mutton,porkchop),amount=20)@luck=2
+
+/ Enchanting Bottles
+type=entity,ID=xp_bottle,NBTTag=(Motion=#motionFromDirection(#rand(0,360),-70,0.4)),amount=#rand(20,30)@luck=2
+
+/ Enchanting Books
+group(type=item,ID=anvil;ID=enchanted_book,NBTTag=(StoredEnchantments=#randEnchantment),posOffset=#circleOffset(0.0,2.0),amount=#rand(7,10);type=particle,ID=splashpotion,potion="strength")@luck=2
+
+/ Positive Potions
+group(type=entity,ID=potion,NBTTag=(Potion=(id=splash_potion,tag=(Potion=#randList("night_vision","leaping","fire_resistance","swiftness","water_breathing","healing","regeneration","strength")),Count=1),Motion=#motionFromDirection(#rand(0,360),-70,0.4)),amount=10)@luck=2
+
+/ == BAD ==
+
+/ Knockback
+group(type=effect,ID=special_knockback,power=2.5,range=4,delay=0.1;type=particle,ID=splashpotion,potion="swiftness";type=particle,ID=explode,size=(1.5,1.0,1.5),particleAmount=500)@luck=-2
+
+/ Fire + Lava
+group(type=block,ID=fire,posOffset=#circleOffset(0,3),amount=50;type=block,ID=flowing_lava;type=particle,ID=splashpotion,potion="fire_resistance")@luck=-2
+
+/ Blindness + Slowness
+group(type=effect,ID=15,range=4,duration=10;type=effect,ID=2,range=4,duration=10;type=particle,ID=splashpotion,potion="slowness";type=particle,ID=largesmoke,size=(2.0,1.0,2.0),particleAmount=300,amount=30,delay=#rand(0.0,8.0))@luck=-2
+
+/ Nausia + Hunger
+group(type=effect,ID=9,range=4,duration=10;type=effect,ID=17,range=3,amplifier=8,duration=10;type=particle,ID=splashpotion,potion="poison";type=difficulty,ID=hard;type=entity,ID=Slime;type=particle,ID=slime,size=(1.5,0.5,1.5),particleAmount=500)@luck=-2
+
+/ Damage
+group(type=effect,ID=7,range=4;type=particle,ID=splashpotion,potion="harming";type=entity,ID=lucky:LuckyProjectile,NBTTag=(Motion=#motionFromDirection(#rand(0,360),-50,0.4),item=(id=iron_sword),damage=4.0),amount=20)@luck=-2
+
+/ Explosion
+group(type=difficulty,ID=hard;type=explosion,damage=4;type=particle,ID=splashpotion,potion="harming")@luck=-2
+
+/ Poison
+group(type=effect,ID=19,range=4,duration=30;type=particle,ID=splashpotion,potion="poison";type=difficulty,ID=hard;type=entity,ID=cave_spider;type=item,ID=#randList(rotten_flesh,spider_eye,fermented_spider_eye),posOffset=#circleOffset(0.0,2.0),amount=30)@luck=-2
+
+/ Weakness + Monsters
+group(type=effect,ID=18,range=4,duration=30;type=particle,ID=splashpotion,potion="weakness";type=difficulty,ID=hard;type=entity,ID=#randList(Zombie,Skeleton,Spider),posOffset=#circleOffset(0.0,2.0),amount=#rand(7,10))@luck=-2
+
+/ Wither
+group(type=effect,ID=20,range=4,duration=30;type=particle,ID=splashpotion,potion="weakness";type=item,ID=bone,posOffset=#circleOffset(0.0,2.0),amount=10;type=item,ID=dye,damage=15,posOffset=#circleOffset(0.0,2.0),amount=10;type=item,ID=skull,posOffset=#circleOffset(0.0,2.0),amount=10)@luck=-2
+
+/ Negative Potions
+group(type=entity,ID=potion,NBTTag=(Potion=(id=splash_potion,tag=(Potion=#randList("slowness","harming","poison","weakness")),Count=1),Motion=#motionFromDirection(#rand(0,360),-70,0.4)),amount=10)@luck=-2

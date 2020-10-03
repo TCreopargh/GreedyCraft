@@ -1,0 +1,31 @@
+{
+	title: "浆液清洗",
+	x: -4.5d,
+	y: 5.5d,
+	description: "获得化学清洗机",
+	dependencies: [
+		"6d17d9ec"
+	],
+	tasks: [{
+		uid: "3ed66c0a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mekanism:machineblock2",
+			Damage: 7s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0a5de993",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "75a5484c",
+		type: "xp",
+		xp: 800
+	}]
+}

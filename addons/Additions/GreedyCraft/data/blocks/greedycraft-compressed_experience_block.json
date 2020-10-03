@@ -1,0 +1,21 @@
+{
+  "item_block": {
+    "name": "§a压缩知识精化块",
+    "tooltip": [
+      "§7用于存储经验",
+      "§a拿在手上对空气左键以使用并获得经验",
+      "§e为附魔台提供相当于16个书架的附魔强度"
+    ],
+    "ore_dict": "blockCompressedExperience",
+    "type": "additions:block_simple"
+  },
+  "name": "§a压缩知识精化块",
+  "material": "minecraft:metal",
+  "map_color": "minecraft:lime",
+  "hardness": 4.0,
+  "resistance": 10.0,
+  "harvest_level": 2,
+  "harvest_tool": "pickaxe",
+  "bookshelf_strength": 16,
+  "type": "additions:simple"
+}

@@ -1,0 +1,58 @@
+{
+	title: "§2无底深洞",
+	x: 2.0d,
+	y: 1.5d,
+	description: "获得最高级的/dank/null",
+	tasks: [{
+		uid: "f000f5c6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "danknull:dank_null_5",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "11ff907e",
+		type: "xp",
+		xp: 800
+	},
+	{
+		uid: "86864242",
+		type: "item",
+		item: {
+			id: "danknull:danknull_dock",
+			tag: {
+				BlockEntityTag: {
+					x: -400,
+					y: 69,
+					ForgeCaps: {
+						"abyssalcraft:itemtransfer": {
+							isRunning: 0b,
+							configurations: []
+						}
+					},
+					z: 771,
+					id: "danknull:danknull_dock",
+					DankNullStack: {
+						id: "minecraft:air",
+						Count: 2b,
+						tag: {
+							reforgeCost: 96
+						},
+						Damage: 0s
+					}
+				}
+			}
+		}
+	},
+	{
+		uid: "7730a77a",
+		type: "loot",
+		table: 1
+	}]
+}

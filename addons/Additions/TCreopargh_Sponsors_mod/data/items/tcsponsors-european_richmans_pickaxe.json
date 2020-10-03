@@ -1,0 +1,24 @@
+{
+  "name": "§6氪欧之镐",
+  "tooltip": [
+    "§6传说中专门用来炫耀的镐子",
+    "§b§o赞助者物品 by 6XuanYun9"
+  ],
+  "max_stack": 1,
+  "attribute_modifiers": [
+    {
+      "attribute_name": "generic.luck",
+      "amount": 4.0,
+      "slot": "mainhand",
+      "uuid": "9a3a8b4c-e58d-4415-bef4-7caedc79a05c"
+    },
+    {
+      "attribute_name": "generic.attackDamage",
+      "amount": 8.0,
+      "slot": "mainhand",
+      "uuid": "cb3f55d3-645c-4f38-a497-9c13a33db5cf"
+    }
+  ],
+  "material": "ADDITIONS-TCSPONSORS-EUROPEAN_MATERIAL",
+  "type": "additions:pickaxe"
+}

@@ -1,0 +1,63 @@
+{
+	title: "§9凋灵杀手III",
+	icon: "mysticalagriculture:chunk 1 20",
+	x: 4.5d,
+	y: 1.0d,
+	description: "击杀指定数量的凋灵",
+	dependencies: [
+		"f511ee80"
+	],
+	tasks: [{
+		uid: "9f6ccf08",
+		type: "kill",
+		entity: "minecraft:wither",
+		value: 16L
+	}],
+	rewards: [{
+		uid: "1f007a85",
+		type: "xp",
+		xp: 16000
+	},
+	{
+		uid: "3cc8ff11",
+		type: "item",
+		item: "minecraft:nether_star",
+		count: 15
+	},
+	{
+		uid: "9bc95b98",
+		type: "item",
+		item: "mysticalagradditions:special"
+	},
+	{
+		uid: "24c351f6",
+		type: "item",
+		item: "mysticalagradditions:nether_star_seeds"
+	},
+	{
+		uid: "7f48956f",
+		type: "item",
+		item: {
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_netherstar"
+			}
+		}
+	},
+	{
+		uid: "f73dfcb1",
+		type: "item",
+		item: {
+			id: "minecraft:potion",
+			tag: {
+				Potion: "potioncore:long_purity"
+			}
+		},
+		count: 6
+	},
+	{
+		uid: "ce3b08d7",
+		type: "loot",
+		table: 1
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	title: "§c通量过载",
+	icon: "thermalexpansion:frame 1 148",
+	x: 4.5d,
+	y: 0.0d,
+	description: "提交指定数量的RF(红石通量)",
+	text: [
+		"使用任务显示器连接通量管道来提交红石通量"
+	],
+	can_repeat: true,
+	dependencies: [
+		"727f6d18"
+	],
+	tasks: [{
+		uid: "d43b8cff",
+		type: "forge_energy",
+		value: 25000000000L
+	}],
+	rewards: [{
+		uid: "237b2919",
+		type: "item",
+		item: "additions:greedycraft-flux_singularity"
+	}]
+}

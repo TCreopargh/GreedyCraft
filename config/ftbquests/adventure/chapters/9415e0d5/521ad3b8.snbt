@@ -1,0 +1,28 @@
+{
+	title: "§e豆腐世界",
+	icon: "tofucraft:tofustick",
+	x: 2.0d,
+	y: 5.5d,
+	description: "使用豆腐魔杖和烤豆腐制成的框架进入豆腐世界",
+	tasks: [{
+		uid: "11da539b",
+		type: "dimension",
+		dim: 56
+	}],
+	rewards: [{
+		uid: "9307fde7",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "8a7a6204",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "378f00ed",
+		type: "item",
+		item: "tofucraft:blocktofudiamond",
+		count: 2
+	}]
+}

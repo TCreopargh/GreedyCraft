@@ -1,0 +1,24 @@
+{
+	"dependencies": "netherendingores",
+	"populate": {
+		"nether-netherfish-block": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "netherendingores:block_nether_netherfish",
+				"material": "minecraft:netherrack",
+				"cluster-size": 12
+			},
+			"cluster-count": 8,
+			"min-height": 10,
+			"max-height": 118,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-1
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,26 @@
+{
+	title: "§3食用油也能烧",
+	x: -9.5d,
+	y: 0.0d,
+	description: "为能源炉安装专业化升级",
+	dependencies: [
+		"67135803"
+	],
+	tasks: [{
+		uid: "a6c9102a",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:augment 1 674"
+		}]
+	}],
+	rewards: [{
+		uid: "caf5402e",
+		type: "xp",
+		xp: 600
+	},
+	{
+		uid: "f3ad076a",
+		type: "loot",
+		table: 1
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	title: "§d不等价交换",
+	icon: "projecte:transmutation_table",
+	x: 11.5d,
+	y: 0.0d,
+	description: "提交指定数量的EMC",
+	can_repeat: true,
+	dependencies: [
+		"727f6d18"
+	],
+	tasks: [{
+		uid: "5a66ebfc",
+		type: "emc",
+		value: 250000000L
+	}],
+	rewards: [{
+		uid: "609198e6",
+		type: "item",
+		item: "additions:greedycraft-matter_singularity"
+	}]
+}

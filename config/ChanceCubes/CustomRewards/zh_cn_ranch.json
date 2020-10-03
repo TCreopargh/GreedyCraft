@@ -1,0 +1,49 @@
+{
+  "chancecubes:rancher_zh_cn": {
+    "chance": 60,
+    "Item": [
+      {
+        "item": {
+          "id": "minecraft:fence",
+          "Count": 32
+        }
+      },
+      {
+        "item": {
+          "id": "minecraft:spawn_egg",
+          "Damage": 90,
+          "Count": 1
+        },
+        "tag": {
+          "EntityTag": {
+            "id": "minecraft:pig"
+          }
+        }
+      },
+      {
+        "item": {
+          "id": "minecraft:spawn_egg",
+          "Damage": 92,
+          "Count": 1
+        },
+        "tag": {
+          "EntityTag": {
+            "id": "minecraft:cow"
+          }
+        }
+      },
+      {
+        "item": {
+          "id": "minecraft:spawn_egg",
+          "Damage": 91,
+          "Count": 1
+        },
+        "tag": {
+          "EntityTag": {
+            "id": "minecraft:sheep"
+          }
+        }
+      }
+    ]
+  }
+}

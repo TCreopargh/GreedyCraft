@@ -1,0 +1,13 @@
+{
+  "chancecubes:bookshelves_zh_cn": {
+    "chance": 60,
+    "Item": [
+      {
+        "item": {
+          "id": "minecraft:bookshelf",
+          "Count": 8
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+	title: "§d无限存储",
+	x: -8.0d,
+	y: 13.5d,
+	description: "获得创造模式容量升级",
+	tasks: [{
+		uid: "e6e64015",
+		type: "item",
+		items: [{
+			item: "storagedrawers:upgrade_creative"
+		}]
+	}],
+	rewards: [{
+		uid: "0e70556d",
+		type: "xp",
+		xp: 2000
+	},
+	{
+		uid: "20123083",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "7f91af1b",
+		type: "item",
+		item: "storagedrawers:upgrade_creative",
+		count: 4
+	}]
+}

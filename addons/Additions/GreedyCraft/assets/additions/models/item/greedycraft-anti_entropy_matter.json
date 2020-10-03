@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "additions:items/greedycraft-anti_entropy_matter-layer0"
+  }
+}

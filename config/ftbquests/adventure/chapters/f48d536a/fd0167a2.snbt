@@ -1,0 +1,38 @@
+{
+	title: "§9战胜深渊",
+	x: 23.0d,
+	y: 0.0d,
+	description: "获得守门人之杖",
+	dependencies: [
+		"a31de947"
+	],
+	tasks: [{
+		uid: "04339785",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "abyssalcraft:staff",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c7d7dcb5",
+		type: "xp",
+		xp: 20000
+	},
+	{
+		uid: "6cdd6dcf",
+		type: "loot",
+		table: 3
+	},
+	{
+		uid: "f8244890",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "lunatic_cultist"
+	}]
+}

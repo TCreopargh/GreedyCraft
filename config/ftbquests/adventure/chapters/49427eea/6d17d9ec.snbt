@@ -1,0 +1,31 @@
+{
+	title: "§e化学灌注",
+	x: -7.0d,
+	y: 5.5d,
+	description: "获得化学灌注机",
+	dependencies: [
+		"4cc58917"
+	],
+	tasks: [{
+		uid: "3fdb3414",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mekanism:machineblock2",
+			Damage: 2s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d7788827",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "9435cf65",
+		type: "xp",
+		xp: 800
+	}]
+}

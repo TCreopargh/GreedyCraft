@@ -1,0 +1,29 @@
+[
+    {
+        "modifier": "reinforced",
+        "mutations": [
+            {
+                "type": "colour",
+                "value": "ab47bc"
+            },
+            {
+                "type": "max_level",
+                "value": 3
+            },
+            {
+                "type": "per_level",
+                "value": 1
+            },
+            {
+                "type": "material",
+                "value": [
+                    {
+                        "type": "item",
+                        "item": "tconstruct:materials",
+                        "meta": 14
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,33 @@
+{
+	title: "§5邪恶根源",
+	icon: "extrautils2:ingredients 1 10",
+	x: -10.0d,
+	y: 1.5d,
+	description: "获得邪恶点滴",
+	text: [
+		"在泥土上使用能使土变为诅咒之土，能够快速刷怪"
+	],
+	tasks: [{
+		uid: "a22be335",
+		type: "item",
+		items: [{
+			item: "extrautils2:ingredients 1 10"
+		}]
+	}],
+	rewards: [{
+		uid: "49124846",
+		type: "item",
+		item: "cyclicmagic:water_candle",
+		count: 2
+	},
+	{
+		uid: "df363cab",
+		type: "xp",
+		xp: 150
+	},
+	{
+		uid: "fc9ec393",
+		type: "loot",
+		table: 1
+	}]
+}

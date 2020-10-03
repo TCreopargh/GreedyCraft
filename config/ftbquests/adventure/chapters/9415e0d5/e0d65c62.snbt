@@ -1,0 +1,30 @@
+{
+	title: "§6赏金猎人",
+	x: 4.0d,
+	y: 11.5d,
+	description: "在村庄找到悬赏榜，可以在上面领取悬赏任务，也可以拆下来带回家！",
+	tasks: [{
+		uid: "607116a4",
+		type: "observation",
+		title: "观察 悬赏榜",
+		icon: "bountiful:bountyboarditem",
+		match_type: "block_id",
+		match: "bountiful:bountyboard",
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "4a1458c0",
+		type: "xp",
+		xp: 200
+	},
+	{
+		uid: "8a62e461",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "5af6bd36",
+		type: "item",
+		item: "bountiful:bountyboarditem"
+	}]
+}

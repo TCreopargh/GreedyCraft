@@ -1,0 +1,37 @@
+{
+	title: "§b优雅的合成方式",
+	x: -4.5d,
+	y: 3.0d,
+	description: "获得工厂环",
+	dependencies: [
+		"224f8b52"
+	],
+	tasks: [{
+		uid: "dbb9833d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:autocraftinghalo"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "05e8a468",
+		type: "item",
+		item: "botania:manaresource 1 1",
+		count: 5
+	},
+	{
+		uid: "f5a66291",
+		type: "xp",
+		xp: 500
+	},
+	{
+		uid: "40c6893c",
+		type: "loot",
+		table: 1
+	}]
+}

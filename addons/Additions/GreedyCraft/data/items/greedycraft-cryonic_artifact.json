@@ -1,0 +1,10 @@
+{
+  "name": "§b极寒圣物",
+  "shines": true,
+  "tooltip": [
+    "§3传说中就连太阳神也不能抵御它的寒冷。",
+    "§3右键可以消耗该物品并秒杀20格以内的烈阳巨灵。"
+  ],
+  "max_stack": 1,
+  "type": "additions:simple"
+}

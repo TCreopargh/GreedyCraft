@@ -1,0 +1,37 @@
+{
+	title: "§c花§6里§e胡§a哨§b的§9魔§d法",
+	x: 3.0d,
+	y: -2.0d,
+	description: "获得彩虹桥法杖",
+	dependencies: [
+		"520beeea"
+	],
+	tasks: [{
+		uid: "083655be",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:rainbowrod"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "dedb732f",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "29edb8a4",
+		type: "item",
+		item: "twilightforest:twilight_sapling 1 9",
+		count: 64
+	},
+	{
+		uid: "581e8280",
+		type: "xp",
+		xp: 3000
+	}]
+}

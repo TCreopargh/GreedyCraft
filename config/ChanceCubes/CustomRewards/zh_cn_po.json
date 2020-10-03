@@ -1,0 +1,18 @@
+{
+  "chancecubes:poop_zh_cn": {
+    "chance": 25,
+    "Item": [
+      {
+        "item": {
+          "id": "additions:greedycraft-poop",
+          "Count": 1
+        }
+      }
+    ],
+    "Message": [
+      {
+        "message": "°Ï6‘ı√¥’‚√¥≥Ù∞°£°"
+      }
+    ]
+  }
+}

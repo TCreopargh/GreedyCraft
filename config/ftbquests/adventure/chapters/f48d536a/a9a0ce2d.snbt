@@ -1,0 +1,32 @@
+{
+	title: "§c恐惧祭坛（下）",
+	x: 12.0d,
+	y: 1.5d,
+	description: "获得恐惧祭坛的下半部分",
+	dependencies: [
+		"3ed4aeae"
+	],
+	tasks: [{
+		uid: "96037050",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:dreadaltarbottom"
+		}]
+	}],
+	rewards: [{
+		uid: "7b08047b",
+		type: "xp",
+		xp: 6000
+	},
+	{
+		uid: "d669a527",
+		type: "item",
+		item: "abyssalcraft:dreadiumingot",
+		count: 16
+	},
+	{
+		uid: "bd765b53",
+		type: "loot",
+		table: 1
+	}]
+}

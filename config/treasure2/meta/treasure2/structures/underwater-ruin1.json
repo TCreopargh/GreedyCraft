@@ -1,0 +1,11 @@
+{
+	"name": "Underwater Ruins1",
+	"description": "",
+	"author": "mason",
+	"archetypes": ["submerged"],
+	"type": "ruin",
+	"themes": ["dungeon"],
+	"rarities": ["common"],
+	"biomeWhiteList": ["ocean", "deep_ocean"],
+	"biomeBlackList": []
+}

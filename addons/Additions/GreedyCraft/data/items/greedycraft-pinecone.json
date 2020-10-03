@@ -1,0 +1,20 @@
+{
+  "name": "松果",
+  "ore_dict": "foodPinecone",
+  "hunger": 2,
+  "saturation": 0.15,
+  "eaten_effects": [
+    {
+      "potion": {
+        "name": "minecraft:speed",
+        "duration": 200,
+        "amplifier": 0,
+        "ambient": false,
+        "show_particles": true
+      },
+      "chance": 0.33,
+      "type": "additions:potion"
+    }
+  ],
+  "type": "additions:food"
+}

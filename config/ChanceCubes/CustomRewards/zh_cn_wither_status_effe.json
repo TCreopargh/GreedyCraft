@@ -1,0 +1,13 @@
+{
+  "chancecubes:wither_status_effect_zh_cn": {
+    "chance": -25,
+    "Effect": [
+      {
+        "potionid": "wither",
+        "duration": "%%[3,5,6,8,10]%%",
+        "amplifier": "%%[1,2]%%",
+        "radius": 32
+      }
+    ]
+  }
+}

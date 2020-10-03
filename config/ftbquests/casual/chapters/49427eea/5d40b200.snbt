@@ -1,0 +1,33 @@
+{
+	title: "清洁能源II",
+	x: -9.5d,
+	y: -8.0d,
+	description: "制作指定的太阳能电池板",
+	dependencies: [
+		"989411ec"
+	],
+	tasks: [{
+		uid: "7b09dd93",
+		type: "item",
+		items: [{
+			item: "solarflux:solar_panel_2"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a00ae24a",
+		type: "item",
+		item: "solarflux:solar_panel_2",
+		count: 3
+	},
+	{
+		uid: "c9a093d2",
+		type: "xp",
+		xp: 200
+	},
+	{
+		uid: "244faaac",
+		type: "loot",
+		table: 0
+	}]
+}

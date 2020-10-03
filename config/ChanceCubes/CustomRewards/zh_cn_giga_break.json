@@ -1,0 +1,28 @@
+{
+  "chancecubes:giga_breaker_zh_cn": {
+    "chance": 70,
+    "Item": [
+      {
+        "item": {
+          "id": "minecraft:wooden_pickaxe",
+          "Count": 1,
+          "tag": {
+            "ench": [
+              {
+                "id": 32,
+                "lvl": 10
+              },
+              {
+                "id": 35,
+                "lvl": 3
+              }
+            ],
+            "display": {
+              "Name": "§c世界崩解之镐(赝品)"
+            }
+          }
+        }
+      }
+    ]
+  }
+}

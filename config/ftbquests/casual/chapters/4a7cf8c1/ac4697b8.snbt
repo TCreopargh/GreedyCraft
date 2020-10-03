@@ -1,0 +1,22 @@
+{
+	title: "§a经验过剩",
+	icon: "minecraft:experience_bottle",
+	x: 8.0d,
+	y: 0.0d,
+	description: "提交指定等级的经验",
+	can_repeat: true,
+	dependencies: [
+		"727f6d18"
+	],
+	tasks: [{
+		uid: "69ffa6a3",
+		type: "xp",
+		value: 1000000L,
+		points: true
+	}],
+	rewards: [{
+		uid: "ab285f97",
+		type: "item",
+		item: "additions:greedycraft-experience_singularity"
+	}]
+}

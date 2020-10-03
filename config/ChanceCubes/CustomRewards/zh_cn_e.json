@@ -1,0 +1,11 @@
+{
+  "chancecubes:exp_zh_cn": {
+    "chance": 35,
+    "Experience": [
+      {
+        "experienceAmount": "%%[100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,5000]%%",
+        "numberOfOrbs": "%%RND(1,40)%%"
+      }
+    ]
+  }
+}

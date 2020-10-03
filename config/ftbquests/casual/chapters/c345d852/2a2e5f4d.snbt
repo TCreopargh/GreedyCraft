@@ -1,0 +1,31 @@
+{
+	title: "§6帮你找到家",
+	x: -8.5d,
+	y: 2.5d,
+	description: "获得栖息地定位仪",
+	dependencies: [
+		"48fc4e8c"
+	],
+	tasks: [{
+		uid: "9de40edf",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "forestry:habitat_locator"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "fd44baba",
+		type: "xp",
+		xp: 250
+	},
+	{
+		uid: "9330e8f7",
+		type: "loot",
+		table: 0
+	}]
+}

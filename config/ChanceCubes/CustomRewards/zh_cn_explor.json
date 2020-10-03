@@ -1,0 +1,37 @@
+{
+  "chancecubes:explorer_zh_cn": {
+    "chance": 30,
+    "Item": [
+      {
+        "item": {
+          "id": "minecraft:compass",
+          "Count": 1
+        }
+      },
+      {
+        "item": {
+          "id": "minecraft:clock",
+          "Count": 1
+        }
+      },
+      {
+        "item": {
+          "id": "minecraft:torch",
+          "Count": 64
+        }
+      },
+      {
+        "item": {
+          "id": "minecraft:iron_pickaxe",
+          "Count": 1
+        }
+      }
+    ],
+    "Message": [
+      {
+        "message": "§a来一场说走就走的旅行！",
+        "range": 25
+      }
+    ]
+  }
+}

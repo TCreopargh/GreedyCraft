@@ -1,0 +1,49 @@
+{
+	title: "§9更好看的水晶",
+	x: 4.0d,
+	y: 0.0d,
+	description: "获得天体水晶",
+	dependencies: [
+		"64609cf0",
+		"019a77ed",
+		"4f3a644d"
+	],
+	tasks: [{
+		uid: "ac292f70",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemcelestialcrystal",
+			tag: {
+				astralsorcery: {
+					crystalProperties: {
+						collectiveCapability: 100,
+						size: 900,
+						fract: 0,
+						purity: 100,
+						sizeOverride: -1
+					}
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "18361313",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "680f18db",
+		type: "xp",
+		xp: 1200
+	},
+	{
+		uid: "6baecdff",
+		type: "item",
+		item: "astralsorcery:itemcraftingcomponent 1 2",
+		count: 8
+	}]
+}

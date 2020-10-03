@@ -1,0 +1,26 @@
+{
+	title: "§e涡轮增鸭",
+	x: -11.5d,
+	y: 0.0d,
+	description: "为能源炉安装专业化升级",
+	dependencies: [
+		"e074db01"
+	],
+	tasks: [{
+		uid: "efea95ea",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:augment 1 640"
+		}]
+	}],
+	rewards: [{
+		uid: "c59bfc00",
+		type: "xp",
+		xp: 600
+	},
+	{
+		uid: "1d382393",
+		type: "loot",
+		table: 1
+	}]
+}

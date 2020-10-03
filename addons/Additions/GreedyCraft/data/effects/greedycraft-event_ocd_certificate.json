@@ -1,0 +1,16 @@
+{
+  "cause": {
+    "item": {
+      "item": "additions:greedycraft-ocd_certificate",
+      "damage": "any"
+    },
+    "type": "additions:item_right_click"
+  },
+  "effects": [
+    {
+      "command": "/tellraw @p [\"\",{\"text\":\"\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\",\"color\":\"green\"},{\"text\":\"\\n\"},{\"text\":\"\\u611f\\u8c22\\u6e38\\u73a9\\u672c\\u6574\\u5408\\u5305\\uff01\",\"color\":\"aqua\"},{\"text\":\"\\n\"},{\"text\":\"\\u5982\\u679c\\u80fd\\u770b\\u5230\\u8fd9\\u4e2a\\uff0c\\u8bf4\\u660e\\u4f60\\u5f88\\u5389\\u5bb3\\uff01\",\"color\":\"yellow\"},{\"text\":\"(\\u6216\\u8005\\u53ea\\u662f\\u4f7f\\u7528\\u67d0\\u79cd\\u624b\\u6bb5\\u968f\\u4fbf\\u770b\\u770b\\uff1f)\",\"color\":\"gray\"},{\"text\":\"\\n\"},{\"text\":\"\\u65e0\\u8bba\\u5982\\u4f55\\uff0c\\u8fd9\\u91cc\\u662f\\u4f5c\\u8005\\u7684\\u7f51\\u7ad9\\uff1a\",\"color\":\"gold\"},{\"text\":\"[\\u70b9\\u51fb\\u8bbf\\u95ee]\",\"underlined\":true,\"color\":\"aqua\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://blog.tcreopargh.xyz/\"}},{\"text\":\"\\n\"},{\"text\":\"\\u611f\\u8c22\\u4f60\\u7684\\u652f\\u6301\\uff01\",\"color\":\"light_purple\"},{\"text\":\"\\n\"},{\"text\":\"Powered by TCreopargh!\",\"color\":\"blue\"},{\"text\":\"\\n\"},{\"text\":\"\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\",\"color\":\"green\"}]",
+      "command_sender_name": "",
+      "type": "additions:command"
+    }
+  ]
+}

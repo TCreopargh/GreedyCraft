@@ -1,0 +1,35 @@
+{
+	title: "反应堆端口",
+	x: 22.0d,
+	y: 5.5d,
+	description: "获得反应堆能源端口或冷却端口",
+	tasks: [{
+		uid: "41e32160",
+		type: "item",
+		items: [{
+			item: "bigreactors:reactorcoolantport"
+		},
+		{
+			item: "bigreactors:reactorpowertaprf"
+		},
+		{
+			item: "bigreactors:reactorpowertaptesla"
+		}]
+	}],
+	rewards: [{
+		uid: "7362e2a1",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "28f43a5a",
+		type: "xp",
+		xp: 800
+	},
+	{
+		uid: "00a68edc",
+		type: "item",
+		item: "bigreactors:reactorcasing",
+		count: 10
+	}]
+}

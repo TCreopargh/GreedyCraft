@@ -1,0 +1,57 @@
+{
+	title: "§d旅行者IV",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "minecraft:golden_boots"
+	},
+	x: -0.5d,
+	y: 3.0d,
+	description: "行走指定的距离",
+	dependencies: [
+		"975130a6"
+	],
+	tasks: [{
+		uid: "bf9aeaf1",
+		type: "stat",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:iron_boots"
+		},
+		stat: "stat.walkOneCm",
+		value: 25000000
+	}],
+	rewards: [{
+		uid: "602fd180",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:elytra"
+		}
+	},
+	{
+		uid: "7d65e594",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "magicfeather:magicfeather"
+		}
+	},
+	{
+		uid: "b624f224",
+		type: "xp",
+		xp: 25000
+	},
+	{
+		uid: "9e659444",
+		type: "loot",
+		table: 2
+	}]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "§6超时空扫帚",
+  "tooltip": [
+    "§b右键来清理所有掉落物品。",
+    "§b供提升性能用。"
+  ],
+  "max_stack": 1,
+  "type": "additions:simple"
+}

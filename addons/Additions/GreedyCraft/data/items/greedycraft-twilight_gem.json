@@ -1,0 +1,9 @@
+{
+  "name": "§d暮光宝石",
+  "shines": true,
+  "tooltip": [
+    "§b散发着神秘光辉的宝石",
+    "§6用于激活暮色传送门"
+  ],
+  "type": "additions:simple"
+}

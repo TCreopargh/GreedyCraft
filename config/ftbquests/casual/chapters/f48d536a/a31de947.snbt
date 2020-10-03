@@ -1,0 +1,35 @@
+{
+	title: "§3深渊之书",
+	x: 20.5d,
+	y: 0.0d,
+	description: "获得深渊之书",
+	dependencies: [
+		"28707c6f",
+		"51b259a1"
+	],
+	tasks: [{
+		uid: "367d6c9c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "abyssalcraft:abyssalnomicon",
+			tag: {
+				PotEnergy: 0.0f
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "bb84db35",
+		type: "xp",
+		xp: 12000
+	},
+	{
+		uid: "3ee80b34",
+		type: "loot",
+		table: 2
+	}]
+}

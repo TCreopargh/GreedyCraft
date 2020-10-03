@@ -1,0 +1,19 @@
+{
+  "chancecubes:sponsors_chest_zh_cn": {
+    "chance": 100,
+    "Item": [
+      {
+        "item": {
+          "id": "additions:tcsponsors-sponsors_chest",
+          "Count": 1
+        }
+      }
+    ],
+    "Message": [
+      {
+        "message": "§6感谢您的支持！",
+        "range": 25
+      }
+    ]
+  }
+}

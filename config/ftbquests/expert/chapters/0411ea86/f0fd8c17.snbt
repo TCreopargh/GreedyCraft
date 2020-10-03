@@ -1,0 +1,42 @@
+{
+	title: "新的旅途",
+	icon: "twilightforest:miniature_structure",
+	x: -6.0d,
+	y: -1.0d,
+	description: "进入暮色森林",
+	dependencies: [
+		"16f0c4d7"
+	],
+	tasks: [{
+		uid: "e93ede34",
+		type: "dimension",
+		dim: 7
+	}],
+	rewards: [{
+		uid: "4c179959",
+		type: "item",
+		item: "twilightforest:magic_map_empty"
+	},
+	{
+		uid: "acb07768",
+		type: "xp",
+		xp: 150
+	},
+	{
+		uid: "8926189c",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "8fd34406",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "twilight_forest"
+	},
+	{
+		uid: "882d57a5",
+		type: "command",
+		auto: "no_toast",
+		command: "/scalinghealth difficulty set 20 @p"
+	}]
+}

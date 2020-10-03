@@ -1,0 +1,27 @@
+{
+	title: "§d更好的冶炼厂",
+	x: 3.5d,
+	y: -3.5d,
+	description: "获得神秘源质冶炼厂",
+	dependencies: [
+		"087117dd",
+		"b733b7fb"
+	],
+	tasks: [{
+		uid: "25bf6ed0",
+		type: "item",
+		items: [{
+			item: "thaumcraft:smelter_thaumium"
+		}]
+	}],
+	rewards: [{
+		uid: "40b79c59",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "cf58eeb2",
+		type: "xp",
+		xp: 3000
+	}]
+}

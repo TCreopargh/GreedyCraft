@@ -1,0 +1,49 @@
+{
+	title: "饰品重铸",
+	x: -8.0d,
+	y: 3.5d,
+	description: "获得一个饰品重锻站",
+	tasks: [{
+		uid: "6fb44d13",
+		type: "item",
+		items: [{
+			item: "bountifulbaubles:reforger"
+		}]
+	}],
+	rewards: [{
+		uid: "dbb93550",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bountifulbaubles:disintegrationtablet"
+		}
+	},
+	{
+		uid: "e531b165",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bountifulbaubles:phantomprism"
+		}
+	},
+	{
+		uid: "30b80b3a",
+		type: "item",
+		item: "bountifulbaubles:spectralsilt",
+		count: 5
+	},
+	{
+		uid: "09805a34",
+		type: "xp",
+		xp: 230
+	},
+	{
+		uid: "908f5482",
+		type: "loot",
+		table: 1
+	}]
+}

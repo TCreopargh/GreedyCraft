@@ -1,0 +1,32 @@
+{
+	title: "§e永不腐蚀的金属",
+	x: -2.0d,
+	y: 5.5d,
+	description: "获得铱锭",
+	dependencies: [
+		"acafd08c"
+	],
+	tasks: [{
+		uid: "6bbb7f93",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 135"
+		}]
+	}],
+	rewards: [{
+		uid: "ac285f43",
+		type: "item",
+		item: "thermalfoundation:material 1 135",
+		count: 4
+	},
+	{
+		uid: "08c6c87b",
+		type: "xp",
+		xp: 800
+	},
+	{
+		uid: "433e419b",
+		type: "loot",
+		table: 1
+	}]
+}

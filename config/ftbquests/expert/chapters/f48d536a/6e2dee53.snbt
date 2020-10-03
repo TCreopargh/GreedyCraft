@@ -1,0 +1,31 @@
+{
+	title: "§9末日毁灭者",
+	x: 25.5d,
+	y: 0.0d,
+	description: "击败末日先驱萨托斯并获得他的剑",
+	dependencies: [
+		"fd0167a2"
+	],
+	tasks: [{
+		uid: "cd5fcdf5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "abyssalcraft:soulreaper"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e44b6f90",
+		type: "xp",
+		xp: 40000
+	},
+	{
+		uid: "591c257f",
+		type: "loot",
+		table: 3
+	}]
+}

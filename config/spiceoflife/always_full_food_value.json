@@ -1,0 +1,16 @@
+{
+    "food": {
+        "items": [
+            "minecraft:golden_apple:0",
+            "additions:tcsponsors-nanxun_happy_cake",
+            "minecraft:golden_apple:1",
+            "harvestcraft:netherstartoastitem",
+            "additions:greedycraft-poopburger",
+            "avaritia:cosmic_meatballs",
+            "avaritia:ultimate_stew"
+        ]
+    },
+    "name": "always_full_food_value",
+    "color": "light_purple",
+    "blacklist": true
+}

@@ -1,0 +1,23 @@
+{
+  "name": "生人肉",
+  "ore_dict": [
+    "listAllmeatraw",
+    "foodMeatraw"
+  ],
+  "hunger": 2,
+  "saturation": 0.75,
+  "eaten_effects": [
+    {
+      "potion": {
+        "name": "minecraft:nausea",
+        "duration": 160,
+        "amplifier": 0,
+        "ambient": false,
+        "show_particles": true
+      },
+      "chance": 0.5,
+      "type": "additions:potion"
+    }
+  ],
+  "type": "additions:food"
+}

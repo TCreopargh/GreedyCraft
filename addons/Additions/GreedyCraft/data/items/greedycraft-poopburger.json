@@ -1,0 +1,22 @@
+{
+  "name": "§6老八秘制小汉堡",
+  "tooltip": "§b既实惠，又管饱！！！",
+  "ore_dict": "foodPoopburger",
+  "hunger": 20,
+  "saturation": 0.5,
+  "wolves_eat": true,
+  "always_edible": true,
+  "eaten_effects": [
+    {
+      "potion": {
+        "name": "minecraft:health_boost",
+        "duration": 1200,
+        "amplifier": 10,
+        "ambient": false,
+        "show_particles": true
+      },
+      "type": "additions:potion"
+    }
+  ],
+  "type": "additions:food"
+}

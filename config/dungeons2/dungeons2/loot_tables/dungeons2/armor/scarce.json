@@ -1,0 +1,116 @@
+{
+	"pools": [
+		{
+			"name": "scarce_armor",
+			"rolls": 1,
+			"entries": [
+				{
+					"entryName": "iron_chestplate",
+					"type": "item",
+					"name": "minecraft:iron_chestplate",
+					"weight": 20,
+					"functions": [
+						{
+							"function": "enchant_randomly"
+						}
+					]
+				},
+				{
+					"entryName": "iron_leggings",
+					"type": "item",
+					"name": "minecraft:iron_leggings",
+					"weight": 20,
+					"functions": [
+						{
+							"function": "enchant_randomly"
+						}
+					]		
+				},
+				{
+					"entryName": "iron_helmet",
+					"type": "item",
+					"name": "minecraft:iron_helmet",
+					"weight": 20,
+					"functions": [
+						{
+							"function": "enchant_randomly"
+						}
+					]		
+				},
+				{
+					"entryName": "iron_boots",
+					"type": "item",
+					"name": "minecraft:iron_boots",
+					"weight": 20,
+					"functions": [
+						{
+							"function": "enchant_randomly"
+						}
+					]		
+				},
+				{
+					"entryName": "shield",
+					"type": "item",
+					"name": "minecraft:shield",
+					"weight": 10		
+				},				
+				{
+					"entryName": "leather_chestplate",
+					"type": "item",
+					"name": "minecraft:leather_chestplate",
+					"weight": 15,
+					"functions": [
+						{
+							"function": "enchant_randomly"							
+						},
+						{
+							"function": "enchant_randomly"							
+						}						
+					]
+				},
+				{
+					"entryName": "leather_leggings",
+					"type": "item",
+					"name": "minecraft:leather_leggings",
+					"weight": 15,
+					"functions": [
+						{
+							"function": "enchant_randomly"
+						},
+						{
+							"function": "enchant_randomly"							
+						}		
+					]						
+				},
+				{
+					"entryName": "leather_helmet",
+					"type": "item",
+					"name": "minecraft:leather_helmet",
+					"weight": 15,
+					"functions": [
+						{
+							"function": "enchant_randomly"
+						},
+						{
+							"function": "enchant_randomly"							
+						}		
+					]		
+				},
+				{
+					"entryName": "leather_boots",
+					"type": "item",
+					"name": "minecraft:leather_boots",
+					"weight": 15,
+					"functions": [
+						{
+							"function": "enchant_randomly"
+						},
+						{
+							"function": "enchant_randomly"							
+						}
+					]	
+				}					
+			]
+		}
+	]
+}

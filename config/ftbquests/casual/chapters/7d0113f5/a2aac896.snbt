@@ -1,0 +1,33 @@
+{
+	title: "§d元§a始§e金§c属",
+	x: 8.5d,
+	y: -1.5d,
+	description: "获得元金锭",
+	dependencies: [
+		"5a9b6af9",
+		"06dba2ad"
+	],
+	tasks: [{
+		uid: "39e98e67",
+		type: "item",
+		items: [{
+			item: "tconevo:metal 1 20"
+		}]
+	}],
+	rewards: [{
+		uid: "f71d75d2",
+		type: "xp",
+		xp: 7000
+	},
+	{
+		uid: "7bd76739",
+		type: "item",
+		item: "tconevo:metal 1 20",
+		count: 5
+	},
+	{
+		uid: "fecc9f97",
+		type: "loot",
+		table: 2
+	}]
+}

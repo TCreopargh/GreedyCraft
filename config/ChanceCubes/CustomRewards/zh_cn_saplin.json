@@ -1,0 +1,55 @@
+{
+  "chancecubes:saplings_zh_cn": {
+    "chance": 35,
+    "Item": [
+      {
+        "item": {
+          "id": "minecraft:sapling",
+          "Damage": 0,
+          "Count": 4
+        }
+      },
+      {
+        "item": {
+          "id": "minecraft:sapling",
+          "Damage": 1,
+          "Count": 4
+        }
+      },
+      {
+        "item": {
+          "id": "minecraft:sapling",
+          "Damage": 2,
+          "Count": 4
+        }
+      },
+      {
+        "item": {
+          "id": "minecraft:sapling",
+          "Damage": 3,
+          "Count": 4
+        }
+      },
+      {
+        "item": {
+          "id": "minecraft:sapling",
+          "Damage": 4,
+          "Count": 4
+        }
+      },
+      {
+        "item": {
+          "id": "minecraft:sapling",
+          "Damage": 5,
+          "Count": 4
+        }
+      }
+    ],
+    "Message": [
+      {
+        "message": "¡ìaÄúÒÑ³É¹¦¹ºÂòMinecraftÊ÷ÃçºÀ»ª°æDLC",
+        "range": 25
+      }
+    ]
+  }
+}

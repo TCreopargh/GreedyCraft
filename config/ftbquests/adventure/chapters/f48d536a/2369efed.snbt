@@ -1,0 +1,42 @@
+{
+	title: "§b神秘宝石",
+	x: -2.5d,
+	y: 0.0d,
+	description: "获得嬗变宝石",
+	dependencies: [
+		"ad76507c"
+	],
+	tasks: [{
+		uid: "9dab2097",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "abyssalcraft:transmutationgem"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f6acfe69",
+		type: "xp",
+		xp: 800
+	},
+	{
+		uid: "e41519f3",
+		type: "item",
+		item: "abyssalcraft:shadowgem",
+		count: 6
+	},
+	{
+		uid: "05578e83",
+		type: "item",
+		item: "abyssalcraft:statue 1 2"
+	},
+	{
+		uid: "aa137869",
+		type: "loot",
+		table: 1
+	}]
+}

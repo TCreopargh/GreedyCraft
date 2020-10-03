@@ -1,0 +1,219 @@
+{
+	title: "§c§o§4§ka§r §c§o真正的终点 §r§4§ka§r",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "ftbquests:custom_icon",
+		tag: {
+			icon: "greedycraft:icons/infinity.png"
+		}
+	},
+	x: 0.0d,
+	y: 0.0d,
+	description: "§3去吧，证明你自己。",
+	text: [
+		"进行了这么长时间的实验，想必我们和你都很累了。",
+		"如果你已经完成了几乎所有的一切，为什么我们还要强行把你留在这里呢？",
+		"如果我们给你设定一个目标，完成了这个，你就能得到你想要的一切，",
+		"你会继续留在这里吗？如果不会，到时候，我们会制作一个新的模拟程序。",
+		"总之，玩得开心点。",
+		" —— J & K"
+	],
+	can_repeat: true,
+	dependencies: [
+		"45e2da00",
+		"81682e0c",
+		"c0e657a2",
+		"cf664880",
+		"15bc2a7b",
+		"186e9b47",
+		"a02176ac",
+		"f7ddf492",
+		"ea112a40",
+		"8c574fe3",
+		"dac56733",
+		"652f7b38",
+		"f49da124",
+		"b37b0241",
+		"e5d19b4d"
+	],
+	size: 3.0d,
+	tasks: [{
+		uid: "cf821092",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-greedy_medal"
+		}],
+		count: 9L
+	}],
+	rewards: [{
+		uid: "567422aa",
+		type: "item",
+		item: "tconstruct:materials 1 50",
+		count: 320
+	},
+	{
+		uid: "f41fbfc8",
+		type: "item",
+		item: "thermalfoundation:upgrade 1 256",
+		count: 320
+	},
+	{
+		uid: "5978bfba",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thermalexpansion:reservoir",
+			tag: {},
+			Damage: 32000s
+		}
+	},
+	{
+		uid: "95acb8c6",
+		type: "item",
+		item: "extrautils2:creativeenergy",
+		count: 64
+	},
+	{
+		uid: "5ff2a1df",
+		type: "item",
+		item: "mysticalagradditions:stuff 1 69",
+		count: 320
+	},
+	{
+		uid: "2a455d6b",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "appliedenergistics2:creative_storage_cell",
+			tag: {}
+		},
+		count: 4
+	},
+	{
+		uid: "f56b9f27",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thermalexpansion:capacitor",
+			tag: {
+				Energy: 25000000
+			},
+			Damage: 32000s
+		},
+		count: 4
+	},
+	{
+		uid: "dbf52b5d",
+		type: "xp",
+		xp: 2147483647
+	},
+	{
+		uid: "2cb8df56",
+		type: "item",
+		item: "extrautils2:passivegenerator 1 6",
+		count: 64
+	},
+	{
+		uid: "0dbcbee0",
+		type: "item",
+		item: "enderio:block_creative_spawner",
+		count: 64
+	},
+	{
+		uid: "e36d1332",
+		type: "item",
+		item: "avaritia:resource 1 5",
+		count: 128
+	},
+	{
+		uid: "13a1f03c",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "projectex:final_star"
+		},
+		count: 64
+	},
+	{
+		uid: "b51135dd",
+		type: "item",
+		item: "additions:greedycraft-infinity_block_block_block",
+		count: 320
+	},
+	{
+		uid: "ce3dbdc5",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "additions:greedycraft-creative_controller"
+		}
+	},
+	{
+		uid: "0ea5ad1b",
+		type: "item",
+		item: "additions:greedycraft-reward_ticket_legendary",
+		count: 320
+	},
+	{
+		uid: "91a28ca3",
+		type: "item",
+		item: "avaritia:block_resource",
+		count: 64
+	},
+	{
+		uid: "5f7a1615",
+		type: "item",
+		item: "additions:greedycraft-greedy_medal",
+		count: 14
+	},
+	{
+		uid: "a5876807",
+		type: "item",
+		item: "additions:greedycraft-creative_soul",
+		count: 320
+	},
+	{
+		uid: "dcd7bcc5",
+		type: "item",
+		item: {
+			id: "minecraft:written_book",
+			tag: {
+				pages: [
+					"{\"text\":\"§c实验记录 §6#127\\n\\n§0Alpha出色地完成了一切，这是第一次有实验体完成这一壮举。这表明这次构建的模拟程序是成功的。\\n无论如何，Alpha可能很快就会离开模拟程序，因为这个模拟程序里已经没有什么要做的了。为了让Alpha在里面待尽可能长的时间，建议仿照本次实验的模拟程序重做一个，但内容要完全不同。\\n\\n§9——████自然研究所主任\\n§c§dTCreopargh\"}"
+				],
+				author: "§kTCreopargh§r",
+				title: "§b实验记录 §e#127"
+			}
+		}
+	},
+	{
+		uid: "d933c52f",
+		type: "item",
+		item: "projectex:power_flower 1 15",
+		count: 64
+	},
+	{
+		uid: "0e932b56",
+		type: "item",
+		item: "botania:pool 1 1",
+		count: 64
+	},
+	{
+		uid: "727d3c39",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "graduated"
+	}]
+}

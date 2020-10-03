@@ -1,0 +1,26 @@
+{
+	title: "§6热§o量§r§6过§o§o载",
+	x: -7.0d,
+	y: 0.0d,
+	description: "为能源炉安装专业化升级",
+	dependencies: [
+		"f4c76c0f"
+	],
+	tasks: [{
+		uid: "24a28541",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:augment 1 656"
+		}]
+	}],
+	rewards: [{
+		uid: "948ebb9e",
+		type: "xp",
+		xp: 600
+	},
+	{
+		uid: "04963cb7",
+		type: "loot",
+		table: 1
+	}]
+}

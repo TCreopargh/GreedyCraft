@@ -1,0 +1,55 @@
+{
+  "cause": {
+    "item": {
+      "item": "additions:tcsponsors-deep_sea_predator",
+      "damage": "any"
+    },
+    "type": "additions:item_right_click"
+  },
+  "effects": [
+    {
+      "amount": 300,
+      "type": "additions:damage_item"
+    },
+    {
+      "potion": {
+        "name": "minecraft:water_breathing",
+        "duration": 200,
+        "amplifier": 0,
+        "ambient": false,
+        "show_particles": true
+      },
+      "type": "additions:potion"
+    },
+    {
+      "potion": {
+        "name": "minecraft:blindness",
+        "duration": 100,
+        "amplifier": 0,
+        "ambient": false,
+        "show_particles": true
+      },
+      "type": "additions:potion"
+    },
+    {
+      "potion": {
+        "name": "cyclicmagic:potion.swimspeed",
+        "duration": 200,
+        "amplifier": 1,
+        "ambient": false,
+        "show_particles": true
+      },
+      "type": "additions:potion"
+    },
+    {
+      "potion": {
+        "name": "minecraft:night_vision",
+        "duration": 200,
+        "amplifier": 0,
+        "ambient": false,
+        "show_particles": true
+      },
+      "type": "additions:potion"
+    }
+  ]
+}

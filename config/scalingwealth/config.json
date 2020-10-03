@@ -1,0 +1,4 @@
+{
+  "Warn Erroring Items on Startup?": true,
+  "If [true], loot is based on player difficulty. If [false], loot is based on killed entity difficulty.": true
+}

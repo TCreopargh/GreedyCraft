@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "additions:items/greedycraft-bounty_hunter_medal_emerald-layer0"
+  }
+}

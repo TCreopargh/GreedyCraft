@@ -1,0 +1,115 @@
+{
+	title: "§a万能工具",
+	x: 4.0d,
+	y: 3.5d,
+	description: "获得一个变形工具",
+	text: [
+		"使用方法类似阿卡什手册，将万能工具和任意扳手合成即可操纵对应mod的机器"
+	],
+	tasks: [{
+		uid: "a8885d67",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "morphtool:tool"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ff06e2e3",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "c6201d43",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "teslacorelib:wrench"
+		}
+	},
+	{
+		uid: "975ada41",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "enderio:item_yeta_wrench"
+		}
+	},
+	{
+		uid: "8354ec5e",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "actuallyadditions:item_laser_wrench"
+		}
+	},
+	{
+		uid: "29747d2f",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "appliedenergistics2:certus_quartz_wrench"
+		}
+	},
+	{
+		uid: "7b604397",
+		type: "item",
+		item: "forestry:wrench"
+	},
+	{
+		uid: "d6b95b20",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:twigwand",
+			tag: {
+				color1: 0,
+				color2: 0
+			}
+		}
+	},
+	{
+		uid: "944e7c7f",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "bef643d9",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "extrabitmanipulation:bit_wrench"
+		}
+	},
+	{
+		uid: "cf079923",
+		type: "item",
+		item: "draconicevolution:crystal_binder"
+	},
+	{
+		uid: "b22470bb",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bigreactors:wrench"
+		}
+	}]
+}

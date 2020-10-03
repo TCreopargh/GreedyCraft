@@ -1,0 +1,46 @@
+{
+	title: "§e白日梦",
+	x: -10.0d,
+	y: 3.5d,
+	description: "用吊床布和两个间距4格的绳与钉搭建一个吊床，它可以让你在白天睡觉",
+	text: [
+		"§c注意：上床的时候需要按住Shift"
+	],
+	tasks: [{
+		uid: "b4f09193",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "comforts:hammock"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "68154479",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "0b8e8606",
+		type: "item",
+		item: "minecraft:bed"
+	},
+	{
+		uid: "60eac9fb",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "prefab:item_villager_houses"
+		}
+	},
+	{
+		uid: "97bc0db6",
+		type: "loot",
+		table: 0
+	}]
+}

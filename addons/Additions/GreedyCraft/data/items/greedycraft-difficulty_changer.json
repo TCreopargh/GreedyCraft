@@ -1,0 +1,9 @@
+{
+  "name": "§b难度调节器",
+  "tooltip": [
+    "§e使用左键降低难度，使用右键提升难度",
+    "§a§o可无限使用"
+  ],
+  "max_stack": 1,
+  "type": "additions:simple"
+}

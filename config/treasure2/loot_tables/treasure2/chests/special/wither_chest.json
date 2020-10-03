@@ -1,0 +1,150 @@
+{
+	"version": "1.0",
+	"pools": [	
+		{
+			"name": "bones",
+			"rolls": 1,
+			"entries": [
+				{
+					"entryName": "bone",
+					"type": "item",
+					"name": "minecraft:bone",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 0,
+								"max": 25
+							}
+						}
+					],
+					"weight": 20
+				}			
+			]
+		},		
+		{
+			"name": "books",
+			"rolls": {
+				"min": 1,
+				"max": 3
+			},
+			"entries": [
+				{
+					"entryName": "book",
+					"type": "item",
+					"name": "minecraft:book",
+					"weight": 20
+				},
+				{
+					"entryName": "enchanted_book",
+					"type": "item",
+					"name": "minecraft:book",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 30,
+							"treasure": true
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "crafting",
+			"rolls": 1,
+			"entries": [
+				{
+					"entryName": "table",
+					"type": "item",
+					"name": "minecraft:enchanting_table",
+					"weight": 1,
+					"conditions": [
+						{
+							"condition": "random_chance",
+							"chance": 0.2
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "common_potions",
+			"rolls": {
+				"min": 0,
+				"max": 3
+			},
+			"entries": [
+                {
+                    "type": "loot_table",
+                    "name": "treasure2:loot_tables/treasure2/potions/common",
+                    "weight": 30
+                }
+			]
+		},
+		{
+			"name": "uncommon_potions",
+			"rolls": {
+				"min": 1,
+				"max": 3
+			},
+			"entries": [
+                {
+                    "type": "loot_table",
+                    "name": "treasure2:loot_tables/treasure2/potions/uncommon",
+                    "weight": 40
+                }
+			]
+		},
+		{
+			"name": "scarce_potions",
+			"rolls": {
+				"min": 3,
+				"max": 5
+			},
+			"entries": [
+                {
+                    "type": "loot_table",
+                    "name": "treasure2:loot_tables/treasure2/potions/scarce",
+                    "weight": 50
+                }
+			]
+		},
+		{
+			"name": "rare_potions",
+			"rolls": {
+				"min": 0,
+				"max": 3
+			},
+			"entries": [
+                {
+                    "type": "loot_table",
+                    "name": "treasure2:loot_tables/treasure2/potions/rare",
+                    "weight": 30
+                }
+			]
+		},
+		{
+			"name": "treasure",
+			"rolls": 1,
+			"entries": [
+                {
+                    "type": "loot_table",
+                    "name": "treasure2:loot_tables/treasure2/treasure/scarce",
+                    "weight": 30
+                }
+			]
+		},
+		{
+			"name": "charms",
+			"rolls": 1,
+			"entries": [
+                {
+                    "type": "loot_table",
+                    "name": "treasure2:loot_tables/treasure2/treasure/scarce_charms",
+                    "weight": 1
+                }
+			]
+		}				
+	]
+}

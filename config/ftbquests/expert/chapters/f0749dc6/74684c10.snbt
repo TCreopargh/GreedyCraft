@@ -1,0 +1,34 @@
+{
+	title: "守护者I",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "minecraft:leather_chestplate"
+	},
+	x: 2.0d,
+	y: -3.0d,
+	description: "累计受到指定伤害",
+	tasks: [{
+		uid: "c3eb0524",
+		type: "stat",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:iron_chestplate"
+		},
+		stat: "stat.damageTaken",
+		value: 10000
+	}],
+	rewards: [{
+		uid: "a70bbfeb",
+		type: "xp",
+		xp: 250
+	},
+	{
+		uid: "27fa0bae",
+		type: "loot",
+		table: 0
+	}]
+}

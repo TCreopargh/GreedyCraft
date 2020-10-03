@@ -1,0 +1,34 @@
+{
+	title: "§9奥穆索之书",
+	x: 18.5d,
+	y: -1.5d,
+	description: "获得奥穆索死灵之书",
+	dependencies: [
+		"18558d0b"
+	],
+	tasks: [{
+		uid: "cd16a6dd",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "abyssalcraft:necronomicon_omt",
+			tag: {
+				PotEnergy: 0.0f
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "764eb856",
+		type: "xp",
+		xp: 8000
+	},
+	{
+		uid: "90c28302",
+		type: "loot",
+		table: 2
+	}]
+}

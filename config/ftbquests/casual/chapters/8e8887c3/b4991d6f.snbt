@@ -1,0 +1,57 @@
+{
+	title: "§9§ka§r §d混沌之地 §9§ka",
+	x: 14.0d,
+	y: 0.0d,
+	shape: "square",
+	description: "§5击败浑沌守卫并拿到珍贵的混沌碎片",
+	text: [
+		"§e在末地坐标为2500的倍数处找到混沌之地，击败那里的boss并获取混沌碎片",
+		"§b如果打不过，可以试试降低难度。匠魂的混沌抵抗强化会帮上大忙。",
+		"§6无论如何，建议做出神龙套以后再前往。",
+		"§c混沌水晶理论上不会重新生成，但离开视距范围时可能会重新生成。打混沌龙时请调高你的视距范围。"
+	],
+	dependencies: [
+		"82d57b54"
+	],
+	tasks: [{
+		uid: "a79992f1",
+		type: "item",
+		items: [{
+			item: "draconicevolution:chaos_shard"
+		}]
+	}],
+	rewards: [{
+		uid: "0519ad90",
+		type: "xp",
+		xp: 150000
+	},
+	{
+		uid: "caa84247",
+		type: "item",
+		item: "draconicevolution:chaos_shard",
+		count: 7
+	},
+	{
+		uid: "31953bd2",
+		type: "item",
+		item: "draconicevolution:awakened_core",
+		count: 16
+	},
+	{
+		uid: "55bcbb84",
+		type: "item",
+		item: "minecraft:nether_star",
+		count: 64
+	},
+	{
+		uid: "53fbe718",
+		type: "loot",
+		table: 3
+	},
+	{
+		uid: "ece80b97",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "chaotic_dominator"
+	}]
+}

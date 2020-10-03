@@ -1,0 +1,19 @@
+{
+  "chancecubes:redstone_diamond_zh_cn": {
+    "chance": 10,
+    "Item": [
+      {
+        "item": {
+          "id": "minecraft:redstone",
+          "Count": 1
+        }
+      },
+      {
+        "item": {
+          "id": "minecraft:diamond",
+          "Count": 1
+        }
+      }
+    ]
+  }
+}

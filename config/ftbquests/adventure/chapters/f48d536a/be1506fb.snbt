@@ -1,0 +1,37 @@
+{
+	title: "升级撕裂法杖！",
+	x: 1.5d,
+	y: -1.5d,
+	description: "升级你的撕裂法杖",
+	dependencies: [
+		"254d7b2b"
+	],
+	tasks: [{
+		uid: "d3d9867a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "abyssalcraft:drainstaff",
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9c77dd09",
+		type: "item",
+		item: "abyssalcraft:abylcorore",
+		count: 8
+	},
+	{
+		uid: "480fc086",
+		type: "xp",
+		xp: 4000
+	},
+	{
+		uid: "46140941",
+		type: "loot",
+		table: 1
+	}]
+}

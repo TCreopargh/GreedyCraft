@@ -1,0 +1,48 @@
+{
+	title: "§9旅行者III",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "minecraft:iron_boots"
+	},
+	x: -0.5d,
+	y: 1.0d,
+	description: "行走指定的距离",
+	dependencies: [
+		"20cfe99d"
+	],
+	tasks: [{
+		uid: "b0a12653",
+		type: "stat",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:iron_boots"
+		},
+		stat: "stat.walkOneCm",
+		value: 5000000
+	}],
+	rewards: [{
+		uid: "bf9ce021",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "cyclicmagic:charm_wing",
+			tag: {}
+		}
+	},
+	{
+		uid: "ce53b422",
+		type: "xp",
+		xp: 5000
+	},
+	{
+		uid: "30d58d30",
+		type: "loot",
+		table: 1
+	}]
+}

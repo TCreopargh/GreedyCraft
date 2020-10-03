@@ -1,0 +1,37 @@
+{
+	title: "§d这看上去一点都不五彩",
+	x: 11.5d,
+	y: 2.0d,
+	description: "获得五彩祭坛",
+	dependencies: [
+		"7ba94111"
+	],
+	tasks: [{
+		uid: "b4098c6e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:blockaltar",
+			Damage: 3s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4db2be6c",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "460fe432",
+		type: "xp",
+		xp: 4000
+	},
+	{
+		uid: "fcf99cb2",
+		type: "item",
+		item: "astralsorcery:itemcraftingcomponent 1 4",
+		count: 8
+	}]
+}

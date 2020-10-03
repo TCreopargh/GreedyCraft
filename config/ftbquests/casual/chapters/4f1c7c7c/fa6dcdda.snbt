@@ -1,0 +1,25 @@
+{
+	title: "§a切换为 §a§n休闲模式",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "minecraft:iron_hoe"
+	},
+	x: -2.125d,
+	y: -0.625d,
+	can_repeat: true,
+	size: 2.5d,
+	tasks: [{
+		uid: "b6245f0a",
+		type: "checkmark",
+		title: "§a点击以切换为休闲模式"
+	}],
+	rewards: [{
+		uid: "01015074",
+		type: "command",
+		auto: "no_toast",
+		command: "/packmode casual",
+		player_command: true
+	}]
+}

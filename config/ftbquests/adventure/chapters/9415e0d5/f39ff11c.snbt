@@ -1,0 +1,28 @@
+{
+	title: "§6正道的光",
+	x: -2.0d,
+	y: 3.5d,
+	description: "获得巨型火把，可以防止一大片区域刷怪",
+	tasks: [{
+		uid: "c159a7c3",
+		type: "item",
+		items: [{
+			item: "torchmaster:mega_torch"
+		}]
+	}],
+	rewards: [{
+		uid: "fc0f647a",
+		type: "item",
+		item: "torchmaster:terrain_lighter"
+	},
+	{
+		uid: "79b2dfa0",
+		type: "xp",
+		xp: 300
+	},
+	{
+		uid: "10f7433c",
+		type: "loot",
+		table: 0
+	}]
+}

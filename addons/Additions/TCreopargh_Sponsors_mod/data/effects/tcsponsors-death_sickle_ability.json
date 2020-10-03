@@ -1,0 +1,25 @@
+{
+  "cause": {
+    "item": {
+      "item": "additions:tcsponsors-death_sickle",
+      "damage": "any"
+    },
+    "type": "additions:item_right_click"
+  },
+  "effects": [
+    {
+      "amount": 64,
+      "type": "additions:damage_item"
+    },
+    {
+      "potion": {
+        "name": "minecraft:regeneration",
+        "duration": 100,
+        "amplifier": 2,
+        "ambient": false,
+        "show_particles": true
+      },
+      "type": "additions:potion"
+    }
+  ]
+}

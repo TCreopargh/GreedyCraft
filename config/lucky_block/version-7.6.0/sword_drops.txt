@@ -1,0 +1,43 @@
+/ == PROJECTILES ==
+
+/ Arrows
+type=entity,ID=Arrow,pos=#pExactPos,posOffsetY=1.5,NBTTag=(Motion=#motionFromDirection(#pYaw+#rand(-10,10),#pPitch+#rand(-10,10),1.0)),amount=50,delay=#rand(0.0,4.0)@luck=2
+
+/ Eggs
+type=entity,ID=egg,pos=#pExactPos,posOffsetY=1.5,NBTTag=(Motion=#motionFromDirection(#pYaw+#rand(-10,10),#pPitch+#rand(-10,10), 1.0)),amount=25,delay=#rand(0.0,2.0)@luck=2
+
+/ TNT
+type=entity,ID=tnt,pos=#pExactPos,posOffsetY=1.5,NBTTag=(Fuse=40b,Motion=#motionFromDirection(#pYaw,#pPitch,0.8))@luck=2
+
+/ Web
+type=entity,ID=lucky:LuckyProjectile,pos=#pExactPos,posOffsetY=1.5,NBTTag=(Motion=#motionFromDirection(#pYaw,#pPitch,1.5),item=(id=web,Count=1),impact=["type=fill,ID=web,size=(2,2,2)"])@luck=2@chance=0.5
+
+/ Flames
+type=entity,ID=lucky:LuckyProjectile,pos=#pExactPos,posOffsetY=1.5,NBTTag=(Motion=#motionFromDirection(#pYaw+#rand(-10,10),#pPitch+#rand(-10,10),1.0),item=(id=blaze_powder,Count=1),impact=["type=effect,ID=special_fire,target=hitEntity,duration=5"],damage=0.0),amount=50,delay=#rand(0.0,2.0)@luck=2
+
+
+/ == EFFECTS ==
+
+/ Poison
+group(type=effect,ID=19,target=hitEntity,amplifier=2,duration=5;type=particle,ID=splashpotion,potion="poison")@luck=2
+
+/ Health + Regeneration
+group(type=effect,ID=6,amplifier=#rand(2,6),duration=0;type=effect,ID=10,amplifier=#rand(1,2),duration=#rand(5,10);type=particle,ID=heart,size=(0.5,0.5,0.5),particleAmount=50,pos=#pExactPos)@luck=2
+
+/ Blindness + Slowness
+group(type=effect,ID=15,target=hitEntity,duration=3;type=effect,ID=2,target=hitEntity,duration=3;type=particle,ID=largesmoke,size=(0.5,0.8,0.5),particleAmount=100,pos=#eExactPos,amount=20,delay=#rand(0.0,3.0))@chance=0.75@luck=2
+
+/ Knockback
+group(type=effect,ID=special_knockback,range=6,excludePlayer=true,power=1.8,pos=#pPos,delay=0.1;type=particle,ID=explode,size=(1.0,0.3,1.0),particleAmount=500,pos=#pExactPos)@luck=2
+
+/ Upwards Knockback
+group(type=effect,ID=special_knockback,target=hitEntity,directionPitch=-90,power=1.3,delay=0.1;type=particle,ID=explode,size=(0.5,0.5,0.5),particleAmount=500)@luck=2
+
+/ Fire
+group(type=effect,ID=special_fire,range=4,excludePlayer=true,duration=#rand(5,10);type=particle,ID=flame,pos=#pExactPos,size=(1.0,0.3,1.0),particleAmount=2000)@luck=2
+
+/ Lightning
+type=entity,ID=LightningBolt@luck=2
+
+/ == NOTHING ==
+type=nothing@luck=0@chance=24

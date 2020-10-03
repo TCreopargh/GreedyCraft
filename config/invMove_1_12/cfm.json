@@ -1,0 +1,8 @@
+{
+  "CrateScreen_movement": true,
+  "MailBoxScreen_movement": true,
+  "DoorMatScreen_movement": true,
+  "CrateScreen_background_disable": true,
+  "MailBoxScreen_background_disable": true,
+  "DoorMatScreen_background_disable": true
+}

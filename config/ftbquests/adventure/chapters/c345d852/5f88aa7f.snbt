@@ -1,0 +1,38 @@
+{
+	title: "§6派大星我们来抓§m水母§6蜜蜂吧！",
+	x: -11.0d,
+	y: 0.0d,
+	description: "获得一个捕虫网",
+	tasks: [{
+		uid: "25769362",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "forestry:scoop"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4c771515",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "forestry:smoker"
+		}
+	},
+	{
+		uid: "7dea9443",
+		type: "xp",
+		xp: 50
+	},
+	{
+		uid: "1f06ccb2",
+		type: "loot",
+		table: 0
+	}]
+}

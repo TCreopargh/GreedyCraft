@@ -1,0 +1,28 @@
+{
+	title: "§c无§6尽§e电§a容",
+	x: 5.5d,
+	y: 13.0d,
+	description: "获得无尽电容",
+	tasks: [{
+		uid: "75898e27",
+		type: "item",
+		items: [{
+			item: "avaritiaio:infinitecapacitor"
+		}]
+	}],
+	rewards: [{
+		uid: "97287391",
+		type: "loot",
+		table: 3
+	},
+	{
+		uid: "7abeeb09",
+		type: "item",
+		item: "avaritiaio:infinitecapacitor"
+	},
+	{
+		uid: "dfbfbe3f",
+		type: "xp",
+		xp: 666666
+	}]
+}

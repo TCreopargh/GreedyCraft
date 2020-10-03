@@ -1,0 +1,38 @@
+{
+	title: "§b游戏指南",
+	x: -10.0d,
+	y: 0.0d,
+	shape: "rsquare",
+	description: "打开并仔细阅读放置在你物品栏中的整合包指导手册",
+	text: [
+		"请打开并仔细阅读放置在你物品栏中的整合包指导手册。",
+		"它将为你进行游戏提供很大的帮助。",
+		"如果弄丢了它，可以使用3个木棍再制作一本。"
+	],
+	dependencies: [
+		"286f21d3"
+	],
+	tasks: [{
+		uid: "6f2bc3fa",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -6677120288058627187L,
+					AS_Amulet_HolderMost: 3244428519259456314L
+				}
+			},
+			id: "patchouli:guide_book",
+			tag: {
+				"patchouli:book": "patchouli:greedycraft_guide_book"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3f949772",
+		type: "xp",
+		xp: 25
+	}]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "§a知识宝珠",
+  "shines": true,
+  "tooltip": [
+    "§e存储大量经验",
+    "§a拿着时按右键使用"
+  ],
+  "type": "additions:simple"
+}

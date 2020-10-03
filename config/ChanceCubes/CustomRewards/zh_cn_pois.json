@@ -1,0 +1,13 @@
+{
+  "chancecubes:poison_zh_cn": {
+    "chance": -25,
+    "Effect": [
+      {
+        "potionid": "poison",
+        "duration": "%%RND(5,40)%%",
+        "amplifier": "%%RND(0,2)%%",
+        "radius": 32
+      }
+    ]
+  }
+}

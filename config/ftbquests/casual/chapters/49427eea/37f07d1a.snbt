@@ -1,0 +1,31 @@
+{
+	title: "§b2H2O==2H2↑+O2↑",
+	x: -7.0d,
+	y: 3.5d,
+	description: "获得电解分离机，可以电解水来制取氢和氧",
+	dependencies: [
+		"a1b00ed5"
+	],
+	tasks: [{
+		uid: "87df8d15",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mekanism:machineblock2",
+			Damage: 4s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9c7c18b0",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "e8161377",
+		type: "xp",
+		xp: 800
+	}]
+}

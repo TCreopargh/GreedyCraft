@@ -1,0 +1,25 @@
+{
+  "name": "§6飞木剑",
+  "tooltip": [
+    "§7曾经飞翔使与浮木一起拿过的剑，打败了南方赫赫有名的小黄蛇",
+    "§7随后这把剑代代相传，直到被遗失……",
+    "§b§o赞助者物品 by Fu_Mu"
+  ],
+  "max_stack": 1,
+  "attribute_modifiers": [
+    {
+      "attribute_name": "generic.attackSpeed",
+      "amount": 1.149999976158142,
+      "slot": "mainhand",
+      "uuid": "fa223e2c-1120-4165-a11b-ccae9735fcf1"
+    },
+    {
+      "attribute_name": "generic.attackDamage",
+      "amount": 1.5,
+      "slot": "mainhand",
+      "uuid": "aaff5d3d-645c-4ff8-a49a-58fb1667abcf"
+    }
+  ],
+  "material": "ADDITIONS-TCSPONSORS-DRAGON_ASPECT",
+  "type": "additions:sword"
+}

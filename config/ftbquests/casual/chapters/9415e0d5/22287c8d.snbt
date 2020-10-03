@@ -1,0 +1,37 @@
+{
+	title: "§a幸运儿",
+	x: -2.0d,
+	y: 5.5d,
+	description: "获得幸运四叶草",
+	text: [
+		"获得方法：用剪刀剪掉地上的高草后把高草拿在手上右键，有小概率获得"
+	],
+	tasks: [{
+		uid: "23c6907d",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-lucky_clover"
+		}]
+	}],
+	rewards: [{
+		uid: "4e0339ba",
+		type: "xp",
+		xp: 200
+	},
+	{
+		uid: "99ea3ab3",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "910ffe1d",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "8e7dc60b",
+		type: "item",
+		item: "additions:greedycraft-lucky_clover",
+		count: 3
+	}]
+}

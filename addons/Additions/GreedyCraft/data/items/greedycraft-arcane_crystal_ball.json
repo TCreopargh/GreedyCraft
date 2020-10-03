@@ -1,0 +1,9 @@
+{
+  "name": "§d奥术水晶球",
+  "shines": true,
+  "tooltip": [
+    "§5你做出这个仅仅是为了证明自己的魔法水平。",
+    "§e右键以解锁游戏阶段§6master_wizard"
+  ],
+  "type": "additions:simple"
+}

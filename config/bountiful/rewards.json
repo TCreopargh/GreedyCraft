@@ -1,0 +1,162 @@
+[
+    {
+        "content": "minecraft:gold_nugget",
+        "unitWorth": 60,
+        "weight": 100
+    },
+    {
+        "content": "minecraft:gold_ingot",
+        "unitWorth": 540,
+        "weight": 100
+    },
+    {
+        "content": "minecraft:diamond",
+        "unitWorth": 800,
+        "weight": 80
+    },
+    {
+        "content": "minecraft:emerald",
+        "unitWorth": 1200,
+        "weight": 50
+    },
+    {
+        "content": "minecraft:iron_sword",
+        "unitWorth": 750,
+        "weight": 5,
+        "nbt_data": "{display:{Lore:[\"看上去刚刚打磨过。\"]},ench:[{id:16,lvl:1}]}",
+        "amount": {
+            "min": 1,
+            "max": 1
+        }
+    },
+    {
+        "content": "minecraft:bow",
+        "unitWorth": 1300,
+        "weight": 10,
+        "nbt_data": "{ench:[{id:48,lvl:2}]}",
+        "amount": {
+            "min": 1,
+            "max": 1
+        }
+    },
+    {
+        "content": "additions:greedycraft-reward_ticket_common",
+        "unitWorth": 4000,
+        "weight": 140
+    },
+    {
+        "content": "additions:greedycraft-reward_ticket_rare",
+        "unitWorth": 10000,
+        "weight": 75
+    },
+    {
+        "content": "additions:greedycraft-reward_ticket_epic",
+        "unitWorth": 40000,
+        "weight": 20
+    },
+    {
+        "content": "additions:greedycraft-reward_ticket_legendary",
+        "unitWorth": 120000,
+        "weight": 5
+    },
+    {
+        "content": "tconstruct:materials",
+        "unitWorth": 150,
+        "weight": 100
+    },
+    {
+        "content": "additions:greedycraft-experience_ingot",
+        "unitWorth": 200,
+        "weight": 100
+    },
+    {
+        "content": "minecraft:ender_pearl",
+        "unitWorth": 600,
+        "weight": 100
+    },
+    {
+        "content": "minecraft:gunpowder",
+        "unitWorth": 300,
+        "weight": 100
+    },
+    {
+        "content": "minecraft:redstone",
+        "unitWorth": 100,
+        "weight": 100
+    },
+    {
+        "content": "additions:greedycraft-medkit_small",
+        "unitWorth": 1600,
+        "weight": 120
+    },
+    {
+        "content": "additions:greedycraft-medkit_big",
+        "unitWorth": 4000,
+        "weight": 60
+    },
+    {
+        "content": "additions:greedycraft-medkit_super",
+        "unitWorth": 25000,
+        "weight": 30
+    },
+    {
+        "content": "additions:tcsponsors-sponsors_chest",
+        "unitWorth": 18000,
+        "weight": 20
+    },
+    {
+        "content": "minecraft:deadbush",
+        "unitWorth": 5000,
+        "weight": 20
+    },
+    {
+        "content": "scalinghealth:crystalshard",
+        "unitWorth": 12000,
+        "weight": 20
+    },
+    {
+        "content": "lootbags:itemlootbag:0",
+        "unitWorth": 1800,
+        "weight": 100
+    },
+    {
+        "content": "lootbags:itemlootbag:1",
+        "unitWorth": 4000,
+        "weight": 80
+    },
+    {
+        "content": "lootbags:itemlootbag:2",
+        "unitWorth": 8000,
+        "weight": 60
+    },
+    {
+        "content": "lootbags:itemlootbag:3",
+        "unitWorth": 12000,
+        "weight": 40
+    },
+    {
+        "content": "lootbags:itemlootbag:4",
+        "unitWorth": 20000,
+        "weight": 20
+    },
+    {
+        "content": "ae2wtlib:infinity_booster_card",
+        "unitWorth": 2000,
+        "weight": 20
+    },
+    {
+        "content": "additions:greedycraft-bounty_hunter_medal_bronze",
+        "unitWorth": 4000,
+        "weight": 800
+    },
+    {
+        "content": "additions:greedycraft-bounty_hunter_medal_silver",
+        "unitWorth": 30000,
+        "weight": 100
+    },
+    {
+        "content": "additions:greedycraft-bounty_hunter_medal_emerald",
+        "unitWorth": 24000,
+        "weight": 50
+    }
+]

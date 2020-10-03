@@ -1,0 +1,20 @@
+{
+  "chancecubes:anti_slab_zh_cn": {
+    "chance": -15,
+    "Area": [
+      {
+        "xSize": 3,
+        "ySize": 1,
+        "zSize": 3,
+        "block": "minecraft:obsidian",
+        "xOff": -1,
+        "yOff": 2,
+        "zOff": -1,
+        "falling": false,
+        "delay": 0,
+        "causesUpdate": false,
+        "relativeToPlayer": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+	title: "§e日光能源",
+	x: 0.5d,
+	y: 1.5d,
+	description: "获得高级太阳能发电机",
+	dependencies: [
+		"4252e75f"
+	],
+	tasks: [{
+		uid: "c50a4a6f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mekanismgenerators:generator",
+			Damage: 5s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "81e225bd",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "a1bae086",
+		type: "xp",
+		xp: 600
+	}]
+}

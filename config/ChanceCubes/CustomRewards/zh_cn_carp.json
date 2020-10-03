@@ -1,0 +1,26 @@
+{
+  "chancecubes:carpet_zh_cn": {
+    "chance": 7,
+    "Area": [
+      {
+        "xSize": 11,
+        "ySize": 5,
+        "zSize": 11,
+        "block": "minecraft:carpet",
+        "xOff": -5,
+        "yOff": 0,
+        "zOff": -5,
+        "falling": false,
+        "delay": 0,
+        "causesUpdate": false,
+        "relativeToPlayer": true
+      }
+    ],
+    "Message": [
+      {
+        "message": "¡ìeÈ«ÊÇµØÌº£¡£¡£¡",
+        "range": 25
+      }
+    ]
+  }
+}

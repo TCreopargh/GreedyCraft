@@ -1,0 +1,27 @@
+{
+	title: "§6充电五分钟，通话两小时",
+	x: 3.0d,
+	y: 7.0d,
+	description: "获得强化有线充能器",
+	dependencies: [
+		"acafd08c"
+	],
+	tasks: [{
+		uid: "54c75a55",
+		type: "item",
+		items: [{
+			item: "enderio:block_enhanced_wired_charger"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "263525c3",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "bb002573",
+		type: "xp",
+		xp: 1250
+	}]
+}

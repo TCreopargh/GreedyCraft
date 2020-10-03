@@ -1,0 +1,37 @@
+{
+	title: "§9坚持不懈III",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "minecraft:iron_helmet"
+	},
+	x: -5.5d,
+	y: 1.0d,
+	description: "达成指定的游戏时间",
+	dependencies: [
+		"2a5c1d85"
+	],
+	tasks: [{
+		uid: "9aca416a",
+		type: "stat",
+		stat: "stat.playOneMinute",
+		value: 1728000
+	}],
+	rewards: [{
+		uid: "c8eafe92",
+		type: "xp",
+		xp: 5000
+	},
+	{
+		uid: "6941d410",
+		type: "item",
+		item: "mysticalagriculture:growth_accelerator",
+		count: 32
+	},
+	{
+		uid: "5e549ac6",
+		type: "loot",
+		table: 1
+	}]
+}

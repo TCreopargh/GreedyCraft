@@ -1,0 +1,321 @@
+{
+  "cause": {
+    "item": {
+      "item": "additions:greedycraft-passport",
+      "damage": "any"
+    },
+    "type": "additions:item_right_click"
+  },
+  "effects": [
+    {
+      "command": "/particle totem ~ ~ ~ 2 2 2 5 1000 force",
+      "command_sender_name": "",
+      "type": "additions:command"
+    },
+    {
+      "command": "/gamestage add @p getting_started",
+      "command_sender_name": "",
+      "type": "additions:command"
+    },
+    {
+      "command": "/gamestage add @p novice_tinker",
+      "command_sender_name": "",
+      "type": "additions:command"
+    },
+    {
+      "command": "/gamestage add @p skilled_tinker",
+      "command_sender_name": "",
+      "type": "additions:command"
+    },
+    {
+      "command": "/gamestage add @p master_tinker",
+      "command_sender_name": "",
+      "type": "additions:command"
+    },
+    {
+      "command": "/gamestage add @p novice_engineer",
+      "command_sender_name": "",
+      "type": "additions:command"
+    },
+    {
+      "command": "/gamestage add @p skilled_engineer",
+      "command_sender_name": "",
+      "type": "additions:command"
+    },
+    {
+      "command": "/gamestage add @p master_engineer",
+      "command_sender_name": "",
+      "type": "additions:command"
+    },
+    {
+      "command": "/gamestage add @p novice_wizard",
+      "command_sender_name": "",
+      "type": "additions:command"
+    },
+    {
+      "command": "/gamestage add @p skilled_wizard",
+      "command_sender_name": "",
+      "type": "additions:command"
+    },
+    {
+      "command": "/gamestage add @p master_wizard",
+      "command_sender_name": "",
+      "type": "additions:command"
+    },
+    {
+      "command": "/gamestage add @p qualified_botanian",
+      "command_sender_name": "",
+      "type": "additions:command"
+    },
+    {
+      "command": "/gamestage add @p alchemist",
+      "command_sender_name": "",
+      "type": "additions:command"
+    },
+    {
+      "command": "/gamestage add @p zealot",
+      "command_sender_name": "",
+      "type": "additions:command"
+    },
+    {
+      "command": "/gamestage add @p twilight_shield",
+      "command_sender_name": "",
+      "type": "additions:command"
+    },
+    {
+      "command": "/gamestage add @p valkyrie_smasher",
+      "command_sender_name": "",
+      "type": "additions:command"
+    },
+    {
+      "command": "/gamestage add @p lunatic_cultist",
+      "command_sender_name": "",
+      "type": "additions:command"
+    },
+    {
+      "command": "/gamestage add @p twilight_conquerer",
+      "command_sender_name": "",
+      "type": "additions:command"
+    },
+    {
+      "command": "/gamestage add @p sun_killer",
+      "command_sender_name": "",
+      "type": "additions:command"
+    },
+    {
+      "command": "/gamestage add @p forest_keeper",
+      "command_sender_name": "",
+      "type": "additions:command"
+    },
+    {
+      "command": "/gamestage add @p hardmode",
+      "command_sender_name": "",
+      "type": "additions:command"
+    },
+    {
+      "command": "/gamestage add @p wither_slayer",
+      "command_sender_name": "",
+      "type": "additions:command"
+    },
+    {
+      "command": "/gamestage add @p the_awakened",
+      "command_sender_name": "",
+      "type": "additions:command"
+    },
+    {
+      "command": "/gamestage add @p wielder_of_infinity",
+      "command_sender_name": "",
+      "type": "additions:command"
+    },
+    {
+      "command": "/gamestage add @p cosmic_dominator",
+      "command_sender_name": "",
+      "type": "additions:command"
+    },
+    {
+      "command": "/gamestage add @p challenger_a",
+      "command_sender_name": "",
+      "type": "additions:command"
+    },
+    {
+      "command": "/gamestage add @p challenger_b",
+      "command_sender_name": "",
+      "type": "additions:command"
+    },
+    {
+      "command": "/gamestage add @p challenger_c",
+      "command_sender_name": "",
+      "type": "additions:command"
+    },
+    {
+      "command": "/gamestage add @p challenger_d",
+      "command_sender_name": "",
+      "type": "additions:command"
+    },
+    {
+      "command": "/gamestage add @p challenger_e",
+      "command_sender_name": "",
+      "type": "additions:command"
+    },
+    {
+      "command": "/gamestage add @p challenger_f",
+      "command_sender_name": "",
+      "type": "additions:command"
+    },
+    {
+      "command": "/gamestage add @p challenger_g",
+      "command_sender_name": "",
+      "type": "additions:command"
+    },
+    {
+      "command": "/gamestage add @p challenger_all",
+      "command_sender_name": "",
+      "type": "additions:command"
+    },
+    {
+      "command": "/gamestage add @p transmutation_table",
+      "command_sender_name": "",
+      "type": "additions:command"
+    },
+    {
+      "command": "/gamestage add @p wand_blueprint",
+      "command_sender_name": "",
+      "type": "additions:command"
+    },
+    {
+      "command": "/gamestage add @p tactic_blueprint",
+      "command_sender_name": "",
+      "type": "additions:command"
+    },
+    {
+      "command": "/gamestage add @p shuriken_blueprint",
+      "command_sender_name": "",
+      "type": "additions:command"
+    },
+    {
+      "command": "/gamestage add @p abyssal_conquerer",
+      "command_sender_name": "",
+      "type": "additions:command"
+    },
+    {
+      "command": "/gamestage add @p cosmic_ripper",
+      "command_sender_name": "",
+      "type": "additions:command"
+    },
+    {
+      "command": "/gamestage add @p gatekeeper",
+      "command_sender_name": "",
+      "type": "additions:command"
+    },
+    {
+      "command": "/gamestage add @p gaia",
+      "command_sender_name": "",
+      "type": "additions:command"
+    },
+    {
+      "command": "/gamestage add @p wyvern",
+      "command_sender_name": "",
+      "type": "additions:command"
+    },
+    {
+      "command": "/gamestage add @p awakened",
+      "command_sender_name": "",
+      "type": "additions:command"
+    },
+    {
+      "command": "/gamestage add @p chaotic",
+      "command_sender_name": "",
+      "type": "additions:command"
+    },
+    {
+      "command": "/gamestage add @p twilight_forest",
+      "command_sender_name": "",
+      "type": "additions:command"
+    },
+    {
+      "command": "/gamestage add @p chaotic_dominator",
+      "command_sender_name": "",
+      "type": "additions:command"
+    },
+    {
+      "command": "/gamestage add @p ender_charm",
+      "command_sender_name": "",
+      "type": "additions:command"
+    },
+    {
+      "command": "/gamestage add @p nether",
+      "command_sender_name": "",
+      "type": "additions:command"
+    },
+    {
+      "command": "/gamestage add @p super_hardmode",
+      "command_sender_name": "",
+      "type": "additions:command"
+    },
+    {
+      "command": "/gamestage add @p infinite_solar_energy",
+      "command_sender_name": "",
+      "type": "additions:command"
+    },
+    {
+      "command": "/gamestage add @p space_treasure_hunter",
+      "command_sender_name": "",
+      "type": "additions:command"
+    },
+    {
+      "command": "/gamestage add @p archaeologist",
+      "command_sender_name": "",
+      "type": "additions:command"
+    },
+    {
+      "command": "/gamestage add @p staff_wielder",
+      "command_sender_name": "",
+      "type": "additions:command"
+    },
+    {
+      "command": "/gamestage add @p energy_matter_core",
+      "command_sender_name": "",
+      "type": "additions:command"
+    },
+    {
+      "command": "/gamestage add @p thaumaturge",
+      "command_sender_name": "",
+      "type": "additions:command"
+    },
+    {
+      "command": "/gamestage add @p storage_maniac",
+      "command_sender_name": "",
+      "type": "additions:command"
+    },
+    {
+      "command": "/gamestage add @p graduated",
+      "command_sender_name": "",
+      "type": "additions:command"
+    },
+    {
+      "command": "/gamestage add @p qualified_ocd",
+      "command_sender_name": "",
+      "type": "additions:command"
+    },
+    {
+      "command": "/gamestage add @p disabled",
+      "command_sender_name": "",
+      "type": "additions:command"
+    },
+    {
+      "command": "/gamestage add @p fearless_man",
+      "command_sender_name": "",
+      "type": "additions:command"
+    },
+    {
+      "command": "/gamestage add @p fusion_matrix",
+      "command_sender_name": "",
+      "type": "additions:command"
+    },
+    {
+      "command": "/gamestage add @p descendant_of_the_sun",
+      "command_sender_name": "",
+      "type": "additions:command"
+    }
+  ]
+}

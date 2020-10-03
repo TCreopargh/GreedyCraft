@@ -1,0 +1,44 @@
+{
+	title: "§b芜湖，起飞",
+	x: -2.0d,
+	y: 11.5d,
+	description: "获得鞘翅",
+	tasks: [{
+		uid: "4b2a8780",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:elytra"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2b7c8305",
+		type: "item",
+		item: "minecraft:shulker_shell",
+		count: 10
+	},
+	{
+		uid: "445d6da6",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:elytra"
+		}
+	},
+	{
+		uid: "3f8a09e2",
+		type: "xp",
+		xp: 6000
+	},
+	{
+		uid: "69b18f86",
+		type: "loot",
+		table: 2
+	}]
+}

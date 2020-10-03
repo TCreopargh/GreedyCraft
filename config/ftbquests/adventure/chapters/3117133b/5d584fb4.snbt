@@ -1,0 +1,32 @@
+{
+	title: "§e神的水晶",
+	x: 4.0d,
+	y: 0.0d,
+	description: "获得神能晶片",
+	dependencies: [
+		"b5350524"
+	],
+	tasks: [{
+		uid: "e6a2e3c0",
+		type: "item",
+		items: [{
+			item: "aether_legacy:ambrosium_shard"
+		}]
+	}],
+	rewards: [{
+		uid: "18d6cce8",
+		type: "xp",
+		xp: 500
+	},
+	{
+		uid: "63313f05",
+		type: "item",
+		item: "aether_legacy:ambrosium_shard",
+		count: 10
+	},
+	{
+		uid: "2598f704",
+		type: "loot",
+		table: 1
+	}]
+}

@@ -1,0 +1,119 @@
+ {
+ 	"name": "default",
+	"verticalDecayRate": {
+		"min": 5.0,
+		"max": 10.0
+	},
+	"initialBlockStrength": 100.0,
+	"blockStrengthThreshold": 0.0,
+	"blockStrengthDecayRate": {
+		"min": 12.5,
+		"max": 20.0
+	},
+	"blockStrengthDistanceDecayRate": {
+		"min": 22.0,
+		"max": 30.0
+	},
+	"decayRules": {
+		"minecraft:stonebrick": {
+			"decayIterations": 5,
+			"decayProbability": 20.0,
+			"decayBlocks": [
+				"minecraft:stonebrick@1",
+				"minecraft:stonebrick@2",
+				"minecraft:cobblestone@0",
+				"minecraft:gravel@0",
+				"minecraft:air@0"
+			]
+		},
+		"minecraft:cobblestone": {
+			"decayIterations": 3,
+			"decayProbability": 20.0,
+			"decayBlocks": [
+				"minecraft:mossy_cobblestone@0",
+				"minecraft:gravel@0",
+				"minecraft:air@0"
+			]
+		},
+		"minecraft:mossy_cobblestone": {
+			"decayIterations": 2,
+			"decayProbability": 20.0,
+			"decayBlocks": [
+				"minecraft:gravel@0",
+				"minecraft:air@0"
+			]
+		},
+		"minecraft:stone_brick_stairs": {
+			"decayIterations": 2,
+			"decayProbability": 15.0,
+			"decayBlocks": [
+				"minecraft:stone_stairs@0",
+				"minecraft:air@0"
+			]
+		},
+		"minecraft:stone_brick_slab": {
+			"decayIterations": 3,
+			"decayProbability": 15.0,
+			"decayBlocks": [
+				"minecraft:stone_slab@0",
+				"minecraft:stone_slab@3",
+				"minecraft:air@0"
+			]
+		},
+		"minecraft:stone_slab": {
+			"decayIterations": 2,
+			"decayProbability": 15.0,
+			"decayBlocks": [
+				"minecraft:stone_slab@3",
+				"minecraft:air@0"
+			]
+		},
+		"minecraft:cobblestone_wall": {
+			"decayIterations": 2,
+			"decayProbability": 15.0,
+			"decayBlocks": [
+				"minecraft:cobblestone_wall@1",
+				"minecraft:air@0"
+			]
+		},
+		"minecraft:smooth_granite": {
+			"decayIterations": 2,
+			"decayProbability": 15.0,
+			"decayBlocks": [
+				"minecraft:stone@1",
+				"minecraft:air@0"
+			]
+		},		
+		"minecraft:smooth_diorite": {
+			"decayIterations": 2,
+			"decayProbability": 15.0,
+			"decayBlocks": [
+				"minecraft:stone@3",
+				"minecraft:air@0"
+			]
+		},
+		"minecraft:smooth_andesite": {
+			"decayIterations": 2,
+			"decayProbability": 15.0,
+			"decayBlocks": [
+				"minecraft:stone@5",
+				"minecraft:air@0"
+			]
+		},			
+		"minecraft:smooth_sandstone": {
+			"decayIterations": 2,
+			"decayProbability": 15.0,
+			"decayBlocks": [
+				"minecraft:sandstone@0",
+				"minecraft:air@0"
+			]
+		},			
+		"default": {
+			"decayIterations": 1,
+			"decayProbability": 15.0,
+			"decayBlocks": [
+				"minecraft:air@0"
+			]
+		}
+	}
+}

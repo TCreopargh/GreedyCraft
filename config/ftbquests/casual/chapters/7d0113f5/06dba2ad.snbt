@@ -1,0 +1,60 @@
+{
+	title: "§e§o宇宙诞生之初...",
+	x: 8.5d,
+	y: 1.0d,
+	description: "获得元始珍珠",
+	tasks: [{
+		uid: "12e845ed",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:primordial_pearl"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5ad7437b",
+		type: "loot",
+		table: 3
+	},
+	{
+		uid: "aea43080",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:primordial_pearl"
+		},
+		count: 4
+	},
+	{
+		uid: "6b2a9dfe",
+		type: "xp",
+		xp: 5000
+	},
+	{
+		uid: "91661d78",
+		type: "command",
+		title: "§c修复一个Bug",
+		auto: "enabled",
+		command: "/thaumcraft research @p TCONEVO_BASE"
+	},
+	{
+		uid: "8bbcc70e",
+		type: "command",
+		title: "修复bug",
+		auto: "enabled",
+		command: "/thaumcraft research @p TCONEVO_TCONINFUSIONENCH"
+	},
+	{
+		uid: "019ac9ab",
+		type: "command",
+		title: "修复bug",
+		auto: "enabled",
+		command: "/thaumcraft research @p TCONEVO_PRIMALMETAL"
+	}]
+}

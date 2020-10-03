@@ -1,0 +1,26 @@
+{
+  "chancecubes:chance_cube_cube_zh_cn": {
+    "chance": -10,
+    "Area": [
+      {
+        "xSize": 2,
+        "ySize": 2,
+        "zSize": 2,
+        "block": "chancecubes:chance_cube",
+        "xOff": -2,
+        "yOff": 0,
+        "zOff": -2,
+        "falling": false,
+        "delay": 1,
+        "causesUpdate": false,
+        "relativeToPlayer": false
+      }
+    ],
+    "Message": [
+      {
+        "message": "§9嘿，至少这玩意不是个巨型的机会方块！",
+        "range": 25
+      }
+    ]
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+	  "name": "lt1",
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:iron_ingot",
+          "weight": 40,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 6
+              }
+            }
+          ]
+        }
+      ]	 
+    },
+    {	
+      "rolls": 1,
+	  "name": "lt2",
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:redstone",
+          "weight": 1,
+          "quality": 20,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 4
+              },
+              "conditions": [
+                {
+                  "condition": "killed_by_player"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+	{
+      "rolls": 1,
+	  "name": "lt3",
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:repeater",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+	  "name": "lt4",
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:redstone_torch",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 2
+              }
+            }
+          ]
+        }
+	  ]
+	},
+	{
+      "rolls": 1,
+	  "name": "lt5",
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:comparator",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 3
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

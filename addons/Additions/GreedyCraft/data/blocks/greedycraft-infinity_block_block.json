@@ -1,0 +1,31 @@
+{
+  "item_block": {
+    "name": "§c无§e尽§a块§b块",
+    "shines": true,
+    "tooltip": [
+      "§d§o你认真的？",
+      "§7可以用作信标基座（如果你想的话）"
+    ],
+    "ore_dict": "blockCompressedInfinity",
+    "type": "additions:block_simple"
+  },
+  "name": "§c无§e尽§a块§b块",
+  "material": "minecraft:stone",
+  "place_sound": "minecraft:block.metal.place",
+  "break_sound": "minecraft:block.stone.break",
+  "step_sound": "minecraft:block.stone.step",
+  "fall_sound": "minecraft:block.stone.fall",
+  "map_color": "minecraft:magenta",
+  "hardness": 50.0,
+  "resistance": 6000000.0,
+  "harvest_level": 8,
+  "harvest_tool": "pickaxe",
+  "light_level": 15,
+  "beacon_color_multiplier": {
+    "red": 1.0,
+    "green": 1.0,
+    "blue": 1.0
+  },
+  "is_beacon_base": true,
+  "type": "additions:simple"
+}

@@ -1,0 +1,68 @@
+{
+	title: "§6试试手气！",
+	x: 0.0d,
+	y: 5.5d,
+	description: "获得一个机会方块",
+	dependencies: [
+		"22287c8d"
+	],
+	tasks: [{
+		uid: "2acabc76",
+		type: "item",
+		items: [{
+			item: "chancecubes:chance_cube"
+		}]
+	}],
+	rewards: [{
+		uid: "976a941c",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "chancecubes:chance_pendant_tier1"
+		}
+	},
+	{
+		uid: "b66cb7bd",
+		type: "item",
+		item: {
+			id: "minecraft:potion",
+			tag: {
+				Potion: "cofhcore:luck2"
+			}
+		}
+	},
+	{
+		uid: "684a3357",
+		type: "xp",
+		xp: 150
+	},
+	{
+		uid: "8df094df",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "ca495e7f",
+		type: "item",
+		item: {
+			id: "minecraft:splash_potion",
+			tag: {
+				CustomPotionEffects: [{
+					ShowParticles: 0b,
+					Duration: 6000,
+					Id: 27,
+					Amplifier: 126
+				}],
+				CustomPotionColor: 0,
+				display: {
+					Lore: [
+						"§9今天出货率真高啊！"
+					],
+					Name: "§8非酋药剂"
+				}
+			}
+		}
+	}]
+}

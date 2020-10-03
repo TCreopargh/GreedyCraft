@@ -1,0 +1,146 @@
+{
+	"version": "1.0",
+	"pools": [
+		{
+			"name": "treasure",
+			"rolls": {
+				"min": 2,
+				"max": 3
+			},
+			"entries": [
+                {
+                    "type": "loot_table",
+                    "name": "treasure2:loot_tables/treasure2/treasure/scarce",
+                    "weight": 30
+                }
+			]
+		},	
+		{
+			"name": "charms",
+			"rolls": {
+				"min": 1,
+				"max": 1
+			},
+			"entries": [
+                {
+                    "type": "loot_table",
+                    "name": "treasure2:loot_tables/treasure2/treasure/scarce_charms",
+                    "weight": 1
+                }
+			]
+		},			
+		{
+			"name": "items",
+			"rolls": {
+				"min": 2,
+				"max": 3
+			},
+			"entries": [
+                {
+                    "type": "loot_table",
+                    "name": "treasure2:loot_tables/treasure2/items/scarce",
+                    "weight": 1
+                }
+			]
+		},
+		{
+			"name": "armor",
+			"rolls": {
+				"min": 1,
+				"max": 2
+			},
+			"entries": [
+                {
+                    "type": "loot_table",
+                    "name": "treasure2:loot_tables/treasure2/armor/scarce",
+                    "weight": 1
+                }			
+			]
+		},
+		{
+			"name": "food",
+			"rolls": {
+				"min": 0,
+				"max": 2
+			},
+			"entries": [
+	                {
+                    "type": "loot_table",
+                    "name": "treasure2:loot_tables/treasure2/food/scarce",
+                    "weight": 1
+                }				
+			]
+		},
+		{
+			"name": "tools",
+			"rolls": {
+				"min": 1,
+				"max": 2
+			},
+			"entries": [
+		                {
+                    "type": "loot_table",
+                    "name": "treasure2:loot_tables/treasure2/tools/scarce",
+                    "weight": 1
+                }			
+			]
+		},	
+		
+		{
+			"name": "uncommon_items",
+			"rolls": {
+				"min": 0,
+				"max": 3
+			},
+			"entries": [
+                {
+                    "type": "loot_table",
+                    "name": "treasure2:loot_tables/treasure2/items/uncommon",
+                    "weight": 1
+                }
+			]
+		},
+		{
+			"name": "uncommon_armor",
+			"rolls": {
+				"min": 0,
+				"max": 2
+			},
+			"entries": [
+                {
+                    "type": "loot_table",
+                    "name": "treasure2:loot_tables/treasure2/armor/uncommon",
+                    "weight": 1
+                }			
+			]
+		},
+		{
+			"name": "uncommon_food",
+			"rolls": {
+				"min": 0,
+				"max": 1
+			},
+			"entries": [
+	                {
+                    "type": "loot_table",
+                    "name": "treasure2:loot_tables/treasure2/food/uncommon",
+                    "weight": 1
+                }				
+			]
+		},
+		{
+			"name": "uncommon_tools",
+			"rolls": {
+				"min": 0,
+				"max": 1
+			},
+			"entries": [
+		                {
+                    "type": "loot_table",
+                    "name": "treasure2:loot_tables/treasure2/tools/uncommon",
+                    "weight": 1
+                }			
+			]
+		}
+	]
+}

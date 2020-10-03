@@ -1,0 +1,32 @@
+{
+	title: "§5合成水晶",
+	x: -7.0d,
+	y: -0.5d,
+	description: "将充能赛特斯水晶、红石和下界石英扔进水里得到这种奇特的水晶",
+	dependencies: [
+		"09f3e2c7",
+		"06264bbf"
+	],
+	tasks: [{
+		uid: "cc0107d1",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 7"
+		}]
+	}],
+	rewards: [{
+		uid: "287a5830",
+		type: "xp",
+		xp: 50
+	},
+	{
+		uid: "69dcad4d",
+		type: "item",
+		item: "appliedenergistics2:grindstone"
+	},
+	{
+		uid: "2afa0725",
+		type: "loot",
+		table: 0
+	}]
+}

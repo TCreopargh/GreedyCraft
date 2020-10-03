@@ -1,0 +1,42 @@
+{
+	title: "§e电路压印",
+	x: 0.5d,
+	y: -0.5d,
+	description: "获得压印器",
+	dependencies: [
+		"2cad7aab",
+		"bef89d76"
+	],
+	tasks: [{
+		uid: "bd2911da",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:inscriber"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d212332a",
+		type: "item",
+		item: "appliedenergistics2:inscriber",
+		count: 3
+	},
+	{
+		uid: "473046b7",
+		type: "item",
+		item: "minecraft:hopper",
+		count: 20
+	},
+	{
+		uid: "fd69bb0e",
+		type: "item",
+		item: "ironchest:iron_chest",
+		count: 20
+	},
+	{
+		uid: "0729a01a",
+		type: "loot",
+		table: 1
+	}]
+}

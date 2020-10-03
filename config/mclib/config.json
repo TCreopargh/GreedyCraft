@@ -1,0 +1,27 @@
+{
+    "appearance": {
+        "debug_panel": false,
+        "primary_color": 35071,
+        "enable_borders": false,
+        "enable_checkbox_rendering": false,
+        "enable_grid_rendering": true,
+        "user_interface_scale": 2
+    },
+    "tutorials": {
+        "enable_mouse_rendering": false,
+        "enable_keystrokes_rendering": false,
+        "keystroke_offset": 10,
+        "keystroke_position": 1
+    },
+    "background": {
+        "color": -872415232
+    },
+    "scrollbars": {
+        "flat": false,
+        "shadow": -2013265920,
+        "width": 4
+    },
+    "vanilla": {
+        "max_packet_size": 32767
+    }
+}

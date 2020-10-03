@@ -1,0 +1,39 @@
+{
+	title: "§6强敌",
+	x: 10.5d,
+	y: 0.0d,
+	description: "获得挑战券",
+	dependencies: [
+		"eae7764a"
+	],
+	tasks: [{
+		uid: "aeca3c4a",
+		type: "item",
+		items: [{
+			item: "extrabotany:material 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "b37db2d1",
+		type: "xp",
+		xp: 9000
+	},
+	{
+		uid: "0c111ecd",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "78b2d470",
+		type: "item",
+		item: "botania:manaresource 1 14",
+		count: 5
+	},
+	{
+		uid: "8a783dd8",
+		type: "command",
+		title: "§c崩端提醒",
+		auto: "enabled",
+		command: "/tellraw @a {\"text\":\"§c提示：§e由于已知的崩端问题，请在召唤盖亚III前按F8，将第一个按钮点成§cfalse§额§e关闭§aBetter Foliage§e，战斗结束后再开启。\"}"
+	}]
+}

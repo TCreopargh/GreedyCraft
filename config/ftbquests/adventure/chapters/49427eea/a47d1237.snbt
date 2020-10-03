@@ -1,0 +1,29 @@
+{
+	title: "§e§o你想要来点铀子吗",
+	x: 16.0d,
+	y: 3.0d,
+	description: "获得黄铀矿",
+	tasks: [{
+		uid: "bd204458",
+		type: "item",
+		items: [{
+			item: "bigreactors:oreyellorite"
+		}]
+	}],
+	rewards: [{
+		uid: "ac988a07",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "9454539a",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "d8659bc2",
+		type: "item",
+		item: "bigreactors:oreyellorite",
+		count: 6
+	}]
+}

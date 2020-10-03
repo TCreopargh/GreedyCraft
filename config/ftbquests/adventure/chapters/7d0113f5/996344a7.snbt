@@ -1,0 +1,32 @@
+{
+	title: "§c稳定注魔",
+	x: 3.5d,
+	y: 1.0d,
+	description: "获得注魔稳定器",
+	dependencies: [
+		"5ac3d548"
+	],
+	tasks: [{
+		uid: "355ed33d",
+		type: "item",
+		items: [{
+			item: "thaumcraft:stabilizer"
+		}]
+	}],
+	rewards: [{
+		uid: "b94f193c",
+		type: "xp",
+		xp: 2500
+	},
+	{
+		uid: "4c043c86",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "0eb07e5f",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "skilled_wizard"
+	}]
+}

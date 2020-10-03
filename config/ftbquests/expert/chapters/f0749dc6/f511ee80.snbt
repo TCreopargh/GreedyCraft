@@ -1,0 +1,55 @@
+{
+	title: "§a凋灵杀手II",
+	icon: "netherex:wither_bone",
+	x: 4.5d,
+	y: -1.0d,
+	description: "击杀指定数量的凋灵",
+	dependencies: [
+		"68c0cf56"
+	],
+	tasks: [{
+		uid: "2ba5ccca",
+		type: "kill",
+		entity: "minecraft:wither",
+		value: 8L
+	}],
+	rewards: [{
+		uid: "326c89eb",
+		type: "xp",
+		xp: 6000
+	},
+	{
+		uid: "e418632b",
+		type: "item",
+		item: "minecraft:skull 1 1",
+		count: 128
+	},
+	{
+		uid: "dafa2c72",
+		type: "item",
+		item: "minecraft:nether_star",
+		count: 3
+	},
+	{
+		uid: "b7551583",
+		type: "item",
+		item: "minecraft:quartz_block",
+		count: 128
+	},
+	{
+		uid: "dd1dc68f",
+		type: "item",
+		item: {
+			id: "minecraft:potion",
+			tag: {
+				Potion: "potioncore:long_purity"
+			}
+		},
+		count: 3
+	},
+	{
+		uid: "0365c9de",
+		type: "loot",
+		table: 0
+	}]
+}

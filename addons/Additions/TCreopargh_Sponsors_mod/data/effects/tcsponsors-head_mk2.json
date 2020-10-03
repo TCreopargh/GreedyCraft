@@ -1,0 +1,48 @@
+{
+  "cause": {
+    "equipment": [
+      {
+        "slot": "head",
+        "item": {
+          "item": "minecraft:skull",
+          "damage": 3,
+          "tag": "{SkullOwner:{Id:\"6fdd5e7c-f0e6-44f4-882f-83ad056368a3\",Properties:{textures:[{Signature:\"VLOPo/YELLUQh41g2fgTNz/TUHD53N8ueTJhZ5gkxs4ZJ2XRLvAsXZkgIP3kzXjzq7dFyWKRDqGfysK3WgZYLn6YFXgpX8GOP5HJ649V4DvkH8goMLZstzpNx8JauMZBONCwl+ii7El3yBuIzi1axFCmoxiofTnuw6CH+0J+0uxJTW0QxJ89Rn9VExTbtZWDY6VLfD2HEeaRF/1W7UHypXqR9G4TWmRus+Pc0ILEQj+TU2GKBtZFhHgdQoF6zCVZ5+XLOw3GHkMWmUUu0meN5KjGeC2e0jJJe8o2ma7Bd+zVXfg+cvxrftxgWX4dmw5mEMeq/1Hw2jFlyHfnyHPJ9zTHsECG0HbNwxVTRqOJdyo6s6GnZIz84SZbfrlSY9N9V+6TYrsFE+EHtJAOpjM//J8avRo395R7GeJusUfjzGDHOFLw0TGs4a2jk64kHtj8ng6a6WpfbZ88pEvv8DXLAu52P4SAwFcrROjztxmb6+dRq0qbTb9hnAeE8FTHXvJvHv7KylN6IxF4jDlwXHYVpK3AufYTM8bw1uwmNIaUQJOgQYcsrGQJ6dnjVCikwQzyOcjjuIcBQ5A/sHHGH382JFaAr36REWgL4VjNtBqbhP/seP8epgPbg/LCAWNA+jgUk16KcGatxRw1cXVGQ4nwcfW4NZwXFqyzHRNE3NRdo/c\u003d\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTU5ODk0ODIxNDA4OSwKICAicHJvZmlsZUlkIiA6ICI2ZmRkNWU3Y2YwZTY0NGY0ODgyZjgzYWQwNTYzNjhhMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJ6ZXJvX01LMl9FODYiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjAzNzY0MTVlZmMwMzAwMGM0MDUxMDllNzE4OTUyZTAxNGNlYmZkODI4NmQ5NjgyY2NiNWRhNjQ3N2ZlYTYzYiIKICAgIH0KICB9Cn0\u003d\"}]},Name:\"zero_MK2_E86\"},display:{Lore:[\"§3也许把这个戴在头上不是个好主意...\",\"§b§o赞助者物品 by zero_MK2_E86\"],Name:\"§c蚀刻噬视之颅\"}}"
+        }
+      }
+    ],
+    "pieces_required": 1,
+    "type": "additions:item_equipped"
+  },
+  "effects": [
+    {
+      "potion": {
+        "name": "minecraft:blindness",
+        "duration": 50,
+        "amplifier": 0,
+        "ambient": false,
+        "show_particles": true
+      },
+      "type": "additions:potion"
+    },
+    {
+      "potion": {
+        "name": "minecraft:strength",
+        "duration": 50,
+        "amplifier": 2,
+        "ambient": false,
+        "show_particles": true
+      },
+      "type": "additions:potion"
+    },
+    {
+      "potion": {
+        "name": "minecraft:speed",
+        "duration": 50,
+        "amplifier": 2,
+        "ambient": false,
+        "show_particles": true
+      },
+      "type": "additions:potion"
+    }
+  ]
+}

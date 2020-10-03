@@ -1,0 +1,25 @@
+{
+	title: "§6地下宝藏",
+	x: -4.0d,
+	y: 13.5d,
+	description: "发现一个藏宝瓮。小心有蛇！",
+	tasks: [{
+		uid: "03134442",
+		type: "observation",
+		title: "发现一个瓦瓮",
+		icon: "pyramidplunder:urn",
+		match_type: "block_id",
+		match: "pyramidplunder:urn",
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "415fcb52",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "8f4feafe",
+		type: "loot",
+		table: 0
+	}]
+}

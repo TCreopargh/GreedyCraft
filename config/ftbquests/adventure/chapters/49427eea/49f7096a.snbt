@@ -1,0 +1,23 @@
+{
+	title: "§e更大的物品栏",
+	x: 18.5d,
+	y: 11.0d,
+	description: "获得物品栏升级蛋糕",
+	tasks: [{
+		uid: "c74cd8fd",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:inventory_food"
+		}]
+	}],
+	rewards: [{
+		uid: "2a8774d7",
+		type: "xp",
+		xp: 500
+	},
+	{
+		uid: "19c5f318",
+		type: "loot",
+		table: 1
+	}]
+}

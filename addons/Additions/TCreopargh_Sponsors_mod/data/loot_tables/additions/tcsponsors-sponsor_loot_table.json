@@ -1,0 +1,153 @@
+{
+    "preset_type": "additions:empty",
+    "pools": [
+        {
+            "name": "sponsor_loot_pool",
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "additions:tcsponsors-european_richmans_pickaxe",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{ench:[{lvl:5s,id:44},{lvl:3s,id:35}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "additions:tcsponsors-natsume_mio_necklace",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "additions:tcsponsors-butcher5s_blade",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "additions:tcsponsors-aspect_of_the_dragons",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "additions:tcsponsors-cthulhu_painting",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "additions:tcsponsors-nanxun_happy_cake",
+                    "weight": 1
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:skull",
+                    "weight": 1,
+                    "functions": [
+						{
+                            "function": "set_data",
+                            "data": 3
+						},
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SkullOwner:{Id:\"6fdd5e7c-f0e6-44f4-882f-83ad056368a3\",Properties:{textures:[{Signature:\"VLOPo/YELLUQh41g2fgTNz/TUHD53N8ueTJhZ5gkxs4ZJ2XRLvAsXZkgIP3kzXjzq7dFyWKRDqGfysK3WgZYLn6YFXgpX8GOP5HJ649V4DvkH8goMLZstzpNx8JauMZBONCwl+ii7El3yBuIzi1axFCmoxiofTnuw6CH+0J+0uxJTW0QxJ89Rn9VExTbtZWDY6VLfD2HEeaRF/1W7UHypXqR9G4TWmRus+Pc0ILEQj+TU2GKBtZFhHgdQoF6zCVZ5+XLOw3GHkMWmUUu0meN5KjGeC2e0jJJe8o2ma7Bd+zVXfg+cvxrftxgWX4dmw5mEMeq/1Hw2jFlyHfnyHPJ9zTHsECG0HbNwxVTRqOJdyo6s6GnZIz84SZbfrlSY9N9V+6TYrsFE+EHtJAOpjM//J8avRo395R7GeJusUfjzGDHOFLw0TGs4a2jk64kHtj8ng6a6WpfbZ88pEvv8DXLAu52P4SAwFcrROjztxmb6+dRq0qbTb9hnAeE8FTHXvJvHv7KylN6IxF4jDlwXHYVpK3AufYTM8bw1uwmNIaUQJOgQYcsrGQJ6dnjVCikwQzyOcjjuIcBQ5A/sHHGH382JFaAr36REWgL4VjNtBqbhP/seP8epgPbg/LCAWNA+jgUk16KcGatxRw1cXVGQ4nwcfW4NZwXFqyzHRNE3NRdo/c=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTU5ODk0ODIxNDA4OSwKICAicHJvZmlsZUlkIiA6ICI2ZmRkNWU3Y2YwZTY0NGY0ODgyZjgzYWQwNTYzNjhhMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJ6ZXJvX01LMl9FODYiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjAzNzY0MTVlZmMwMzAwMGM0MDUxMDllNzE4OTUyZTAxNGNlYmZkODI4NmQ5NjgyY2NiNWRhNjQ3N2ZlYTYzYiIKICAgIH0KICB9Cn0=\"}]},Name:\"zero_MK2_E86\"},display:{Lore:[\"§3也许把这个戴在头上不是个好主意...\",\"§b§o赞助者物品 by zero_MK2_E86\"],Name:\"§c蚀刻噬视之颅\"}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "additions:tcsponsors-koishis_hat",
+                    "weight": 1
+                },
+				{
+                    "type": "item",
+                    "name": "additions:tcsponsors-head_cat",
+                    "weight": 1
+                },
+				{
+                    "type": "item",
+                    "name": "additions:tcsponsors-plain_phone",
+                    "weight": 1
+                },
+				{
+                    "type": "item",
+                    "name": "additions:tcsponsors-dream",
+                    "weight": 1
+                },
+				{
+                    "type": "item",
+                    "name": "avaritia:ultimate_stew",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:[\"§a芜湖，起飞！\",\"§b§o赞助者物品 by§b§o DemonUK\"],Name:\"§eDemonUK的肉蛋葱鸡\"}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "additions:tcsponsors-snake_rune",
+                    "weight": 1
+                },
+				{
+                    "type": "item",
+                    "name": "additions:tcsponsors-doge",
+                    "weight": 1
+                },
+				{
+                    "type": "item",
+                    "name": "additions:tcsponsors-sword_of_cosmos",
+                    "weight": 1
+                },
+				{
+                    "type": "item",
+                    "name": "additions:tcsponsors-deep_sea_predator",
+                    "weight": 1
+                },
+				{
+                    "type": "item",
+                    "name": "additions:tcsponsors-death_sickle",
+                    "weight": 1
+                },
+				{
+                    "type": "item",
+                    "name": "additions:tcsponsors-rabbit_hat",
+                    "weight": 1
+                },
+				{
+                    "type": "item",
+                    "name": "additions:tcsponsors-carrot_sword",
+                    "weight": 1
+                },
+				{
+                    "type": "item",
+                    "name": "additions:tcsponsors-luceiferr",
+                    "weight": 1
+                },
+				{
+                    "type": "item",
+                    "name": "additions:tcsponsors-glorious_crown",
+                    "weight": 1
+                },
+				{
+                    "type": "item",
+                    "name": "additions:tcsponsors-wand_of_swapping",
+                    "weight": 1
+                },
+				{
+                    "type": "item",
+                    "name": "additions:tcsponsors-green_cap",
+                    "weight": 1
+                },
+				{
+                    "type": "item",
+                    "name": "additions:tcsponsors-magic_broom",
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}

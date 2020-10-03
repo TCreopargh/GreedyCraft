@@ -1,0 +1,30 @@
+{
+	title: "§a蒸发冷凝",
+	x: -7.0d,
+	y: 1.5d,
+	description: "获得回旋式气液转化机",
+	dependencies: [
+		"519a981d"
+	],
+	tasks: [{
+		uid: "880c5a2a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mekanism:machineblock2"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "bfaa6358",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "d212408b",
+		type: "xp",
+		xp: 800
+	}]
+}

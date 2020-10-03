@@ -1,0 +1,23 @@
+{
+	title: "§d蜜蜂专用豪宅",
+	x: -6.0d,
+	y: 0.0d,
+	description: "获得蜂房，升级版的风箱",
+	dependencies: [
+		"48fc4e8c",
+		"4fbc9995",
+		"013d4cfc"
+	],
+	tasks: [{
+		uid: "74da217a",
+		type: "item",
+		items: [{
+			item: "forestry:apiary"
+		}]
+	}],
+	rewards: [{
+		uid: "9809c03b",
+		type: "loot",
+		table: 1
+	}]
+}

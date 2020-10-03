@@ -1,0 +1,9 @@
+{
+  "name": "§2植物纤维",
+  "burn_time": 40,
+  "ore_dict": [
+    "plantFibre",
+    "plantFiber"
+  ],
+  "type": "additions:simple"
+}

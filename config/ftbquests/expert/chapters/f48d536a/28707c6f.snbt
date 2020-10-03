@@ -1,0 +1,43 @@
+{
+	title: "§9深渊守门人",
+	x: 18.5d,
+	y: 1.5d,
+	description: "来到奥穆索原点处的神殿 ，杀死守门者扎哈尔",
+	dependencies: [
+		"18558d0b"
+	],
+	tasks: [{
+		uid: "90da1df6",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:gatekeeperessence"
+		}]
+	}],
+	rewards: [{
+		uid: "a538224d",
+		type: "xp",
+		xp: 10000
+	},
+	{
+		uid: "5fcaff1d",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "abyssalcraft:drainstaff",
+			Damage: 3s
+		}
+	},
+	{
+		uid: "bdf9627f",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "2582bef0",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "lunatic_cultist"
+	}]
+}

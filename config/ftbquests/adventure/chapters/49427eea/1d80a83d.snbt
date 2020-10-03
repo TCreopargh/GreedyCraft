@@ -1,0 +1,26 @@
+{
+	title: "§b充能钻石",
+	x: 23.5d,
+	y: -8.0d,
+	description: "使用充能台对矿物水晶充能",
+	dependencies: [
+		"a504bbd8"
+	],
+	tasks: [{
+		uid: "ee19f087",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_crystal_empowered 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "728ce932",
+		type: "xp",
+		xp: 700
+	},
+	{
+		uid: "c275ec76",
+		type: "loot",
+		table: 1
+	}]
+}

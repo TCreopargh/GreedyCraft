@@ -1,0 +1,35 @@
+{
+	x: 5.5d,
+	y: -1.5d,
+	tasks: [{
+		uid: "90294d00",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					1b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "ea54b586",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "b48f94df",
+		type: "xp",
+		xp: 750
+	}]
+}

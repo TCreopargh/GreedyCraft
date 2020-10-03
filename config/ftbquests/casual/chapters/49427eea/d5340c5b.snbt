@@ -1,0 +1,49 @@
+{
+	title: "无限水源",
+	x: -12.0d,
+	y: -4.0d,
+	description: "制造一个蓄水器，将其放在两个水源之间即可产生无限的水！",
+	tasks: [{
+		uid: "5726d1fb",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:device",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					0b,
+					1b,
+					0b,
+					0b,
+					0b,
+					0b
+				]
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7b112155",
+		type: "item",
+		item: "minecraft:water_bucket",
+		count: 2
+	},
+	{
+		uid: "298e9e2f",
+		type: "xp",
+		xp: 200
+	},
+	{
+		uid: "10a49e95",
+		type: "item",
+		item: "thermalexpansion:frame",
+		count: 5
+	},
+	{
+		uid: "b421d703",
+		type: "loot",
+		table: 0
+	}]
+}

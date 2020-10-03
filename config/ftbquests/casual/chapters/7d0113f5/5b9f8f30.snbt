@@ -1,0 +1,32 @@
+{
+	title: "§6炼铜癖",
+	x: 1.0d,
+	y: -1.5d,
+	description: "获得炼金黄铜",
+	dependencies: [
+		"469b1d74"
+	],
+	tasks: [{
+		uid: "12e76c6e",
+		type: "item",
+		items: [{
+			item: "thaumcraft:ingot 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "d78c4597",
+		type: "xp",
+		xp: 400
+	},
+	{
+		uid: "18479cba",
+		type: "item",
+		item: "thaumcraft:ingot 1 2",
+		count: 6
+	},
+	{
+		uid: "60a428ff",
+		type: "loot",
+		table: 0
+	}]
+}

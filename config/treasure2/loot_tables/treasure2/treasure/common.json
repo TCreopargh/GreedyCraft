@@ -1,0 +1,116 @@
+{
+	"version": "1.0",
+	"pools": [
+		{
+			"name": "common_keys",
+			"rolls": 1,
+			"entries": [
+				{
+					"entryName": "wood_key",
+					"type": "item",
+					"name": "treasure2:wood_key",
+					"weight": 25,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					]			
+				},
+				{
+					"entryName": "stone_key",
+					"type": "item",
+					"name": "treasure2:stone_key",
+					"weight": 25,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					]					
+				},
+				{
+					"entryName": "pilferers_lock_pick",
+					"type": "item",
+					"name": "treasure2:pilferers_lock_pick",
+					"weight": 20,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					]
+				},
+				{
+					"entryName": "iron_key",
+					"type": "item",
+					"name": "treasure2:iron_key",
+					"weight": 10
+				},
+				{
+					"entryName": "thiefs_lock_pick",
+					"type": "item",
+					"name": "treasure2:thiefs_lock_pick",
+					"weight": 10
+				}					
+			]
+		},
+		{
+			"name": "common_treasure",
+			"rolls": 1,
+			"entries": [
+				{
+					"entryName": "silver_coin",
+					"type": "item",
+					"name": "treasure2:silver_coin",
+					"weight": 25,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 0,
+								"max": 1
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "common_charms",
+			"rolls": 1,
+			"entries": [
+				{
+					"entryName": "charm1",
+					"type": "item",
+					"name": "treasure2:charmed_silver_coin",
+					"weight": 1,
+					"conditions": [
+						{
+							"condition": "random_chance",
+							"chance": 0.2
+						}
+					],					
+					"functions": [
+						{
+							"function": "treasure2:charm_randomly",
+							"charms": [
+								"lesser_healing",
+								"durable_shielding"
+								]
+						}
+					]
+				}			
+			]
+		}
+	]
+}

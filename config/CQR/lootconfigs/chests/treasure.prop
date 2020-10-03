@@ -1,0 +1,23 @@
+#############################################################
+#Documentation on the wiki                                  #
+#    https://cq-repoured.fandom.com/wiki/Loot_Configuration #
+#############################################################
+goldBlock = minecraft:gold_block,0,1,4,30
+enderPearl = minecraft:ender_pearl,0,3,6,20
+diamond = minecraft:diamond,0,2,6,50
+emerald= minecraft:emerald,0,2,6,50
+goldenApple = minecraft:golden_apple,0,1,4,20
+notchApple = minecraft:golden_apple,1,1,2,10
+dHelmet = minecraft:diamond_helmet,0,1,1,20,true,25,40,true
+dChestPlate = minecraft:diamond_chestplate,0,1,1,20,true,25,40,true
+dLeggins = minecraft:diamond_leggings,0,1,1,20,true,25,40,true
+dBoots = minecraft:diamond_boots,0,1,1,20,true,20,40,true
+bow = minecraft:bow,0,0,1,30,true,15,45,true
+dSword = minecraft:diamond_sword,0,0,1,50,true,20,30,true
+walkerSword = cqrepoured:sword_walker,0,0,1,15,true,25,50,true
+walkerShield = cqrepoured:shield_walker,0,0,1,15,true,10,30,true
+hookShot = cqrepoured:hookshot,0,1,1,20
+longShot = cqrepoured:longshot,0,1,1,15
+goldenFeather = cqrepoured:feather_golden,0,1,2,30
+teleportStone = cqrepoured:teleport_stone,0,1,1,10
+bearFist = cqrepoured:spiked_glove,0,1,2,20

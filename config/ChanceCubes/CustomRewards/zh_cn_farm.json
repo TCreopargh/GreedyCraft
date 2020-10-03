@@ -1,0 +1,30 @@
+{
+  "chancecubes:farmer_zh_cn": {
+    "chance": 35,
+    "Item": [
+      {
+        "item": {
+          "id": "minecraft:iron_hoe",
+          "Count": 1
+        }
+      },
+      {
+        "item": {
+          "id": "minecraft:bucket",
+          "Count": 1
+        }
+      },
+      {
+        "item": {
+          "id": "minecraft:wheat_seeds",
+          "Count": 16
+        }
+      }
+    ],
+    "Message": [
+      {
+        "message": "快回地里干活啦！"
+      }
+    ]
+  }
+}

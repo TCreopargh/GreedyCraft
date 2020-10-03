@@ -1,0 +1,14 @@
+{
+  "name": "§6光辉大王冠",
+  "shines": true,
+  "tooltip": [
+    "§e能将女神伊什塔尔众多权能当中一个显现的闪亮大王冠",
+    "§b§o赞助者物品 by leid_yida"
+  ],
+  "max_stack": 1,
+  "durability": 800,
+  "has_overlay": false,
+  "enchantability": 5,
+  "repair_stacks": {},
+  "type": "additions:hat"
+}

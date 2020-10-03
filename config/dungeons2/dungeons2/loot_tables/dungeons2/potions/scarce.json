@@ -1,0 +1,106 @@
+{
+	"pools": [
+		{
+			"name": "scarce_potions",
+			"rolls": 1,
+			"entries": [
+				{
+					"entryName": "potion_s1",
+					"type": "item",
+					"name": "minecraft:potion",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{Potion:\"minecraft:long_night_vision\"}"
+						}
+					]
+				},
+				{
+					"entryName": "potion_s2",
+					"type": "item",
+					"name": "minecraft:potion",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{Potion:\"minecraft:long_invisibility\"}"
+						}
+					]
+				},
+				{
+					"entryName": "potion_s3",
+					"type": "item",
+					"name": "minecraft:potion",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{Potion:\"minecraft:strong_strength\"}"
+						}
+					]
+				},
+				{
+					"entryName": "potion_s4",
+					"type": "item",
+					"name": "minecraft:potion",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{Potion:\"minecraft:long_weakness\"}"
+						}
+					]
+				},
+				{
+					"entryName": "potion_s5",
+					"type": "item",
+					"name": "minecraft:potion",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{Potion:\"minecraft:strong_leaping\"}"
+						}
+					]
+				},
+				{
+					"entryName": "potion_s6",
+					"type": "item",
+					"name": "minecraft:potion",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{Potion:\"minecraft:strong_swiftness\"}"
+						}
+					]
+				},
+				{
+					"entryName": "potion_s7",
+					"type": "item",
+					"name": "minecraft:potion",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{Potion:\"minecraft:strong_regeneration\"}"
+						}
+					]
+				},
+				{
+					"entryName": "potion_s8",
+					"type": "item",
+					"name": "minecraft:potion",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{Potion:\"minecraft:strong_poison\"}"
+						}
+					]
+				}	
+			]
+		}
+	]
+}

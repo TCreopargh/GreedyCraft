@@ -1,0 +1,53 @@
+{
+  "chancecubes:hot_tub_zh_cn": {
+    "chance": -15,
+    "Area": [
+      {
+        "xSize": 7,
+        "ySize": 1,
+        "zSize": 7,
+        "block": "minecraft:water",
+        "xOff": -3,
+        "yOff": -1,
+        "zOff": -3,
+        "falling": false,
+        "delay": 0,
+        "causesUpdate": true,
+        "relativeToPlayer": true
+      },
+      {
+        "xSize": 7,
+        "ySize": 1,
+        "zSize": 7,
+        "block": "minecraft:air",
+        "xOff": -3,
+        "yOff": -1,
+        "zOff": -3,
+        "falling": false,
+        "delay": 98,
+        "causesUpdate": true,
+        "relativeToPlayer": true
+      },
+      {
+        "xSize": 7,
+        "ySize": 1,
+        "zSize": 7,
+        "block": "minecraft:lava",
+        "xOff": -3,
+        "yOff": -1,
+        "zOff": -3,
+        "falling": false,
+        "delay": 100,
+        "causesUpdate": true,
+        "relativeToPlayer": true
+      }
+    ],
+    "Message": [
+      {
+        "message": "Œ“œÎ≈›Œ¬»™‘°£°",
+        "delay": 40,
+        "range": 25
+      }
+    ]
+  }
+}

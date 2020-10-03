@@ -1,0 +1,19 @@
+{
+	title: "§6无畏之人",
+	icon: "additions:greedycraft-bravery_certificate",
+	x: 7.5d,
+	y: 2.5d,
+	description: "只有击败天界的女武神并取得§6勇者之证§7的人才能探索恐惧之地",
+	tasks: [{
+		uid: "b6910a92",
+		type: "gamestage",
+		stage: "fearless_man"
+	},
+	{
+		uid: "f08ce938",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-bravery_certificate"
+		}]
+	}]
+}

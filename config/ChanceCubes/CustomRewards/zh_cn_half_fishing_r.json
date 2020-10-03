@@ -1,0 +1,14 @@
+{
+  "chancecubes:half_fishing_rod_zh_cn": {
+    "chance": 5,
+    "Item": [
+      {
+        "item": {
+          "id": "minecraft:fishing_rod",
+          "Count": 1,
+          "Damage": 20
+        }
+      }
+    ]
+  }
+}

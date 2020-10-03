@@ -1,0 +1,35 @@
+{
+	title: "§b注魔加速",
+	x: 1.0d,
+	y: 1.0d,
+	description: "获得加速注魔的物品",
+	dependencies: [
+		"a72c38cb"
+	],
+	tasks: [{
+		uid: "9fd8b332",
+		type: "item",
+		items: [{
+			item: "thaumcraft:matrix_speed"
+		},
+		{
+			item: "thaumcraft:matrix_cost"
+		}]
+	}],
+	rewards: [{
+		uid: "265047ae",
+		type: "xp",
+		xp: 1300
+	},
+	{
+		uid: "9d80fc3b",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "fdc849a9",
+		type: "item",
+		item: "thaumcraft:alumentum",
+		count: 4
+	}]
+}

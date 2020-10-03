@@ -1,0 +1,49 @@
+{
+	title: "§a守护者II",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "minecraft:chainmail_chestplate"
+	},
+	x: 2.0d,
+	y: -1.0d,
+	description: "累计受到指定伤害",
+	dependencies: [
+		"74684c10"
+	],
+	tasks: [{
+		uid: "e8a4ebbc",
+		type: "stat",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:iron_chestplate"
+		},
+		stat: "stat.damageTaken",
+		value: 50000
+	}],
+	rewards: [{
+		uid: "c3392521",
+		type: "item",
+		item: "tconstruct:materials 1 14",
+		count: 16
+	},
+	{
+		uid: "db407665",
+		type: "item",
+		item: "conarm:resist_mat",
+		count: 16
+	},
+	{
+		uid: "ebdbb234",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "8823d8b8",
+		type: "loot",
+		table: 0
+	}]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "熟人肉",
+  "ore_dict": [
+    "foodMeat",
+    "listAllmeatcooked",
+    "foodMeatCooked"
+  ],
+  "hunger": 8,
+  "saturation": 0.45,
+  "type": "additions:food"
+}

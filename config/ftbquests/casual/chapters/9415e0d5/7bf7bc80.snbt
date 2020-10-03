@@ -1,0 +1,45 @@
+{
+	title: "§b超大背包",
+	x: 4.0d,
+	y: -0.5d,
+	description: "获得一个背包",
+	tasks: [{
+		uid: "f0a0c9c5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ironbackpacks:backpack",
+			tag: {
+				packInfo: {
+					upgrade: [],
+					type: "ironbackpacks:basic",
+					spec: "NONE"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "57de7dd5",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "0177efb0",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "cd38dea8",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:purple_shulker_box"
+		},
+		count: 3
+	}]
+}

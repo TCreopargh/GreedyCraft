@@ -1,0 +1,16 @@
+{
+  "chancecubes:explosion_zh_cn": {
+    "chance": 0,
+    "Particle": [
+      {
+        "particle": "hugeexplosion"
+      }
+    ],
+    "Sound": [
+      {
+        "sound": "entity.generic.explode",
+        "playAtPlayersLocation": true
+      }
+    ]
+  }
+}

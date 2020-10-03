@@ -1,0 +1,7 @@
+{
+  "name": "mixed_cobble",
+  "blocks": [
+    "minecraft:cobblestone",
+    "minecraft:mossy_cobblestone"
+  ]
+} 

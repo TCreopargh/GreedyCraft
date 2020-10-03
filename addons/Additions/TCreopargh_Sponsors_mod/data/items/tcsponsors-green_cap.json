@@ -1,0 +1,13 @@
+{
+  "name": "§a原谅帽",
+  "tooltip": [
+    "§2乖，戴正，别歪了",
+    "§b§o赞助者物品 by 邓耍宝"
+  ],
+  "max_stack": 1,
+  "durability": 1500,
+  "has_overlay": false,
+  "enchantability": 0,
+  "repair_stacks": {},
+  "type": "additions:hat"
+}

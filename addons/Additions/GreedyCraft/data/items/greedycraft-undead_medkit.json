@@ -1,0 +1,25 @@
+{
+  "name": "§2医疗箱（亡灵专用）",
+  "tooltip": [
+    "§6专为不死族研制的医疗箱！",
+    "§2注意：亡灵专用，其余种族若使用后果自负",
+    "§d§l专家模式专属"
+  ],
+  "hunger": 0,
+  "saturation": 0.0,
+  "always_edible": true,
+  "eat_time": 10,
+  "eaten_effects": [
+    {
+      "potion": {
+        "name": "minecraft:instant_damage",
+        "duration": 1,
+        "amplifier": 3,
+        "ambient": false,
+        "show_particles": true
+      },
+      "type": "additions:potion"
+    }
+  ],
+  "type": "additions:food"
+}

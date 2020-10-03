@@ -1,0 +1,38 @@
+{
+  "name": "§1便便",
+  "burn_time": 12000,
+  "tooltip": [
+    "§1怎么这么臭啊！",
+    "§8可以用来换EMC",
+    "§8也可以当作不错的沼气燃料（呕）"
+  ],
+  "max_stack": 63,
+  "ore_dict": "itemPoop",
+  "hunger": 1,
+  "saturation": 1.0,
+  "wolves_eat": true,
+  "always_edible": true,
+  "eaten_effects": [
+    {
+      "potion": {
+        "name": "minecraft:nausea",
+        "duration": 1200,
+        "amplifier": 127,
+        "ambient": false,
+        "show_particles": true
+      },
+      "type": "additions:potion"
+    },
+    {
+      "potion": {
+        "name": "minecraft:poison",
+        "duration": 300,
+        "amplifier": 3,
+        "ambient": false,
+        "show_particles": true
+      },
+      "type": "additions:potion"
+    }
+  ],
+  "type": "additions:food"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "鹅卵石",
+  "tooltip": [
+    "§7洁白而光滑。",
+    "§7可被Cyclic的弹弓发射"
+  ],
+  "ore_dict": [
+    "stonePebble",
+    "pebble",
+    "rock"
+  ],
+  "type": "additions:simple"
+}

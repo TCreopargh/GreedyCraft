@@ -1,0 +1,23 @@
+{
+  "cause": {
+    "item": {
+      "item": "additions:greedycraft-tower_chest_unlocked",
+      "damage": "any"
+    },
+    "type": "additions:item_right_click"
+  },
+  "effects": [
+    {
+      "type": "additions:consume_item"
+    },
+    {
+      "loot_table": "additions:greedycraft-tower_chest_loot_table",
+      "type": "additions:loot_table_at"
+    },
+    {
+      "command": "/particle cloud ~ ~ ~ 0.5 1 0.5 0.3 60 force",
+      "command_sender_name": "",
+      "type": "additions:command"
+    }
+  ]
+}

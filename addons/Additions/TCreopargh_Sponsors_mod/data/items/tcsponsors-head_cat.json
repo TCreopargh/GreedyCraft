@@ -1,0 +1,21 @@
+{
+  "name": "§6戴在头上的猫",
+  "tooltip": [
+    "§e暖暖的好舒服呀~",
+    "§b§o赞助者物品 by Frank__Zero"
+  ],
+  "max_stack": 1,
+  "attribute_modifiers": [
+    {
+      "attribute_name": "generic.luck",
+      "amount": 1.5,
+      "slot": "head",
+      "uuid": "511850ed-c333-4ca7-965f-8e950c9cff05"
+    }
+  ],
+  "durability": 500,
+  "has_overlay": false,
+  "enchantability": 20,
+  "repair_stacks": {},
+  "type": "additions:hat"
+}

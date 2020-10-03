@@ -1,0 +1,43 @@
+{
+	title: "怪物猎人I",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "minecraft:wooden_sword"
+	},
+	x: -3.0d,
+	y: -3.0d,
+	description: "击杀指定数量的生物",
+	tasks: [{
+		uid: "60d4757a",
+		type: "stat",
+		stat: "stat.mobKills",
+		value: 100
+	}],
+	rewards: [{
+		uid: "59c807d1",
+		type: "item",
+		item: "tinymobfarm:wood_farm"
+	},
+	{
+		uid: "9ebc87d6",
+		type: "xp",
+		xp: 250
+	},
+	{
+		uid: "5471ac95",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "405633b4",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thermalfoundation:tool.sword_bronze"
+		}
+	}]
+}

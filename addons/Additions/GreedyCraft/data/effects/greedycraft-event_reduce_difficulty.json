@@ -1,0 +1,17 @@
+{
+  "cause": {
+    "item": {
+      "item": "additions:greedycraft-difficulty_changer",
+      "damage": "any"
+    },
+    "type": "additions:item_left_click"
+  },
+  "effects": [
+    {
+      "command": "/scalinghealth difficulty sub 10 @p",
+      "command_sender_name": "",
+      "hide_feedback": false,
+      "type": "additions:command"
+    }
+  ]
+}

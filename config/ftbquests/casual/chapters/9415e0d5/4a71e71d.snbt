@@ -1,0 +1,45 @@
+{
+	title: "§e专业搬家",
+	x: -4.0d,
+	y: 9.5d,
+	description: "获得搬箱器",
+	tasks: [{
+		uid: "8898d8fd",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "chesttransporter:chesttransporter",
+			tag: {}
+		}]
+	}],
+	rewards: [{
+		uid: "b2b60fd9",
+		type: "item",
+		item: "minecraft:leather",
+		count: 10
+	},
+	{
+		uid: "7c5b48b4",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "chesttransporter:chesttransporter_obsidian",
+			tag: {}
+		},
+		count: 4
+	},
+	{
+		uid: "60abb604",
+		type: "xp",
+		xp: 70
+	},
+	{
+		uid: "bfc461fb",
+		type: "loot",
+		table: 0
+	}]
+}

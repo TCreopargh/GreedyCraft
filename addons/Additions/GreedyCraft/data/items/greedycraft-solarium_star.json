@@ -1,0 +1,10 @@
+{
+  "name": "§6日耀之星",
+  "shines": true,
+  "tooltip": [
+    "§e拿在手上右键以解锁游戏阶段§6descendant_of_the_sun",
+    "§6同时在下界会出现新的矿物"
+  ],
+  "ore_dict": "gemSolariumStar",
+  "type": "additions:simple"
+}

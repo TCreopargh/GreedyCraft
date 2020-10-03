@@ -1,0 +1,40 @@
+{
+	title: "§a魔力木头",
+	x: -10.0d,
+	y: -1.5d,
+	description: "获得活木",
+	dependencies: [
+		"b53cb9e7"
+	],
+	tasks: [{
+		uid: "8ec0ab31",
+		type: "item",
+		items: [{
+			item: "botania:livingwood"
+		}]
+	}],
+	rewards: [{
+		uid: "31af175d",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "8f04ae4e",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:twigwand",
+			tag: {
+				color1: 0,
+				color2: 0
+			}
+		}
+	},
+	{
+		uid: "b174389a",
+		type: "loot",
+		table: 0
+	}]
+}

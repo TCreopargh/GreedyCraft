@@ -1,0 +1,25 @@
+{
+	title: "§6切换为: §6§n冒险模式",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "minecraft:diamond_sword"
+	},
+	x: 5.5d,
+	y: -0.625d,
+	can_repeat: true,
+	size: 2.5d,
+	tasks: [{
+		uid: "666dc188",
+		type: "checkmark",
+		title: "§6点击以切换为冒险模式"
+	}],
+	rewards: [{
+		uid: "2a015ae7",
+		type: "command",
+		auto: "no_toast",
+		command: "/packmode adventure",
+		player_command: true
+	}]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "§4真·血之印记",
+  "shines": true,
+  "tooltip": [
+    "§e使用右键召唤血月",
+    "§e使用左键取消血月",
+    "§b可无限使用"
+  ],
+  "max_stack": 1,
+  "type": "additions:simple"
+}

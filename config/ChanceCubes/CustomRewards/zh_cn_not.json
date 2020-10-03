@@ -1,0 +1,19 @@
+{
+  "chancecubes:notch_zh_cn": {
+    "chance": 70,
+    "Item": [
+      {
+        "item": {
+          "id": "minecraft:golden_apple",
+          "Count": 1,
+          "Damage": 1,
+          "tag": {
+            "display": {
+              "Name": "Notch"
+            }
+          }
+        }
+      }
+    ]
+  }
+}

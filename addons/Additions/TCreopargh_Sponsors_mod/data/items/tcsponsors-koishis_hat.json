@@ -1,0 +1,13 @@
+{
+  "name": "§a古明地恋的帽子",
+  "tooltip": [
+    "§e无意识把帽子丢在这个世界了呢...",
+    "§b§o赞助者物品 by kili_small"
+  ],
+  "max_stack": 1,
+  "durability": 800,
+  "has_overlay": false,
+  "enchantability": 20,
+  "repair_stacks": {},
+  "type": "additions:hat"
+}

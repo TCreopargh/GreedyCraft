@@ -1,0 +1,119 @@
+{
+	"version": "1.0",
+	"pools": [
+		{
+			"name": "rare_potions",
+			"rolls": 1,
+			"entries": [
+				{
+					"entryName": "potion_r1",
+					"type": "item",
+					"name": "minecraft:potion",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{Potion:\"minecraft:long_swiftness\"}"
+						}
+					]
+				},
+				{
+					"entryName": "potion_r2",
+					"type": "item",
+					"name": "minecraft:potion",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{Potion:\"minecraft:long_fire_resistance\"}"
+						}
+					]
+				},
+				{
+					"entryName": "potion_r3",
+					"type": "item",
+					"name": "minecraft:potion",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{Potion:\"minecraft:long_strength\"}"
+						}
+					]
+				},
+				{
+					"entryName": "potion_r4",
+					"type": "item",
+					"name": "minecraft:potion",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{Potion:\"minecraft:strong_healing\"}"
+						}
+					]
+				},
+				{
+					"entryName": "potion_r5",
+					"type": "item",
+					"name": "minecraft:potion",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{Potion:\"minecraft:long_leaping\"}"
+						}
+					]
+				},
+				{
+					"entryName": "potion_r6",
+					"type": "item",
+					"name": "minecraft:potion",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{Potion:\"minecraft:strong_harming\"}"
+						}
+					]
+				},
+				{
+					"entryName": "potion_r7",
+					"type": "item",
+					"name": "minecraft:potion",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{Potion:\"minecraft:long_regeneration\"}"
+						}
+					]
+				},
+				{
+					"entryName": "potion_r8",
+					"type": "item",
+					"name": "minecraft:potion",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{Potion:\"minecraft:luck\"}"
+						}
+					]
+				},
+				{
+					"entryName": "potion_r9",
+					"type": "item",
+					"name": "minecraft:potion",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{Potion:\"minecraft:long_poison\"}"
+						}
+					]
+				}				
+			]
+		}
+	]
+}

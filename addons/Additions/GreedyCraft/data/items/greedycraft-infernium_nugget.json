@@ -1,0 +1,6 @@
+{
+  "name": "§6永燃粒",
+  "burn_time": 1000,
+  "ore_dict": "nuggetInfernium",
+  "type": "additions:simple"
+}

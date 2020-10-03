@@ -1,0 +1,22 @@
+{
+	title: "§e天界之门",
+	icon: "minecraft:glowstone",
+	x: 1.5d,
+	y: 0.0d,
+	description: "用萤石搭成地狱门的形状然后在里面浇一桶水以到达天境！",
+	tasks: [{
+		uid: "b6d30593",
+		type: "dimension",
+		dim: 4
+	}],
+	rewards: [{
+		uid: "b557516c",
+		type: "xp",
+		xp: 400
+	},
+	{
+		uid: "261d1581",
+		type: "loot",
+		table: 1
+	}]
+}

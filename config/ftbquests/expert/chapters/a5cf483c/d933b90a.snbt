@@ -1,0 +1,38 @@
+{
+	title: "更好的共振器",
+	x: 14.0d,
+	y: 4.0d,
+	description: "获得艾克斯共振器",
+	dependencies: [
+		"470b67b1"
+	],
+	tasks: [{
+		uid: "8a34e4ed",
+		type: "item",
+		items: [{
+			id: "astralsorcery:itemskyresonator",
+			tag: {
+				astralsorcery: {
+					enhanced: 1b,
+					upgrades: [
+						0,
+						1,
+						2
+					]
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "0f60ff37",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "916f31da",
+		type: "xp",
+		xp: 5200
+	}]
+}

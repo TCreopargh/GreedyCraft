@@ -1,0 +1,40 @@
+{
+  "chancecubes:cave_spider_web_zh_cn": {
+    "chance": -30,
+    "Area": [
+      {
+        "xSize": 7,
+        "ySize": 4,
+        "zSize": 7,
+        "block": "minecraft:web",
+        "xOff": -3,
+        "yOff": 0,
+        "zOff": -3,
+        "falling": false,
+        "delay": 0,
+        "causesUpdate": false,
+        "relativeToPlayer": true
+      }
+    ],
+    "Command": [
+      {
+        "command": "/summon cave_spider ~ ~1 ~ {CustomName:\"CascadingDongs\",CustomNameVisible:1}"
+      },
+      {
+        "command": "/summon cave_spider ~ ~1 ~ {CustomName:\"CascadingDongs\",CustomNameVisible:1}"
+      },
+      {
+        "command": "/summon cave_spider ~ ~1 ~ {CustomName:\"CascadingDongs\",CustomNameVisible:1}"
+      },
+      {
+        "command": "/summon cave_spider ~ ~1 ~ {CustomName:\"CascadingDongs\",CustomNameVisible:1}"
+      },
+      {
+        "command": "/summon cave_spider ~ ~1 ~ {CustomName:\"CascadingDongs\",CustomNameVisible:1}"
+      },
+      {
+        "command": "/summon cave_spider ~ ~1 ~ {CustomName:\"CascadingDongs\",CustomNameVisible:1}"
+      }
+    ]
+  }
+}

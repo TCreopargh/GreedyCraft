@@ -1,0 +1,9 @@
+{
+  "name": "§6福袋",
+  "shines": true,
+  "tooltip": [
+    "§6有可能开出专家模式的专属物品！",
+    "§d§l专家模式专属"
+  ],
+  "type": "additions:simple"
+}

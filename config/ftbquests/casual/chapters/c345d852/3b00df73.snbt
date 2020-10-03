@@ -1,0 +1,26 @@
+{
+	title: "蒸馏工艺",
+	x: -11.0d,
+	y: -2.5d,
+	description: "获得蒸馏器",
+	dependencies: [
+		"99f6417a"
+	],
+	tasks: [{
+		uid: "2379d819",
+		type: "item",
+		items: [{
+			item: "forestry:still"
+		}]
+	}],
+	rewards: [{
+		uid: "7ec89602",
+		type: "xp",
+		xp: 250
+	},
+	{
+		uid: "dc53dbbe",
+		type: "loot",
+		table: 0
+	}]
+}

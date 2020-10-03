@@ -1,0 +1,28 @@
+{
+	title: "§b免费的§d难度调节器§b！",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "additions:greedycraft-difficulty_changer"
+	},
+	x: -10.0d,
+	y: -4.0d,
+	description: "由于你处于休闲模式，可以免费领取难度调节器",
+	can_repeat: true,
+	tasks: [{
+		uid: "639df03e",
+		type: "checkmark",
+		title: "点击领取!"
+	}],
+	rewards: [{
+		uid: "89119289",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "additions:greedycraft-difficulty_changer"
+		}
+	}]
+}

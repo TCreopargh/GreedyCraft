@@ -1,0 +1,32 @@
+{
+	title: "§6此木只应天上有",
+	x: 4.0d,
+	y: -4.0d,
+	description: "获得聚星木",
+	dependencies: [
+		"64609cf0"
+	],
+	tasks: [{
+		uid: "62c5db5b",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockinfusedwood"
+		}]
+	}],
+	rewards: [{
+		uid: "f0b8778b",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "4eeacce0",
+		type: "xp",
+		xp: 520
+	},
+	{
+		uid: "bc500c8e",
+		type: "item",
+		item: "astralsorcery:blockinfusedwood 1 4",
+		count: 20
+	}]
+}

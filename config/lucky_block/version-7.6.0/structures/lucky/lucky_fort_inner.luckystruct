@@ -1,0 +1,10 @@
+>properties
+length=3
+height=1
+width=3
+
+>blocks
+0,0,0,lucky:lucky_block,0,(Luck=75)
+2,0,0,lucky:lucky_block,0,(Luck=75)
+0,0,2,lucky:lucky_block,0,(Luck=75)
+2,0,2,lucky:lucky_block,0,(Luck=75)

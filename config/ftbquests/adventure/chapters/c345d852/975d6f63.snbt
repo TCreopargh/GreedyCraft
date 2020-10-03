@@ -1,0 +1,26 @@
+{
+	title: "§b加湿器",
+	x: 1.5d,
+	y: -2.5d,
+	description: "获得加湿器",
+	dependencies: [
+		"99f6417a"
+	],
+	tasks: [{
+		uid: "db685450",
+		type: "item",
+		items: [{
+			item: "forestry:moistener"
+		}]
+	}],
+	rewards: [{
+		uid: "b4413180",
+		type: "xp",
+		xp: 250
+	},
+	{
+		uid: "5b369ed9",
+		type: "loot",
+		table: 0
+	}]
+}

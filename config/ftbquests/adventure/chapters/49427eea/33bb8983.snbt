@@ -1,0 +1,9 @@
+{
+	x: 8.0d,
+	y: 3.5d,
+	tasks: [{
+		uid: "b14714c0",
+		type: "gamestage",
+		stage: "hardmode"
+	}]
+}

@@ -1,0 +1,14 @@
+{
+  "chancecubes:chat_message_zh_cn": {
+    "chance": 0,
+    "Message": [
+      {
+        "message": "§3你已经逃脱了机会方块的怒火..."
+      },
+      {
+        "message": "§3暂时......",
+        "delay": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+	title: "§6自动化合成入门",
+	x: 10.5d,
+	y: -0.5d,
+	description: "获得合成存储器",
+	dependencies: [
+		"73ac3790",
+		"98666cd5"
+	],
+	tasks: [{
+		uid: "d4c4febb",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:crafting_storage_1k"
+		}]
+	}],
+	rewards: [{
+		uid: "856ee595",
+		type: "item",
+		item: "appliedenergistics2:crafting_storage_16k"
+	},
+	{
+		uid: "f727c09a",
+		type: "item",
+		item: "appliedenergistics2:material 1 36",
+		count: 8
+	},
+	{
+		uid: "a7c68e17",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "839cac36",
+		type: "xp",
+		xp: 1000
+	}]
+}

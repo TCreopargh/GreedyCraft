@@ -1,0 +1,11 @@
+{
+  "name": "§d逍遥Tu的置换魔杖",
+  "shines": true,
+  "tooltip": [
+    "§6世界上的所有交换都得付出一定的代价…不是吗…？",
+    "§e使用后，消耗一些血量换取一些饥饿值",
+    "§b§o赞助者物品 by 逍遥Tu"
+  ],
+  "max_stack": 1,
+  "type": "additions:simple"
+}

@@ -1,0 +1,43 @@
+{
+	title: "§d创造之力",
+	x: 6.0d,
+	y: 9.5d,
+	description: "获得创造之魂",
+	tasks: [{
+		uid: "ecca3399",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-creative_soul"
+		}]
+	}],
+	rewards: [{
+		uid: "c2898861",
+		type: "xp",
+		xp: 50000
+	},
+	{
+		uid: "25e55f01",
+		type: "loot",
+		table: 3
+	},
+	{
+		uid: "917febf4",
+		type: "loot",
+		table: 3
+	},
+	{
+		uid: "5f0d2df9",
+		type: "loot",
+		table: 3
+	},
+	{
+		uid: "ec4f1c25",
+		type: "loot",
+		table: 3
+	},
+	{
+		uid: "1606965d",
+		type: "loot",
+		table: 3
+	}]
+}

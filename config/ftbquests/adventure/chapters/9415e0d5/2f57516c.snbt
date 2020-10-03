@@ -1,0 +1,61 @@
+{
+	title: "村庄破坏者",
+	icon: "minecraft:iron_block",
+	x: -8.0d,
+	y: 1.5d,
+	description: "杀死一个铁傀儡",
+	tasks: [{
+		uid: "28fe4693",
+		type: "kill",
+		entity: "minecraft:villager_golem",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "49dceab0",
+		type: "item",
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:villager"
+				}
+			}
+		}
+	},
+	{
+		uid: "d04bcf2f",
+		type: "item",
+		item: "cyclicmagic:apple_emerald",
+		count: 2
+	},
+	{
+		uid: "786ca544",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "35c34014",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "0381707b",
+		type: "item",
+		item: {
+			id: "minecraft:written_book",
+			tag: {
+				pages: [
+					"{\"text\":\"§c实验记录 §6#11\\n\\n§0Alpha刚刚进入了一个村庄并屠了村。\\n如果Alpha真的是智慧生命的话，那真是太可怕了。\\n\\n§9实验员: §6J\"}"
+				],
+				author: "J",
+				title: "§b实验记录 §6#11",
+				resolved: 1b
+			}
+		}
+	},
+	{
+		uid: "f14d26d0",
+		type: "item",
+		item: "bountiful:bountyboarditem"
+	}]
+}

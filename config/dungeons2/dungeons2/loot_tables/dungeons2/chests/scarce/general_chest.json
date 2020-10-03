@@ -1,0 +1,145 @@
+{
+	"pools": [
+		{
+			"name": "items",
+			"rolls": {
+				"min": 2,
+				"max": 3
+			},
+			"entries": [
+                {
+                    "type": "loot_table",
+                    "name": "dungeons2:loot_tables/dungeons2/items/scarce",
+                    "weight": 1
+                }
+			]
+		},
+		{
+			"name": "armor",
+			"rolls": {
+				"min": 0,
+				"max": 2
+			},
+			"entries": [
+	                {
+                    "type": "loot_table",
+                    "name": "dungeons2:loot_tables/dungeons2/armor/scarce",
+                    "weight": 1
+                }		
+			]
+		},
+		{
+			"name": "food",
+			"rolls": {
+				"min": 0,
+				"max": 1
+			},
+			"entries": [
+	                {
+                    "type": "loot_table",
+                    "name": "dungeons2:loot_tables/dungeons2/food/scarce",
+                    "weight": 1
+                }				
+			]
+		},
+		{
+			"name": "tools",
+			"rolls": {
+				"min": 0,
+				"max": 1
+			},
+			"entries": [
+	            {
+                    "type": "loot_table",
+                    "name": "dungeons2:loot_tables/dungeons2/tools/scarce",
+                    "weight": 1
+                }				
+			]
+		},
+		{
+			"name": "potions",
+			"rolls": {
+				"min": 1,
+				"max": 2
+			},
+			"entries": [
+		            {
+                    "type": "loot_table",
+                    "name": "dungeons2:loot_tables/dungeons2/potions/scarce",
+                    "weight": 1
+                }			
+			]
+		},
+
+		{
+			"name": "uncommon_items",
+			"rolls": {
+				"min": 0,
+				"max": 4
+			},
+			"entries": [
+                {
+                    "type": "loot_table",
+                    "name": "dungeons2:loot_tables/dungeons2/items/uncommon",
+                    "weight": 1
+                }
+			]
+		},
+		{
+			"name": "uncommon_armor",
+			"rolls": {
+				"min": 0,
+				"max": 2
+			},
+			"entries": [
+	                {
+                    "type": "loot_table",
+                    "name": "dungeons2:loot_tables/dungeons2/armor/uncommon",
+                    "weight": 1
+                }		
+			]
+		},
+		{
+			"name": "uncommon_food",
+			"rolls": {
+				"min": 0,
+				"max": 2
+			},
+			"entries": [
+	                {
+                    "type": "loot_table",
+                    "name": "dungeons2:loot_tables/dungeons2/food/uncommon",
+                    "weight": 1
+                }				
+			]
+		},
+		{
+			"name": "uncommon_tools",
+			"rolls": {
+				"min": 0,
+				"max": 1
+			},
+			"entries": [
+	            {
+                    "type": "loot_table",
+                    "name": "dungeons2:loot_tables/dungeons2/tools/uncommon",
+                    "weight": 1
+                }				
+			]
+		},
+		{
+			"name": "uncommon_potions",
+			"rolls": {
+				"min": 0,
+				"max": 2
+			},
+			"entries": [
+		            {
+                    "type": "loot_table",
+                    "name": "dungeons2:loot_tables/dungeons2/potions/uncommon",
+                    "weight": 1
+                }			
+			]
+		}		
+	]
+}

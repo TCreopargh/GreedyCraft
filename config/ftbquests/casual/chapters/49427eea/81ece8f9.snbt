@@ -1,0 +1,29 @@
+{
+	title: "新型矿物",
+	x: -12.0d,
+	y: 3.5d,
+	description: "获得锇矿",
+	tasks: [{
+		uid: "f0fbd4c5",
+		type: "item",
+		items: [{
+			item: "mekanism:oreblock"
+		}]
+	}],
+	rewards: [{
+		uid: "44d9d6aa",
+		type: "item",
+		item: "mekanism:oreblock",
+		count: 6
+	},
+	{
+		uid: "e5cc23ce",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "7ae4f98e",
+		type: "loot",
+		table: 0
+	}]
+}

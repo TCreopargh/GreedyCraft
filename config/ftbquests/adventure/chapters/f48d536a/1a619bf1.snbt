@@ -1,0 +1,47 @@
+{
+	title: "§c结晶器",
+	x: 10.0d,
+	y: 1.5d,
+	description: "获得结晶器",
+	dependencies: [
+		"3ed4aeae"
+	],
+	tasks: [{
+		uid: "f58baf73",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:crystallizer"
+		}]
+	}],
+	rewards: [{
+		uid: "d6f19c43",
+		type: "xp",
+		xp: 7500
+	},
+	{
+		uid: "335d23bc",
+		type: "item",
+		item: "abyssalcraft:crystal",
+		count: 16
+	},
+	{
+		uid: "79296454",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "liquidcoralium",
+				Amount: 1000
+			}
+		},
+		count: 8
+	},
+	{
+		uid: "938ded51",
+		type: "loot",
+		table: 1
+	}]
+}

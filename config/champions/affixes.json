@@ -1,0 +1,114 @@
+[
+  {
+    "identifier": "vortex",
+    "enabled": true,
+    "entityBlacklist": [],
+    "alwaysOnEntity": [],
+    "tier": 1
+  },
+  {
+    "identifier": "cinder",
+    "enabled": true,
+    "entityBlacklist": [],
+    "alwaysOnEntity": [],
+    "tier": 1
+  },
+  {
+    "identifier": "arctic",
+    "enabled": true,
+    "entityBlacklist": [],
+    "alwaysOnEntity": [],
+    "tier": 1
+  },
+  {
+    "identifier": "desecrator",
+    "enabled": true,
+    "entityBlacklist": [],
+    "alwaysOnEntity": [],
+    "tier": 1
+  },
+  {
+    "identifier": "scrapper",
+    "enabled": true,
+    "entityBlacklist": [],
+    "alwaysOnEntity": [],
+    "tier": 1
+  },
+  {
+    "identifier": "reflecting",
+    "enabled": false,
+    "entityBlacklist": [],
+    "alwaysOnEntity": [],
+    "tier": 2
+  },
+  {
+    "identifier": "knockback",
+    "enabled": true,
+    "entityBlacklist": [],
+    "alwaysOnEntity": [],
+    "tier": 1
+  },
+  {
+    "identifier": "jailer",
+    "enabled": true,
+    "entityBlacklist": [],
+    "alwaysOnEntity": [],
+    "tier": 1
+  },
+  {
+    "identifier": "dampening",
+    "enabled": true,
+    "entityBlacklist": [],
+    "alwaysOnEntity": [],
+    "tier": 1
+  },
+  {
+    "identifier": "lively",
+    "enabled": true,
+    "entityBlacklist": [],
+    "alwaysOnEntity": [],
+    "tier": 1
+  },
+  {
+    "identifier": "adaptable",
+    "enabled": true,
+    "entityBlacklist": [],
+    "alwaysOnEntity": [],
+    "tier": 1
+  },
+  {
+    "identifier": "infested",
+    "enabled": true,
+    "entityBlacklist": [],
+    "alwaysOnEntity": [],
+    "tier": 2
+  },
+  {
+    "identifier": "hasty",
+    "enabled": true,
+    "entityBlacklist": [],
+    "alwaysOnEntity": [],
+    "tier": 1
+  },
+  {
+    "identifier": "shielding",
+    "enabled": false,
+    "entityBlacklist": [],
+    "alwaysOnEntity": [],
+    "tier": 2
+  },
+  {
+    "identifier": "molten",
+    "enabled": true,
+    "entityBlacklist": [],
+    "alwaysOnEntity": [],
+    "tier": 1
+  },
+  {
+    "identifier": "plagued",
+    "enabled": true,
+    "entityBlacklist": [],
+    "alwaysOnEntity": [],
+    "tier": 1
+  }
+]

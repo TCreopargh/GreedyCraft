@@ -1,0 +1,6 @@
+{
+  "name": "§b死亡计数器",
+  "shines": false,
+  "tooltip": "§7§o拿在手上右键以显示当前所有玩家的死亡数",
+  "type": "additions:simple"
+}

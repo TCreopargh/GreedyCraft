@@ -1,0 +1,19 @@
+{
+  "chancecubes:horde_zh_cn": {
+    "chance": -25,
+    "Message": [
+      {
+        "message": "¡ì2´ó¾üÑ¹¾³£¡",
+        "range": 25
+      }
+    ],
+    "Entity": [
+      {
+        "entity": {
+          "id": "Zombie"
+        },
+        "copies": 15
+      }
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "§d黑白大盗的扫把",
+  "shines": true,
+  "tooltip": [
+    "§a魔理沙は大変なものを盗んでいきました",
+	"§e拿在手上时让你跑得更快",
+    "§b§o赞助者物品 by Mariarisaikou"
+  ],
+  "max_stack": 1,
+  "attribute_modifiers": [
+    {
+      "attribute_name": "generic.attackDamage",
+      "amount": 4.5,
+      "slot": "mainhand",
+      "uuid": "cbaaa5a2-641c-4f28-a437-9c13435daacf"
+    },
+	{
+      "attribute_name": "generic.movementSpeed",
+      "amount": 0.15000000149011612,
+      "slot": "mainhand",
+      "uuid": "daaa0ccb-a28a-47fc-b2ab-20d44552e6a1"
+    }
+  ],
+  "material": "ADDITIONS-TCSPONSORS-DEEP_SEA_PREDATOR_MATERIAL",
+  "type": "additions:sword"
+}

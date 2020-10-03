@@ -1,0 +1,58 @@
+{
+	"version" : "1.0.0",
+	"pools": [
+		{
+			"name": "treasure",
+			"rolls": 2,
+			"entries": [
+                {
+                    "type": "loot_table",
+                    "name": "treasure2:loot_tables/treasure2/treasure/common",
+                    "weight": 30
+                }
+			]
+		},	
+		{
+			"name": "items",
+			"rolls": {
+				"min": 1,
+				"max": 5
+			},
+			"entries": [
+                {
+                    "type": "loot_table",
+                    "name": "treasure2:loot_tables/treasure2/items/common",
+                    "weight": 1
+                }
+			]
+		},
+
+		{
+			"name": "food",
+			"rolls": 3,
+			"entries": [
+                {
+                    "type": "loot_table",
+                    "name": "treasure2:loot_tables/treasure2/food/common",
+                    "weight": 1
+                }			
+			]
+		},
+
+		{
+			"name": "potions",
+			"rolls": {
+				"min":0,
+				"max": 3
+			},
+			"entries": [
+                {
+                	"entryName": "common_potion",
+                    "type": "loot_table",
+                    "name": "treasure2:loot_tables/treasure2/potions/common",
+                    "weight": 1
+                }               
+			]
+		}
+	]
+}

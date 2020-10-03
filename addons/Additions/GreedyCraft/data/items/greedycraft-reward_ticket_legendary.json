@@ -1,0 +1,6 @@
+{
+  "name": "奖励箱兑换券§6 [传说]",
+  "shines": true,
+  "tooltip": "§7放入合成台或拿在手上右键以获得一个§6传说§r§7奖励箱",
+  "type": "additions:simple"
+}

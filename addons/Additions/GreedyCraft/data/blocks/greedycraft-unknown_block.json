@@ -1,0 +1,21 @@
+{
+  "item_block": {
+    "name": "§5§ka§r §d未知方块 §5§ka§r",
+    "tooltip": [
+      "§d§o你目前的知识还不足以了解它。",
+      "§7(这个真的不是幸运方块)"
+    ],
+    "ore_dict": "blockUnknown",
+    "type": "additions:block_simple"
+  },
+  "name": "§5§ka§r §d未知方块 §5§ka§r",
+  "material": "minecraft:stone",
+  "place_sound": "minecraft:block.metal.place",
+  "break_sound": "minecraft:block.metal.break",
+  "step_sound": "minecraft:block.stone.step",
+  "map_color": "minecraft:pink",
+  "hardness": 25.0,
+  "resistance": 50000.0,
+  "can_pistons_push": false,
+  "type": "additions:simple"
+}

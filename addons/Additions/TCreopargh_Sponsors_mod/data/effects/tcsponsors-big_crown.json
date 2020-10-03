@@ -1,0 +1,37 @@
+{
+  "cause": {
+    "equipment": [
+      {
+        "slot": "head",
+        "item": {
+          "item": "additions:tcsponsors-glorious_crown",
+          "damage": "any"
+        }
+      }
+    ],
+    "pieces_required": 1,
+    "type": "additions:item_equipped"
+  },
+  "effects": [
+    {
+      "potion": {
+        "name": "minecraft:night_vision",
+        "duration": 250,
+        "amplifier": 0,
+        "ambient": false,
+        "show_particles": true
+      },
+      "type": "additions:potion"
+    },
+    {
+      "potion": {
+        "name": "minecraft:fire_resistance",
+        "duration": 50,
+        "amplifier": 0,
+        "ambient": false,
+        "show_particles": true
+      },
+      "type": "additions:potion"
+    }
+  ]
+}

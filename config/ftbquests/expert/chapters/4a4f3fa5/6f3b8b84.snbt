@@ -1,0 +1,44 @@
+{
+	title: "§b口袋中的魔力",
+	x: -7.0d,
+	y: 4.0d,
+	description: "获得魔力石板",
+	dependencies: [
+		"224f8b52"
+	],
+	tasks: [{
+		uid: "e8fdd0ca",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:manatablet",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2210c3ce",
+		type: "xp",
+		xp: 700
+	},
+	{
+		uid: "fbd34c5c",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "f62989c3",
+		type: "item",
+		item: "botania:manaresource 1 2",
+		count: 4
+	},
+	{
+		uid: "6f526113",
+		type: "item",
+		item: "botania:manaresource",
+		count: 8
+	}]
+}

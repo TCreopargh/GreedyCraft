@@ -1,0 +1,26 @@
+{
+	title: "§2奥术合成终端",
+	x: -1.5d,
+	y: 6.0d,
+	description: "获得奥术合成终端",
+	dependencies: [
+		"b4a4f0c3"
+	],
+	tasks: [{
+		uid: "db5e3292",
+		type: "item",
+		items: [{
+			item: "thaumicenergistics:arcane_terminal"
+		}]
+	}],
+	rewards: [{
+		uid: "5c2d26f8",
+		type: "xp",
+		xp: 2500
+	},
+	{
+		uid: "14511f88",
+		type: "loot",
+		table: 1
+	}]
+}

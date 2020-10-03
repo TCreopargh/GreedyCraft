@@ -1,0 +1,53 @@
+{
+  "chancecubes:take_this_zh_cn": {
+    "chance": 55,
+    "Area": [
+      {
+        "xSize": 1,
+        "ySize": 3,
+        "zSize": 1,
+        "block": "minecraft:brick_block",
+        "xOff": 0,
+        "yOff": 0,
+        "zOff": 0,
+        "falling": false,
+        "delay": 1,
+        "causesUpdate": false,
+        "relativeToPlayer": false
+      },
+      {
+        "xSize": 1,
+        "ySize": 3,
+        "zSize": 1,
+        "block": "minecraft:air",
+        "xOff": 0,
+        "yOff": 0,
+        "zOff": 0,
+        "falling": false,
+        "delay": 0,
+        "causesUpdate": false,
+        "relativeToPlayer": false
+      }
+    ],
+    "Command": [
+      {
+        "command": "/summon item_frame ~ ~ ~1 {Item:{id:\"minecraft:stick\", Count:1b},Facing:0,ItemRotation:7}",
+        "delay": 2
+      },
+      {
+        "command": "/summon item_frame ~ ~1 ~1 {Item:{id:\"minecraft:diamond\", Count:1b},Facing:0,ItemRotation:0}",
+        "delay": 2
+      },
+      {
+        "command": "/summon item_frame ~ ~2 ~1 {Item:{id:\"minecraft:diamond\", Count:1b},Facing:0,ItemRotation:0}",
+        "delay": 2
+      }
+    ],
+    "Message": [
+      {
+        "message": "一个人走很危险，带上这个！",
+        "range": 25
+      }
+    ]
+  }
+}

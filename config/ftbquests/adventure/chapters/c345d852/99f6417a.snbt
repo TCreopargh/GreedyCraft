@@ -1,0 +1,23 @@
+{
+	title: "§a农业基础",
+	x: -3.5d,
+	y: -5.5d,
+	description: "获得坚固部件",
+	tasks: [{
+		uid: "795f994f",
+		type: "item",
+		items: [{
+			item: "forestry:sturdy_machine"
+		}]
+	}],
+	rewards: [{
+		uid: "9ef9f334",
+		type: "xp",
+		xp: 250
+	},
+	{
+		uid: "beea8764",
+		type: "loot",
+		table: 0
+	}]
+}

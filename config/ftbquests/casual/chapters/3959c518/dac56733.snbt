@@ -1,0 +1,16 @@
+{
+	x: -6.0d,
+	y: -2.5d,
+	tasks: [{
+		uid: "5acfac5d",
+		type: "item",
+		items: [{
+			item: "solarflux:solar_panel_infinity"
+		}]
+	}],
+	rewards: [{
+		uid: "ccb01585",
+		type: "loot",
+		table: 3
+	}]
+}

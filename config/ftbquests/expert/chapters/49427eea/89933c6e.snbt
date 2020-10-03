@@ -1,0 +1,31 @@
+{
+	title: "净化仓",
+	x: -4.5d,
+	y: 3.5d,
+	description: "获得净化仓，以将矿物打成3份矿物碎块",
+	dependencies: [
+		"37f07d1a"
+	],
+	tasks: [{
+		uid: "9bbd3052",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mekanism:machineblock",
+			Damage: 9s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "644fa5e1",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "1bb21832",
+		type: "xp",
+		xp: 800
+	}]
+}

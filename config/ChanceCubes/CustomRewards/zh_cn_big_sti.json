@@ -1,0 +1,24 @@
+{
+  "chancecubes:roosevelts_stick_zh_cn": {
+    "chance": 70,
+    "Item": [
+      {
+        "item": {
+          "id": "minecraft:stick",
+          "Count": 1,
+          "tag": {
+            "ench": [
+              {
+                "id": 16,
+                "lvl": 5
+              }
+            ],
+            "display": {
+              "Name": "一个超大的木棍"
+            }
+          }
+        }
+      }
+    ]
+  }
+}

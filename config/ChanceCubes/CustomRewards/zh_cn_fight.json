@@ -1,0 +1,43 @@
+{
+  "chancecubes:fighter_zh_cn": {
+    "chance": 25,
+    "Item": [
+      {
+        "item": {
+          "id": "minecraft:iron_sword",
+          "Count": 1
+        }
+      },
+      {
+        "item": {
+          "id": "minecraft:iron_helmet",
+          "Count": 1
+        }
+      },
+      {
+        "item": {
+          "id": "minecraft:iron_chestplate",
+          "Count": 1
+        }
+      },
+      {
+        "item": {
+          "id": "minecraft:iron_leggings",
+          "Count": 1
+        }
+      },
+      {
+        "item": {
+          "id": "minecraft:iron_boots",
+          "Count": 1
+        }
+      }
+    ],
+    "Message": [
+      {
+        "message": "§6这里是斯巴达！",
+        "range": 25
+      }
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+	title: "§5混沌之力",
+	x: 14.0d,
+	y: 2.0d,
+	shape: "square",
+	description: "获得混沌核心",
+	dependencies: [
+		"f136f4b7",
+		"b4991d6f"
+	],
+	tasks: [{
+		uid: "a1f71ac6",
+		type: "item",
+		items: [{
+			item: "draconicevolution:chaotic_core"
+		}]
+	}],
+	rewards: [{
+		uid: "3f0ae33c",
+		type: "xp",
+		xp: 114514
+	},
+	{
+		uid: "6680b669",
+		type: "item",
+		item: "draconicevolution:chaotic_core",
+		count: 3
+	},
+	{
+		uid: "16d4c4ad",
+		type: "loot",
+		table: 3
+	},
+	{
+		uid: "c4ba989c",
+		type: "item",
+		item: "additions:greedycraft-creative_shard",
+		count: 2
+	},
+	{
+		uid: "4ccf74c8",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "chaotic"
+	}]
+}

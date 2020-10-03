@@ -1,0 +1,70 @@
+{
+	title: "§c寰宇支配者",
+	x: 4.5d,
+	y: 4.0d,
+	description: "§5§o掌握世界上的一切。",
+	can_repeat: true,
+	dependencies: [
+		"727f6d18"
+	],
+	dependency_requirement: "all_started",
+	tasks: [{
+		uid: "a24deab7",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-flux_singularity"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8576273d",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-mana_singularity"
+		}]
+	},
+	{
+		uid: "79551568",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-matter_singularity"
+		}]
+	},
+	{
+		uid: "ce2b416b",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-experience_singularity"
+		}]
+	},
+	{
+		uid: "2cf9bb35",
+		type: "item",
+		items: [{
+			item: "draconicevolution:chaos_shard"
+		}]
+	}],
+	rewards: [{
+		uid: "7b6ae8c4",
+		type: "item",
+		item: "additions:greedycraft-creative_shard",
+		count: 5
+	},
+	{
+		uid: "edcd7081",
+		type: "item",
+		item: "additions:greedycraft-ordinary_medal",
+		count: 5
+	},
+	{
+		uid: "dae23bb3",
+		type: "item",
+		item: "additions:greedycraft-reward_ticket_legendary",
+		count: 10
+	},
+	{
+		uid: "972c51a4",
+		type: "item",
+		item: "additions:greedycraft-anti_entropy_matter"
+	}]
+}

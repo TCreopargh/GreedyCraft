@@ -1,0 +1,73 @@
+{
+	title: "§5进入下界",
+	x: 4.0d,
+	y: -2.0d,
+	shape: "rsquare",
+	description: "造访下界",
+	text: [
+		"§c你需要完成“暮光之庇护”任务才能进入下界",
+		"§6否则无论在传送门里待多长时间都不会传送"
+	],
+	dependencies: [
+		"8e49ae34"
+	],
+	tasks: [{
+		uid: "932534c9",
+		type: "dimension",
+		dim: -1
+	}],
+	rewards: [{
+		uid: "4f30d2b3",
+		type: "item",
+		item: "minecraft:obsidian",
+		count: 32
+	},
+	{
+		uid: "58ca42dc",
+		type: "xp",
+		xp: 800
+	},
+	{
+		uid: "385ec5fc",
+		type: "item",
+		item: "bountifulbaubles:potionrecall",
+		count: 16
+	},
+	{
+		uid: "05dd2034",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "0aff2ebd",
+		type: "item",
+		item: "minecraft:reeds",
+		count: 32
+	},
+	{
+		uid: "e02a0b15",
+		type: "item",
+		item: {
+			id: "minecraft:written_book",
+			tag: {
+				pages: [
+					"{\"text\":\"Hello 你好！\\n我是K，我们这个世界的研究员。最近我们的世界经常遭到不明因素的影响，而影响的来源可能就是你们这个世界。\\n\\n我发出这则消息就是为了确定我们之间是否能够建立通信。如果你看到了这则消息，请回复\\\"§c§kRoger§c§k That§r§0\\\"，好吗？\\n\\n——K\"}"
+				],
+				author: "K",
+				title: "§6你好！这是一则来自其他世界的来信"
+			}
+		}
+	},
+	{
+		uid: "daabf2a1",
+		type: "item",
+		item: "bountifulbaubles:potionwormhole",
+		count: 16
+	},
+	{
+		uid: "7e3bb6b6",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "nether"
+	}]
+}

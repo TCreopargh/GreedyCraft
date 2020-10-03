@@ -1,0 +1,36 @@
+{
+	title: "§6更大存储",
+	x: -4.0d,
+	y: 7.5d,
+	description: "获得大型板条箱",
+	dependencies: [
+		"a7c9c1e7"
+	],
+	tasks: [{
+		uid: "e5132a94",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_giant_chest_large"
+		}]
+	}],
+	rewards: [{
+		uid: "e3c47384",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "5ba0e447",
+		type: "xp",
+		xp: 500
+	},
+	{
+		uid: "ae07e71e",
+		type: "item",
+		item: "actuallyadditions:block_giant_chest_large"
+	},
+	{
+		uid: "f5d3500c",
+		type: "item",
+		item: "rftools:storage_scanner"
+	}]
+}

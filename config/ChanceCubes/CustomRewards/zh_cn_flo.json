@@ -1,0 +1,18 @@
+{
+  "chancecubes:float_zh_cn": {
+    "chance": -35,
+    "Effect": [
+      {
+        "potionid": "levitation",
+        "duration": "%%RND(5,15)%%",
+        "amplifier": "%%RND(1,127)%%",
+        "radius": 32
+      }
+    ],
+    "Message": [
+      {
+        "message": "§6我已出舱，感觉良好！"
+      }
+    ]
+  }
+}

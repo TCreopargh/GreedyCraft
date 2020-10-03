@@ -1,0 +1,8 @@
+{
+  "name": "§e晴天娃娃",
+  "tooltip": [
+    "§b呐，马上就要放晴了哦~",
+    "§e使用后将天气设为晴天"
+  ],
+  "type": "additions:simple"
+}

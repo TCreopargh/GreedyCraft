@@ -1,0 +1,13 @@
+{
+  "chancecubes:enchanting_zh_cn": {
+    "chance": 80,
+    "Item": [
+      {
+        "item": {
+          "id": "minecraft:enchanting_table",
+          "Count": 1
+        }
+      }
+    ]
+  }
+}

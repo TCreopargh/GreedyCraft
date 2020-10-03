@@ -1,0 +1,22 @@
+{
+  "chancecubes:have_another_zh_cn": {
+    "chance": -10,
+    "Item": [
+      {
+        "item": {
+          "id": "chancecubes:chance_cube",
+          "Count": 3
+        }
+      }
+    ],
+    "Message": [
+      {
+        "message": "§9我听说，你喜欢开机会方块"
+      },
+      {
+        "message": "§9所以我就往你的机会方块里放了一些机会方块！",
+        "delay": 1
+      }
+    ]
+  }
+}

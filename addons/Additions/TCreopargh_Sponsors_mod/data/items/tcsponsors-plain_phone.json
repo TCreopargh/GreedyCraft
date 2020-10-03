@@ -1,0 +1,11 @@
+{
+  "name": "§e一部平凡无奇的小手机",
+  "tooltip": [
+    "§a∵手机可以找到知识",
+    "§a∵知识 \u003d 力量",
+    "§a∴手机 \u003d 力量",
+    "§b§o赞助者物品 by Cube"
+  ],
+  "max_stack": 1,
+  "type": "additions:simple"
+}

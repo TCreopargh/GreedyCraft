@@ -1,0 +1,7 @@
+{
+  "name": "§6真·末影之眼",
+  "shines": true,
+  "tooltip": "§e放在背包里以阻止被末影人传送",
+  "max_stack": 1,
+  "type": "additions:simple"
+}

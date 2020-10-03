@@ -1,0 +1,17 @@
+{
+  "item_block": {
+    "name": "§9聚合矩阵块",
+    "ore_dict": "blockFusionMatrix",
+    "type": "additions:block_simple"
+  },
+  "name": "§9聚合矩阵块",
+  "material": "minecraft:metal",
+  "map_color": "minecraft:light_gray",
+  "hardness": 3.0,
+  "resistance": 5000.0,
+  "harvest_level": 6,
+  "harvest_tool": "pickaxe",
+  "light_level": 3,
+  "is_beacon_base": true,
+  "type": "additions:simple"
+}

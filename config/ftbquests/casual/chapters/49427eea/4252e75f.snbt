@@ -1,0 +1,30 @@
+{
+	title: "§a富集仓",
+	x: 0.5d,
+	y: 3.5d,
+	description: "获得富集仓，可将污浊的矿粉加工成纯净的矿粉以进行烧制",
+	dependencies: [
+		"4fb53eb7"
+	],
+	tasks: [{
+		uid: "31dca032",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mekanism:machineblock"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "bdaa74e9",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "75a3d557",
+		type: "xp",
+		xp: 1500
+	}]
+}

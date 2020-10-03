@@ -1,0 +1,35 @@
+{
+	title: "§6S N A D",
+	x: -8.0d,
+	y: 11.5d,
+	description: "获得子沙，它可以增加上面的甘蔗和仙人掌的生长速度",
+	tasks: [{
+		uid: "972d0618",
+		type: "item",
+		items: [{
+			item: "snad:snad"
+		}]
+	}],
+	rewards: [{
+		uid: "386d54cb",
+		type: "xp",
+		xp: 50
+	},
+	{
+		uid: "fb924376",
+		type: "item",
+		item: "minecraft:sand",
+		count: 640
+	},
+	{
+		uid: "7d540c9d",
+		type: "item",
+		item: "minecraft:glass",
+		count: 320
+	},
+	{
+		uid: "622fd711",
+		type: "loot",
+		table: 0
+	}]
+}

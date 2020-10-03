@@ -1,0 +1,37 @@
+{
+  "cause": {
+    "equipment": [
+      {
+        "slot": "head",
+        "item": {
+          "item": "additions:tcsponsors-head_cat",
+          "damage": "any"
+        }
+      }
+    ],
+    "pieces_required": 1,
+    "type": "additions:item_equipped"
+  },
+  "effects": [
+    {
+      "potion": {
+        "name": "minecraft:night_vision",
+        "duration": 240,
+        "amplifier": 0,
+        "ambient": false,
+        "show_particles": true
+      },
+      "type": "additions:potion"
+    },
+    {
+      "potion": {
+        "name": "minecraft:luck",
+        "duration": 50,
+        "amplifier": 1,
+        "ambient": false,
+        "show_particles": true
+      },
+      "type": "additions:potion"
+    }
+  ]
+}

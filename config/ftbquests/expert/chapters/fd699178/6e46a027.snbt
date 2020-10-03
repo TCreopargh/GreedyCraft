@@ -1,0 +1,49 @@
+{
+	title: "§c超级存储",
+	x: 5.5d,
+	y: -0.5d,
+	description: "制造一个ME驱动器，能够存放10个存储元件",
+	dependencies: [
+		"da08dbca"
+	],
+	tasks: [{
+		uid: "32884170",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:drive"
+		}]
+	}],
+	rewards: [{
+		uid: "c7c5d9a0",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "appliedenergistics2:storage_cell_16k",
+			tag: {}
+		},
+		count: 2
+	},
+	{
+		uid: "c40ab649",
+		type: "item",
+		item: "appliedenergistics2:material 1 37"
+	},
+	{
+		uid: "9225ff49",
+		type: "xp",
+		xp: 800
+	},
+	{
+		uid: "d38c1371",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "86ae1ec8",
+		type: "item",
+		item: "appliedenergistics2:material 1 35",
+		count: 640
+	}]
+}

@@ -1,0 +1,24 @@
+{
+  "chancecubes:fire_aspect_fire_zh_cn": {
+    "chance": 60,
+    "Item": [
+      {
+        "item": {
+          "id": "minecraft:fire_charge",
+          "Count": 1,
+          "tag": {
+            "ench": [
+              {
+                "id": 20,
+                "lvl": 2
+              }
+            ],
+            "display": {
+              "Name": "’‚ «…∂£ø"
+            }
+          }
+        }
+      }
+    ]
+  }
+}

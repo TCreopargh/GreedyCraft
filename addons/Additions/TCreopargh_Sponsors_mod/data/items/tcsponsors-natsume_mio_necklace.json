@@ -1,0 +1,10 @@
+{
+  "name": "§a夏目美绪的项链",
+  "shines": true,
+  "tooltip": [
+    "§e右键来使周围的实体获得力量2 Buff",
+    "§b§o赞助者物品 by xieyaolin"
+  ],
+  "max_stack": 1,
+  "type": "additions:simple"
+}

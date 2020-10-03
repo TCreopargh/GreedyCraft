@@ -1,0 +1,248 @@
+[
+	{
+        "mode": "ADD",
+        "result": "projecte:transmutation_table",
+        "catalyst": "additions:greedycraft-energy_matter_core",
+        "energy": 268435456,
+        "tier": 1,
+        "ingredients": [
+            "avaritia:extreme_crafting_table",
+            "projectex:matter,1,1",
+            "tconevo:metal_block",
+            "draconicevolution:dragon_heart",
+            "additions:greedycraft-ancient_tome_page",
+            "additions:greedycraft-pearl_of_knowledge",
+			"additions:greedycraft-bounty_hunter_medal",
+			"additions:greedycraft-city_defender_medal"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "projecte:item.pe_transmutation_tablet",
+        "catalyst": "projecte:transmutation_table",
+        "energy": 50000000,
+        "tier": 2,
+        "ingredients": [
+            "draconicevolution:wyvern_core",
+            "draconicevolution:wyvern_core",
+            "draconicevolution:wyvern_core",
+            "draconicevolution:wyvern_core",
+            "draconicevolution:awakened_core",
+            "draconicevolution:awakened_core",
+            "draconicevolution:awakened_core",
+            "draconicevolution:awakened_core"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "additions:greedycraft-creative_soul",
+        "catalyst": "draconicevolution:chaotic_core",
+        "energy": 1073741824,
+        "tier": 3,
+        "ingredients": [
+            "additions:greedycraft-creative_shard",
+            "additions:greedycraft-creative_shard",
+            "additions:greedycraft-creative_shard",
+            "additions:greedycraft-creative_shard",
+            "additions:greedycraft-creative_shard",
+            "additions:greedycraft-creative_shard",
+            "additions:greedycraft-creative_shard",
+            "additions:greedycraft-creative_shard"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "draconicevolution:draconic_staff_of_power",
+        "catalyst": "avaritia:resource,1,5",
+        "energy": 2147483648,
+        "tier": 2,
+        "ingredients": [
+            "tconevo:metal_block,1,1",
+            "tconevo:metal_block,1,1",
+            "tconevo:metal_block,1,1",
+            "tconevo:metal_block,1,1",
+            "tconevo:metal_block,1,1",
+            "tconevo:metal_block,1,1",
+            "additions:greedycraft-creative_soul",
+            "additions:greedycraft-ancient_tome"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "avaritia:extreme_crafting_table",
+        "catalyst": "minecraft:crafting_table",
+        "energy": 100000000,
+        "tier": 1,
+        "ingredients": [
+            "avaritia:block_resource,1,2",
+            "avaritia:block_resource,1,2",
+            "avaritia:resource,1,1",
+            "avaritia:resource,1,1",
+            "draconicevolution:wyvern_core",
+            "draconicevolution:wyvern_core",
+            "additions:greedycraft-ancient_tome_fragment",
+            "additions:greedycraft-ancient_tome_fragment"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "projectex:arcane_tablet",
+        "catalyst": "projecte:item.pe_transmutation_tablet",
+        "energy": 2147483648,
+        "tier": 3,
+        "ingredients": [
+            "projectex:matter,1,0",
+            "projectex:matter,1,0",
+            "projectex:matter,1,1",
+            "projectex:matter,1,1",
+            "draconicevolution:chaotic_core",
+            "draconicevolution:chaotic_core",
+            "additions:greedycraft-ancient_tome",
+            "projectex:magnum_star_ein"
+        ]
+    },
+    {
+        "mode": "REMOVE",
+        "result": "draconicevolution:draconic_staff_of_power",
+        "catalyst": "draconicevolution:draconic_pick",
+        "ingredients": [
+            "draconicevolution:draconic_ingot",
+            "draconicevolution:draconic_ingot",
+            "draconicevolution:draconic_ingot",
+            "draconicevolution:draconic_ingot",
+            "draconicevolution:draconic_ingot",
+            "draconicevolution:draconic_shovel",
+            "draconicevolution:draconic_sword",
+            "draconicevolution:awakened_core"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "projecte:condenser_mk2",
+        "catalyst": "projecte:condenser_mk1",
+        "energy": 80000000,
+        "tier": 1,
+        "ingredients": [
+            "projecte:matter_block,1,1",
+            "projecte:matter_block,1,1",
+            "projecte:matter_block,1,1",
+            "projecte:matter_block,1,1",
+            "draconicevolution:wyvern_core",
+            "additions:greedycraft-energy_matter_core",
+            "additions:greedycraft-city_defender_medal",
+            "additions:greedycraft-ancient_tome_fragment"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "projecte:condenser_mk1",
+        "catalyst": "projecte:alchemical_chest",
+        "energy": 10000000,
+        "tier": 0,
+        "ingredients": [
+            "projecte:item.pe_matter",
+            "projecte:item.pe_matter",
+            "projecte:item.pe_matter",
+            "projecte:item.pe_matter",
+            "draconicevolution:draconic_core",
+            "draconicevolution:draconic_core",
+            "draconicevolution:wyvern_core",
+            "additions:greedycraft-energy_matter_core"
+        ]
+    },
+	{
+        "mode": "REMOVE",
+        "result": "draconicevolution:awakened_core",
+        "catalyst": "minecraft:nether_star",
+        "ingredients": [
+            "draconicevolution:wyvern_core",
+            "draconicevolution:wyvern_core",
+            "draconicevolution:draconic_ingot",
+            "draconicevolution:draconic_ingot",
+            "draconicevolution:draconic_ingot",
+			"draconicevolution:draconic_ingot",
+			"draconicevolution:draconic_ingot",
+            "draconicevolution:wyvern_core",
+            "draconicevolution:wyvern_core"
+        ]
+    },
+	{
+        "mode": "ADD",
+        "result": "draconicevolution:awakened_core",
+        "catalyst": "minecraft:nether_star",
+		"energy": 16000000,
+        "tier": 1,
+        "ingredients": [
+            "draconicevolution:wyvern_core",
+            "draconicevolution:wyvern_core",
+            "draconicevolution:draconic_ingot",
+			"additions:infernium_ingot",
+            "draconicevolution:draconic_ingot",
+			"additions:infernium_ingot",
+            "draconicevolution:draconic_ingot",
+			"additions:infernium_ingot"
+        ]
+    },
+	{
+        "mode": "ADD",
+        "result": "additions:greedycraft-blueprint_tactic",
+        "catalyst": "additions:greedycraft-blueprint",
+		"energy": 500000,
+        "tier": 0,
+        "ingredients": [
+            "draconicevolution:draconium_ingot",
+            "draconicevolution:draconium_ingot",
+            "draconicevolution:draconium_ingot",
+			"draconicevolution:draconium_ingot"
+        ]
+    },
+	{
+        "mode": "REMOVE",
+        "result": "draconicevolution:chaotic_core",
+        "catalyst": "draconicevolution:chaos_shard",
+        "ingredients": [
+            "draconicevolution:draconic_ingot",
+            "draconicevolution:draconic_ingot",
+            "draconicevolution:wyvern_core",
+            "draconicevolution:wyvern_core",
+            "draconicevolution:draconic_ingot",
+			"draconicevolution:wyvern_core",
+			"draconicevolution:wyvern_core",
+            "draconicevolution:draconic_ingot"
+        ]
+    },
+	{
+        "mode": "ADD",
+        "result": "draconicevolution:chaotic_core",
+        "catalyst": "draconicevolution:chaos_shard",
+		"energy": 128000000,
+        "tier": 2,
+        "ingredients": [
+            "tconevo:metal",
+            "tconevo:metal",
+            "tconevo:metal,1,5",
+			"tconevo:metal,1,5",
+            "avaritia:resource,1,4",
+			"avaritia:resource,1,4",
+            "additions:titanium_ingot",
+			"additions:titanium_ingot"
+        ]
+    },
+	{
+        "mode": "ADD",
+        "result": "draconicevolution:wyvern_core",
+        "catalyst": "minecraft:nether_star",
+		"energy": 200000,
+        "tier": 0,
+        "ingredients": [
+            "draconicevolution:draconic_core",
+            "draconicevolution:draconic_core",
+            "draconicevolution:draconic_core",
+			"draconicevolution:draconic_core",
+            "draconicevolution:draconium_ingot",
+			"draconicevolution:draconium_ingot",
+            "additions:cryonium_ingot",
+			"additions:cryonium_ingot"
+        ]
+    }
+]

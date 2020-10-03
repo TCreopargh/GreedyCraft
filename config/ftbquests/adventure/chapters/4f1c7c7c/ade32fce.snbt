@@ -1,0 +1,21 @@
+{
+	title: "§c切换为: §c§n专家模式",
+	icon: "darkutils:material",
+	x: 13.0d,
+	y: -0.62d,
+	shape: "circle",
+	can_repeat: true,
+	size: 2.5d,
+	tasks: [{
+		uid: "0dcc7905",
+		type: "checkmark",
+		title: "§c点击以切换为专家模式"
+	}],
+	rewards: [{
+		uid: "0011e7e7",
+		type: "command",
+		auto: "no_toast",
+		command: "/packmode expert",
+		player_command: true
+	}]
+}

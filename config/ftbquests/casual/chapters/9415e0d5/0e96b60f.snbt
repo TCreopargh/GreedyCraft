@@ -1,0 +1,41 @@
+{
+	title: "§b飞行魔法",
+	x: 8.0d,
+	y: 5.5d,
+	description: "获得魔法羽毛，它允许你在信标附近飞行",
+	dependencies: [
+		"7491e3fb"
+	],
+	tasks: [{
+		uid: "b63c3044",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "magicfeather:magicfeather"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0573206c",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "f1f007fc",
+		type: "xp",
+		xp: 4000
+	},
+	{
+		uid: "a0170b16",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:elytra"
+		}
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	title: "§d网络工具",
+	x: 8.0d,
+	y: 2.0d,
+	description: "获得网络工具",
+	tasks: [{
+		uid: "5c769d56",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "appliedenergistics2:network_tool"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f877aea3",
+		type: "xp",
+		xp: 500
+	},
+	{
+		uid: "548f5f0c",
+		type: "loot",
+		table: 1
+	}]
+}

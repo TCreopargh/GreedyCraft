@@ -1,0 +1,33 @@
+{
+  "chancecubes:tnt_structure_zh_cn": {
+    "chance": -30,
+    "Area": [
+      {
+        "xSize": 3,
+        "ySize": 1,
+        "zSize": 3,
+        "block": "minecraft:tnt",
+        "xOff": -1,
+        "yOff": 0,
+        "zOff": -1,
+        "falling": true,
+        "delay": 0,
+        "causesUpdate": false,
+        "relativeToPlayer": false
+      },
+      {
+        "xSize": 3,
+        "ySize": 1,
+        "zSize": 3,
+        "block": "minecraft:redstone_block",
+        "xOff": -1,
+        "yOff": 1,
+        "zOff": -1,
+        "falling": true,
+        "delay": 40,
+        "causesUpdate": true,
+        "relativeToPlayer": false
+      }
+    ]
+  }
+}

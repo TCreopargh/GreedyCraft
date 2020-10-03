@@ -1,0 +1,43 @@
+{
+	title: "§6价值连城",
+	x: -5.5d,
+	y: -3.0d,
+	description: "获得传世珍宝",
+	tasks: [{
+		uid: "9ff3b6d2",
+		type: "item",
+		items: [{
+			item: "thaumcraft:curio 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "beb92174",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "69adfef5",
+		type: "xp",
+		xp: 75
+	},
+	{
+		uid: "c79c0808",
+		type: "item",
+		item: "thaumcraft:curio 1 1",
+		count: 4
+	},
+	{
+		uid: "15d336ac",
+		type: "item",
+		item: {
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "ordo"
+				}]
+			}
+		},
+		count: 32
+	}]
+}

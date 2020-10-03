@@ -1,0 +1,16 @@
+{
+	x: -1.5d,
+	y: -2.0d,
+	tasks: [{
+		uid: "b82c1f22",
+		type: "item",
+		items: [{
+			item: "tconevo:metal 1 20"
+		}]
+	}],
+	rewards: [{
+		uid: "a721602f",
+		type: "loot",
+		table: 3
+	}]
+}

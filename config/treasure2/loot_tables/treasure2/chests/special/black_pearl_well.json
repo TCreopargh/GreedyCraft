@@ -1,0 +1,97 @@
+{
+	"version": "1.0",
+	"pools": [
+		{
+			"name": "treasure",
+			"rolls": {
+				"min": 2,
+				"max": 3
+			},
+			"entries": [
+                {
+                    "type": "loot_table",
+                    "name": "treasure2:loot_tables/treasure2/treasure/epic",
+                    "weight": 1
+                }
+			]
+		},	
+		{
+			"name": "charms",
+			"rolls": 1,
+			"entries": [
+                {
+                    "type": "loot_table",
+                    "name": "treasure2:loot_tables/treasure2/treasure/epic_charms",
+                    "weight": 1
+                }
+			]
+		},				
+		{
+			"name": "items",
+			"rolls": {
+				"min": 2,
+				"max": 6
+			},
+			"entries": [
+                {
+                    "type": "loot_table",
+                    "name": "treasure2:loot_tables/treasure2/items/epic",
+                    "weight": 1
+                }
+			]
+		},
+		{
+			"name": "armor",
+			"rolls": {
+				"min": 1,
+				"max": 2
+			},
+			"entries": [
+	                {
+                    "type": "loot_table",
+                    "name": "treasure2:loot_tables/treasure2/armor/epic",
+                    "weight": 1
+                }		
+			]
+		},
+		{
+			"name": "food",
+			"rolls": {
+				"min": 1,
+				"max": 2
+			},
+			"entries": [
+	                {
+                    "type": "loot_table",
+                    "name": "treasure2:loot_tables/treasure2/food/epic",
+                    "weight": 1
+                }				
+			]
+		},
+		{
+			"name": "tools",
+			"rolls": 1,
+			"entries": [
+	            {
+                    "type": "loot_table",
+                    "name": "treasure2:loot_tables/treasure2/tools/epic",
+                    "weight": 1
+                }				
+			]
+		},
+		{
+			"name": "potions",
+			"rolls": {
+				"min": 1,
+				"max": 2
+			},
+			"entries": [
+		            {
+                    "type": "loot_table",
+                    "name": "treasure2:loot_tables/treasure2/potions/epic",
+                    "weight": 1
+                }			
+			]
+		}	
+	]
+}

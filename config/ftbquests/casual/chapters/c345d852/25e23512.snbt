@@ -1,0 +1,36 @@
+{
+	title: "蜜蜂分析仪",
+	x: -6.0d,
+	y: 2.5d,
+	description: "获得便携式分析仪",
+	dependencies: [
+		"86ab9dab"
+	],
+	tasks: [{
+		uid: "dc527f16",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "forestry:portable_alyzer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "357114cb",
+		type: "item",
+		item: "forestry:analyzer"
+	},
+	{
+		uid: "a059d628",
+		type: "xp",
+		xp: 200
+	},
+	{
+		uid: "358558b8",
+		type: "loot",
+		table: 1
+	}]
+}

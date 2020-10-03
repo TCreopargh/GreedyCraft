@@ -1,0 +1,9 @@
+{
+  "name": "§2蛇符咒",
+  "tooltip": [
+    "§2可以使持有者隐身，但魔法有存在气味上的缺陷",
+    "§b§o赞助者物品 by 皮弗娄牛"
+  ],
+  "max_stack": 1,
+  "type": "additions:simple"
+}

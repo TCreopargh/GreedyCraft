@@ -1,0 +1,19 @@
+{
+  "chancecubes:ticket_legendary_zh_cn": {
+    "chance": 100,
+    "Item": [
+      {
+        "item": {
+          "id": "additions:greedycraft-reward_ticket_legendary",
+          "Count": 1
+        }
+      }
+    ],
+    "Message": [
+      {
+        "message": "¡ì6¹§Ï²Äã£¬ÖÐ´ó½±ÁË£¡",
+        "range": 25
+      }
+    ]
+  }
+}

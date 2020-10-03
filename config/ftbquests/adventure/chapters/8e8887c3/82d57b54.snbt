@@ -1,0 +1,74 @@
+{
+	title: "§6觉醒核心",
+	x: 12.0d,
+	y: 0.0d,
+	shape: "square",
+	description: "合成觉醒核心",
+	dependencies: [
+		"a357fcd1",
+		"5f44ba77"
+	],
+	tasks: [{
+		uid: "b28ae6ae",
+		type: "item",
+		items: [{
+			item: "draconicevolution:awakened_core"
+		}]
+	}],
+	rewards: [{
+		uid: "8d1e53e2",
+		type: "item",
+		item: "draconicevolution:draconium_ingot",
+		count: 640
+	},
+	{
+		uid: "a7a89001",
+		type: "item",
+		item: "draconicevolution:awakened_core",
+		count: 3
+	},
+	{
+		uid: "dd628cf5",
+		type: "xp",
+		xp: 16000
+	},
+	{
+		uid: "a1955a5b",
+		type: "item",
+		item: "mysticalagradditions:special 1 4"
+	},
+	{
+		uid: "74abb6bd",
+		type: "item",
+		item: "mysticalagradditions:awakened_draconium_seeds"
+	},
+	{
+		uid: "88312895",
+		type: "item",
+		item: "minecraft:nether_star",
+		count: 16
+	},
+	{
+		uid: "635ec9ee",
+		type: "loot",
+		table: 3
+	},
+	{
+		uid: "8e776f40",
+		type: "item",
+		item: "additions:greedycraft-medkit_super",
+		count: 3
+	},
+	{
+		uid: "0474ebe7",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "awakened"
+	},
+	{
+		uid: "a8c1fb52",
+		type: "command",
+		auto: "no_toast",
+		command: "/scalinghealth difficulty set 900 @p"
+	}]
+}

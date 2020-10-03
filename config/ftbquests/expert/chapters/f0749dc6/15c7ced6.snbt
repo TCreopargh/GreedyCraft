@@ -1,0 +1,36 @@
+{
+	title: "§9怪物猎人III",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "minecraft:iron_sword"
+	},
+	x: -3.0d,
+	y: 1.0d,
+	description: "击杀指定数量的生物",
+	dependencies: [
+		"653fa7f3"
+	],
+	tasks: [{
+		uid: "5433bbb3",
+		type: "stat",
+		stat: "stat.mobKills",
+		value: 2500
+	}],
+	rewards: [{
+		uid: "39ed5777",
+		type: "item",
+		item: "tinymobfarm:diamond_farm"
+	},
+	{
+		uid: "7806cdea",
+		type: "xp",
+		xp: 5000
+	},
+	{
+		uid: "6f341cdd",
+		type: "loot",
+		table: 1
+	}]
+}

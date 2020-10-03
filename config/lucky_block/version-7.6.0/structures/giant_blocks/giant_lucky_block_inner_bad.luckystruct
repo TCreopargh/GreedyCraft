@@ -1,0 +1,25 @@
+>properties
+length=9
+height=8
+width=8
+
+>blocks
+
+/ all one lucky block
+
+4,3,6,lucky:lucky_block,0,(Drops=["group( \
+
+/ break stages
+group( \
+ID=giant_block_break_stage_1; \
+ID=giant_block_break_stage_2,delay=1; \
+ID=giant_block_break_stage_3,delay=2; \
+ID=giant_block_break_stage_4,delay=3; \
+ID=giant_block_break_stage_5,delay=4 \
+),type=structure,pos=[#]drop(pos),rotation=[#]drop(rotation); \
+
+/ remove
+type=fill,ID=air,pos=[#]sPos(0,0,0),pos2=[#]sPos(7,7,7),delay=5; \
+
+/ tnt
+type=entity,ID=tnt,pos=[#]sPos(4,4,4),NBTTag=(Fuse=50b,Motion=#randLaunchMotion),amount=15,delay=5)"])

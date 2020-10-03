@@ -1,0 +1,18 @@
+{
+  "chancecubes:nether_star_zh_cn": {
+    "chance": 100,
+    "Item": [
+      {
+        "item": {
+          "id": "minecraft:nether_star",
+          "Count": 1,
+          "tag": {
+            "display": {
+              "Name": "¡ìbµØ±¬ÌìĞÇ"
+            }
+          }
+        }
+      }
+    ]
+  }
+}

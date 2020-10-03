@@ -1,0 +1,32 @@
+{
+	title: "§b冶金灌注",
+	x: -9.5d,
+	y: 3.5d,
+	description: "获得冶金灌注机",
+	dependencies: [
+		"81ece8f9",
+		"fe27afe8"
+	],
+	tasks: [{
+		uid: "a368c266",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mekanism:machineblock",
+			Damage: 8s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "475ff675",
+		type: "xp",
+		xp: 800
+	},
+	{
+		uid: "f7276507",
+		type: "loot",
+		table: 0
+	}]
+}

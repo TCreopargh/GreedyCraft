@@ -1,0 +1,43 @@
+{
+	title: "§c这书上写的是啥",
+	x: -7.5d,
+	y: -3.0d,
+	description: "获得血腥仪式",
+	tasks: [{
+		uid: "5f98c696",
+		type: "item",
+		items: [{
+			item: "thaumcraft:curio 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "1b322699",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "d2481f6b",
+		type: "xp",
+		xp: 75
+	},
+	{
+		uid: "c9fc2d2b",
+		type: "item",
+		item: "thaumcraft:curio 1 1",
+		count: 4
+	},
+	{
+		uid: "d7fc1536",
+		type: "item",
+		item: {
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "perditio"
+				}]
+			}
+		},
+		count: 32
+	}]
+}

@@ -1,0 +1,27 @@
+{
+  "chancecubes:d-rude_sandstorm_zh_cn": {
+    "chance": -10,
+    "Area": [
+      {
+        "xSize": 5,
+        "ySize": 3,
+        "zSize": 5,
+        "block": "minecraft:sand",
+        "xOff": -2,
+        "yOff": 0,
+        "zOff": -2,
+        "falling": true,
+        "delay": 0,
+        "causesUpdate": false,
+        "relativeToPlayer": true
+      }
+    ],
+    "Message": [
+      {
+        "message": "°Ïe’‚“≤Ã´¥÷±©¡À£°",
+        "delay": 40,
+        "range": 25
+      }
+    ]
+  }
+}

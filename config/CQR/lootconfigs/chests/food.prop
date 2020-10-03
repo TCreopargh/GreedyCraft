@@ -1,0 +1,19 @@
+#############################################################
+#Documentation on the wiki                                  #
+#    https://cq-repoured.fandom.com/wiki/Loot_Configuration #
+#############################################################
+apple = minecraft:apple,0,2,5,25
+bread = minecraft:bread,0,2,5,40
+pork = minecraft:porkchop,0,3,6,35
+fish = minecraft:fish,0,1,8,25
+cookie = minecraft:cookie,0,4,10,10
+melon = minecraft:melon,0,4,8,25
+beef = minecraft:beef,0,3,8,35
+chicken = minecraft:chicken,0,2,6,20
+carrot = minecraft:carrot,0,1,3,30
+potato = minecraft:potato,0,1,3,30
+pumpkinpie = minecraft:pumpkin_pie,0,1,2,10
+rabbit = minecraft:rabbit,0,1,5,20
+mutton = minecraft:mutton,0,3,9,25
+beetroot = minecraft:beetroot,0,2,4,12
+potatoPoisoned = minecraft:poisonous_potato,0,1,6,5

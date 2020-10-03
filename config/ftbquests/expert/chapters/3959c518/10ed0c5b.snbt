@@ -1,0 +1,24 @@
+{
+	title: "§6千里之行，始于足下",
+	x: 0.0d,
+	y: -7.0d,
+	description: "获得平凡奖章",
+	tasks: [{
+		uid: "7038bd7f",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-ordinary_medal"
+		}]
+	}],
+	rewards: [{
+		uid: "fe6d93a9",
+		type: "item",
+		item: "additions:greedycraft-reward_ticket_rare",
+		count: 10
+	},
+	{
+		uid: "832577fe",
+		type: "xp",
+		xp: 5000
+	}]
+}

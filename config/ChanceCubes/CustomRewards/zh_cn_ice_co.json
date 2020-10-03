@@ -1,0 +1,26 @@
+{
+  "chancecubes:ice_cold_zh_cn": {
+    "chance": -10,
+    "Area": [
+      {
+        "xSize": 5,
+        "ySize": 3,
+        "zSize": 5,
+        "block": "minecraft:ice",
+        "xOff": -2,
+        "yOff": 0,
+        "zOff": -2,
+        "falling": false,
+        "delay": 0,
+        "causesUpdate": false,
+        "relativeToPlayer": true
+      }
+    ],
+    "Message": [
+      {
+        "message": "§b你的心就和我的屁股一样冰冷。",
+        "range": 25
+      }
+    ]
+  }
+}

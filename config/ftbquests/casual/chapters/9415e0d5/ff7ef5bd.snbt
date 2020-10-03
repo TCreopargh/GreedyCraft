@@ -1,0 +1,23 @@
+{
+	title: "§6这游戏太简单了",
+	x: -2.0d,
+	y: 13.5d,
+	description: "获得死亡金币",
+	tasks: [{
+		uid: "8eef84fb",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-death_coin"
+		}]
+	}],
+	rewards: [{
+		uid: "10d602e4",
+		type: "xp",
+		xp: 10000
+	},
+	{
+		uid: "6291667e",
+		type: "loot",
+		table: 3
+	}]
+}

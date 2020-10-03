@@ -1,0 +1,47 @@
+{
+  "name": "§2高级医疗包",
+  "tooltip": [
+    "§7使用后提高20点最大生命值，持续40秒",
+    "§7并获得40秒的生命恢复III效果",
+    "§7同时回复32点生命值"
+  ],
+  "max_stack": 62,
+  "hunger": 0,
+  "saturation": 0.0,
+  "always_edible": true,
+  "eat_time": 16,
+  "is_drink": true,
+  "eaten_effects": [
+    {
+      "potion": {
+        "name": "minecraft:instant_health",
+        "duration": 1,
+        "amplifier": 3,
+        "ambient": false,
+        "show_particles": true
+      },
+      "type": "additions:potion"
+    },
+    {
+      "potion": {
+        "name": "minecraft:regeneration",
+        "duration": 800,
+        "amplifier": 2,
+        "ambient": false,
+        "show_particles": true
+      },
+      "type": "additions:potion"
+    },
+    {
+      "potion": {
+        "name": "minecraft:health_boost",
+        "duration": 800,
+        "amplifier": 4,
+        "ambient": false,
+        "show_particles": true
+      },
+      "type": "additions:potion"
+    }
+  ],
+  "type": "additions:food"
+}

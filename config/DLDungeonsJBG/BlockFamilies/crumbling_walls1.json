@@ -1,0 +1,9 @@
+{
+  "name": "crumbling_walls_1",
+  "blocks": [
+    "minecraft:stonebrick",
+    "minecraft:stonebrick(1)",
+    "minecraft:stonebrick(2)",
+    "minecraft:air"
+  ]
+} 
