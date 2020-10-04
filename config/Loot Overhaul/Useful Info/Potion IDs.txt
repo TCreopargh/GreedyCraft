@@ -1464,3 +1464,11 @@ extrautils2:effect.xu2.purging
 	- Is Beneficial: false
 
 
+aether_legacy:inebriation
+   - Id: 182
+   - Color: 5319035
+   - Is Instant: false
+   - Is Bad: true
+	- Is Beneficial: false
+
+

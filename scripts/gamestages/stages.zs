@@ -452,6 +452,8 @@ stageDisabled.addRecipeRegex("^actuallyadditions:recipes31.$");
 stageDisabled.addRecipeRegex("^actuallyadditions:recipes32.$");
 stageDisabled.addRecipeRegex("^actuallyadditions:recipes33[01234567]$");
 stageDisabled.addRecipeRegex("^thermalfoundation:((tool)|(armor))(.*)$");
+stageDisabled.addRecipeRegex("^redstonearsenal:((tool)|(armor))(.*)$");
+stageDisabled.addRecipeRegex("^redstonerepository:((tool)|(armor))(.*)$");
 
 stageInfinity.addIngredientOverride(<ore:ingotInfinity>, false);
 stageInfinity.addIngredientOverride(<ore:blockInfinity>, false);
@@ -485,6 +487,9 @@ stageDescendantOfTheSun.addIngredientOverride(<draconicevolution:awakened_core>,
 stageFusionMatrix.addIngredientOverride(<ore:dustDraconium>, false);
 
 stageWitherSlayer.addIngredientOverride(<enderio:block_reinforced_obsidian>, false);
+
+stageWyvern.addIngredientOverride(<avaritia:neutron_collector>, false);
+stageAwakened.addIngredientOverride(<avaritia:neutronium_compressor>, false);
 
 
 ZenStager.buildAll();
@@ -547,3 +552,7 @@ mods.ItemStages.removeItemStage(<extrabotany:candybag>);
 mods.ItemStages.removeItemStage(<extrabotany:candy:*>);
 mods.ItemStages.removeItemStage(<ore:rock>);
 mods.ItemStages.removeItemStage(<taiga:basalt_block>);
+mods.ItemStages.removeItemStage(<avaritia:neutronium_compressor>);
+mods.ItemStages.removeItemStage(<avaritia:neutron_collector>);
+mods.ItemStages.addItemStage("wyvern", <avaritia:neutron_collector>);
+mods.ItemStages.addItemStage("awakened", <avaritia:neutronium_compressor>);

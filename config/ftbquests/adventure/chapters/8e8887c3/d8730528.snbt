@@ -81,5 +81,15 @@
 		type: "gamestage",
 		auto: "no_toast",
 		stage: "getting_started"
+	},
+	{
+		uid: "fd834fcf",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "pouchofunknown:pouch"
+		}
 	}]
 }

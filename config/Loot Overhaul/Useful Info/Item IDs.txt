@@ -11377,7 +11377,6 @@ aether_legacy:zanite_trapdoor - 15059
 aether_legacy:skyroot_door - 15060
 aether_legacy:zanite_door - 15061
 aether_legacy:skyroot_sign - 15062
-aether_legacy:skyroot_bed - 15063
 aether_legacy:cockatrice - 15064
 aether_legacy:burnt_cockatrice - 15065
 aether_legacy:enchanted_cockatrice - 15066
@@ -13054,3 +13053,6 @@ packagedauto:unpackager - 16736
 packagedauto:packager - 16737
 packagedauto:encoder - 16738
 packagedauto:packager_extension - 16739
+pouchofunknown:pouch - 16740
+aether_legacy:skyroot_bed_item - 16741
+aether_legacy:aether_portal_frame - 16742

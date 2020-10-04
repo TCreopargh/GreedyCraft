@@ -211,6 +211,7 @@ mysticalagriculture:prudentium_arrow - 208
 mysticalagriculture:intermedium_arrow - 209
 mysticalagriculture:superium_arrow - 210
 mysticalagriculture:supremium_arrow - 211
+aether_legacy:tipped_phoenix_arrow - 212
 openblocks:luggage - 213
 openblocks:xp_orb_no_fly - 214
 openblocks:hang_glider - 215

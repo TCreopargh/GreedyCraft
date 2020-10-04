@@ -169,7 +169,8 @@ val removedRecipes as IIngredient[] = [
 	<cyclicmagic:tool_swap_match>,
 	<cyclicmagic:tool_swap>,
 	<tconstruct:soil>,
-	<draconicevolution:wyvern_core>
+	<draconicevolution:wyvern_core>,
+	<farmingforblockheads:fertilizer:*>
 ];
 
 for ingredient in removedRecipes {
