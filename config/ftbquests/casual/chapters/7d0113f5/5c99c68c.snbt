@@ -1,7 +1,7 @@
 {
 	title: "§2奥术合成终端",
-	x: -1.5d,
-	y: 6.0d,
+	x: -9.5d,
+	y: -5.0d,
 	description: "获得奥术合成终端",
 	dependencies: [
 		"b4a4f0c3"

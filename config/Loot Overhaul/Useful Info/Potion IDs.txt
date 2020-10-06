@@ -1336,8 +1336,16 @@ astralsorcery:potiontimefreeze
 	- Is Beneficial: true
 
 
-tconevo:immortality
+aether_legacy:inebriation
    - Id: 166
+   - Color: 5319035
+   - Is Instant: false
+   - Is Bad: true
+	- Is Beneficial: false
+
+
+tconevo:immortality
+   - Id: 167
    - Color: 15450243
    - Is Instant: false
    - Is Bad: false
@@ -1345,7 +1353,7 @@ tconevo:immortality
 
 
 tconevo:mortal_wounds
-   - Id: 167
+   - Id: 168
    - Color: 6249870
    - Is Instant: false
    - Is Bad: true
@@ -1353,7 +1361,7 @@ tconevo:mortal_wounds
 
 
 tconevo:damage_reduction
-   - Id: 168
+   - Id: 169
    - Color: 5899674
    - Is Instant: false
    - Is Bad: false
@@ -1361,7 +1369,7 @@ tconevo:damage_reduction
 
 
 tconevo:damage_boost
-   - Id: 169
+   - Id: 170
    - Color: 16259128
    - Is Instant: false
    - Is Bad: false
@@ -1369,7 +1377,7 @@ tconevo:damage_boost
 
 
 abyssalcraft:cplague
-   - Id: 170
+   - Id: 171
    - Color: 65535
    - Is Instant: false
    - Is Bad: true
@@ -1377,7 +1385,7 @@ abyssalcraft:cplague
 
 
 abyssalcraft:dplague
-   - Id: 171
+   - Id: 172
    - Color: 11342611
    - Is Instant: false
    - Is Bad: true
@@ -1385,7 +1393,7 @@ abyssalcraft:dplague
 
 
 abyssalcraft:antimatter
-   - Id: 172
+   - Id: 173
    - Color: 16777215
    - Is Instant: false
    - Is Bad: true
@@ -1393,15 +1401,31 @@ abyssalcraft:antimatter
 
 
 bountifulbaubles:sinful
-   - Id: 173
+   - Id: 174
    - Color: 1053463
    - Is Instant: false
    - Is Bad: false
 	- Is Beneficial: false
 
 
+thaumadditions:sonus
+   - Id: 175
+   - Color: 16755200
+   - Is Instant: false
+   - Is Bad: false
+	- Is Beneficial: false
+
+
+thaumadditions:sanity_checker
+   - Id: 176
+   - Color: -1
+   - Is Instant: false
+   - Is Bad: false
+	- Is Beneficial: false
+
+
 extrautils2:effect.xu2.doom
-   - Id: 174
+   - Id: 177
    - Color: 3149840
    - Is Instant: false
    - Is Bad: true
@@ -1409,7 +1433,7 @@ extrautils2:effect.xu2.doom
 
 
 extrautils2:effect.xu2.gravity
-   - Id: 175
+   - Id: 178
    - Color: 2105376
    - Is Instant: false
    - Is Bad: true
@@ -1417,7 +1441,7 @@ extrautils2:effect.xu2.gravity
 
 
 extrautils2:effect.xu2.second.chance
-   - Id: 176
+   - Id: 179
    - Color: 6356848
    - Is Instant: false
    - Is Bad: false
@@ -1425,7 +1449,7 @@ extrautils2:effect.xu2.second.chance
 
 
 extrautils2:effect.xu2.greek.fire
-   - Id: 177
+   - Id: 180
    - Color: 16732160
    - Is Instant: false
    - Is Bad: true
@@ -1433,7 +1457,7 @@ extrautils2:effect.xu2.greek.fire
 
 
 extrautils2:effect.xu2.fizzy.lifting
-   - Id: 178
+   - Id: 181
    - Color: 10547296
    - Is Instant: false
    - Is Bad: true
@@ -1441,7 +1465,7 @@ extrautils2:effect.xu2.fizzy.lifting
 
 
 extrautils2:effect.xu2.relapse
-   - Id: 179
+   - Id: 182
    - Color: 6312191
    - Is Instant: false
    - Is Bad: false
@@ -1449,7 +1473,7 @@ extrautils2:effect.xu2.relapse
 
 
 extrautils2:effect.xu2.love
-   - Id: 180
+   - Id: 183
    - Color: 16761051
    - Is Instant: true
    - Is Bad: false
@@ -1457,17 +1481,9 @@ extrautils2:effect.xu2.love
 
 
 extrautils2:effect.xu2.purging
-   - Id: 181
+   - Id: 184
    - Color: 16738816
    - Is Instant: true
-   - Is Bad: true
-	- Is Beneficial: false
-
-
-aether_legacy:inebriation
-   - Id: 182
-   - Color: 5319035
-   - Is Instant: false
    - Is Bad: true
 	- Is Beneficial: false
 

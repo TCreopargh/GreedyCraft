@@ -32,7 +32,6 @@ events.onPlayerLoggedIn(function (event as crafttweaker.event.PlayerLoggedInEven
 	
 	if(event.player.creative) {
 		event.player.server.commandManager.executeCommand(event.player.server, "/tellraw @a {\"text\":\"§e" + event.player.name + "§a处于创造模式，作弊模式已为其自动开启。\"}");
-		
 		event.player.server.commandManager.executeCommand(event.player.server, "/gamestage add " + event.player.name + " iswuss");
 		event.player.sendChat("§a§o检测到您处于创造模式，作弊模式已自动开启。");
 	} else if(event.player.hasGameStage("iswuss")) {
@@ -42,7 +41,7 @@ events.onPlayerLoggedIn(function (event as crafttweaker.event.PlayerLoggedInEven
 });
 
 events.onPlayerRespawn(function (event as crafttweaker.event.PlayerRespawnEvent) {
-	if(gamemode != 0) {
+	if(PACKMODE != MODE_CASUAL) {
 		for entity in killEntities {
 			event.player.server.commandManager.executeCommand(event.player.server, "/ctrlkill " + entity + " 0");
 		}

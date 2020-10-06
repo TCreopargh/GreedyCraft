@@ -10,9 +10,6 @@
 		uid: "cd16a6dd",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "abyssalcraft:necronomicon_omt",
 			tag: {
 				PotEnergy: 0.0f

@@ -1,10 +1,10 @@
 {
 	title: "§6炼铜癖",
-	x: 1.0d,
-	y: -1.5d,
+	x: 0.5d,
+	y: -2.5d,
 	description: "获得炼金黄铜",
 	dependencies: [
-		"469b1d74"
+		"ffbd430f"
 	],
 	tasks: [{
 		uid: "12e76c6e",

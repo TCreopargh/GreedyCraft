@@ -107,9 +107,6 @@
 	},
 	{
 		item: {
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "minecraft:elytra"
 		}
 	},
@@ -226,9 +223,6 @@
 	},
 	{
 		item: {
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "projecte:item.pe_klein_star",
 			tag: {},
 			Damage: 5s
@@ -237,9 +231,6 @@
 	},
 	{
 		item: {
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "projectex:magnum_star_ein",
 			tag: {}
 		},
@@ -281,9 +272,6 @@
 	},
 	{
 		item: {
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "additions:greedycraft-difficulty_changer"
 		}
 	},
@@ -309,9 +297,6 @@
 	},
 	{
 		item: {
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "minecraft:orange_shulker_box",
 			tag: {display:{Lore:["§b禁止套娃！！"],Name:"§c套娃之箱"},BlockEntityTag:{Items:[{id:"minecraft:orange_shulker_box",Count:1b,tag:{BlockEntityTag:{Items:[{Slot:0,id:"orange_shulker_box",Count:1,tag:{BlockEntityTag:{Items:[{Slot:0,id:"orange_shulker_box",Count:1,tag:{BlockEntityTag:{Items:[{Slot:0,id:"orange_shulker_box",Count:1,tag:{BlockEntityTag:{Items:[{Slot:0,id:"orange_shulker_box",Count:1,tag:{BlockEntityTag:{Items:[{Slot:0,id:"orange_shulker_box",Count:1,tag:{BlockEntityTag:{Items:[{Slot:0,id:"orange_shulker_box",Count:1,tag:{BlockEntityTag:{Items:[{Slot:0,id:"orange_shulker_box",Count:1,tag:{BlockEntityTag:{Items:[{Slot:0,id:"orange_shulker_box",Count:1,tag:{BlockEntityTag:{Items:[{Slot:0,id:"orange_shulker_box",Count:1,tag:{BlockEntityTag:{Items:[{Slot:0,id:"orange_shulker_box",Count:1,tag:{BlockEntityTag:{Items:[{Slot:0,id:"orange_shulker_box",Count:1,tag:{BlockEntityTag:{Items:[{Slot:0,id:"orange_shulker_box",Count:1,tag:{BlockEntityTag:{Items:[{Slot:0,id:"orange_shulker_box",Count:1,tag:{BlockEntityTag:{Items:[{Slot:0,id:"orange_shulker_box",Count:1,tag:{BlockEntityTag:{Items:[{Slot:0,id:"orange_shulker_box",Count:1,tag:{BlockEntityTag:{Items:[{Slot:0,id:"eternalsingularity:eternal_singularity",Count:1}]},display:{Lore:["§b§o看来你已经到达了终点。"],Name:"§d§o最后的箱子"}}}]},display:{Lore:["§b禁止套娃！！"],Name:"§c套娃之箱"}}}]},display:{Lore:["§b禁止套娃！！"],Name:"§c套娃之箱"}}}]},display:{Lore:["§b禁止套娃！！"],Name:"§c套娃之箱"}}}]},display:{Lore:["§b禁止套娃！！"],Name:"§c套娃之箱"}}}]},display:{Lore:["§b禁止套娃！！"],Name:"§c套娃之箱"}}}]},display:{Lore:["§b禁止套娃！！"],Name:"§c套娃之箱"}}}]},display:{Lore:["§b禁止套娃！！"],Name:"§c套娃之箱"}}}]},display:{Lore:["§b禁止套娃！！"],Name:"§c套娃之箱"}}}]},display:{Lore:["§b禁止套娃！！"],Name:"§c套娃之箱"}}}]},display:{Lore:["§b禁止套娃！！"],Name:"§c套娃之箱"}}}]},display:{Lore:["§b禁止套娃！！"],Name:"§c套娃之箱"}}}]},display:{Lore:["§b禁止套娃！！"],Name:"§c套娃之箱"}}}]},display:{Lore:["§b禁止套娃！！"],Name:"§c套娃之箱"}}}]},display:{Lore:["§b禁止套娃！！"],Name:"§c套娃之箱"}}}]},display:{Lore:["§b禁止套娃！！"],Name:"§c套娃之箱"}},Damage:0s}]}}
 		}

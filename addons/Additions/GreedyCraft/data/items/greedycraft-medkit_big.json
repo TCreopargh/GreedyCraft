@@ -5,7 +5,7 @@
     "§7并获得40秒的生命恢复III效果",
     "§7同时回复32点生命值"
   ],
-  "max_stack": 62,
+  "max_stack": 64,
   "hunger": 0,
   "saturation": 0.0,
   "always_edible": true,

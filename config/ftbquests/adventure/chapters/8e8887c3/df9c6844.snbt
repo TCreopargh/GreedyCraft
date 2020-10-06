@@ -11,9 +11,6 @@
 		uid: "27dc9407",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "projecte:item.pe_philosophers_stone",
 			tag: {}
 		}],

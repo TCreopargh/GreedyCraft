@@ -1,7 +1,7 @@
 {
 	title: "§c这书上写的是啥",
 	x: -7.5d,
-	y: -3.0d,
+	y: -3.5d,
 	description: "获得血腥仪式",
 	tasks: [{
 		uid: "5f98c696",

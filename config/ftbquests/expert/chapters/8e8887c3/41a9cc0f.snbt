@@ -1,9 +1,6 @@
 {
 	title: "§b深渊之眼",
 	icon: {
-		ForgeCaps: {
-			"astralsorcery:cap_item_amulet_holder": {}
-		},
 		id: "abyssalcraft:eoa"
 	},
 	x: 8.0d,
@@ -13,9 +10,6 @@
 		uid: "9cca1a83",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "abyssalcraft:eoa"
 		}],
 		ignore_damage: true,

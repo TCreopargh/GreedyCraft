@@ -1,7 +1,7 @@
 {
 	title: "§3SAN CHECK",
 	x: -3.5d,
-	y: 4.0d,
+	y: 3.5d,
 	description: "获得神智检测仪",
 	dependencies: [
 		"22d2e079"
@@ -10,9 +10,6 @@
 		uid: "178bd604",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "thaumcraft:sanity_checker"
 		}],
 		ignore_damage: true,

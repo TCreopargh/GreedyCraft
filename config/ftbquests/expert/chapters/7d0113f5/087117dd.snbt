@@ -1,6 +1,6 @@
 {
 	title: "§d神秘金属",
-	x: 3.5d,
+	x: 2.5d,
 	y: -1.5d,
 	description: "获得神秘锭",
 	dependencies: [

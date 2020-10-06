@@ -1,9 +1,6 @@
 {
 	title: "§e欢迎游玩贪婪整合包§b§oby TCreopargh",
 	icon: {
-		ForgeCaps: {
-			"astralsorcery:cap_item_amulet_holder": {}
-		},
 		id: "ftbquests:custom_icon",
 		tag: {
 			icon: "greedycraft:mainmenu/logo.png"
@@ -60,9 +57,6 @@
 						Damage: 0s
 					},
 					astralsorcery: {
-						ForgeCaps: {
-							"astralsorcery:cap_item_amulet_holder": {}
-						},
 						id: "astralsorcery:itemjournal",
 						Count: 1b,
 						tag: {
@@ -262,9 +256,6 @@
 						Damage: 0s
 					},
 					sakura: {
-						ForgeCaps: {
-							"astralsorcery:cap_item_amulet_holder": {}
-						},
 						id: "patchouli:guide_book",
 						Count: 1b,
 						tag: {

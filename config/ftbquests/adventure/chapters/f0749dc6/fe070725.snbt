@@ -1,9 +1,6 @@
 {
 	title: "§6守护者V",
 	icon: {
-		ForgeCaps: {
-			"astralsorcery:cap_item_amulet_holder": {}
-		},
 		id: "minecraft:diamond_chestplate"
 	},
 	x: 2.0d,
@@ -16,9 +13,6 @@
 		uid: "7608bc5c",
 		type: "stat",
 		icon: {
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "minecraft:iron_chestplate"
 		},
 		stat: "stat.damageTaken",
@@ -33,9 +27,6 @@
 		uid: "13ba7676",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "cyclicmagic:soulstone"
 		},
 		count: 32
@@ -50,9 +41,6 @@
 		uid: "8c95e777",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "bountifulbaubles:shieldankh",
 			tag: {
 				HideFlags: 2

@@ -1,9 +1,6 @@
 {
 	title: "§a切换为 §a§n休闲模式",
 	icon: {
-		ForgeCaps: {
-			"astralsorcery:cap_item_amulet_holder": {}
-		},
 		id: "minecraft:iron_hoe"
 	},
 	x: -2.125d,

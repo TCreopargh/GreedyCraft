@@ -22,9 +22,6 @@
 		uid: "8f04ae4e",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "botania:twigwand",
 			tag: {
 				color1: 0,

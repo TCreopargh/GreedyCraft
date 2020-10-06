@@ -1,7 +1,7 @@
 {
 	title: "§d清洁身体",
 	x: -3.5d,
-	y: 6.0d,
+	y: 5.5d,
 	description: "获得净化浴盐",
 	dependencies: [
 		"08073f99"

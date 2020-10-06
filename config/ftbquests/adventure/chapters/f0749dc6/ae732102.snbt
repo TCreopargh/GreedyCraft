@@ -1,9 +1,6 @@
 {
 	title: "§d守护者IV",
 	icon: {
-		ForgeCaps: {
-			"astralsorcery:cap_item_amulet_holder": {}
-		},
 		id: "minecraft:golden_chestplate"
 	},
 	x: 2.0d,
@@ -16,9 +13,6 @@
 		uid: "50164de0",
 		type: "stat",
 		icon: {
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "minecraft:iron_chestplate"
 		},
 		stat: "stat.damageTaken",
@@ -39,9 +33,6 @@
 		uid: "8399fb22",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "bountifulbaubles:shieldcobalt",
 			tag: {
 				HideFlags: 2

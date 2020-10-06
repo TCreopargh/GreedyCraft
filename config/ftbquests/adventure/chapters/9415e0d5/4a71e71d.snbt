@@ -7,9 +7,6 @@
 		uid: "8898d8fd",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "chesttransporter:chesttransporter",
 			tag: {}
 		}]
@@ -24,9 +21,6 @@
 		uid: "7c5b48b4",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "chesttransporter:chesttransporter_obsidian",
 			tag: {}
 		},

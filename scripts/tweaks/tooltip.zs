@@ -87,3 +87,5 @@ game.setLocalization("tooltip.itemstages.name.default", "§5§ka§r §d未知物
 <mekanism:transmitter:*>.addTooltip("§cMek的线缆已禁用，建议使用XNet");
 <cyclicmagic:tool_swap>.addTooltip("§c已禁用");
 <cyclicmagic:tool_swap_match>.addTooltip("§c已禁用");
+<ore:ingotInsanium>.addTooltip("§e需要进入困难模式才能用来制作匠魂装备");
+<ore:ingotSupremium>.addTooltip("§e需要进入困难模式才能用来制作匠魂装备");

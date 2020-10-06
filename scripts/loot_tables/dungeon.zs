@@ -39,6 +39,7 @@ dungeonPool1.addItemEntryHelper(<additions:greedycraft-true_eye_of_ender>, 1, 1,
 dungeonPool1.addItemEntryHelper(<abyssalcraft:shadowgem>, 6, 1, [Functions.setCount(1, 1)], []);
 dungeonPool1.addItemEntryHelper(<abyssalcraft:shadowshard>, 12, 1, [Functions.setCount(1, 6)], []);
 dungeonPool1.addItemEntryHelper(<abyssalcraft:shadowfragment>, 18, 1, [Functions.setCount(1, 20)], []);
+dungeonPool1.addItemEntryHelper(<additions:greedycraft-huaji>, 8, 1, [Functions.setCount(1, 2)], []);
 
 var dungeonPool2 = dungeon.getPool("pool2");  
 dungeonPool2.addItemEntryHelper(<additions:greedycraft-reward_ticket_common>, 12, 1, [Functions.setCount(1, 2)], []);
@@ -55,3 +56,4 @@ dungeonPool2.addItemEntryHelper(<additions:greedycraft-tower_chest_key>, 2, 1, [
 dungeonPool2.addItemEntryHelper(<additions:greedycraft-sunny_doll>, 2, 1, [Functions.setCount(1, 1)], []);
 dungeonPool2.addItemEntryHelper(<additions:greedycraft-bag_of_dyes>, 6, 1, [Functions.setCount(1, 3)], []);
 dungeonPool2.addItemEntryHelper(<additions:tcsponsors-sponsor_chest_fragment>, 2, 1, [Functions.setCount(1, 3)], []);
+dungeonPool2.addItemEntryHelper(<additions:greedycraft-huaji>, 4, 1, [Functions.setCount(1, 2)], []);

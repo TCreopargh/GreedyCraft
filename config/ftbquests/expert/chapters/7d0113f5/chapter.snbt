@@ -1,17 +1,14 @@
 {
 	title: "§d神秘时代",
 	icon: {
-		ForgeCaps: {
-			"astralsorcery:cap_item_amulet_holder": {}
-		},
 		id: "thaumcraft:thaumonomicon"
 	},
 	always_invisible: false,
 	group: 0,
 	default_quest_shape: "",
 	images: [{
-		x: 4.5d,
-		y: 4.5d,
+		x: -8.5d,
+		y: 3.5d,
 		width: 8.0d,
 		height: 4.0d,
 		rotation: 0.0d,
@@ -21,8 +18,8 @@
 		dev: false
 	},
 	{
-		x: 4.0d,
-		y: 1.5d,
+		x: 2.0d,
+		y: 5.0d,
 		width: 1.0d,
 		height: 1.0d,
 		rotation: 0.0d,

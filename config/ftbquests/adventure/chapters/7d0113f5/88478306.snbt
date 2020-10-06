@@ -1,7 +1,7 @@
 {
 	title: "§6价值连城",
-	x: -5.5d,
-	y: -3.0d,
+	x: -9.5d,
+	y: -3.5d,
 	description: "获得传世珍宝",
 	tasks: [{
 		uid: "9ff3b6d2",

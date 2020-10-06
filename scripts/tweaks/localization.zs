@@ -16,6 +16,31 @@ game.setLocalization("item.adamant_dust.name", "精金粉");
 game.setLocalization("item.adamant_ingot.name", "精金锭");
 game.setLocalization("fluid.tconstruct.adamant_fluid.name", "熔融精金");
 
+game.setLocalization("tile.thaumadditions:adaminite_smelter.name", "铿金源质冶炼厂");
+game.setLocalization("tile.thaumadditions:jar_adaminite.name", "铿金源质罐子");
+game.setLocalization("tile.thaumadditions:adaminite_block.name", "铿金块");
+game.setLocalization("item.thaumadditions:adaminite_nugget.name", "铿金粒");
+game.setLocalization("item.thaumadditions:adaminite_ingot.name", "铿金锭");
+game.setLocalization("item.thaumadditions:adaminite_plate.name", "铿金板");
+game.setLocalization("item.thaumadditions:adaminite_nugget.name", "铿金粒");
+game.setLocalization("item.thaumadditions:adaminite_fabric.name", "铿金布匹");
+game.setLocalization("item.thaumadditions:adaminite_sword.name", "铿金剑");
+game.setLocalization("item.thaumadditions:adaminite_hood.name", "铿金神秘使兜帽");
+game.setLocalization("item.thaumadditions:adaminite_robe.name", "铿金神秘使法袍");
+game.setLocalization("item.thaumadditions:adaminite_belt.name", "铿金神秘使腰带");
+game.setLocalization("item.thaumadditions:adaminite_boots.name", "铿金神秘使靴子");
+game.setLocalization("research_name.thaumadditions:adaminite", "铿金金属");
+game.setLocalization("research_stage.thaumadditions:adaminite.2", "我的实验已大获成功！书中它这种新造物称之为“铿金”。我都要疯了！我听说过灵液，神之血，但我认为这金属要远比灵液好，尽管它存在于这世上的任何地方。");
+game.setLocalization("research_name.thaumadditions:adaminite_smelter", "铿金源质冶炼厂");
+game.setLocalization("research_stage.thaumadditions:adaminite_smelter.2", "好啊！铿金似乎更好更高效！铿金源质冶炼厂现在能多产生 20% 源质。这意味着我可以更少的冶炼源质了。");
+game.setLocalization("research_stage.thaumadditions:mithminite_smelter.1", "我想要改进铿金源质冶炼厂的质量并让它更快并且经常产生额外的源质。我知道秘金应该能有所帮助，并且我需要一点实验来确认我的想法是正确的。");
+game.setLocalization("research_name.thaumadditions:adaminite_smelter", "铿金源质冶炼厂");
+game.setLocalization("research_name.thaumadditions:adaminite_jar", "铿金源质罐子");
+game.setLocalization("research_stage.thaumadditions:mithminite_jar.2", "我的结论是正确的，铿金罐子可以被秘金合金用一中复杂的注魔来觉醒, 这种新的（我希望是最终的）罐子可以装 4000 点源质，是铿金源质罐子的两倍。 我同时也注意到这罐子能销毁流入的多余源质，这可能对我的那些旧的虚空罐子是应该很不错的升级，而且这也不会因为源质溢出而爆炸。"
+);
+game.setLocalization("research_stage.thaumadditions:adaminite_jar.2", "铿金非常独特！我认为这个罐子可以容纳 2000 点源质，这使得它内部空间的源质十分稠密。");
+game.setLocalization("research_stage.thaumadditions:adaminite_jar.3", "铿金非常独特！我认为这个罐子可以容纳 2000 点源质，这使得它内部空间的源质十分稠密。我听到一个叫泽尔西伦的人的声音，他是其中一位创世者，曾创造了这个世界。他轻声低语道：“这个罐子密度太大了，也许在某些特定的情况下会不稳定。我不认为把它完全装满源质是一个好主意...”。我从他的话语中也听出他非常惊讶于我所完成的这一艰难的挑战。");
+game.setLocalization("research_stage.thaumadditions:mithminite_jar.1", "既然已我知晓了用秘银和一些水银可能可以觉醒精金，我只需知道我能否负担得起这些秘金源质罐子。");
 /* disabled
 game.setLocalization("material.prometheum.name", "普罗姆");
 game.setLocalization("tile.prometheum_block.name", "普罗姆块");

@@ -26,3 +26,8 @@ mods.TinkerStages.addMaterialStage("nether", "cobalt");
 mods.TinkerStages.addMaterialStage("nether", "manyullyn");
 mods.TinkerStages.addMaterialStage("awakened", "titanium");
 mods.TinkerStages.addMaterialStage("hardmode", "cryonium");
+mods.TinkerStages.addMaterialStage("hardmode", "cytosinite");
+mods.TinkerStages.addMaterialStage("hardmode", "mithminite");
+mods.TinkerStages.addMaterialStage("hardmode", "adaminite");
+mods.TinkerStages.addMaterialStage("hardmode", "mithrillium");
+mods.TinkerStages.addMaterialStage("awakened", "terra_alloy");

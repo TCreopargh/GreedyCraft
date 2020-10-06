@@ -136,7 +136,9 @@ stageAwakened.addIngredients([
 	<extrautils2:angelring:*>,
 	<inventorypets:cloud_pet>,
 	<cyclicmagic:glowing_chorus>,
-	<toolprogression:magic_mushroom>
+	<toolprogression:magic_mushroom>,
+	<ore:blockTerraAlloy>,
+	<ore:ingotTerraAlloy>
 ], true);
 
 stageNether.addIngredients([
@@ -168,6 +170,10 @@ stageNether.addIngredients([
 	<extrautils2:teleporter:1>,
 	<ore:ingotDemonicMetal>
 ], true);
+
+stageNether.addIngredients([
+	<ore:nitor>
+], false);
 
 stageChaotic.addIngredients([
 	<ore:ingotChaoticMetal>,
@@ -203,11 +209,18 @@ stageHardmode.addIngredients([
 	<ore:ingotCryonium>,
 	<ore:blockCryonium>,
 	<ore:oreCryonium>,
+	<ore:dustCryonium>,
+	<ore:nuggetCryonium>,
 	<plustic:osgloglasingot>,
 	<minecraft:elytra>,
 	<colytra:elytra_bauble>,
 	<plustic:osmiridiumingot>,
 	<biomesoplenty:gem:*>,
+	<ore:ingotCytosinite>,
+	<ore:blockCytosinite>,
+	<ore:oreCytosinite>,
+	<ore:nuggetCytosinite>,
+	<ore:dustCytosinite>,
 	<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 5 as short}]}),
 	<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 10 as short}]})
 ], true);
@@ -246,6 +259,7 @@ stageInfinity.addLiquid(<liquid:infinity_metal>);
 
 stageHardmode.addLiquid(<liquid:osmiridium>);
 stageHardmode.addLiquid(<liquid:osgloglas>);
+stageAwakened.addLiquid(<liquid:terra_alloy>);
 
 stageFusionMatrix.addLiquid(<liquid:draconium>);
 
@@ -296,7 +310,26 @@ stageMasterWizard.addIngredients([
 	<ore:blockPrimordial>,
 	<ore:nuggetPrimordial>,
 	<ore:dustPrimordial>,
-	<thaumcraft:causality_collapser>
+	<thaumcraft:causality_collapser>,
+	<thaumadditions:mithrillium_ingot>,
+	<thaumadditions:adaminite_ingot>,
+	<thaumadditions:mithminite_ingot>,
+	<thaumadditions:mithrillium_plate>,
+	<thaumadditions:adaminite_plate>,
+	<thaumadditions:mithminite_plate>,
+	<thaumicwonders:void_beacon>,
+	<thaumicwonders:coalescence_matrix_precursor>,
+	<thaumicwonders:meaty_orb>,
+	<thaumadditions:mithrillium_nugget>,
+	<thaumadditions:adaminite_nugget>,
+	<thaumadditions:mithminite_nugget>,
+	<thaumadditions:mithminite_smelter>,
+	<thaumadditions:adaminite_smelter>,
+	<thaumadditions:mithrillium_smelter>,
+	<thaumadditions:void_anvil>,
+	<thaumadditions:shadow_enchanter>,
+	<thaumicwonders:flux_capacitor>,
+	<thaumicwonders:coalescence_matrix>
 ], false);
 
 stageEnderCharm.addIngredients([
@@ -338,6 +371,9 @@ stageWitherSlayer.addOreReplacement(<minecraft:beacon:*>, <additions:greedycraft
 stageHardmode.addOreReplacement(<additions:greedycraft-titanium_ore>, <minecraft:end_stone>, false);
 stageHardmode.addOreReplacement(<additions:greedycraft-cryonium_ore>, <minecraft:stone>, false);
 stageNether.addOreReplacement(<minecraft:quartz_ore>, <minecraft:netherrack>, false);
+stageNether.addOreReplacement(<thaumcraft:ore_quartz>, <minecraft:stone>, false);
+stageNether.addOreReplacement(<netherendingores:ore_other_1>, <minecraft:stone>, false);
+stageHardmode.addOreReplacement(<additions:greedycraft-cytosinite_ore>, <biomesoplenty:mud>, false);
 
 stageSkilledEngineer.addIngredients([
 	<ore:ingotIridium>,
@@ -435,7 +471,7 @@ stageNether.addModId(["aether_legacy", "cyclicmagic"]);
 
 stageNoviceEngineer.addModId(["enderio"]);
 
-stageDisabled.addRecipeRegex("^mysticalagriculture:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(sword)|(axe)|(shovel)|(boots)|(leggings)|(chestplate)|(helmet))$");
+stageDisabled.addRecipeRegex("^mysticalagriculture:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(sword)|(axe)|(shovel)|(boots)|(leggings)|(chestplate)|(helmet)|(sickle)|(fishing_rod)|(scythe))$");
 stageHardmode.addRecipeRegex("^twilightforest:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(sword)|(axe)|(shovel)|(boots)|(leggings)|(chestplate)|(helmet))$");
 stageHardmode.addRecipeRegex("^tofucraft:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(sword)|(axe)|(shovel)|(boots)|(leggings)|(chestplate)|(helmet))$");
 stageDisabled.addRecipeRegex("^abyssalcraft:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(sword)|(axe)|(shovel)|(boots)|(leggings)|(chestplate)|(helmet)|(plate)|(legs)|(helm))$");

@@ -10,9 +10,6 @@
 		uid: "b4098c6e",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "astralsorcery:blockaltar",
 			Damage: 3s
 		}],

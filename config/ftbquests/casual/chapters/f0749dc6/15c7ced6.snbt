@@ -1,9 +1,6 @@
 {
 	title: "§9怪物猎人III",
 	icon: {
-		ForgeCaps: {
-			"astralsorcery:cap_item_amulet_holder": {}
-		},
 		id: "minecraft:iron_sword"
 	},
 	x: -3.0d,

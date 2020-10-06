@@ -79,12 +79,22 @@
         "result": "deny"
     },
 	{
-        "mob": ["minecraft:zombie_horse", "minecraft:skeleton_horse", "minecraft:wolf"],
+        "mob": ["minecraft:zombie_horse", "minecraft:skeleton_horse"],
 		"mincount": {
             "amount": 16,
 			"mod": "minecraft",
             "perplayer": true
         },
+        "result": "deny"
+    },
+	{
+        "mob": ["minecraft:wolf"],
+		"mincount": {
+            "amount": 20,
+			"mod": "minecraft",
+            "perplayer": true
+        },
+		"onjoin": true,
         "result": "deny"
     },
     {

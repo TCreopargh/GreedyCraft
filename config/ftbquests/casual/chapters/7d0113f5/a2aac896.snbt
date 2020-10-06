@@ -1,10 +1,9 @@
 {
 	title: "§d元§a始§e金§c属",
-	x: 8.5d,
-	y: -1.5d,
+	x: 4.5d,
+	y: 5.5d,
 	description: "获得元金锭",
 	dependencies: [
-		"5a9b6af9",
 		"06dba2ad"
 	],
 	tasks: [{

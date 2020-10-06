@@ -7,9 +7,6 @@
 		uid: "f000f5c6",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "danknull:dank_null_5",
 			tag: {}
 		}],

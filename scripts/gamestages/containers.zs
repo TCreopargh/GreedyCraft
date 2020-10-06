@@ -8,3 +8,6 @@ Recipes.setPackageStage("cofh", listStages);
 Recipes.setPackageStage("mekanism", listStages);
 Recipes.setPackageStage("thaumcraft", listStages);
 Recipes.setPackageStage("avaritia", listStages);
+Recipes.setPackageStage("rftools", listStages);
+Recipes.setPackageStage("mcjty", listStages);
+Recipes.setPackageStage("cyclicmagic", listStages);

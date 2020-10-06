@@ -1,7 +1,7 @@
 {
 	title: "§d理论魔法学",
 	x: -5.5d,
-	y: 0.0d,
+	y: -1.5d,
 	description: "获得书桌",
 	dependencies: [
 		"e42bd6a4"
@@ -17,9 +17,6 @@
 		uid: "a53e8e27",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "thaumcraft:scribing_tools"
 		}
 	},

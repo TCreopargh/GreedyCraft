@@ -7,15 +7,9 @@
 		uid: "1799beb4",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "mca:baby_boy"
 		},
 		{
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "mca:baby_girl"
 		}],
 		ignore_damage: true,

@@ -11,9 +11,6 @@
 		uid: "0cc4a376",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "projecte:item.pe_transmutation_tablet"
 		}],
 		ignore_damage: true,

@@ -1,7 +1,7 @@
 {
 	title: "§d更好的冶炼厂",
-	x: 3.5d,
-	y: -3.5d,
+	x: 4.5d,
+	y: -2.5d,
 	description: "获得神秘源质冶炼厂",
 	dependencies: [
 		"087117dd",

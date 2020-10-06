@@ -17,3 +17,4 @@ import crafttweaker.game.IGame;
 <ore:foodChocolate>.add(<foodexpansion:itemchocolatebar>);
 <ore:foodChocolate>.addAll(<ore:foodChocolateBar>);
 <ore:foodChocolateBar>.addAll(<ore:foodChocolate>);
+<ore:ingotGaia>.addAll(<ore:gaiaIngot>);

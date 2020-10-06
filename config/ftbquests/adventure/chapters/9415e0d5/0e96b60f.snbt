@@ -10,9 +10,6 @@
 		uid: "b63c3044",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "magicfeather:magicfeather"
 		}],
 		ignore_damage: true,
@@ -32,9 +29,6 @@
 		uid: "a0170b16",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "minecraft:elytra"
 		}
 	}]

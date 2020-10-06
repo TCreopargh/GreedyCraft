@@ -81,5 +81,12 @@
 		type: "gamestage",
 		auto: "no_toast",
 		stage: "getting_started"
+	},
+	{
+		uid: "fd834fcf",
+		type: "item",
+		item: {
+			id: "pouchofunknown:pouch"
+		}
 	}]
 }

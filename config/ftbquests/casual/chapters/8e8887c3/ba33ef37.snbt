@@ -1,9 +1,6 @@
 {
 	title: "§b免费的§d难度调节器§b！",
 	icon: {
-		ForgeCaps: {
-			"astralsorcery:cap_item_amulet_holder": {}
-		},
 		id: "additions:greedycraft-difficulty_changer"
 	},
 	x: -10.0d,
@@ -19,9 +16,6 @@
 		uid: "89119289",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "additions:greedycraft-difficulty_changer"
 		}
 	}]

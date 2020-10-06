@@ -33,12 +33,11 @@ global whitelistedCommands as string[] = [
 	"wussmode",
 	"shrug",
 	"forge",
-	"tpa",
 	"mca",
 	"wormhole",
 	"packmode",
 	"tpaccept",
 	"team",
 	"ctrlreload",
-	"botania_share"
+	"botania-share"
 ];

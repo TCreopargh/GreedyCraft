@@ -24,3 +24,4 @@ urnPool.addItemEntryHelper(<scalinghealth:heartdust>, 14, 1, [Functions.setCount
 urnPool.addItemEntryHelper(<additions:greedycraft-delivery_order>, 40, 1, [Functions.setCount(1, 1)], []);
 urnPool.addItemEntryHelper(<additions:greedycraft-tower_chest_key>, 10, 1, [Functions.setCount(1, 1)], []);
 urnPool.addItemEntryHelper(<additions:tcsponsors-sponsor_chest_fragment>, 5, 1, [Functions.setCount(1, 3)], []);
+urnPool.addItemEntryHelper(<additions:greedycraft-huaji>, 8, 1, [Functions.setCount(1, 2)], []);

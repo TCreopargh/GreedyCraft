@@ -1,10 +1,10 @@
 {
 	title: "§a注魔合成",
-	x: -1.5d,
-	y: 1.0d,
+	x: 0.5d,
+	y: 1.5d,
 	description: "获得符文矩阵",
 	dependencies: [
-		"e42bd6a4"
+		"469b1d74"
 	],
 	tasks: [{
 		uid: "5d49b016",

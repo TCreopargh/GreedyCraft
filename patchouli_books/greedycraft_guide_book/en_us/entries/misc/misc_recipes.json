@@ -155,6 +155,16 @@
 			"type": "crafting",
 			"recipe2": "crafttweaker:auto_gen_1397188541",
 			"recipe": "crafttweaker:auto_gen_1077378325"
+		},
+		{
+			"type": "crafting",
+			"recipe2": "crafttweaker:auto_gen_1268894182",
+			"recipe": "crafttweaker:auto_gen_1834508295"
+		},
+		{
+			"type": "crafting",
+			"recipe2": "crafttweaker:auto_gen_1478856706",
+			"recipe": "crafttweaker:auto_gen_-637448521"
 		}
 	]
 }

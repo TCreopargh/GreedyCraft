@@ -170,7 +170,14 @@ val removedRecipes as IIngredient[] = [
 	<cyclicmagic:tool_swap>,
 	<tconstruct:soil>,
 	<draconicevolution:wyvern_core>,
-	<farmingforblockheads:fertilizer:*>
+	<farmingforblockheads:fertilizer:*>,
+	<rftools:shape_card:*>,
+	<rftools:environmental_controller>,
+	<rftools:machine_frame>,
+	<thaumadditions:mithminite_plate>,
+	<thaumadditions:adaminite_plate>,
+	<thaumadditions:mithrillium_plate>,
+	<cyclicmagic:magic_net>
 ];
 
 for ingredient in removedRecipes {
@@ -345,8 +352,8 @@ recipes.addShaped("auto_gen_-1873046907", <additions:greedycraft-medkit_super>,
 recipes.addShapeless("auto_gen_1565439995", <scalinghealth:heartdust>*9, [<scalinghealth:crystalshard>]);
 recipes.addShapeless("auto_gen_522430280", <scalinghealth:crystalshard>, [<scalinghealth:heartdust>, <scalinghealth:heartdust>, <scalinghealth:heartdust>, <scalinghealth:heartdust>, <scalinghealth:heartdust>, <scalinghealth:heartdust>, <scalinghealth:heartdust>, <scalinghealth:heartdust>, <scalinghealth:heartdust>]);
 recipes.addShapeless("auto_gen_-1180907112", <scalinghealth:crystalshard>*9, [<scalinghealth:heartcontainer>]);
-recipes.addShapeless("auto_gen_1296047035", <minecraft:splash_potion>.withTag({CustomPotionEffects:[{Duration:2400,Id:1,Amplifier:49},{Duration:2400,Id:3,Amplifier:49},{Duration:2400,Id:5,Amplifier:49},{Id:6,Amplifier:28},{Duration:2400,Id:8,Amplifier:49},{Duration:2400,Id:10,Amplifier:31},{Duration:2400,Id:11,Amplifier:4},{Duration:2400,Id:12},{Duration:2400,Id:13},{Duration:2400,Id:14},{Duration:2400,Id:16},{Duration:2400,Id:21,Amplifier:49},{Duration:2400,Id:22,Amplifier:49},{Id:23,Amplifier:119},{Duration:2400,Id:26,Amplifier:49},{Duration:2400,Id:28}],CustomPotionColor:16648959,display:{Lore:["§d蕴含了世间强大力量的药剂"],Name:"§5§l巨龙药剂"}}), [<minecraft:glass_bottle>, <additions:greedycraft-dragon_soul>]);
-recipes.addShapeless("auto_gen_-2147158797", <minecraft:splash_potion>.withTag({CustomPotionEffects:[{Duration:2400,Id:2,Amplifier:49},{Duration:2400,Id:4,Amplifier:49},{Id:7,Amplifier:28},{Duration:2400,Id:9},{Duration:2400,Id:15},{Duration:2400,Id:17,Amplifier:49},{Duration:2400,Id:18,Amplifier:49},{Duration:2400,Id:19,Amplifier:4},{Duration:2400,Id:20,Amplifier:2},{Duration:2400,Id:24},{Duration:2400,Id:25,Amplifier:49},{Duration:2400,Id:27,Amplifier:49}],CustomPotionColor:0,display:{Lore:["蕴含了世间枯萎力量的药剂"],Name:"§8§l枯萎药剂"}}), [<minecraft:glass_bottle>, <additions:greedycraft-wither_soul>]);
+recipes.addShapeless("auto_gen_1296047035", <minecraft:splash_potion>.withTag({CustomPotionEffects:[{Duration:2400,Id:1,Amplifier:49},{Duration:2400,Id:3,Amplifier:49},{Duration:2400,Id:5,Amplifier:49},{Id:6,Amplifier:28},{Duration:2400,Id:8,Amplifier:49},{Duration:2400,Id:10,Amplifier:31},{Duration:2400,Id:11,Amplifier:4},{Duration:2400,Id:12},{Duration:2400,Id:13},{Duration:2400,Id:14},{Duration:2400,Id:16},{Duration:2400,Id:21,Amplifier:49},{Duration:2400,Id:22,Amplifier:49},{Id:23,Amplifier:119},{Duration:2400,Id:26,Amplifier:49},{Duration:2400,Id:28}],CustomPotionColor:16648959,display:{Lore:["§d蕴含了世间强大力量的药剂"],Name:"§5§l巨龙药剂"}}), [<minecraft:glass_bottle>, <additions:greedycraft-dragon_soul>, <additions:greedycraft-creative_shard>, <additions:greedycraft-creative_shard>]);
+recipes.addShapeless("auto_gen_-2147158797", <minecraft:splash_potion>.withTag({CustomPotionEffects:[{Duration:2400,Id:2,Amplifier:49},{Duration:2400,Id:4,Amplifier:49},{Id:7,Amplifier:28},{Duration:2400,Id:9},{Duration:2400,Id:15},{Duration:2400,Id:17,Amplifier:49},{Duration:2400,Id:18,Amplifier:49},{Duration:2400,Id:19,Amplifier:4},{Duration:2400,Id:20,Amplifier:2},{Duration:2400,Id:24},{Duration:2400,Id:25,Amplifier:49},{Duration:2400,Id:27,Amplifier:49}],CustomPotionColor:0,display:{Lore:["蕴含了世间枯萎力量的药剂"],Name:"§8§l枯萎药剂"}}), [<minecraft:glass_bottle>, <additions:greedycraft-wither_soul>, <additions:greedycraft-creative_shard>, <additions:greedycraft-creative_shard>]);
 recipes.addShapeless("auto_gen_1498134564", <ae2wtlib:wut_creative>, [<wit:wit_creative>, <wct:wct_creative>, <wft:wft_creative>]);
 recipes.addShaped("auto_gen_136123240", <actuallyadditions:block_greenhouse_glass>*4, 
 [[<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>],
@@ -837,3 +844,50 @@ recipes.addShaped("shadow_egg", <minecraft:spawn_egg>.withTag({EntityTag: {id: "
 [[null, <ore:blockCoal>, null],
 [<ore:blockCoal>, <minecraft:egg>, <ore:blockCoal>],
 [null, <ore:blockCoal>, null]]);
+recipes.addShaped("card_0", <rftools:shape_card>, 
+[[<ore:paper>, <ore:ingotBrick>, <ore:paper>],
+[<ore:ingotBrick>, <additions:greedycraft-creative_shard>, <ore:ingotBrick>],
+[<ore:paper>, <ore:ingotBrick>, <ore:paper>]]);
+recipes.addShaped("card_1", <rftools:shape_card:1>, 
+[[<ore:paper>, <ore:ingotVoid>, <ore:paper>],
+[<ore:ingotVoid>, <rftools:shape_card>, <ore:ingotVoid>],
+[<ore:paper>, <ore:ingotVoid>, <ore:paper>]]);
+recipes.addShaped("environmental_controller", <rftools:environmental_controller>, 
+[[<ore:pearlEnderEye>, <ore:netherStar>, <ore:pearlEnderEye>],
+[<additions:greedycraft-creative_shard>, <rftools:machine_frame>, <additions:greedycraft-creative_shard>],
+[<ore:pearlEnderEye>, <ore:netherStar>, <ore:pearlEnderEye>]]);
+recipes.addShaped("frame_alt", <rftools:machine_frame>, 
+[[<ore:blockGlass>, <ore:ingotIron>, <ore:blockGlass>],
+[<ore:ingotIron>, <ore:gearTin>, <ore:ingotIron>],
+[<ore:blockGlass>, <ore:ingotIron>, <ore:blockGlass>]]);
+recipes.addShapeless("frame_alt_2", <rftools:machine_frame>, [<thermalexpansion:frame>]);
+recipes.addShapeless("frame_alt_2_reverse", <thermalexpansion:frame>, [<rftools:machine_frame>]);
+recipes.addShapeless("plate_0", <thaumadditions:adaminite_plate>, [<ore:ingotAdaminite>, <ore:ingotAdaminite>, <ore:ingotAdaminite>, <ore:ingotAdaminite>, <ore:ingotAdaminite>, <ore:ingotAdaminite>]);
+recipes.addShapeless("plate_1", <thaumadditions:mithminite_plate>, [<ore:ingotMithminite>, <ore:ingotMithminite>, <ore:ingotMithminite>, <ore:ingotMithminite>, <ore:ingotMithminite>, <ore:ingotMithminite>]);
+recipes.addShapeless("plate_2", <thaumadditions:mithrillium_plate>, [<ore:ingotMithrillium>, <ore:ingotMithrillium>, <ore:ingotMithrillium>, <ore:ingotMithrillium>, <ore:ingotMithrillium>, <ore:ingotMithrillium>]);
+recipes.addShaped("cytosinite_block", <additions:greedycraft-cytosinite_block>, 
+[[<ore:ingotCytosinite>, <ore:ingotCytosinite>, <ore:ingotCytosinite>],
+[<ore:ingotCytosinite>, <ore:ingotCytosinite>, <ore:ingotCytosinite>],
+[<ore:ingotCytosinite>, <ore:ingotCytosinite>, <ore:ingotCytosinite>]]);
+recipes.addShaped("terra_alloy_block", <additions:greedycraft-terra_alloy_block>, 
+[[<ore:ingotTerraAlloy>, <ore:ingotTerraAlloy>, <ore:ingotTerraAlloy>],
+[<ore:ingotTerraAlloy>, <ore:ingotTerraAlloy>, <ore:ingotTerraAlloy>],
+[<ore:ingotTerraAlloy>, <ore:ingotTerraAlloy>, <ore:ingotTerraAlloy>]]);
+recipes.addShapeless("terra_alloy_block_rev", <additions:terra_alloy_ingot> * 9, [<ore:blockTerraAlloy>]);
+recipes.addShapeless("cytosinite_block_rev", <additions:cytosinite_ingot> * 9, [<ore:blockCytosinite>]);
+recipes.addShaped("auto_gen_-637448521", <minecraft:spawn_egg>.withTag({EntityTag:{id:"minecraft:stray"}}), 
+[[null, <ore:wool>, null],
+[<ore:bone>, <ore:listAllegg>, <ore:bone>],
+[null, <ore:wool>, null]]);
+recipes.addShaped("auto_gen_1478856706", <minecraft:spawn_egg>.withTag({EntityTag:{id:"thaumcraft:cultistportallesser"}}), 
+[[null, <ore:ingotThaumium>, null],
+[<ore:enderpearl>, <ore:listAllegg>, <ore:enderpearl>],
+[null, <ore:ingotThaumium>, null]]);
+recipes.addShaped("auto_gen_1834508295", <abyssalcraft:stone:7>*8, 
+[[<ore:stone>, <ore:stone>, <ore:stone>],
+[<ore:stone>, <abyssalcraft:shoggothflesh>, <ore:stone>],
+[<ore:stone>, <ore:stone>, <ore:stone>]]);
+recipes.addShaped("auto_gen_1268894182", <abyssalcraft:shoggothbiomass>*3, 
+[[<ore:itemBiomass>, <ore:itemBiomass>, <ore:itemBiomass>],
+[<ore:itemBiomass>, <abyssalcraft:ccluster9>, <ore:itemBiomass>],
+[<ore:itemBiomass>, <ore:itemBiomass>, <ore:itemBiomass>]]);

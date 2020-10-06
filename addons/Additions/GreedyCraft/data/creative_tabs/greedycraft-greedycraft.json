@@ -112,6 +112,21 @@
 	{
       "item": "additions:greedycraft-titanium_ore"
     },
+	{
+      "item": "additions:cytosinite_ingot"
+    },
+	{
+      "item": "additions:greedycraft-cytosinite_ore"
+    },
+	{
+      "item": "additions:greedycraft-cytosinite_block"
+    },
+	{
+      "item": "additions:terra_alloy_ingot"
+    },
+	{
+      "item": "additions:greedycraft-terra_alloy_block"
+    },
     {
       "item": "additions:greedycraft-pearl_of_knowledge"
     },
@@ -156,6 +171,9 @@
     },
 	{
       "item": "additions:greedycraft-true_eye_of_ender"
+    },
+	{
+      "item": "additions:greedycraft-huaji"
     },
     {
       "item": "ftbquests:lootcrate",

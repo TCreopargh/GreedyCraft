@@ -30,9 +30,6 @@
 		uid: "1b09ccb3",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "waystones:warp_stone"
 		}
 	},

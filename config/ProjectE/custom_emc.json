@@ -835,6 +835,14 @@
     {
       "item": "tconevo:metal|20",
       "emc": 300000
+    },
+    {
+      "item": "additions:cytosinite_ingot|0",
+      "emc": 20000
+    },
+    {
+      "item": "additions:terra_alloy_ingot|0",
+      "emc": 200000
     }
   ]
 }

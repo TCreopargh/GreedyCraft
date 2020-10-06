@@ -58,6 +58,20 @@ mods.tconstruct.Alloy.addRecipe(<liquid:adamant_fluid> * 3, [<liquid:nihilite_fl
 
 mods.tconstruct.Melting.addRecipe(<liquid:ethaxium> * 144, <ore:ingotEthaxium>, 1300);
 //mods.tconstruct.Melting.addRecipe(<liquid:ethaxium> * 1296, <ore:blockEthaxium>, 1300);
+mods.tconstruct.Melting.addRecipe(<liquid:gaia> * 144, <ore:ingotGaia>, 700);
+mods.tconstruct.Melting.addRecipe(<liquid:ravaging> * 144, <ore:ingotRavaging>, 900);
+mods.tconstruct.Melting.addRecipe(<liquid:mithminite> * 144, <ore:ingotMithminite>, 1100);
+mods.tconstruct.Melting.addRecipe(<liquid:adaminite> * 144, <ore:ingotAdaminite>, 1300);
+mods.tconstruct.Melting.addRecipe(<liquid:mithrillium> * 144, <ore:ingotMithrillium>, 1500);
+
+mods.tconstruct.Melting.addRecipe(<liquid:terra_alloy> * 144, <ore:ingotTerraAlloy>, 1500);
+mods.tconstruct.Melting.addRecipe(<liquid:terra_alloy> * 1296, <ore:blockTerraAlloy>, 1500);
+
+mods.tconstruct.Melting.addRecipe(<liquid:insanium> * 144, <ore:ingotInsanium>, 1400);
+
+mods.tconstruct.Casting.addTableRecipe(<additions:terra_alloy_ingot>, <tconstruct:cast_custom>, <liquid:terra_alloy>, 144, false, 200);
+mods.tconstruct.Casting.addBasinRecipe(<additions:greedycraft-terra_alloy_block>, null, <liquid:terra_alloy>, 1296, false, 300);
+mods.tconstruct.Alloy.addRecipe(<liquid:terra_alloy> * 2, [<liquid:cytosinite> * 1, <liquid:cryonium> * 1, <liquid:infernium> * 1, <liquid:titanium> * 1]);
 
 //mods.tconstruct.Melting.addRecipe(<liquid:cryonium> * 288, <additions:greedycraft-cryonium_ore>, 200);
 //mods.tconstruct.Melting.addRecipe(<liquid:cryonium> * 144, <additions:cryonium_ingot>, 200);

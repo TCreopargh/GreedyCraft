@@ -1,9 +1,6 @@
 {
 	title: "§9坚持不懈III",
 	icon: {
-		ForgeCaps: {
-			"astralsorcery:cap_item_amulet_holder": {}
-		},
 		id: "minecraft:iron_helmet"
 	},
 	x: -5.5d,

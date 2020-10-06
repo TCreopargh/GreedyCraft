@@ -1,15 +1,15 @@
 {
 	title: "§e§o宇宙诞生之初...",
-	x: 8.5d,
-	y: 1.0d,
+	x: 4.5d,
+	y: 3.5d,
 	description: "获得元始珍珠",
+	dependencies: [
+		"996344a7"
+	],
 	tasks: [{
 		uid: "12e845ed",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "thaumcraft:primordial_pearl"
 		}],
 		ignore_damage: true,
@@ -24,9 +24,6 @@
 		uid: "aea43080",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "thaumcraft:primordial_pearl"
 		},
 		count: 4

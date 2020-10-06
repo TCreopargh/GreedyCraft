@@ -10,9 +10,6 @@
 		uid: "fdaff796",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "extracells:storage.physical",
 			tag: {
 				upgrades: {},
@@ -27,9 +24,6 @@
 		uid: "835f73fa",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "extracells:storage.physical",
 			tag: {
 				upgrades: {},
