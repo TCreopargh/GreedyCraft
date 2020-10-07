@@ -55,7 +55,7 @@ ofCustomSky:true
 ofShowCapes:true
 ofNaturalTextures:false
 ofEmissiveTextures:true
-ofLazyChunkLoading:true
+ofLazyChunkLoading:false
 ofRenderRegions:true
 ofSmartAnimations:true
 ofDynamicFov:false

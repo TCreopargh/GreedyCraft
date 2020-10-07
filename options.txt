@@ -257,8 +257,8 @@ key_key.plustic_brown_magic.desc:199
 key_key.plustic_toggle_tool.desc:0
 key_key.plustic_fruit_salad.desc:12:ALT
 key_key.plustic_mots.desc:13:ALT
-key_key.toggleLiquids:83
-key_key.toggleVisible:83:ALT
+key_key.toggleLiquids:210:ALT
+key_key.toggleVisible:0
 key_keybinding.extrabitmanipulation.design:75:ALT
 key_keybinding.extrabitmanipulation.throw.bit:39
 key_keybinding.extrabitmanipulation.throw.bit.bitbag:39
