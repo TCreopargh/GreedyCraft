@@ -515,7 +515,7 @@ terra_alloy.addProjectileMaterialStats();
 terra_alloy.register();
 
 val stellar_alloy = mods.contenttweaker.tconstruct.MaterialBuilder.create("stellar_alloy_gc");
-stellar_alloy.color = Color.fromHex("fff59d").getIntColor(); 
+stellar_alloy.color = Color.fromHex("e0e0e0").getIntColor(); 
 stellar_alloy.craftable = false;
 stellar_alloy.castable = true;
 stellar_alloy.representativeItem = <item:enderio:item_alloy_endergy_ingot:3>;
