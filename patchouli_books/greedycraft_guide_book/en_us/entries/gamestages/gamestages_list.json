@@ -9,7 +9,7 @@
         },
         {
             "type": "text",
-            "text": "$(li)$(c)novice_engineer $(): 初级工程师，做出热力感应炉后解锁，可解锁EnderIO的全部内容。$(li)$(c)skilled_engineer $(): 中级工程师，做出强化机器框架后解锁，可解锁Mekanism的全部内容。$(li)$(c)master_engineer $(): 高级工程师，做出数字型采矿机后解锁，可解锁RFTools维度的全部内容。$(li)$(c)novice_wizard $(): 初级魔法师，做出天辉祭坛后解锁，可解锁神秘时代的注魔合成。$(li)$(c)skilled_wizard $(): 中级魔法师，做出注魔稳定器后解锁，可解锁星辉魔法的后半段内容。"
+            "text": "$(li)$(c)novice_engineer $(): 初级工程师，做出热力感应炉后解锁，可解锁EnderIO的全部内容。$(li)$(c)skilled_engineer $(): 中级工程师，做出强化机器框架后解锁，可解锁Mekanism的全部内容。$(li)$(c)master_engineer $(): 高级工程师，通过进行通用机械的任务解锁，可解锁RFTools维度的全部内容。$(li)$(c)novice_wizard $(): 初级魔法师，做出天辉祭坛后解锁，可解锁神秘时代的注魔合成。$(li)$(c)skilled_wizard $(): 中级魔法师，做出注魔稳定器后解锁，可解锁星辉魔法的后半段内容。"
         },
         {
             "type": "text",

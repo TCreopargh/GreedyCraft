@@ -34,6 +34,9 @@
 		uid: "971c686a",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "thermalinnovation:injector",
 			tag: {},
 			Damage: 2s

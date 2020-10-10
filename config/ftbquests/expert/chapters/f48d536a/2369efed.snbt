@@ -3,16 +3,19 @@
 	x: -2.5d,
 	y: 0.0d,
 	description: "获得嬗变宝石",
-	dependencies: [
-		"ad76507c"
-	],
 	text: [
 		"§e你可以制作阴影怪物的刷怪蛋来快速获取阴影宝石，配方请查看整合包手册的杂项配方。"
+	],
+	dependencies: [
+		"ad76507c"
 	],
 	tasks: [{
 		uid: "9dab2097",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "abyssalcraft:transmutationgem"
 		}],
 		ignore_damage: true,

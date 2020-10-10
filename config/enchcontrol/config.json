@@ -9,10 +9,10 @@
     "hide_curses": false,
     "notify_cursed": true,
     "roman_numerals": true,
-    "enchantment_table_level_cap": 5,
-    "anvil_level_cap": 6,
-    "merchant_deals_level_cap": 5,
-    "dungeon_loot_level_cap": 5,
+    "enchantment_table_level_cap": 3,
+    "anvil_level_cap": 5,
+    "merchant_deals_level_cap": 3,
+    "dungeon_loot_level_cap": 4,
     "creative_tab_level_cap": 10
   },
   "description": {

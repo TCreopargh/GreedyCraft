@@ -116,16 +116,28 @@
       "item": "additions:cytosinite_ingot"
     },
 	{
-      "item": "additions:greedycraft-cytosinite_ore"
+      "item": "additions:greedycraft-cytosinite_block"
     },
 	{
-      "item": "additions:greedycraft-cytosinite_block"
+      "item": "additions:greedycraft-cytosinite_ore"
     },
 	{
       "item": "additions:terra_alloy_ingot"
     },
 	{
       "item": "additions:greedycraft-terra_alloy_block"
+    },
+	{
+      "item": "additions:astral_metal_ingot"
+    },
+	{
+      "item": "additions:greedycraft-astral_metal_block"
+    },
+	{
+      "item": "additions:cosmilite_ingot"
+    },
+	{
+      "item": "additions:greedycraft-cosmilite_block"
     },
     {
       "item": "additions:greedycraft-pearl_of_knowledge"
@@ -174,6 +186,18 @@
     },
 	{
       "item": "additions:greedycraft-huaji"
+    },
+	{
+      "item": "additions:greedycraft-forbidden_bible"
+    },
+	{
+      "item": "additions:greedycraft-time_fragment"
+    },
+	{
+      "item": "additions:greedycraft-time_shard"
+    },
+	{
+      "item": "additions:greedycraft-experience_transporter"
     },
     {
       "item": "ftbquests:lootcrate",
@@ -292,6 +316,9 @@
     },
     {
       "item": "additions:greedycraft-twilight_shield"
+    },
+	{
+      "item": "additions:greedycraft-awakened_eye"
     },
     {
       "item": "additions:greedycraft-bravery_certificate"

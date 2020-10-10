@@ -86,6 +86,9 @@
 		uid: "fd834fcf",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "pouchofunknown:pouch"
 		}
 	}]

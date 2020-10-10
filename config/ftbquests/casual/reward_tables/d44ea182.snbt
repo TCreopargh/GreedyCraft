@@ -271,11 +271,6 @@
 		random_bonus: 20
 	},
 	{
-		item: {
-			id: "additions:greedycraft-difficulty_changer"
-		}
-	},
-	{
 		item: "botania_tweaks:compressed_tiny_potato_8"
 	},
 	{

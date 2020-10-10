@@ -84,6 +84,15 @@
     },
 	{
       "item": "additions:tcsponsors-magic_broom"
+    },
+	{
+      "item": "additions:tcsponsors-lost_gourd"
+    },
+	{
+      "item": "additions:tcsponsors-kikoku"
+    },
+	{
+      "item": "additions:tcsponsors-bad_soymilk"
     }
   ]
 }

@@ -14,6 +14,9 @@
 		uid: "dbb93550",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "bountifulbaubles:disintegrationtablet"
 		}
 	},
@@ -21,6 +24,9 @@
 		uid: "e531b165",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "bountifulbaubles:phantomprism"
 		}
 	},

@@ -36,6 +36,7 @@ import crafttweaker.game.IGame;
 <draconicevolution:draconic_sword>.addTooltip(format.red("已禁用，请使用匠魂的神龙金属材料"));
 <draconicevolution:draconic_hoe>.addTooltip(format.red("已禁用，请使用匠魂的神龙金属材料"));
 <astralsorcery:blockaltar>.addTooltip("§e请在§6浮动水晶§e下方放置§6普通工作台§e以合成此物品");
+<astralsorcery:blockaltar>.addTooltip("§e合成时请清除掉周围的水");
 <akashictome:tome>.addTooltip("§e放入工作台以获得最新的百科全书");
 <bountifulbaubles:trinketbrokenheart>.addTooltip(format.red("已禁用"));
 <cyclicmagic:cyclic_wand_build>.addTooltip(format.red("已禁用"));
@@ -89,3 +90,4 @@ game.setLocalization("tooltip.itemstages.name.default", "§5§ka§r §d未知物
 <cyclicmagic:tool_swap_match>.addTooltip("§c已禁用");
 <ore:ingotInsanium>.addTooltip("§e需要进入困难模式才能用来制作匠魂装备");
 <ore:ingotSupremium>.addTooltip("§e需要进入困难模式才能用来制作匠魂装备");
+<tconstruct:arrow_shaft>.addTooltip("§e箭杆铸模请使用任意箭杆和两个金锭合成");

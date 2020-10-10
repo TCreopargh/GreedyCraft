@@ -18,6 +18,9 @@
 		uid: "62ae92b3",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "twilightforest:ice_bow"
 		}
 	},
@@ -25,6 +28,9 @@
 		uid: "509384b6",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "twilightforest:ice_sword"
 		}
 	},

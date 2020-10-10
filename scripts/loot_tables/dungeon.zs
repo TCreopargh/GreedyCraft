@@ -41,6 +41,7 @@ dungeonPool1.addItemEntryHelper(<abyssalcraft:shadowshard>, 12, 1, [Functions.se
 dungeonPool1.addItemEntryHelper(<abyssalcraft:shadowfragment>, 18, 1, [Functions.setCount(1, 20)], []);
 dungeonPool1.addItemEntryHelper(<additions:greedycraft-huaji>, 8, 1, [Functions.setCount(1, 2)], []);
 dungeonPool1.addItemEntryHelper(<additions:greedycraft-poop>, 8, 1, [Functions.setCount(1, 2)], []);
+//dungeonPool1.addItemEntryHelper(<additions:greedycraft-experience_transporter>, 1, 1, [Functions.setCount(1, 1)], []);
 
 var dungeonPool2 = dungeon.getPool("pool2");  
 dungeonPool2.addItemEntryHelper(<additions:greedycraft-reward_ticket_common>, 12, 1, [Functions.setCount(1, 2)], []);

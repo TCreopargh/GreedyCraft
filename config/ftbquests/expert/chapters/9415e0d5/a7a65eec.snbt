@@ -10,6 +10,9 @@
 		uid: "b4f09193",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "comforts:hammock"
 		}],
 		ignore_damage: true,
@@ -29,6 +32,9 @@
 		uid: "60eac9fb",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "prefab:item_villager_houses"
 		}
 	},

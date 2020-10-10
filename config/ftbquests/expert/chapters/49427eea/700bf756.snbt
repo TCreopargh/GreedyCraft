@@ -10,6 +10,9 @@
 		uid: "c46b75d4",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "mekanism:gastank",
 			tag: {
 				tier: 3
@@ -26,6 +29,9 @@
 		uid: "42edf66a",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "mekanism:gastank",
 			tag: {
 				tier: 3

@@ -31,6 +31,9 @@
 		uid: "f063d2c0",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "appliedenergistics2:storage_cell_4k",
 			tag: {}
 		},

@@ -1,6 +1,9 @@
 {
 	title: "§d可重复任务",
 	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
 		id: "ftbquests:book"
 	},
 	always_invisible: false,

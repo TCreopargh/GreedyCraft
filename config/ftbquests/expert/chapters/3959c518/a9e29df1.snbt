@@ -1,6 +1,9 @@
 {
 	title: "§c§o§4§ka§r §c§o真正的终点 §r§4§ka§r",
 	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
 		id: "ftbquests:custom_icon",
 		tag: {
 			icon: "greedycraft:icons/infinity.png"
@@ -60,6 +63,9 @@
 		uid: "5978bfba",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "thermalexpansion:reservoir",
 			tag: {},
 			Damage: 32000s
@@ -81,6 +87,9 @@
 		uid: "2a455d6b",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "appliedenergistics2:creative_storage_cell",
 			tag: {}
 		},
@@ -90,6 +99,9 @@
 		uid: "f56b9f27",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "thermalexpansion:capacitor",
 			tag: {
 				Energy: 25000000
@@ -125,6 +137,9 @@
 		uid: "13a1f03c",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "projectex:final_star"
 		},
 		count: 64
@@ -139,6 +154,9 @@
 		uid: "ce3dbdc5",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "additions:greedycraft-creative_controller"
 		}
 	},

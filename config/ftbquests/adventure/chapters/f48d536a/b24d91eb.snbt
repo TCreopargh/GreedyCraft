@@ -10,6 +10,9 @@
 		uid: "8f9ae330",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "abyssalcraft:eoa"
 		}],
 		ignore_damage: true,
@@ -30,17 +33,5 @@
 		uid: "ebf05b0b",
 		type: "loot",
 		table: 1
-	},
-	{
-		uid: "ad7df534",
-		type: "gamestage",
-		auto: "no_toast",
-		stage: "abyssal_conquerer"
-	},
-	{
-		uid: "6cb2a4a1",
-		type: "command",
-		auto: "no_toast",
-		command: "/scalinghealth difficulty set 128 @p"
 	}]
 }

@@ -95,10 +95,10 @@
 	{
 		x: 8.5d,
 		y: -10.0d,
-		width: 20.0d,
-		height: 7.0d,
+		width: 18.8d,
+		height: 6.4d,
 		rotation: 0.0d,
-		image: "greedycraft:mainmenu/title.png",
+		image: "greedycraft:mainmenu/banner.png",
 		hover: [],
 		click: "",
 		dev: false

@@ -13,6 +13,9 @@
 		uid: "ea2f3639",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "lootbags:itemlootbag",
 			Damage: 4s
 		},

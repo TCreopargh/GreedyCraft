@@ -5,7 +5,7 @@
 	description: "§5§o掌握世界上的一切。",
 	can_repeat: true,
 	dependencies: [
-		"727f6d18"
+		"b1e0c43f"
 	],
 	dependency_requirement: "all_started",
 	tasks: [{
@@ -48,19 +48,20 @@
 		uid: "7b6ae8c4",
 		type: "item",
 		item: "additions:greedycraft-creative_shard",
-		count: 5
+		random_bonus: 1
 	},
 	{
 		uid: "edcd7081",
 		type: "item",
 		item: "additions:greedycraft-ordinary_medal",
-		count: 5
+		random_bonus: 1
 	},
 	{
 		uid: "dae23bb3",
 		type: "item",
 		item: "additions:greedycraft-reward_ticket_legendary",
-		count: 10
+		count: 2,
+		random_bonus: 3
 	},
 	{
 		uid: "972c51a4",

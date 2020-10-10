@@ -2,7 +2,7 @@
 #priority 110
 mods.tieredtooltips.colorStage("hardmode", "b5000000","f0f27121", "f0e94057");
 mods.tieredtooltips.colorStage("novice_engineer", "b5000000", "f0ff9966", "f0ff5e62");
-mods.tieredtooltips.colorStage("ender_charm", "b5000000", "f0fdfc47", "f024fe41");
+mods.tieredtooltips.colorStage("ender_charm", "b5000000", "f0ffafbd", "f0ffc3a0");
 mods.tieredtooltips.colorStage("getting_started", "b5000000", "f0fdfc47", "f024fe41");
 mods.tieredtooltips.colorStage("skilled_engineer", "b5000000", "f0dce35b", "f045b649");
 mods.tieredtooltips.colorStage("master_engineer", "b5000000", "f07f00ff", "f0e100ff");
@@ -21,7 +21,7 @@ mods.tieredtooltips.colorStage("chaotic", "b5000000", "f0232526", "f0414345");
 mods.tieredtooltips.colorStage("chaotic_dominator", "b5000000", "f0004e92", "f0000428");
 mods.tieredtooltips.colorStage("fearless_man", "b5000000", "f0ff5f6d", "f0ffc371");
 mods.tieredtooltips.colorStage("fusion_matrix", "b5000000", "f042275a", "f0734b6d");
-mods.tieredtooltips.colorStage("graduated", "b5000000", "f0ee9ca7", "f0ffdde1");
+mods.tieredtooltips.colorStage("graduated", "b5000000", "f0fcfcfc", "f0909090");
 mods.tieredtooltips.colorStage("expert", "b5000000", "f0f953c6", "f0b91d73");
 mods.tieredtooltips.colorStage("descendant_of_the_sun", "b5000000", "f0f12711", "f0f5af19");
 

@@ -1,6 +1,9 @@
 {
 	title: "§a怪物猎人II",
 	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
 		id: "minecraft:stone_sword"
 	},
 	x: -3.0d,

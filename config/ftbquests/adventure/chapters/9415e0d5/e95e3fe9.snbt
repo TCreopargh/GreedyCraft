@@ -7,6 +7,9 @@
 		uid: "ba7cc661",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "netherex:obsidian_boat"
 		}],
 		ignore_damage: true,
@@ -32,6 +35,9 @@
 		uid: "c92f3440",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "thermalexpansion:reservoir",
 			tag: {
 				Fluid: {

@@ -73,6 +73,18 @@ mods.tconstruct.Casting.addTableRecipe(<additions:terra_alloy_ingot>, <tconstruc
 mods.tconstruct.Casting.addBasinRecipe(<additions:greedycraft-terra_alloy_block>, null, <liquid:terra_alloy>, 1296, false, 300);
 mods.tconstruct.Alloy.addRecipe(<liquid:terra_alloy> * 2, [<liquid:cytosinite> * 1, <liquid:cryonium> * 1, <liquid:infernium> * 1, <liquid:titanium> * 1]);
 
+mods.tconstruct.Casting.addTableRecipe(<additions:astral_metal_ingot>, <tconstruct:cast_custom>, <liquid:astral_metal>, 144, false, 200);
+mods.tconstruct.Casting.addBasinRecipe(<additions:greedycraft-astral_metal_block>, null, <liquid:astral_metal>, 1296, false, 300);
+mods.tconstruct.Casting.addTableRecipe(<additions:cosmilite_ingot>, <tconstruct:cast_custom>, <liquid:cosmilite>, 144, false, 200);
+mods.tconstruct.Casting.addBasinRecipe(<additions:greedycraft-cosmilite_block>, null, <liquid:cosmilite>, 1296, false, 300);
+mods.tconstruct.Melting.addRecipe(<liquid:astral_metal> * 144, <ore:ingotAstralMetal>, 1500);
+mods.tconstruct.Melting.addRecipe(<liquid:astral_metal> * 1296, <ore:blockAstralMetal>, 1500);
+mods.tconstruct.Melting.addRecipe(<liquid:cosmilite> * 144, <ore:ingotCosmilite>, 1500);
+mods.tconstruct.Melting.addRecipe(<liquid:cosmilite> * 1296, <ore:blockCosmilite>, 1500);
+
+mods.tconstruct.Melting.addRecipe(<liquid:orichalcos> * 144, <ore:ingotOrichalcos>, 1400);
+mods.tconstruct.Melting.addRecipe(<liquid:orichalcos> * 1296, <ore:blockOrichalcos>, 1400);
+
 //mods.tconstruct.Melting.addRecipe(<liquid:cryonium> * 288, <additions:greedycraft-cryonium_ore>, 200);
 //mods.tconstruct.Melting.addRecipe(<liquid:cryonium> * 144, <additions:cryonium_ingot>, 200);
 //mods.tconstruct.Melting.addRecipe(<liquid:cryonium> * 1296, <additions:greedycraft-cryonium_block>, 900);

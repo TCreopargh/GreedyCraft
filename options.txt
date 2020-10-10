@@ -4,7 +4,7 @@ mouseSensitivity:0.5
 fov:0.0
 gamma:0.30985916
 saturation:0.0
-renderDistance:8
+renderDistance:7
 guiScale:0
 particles:1
 bobView:false
@@ -89,6 +89,8 @@ key_of.key.zoom:46
 key_Change Caster Focus:0
 key_Misc Caster Toggle:0
 key_quark.keybind.lockBuilding:0
+key_quark.keybind.dropoff:0
+key_quark.keybind.changeHotbar:184
 key_quark.emote.no:0
 key_quark.emote.yes:0
 key_quark.emote.wave:0
@@ -107,8 +109,6 @@ key_quark.emote.dab:0
 key_quark.emote.jet:0
 key_quark.emote.exorcist:0
 key_quark.emote.zombie:0
-key_quark.keybind.dropoff:0
-key_quark.keybind.changeHotbar:184
 key_quark.keybind.toggleAutojump:0
 key_keybind.baublesinventory:18:ALT
 key_pe.key.armor_toggle:45:ALT
@@ -257,7 +257,7 @@ key_key.plustic_brown_magic.desc:199
 key_key.plustic_toggle_tool.desc:0
 key_key.plustic_fruit_salad.desc:12:ALT
 key_key.plustic_mots.desc:13:ALT
-key_key.toggleLiquids:210:ALT
+key_key.toggleLiquids:83:ALT
 key_key.toggleVisible:0
 key_keybinding.extrabitmanipulation.design:75:ALT
 key_keybinding.extrabitmanipulation.throw.bit:39
@@ -345,7 +345,7 @@ key_enderio.keybind.fovplus:0
 key_enderio.keybind.fovminus:0
 key_enderio.keybind.fovplusfast:0
 key_enderio.keybind.fovminusfast:0
-soundCategory_master:0.8000001
+soundCategory_master:0.85000014
 soundCategory_music:0.80985916
 soundCategory_record:1.0
 soundCategory_weather:1.0

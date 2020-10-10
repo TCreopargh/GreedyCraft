@@ -5,6 +5,9 @@
 		uid: "bbada8ad",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "twilightforest:lamp_of_cinders"
 		}],
 		ignore_damage: true,

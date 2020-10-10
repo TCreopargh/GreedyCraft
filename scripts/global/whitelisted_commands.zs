@@ -39,5 +39,7 @@ global whitelistedCommands as string[] = [
 	"tpaccept",
 	"team",
 	"ctrlreload",
-	"botania-share"
+	"botania-share",
+	"chunks",
+	"hidescoreboard"
 ];

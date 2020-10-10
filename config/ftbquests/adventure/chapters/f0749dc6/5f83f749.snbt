@@ -1,6 +1,9 @@
 {
 	title: "§9守护者III",
 	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
 		id: "minecraft:iron_chestplate"
 	},
 	x: 2.0d,
@@ -13,6 +16,9 @@
 		uid: "2981a84b",
 		type: "stat",
 		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "minecraft:iron_chestplate"
 		},
 		stat: "stat.damageTaken",
@@ -27,6 +33,9 @@
 		uid: "ec7101de",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "bountifulbaubles:amuletsinpride"
 		}
 	},
@@ -34,6 +43,9 @@
 		uid: "eea5925e",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "bountifulbaubles:amuletsinwrath"
 		}
 	},
@@ -41,6 +53,9 @@
 		uid: "153e686d",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "bountifulbaubles:amuletsinempty"
 		}
 	},
@@ -48,6 +63,9 @@
 		uid: "d4a2166d",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "bountifulbaubles:amuletsingluttony"
 		}
 	},
@@ -55,6 +73,9 @@
 		uid: "e39479a5",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "minecraft:totem_of_undying"
 		}
 	},

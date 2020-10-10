@@ -11,6 +11,9 @@
 		uid: "aadcfdd8",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "additions:greedycraft-cryonic_artifact"
 		}],
 		ignore_damage: true,

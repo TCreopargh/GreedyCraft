@@ -12,6 +12,9 @@
 		uid: "ac292f70",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "astralsorcery:itemcelestialcrystal",
 			tag: {
 				astralsorcery: {

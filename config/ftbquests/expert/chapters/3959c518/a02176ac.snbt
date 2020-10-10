@@ -5,6 +5,9 @@
 		uid: "45ea15f0",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "extrabotany:treasurebox"
 		}],
 		ignore_damage: true,

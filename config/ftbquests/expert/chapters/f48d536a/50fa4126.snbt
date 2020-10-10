@@ -1,6 +1,9 @@
 {
 	title: "§4恐惧之地",
 	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
 		id: "abyssalcraft:gatewaykeydl"
 	},
 	x: 7.5d,
@@ -42,6 +45,9 @@
 		uid: "4582b461",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "abyssalcraft:gatewaykey"
 		}
 	},

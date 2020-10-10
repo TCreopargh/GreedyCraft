@@ -1,208 +1,304 @@
 {
-    "images": {
-        "title": {
-            "image": "greedycraft:mainmenu/title.png",
-            "posX": -125,
-            "posY": 15,
-            "width": 252,
-            "height": 88,
-            "alignment": "top_center"
-        }
-    },
-    "buttons": {
-        "singleplayer": {
-            "text": "menu.singleplayer",
-            "posX": -100,
-            "posY": 58,
-            "width": 200,
-            "height": 20,
-            "imageWidth": 1198,
-            "imageHeight": 124,
-            "texture": "greedycraft:mainmenu/longbuttonhd.png",
-            "action": {
-                "type": "openGui",
-                "gui": "singleplayer"
-            }
-        },
-        "multiplayer": {
-            "text": "menu.multiplayer",
-            "posX": -100,
-            "posY": 82,
-            "width": 200,
-            "height": 20,
-            "imageWidth": 1198,
-            "imageHeight": 124,
-            "texture": "greedycraft:mainmenu/longbuttonhd.png",
-            "action": {
-                "type": "openGui",
-                "gui": "multiplayer"
-            }
-        },
-        "mods": {
-            "text": "模组列表",
-            "posX": -100,
-            "posY": 118,
-            "width": 98,
-            "height": 20,
-            "imageWidth": 607,
-            "imageHeight": 124,
-            "texture": "greedycraft:mainmenu/shortbuttonhd.png",
-            "action": {
-                "type": "openGui",
-                "gui": "mods"
-            }
-        },
-        "version_check": {
-            "text": "前往官网",
-            "posX": 2,
-            "posY": 118,
-            "width": 98,
-            "height": 20,
-            "imageWidth": 607,
-            "imageHeight": 124,
-            "texture": "greedycraft:mainmenu/shortbuttonhd.png",
-            "action": {
-                "type": "openLink",
-                "link": "http://greedycraft.tcreopargh.xyz/"
-            }
-        },
-        "options": {
-            "text": "menu.options",
-            "posX": -100,
-            "posY": 142,
-            "width": 98,
-            "height": 20,
-            "imageWidth": 607,
-            "imageHeight": 124,
-            "texture": "greedycraft:mainmenu/shortbuttonhd.png",
-            "action": {
-                "type": "openGui",
-                "gui": "options"
-            }
-        },
-        "quit": {
-            "text": "menu.quit",
-            "posX": 2,
-            "posY": 142,
-            "width": 98,
-            "height": 20,
-            "imageWidth": 607,
-            "imageHeight": 124,
-            "texture": "greedycraft:mainmenu/shortbuttonhd.png",
-            "action": {
-                "type": "quit"
-            }
-        },
-        "refresh": {
-            "text": " ",
-            "posX": -154,
-            "posY": 142,
-            "width": 20,
-            "height": 20,
-            "imageWidth": 498,
-            "imageHeight": 498,
-            "texture": "greedycraft:mainmenu/refreshdouble.png",
-            "tooltip": "§b刷新主菜单界面",
-            "action": {
-                "type": "refresh"
-            }
-        },
-        "accounts": {
-            "text": " ",
-            "posX": -127,
-            "posY": 142,
-            "width": 20,
-            "height": 20,
-            "imageWidth": 383,
-            "imageHeight": 383,
-            "wrappedButton": 20,
-            "texture": "greedycraft:mainmenu/account.png",
-            "tooltip": "§7您目前登录的用户名是§e#username#"
-        },
-        "sponsor": {
-            "text": " ",
-            "posX": 106,
-            "posY": 142,
-            "width": 20,
-            "height": 20,
-            "imageWidth": 383,
-            "imageHeight": 383,
-            "texture": "greedycraft:mainmenu/sponsor.png",
-            "tooltip": "§d请作者喝杯咖啡！",
-            "action": {
-                "type": "openLink",
-                "link": "http://donate.tcreopargh.xyz/"
-            }
-        }
-    },
-    "labels": {
-        "mojang": {
-            "text": "Copyright Mojang AB. Do not distribute!",
-            "hoverText": "Copyright Mojang AB. Do not distribute!",
-            "posX": -133,
-            "posY": -10,
-            "color": -1,
-            "alignment": "bottom_right",
-            "action": {
-                "type": "openGui",
-                "gui": "credits"
-            }
-        },
-        "fml": {
-            "text": "",
-            "posX": 2,
-            "posY": -48,
-            "color": -1,
-            "alignment": "bottom_left"
-        },
-        "latest_version": {
-            "text": "web:http://json.tcreopargh.xyz/greedycraft-version.txt",
-            "posX": 2,
-            "posY": -10,
-            "color": -1,
-            "alignment": "bottom_left"
-        },
-        "announcements": {
-            "text": "web:http://json.tcreopargh.xyz/greedycraft-announcements.txt",
-            "posX": 2,
-            "posY": 2,
-            "color": -1,
-            "alignment": "top_left"
-        }
-    },
-    "other": {
-        "splash-text": {
-            "posX": 105,
-            "posY": 95,
-            "color": -256,
-            "alignment": "top_center",
-            "texts": "file:greedycraft:mainmenu/splashes.txt"
-        },
-        "background": {
-            "image": "",
-            "mode": "fill",
-            "slideshow": {
-                "images": [
-                    "greedycraft:backgrounds/1.png",
-                    "greedycraft:backgrounds/2.png",
-                    "greedycraft:backgrounds/3.png",
-                    "greedycraft:backgrounds/4.png",
-                    "greedycraft:backgrounds/5.png",
-                    "greedycraft:backgrounds/6.png",
-                    "greedycraft:backgrounds/7.png",
-                    "greedycraft:backgrounds/8.png",
-                    "greedycraft:backgrounds/9.png",
-                    "greedycraft:backgrounds/10.png",
-                    "greedycraft:backgrounds/11.png",
-                    "greedycraft:backgrounds/12.png",
-                    "greedycraft:backgrounds/13.png",
-                    "greedycraft:backgrounds/14.png",
-                    "greedycraft:backgrounds/15.png",
-                    "greedycraft:backgrounds/16.png"
-                ],
-                "displayDuration": 90,
-                "fadeDuration": 40
-            }
-        }
-    }
+	"images": {
+		"title": {
+			"image": "greedycraft:mainmenu/banner.png",
+			"posX": -125,
+			"posY": 15,
+			"width": 252,
+			"height": 86,
+			"alignment": "top_center"
+		}
+	},
+	"buttons": {
+		"singleplayer": {
+			"text": "menu.singleplayer",
+			"posX": -100,
+			"posY": 58,
+			"width": 200,
+			"height": 20,
+			"imageWidth": 1198,
+			"imageHeight": 124,
+			"hoverTextColor": 65484,
+			"clickSound": "block.lever.click",
+			"texture": "greedycraft:mainmenu/longbuttonhd.png",
+			"action": {
+				"type": "openGui",
+				"gui": "singleplayer"
+			}
+		},
+		"multiplayer": {
+			"text": "menu.multiplayer",
+			"posX": -100,
+			"posY": 82,
+			"width": 200,
+			"height": 20,
+			"hoverTextColor": 65484,
+			"clickSound": "block.lever.click",
+			"imageWidth": 1198,
+			"imageHeight": 124,
+			"texture": "greedycraft:mainmenu/longbuttonhd.png",
+			"action": {
+				"type": "openGui",
+				"gui": "multiplayer"
+			}
+		},
+		"mods": {
+			"text": "模组列表",
+			"posX": -100,
+			"posY": 118,
+			"width": 98,
+			"height": 20,
+			"hoverTextColor": 65484,
+			"clickSound": "block.lever.click",
+			"imageWidth": 607,
+			"imageHeight": 124,
+			"texture": "greedycraft:mainmenu/shortbuttonhd.png",
+			"action": {
+				"type": "openGui",
+				"gui": "mods"
+			}
+		},
+		"official_site": {
+			"text": "前往官网",
+			"posX": 2,
+			"posY": 118,
+			"width": 98,
+			"height": 20,
+			"hoverTextColor": 65484,
+			"clickSound": "block.lever.click",
+			"imageWidth": 607,
+			"imageHeight": 124,
+			"texture": "greedycraft:mainmenu/shortbuttonhd.png",
+			"action": {
+				"type": "openLink",
+				"link": "http://greedycraft.tcreopargh.xyz/"
+			}
+		},
+		"options": {
+			"text": "menu.options",
+			"posX": -100,
+			"posY": 142,
+			"width": 98,
+			"height": 20,
+			"hoverTextColor": 65484,
+			"clickSound": "block.lever.click",
+			"imageWidth": 607,
+			"imageHeight": 124,
+			"texture": "greedycraft:mainmenu/shortbuttonhd.png",
+			"action": {
+				"type": "openGui",
+				"gui": "options"
+			}
+		},
+		"quit": {
+			"text": "menu.quit",
+			"posX": 2,
+			"posY": 142,
+			"width": 98,
+			"height": 20,
+			"hoverTextColor": 65484,
+			"clickSound": "block.lever.click",
+			"imageWidth": 607,
+			"imageHeight": 124,
+			"texture": "greedycraft:mainmenu/shortbuttonhd.png",
+			"action": {
+				"type": "quit"
+			}
+		},
+		"refresh": {
+			"text": " ",
+			"posX": -25,
+			"posY": 5,
+			"width": 20,
+			"height": 20,
+			"alignment": "top_right",
+			"clickSound": "block.lever.click",
+			"imageWidth": 498,
+			"imageHeight": 498,
+			"texture": "greedycraft:mainmenu/refreshdouble.png",
+			"tooltip": "§b刷新主菜单界面",
+			"action": {
+				"type": "refresh"
+			}
+		},
+		"accounts": {
+			"text": " ",
+			"posX": -25,
+			"posY": 55,
+			"width": 20,
+			"height": 20,
+			"alignment": "top_right",
+			"clickSound": "block.lever.click",
+			"imageWidth": 383,
+			"imageHeight": 383,
+			"wrappedButton": 20,
+			"texture": "greedycraft:mainmenu/account.png",
+			"tooltip": "§7您目前登录的用户名是§e#username#\n§a点击以切换账户！"
+		},
+		"sponsor": {
+			"text": " ",
+			"posX": -25,
+			"posY": 30,
+			"width": 20,
+			"height": 20,
+			"alignment": "top_right",
+			"clickSound": "block.lever.click",
+			"imageWidth": 383,
+			"imageHeight": 383,
+			"texture": "greedycraft:mainmenu/sponsor.png",
+			"tooltip": "§d请作者喝杯咖啡！\n§5点击以前往作者的爱发电",
+			"action": {
+				"type": "openLink",
+				"link": "http://donate.tcreopargh.xyz/"
+			}
+		},
+		"github": {
+			"text": " ",
+			"posX": -25,
+			"posY": 80,
+			"width": 20,
+			"height": 20,
+			"alignment": "top_right",
+			"clickSound": "block.lever.click",
+			"imageWidth": 383,
+			"imageHeight": 383,
+			"texture": "greedycraft:mainmenu/github.png",
+			"tooltip": "§9GitHub§7项目地址",
+			"action": {
+				"type": "openLink",
+				"link": "https://github.com/TCreopargh/GreedyCraft"
+			}
+		}
+	},
+	"labels": {
+		"mojang": {
+			"text": "Copyright Mojang AB. Do not distribute!",
+			"hoverText": "§7§n点击查看Minecraft开发人员列表",
+			"color": -1,
+			"alignment": "bottom_right",
+			"posX": -2,
+			"posY": -12,
+			"anchor": "end",
+			"action": {
+				"type": "openGui",
+				"gui": "credits"
+			}
+		},
+		"minecraft_version": {
+			"text": "§aMinecraft §2#mcversion#",
+			"hoverText": "§aMinecraft Coder Pack §2#mcpversion#",
+			"color": -1,
+			"posX": 2,
+			"posY": -52,
+			"alignment": "bottom_left"
+		},
+		"latest_version": {
+			"text": {
+				"type": "web",
+				"url": "http://json.tcreopargh.xyz/greedycraft-version.txt",
+				"color": -1,
+				"refreshInterval": 600
+			},
+			"action": {
+				"type": "openLink",
+				"link": "https://greedycraft.tcreopargh.xyz/"
+			},
+			"hoverText": "§e§n点击以前往新版本下载页面",
+			"posX": 2,
+			"posY": -12,
+			"alignment": "bottom_left"
+		},
+		"current_version": {
+			"alignment": "bottom_left",
+			"text": "file:greedycraft:version.txt",
+			"hoverText": "§2版本编号越大，版本越新，请确保你游玩的版本是最新的！",
+			"color": -1,
+			"posX": 2,
+			"posY": -22
+		},
+		"modinfo": {
+			"alignment": "bottom_left",
+			"text": "§9Forge版本: §b#forgeversion#  §e已加载§6#modsloaded#§e个模组",
+			"hoverText": "§aFML版本: §2#fmlversion#  §d已启用§5#modsactive#§d个模组",
+			"color": -1,
+			"posX": 2,
+			"posY": -32
+		},
+		"packinfo": {
+			"alignment": "bottom_left",
+			"text": " §e★ §b§l贪婪整合包 §e★ §r§dby TCreopargh",
+			"hoverText": " §5★ §c§l贪婪整合包 §5★ §r§aby TCreopargh",
+			"action": {
+				"type": "openLink",
+				"link": "https://greedycraft.tcreopargh.xyz/"
+			},
+			"color": -1,
+			"posX": 2,
+			"posY": -42
+		},
+		"time": {
+			"text": "§9你好，§e#username#§9！§6现在是：§b#time#",
+			"hoverText": "§9你好，§e#username#§9！§6现在是：§d#date# §b#time#",
+			"posX": 2,
+			"posY": 12,
+			"color": -1,
+			"alignment": "top_left"
+		},
+		"announcements": {
+			"text": "web:http://json.tcreopargh.xyz/greedycraft-announcements.txt",
+			"action": {
+				"type": "openLink",
+				"link": "https://greedycraft.tcreopargh.xyz/"
+			},
+			"posX": 2,
+			"posY": 22,
+			"color": -1,
+			"alignment": "top_left"
+		}
+	},
+	"other": {
+		"splash-text": {
+			"posX": 105,
+			"posY": 105,
+			"color": -256,
+			"alignment": "top_center",
+			"texts": "file:greedycraft:mainmenu/splashes.txt"
+		},
+		"background": {
+			"image": "",
+			"mode": "fill",
+			"slideshow": {
+				"images": [
+					"greedycraft:backgrounds/1.png",
+					"greedycraft:backgrounds/2.png",
+					"greedycraft:backgrounds/3.png",
+					"greedycraft:backgrounds/4.png",
+					"greedycraft:backgrounds/5.png",
+					"greedycraft:backgrounds/6.png",
+					"greedycraft:backgrounds/7.png",
+					"greedycraft:backgrounds/8.png",
+					"greedycraft:backgrounds/9.png",
+					"greedycraft:backgrounds/10.png",
+					"greedycraft:backgrounds/11.png",
+					"greedycraft:backgrounds/12.png",
+					"greedycraft:backgrounds/13.png",
+					"greedycraft:backgrounds/14.png",
+					"greedycraft:backgrounds/15.png",
+					"greedycraft:backgrounds/16.png",
+					"greedycraft:backgrounds/17.png",
+					"greedycraft:backgrounds/18.png",
+					"greedycraft:backgrounds/19.png",
+					"greedycraft:backgrounds/20.png",
+					"greedycraft:backgrounds/21.png",
+					"greedycraft:backgrounds/22.png",
+					"greedycraft:backgrounds/23.png",
+					"greedycraft:backgrounds/24.png"
+				],
+				"shuffle": true,
+				"displayDuration": 90,
+				"fadeDuration": 40,
+				"sync": true
+			}
+		}
+	}
 }

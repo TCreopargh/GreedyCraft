@@ -1,6 +1,9 @@
 {
 	title: "§4毕业设计",
 	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
 		id: "ftbquests:custom_icon",
 		tag: {
 			icon: "greedycraft:icons/infinity.png"

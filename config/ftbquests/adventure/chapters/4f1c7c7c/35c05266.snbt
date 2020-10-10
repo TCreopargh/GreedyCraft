@@ -1,6 +1,9 @@
 {
 	title: "§6切换为: §6§n冒险模式",
 	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
 		id: "minecraft:diamond_sword"
 	},
 	x: 5.5d,

@@ -5,6 +5,9 @@
 		uid: "e45e564c",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "avaritia:infinity_sword"
 		}],
 		ignore_damage: true,

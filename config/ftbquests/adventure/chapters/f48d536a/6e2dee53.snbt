@@ -10,6 +10,9 @@
 		uid: "cd5fcdf5",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "abyssalcraft:soulreaper"
 		}],
 		ignore_damage: true,

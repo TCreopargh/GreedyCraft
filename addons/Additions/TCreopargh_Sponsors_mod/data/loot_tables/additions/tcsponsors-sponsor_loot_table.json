@@ -146,6 +146,21 @@
                     "type": "item",
                     "name": "additions:tcsponsors-magic_broom",
                     "weight": 1
+                },
+				{
+                    "type": "item",
+                    "name": "additions:tcsponsors-lost_gourd",
+                    "weight": 1
+                },
+				{
+                    "type": "item",
+                    "name": "additions:tcsponsors-kikoku",
+                    "weight": 1
+                },
+				{
+                    "type": "item",
+                    "name": "additions:tcsponsors-bad_soymilk",
+                    "weight": 1
                 }
             ]
         }

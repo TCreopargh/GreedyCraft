@@ -843,6 +843,10 @@
     {
       "item": "additions:terra_alloy_ingot|0",
       "emc": 200000
+    },
+	{
+      "item": "thaumadditions:mithminite_ingot|0",
+      "emc": 262144
     }
   ]
 }

@@ -9,6 +9,9 @@
 	},
 	{
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "minecraft:totem_of_undying"
 		}
 	},
@@ -52,6 +55,9 @@
 	},
 	{
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "thermalexpansion:capacitor",
 			tag: {
 				Energy: 25000000
@@ -82,6 +88,9 @@
 	},
 	{
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "danknull:dank_null_5"
 		}
 	},
@@ -214,6 +223,9 @@
 	},
 	{
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "cyclicmagic:ender_eye_orb"
 		}
 	},
@@ -222,6 +234,9 @@
 	},
 	{
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "ironbackpacks:backpack",
 			tag: {
 				packInfo: {
@@ -234,6 +249,9 @@
 	},
 	{
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "chisel:chisel_hitech",
 			tag: {
 				chiseldata: {}
@@ -252,6 +270,9 @@
 	},
 	{
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "extracells:storage.physical",
 			tag: {
 				upgrades: {},
@@ -262,6 +283,9 @@
 	},
 	{
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "extracells:storage.physical",
 			tag: {
 				upgrades: {},
@@ -359,6 +383,9 @@
 	},
 	{
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "minecraft:magenta_shulker_box",
 			tag: {
 				BlockEntityTag: {
@@ -609,6 +636,9 @@
 	},
 	{
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "thermalexpansion:reservoir",
 			tag: {},
 			Damage: 4s
@@ -657,12 +687,18 @@
 	},
 	{
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "abyssalcraft:antidote"
 		},
 		random_bonus: 6
 	},
 	{
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "abyssalcraft:antidote",
 			Damage: 1s
 		},
@@ -700,6 +736,9 @@
 	},
 	{
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "inventorypets:slime_pet",
 			tag: {
 				GiveItems: 1b
@@ -708,11 +747,17 @@
 	},
 	{
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "inventorypets:pufferfish_pet"
 		}
 	},
 	{
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "inventorypets:black_hole_pet",
 			tag: {
 				AttractItems: 1b
@@ -725,6 +770,9 @@
 	},
 	{
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "projecte:item.pe_klein_star",
 			tag: {},
 			Damage: 5s
@@ -745,6 +793,9 @@
 	},
 	{
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "inventorypets:meta_pet"
 		},
 		random_bonus: 3
@@ -782,6 +833,9 @@
 	},
 	{
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "mekanismgenerators:generator",
 			Damage: 6s
 		},
@@ -789,6 +843,9 @@
 	},
 	{
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "additions:greedycraft-true_blood_sigil"
 		}
 	},
@@ -797,6 +854,9 @@
 	},
 	{
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "inventorypets:cloud_pet"
 		}
 	},
@@ -806,11 +866,17 @@
 	},
 	{
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "avaritia:skullfire_sword"
 		}
 	},
 	{
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "bountifulbaubles:wormholemirror"
 		}
 	},
@@ -820,6 +886,9 @@
 	},
 	{
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "chancecubes:silk_touch_pendant"
 		}
 	}],

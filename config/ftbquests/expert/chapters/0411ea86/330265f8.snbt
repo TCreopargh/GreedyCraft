@@ -18,6 +18,9 @@
 		uid: "dc0be368",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "twilightforest:mazebreaker_pickaxe",
 			tag: {
 				ench: [{

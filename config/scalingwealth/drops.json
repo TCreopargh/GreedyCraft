@@ -2110,6 +2110,11 @@
                     "amount": "[4,12]",
                     "chance": 1,
                     "item": "additions:infernium_ingot"
+                },
+				{
+                    "amount": "[4,6]",
+                    "chance": 1,
+                    "item": "botania:manaresource:5"
                 }
             ],
 			"[790, 32767]": [
@@ -2117,6 +2122,11 @@
                     "amount": "[4,16]",
                     "chance": 1,
                     "item": "additions:infernium_ingot"
+                },
+				{
+                    "amount": "[4,6]",
+                    "chance": 1,
+                    "item": "botania:manaresource:5"
                 }
             ],
 			"[890, 32767]": [
@@ -2124,6 +2134,11 @@
                     "amount": "[8,24]",
                     "chance": 1,
                     "item": "additions:infernium_ingot"
+                },
+				{
+                    "amount": "[4,6]",
+                    "chance": 1,
+                    "item": "botania:manaresource:5"
                 }
             ],
 			"[990, 32767]": [
@@ -2131,15 +2146,32 @@
                     "amount": "[16,32]",
                     "chance": 1,
                     "item": "additions:infernium_ingot"
+                },
+				{
+                    "amount": "[4,6]",
+                    "chance": 1,
+                    "item": "botania:manaresource:5"
                 }
             ]
 		},
 		"mowziesmobs:frostmaw": {
+			"[0, 32767]": [
+				{
+                    "amount": "[1,1]",
+                    "chance": 1,
+                    "item": "mowziesmobs:ice_crystal"
+                }
+            ],
 			"[590, 32767]": [
 				{
                     "amount": "[6,12]",
                     "chance": 1,
                     "item": "additions:cryonium_ingot"
+                },
+				{
+                    "amount": "[3,5]",
+                    "chance": 1,
+                    "item": "botania:manaresource:5"
                 }
             ],
 			"[690, 32767]": [
@@ -2147,6 +2179,11 @@
                     "amount": "[6,16]",
                     "chance": 1,
                     "item": "additions:cryonium_ingot"
+                },
+				{
+                    "amount": "[3,5]",
+                    "chance": 1,
+                    "item": "botania:manaresource:5"
                 }
             ],
 			"[790, 32767]": [
@@ -2154,6 +2191,11 @@
                     "amount": "[12,20]",
                     "chance": 1,
                     "item": "additions:cryonium_ingot"
+                },
+				{
+                    "amount": "[3,5]",
+                    "chance": 1,
+                    "item": "botania:manaresource:5"
                 }
             ],
 			"[890, 32767]": [
@@ -2161,6 +2203,11 @@
                     "amount": "[24,32]",
                     "chance": 1,
                     "item": "additions:cryonium_ingot"
+                },
+				{
+                    "amount": "[3,5]",
+                    "chance": 1,
+                    "item": "botania:manaresource:5"
                 }
             ]
 		}

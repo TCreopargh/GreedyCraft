@@ -30,11 +30,5 @@
 		uid: "ebf05b0b",
 		type: "loot",
 		table: 1
-	},
-	{
-		uid: "ad7df534",
-		type: "gamestage",
-		auto: "no_toast",
-		stage: "abyssal_conquerer"
 	}]
 }

@@ -11,6 +11,9 @@
 		uid: "3a5fe54b",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "astralsorcery:itemskyresonator"
 		}],
 		ignore_nbt: 1b

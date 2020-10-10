@@ -10,6 +10,9 @@
 		uid: "339304d7",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "abyssalcraft:necronomicon_cor",
 			tag: {
 				PotEnergy: 0.0f
@@ -28,6 +31,9 @@
 		uid: "afb01b88",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "forge:bucketfilled",
 			tag: {
 				FluidName: "liquidantimatter",

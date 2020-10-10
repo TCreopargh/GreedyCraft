@@ -31,3 +31,5 @@ mods.TinkerStages.addMaterialStage("hardmode", "mithminite");
 mods.TinkerStages.addMaterialStage("hardmode", "adaminite");
 mods.TinkerStages.addMaterialStage("hardmode", "mithrillium");
 mods.TinkerStages.addMaterialStage("awakened", "terra_alloy");
+mods.TinkerStages.addMaterialStage("chaotic", "cosmilite");
+mods.TinkerStages.addMaterialStage("skilled_wizard", "astral_metal");

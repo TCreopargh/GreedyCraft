@@ -41,6 +41,9 @@
 		uid: "f4c047c2",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "minecraft:flint_and_steel"
 		}
 	}]

@@ -10,6 +10,9 @@
 		uid: "a8885d67",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "morphtool:tool"
 		}],
 		ignore_damage: true,
@@ -24,6 +27,9 @@
 		uid: "c6201d43",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "teslacorelib:wrench"
 		}
 	},
@@ -31,6 +37,9 @@
 		uid: "975ada41",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "enderio:item_yeta_wrench"
 		}
 	},
@@ -38,6 +47,9 @@
 		uid: "8354ec5e",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "actuallyadditions:item_laser_wrench"
 		}
 	},
@@ -45,6 +57,9 @@
 		uid: "29747d2f",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "appliedenergistics2:certus_quartz_wrench"
 		}
 	},
@@ -57,6 +72,9 @@
 		uid: "d6b95b20",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "botania:twigwand",
 			tag: {
 				color1: 0,
@@ -73,6 +91,9 @@
 		uid: "bef643d9",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "extrabitmanipulation:bit_wrench"
 		}
 	},
@@ -85,6 +106,9 @@
 		uid: "b22470bb",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "bigreactors:wrench"
 		}
 	}]

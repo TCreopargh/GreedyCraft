@@ -107,6 +107,9 @@
 	},
 	{
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "minecraft:elytra"
 		}
 	},
@@ -223,6 +226,9 @@
 	},
 	{
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "projecte:item.pe_klein_star",
 			tag: {},
 			Damage: 5s
@@ -231,6 +237,9 @@
 	},
 	{
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "projectex:magnum_star_ein",
 			tag: {}
 		},
@@ -271,11 +280,6 @@
 		random_bonus: 20
 	},
 	{
-		item: {
-			id: "additions:greedycraft-difficulty_changer"
-		}
-	},
-	{
 		item: "botania_tweaks:compressed_tiny_potato_8"
 	},
 	{
@@ -297,6 +301,9 @@
 	},
 	{
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "minecraft:orange_shulker_box",
 			tag: {
 				BlockEntityTag: {

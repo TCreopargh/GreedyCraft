@@ -10,6 +10,9 @@
 		uid: "9133cfc8",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "botania:twigwand",
 			tag: {
 				color1: 0,

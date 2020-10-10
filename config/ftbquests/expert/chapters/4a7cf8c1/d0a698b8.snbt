@@ -6,7 +6,7 @@
 	description: "提交指定数量的植物魔法魔力",
 	can_repeat: true,
 	dependencies: [
-		"727f6d18"
+		"b1e0c43f"
 	],
 	tasks: [{
 		uid: "2b7c40a2",

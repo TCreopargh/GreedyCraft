@@ -7,6 +7,9 @@
 		uid: "f301622c",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "lavawaderbauble:lavawaderbauble"
 		}],
 		ignore_damage: true,

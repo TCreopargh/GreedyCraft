@@ -29,6 +29,9 @@
 		uid: "5a2da47a",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "minecraft:diamond_pickaxe",
 			tag: {
 				ench: [{
@@ -51,6 +54,9 @@
 		uid: "8c33da73",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "inventorypets:meta_pet"
 		}
 	}]

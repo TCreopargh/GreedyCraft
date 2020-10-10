@@ -1,6 +1,9 @@
 {
 	title: "§a旅行者II",
 	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
 		id: "minecraft:chainmail_boots"
 	},
 	x: -0.5d,
@@ -13,6 +16,9 @@
 		uid: "e3ba311e",
 		type: "stat",
 		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "minecraft:iron_boots"
 		},
 		stat: "stat.walkOneCm",
@@ -32,6 +38,9 @@
 		uid: "229036d6",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "hooked:hook",
 			Damage: 3s
 		}
