@@ -7,9 +7,6 @@
 		uid: "9780cd77",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "chisel:chisel_iron"
 		}],
 		ignore_damage: true,

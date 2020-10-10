@@ -185,7 +185,22 @@ val removedRecipes as IIngredient[] = [
 	<projecte:item.pe_dm_sword>,
 	<projecte:item.pe_dm_hoe>,
 	<extrautils2:ingredients:8>,
-	<extrautils2:machine>.withTag({Type: "extrautils2:generator_slime"})
+	<extrautils2:machine>.withTag({Type: "extrautils2:generator_slime"}),
+	<thaumcraft:thaumium_helm>,
+	<thaumcraft:thaumium_chest>,
+	<thaumcraft:thaumium_legs>,
+	<thaumcraft:thaumium_boots>,
+	<thaumcraft:void_helm>,
+	<thaumcraft:void_chest>,
+	<thaumcraft:void_legs>,
+	<thaumcraft:void_boots>,
+	<randomthings:spectresword>,
+	<randomthings:spectreshovel>,
+	<randomthings:spectrepickaxe>,
+	<tcomplement:manyullyn_helmet>,
+	<tcomplement:manyullyn_chestplate>,
+	<tcomplement:manyullyn_leggings>,
+	<tcomplement:manyullyn_boots>
 ];
 
 for ingredient in removedRecipes {

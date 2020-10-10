@@ -10,9 +10,6 @@
 		uid: "63239cee",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "abyssalcraft:necronomicon_dre",
 			tag: {
 				PotEnergy: 0.0f
@@ -25,9 +22,6 @@
 		uid: "3ed1b36e",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "abyssalcraft:gatewaykeydl"
 		}
 	},

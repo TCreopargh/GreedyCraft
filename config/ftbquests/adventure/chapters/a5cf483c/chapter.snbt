@@ -1,9 +1,6 @@
 {
 	title: "§d星辉魔法",
 	icon: {
-		ForgeCaps: {
-			"astralsorcery:cap_item_amulet_holder": {}
-		},
 		id: "astralsorcery:itemlinkingtool"
 	},
 	always_invisible: false,

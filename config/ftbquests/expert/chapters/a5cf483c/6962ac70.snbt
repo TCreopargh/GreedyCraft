@@ -7,9 +7,6 @@
 		uid: "a4cc377a",
 		type: "observation",
 		icon: {
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "astralsorcery:blockcollectorcrystal",
 			tag: {
 				astralsorcery: {

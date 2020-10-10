@@ -1,9 +1,6 @@
 {
 	title: "§a坚持不懈II",
 	icon: {
-		ForgeCaps: {
-			"astralsorcery:cap_item_amulet_holder": {}
-		},
 		id: "minecraft:chainmail_helmet"
 	},
 	x: -5.5d,

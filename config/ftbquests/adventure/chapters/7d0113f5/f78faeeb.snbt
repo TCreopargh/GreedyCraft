@@ -17,9 +17,6 @@
 		uid: "a53e8e27",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "thaumcraft:scribing_tools"
 		}
 	},

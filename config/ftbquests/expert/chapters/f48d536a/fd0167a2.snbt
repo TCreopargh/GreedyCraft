@@ -10,9 +10,6 @@
 		uid: "04339785",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "abyssalcraft:staff",
 			tag: {}
 		}],

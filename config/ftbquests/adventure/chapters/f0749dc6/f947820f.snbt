@@ -1,9 +1,6 @@
 {
 	title: "§6坚持不懈V",
 	icon: {
-		ForgeCaps: {
-			"astralsorcery:cap_item_amulet_holder": {}
-		},
 		id: "minecraft:diamond_helmet"
 	},
 	x: -5.5d,

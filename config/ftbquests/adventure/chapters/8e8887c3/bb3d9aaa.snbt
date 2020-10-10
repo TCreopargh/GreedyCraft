@@ -32,9 +32,6 @@
 		uid: "0508966f",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "minecraft:iron_pickaxe"
 		}
 	},
@@ -53,9 +50,6 @@
 		uid: "0707437b",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "minecraft:leather_helmet",
 			tag: {
 				display: {
@@ -69,9 +63,6 @@
 		uid: "03dbc7ec",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "minecraft:leather_chestplate",
 			tag: {
 				display: {
@@ -85,9 +76,6 @@
 		uid: "771cecc8",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "minecraft:leather_leggings",
 			tag: {
 				display: {
@@ -101,9 +89,6 @@
 		uid: "b8e1c268",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "minecraft:leather_boots",
 			tag: {
 				display: {

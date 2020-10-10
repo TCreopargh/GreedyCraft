@@ -11,9 +11,6 @@
 		uid: "9910ae62",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "wct:wct",
 			tag: {
 				InfinityEnergy: 2147483647,

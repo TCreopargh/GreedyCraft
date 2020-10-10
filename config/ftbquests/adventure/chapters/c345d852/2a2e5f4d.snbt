@@ -10,9 +10,6 @@
 		uid: "9de40edf",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "forestry:habitat_locator"
 		}],
 		ignore_damage: true,

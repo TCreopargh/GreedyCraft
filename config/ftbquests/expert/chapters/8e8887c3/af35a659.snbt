@@ -21,9 +21,6 @@
 		uid: "1de0691b",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "minecraft:flint_and_steel"
 		}
 	},
@@ -41,9 +38,6 @@
 		uid: "1394e41c",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "minecraft:iron_pickaxe"
 		}
 	},

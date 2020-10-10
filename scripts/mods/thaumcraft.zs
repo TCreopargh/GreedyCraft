@@ -2,6 +2,34 @@
 #priority 3000
 import thaumcraft.aspect.CTAspect;
 
+import crafttweaker.item.IItemStack;
+import crafttweaker.data.IData;
+import crafttweaker.item.IIngredient;
+
+var removedRecipes as IItemStack[] = [
+	<thaumadditions:adaminite_hood>,
+	<thaumadditions:adaminite_robe>,
+	<thaumadditions:adaminite_belt>,
+	<thaumadditions:adaminite_boots>,
+	<thaumadditions:mithminite_hood>,
+	<thaumadditions:mithminite_robe>,
+	<thaumadditions:mithminite_belt>,
+	<thaumadditions:mithminite_boots>,
+	<thaumcraft:fortress_helm>,
+	<thaumcraft:fortress_chest>,
+	<thaumcraft:fortress_legs>,
+	<thaumcraft:traveller_boots>,
+	<thaumcraft:void_robe_helm>,
+	<thaumcraft:void_robe_chest>,
+	<thaumcraft:void_robe_legs>,
+	<thaumadditions:adaminite_sword>,
+	<thaumadditions:mithminite_scythe>,
+	<thaumadditions:mithminite_blade>,
+	<thaumadditions:mithminite_handle>,
+	<thaumadditions:adaminite_fabric>,
+	<thaumadditions:mithminite_fabric>
+];
+
 <minecraft:wooden_axe>.setAspects(<aspect:instrumentum>*5, <aspect:herba>*5);
 <minecraft:wooden_pickaxe>.setAspects(<aspect:instrumentum>*5, <aspect:herba>*5);
 <minecraft:wooden_sword>.setAspects(<aspect:instrumentum>*5, <aspect:herba>*5);
@@ -30,3 +58,8 @@ import thaumcraft.aspect.CTAspect;
 <minecraft:enchanted_book>.setAspects(<aspect:praecantatio>*30);
 <extrautils2:ingredients:17>.setAspects(<aspect:infernum>*30);
 <extrautils2:ingredients:11>.setAspects(<aspect:infernum>*10);
+
+for removedItem in removedRecipes {
+	mods.thaumcraft.Infusion.removeRecipe(removedItem);
+	mods.thaumcraft.ArcaneWorkbench.removeRecipe(removedItem);
+}

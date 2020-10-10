@@ -7,9 +7,6 @@
 		uid: "296678e3",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "hooked:hook",
 			tag: {
 				baubleModifier: "wild",

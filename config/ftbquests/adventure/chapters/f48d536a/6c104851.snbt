@@ -17,9 +17,6 @@
 		uid: "d068b056",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "abyssalcraft:transmutationgem"
 		},
 		count: 2
@@ -39,9 +36,6 @@
 		uid: "c530e108",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "forge:bucketfilled",
 			tag: {
 				FluidName: "liquidcoralium",

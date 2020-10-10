@@ -1,9 +1,6 @@
 {
 	title: "§b§kQualified OCD",
 	icon: {
-		ForgeCaps: {
-			"astralsorcery:cap_item_amulet_holder": {}
-		},
 		id: "ftbquests:custom_icon",
 		tag: {
 			icon: "greedycraft:icons/TCreopargh.png"
@@ -39,9 +36,6 @@
 		type: "item",
 		title: "§b§kqpzxkz",
 		icon: {
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "extrabotany:cosmetic",
 			tag: {},
 			Damage: 7s

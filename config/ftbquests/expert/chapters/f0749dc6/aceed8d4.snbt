@@ -1,9 +1,6 @@
 {
 	title: "§d旅行者IV",
 	icon: {
-		ForgeCaps: {
-			"astralsorcery:cap_item_amulet_holder": {}
-		},
 		id: "minecraft:golden_boots"
 	},
 	x: -0.5d,
@@ -16,9 +13,6 @@
 		uid: "bf9aeaf1",
 		type: "stat",
 		icon: {
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "minecraft:iron_boots"
 		},
 		stat: "stat.walkOneCm",
@@ -28,9 +22,6 @@
 		uid: "602fd180",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "minecraft:elytra"
 		}
 	},
@@ -38,9 +29,6 @@
 		uid: "7d65e594",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "magicfeather:magicfeather"
 		}
 	},
