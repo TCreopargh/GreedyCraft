@@ -140,10 +140,13 @@ stageAwakened.addIngredients([
 	<cyclicmagic:glowing_chorus>,
 	<toolprogression:magic_mushroom>,
 	<ore:blockTerraAlloy>,
-	<ore:ingotTerraAlloy>
+	<ore:ingotTerraAlloy>,
+	<actuallyadditions:item_misc:15>,
+	<magicfeather:magicfeather>
 ], true);
 
 stageNether.addIngredients([
+	<minecraft:beacon>,
 	<ore:oreArdite>,
 	<ore:ingotArdite>,
 	<ore:dustArdite>,
@@ -402,7 +405,6 @@ stageAbyssalConquerer.addIngredients([
 
 stageWitherSlayer.addIngredients([
 	<additions:greedycraft-bravery_certificate>,
-	<minecraft:beacon>,
 	<openmodularturrets:turret_base:2>,
 	<enderio:block_reinforced_obsidian>,
 	<mysticalagriculture:witherproof_block>,
@@ -643,6 +645,7 @@ stageDisabled.addRecipeRegex("^abyssalcraft:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(
 stageDisabled.addRecipeRegex("^candymod:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(sword)|(axe)|(shovel)|(boots)|(leggings)|(chestplate)|(helmet)|(plate)|(legs)|(helm)|(pick))_(.*)$");
 stageDisabled.addRecipeRegex("^enderio:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(sword)|(axe)|(shovel)|(boots)|(leggings)|(chestplate)|(helmet))$");
 stageDisabled.addRecipeRegex("^thermalfoundation:tool.fishing_rod_(.*)$");
+stageDisabled.addRecipeRegex("^jaopca:block_crystalcluster(.*)$");
 stageDisabled.addRecipeRegex("^actuallyadditions:recipes24[3456789]$");
 stageDisabled.addRecipeRegex("^actuallyadditions:recipes25.$");
 stageDisabled.addRecipeRegex("^actuallyadditions:recipes26.$");

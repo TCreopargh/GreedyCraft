@@ -13068,7 +13068,7 @@ jaopca:item_platedensesapphire - 16750
 jaopca:item_platedensescarlite - 16751
 jaopca:item_platedensetanzanite - 16752
 jaopca:item_platedensetopaz - 16753
-jaopca:item_dustdirtyabyssalnite - 16754
+jaopca:item_crystalabyssalnite - 16754
 jaopca:item_dustdirtyaluminium - 16755
 jaopca:item_dustdirtyardite - 16756
 jaopca:item_dustdirtyastralstarmetal - 16757
@@ -13108,7 +13108,7 @@ jaopca:item_clumptitanium - 16790
 jaopca:item_clumpumbrium - 16791
 jaopca:item_clumpuranium - 16792
 jaopca:item_clumpyellorium - 16793
-jaopca:item_shardabyssalnite - 16794
+jaopca:item_dustdirtyabyssalnite - 16794
 jaopca:item_shardaluminium - 16795
 jaopca:item_shardardite - 16796
 jaopca:item_shardastralstarmetal - 16797
@@ -13128,7 +13128,7 @@ jaopca:item_shardtitanium - 16810
 jaopca:item_shardumbrium - 16811
 jaopca:item_sharduranium - 16812
 jaopca:item_shardyellorium - 16813
-jaopca:item_crystalabyssalnite - 16814
+jaopca:item_shardabyssalnite - 16814
 jaopca:item_crystalaluminium - 16815
 jaopca:item_crystalardite - 16816
 jaopca:item_crystalastralstarmetal - 16817
@@ -13516,3 +13516,12 @@ jaopca:block_doubleslaburanium - 17198
 jaopca:block_doubleslabplatinum - 17199
 jaopca:block_fencetanzanite - 17200
 jaopca:block_stairsamethyst - 17201
+nyx:lunar_water_bottle - 17202
+nyx:star_stairs - 17203
+nyx:star_block - 17204
+nyx:star_slab - 17205
+nyx:comet_shard - 17206
+nyx:chiseled_star_block - 17207
+nyx:fallen_star - 17208
+nyx:cracked_star_block - 17209
+additions:greedycraft-difficulty_syncer - 17210

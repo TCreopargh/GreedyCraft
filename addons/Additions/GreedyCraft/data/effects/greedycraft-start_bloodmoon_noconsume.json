@@ -8,13 +8,17 @@
   },
   "effects": [
     {
-      "command": "/bloodmoon force",
+      "command": "/nyxforce blood_moon",
       "command_sender_name": "",
-      "hide_feedback": false,
       "type": "additions:command"
     },
     {
       "command": "/particle dripLava ~ ~ ~ 2 2 2 1 300 force",
+      "command_sender_name": "",
+      "type": "additions:command"
+    },
+    {
+      "command": "/tellraw @a {\"text\": \"§c血色之月将在下一个晚上升起。\"}",
       "command_sender_name": "",
       "type": "additions:command"
     }

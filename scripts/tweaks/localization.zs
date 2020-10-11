@@ -41,7 +41,10 @@ game.setLocalization("research_stage.thaumadditions:mithminite_jar.2", "我的�
 game.setLocalization("research_stage.thaumadditions:adaminite_jar.2", "铿金非常独特！我认为这个罐子可以容纳 2000 点源质，这使得它内部空间的源质十分稠密。");
 game.setLocalization("research_stage.thaumadditions:adaminite_jar.3", "铿金非常独特！我认为这个罐子可以容纳 2000 点源质，这使得它内部空间的源质十分稠密。我听到一个叫泽尔西伦的人的声音，他是其中一位创世者，曾创造了这个世界。他轻声低语道：“这个罐子密度太大了，也许在某些特定的情况下会不稳定。我不认为把它完全装满源质是一个好主意...”。我从他的话语中也听出他非常惊讶于我所完成的这一艰难的挑战。");
 game.setLocalization("research_stage.thaumadditions:mithminite_jar.1", "既然已我知晓了用秘银和一些水银可能可以觉醒精金，我只需知道我能否负担得起这些秘金源质罐子。");
-/* disabled
+
+game.setLocalization("modifier.mutate.name", "突变");
+game.setLocalization("modifier.mutate.desc", "似乎有什么在变化？");
+
 game.setLocalization("material.prometheum.name", "普罗姆");
 game.setLocalization("tile.prometheum_block.name", "普罗姆块");
 game.setLocalization("tile.prometheum_ore.name", "普罗姆矿");
@@ -49,7 +52,6 @@ game.setLocalization("item.prometheum_nugget.name", "普罗姆粒");
 game.setLocalization("item.prometheum_dust.name", "普罗姆粉");
 game.setLocalization("item.prometheum_ingot.name", "普罗姆锭");
 game.setLocalization("fluid.tconstruct.prometheum_fluid.name", "熔融普罗姆");
-*/
 
 /*
 game.setLocalization("critword.0", "暴击！");

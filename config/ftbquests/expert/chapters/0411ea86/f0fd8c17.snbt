@@ -37,6 +37,6 @@
 		uid: "882d57a5",
 		type: "command",
 		auto: "no_toast",
-		command: "/scalinghealth difficulty set 20 @p"
+		command: "/scalinghealth difficulty set 50 @p"
 	}]
 }

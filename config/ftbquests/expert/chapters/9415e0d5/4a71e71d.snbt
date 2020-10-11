@@ -7,8 +7,7 @@
 		uid: "8898d8fd",
 		type: "item",
 		items: [{
-			id: "chesttransporter:chesttransporter",
-			tag: {}
+			id: "chesttransporter:chesttransporter"
 		}]
 	}],
 	rewards: [{
@@ -21,8 +20,7 @@
 		uid: "7c5b48b4",
 		type: "item",
 		item: {
-			id: "chesttransporter:chesttransporter_obsidian",
-			tag: {}
+			id: "chesttransporter:chesttransporter_obsidian"
 		},
 		count: 4
 	},

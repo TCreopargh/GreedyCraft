@@ -85,6 +85,20 @@ mods.tconstruct.Melting.addRecipe(<liquid:cosmilite> * 1296, <ore:blockCosmilite
 mods.tconstruct.Melting.addRecipe(<liquid:orichalcos> * 144, <ore:ingotOrichalcos>, 1400);
 mods.tconstruct.Melting.addRecipe(<liquid:orichalcos> * 1296, <ore:blockOrichalcos>, 1400);
 
+mods.tconstruct.Casting.addTableRecipe(<extrabotany:material:1>, <tconstruct:cast_custom>, <liquid:orichalcos>, 144, false, 200);
+mods.tconstruct.Casting.addBasinRecipe(<extrabotany:blockorichalcos>, null, <liquid:orichalcos>, 1296, false, 300);
+
+mods.tconstruct.Melting.addRecipe(<liquid:yellorium> * 144, <ore:ingotYellorium>, 1400);
+mods.tconstruct.Melting.addRecipe(<liquid:yellorium> * 1296, <ore:blockYellorium>, 1400);
+
+mods.tconstruct.Melting.addRecipe(<liquid:liquid_chocolate> * 144, <ore:foodChocolate>, 300);
+mods.tconstruct.Melting.addRecipe(<liquid:liquid_chocolate> * 1296, <ore:blockChocolate>, 300);
+mods.tconstruct.Casting.addTableRecipe(<bigreactors:ingotyellorium>, <tconstruct:cast_custom>, <liquid:yellorium>, 144, false, 200);
+mods.tconstruct.Casting.addBasinRecipe(<bigreactors:blockyellorium>, null, <liquid:yellorium>, 1296, false, 300);
+
+mods.tconstruct.Casting.addTableRecipe(<candymod:chocolate_bar>, <tconstruct:cast_custom>, <liquid:cosmilite>, 144, false, 200);
+mods.tconstruct.Casting.addBasinRecipe(<candymod:chocolate_block>, null, <liquid:cosmilite>, 1296, false, 300);
+
 //mods.tconstruct.Melting.addRecipe(<liquid:cryonium> * 288, <additions:greedycraft-cryonium_ore>, 200);
 //mods.tconstruct.Melting.addRecipe(<liquid:cryonium> * 144, <additions:cryonium_ingot>, 200);
 //mods.tconstruct.Melting.addRecipe(<liquid:cryonium> * 1296, <additions:greedycraft-cryonium_block>, 900);

@@ -688,3 +688,19 @@ abyssalcraft:multi_rend
    - Max Level: 1
 
 
+nyx:lunar_shield
+   - Id: 85
+   - Rarity: UNCOMMON
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 4
+
+
+nyx:lunar_edge
+   - Id: 86
+   - Rarity: UNCOMMON
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 5
+
+

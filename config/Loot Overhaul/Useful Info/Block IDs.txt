@@ -7128,3 +7128,12 @@ jaopca:block_doubleslaburanium - 7125
 jaopca:block_doubleslabplatinum - 7126
 jaopca:block_fencetanzanite - 7127
 jaopca:block_stairsamethyst - 7128
+nyx:star_block - 7129
+nyx:star_stairs - 7130
+nyx:star_slab - 7131
+nyx:lunar_water - 7132
+nyx:lunar_water_cauldron - 7133
+nyx:star_air - 7134
+nyx:star_slab_double - 7135
+nyx:chiseled_star_block - 7136
+nyx:cracked_star_block - 7137

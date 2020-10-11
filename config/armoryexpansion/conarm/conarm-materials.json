@@ -419,6 +419,28 @@
   },
   {
     "coreMaterialStats": {
+      "durability": 9.0,
+      "defense": 41.399998,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 30.720001,
+      "modifier": 27.952942,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 30.720001,
+      "materialType": "trim"
+    },
+    "identifier": "yellorium",
+    "color": -1114303,
+    "type": "METAL",
+    "castable": true,
+    "craftable": false
+  },
+  {
+    "coreMaterialStats": {
       "durability": 112.0,
       "defense": 19.44,
       "materialType": "core"
@@ -2638,6 +2660,28 @@
     "type": "METAL",
     "castable": false,
     "craftable": true
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 1.0,
+      "defense": 5.4,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 3.8400002,
+      "modifier": 5.0823526,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 3.8400002,
+      "materialType": "trim"
+    },
+    "identifier": "chocolate",
+    "color": -8825528,
+    "type": "METAL",
+    "castable": true,
+    "craftable": false
   },
   {
     "coreMaterialStats": {

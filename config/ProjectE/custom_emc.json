@@ -270,11 +270,11 @@
     },
     {
       "item": "mysticalagriculture:emerald_essence|0",
-      "emc": 1800
+      "emc": 0
     },
     {
       "item": "mysticalagriculture:diamond_essence|0",
-      "emc": 900
+      "emc": 0
     },
     {
       "item": "mysticalagriculture:crafting|37",
@@ -844,7 +844,7 @@
       "item": "additions:terra_alloy_ingot|0",
       "emc": 200000
     },
-	{
+    {
       "item": "thaumadditions:mithminite_ingot|0",
       "emc": 262144
     }

@@ -2,12 +2,12 @@
 #priority 900
 import mods.recipestages.Recipes;
 
-Recipes.setPackageStage("appeng", listStages);
-Recipes.setPackageStage("forestry", listStages);
-Recipes.setPackageStage("cofh", listStages);
-Recipes.setPackageStage("mekanism", listStages);
-Recipes.setPackageStage("thaumcraft", listStages);
-Recipes.setPackageStage("avaritia", listStages);
-Recipes.setPackageStage("rftools", listStages);
-Recipes.setPackageStage("mcjty", listStages);
-Recipes.setPackageStage("cyclicmagic", listStages);
+Recipes.setPackageStage("appeng", commonStages);
+Recipes.setPackageStage("forestry", commonStages);
+Recipes.setPackageStage("cofh", commonStages);
+Recipes.setPackageStage("mekanism", commonStages);
+Recipes.setPackageStage("thaumcraft", commonStages);
+Recipes.setPackageStage("avaritia", commonStages);
+Recipes.setPackageStage("rftools", commonStages);
+Recipes.setPackageStage("mcjty", commonStages);
+Recipes.setPackageStage("cyclicmagic", commonStages);

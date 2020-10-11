@@ -41,5 +41,9 @@ global whitelistedCommands as string[] = [
 	"ctrlreload",
 	"botania-share",
 	"chunks",
-	"hidescoreboard"
+	"hidescoreboard",
+	"aromabackup",
+	"backup",
+	"syncdifficulty",
+	"foodlist"
 ];

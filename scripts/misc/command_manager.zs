@@ -12,6 +12,7 @@ import mods.ctutils.world.IGameRules;
 import mods.zenutils.command.ZenCommand;
 import mods.zenutils.command.ZenUtilsCommandSender;
 import mods.zenutils.command.CommandUtils;
+import mods.zenutils.command.TabCompletion;
 
 val purgeCommand as ZenCommand = ZenCommand.create("purge");
 purgeCommand.getCommandUsage = function(sender) {
@@ -40,4 +41,34 @@ hideScoreboardCommand.execute = function(command, server, sender, args) {
 	}
 };
 hideScoreboardCommand.register();
+
+val SyncDifficultyCommand as ZenCommand = ZenCommand.create("syncdifficulty");
+SyncDifficultyCommand.getCommandUsage = function(sender) {
+    return "参数1：玩家，作用：同步难度";
+};
+SyncDifficultyCommand.requiredPermissionLevel = 0; 
+SyncDifficultyCommand.tabCompletion = TabCompletion.create(["player"]);
+SyncDifficultyCommand.execute = function(command, server, sender, args) {
+	var player as IPlayer;
+	if (args.length == 0) {
+		player = CommandUtils.getCommandSenderAsPlayer(sender);
+	} else if (args.length == 1) {
+		player = CommandUtils.getPlayer(server, sender, args[0]);
+	} else {
+		CommandUtils.notifyWrongUsage(command, sender);
+		return;
+	}
+	if(!isNull(player)) {
+		var maxDifficulty = 0;
+		for i in 0 to criticalStages.length {
+			if(player.hasGameStage(criticalStages[i]) && criticalDifficulties[i] > maxDifficulty) {
+				maxDifficulty = criticalDifficulties[i];
+			}
+		}
+		server.commandManager.executeCommand(server, "/scalinghealth difficulty set " + maxDifficulty + " " + player.name);
+		player.sendChat("§e难度同步成功，你的难度已被设为§6" + maxDifficulty);
+	}
+};
+SyncDifficultyCommand.register();
+
 

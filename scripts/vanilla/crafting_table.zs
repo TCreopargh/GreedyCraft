@@ -200,7 +200,11 @@ val removedRecipes as IIngredient[] = [
 	<tcomplement:manyullyn_helmet>,
 	<tcomplement:manyullyn_chestplate>,
 	<tcomplement:manyullyn_leggings>,
-	<tcomplement:manyullyn_boots>
+	<tcomplement:manyullyn_boots>,
+	<minecraft:beacon>,
+	<bountifulbaubles:ringflywheeladvanced>,
+	<bountifulbaubles:ringflywheel>,
+	<xnet:netcable>
 ];
 
 for ingredient in removedRecipes {
@@ -935,6 +939,18 @@ recipes.addShaped("time_order", <additions:greedycraft-delivery_order>,
 [[<ore:shardTime>, <ore:shardTime>, <ore:shardTime>],
 [<ore:shardTime>, <ore:paper>, <ore:shardTime>],
 [<ore:shardTime>, <ore:shardTime>, <ore:shardTime>]]);
+recipes.addShaped("beacon", <minecraft:beacon>, 
+[[<ore:paneGlass>, <ore:paneGlass>, <ore:paneGlass>],
+[<ore:paneGlass>, <ore:blockTerrasteel>, <ore:paneGlass>],
+[<ore:obsidian>, <ore:obsidian>, <ore:obsidian>]]);
+recipes.addShaped("difficulty_syncer", <additions:greedycraft-difficulty_syncer>, 
+[[<ore:paneGlass>, <ore:paneGlass>, <ore:paneGlass>],
+[<ore:paneGlass>, <ore:bone>, <ore:paneGlass>],
+[<ore:paneGlass>, <ore:paneGlass>, <ore:paneGlass>]]);
+recipes.addShaped("xnet_cable", <xnet:netcable>.withTag({display: {LocName: "tile.xnet.netcable_blue.name"}}) * 32, 
+[[null, <ore:dustRedstone>, null],
+[<ore:dustRedstone>, <ore:ingotCopper>, <ore:dustRedstone>],
+[null, <ore:dustRedstone>, null]]);
 /* Disabled until I figure out how to solve the errors
 recipes.addShaped("exp_transport_tool", <tconstruct:broadsword>, [[<ore:toolTiC>.marked("to"), <additions:greedycraft-experience_transporter>, <ore:toolTiC>.marked("from")]], 
 function(out, ins, cInfo) {

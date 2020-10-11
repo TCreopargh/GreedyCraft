@@ -18,6 +18,9 @@ import crafttweaker.game.IGame;
 <ore:foodChocolate>.addAll(<ore:foodChocolateBar>);
 <ore:foodChocolateBar>.addAll(<ore:foodChocolate>);
 <ore:ingotGaia>.addAll(<ore:gaiaIngot>);
+<ore:blockTerrasteel>.add(<botania:storage:1>);
+<ore:blockElvenElementium>.add(<botania:storage:2>);
+<ore:blockOrichalcos>.add(<extrabotany:blockorichalcos>);
 <ore:toolTiC>.addItems([
 	<plustic:laser_gun>,
 	<plustic:katana>,
@@ -189,5 +192,6 @@ import crafttweaker.game.IGame;
 	<additions:greedycraft-true_eye_of_ender>,
 	<additions:greedycraft-medkit_super>,
 	<additions:greedycraft-experience_transporter>,
-	<additions:tcsponsors-sponsors_chest>
+	<additions:tcsponsors-sponsors_chest>,
+	<cyclicmagic:heart_food>
 ]);
