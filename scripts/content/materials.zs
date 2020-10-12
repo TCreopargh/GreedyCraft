@@ -670,7 +670,7 @@ poop.color = Color.fromHex("5d4037").getIntColor();
 poop.craftable = true;
 poop.castable = false;
 poop.representativeItem = <item:additions:poop_image>;
-poop.addItem(<ore:poop>);
+poop.addItem(<ore:itemPoop>);
 poop.localizedName = "便便";
 poop.addHeadMaterialStats(11, 4.5, 1.4, 0);
 poop.addHandleMaterialStats(0.19, 19);

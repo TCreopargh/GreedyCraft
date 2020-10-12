@@ -1,0 +1,32 @@
+{
+	title: "§c向咒波说再见",
+	x: 10.5d,
+	y: 0.5d,
+	description: "获得铿金源质冶炼厂",
+	dependencies: [
+		"807834f0",
+		"5f8ba210"
+	],
+	tasks: [{
+		uid: "5c4af179",
+		type: "item",
+		items: [{
+			item: "thaumadditions:adaminite_smelter"
+		}]
+	}],
+	rewards: [{
+		uid: "cdcca5d1",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "889017cb",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "ddd49b76",
+		type: "xp",
+		xp: 9000
+	}]
+}

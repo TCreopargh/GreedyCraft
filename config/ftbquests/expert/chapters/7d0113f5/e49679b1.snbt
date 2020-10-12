@@ -1,0 +1,33 @@
+{
+	title: "§5咒波容器",
+	x: 4.5d,
+	y: 1.5d,
+	description: "获得咒波容器",
+	dependencies: [
+		"06dba2ad",
+		"5a9b6af9"
+	],
+	tasks: [{
+		uid: "e4013c1d",
+		type: "item",
+		items: [{
+			item: "thaumicwonders:flux_capacitor"
+		}]
+	}],
+	rewards: [{
+		uid: "3884d261",
+		type: "item",
+		item: "thaumcraft:ingot 1 1",
+		count: 4
+	},
+	{
+		uid: "884b3ce6",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "522ff38a",
+		type: "xp",
+		xp: 3000
+	}]
+}

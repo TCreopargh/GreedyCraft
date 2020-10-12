@@ -1,0 +1,31 @@
+{
+  "cause": {
+    "item": {
+      "item": "additions:tcsponsors-kikoku",
+      "damage": "any"
+    },
+    "type": "additions:item_in_inventory"
+  },
+  "effects": [
+    {
+      "potion": {
+        "name": "minecraft:weakness",
+        "duration": 50,
+        "amplifier": 2,
+        "ambient": false,
+        "show_particles": true
+      },
+      "type": "additions:potion"
+    },
+    {
+      "potion": {
+        "name": "minecraft:regeneration",
+        "duration": 50,
+        "amplifier": 0,
+        "ambient": false,
+        "show_particles": true
+      },
+      "type": "additions:potion"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "§d难度同步宝珠",
+  "shines": true,
+  "tooltip": [
+    "§d使用后，根据你的游戏阶段设定你的难度",
+    "§6用于修复某些bug",
+    "§e可无限使用",
+    "§7§m其实用/syncdifficulty指令也可以达到相同效果，这个物品只是为了防止有人记不住指令"
+  ],
+  "max_stack": 1,
+  "type": "additions:simple"
+}

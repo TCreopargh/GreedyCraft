@@ -1,0 +1,27 @@
+{
+	title: "§b还有更好的冶炼厂？？",
+	x: 8.5d,
+	y: -0.5d,
+	description: "获得秘银源质冶炼厂",
+	dependencies: [
+		"74048d38",
+		"0a299e8c"
+	],
+	tasks: [{
+		uid: "bc903fc8",
+		type: "item",
+		items: [{
+			item: "thaumadditions:mithrillium_smelter"
+		}]
+	}],
+	rewards: [{
+		uid: "fe6439a4",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "7c7fee99",
+		type: "xp",
+		xp: 7500
+	}]
+}

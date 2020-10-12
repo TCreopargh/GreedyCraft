@@ -1,0 +1,7 @@
+{
+  "name": "§a胞嘧锭",
+  "is_beacon_payment": true,
+  "tooltip": "§a这种金属具有生物的性质！",
+  "ore_dict": "ingotCytosinite",
+  "type": "additions:simple"
+}

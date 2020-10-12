@@ -1,0 +1,6 @@
+{
+  "name": "§5星辰锭",
+  "is_beacon_payment": true,
+  "ore_dict": "ingotAstralMetal",
+  "type": "additions:simple"
+}

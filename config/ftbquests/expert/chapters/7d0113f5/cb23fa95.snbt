@@ -1,0 +1,27 @@
+{
+	title: "§d没有比它更好的冶炼厂了",
+	x: 12.5d,
+	y: 1.5d,
+	description: "获得秘金源质冶炼厂",
+	dependencies: [
+		"567d8101",
+		"e421a210"
+	],
+	tasks: [{
+		uid: "1a0f76ae",
+		type: "item",
+		items: [{
+			item: "thaumadditions:mithminite_smelter"
+		}]
+	}],
+	rewards: [{
+		uid: "c0dfc97b",
+		type: "xp",
+		xp: 12000
+	},
+	{
+		uid: "790d9d87",
+		type: "loot",
+		table: 3
+	}]
+}

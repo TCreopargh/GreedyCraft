@@ -1,0 +1,25 @@
+{
+  "name": "§6滑稽果",
+  "tooltip": [
+    "§e滑稽树上滑稽果，滑稽树下你和我。"
+  ],
+  "max_stack": 64,
+  "hunger": 10,
+  "saturation": 20.0,
+  "always_edible": true,
+  "eat_time": 32,
+  "is_drink": false,
+  "eaten_effects": [
+    {
+      "potion": {
+        "name": "minecraft:health_boost",
+        "duration": 800,
+        "amplifier": 3,
+        "ambient": false,
+        "show_particles": true
+      },
+      "type": "additions:potion"
+    }
+  ],
+  "type": "additions:food"
+}

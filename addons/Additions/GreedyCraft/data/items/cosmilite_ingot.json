@@ -1,0 +1,7 @@
+{
+  "name": "§5寰宇锭",
+  "is_beacon_payment": true,
+  "tooltip": "§c被称为“宇宙中最坚固的金属”。",
+  "ore_dict": "ingotCosmilite",
+  "type": "additions:simple"
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "additions:items/greedycraft-astral_metal_ingot-layer0"
+  }
+}

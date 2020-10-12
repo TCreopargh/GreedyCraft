@@ -1,0 +1,23 @@
+{
+  "item_block": {
+    "name": "§2大地合金块",
+    "ore_dict": "blockTerraAlloy",
+    "type": "additions:block_simple"
+  },
+  "name": "§2大地合金块",
+  "material": "minecraft:metal",
+  "place_sound": "minecraft:block.metal.place",
+  "break_sound": "minecraft:block.metal.break",
+  "hit_sound": "minecraft:block.metal.hit",
+  "step_sound": "minecraft:block.metal.step",
+  "fall_sound": "minecraft:block.metal.fall",
+  "map_color": "minecraft:emerald",
+  "hardness": 20.0,
+  "resistance": 1000.0,
+  "harvest_level": 8,
+  "harvest_tool": "pickaxe",
+  "light_level": 10,
+  "bookshelf_strength": 20,
+  "is_beacon_base": true,
+  "type": "additions:simple"
+}

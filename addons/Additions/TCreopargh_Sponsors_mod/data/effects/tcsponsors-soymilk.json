@@ -1,0 +1,33 @@
+{
+  "cause": {
+    "item": {
+      "item": "additions:tcsponsors-bad_soymilk",
+      "damage": "any"
+    },
+    "type": "additions:item_attack"
+  },
+  "effects": [
+    {
+      "potion": {
+        "name": "minecraft:instant_damage",
+        "duration": 1,
+        "amplifier": 0,
+        "ambient": false,
+        "show_particles": true
+      },
+      "chance": 0.33,
+      "type": "additions:potion"
+    },
+    {
+      "potion": {
+        "name": "minecraft:strength",
+        "duration": 120,
+        "amplifier": 1,
+        "ambient": false,
+        "show_particles": true
+      },
+      "chance": 0.4,
+      "type": "additions:potion"
+    }
+  ]
+}

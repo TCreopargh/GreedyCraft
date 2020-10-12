@@ -1,0 +1,30 @@
+{
+	x: -5.5d,
+	y: 0.5d,
+	dependencies: [
+		"e42bd6a4"
+	],
+	tasks: [{
+		uid: "7adebe1c",
+		type: "item",
+		items: [{
+			item: "thaumadditions:growth_chamber"
+		}]
+	}],
+	rewards: [{
+		uid: "474a496b",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "0533928a",
+		type: "xp",
+		xp: 1500
+	},
+	{
+		uid: "fff4ac0a",
+		type: "item",
+		item: "minecraft:quartz",
+		count: 64
+	}]
+}

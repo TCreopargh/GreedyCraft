@@ -1,0 +1,26 @@
+{
+	title: "§5虚空信标",
+	x: 6.5d,
+	y: 2.5d,
+	description: "获得虚空信标",
+	dependencies: [
+		"06dba2ad"
+	],
+	tasks: [{
+		uid: "ec1ad436",
+		type: "item",
+		items: [{
+			item: "thaumicwonders:void_beacon"
+		}]
+	}],
+	rewards: [{
+		uid: "6f704bc2",
+		type: "loot",
+		table: 3
+	},
+	{
+		uid: "0fea2cee",
+		type: "xp",
+		xp: 8000
+	}]
+}

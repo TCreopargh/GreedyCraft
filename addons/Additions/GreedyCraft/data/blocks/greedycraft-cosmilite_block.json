@@ -1,0 +1,17 @@
+{
+  "item_block": {
+    "name": "§5寰宇块",
+    "ore_dict": "blockCosmilite",
+    "type": "additions:block_simple"
+  },
+  "name": "§5寰宇块",
+  "material": "minecraft:metal",
+  "map_color": "minecraft:purple",
+  "hardness": 25.0,
+  "resistance": 10000.0,
+  "harvest_level": 10,
+  "harvest_tool": "pickaxe",
+  "light_level": 15,
+  "is_beacon_base": true,
+  "type": "additions:simple"
+}

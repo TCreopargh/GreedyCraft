@@ -44,7 +44,7 @@ hideScoreboardCommand.register();
 
 val SyncDifficultyCommand as ZenCommand = ZenCommand.create("syncdifficulty");
 SyncDifficultyCommand.getCommandUsage = function(sender) {
-    return "参数1：玩家，作用：同步难度";
+    return "/syncdifficulty [玩家]";
 };
 SyncDifficultyCommand.requiredPermissionLevel = 0; 
 SyncDifficultyCommand.tabCompletion = TabCompletion.create(["player"]);

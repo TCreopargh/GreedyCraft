@@ -1,0 +1,31 @@
+{
+	title: "§c这个字怎么念来着？",
+	x: 8.5d,
+	y: 1.5d,
+	description: "获得铿(kēng)金",
+	dependencies: [
+		"0a299e8c"
+	],
+	tasks: [{
+		uid: "65bac15e",
+		type: "item",
+		items: [{
+			item: "thaumadditions:adaminite_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "c3adf6b9",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "1527d13d",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "dbf15d87",
+		type: "xp",
+		xp: 9000
+	}]
+}
