@@ -1,0 +1,28 @@
+{
+  "cause": {
+    "item": {
+      "item": "additions:tcsponsors-cloud",
+      "damage": "any"
+    },
+    "type": "additions:item_right_click"
+  },
+  "effects": [
+    {
+      "type": "additions:consume_item"
+    },
+    {
+      "potion": {
+        "name": "minecraft:blindness",
+        "duration": 50,
+        "amplifier": 0,
+        "ambient": false,
+        "show_particles": false
+      },
+      "type": "additions:potion"
+    },
+    {
+      "potion_type": "potioncore:strong_teleport",
+      "type": "additions:potion"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "name": "§d§o无限宝石",
   "shines": true,
-  "tooltip": "§5据说拿到它的人都获得了无限的力量。",
+  "tooltip": "§5“只有够格的人才有资格拥有它。”",
   "max_stack": 1,
   "ore_dict": "itemInfinityStone",
   "type": "additions:simple"

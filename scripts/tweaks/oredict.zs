@@ -1,5 +1,5 @@
 #disable_search_tree
-#priority 100
+#priority 20000
 import crafttweaker.game.IGame;
 <ore:slime>.add(<defiledlands:foul_slime>);
 <ore:stoneMarble>.add(<pvj:marble>);
@@ -21,6 +21,8 @@ import crafttweaker.game.IGame;
 <ore:blockTerrasteel>.add(<botania:storage:1>);
 <ore:blockElvenElementium>.add(<botania:storage:2>);
 <ore:blockOrichalcos>.add(<extrabotany:blockorichalcos>);
+<ore:fallenStar>.add(<nyx:fallen_star>);
+<ore:bedrock>.add(<minecraft:bedrock>);
 <ore:toolTiC>.addItems([
 	<plustic:laser_gun>,
 	<plustic:katana>,
@@ -185,7 +187,9 @@ import crafttweaker.game.IGame;
 	<cqrepoured:chestplate_iron_dyable>,
 	<cqrepoured:leggings_iron_dyable>,
 	<cqrepoured:boots_iron_dyable>,
-	<cyclicmagic:ender_dungeon>
+	<cyclicmagic:ender_dungeon>,
+	<cqrepoured:helmet_dragon>,
+	<extrabotany:bottledflame>
 ]);
 <ore:dungeonLootTier3>.addItems([
 	<additions:greedycraft-goodie_bag>,
@@ -195,3 +199,42 @@ import crafttweaker.game.IGame;
 	<additions:tcsponsors-sponsors_chest>,
 	<cyclicmagic:heart_food>
 ]);
+<ore:dungeonShield>.addItems([
+	<cqrepoured:shield_bull>,
+	<cqrepoured:shield_carl>,
+	<cqrepoured:shield_dragonslayer>,
+	<cqrepoured:shield_fire>,
+	<cqrepoured:shield_goblin>,
+	<cqrepoured:shield_monking>,
+	<cqrepoured:shield_moon>,
+	<cqrepoured:shield_mummy>,
+	<cqrepoured:shield_pigman>,
+	<cqrepoured:shield_pirate>,
+	<cqrepoured:shield_pirate2>,
+	<cqrepoured:shield_rainbow>,
+	<cqrepoured:shield_reflective>,
+	<cqrepoured:shield_rusted>,
+	<cqrepoured:shield_skeleton_friends>,
+	<cqrepoured:shield_specter>,
+	<cqrepoured:shield_spider>,
+	<cqrepoured:shield_sun>,
+	<cqrepoured:shield_tomb>,
+	<cqrepoured:shield_triton>,
+	<cqrepoured:shield_turtle>,
+	<cqrepoured:shield_walker>,
+	<cqrepoured:shield_warped>,
+	<cqrepoured:shield_zombie>
+]);
+<ore:dungeonLootTier2>.addAll(<ore:dungeonShield>);
+<ore:gemCincinnasite>.add(<betternether:cincinnasite>);
+<ore:gemTofu>.add(<tofucraft:material:18>);
+<ore:gemTofuStrong>.add(<tofucraft:material:25>);
+<ore:gemDiamondPink>.add(<sakura:sakura_diamond>);
+<ore:dustCrystalHeart>.add(<scalinghealth:heartdust>);
+<ore:shardCrystalHeart>.add(<scalinghealth:crystalshard>);
+<ore:heartContainer>.addItems([<scalinghealth:heartcontainer>, <cyclicmagic:heart_food>]);
+<ore:compressed1xDirt>.addAll(<ore:compressedDirt1>);
+<ore:compressedDirt1>.addAll(<ore:compressed1xDirt>);
+<ore:compressed2xDirt>.addAll(<ore:compressedDirt2>);
+<ore:compressedDirt2>.addAll(<ore:compressed2xDirt>);
+<ore:beanCocoa>.add(<minecraft:dye:3>);

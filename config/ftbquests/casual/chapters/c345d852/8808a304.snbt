@@ -1,0 +1,26 @@
+{
+	title: "§5基因提取",
+	x: 1.5d,
+	y: 2.5d,
+	description: "获得基因提取机",
+	dependencies: [
+		"b1243a42"
+	],
+	tasks: [{
+		uid: "42926f8e",
+		type: "item",
+		items: [{
+			item: "gendustry:extractor"
+		}]
+	}],
+	rewards: [{
+		uid: "832c09fa",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "adc831ff",
+		type: "xp",
+		xp: 800
+	}]
+}

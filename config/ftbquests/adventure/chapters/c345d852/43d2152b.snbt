@@ -1,0 +1,26 @@
+{
+	title: "§3诱变剂工厂",
+	x: 4.0d,
+	y: 0.0d,
+	description: "获得诱变剂制造器",
+	dependencies: [
+		"b1243a42"
+	],
+	tasks: [{
+		uid: "4ab5355c",
+		type: "item",
+		items: [{
+			item: "gendustry:mutagen_producer"
+		}]
+	}],
+	rewards: [{
+		uid: "9cf7c2cd",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "a49ff541",
+		type: "xp",
+		xp: 800
+	}]
+}

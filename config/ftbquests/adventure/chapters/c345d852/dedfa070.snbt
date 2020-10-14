@@ -1,0 +1,26 @@
+{
+	title: "§a更好的诱变机",
+	x: -1.0d,
+	y: 2.5d,
+	description: "升级你的诱变机",
+	dependencies: [
+		"158a9205"
+	],
+	tasks: [{
+		uid: "466818f7",
+		type: "item",
+		items: [{
+			item: "gendustry:mutatron_advanced"
+		}]
+	}],
+	rewards: [{
+		uid: "861c513c",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "85264200",
+		type: "xp",
+		xp: 800
+	}]
+}

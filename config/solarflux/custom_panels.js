@@ -58,4 +58,15 @@ func init()
 			.bind('h', item("skull", 5))
 		.build(2);
 	*/
+	panel()
+		.name("cosmic_solar_panel")
+		.height(6 / 16.0)
+		.generation("12000")
+		.capacity("819200000")
+		.transfer("18000")
+	.buildAndRegister()
+		.langBuilder()
+			.put("en_us", "Cosmic Solar Panel")
+			.put("zh_cn", "寰宇太阳能板")
+			.build();
 }

@@ -1,0 +1,31 @@
+{
+	title: "§e快速耕耘",
+	x: 2.0d,
+	y: 15.5d,
+	description: "获得生长加速器，放在耕地下面即可给耕地加速，可以叠加",
+	tasks: [{
+		uid: "b60d2701",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:growth_accelerator"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7aa91b14",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "25d3bd29",
+		type: "xp",
+		xp: 750
+	},
+	{
+		uid: "ad89c515",
+		type: "item",
+		item: "mysticalagriculture:growth_accelerator",
+		count: 4,
+		random_bonus: 4
+	}]
+}

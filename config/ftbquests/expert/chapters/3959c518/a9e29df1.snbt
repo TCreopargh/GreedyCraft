@@ -197,5 +197,11 @@
 		type: "gamestage",
 		auto: "no_toast",
 		stage: "graduated"
+	},
+	{
+		uid: "23336666",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "truehero"
 	}]
 }

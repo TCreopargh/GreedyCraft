@@ -2,7 +2,7 @@
 	"version": "1.2.3",
 	"logging": false,
 	"whitelist": [],
-	"blacklist": ["mca.entity.*"],
+	"blacklist": ["mca.entity.*", "de.ellpeck.actuallyadditions.mod.entity.EntityWorm", "net.minecraft.entity.item.EntityItemFrame", "net.minecraft.entity.item.EntityPainting"],
 	"defaultThreshold": 24,
 	"checkTimeSeconds": 15,
 	"purgeTamedEntities": false,

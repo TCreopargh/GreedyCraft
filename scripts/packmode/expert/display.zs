@@ -15,6 +15,8 @@ events.onPlayerLoggedIn(function (event as crafttweaker.event.PlayerLoggedInEven
 	player.server.commandManager.executeCommand(player.server, "/scoreboard players set §eby：§dTCreopargh title 4");
 	if (player.hasGameStage("iswuss")) {
 		player.server.commandManager.executeCommand(player.server, "/scoreboard players set §c§l作弊模式 title 1");
+	} else if(player.hasGameStage("truehero")) {
+		player.server.commandManager.executeCommand(player.server, "/scoreboard players set §e" + player.name + "§6§l，永远的神！ title 1");
 	}
 	player.server.commandManager.executeCommand(player.server, "/scoreboard objectives setdisplay sidebar title");
 });

@@ -168,6 +168,23 @@
 				"type": "openLink",
 				"link": "https://github.com/TCreopargh/GreedyCraft"
 			}
+		},
+		"open_folder": {
+			"text": " ",
+			"posX": -25,
+			"posY": 105,
+			"width": 20,
+			"height": 20,
+			"alignment": "top_right",
+			"clickSound": "block.lever.click",
+			"imageWidth": 383,
+			"imageHeight": 383,
+			"texture": "greedycraft:mainmenu/folder.png",
+			"tooltip": "§7打开§e整合包目录§7文件夹",
+			"action": {
+				"type": "openFolder",
+				"folderName": "/"
+			}
 		}
 	},
 	"labels": {

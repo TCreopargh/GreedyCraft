@@ -39,7 +39,7 @@
     {
       "potion": {
         "name": "minecraft:blindness",
-        "duration": 1,
+        "duration": 400,
         "amplifier": 0,
         "ambient": false,
         "show_particles": true

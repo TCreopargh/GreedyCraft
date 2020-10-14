@@ -1,0 +1,26 @@
+{
+	title: "§2改造自然",
+	x: -1.0d,
+	y: -2.5d,
+	description: "获得基因加工仪",
+	dependencies: [
+		"99f6417a"
+	],
+	tasks: [{
+		uid: "feaf5e89",
+		type: "item",
+		items: [{
+			item: "gendustry:genetics_processor"
+		}]
+	}],
+	rewards: [{
+		uid: "082875bf",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "74d667fd",
+		type: "xp",
+		xp: 600
+	}]
+}

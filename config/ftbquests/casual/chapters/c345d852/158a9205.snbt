@@ -1,0 +1,26 @@
+{
+	title: "§2诱变机",
+	x: -1.0d,
+	y: 0.0d,
+	description: "获得诱变机",
+	dependencies: [
+		"b1243a42"
+	],
+	tasks: [{
+		uid: "36c2aea0",
+		type: "item",
+		items: [{
+			item: "gendustry:mutatron"
+		}]
+	}],
+	rewards: [{
+		uid: "3a4eaf98",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "00902b69",
+		type: "xp",
+		xp: 800
+	}]
+}

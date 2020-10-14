@@ -17,7 +17,7 @@
         },
         {
             "type": "text",
-            "text": "$(li)$(c)challenger_a/b/c/d/e/f/g/all $(): 完成指定数量的挑战任务解锁，能够解锁神秘农业的等级作物和迷你刷怪场。$(li)$(c)nether $(): 进入下界后解锁。$(li)$(c)energy_matter_core $(): 做出$(3)质能转换核心$()后解锁，只有在这个阶段解锁后，物品的工具提示上才会显示该物品所具有的EMC值。$(li)$(c)abyssal_conquerer $(): 在深渊荒芜之地击败阿索斯后获得"
+            "text": "$(li)$(c)challenger_a/b/c/d/e/f/g/all $(): 完成指定数量的挑战任务解锁，能够解锁神秘农业的等级作物和迷你刷怪场。$(li)$(c)nether $(): 进入下界后解锁。$(li)$(c)energy_matter_core $(): 做出$(3)质能转换核心$()后解锁，只有在这个阶段解锁后，物品的工具提示上才会显示该物品所具有的EMC值。$(li)$(c)abyssal_conquerer $(): 制作并使用$(3)觉醒之眼$()后获得"
         },
         {
             "type": "text",

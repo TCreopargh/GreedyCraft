@@ -124,3 +124,36 @@ FusionCrafting.add(<draconicevolution:wyvern_core>, <minecraft:nether_star>, 0, 
     <additions:cryonium_ingot>,
     <additions:cryonium_ingot>
 ]);
+
+FusionCrafting.add(<solarflux:solar_panel_wyvern>, <solarflux:solar_panel_8>, 1, 12800000, [ 
+    <tconevo:metal>,
+    <tconevo:metal>,
+    <tconevo:metal>,
+    <tconevo:metal>,
+    <draconicevolution:wyvern_energy_core>,
+    <draconicevolution:wyvern_energy_core>,
+    <draconicevolution:wyvern_energy_core>,
+    <draconicevolution:wyvern_energy_core>
+]);
+
+FusionCrafting.add(<solarflux:solar_panel_draconic>, <solarflux:solar_panel_wyvern>, 2, 102400000, [ 
+    <tconevo:metal:5>,
+    <tconevo:metal:5>,
+    <tconevo:metal:5>,
+    <tconevo:metal:5>,
+    <draconicevolution:draconic_energy_core>,
+    <draconicevolution:draconic_energy_core>,
+    <draconicevolution:draconic_energy_core>,
+    <draconicevolution:draconic_energy_core>
+]);
+
+FusionCrafting.add(<solarflux:custom_solar_panel_cosmic_solar_panel>, <solarflux:solar_panel_chaotic>, 3, 1638400000, [ 
+    <additions:cosmilite_ingot>,
+    <additions:cosmilite_ingot>,
+    <additions:cosmilite_ingot>,
+    <additions:cosmilite_ingot>,
+    <draconicadditions:chaotic_energy_core>,
+    <draconicadditions:chaotic_energy_core>,
+    <draconicadditions:chaotic_energy_core>,
+    <draconicadditions:chaotic_energy_core>
+]);

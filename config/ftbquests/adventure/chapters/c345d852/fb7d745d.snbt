@@ -1,6 +1,6 @@
 {
 	title: "发酵工艺",
-	x: -1.0d,
+	x: 9.0d,
 	y: -2.5d,
 	description: "获得发酵机",
 	dependencies: [

@@ -4,32 +4,18 @@
 
 import crafttweaker.data.IData;
 
-global criticalStages as string[] = [
-	"getting_started",
-    "twilight_forest",
-    "nether",
-    "abyssal_conquerer",
-    "wither_slayer",
-    "ender_charm",
-    "hardmode",
-    "wyvern",
-    "awakened",
-    "chaotic_dominator",
-    "chaotic",
-    "wielder_of_infinity"
-];
-
-global criticalDifficulties as int[] = [
-	25,
-    50,
-    100,
-    225,
-    400,
-    480,
-    900,
-    1050,
-    1250,
-    1600,
-    2000,
-    2400
-];
+global stageMap as int[string] = {
+    "getting_started" : 25,
+    "twilight_forest" : 50,
+    "nether" : 100,
+    "abyssal_conquerer" : 225,
+    "wither_slayer" : 400,
+    "ender_charm" : 480,
+    "hardmode" : 900,
+    "wyvern" : 1050,
+    "awakened" : 1250,
+    "chaotic_dominator" : 1600,
+    "chaotic" : 2000,
+    "wielder_of_infinity" : 2400,
+    "super_hardmode" : 2400
+} as int[string];

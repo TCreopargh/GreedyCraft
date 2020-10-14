@@ -1,0 +1,27 @@
+{
+	title: "§c基因转换",
+	x: 4.0d,
+	y: 2.5d,
+	description: "获得基因转换机",
+	dependencies: [
+		"b1243a42",
+		"89d765f9"
+	],
+	tasks: [{
+		uid: "3865b50b",
+		type: "item",
+		items: [{
+			item: "gendustry:transposer"
+		}]
+	}],
+	rewards: [{
+		uid: "034df279",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "78d74887",
+		type: "xp",
+		xp: 800
+	}]
+}

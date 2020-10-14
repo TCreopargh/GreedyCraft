@@ -8,37 +8,7 @@
   },
   "effects": [
     {
-      "command": "/tellraw @a {\"text\": \"§c§o看到了吗，这就是过于贪婪的后果。\"}",
-      "command_sender_name": "",
-      "type": "additions:command"
-    },
-    {
-      "command": "/replaceitem entity @p slot.armor.head additions:greedycraft-infinity_stone",
-      "command_sender_name": "",
-      "type": "additions:command"
-    },
-    {
-      "command": "/replaceitem entity @p slot.armor.chest additions:greedycraft-infinity_stone",
-      "command_sender_name": "",
-      "type": "additions:command"
-    },
-    {
-      "command": "/replaceitem entity @p armor.legs additions:greedycraft-infinity_stone",
-      "command_sender_name": "",
-      "type": "additions:command"
-    },
-    {
-      "command": "/replaceitem entity @p armor.feet additions:greedycraft-infinity_stone",
-      "command_sender_name": "",
-      "type": "additions:command"
-    },
-    {
-      "command": "/give @p additions:greedycraft-infinity_stone 1 0",
-      "command_sender_name": "",
-      "type": "additions:command"
-    },
-    {
-      "command": "/kill @p",
+      "command": "/infinitykill @p",
       "command_sender_name": "",
       "type": "additions:command"
     }

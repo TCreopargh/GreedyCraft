@@ -1,5 +1,5 @@
 #disable_search_tree
-#priority 999
+#priority 299
 import crafttweaker.item.IItemStack;
 
 mods.TinkerStages.addToolTypeStage("wand_blueprint", "tconevo:tool_sceptre");
@@ -31,5 +31,6 @@ mods.TinkerStages.addMaterialStage("hardmode", "mithminite");
 mods.TinkerStages.addMaterialStage("hardmode", "adaminite");
 mods.TinkerStages.addMaterialStage("hardmode", "mithrillium");
 mods.TinkerStages.addMaterialStage("awakened", "terra_alloy");
+mods.TinkerStages.addMaterialStage("awakened", "bedrock");
 mods.TinkerStages.addMaterialStage("chaotic", "cosmilite");
 mods.TinkerStages.addMaterialStage("skilled_wizard", "astral_metal");

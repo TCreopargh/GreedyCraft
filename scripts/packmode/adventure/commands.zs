@@ -84,11 +84,11 @@ events.onCommand(function (event as CommandEvent) {
     }
 	
 	if(event.commandSender instanceof IPlayer) {
-		if(!isNull(event.parameters[2]) && event.parameters[2] == "iswuss") {
-			val player as IPlayer = event.commandSender;	
-				event.cancel();
-				player.server.commandManager.executeCommand(player.server, "/kill " + player.name);
-				player.sendChat("§c§o你想干啥？！");
+		val player as IPlayer = event.commandSender;	
+		if((player.name != "TCreopargh") && !isNull(event.parameters[2]) && (event.parameters[2] == "iswuss" || event.parameters[2] == "truehero")) {
+			event.cancel();
+			player.server.commandManager.executeCommand(player.server, "/kill " + player.name);
+			player.sendChat("§c§o你想干啥？！");
 		}
 	}
 });	

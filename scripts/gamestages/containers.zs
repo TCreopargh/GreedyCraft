@@ -11,3 +11,4 @@ Recipes.setPackageStage("avaritia", commonStages);
 Recipes.setPackageStage("rftools", commonStages);
 Recipes.setPackageStage("mcjty", commonStages);
 Recipes.setPackageStage("cyclicmagic", commonStages);
+Recipes.setPackageStage("packagedauto", commonStages);

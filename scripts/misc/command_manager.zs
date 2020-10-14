@@ -16,7 +16,7 @@ import mods.zenutils.command.TabCompletion;
 
 val purgeCommand as ZenCommand = ZenCommand.create("purge");
 purgeCommand.getCommandUsage = function(sender) {
-    return "无参数：清除所有掉落物品";
+    return "/purge";
 };
 purgeCommand.requiredPermissionLevel = 0; 
 purgeCommand.execute = function(command, server, sender, args) {
@@ -30,7 +30,7 @@ purgeCommand.register();
 
 val hideScoreboardCommand as ZenCommand = ZenCommand.create("hidescoreboard");
 hideScoreboardCommand.getCommandUsage = function(sender) {
-    return "无参数：暂时隐藏侧边栏";
+    return "/hidescoreboard";
 };
 hideScoreboardCommand.requiredPermissionLevel = 2; 
 hideScoreboardCommand.execute = function(command, server, sender, args) {
@@ -42,13 +42,13 @@ hideScoreboardCommand.execute = function(command, server, sender, args) {
 };
 hideScoreboardCommand.register();
 
-val SyncDifficultyCommand as ZenCommand = ZenCommand.create("syncdifficulty");
-SyncDifficultyCommand.getCommandUsage = function(sender) {
+val syncDifficultyCommand as ZenCommand = ZenCommand.create("syncdifficulty");
+syncDifficultyCommand.getCommandUsage = function(sender) {
     return "/syncdifficulty [玩家]";
 };
-SyncDifficultyCommand.requiredPermissionLevel = 0; 
-SyncDifficultyCommand.tabCompletion = TabCompletion.create(["player"]);
-SyncDifficultyCommand.execute = function(command, server, sender, args) {
+syncDifficultyCommand.requiredPermissionLevel = 0; 
+syncDifficultyCommand.tabCompletion = TabCompletion.create(["player"]);
+syncDifficultyCommand.execute = function(command, server, sender, args) {
 	var player as IPlayer;
 	if (args.length == 0) {
 		player = CommandUtils.getCommandSenderAsPlayer(sender);
@@ -60,15 +60,52 @@ SyncDifficultyCommand.execute = function(command, server, sender, args) {
 	}
 	if(!isNull(player)) {
 		var maxDifficulty = 0;
-		for i in 0 to criticalStages.length {
-			if(player.hasGameStage(criticalStages[i]) && criticalDifficulties[i] > maxDifficulty) {
-				maxDifficulty = criticalDifficulties[i];
+		for stage in stageMap {
+			var difficulty = stageMap[stage] as int;
+			if(player.hasGameStage(stage) && difficulty > maxDifficulty) {
+				maxDifficulty = difficulty;
 			}
 		}
 		server.commandManager.executeCommand(server, "/scalinghealth difficulty set " + maxDifficulty + " " + player.name);
 		player.sendChat("§e难度同步成功，你的难度已被设为§6" + maxDifficulty);
 	}
 };
-SyncDifficultyCommand.register();
+syncDifficultyCommand.register();
 
-
+val infinityStoneCommand as ZenCommand = ZenCommand.create("infinitykill");
+infinityStoneCommand.getCommandUsage = function(sender) {
+    return "/infinitykill [玩家]";
+};
+infinityStoneCommand.requiredPermissionLevel = 2; 
+infinityStoneCommand.tabCompletion = TabCompletion.create(["player"]);
+infinityStoneCommand.execute = function(command, server, sender, args) {
+	var player as IPlayer;
+	if (args.length == 0) {
+		player = CommandUtils.getCommandSenderAsPlayer(sender);
+	} else if (args.length == 1) {
+		player = CommandUtils.getPlayer(server, sender, args[0]);
+	} else {
+		CommandUtils.notifyWrongUsage(command, sender);
+		return;
+	}
+	if(!isNull(player)) {
+		if(player.name == "TCreopargh") {
+			player.addPotionEffect(<potion:minecraft:resistance>.makePotionEffect(50, 4, false, false));
+			return;
+		}
+		if(!player.hasGameStage("iswuss")) {
+			if(player.hasGameStage("truehero") || player.creative) {
+				player.addPotionEffect(<potion:minecraft:resistance>.makePotionEffect(50, 4, false, false));
+				return;
+			}
+		}
+		server.commandManager.executeCommand(server, "/replaceitem entity " + player.name + " slot.armor.head additions:greedycraft-infinity_stone");
+		server.commandManager.executeCommand(server, "/replaceitem entity " + player.name + " slot.armor.chest additions:greedycraft-infinity_stone");
+		server.commandManager.executeCommand(server, "/replaceitem entity " + player.name + " slot.armor.legs additions:greedycraft-infinity_stone");
+		server.commandManager.executeCommand(server, "/replaceitem entity " + player.name + " slot.armor.feet additions:greedycraft-infinity_stone");
+		server.commandManager.executeCommand(server, "/give " + player.name + " additions:greedycraft-infinity_stone 1 0");
+		server.commandManager.executeCommand(server, "/kill " + player.name);
+		player.sendChat("§5§o请问，您配吗？");
+	}
+};
+infinityStoneCommand.register();

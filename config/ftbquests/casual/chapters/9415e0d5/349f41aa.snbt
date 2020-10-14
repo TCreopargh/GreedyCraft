@@ -15,17 +15,17 @@
 	rewards: [{
 		uid: "9a0567f7",
 		type: "xp",
-		xp: 80
+		xp: 8000
+	},
+	{
+		uid: "11a390e9",
+		type: "loot",
+		table: 3
 	},
 	{
 		uid: "352cf0ca",
 		type: "item",
 		item: "scalinghealth:heartcontainer",
 		count: 4
-	},
-	{
-		uid: "74833a63",
-		type: "loot",
-		table: 0
 	}]
 }

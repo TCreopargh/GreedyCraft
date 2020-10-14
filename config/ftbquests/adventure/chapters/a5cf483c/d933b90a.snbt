@@ -13,12 +13,7 @@
 			id: "astralsorcery:itemskyresonator",
 			tag: {
 				astralsorcery: {
-					enhanced: 1b,
-					upgrades: [
-						0,
-						1,
-						2
-					]
+					enhanced: 1b
 				}
 			}
 		}],

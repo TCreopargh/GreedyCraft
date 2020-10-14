@@ -1,0 +1,34 @@
+{
+	title: "§bMusic!",
+	x: 4.0d,
+	y: 13.5d,
+	description: "获得播音器，可以划定一片区域播放指定的音乐",
+	tasks: [{
+		uid: "fbe4e9d0",
+		type: "item",
+		items: [{
+			item: "ambience:soundnizer"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "cfb8a9f3",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "b7c4d38e",
+		type: "xp",
+		xp: 200
+	},
+	{
+		uid: "7f599386",
+		type: "item",
+		item: "ambience:alarm_pink"
+	},
+	{
+		uid: "4bb97652",
+		type: "item",
+		item: "ambience:bell"
+	}]
+}

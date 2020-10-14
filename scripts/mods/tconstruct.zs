@@ -45,6 +45,8 @@ mods.tconstruct.Melting.removeRecipe(<liquid:iron>, <minecraft:activator_rail>);
 mods.tconstruct.Melting.removeRecipe(<liquid:iron>, <minecraft:detector_rail>);
 mods.tconstruct.Melting.removeRecipe(<liquid:iron>, <minecraft:bucket>);
 mods.tconstruct.Melting.removeRecipe(<liquid:gold>, <minecraft:golden_rail>);
+mods.tconstruct.Melting.removeRecipe(<liquid:meteorite_fluid>, <taiga:obsidiorite_block>);
+//mods.tconstruct.Melting.removeRecipe(<liquid:chocolate_liquor>, <minecraft:dye:3>);
 
 mods.tconstruct.Casting.addTableRecipe(<additions:greedycraft-cryonic_artifact>, <minecraft:emerald>, <liquid:cryotheum>, 10000, true, 200);
 
@@ -98,6 +100,10 @@ mods.tconstruct.Casting.addBasinRecipe(<bigreactors:blockyellorium>, null, <liqu
 
 mods.tconstruct.Casting.addTableRecipe(<candymod:chocolate_bar>, <tconstruct:cast_custom>, <liquid:cosmilite>, 144, false, 200);
 mods.tconstruct.Casting.addBasinRecipe(<candymod:chocolate_block>, null, <liquid:cosmilite>, 1296, false, 300);
+
+mods.tconstruct.Alloy.addRecipe(<liquid:liquid_chocolate> * 2, [<liquid:chocolate_liquor> * 1, <liquid:milk> * 1]);
+
+//mods.tconstruct.Melting.addRecipe(<liquid:liquid_chocolate> * 48, <ore:beanCocoa>, 200);
 
 //mods.tconstruct.Melting.addRecipe(<liquid:cryonium> * 288, <additions:greedycraft-cryonium_ore>, 200);
 //mods.tconstruct.Melting.addRecipe(<liquid:cryonium> * 144, <additions:cryonium_ingot>, 200);

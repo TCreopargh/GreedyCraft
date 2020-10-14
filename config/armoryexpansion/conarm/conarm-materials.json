@@ -45,6 +45,50 @@
   },
   {
     "coreMaterialStats": {
+      "durability": 18.0,
+      "defense": 16.199999,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 6.144,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 6.144,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:lepidolite",
+    "color": -6094726,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 120.0,
+      "defense": 37.799995,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 65.535995,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 65.535995,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:garnet_super",
+    "color": -1683683,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
       "durability": 24.0,
       "defense": 25.2,
       "materialType": "core"
@@ -111,6 +155,28 @@
   },
   {
     "coreMaterialStats": {
+      "durability": 120.0,
+      "defense": 37.799995,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 98.304,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 98.304,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:sapphire_super",
+    "color": -14869018,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
       "durability": 11.0,
       "defense": 18.0,
       "materialType": "core"
@@ -152,6 +218,28 @@
     "type": "METAL",
     "castable": true,
     "craftable": false
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 72.0,
+      "defense": 21.6,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 24.576,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 24.576,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:kyanite",
+    "color": -12221441,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
   },
   {
     "coreMaterialStats": {
@@ -265,6 +353,28 @@
   },
   {
     "coreMaterialStats": {
+      "durability": 96.0,
+      "defense": 27.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 32.767998,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 32.767998,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:fluorite_super",
+    "color": -12201473,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
       "durability": 25.0,
       "defense": 27.0,
       "materialType": "core"
@@ -353,6 +463,28 @@
   },
   {
     "coreMaterialStats": {
+      "durability": 72.0,
+      "defense": 27.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 24.576,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 24.576,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:amber_super",
+    "color": -1662179,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
       "durability": 37.0,
       "defense": 30.6,
       "materialType": "core"
@@ -419,6 +551,50 @@
   },
   {
     "coreMaterialStats": {
+      "durability": 72.0,
+      "defense": 16.199999,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 24.576,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 24.576,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:cats_eye",
+    "color": -16059,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 96.0,
+      "defense": 43.2,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 32.767998,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 32.767998,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:moldavite_super",
+    "color": -7822592,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
       "durability": 9.0,
       "defense": 41.399998,
       "materialType": "core"
@@ -441,6 +617,28 @@
   },
   {
     "coreMaterialStats": {
+      "durability": 120.0,
+      "defense": 48.6,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 65.535995,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 65.535995,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:pyrope_super",
+    "color": -47756,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
       "durability": 112.0,
       "defense": 19.44,
       "materialType": "core"
@@ -460,6 +658,28 @@
     "type": "METAL",
     "castable": true,
     "craftable": false
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 72.0,
+      "defense": 27.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 24.576,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 24.576,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:spinel",
+    "color": -6077440,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
   },
   {
     "coreMaterialStats": {
@@ -501,6 +721,50 @@
     },
     "identifier": "swet",
     "color": -14047527,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 48.0,
+      "defense": 21.6,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 16.383999,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 16.383999,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:beryl",
+    "color": -14817763,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 96.0,
+      "defense": 32.399998,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 32.767998,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 32.767998,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:opal_super",
+    "color": -1776412,
     "type": "METAL",
     "castable": false,
     "craftable": true
@@ -705,6 +969,72 @@
   },
   {
     "coreMaterialStats": {
+      "durability": 25.0,
+      "defense": 41.399998,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 51.2,
+      "modifier": 31.764706,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 51.2,
+      "materialType": "trim"
+    },
+    "identifier": "rime",
+    "color": -7561473,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 36.0,
+      "defense": 21.6,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 12.288,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 12.288,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:morganite",
+    "color": -30466,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 72.0,
+      "defense": 21.6,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 24.576,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 24.576,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:violet_sapphire",
+    "color": -7012189,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
       "durability": 120.0,
       "defense": 50.0,
       "materialType": "core"
@@ -749,6 +1079,50 @@
   },
   {
     "coreMaterialStats": {
+      "durability": 96.0,
+      "defense": 27.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 32.767998,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 32.767998,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:apatite_super",
+    "color": -12189743,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 120.0,
+      "defense": 43.2,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 49.152,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 49.152,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:kunzite_super",
+    "color": -47648,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
       "durability": 84.0,
       "defense": 32.94,
       "materialType": "core"
@@ -768,6 +1142,28 @@
     "type": "METAL",
     "castable": true,
     "craftable": false
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 120.0,
+      "defense": 37.799995,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 49.152,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 49.152,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:tektite_super",
+    "color": -7373717,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
   },
   {
     "coreMaterialStats": {
@@ -859,6 +1255,28 @@
   },
   {
     "coreMaterialStats": {
+      "durability": 120.0,
+      "defense": 37.799995,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 65.535995,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 65.535995,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:ametrine_super",
+    "color": -6094766,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
       "durability": 30.0,
       "defense": 27.45,
       "materialType": "core"
@@ -875,6 +1293,28 @@
     },
     "identifier": "malachite_gem",
     "color": -16733696,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 120.0,
+      "defense": 37.799995,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 98.304,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 98.304,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:kyanite_super",
+    "color": -12221441,
     "type": "METAL",
     "castable": false,
     "craftable": true
@@ -925,6 +1365,50 @@
   },
   {
     "coreMaterialStats": {
+      "durability": 72.0,
+      "defense": 16.199999,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 24.576,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 24.576,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:blue_topaz",
+    "color": -16770141,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 120.0,
+      "defense": 43.2,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 98.304,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 98.304,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:spinel_super",
+    "color": -6077440,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
       "durability": 29.0,
       "defense": 18.945,
       "materialType": "core"
@@ -969,6 +1453,72 @@
   },
   {
     "coreMaterialStats": {
+      "durability": 36.0,
+      "defense": 27.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 12.288,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 12.288,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:kunzite",
+    "color": -47648,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 120.0,
+      "defense": 27.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 65.535995,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 65.535995,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:golden_beryl_super",
+    "color": -6053120,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 36.0,
+      "defense": 16.199999,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 12.288,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 12.288,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:amethyst",
+    "color": -6087194,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
       "durability": 42.0,
       "defense": 22.5,
       "materialType": "core"
@@ -988,6 +1538,28 @@
     "type": "METAL",
     "castable": true,
     "craftable": false
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 120.0,
+      "defense": 27.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 65.535995,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 65.535995,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:iolite_super",
+    "color": -10478106,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
   },
   {
     "coreMaterialStats": {
@@ -1035,6 +1607,50 @@
   },
   {
     "coreMaterialStats": {
+      "durability": 36.0,
+      "defense": 21.6,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 12.288,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 12.288,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:tektite",
+    "color": -7373717,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 120.0,
+      "defense": 48.6,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 98.304,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 98.304,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:ruby_super",
+    "color": -1696483,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
       "durability": 35.0,
       "defense": 17.01,
       "materialType": "core"
@@ -1057,6 +1673,50 @@
   },
   {
     "coreMaterialStats": {
+      "durability": 24.0,
+      "defense": 16.199999,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 8.191999,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 8.191999,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:coral",
+    "color": -43707,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 112.0,
+      "defense": 35.1,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 230.4,
+      "modifier": 33.03529,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 230.4,
+      "materialType": "trim"
+    },
+    "identifier": "dimensional_shard",
+    "color": -8060929,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
       "durability": 3.0,
       "defense": 10.8,
       "materialType": "core"
@@ -1073,6 +1733,50 @@
     },
     "identifier": "treatedwood",
     "color": -10144478,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 120.0,
+      "defense": 27.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 49.152,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 49.152,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:carnelian_super",
+    "color": -6091264,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 48.0,
+      "defense": 16.199999,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 16.383999,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 16.383999,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:chrysoprase",
+    "color": -10158267,
     "type": "METAL",
     "castable": false,
     "craftable": true
@@ -1164,6 +1868,50 @@
     "type": "METAL",
     "castable": true,
     "craftable": false
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 72.0,
+      "defense": 50.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 24.576,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 24.576,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:onyx_super",
+    "color": -13684945,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 48.0,
+      "defense": 10.8,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 16.383999,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 16.383999,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:iolite",
+    "color": -10478106,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
   },
   {
     "coreMaterialStats": {
@@ -1343,6 +2091,28 @@
   },
   {
     "coreMaterialStats": {
+      "durability": 24.0,
+      "defense": 16.199999,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 8.191999,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 8.191999,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:pearl",
+    "color": -1906447,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
       "durability": 64.0,
       "defense": 41.534996,
       "materialType": "core"
@@ -1365,6 +2135,50 @@
   },
   {
     "coreMaterialStats": {
+      "durability": 120.0,
+      "defense": 37.799995,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 65.535995,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 65.535995,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:rose_quartz_super",
+    "color": -34634,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 120.0,
+      "defense": 32.399998,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 49.152,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 49.152,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:amethyst_super",
+    "color": -6087194,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
       "durability": 82.0,
       "defense": 27.0,
       "materialType": "core"
@@ -1384,6 +2198,50 @@
     "type": "METAL",
     "castable": true,
     "craftable": false
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 24.0,
+      "defense": 10.8,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 8.191999,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 8.191999,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:fluorite",
+    "color": -12201473,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 36.0,
+      "defense": 21.6,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 12.288,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 12.288,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:heliodor",
+    "color": -1653475,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
   },
   {
     "coreMaterialStats": {
@@ -1497,6 +2355,72 @@
   },
   {
     "coreMaterialStats": {
+      "durability": 120.0,
+      "defense": 39.149998,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 281.6,
+      "modifier": 33.03529,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 281.6,
+      "materialType": "trim"
+    },
+    "identifier": "sakura_diamond",
+    "color": -32597,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 36.0,
+      "defense": 16.199999,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 12.288,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 12.288,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:jasper",
+    "color": -6060032,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 9.0,
+      "defense": 18.899998,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 25.6,
+      "modifier": 29.22353,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 25.6,
+      "materialType": "trim"
+    },
+    "identifier": "tofu_gem",
+    "color": -2039584,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
       "durability": 70.0,
       "defense": 18.72,
       "materialType": "core"
@@ -1541,6 +2465,28 @@
   },
   {
     "coreMaterialStats": {
+      "durability": 96.0,
+      "defense": 37.799995,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 32.767998,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 32.767998,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:malachite_super",
+    "color": -16735434,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
       "durability": 120.0,
       "defense": 50.0,
       "materialType": "core"
@@ -1563,6 +2509,28 @@
   },
   {
     "coreMaterialStats": {
+      "durability": 72.0,
+      "defense": 21.6,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 24.576,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 24.576,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:sapphire",
+    "color": -14869018,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
       "durability": 120.0,
       "defense": 9.449999,
       "materialType": "core"
@@ -1582,6 +2550,28 @@
     "type": "METAL",
     "castable": true,
     "craftable": false
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 120.0,
+      "defense": 32.399998,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 65.535995,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 65.535995,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:chrysoprase_super",
+    "color": -10158267,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
   },
   {
     "coreMaterialStats": {
@@ -1695,6 +2685,28 @@
   },
   {
     "coreMaterialStats": {
+      "durability": 36.0,
+      "defense": 27.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 12.288,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 12.288,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:sunstone",
+    "color": -35771,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
       "durability": 5.0,
       "defense": 9.449999,
       "materialType": "core"
@@ -1777,6 +2789,28 @@
     },
     "identifier": "aercloud_blue",
     "color": -6704446,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 48.0,
+      "defense": 10.8,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 16.383999,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 16.383999,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:indicolite",
+    "color": -14817662,
     "type": "METAL",
     "castable": false,
     "craftable": true
@@ -1893,6 +2927,50 @@
   },
   {
     "coreMaterialStats": {
+      "durability": 120.0,
+      "defense": 32.399998,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 65.535995,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 65.535995,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:tanzanite_super",
+    "color": -10551133,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 24.0,
+      "defense": 21.6,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 8.191999,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 8.191999,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:malachite",
+    "color": -16735434,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
       "durability": 117.0,
       "defense": 0.45,
       "materialType": "core"
@@ -1916,6 +2994,72 @@
   {
     "coreMaterialStats": {
       "durability": 120.0,
+      "defense": 32.399998,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 131.07199,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 131.07199,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:black_diamond_super",
+    "color": -14803426,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 120.0,
+      "defense": 37.799995,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 98.304,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 98.304,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:violet_sapphire_super",
+    "color": -7012189,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 120.0,
+      "defense": 37.799995,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 49.152,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 49.152,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:morganite_super",
+    "color": -30466,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 120.0,
       "defense": 50.0,
       "materialType": "core"
     },
@@ -1931,6 +3075,28 @@
     },
     "identifier": "chaotic_plustic",
     "color": -5592406,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 24.0,
+      "defense": 27.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 8.191999,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 8.191999,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:moldavite",
+    "color": -7822592,
     "type": "METAL",
     "castable": false,
     "craftable": true
@@ -1975,6 +3141,28 @@
     },
     "identifier": "candy_cane",
     "color": -52429,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 120.0,
+      "defense": 37.799995,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 65.535995,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 65.535995,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:citrine_super",
+    "color": -6070528,
     "type": "METAL",
     "castable": false,
     "craftable": true
@@ -2044,6 +3232,28 @@
     "type": "METAL",
     "castable": true,
     "craftable": false
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 120.0,
+      "defense": 32.399998,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 65.535995,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 65.535995,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:sodalite_super",
+    "color": -11254273,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
   },
   {
     "coreMaterialStats": {
@@ -2157,6 +3367,50 @@
   },
   {
     "coreMaterialStats": {
+      "durability": 24.0,
+      "defense": 16.199999,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 8.191999,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 8.191999,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:agate",
+    "color": -1696282,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 48.0,
+      "defense": 21.6,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 16.383999,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 16.383999,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:zircon",
+    "color": -187,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
       "durability": 93.0,
       "defense": 10.8,
       "materialType": "core"
@@ -2179,6 +3433,28 @@
   },
   {
     "coreMaterialStats": {
+      "durability": 120.0,
+      "defense": 32.399998,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 49.152,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 49.152,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:turquoise_super",
+    "color": -16735352,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
       "durability": 42.0,
       "defense": 27.0,
       "materialType": "core"
@@ -2198,6 +3474,28 @@
     "type": "METAL",
     "castable": true,
     "craftable": false
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 96.0,
+      "defense": 32.399998,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 32.767998,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 32.767998,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:pearl_super",
+    "color": -1906447,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
   },
   {
     "coreMaterialStats": {
@@ -2245,6 +3543,28 @@
   },
   {
     "coreMaterialStats": {
+      "durability": 108.0,
+      "defense": 43.2,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 256.0,
+      "modifier": 34.30588,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 256.0,
+      "materialType": "trim"
+    },
+    "identifier": "strong_tofu_gem",
+    "color": -2039584,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
       "durability": 8.0,
       "defense": 28.035,
       "materialType": "core"
@@ -2264,6 +3584,28 @@
     "type": "METAL",
     "castable": true,
     "craftable": false
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 120.0,
+      "defense": 37.799995,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 65.535995,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 65.535995,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:zircon_super",
+    "color": -187,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
   },
   {
     "coreMaterialStats": {
@@ -2443,6 +3785,28 @@
   },
   {
     "coreMaterialStats": {
+      "durability": 120.0,
+      "defense": 32.399998,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 98.304,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 98.304,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:alexandrite_super",
+    "color": -7763575,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
       "durability": 5.0,
       "defense": 6.75,
       "materialType": "core"
@@ -2503,6 +3867,94 @@
     },
     "identifier": "darkmatter",
     "color": -14221005,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 18.0,
+      "defense": 10.8,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 6.144,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 6.144,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:amber",
+    "color": -1662179,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 96.0,
+      "defense": 16.199999,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 32.767998,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 32.767998,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:black_diamond",
+    "color": -14803426,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 120.0,
+      "defense": 32.399998,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 49.152,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 49.152,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:aquamarine_super",
+    "color": -14817562,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 120.0,
+      "defense": 37.799995,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 49.152,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 49.152,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:jade_super",
+    "color": -6095035,
     "type": "METAL",
     "castable": false,
     "craftable": true
@@ -2616,6 +4068,72 @@
     "type": "METAL",
     "castable": true,
     "craftable": false
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 33.0,
+      "defense": 50.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 102.4,
+      "modifier": 34.30588,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 102.4,
+      "materialType": "trim"
+    },
+    "identifier": "ender_biotite",
+    "color": -14606047,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 36.0,
+      "defense": 16.199999,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 12.288,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 12.288,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:aquamarine",
+    "color": -14817562,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 120.0,
+      "defense": 32.399998,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 49.152,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 49.152,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:moonstone_super",
+    "color": -16749149,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
   },
   {
     "coreMaterialStats": {
@@ -2773,6 +4291,28 @@
   },
   {
     "coreMaterialStats": {
+      "durability": 72.0,
+      "defense": 32.399998,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 24.576,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 24.576,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:lepidolite_super",
+    "color": -6094726,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
       "durability": 120.0,
       "defense": 50.0,
       "materialType": "core"
@@ -2792,6 +4332,72 @@
     "type": "METAL",
     "castable": true,
     "craftable": false
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 18.0,
+      "defense": 37.799995,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 6.144,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 6.144,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:onyx",
+    "color": -13684945,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 120.0,
+      "defense": 37.799995,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 65.535995,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 65.535995,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:beryl_super",
+    "color": -14817763,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 48.0,
+      "defense": 21.6,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 16.383999,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 16.383999,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:garnet",
+    "color": -1683683,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
   },
   {
     "coreMaterialStats": {
@@ -2833,6 +4439,72 @@
     },
     "identifier": "gravitite",
     "color": -3385942,
+    "type": "METAL",
+    "castable": true,
+    "craftable": false
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 48.0,
+      "defense": 21.6,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 16.383999,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 16.383999,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:topaz",
+    "color": -1674979,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 96.0,
+      "defense": 32.399998,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 32.767998,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 32.767998,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:ammolite_super",
+    "color": -2079233,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 58.0,
+      "defense": 27.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 7.6800003,
+      "modifier": 33.03529,
+      "toughness": -0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 7.6800003,
+      "materialType": "trim"
+    },
+    "identifier": "psimetal",
+    "color": -9593089,
     "type": "METAL",
     "castable": true,
     "craftable": false
@@ -2883,6 +4555,28 @@
   },
   {
     "coreMaterialStats": {
+      "durability": 24.0,
+      "defense": 16.199999,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 8.191999,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 8.191999,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:ammolite",
+    "color": -2079233,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
       "durability": 63.0,
       "defense": 26.55,
       "materialType": "core"
@@ -2905,6 +4599,72 @@
   },
   {
     "coreMaterialStats": {
+      "durability": 120.0,
+      "defense": 37.799995,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 49.152,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 49.152,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:peridot_super",
+    "color": -6035939,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 48.0,
+      "defense": 32.399998,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 16.383999,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 16.383999,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:pyrope",
+    "color": -47756,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 96.0,
+      "defense": 32.399998,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 32.767998,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 32.767998,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:coral_super",
+    "color": -43707,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
       "durability": 81.0,
       "defense": 28.350002,
       "materialType": "core"
@@ -2924,6 +4684,50 @@
     "type": "METAL",
     "castable": true,
     "craftable": false
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 120.0,
+      "defense": 50.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 20480.0,
+      "modifier": 50.0,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 20480.0,
+      "materialType": "trim"
+    },
+    "identifier": "bedrock",
+    "color": -12434878,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 120.0,
+      "defense": 27.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 65.535995,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 65.535995,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:indicolite_super",
+    "color": -14817662,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
   },
   {
     "coreMaterialStats": {
@@ -3009,6 +4813,28 @@
     },
     "identifier": "redmatter",
     "color": -1900544,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 48.0,
+      "defense": 21.6,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 16.383999,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 16.383999,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:ametrine",
+    "color": -6094766,
     "type": "METAL",
     "castable": false,
     "craftable": true
@@ -3125,6 +4951,28 @@
   },
   {
     "coreMaterialStats": {
+      "durability": 48.0,
+      "defense": 10.8,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 16.383999,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 16.383999,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:golden_beryl",
+    "color": -6053120,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
       "durability": 34.0,
       "defense": 25.65,
       "materialType": "core"
@@ -3166,6 +5014,28 @@
     "type": "METAL",
     "castable": true,
     "craftable": false
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 11.0,
+      "defense": 27.899998,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 28.16,
+      "modifier": 26.682352,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 28.16,
+      "materialType": "trim"
+    },
+    "identifier": "cincinnasite",
+    "color": -13784,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
   },
   {
     "coreMaterialStats": {
@@ -3232,6 +5102,50 @@
     "type": "METAL",
     "castable": true,
     "craftable": false
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 58.0,
+      "defense": 27.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 7.6800003,
+      "modifier": 33.03529,
+      "toughness": -0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 7.6800003,
+      "materialType": "trim"
+    },
+    "identifier": "psigem",
+    "color": -16235613,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 96.0,
+      "defense": 32.399998,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 32.767998,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 32.767998,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:agate_super",
+    "color": -1696282,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
   },
   {
     "coreMaterialStats": {
@@ -3367,6 +5281,28 @@
   },
   {
     "coreMaterialStats": {
+      "durability": 25.0,
+      "defense": 50.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 64.0,
+      "modifier": 41.92941,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 64.0,
+      "materialType": "trim"
+    },
+    "identifier": "remorseful",
+    "color": -12434878,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
       "durability": 32.0,
       "defense": 23.399998,
       "materialType": "core"
@@ -3386,6 +5322,28 @@
     "type": "METAL",
     "castable": true,
     "craftable": false
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 36.0,
+      "defense": 21.6,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 12.288,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 12.288,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:peridot",
+    "color": -6035939,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
   },
   {
     "coreMaterialStats": {
@@ -3433,6 +5391,72 @@
   },
   {
     "coreMaterialStats": {
+      "durability": 36.0,
+      "defense": 21.6,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 12.288,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 12.288,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:jade",
+    "color": -6095035,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 120.0,
+      "defense": 32.399998,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 98.304,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 98.304,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:blue_topaz_super",
+    "color": -16770141,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 48.0,
+      "defense": 21.6,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 16.383999,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 16.383999,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:rose_quartz",
+    "color": -34634,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
       "durability": 14.0,
       "defense": 10.125,
       "materialType": "core"
@@ -3474,6 +5498,28 @@
     "type": "METAL",
     "castable": true,
     "craftable": false
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 24.0,
+      "defense": 10.8,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 8.191999,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 8.191999,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:apatite",
+    "color": -12189743,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
   },
   {
     "coreMaterialStats": {
@@ -3609,6 +5655,28 @@
   },
   {
     "coreMaterialStats": {
+      "durability": 120.0,
+      "defense": 43.2,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 49.152,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 49.152,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:sunstone_super",
+    "color": -35771,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
       "durability": 4.0,
       "defense": 18.0,
       "materialType": "core"
@@ -3628,6 +5696,28 @@
     "type": "METAL",
     "castable": true,
     "craftable": false
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 75.0,
+      "defense": 36.899998,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 179.2,
+      "modifier": 31.764706,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 179.2,
+      "materialType": "trim"
+    },
+    "identifier": "heart_crystal",
+    "color": -44462,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
   },
   {
     "coreMaterialStats": {
@@ -3697,6 +5787,28 @@
   },
   {
     "coreMaterialStats": {
+      "durability": 120.0,
+      "defense": 32.399998,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 49.152,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 49.152,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:jasper_super",
+    "color": -6060032,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
       "durability": 9.0,
       "defense": 18.0,
       "materialType": "core"
@@ -3741,6 +5853,28 @@
   },
   {
     "coreMaterialStats": {
+      "durability": 72.0,
+      "defense": 32.399998,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 24.576,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 24.576,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:ruby",
+    "color": -1696483,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
       "durability": 16.0,
       "defense": 13.5,
       "materialType": "core"
@@ -3757,6 +5891,28 @@
     },
     "identifier": "darkwood_plustic",
     "color": -16777046,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 36.0,
+      "defense": 16.199999,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 12.288,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 12.288,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:moonstone",
+    "color": -16749149,
     "type": "METAL",
     "castable": false,
     "craftable": true
@@ -3851,6 +6007,50 @@
   },
   {
     "coreMaterialStats": {
+      "durability": 24.0,
+      "defense": 16.199999,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 8.191999,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 8.191999,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:opal",
+    "color": -1776412,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 48.0,
+      "defense": 16.199999,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 16.383999,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 16.383999,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:tanzanite",
+    "color": -10551133,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
       "durability": 120.0,
       "defense": 25.2,
       "materialType": "core"
@@ -3895,6 +6095,28 @@
   },
   {
     "coreMaterialStats": {
+      "durability": 48.0,
+      "defense": 16.199999,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 16.383999,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 16.383999,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:sodalite",
+    "color": -11254273,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
       "durability": 120.0,
       "defense": 50.0,
       "materialType": "core"
@@ -3913,6 +6135,50 @@
     "color": -12532737,
     "type": "METAL",
     "castable": true,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 1.0,
+      "defense": 6.2999997,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 1.28,
+      "modifier": 3.0494118,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 1.28,
+      "materialType": "trim"
+    },
+    "identifier": "mud",
+    "color": -8825528,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 120.0,
+      "defense": 37.799995,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 49.152,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 49.152,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:heliodor_super",
+    "color": -1653475,
+    "type": "METAL",
+    "castable": false,
     "craftable": true
   },
   {
@@ -4093,6 +6359,94 @@
   },
   {
     "coreMaterialStats": {
+      "durability": 48.0,
+      "defense": 21.6,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 16.383999,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 16.383999,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:citrine",
+    "color": -6070528,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 36.0,
+      "defense": 16.199999,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 12.288,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 12.288,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:turquoise",
+    "color": -16735352,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 72.0,
+      "defense": 16.199999,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 24.576,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 24.576,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:alexandrite",
+    "color": -7763575,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 120.0,
+      "defense": 32.399998,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 98.304,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 98.304,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:cats_eye_super",
+    "color": -16059,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
       "durability": 20.0,
       "defense": 13.05,
       "materialType": "core"
@@ -4134,6 +6488,28 @@
     "type": "METAL",
     "castable": true,
     "craftable": false
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 36.0,
+      "defense": 10.8,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 12.288,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 12.288,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:carnelian",
+    "color": -6091264,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
   },
   {
     "coreMaterialStats": {
@@ -4307,6 +6683,28 @@
     },
     "identifier": "diamond",
     "color": -15138817,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 120.0,
+      "defense": 37.799995,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 65.535995,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 65.535995,
+      "materialType": "trim"
+    },
+    "identifier": "silentgems:topaz_super",
+    "color": -1674979,
     "type": "METAL",
     "castable": false,
     "craftable": true

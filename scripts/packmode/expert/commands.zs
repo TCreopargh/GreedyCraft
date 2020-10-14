@@ -18,6 +18,24 @@ function isWuss(player as IPlayer) as bool {
 	return (player.creative || player.hasGameStage("iswuss")); 
 }
 
+
+events.onCommand(function (event as CommandEvent) {
+
+	val command = event.command;
+	if(isNull(command) || (command.name != "me") || (event.parameters.length == 0)) {
+        return;
+    }
+
+	if(event.commandSender instanceof IPlayer) {
+		event.cancel();
+		val player as IPlayer = event.commandSender;
+		if(event.parameters[0] == "purge") {
+			player.server.commandManager.executeCommand(player.server, "/kill @e[type=Item]");
+			player.sendChat("已清除所有掉落物");
+		}
+	}
+});
+
 events.onCommand(function (event as CommandEvent) {
 
 	val command = event.command;
@@ -66,11 +84,11 @@ events.onCommand(function (event as CommandEvent) {
     }
 	
 	if(event.commandSender instanceof IPlayer) {
-		if(!isNull(event.parameters[2]) && event.parameters[2] == "iswuss") {
-			val player as IPlayer = event.commandSender;	
-				event.cancel();
-				player.server.commandManager.executeCommand(player.server, "/kill " + player.name);
-				player.sendChat("§c§o你想干啥？！");
+		val player as IPlayer = event.commandSender;	
+		if((player.name != "TCreopargh") && !isNull(event.parameters[2]) && (event.parameters[2] == "iswuss" || event.parameters[2] == "truehero")) {
+			event.cancel();
+			player.server.commandManager.executeCommand(player.server, "/kill " + player.name);
+			player.sendChat("§c§o你想干啥？！");
 		}
 	}
 });	

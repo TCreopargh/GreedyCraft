@@ -1,0 +1,24 @@
+{
+	title: "§d封包合成",
+	x: 6.0d,
+	y: 13.5d,
+	description: "获得打包机",
+	tasks: [{
+		uid: "724109e2",
+		type: "item",
+		items: [{
+			item: "packagedauto:packager"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "63babac0",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "651dde44",
+		type: "xp",
+		xp: 400
+	}]
+}

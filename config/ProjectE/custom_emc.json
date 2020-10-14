@@ -847,6 +847,14 @@
     {
       "item": "thaumadditions:mithminite_ingot|0",
       "emc": 262144
+    },
+    {
+      "item": "appliedenergistics2:material|47",
+      "emc": 0
+    },
+    {
+      "item": "nyx:fallen_star|0",
+      "emc": 8000
     }
   ]
 }

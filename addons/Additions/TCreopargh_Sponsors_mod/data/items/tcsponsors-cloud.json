@@ -1,0 +1,17 @@
+{
+  "name": "§b筋斗云",
+  "tooltip": [
+    "§6好不容易抓来的筋斗云，不试试？",
+    "§c小心它逃跑哦！",
+    "§b§o赞助者物品 by Wi"
+  ],
+  "attribute_modifiers": [
+    {
+      "attribute_name": "generic.movementSpeed",
+      "amount": 0.06000000149011612,
+      "slot": "mainhand",
+      "uuid": "d5cd0acb-a18a-41aa-bccb-20d44223e4c1"
+    }
+  ],
+  "type": "additions:simple"
+}

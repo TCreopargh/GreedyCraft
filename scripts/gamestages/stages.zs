@@ -142,7 +142,8 @@ stageAwakened.addIngredients([
 	<ore:blockTerraAlloy>,
 	<ore:ingotTerraAlloy>,
 	<actuallyadditions:item_misc:15>,
-	<magicfeather:magicfeather>
+	<magicfeather:magicfeather>,
+	<ore:bedrock>
 ], true);
 
 stageNether.addIngredients([
@@ -241,7 +242,32 @@ stageNether.addIngredients([
 	<cqrepoured:chestplate_iron_dyable>,
 	<cqrepoured:leggings_iron_dyable>,
 	<cqrepoured:boots_iron_dyable>,
-	<ore:blockDemonicMetal>
+	<cqrepoured:helmet_dragon>,
+	<ore:blockDemonicMetal>,
+	<cqrepoured:shield_bull>,
+	<cqrepoured:shield_carl>,
+	<cqrepoured:shield_dragonslayer>,
+	<cqrepoured:shield_fire>,
+	<cqrepoured:shield_goblin>,
+	<cqrepoured:shield_monking>,
+	<cqrepoured:shield_moon>,
+	<cqrepoured:shield_mummy>,
+	<cqrepoured:shield_pigman>,
+	<cqrepoured:shield_pirate>,
+	<cqrepoured:shield_pirate2>,
+	<cqrepoured:shield_rainbow>,
+	<cqrepoured:shield_reflective>,
+	<cqrepoured:shield_rusted>,
+	<cqrepoured:shield_skeleton_friends>,
+	<cqrepoured:shield_specter>,
+	<cqrepoured:shield_spider>,
+	<cqrepoured:shield_sun>,
+	<cqrepoured:shield_tomb>,
+	<cqrepoured:shield_triton>,
+	<cqrepoured:shield_turtle>,
+	<cqrepoured:shield_walker>,
+	<cqrepoured:shield_warped>,
+	<cqrepoured:shield_zombie>
 ], true);
 
 stageNether.addIngredients([
@@ -258,7 +284,8 @@ stageChaotic.addIngredients([
 	<additions:greedycraft-mana_singularity>,
 	<additions:greedycraft-experience_singularity>,
 	<additions:greedycraft-matter_singularity>,
-	<additions:greedycraft-anti_entropy_matter>
+	<additions:greedycraft-anti_entropy_matter>,
+	<solarflux:custom_solar_panel_cosmic_solar_panel>
 ], true);
 
 mods.ItemStages.addItemStage("novice_engineer", <enderio:item_dark_steel_sword>);
@@ -387,7 +414,9 @@ stageGraduated.addIngredients([
     <randomthings:creativeplayerinterface>,
     <draconicevolution:creative_exchanger>,
 	<randomthings:spectrecoil_genesis>,
-	<additions:greedycraft-ocd_certificate>
+	<additions:greedycraft-ocd_certificate>,
+	<ae2wtlib:wut_creative>,
+	<ae2wtlib:wut_creative>.withTag({StoredTerminals: [{ForgeCaps: {"astralsorcery:cap_item_amulet_holder": {}}, id: "wct:wct_creative", Count: 1 as byte, Damage: 0 as short}, {ForgeCaps: {"astralsorcery:cap_item_amulet_holder": {}}, id: "wit:wct_creative", Count: 1 as byte, Damage: 0 as short}, {ForgeCaps: {"astralsorcery:cap_item_amulet_holder": {}}, id: "wit:wit_creative", Count: 1 as byte, Damage: 0 as short}, {ForgeCaps: {"astralsorcery:cap_item_amulet_holder": {}}, id: "wft:wft_creative", Count: 1 as byte, Damage: 0 as short}], IsInRange: 0 as byte, SelectedTerminal: 0, internalCurrentPower: 1600000.0})
 ]);
 
 stageInfinity.addLiquid(<liquid:infinity_metal>);
@@ -411,7 +440,10 @@ stageWitherSlayer.addIngredients([
 	<mysticalagriculture:witherproof_glass>,
 	<additions:greedycraft-ender_charm>,
 	<ore:ingotEvilMetal>,
-	<ore:blockEvilMetal>
+	<ore:blockEvilMetal>,
+	<rftools:shield_template_block:*>,
+	<rftools:shield_block1>,
+	<rftools:shield_block2>
 ], true);
 
 stageAbyssalConquerer.addMob("minecraft:wither");
@@ -472,6 +504,7 @@ stageMasterWizard.addIngredients([
 
 stageEnderCharm.addIngredients([
 	<minecraft:end_bricks>,
+	<minecraft:end_portal_frame>,
 	<prefab:item_basic_structure>.withTag({ForgeCaps: {"prefab:structuresconfiguration": {configuration: {wareHouseFacing: "north", structureEnumName: "EnderGateway"}}}, id: "prefab:item_basic_structure", Count: 1 as byte, Damage: 0 as short}),
 	<ore:endstone>,
 	<ore:cropChorusfruit>
@@ -505,7 +538,7 @@ stageSkilledEngineer.addOreReplacement(<mekanism:oreblock:*>, <minecraft:stone>,
 stageEnderCharm.addOreReplacement(<minecraft:end_portal_frame:*>, <additions:greedycraft-unknown_block>, false);
 stageNether.addOreReplacement(<minecraft:anvil:*>, <additions:greedycraft-unknown_block>, false);
 stageNether.addOreReplacement(<minecraft:enchanting_table:*>, <additions:greedycraft-unknown_block>, false);
-stageWitherSlayer.addOreReplacement(<minecraft:beacon:*>, <additions:greedycraft-unknown_block>, false);
+stageNether.addOreReplacement(<minecraft:beacon:*>, <additions:greedycraft-unknown_block>, false);
 stageHardmode.addOreReplacement(<additions:greedycraft-titanium_ore>, <minecraft:end_stone>, false);
 stageHardmode.addOreReplacement(<additions:greedycraft-cryonium_ore>, <minecraft:stone>, false);
 stageNether.addOreReplacement(<minecraft:quartz_ore>, <minecraft:netherrack>, false);
@@ -571,7 +604,9 @@ stageMasterEngineer.addIngredients([
 	<actuallyadditions:block_phantom_breaker>,
 	<actuallyadditions:block_fluid_placer>,
 	<actuallyadditions:block_dropper>,
-	<actuallyadditions:block_fluid_collector>
+	<actuallyadditions:block_fluid_collector>,
+	<rftools:shield_block3>,
+	<rftools:shield_block4>
 ], true);
 
 stageDisabled.addIngredients([
@@ -580,41 +615,44 @@ stageDisabled.addIngredients([
 ], true);
 
 stageChallenger1.addIngredients([
-	<ore:seedsTier2>,
-	<ore:essencePrudentium>,
-	<ore:ingotPrudentium>,
+	<ore:seedsTier1>,
+	<ore:essenceInferium>,
+	<ore:ingotInferium>,
 	<tinymobfarm:stone_farm>
 ], true);
 
 stageChallenger2.addIngredients([
-	<ore:seedsTier3>,
-	<ore:essenceIntermedium>,
-	<ore:ingotIntermedium>,
+	<ore:seedsTier2>,
+	<ore:essencePrudentium>,
+	<ore:ingotPrudentium>,
 	<tinymobfarm:iron_farm>
 ], true);
 
 stageChallenger3.addIngredients([
-	<ore:seedsTier4>,
-	<ore:essenceSuperium>,
-	<ore:ingotSuperium>,
+	<ore:seedsTier3>,
+	<ore:essenceIntermedium>,
+	<ore:ingotIntermedium>,
 	<tinymobfarm:gold_farm>
 ], true);
 
 stageChallenger4.addIngredients([
-	<ore:seedsTier5>,
-	<ore:essenceSupremium>,
-	<ore:ingotSupremium>,
+	<ore:seedsTier4>,
+	<ore:essenceSuperium>,
+	<ore:ingotSuperium>,
 	<tinymobfarm:diamond_farm>
 ], true);
 
 stageChallenger5.addIngredients([
-	<ore:seedsTier6>,
-	<ore:essenceInsanium>,
-	<ore:ingotInsanium>,
+	<ore:seedsTier5>,
+	<ore:essenceSupremium>,
+	<ore:ingotSupremium>,
 	<tinymobfarm:emerald_farm>
 ], true);
 
 stageChallenger6.addIngredients([
+	<ore:seedsTier6>,
+	<ore:essenceInsanium>,
+	<ore:ingotInsanium>,
 	<tinymobfarm:inferno_farm>
 ], true);
 

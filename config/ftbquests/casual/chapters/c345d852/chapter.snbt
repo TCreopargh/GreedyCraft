@@ -146,7 +146,7 @@
 	group: 0,
 	default_quest_shape: "",
 	images: [{
-		x: 2.0d,
+		x: 12.0d,
 		y: 1.0d,
 		width: 8.0d,
 		height: 4.0d,

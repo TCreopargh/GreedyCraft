@@ -1,0 +1,26 @@
+{
+	title: "§b基因采样",
+	x: 1.5d,
+	y: 0.0d,
+	description: "获得基因采样机",
+	dependencies: [
+		"b1243a42"
+	],
+	tasks: [{
+		uid: "1a5bd12c",
+		type: "item",
+		items: [{
+			item: "gendustry:sampler"
+		}]
+	}],
+	rewards: [{
+		uid: "2b0d7366",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "9f75cbc3",
+		type: "xp",
+		xp: 800
+	}]
+}
