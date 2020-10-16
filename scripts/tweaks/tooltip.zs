@@ -91,3 +91,13 @@ game.setLocalization("tooltip.itemstages.name.default", "§5§ka§r §d未知物
 <ore:ingotInsanium>.addTooltip("§e需要进入困难模式才能用来制作匠魂装备");
 <ore:ingotSupremium>.addTooltip("§e需要进入困难模式才能用来制作匠魂装备");
 <tconstruct:arrow_shaft>.addTooltip("§e箭杆铸模请使用任意箭杆和两个金锭合成");
+<ore:ingotSteel>.addTooltip("§e想要钢铁？使用高炉冶炼吧！");
+<ore:ingotSteel>.addTooltip("§e炼钢配方请查询熔融钢");
+<ore:skullPlayer>.addTooltip("§c请不要放到AE存储中，否则会导致卡顿");
+<mca:book_death>.addTooltip("§c请不要放到AE存储中，否则会导致卡顿");
+<mca:book_romance>.addTooltip("§c请不要放到AE存储中，否则会导致卡顿");
+<mca:book_family>.addTooltip("§c请不要放到AE存储中，否则会导致卡顿");
+<mca:book_rose_gold>.addTooltip("§c请不要放到AE存储中，否则会导致卡顿");
+<mca:book_infection>.addTooltip("§c请不要放到AE存储中，否则会导致卡顿");
+<minecraft:written_book>.addTooltip("§c请不要放到AE存储中，否则会导致卡顿");
+<ore:ingotNetherite>.addTooltip("§e请用匠魂冶炼炉制作这种合金");

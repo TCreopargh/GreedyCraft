@@ -1,0 +1,6 @@
+{
+  "name": "§e下界合金锭",
+  "is_beacon_payment": true,
+  "ore_dict": "ingotNetherite",
+  "type": "additions:simple"
+}

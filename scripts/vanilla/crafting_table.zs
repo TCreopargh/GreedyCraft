@@ -2,7 +2,7 @@
 #priority 4000
 
 /*
-* This file handles the crafting recipes that is done with a crafting table.
+* This file handles the crafting recipes that are done with a crafting table.
 * You may NOT use this file (or all other .zs files) in any other publicly distributed modpack without my permission.
 * Powered by TCreopargh.
 * All rights reserved.
@@ -219,7 +219,12 @@ val removedRecipes as IIngredient[] = [
 	<draconicadditions:armor_generator>,
 	<extrabotany:bottledstar>,
 	<treasure2:ruby_key>,
-	<treasure2:sapphire_key>
+	<treasure2:sapphire_key>,
+	<thaumictinkerer:black_quartz>,
+	<botania:quartz>,
+	<extrabotany:blockshadowium>,
+	<tcomplement:materials:10>,
+	<sakura:materials:56>
 ];
 
 for ingredient in removedRecipes {
@@ -521,30 +526,6 @@ recipes.addShaped("auto_gen_-378684063", <bountifulbaubles:ringiron>,
 [[<ore:nuggetIron>, <ore:nuggetIron>, <ore:nuggetIron>],
 [<ore:nuggetIron>, null, <ore:nuggetIron>],
 [<ore:nuggetIron>, <ore:nuggetIron>, <ore:nuggetIron>]]);
-recipes.addShapeless("nametag_to_human_spawn_egg", <minecraft:spawn_egg>, [<minecraft:name_tag>.marked("nametag"), <minecraft:egg>], 
-function(out, ins, cInfo) {
-	var name = ins.nametag.displayName;
-	return <minecraft:spawn_egg>.withTag({display: {Name: "§e"+name+"§b的刷怪蛋"}, EntityTag: {Username: name, id: "headcrumbs:human"}});
-},null);
-recipes.addShapeless("head_to_human_spawn_egg", <minecraft:spawn_egg>, [<minecraft:skull:3>.marked("head"), <minecraft:egg>], 
-function(out, ins, cInfo) {
-	var name = "null";
-	if(ins.head.tag.asString().contains("SkullOwner:")) {
-		var nameData = ins.head.tag.memberGet("SkullOwner") as IData;
-		if(nameData.asString().contains("Name:")) {
-			nameData = nameData.memberGet("Name") as IData;
-		}
-		if(!isNull(nameData)) {
-			name = nameData.asString();
-		}
-	}
-	return <minecraft:spawn_egg>.withTag({display: {Name: "§e"+name+"§b的刷怪蛋"}, EntityTag: {Username: name, id: "headcrumbs:human"}});
-},null);
-recipes.addShapeless("nametag_to_head", <minecraft:skull>, [<minecraft:name_tag>.marked("nametag1"), <minecraft:skull:*>], 
-function(out, ins, cInfo) {
-	var name = ins.nametag1.displayName;
-	return <minecraft:skull:3>.withTag({display: {Name: "§e"+name+"§b的头"}, SkullOwner: name});
-},null);
 recipes.addShaped("auto_gen_-893381298", <draconicevolution:grinder>, 
 [[<minecraft:iron_block>, <draconicevolution:awakened_core>, <minecraft:iron_block>],
 [<draconicevolution:awakened_core>, <tconevo:metal_block:2>, <draconicevolution:awakened_core>],
@@ -586,14 +567,6 @@ recipes.addShaped("auto_gen_-1750189736", <cyclicmagic:cable_wireless_fluid>,
 [[<thermalfoundation:material:167>, <minecraft:ender_eye>, <thermalfoundation:material:167>],
 [<minecraft:ender_eye>, <minecraft:bucket>, <minecraft:ender_eye>],
 [<thermalfoundation:material:167>, <minecraft:ender_eye>, <thermalfoundation:material:167>]]);
-recipes.addShaped("auto_gen_10905668", <cyclicmagic:item_pipe>*16, 
-[[null, <thermalfoundation:material:167>, null],
-[<thermalfoundation:material:167>, <minecraft:chest>, <thermalfoundation:material:167>],
-[null, <thermalfoundation:material:167>, null]]);
-recipes.addShaped("auto_gen_-1013362816", <cyclicmagic:energy_pipe>*16, 
-[[null, <thermalfoundation:material:167>, null],
-[<thermalfoundation:material:167>, <minecraft:redstone_block>, <thermalfoundation:material:167>],
-[null, <thermalfoundation:material:167>, null]]);
 recipes.addShaped("auto_gen_-1513078655", <cyclicmagic:battery>, 
 [[<ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>],
 [<ore:ingotTin>, <thaumcraft:nugget:10>, <ore:ingotTin>],
@@ -670,41 +643,6 @@ recipes.addShaped("dank_null_0", <danknull:dank_null_0>,
 [[null, <danknull:dank_null_panel_0>, null],
 [<danknull:dank_null_panel_0>, <ore:chest>, <danknull:dank_null_panel_0>],
 [null, <danknull:dank_null_panel_0>, null]]);
-recipes.addShaped("dank_null_1", <danknull:dank_null_1>, 
-[[null, <danknull:dank_null_panel_1>, null],
-[<danknull:dank_null_panel_1>, <danknull:dank_null_0>.marked("dank"), <danknull:dank_null_panel_1>],
-[null, <danknull:dank_null_panel_1>, null]],
-function(out, ins, cInfo) {
-	return out.withTag(ins.dank.tag);
-}, null);
-recipes.addShaped("dank_null_2", <danknull:dank_null_2>, 
-[[null, <danknull:dank_null_panel_2>, null],
-[<danknull:dank_null_panel_2>, <danknull:dank_null_1>.marked("dank"), <danknull:dank_null_panel_2>],
-[null, <danknull:dank_null_panel_2>, null]],
-function(out, ins, cInfo) {
-	return out.withTag(ins.dank.tag);
-}, null);
-recipes.addShaped("dank_null_3", <danknull:dank_null_3>, 
-[[null, <danknull:dank_null_panel_3>, null],
-[<danknull:dank_null_panel_3>, <danknull:dank_null_2>.marked("dank"), <danknull:dank_null_panel_3>],
-[null, <danknull:dank_null_panel_3>, null]],
-function(out, ins, cInfo) {
-	return out.withTag(ins.dank.tag);
-}, null);
-recipes.addShaped("dank_null_4", <danknull:dank_null_4>, 
-[[null, <danknull:dank_null_panel_4>, null],
-[<danknull:dank_null_panel_4>, <danknull:dank_null_3>.marked("dank"), <danknull:dank_null_panel_4>],
-[null, <danknull:dank_null_panel_4>, null]],
-function(out, ins, cInfo) {
-	return out.withTag(ins.dank.tag);
-}, null);
-recipes.addShaped("dank_null_5", <danknull:dank_null_5>, 
-[[null, <danknull:dank_null_panel_5>, null],
-[<danknull:dank_null_panel_5>, <danknull:dank_null_4>.marked("dank"), <danknull:dank_null_panel_5>],
-[null, <danknull:dank_null_panel_5>, null]],
-function(out, ins, cInfo) {
-	return out.withTag(ins.dank.tag);
-}, null);
 recipes.addShapeless("auto_gen_-880073734", <forge:bucketfilled>, [<forge:bucketfilled>.withTag({ForgeCaps:{"astralsorcery:cap_item_amulet_holder":{}},tag:{FluidName:"resin",Amount:1000}})]);
 recipes.addShapeless("auto_gen_-983697411", <forge:bucketfilled>, [<forge:bucketfilled>.withTag({ForgeCaps:{"astralsorcery:cap_item_amulet_holder":{}},tag:{FluidName:"binnie.resin",Amount:1000}})]);
 recipes.addShapeless("auto_gen_-628920196", <minecraft:experience_bottle>, [<minecraft:glass_bottle>, <actuallyadditions:item_crystal_empowered:1>]);
@@ -744,9 +682,9 @@ recipes.addShapeless("auto_gen_-1387251411", <netherex:wither_dust>, [<darkutils
 recipes.addShapeless("auto_gen_932948151", <netherex:wither_dust>, [<enderio:item_material:63>]);
 recipes.addShapeless("auto_gen_-764366733", <tconevo:material>, [<ore:ingotAdamant>, <ore:ingotManyullyn>, <ore:ingotManyullyn>, <ore:ingotEnderium>, <ore:ingotEnderium>]);
 recipes.addShaped("auto_gen_-696385933", <additions:greedycraft-bravery_certificate>, 
-[[<aether_legacy:golden_feather>, <ore:netherStar>, <aether_legacy:golden_feather>],
+[[<ore:ingotAsgardium>, <ore:netherStar>, <ore:ingotAsgardium>],
 [<abyssalcraft:cingot>, <tinkersaether:valkyrie_block>, <abyssalcraft:cingot>],
-[<aether_legacy:golden_feather>, <aether_legacy:golden_amber>, <aether_legacy:golden_feather>]]);
+[<ore:ingotNetherite>, <aether_legacy:golden_amber>, <ore:ingotNetherite>]]);
 recipes.addShaped("auto_gen_252415292", <additions:greedycraft-fusion_matrix_block>, 
 [[<tconevo:material>, <tconevo:material>, <tconevo:material>],
 [<tconevo:material>, <tconevo:material>, <tconevo:material>],
@@ -1001,92 +939,23 @@ recipes.addShaped("bottledstar", <extrabotany:bottledstar>,
 [[<ore:petalYellow>, <ore:petalYellow>, <ore:petalYellow>],
 [<ore:blockGlass>, <ore:fallenStar>, <ore:blockGlass>],
 [<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>]]);
-
 recipes.addShaped("end_portal_frame", <minecraft:end_portal_frame>, 
 [[<ore:pearlEnderEye>, <ore:gemEnderBiotite>, <ore:pearlEnderEye>],
 [<ore:endstone>, <ore:endstone>, <ore:endstone>],
 [<ore:endstone>, <ore:endstone>, <ore:endstone>]]);
-
 recipes.addShaped("experience_transporter", <additions:greedycraft-experience_transporter>, 
 [[<ore:pearlEnderEye>, <ore:eternalLifeEssence>, <ore:pearlEnderEye>],
 [<ore:eternalLifeEssence>, <additions:greedycraft-pearl_of_knowledge>, <ore:eternalLifeEssence>],
 [<ore:pearlEnderEye>, <ore:eternalLifeEssence>, <ore:pearlEnderEye>]]);
+recipes.addShaped("netherite_block", <additions:greedycraft-netherite_block>, 
+[[<ore:ingotNetherite>, <ore:ingotNetherite>, <ore:ingotNetherite>],
+[<ore:ingotNetherite>, <ore:ingotNetherite>, <ore:ingotNetherite>],
+[<ore:ingotNetherite>, <ore:ingotNetherite>, <ore:ingotNetherite>]]);
+recipes.addShapeless("netherite_block_rev", <additions:netherite_ingot> * 9, [<ore:blockNetherite>]);
+recipes.addShaped("overworld_portal", <extrautils2:teleporter>, 
+[[<ore:grass>, <ore:grass>, <ore:grass>],
+[<ore:grass>, <ore:pearlEnderEye>, <ore:grass>],
+[<ore:grass>, <ore:grass>, <ore:grass>]]);
 
 recipes.addShapeless("red_key", <treasure2:ruby_key>, [<ore:dustGlowstone>, <treasure2:gold_key>, <treasure2:treasure_tool>, <ore:gemRuby>]);
 recipes.addShapeless("blue_key", <treasure2:sapphire_key>, [<ore:dustGlowstone>, <treasure2:gold_key>, <treasure2:treasure_tool>, <ore:gemSapphire>]);
-
-recipes.addShaped("exp_transport_tool", errorStone, [[<ore:toolTiC>.marked("to"), <additions:greedycraft-experience_transporter>, <ore:toolTiC>.marked("from")]], 
-function(out, ins, cInfo) {
-	if(isNull(ins.from.tag.memberGet("Modifiers") as IData) || isNull(ins.to.tag.memberGet("Modifiers") as IData)) {
-		return null;
-	}
-	var modifiersFrom = ins.from.tag.memberGet("Modifiers") as IData;
-	var modifiersTo = ins.to.tag.memberGet("Modifiers") as IData;
-	var toolLevel = {} as IData;
-	if(modifiersFrom.asString().contains("toolleveling")) {
-		for i in 0 to modifiersFrom.length {
-			var current as IData = modifiersFrom[i];
-			if(current.asString().contains("toolleveling")) {
-				toolLevel = current;
-				break;
-			}
-		}
-	}
-	var newModifier as IData = [];
-	if(!isNull(newModifier)) {
-	for i in 0 to modifiersTo.length {
-		var current as IData = modifiersTo[i];
-		if(isNull(current)) { 
-			break;
-		}
-		if(current.asString().contains("toolleveling")) {
-			newModifier = newModifier.update([current + toolLevel] as IData);
-			break;
-		} else {
-			newModifier = newModifier.update([current] as IData);
-		}
-	}
-	}
-	var outData as IData = ins.to.tag - "Modifiers";
-	outData = outData + ({Modifiers: newModifier}) as IData;
-	
-	return ins.to.withTag(outData);
-}, null);
-
-recipes.addShaped("exp_transport_armor", errorStone, [[<ore:armorTiC>.marked("to"), <additions:greedycraft-experience_transporter>, <ore:armorTiC>.marked("from")]], 
-function(out, ins, cInfo) {
-	if(isNull(ins.from.tag.memberGet("Modifiers") as IData) || isNull(ins.to.tag.memberGet("Modifiers") as IData)) {
-		return null;
-	}
-	var modifiersFrom = ins.from.tag.memberGet("Modifiers") as IData;
-	var modifiersTo = ins.to.tag.memberGet("Modifiers") as IData;
-	var toolLevel = {} as IData;
-	if(modifiersFrom.asString().contains("leveling_armor")) {
-		for i in 0 to modifiersFrom.length {
-			var current as IData = modifiersFrom[i];
-			if(current.asString().contains("leveling_armor")) {
-				toolLevel = current;
-				break;
-			}
-		}
-	}
-	var newModifier as IData = [];
-	if(!isNull(newModifier)) {
-	for i in 0 to modifiersTo.length {
-		var current as IData = modifiersTo[i];
-		if(isNull(current)) { 
-			break;
-		}
-		if(current.asString().contains("leveling_armor")) {
-			newModifier = newModifier.update([current + toolLevel] as IData);
-			break;
-		} else {
-			newModifier = newModifier.update([current] as IData);
-		}
-	}
-	}
-	var outData as IData = ins.to.tag - "Modifiers";
-	outData = outData + ({Modifiers: newModifier}) as IData;
-	
-	return ins.to.withTag(outData);
-}, null);

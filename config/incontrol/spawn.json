@@ -4,22 +4,10 @@
         "mob": ["pvj:pvj_goon", "pvj:pvj_clam"],
 		"result": "deny"
     },
-	{
-		"dimension": 0,
-		"spawner": "false",
-        "hostile": "true",
-        "mincount": {
-            "amount": 50,
-            "hostile": true,
-            "perplayer": true
-        },
-        "result": "deny"
-    },
     {
         "dimension": 0,
         "minheight": 50,
         "hostile": true,
-        "spawner": false,
         "result": "default",
         "multxp": 0.5,
         "healthmultiply": 0.75,
@@ -30,21 +18,18 @@
         "dimension": 0,
         "maxheight": 50,
         "hostile": true,
-        "spawner": false,
         "result": "default",
         "healthmultiply": 1.2,
         "damagemultiply": 1.2,
         "speedmultiply": 1.2
     },
-    {
-        "dimension": 0,
+	{
         "hostile": true,
-        "spawner": true,
-        "result": "default",
-        "multxp": 1.25,
-        "healthmultiply": 1.4,
-        "damagemultiply": 1.4,
-        "speedmultiply": 1.3
+		"mincount": {
+            "amount": 80,
+            "perplayer": true
+        },
+        "result": "deny"
     },
     {
         "hostile": true,
@@ -53,7 +38,6 @@
     },
 	{
         "dimension": 0,
-		"spawner": false,
         "hostile": true,
         "seesky": true,
         "mintime": 0,
@@ -82,6 +66,15 @@
         "mob": ["minecraft:zombie_horse", "minecraft:skeleton_horse"],
 		"mincount": {
             "amount": 16,
+			"mod": "minecraft",
+            "perplayer": true
+        },
+        "result": "deny"
+    },
+	{
+        "mob": ["minecraft:bat"],
+		"mincount": {
+            "amount": 10,
 			"mod": "minecraft",
             "perplayer": true
         },

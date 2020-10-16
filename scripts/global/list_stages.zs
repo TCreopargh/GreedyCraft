@@ -39,6 +39,7 @@ global listStages as string[] = [
 	"wand_blueprint",
 	"tactic_blueprint",
 	"shuriken_blueprint",
+	"yoyo_blueprint",
 	"abyssal_conquerer",
     "cosmic_ripper",
     "gatekeeper",
@@ -62,8 +63,7 @@ global listStages as string[] = [
     "graduated",
 	"descendant_of_the_sun",
     "qualified_ocd",
-	"disabled",
-	"iswuss"
+	"disabled"
 ];
 
 global commonStages as string[] = [

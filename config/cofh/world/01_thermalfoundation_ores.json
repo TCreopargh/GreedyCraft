@@ -112,6 +112,213 @@
 				]
 			}
 		},
+		"shadowium": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": [{
+					"name": "additions:greedycraft-shadowium_ore",
+					"weight": 100
+				}],
+				"material": "minecraft:stone",
+				"cluster-size": 4
+			},
+			"cluster-count": 1,
+			"min-height": 5,
+			"max-height": 50,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-11325
+				]
+			}
+		},
+		"asgardium": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": [{
+					"name": "additions:greedycraft-asgardium_ore",
+					"weight": 100
+				}],
+				"material": "aether_legacy:holystone",
+				"cluster-size": 4
+			},
+			"cluster-count": 2,
+			"min-height": 15,
+			"max-height": 90,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					4
+				]
+			}
+		},
+		"aeroite_cloud": {
+			"enabled": "true",
+			"distribution": "gaussian",
+			"generator": {
+				"type": "geode",
+				"block": [{
+						"name": "additions:greedycraft-aeroite_ore",
+						"weight": 3
+					},
+					{
+						"name": "aether_legacy:aercloud",
+						"weight": 97
+					}
+				],
+				"useMaterial": true,
+				"crust": [{
+						"name": "aether_legacy:aercloud",
+						"weight": 85
+					},
+					{
+						"name": "aether_legacy:aercloud",
+						"metadata": 1,
+						"weight": 3
+					},
+					{
+						"name": "aether_legacy:aercloud",
+						"metadata": 2,
+						"weight": 10
+					},
+					{
+						"name": "aether_legacy:aercloud",
+						"metadata": 3,
+						"weight": 2
+					}
+				],
+				"hollow": true,
+				"filler": [{
+						"name": "additions:greedycraft-aeroite_ore",
+						"weight": 80
+					},
+					{
+						"name": "aether_legacy:aercloud",
+						"weight": 20
+					}
+				],
+				"material": "air",
+				"cluster-size": 400
+			},
+			"chunk-chance": 180,
+			"cluster-count": 1,
+			"center-height": 175,
+			"spread": 50,
+			"smoothness": 3,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0,
+					4,
+					7,
+					111
+				]
+			}
+		},
+		"plain_cloud": {
+			"enabled": "true",
+			"distribution": "gaussian",
+			"generator": {
+				"type": "geode",
+				"block": [{
+						"name": "additions:greedycraft-aeroite_ore",
+						"weight": 2
+					},
+					{
+						"name": "aether_legacy:aercloud",
+						"weight": 98
+					}
+				],
+				"useMaterial": true,
+				"crust": [{
+						"name": "aether_legacy:aercloud",
+						"weight": 85
+					},
+					{
+						"name": "aether_legacy:aercloud",
+						"metadata": 1,
+						"weight": 3
+					},
+					{
+						"name": "aether_legacy:aercloud",
+						"metadata": 2,
+						"weight": 10
+					},
+					{
+						"name": "aether_legacy:aercloud",
+						"metadata": 3,
+						"weight": 2
+					}
+				],
+				"hollow": true,
+				"filler": [{
+						"name": "aether_legacy:aercloud",
+						"metadata": 1,
+						"weight": 30
+					},
+					{
+						"name": "aether_legacy:aercloud",
+						"metadata": 2,
+						"weight": 50
+					},
+					{
+						"name": "aether_legacy:aercloud",
+						"metadata": 3,
+						"weight": 20
+					}
+				],
+				"material": "air",
+				"cluster-size": 500
+			},
+			"chunk-chance": 100,
+			"cluster-count": 1,
+			"center-height": 175,
+			"spread": 50,
+			"smoothness": 3,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0,
+					4,
+					7,
+					111
+				]
+			}
+		},
+		"aeroite_aether": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": [{
+					"name": "additions:greedycraft-aeroite_ore",
+					"weight": 120
+				}],
+				"material": "aether_legacy:aercloud",
+				"cluster-size": 8
+			},
+			"cluster-count": 20,
+			"chunk-chance": 3,
+			"min-height": 5,
+			"max-height": 128,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					7
+				]
+			}
+		},
 		"heartcrystal": {
 			"enabled": "true",
 			"distribution": "uniform",
@@ -133,6 +340,40 @@
 				"value": [
 					-1,
 					1
+				]
+			}
+		},
+		"ancient_debris": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": [{
+					"name": "additions:greedycraft-ancient_debris",
+					"weight": 100
+				}],
+				"material": [{
+					"name": "minecraft:netherrack"
+				}, {
+					"name": "netherex:gloomy_netherrack"
+				}, {
+					"name": "netherex:fiery_netherrack"
+				}, {
+					"name": "netherex:icy_netherrack"
+				}, {
+					"name": "netherex:lively_netherrack"
+				}],
+				"cluster-size": 3
+			},
+			"cluster-count": 1,
+			"min-height": 5,
+			"max-height": 48,
+			"chunk-chance": 3,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-1
 				]
 			}
 		},
@@ -442,6 +683,99 @@
 					}
 				]
 			},
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"jauxum": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": [{
+						"name": "taiga:jauxum_ore",
+						"weight": 3
+					},
+					{
+						"name": "minecraft:stone",
+						"metadata": 1,
+						"weight": 97
+					}
+				],
+				"material": "minecraft:stone",
+				"cluster-size": 400
+			},
+			"cluster-count": 1,
+			"chunk-chance": 25,
+			"min-height": 5,
+			"max-height": 40,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"ovium": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": [{
+						"name": "taiga:ovium_ore",
+						"weight": 3
+					},
+					{
+						"name": "minecraft:stone",
+						"metadata": 3,
+						"weight": 97
+					}
+				],
+				"material": "minecraft:stone",
+				"cluster-size": 300
+			},
+			"cluster-count": 1,
+			"chunk-chance": 25,
+			"min-height": 5,
+			"max-height": 40,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"karmesine": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": [{
+						"name": "taiga:karmesine_ore",
+						"weight": 3
+					},
+					{
+						"name": "minecraft:stone",
+						"metadata": 5,
+						"weight": 97
+					}
+				],
+				"material": "minecraft:stone",
+				"cluster-size": 250
+			},
+			"cluster-count": 1,
+			"chunk-chance": 25,
+			"min-height": 5,
+			"max-height": 40,
+			"retrogen": "true",
+			"biome": "all",
 			"dimension": {
 				"restriction": "blacklist",
 				"value": [

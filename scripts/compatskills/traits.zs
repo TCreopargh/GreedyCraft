@@ -40,10 +40,10 @@ experience_grinder.description = "击杀怪物时有概率获得数量不等的�
 experience_grinder.changeIcon("greedycraft:skills/experience_grinder.png");
 experience_grinder.setEnabled(true);
 experience_grinder.onMobDrops = function(event as crafttweaker.event.EntityLivingDeathDropsEvent) {
-    if(Math.random() as double < 0.25) {
+    if(Math.random() as double < 0.1) {
 		var damageSource as IDamageSource = event.damageSource;
 		if(damageSource.getTrueSource() instanceof IPlayer) {
-			var amount as int = Math.ceil(Math.random() * 3) as int;
+			var amount as int = Math.ceil(Math.random() * 2) as int;
 			event.addItem(<additions:greedycraft-experience_ingot> * amount);
 		}
 	}

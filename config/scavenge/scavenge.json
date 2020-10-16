@@ -101,6 +101,9 @@
                     {
                         "name": "minecraft:tallgrass"
                     },
+					{
+                        "name": "minecraft:double_plant"
+                    },
                     {
                         "name": "minecraft:vine"
                     },
@@ -127,6 +130,9 @@
                     },
                     {
                         "name": "biomesoplenty:willow_vine"
+                    },
+                    {
+                        "name": "xlfoodmod:grass"
                     }
                 ]
             },

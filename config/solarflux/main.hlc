@@ -9,72 +9,72 @@
   +C:Solar Panel 1={
     +L:Capacity=25000
 
-    +L:Generation Rate=1
+    +L:Generation Rate=10
 
-    +L:Transfer Rate=4
+    +L:Transfer Rate=30
 
   }
 
   +C:Solar Panel 2={
     +L:Capacity=125000
 
-    +L:Generation Rate=4
+    +L:Generation Rate=30
 
-    +L:Transfer Rate=16
+    +L:Transfer Rate=60
 
   }
 
   +C:Solar Panel 3={
     +L:Capacity=425000
 
-    +L:Generation Rate=8
+    +L:Generation Rate=50
 
-    +L:Transfer Rate=32
+    +L:Transfer Rate=100
 
   }
 
   +C:Solar Panel 4={
     +L:Capacity=2000000
 
-    +L:Generation Rate=16
+    +L:Generation Rate=80
 
-    +L:Transfer Rate=64
+    +L:Transfer Rate=160
 
   }
 
   +C:Solar Panel 5={
     +L:Capacity=8000000
 
-    +L:Generation Rate=32
+    +L:Generation Rate=140
 
-    +L:Transfer Rate=128
+    +L:Transfer Rate=250
 
   }
 
   +C:Solar Panel 6={
     +L:Capacity=32000000
 
-    +L:Generation Rate=64
+    +L:Generation Rate=250
 
-    +L:Transfer Rate=256
+    +L:Transfer Rate=500
 
   }
 
   +C:Solar Panel 7={
     +L:Capacity=64000000
 
-    +L:Generation Rate=128
+    +L:Generation Rate=540
 
-    +L:Transfer Rate=512
+    +L:Transfer Rate=800
 
   }
 
   +C:Solar Panel 8={
     +L:Capacity=128000000
 
-    +L:Generation Rate=256
+    +L:Generation Rate=900
 
-    +L:Transfer Rate=1024
+    +L:Transfer Rate=1200
 
   }
 

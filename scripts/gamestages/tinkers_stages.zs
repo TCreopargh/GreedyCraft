@@ -8,6 +8,7 @@ mods.TinkerStages.addToolTypeStage("tactic_blueprint", "tconstruct:longsword");
 mods.TinkerStages.addToolTypeStage("tactic_blueprint", "plustic:katana");
 mods.TinkerStages.addToolTypeStage("tactic_blueprint", "tconstruct:cleaver");
 mods.TinkerStages.addToolTypeStage("shuriken_blueprint", "tconstruct:shuriken");
+mods.TinkerStages.addToolTypeStage("yoyo_blueprint", "yoyos:yoyo");
 
 mods.TinkerStages.addMaterialStage("fusion_matrix", "draconium");
 mods.TinkerStages.addMaterialStage("hardmode", "insanium");
@@ -34,3 +35,7 @@ mods.TinkerStages.addMaterialStage("awakened", "terra_alloy");
 mods.TinkerStages.addMaterialStage("awakened", "bedrock");
 mods.TinkerStages.addMaterialStage("chaotic", "cosmilite");
 mods.TinkerStages.addMaterialStage("skilled_wizard", "astral_metal");
+mods.TinkerStages.addMaterialStage("hardmode", "red_matter");
+mods.TinkerStages.addMaterialStage("hardmode", "dark_matter");
+mods.TinkerStages.addMaterialStage("hardmode", "fusion_matrix");
+mods.TinkerStages.addMaterialStage("disabled", "extrabotany:ingotorichalcos");

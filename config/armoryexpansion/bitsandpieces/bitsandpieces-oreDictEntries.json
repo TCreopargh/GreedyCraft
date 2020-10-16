@@ -1,0 +1,56 @@
+[
+  {
+    "identifier": "fleshfiredragon",
+    "entries": [
+      {
+        "itemName": "iceandfire:fire_dragon_flesh",
+        "meta": 0
+      }
+    ]
+  },
+  {
+    "identifier": "heartfiredragon",
+    "entries": [
+      {
+        "itemName": "iceandfire:fire_dragon_heart",
+        "meta": 0
+      }
+    ]
+  },
+  {
+    "identifier": "hearticedragon",
+    "entries": [
+      {
+        "itemName": "iceandfire:ice_dragon_heart",
+        "meta": 0
+      }
+    ]
+  },
+  {
+    "identifier": "fleshicedragon",
+    "entries": [
+      {
+        "itemName": "iceandfire:ice_dragon_flesh",
+        "meta": 0
+      }
+    ]
+  },
+  {
+    "identifier": "enchantedfabric",
+    "entries": [
+      {
+        "itemName": "thaumcraft:fabric",
+        "meta": 0
+      }
+    ]
+  },
+  {
+    "identifier": "silkycloth",
+    "entries": [
+      {
+        "itemName": "tconstruct:materials",
+        "meta": 15
+      }
+    ]
+  }
+]

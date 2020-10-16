@@ -34,3 +34,28 @@ Dropt.list("barrier")
       )
       .addDrop(Dropt.drop().items([<minecraft:barrier>])
 ));
+
+Dropt.list("lucky_clover")
+	.add(Dropt.rule()
+    .matchBlocks([
+	    "minecraft:tallgrass:*",
+        "minecraft:vine:*",
+        "pvj:short_grass:*",
+        "biomesoplenty:plant_0:*",
+        "biomesoplenty:plant_1:*",
+        "pvj:chickweed:*",
+        "pvj:clovers:*",
+        "pvj:crabgrass:*",
+        "pvj:silverleaf:*",
+        "biomesoplenty:willow_vine:*",
+        "xlfoodmod:grass:*",
+		"minecraft:double_plant:*"
+	])
+	.replaceStrategy("ADD")
+	.addDrop(Dropt.drop()
+          .selector(Dropt.weight(199)) 
+    ).addDrop(Dropt.drop()
+          .selector(Dropt.weight(1))
+          .items([<additions:greedycraft-lucky_clover>])
+    )
+);

@@ -5,6 +5,13 @@ mods.thermalexpansion.Compactor.removeStorageRecipe(<thaumadditions:adaminite_in
 mods.thermalexpansion.Compactor.removeStorageRecipe(<thaumadditions:mithrillium_ingot>);
 mods.thermalexpansion.Compactor.removeStorageRecipe(<thaumadditions:mithminite_ingot>);
 
+mods.thermalexpansion.InductionSmelter.removeRecipe(<thermalfoundation:material:768>, <thermalfoundation:material>);
+mods.thermalexpansion.InductionSmelter.removeRecipe(<thermalfoundation:material:769>, <thermalfoundation:material>);
+mods.thermalexpansion.InductionSmelter.removeRecipe(<thermalfoundation:material:802>, <thermalfoundation:material>);
+
+mods.thermalexpansion.InductionSmelter.removeRecipe(<thermalfoundation:material:768>, <minecraft:iron_ingot>);
+mods.thermalexpansion.InductionSmelter.removeRecipe(<thermalfoundation:material:769>, <minecraft:iron_ingot>);
+mods.thermalexpansion.InductionSmelter.removeRecipe(<thermalfoundation:material:802>, <minecraft:iron_ingot>);
 /*
 for item in <ore:dungeonlootTier1>.items {
 	mods.thermalexpansion.Pulverizer.addRecipe(<additions:greedycraft-time_fragment>, item, 3000, <additions:greedycraft-experience_ingot>, 20);

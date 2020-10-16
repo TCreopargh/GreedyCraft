@@ -1176,8 +1176,32 @@ potioncore:archery
 	- Is Beneficial: true
 
 
-scalinghealth:bandaged
+variegated:fishermans_friend
    - Id: 146
+   - Color: 15514384
+   - Is Instant: false
+   - Is Bad: false
+	- Is Beneficial: true
+
+
+variegated:attraction
+   - Id: 147
+   - Color: 14378938
+   - Is Instant: false
+   - Is Bad: false
+	- Is Beneficial: true
+
+
+variegated:wings
+   - Id: 148
+   - Color: 4837830
+   - Is Instant: false
+   - Is Bad: false
+	- Is Beneficial: true
+
+
+scalinghealth:bandaged
+   - Id: 149
    - Color: 16243885
    - Is Instant: false
    - Is Bad: false
@@ -1185,7 +1209,7 @@ scalinghealth:bandaged
 
 
 defiledlands:vulnerability
-   - Id: 147
+   - Id: 150
    - Color: 7304841
    - Is Instant: false
    - Is Bad: true
@@ -1193,7 +1217,7 @@ defiledlands:vulnerability
 
 
 defiledlands:grounded
-   - Id: 148
+   - Id: 151
    - Color: 6250071
    - Is Instant: false
    - Is Bad: true
@@ -1201,7 +1225,7 @@ defiledlands:grounded
 
 
 defiledlands:bleeding
-   - Id: 149
+   - Id: 152
    - Color: 16711680
    - Is Instant: false
    - Is Bad: true
@@ -1209,7 +1233,7 @@ defiledlands:bleeding
 
 
 cyclicmagic:potion.magnet
-   - Id: 150
+   - Id: 153
    - Color: 2247599
    - Is Instant: false
    - Is Bad: false
@@ -1217,7 +1241,7 @@ cyclicmagic:potion.magnet
 
 
 cyclicmagic:potion.ender
-   - Id: 151
+   - Id: 154
    - Color: 740674
    - Is Instant: false
    - Is Bad: false
@@ -1225,7 +1249,7 @@ cyclicmagic:potion.ender
 
 
 cyclicmagic:potion.waterwalk
-   - Id: 152
+   - Id: 155
    - Color: 8370340
    - Is Instant: false
    - Is Bad: false
@@ -1233,7 +1257,7 @@ cyclicmagic:potion.waterwalk
 
 
 cyclicmagic:potion.slowfall
-   - Id: 153
+   - Id: 156
    - Color: 16019232
    - Is Instant: false
    - Is Bad: false
@@ -1241,7 +1265,7 @@ cyclicmagic:potion.slowfall
 
 
 cyclicmagic:potion.snow
-   - Id: 154
+   - Id: 157
    - Color: 9355263
    - Is Instant: false
    - Is Bad: false
@@ -1249,7 +1273,7 @@ cyclicmagic:potion.snow
 
 
 cyclicmagic:potion.swimspeed
-   - Id: 155
+   - Id: 158
    - Color: 11827199
    - Is Instant: false
    - Is Bad: false
@@ -1257,7 +1281,7 @@ cyclicmagic:potion.swimspeed
 
 
 cyclicmagic:potion.bounce
-   - Id: 156
+   - Id: 159
    - Color: 9561177
    - Is Instant: false
    - Is Bad: false
@@ -1265,7 +1289,7 @@ cyclicmagic:potion.bounce
 
 
 cyclicmagic:potion.frostwalker
-   - Id: 157
+   - Id: 160
    - Color: 4388055
    - Is Instant: false
    - Is Bad: false
@@ -1273,7 +1297,7 @@ cyclicmagic:potion.frostwalker
 
 
 cyclicmagic:potion.butter
-   - Id: 158
+   - Id: 161
    - Color: 15066368
    - Is Instant: false
    - Is Bad: false
@@ -1281,7 +1305,7 @@ cyclicmagic:potion.butter
 
 
 cyclicmagic:potion.stunned
-   - Id: 159
+   - Id: 162
    - Color: 12764407
    - Is Instant: false
    - Is Bad: false
@@ -1289,7 +1313,7 @@ cyclicmagic:potion.stunned
 
 
 cyclicmagic:potion.saturation
-   - Id: 160
+   - Id: 163
    - Color: 6111283
    - Is Instant: false
    - Is Bad: false
@@ -1297,7 +1321,7 @@ cyclicmagic:potion.saturation
 
 
 astralsorcery:potioncheatdeath
-   - Id: 161
+   - Id: 164
    - Color: 16733969
    - Is Instant: false
    - Is Bad: false
@@ -1305,7 +1329,7 @@ astralsorcery:potioncheatdeath
 
 
 astralsorcery:potionbleed
-   - Id: 162
+   - Id: 165
    - Color: 7672320
    - Is Instant: false
    - Is Bad: true
@@ -1313,7 +1337,7 @@ astralsorcery:potionbleed
 
 
 astralsorcery:potionspellplague
-   - Id: 163
+   - Id: 166
    - Color: 6816144
    - Is Instant: false
    - Is Bad: true
@@ -1321,7 +1345,7 @@ astralsorcery:potionspellplague
 
 
 astralsorcery:potiondropmodifier
-   - Id: 164
+   - Id: 167
    - Color: 16765204
    - Is Instant: false
    - Is Bad: false
@@ -1329,7 +1353,7 @@ astralsorcery:potiondropmodifier
 
 
 astralsorcery:potiontimefreeze
-   - Id: 165
+   - Id: 168
    - Color: 12098303
    - Is Instant: false
    - Is Bad: false
@@ -1337,7 +1361,7 @@ astralsorcery:potiontimefreeze
 
 
 aether_legacy:inebriation
-   - Id: 166
+   - Id: 169
    - Color: 5319035
    - Is Instant: false
    - Is Bad: true
@@ -1345,7 +1369,7 @@ aether_legacy:inebriation
 
 
 tconevo:immortality
-   - Id: 167
+   - Id: 170
    - Color: 15450243
    - Is Instant: false
    - Is Bad: false
@@ -1353,7 +1377,7 @@ tconevo:immortality
 
 
 tconevo:mortal_wounds
-   - Id: 168
+   - Id: 171
    - Color: 6249870
    - Is Instant: false
    - Is Bad: true
@@ -1361,7 +1385,7 @@ tconevo:mortal_wounds
 
 
 tconevo:damage_reduction
-   - Id: 169
+   - Id: 172
    - Color: 5899674
    - Is Instant: false
    - Is Bad: false
@@ -1369,7 +1393,7 @@ tconevo:damage_reduction
 
 
 tconevo:damage_boost
-   - Id: 170
+   - Id: 173
    - Color: 16259128
    - Is Instant: false
    - Is Bad: false
@@ -1377,7 +1401,7 @@ tconevo:damage_boost
 
 
 abyssalcraft:cplague
-   - Id: 171
+   - Id: 174
    - Color: 65535
    - Is Instant: false
    - Is Bad: true
@@ -1385,7 +1409,7 @@ abyssalcraft:cplague
 
 
 abyssalcraft:dplague
-   - Id: 172
+   - Id: 175
    - Color: 11342611
    - Is Instant: false
    - Is Bad: true
@@ -1393,7 +1417,7 @@ abyssalcraft:dplague
 
 
 abyssalcraft:antimatter
-   - Id: 173
+   - Id: 176
    - Color: 16777215
    - Is Instant: false
    - Is Bad: true
@@ -1401,7 +1425,7 @@ abyssalcraft:antimatter
 
 
 bountifulbaubles:sinful
-   - Id: 174
+   - Id: 177
    - Color: 1053463
    - Is Instant: false
    - Is Bad: false
@@ -1409,7 +1433,7 @@ bountifulbaubles:sinful
 
 
 thaumadditions:sonus
-   - Id: 175
+   - Id: 178
    - Color: 16755200
    - Is Instant: false
    - Is Bad: false
@@ -1417,7 +1441,7 @@ thaumadditions:sonus
 
 
 thaumadditions:sanity_checker
-   - Id: 176
+   - Id: 179
    - Color: -1
    - Is Instant: false
    - Is Bad: false
@@ -1425,7 +1449,7 @@ thaumadditions:sanity_checker
 
 
 extrautils2:effect.xu2.doom
-   - Id: 177
+   - Id: 180
    - Color: 3149840
    - Is Instant: false
    - Is Bad: true
@@ -1433,7 +1457,7 @@ extrautils2:effect.xu2.doom
 
 
 extrautils2:effect.xu2.gravity
-   - Id: 178
+   - Id: 181
    - Color: 2105376
    - Is Instant: false
    - Is Bad: true
@@ -1441,7 +1465,7 @@ extrautils2:effect.xu2.gravity
 
 
 extrautils2:effect.xu2.second.chance
-   - Id: 179
+   - Id: 182
    - Color: 6356848
    - Is Instant: false
    - Is Bad: false
@@ -1449,7 +1473,7 @@ extrautils2:effect.xu2.second.chance
 
 
 extrautils2:effect.xu2.greek.fire
-   - Id: 180
+   - Id: 183
    - Color: 16732160
    - Is Instant: false
    - Is Bad: true
@@ -1457,7 +1481,7 @@ extrautils2:effect.xu2.greek.fire
 
 
 extrautils2:effect.xu2.fizzy.lifting
-   - Id: 181
+   - Id: 184
    - Color: 10547296
    - Is Instant: false
    - Is Bad: true
@@ -1465,7 +1489,7 @@ extrautils2:effect.xu2.fizzy.lifting
 
 
 extrautils2:effect.xu2.relapse
-   - Id: 182
+   - Id: 185
    - Color: 6312191
    - Is Instant: false
    - Is Bad: false
@@ -1473,7 +1497,7 @@ extrautils2:effect.xu2.relapse
 
 
 extrautils2:effect.xu2.love
-   - Id: 183
+   - Id: 186
    - Color: 16761051
    - Is Instant: true
    - Is Bad: false
@@ -1481,7 +1505,7 @@ extrautils2:effect.xu2.love
 
 
 extrautils2:effect.xu2.purging
-   - Id: 184
+   - Id: 187
    - Color: 16738816
    - Is Instant: true
    - Is Bad: true

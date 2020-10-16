@@ -45,5 +45,6 @@ global whitelistedCommands as string[] = [
 	"aromabackup",
 	"backup",
 	"syncdifficulty",
+	"solarflux",
 	"foodlist"
 ];

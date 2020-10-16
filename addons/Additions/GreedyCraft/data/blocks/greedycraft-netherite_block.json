@@ -1,0 +1,21 @@
+{
+  "item_block": {
+    "name": "§e下界合金块",
+    "ore_dict": "blockNetherite",
+    "type": "additions:block_simple"
+  },
+  "name": "§e下界合金块",
+  "material": "minecraft:metal",
+  "place_sound": "minecraft:block.metal.place",
+  "break_sound": "minecraft:block.metal.break",
+  "hit_sound": "minecraft:block.metal.hit",
+  "step_sound": "minecraft:block.metal.step",
+  "fall_sound": "minecraft:block.metal.fall",
+  "map_color": "minecraft:black",
+  "hardness": 50.0,
+  "resistance": 2000.0,
+  "harvest_level": 5,
+  "harvest_tool": "pickaxe",
+  "is_beacon_base": true,
+  "type": "additions:simple"
+}

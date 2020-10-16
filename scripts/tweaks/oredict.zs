@@ -72,6 +72,8 @@ import crafttweaker.game.IGame;
 	<extrabotany:material>,
 	<cyclicmagic:corrupted_chorus>,
 	<additions:tcsponsors-sponsor_chest_fragment>,
+	<forestry:broken_bronze_pickaxe>,
+	<forestry:kit_pickaxe>,
 	<cyclicmagic:sprout_seed>,
 	<cyclicmagic:ender_pearl_reuse>,
 	<cyclicmagic:ender_eye_orb>,
@@ -103,6 +105,7 @@ import crafttweaker.game.IGame;
 	<enderio:item_basic_capacitor:4>,
 	<enderio:item_basic_capacitor:3>,
 	<bountifulbaubles:shieldcobalt>,
+	<enderio:item_travel_staff>,
 	<randomthings:lavacharm>,
 	<cyclicmagic:evoker_fang>,
 	<cyclicmagic:ender_lightning>,
@@ -118,6 +121,9 @@ import crafttweaker.game.IGame;
 	<cyclicmagic:crafting_food>,
 	<cyclicmagic:inventory_food>,
 	<cyclicmagic:ender_tnt_6>,
+	<forestry:miner_bag>,
+	<botania:overgrowthseed>,
+	<bountifulbaubles:brokenblackdragonscale>,
 	<bountifulbaubles:trinketbezoar>,
 	<bountifulbaubles:magicmirror>,
 	<bountifulbaubles:amuletsinempty>,
@@ -189,7 +195,8 @@ import crafttweaker.game.IGame;
 	<cqrepoured:boots_iron_dyable>,
 	<cyclicmagic:ender_dungeon>,
 	<cqrepoured:helmet_dragon>,
-	<extrabotany:bottledflame>
+	<extrabotany:bottledflame>,
+	<astralsorcery:itemconstellationpaper>
 ]);
 <ore:dungeonLootTier3>.addItems([
 	<additions:greedycraft-goodie_bag>,
@@ -238,3 +245,14 @@ import crafttweaker.game.IGame;
 <ore:compressed2xDirt>.addAll(<ore:compressedDirt2>);
 <ore:compressedDirt2>.addAll(<ore:compressed2xDirt>);
 <ore:beanCocoa>.add(<minecraft:dye:3>);
+<ore:quartzDark>.addAll(<ore:gemQuartzBlack>);
+<ore:gemQuartzBlack>.addAll(<ore:quartzDark>);
+<ore:blockShadowium>.add(<extrabotany:blockshadowium>);
+if(loadedMods.contains("inventorypets")) {
+	for item in loadedMods["inventorypets"].items {
+		if(item.definition.id.endsWith("pet")) {
+			<ore:inventoryPet>.add(item);
+		}
+	}
+}
+<ore:dungeonLootTier2>.addAll(<ore:inventoryPet>);

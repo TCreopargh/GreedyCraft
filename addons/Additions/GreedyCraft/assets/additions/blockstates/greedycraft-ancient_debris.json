@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis\u003dy": {
+      "model": "additions:greedycraft-ancient_debris"
+    },
+    "axis\u003dz": {
+      "model": "additions:greedycraft-ancient_debris",
+      "x": 90
+    },
+    "axis\u003dx": {
+      "model": "additions:greedycraft-ancient_debris",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

@@ -19,6 +19,12 @@ var mainPool = dungeon.getPool("main");
 mainPool.removeEntry("cyclicmagic:item.cyclic_wand_build");
 var dungeonPool1 = dungeon.getPool("pool1");  
 
+mainPool.addItemEntryHelper(<thermalfoundation:material:128>, 10, 1, [Functions.setCount(2, 12)], []);
+mainPool.addItemEntryHelper(<thermalfoundation:material:129>, 10, 1, [Functions.setCount(2, 12)], []);
+mainPool.addItemEntryHelper(<thermalfoundation:material:163>, 18, 1, [Functions.setCount(2, 10)], []);
+mainPool.addItemEntryHelper(<thermalfoundation:material:134>, 6, 1, [Functions.setCount(2, 6)], []);
+mainPool.addItemEntryHelper(<thermalfoundation:material:199>, 8, 1, [Functions.setCount(2, 8)], []);
+
 dungeon.getPool("bountifulbaubles_dungeon").removeEntry("bountifulbaubles:trinketbrokenheart");
 dungeonPool1.addItemEntryHelper(<additions:greedycraft-reward_ticket_common>, 15, 1, [Functions.setCount(1, 2)], []);
 dungeonPool1.addItemEntryHelper(<additions:greedycraft-reward_ticket_rare>, 5, 1, [Functions.setCount(1, 1)], []);
@@ -42,6 +48,8 @@ dungeonPool1.addItemEntryHelper(<abyssalcraft:shadowfragment>, 18, 1, [Functions
 dungeonPool1.addItemEntryHelper(<additions:greedycraft-huaji>, 8, 1, [Functions.setCount(1, 2)], []);
 dungeonPool1.addItemEntryHelper(<additions:greedycraft-poop>, 8, 1, [Functions.setCount(1, 2)], []);
 dungeonPool1.addItemEntryHelper(<additions:greedycraft-experience_transporter>, 1, 1, [Functions.setCount(1, 1)], []);
+dungeonPool1.addItemEntryHelper(<additions:greedycraft-blueprint_yoyo>, 1, 1, [Functions.setCount(1, 1)], []);
+dungeonPool1.addItemEntryHelper(<actuallyadditions:block_treasure_chest>, 9, 1, [Functions.setCount(1, 1)], []);
 
 var dungeonPool2 = dungeon.getPool("pool2");  
 dungeonPool2.addItemEntryHelper(<additions:greedycraft-reward_ticket_common>, 12, 1, [Functions.setCount(1, 2)], []);

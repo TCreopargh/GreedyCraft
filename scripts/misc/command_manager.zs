@@ -67,7 +67,8 @@ syncDifficultyCommand.execute = function(command, server, sender, args) {
 			}
 		}
 		server.commandManager.executeCommand(server, "/scalinghealth difficulty set " + maxDifficulty + " " + player.name);
-		player.sendChat("§e难度同步成功，你的难度已被设为§6" + maxDifficulty);
+		sender.sendMessage("§e难度同步成功，已将§6" + player.name + "§e的难度设为§6" + maxDifficulty);
+		player.sendChat("§e难度同步成功，您的难度已被设为§6" + maxDifficulty);
 	}
 };
 syncDifficultyCommand.register();
@@ -109,3 +110,55 @@ infinityStoneCommand.execute = function(command, server, sender, args) {
 	}
 };
 infinityStoneCommand.register();
+
+val unlockAllCommand as ZenCommand = ZenCommand.create("unlockallstages");
+unlockAllCommand.getCommandUsage = function(sender) {
+    return "/unlockallstages [玩家]";
+};
+unlockAllCommand.requiredPermissionLevel = 2; 
+unlockAllCommand.tabCompletion = TabCompletion.create(["player"]);
+unlockAllCommand.execute = function(command, server, sender, args) {
+	var player as IPlayer;
+	if (args.length == 0) {
+		player = CommandUtils.getCommandSenderAsPlayer(sender);
+	} else if (args.length == 1) {
+		player = CommandUtils.getPlayer(server, sender, args[0]);
+	} else {
+		CommandUtils.notifyWrongUsage(command, sender);
+		return;
+	}
+	if(!isNull(player)) {
+		for stage in listStages {
+			player.addGameStage(stage);
+		}
+		sender.sendMessage("§e已为§6" + player.name + "§e解锁§6" + listStages.length + "§e个阶段！");
+		player.sendChat("§e您已解锁§6" + listStages.length + "§e个阶段！");
+	}
+};
+unlockAllCommand.register();
+
+val lockAllCommand as ZenCommand = ZenCommand.create("lockallstages");
+lockAllCommand.getCommandUsage = function(sender) {
+    return "/lockallstages [玩家]";
+};
+lockAllCommand.requiredPermissionLevel = 2; 
+lockAllCommand.tabCompletion = TabCompletion.create(["player"]);
+lockAllCommand.execute = function(command, server, sender, args) {
+	var player as IPlayer;
+	if (args.length == 0) {
+		player = CommandUtils.getCommandSenderAsPlayer(sender);
+	} else if (args.length == 1) {
+		player = CommandUtils.getPlayer(server, sender, args[0]);
+	} else {
+		CommandUtils.notifyWrongUsage(command, sender);
+		return;
+	}
+	if(!isNull(player)) {
+		for stage in listStages {
+			player.removeGameStage(stage);
+		}
+		sender.sendMessage("§c已为§6" + player.name + "§c锁上§6" + listStages.length + "§c个阶段！");
+		player.sendChat("§c您已锁上§6" + listStages.length + "§c个阶段！");
+	}
+};
+lockAllCommand.register();

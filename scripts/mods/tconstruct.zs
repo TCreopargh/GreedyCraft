@@ -103,6 +103,15 @@ mods.tconstruct.Casting.addBasinRecipe(<candymod:chocolate_block>, null, <liquid
 
 mods.tconstruct.Alloy.addRecipe(<liquid:liquid_chocolate> * 2, [<liquid:chocolate_liquor> * 1, <liquid:milk> * 1]);
 
+mods.tconstruct.Melting.addRecipe(<liquid:netherite> * 144, <ore:ingotNetherite>, 1500);
+mods.tconstruct.Melting.addRecipe(<liquid:netherite> * 1296, <ore:blockNetherite>, 1500);
+mods.tconstruct.Casting.addTableRecipe(<additions:netherite_ingot>, <tconstruct:cast_custom>, <liquid:netherite>, 144, false, 200);
+mods.tconstruct.Casting.addBasinRecipe(<additions:greedycraft-netherite_block>, null, <liquid:netherite>, 1296, false, 300);
+mods.tconstruct.Alloy.addRecipe(<liquid:netherite> * 144, [<liquid:gold> * 576, <liquid:ancient_debris> * 576]);
+
+mods.tconstruct.Melting.addRecipe(<liquid:ancient_debris> * 160, <ore:gemAncientDebris>, 1320);
+mods.tconstruct.Melting.addRecipe(<liquid:ancient_debris> * 320, <ore:oreAncientDebris>, 1320);
+mods.tconstruct.Casting.addTableRecipe(<additions:netherite_scrap>, <tconstruct:cast_custom>, <liquid:ancient_debris>, 160, false, 200);
 //mods.tconstruct.Melting.addRecipe(<liquid:liquid_chocolate> * 48, <ore:beanCocoa>, 200);
 
 //mods.tconstruct.Melting.addRecipe(<liquid:cryonium> * 288, <additions:greedycraft-cryonium_ore>, 200);

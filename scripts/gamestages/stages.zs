@@ -4,6 +4,11 @@
 import mods.zenstages.ZenStager;
 import mods.zenstages.Stage;
 
+import crafttweaker.item.IItemStack;
+import crafttweaker.data.IData;
+import crafttweaker.item.IIngredient;
+
+
 var stageTwilightShield = ZenStager.initStage("twilight_shield");
 var stageHardmode = ZenStager.initStage("hardmode");
 var stageSkilledEngineer = ZenStager.initStage("skilled_engineer");
@@ -55,6 +60,11 @@ for mod in loadedMods {
 	}
 }
 mods.ItemStages.setUnfamiliarName("§c无法直视的头颅", <ore:skullWitherSkeleton>);
+
+function restageItem(stage as string, item as IIngredient) {
+	mods.ItemStages.removeItemStage(item);
+	mods.ItemStages.addItemStage(stage, item);
+}
 
 stageDescendantOfTheSun.addIngredients([
 	<ore:ingotInfernium>,
@@ -147,6 +157,12 @@ stageAwakened.addIngredients([
 ], true);
 
 stageNether.addIngredients([
+	<ore:eternalLifeEssence>,
+	<ore:ingotGaia>,
+	<ore:ingotNetherite>,
+	<ore:blockNetherite>,
+	<ore:gemAncientDebris>,
+	<ore:oreAncientDebris>,
 	<minecraft:beacon>,
 	<ore:oreArdite>,
 	<ore:ingotArdite>,
@@ -173,9 +189,10 @@ stageNether.addIngredients([
 	<enderio:item_dark_steel_sword>.withTag({RepairCost: 0}),
 	<minecraft:enchanting_table>,
 	<inventorypets:nether_portal_pet>,
-	<extrautils2:teleporter:1>,
 	<ore:ingotDemonicMetal>,
 	<yoyos:diamond_yoyo>,
+	<yoyos:gold_yoyo>,
+	<yoyos:shear_yoyo>,
 	<additions:greedycraft-awakened_eye>,
 	<cqrepoured:great_sword_diamond>,
 	<cqrepoured:great_sword_iron>,
@@ -267,7 +284,17 @@ stageNether.addIngredients([
 	<cqrepoured:shield_turtle>,
 	<cqrepoured:shield_walker>,
 	<cqrepoured:shield_warped>,
-	<cqrepoured:shield_zombie>
+	<cqrepoured:shield_zombie>,
+	<botania:enchanter>,
+	<thaumictinkerer:osmotic_enchanter>,
+	<ore:ingotAeroite>,
+	<ore:blockAeroite>,
+	<ore:nuggetAeroite>,
+	<ore:dustAeroite>,
+	<ore:ingotAsgardium>,
+	<ore:blockAsgardium>,
+	<ore:nuggetAsgardium>,
+	<ore:dustAsgardium>
 ], true);
 
 stageNether.addIngredients([
@@ -278,6 +305,7 @@ stageChaotic.addIngredients([
 	<ore:ingotChaoticMetal>,
 	<ore:blockChaoticMetal>,
 	<ore:nuggetChaoticMetal>,
+	<ore:dustChaoticMetal>,
 	<ore:ingotCosmilite>,
 	<ore:blockCosmilite>,
 	<additions:greedycraft-flux_singularity>,
@@ -351,6 +379,11 @@ stageHardmode.addIngredients([
 	<ore:oreCytosinite>,
 	<ore:nuggetCytosinite>,
 	<ore:dustCytosinite>,
+	<ore:ingotShadowium>,
+	<ore:blockShadowium>,
+	<ore:nuggetShadowium>,
+	<ore:dustShadowium>,
+	<extrautils2:teleporter:1>,
 	<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 5 as short}]}),
 	<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 10 as short}]})
 ], true);
@@ -544,6 +577,7 @@ stageHardmode.addOreReplacement(<additions:greedycraft-cryonium_ore>, <minecraft
 stageNether.addOreReplacement(<minecraft:quartz_ore>, <minecraft:netherrack>, false);
 stageNether.addOreReplacement(<thaumcraft:ore_quartz>, <minecraft:stone>, false);
 stageNether.addOreReplacement(<netherendingores:ore_other_1>, <minecraft:stone>, false);
+stageNether.addOreReplacement(<additions:greedycraft-aeroite_ore>, <aether_legacy:aercloud>, false);
 stageHardmode.addOreReplacement(<additions:greedycraft-cytosinite_ore>, <biomesoplenty:mud>, false);
 
 stageSkilledEngineer.addIngredients([
@@ -613,6 +647,8 @@ stageDisabled.addIngredients([
 	<botania:blackholetalisman>,
 	<bountifulbaubles:trinketbrokenheart>
 ], true);
+
+stageDisabled.addLiquid(<liquid:sakura.hot_spring_water>);
 
 stageChallenger1.addIngredients([
 	<ore:seedsTier1>,
@@ -698,98 +734,39 @@ stageDisabled.addRecipeRegex("^thermalfoundation:((tool)|(armor))(.*)$");
 stageDisabled.addRecipeRegex("^redstonearsenal:((tool)|(armor))(.*)$");
 stageDisabled.addRecipeRegex("^redstonerepository:((tool)|(armor))(.*)$");
 
-stageInfinity.addIngredientOverride(<ore:ingotInfinity>, false);
-stageInfinity.addIngredientOverride(<ore:blockInfinity>, false);
-stageInfinity.addIngredientOverride(<avaritia:infinity_sword>, false);
-stageInfinity.addIngredientOverride(<avaritia:infinity_pickaxe>, false);
-stageInfinity.addIngredientOverride(<avaritia:infinity_shovel>, false);
-stageInfinity.addIngredientOverride(<avaritia:infinity_axe>, false);
-stageInfinity.addIngredientOverride(<avaritia:infinity_hoe>, false);
-stageInfinity.addIngredientOverride(<avaritia:infinity_helmet>, false);
-stageInfinity.addIngredientOverride(<avaritia:infinity_chestplate>, false);
-stageInfinity.addIngredientOverride(<avaritia:infinity_pants>, false);
-stageInfinity.addIngredientOverride(<avaritia:infinity_boots>, false);
-stageInfinity.addIngredientOverride(<avaritia:infinity_bow>, false);
-
-stageAwakened.addIngredientOverride(<draconicevolution:chaos_shard>, false);
-stageChaoticDominator.addIngredientOverride(<draconicevolution:chaotic_core>, false);
-
-stageDisabled.addIngredientOverride(<cyclicmagic:cyclic_wand_build>, false);
-stageDisabled.addIngredientOverride(<draconicevolution:wyvern_pick>, false);
-stageDisabled.addIngredientOverride(<draconicevolution:wyvern_sword>, false);
-stageMasterEngineer.addIngredientOverride(<enderio:block_killer_joe>, false);
-stageMasterEngineer.addIngredientOverride(<cyclicmagic:block_user>, false);
-stageMasterEngineer.addIngredientOverride(<ore:alloyUltimate>, false);
-stageMasterEngineer.addIngredientOverride(<ore:circuitUltimate>, false);
-stageFusionMatrix.addIngredientOverride(<draconicevolution:wyvern_core>, false);
-
-stageAwakened.addIngredientOverride(<cyclicmagic:glowing_chorus>, false);
-
-stageDescendantOfTheSun.addIngredientOverride(<draconicevolution:awakened_core>, false);
-
-stageFusionMatrix.addIngredientOverride(<ore:dustDraconium>, false);
-
-stageWitherSlayer.addIngredientOverride(<enderio:block_reinforced_obsidian>, false);
-
-stageWyvern.addIngredientOverride(<avaritia:neutron_collector>, false);
-stageAwakened.addIngredientOverride(<avaritia:neutronium_compressor>, false);
-stageHardmode.addIngredientOverride(<cyclicmagic:block_disenchanter>, false);
-stageFusionMatrix.addIngredientOverride(<cyclicmagic:ender_lightning>, false);
-
-
 ZenStager.buildAll();
 
-mods.ItemStages.removeItemStage(<cyclicmagic:slingshot_weapon>);
+restageItem("wielder_of_infinity", <avaritia:infinity_sword>);
+restageItem("wielder_of_infinity", <avaritia:infinity_pickaxe>);
+restageItem("wielder_of_infinity", <avaritia:infinity_shovel>);
+restageItem("wielder_of_infinity", <avaritia:infinity_axe>);
+restageItem("wielder_of_infinity", <avaritia:infinity_hoe>);
+restageItem("wielder_of_infinity", <avaritia:infinity_helmet>);
+restageItem("wielder_of_infinity", <avaritia:infinity_chestplate>);
+restageItem("wielder_of_infinity", <avaritia:infinity_pants>);
+restageItem("wielder_of_infinity", <avaritia:infinity_boots>);
+restageItem("wielder_of_infinity", <ore:ingotInfinity>);
+restageItem("wielder_of_infinity", <ore:blockInfinity>);
 
-mods.ItemStages.removeItemStage(<avaritia:infinity_sword>);
-mods.ItemStages.removeItemStage(<avaritia:resource:6>);
-mods.ItemStages.removeItemStage(<avaritia:block_resource:1>);
-mods.ItemStages.addItemStage("wielder_of_infinity", <avaritia:infinity_sword>);
-mods.ItemStages.addItemStage("wielder_of_infinity", <ore:ingotInfinity>);
-mods.ItemStages.addItemStage("wielder_of_infinity", <ore:blockInfinity>);
-
-mods.ItemStages.removeItemStage(<draconicevolution:chaos_shard>);
-mods.ItemStages.removeItemStage(<draconicevolution:chaotic_core>);
-mods.ItemStages.addItemStage("awakened", <draconicevolution:chaos_shard>);
-mods.ItemStages.addItemStage("chaotic_dominator", <draconicevolution:chaotic_core>);
-
-mods.ItemStages.removeItemStage(<cyclicmagic:cyclic_wand_build>);
-mods.ItemStages.addItemStage("disabled", <cyclicmagic:cyclic_wand_build>);
-
-mods.ItemStages.removeItemStage(<draconicevolution:wyvern_pick>);
-mods.ItemStages.addItemStage("disabled", <draconicevolution:wyvern_pick>);
-
-mods.ItemStages.removeItemStage(<draconicevolution:awakened_core>);
-mods.ItemStages.addItemStage("descendant_of_the_sun", <draconicevolution:awakened_core>);
-
-mods.ItemStages.removeItemStage(<draconicevolution:wyvern_sword>);
-mods.ItemStages.addItemStage("disabled", <draconicevolution:wyvern_sword>);
-
-mods.ItemStages.removeItemStage(<avaritia:resource:5>);
-mods.ItemStages.addItemStage("chaotic", <avaritia:resource:5>);
-
-mods.ItemStages.removeItemStage(<enderio:block_killer_joe>);
-mods.ItemStages.addItemStage("master_engineer", <enderio:block_killer_joe>);
-
-mods.ItemStages.removeItemStage(<cyclicmagic:block_user>);
-mods.ItemStages.addItemStage("master_engineer", <cyclicmagic:block_user>);
-
-mods.ItemStages.removeItemStage(<ore:alloyUltimate>);
-mods.ItemStages.addItemStage("master_engineer", <ore:alloyUltimate>);
-mods.ItemStages.removeItemStage(<ore:circuitUltimate>);
-mods.ItemStages.addItemStage("master_engineer", <ore:circuitUltimate>);
-
-mods.ItemStages.removeItemStage(<ore:dustDraconium>);
-mods.ItemStages.addItemStage("fusion_matrix", <ore:dustDraconium>);
-
-mods.ItemStages.removeItemStage(<enderio:block_reinforced_obsidian>);
-mods.ItemStages.addItemStage("wither_slayer", <enderio:block_reinforced_obsidian>);
-
-mods.ItemStages.removeItemStage(<cyclicmagic:glowing_chorus>);
-mods.ItemStages.addItemStage("awakened", <cyclicmagic:glowing_chorus>);
-
-mods.ItemStages.removeItemStage(<draconicevolution:wyvern_core>);
-mods.ItemStages.addItemStage("fusion_matrix", <draconicevolution:wyvern_core>);
+restageItem("awakened", <draconicevolution:chaos_shard>);
+restageItem("chaotic_dominator", <draconicevolution:chaotic_core>);
+restageItem("disabled", <cyclicmagic:cyclic_wand_build>);
+restageItem("disabled", <draconicevolution:wyvern_pick>);
+restageItem("descendant_of_the_sun", <draconicevolution:awakened_core>);
+restageItem("disabled", <draconicevolution:wyvern_sword>);
+restageItem("chaotic", <avaritia:resource:5>);
+restageItem("master_engineer", <enderio:block_killer_joe>);
+restageItem("master_engineer", <cyclicmagic:block_user>);
+restageItem("master_engineer", <ore:alloyUltimate>);
+restageItem("master_engineer", <ore:circuitUltimate>);
+restageItem("fusion_matrix", <ore:dustDraconium>);
+restageItem("wither_slayer", <enderio:block_reinforced_obsidian>);
+restageItem("awakened", <cyclicmagic:glowing_chorus>);
+restageItem("fusion_matrix", <draconicevolution:wyvern_core>);
+restageItem("wyvern", <avaritia:neutron_collector>);
+restageItem("awakened", <avaritia:neutronium_compressor>);
+restageItem("hardmode", <cyclicmagic:block_disenchanter>);
+restageItem("fusion_matrix", <cyclicmagic:ender_lightning>);
 
 mods.ItemStages.removeItemStage(<cyclicmagic:inventory_food>);
 mods.ItemStages.removeItemStage(<cyclicmagic:crafting_food>);
@@ -797,12 +774,6 @@ mods.ItemStages.removeItemStage(<extrabotany:candybag>);
 mods.ItemStages.removeItemStage(<extrabotany:candy:*>);
 mods.ItemStages.removeItemStage(<ore:rock>);
 mods.ItemStages.removeItemStage(<taiga:basalt_block>);
-mods.ItemStages.removeItemStage(<avaritia:neutronium_compressor>);
-mods.ItemStages.removeItemStage(<avaritia:neutron_collector>);
-mods.ItemStages.addItemStage("wyvern", <avaritia:neutron_collector>);
-mods.ItemStages.addItemStage("awakened", <avaritia:neutronium_compressor>);
 mods.ItemStages.removeItemStage(<ore:dustDiamond>);
-mods.ItemStages.removeItemStage(<cyclicmagic:block_disenchanter>);
-mods.ItemStages.addItemStage("hardmode", <cyclicmagic:block_disenchanter>);
-mods.ItemStages.removeItemStage(<cyclicmagic:ender_lightning>);
-mods.ItemStages.addItemStage("fusion_matrix", <cyclicmagic:ender_lightning>);
+mods.ItemStages.removeItemStage(<cyclicmagic:slingshot_weapon>);
+mods.ItemStages.removeItemStage(<aether_legacy:aercloud:*>);

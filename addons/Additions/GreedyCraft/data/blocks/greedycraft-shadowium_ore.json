@@ -1,0 +1,22 @@
+{
+  "item_block": {
+    "name": "§5暗影矿",
+    "tooltip": "§7这种矿物几乎吸收了所有的光亮。",
+    "ore_dict": "oreShadowium",
+    "type": "additions:block_simple"
+  },
+  "name": "§5暗影矿",
+  "material": "minecraft:stone",
+  "place_sound": "minecraft:block.stone.place",
+  "break_sound": "minecraft:block.stone.break",
+  "hit_sound": "minecraft:block.stone.hit",
+  "step_sound": "minecraft:block.stone.step",
+  "fall_sound": "minecraft:block.stone.fall",
+  "map_color": "minecraft:light_gray",
+  "hardness": 25.0,
+  "resistance": 12.0,
+  "harvest_level": 7,
+  "harvest_tool": "pickaxe",
+  "light_level": 1,
+  "type": "additions:simple"
+}

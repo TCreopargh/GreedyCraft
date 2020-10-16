@@ -855,6 +855,18 @@
     {
       "item": "nyx:fallen_star|0",
       "emc": 8000
+    },
+    {
+      "item": "additions:shadowium_ingot|0",
+      "emc": 12000
+    },
+    {
+      "item": "additions:aeroite_ingot|0",
+      "emc": 2500
+    },
+    {
+      "item": "additions:asgardium_ingot|0",
+      "emc": 4000
     }
   ]
 }

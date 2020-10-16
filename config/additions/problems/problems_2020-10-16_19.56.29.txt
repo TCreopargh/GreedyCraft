@@ -1,0 +1,14 @@
+C:\Minecraft\.minecraft\versions\GreedyCraft\addons\Additions\GreedyCraft\data\loot_tables\additions\blocks\greedycraft-ancient_debris.json
+- Expected preset_block to be a block, was unknown string 'additions:greedycraft-ancient_debris'
+- Expected preset_block to be a block, was unknown string 'additions:greedycraft-ancient_debris'
+- Expected preset_block to be a block, was unknown string 'additions:greedycraft-ancient_debris'
+
+C:\Minecraft\.minecraft\versions\GreedyCraft\addons\Additions\GreedyCraft\data\loot_tables\additions\blocks\greedycraft-netherite_block.json
+- Expected preset_block to be a block, was unknown string 'additions:greedycraft-netherite_block'
+- Expected preset_block to be a block, was unknown string 'additions:greedycraft-netherite_block'
+- Expected preset_block to be a block, was unknown string 'additions:greedycraft-netherite_block'
+
+C:\Minecraft\.minecraft\versions\GreedyCraft\addons\Additions\GreedyCraft\data\loot_tables\additions\blocks\greedycraft-ancient_debris.json
+
+C:\Minecraft\.minecraft\versions\GreedyCraft\addons\Additions\GreedyCraft\data\loot_tables\additions\blocks\greedycraft-netherite_block.json
+

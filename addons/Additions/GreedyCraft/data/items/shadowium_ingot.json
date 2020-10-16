@@ -1,0 +1,7 @@
+{
+  "name": "§5暗影锭",
+  "is_beacon_payment": true,
+  "tooltip": "§7这种金属几乎吞噬了一切光亮。",
+  "ore_dict": "ingotShadowium",
+  "type": "additions:simple"
+}
