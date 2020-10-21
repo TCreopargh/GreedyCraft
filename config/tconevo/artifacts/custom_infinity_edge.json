@@ -1,0 +1,13 @@
+{
+    "weight": 750,
+    "type": "tconevo:tool",
+    "name": "无尽之刃",
+    "lore": "刀起头落。",
+    "tool": "cleaver",
+    "materials": [
+        "bronze",
+        "nickel",
+        "aluminium",
+        "platinum"
+    ]
+}

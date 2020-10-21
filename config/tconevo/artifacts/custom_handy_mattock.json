@@ -1,0 +1,12 @@
+{
+    "weight": 125,
+    "type": "tconevo:tool",
+    "name": "超级顺手的鹤嘴锄",
+    "lore": "不知为何，当你拿起它的时候，你感觉这辈子都拿不到比它更顺手的工具了。",
+    "tool": "mattock",
+    "materials": [
+        "nickel",
+        "modularium",
+        "invar"
+    ]
+}

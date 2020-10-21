@@ -1,3 +1,11 @@
+/*
+ * This script is created for the GreedyCraft modpack by TCreopargh.
+ * You may NOT use this script in any other publicly distributed modpack without my permission.
+ * Powered by TCreopargh.
+ * All rights reserved.
+ */
+
+#priority 1000
 
 brewing.addBrew(<minecraft:potion>.withTag({Potion: "minecraft:awkward"}), [<minecraft:dye:0>], <minecraft:potion>.withTag({Potion: "potioncore:blindness"}));
 brewing.addBrew(<minecraft:potion>.withTag({Potion: "potioncore:blindness"}), [<ore:dustGlowstone>], <minecraft:potion>.withTag({Potion: "potioncore:strong_blindness"}));

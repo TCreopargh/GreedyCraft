@@ -867,6 +867,10 @@
     {
       "item": "additions:asgardium_ingot|0",
       "emc": 4000
+    },
+    {
+      "item": "thermalfoundation:material|160",
+      "emc": 3200
     }
   ]
 }

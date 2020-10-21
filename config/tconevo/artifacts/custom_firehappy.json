@@ -1,0 +1,12 @@
+{
+  "weight": 150,
+  "type": "tconevo:tool",
+  "name": "火之高兴",
+  "lore": "霜之哀伤的反义词...吧？",
+  "tool": "broadsword",
+  "materials": [
+    "fusion_matrix",
+    "asgardium",
+    "infernium"
+  ]
+}

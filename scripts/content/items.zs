@@ -1,7 +1,12 @@
-#priority 2200
-#disable_search_tree
-#loader contenttweaker 
+/*
+ * This script is created for the GreedyCraft modpack by TCreopargh.
+ * You may NOT use this script in any other publicly distributed modpack without my permission.
+ * Powered by TCreopargh.
+ * All rights reserved.
+ */
 
+#loader contenttweaker 
+#priority 2200
 #norun
 
 //For items added by this modpack, please go to the /addons/additions folder.

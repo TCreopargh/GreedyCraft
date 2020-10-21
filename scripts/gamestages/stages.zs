@@ -1,4 +1,11 @@
-#disable_search_tree
+/*
+ * This script is created for the GreedyCraft modpack by TCreopargh.
+ * You may NOT use this script in any other publicly distributed modpack without my permission.
+ * Powered by TCreopargh.
+ * All rights reserved.
+ */
+
+
 #priority 950
 #modloaded projecte
 import mods.zenstages.ZenStager;
@@ -64,6 +71,12 @@ mods.ItemStages.setUnfamiliarName("§c无法直视的头颅", <ore:skullWitherSk
 function restageItem(stage as string, item as IIngredient) {
 	mods.ItemStages.removeItemStage(item);
 	mods.ItemStages.addItemStage(stage, item);
+}
+function restageItems(stage as string, items as IIngredient[]) {
+	for item in items {
+		mods.ItemStages.removeItemStage(item);
+		mods.ItemStages.addItemStage(stage, item);
+	}
 }
 
 stageDescendantOfTheSun.addIngredients([
@@ -393,7 +406,6 @@ stageInfinity.addIngredients([
 	<additions:greedycraft-greedy_medal>,
 	<ore:blockCompressedInfinity>,
 	<ore:blockDoubleCompressedInfinity>,
-	<enderio:item_soul_vial:*>,
 	<extrabotany:managenerator>,
 	<ambience:horn>,
 	<ambience:ocarina>,
@@ -751,7 +763,6 @@ restageItem("wielder_of_infinity", <ore:blockInfinity>);
 restageItem("awakened", <draconicevolution:chaos_shard>);
 restageItem("chaotic_dominator", <draconicevolution:chaotic_core>);
 restageItem("disabled", <cyclicmagic:cyclic_wand_build>);
-restageItem("disabled", <draconicevolution:wyvern_pick>);
 restageItem("descendant_of_the_sun", <draconicevolution:awakened_core>);
 restageItem("disabled", <draconicevolution:wyvern_sword>);
 restageItem("chaotic", <avaritia:resource:5>);
@@ -767,6 +778,53 @@ restageItem("wyvern", <avaritia:neutron_collector>);
 restageItem("awakened", <avaritia:neutronium_compressor>);
 restageItem("hardmode", <cyclicmagic:block_disenchanter>);
 restageItem("fusion_matrix", <cyclicmagic:ender_lightning>);
+restageItem("graduated", <cyclicmagic:battery_infinite>);
+restageItems("disabled", [
+	<draconicevolution:wyvern_sword>,
+	<draconicevolution:wyvern_shovel>,
+	<draconicevolution:wyvern_bow>,
+	<draconicevolution:wyvern_axe>,
+	<draconicevolution:wyvern_pick>,
+	<draconicevolution:wyvern_helm>,
+	<draconicevolution:wyvern_chest>,
+	<draconicevolution:wyvern_legs>,
+	<draconicevolution:wyvern_boots>,
+	<draconicevolution:draconic_sword>,
+	<draconicevolution:draconic_shovel>,
+	<draconicevolution:draconic_bow>,
+	<draconicevolution:draconic_axe>,
+	<draconicevolution:draconic_pick>,
+	<draconicevolution:draconic_helm>,
+	<draconicevolution:draconic_chest>,
+	<draconicevolution:draconic_legs>,
+	<draconicevolution:draconic_boots>,
+	<draconicadditions:chaotic_helm>,
+	<draconicadditions:chaotic_chest>,
+	<draconicadditions:chaotic_legs>,
+	<draconicadditions:chaotic_boots>,
+	<draconicevolution:wyvern_sword>.withTag({DEUpgrades: {}}),
+	<draconicevolution:wyvern_shovel>.withTag({DEUpgrades: {}}),
+	<draconicevolution:wyvern_bow>.withTag({DEUpgrades: {}}),
+	<draconicevolution:wyvern_axe>.withTag({DEUpgrades: {}}),
+	<draconicevolution:wyvern_pick>.withTag({DEUpgrades: {}}),
+	<draconicevolution:wyvern_helm>.withTag({DEUpgrades: {}}),
+	<draconicevolution:wyvern_chest>.withTag({DEUpgrades: {}}),
+	<draconicevolution:wyvern_legs>.withTag({DEUpgrades: {}}),
+	<draconicevolution:wyvern_boots>.withTag({DEUpgrades: {}}),
+	<draconicevolution:draconic_sword>.withTag({DEUpgrades: {}}),
+	<draconicevolution:draconic_shovel>.withTag({DEUpgrades: {}}),
+	<draconicevolution:draconic_bow>.withTag({DEUpgrades: {}}),
+	<draconicevolution:draconic_axe>.withTag({DEUpgrades: {}}),
+	<draconicevolution:draconic_pick>.withTag({DEUpgrades: {}}),
+	<draconicevolution:draconic_helm>.withTag({DEUpgrades: {}}),
+	<draconicevolution:draconic_chest>.withTag({DEUpgrades: {}}),
+	<draconicevolution:draconic_legs>.withTag({DEUpgrades: {}}),
+	<draconicevolution:draconic_boots>.withTag({DEUpgrades: {}}),
+	<draconicadditions:chaotic_helm>.withTag({DEUpgrades: {}}),
+	<draconicadditions:chaotic_chest>.withTag({DEUpgrades: {}}),
+	<draconicadditions:chaotic_legs>.withTag({DEUpgrades: {}}),
+	<draconicadditions:chaotic_boots>.withTag({DEUpgrades: {}})
+]);
 
 mods.ItemStages.removeItemStage(<cyclicmagic:inventory_food>);
 mods.ItemStages.removeItemStage(<cyclicmagic:crafting_food>);
@@ -777,3 +835,5 @@ mods.ItemStages.removeItemStage(<taiga:basalt_block>);
 mods.ItemStages.removeItemStage(<ore:dustDiamond>);
 mods.ItemStages.removeItemStage(<cyclicmagic:slingshot_weapon>);
 mods.ItemStages.removeItemStage(<aether_legacy:aercloud:*>);
+mods.ItemStages.removeItemStage(<ore:dustSalt>);
+mods.ItemStages.removeItemStage(<mekanism:salt>);

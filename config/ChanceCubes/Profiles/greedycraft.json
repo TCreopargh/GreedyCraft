@@ -1,7 +1,7 @@
 {
     "greedycraft": {
-        "name": "è´ªå©ªæ•´åˆåŒ…ChanceCubes",
-        "description": "ç¦ç”¨äº†ä¸€äº›çƒ¦äººçš„å’Œè¿‡äºOPçš„å¥–åŠ±",
+        "name": "GreedyCraft ChanceCubes",
+        "description": "½ûÓÃÁËÒ»Ğ©·³ÈËµÄºÍ¹ıÓÚOPµÄ½±Àø",
 		"rewards_to_disable": 
 		[ 
 			"chancecubes:inventory_bomb",
@@ -12,7 +12,8 @@
 			"chancecubes:divine_helmet",
 			"chancecubes:divine_chestplate",
 			"chancecubes:divine_leggings",
-			"chancecubes:divine_boots"
+			"chancecubes:divine_boots",
+			"chancecubes:item_of_destiny"
 		] 
 	}
 }

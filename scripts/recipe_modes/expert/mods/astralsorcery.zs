@@ -1,6 +1,11 @@
-#priority 20
-#disable_search_tree
-#packmode expert
+/*
+ * This script is created for the GreedyCraft modpack by TCreopargh.
+ * You may NOT use this script in any other publicly distributed modpack without my permission.
+ * Powered by TCreopargh.
+ * All rights reserved.
+ */
+
+#packmode expert#priority 20
 
 mods.astralsorcery.Altar.addConstellationAltarRecipe("philosophers_stone", <projecte:item.pe_philosophers_stone>.withTag({}), 3000, 800, [
             <astralsorcery:itemusabledust>, null, <astralsorcery:itemusabledust>,
@@ -31,5 +36,5 @@ mods.astralsorcery.Altar.addTraitAltarRecipe("astral_metal", <additions:astral_m
 <astralsorcery:itemcraftingcomponent:4>, <astralsorcery:itemcraftingcomponent:4>, <astralsorcery:itemcraftingcomponent:4>, <astralsorcery:itemcraftingcomponent:4>,
 null, null, null, null, null, null, null, null, 
 <ore:dustAstralStarmetal>, <ore:dustAstralStarmetal>, <ore:dustAstralStarmetal>, <ore:dustAstralStarmetal>,
-<ore:fallenStar>, <ore:fallenStar>, <ore:netherStar>, <ore:netherStar>
+<ore:fallenStar>, <ore:fallenStar>, <ore:fallenStar>, <ore:fallenStar>
 ], "astralsorcery.constellation.aevitas");

@@ -158,6 +158,131 @@
 				]
 			}
 		},
+		"organic_fluid": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"type": "lake",
+				"total-outline": true,
+				"block": [{
+					"name": "contenttweaker:organic_fluid",
+					"weight": 100
+				}],
+				"outline-block": [{
+					"name": "minecraft:leaves",
+					"metadata": 3,
+					"weight": 20
+				}, {
+					"name": "minecraft:log",
+					"metadata": 3,
+					"weight": 30
+				}, {
+					"name": "minecraft:mossy_cobblestone",
+					"weight": 50
+				}],
+				"material": "minecraft:stone",
+				"cluster-size": 320
+			},
+			"cluster-count": 1,
+			"chunk-chance": 15,
+			"min-height": 11,
+			"max-height": 40,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [{
+						"type": "dictionary",
+						"entry": "JUNGLE"
+					},
+					{
+						"type": "dictionary",
+						"entry": "DENSE"
+					},
+					{
+						"type": "dictionary",
+						"entry": "SWAMP"
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					1,
+					-1
+				]
+			}
+		},
+		"beehive": {
+			"enabled": "true",
+			"distribution": "gaussian",
+			"generator": {
+				"type": "geode",
+				"block": [{
+					"name": "biomesoplenty:honey",
+					"weight": 100
+				}],
+				"useMaterial": true,
+				"crust": [{
+						"name": "biomesoplenty:hive",
+						"metadata": 1,
+						"weight": 70
+					},
+					{
+						"name": "biomesoplenty:hive",
+						"metadata": 2,
+						"weight": 15
+					},
+					{
+						"name": "biomesoplenty:hive",
+						"metadata": 3,
+						"weight": 10
+					},
+					{
+						"name": "biomesoplenty:hive",
+						"metadata": 0,
+						"weight": 4
+					},
+					{
+						"name": "biomesoplenty:honey_block",
+						"metadata": 0,
+						"weight": 1
+					}
+				],
+				"hollow": false,
+				"material": "minecraft:air",
+				"cluster-size": 500
+			},
+			"chunk-chance": 150,
+			"cluster-count": 1,
+			"center-height": 25,
+			"spread": 20,
+			"smoothness": 3,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [{
+						"type": "dictionary",
+						"entry": "JUNGLE"
+					},
+					{
+						"type": "dictionary",
+						"entry": "DENSE"
+					},
+					{
+						"type": "dictionary",
+						"entry": "SWAMP"
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0,
+					7,
+					111
+				]
+			}
+		},
 		"aeroite_cloud": {
 			"enabled": "true",
 			"distribution": "gaussian",
@@ -307,7 +432,7 @@
 				"cluster-size": 8
 			},
 			"cluster-count": 20,
-			"chunk-chance": 3,
+			"chunk-chance": 2,
 			"min-height": 5,
 			"max-height": 128,
 			"retrogen": "true",
@@ -343,6 +468,30 @@
 				]
 			}
 		},
+		"emerald": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": [{
+					"name": "minecraft:emerald_ore",
+					"weight": 100
+				}],
+				"material": "minecraft:stone",
+				"cluster-size": 1
+			},
+			"cluster-count": 1,
+			"min-height": 5,
+			"max-height": 40,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
 		"ancient_debris": {
 			"enabled": "true",
 			"distribution": "uniform",
@@ -366,8 +515,41 @@
 			},
 			"cluster-count": 1,
 			"min-height": 5,
-			"max-height": 48,
-			"chunk-chance": 3,
+			"max-height": 40,
+			"chunk-chance": 2,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-1
+				]
+			}
+		},
+		"valyrium": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": [{
+					"name": "taiga:valyrium_ore",
+					"weight": 100
+				}],
+				"material": [{
+					"name": "minecraft:netherrack"
+				}, {
+					"name": "netherex:gloomy_netherrack"
+				}, {
+					"name": "netherex:fiery_netherrack"
+				}, {
+					"name": "netherex:icy_netherrack"
+				}, {
+					"name": "netherex:lively_netherrack"
+				}],
+				"cluster-size": 1
+			},
+			"cluster-count": 4,
+			"min-height": 5,
+			"max-height": 72,
 			"retrogen": "true",
 			"biome": "all",
 			"dimension": {
@@ -575,17 +757,17 @@
 			"generator": {
 				"block": [{
 						"name": "additions:greedycraft-cytosinite_ore",
-						"weight": 10
+						"weight": 5
 					},
 					{
 						"name": "biomesoplenty:mud",
-						"weight": 90
+						"weight": 95
 					}
 				],
 				"material": "minecraft:stone",
-				"cluster-size": 120
+				"cluster-size": 320
 			},
-			"cluster-count": 3,
+			"cluster-count": 2,
 			"min-height": 5,
 			"max-height": 55,
 			"retrogen": "true",
@@ -622,9 +804,9 @@
 					"weight": 100
 				}],
 				"material": "minecraft:stone",
-				"cluster-size": 280
+				"cluster-size": 450
 			},
-			"cluster-count": 20,
+			"cluster-count": 28,
 			"min-height": 5,
 			"max-height": 55,
 			"retrogen": "true",

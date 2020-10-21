@@ -252,21 +252,21 @@
         "weight": 250
     },
     {
-        "content": "entity:minecraft:spider",
+        "content": "entity:minecraft:creeper",
         "amount": {
             "min": 4,
-            "max": 36
+            "max": 20
         },
         "unitWorth": 350,
-        "weight": 300
+        "weight": 200
     },
 	{
-        "content": "entity:minecraft:cave_spider",
+        "content": "entity:minecraft:enderman",
         "amount": {
             "min": 4,
             "max": 30
         },
-        "unitWorth": 450,
+        "unitWorth": 850,
         "weight": 300
     },
     {

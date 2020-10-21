@@ -1,8 +1,8 @@
 {
-	title: "更好的共振器",
+	title: "§d漫天星辰",
 	x: 14.0d,
 	y: 4.0d,
-	description: "获得艾克斯共振器",
+	description: "获得星辰锭",
 	dependencies: [
 		"470b67b1"
 	],
@@ -10,15 +10,10 @@
 		uid: "8a34e4ed",
 		type: "item",
 		items: [{
-			id: "astralsorcery:itemskyresonator",
-			tag: {
-				astralsorcery: {
-					enhanced: 1b
-				}
-			}
+			id: "additions:astral_metal_ingot"
 		}],
 		ignore_damage: true,
-		ignore_nbt: 2b
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "0f60ff37",

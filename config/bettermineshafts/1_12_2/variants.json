@@ -5,12 +5,10 @@
         [
           "HOT",
           "DRY",
-          "SANDY",
-          "RARE"
+          "SANDY"
         ],
         [
-          "MESA",
-          "RARE"
+          "MESA"
         ]
       ],
       "mainSelector": {
@@ -68,8 +66,7 @@
     {
       "biomeTags": [
         [
-          "SNOWY",
-          "RARE"
+          "SNOWY"
         ]
       ],
       "mainSelector": {
@@ -281,7 +278,6 @@
       "biomeTags": [
         [
           "COLD",
-          "CONIFEROUS",
           "FOREST"
         ]
       ],
@@ -449,6 +445,9 @@
       "biomeTags": [
         [
           "MUSHROOM"
+        ],
+		[
+          "SWAMP"
         ]
       ],
       "mainSelector": {

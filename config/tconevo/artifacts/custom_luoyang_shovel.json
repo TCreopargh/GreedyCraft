@@ -1,0 +1,12 @@
+{
+    "weight": 80,
+    "type": "tconevo:tool",
+    "name": "洛阳铲",
+    "lore": "透露着浓厚的历史韵味。",
+    "tool": "shovel",
+    "materials": [
+        "seared",
+        "scorched",
+        "bronze"
+    ]
+}

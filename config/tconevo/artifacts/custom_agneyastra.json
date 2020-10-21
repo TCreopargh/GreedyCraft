@@ -1,14 +1,14 @@
 {
   "weight": 400,
   "type": "tconevo:tool",
-  "name": "Agneyastra",
-  "lore": "The ultimate burning weapon of an ancient fire god.",
+  "name": "火神之镰",
+  "lore": "远古火神手持的终极武器。",
   "tool": "scythe",
   "materials": [
-    "kyronite",
-    "aethium",
+    "emerald_plustic",
     "netherrack",
-    "pink_metal"
+    "sakura_diamond",
+    "fierymetal"
   ],
   "free_mods": 3,
   "mods": [

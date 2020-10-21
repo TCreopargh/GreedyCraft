@@ -1,4 +1,11 @@
-#disable_search_tree
+/*
+ * This script is created for the GreedyCraft modpack by TCreopargh.
+ * You may NOT use this script in any other publicly distributed modpack without my permission.
+ * Powered by TCreopargh.
+ * All rights reserved.
+ */
+
+
 #priority 20
 #packmode expert
 
@@ -75,7 +82,7 @@ recipes.addShaped("auto_gen_-226107769", <additions:greedycraft-twilight_gem>,
 recipes.addShaped("auto_gen_-1501549292", <additions:greedycraft-ender_charm>, 
 [[<ore:dustEnderium>, <ore:gaiaIngot>, <ore:dustEnderium>],
 [<ore:netherStar>, <abyssalcraft:dreadkey>.transformReplace(<abyssalcraft:dreadkey>), <ore:netherStar>],
-[<ore:dustEnderium>, <ore:gaiaIngot>, <ore:dustEnderium>]]);
+[<ore:ingotNetherite>, <ore:gaiaIngot>, <ore:ingotNetherite>]]);
 recipes.addShaped("auto_gen_-47119480", <actuallyadditions:block_misc:9>, 
 [[<ore:ingotSteel>, <ore:dustNetherQuartz>, <ore:ingotSteel>],
 [<ore:dustNetherQuartz>, <ore:gemQuartzBlack>, <ore:dustNetherQuartz>],

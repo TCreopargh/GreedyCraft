@@ -1,4 +1,11 @@
-#disable_search_tree
+/*
+ * This script is created for the GreedyCraft modpack by TCreopargh.
+ * You may NOT use this script in any other publicly distributed modpack without my permission.
+ * Powered by TCreopargh.
+ * All rights reserved.
+ */
+
+
 #priority 90
 import crafttweaker.event.PlayerLoggedInEvent;
 import crafttweaker.player.IPlayer;

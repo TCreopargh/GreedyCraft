@@ -1,8 +1,8 @@
 {
   "weight": 100,
   "type": "tconevo:tool",
-  "name": "Dragon's Tooth",
-  "lore": "Nano-scale whetting devices keep its blade razor-sharp.",
+  "name": "龙牙之剑",
+  "lore": "使用纳米级加湿装置以保持其刀片锋利。",
   "tool": "longsword",
   "materials": [
     "wood",

@@ -1,11 +1,11 @@
 {
   "weight": 650,
   "type": "tconevo:tool",
-  "name": "Stormbow",
-  "lore": "A bow that darkens the skies with floods of arrows.",
+  "name": "风暴之弓",
+  "lore": "这把弓能够快速射出成千上万的箭。",
   "tool": "shortbow",
   "materials": [
-    "cobalt",
+    "nickel",
     "signalum",
     "fluxed_string"
   ]

@@ -1,4 +1,11 @@
-#disable_search_tree
+/*
+ * This script is created for the GreedyCraft modpack by TCreopargh.
+ * You may NOT use this script in any other publicly distributed modpack without my permission.
+ * Powered by TCreopargh.
+ * All rights reserved.
+ */
+
+
 #priority 800
 
 
@@ -84,6 +91,10 @@ val localizationMap as string[string] = {
     "fluid.orichalcos": "熔融奥利哈钢",
 	"fluid.netherite": "熔融下界合金",
 	"fluid.ancient_debris": "熔融远古残骸",
+	"fluid.scorched": "熔融高炉砖",
+	"fluid.organic_fluid": "有机液",
+	"fluid.poison": "毒液",
+	"fluid.modularium": "熔融模块化合金",
 	"jaopca.entry.Dilithium": "双锂",
 	"jaopca.entry.Asgardium": "神金",
 	"jaopca.entry.Shadowium": "暗影",

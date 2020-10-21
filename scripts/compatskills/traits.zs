@@ -1,6 +1,11 @@
-#priority 40
-#disable_search_tree
+/*
+ * This script is created for the GreedyCraft modpack by TCreopargh.
+ * You may NOT use this script in any other publicly distributed modpack without my permission.
+ * Powered by TCreopargh.
+ * All rights reserved.
+ */
 
+#priority 40
 import mods.ctutils.utils.Math;
 import crafttweaker.damage.IDamageSource;
 import crafttweaker.player.IPlayer;
@@ -49,11 +54,26 @@ experience_grinder.onMobDrops = function(event as crafttweaker.event.EntityLivin
 	}
 };
 
-var turbo_miner = mods.compatskills.TraitCreator.createTrait("turbo_miner", 1, 2, "reskillable:mining", 4, "reskillable:mining|12");
+var turbo_miner = mods.compatskills.TraitCreator.createTrait("turbo_miner", 1, 0, "reskillable:mining", 4, "reskillable:mining|12");
 turbo_miner.name = "涡轮增压挖掘机";
 turbo_miner.description = "显著提高挖掘速度";
 turbo_miner.changeIcon("greedycraft:skills/turbo_miner.png");
 turbo_miner.setEnabled(true);
 turbo_miner.getBreakSpeed = function(event as crafttweaker.event.PlayerBreakSpeedEvent) {
     event.newSpeed = (event.originalSpeed * 1.5) as float;
+};
+
+var essence_reaper = mods.compatskills.TraitCreator.createTrait("essence_reaper", 2, 0, "reskillable:farming", 4, "reskillable:farming|12");
+essence_reaper.name = "精华收割者";
+essence_reaper.description = "击杀怪物时有概率获得更多的下级精华";
+essence_reaper.changeIcon("greedycraft:skills/essence_reaper.png");
+essence_reaper.setEnabled(true);
+essence_reaper.onMobDrops = function(event as crafttweaker.event.EntityLivingDeathDropsEvent) {
+    if(Math.random() as double < 0.3) {
+		var damageSource as IDamageSource = event.damageSource;
+		if(damageSource.getTrueSource() instanceof IPlayer) {
+			var amount as int = Math.ceil(Math.random() * 4) as int;
+			event.addItem(<mysticalagriculture:crafting> * amount);
+		}
+	}
 };

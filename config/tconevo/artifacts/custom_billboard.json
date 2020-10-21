@@ -1,0 +1,11 @@
+{
+  "weight": 150,
+  "type": "tconevo:tool",
+  "name": "微缩版户外广告牌",
+  "lore": "搞不太懂为啥你要把这个拿在手上。",
+  "tool": "battlesign",
+  "materials": [
+    "iron",
+    "alumite"
+  ]
+}

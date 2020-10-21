@@ -1,8 +1,8 @@
 {
   "weight": 1000,
   "type": "tconevo:tool",
-  "name": "Maelstrom",
-  "lore": "An instrument capable of harnessing the power of electricity.",
+  "name": "机动之斧",
+  "lore": "这把斧子极大的利用了电力。",
   "tool": "hatchet",
   "materials": [
     "carbon_fiber",

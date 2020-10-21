@@ -1,4 +1,11 @@
-#disable_search_tree
+/*
+ * This script is created for the GreedyCraft modpack by TCreopargh.
+ * You may NOT use this script in any other publicly distributed modpack without my permission.
+ * Powered by TCreopargh.
+ * All rights reserved.
+ */
+
+
 #priority 1000
 mods.tconstruct.Melting.addRecipe(<liquid:blood> * 200, <ore:listAllmeatraw>, 200);
 mods.tconstruct.Melting.addRecipe(<liquid:pyrotheum> * 100, <ore:dustBlaze>, 1300);
@@ -54,7 +61,7 @@ mods.tconstruct.Casting.addTableRecipe(<tconevo:material>, <tconstruct:cast_cust
 mods.tconstruct.Casting.addBasinRecipe(<additions:greedycraft-fusion_matrix_block>, null, <liquid:fusion_matrix>, 1296, false, 300);
 mods.tconstruct.Melting.addRecipe(<liquid:fusion_matrix> * 144, <tconevo:material>, 1300);
 mods.tconstruct.Melting.addRecipe(<liquid:fusion_matrix> * 1296, <ore:blockFusionMatrix>, 1300);
-mods.tconstruct.Alloy.addRecipe(<liquid:fusion_matrix> * 1, [<liquid:manyullyn> * 2, <liquid:adamant_fluid> * 1, <liquid:enderium> * 2]);
+mods.tconstruct.Alloy.addRecipe(<liquid:fusion_matrix> * 2, [<liquid:manyullyn> * 2, <liquid:adamant_fluid> * 1, <liquid:enderium> * 2]);
 mods.tconstruct.Alloy.addRecipe(<liquid:fluxed_electrum> * 288, [<liquid:gold> * 144, <liquid:silver> * 144, <liquid:redstone> * 1000]);
 mods.tconstruct.Alloy.addRecipe(<liquid:adamant_fluid> * 3, [<liquid:nihilite_fluid> * 1, <liquid:iox_fluid> * 3]);
 
@@ -112,6 +119,27 @@ mods.tconstruct.Alloy.addRecipe(<liquid:netherite> * 144, [<liquid:gold> * 576, 
 mods.tconstruct.Melting.addRecipe(<liquid:ancient_debris> * 160, <ore:gemAncientDebris>, 1320);
 mods.tconstruct.Melting.addRecipe(<liquid:ancient_debris> * 320, <ore:oreAncientDebris>, 1320);
 mods.tconstruct.Casting.addTableRecipe(<additions:netherite_scrap>, <tconstruct:cast_custom>, <liquid:ancient_debris>, 160, false, 200);
+mods.tconstruct.Casting.removeTableRecipe(<tcomplement:materials:1>);
+mods.tconstruct.Casting.removeBasinRecipe(<tcomplement:scorched_block>);
+mods.tconstruct.Casting.removeBasinRecipe(<tcomplement:scorched_block:1>);
+mods.tconstruct.Casting.removeBasinRecipe(<tcomplement:scorched_block:10>);
+mods.tconstruct.Melting.addRecipe(<liquid:scorched> * 144, <ore:ingotBrickScorched>, 900);
+mods.tconstruct.Melting.addRecipe(<liquid:scorched> * 576, <ore:blockScorched>, 900);
+mods.tconstruct.Melting.addRecipe(<liquid:scorched> * 288, <ore:slabScorched>, 900);
+mods.tconstruct.Melting.addRecipe(<liquid:scorched> * 432, <ore:stairScorched>, 900);
+mods.tconstruct.Melting.addRecipe(<liquid:iron> * 288, <actuallyadditions:item_misc:20>, 1100);
+mods.tconstruct.Alloy.addRecipe(<liquid:scorched> * 144, [<liquid:lava> * 144, <liquid:stone> * 144]);
+mods.tconstruct.Casting.addTableRecipe(<tcomplement:materials:1>, <tconstruct:cast_custom>, <liquid:scorched>, 144, false, 200);
+mods.tconstruct.Casting.addBasinRecipe(<tcomplement:scorched_block>, null, <liquid:scorched>, 1296, false, 300);
+mods.tconstruct.Melting.addRecipe(<liquid:organic_fluid> * 100, <mysticalagriculture:fertilized_essence>, 400);
+mods.tconstruct.Melting.addRecipe(<liquid:organic_fluid> * 150, <mysticalagriculture:mystical_fertilizer>, 400);
+mods.tconstruct.Melting.addRecipe(<liquid:organic_fluid> * 25, <ore:itemBiomass>, 400);
+mods.tconstruct.Melting.addRecipe(<liquid:organic_fluid> * 45, <ore:itemBiomassRich>, 400);
+mods.tconstruct.Melting.addRecipe(<liquid:organic_fluid> * 90, <ore:itemBioblend>, 400);
+mods.tconstruct.Melting.addRecipe(<liquid:organic_fluid> * 115, <ore:itemBioblendRich>, 400);
+mods.tconstruct.Casting.addTableRecipe(<modularmachinery:itemmodularium>, <tconstruct:cast_custom>, <liquid:modularium>, 144, false, 200);
+mods.tconstruct.Alloy.addRecipe(<liquid:modularium> * 288, [<liquid:iron> * 144, <liquid:bronze> * 144, <liquid:redstone> * 100]);
+mods.tconstruct.Melting.addRecipe(<liquid:modularium> * 144, <ore:ingotModularium>, 900);
 //mods.tconstruct.Melting.addRecipe(<liquid:liquid_chocolate> * 48, <ore:beanCocoa>, 200);
 
 //mods.tconstruct.Melting.addRecipe(<liquid:cryonium> * 288, <additions:greedycraft-cryonium_ore>, 200);

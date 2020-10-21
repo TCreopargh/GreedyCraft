@@ -485,6 +485,28 @@
   },
   {
     "coreMaterialStats": {
+      "durability": 4.0,
+      "defense": 25.649998,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 15.360001,
+      "modifier": 20.32941,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 15.360001,
+      "materialType": "trim"
+    },
+    "identifier": "seared",
+    "color": -10395295,
+    "type": "METAL",
+    "castable": true,
+    "craftable": false
+  },
+  {
+    "coreMaterialStats": {
       "durability": 37.0,
       "defense": 30.6,
       "materialType": "core"
@@ -2000,6 +2022,28 @@
     "type": "METAL",
     "castable": false,
     "craftable": true
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 33.0,
+      "defense": 33.3,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 38.4,
+      "modifier": 25.411766,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 38.4,
+      "materialType": "trim"
+    },
+    "identifier": "modularium",
+    "color": -43230,
+    "type": "METAL",
+    "castable": true,
+    "craftable": false
   },
   {
     "coreMaterialStats": {
@@ -5253,6 +5297,28 @@
     },
     "identifier": "nucleum",
     "color": -171,
+    "type": "METAL",
+    "castable": true,
+    "craftable": false
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 12.0,
+      "defense": 39.149998,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 28.16,
+      "modifier": 27.952942,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 28.16,
+      "materialType": "trim"
+    },
+    "identifier": "scorched",
+    "color": -11450845,
     "type": "METAL",
     "castable": true,
     "craftable": false

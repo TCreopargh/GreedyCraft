@@ -1,4 +1,11 @@
-#disable_search_tree
+/*
+ * This script is created for the GreedyCraft modpack by TCreopargh.
+ * You may NOT use this script in any other publicly distributed modpack without my permission.
+ * Powered by TCreopargh.
+ * All rights reserved.
+ */
+
+
 #priority 90
 // Powered by TCreopargh
 
@@ -24,6 +31,10 @@ mainPool.addItemEntryHelper(<thermalfoundation:material:129>, 10, 1, [Functions.
 mainPool.addItemEntryHelper(<thermalfoundation:material:163>, 18, 1, [Functions.setCount(2, 10)], []);
 mainPool.addItemEntryHelper(<thermalfoundation:material:134>, 6, 1, [Functions.setCount(2, 6)], []);
 mainPool.addItemEntryHelper(<thermalfoundation:material:199>, 8, 1, [Functions.setCount(2, 8)], []);
+mainPool.addItemEntryHelper(<tofucraft:tofu_food>, 16, 1, [Functions.setCount(24, 64)], []);
+mainPool.addItemEntryHelper(<tofucraft:tofu_food:2>, 8, 1, [Functions.setCount(12, 32)], []);
+mainPool.addItemEntryHelper(<tofucraft:tofu_food:3>, 10, 1, [Functions.setCount(12, 24)], []);
+mainPool.addItemEntryHelper(<tofucraft:tofu_material>, 4, 1, [Functions.setCount(4, 20)], []);
 
 dungeon.getPool("bountifulbaubles_dungeon").removeEntry("bountifulbaubles:trinketbrokenheart");
 dungeonPool1.addItemEntryHelper(<additions:greedycraft-reward_ticket_common>, 15, 1, [Functions.setCount(1, 2)], []);
@@ -50,6 +61,7 @@ dungeonPool1.addItemEntryHelper(<additions:greedycraft-poop>, 8, 1, [Functions.s
 dungeonPool1.addItemEntryHelper(<additions:greedycraft-experience_transporter>, 1, 1, [Functions.setCount(1, 1)], []);
 dungeonPool1.addItemEntryHelper(<additions:greedycraft-blueprint_yoyo>, 1, 1, [Functions.setCount(1, 1)], []);
 dungeonPool1.addItemEntryHelper(<actuallyadditions:block_treasure_chest>, 9, 1, [Functions.setCount(1, 1)], []);
+dungeonPool1.addItemEntryHelper(<additions:greedycraft-skill_reset_scroll>, 1, 1, [Functions.setCount(1, 1)], []);
 
 var dungeonPool2 = dungeon.getPool("pool2");  
 dungeonPool2.addItemEntryHelper(<additions:greedycraft-reward_ticket_common>, 12, 1, [Functions.setCount(1, 2)], []);

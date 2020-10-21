@@ -1,0 +1,12 @@
+{
+    "weight": 75,
+    "type": "tconevo:tool",
+    "name": "远古箭矢",
+    "lore": "注入了强大远古科技的箭矢。",
+    "tool": "arrow",
+    "materials": [
+        "polyethylene",
+        "enderium",
+        "feather"
+    ]
+}

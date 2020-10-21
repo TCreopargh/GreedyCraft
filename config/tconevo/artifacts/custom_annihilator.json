@@ -1,0 +1,12 @@
+{
+  "weight": 250,
+  "type": "tconevo:tool",
+  "name": "湮灭之镐",
+  "lore": "毁灭你看到的一切。",
+  "tool": "pickaxe",
+  "materials": [
+	"diamond",
+    "nickel",
+    "ravaging"
+  ]
+}

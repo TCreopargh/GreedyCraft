@@ -1,11 +1,16 @@
-#priority 2200
-#disable_search_tree
+/*
+ * This script is created for the GreedyCraft modpack by TCreopargh.
+ * You may NOT use this script in any other publicly distributed modpack without my permission.
+ * Powered by TCreopargh.
+ * All rights reserved.
+ */
+
 #loader contenttweaker 
 #modloaded tconstruct
 #modloaded plustic
 #modloaded tconevo
 #modloaded mysticalagriculture
-
+#priority 2200
 import mods.contenttweaker.tconstruct.Material;
 import mods.contenttweaker.tconstruct.MaterialBuilder;
 import mods.contenttweaker.Fluid;
@@ -13,25 +18,6 @@ import mods.contenttweaker.VanillaFactory;
 import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.game.IGame;
 import mods.contenttweaker.Color;
-
-val cheese = mods.contenttweaker.tconstruct.MaterialBuilder.create("cheese");
-cheese.color = Color.fromHex("ffeb3b").getIntColor();
-cheese.craftable = true;
-cheese.castable = true;
-cheese.representativeItem = <item:harvestcraft:cheeseitem>;
-cheese.liquid = <liquid:milk>;
-cheese.addItem(<ore:foodCheese>);
-cheese.localizedName = "奶酪";
-cheese.addHeadMaterialStats(200, 3.5, 3, 0);
-cheese.addHandleMaterialStats(0.2, 70);
-cheese.addExtraMaterialStats(-30);
-cheese.addBowMaterialStats((1 as float / 1.2 as float) as float, 1, 0.2);
-cheese.addMaterialTrait("squeaky", "head");
-cheese.addMaterialTrait("tasty", "head");
-cheese.addMaterialTrait("tasty", "handle");
-cheese.addMaterialTrait("tasty", "extra");
-cheese.addProjectileMaterialStats();
-cheese.register();
 
 val molten_fusion_matrix = mods.contenttweaker.VanillaFactory.createFluid("fusion_matrix", Color.fromHex("4a148c").getIntColor());
 molten_fusion_matrix.material = <blockmaterial:lava>;
@@ -58,6 +44,25 @@ molten_insanium.color = Color.fromHex("aa00ff").getIntColor();
 molten_insanium.stillLocation = "base:fluids/molten";
 molten_insanium.flowingLocation = "base:fluids/molten_flowing";
 molten_insanium.register();
+
+val cheese = mods.contenttweaker.tconstruct.MaterialBuilder.create("cheese");
+cheese.color = Color.fromHex("ffeb3b").getIntColor();
+cheese.craftable = true;
+cheese.castable = true;
+cheese.representativeItem = <item:harvestcraft:cheeseitem>;
+cheese.liquid = <liquid:milk>;
+cheese.addItem(<ore:foodCheese>);
+cheese.localizedName = "奶酪";
+cheese.addHeadMaterialStats(200, 3.5, 3, 0);
+cheese.addHandleMaterialStats(0.2, 70);
+cheese.addExtraMaterialStats(-30);
+cheese.addBowMaterialStats((1 as float / 1.2 as float) as float, 1, 0.2);
+cheese.addMaterialTrait("squeaky", "head");
+cheese.addMaterialTrait("tasty", "head");
+cheese.addMaterialTrait("tasty", "handle");
+cheese.addMaterialTrait("tasty", "extra");
+cheese.addProjectileMaterialStats();
+cheese.register();
 
 val insanium = mods.contenttweaker.tconstruct.MaterialBuilder.create("insanium");
 insanium.color = Color.fromHex("aa00ff").getIntColor();
@@ -539,7 +544,7 @@ stellar_alloy.register();
 val molten_cosmilite = mods.contenttweaker.VanillaFactory.createFluid("cosmilite", Color.fromHex("ff416c").getIntColor());
 molten_cosmilite.material = <blockmaterial:lava>;
 molten_cosmilite.viscosity = 100;
-molten_cosmilite.density = 500000;
+molten_cosmilite.density = 5000000;
 molten_cosmilite.rarity = "EPIC";
 molten_cosmilite.colorize = true;
 molten_cosmilite.temperature = 12000;
@@ -556,7 +561,7 @@ cosmilite.castable = true;
 cosmilite.representativeItem = <item:additions:cosmilite_ingot>;
 cosmilite.liquid = <liquid:cosmilite>;
 cosmilite.localizedName = "寰宇";
-cosmilite.addHeadMaterialStats(2048, 34.6, 85, 12);
+cosmilite.addHeadMaterialStats(12800, 34.6, 85, 12);
 cosmilite.addHandleMaterialStats(3, 2048);
 cosmilite.addExtraMaterialStats(2048);
 cosmilite.addMaterialTrait("duritos", "head");
@@ -823,7 +828,7 @@ bedrock.castable = false;
 bedrock.representativeItem = <item:minecraft:bedrock>;
 bedrock.addItem(<ore:bedrock>);
 bedrock.localizedName = "基岩";
-bedrock.addHeadMaterialStats(1200, 33.4, 28.2, 10);
+bedrock.addHeadMaterialStats(8400, 33.4, 28.2, 10);
 bedrock.addHandleMaterialStats(3.4, 1000);
 bedrock.addExtraMaterialStats(1000);
 bedrock.addBowMaterialStats((1 as float / 16 as float) as float, 8, 150);
@@ -886,8 +891,8 @@ shadowium.register();
 
 val molten_ancient_debris = mods.contenttweaker.VanillaFactory.createFluid("ancient_debris", Color.fromHex("8d6e63").getIntColor());
 molten_ancient_debris.material = <blockmaterial:lava>;
-molten_ancient_debris.viscosity = 2400;
-molten_ancient_debris.density = 1000000;
+molten_ancient_debris.viscosity = 24000;
+molten_ancient_debris.density = 100000;
 molten_ancient_debris.rarity = "EPIC";
 molten_ancient_debris.colorize = true;
 molten_ancient_debris.temperature = 1520;
@@ -899,8 +904,8 @@ molten_ancient_debris.register();
 
 val molten_netherite = mods.contenttweaker.VanillaFactory.createFluid("netherite", Color.fromHex("42403f").getIntColor());
 molten_netherite.material = <blockmaterial:lava>;
-molten_netherite.viscosity = 2400;
-molten_netherite.density = 1000000;
+molten_netherite.viscosity = 24000;
+molten_netherite.density = 100000;
 molten_netherite.rarity = "EPIC";
 molten_netherite.colorize = true;
 molten_netherite.temperature = 1800;
@@ -917,7 +922,7 @@ netherite.castable = true;
 netherite.representativeItem = <item:additions:netherite_ingot>;
 netherite.liquid = <liquid:netherite>;
 netherite.localizedName = "下界合金";
-netherite.addHeadMaterialStats(1600, 24.2, 14.6, 6);
+netherite.addHeadMaterialStats(3600, 24.2, 14.6, 6);
 netherite.addHandleMaterialStats(3.6, 1800);
 netherite.addExtraMaterialStats(1800);
 netherite.addMaterialTrait("duritos", "head");
@@ -926,6 +931,93 @@ netherite.addMaterialTrait("duritos", "extra");
 netherite.addBowMaterialStats((1 as float / 5 as float) as float, 1.4, 24.0);
 netherite.addProjectileMaterialStats();
 netherite.register();
+
+val seared = mods.contenttweaker.tconstruct.MaterialBuilder.create("seared");
+seared.color = Color.fromHex("616161").getIntColor(); 
+seared.craftable = false;
+seared.castable = true;
+seared.representativeItem = <item:tconstruct:materials>;
+seared.liquid = <liquid:stone>;
+seared.localizedName = "焦黑石头";
+seared.addHeadMaterialStats(100, 7.2, 4.7, 1);
+seared.addHandleMaterialStats(0.8, 80);
+seared.addExtraMaterialStats(120);
+seared.addMaterialTrait("duritos", "head");
+seared.addMaterialTrait("duritos", "handle");
+seared.addMaterialTrait("duritos", "extra");
+seared.addBowMaterialStats((1 as float / 1.6 as float) as float, 1.1, 1.2);
+seared.addProjectileMaterialStats();
+seared.register();
+
+val molten_scorched = mods.contenttweaker.VanillaFactory.createFluid("scorched", Color.fromHex("514623").getIntColor());
+molten_scorched.material = <blockmaterial:lava>;
+molten_scorched.viscosity = 2400;
+molten_scorched.density = 10000;
+molten_scorched.rarity = "EPIC";
+molten_scorched.colorize = true;
+molten_scorched.temperature = 1350;
+molten_scorched.luminosity = 15;
+molten_scorched.color = Color.fromHex("514623").getIntColor();
+molten_scorched.stillLocation = "base:fluids/molten";
+molten_scorched.flowingLocation = "base:fluids/molten_flowing";
+molten_scorched.register();
+
+val scorched = mods.contenttweaker.tconstruct.MaterialBuilder.create("scorched");
+scorched.color = Color.fromHex("514623").getIntColor(); 
+scorched.craftable = false;
+scorched.castable = true;
+scorched.representativeItem = <item:tcomplement:materials:1>;
+scorched.liquid = <liquid:scorched>;
+scorched.localizedName = "高炉砖";
+scorched.addHeadMaterialStats(260, 9.2, 6.8, 2);
+scorched.addHandleMaterialStats(1.1, 230);
+scorched.addExtraMaterialStats(220);
+scorched.addMaterialTrait("duritos", "head");
+scorched.addMaterialTrait("duritos", "handle");
+scorched.addMaterialTrait("duritos", "extra");
+scorched.addBowMaterialStats((1 as float / 1.4 as float) as float, 1.2, 2.0);
+scorched.addProjectileMaterialStats();
+scorched.register();
+
+val organic_fluid = mods.contenttweaker.VanillaFactory.createFluid("organic_fluid", Color.fromHex("cddc39").getIntColor());
+organic_fluid.material = <blockmaterial:water>;
+organic_fluid.viscosity = 5000;
+organic_fluid.density = 12000;
+organic_fluid.rarity = "EPIC";
+organic_fluid.colorize = true;
+organic_fluid.temperature = 257;
+organic_fluid.luminosity = 5;
+organic_fluid.color = Color.fromHex("cddc39").getIntColor();
+organic_fluid.register();
+
+val molten_modularium = mods.contenttweaker.VanillaFactory.createFluid("modularium", Color.fromHex("ff5722").getIntColor());
+molten_modularium.material = <blockmaterial:lava>;
+molten_modularium.viscosity = 2400;
+molten_modularium.density = 10000;
+molten_modularium.colorize = true;
+molten_modularium.temperature = 12000;
+molten_modularium.luminosity = 15;
+molten_modularium.color = Color.fromHex("ff5722").getIntColor();
+molten_modularium.stillLocation = "base:fluids/molten";
+molten_modularium.flowingLocation = "base:fluids/molten_flowing";
+molten_modularium.register();
+
+val modularium = mods.contenttweaker.tconstruct.MaterialBuilder.create("modularium");
+modularium.color = Color.fromHex("ff5722").getIntColor(); 
+modularium.craftable = false;
+modularium.castable = true;
+modularium.representativeItem = <item:modularmachinery:itemmodularium>;
+modularium.liquid = <liquid:modularium>;
+modularium.localizedName = "模块化合金";
+modularium.addHeadMaterialStats(720, 10.6, 7.4, 3);
+modularium.addHandleMaterialStats(1.2, 200);
+modularium.addExtraMaterialStats(300);
+modularium.addMaterialTrait("duritos", "head");
+modularium.addMaterialTrait("duritos", "handle");
+modularium.addMaterialTrait("duritos", "extra");
+modularium.addBowMaterialStats((1.6 as float / 1 as float) as float, 1.2, 3.0);
+modularium.addProjectileMaterialStats();
+modularium.register();
 
 val poop = mods.contenttweaker.tconstruct.MaterialBuilder.create("poop");
 poop.color = Color.fromHex("5d4037").getIntColor(); 

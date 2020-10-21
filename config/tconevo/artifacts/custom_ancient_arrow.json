@@ -1,0 +1,12 @@
+{
+    "weight": 100,
+    "type": "tconevo:tool",
+    "name": "史莱姆之剑",
+    "lore": "相传这是史莱姆国的史莱姆骑士长的遗物。",
+    "tool": "broadsword",
+    "materials": [
+        "magmaslime",
+        "knightslime",
+        "blueslime"
+    ]
+}

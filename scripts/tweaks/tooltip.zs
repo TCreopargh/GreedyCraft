@@ -1,4 +1,11 @@
-#disable_search_tree
+/*
+ * This script is created for the GreedyCraft modpack by TCreopargh.
+ * You may NOT use this script in any other publicly distributed modpack without my permission.
+ * Powered by TCreopargh.
+ * All rights reserved.
+ */
+
+
 #priority 100
 import crafttweaker.game.IGame;
 
@@ -101,3 +108,9 @@ game.setLocalization("tooltip.itemstages.name.default", "§5§ka§r §d未知物
 <mca:book_infection>.addTooltip("§c请不要放到AE存储中，否则会导致卡顿");
 <minecraft:written_book>.addTooltip("§c请不要放到AE存储中，否则会导致卡顿");
 <ore:ingotNetherite>.addTooltip("§e请用匠魂冶炼炉制作这种合金");
+<cyclicmagic:crafting_food>.addTooltip("§e温馨提示：不要吃第二次");
+<cyclicmagic:inventory_food>.addTooltip("§e温馨提示：不要吃第二次");
+<tconstruct:shortbow>.addTooltip("§e温馨提示：拉弓速度数值越低越快");
+<tconstruct:longbow>.addTooltip("§e温馨提示：拉弓速度数值越低越快");
+<tconstruct:crossbow>.addTooltip("§e温馨提示：拉弓速度数值越低越快");
+<tconstruct:bow_limb>.addTooltip("§e温馨提示：拉弓速度数值越低越快");

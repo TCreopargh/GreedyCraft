@@ -1,4 +1,11 @@
-#disable_search_tree
+/*
+ * This script is created for the GreedyCraft modpack by TCreopargh.
+ * You may NOT use this script in any other publicly distributed modpack without my permission.
+ * Powered by TCreopargh.
+ * All rights reserved.
+ */
+
+
 #priority 20000
 import crafttweaker.game.IGame;
 <ore:slime>.add(<defiledlands:foul_slime>);
@@ -203,6 +210,7 @@ import crafttweaker.game.IGame;
 	<additions:greedycraft-true_eye_of_ender>,
 	<additions:greedycraft-medkit_super>,
 	<additions:greedycraft-experience_transporter>,
+	<additions:greedycraft-skill_reset_scroll>,
 	<additions:tcsponsors-sponsors_chest>,
 	<cyclicmagic:heart_food>
 ]);
@@ -256,3 +264,24 @@ if(loadedMods.contains("inventorypets")) {
 	}
 }
 <ore:dungeonLootTier2>.addAll(<ore:inventoryPet>);
+<ore:ingotBrickScorched>.add(<tcomplement:materials:1>);
+<ore:blockScorched>.add(<tcomplement:scorched_block:*>);
+<ore:slabScorched>.add(<tcomplement:scorched_slab:*>);
+<ore:stairScorched>.addItems([
+	<tcomplement:scorched_stairs_stone>,
+	<tcomplement:scorched_stairs_cobble>,
+	<tcomplement:scorched_stairs_paver>,
+	<tcomplement:scorched_stairs_brick>,
+	<tcomplement:scorched_stairs_brick_cracked>,
+	<tcomplement:scorched_stairs_brick_fancy>,
+	<tcomplement:scorched_stairs_brick_square>,
+	<tcomplement:scorched_stairs_brick_triangle>,
+	<tcomplement:scorched_stairs_brick_small>,
+	<tcomplement:scorched_stairs_road>,
+	<tcomplement:scorched_stairs_tile>,
+	<tcomplement:scorched_stairs_creeper>
+]);
+<ore:pebble>.add(<minecraft:flint>);
+<ore:ingotModularium>.add(<modularmachinery:itemmodularium>);
+<ore:cobblestone>.addAll(<ore:holystone>);
+<ore:ice>.add(<minecraft:packed_ice>);

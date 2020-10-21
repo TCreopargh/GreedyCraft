@@ -1,4 +1,10 @@
-#disable_search_tree
+/*
+ * This script is created for the GreedyCraft modpack by TCreopargh.
+ * You may NOT use this script in any other publicly distributed modpack without my permission.
+ * Powered by TCreopargh.
+ * All rights reserved.
+ */
+
 #priority 500
 mods.jei.JEI.hide(<additions:greedycraft-ocd_certificate>);
 mods.jei.JEI.addDescription(<additions:cryonium_ingot>, "通过在600难度以上击败冰霜巨口或挖掘极寒矿获得。", "由于极寒矿需要飞龙镐才能挖掘，因此第一个极寒矿必须通过击败冰霜巨口获得。", "冰霜巨口的召唤方法请参阅整合包手册。",  "极寒矿只生成在寒冷生物群系的地下。");

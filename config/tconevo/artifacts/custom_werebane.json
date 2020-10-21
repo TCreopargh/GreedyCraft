@@ -1,8 +1,8 @@
 {
   "weight": 1000,
   "type": "tconevo:tool",
-  "name": "Werebane",
-  "lore": "Wielded by a tragic prince that cleansed the night of evil.",
+  "name": "银刃",
+  "lore": "由一个驱逐了邪恶的王子持有。",
   "tool": "rapier",
   "materials": [
     "livingwood",

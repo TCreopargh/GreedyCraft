@@ -1,4 +1,11 @@
-#disable_search_tree
+/*
+ * This script is created for the GreedyCraft modpack by TCreopargh.
+ * You may NOT use this script in any other publicly distributed modpack without my permission.
+ * Powered by TCreopargh.
+ * All rights reserved.
+ */
+
+
 #priority 110
 mods.tieredtooltips.colorStage("hardmode", "b5000000","f0f27121", "f0e94057");
 mods.tieredtooltips.colorStage("novice_engineer", "b5000000", "f0ff9966", "f0ff5e62");

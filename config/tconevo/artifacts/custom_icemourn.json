@@ -1,0 +1,12 @@
+{
+  "weight": 150,
+  "type": "tconevo:tool",
+  "name": "霜之哀伤",
+  "lore": "只有失去灵魂之人才能获得此剑。",
+  "tool": "broadsword",
+  "materials": [
+    "cytosinite",
+    "asgardium",
+	"cryonium"
+  ]
+}

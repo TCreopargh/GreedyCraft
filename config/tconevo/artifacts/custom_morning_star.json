@@ -1,8 +1,8 @@
 {
   "weight": 150,
   "type": "tconevo:tool",
-  "name": "Morning Star",
-  "lore": "The morning star that riseth from the darkness.",
+  "name": "黎明之星",
+  "lore": "在最黑暗的时候给世界带来光明。",
   "tool": "shuriken",
   "materials": [
     "void_metal",

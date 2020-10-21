@@ -1,0 +1,87 @@
+{
+    "registryname": "soymilk_producer",
+    "localizedname": "豆浆机",
+    "color": "ffffeb",
+    "parts": [
+        {
+            "x": [
+                1,
+                0,
+                -1
+            ],
+            "y": -1,
+            "z": [
+                2,
+                1,
+                0
+            ],
+            "elements": "casings_all"
+        },
+        {
+            "x": [
+                1,
+                -1
+            ],
+            "y": 0,
+            "z": [
+                2,
+                0
+            ],
+            "elements": "casings_tofu"
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": "casings_tofu"
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": "casings_tofu"
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": "casings_tofu"
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 1,
+            "elements": "casings_tofu"
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+            "elements": "casings_tofu"
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": "casings_tofu"
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": "casings_tofu"
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 2,
+            "elements": "casings_tofu"
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": "tofucraft:soymilk"
+        }
+    ]
+}

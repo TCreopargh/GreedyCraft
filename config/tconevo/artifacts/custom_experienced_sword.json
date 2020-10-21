@@ -1,0 +1,12 @@
+{
+  "weight": 750,
+  "type": "tconevo:tool",
+  "name": "经验之剑",
+  "lore": "身经百战的武器。",
+  "tool": "broadsword",
+  "materials": [
+    "steel",
+    "experience",
+    "bronze"
+  ]
+}

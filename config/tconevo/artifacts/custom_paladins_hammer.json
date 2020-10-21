@@ -1,0 +1,12 @@
+{
+    "weight": 75,
+    "type": "tconevo:tool",
+    "name": "帕拉丁之锤",
+    "lore": "属于最伟大的骑士，上面刻满了荣誉。",
+    "tool": "hammer",
+    "materials": [
+        "silver",
+        "platinum",
+        "knightmetal"
+    ]
+}

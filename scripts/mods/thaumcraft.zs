@@ -1,4 +1,11 @@
-#disable_search_tree
+/*
+ * This script is created for the GreedyCraft modpack by TCreopargh.
+ * You may NOT use this script in any other publicly distributed modpack without my permission.
+ * Powered by TCreopargh.
+ * All rights reserved.
+ */
+
+
 #priority 3000
 import thaumcraft.aspect.CTAspect;
 
@@ -27,7 +34,8 @@ var removedRecipes as IItemStack[] = [
 	<thaumadditions:mithminite_blade>,
 	<thaumadditions:mithminite_handle>,
 	<thaumadditions:adaminite_fabric>,
-	<thaumadditions:mithminite_fabric>
+	<thaumadditions:mithminite_fabric>,
+	<thaumadditions:entity_summoner>
 ];
 
 <minecraft:wooden_axe>.setAspects(<aspect:instrumentum>*5, <aspect:herba>*5);
@@ -58,6 +66,7 @@ var removedRecipes as IItemStack[] = [
 <minecraft:enchanted_book>.setAspects(<aspect:praecantatio>*30);
 <extrautils2:ingredients:17>.setAspects(<aspect:infernum>*30);
 <extrautils2:ingredients:11>.setAspects(<aspect:infernum>*10);
+<minecraft:stick>.setAspects(<aspect:instrumentum>*5, <aspect:herba>*2);
 
 for removedItem in removedRecipes {
 	mods.thaumcraft.Infusion.removeRecipe(removedItem);
