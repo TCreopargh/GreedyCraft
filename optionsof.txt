@@ -3,7 +3,7 @@ ofFogStart:0.8
 ofMipmapType:0
 ofOcclusionFancy:false
 ofSmoothFps:false
-ofSmoothWorld:true
+ofSmoothWorld:false
 ofAoLevel:1.0
 ofClouds:3
 ofCloudsHeight:0.0
@@ -36,7 +36,7 @@ ofWeather:true
 ofSky:true
 ofStars:true
 ofSunMoon:true
-ofVignette:0
+ofVignette:1
 ofChunkUpdates:1
 ofChunkUpdatesDynamic:true
 ofTime:0
@@ -55,7 +55,7 @@ ofCustomSky:true
 ofShowCapes:true
 ofNaturalTextures:false
 ofEmissiveTextures:true
-ofLazyChunkLoading:false
+ofLazyChunkLoading:true
 ofRenderRegions:true
 ofSmartAnimations:true
 ofDynamicFov:false
