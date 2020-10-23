@@ -164,3 +164,14 @@ FusionCrafting.add(<solarflux:custom_solar_panel_cosmic_solar_panel>, <solarflux
     <draconicadditions:chaotic_energy_core>,
     <draconicadditions:chaotic_energy_core>
 ]);
+
+FusionCrafting.add(<draconicevolution:reactor_core>, <draconicevolution:chaos_shard>, 3, 3276800000, [ 
+    <additions:cosmilite_ingot>,
+    <additions:cosmilite_ingot>,
+    <tconevo:metal:5>,
+    <tconevo:metal:5>,
+    <draconicadditions:chaotic_energy_core>,
+    <draconicadditions:chaotic_energy_core>,
+    <additions:terra_alloy_ingot>,
+    <additions:terra_alloy_ingot>
+]);

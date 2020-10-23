@@ -35,6 +35,6 @@ mods.astralsorcery.Altar.addTraitAltarRecipe("astral_metal", <additions:astral_m
 <ore:ingotAstralStarmetal>, <astralsorcery:itemusabledust>, <ore:ingotAstralStarmetal>,
 <astralsorcery:itemcraftingcomponent:4>, <astralsorcery:itemcraftingcomponent:4>, <astralsorcery:itemcraftingcomponent:4>, <astralsorcery:itemcraftingcomponent:4>,
 null, null, null, null, null, null, null, null, 
-<ore:dustAstralStarmetal>, <ore:dustAstralStarmetal>, <ore:dustAstralStarmetal>, <ore:dustAstralStarmetal>,
+<ore:ingotMeteor>, <ore:ingotMeteor>, <ore:ingotMeteor>, <ore:ingotMeteor>,
 <ore:fallenStar>, <ore:fallenStar>, <ore:fallenStar>, <ore:fallenStar>
 ], "astralsorcery.constellation.aevitas");

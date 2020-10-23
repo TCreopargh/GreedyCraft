@@ -6,7 +6,7 @@
   "tool": "pickaxe",
   "materials": [
 	"diamond",
-    "nickel",
-    "ravaging"
+    "ravaging",
+    "nickel"
   ]
 }

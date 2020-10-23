@@ -78,9 +78,6 @@
 		item: "projecte:item.pe_matter"
 	},
 	{
-		item: "mysticalagriculture:superium_furnace"
-	},
-	{
 		item: "mysticalagriculture:crafting 1 3",
 		count: 4,
 		random_bonus: 4

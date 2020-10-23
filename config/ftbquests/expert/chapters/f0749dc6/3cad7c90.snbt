@@ -21,17 +21,6 @@
 		xp: 25000
 	},
 	{
-		uid: "12b7b996",
-		type: "item",
-		item: "mysticalagriculture:supremium_reprocessor",
-		count: 3
-	},
-	{
-		uid: "96f454e3",
-		type: "item",
-		item: "mysticalagriculture:ultimate_reprocessor"
-	},
-	{
 		uid: "57ccc3da",
 		type: "loot",
 		table: 2

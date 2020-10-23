@@ -32,6 +32,7 @@ mods.TinkerStages.addModifierStage("hardmode", "mending_moss");
 mods.TinkerStages.addMaterialStage("nether", "ardite");
 mods.TinkerStages.addMaterialStage("nether", "cobalt");
 mods.TinkerStages.addMaterialStage("nether", "manyullyn");
+mods.TinkerStages.addMaterialStage("nether", "meteor");
 mods.TinkerStages.addMaterialStage("awakened", "titanium");
 mods.TinkerStages.addMaterialStage("hardmode", "cryonium");
 mods.TinkerStages.addMaterialStage("hardmode", "cytosinite");

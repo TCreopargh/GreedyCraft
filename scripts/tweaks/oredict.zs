@@ -285,3 +285,8 @@ if(loadedMods.contains("inventorypets")) {
 <ore:ingotModularium>.add(<modularmachinery:itemmodularium>);
 <ore:cobblestone>.addAll(<ore:holystone>);
 <ore:ice>.add(<minecraft:packed_ice>);
+<ore:ingotMeteor>.add(<nyx:meteor_ingot>);
+<ore:blockMeteor>.add(<nyx:meteor_block>);
+<ore:dustMeteor>.add(<nyx:meteor_dust>);
+<ore:shardMeteor>.add(<nyx:meteor_shard>);
+<ore:oreMeteor>.add(<nyx:meteor_rock>);

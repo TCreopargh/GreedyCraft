@@ -22,6 +22,10 @@ mods.thermalexpansion.Insolator.removeRecipe(<appliedenergistics2:crystal_seed>,
 mods.thermalexpansion.Insolator.removeRecipe(<appliedenergistics2:crystal_seed:600>, <minecraft:glowstone_dust>);
 mods.thermalexpansion.Insolator.removeRecipe(<appliedenergistics2:crystal_seed:1200>, <minecraft:glowstone_dust>);
 
+mods.thermalexpansion.Pulverizer.addRecipe(<nyx:meteor_dust>, <nyx:meteor_ingot>, 600);
+mods.thermalexpansion.Pulverizer.addRecipe(<nyx:meteor_dust> * 9, <nyx:meteor_block>, 600);
+mods.thermalexpansion.Pulverizer.addRecipe(<nyx:meteor_dust>, <nyx:meteor_shard>, 600);
+
 /*
 for item in <ore:dungeonlootTier1>.items {
 	mods.thermalexpansion.Pulverizer.addRecipe(<additions:greedycraft-time_fragment>, item, 3000, <additions:greedycraft-experience_ingot>, 20);

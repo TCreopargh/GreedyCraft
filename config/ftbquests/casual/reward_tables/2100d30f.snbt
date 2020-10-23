@@ -77,10 +77,6 @@
 		random_bonus: 16
 	},
 	{
-		item: "mysticalagriculture:supremium_furnace",
-		random_bonus: 1
-	},
-	{
 		item: {
 			id: "danknull:dank_null_5"
 		}

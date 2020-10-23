@@ -72,9 +72,9 @@
   +C:Solar Panel 8={
     +L:Capacity=128000000
 
-    +L:Generation Rate=900
+    +L:Generation Rate=1000
 
-    +L:Transfer Rate=1200
+    +L:Transfer Rate=1500
 
   }
 

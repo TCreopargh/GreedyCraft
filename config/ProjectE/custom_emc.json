@@ -871,6 +871,10 @@
     {
       "item": "thermalfoundation:material|160",
       "emc": 3200
+    },
+    {
+      "item": "nyx:meteor_ingot|0",
+      "emc": 3200
     }
   ]
 }

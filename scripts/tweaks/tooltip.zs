@@ -114,3 +114,6 @@ game.setLocalization("tooltip.itemstages.name.default", "§5§ka§r §d未知物
 <tconstruct:longbow>.addTooltip("§e温馨提示：拉弓速度数值越低越快");
 <tconstruct:crossbow>.addTooltip("§e温馨提示：拉弓速度数值越低越快");
 <tconstruct:bow_limb>.addTooltip("§e温馨提示：拉弓速度数值越低越快");
+<modularmachinery:itemblueprint>.addTooltip("§e请确保你的物品输出仓大的足以容纳所有可能的输出");
+<modularmachinery:itemblueprint>.addTooltip("§e如果已有物品输入却提示”缺少物品输入”，");
+<modularmachinery:itemblueprint>.addTooltip("§e请尝试增加物品输出仓的数量或升级输出仓。");

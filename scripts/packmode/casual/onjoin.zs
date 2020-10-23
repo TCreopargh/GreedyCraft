@@ -19,9 +19,7 @@ events.onPlayerLoggedIn(function (event as crafttweaker.event.PlayerLoggedInEven
 	event.player.removeGameStage("expert");
 	event.player.removeGameStage("adventure");
 	event.player.addGameStage("casual");
-	for gamestage in listStages {
-		event.player.addGameStage(gamestage);
-	}
+	event.player.server.commandManager.executeCommand(event.player.server, "/unlockallstages " + event.player.name);
 	event.player.addGameStage("iswuss");
 	event.player.sendChat("§e由于你处于休闲模式，所有游戏阶段都已解锁，祝你玩得愉快。");
 });

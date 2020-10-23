@@ -95,11 +95,13 @@ val localizationMap as string[string] = {
 	"fluid.organic_fluid": "有机液",
 	"fluid.poison": "毒液",
 	"fluid.modularium": "熔融模块化合金",
+	"fluid.meteor": "熔融陨星",
 	"jaopca.entry.Dilithium": "双锂",
 	"jaopca.entry.Asgardium": "神金",
 	"jaopca.entry.Shadowium": "暗影",
 	"jaopca.entry.Aeroite": "云浮",
 	"jaopca.entry.AncientDebris": "远古残骸",
+	"jaopca.entry.Meteor": "陨星",
 	"jer.worldgen.averageChunk": "平均每区块方块数"
 } as string[string];
 

@@ -240,7 +240,25 @@ val removedRecipes as IIngredient[] = [
 	<extrautils2:wateringcan>,
 	<cyclicmagic:sprinkler>,
 	<modularmachinery:itemmodularium>,
-	<extrabotany:material:5>
+	<extrabotany:material:5>,
+	<extrautils2:compoundbow>,
+	<mekanism:electricbow>,
+	<sereneseasons:greenhouse_glass>,
+	<actuallyadditions:block_player_interface>,
+	<tcomplement:high_oven_io:2>,
+	<openblocks:sprinkler>,
+	<nyx:meteor_helm>,
+	<nyx:meteor_chest>,
+	<nyx:meteor_pants>,
+	<nyx:meteor_boots>,
+	<nyx:meteor_hammer>,
+	<nyx:meteor_sword>,
+	<nyx:meteor_bow>,
+	<nyx:meteor_pickaxe>,
+	<nyx:meteor_hoe>,
+	<nyx:meteor_shovel>,
+	<nyx:meteor_axe>,
+	<nyx:meteor_dust>
 ];
 
 for ingredient in removedRecipes {
@@ -420,10 +438,6 @@ recipes.addShapeless("auto_gen_-1180907112", <scalinghealth:crystalshard>*9, [<s
 recipes.addShapeless("auto_gen_1296047035", <minecraft:splash_potion>.withTag({CustomPotionEffects:[{Duration:2400,Id:1,Amplifier:49},{Duration:2400,Id:3,Amplifier:49},{Duration:2400,Id:5,Amplifier:49},{Id:6,Amplifier:28},{Duration:2400,Id:8,Amplifier:49},{Duration:2400,Id:10,Amplifier:31},{Duration:2400,Id:11,Amplifier:4},{Duration:2400,Id:12},{Duration:2400,Id:13},{Duration:2400,Id:14},{Duration:2400,Id:16},{Duration:2400,Id:21,Amplifier:49},{Duration:2400,Id:22,Amplifier:49},{Id:23,Amplifier:119},{Duration:2400,Id:26,Amplifier:49},{Duration:2400,Id:28}],CustomPotionColor:16648959,display:{Lore:["§d蕴含了世间强大力量的药剂"],Name:"§5§l巨龙药剂"}}), [<minecraft:glass_bottle>, <additions:greedycraft-dragon_soul>, <additions:greedycraft-creative_shard>, <additions:greedycraft-creative_shard>]);
 recipes.addShapeless("auto_gen_-2147158797", <minecraft:splash_potion>.withTag({CustomPotionEffects:[{Duration:2400,Id:2,Amplifier:49},{Duration:2400,Id:4,Amplifier:49},{Id:7,Amplifier:28},{Duration:2400,Id:9},{Duration:2400,Id:15},{Duration:2400,Id:17,Amplifier:49},{Duration:2400,Id:18,Amplifier:49},{Duration:2400,Id:19,Amplifier:4},{Duration:2400,Id:20,Amplifier:2},{Duration:2400,Id:24},{Duration:2400,Id:25,Amplifier:49},{Duration:2400,Id:27,Amplifier:49}],CustomPotionColor:0,display:{Lore:["蕴含了世间枯萎力量的药剂"],Name:"§8§l枯萎药剂"}}), [<minecraft:glass_bottle>, <additions:greedycraft-wither_soul>, <additions:greedycraft-creative_shard>, <additions:greedycraft-creative_shard>]);
 recipes.addShapeless("auto_gen_1498134564", <ae2wtlib:wut_creative>, [<wit:wit_creative>, <wct:wct_creative>, <wft:wft_creative>]);
-recipes.addShaped("auto_gen_136123240", <actuallyadditions:block_greenhouse_glass>*4, 
-[[<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>],
-[<ore:blockGlass>, <ore:essenceInsanium>, <ore:blockGlass>],
-[<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>]]);
 recipes.addShaped("auto_gen_1179581625", <mysticalagriculture:growth_accelerator>*4, 
 [[<extrautils2:compressedcobblestone:4>, <mysticalagriculture:storage:4>, <extrautils2:compressedcobblestone:4>],
 [<mysticalagriculture:storage:4>, <minecraft:diamond_block>, <mysticalagriculture:storage:4>],
@@ -551,9 +565,9 @@ recipes.addShaped("auto_gen_-1988060210", <extrautils2:rainbowgenerator>,
 [<additions:greedycraft-aurora_heart>, <additions:greedycraft-creative_soul>, <additions:greedycraft-aurora_heart>],
 [<additions:greedycraft-aurora_heart>, <extrautils2:rainbowgenerator:1>, <additions:greedycraft-aurora_heart>]]);
 recipes.addShaped("auto_gen_-360710734", <extrautils2:chickenring>, 
-[[<aether_legacy:golden_feather>, <minecraft:iron_ingot>, <aether_legacy:golden_feather>],
+[[<ore:feather>, <minecraft:iron_ingot>, <ore:feather>],
 [<minecraft:iron_ingot>, <magicfeather:magicfeather>, <minecraft:iron_ingot>],
-[<aether_legacy:golden_feather>, <minecraft:iron_ingot>, <aether_legacy:golden_feather>]]);
+[<ore:feather>, <minecraft:iron_ingot>, <ore:feather>]]);
 recipes.addShapeless("auto_gen_1921390605", <extrautils2:teleporter:1>, [<ore:blockCoal>, <ore:blockDiamond>, <ore:blockIron>, <ore:blockGold>]);
 recipes.addShapeless("auto_gen_1910785345", <additions:greedycraft-death_counter>, [<tconstruct:pattern>, <minecraft:bone>]);
 recipes.addShaped("auto_gen_-2072364347", <minecraft:spawn_egg>.withTag({EntityTag:{id:"minecraft:ghast"}}), 
@@ -749,10 +763,6 @@ recipes.addShaped("auto_gen_1077378325", <minecraft:vine>,
 [[<ore:plantFibre>, null, <ore:plantFibre>],
 [<ore:plantFibre>, <ore:plantFibre>, <ore:plantFibre>],
 [<ore:plantFibre>, null, <ore:plantFibre>]]);
-recipes.addShaped("auto_gen_2090591767", <cyclicmagic:sprinkler>, 
-[[null, <thermalcultivation:watering_can:4>, null],
-[<ore:ingotIron>, <ore:listAllwater>, <ore:ingotIron>],
-[<ore:essenceInsanium>, <ore:essenceInsanium>, <ore:essenceInsanium>]]);
 recipes.addShaped("auto_gen_-1896387144", <ambience:ocarina>, 
 [[null, <minecraft:light_blue_glazed_terracotta>, null],
 [<minecraft:light_blue_glazed_terracotta>, <additions:greedycraft-creative_soul>, <minecraft:light_blue_glazed_terracotta>],
@@ -900,6 +910,14 @@ recipes.addShapeless("titanium_block_rev", <additions:titanium_ingot> * 9, [<ore
 recipes.addShaped("forbidden_bible", <additions:greedycraft-forbidden_bible>, 
 [[<ore:ingotVoid>, <ore:ingotDemonicMetal>, <ore:ingotVoid>],
 [<ore:ingotDemonicMetal>, <minecraft:skull:3>.withTag({SkullOwner: "TCreopargh"}), <ore:ingotDemonicMetal>],
+[<ore:ingotVoid>, <ore:ingotDemonicMetal>, <ore:ingotVoid>]]);
+recipes.addShaped("forbidden_bible_1", <additions:greedycraft-forbidden_bible>, 
+[[<ore:ingotVoid>, <ore:ingotDemonicMetal>, <ore:ingotVoid>],
+[<ore:ingotDemonicMetal>, <minecraft:skull:3>.withTag({SkullOwner: {"Name": "TCreopargh"}}), <ore:ingotDemonicMetal>],
+[<ore:ingotVoid>, <ore:ingotDemonicMetal>, <ore:ingotVoid>]]);
+recipes.addShaped("forbidden_bible_2", <additions:greedycraft-forbidden_bible>, 
+[[<ore:ingotVoid>, <ore:ingotDemonicMetal>, <ore:ingotVoid>],
+[<ore:ingotDemonicMetal>, <minecraft:skull:3>.withTag({SkullOwner: {Id: "2d06868c-6d9b-433a-a356-1a7993b62b8d", Properties: {textures: [{Signature: "vWdCu6oGO8l0WREv3nXuNHy8o4F6SoNV1HZBp+nyBwhy0L3crSC5IPbmvWxkgIDbBnorY+51kXT99E6nwDiWOnxVFjxcALgitTEhk4zkH4MNjcPEM5zMSJPkB1QWFUCtg90FZRK6KBOnTD89p6MkDJY4qwIlr7Cvp04eIC/mYCGP83NbzeZVCQ7VVB++l4o+Ln+cL6+aTM0vozVIV9YnimLyDL2KBAsqBudgGrDSyQEVvskDOIvXEgeP7Q9av2E5NZqLp519yWl8d8W2xJmsPPawv3y+RTdWSuD5PdnSuV1h11izOsO2AZuIxTjwg31+xT0IqWsk2i+UPxIPENvVrQSKsrIl12OAk6ksfDN4ZXPiHi6DZjLPcsHjw9PhPjZfcXrNPpSl+n0kRuP+7BDL0FHuRxqPivtlzV5PvAEIv4dFU1loVPAsO72i4owFnDla8DHXTFurBoEyN3AsnzqsRWdNBBzEPIkY5ONjgmVpXosmMSssxm7FpgKrH+ScBS7xhkMZorO56PcvfYsJp5RQQjdkj9afoZTzpJGXu1iPDmAwEeVp2wOtXGYisCMPO8mLR7ntfvUzl1zo6ZF1QcH5iDX96i55GWsRxQ+gsyZ5ahpYTTEoAUo0r0ZJP6l9j+6YY8k8cxfV33Y3NN8IzokDEZ9XGFhhcKH0roH4/jNwpxg=", Value: "ewogICJ0aW1lc3RhbXAiIDogMTYwMzM0Mzg2MDczMSwKICAicHJvZmlsZUlkIiA6ICIyZDA2ODY4YzZkOWI0MzNhYTM1NjFhNzk5M2I2MmI4ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJUQ3Jlb3BhcmdoIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzE5Zjc4MTI1OTc4NTQ2NzZlYjljOGNkYjBkNjAzZjY4MDgxM2E0ZjQ1MGIyZWMyODE3OGE2ZWE4ZWI2YjE4MDYiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="}]}, Name: "TCreopargh"}, display: {Name: "§eTCreopargh§b的头"}}), <ore:ingotDemonicMetal>],
 [<ore:ingotVoid>, <ore:ingotDemonicMetal>, <ore:ingotVoid>]]);
 recipes.addShaped("time_shard", <additions:greedycraft-time_shard>, 
 [[<ore:fragmentTime>, <ore:fragmentTime>, <ore:fragmentTime>],
@@ -1099,12 +1117,43 @@ recipes.addShaped("blockenergyoutputhatch_7", <modularmachinery:blockenergyoutpu
 [<ore:ingotTitanium>, <modularmachinery:blockenergyoutputhatch:5>, <ore:ingotTitanium>],
 [<ore:ingotModularium>, <ore:ingotTitanium>, <ore:ingotModularium>]]);
 
+recipes.addShaped("blockinputbus_2", <modularmachinery:blockinputbus:2>, 
+[[<ore:ingotModularium>, <ore:ingotInvar>, <ore:ingotModularium>],
+[<ore:ingotInvar>, <modularmachinery:blockinputbus:1>, <ore:ingotInvar>],
+[<ore:ingotModularium>, <ore:ingotInvar>, <ore:ingotModularium>]]);
+recipes.addShaped("blockoutputbus_2", <modularmachinery:blockoutputbus:2>, 
+[[<ore:ingotModularium>, <ore:ingotInvar>, <ore:ingotModularium>],
+[<ore:ingotInvar>, <modularmachinery:blockoutputbus:1>, <ore:ingotInvar>],
+[<ore:ingotModularium>, <ore:ingotInvar>, <ore:ingotModularium>]]);
+recipes.addShaped("blockfluidinputhatch_2", <modularmachinery:blockfluidinputhatch:2>, 
+[[<ore:ingotModularium>, <ore:ingotInvar>, <ore:ingotModularium>],
+[<ore:ingotInvar>, <modularmachinery:blockfluidinputhatch:1>, <ore:ingotInvar>],
+[<ore:ingotModularium>, <ore:ingotInvar>, <ore:ingotModularium>]]);
+recipes.addShaped("blockfluidoutputhatch_2", <modularmachinery:blockfluidoutputhatch:2>, 
+[[<ore:ingotModularium>, <ore:ingotInvar>, <ore:ingotModularium>],
+[<ore:ingotInvar>, <modularmachinery:blockfluidoutputhatch:1>, <ore:ingotInvar>],
+[<ore:ingotModularium>, <ore:ingotInvar>, <ore:ingotModularium>]]);
+recipes.addShaped("blockenergyinputhatch_2", <modularmachinery:blockenergyinputhatch:2>, 
+[[<ore:ingotModularium>, <ore:ingotInvar>, <ore:ingotModularium>],
+[<ore:ingotInvar>, <modularmachinery:blockenergyinputhatch:1>, <ore:ingotInvar>],
+[<ore:ingotModularium>, <ore:ingotInvar>, <ore:ingotModularium>]]);
+recipes.addShaped("blockenergyoutputhatch_2", <modularmachinery:blockenergyoutputhatch:2>, 
+[[<ore:ingotModularium>, <ore:ingotInvar>, <ore:ingotModularium>],
+[<ore:ingotInvar>, <modularmachinery:blockenergyoutputhatch:1>, <ore:ingotInvar>],
+[<ore:ingotModularium>, <ore:ingotInvar>, <ore:ingotModularium>]]);
+
 recipes.addShapeless("stone_table", <projectex:stone_table>, [<projecte:transmutation_table>, <ore:stone>]);
 
 recipes.addShaped("casing_strong", <modularmachinery:blockcasing:4> * 4, 
 [[<ore:ingotSteel>, <modularmachinery:blockcasing>, <ore:ingotSteel>],
 [<modularmachinery:blockcasing>, null, <modularmachinery:blockcasing>],
 [<ore:ingotSteel>, <modularmachinery:blockcasing>, <ore:ingotSteel>]]);
+recipes.addShaped("high_oven_io_2", <tcomplement:high_oven_io:2>, 
+[[<tcomplement:materials:1>, <ore:ingotIron>, <tcomplement:materials:1>],
+[null, null, null],
+[<tcomplement:materials:1>, <ore:ingotIron>, <tcomplement:materials:1>]]);
 
 recipes.addShapeless("red_key", <treasure2:ruby_key>, [<ore:dustGlowstone>, <treasure2:gold_key>, <treasure2:treasure_tool>, <ore:gemRuby>]);
 recipes.addShapeless("blue_key", <treasure2:sapphire_key>, [<ore:dustGlowstone>, <treasure2:gold_key>, <treasure2:treasure_tool>, <ore:gemSapphire>]);
+
+recipes.removeByRecipeName("extrautils2:watering_can");

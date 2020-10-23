@@ -397,6 +397,7 @@ stageHardmode.addIngredients([
 	<ore:nuggetShadowium>,
 	<ore:dustShadowium>,
 	<extrautils2:teleporter:1>,
+	<openblocks:hang_glider>,
 	<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 5 as short}]}),
 	<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 10 as short}]})
 ], true);
@@ -657,7 +658,9 @@ stageMasterEngineer.addIngredients([
 
 stageDisabled.addIngredients([
 	<botania:blackholetalisman>,
-	<bountifulbaubles:trinketbrokenheart>
+	<extrautils2:wateringcan>,
+	<bountifulbaubles:trinketbrokenheart>,
+	<actuallyadditions:block_greenhouse_glass>
 ], true);
 
 stageDisabled.addLiquid(<liquid:sakura.hot_spring_water>);
@@ -728,6 +731,7 @@ stageHardmode.addRecipeRegex("^twilightforest:(.*)((pickaxe)|(paxel)|(bow)|(hoe)
 stageHardmode.addRecipeRegex("^tofucraft:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(sword)|(axe)|(shovel)|(boots)|(leggings)|(leggins)|(chestplate)|(helmet))$");
 stageDisabled.addRecipeRegex("^defiledlands:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(sword)|(axe)|(shovel)|(boots)|(leggings)|(chestplate)|(helmet))$");
 stageDisabled.addRecipeRegex("^abyssalcraft:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(sword)|(axe)|(shovel)|(boots)|(leggings)|(chestplate)|(helmet)|(plate)|(legs)|(helm)|(pick))$");
+stageDisabled.addRecipeRegex("^netherex:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(sword)|(axe)|(shovel)|(boots)|(leggings)|(chestplate)|(helmet)|(plate)|(legs)|(helm)|(pick))$");
 stageDisabled.addRecipeRegex("^candymod:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(sword)|(axe)|(shovel)|(boots)|(leggings)|(chestplate)|(helmet)|(plate)|(legs)|(helm)|(pick))_(.*)$");
 stageDisabled.addRecipeRegex("^enderio:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(sword)|(axe)|(shovel)|(boots)|(leggings)|(chestplate)|(helmet))$");
 stageDisabled.addRecipeRegex("^thermalfoundation:tool.fishing_rod_(.*)$");
@@ -823,7 +827,8 @@ restageItems("disabled", [
 	<draconicadditions:chaotic_helm>.withTag({DEUpgrades: {}}),
 	<draconicadditions:chaotic_chest>.withTag({DEUpgrades: {}}),
 	<draconicadditions:chaotic_legs>.withTag({DEUpgrades: {}}),
-	<draconicadditions:chaotic_boots>.withTag({DEUpgrades: {}})
+	<draconicadditions:chaotic_boots>.withTag({DEUpgrades: {}}),
+	<cyclicmagic:sprinkler>
 ]);
 
 mods.ItemStages.removeItemStage(<cyclicmagic:inventory_food>);

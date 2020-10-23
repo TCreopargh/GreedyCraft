@@ -11,7 +11,7 @@
 	tasks: [{
 		uid: "2b7c40a2",
 		type: "botania_mana",
-		value: 5000000L
+		value: 10000000L
 	}],
 	rewards: [{
 		uid: "5a37a70b",

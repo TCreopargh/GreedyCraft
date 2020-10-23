@@ -45,7 +45,7 @@ mods.tconstruct.Casting.addTableRecipe(<additions:greedycraft-pearl_of_knowledge
 mods.tconstruct.Melting.addRecipe(<liquid:experience> * 944784, <additions:greedycraft-pearl_of_knowledge>, 1200);
 mods.tconstruct.Melting.addRecipe(<liquid:experience> * 288, <additions:greedycraft-experience_ore>, 100);
 
-mods.tconstruct.Casting.addTableRecipe(<aether_legacy:golden_feather>, <minecraft:feather>, <liquid:gold>, 1152, true, 100);
+// mods.tconstruct.Casting.addTableRecipe(<aether_legacy:golden_feather>, <minecraft:feather>, <liquid:gold>, 1152, true, 100);
 
 mods.tconstruct.Melting.removeRecipe(<liquid:iron>, <minecraft:rail>);
 mods.tconstruct.Melting.removeRecipe(<liquid:iron>, <minecraft:activator_rail>);
@@ -140,6 +140,13 @@ mods.tconstruct.Melting.addRecipe(<liquid:organic_fluid> * 115, <ore:itemBioblen
 mods.tconstruct.Casting.addTableRecipe(<modularmachinery:itemmodularium>, <tconstruct:cast_custom>, <liquid:modularium>, 144, false, 200);
 mods.tconstruct.Alloy.addRecipe(<liquid:modularium> * 288, [<liquid:iron> * 144, <liquid:bronze> * 144, <liquid:redstone> * 100]);
 mods.tconstruct.Melting.addRecipe(<liquid:modularium> * 144, <ore:ingotModularium>, 900);
+
+mods.tconstruct.Casting.addTableRecipe(<nyx:meteor_ingot>, <tconstruct:cast_custom>, <liquid:meteor>, 144, false, 200);
+mods.tconstruct.Melting.addRecipe(<liquid:meteor> * 144, <ore:ingotMeteor>, 900);
+mods.tconstruct.Casting.addBasinRecipe(<nyx:meteor_block>, null, <liquid:meteor>, 1296, false, 300);
+mods.tconstruct.Melting.addRecipe(<liquid:meteor> * 1296, <ore:blockMeteor>, 900);
+mods.tconstruct.Melting.addRecipe(<liquid:meteor> * 144, <ore:dustMeteor>, 900);
+mods.tconstruct.Melting.addRecipe(<liquid:meteor> * 144, <ore:shardMeteor>, 900);
 //mods.tconstruct.Melting.addRecipe(<liquid:liquid_chocolate> * 48, <ore:beanCocoa>, 200);
 
 //mods.tconstruct.Melting.addRecipe(<liquid:cryonium> * 288, <additions:greedycraft-cryonium_ore>, 200);

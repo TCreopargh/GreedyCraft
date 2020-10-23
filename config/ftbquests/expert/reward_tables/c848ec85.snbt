@@ -321,7 +321,7 @@
 		item: {
 			id: "forge:bucketfilled",
 			tag: {
-				FluidName: "oil",
+				FluidName: "organic_fluid",
 				Amount: 1000
 			}
 		},

@@ -321,11 +321,11 @@
 				"hollow": true,
 				"filler": [{
 						"name": "additions:greedycraft-aeroite_ore",
-						"weight": 80
+						"weight": 30
 					},
 					{
 						"name": "aether_legacy:aercloud",
-						"weight": 20
+						"weight": 70
 					}
 				],
 				"material": "air",
@@ -515,7 +515,7 @@
 			},
 			"cluster-count": 1,
 			"min-height": 5,
-			"max-height": 40,
+			"max-height": 35,
 			"chunk-chance": 2,
 			"retrogen": "true",
 			"biome": "all",

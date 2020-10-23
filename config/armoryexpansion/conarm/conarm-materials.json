@@ -1739,6 +1739,28 @@
   },
   {
     "coreMaterialStats": {
+      "durability": 57.0,
+      "defense": 41.4,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 76.8,
+      "modifier": 25.411766,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 76.8,
+      "materialType": "trim"
+    },
+    "identifier": "meteor",
+    "color": -3790808,
+    "type": "METAL",
+    "castable": true,
+    "craftable": false
+  },
+  {
+    "coreMaterialStats": {
       "durability": 3.0,
       "defense": 10.8,
       "materialType": "core"

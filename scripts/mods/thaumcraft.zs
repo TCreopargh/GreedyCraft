@@ -25,7 +25,6 @@ var removedRecipes as IItemStack[] = [
 	<thaumcraft:fortress_helm>,
 	<thaumcraft:fortress_chest>,
 	<thaumcraft:fortress_legs>,
-	<thaumcraft:traveller_boots>,
 	<thaumcraft:void_robe_helm>,
 	<thaumcraft:void_robe_chest>,
 	<thaumcraft:void_robe_legs>,
