@@ -25,3 +25,4 @@ furnace.addRecipe(<aether_legacy:aerogel>, <aether_legacy:aercloud:*>);
 furnace.addRecipe(<additions:netherite_scrap> * 2, <ore:oreAncientDebris>);
 furnace.addRecipe(<tcomplement:materials:1>, <ore:ingotBrickSeared>);
 furnace.addRecipe(<tcomplement:scorched_block>, <ore:blockSeared>);
+furnace.addRecipe(<additions:chromium_ingot>, <ore:oreChromium>);

@@ -49,56 +49,69 @@
       "item": "avaritia:ultimate_stew",
       "tag": "{display:{Lore:[\"§a芜湖，起飞！\",\"§b§o赞助者物品 by§b§o DemonUK\"],Name:\"§eDemonUK的肉蛋葱鸡\"}}"
     },
-	{
+    {
       "item": "additions:tcsponsors-snake_rune"
     },
-	{
+    {
       "item": "additions:tcsponsors-doge"
     },
-	{
+    {
       "item": "additions:tcsponsors-sword_of_cosmos"
     },
-	{
+    {
       "item": "additions:tcsponsors-deep_sea_predator"
     },
-	{
+    {
       "item": "additions:tcsponsors-death_sickle"
     },
-	{
+    {
       "item": "additions:tcsponsors-rabbit_hat"
     },
-	{
+    {
       "item": "additions:tcsponsors-carrot_sword"
     },
-	{
+    {
       "item": "additions:tcsponsors-luceiferr"
     },
-	{
+    {
       "item": "additions:tcsponsors-glorious_crown"
     },
-	{
+    {
       "item": "additions:tcsponsors-wand_of_swapping"
     },
-	{
+    {
       "item": "additions:tcsponsors-green_cap"
     },
-	{
+    {
       "item": "additions:tcsponsors-magic_broom"
     },
-	{
+    {
       "item": "additions:tcsponsors-lost_gourd"
     },
-	{
+    {
       "item": "additions:tcsponsors-kikoku"
     },
-	{
+    {
       "item": "additions:tcsponsors-bad_soymilk"
     },
-	{
+    {
       "item": "additions:tcsponsors-cloud"
     },
-	{
+    {
       "item": "additions:tcsponsors-eye_of_miracle"
+    },
+    {
+      "item": "minecraft:potion",
+      "tag": "{CustomPotionEffects:[{Duration:6000,Id:17},{Duration:6000,Id:19}],CustomPotionColor:16121876,display:{Lore:[\"§c千万别喝。\",\"§b§o赞助者物品 by BATTLE NO.1\"],Name:\"§4MITE\"}}"
+    },
+	{
+      "item": "additions:tcsponsors-fleeing_master"
+    },
+	{
+      "item": "additions:tcsponsors-gorgon_blood"
+    },
+	{
+      "item": "additions:tcsponsors-eye_of_flesh"
     }
   ]
 }

@@ -5,9 +5,9 @@
   "lore": "这把斧子极大的利用了电力。",
   "tool": "hatchet",
   "materials": [
-    "carbon_fiber",
     "invar",
-    "ionite"
+    "fluxed_electrum",
+    "constantan"
   ],
   "free_mods": 2,
   "mods": [

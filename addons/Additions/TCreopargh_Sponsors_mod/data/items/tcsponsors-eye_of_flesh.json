@@ -1,0 +1,17 @@
+{
+  "name": "§c咸鱼的恩宠",
+  "tooltip": [
+    "§c放在物品栏中以获得饱食buff",
+    "§b§o赞助者物品 by Salted_Fish_Jun"
+  ],
+  "max_stack": 1,
+  "durability": 10000,
+  "harvest_level": 0,
+  "harvest_radius_width": 0,
+  "harvest_depth": 0,
+  "efficiency": 0.0,
+  "enchantability": 0,
+  "repair_stacks": {},
+  "tool_classes": [],
+  "type": "additions:multitool"
+}

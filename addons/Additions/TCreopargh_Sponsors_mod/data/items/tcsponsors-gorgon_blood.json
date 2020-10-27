@@ -1,0 +1,26 @@
+{
+  "name": "§c戈耳工之血",
+  "tooltip": [
+    "§e希腊神话中戈耳工的血有两种效果，从身体左边取出的为致命毒药，",
+    "§e从身体右边取出的血是可以令人起死回生的效果。",
+    "§e此瓶是某人在偶然一次经历中意外获得。因时间过长，药效有所减退。",
+    "§b§o赞助者物品 by MK_糯米鱼"
+  ],
+  "hunger": 0,
+  "saturation": 0.0,
+  "always_edible": true,
+  "is_drink": true,
+  "eaten_effects": [
+    {
+      "potion": {
+        "name": "minecraft:instant_health",
+        "duration": 1,
+        "amplifier": 2,
+        "ambient": false,
+        "show_particles": true
+      },
+      "type": "additions:potion"
+    }
+  ],
+  "type": "additions:food"
+}

@@ -1,0 +1,24 @@
+{
+  "cause": {
+    "item": {
+      "item": "additions:tcsponsors-fleeing_master",
+      "damage": "any"
+    },
+    "type": "additions:item_right_click"
+  },
+  "effects": [
+    {
+      "type": "additions:damage_item"
+    },
+    {
+      "potion": {
+        "name": "potioncore:teleport",
+        "duration": 1,
+        "amplifier": 0,
+        "ambient": false,
+        "show_particles": true
+      },
+      "type": "additions:potion"
+    }
+  ]
+}

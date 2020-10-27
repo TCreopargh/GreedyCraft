@@ -35,8 +35,23 @@ mods.modularmachinery.RecipeBuilder.newBuilder(regName + "_leaves", regName, spe
 	.setChance(0.065 as float)
 	.addItemOutput(<thermalfoundation:material:800>)
 	.setChance(0.3 as float)
+	.addItemOutput(<mysticalagriculture:nature_essence>)
+	.setChance(0.05 as float)
 	.build();
 	
+mods.modularmachinery.RecipeBuilder.newBuilder(regName + "_log", regName, speed, 0)
+	.addItemInput(<ore:logWood>)
+	.addEnergyPerTickInput(energy)
+	.addFluidInput(<liquid:water> * 50)
+	.addItemOutput(<thermalfoundation:material:800> * 6)
+	.setChance(0.8 as float)
+	.addItemOutput(<thermalfoundation:material:832>)
+	.setChance(0.05 as float)
+	.addItemOutput(<minecraft:stick>)
+	.setChance(0.4 as float)
+	.addItemOutput(<mysticalagriculture:wood_essence>)
+	.setChance(0.05 as float)
+	.build();
 
 mods.modularmachinery.RecipeBuilder.newBuilder(regName + "_gravel", regName, speed, 0)
 	.addItemInput(<ore:gravel>)
@@ -160,6 +175,8 @@ mods.modularmachinery.RecipeBuilder.newBuilder(regName + "_netherrack", regName,
 	.setChance(0.015 as float)
 	.addItemOutput(<minecraft:blaze_powder>)
 	.setChance(0.002 as float)
+	.addItemOutput(<minecraft:ghast_tear>)
+	.setChance(0.001 as float)
 	.addItemOutput(<additions:netherite_scrap>)
 	.setChance(0.00025 as float)
 	.build();

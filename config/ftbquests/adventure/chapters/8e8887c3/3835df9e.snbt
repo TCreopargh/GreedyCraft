@@ -72,6 +72,12 @@
 		count: 3
 	},
 	{
+		uid: "c44414c2",
+		type: "item",
+		item: "projectex:collector 1 7",
+		count: 2
+	},
+	{
 		uid: "c19e62ec",
 		type: "item",
 		item: {

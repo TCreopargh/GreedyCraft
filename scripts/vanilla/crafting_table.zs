@@ -258,14 +258,36 @@ val removedRecipes as IIngredient[] = [
 	<nyx:meteor_hoe>,
 	<nyx:meteor_shovel>,
 	<nyx:meteor_axe>,
-	<nyx:meteor_dust>
+	<nyx:meteor_dust>,
+	<extrautils2:lawsword>,
+	<enderio:item_material:10>,
+	<cyclicmagic:bundled_pipe>,
+	<redstonearsenal:util.quiver_flux>,
+	<redstonerepository:feeder>,
+	<forestry:bronze_pickaxe>,
+	<mekanism:basicblock:8>,
+	<buildinggadgets:buildingtool>,
+	<buildinggadgets:exchangertool>,
+	<buildinggadgets:copypastetool>,
+	<buildinggadgets:destructiontool>,
+	<actuallyadditions:block_misc:8>,
+	<cyclicmagic:heart_toxic>,
+	<demagnetize:demagnetizer>,
+	<demagnetize:demagnetizer_advanced>,
+	<biomesoplenty:terrestrial_artifact>,
+	<aether_legacy:valkyrie_pickaxe>,
+	<aether_legacy:valkyrie_axe>,
+	<aether_legacy:valkyrie_shovel>
 ];
 
 for ingredient in removedRecipes {
 	recipes.remove(ingredient);
 }
 
- val omnipedia = <akashictome:tome>.withTag({"akashictome:is_morphing": 1 as byte, display: {Lore: ["§6第9版",  "§a§o你想知道的都在这里"], Name: "§d§ka§r §b百科全书 §d§ka§r"}, "akashictome:data": {tconstruct: {id:  "tconstruct:book", Count: 1 as byte, tag: {"akashictome:definedMod": "tconstruct"}, Damage: 0 as  short}, theoneprobe: {id: "theoneprobe:probenote", Count: 1 as byte, tag:  {"akashictome:definedMod": "theoneprobe"}, Damage: 0 as short}, astralsorcery: {ForgeCaps:  {"astralsorcery:cap_item_amulet_holder": {}}, id: "astralsorcery:itemjournal", Count: 1 as byte, tag:  {"akashictome:definedMod": "astralsorcery"}, Damage: 0 as short}, ftbquests: {id:  "ftbquests:book", Count: 1 as byte, tag: {"akashictome:definedMod": "ftbquests"}, Damage: 0 as  short}, rftools: {id: "rftools:rftools_shape_manual", Count: 1 as byte, tag: {"akashictome:definedMod": "rftools"}, Damage: 0 as short}, botania: {id: "botania:lexicon", Count:  1 as byte, tag: {"akashictome:definedMod": "botania"}, Damage: 0 as short}, rustic: {id: "rustic:book", Count: 1 as byte, tag: {"akashictome:definedMod": "rustic"}, Damage: 0 as short},  draconicevolution: {id: "draconicevolution:info_tablet", Count: 1 as byte, tag:  {"akashictome:definedMod": "draconicevolution"}, Damage: 0 as short}, bibliocraft2: {id: "bibliocraft:atlasbook", Count: 1 as byte, tag: {"akashictome:definedMod": "bibliocraft2", atlasID: 1422948728}, Damage: 33 as short}, bibliocraft1: {id: "bibliocraft:slottedbook", Count: 1 as byte, tag: {"akashictome:definedMod": "bibliocraft1", authorName: "by Sir Hidington"}, Damage: 0 as short}, projecte: {id: "projecte:item.pe_manual", Count: 1 as byte, tag: {"akashictome:definedMod": "projecte"}, Damage: 0 as short}, mekanism: {id: "mekanism:dictionary", Count: 1 as byte, tag: {"akashictome:definedMod": "mekanism"}, Damage: 0 as short}, extrautils2: {id: "extrautils2:book", Count: 1 as byte, tag: {"akashictome:definedMod": "extrautils2"}, Damage: 0 as short}, thermalfoundation: {id: "thermalfoundation:tome_lexicon", Count: 1 as byte, tag: {"akashictome:definedMod": "thermalfoundation"}, Damage: 0 as short}, bibliocraft4: {id: "bibliocraft:testeritem", Count: 1 as byte, tag: {"akashictome:definedMod": "bibliocraft4", containerUpdate: 0 as byte, Inventory: []}, Damage: 0 as short}, actuallyadditions: {id: "actuallyadditions:item_booklet", Count: 1 as byte, tag: {"akashictome:definedMod": "actuallyadditions"}, Damage: 0 as short}, bibliocraft3: {id: "bibliocraft:biblioredbook", Count: 1 as byte, tag: {"akashictome:definedMod": "bibliocraft3", redstonebook: "by James Maxwell"}, Damage: 0 as short}, patchouli: {id: "patchouli:guide_book", Count: 1 as byte, tag: {"akashictome:definedMod": "patchouli", "patchouli:book": "patchouli:greedycraft_guide_book"}, Damage: 0 as short}, abyssalcraft: {id: "abyssalcraft:necronomicon", Count: 1 as byte, tag: {"akashictome:definedMod": "abyssalcraft", PotEnergy: 0.0 as float}, Damage: 0 as short}, yoyos: {id: "yoyos:book", Count: 1 as byte, tag: {"akashictome:definedMod": "yoyos"}, Damage: 0 as short}, forestry1: {id: "forestry:catalogue", Count: 1 as byte, tag: {"akashictome:definedMod": "forestry1"}, Damage: 0 as short}, hammercore: {id: "hammercore:manual", Count: 1 as byte, tag: {"akashictome:definedMod": "hammercore"}, Damage: 0 as short}, cookingforblockheads: {id: "cookingforblockheads:recipe_book", Count: 1 as byte, tag: {"akashictome:definedMod": "cookingforblockheads"}, Damage: 0 as short}, xnet: {id: "xnet:xnet_manual", Count: 1 as byte, tag: {"akashictome:definedMod": "xnet"}, Damage: 0 as short}, rftoolscontrol: {id: "rftoolscontrol:rftoolscontrol_manual", Count: 1 as byte, tag: {"akashictome:definedMod": "rftoolscontrol"}, Damage: 0 as short}, cyclicmagic1: {id: "cyclicmagic:tool_trade", Count: 1 as byte, tag: {"akashictome:definedMod": "cyclicmagic1"}, Damage: 0 as short}, sakura: {ForgeCaps: {"astralsorcery:cap_item_amulet_holder": {}}, id: "patchouli:guide_book", Count: 1 as byte, tag: {"akashictome:definedMod": "sakura", "patchouli:book": "sakura:sakura_guide"}, Damage: 0 as short}, conarm: {id: "conarm:book", Count: 1 as byte, tag: {"akashictome:definedMod": "conarm"}, Damage: 0 as short}, cfm: {id: "cfm:item_recipe_book", Count: 1 as byte, tag: {"akashictome:definedMod": "cfm"}, Damage: 0 as short}, cookingforblockheads1: {id: "cookingforblockheads:recipe_book", Count: 1 as byte, tag: {"akashictome:definedMod": "cookingforblockheads1"}, Damage: 1 as short}, cookingforblockheads2: {id: "cookingforblockheads:recipe_book", Count: 1 as byte, tag: {"akashictome:definedMod": "cookingforblockheads2"}, Damage: 2 as short}, solcarrot: {id: "solcarrot:food_book", Count: 1 as byte, tag: {"akashictome:definedMod": "solcarrot"}, Damage: 0 as short}, rftools2: {id: "rftools:rftools_manual", Count: 1 as byte, tag:  {"akashictome:definedMod": "rftools2"}, Damage: 0 as short}, aether_legacy: {id:  "aether_legacy:lore_book", Count: 1 as byte, tag: {"akashictome:definedMod": "aether_legacy"},  Damage: 0 as short}, spiceoflife: {id: "spiceoflife:bookfoodjournal", Count: 1 as byte, tag:  {"akashictome:definedMod": "spiceoflife"}, Damage: 0 as short}, thaumcraft: {id:  "thaumcraft:thaumonomicon", Count: 1 as byte, tag: {"akashictome:definedMod": "thaumcraft"},  Damage: 0 as short}, logisticspipes: {id: "logisticspipes:guide_book", Count: 1 as byte, tag:  {"akashictome:definedMod": "logisticspipes"}, Damage: 0 as short}, twilightforest: {id:  "patchouli:guide_book", Count: 1 as byte, tag: {"akashictome:definedMod": "twilightforest",  "patchouli:book": "twilightforest:guide"}, Damage: 0 as short}, cyclicmagic: {id:  "guideapi:cyclicmagic-guide", Count: 1 as byte, tag: {"akashictome:definedMod": "cyclicmagic"},  Damage: 0 as short}, openblocks: {id: "openblocks:info_book", Count: 1 as byte, tag:  {"akashictome:definedMod": "openblocks"}, Damage: 0 as short}, forestry: {id:  "forestry:book_forester", Count: 1 as byte, tag: {"akashictome:definedMod": "forestry"}, Damage:  0 as short}}}) as IItemStack;
+recipes.removeByRecipeName("extrautils2:watering_can");
+recipes.removeByRecipeName("prefab:ender_gateway");
+
+ val omnipedia = <akashictome:tome>.withTag({"akashictome:is_morphing": 1 as byte, display: {Lore: ["§6第10版",  "§a§o你想知道的都在这里"], Name: "§d§ka§r §b百科全书 §d§ka§r"}, "akashictome:data": {tconstruct: {id:  "tconstruct:book", Count: 1 as byte, tag: {"akashictome:definedMod": "tconstruct"}, Damage: 0 as  short}, theoneprobe: {id: "theoneprobe:probenote", Count: 1 as byte, tag:  {"akashictome:definedMod": "theoneprobe"}, Damage: 0 as short}, astralsorcery: {ForgeCaps:  {"astralsorcery:cap_item_amulet_holder": {}}, id: "astralsorcery:itemjournal", Count: 1 as byte, tag:  {"akashictome:definedMod": "astralsorcery"}, Damage: 0 as short}, ftbquests: {id:  "ftbquests:book", Count: 1 as byte, tag: {"akashictome:definedMod": "ftbquests"}, Damage: 0 as  short}, rftools: {id: "rftools:rftools_shape_manual", Count: 1 as byte, tag: {"akashictome:definedMod": "rftools"}, Damage: 0 as short}, botania: {id: "botania:lexicon", Count:  1 as byte, tag: {"akashictome:definedMod": "botania"}, Damage: 0 as short}, rustic: {id: "rustic:book", Count: 1 as byte, tag: {"akashictome:definedMod": "rustic"}, Damage: 0 as short},  draconicevolution: {id: "draconicevolution:info_tablet", Count: 1 as byte, tag:  {"akashictome:definedMod": "draconicevolution"}, Damage: 0 as short}, bibliocraft2: {id: "bibliocraft:atlasbook", Count: 1 as byte, tag: {"akashictome:definedMod": "bibliocraft2", atlasID: 1422948728}, Damage: 33 as short}, bibliocraft1: {id: "bibliocraft:slottedbook", Count: 1 as byte, tag: {"akashictome:definedMod": "bibliocraft1", authorName: "by Sir Hidington"}, Damage: 0 as short}, projecte: {id: "projecte:item.pe_manual", Count: 1 as byte, tag: {"akashictome:definedMod": "projecte"}, Damage: 0 as short}, mekanism: {id: "mekanism:dictionary", Count: 1 as byte, tag: {"akashictome:definedMod": "mekanism"}, Damage: 0 as short}, extrautils2: {id: "extrautils2:book", Count: 1 as byte, tag: {"akashictome:definedMod": "extrautils2"}, Damage: 0 as short}, thermalfoundation: {id: "thermalfoundation:tome_lexicon", Count: 1 as byte, tag: {"akashictome:definedMod": "thermalfoundation"}, Damage: 0 as short}, bibliocraft4: {id: "bibliocraft:testeritem", Count: 1 as byte, tag: {"akashictome:definedMod": "bibliocraft4", containerUpdate: 0 as byte, Inventory: []}, Damage: 0 as short}, actuallyadditions: {id: "actuallyadditions:item_booklet", Count: 1 as byte, tag: {"akashictome:definedMod": "actuallyadditions"}, Damage: 0 as short}, bibliocraft3: {id: "bibliocraft:biblioredbook", Count: 1 as byte, tag: {"akashictome:definedMod": "bibliocraft3", redstonebook: "by James Maxwell"}, Damage: 0 as short}, patchouli: {id: "patchouli:guide_book", Count: 1 as byte, tag: {"akashictome:definedMod": "patchouli", "patchouli:book": "patchouli:greedycraft_guide_book"}, Damage: 0 as short}, abyssalcraft: {id: "abyssalcraft:necronomicon", Count: 1 as byte, tag: {"akashictome:definedMod": "abyssalcraft", PotEnergy: 0.0 as float}, Damage: 0 as short}, yoyos: {id: "yoyos:book", Count: 1 as byte, tag: {"akashictome:definedMod": "yoyos"}, Damage: 0 as short}, forestry1: {id: "forestry:catalogue", Count: 1 as byte, tag: {"akashictome:definedMod": "forestry1"}, Damage: 0 as short}, hammercore: {id: "hammercore:manual", Count: 1 as byte, tag: {"akashictome:definedMod": "hammercore"}, Damage: 0 as short}, cookingforblockheads: {id: "cookingforblockheads:recipe_book", Count: 1 as byte, tag: {"akashictome:definedMod": "cookingforblockheads"}, Damage: 0 as short}, xnet: {id: "xnet:xnet_manual", Count: 1 as byte, tag: {"akashictome:definedMod": "xnet"}, Damage: 0 as short}, rftoolscontrol: {id: "rftoolscontrol:rftoolscontrol_manual", Count: 1 as byte, tag: {"akashictome:definedMod": "rftoolscontrol"}, Damage: 0 as short}, cyclicmagic1: {id: "cyclicmagic:tool_trade", Count: 1 as byte, tag: {"akashictome:definedMod": "cyclicmagic1"}, Damage: 0 as short}, sakura: {ForgeCaps: {"astralsorcery:cap_item_amulet_holder": {}}, id: "patchouli:guide_book", Count: 1 as byte, tag: {"akashictome:definedMod": "sakura", "patchouli:book": "sakura:sakura_guide"}, Damage: 0 as short}, conarm: {id: "conarm:book", Count: 1 as byte, tag: {"akashictome:definedMod": "conarm"}, Damage: 0 as short}, cfm: {id: "cfm:item_recipe_book", Count: 1 as byte, tag: {"akashictome:definedMod": "cfm"}, Damage: 0 as short}, cookingforblockheads1: {id: "cookingforblockheads:recipe_book", Count: 1 as byte, tag: {"akashictome:definedMod": "cookingforblockheads1"}, Damage: 1 as short}, cookingforblockheads2: {id: "cookingforblockheads:recipe_book", Count: 1 as byte, tag: {"akashictome:definedMod": "cookingforblockheads2"}, Damage: 2 as short}, solcarrot: {id: "solcarrot:food_book", Count: 1 as byte, tag: {"akashictome:definedMod": "solcarrot"}, Damage: 0 as short}, rftools2: {id: "rftools:rftools_manual", Count: 1 as byte, tag:  {"akashictome:definedMod": "rftools2"}, Damage: 0 as short}, aether_legacy: {id:  "aether_legacy:lore_book", Count: 1 as byte, tag: {"akashictome:definedMod": "aether_legacy"},  Damage: 0 as short}, spiceoflife: {id: "spiceoflife:bookfoodjournal", Count: 1 as byte, tag:  {"akashictome:definedMod": "spiceoflife"}, Damage: 0 as short}, thaumcraft: {id:  "thaumcraft:thaumonomicon", Count: 1 as byte, tag: {"akashictome:definedMod": "thaumcraft"},  Damage: 0 as short}, logisticspipes: {id: "logisticspipes:guide_book", Count: 1 as byte, tag:  {"akashictome:definedMod": "logisticspipes"}, Damage: 0 as short}, twilightforest: {id:  "patchouli:guide_book", Count: 1 as byte, tag: {"akashictome:definedMod": "twilightforest",  "patchouli:book": "twilightforest:guide"}, Damage: 0 as short}, cyclicmagic: {id:  "guideapi:cyclicmagic-guide", Count: 1 as byte, tag: {"akashictome:definedMod": "cyclicmagic"},  Damage: 0 as short}, openblocks: {id: "openblocks:info_book", Count: 1 as byte, tag:  {"akashictome:definedMod": "openblocks"}, Damage: 0 as short}, forestry: {id:  "forestry:book_forester", Count: 1 as byte, tag: {"akashictome:definedMod": "forestry"}, Damage: 0 as short}, compactmachines3: {id:  "compactmachines3:psd", Count: 1 as byte, tag: {"akashictome:definedMod": "compactmachines3"}, Damage: 0 as short}}}) as IItemStack;
  
  val errorStone = <minecraft:stone>.withTag({display: {Name:"§c错误之石", Lore:["§e如果你得到了这个，证明你发现了一个BUG！", "如果是这种情况，请将其汇报给作者！"]}}) as IItemStack;
  
@@ -439,9 +461,9 @@ recipes.addShapeless("auto_gen_1296047035", <minecraft:splash_potion>.withTag({C
 recipes.addShapeless("auto_gen_-2147158797", <minecraft:splash_potion>.withTag({CustomPotionEffects:[{Duration:2400,Id:2,Amplifier:49},{Duration:2400,Id:4,Amplifier:49},{Id:7,Amplifier:28},{Duration:2400,Id:9},{Duration:2400,Id:15},{Duration:2400,Id:17,Amplifier:49},{Duration:2400,Id:18,Amplifier:49},{Duration:2400,Id:19,Amplifier:4},{Duration:2400,Id:20,Amplifier:2},{Duration:2400,Id:24},{Duration:2400,Id:25,Amplifier:49},{Duration:2400,Id:27,Amplifier:49}],CustomPotionColor:0,display:{Lore:["蕴含了世间枯萎力量的药剂"],Name:"§8§l枯萎药剂"}}), [<minecraft:glass_bottle>, <additions:greedycraft-wither_soul>, <additions:greedycraft-creative_shard>, <additions:greedycraft-creative_shard>]);
 recipes.addShapeless("auto_gen_1498134564", <ae2wtlib:wut_creative>, [<wit:wit_creative>, <wct:wct_creative>, <wft:wft_creative>]);
 recipes.addShaped("auto_gen_1179581625", <mysticalagriculture:growth_accelerator>*4, 
-[[<extrautils2:compressedcobblestone:4>, <mysticalagriculture:storage:4>, <extrautils2:compressedcobblestone:4>],
+[[<mysticalagriculture:storage:3>, <mysticalagriculture:storage:4>, <mysticalagriculture:storage:3>],
 [<mysticalagriculture:storage:4>, <minecraft:diamond_block>, <mysticalagriculture:storage:4>],
-[<extrautils2:compressedcobblestone:4>, <mysticalagriculture:storage:4>, <extrautils2:compressedcobblestone:4>]]);
+[<mysticalagriculture:storage:3>, <mysticalagriculture:storage:4>, <mysticalagriculture:storage:3>]]);
 recipes.addShaped("auto_gen_-1186141268", <mekanismgenerators:generator:12>, 
 [[null, <mekanismgenerators:generator:10>, null],
 [<mekanismgenerators:generator:10>, <additions:greedycraft-creative_soul>, <mekanismgenerators:generator:10>],
@@ -606,9 +628,13 @@ recipes.addShaped("auto_gen_918073950", <waystones:warp_stone>,
 [<ore:gemDiamond>, <ore:pearlEnderEye>, <ore:gemDiamond>],
 [<ore:gemAmethyst>, <ore:gemDiamond>, <ore:gemAmethyst>]]);
 recipes.addShaped("auto_gen_2018337295", <thermalfoundation:material:23>, 
-[[null, <ore:materialStoneTool>, null],
-[<ore:materialStoneTool>, null, <ore:materialStoneTool>],
-[null, <ore:materialStoneTool>, null]]);
+[[null, <ore:cobblestone>, null],
+[<ore:cobblestone>, null, <ore:cobblestone>],
+[null, <ore:cobblestone>, null]]);
+recipes.addShaped("auto_gen_2018337296", <enderio:item_material:10>, 
+[[null, <ore:cobblestone>, null],
+[<ore:cobblestone>, <ore:stickWood>, <ore:cobblestone>],
+[null, <ore:cobblestone>, null]]);
 recipes.addShapeless("auto_gen_-1317989727", <astralsorcery:blockmarble:6>*3, [<ore:stoneMarble>, <ore:stoneMarble>, <ore:stoneMarble>]);
 recipes.addShapeless("auto_gen_1877622542", <astralsorcery:blockmarble>, [<ore:stoneMarble>]);
 recipes.addShapeless("auto_gen_-1801128435", <astralsorcery:blockmarble>, [<pvj:marble>]);
@@ -915,10 +941,6 @@ recipes.addShaped("forbidden_bible_1", <additions:greedycraft-forbidden_bible>,
 [[<ore:ingotVoid>, <ore:ingotDemonicMetal>, <ore:ingotVoid>],
 [<ore:ingotDemonicMetal>, <minecraft:skull:3>.withTag({SkullOwner: {"Name": "TCreopargh"}}), <ore:ingotDemonicMetal>],
 [<ore:ingotVoid>, <ore:ingotDemonicMetal>, <ore:ingotVoid>]]);
-recipes.addShaped("forbidden_bible_2", <additions:greedycraft-forbidden_bible>, 
-[[<ore:ingotVoid>, <ore:ingotDemonicMetal>, <ore:ingotVoid>],
-[<ore:ingotDemonicMetal>, <minecraft:skull:3>.withTag({SkullOwner: {Id: "2d06868c-6d9b-433a-a356-1a7993b62b8d", Properties: {textures: [{Signature: "vWdCu6oGO8l0WREv3nXuNHy8o4F6SoNV1HZBp+nyBwhy0L3crSC5IPbmvWxkgIDbBnorY+51kXT99E6nwDiWOnxVFjxcALgitTEhk4zkH4MNjcPEM5zMSJPkB1QWFUCtg90FZRK6KBOnTD89p6MkDJY4qwIlr7Cvp04eIC/mYCGP83NbzeZVCQ7VVB++l4o+Ln+cL6+aTM0vozVIV9YnimLyDL2KBAsqBudgGrDSyQEVvskDOIvXEgeP7Q9av2E5NZqLp519yWl8d8W2xJmsPPawv3y+RTdWSuD5PdnSuV1h11izOsO2AZuIxTjwg31+xT0IqWsk2i+UPxIPENvVrQSKsrIl12OAk6ksfDN4ZXPiHi6DZjLPcsHjw9PhPjZfcXrNPpSl+n0kRuP+7BDL0FHuRxqPivtlzV5PvAEIv4dFU1loVPAsO72i4owFnDla8DHXTFurBoEyN3AsnzqsRWdNBBzEPIkY5ONjgmVpXosmMSssxm7FpgKrH+ScBS7xhkMZorO56PcvfYsJp5RQQjdkj9afoZTzpJGXu1iPDmAwEeVp2wOtXGYisCMPO8mLR7ntfvUzl1zo6ZF1QcH5iDX96i55GWsRxQ+gsyZ5ahpYTTEoAUo0r0ZJP6l9j+6YY8k8cxfV33Y3NN8IzokDEZ9XGFhhcKH0roH4/jNwpxg=", Value: "ewogICJ0aW1lc3RhbXAiIDogMTYwMzM0Mzg2MDczMSwKICAicHJvZmlsZUlkIiA6ICIyZDA2ODY4YzZkOWI0MzNhYTM1NjFhNzk5M2I2MmI4ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJUQ3Jlb3BhcmdoIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzE5Zjc4MTI1OTc4NTQ2NzZlYjljOGNkYjBkNjAzZjY4MDgxM2E0ZjQ1MGIyZWMyODE3OGE2ZWE4ZWI2YjE4MDYiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="}]}, Name: "TCreopargh"}, display: {Name: "§eTCreopargh§b的头"}}), <ore:ingotDemonicMetal>],
-[<ore:ingotVoid>, <ore:ingotDemonicMetal>, <ore:ingotVoid>]]);
 recipes.addShaped("time_shard", <additions:greedycraft-time_shard>, 
 [[<ore:fragmentTime>, <ore:fragmentTime>, <ore:fragmentTime>],
 [<ore:fragmentTime>, <ore:fragmentTime>, <ore:fragmentTime>],
@@ -973,7 +995,7 @@ recipes.addShaped("bottledstar", <extrabotany:bottledstar>,
 [<ore:blockGlass>, <ore:fallenStar>, <ore:blockGlass>],
 [<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>]]);
 recipes.addShaped("end_portal_frame", <minecraft:end_portal_frame>, 
-[[<ore:pearlEnderEye>, <ore:gemEnderBiotite>, <ore:pearlEnderEye>],
+[[<ore:pearlEnderEye>, <ore:netherStar>, <ore:pearlEnderEye>],
 [<ore:endstone>, <ore:endstone>, <ore:endstone>],
 [<ore:endstone>, <ore:endstone>, <ore:endstone>]]);
 recipes.addShaped("experience_transporter", <additions:greedycraft-experience_transporter>, 
@@ -1004,10 +1026,11 @@ recipes.addShaped("wood_pile", <forestry:wood_pile> * 1,
 [null, null, null],
 [<ore:logWood>, null, <ore:logWood>]]);
 
+
 recipes.addShaped("blockinputbus_3", <modularmachinery:blockinputbus:3>, 
-[[<ore:ingotModularium>, <ore:ingotSteel>, <ore:ingotModularium>],
-[<ore:ingotSteel>, <modularmachinery:blockinputbus:2>, <ore:ingotSteel>],
-[<ore:ingotModularium>, <ore:ingotSteel>, <ore:ingotModularium>]]);
+[[<ore:ingotModularium>, <ore:ingotStainlessSteel>, <ore:ingotModularium>],
+[<ore:ingotStainlessSteel>, <modularmachinery:blockinputbus:2>, <ore:ingotStainlessSteel>],
+[<ore:ingotModularium>, <ore:ingotStainlessSteel>, <ore:ingotModularium>]]);
 recipes.addShaped("blockinputbus_4", <modularmachinery:blockinputbus:4>, 
 [[<ore:ingotModularium>, <ore:ingotCrystallineAlloy>, <ore:ingotModularium>],
 [<ore:ingotCrystallineAlloy>, <modularmachinery:blockinputbus:3>, <ore:ingotCrystallineAlloy>],
@@ -1021,9 +1044,9 @@ recipes.addShaped("blockinputbus_6", <modularmachinery:blockinputbus:6>,
 [<ore:ingotFusionMatrix>, <modularmachinery:blockinputbus:5>, <ore:ingotFusionMatrix>],
 [<ore:ingotModularium>, <ore:ingotFusionMatrix>, <ore:ingotModularium>]]);
 recipes.addShaped("blockoutputbus_3", <modularmachinery:blockoutputbus:3>, 
-[[<ore:ingotModularium>, <ore:ingotSteel>, <ore:ingotModularium>],
-[<ore:ingotSteel>, <modularmachinery:blockoutputbus:2>, <ore:ingotSteel>],
-[<ore:ingotModularium>, <ore:ingotSteel>, <ore:ingotModularium>]]);
+[[<ore:ingotModularium>, <ore:ingotStainlessSteel>, <ore:ingotModularium>],
+[<ore:ingotStainlessSteel>, <modularmachinery:blockoutputbus:2>, <ore:ingotStainlessSteel>],
+[<ore:ingotModularium>, <ore:ingotStainlessSteel>, <ore:ingotModularium>]]);
 recipes.addShaped("blockoutputbus_4", <modularmachinery:blockoutputbus:4>, 
 [[<ore:ingotModularium>, <ore:ingotCrystallineAlloy>, <ore:ingotModularium>],
 [<ore:ingotCrystallineAlloy>, <modularmachinery:blockoutputbus:3>, <ore:ingotCrystallineAlloy>],
@@ -1037,9 +1060,9 @@ recipes.addShaped("blockoutputbus_6", <modularmachinery:blockoutputbus:6>,
 [<ore:ingotFusionMatrix>, <modularmachinery:blockoutputbus:5>, <ore:ingotFusionMatrix>],
 [<ore:ingotModularium>, <ore:ingotFusionMatrix>, <ore:ingotModularium>]]);
 recipes.addShaped("blockfluidinputhatch_3", <modularmachinery:blockfluidinputhatch:3>, 
-[[<ore:ingotModularium>, <ore:ingotSteel>, <ore:ingotModularium>],
-[<ore:ingotSteel>, <modularmachinery:blockfluidinputhatch:2>, <ore:ingotSteel>],
-[<ore:ingotModularium>, <ore:ingotSteel>, <ore:ingotModularium>]]);
+[[<ore:ingotModularium>, <ore:ingotStainlessSteel>, <ore:ingotModularium>],
+[<ore:ingotStainlessSteel>, <modularmachinery:blockfluidinputhatch:2>, <ore:ingotStainlessSteel>],
+[<ore:ingotModularium>, <ore:ingotStainlessSteel>, <ore:ingotModularium>]]);
 recipes.addShaped("blockfluidinputhatch_4", <modularmachinery:blockfluidinputhatch:4>, 
 [[<ore:ingotModularium>, <ore:ingotCrystallineAlloy>, <ore:ingotModularium>],
 [<ore:ingotCrystallineAlloy>, <modularmachinery:blockfluidinputhatch:3>, <ore:ingotCrystallineAlloy>],
@@ -1057,9 +1080,9 @@ recipes.addShaped("blockfluidinputhatch_7", <modularmachinery:blockfluidinputhat
 [<ore:ingotTitanium>, <modularmachinery:blockfluidinputhatch:5>, <ore:ingotTitanium>],
 [<ore:ingotModularium>, <ore:ingotTitanium>, <ore:ingotModularium>]]);
 recipes.addShaped("blockfluidoutputhatch_3", <modularmachinery:blockfluidoutputhatch:3>, 
-[[<ore:ingotModularium>, <ore:ingotSteel>, <ore:ingotModularium>],
-[<ore:ingotSteel>, <modularmachinery:blockfluidoutputhatch:2>, <ore:ingotSteel>],
-[<ore:ingotModularium>, <ore:ingotSteel>, <ore:ingotModularium>]]);
+[[<ore:ingotModularium>, <ore:ingotStainlessSteel>, <ore:ingotModularium>],
+[<ore:ingotStainlessSteel>, <modularmachinery:blockfluidoutputhatch:2>, <ore:ingotStainlessSteel>],
+[<ore:ingotModularium>, <ore:ingotStainlessSteel>, <ore:ingotModularium>]]);
 recipes.addShaped("blockfluidoutputhatch_4", <modularmachinery:blockfluidoutputhatch:4>, 
 [[<ore:ingotModularium>, <ore:ingotCrystallineAlloy>, <ore:ingotModularium>],
 [<ore:ingotCrystallineAlloy>, <modularmachinery:blockfluidoutputhatch:3>, <ore:ingotCrystallineAlloy>],
@@ -1077,9 +1100,9 @@ recipes.addShaped("blockfluidoutputhatch_7", <modularmachinery:blockfluidoutputh
 [<ore:ingotTitanium>, <modularmachinery:blockfluidoutputhatch:5>, <ore:ingotTitanium>],
 [<ore:ingotModularium>, <ore:ingotTitanium>, <ore:ingotModularium>]]);
 recipes.addShaped("blockenergyinputhatch_3", <modularmachinery:blockenergyinputhatch:3>, 
-[[<ore:ingotModularium>, <ore:ingotSteel>, <ore:ingotModularium>],
-[<ore:ingotSteel>, <modularmachinery:blockenergyinputhatch:2>, <ore:ingotSteel>],
-[<ore:ingotModularium>, <ore:ingotSteel>, <ore:ingotModularium>]]);
+[[<ore:ingotModularium>, <ore:ingotStainlessSteel>, <ore:ingotModularium>],
+[<ore:ingotStainlessSteel>, <modularmachinery:blockenergyinputhatch:2>, <ore:ingotStainlessSteel>],
+[<ore:ingotModularium>, <ore:ingotStainlessSteel>, <ore:ingotModularium>]]);
 recipes.addShaped("blockenergyinputhatch_4", <modularmachinery:blockenergyinputhatch:4>, 
 [[<ore:ingotModularium>, <ore:ingotCrystallineAlloy>, <ore:ingotModularium>],
 [<ore:ingotCrystallineAlloy>, <modularmachinery:blockenergyinputhatch:3>, <ore:ingotCrystallineAlloy>],
@@ -1097,9 +1120,9 @@ recipes.addShaped("blockenergyinputhatch_7", <modularmachinery:blockenergyinputh
 [<ore:ingotTitanium>, <modularmachinery:blockenergyinputhatch:5>, <ore:ingotTitanium>],
 [<ore:ingotModularium>, <ore:ingotTitanium>, <ore:ingotModularium>]]);
 recipes.addShaped("blockenergyoutputhatch_3", <modularmachinery:blockenergyoutputhatch:3>, 
-[[<ore:ingotModularium>, <ore:ingotSteel>, <ore:ingotModularium>],
-[<ore:ingotSteel>, <modularmachinery:blockenergyoutputhatch:2>, <ore:ingotSteel>],
-[<ore:ingotModularium>, <ore:ingotSteel>, <ore:ingotModularium>]]);
+[[<ore:ingotModularium>, <ore:ingotStainlessSteel>, <ore:ingotModularium>],
+[<ore:ingotStainlessSteel>, <modularmachinery:blockenergyoutputhatch:2>, <ore:ingotStainlessSteel>],
+[<ore:ingotModularium>, <ore:ingotStainlessSteel>, <ore:ingotModularium>]]);
 recipes.addShaped("blockenergyoutputhatch_4", <modularmachinery:blockenergyoutputhatch:4>, 
 [[<ore:ingotModularium>, <ore:ingotCrystallineAlloy>, <ore:ingotModularium>],
 [<ore:ingotCrystallineAlloy>, <modularmachinery:blockenergyoutputhatch:3>, <ore:ingotCrystallineAlloy>],
@@ -1153,7 +1176,73 @@ recipes.addShaped("high_oven_io_2", <tcomplement:high_oven_io:2>,
 [null, null, null],
 [<tcomplement:materials:1>, <ore:ingotIron>, <tcomplement:materials:1>]]);
 
+recipes.addShaped("stainless_steel_block", <additions:greedycraft-stainless_steel_block>, 
+[[<ore:ingotStainlessSteel>, <ore:ingotStainlessSteel>, <ore:ingotStainlessSteel>],
+[<ore:ingotStainlessSteel>, <ore:ingotStainlessSteel>, <ore:ingotStainlessSteel>],
+[<ore:ingotStainlessSteel>, <ore:ingotStainlessSteel>, <ore:ingotStainlessSteel>]]);
+recipes.addShapeless("stainless_steel_rev", <additions:stainless_steel_ingot> * 9, [<ore:blockStainlessSteel>]);
+
+recipes.addShaped("mekanism_casing", <mekanism:basicblock:8>, 
+[[<ore:ingotStainlessSteel>, <ore:blockGlassHardened>, <ore:ingotStainlessSteel>],
+[<ore:blockGlassHardened>, <ore:ingotOsmium>, <ore:blockGlassHardened>],
+[<ore:ingotStainlessSteel>, <ore:blockGlassHardened>, <ore:ingotStainlessSteel>]]);
+
 recipes.addShapeless("red_key", <treasure2:ruby_key>, [<ore:dustGlowstone>, <treasure2:gold_key>, <treasure2:treasure_tool>, <ore:gemRuby>]);
 recipes.addShapeless("blue_key", <treasure2:sapphire_key>, [<ore:dustGlowstone>, <treasure2:gold_key>, <treasure2:treasure_tool>, <ore:gemSapphire>]);
 
-recipes.removeByRecipeName("extrautils2:watering_can");
+recipes.addShaped("auto_gen_2008269634", <buildinggadgets:buildingtool>, 
+[[<ore:ingotStainlessSteel>, <ore:dustRedstone>, <ore:ingotStainlessSteel>],
+[<ore:ingotBronze>, <ore:gemDiamond>, <ore:ingotBronze>],
+[<ore:ingotStainlessSteel>, <ore:dustRedstone>, <ore:ingotStainlessSteel>]]);
+recipes.addShaped("auto_gen_352019415", <buildinggadgets:exchangertool>, 
+[[<ore:ingotStainlessSteel>, <ore:dustRedstone>, <ore:ingotStainlessSteel>],
+[<ore:pearlEnderEye>, <ore:gemDiamond>, <ore:pearlEnderEye>],
+[<ore:ingotStainlessSteel>, <ore:dustRedstone>, <ore:ingotStainlessSteel>]]);
+recipes.addShaped("auto_gen_-1071431898", <buildinggadgets:copypastetool>, 
+[[<ore:ingotStainlessSteel>, <ore:dustRedstone>, <ore:ingotStainlessSteel>],
+[<ore:slimeball>, <ore:gemDiamond>, <ore:slimeball>],
+[<ore:ingotStainlessSteel>, <ore:dustRedstone>, <ore:ingotStainlessSteel>]]);
+recipes.addShaped("auto_gen_12241914", <buildinggadgets:destructiontool>, 
+[[<ore:ingotStainlessSteel>, <ore:dustRedstone>, <ore:ingotStainlessSteel>],
+[<ore:ingotRavaging>, <ore:gemDiamond>, <ore:ingotRavaging>],
+[<ore:ingotStainlessSteel>, <ore:dustRedstone>, <ore:ingotStainlessSteel>]]);
+
+recipes.addShaped("witch_essence", <minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:witch"}}), 
+[[null, <ore:essenceWitch>, null],
+[<ore:essenceWitch>, <ore:egg>, <ore:essenceWitch>],
+[null, <ore:essenceWitch>, null]]);
+
+recipes.addShaped("nylon_string", <additions:nylon_string>, 
+[[<thermalfoundation:material:833>, <thermalfoundation:material:833>, <thermalfoundation:material:833>]]);
+recipes.addShaped("nylon_cloth", <additions:nylon_cloth>, 
+[[<ore:stringNylon>, <ore:stringNylon>, <ore:stringNylon>], 
+[<ore:stringNylon>, <ore:stringNylon>, <ore:stringNylon>], 
+[<ore:stringNylon>, <ore:stringNylon>, <ore:stringNylon>]]);
+recipes.addShaped("rubber_band", <additions:rubber_band>, 
+[[<thermalfoundation:material:832>, <thermalfoundation:material:832>, <thermalfoundation:material:832>]]);
+recipes.addShaped("ender_casing", <actuallyadditions:block_misc:8>, 
+[[<ore:ingotEnderium>, <ore:ingotFusionMatrix>, <ore:ingotEnderium>],
+[<ore:ingotStainlessSteel>, <ore:blockQuartzBlack>, <ore:ingotStainlessSteel>],
+[<ore:ingotEnderium>, <ore:ingotFusionMatrix>, <ore:ingotEnderium>]]);
+recipes.addShaped("stainless_steel_ball", <additions:greedycraft-stainless_steel_ball> * 24, 
+[[null, <ore:ingotStainlessSteel>, null],
+[<ore:ingotStainlessSteel>, <ore:ingotStainlessSteel>, <ore:ingotStainlessSteel>],
+[null, <ore:ingotStainlessSteel>, null]]);
+recipes.addShaped("plate_of_honor", <additions:greedycraft-plate_of_honor>, 
+[[null, <quark:rune:16>, null],
+[<quark:rune:16>, <ore:cast>, <quark:rune:16>],
+[null, <quark:rune:16>, null]]);
+recipes.addShaped("emc_collector_purple", <projectex:collector:5>, 
+[[null, <projectex:matter:2>, null],
+[<projectex:matter:2>, <additions:greedycraft-creative_soul>, <projectex:matter:2>],
+[null, <projectex:matter:2>, null]]);
+recipes.addShaped("demagnetizer", <demagnetize:demagnetizer>, 
+[[<ore:ingotIron>, <ore:dustRedstone>, <ore:ingotIron>],
+[<ore:dustRedstone>, <ore:ingotElectricalSteel>, <ore:dustRedstone>],
+[<ore:ingotIron>, <ore:dustRedstone>, <ore:ingotIron>]]);
+recipes.addShaped("demagnetizer_advanced", <demagnetize:demagnetizer_advanced>, 
+[[<ore:ingotStainlessSteel>, <ore:ingotConductiveIron>, <ore:ingotStainlessSteel>],
+[<ore:ingotConductiveIron>, <demagnetize:demagnetizer>, <ore:ingotConductiveIron>],
+[<ore:ingotStainlessSteel>, <ore:ingotConductiveIron>, <ore:ingotStainlessSteel>]]);
+recipes.addShapeless("terrestrial_artifact", <biomesoplenty:terrestrial_artifact>, 
+[<ore:gemRuby>, <ore:gemTopaz>, <ore:gemAmber>, <ore:gemPeridot>, <ore:gemMalachite>, <ore:gemSapphire>, <ore:gemTanzanite>, <ore:gemAmethyst>, <ore:gemScarlite>]);

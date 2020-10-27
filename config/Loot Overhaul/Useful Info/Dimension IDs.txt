@@ -45,6 +45,15 @@ Tofu World
 	- Terrain Scale: 1.0
 
 
+CompactMachines
+	- Id: 144
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: -5.0
+	- Can Respawn Here? true
+	- Terrain Scale: 1.0
+
+
 lostcities
 	- Id: 111
 	- Height: 256

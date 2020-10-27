@@ -144,6 +144,61 @@
         "unitWorth": 2000,
         "weight": 20
     },
+	{
+        "content": "thermalfoundation:material:160",
+        "unitWorth": 1800,
+        "weight": 30
+    },
+	{
+        "content": "thermalfoundation:material:163",
+        "unitWorth": 600,
+        "weight": 20
+    },
+	{
+        "content": "minecraft:iron_ingot",
+        "unitWorth": 300,
+        "weight": 50
+    },
+	{
+        "content": "additions:greedycraft-delivery_order",
+        "unitWorth": 4500,
+        "weight": 250
+    },
+	{
+        "content": "minecraft:ender_pearl",
+        "unitWorth": 320,
+        "weight": 40
+    },
+	{
+        "content": "minecraft:redstone",
+        "unitWorth": 100,
+        "weight": 20
+    },
+	{
+        "content": "botania:manaresource:4",
+        "unitWorth": 2000,
+        "weight": 30
+    },
+	{
+        "content": "mysticalagriculture:crafting:4",
+        "unitWorth": 2400,
+        "weight": 20
+    },
+	{
+        "content": "additions:greedycraft-pearl_of_knowledge",
+        "unitWorth": 24000,
+        "weight": 80
+    },
+	{
+        "content": "additions:greedycraft-poop",
+        "unitWorth": 1500,
+        "weight": 40
+    },
+	{
+        "content": "additions:greedycraft-raw_human_meat",
+        "unitWorth": 500,
+        "weight": 30
+    },
     {
         "content": "additions:greedycraft-bounty_hunter_medal_bronze",
         "unitWorth": 4000,

@@ -1,0 +1,10 @@
+{
+  "name": "§9尼龙布",
+  "burn_time": 60,
+  "ore_dict": [
+    "clothNylon",
+    "materialCloth",
+    "silk"
+  ],
+  "type": "additions:simple"
+}

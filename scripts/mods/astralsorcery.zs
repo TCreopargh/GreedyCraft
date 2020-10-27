@@ -5,6 +5,8 @@
  * All rights reserved.
  */ #priority 30
 mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/illuminationpowder");
+mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/enchantment_amulet_craft");
+mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/enchantment_amulet_reroll");
 
 mods.astralsorcery.Altar.addDiscoveryAltarRecipe("shinydust", <astralsorcery:itemusabledust> * 16, 100, 100, [
             null, <ore:dustGlowstone>, null,

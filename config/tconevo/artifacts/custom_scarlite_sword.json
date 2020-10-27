@@ -1,0 +1,12 @@
+{
+    "weight": 60,
+    "type": "tconevo:tool",
+    "name": "无名英雄之剑",
+    "lore": "所有辉煌的史诗都伴随着牺牲。",
+    "tool": "longbow",
+    "materials": [
+        "emerald_plustic",
+        "scarlite",
+        "bone"
+    ]
+}

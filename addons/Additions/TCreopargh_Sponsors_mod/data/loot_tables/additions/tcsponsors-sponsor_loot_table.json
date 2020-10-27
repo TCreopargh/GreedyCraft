@@ -171,6 +171,32 @@
                     "type": "item",
                     "name": "additions:tcsponsors-eye_of_miracle",
                     "weight": 1
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomPotionEffects:[{Duration:6000,Id:17},{Duration:6000,Id:19}],CustomPotionColor:16121876,display:{Lore:[\"§c千万别喝。\",\"§b§o赞助者物品 by BATTLE NO.1\"],Name:\"§4MITE\"}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "additions:tcsponsors-fleeing_master",
+                    "weight": 1
+                },
+				{
+                    "type": "item",
+                    "name": "additions:tcsponsors-gorgon_blood",
+                    "weight": 1
+                },
+				{
+                    "type": "item",
+                    "name": "additions:tcsponsors-eye_of_flesh",
+                    "weight": 1
                 }
             ]
         }

@@ -875,6 +875,14 @@
     {
       "item": "nyx:meteor_ingot|0",
       "emc": 3200
+    },
+    {
+      "item": "botania:manaresource|4",
+      "emc": 8400
+    },
+    {
+      "item": "additions:chromium_ingot|0",
+      "emc": 2200
     }
   ]
 }

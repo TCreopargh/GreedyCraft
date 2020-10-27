@@ -1,0 +1,14 @@
+{
+  "cause": {
+    "item": {
+      "item": "additions:greedycraft-one_punch",
+      "damage": "any"
+    },
+    "type": "additions:item_attack"
+  },
+  "effects": [
+    {
+      "type": "additions:consume_item"
+    }
+  ]
+}

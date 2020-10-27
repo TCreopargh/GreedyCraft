@@ -1,0 +1,9 @@
+{
+  "name": "§6橡皮筋",
+  "tooltip": "§e极具弹性。",
+  "ore_dict": [
+    "stringRubber",
+    "string"
+  ],
+  "type": "additions:simple"
+}

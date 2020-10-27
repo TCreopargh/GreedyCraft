@@ -5,7 +5,6 @@
  * All rights reserved.
  */
 
-
 #priority 50
 #packmode adventure
 // Powered by TCreopargh
@@ -20,6 +19,8 @@ import mods.ctutils.world.IGameRules;
 import mods.zenutils.command.ZenCommand;
 import mods.zenutils.command.ZenUtilsCommandSender;
 import mods.zenutils.command.CommandUtils;
+import mods.zenutils.command.TabCompletion;
+import crafttweaker.event.PlayerTickEvent;
 
 function isWuss(player as IPlayer) as bool {
 	return (player.creative || player.hasGameStage("iswuss")); 
@@ -112,7 +113,6 @@ wussMode.execute = function(command, server, sender, args) {
 			server.commandManager.executeCommand(server, "/gamestage add " + player.name + " iswuss");
 			server.commandManager.executeCommand(server, "/tellraw " + player.name + " {\"text\":\"§a您已开启作弊模式。\"}");
 			server.commandManager.executeCommand(server, "/tellraw @a {\"text\":\"§e" + player.name + "§a开启了作弊模式。\"}");
-			server.commandManager.executeCommand(server, "/scoreboard players set §c§l作弊模式 title 1");
 		} else {
 		player.sendChat("§c你已经处于作弊模式，作弊模式一旦打开就无法关闭。");
 		}
@@ -161,5 +161,27 @@ events.onCommand(function (event as CommandEvent) {
 				}
 			}
 		}
+	}
+});
+
+events.onPlayerTick(function (event as PlayerTickEvent) {
+	if((event.player.world.getWorldTime() as long) % 100 != 0) {
+		return;
+	}
+	var player as IPlayer = event.player;
+	if(isNull(player)) {
+		return;
+	}
+	server.commandManager.executeCommand(server, "/scoreboard players reset §d§l创造模式");
+	server.commandManager.executeCommand(server, "/scoreboard players reset §c§l作弊模式");
+	server.commandManager.executeCommand(server, "/scoreboard players reset §e" + player.name + "§6§l，永远的神！");
+	if(player.hasGameStage("iswuss")) {
+		if(player.creative) {
+			server.commandManager.executeCommand(server, "/scoreboard players set §d§l创造模式 title 1");
+		} else {
+			server.commandManager.executeCommand(server, "/scoreboard players set §c§l作弊模式 title 1");
+		}
+	} else if(player.hasGameStage("truehero")) {
+		server.commandManager.executeCommand(server, "/scoreboard players set §e" + player.name + "§6§l，永远的神！ title 1");
 	}
 });

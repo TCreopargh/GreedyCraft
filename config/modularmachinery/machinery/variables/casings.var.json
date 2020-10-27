@@ -25,5 +25,9 @@
     ],
     "casings_tofu": [
         "tofucraft:tf_machine_case"
+    ],
+	"casings_seared": [
+        "tconstruct:seared",
+		"tconstruct:seared_glass"
     ]
 }

@@ -97,18 +97,18 @@ function(out, ins, cInfo) {
 	}
 	var newModifier as IData = [];
 	if(!isNull(newModifier)) {
-	for i in 0 to modifiersTo.length {
-		var current as IData = modifiersTo[i];
-		if(isNull(current)) { 
-			break;
+		for i in 0 to modifiersTo.length {
+			var current as IData = modifiersTo[i];
+			if(isNull(current)) { 
+				break;
+			}
+			if(current.asString().contains("toolleveling")) {
+				newModifier = newModifier.update([current + toolLevel] as IData);
+				break;
+			} else {
+				newModifier = newModifier.update([current] as IData);
+			}
 		}
-		if(current.asString().contains("toolleveling")) {
-			newModifier = newModifier.update([current + toolLevel] as IData);
-			break;
-		} else {
-			newModifier = newModifier.update([current] as IData);
-		}
-	}
 	}
 	var outData as IData = ins.to.tag - "Modifiers";
 	outData = outData + ({Modifiers: newModifier}) as IData;
@@ -135,18 +135,18 @@ function(out, ins, cInfo) {
 	}
 	var newModifier as IData = [];
 	if(!isNull(newModifier)) {
-	for i in 0 to modifiersTo.length {
-		var current as IData = modifiersTo[i];
-		if(isNull(current)) { 
-			break;
+		for i in 0 to modifiersTo.length {
+			var current as IData = modifiersTo[i];
+			if(isNull(current)) { 
+				break;
+			}
+			if(current.asString().contains("leveling_armor")) {
+				newModifier = newModifier.update([current + toolLevel] as IData);
+				break;
+			} else {
+				newModifier = newModifier.update([current] as IData);
+			}
 		}
-		if(current.asString().contains("leveling_armor")) {
-			newModifier = newModifier.update([current + toolLevel] as IData);
-			break;
-		} else {
-			newModifier = newModifier.update([current] as IData);
-		}
-	}
 	}
 	var outData as IData = ins.to.tag - "Modifiers";
 	outData = outData + ({Modifiers: newModifier}) as IData;

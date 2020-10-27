@@ -19,7 +19,7 @@ import crafttweaker.game.IGame;
 <projecte:collector_mk1>.addTooltip(format.red("已禁用"));
 <projecte:collector_mk2>.addTooltip(format.red("已禁用"));
 <projecte:collector_mk3>.addTooltip(format.red("已禁用"));
-<projectex:collector:*>.addTooltip(format.red("合成配方已禁用，可从奖励箱获得"));
+<projectex:collector:*>.addTooltip(format.red("EMC收集器的合成配方已禁用，可从奖励箱获得"));
 <projectex:relay:*>.addTooltip(format.red("已禁用"));
 <projectex:compressed_collector:*>.addTooltip(format.red("已禁用"));
 <projectex:power_flower:*>.addTooltip(format.red("已禁用"));
@@ -117,3 +117,9 @@ game.setLocalization("tooltip.itemstages.name.default", "§5§ka§r §d未知物
 <modularmachinery:itemblueprint>.addTooltip("§e请确保你的物品输出仓大的足以容纳所有可能的输出");
 <modularmachinery:itemblueprint>.addTooltip("§e如果已有物品输入却提示”缺少物品输入”，");
 <modularmachinery:itemblueprint>.addTooltip("§e请尝试增加物品输出仓的数量或升级输出仓。");
+<thaumadditions:mithminite_plate>.addTooltip("§e神秘书上的配方不准确，请查询JEI以获得该物品的合成表。");
+<thaumadditions:adaminite_plate>.addTooltip("§e神秘书上的配方不准确，请查询JEI以获得该物品的合成表。");
+<thaumadditions:mithrillium_plate>.addTooltip("§e神秘书上的配方不准确，请查询JEI以获得该物品的合成表。");
+<projectex:collector:5>.addTooltip("§e该收集器有配方");
+<additions:greedycraft-aeroite_ore>.addTooltip("§e请用铲子挖掘");
+<tofucraft:ore_tofudiamond>.addTooltip("§e请用铲子挖掘");

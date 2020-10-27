@@ -46,11 +46,17 @@ events.onPlayerLoggedIn(function (event as crafttweaker.event.PlayerLoggedInEven
 	} else if(event.player.hasGameStage("iswuss")) {
 		event.player.server.commandManager.executeCommand(event.player.server, "/tellraw @a {\"text\":\"§e" + event.player.name + "§a处于作弊模式。\"}");
 		event.player.sendChat("§a§o您当前处于作弊模式。");
+		if(event.player.creative) {
+			event.player.addGameStage("creative");
+		}
 	} else if(event.player.creative) {
 		if(!event.player.hasGameStage("truehero")) {
+			event.player.addGameStage("creative");
 			event.player.server.commandManager.executeCommand(event.player.server, "/tellraw @a {\"text\":\"§e" + event.player.name + "§a处于创造模式，作弊模式已为其自动开启。\"}");
 			event.player.server.commandManager.executeCommand(event.player.server, "/gamestage add " + event.player.name + " iswuss");
 			event.player.sendChat("§a§o检测到您处于创造模式，作弊模式已自动开启。");
+			event.player.server.commandManager.executeCommand(event.player.server, "/unlockallstages " + event.player.name);
+			event.player.sendChat("§d§o由于您以创造模式创建了该存档，所有游戏阶段都已解锁，祝您游戏愉快。");
 		}
 	}
 });

@@ -1,0 +1,16 @@
+{
+  "item_block": {
+    "name": "§e不锈钢块",
+    "ore_dict": "blockStainlessSteel",
+    "type": "additions:block_simple"
+  },
+  "name": "§e不锈钢块",
+  "material": "minecraft:metal",
+  "map_color": "minecraft:light_gray",
+  "hardness": 20.0,
+  "resistance": 500.0,
+  "harvest_level": 3,
+  "harvest_tool": "pickaxe",
+  "is_beacon_base": true,
+  "type": "additions:simple"
+}

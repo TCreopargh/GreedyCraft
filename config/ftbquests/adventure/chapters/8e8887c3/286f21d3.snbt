@@ -23,18 +23,12 @@
 		uid: "6fb9a7b7",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {
-					AS_Amulet_HolderLeast: -6677120288058627187L,
-					AS_Amulet_HolderMost: 3244428519259456314L
-				}
-			},
 			id: "akashictome:tome",
 			tag: {
 				"akashictome:is_morphing": 1b,
 				display: {
 					Lore: [
-						"§6第9版",
+						"§6第10版",
 						"§a§o你想知道的都在这里"
 					],
 					Name: "§d§ka§r §b百科全书 §d§ka§r"
@@ -374,6 +368,14 @@
 						Count: 1b,
 						tag: {
 							"akashictome:definedMod": "forestry"
+						},
+						Damage: 0s
+					},
+					compactmachines3: {
+						id: "compactmachines3:psd",
+						Count: 1b,
+						tag: {
+							"akashictome:definedMod": "compactmachines3"
 						},
 						Damage: 0s
 					}

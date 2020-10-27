@@ -88,6 +88,8 @@ key_key.hotbar.9:10
 key_of.key.zoom:46
 key_Change Caster Focus:0
 key_Misc Caster Toggle:0
+key_quark.keybind.toggleAutojump:0
+key_quark.keybind.lockBuilding:0
 key_quark.emote.no:0
 key_quark.emote.yes:0
 key_quark.emote.wave:0
@@ -106,8 +108,6 @@ key_quark.emote.dab:0
 key_quark.emote.jet:0
 key_quark.emote.exorcist:0
 key_quark.emote.zombie:0
-key_quark.keybind.lockBuilding:0
-key_quark.keybind.toggleAutojump:0
 key_quark.keybind.dropoff:0
 key_quark.keybind.changeHotbar:184
 key_keybind.baublesinventory:18:ALT
@@ -155,6 +155,7 @@ key_key.open_wct.desc:55
 key_key.cycle_magnet_mode.desc:79
 key_key.open_wft.desc:0
 key_key.open_wit.desc:0
+key_key.open_wpt.desc:0
 key_key.ironbackpacks.equip:23:ALT
 key_key.ironbackpacks.open:23
 key_key.betterfoliage.gui:66

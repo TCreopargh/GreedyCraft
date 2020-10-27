@@ -458,5 +458,95 @@
         },
         "unitWorth": 8000,
         "weight": 80
+    },
+	{
+        "content": "botania:manaresource:4",
+        "amount": {
+            "min": 1,
+            "max": 8
+        },
+        "unitWorth": 3200,
+        "weight": 20
+    },
+	{
+        "content": "thermalfoundation:material:160",
+        "amount": {
+            "min": 1,
+            "max": 12
+        },
+        "unitWorth": 2400,
+        "weight": 30
+    },
+	{
+        "content": "additions:netherite_ingot",
+        "amount": {
+            "min": 1,
+            "max": 4
+        },
+        "unitWorth": 12000,
+        "weight": 20
+    },
+	{
+        "content": "additions:shadowium_ingot",
+        "amount": {
+            "min": 1,
+            "max": 24
+        },
+        "unitWorth": 3000,
+        "weight": 12
+    },
+	{
+        "content": "additions:aeroite_ingot",
+        "amount": {
+            "min": 1,
+            "max": 20
+        },
+        "unitWorth": 2000,
+        "weight": 14
+    },
+	{
+        "content": "tconevo:material",
+        "amount": {
+            "min": 1,
+            "max": 6
+        },
+        "unitWorth": 5000,
+        "weight": 14
+    },
+	{
+        "content": "entity:spiderstpo:better_cave_spider",
+        "amount": {
+            "min": 4,
+            "max": 20
+        },
+        "unitWorth": 280,
+        "weight": 250
+    },
+	{
+        "content": "entity:spiderstpo:better_spider",
+        "amount": {
+            "min": 4,
+            "max": 24
+        },
+        "unitWorth": 240,
+        "weight": 300
+    },
+	{
+        "content": "entity:minecraft:witch",
+        "amount": {
+            "min": 2,
+            "max": 10
+        },
+        "unitWorth": 600,
+        "weight": 200
+    },
+	{
+        "content": "entity:minecraft:blaze",
+        "amount": {
+            "min": 2,
+            "max": 8
+        },
+        "unitWorth": 900,
+        "weight": 160
     }
 ]

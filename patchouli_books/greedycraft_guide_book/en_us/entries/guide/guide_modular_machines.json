@@ -49,7 +49,13 @@
             "type": "spotlight",
 			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:liquid_centrifuge\"}",
 			"title": "液体离心机",
-            "text": "$(9)液体离心机$()可以从一些液体中分离出有用的物品，它还有一个作用是将大部分的熔融合金分解为其组成部分。$(br)$(c)注意：虽然液体离心机看上去可能和固体离心机一模一样，但是内部的搅拌棒使用铂块做的（固体离心机用的是钢块），请留意！"
+            "text": "$(9)液体离心机$()可以从一些液体中分离出有用的物品。$(br)$(c)注意：虽然液体离心机看上去可能和固体离心机一模一样，但是内部的搅拌棒使用铂块做的（固体离心机用的是钢块），请留意！"
+        },
+		{
+            "type": "spotlight",
+			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:alloy_decomposer\"}",
+			"title": "合金分解机",
+            "text": "$(8)合金分解机$()可以将一些合金分解为其组成部分。"
         }
     ]
 }

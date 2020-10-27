@@ -17,7 +17,11 @@ events.onPlayerLoggedIn(function (event as crafttweaker.event.PlayerLoggedInEven
 	player.server.commandManager.executeCommand(player.server, "/scoreboard players set §b title 3");
 	player.server.commandManager.executeCommand(player.server, "/scoreboard players set §eby：§dTCreopargh title 4");
 	if (player.hasGameStage("iswuss")) {
-		player.server.commandManager.executeCommand(player.server, "/scoreboard players set §c§l作弊模式 title 1");
+		if(player.creative) {
+			player.server.commandManager.executeCommand(player.server, "/scoreboard players set §d§l创造模式 title 1");
+		} else {
+			player.server.commandManager.executeCommand(player.server, "/scoreboard players set §c§l作弊模式 title 1");
+		}
 	} else if(player.hasGameStage("truehero")) {
 		player.server.commandManager.executeCommand(player.server, "/scoreboard players set §e" + player.name + "§6§l，永远的神！ title 1");
 	}

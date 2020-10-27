@@ -47,3 +47,4 @@ mods.TinkerStages.addMaterialStage("hardmode", "red_matter");
 mods.TinkerStages.addMaterialStage("hardmode", "dark_matter");
 mods.TinkerStages.addMaterialStage("hardmode", "fusion_matrix");
 mods.TinkerStages.addMaterialStage("disabled", "extrabotany:ingotorichalcos");
+mods.TinkerStages.addMaterialStage("master_wizard", "void_metal");

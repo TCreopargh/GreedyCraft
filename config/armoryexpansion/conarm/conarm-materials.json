@@ -2311,6 +2311,28 @@
   },
   {
     "coreMaterialStats": {
+      "durability": 120.0,
+      "defense": 50.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 230.4,
+      "modifier": 50.0,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 230.4,
+      "materialType": "trim"
+    },
+    "identifier": "terrestrial",
+    "color": -16718218,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
       "durability": 16.0,
       "defense": 29.969997,
       "materialType": "core"
@@ -2638,6 +2660,28 @@
     "type": "METAL",
     "castable": false,
     "craftable": true
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 120.0,
+      "defense": 38.25,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 230.4,
+      "modifier": 33.88235,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 230.4,
+      "materialType": "trim"
+    },
+    "identifier": "stainless_steel",
+    "color": -6381922,
+    "type": "METAL",
+    "castable": true,
+    "craftable": false
   },
   {
     "coreMaterialStats": {
@@ -6689,6 +6733,28 @@
   },
   {
     "coreMaterialStats": {
+      "durability": 33.0,
+      "defense": 30.6,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 25.6,
+      "modifier": 26.470587,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 25.6,
+      "materialType": "trim"
+    },
+    "identifier": "chromium",
+    "color": -16738649,
+    "type": "METAL",
+    "castable": true,
+    "craftable": false
+  },
+  {
+    "coreMaterialStats": {
       "durability": 90.0,
       "defense": 20.519999,
       "materialType": "core"
@@ -6969,6 +7035,28 @@
     },
     "identifier": "redins",
     "color": -1375201,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 9.0,
+      "defense": 20.7,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 16.64,
+      "modifier": 12.705883,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 16.64,
+      "materialType": "trim"
+    },
+    "identifier": "pumpkin",
+    "color": -291840,
     "type": "METAL",
     "castable": false,
     "craftable": true

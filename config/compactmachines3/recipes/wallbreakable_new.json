@@ -1,0 +1,35 @@
+{
+	"name": "compactmachines3:wallbreakable_new",
+	"target-item": "compactmachines3:wallbreakable",
+	"target-count": 32,
+
+	"catalyst": "minecraft:diamond",
+
+	"input-types": {
+		"c": {
+			"id": "minecraft:cobblestone"
+		},
+		"i": {
+			"id": "minecraft:iron_block"
+		}
+	},
+
+	"symmetrical": true,
+	"shape": [
+		[
+			["c", "c", "c"],
+			["c", "c", "c"],
+			["c", "c", "c"]
+		],
+		[
+			["c", "c", "c"],
+			["c", "i", "c"],
+			["c", "c", "c"]
+		],
+		[
+			["c", "c", "c"],
+			["c", "c", "c"],
+			["c", "c", "c"]
+		]
+	]
+}

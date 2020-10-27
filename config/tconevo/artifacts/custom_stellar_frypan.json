@@ -1,0 +1,11 @@
+{
+    "weight": 60,
+    "type": "tconevo:tool",
+    "name": "红太狼平底锅",
+    "lore": "好听吗？好听就是好头。",
+    "tool": "frypan",
+    "materials": [
+        "stainless_steel",
+        "meteor"
+    ]
+}

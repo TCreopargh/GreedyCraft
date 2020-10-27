@@ -121,10 +121,6 @@
 			"type": "crafting",
 			"recipe2": "crafttweaker:auto_gen_-1501549292",
 			"recipe": "crafttweaker:auto_gen_-696385933"
-		},
-		{
-			"type": "crafting",
-			"recipe": "prefab:ender_gateway"
 		}
     ]
 }

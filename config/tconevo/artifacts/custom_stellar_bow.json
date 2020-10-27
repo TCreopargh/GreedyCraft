@@ -1,0 +1,13 @@
+{
+    "weight": 60,
+    "type": "tconevo:tool",
+    "name": "星辰爆能弓",
+    "lore": "力大无穷。",
+    "tool": "longbow",
+    "materials": [
+        "meteor",
+        "stainless_steel",
+        "modularium",
+        "nylon_string"
+    ]
+}

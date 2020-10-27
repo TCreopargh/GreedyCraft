@@ -18,80 +18,6 @@ val regName = "liquid_centrifuge";
 val speed = 10;
 val energy = 20;
 
-val alloyRecipes as ILiquidStack[][] = [
-    [<liquid:modularium> * 288, /*divide*/ <liquid:iron> * 144, <liquid:bronze> * 144, <liquid:redstone> * 100],
-    [<liquid:scorched> * 144, /*divide*/ <liquid:lava> * 144, <liquid:stone> * 144],
-    [<liquid:netherite> * 144, /*divide*/ <liquid:gold> * 576, <liquid:ancient_debris> * 576],
-    [<liquid:liquid_chocolate> * 2, /*divide*/ <liquid:chocolate_liquor> * 1, <liquid:milk> * 1],
-    [<liquid:terra_alloy> * 2, /*divide*/ <liquid:cytosinite> * 1, <liquid:cryonium> * 1, <liquid:infernium> * 1, <liquid:titanium> * 1],
-    [<liquid:adamant_fluid> * 3, /*divide*/ <liquid:nihilite_fluid> * 1, <liquid:iox_fluid> * 3],
-    [<liquid:fluxed_electrum> * 288, /*divide*/ <liquid:gold> * 144, <liquid:silver> * 144, <liquid:redstone> * 1000],
-    [<liquid:fusion_matrix> * 2, /*divide*/ <liquid:manyullyn> * 2, <liquid:adamant_fluid> * 1, <liquid:enderium> * 2],
-    [<liquid:experience> * 16, /*divide*/ <liquid:blood> * 8, <liquid:emerald> * 1, <liquid:gold> * 1],
-    [<liquid:fierymetal> * 2, /*divide*/ <liquid:iron> * 2, <liquid:pyrotheum> * 1, <liquid:lava> * 1],
-    [<liquid:emerald> * 2, /*divide*/ <liquid:experience> * 3, <liquid:redstone> * 2, <liquid:glowstone> * 2],
-    [<liquid:end_steel> * 2, /*divide*/ <liquid:obsidian> * 2, <liquid:dark_steel> * 2, <liquid:ender> * 1],
-    [<liquid:osgloglas> * 1, /*divide*/ <liquid:osmium> * 1, <liquid:refined_obsidian> * 1, <liquid:refinedglowstone> * 1],
-    [<liquid:osmiridium> * 2, /*divide*/ <liquid:osmium> * 1, <liquid:iridium> * 1],
-    [<liquid:obsidian> * 36, /*divide*/ <liquid:water> * 125, <liquid:lava> * 125],
-    [<liquid:electrum> * 2, /*divide*/ <liquid:silver> * 1, <liquid:gold> * 1],
-    [<liquid:invar> * 3, /*divide*/ <liquid:iron> * 2, <liquid:nickel> * 1],
-    [<liquid:bronze> * 4, /*divide*/ <liquid:copper> * 3, <liquid:tin> * 1],
-    [<liquid:constantan> * 2, /*divide*/ <liquid:copper> * 1, <liquid:nickel> * 1],
-    [<liquid:signalum> * 72, /*divide*/ <liquid:copper> * 54, <liquid:silver> * 18, <liquid:redstone> * 125],
-    [<liquid:lumium> * 72, /*divide*/ <liquid:tin> * 54, <liquid:silver> * 18, <liquid:glowstone> * 125],
-    [<liquid:enderium> * 72, /*divide*/ <liquid:lead> * 54, <liquid:platinum> * 18, <liquid:ender> * 125],
-    [<liquid:alumite> * 3, /*divide*/ <liquid:aluminum> * 5, <liquid:iron> * 2, <liquid:obsidian> * 2],
-    [<liquid:clay> * 144, /*divide*/ <liquid:water> * 250, <liquid:stone> * 72, <liquid:dirt> * 144],
-    [<liquid:pigiron> * 144, /*divide*/ <liquid:clay> * 72, <liquid:blood> * 40, <liquid:iron> * 144],
-    [<liquid:manyullyn> * 2, /*divide*/ <liquid:cobalt> * 2, <liquid:ardite> * 2],
-    [<liquid:vivid_alloy> * 72, /*divide*/ <liquid:energetic_silver> * 72, <liquid:ender> * 125],
-    [<liquid:energetic_silver> * 72, /*divide*/ <liquid:redstone> * 50, <liquid:silver> * 72, <liquid:glowstone> * 125],
-	[<liquid:dark_steel> * 1, /*divide*/ <liquid:steel> * 1, <liquid:obsidian> * 2],
-	[<liquid:pulsating_iron> * 72, /*divide*/ <liquid:iron> * 72, <liquid:ender> * 125],
-	[<liquid:conductive_iron> * 36, /*divide*/ <liquid:iron> * 36, <liquid:redstone> * 25],
-	[<liquid:vibrant_alloy> * 72, /*divide*/ <liquid:energetic_alloy> * 72, <liquid:ender> * 125],
-	[<liquid:energetic_alloy> * 72, /*divide*/ <liquid:redstone> * 50, <liquid:gold> * 72, <liquid:glowstone> * 125],
-	[<liquid:alubrass> * 4, /*divide*/ <liquid:copper> * 1, <liquid:aluminum> * 3],
-	[<liquid:terrax_fluid> * 2, /*divide*/ <liquid:karmesine_fluid> * 1, <liquid:ovium_fluid> * 1, <liquid:jauxum_fluid> * 1],
-    [<liquid:triberium_fluid> * 1, /*divide*/ <liquid:tiberium_fluid> * 5, <liquid:dilithium_fluid> * 2],
-    [<liquid:fractum_fluid> * 2, /*divide*/ <liquid:triberium_fluid> * 3, <liquid:obsidian> * 3, <liquid:abyssum_fluid> * 1],
-    [<liquid:violium_fluid> * 2, /*divide*/ <liquid:aurorium_fluid> * 3, <liquid:ardite> * 2],
-    [<liquid:proxii_fluid> * 3, /*divide*/ <liquid:prometheum_fluid> * 3, <liquid:palladium_fluid> * 3, <liquid:eezo_fluid> * 1],
-    [<liquid:tritonite_fluid> * 2, /*divide*/ <liquid:cobalt> * 3, <liquid:terrax_fluid> * 2],
-    [<liquid:ignitz_fluid> * 2, /*divide*/ <liquid:ardite> * 2, <liquid:terrax_fluid> * 2, <liquid:osram_fluid> * 1],
-    [<liquid:imperomite_fluid> * 2, /*divide*/ <liquid:duranite_fluid> * 3, <liquid:prometheum_fluid> * 1, <liquid:abyssum_fluid> * 1],
-    [<liquid:solarium_fluid> * 2, /*divide*/ <liquid:valyrium_fluid> * 2, <liquid:uru_fluid> * 2, <liquid:nucleum_fluid> * 1],
-    [<liquid:adamant_fluid> * 3, /*divide*/ <liquid:vibranium_fluid> * 1, <liquid:solarium_fluid> * 1, <liquid:iox_fluid> * 3],
-    [<liquid:nihilite_fluid> * 1, /*divide*/ <liquid:vibranium_fluid> * 1, <liquid:solarium_fluid> * 1],
-    [<liquid:seismum_fluid> * 4, /*divide*/ <liquid:obsidian> * 4, <liquid:triberium_fluid> * 2, <liquid:eezo_fluid> * 1],
-    [<liquid:astrium_fluid> * 2, /*divide*/ <liquid:terrax_fluid> * 3, <liquid:aurorium_fluid> * 2],
-    [<liquid:niob_fluid> * 3, /*divide*/ <liquid:palladium_fluid> * 3, <liquid:duranite_fluid> * 1, <liquid:osram_fluid> * 1],
-    [<liquid:yrdeen_fluid> * 3, /*divide*/ <liquid:uru_fluid> * 3, <liquid:valyrium_fluid> * 3, <liquid:abyssum_fluid> * 1],
-    [<liquid:iox_fluid> * 1, /*divide*/ <liquid:eezo_fluid> * 2, <liquid:abyssum_fluid> * 2, <liquid:osram_fluid> * 2, <liquid:obsidiorite_fluid> * 9],
-    [<liquid:lumix_fluid> * 1, /*divide*/ <liquid:palladium_fluid> * 1, <liquid:terrax_fluid> * 1],
-    [<liquid:obsidiorite_fluid> * 1, /*divide*/ <liquid:meteorite_fluid> * 1, <liquid:obsidian> * 1],
-    [<liquid:nucleum_fluid> * 3, /*divide*/ <liquid:niob_fluid> * 3, <liquid:eezo_fluid> * 1, <liquid:abyssum_fluid> * 1],
-    [<liquid:dyonite_fluid> * 3, /*divide*/ <liquid:triberium_fluid> * 3, <liquid:fractum_fluid> * 1, <liquid:seismum_fluid> * 1, <liquid:osram_fluid> * 1]
-];
-
-for row in alloyRecipes {
-	if(!(row.length >= 2)) {
-		break;
-	}
-	var inputStack = row[0] as ILiquidStack;
-	var amount = inputStack.amount;
-	var alloyEnergy = energy as int;
-	var alloySpeed = Math.ceil((amount as float / 100.0 as float) * speed as float) as int;
-	var builder = mods.modularmachinery.RecipeBuilder.newBuilder(regName + "_alloy_" + inputStack.definition.name, regName, alloySpeed, 0);
-		builder.addFluidInput(inputStack);
-		builder.addEnergyPerTickInput(alloyEnergy);
-	for i in 1 to row.length {
-		builder.addFluidOutput(row[i] as ILiquidStack);
-	}
-	builder.build();
-}
-
 mods.modularmachinery.RecipeBuilder.newBuilder(regName + "_water", regName, speed, 0)
 	.addFluidInput(<liquid:water> * 100)
 	.addEnergyPerTickInput(energy)
@@ -113,6 +39,8 @@ mods.modularmachinery.RecipeBuilder.newBuilder(regName + "_water", regName, spee
 	.setChance(0.125 as float / 10.0 as float)
 	.addItemOutput(<minecraft:waterlily>)
 	.setChance(0.025 as float / 10.0 as float)
+	.addFluidOutput(<liquid:creosote> * 2)
+	.addFluidOutput(<liquid:seed_oil> * 2)
 	.build();
 
 mods.modularmachinery.RecipeBuilder.newBuilder(regName + "_lava", regName, speed, 0)
@@ -145,9 +73,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(regName + "_lava", regName, speed
 	.addItemOutput(<advanced-fishing:blazing_fishing_pole>)
 	.setChance(0.00075 as float / 10.0 as float)
 	.addFluidOutput(<liquid:iron> * 5)
-	.addFluidOutput(<liquid:tin> * 5)
-	.addFluidOutput(<liquid:copper> * 5)
-	.addFluidOutput(<liquid:gold> * 5)
+	.addFluidOutput(<liquid:gold> * 2)
 	.build();
 	
 mods.modularmachinery.RecipeBuilder.newBuilder(regName + "_organic_fluid", regName, speed, 0)
@@ -171,8 +97,10 @@ mods.modularmachinery.RecipeBuilder.newBuilder(regName + "_organic_fluid", regNa
 	.setChance(0.125 as float / 10.0 as float)
 	.addItemOutput(<mysticalagriculture:mystical_fertilizer>)
 	.setChance(0.025 as float / 10.0 as float)
-	.addFluidOutput(<liquid:blood> * 20)
-	.addFluidOutput(<liquid:seed_oil> * 20)
+	.addItemOutput(<thermalfoundation:material:832>)
+	.setChance(0.05 as float / 10.0 as float)
+	.addItemOutput(<mysticalagriculture:nature_essence>)
+	.setChance(0.05 as float / 10.0 as float)
 	.addFluidOutput(<liquid:resin> * 10)
 	.build();
 	
@@ -197,6 +125,8 @@ mods.modularmachinery.RecipeBuilder.newBuilder(regName + "_sand", regName, speed
 	.setChance(0.05 as float / 10.0 as float)
 	.addItemOutput(<minecraft:deadbush>)
 	.setChance(0.025 as float / 10.0 as float)
+	.addFluidOutput(<liquid:crude_oil> * 10)
+	.addFluidOutput(<liquid:aerotheum> * 5)
 	.build();
 	
 mods.modularmachinery.RecipeBuilder.newBuilder(regName + "_blood", regName, speed, 0)
@@ -218,4 +148,27 @@ mods.modularmachinery.RecipeBuilder.newBuilder(regName + "_blood", regName, spee
 	.setChance(0.05 as float / 10.0 as float)
 	.addItemOutput(<tconstruct:edible:3>)
 	.setChance(0.12 as float / 10.0 as float)
+	.addFluidOutput(<liquid:experience> * 10)
+	.addFluidOutput(<liquid:organic_fluid> * 10)
+	.build();
+	
+mods.modularmachinery.RecipeBuilder.newBuilder(regName + "_crude_oil", regName, speed, 0)
+	.addFluidInput(<liquid:crude_oil> * 100)
+	.addEnergyPerTickInput(energy)
+	.addItemOutput(<thermalfoundation:material:892>)
+	.setChance(0.5 as float / 10.0 as float)
+	.addItemOutput(<thermalfoundation:material:833>)
+	.setChance(0.3 as float / 10.0 as float)
+	.addItemOutput(<minecraft:coal>)
+	.setChance(0.1 as float / 10.0 as float)
+	.addItemOutput(<minecraft:coal:1>)
+	.setChance(0.05 as float / 10.0 as float)
+	.addItemOutput(<minecraft:gunpowder>)
+	.setChance(0.05 as float / 10.0 as float)
+	.addItemOutput(<minecraft:slime>)
+	.setChance(0.04 as float / 10.0 as float)
+	.addItemOutput(<mekanism:polyethene>)
+	.setChance(0.03 as float / 10.0 as float)
+	.addFluidOutput(<liquid:petrotheum> * 10)
+	.addFluidOutput(<liquid:refined_oil> * 60)
 	.build();

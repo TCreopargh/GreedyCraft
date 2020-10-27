@@ -6,7 +6,7 @@
   "tool": "broadsword",
   "materials": [
     "fusion_matrix",
-    "asgardium",
-    "infernium"
+    "infernium",
+    "asgardium"
   ]
 }

@@ -21,7 +21,10 @@ mods.enderio.SagMill.addRecipe([<nyx:meteor_dust> * 9], [100 as float], <ore:blo
 mods.enderio.AlloySmelter.addRecipe(<modularmachinery:itemmodularium> * 2, [<ore:ingotIron>, <ore:ingotBronze>, <ore:dustRedstone>], 2000, 10.0 as float);
 mods.enderio.AlloySmelter.addRecipe(<tconevo:material> * 2, [<ore:ingotAdamant>, <ore:ingotManyullyn> * 2, <ore:ingotEnderium> * 2], 7500, 40.0 as float);
 mods.enderio.AlloySmelter.addRecipe(<additions:netherite_ingot>, [<ore:gemAncientDebris> * 4, <ore:ingotGold> * 4], 6000, 50.0 as float);
+mods.enderio.AlloySmelter.addRecipe(<additions:stainless_steel_ingot> * 4, [<ore:ingotSteel> * 4, <ore:ingotNickel>, <ore:ingotChromium>], 4000, 12.0 as float);
 
 mods.enderio.SagMill.removeRecipe(<minecraft:coal>);
+mods.enderio.SagMill.removeRecipe(<actuallyadditions:block_misc:2>);
+mods.enderio.SagMill.addRecipe([<actuallyadditions:item_dust:7> * 4], [100 as float], <ore:blockQuartzBlack> as IIngredient, "CHANCE_ONLY", 400, [100 as float]);
 
 mods.enderio.AlloySmelter.removeRecipe(<thermalfoundation:material:160>);

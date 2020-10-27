@@ -76,15 +76,16 @@ val localizationMap as string[string] = {
     "jaopca.entry.Cryonium": "极寒",
     "jaopca.entry.Experience": "知识精华",
     "fluid.ethaxium": "熔融伊桑斯",
+    "jaopca.entry.Cytosinite": "胞嘧",
     "jaopca.entry.Umbrium": "影素",
     "jaopca.entry.Hephaestite": "赫菲斯辛",
     "jaopca.entry.Scarlite": "绯红宝石",
+    "jaopca.entry.Chromium": "铬",
     "fluid.mithrillium": "熔融秘银",
     "fluid.adaminite": "熔融铿金",
     "fluid.mithminite": "熔融秘金",
     "fluid.ravaging": "毁灭流质",
     "fluid.gaia": "熔融盖亚魂锭",
-    "jaopca.entry.Cytosinite": "胞嘧",
     "fluid.terra_alloy": "熔融大地合金",
     "fluid.cosmilite": "寰宇超流体",
     "fluid.astral_metal": "星辰涌流",
@@ -96,13 +97,16 @@ val localizationMap as string[string] = {
 	"fluid.poison": "毒液",
 	"fluid.modularium": "熔融模块化合金",
 	"fluid.meteor": "熔融陨星",
+	"fluid.stainless_steel": "熔融不锈钢",
 	"jaopca.entry.Dilithium": "双锂",
 	"jaopca.entry.Asgardium": "神金",
 	"jaopca.entry.Shadowium": "暗影",
 	"jaopca.entry.Aeroite": "云浮",
 	"jaopca.entry.AncientDebris": "远古残骸",
 	"jaopca.entry.Meteor": "陨星",
-	"jer.worldgen.averageChunk": "平均每区块方块数"
+	"jer.worldgen.averageChunk": "平均每区块方块数",
+	"entity.spiderstpo.better_cave_spider.name": "洞穴蜘蛛",
+	"entity.spiderstpo.better_spider.name": "蜘蛛"
 } as string[string];
 
 for k, v in localizationMap {

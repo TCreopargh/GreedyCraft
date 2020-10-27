@@ -1,0 +1,13 @@
+{
+    "weight": 100,
+    "type": "tconevo:tool",
+    "name": "电力驱动十字弩",
+    "lore": "总之就是非常好用。",
+    "tool": "crossbow",
+    "materials": [
+        "steel",
+        "fluxed_electrum",
+        "flux_crystal",
+		"enderium"
+    ]
+}

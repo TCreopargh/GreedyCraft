@@ -2744,6 +2744,32 @@
       "enableFletching": false,
       "enableProjectile": false
     },
+    "name": "terrestrial",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": true,
+      "enableCore": true,
+      "enablePlates": true,
+      "enableTrim": true
+    }
+  },
+  {
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableBowString": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    },
     "name": "ignitz",
     "material": true,
     "fluid": true,
@@ -3111,6 +3137,32 @@
     "name": "silentgems:chrysoprase_super",
     "material": true,
     "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": true,
+      "enableCore": true,
+      "enablePlates": true,
+      "enableTrim": true
+    }
+  },
+  {
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableBowString": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    },
+    "name": "stainless_steel",
+    "material": true,
+    "fluid": true,
     "traits": true,
     "armorOptions": {
       "enableArmor": true,
@@ -7918,6 +7970,32 @@
       "enableFletching": false,
       "enableProjectile": false
     },
+    "name": "chromium",
+    "material": true,
+    "fluid": true,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": true,
+      "enableCore": true,
+      "enablePlates": true,
+      "enableTrim": true
+    }
+  },
+  {
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableBowString": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    },
     "name": "emberstone",
     "material": true,
     "fluid": true,
@@ -8231,6 +8309,32 @@
       "enableProjectile": false
     },
     "name": "redins",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": true,
+      "enableCore": true,
+      "enablePlates": true,
+      "enableTrim": true
+    }
+  },
+  {
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableBowString": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    },
+    "name": "pumpkin",
     "material": true,
     "fluid": false,
     "traits": true,

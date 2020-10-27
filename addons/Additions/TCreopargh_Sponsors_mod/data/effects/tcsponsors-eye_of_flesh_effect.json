@@ -1,0 +1,24 @@
+{
+  "cause": {
+    "item": {
+      "item": "additions:tcsponsors-eye_of_flesh",
+      "damage": "any"
+    },
+    "type": "additions:item_in_inventory"
+  },
+  "effects": [
+    {
+      "type": "additions:damage_item"
+    },
+    {
+      "potion": {
+        "name": "cyclicmagic:potion.saturation",
+        "duration": 50,
+        "amplifier": 2,
+        "ambient": false,
+        "show_particles": true
+      },
+      "type": "additions:potion"
+    }
+  ]
+}

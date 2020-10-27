@@ -147,6 +147,16 @@ mods.tconstruct.Casting.addBasinRecipe(<nyx:meteor_block>, null, <liquid:meteor>
 mods.tconstruct.Melting.addRecipe(<liquid:meteor> * 1296, <ore:blockMeteor>, 900);
 mods.tconstruct.Melting.addRecipe(<liquid:meteor> * 144, <ore:dustMeteor>, 900);
 mods.tconstruct.Melting.addRecipe(<liquid:meteor> * 144, <ore:shardMeteor>, 900);
+
+mods.tconstruct.Melting.addRecipe(<liquid:stainless_steel> * 144, <ore:ingotStainlessSteel>, 1200);
+mods.tconstruct.Melting.addRecipe(<liquid:stainless_steel> * 1296, <ore:blockStainlessSteel>, 1200);
+mods.tconstruct.Casting.addTableRecipe(<additions:stainless_steel_ingot>, <tconstruct:cast_custom>, <liquid:stainless_steel>, 144, false, 200);
+mods.tconstruct.Casting.addBasinRecipe(<additions:greedycraft-stainless_steel_block>, null, <liquid:stainless_steel>, 1296, false, 300);
+mods.tconstruct.Alloy.addRecipe(<liquid:stainless_steel> * 576, [<liquid:steel> * 576, <liquid:nickel> * 144, <liquid:chromium> * 144]);
+
+mods.tconstruct.Melting.addRecipe(<liquid:coal> * 144, <ore:coal>, 600);
+mods.tconstruct.Casting.addTableRecipe(<minecraft:coal>, <tconstruct:cast_custom:2>, <liquid:coal>, 144, false, 200);
+mods.tconstruct.Casting.addTableRecipe(<additions:greedycraft-stainless_steel_ball>, <tconstruct:cast_custom:2>, <liquid:stainless_steel>, 30, false, 60);
 //mods.tconstruct.Melting.addRecipe(<liquid:liquid_chocolate> * 48, <ore:beanCocoa>, 200);
 
 //mods.tconstruct.Melting.addRecipe(<liquid:cryonium> * 288, <additions:greedycraft-cryonium_ore>, 200);

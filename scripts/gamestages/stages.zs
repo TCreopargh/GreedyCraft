@@ -121,11 +121,20 @@ stageGettingStarted.addIngredients([
 	<minecraft:diamond_axe>,
 	<minecraft:golden_axe>,
 	<minecraft:iron_axe>,
-	<ore:ingotIron>,
-	<ore:ingotGold>,
 	<ore:cobblestone>,
 	<minecraft:golden_axe>
 ], true);
+
+stageGettingStarted.addIngredients([
+	<ore:ingotIron>,
+	<ore:ingotGold>,
+	<ore:nuggetIron>,
+	<ore:nuggetGold>,
+	<ore:dustIron>,
+	<ore:dustGold>,
+	<ore:blockIron>,
+	<ore:blockGold>
+], false);
 
 stageGettingStarted.addRecipeName("tinkersurvival:cobblestone");
 
@@ -307,7 +316,10 @@ stageNether.addIngredients([
 	<ore:ingotAsgardium>,
 	<ore:blockAsgardium>,
 	<ore:nuggetAsgardium>,
-	<ore:dustAsgardium>
+	<ore:dustAsgardium>,
+	<ore:ingotMeteor>,
+	<ore:blockMeteor>,
+	<ore:dustMeteor>
 ], true);
 
 stageNether.addIngredients([
@@ -356,7 +368,8 @@ stageNoviceEngineer.addIngredients([
 	<actuallyadditions:block_phantom_liquiface>,
 	<actuallyadditions:block_phantom_redstoneface>,
 	<actuallyadditions:block_phantom_booster>,
-	<actuallyadditions:block_coffee_machine>
+	<actuallyadditions:block_coffee_machine>,
+	<actuallyadditions:block_atomic_reconstructor>
 ], true);
 
 stageHardmode.addIngredients([
@@ -399,7 +412,17 @@ stageHardmode.addIngredients([
 	<extrautils2:teleporter:1>,
 	<openblocks:hang_glider>,
 	<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 5 as short}]}),
-	<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 10 as short}]})
+	<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 10 as short}]}),
+	<actuallyadditions:item_tele_staff>,
+	<actuallyadditions:block_misc:8>,
+	<ore:oreRuby>,
+	<ore:orePeridot>,
+	<ore:oreTopaz>,
+	<ore:oreTanzanite>,
+	<ore:oreMalachite>,
+	<ore:oreSapphire>,
+	<ore:oreAmber>,
+	<biomesoplenty:terrestrial_artifact>
 ], true);
 
 stageInfinity.addIngredients([
@@ -598,6 +621,8 @@ stageSkilledEngineer.addIngredients([
 	<ore:nuggetIridium>,
 	<ore:blockIridium>,
 	<ore:oreIridium>,
+	<ore:dustIridium>,
+	<ore:dustPlatinum>,
 	<ore:ingotPlatinum>,
 	<ore:nuggetPlatinum>,
 	<ore:orePlatinum>,
@@ -628,7 +653,10 @@ stageSkilledEngineer.addIngredients([
 	<randomthings:spectrecoil_number>,
 	<randomthings:spectrecoil_normal>,
 	<randomthings:spectrecoil_redstone>,
-	<randomthings:spectrecoil_ender>
+	<randomthings:spectrecoil_ender>,
+	<bigreactors:oreyellorite>,
+	<bigreactors:ingotyellorium>,
+	<bigreactors:dustyellorium>
 ], true);
 
 stageMasterEngineer.addIngredients([
@@ -660,7 +688,11 @@ stageDisabled.addIngredients([
 	<botania:blackholetalisman>,
 	<extrautils2:wateringcan>,
 	<bountifulbaubles:trinketbrokenheart>,
-	<actuallyadditions:block_greenhouse_glass>
+	<actuallyadditions:block_greenhouse_glass>,
+	<extrautils2:lawsword>,
+	<extrautils2:lawsword>.withTag({ench:[]}),
+	<openblocks:sprinkler>,
+	<astralsorcery:itemenchantmentamulet>
 ], true);
 
 stageDisabled.addLiquid(<liquid:sakura.hot_spring_water>);
@@ -733,6 +765,9 @@ stageDisabled.addRecipeRegex("^defiledlands:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(
 stageDisabled.addRecipeRegex("^abyssalcraft:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(sword)|(axe)|(shovel)|(boots)|(leggings)|(chestplate)|(helmet)|(plate)|(legs)|(helm)|(pick))$");
 stageDisabled.addRecipeRegex("^netherex:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(sword)|(axe)|(shovel)|(boots)|(leggings)|(chestplate)|(helmet)|(plate)|(legs)|(helm)|(pick))$");
 stageDisabled.addRecipeRegex("^candymod:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(sword)|(axe)|(shovel)|(boots)|(leggings)|(chestplate)|(helmet)|(plate)|(legs)|(helm)|(pick))_(.*)$");
+stageDisabled.addRecipeRegex("^aether_legacy:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(sword)|(axe)|(shovel)|(boots)|(leggings)|(chestplate)|(helmet)|(plate)|(legs)|(helm)|(pick))$");
+stageDisabled.addRecipeRegex("^betternether:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(sword)|(axe)|(shovel)|(boots)|(leggings)|(chestplate)|(helmet)|(plate)|(legs)|(helm)|(pick))$");
+stageDisabled.addRecipeRegex("^tcomplement:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(sword)|(axe)|(shovel)|(boots)|(leggings)|(chestplate)|(helmet)|(plate)|(legs)|(helm)|(pick))$");
 stageDisabled.addRecipeRegex("^enderio:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(sword)|(axe)|(shovel)|(boots)|(leggings)|(chestplate)|(helmet))$");
 stageDisabled.addRecipeRegex("^thermalfoundation:tool.fishing_rod_(.*)$");
 stageDisabled.addRecipeRegex("^jaopca:block_crystalcluster(.*)$");
@@ -828,7 +863,9 @@ restageItems("disabled", [
 	<draconicadditions:chaotic_chest>.withTag({DEUpgrades: {}}),
 	<draconicadditions:chaotic_legs>.withTag({DEUpgrades: {}}),
 	<draconicadditions:chaotic_boots>.withTag({DEUpgrades: {}}),
-	<cyclicmagic:sprinkler>
+	<cyclicmagic:sprinkler>,
+	<cyclicmagic:bundled_pipe>,
+	<cyclicmagic:heart_toxic>
 ]);
 
 mods.ItemStages.removeItemStage(<cyclicmagic:inventory_food>);

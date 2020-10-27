@@ -35,6 +35,7 @@ mainPool.addItemEntryHelper(<tofucraft:tofu_food>, 16, 1, [Functions.setCount(24
 mainPool.addItemEntryHelper(<tofucraft:tofu_food:2>, 8, 1, [Functions.setCount(12, 32)], []);
 mainPool.addItemEntryHelper(<tofucraft:tofu_food:3>, 10, 1, [Functions.setCount(12, 24)], []);
 mainPool.addItemEntryHelper(<tofucraft:tofu_material>, 4, 1, [Functions.setCount(4, 20)], []);
+mainPool.addItemEntryHelper(<additions:greedycraft-one_punch>, 1, 1, [Functions.setCount(1, 1)], []);
 
 dungeon.getPool("bountifulbaubles_dungeon").removeEntry("bountifulbaubles:trinketbrokenheart");
 dungeonPool1.addItemEntryHelper(<additions:greedycraft-reward_ticket_common>, 15, 1, [Functions.setCount(1, 2)], []);
@@ -62,6 +63,7 @@ dungeonPool1.addItemEntryHelper(<additions:greedycraft-experience_transporter>, 
 dungeonPool1.addItemEntryHelper(<additions:greedycraft-blueprint_yoyo>, 1, 1, [Functions.setCount(1, 1)], []);
 dungeonPool1.addItemEntryHelper(<actuallyadditions:block_treasure_chest>, 9, 1, [Functions.setCount(1, 1)], []);
 dungeonPool1.addItemEntryHelper(<additions:greedycraft-skill_reset_scroll>, 1, 1, [Functions.setCount(1, 1)], []);
+dungeonPool1.addItemEntryHelper(<additions:greedycraft-plate_of_honor>, 1, 1, [Functions.setCount(1, 1)], []);
 
 var dungeonPool2 = dungeon.getPool("pool2");  
 dungeonPool2.addItemEntryHelper(<additions:greedycraft-reward_ticket_common>, 12, 1, [Functions.setCount(1, 2)], []);

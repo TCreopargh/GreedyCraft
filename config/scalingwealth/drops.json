@@ -1568,7 +1568,7 @@
 					"item": "minecraft:dragon_egg"
 				},
 				{
-					"amount": "[160,240]",
+					"amount": "[20,40]",
 					"chance": 1,
 					"item": "draconicevolution:draconium_dust"
 				},
@@ -1594,7 +1594,7 @@
 					"item": "minecraft:dragon_egg"
 				},
 				{
-					"amount": "[240,320]",
+					"amount": "[30,60]",
 					"chance": 1,
 					"item": "draconicevolution:draconium_dust"
 				},
@@ -1620,7 +1620,7 @@
 					"item": "minecraft:dragon_egg"
 				},
 				{
-					"amount": "[300,400]",
+					"amount": "[50,80]",
 					"chance": 1,
 					"item": "draconicevolution:draconium_dust"
 				},
@@ -1646,7 +1646,7 @@
 					"item": "minecraft:dragon_egg"
 				},
 				{
-					"amount": "[200,400]",
+					"amount": "[80,120]",
 					"chance": 1,
 					"item": "draconicevolution:draconium_dust"
 				},
@@ -1672,7 +1672,7 @@
 					"item": "minecraft:dragon_egg"
 				},
 				{
-					"amount": "[300,600]",
+					"amount": "[120,200]",
 					"chance": 1,
 					"item": "draconicevolution:draconium_dust"
 				},
@@ -1698,7 +1698,7 @@
 					"item": "minecraft:dragon_egg"
 				},
 				{
-					"amount": "[400,700]",
+					"amount": "[200,300]",
 					"chance": 1,
 					"item": "draconicevolution:draconium_dust"
 				},
@@ -1724,7 +1724,7 @@
 					"item": "minecraft:dragon_egg"
 				},
 				{
-					"amount": "[600,800]",
+					"amount": "[300,400]",
 					"chance": 1,
 					"item": "draconicevolution:draconium_dust"
 				},

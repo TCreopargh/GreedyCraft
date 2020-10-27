@@ -212,7 +212,8 @@ import crafttweaker.game.IGame;
 	<additions:greedycraft-experience_transporter>,
 	<additions:greedycraft-skill_reset_scroll>,
 	<additions:tcsponsors-sponsors_chest>,
-	<cyclicmagic:heart_food>
+	<cyclicmagic:heart_food>,
+	<additions:greedycraft-one_punch>
 ]);
 <ore:dungeonShield>.addItems([
 	<cqrepoured:shield_bull>,
@@ -290,3 +291,18 @@ if(loadedMods.contains("inventorypets")) {
 <ore:dustMeteor>.add(<nyx:meteor_dust>);
 <ore:shardMeteor>.add(<nyx:meteor_shard>);
 <ore:oreMeteor>.add(<nyx:meteor_rock>);
+<ore:cobblestone>.add(<quark:biome_cobblestone:*>);
+<ore:blockGlass>.add(<betternether:quartz_stained_glass:*>);
+<ore:blockGlass>.add(<betternether:quartz_glass:*>);
+<ore:blockGlass>.add(<botany:stained:*>);
+<ore:blockGlass>.add(<extratrees:stainedglass:*>);
+<ore:slimeball>.add(<thermalfoundation:material:833>);
+<ore:essenceChromium>.add(<mysticalcreations:chromium_essence>);
+<ore:essenceTitanium>.add(<mysticalcreations:titanium_essence>);
+<ore:essenceWitch>.add(<mysticalcreations:witch_essence>);
+<ore:essenceCake>.add(<mysticalcreations:cake_essence>);
+<ore:essenceStainlessSteel>.add(<mysticalcreations:stainless_steel_essence>);
+<ore:dustWood>.addAll(<ore:pulpWood>);
+<ore:pulpWood>.addAll(<ore:dustWood>);
+<ore:itemRune>.addItems([<quark:rune:*>]);
+<ore:gemTerrestrial>.add(<biomesoplenty:terrestrial_artifact>);

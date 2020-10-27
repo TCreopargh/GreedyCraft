@@ -1,0 +1,7 @@
+{
+  "name": "§4一拳",
+  "tooltip": "§c世界上，没有一拳解决不了的事，如果有，那就两拳。",
+  "max_stack": 1,
+  "material": "ADDITIONS-GREEDYCRAFT-ONE_PUNCH_MATERIAL",
+  "type": "additions:sword"
+}

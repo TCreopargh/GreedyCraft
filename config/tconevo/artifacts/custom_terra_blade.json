@@ -1,0 +1,12 @@
+{
+    "weight": 60,
+    "type": "tconevo:tool",
+    "name": "泰拉之刃",
+    "lore": "我是不是走错游戏了？",
+    "tool": "broadsword",
+    "materials": [
+        "diamond",
+        "terrasteel",
+        "elementium"
+    ]
+}
