@@ -16,7 +16,7 @@ mods.astralsorcery.Altar.addConstellationAltarRecipe("philosophers_stone", <proj
             <ore:dustBlaze>, <ore:dustBlaze>,
             <ore:dustBlaze>, <ore:dustBlaze>,
             <ore:dustBlaze>, <ore:dustBlaze>]);
-			
+            
 mods.astralsorcery.Altar.addTraitAltarRecipe("arcane_crystal_ball", <additions:greedycraft-arcane_crystal_ball>, 4500, 400, [
 <ore:ingotThaumium>, <ore:netherStar>, <ore:ingotThaumium>,
 <ore:netherStar>, <thaumcraft:salis_mundus>, <ore:netherStar>,

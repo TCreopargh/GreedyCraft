@@ -25,15 +25,16 @@ mods.thermalexpansion.Insolator.removeRecipe(<appliedenergistics2:crystal_seed:1
 mods.thermalexpansion.Pulverizer.addRecipe(<nyx:meteor_dust>, <nyx:meteor_ingot>, 600);
 mods.thermalexpansion.Pulverizer.addRecipe(<nyx:meteor_dust> * 9, <nyx:meteor_block>, 600);
 mods.thermalexpansion.Pulverizer.addRecipe(<nyx:meteor_dust>, <nyx:meteor_shard>, 600);
+mods.thermalexpansion.Pulverizer.addRecipe(<additions:greedycraft-purifying_dust> * 8, <botania:specialflower>.withTag({type: "puredaisy"}), 600);
 
 /*
 for item in <ore:dungeonlootTier1>.items {
-	mods.thermalexpansion.Pulverizer.addRecipe(<additions:greedycraft-time_fragment>, item, 3000, <additions:greedycraft-experience_ingot>, 20);
+    mods.thermalexpansion.Pulverizer.addRecipe(<additions:greedycraft-time_fragment>, item, 3000, <additions:greedycraft-experience_ingot>, 20);
 }
 for item in <ore:dungeonlootTier2>.items {
-	mods.thermalexpansion.Pulverizer.addRecipe(<additions:greedycraft-time_fragment> * 3, item, 6000, <additions:greedycraft-experience_ingot> * 2, 35);
+    mods.thermalexpansion.Pulverizer.addRecipe(<additions:greedycraft-time_fragment> * 3, item, 6000, <additions:greedycraft-experience_ingot> * 2, 35);
 }
 for item in <ore:dungeonlootTier3>.items {
-	mods.thermalexpansion.Pulverizer.addRecipe(<additions:greedycraft-time_fragment> * 16, item, 15000, <additions:greedycraft-experience_ingot> * 16, 50);
+    mods.thermalexpansion.Pulverizer.addRecipe(<additions:greedycraft-time_fragment> * 16, item, 15000, <additions:greedycraft-experience_ingot> * 16, 50);
 }
 */

@@ -123,3 +123,7 @@ game.setLocalization("tooltip.itemstages.name.default", "§5§ka§r §d未知物
 <projectex:collector:5>.addTooltip("§e该收集器有配方");
 <additions:greedycraft-aeroite_ore>.addTooltip("§e请用铲子挖掘");
 <tofucraft:ore_tofudiamond>.addTooltip("§e请用铲子挖掘");
+<minecraft:enchanting_table>.addTooltip("§e你需要达到§5魔法12级§e才能使用附魔台！");
+<twilightforest:uncrafting_table>.addTooltip("§e注意：无法拆解物品");
+<minecraft:potion>.withTag({Potion: "minecraft:water"}).addTooltip("§e请勿使用堆叠的水瓶酿药");
+<minecraft:potion>.withTag({Potion: "minecraft:water"}).addTooltip("§e请拆解为未堆叠的水瓶后再放入酿造台。");

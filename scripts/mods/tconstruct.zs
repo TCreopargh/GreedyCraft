@@ -157,6 +157,11 @@ mods.tconstruct.Alloy.addRecipe(<liquid:stainless_steel> * 576, [<liquid:steel> 
 mods.tconstruct.Melting.addRecipe(<liquid:coal> * 144, <ore:coal>, 600);
 mods.tconstruct.Casting.addTableRecipe(<minecraft:coal>, <tconstruct:cast_custom:2>, <liquid:coal>, 144, false, 200);
 mods.tconstruct.Casting.addTableRecipe(<additions:greedycraft-stainless_steel_ball>, <tconstruct:cast_custom:2>, <liquid:stainless_steel>, 30, false, 60);
+mods.tconstruct.Melting.addRecipe(<liquid:sakura.food_oil> * 100, <ore:tallow>, 200);
+
+mods.tconstruct.Fuel.registerFuel(<liquid:infernium> * 1, 600);
+mods.tconstruct.Fuel.registerFuel(<liquid:cosmilite> * 1, 2400);
+
 //mods.tconstruct.Melting.addRecipe(<liquid:liquid_chocolate> * 48, <ore:beanCocoa>, 200);
 
 //mods.tconstruct.Melting.addRecipe(<liquid:cryonium> * 288, <additions:greedycraft-cryonium_ore>, 200);

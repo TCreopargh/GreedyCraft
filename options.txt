@@ -88,8 +88,6 @@ key_key.hotbar.9:10
 key_of.key.zoom:46
 key_Change Caster Focus:0
 key_Misc Caster Toggle:0
-key_quark.keybind.toggleAutojump:0
-key_quark.keybind.lockBuilding:0
 key_quark.emote.no:0
 key_quark.emote.yes:0
 key_quark.emote.wave:0
@@ -110,6 +108,8 @@ key_quark.emote.exorcist:0
 key_quark.emote.zombie:0
 key_quark.keybind.dropoff:0
 key_quark.keybind.changeHotbar:184
+key_quark.keybind.toggleAutojump:0
+key_quark.keybind.lockBuilding:0
 key_keybind.baublesinventory:18:ALT
 key_pe.key.armor_toggle:45:ALT
 key_pe.key.charge:47:ALT
@@ -165,6 +165,7 @@ key_key.use_cage.desc:0
 key_key.configurator_mode.desc:0
 key_key.configurator_filter.desc:0
 key_key.configurator_path.desc:0
+key_ingameinfoxml.key.toggle:0
 key_keybind.hammercorerenderstack:77
 key_key.toggleFoVChanges:51:SHIFT
 key_key.reloadSoundSystem:0
@@ -357,8 +358,8 @@ key_enderio.keybind.fovplus:0
 key_enderio.keybind.fovminus:0
 key_enderio.keybind.fovplusfast:0
 key_enderio.keybind.fovminusfast:0
-soundCategory_master:0.25
-soundCategory_music:0.80985916
+soundCategory_master:0.90000015
+soundCategory_music:0.8028169
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0
@@ -367,7 +368,7 @@ soundCategory_neutral:1.0
 soundCategory_player:1.0
 soundCategory_ambient:1.0
 soundCategory_voice:1.0
-soundCategory_ds_footsteps:0.5
+soundCategory_ds_footsteps:0.70422536
 soundCategory_ds_biome:1.0
 modelPart_cape:true
 modelPart_jacket:true

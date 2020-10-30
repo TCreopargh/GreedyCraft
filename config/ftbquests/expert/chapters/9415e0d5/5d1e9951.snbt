@@ -1,8 +1,8 @@
 {
-	title: "§d高级附魔管理",
+	title: "§d别把东西吸走！",
 	x: 0.0d,
 	y: 7.5d,
-	description: "获得附魔交换器",
+	description: "制作消磁器，它可以让一定范围内增加拾取范围的物品失去作用",
 	dependencies: [
 		"4b2e0fa7"
 	],
@@ -10,7 +10,7 @@
 		uid: "633fe7c7",
 		type: "item",
 		items: [{
-			item: "enchxchg:exchanger"
+			item: "demagnetize:demagnetizer"
 		}]
 	}],
 	rewards: [{

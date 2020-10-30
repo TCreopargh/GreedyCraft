@@ -1,14 +1,10 @@
 {
-  "enableRain": true,
   "canGenerateRivers": false,
-  "rainfall": 0.7,
   "skyColor": -1,
-  "guiColour": 5215831,
   "fogDensity": 1.0,
   "hasBiomeEssence": true,
   "variationBelow": 5.0,
   "variationAbove": 15.0,
-  "waterColor": 6512772,
   "seaFloorBlock": {
     "block": "biomesoplenty:mud",
     "properties": {
@@ -30,10 +26,8 @@
     }
   },
   "fogColor": -1,
-  "temperature": 0.6,
   "canGenerateVillages": false,
   "canSpawnInBiome": true,
-  "enableSnow": false,
   "generators": {
     "cattail": {
       "with": {

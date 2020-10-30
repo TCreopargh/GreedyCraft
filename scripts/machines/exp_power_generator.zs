@@ -18,6 +18,6 @@ val regName = "exp_power_generator";
 val speed = 100;
 
 mods.modularmachinery.RecipeBuilder.newBuilder(regName + "_general", regName, speed, 0)
-	.addFluidInput(<liquid:experience> * 100)
-	.addEnergyPerTickOutput(800)
-	.build();
+    .addFluidInput(<liquid:experience> * 100)
+    .addEnergyPerTickOutput(2000)
+    .build();

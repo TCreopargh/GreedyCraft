@@ -263,6 +263,9 @@
       "item": "additions:rubber_band"
     },
     {
+      "item": "additions:greedycraft-purifying_dust"
+    },
+    {
       "item": "ftbquests:lootcrate",
       "tag": "{type:\"loot_level_1\"}"
     },
@@ -430,6 +433,9 @@
     },
     {
       "item": "additions:greedycraft-emergency_button"
+    }, 
+    {
+      "item": "additions:greedycraft-perfectly_generic_item"
     },
     {
       "item": "bibliocraft:bigbook",

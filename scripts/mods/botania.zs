@@ -13,7 +13,6 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.data.IData;
 import crafttweaker.item.IIngredient;
 
-
 mods.botania.ElvenTrade.addRecipe([<defiledlands:scarlite>], [<ore:slimeballBlood>, <ore:gemEmerald>, <ore:gemEmerald>]);
 mods.botania.ElvenTrade.addRecipe([<actuallyadditions:item_misc:5>], [<ore:gemQuartz>, <ore:coal>]);
 mods.botania.ElvenTrade.addRecipe([<actuallyadditions:item_misc:5>], [<ore:gemQuartz>, <ore:charcoal>]);
@@ -30,3 +29,15 @@ mods.botania.RuneAltar.addRecipe(<twilightforest:castle_rune_brick:2> * 32, [<or
 mods.botania.RuneAltar.addRecipe(<twilightforest:castle_rune_brick:3> * 32, [<ore:brickStone>, <quark:rune:*>, <ore:dyePurple>], 50);
 
 mods.botania.RuneAltar.removeRecipe(<extrabotany:material:5>);
+
+mods.botania.PureDaisy.removeRecipe(<botania:livingwood>);
+mods.botania.PureDaisy.removeRecipe(<botania:livingrock>);
+mods.botania.PureDaisy.removeRecipe(<minecraft:cobblestone>);
+mods.botania.PureDaisy.removeRecipe(<minecraft:sand>);
+mods.botania.PureDaisy.removeRecipe(<minecraft:packed_ice>);
+mods.botania.PureDaisy.removeRecipe(<minecraft:obsidian>);
+
+for input in pureDaisyTransmutations {
+    var output as IItemStack = pureDaisyTransmutations[input];
+    mods.botania.PureDaisy.addRecipe(input ,output);
+}

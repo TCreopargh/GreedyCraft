@@ -1,0 +1,6 @@
+{
+  "name": "§b净化之尘",
+  "tooltip": "§2使用时转换附近的方块，效果和白雏菊的转换功能相同",
+  "ore_dict": "dustPurifying",
+  "type": "additions:simple"
+}

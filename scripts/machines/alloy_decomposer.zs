@@ -47,13 +47,13 @@ val alloyRecipes as ILiquidStack[][] = [
     [<liquid:manyullyn> * 2, /*divide*/ <liquid:cobalt> * 2, <liquid:ardite> * 2],
     [<liquid:vivid_alloy> * 72, /*divide*/ <liquid:energetic_silver> * 72, <liquid:ender> * 125],
     [<liquid:energetic_silver> * 72, /*divide*/ <liquid:redstone> * 50, <liquid:silver> * 72, <liquid:glowstone> * 125],
-	[<liquid:dark_steel> * 1, /*divide*/ <liquid:steel> * 1, <liquid:obsidian> * 2],
-	[<liquid:pulsating_iron> * 72, /*divide*/ <liquid:iron> * 72, <liquid:ender> * 125],
-	[<liquid:conductive_iron> * 36, /*divide*/ <liquid:iron> * 36, <liquid:redstone> * 25],
-	[<liquid:vibrant_alloy> * 72, /*divide*/ <liquid:energetic_alloy> * 72, <liquid:ender> * 125],
-	[<liquid:energetic_alloy> * 72, /*divide*/ <liquid:redstone> * 50, <liquid:gold> * 72, <liquid:glowstone> * 125],
-	[<liquid:alubrass> * 4, /*divide*/ <liquid:copper> * 1, <liquid:aluminum> * 3],
-	[<liquid:terrax_fluid> * 2, /*divide*/ <liquid:karmesine_fluid> * 1, <liquid:ovium_fluid> * 1, <liquid:jauxum_fluid> * 1],
+    [<liquid:dark_steel> * 1, /*divide*/ <liquid:steel> * 1, <liquid:obsidian> * 2],
+    [<liquid:pulsating_iron> * 72, /*divide*/ <liquid:iron> * 72, <liquid:ender> * 125],
+    [<liquid:conductive_iron> * 36, /*divide*/ <liquid:iron> * 36, <liquid:redstone> * 25],
+    [<liquid:vibrant_alloy> * 72, /*divide*/ <liquid:energetic_alloy> * 72, <liquid:ender> * 125],
+    [<liquid:energetic_alloy> * 72, /*divide*/ <liquid:redstone> * 50, <liquid:gold> * 72, <liquid:glowstone> * 125],
+    [<liquid:alubrass> * 4, /*divide*/ <liquid:copper> * 1, <liquid:aluminum> * 3],
+    [<liquid:terrax_fluid> * 2, /*divide*/ <liquid:karmesine_fluid> * 1, <liquid:ovium_fluid> * 1, <liquid:jauxum_fluid> * 1],
     [<liquid:triberium_fluid> * 1, /*divide*/ <liquid:tiberium_fluid> * 5, <liquid:dilithium_fluid> * 2],
     [<liquid:fractum_fluid> * 2, /*divide*/ <liquid:triberium_fluid> * 3, <liquid:obsidian> * 3, <liquid:abyssum_fluid> * 1],
     [<liquid:violium_fluid> * 2, /*divide*/ <liquid:aurorium_fluid> * 3, <liquid:ardite> * 2],
@@ -77,18 +77,18 @@ val alloyRecipes as ILiquidStack[][] = [
 ];
 
 for row in alloyRecipes {
-	if(!(row.length >= 2)) {
-		break;
-	}
-	var inputStack = row[0] as ILiquidStack;
-	var amount = inputStack.amount;
-	var alloyEnergy = energy as int;
-	var alloySpeed = Math.ceil((amount as float / 100.0 as float) * speed as float) as int;
-	var builder = mods.modularmachinery.RecipeBuilder.newBuilder(regName + "_alloy_" + inputStack.definition.name, regName, alloySpeed, 0);
-		builder.addFluidInput(inputStack);
-		builder.addEnergyPerTickInput(alloyEnergy);
-	for i in 1 to row.length {
-		builder.addFluidOutput(row[i] as ILiquidStack);
-	}
-	builder.build();
+    if(!(row.length >= 2)) {
+        break;
+    }
+    var inputStack = row[0] as ILiquidStack;
+    var amount = inputStack.amount;
+    var alloyEnergy = energy as int;
+    var alloySpeed = Math.ceil((amount as float / 100.0 as float) * speed as float) as int;
+    var builder = mods.modularmachinery.RecipeBuilder.newBuilder(regName + "_alloy_" + inputStack.definition.name, regName, alloySpeed, 0);
+        builder.addFluidInput(inputStack);
+        builder.addEnergyPerTickInput(alloyEnergy);
+    for i in 1 to row.length {
+        builder.addFluidOutput(row[i] as ILiquidStack);
+    }
+    builder.build();
 }

@@ -172,6 +172,7 @@
     "undestroyableItems": {
       "entries": [
         "{item:\"minecraft:nether_star\",count:1,id:\"item\"}",
+        "{item:\"botania:manaresource\",count:1,id:\"item\"}",
         "{count:1,block:\"minecraft:bedrock\",id:\"block\"}",
         "{count:1,block:\"minecraft:obsidian\",id:\"block\"}",
         "{material:\"minecraft:barrier\",count:1,id:\"material\"}"

@@ -280,16 +280,6 @@
 		table: 1
 	},
 	{
-		uid: "493d2bd7",
-		type: "item",
-		item: {
-			id: "enderio:item_broken_spawner",
-			tag: {
-				entityId: "minecraft:wither_skeleton"
-			}
-		}
-	},
-	{
 		uid: "80cb5942",
 		type: "item",
 		item: {

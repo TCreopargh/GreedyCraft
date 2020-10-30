@@ -1,34 +1,28 @@
 {
-  "enableRain": false,
   "wallBlock": {
     "block": "minecraft:netherrack",
     "properties": {}
   },
-  "rainfall": 0.0,
+  "fillerBlock": {
+    "block": "biomesoplenty:ash_block",
+    "properties": {}
+  },
   "skyColor": -1,
-  "guiColour": 11091006,
+  "topBlock": {
+    "block": "biomesoplenty:ash_block",
+    "properties": {}
+  },
+  "fogColor": -1,
   "fogDensity": 1.0,
   "roofTopBlock": {
     "block": "minecraft:netherrack",
     "properties": {}
   },
   "hasBiomeEssence": false,
-  "waterColor": 16777215,
-  "fillerBlock": {
-    "block": "biomesoplenty:ash_block",
-    "properties": {}
-  },
-  "topBlock": {
-    "block": "biomesoplenty:ash_block",
-    "properties": {}
-  },
-  "fogColor": -1,
-  "temperature": 2.0,
   "roofFillerBlock": {
     "block": "minecraft:netherrack",
     "properties": {}
   },
-  "enableSnow": false,
   "generators": {
     "hive": {
       "maxRadius": 9,

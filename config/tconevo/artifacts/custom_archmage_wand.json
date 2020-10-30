@@ -1,0 +1,13 @@
+{
+  "weight": 240,
+  "type": "tconevo:tool",
+  "name": "玛德之杖",
+  "lore": "大法师玛德曾经拥有的法杖。",
+  "tool": "tconevo.sceptre",
+  "materials": [
+    "diamantine_crystal",
+    "thaumium",
+    "fluix",
+    "amber"
+  ]
+}

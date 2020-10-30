@@ -1,15 +1,11 @@
 {
-  "enableRain": true,
   "canGenerateRivers": true,
   "beachBiomeLocation": "minecraft:beaches",
-  "rainfall": 0.85,
   "skyColor": -1,
-  "guiColour": 10739795,
   "fogDensity": 1.0,
   "hasBiomeEssence": true,
   "variationBelow": 5.0,
   "variationAbove": 10.0,
-  "waterColor": 16777215,
   "seaFloorBlock": {
     "block": "minecraft:dirt",
     "properties": {
@@ -33,10 +29,8 @@
     }
   },
   "fogColor": -1,
-  "temperature": 0.9,
   "canGenerateVillages": false,
   "canSpawnInBiome": true,
-  "enableSnow": false,
   "generators": {
     "glowshrooms": {
       "with": {

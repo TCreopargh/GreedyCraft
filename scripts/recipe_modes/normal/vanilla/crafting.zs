@@ -14,11 +14,11 @@ import crafttweaker.data.IData;
 import crafttweaker.item.IIngredient;
 
 val removedRecipes as IIngredient[] = [
-	<minecraft:enchanting_table>,
+    <minecraft:enchanting_table>,
 ];
 
 for ingredient in removedRecipes {
-	recipes.remove(ingredient);
+    recipes.remove(ingredient);
 }
 
 recipes.addShaped("auto_gen_-1702953212", <minecraft:enchanting_table>, 

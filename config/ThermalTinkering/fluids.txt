@@ -98,7 +98,6 @@ soymilk_hell                                      (tofucraft:soymilk_hell)      
 zunda_soymilk                                     (tofucraft:zunda_soymilk)                                                        = Ã«¶¹¶¹½¬
 nigari                                            (tofucraft:nigari)                                                               = ÑÎÂ±
 soysauce                                          (tofucraft:soysauce)                                                             = ½´ÓÍ
-poison                                            (cyclicmagic:poison)                                                             = ¶¾Òº
 amber                                             (cyclicmagic:amber)                                                              = çúçê
 biomass                                           (cyclicmagic:biomass)                                                            = ÉúÎïÖÊ
 crystal                                           (cyclicmagic:crystal)                                                            = ºÚê×Ê¯¾§Ìå
@@ -121,6 +120,7 @@ supremium                                         (mysticalagradditions:molten_s
 sand                                              (biomesoplenty:sand)                                                             = Á÷É³
 honey                                             (biomesoplenty:honey)                                                            = ·äÃÛ
 blood                                             (biomesoplenty:blood)                                                            = Ñª
+poison                                            (biomesoplenty:poison)                                                           = ¶¾Òº
 hot_spring_water                                  (biomesoplenty:hot_spring_water)                                                 = ÎÂÈªË®
 fusion_matrix                                     (contenttweaker:fusion_matrix)                                                   = ÈÛÈÚ¾ÛºÏ¾ØÕó
 insanium                                          (contenttweaker:insanium)                                                        = ÈÛÈÚ¾¿¼«¾«»ª

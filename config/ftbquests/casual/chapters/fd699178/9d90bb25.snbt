@@ -9,12 +9,12 @@
 	],
 	tasks: [{
 		uid: "bd2911da",
-		type: "item",
-		items: [{
-			item: "appliedenergistics2:inscriber"
-		}],
-		ignore_damage: true,
-		ignore_nbt: 1b
+		type: "observation",
+		title: "§9将压印器放在地上后看向它！",
+		icon: "appliedenergistics2:inscriber",
+		match_type: "block_id",
+		match: "appliedenergistics2:inscriber",
+		timer: 0L
 	}],
 	rewards: [{
 		uid: "d212332a",

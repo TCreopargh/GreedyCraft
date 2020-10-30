@@ -16,7 +16,7 @@ mods.astralsorcery.Altar.addConstellationAltarRecipe("philosophers_stone", <proj
             <ore:dustBlaze>, <ore:dustBlaze>,
             <ore:dustBlaze>, <ore:dustBlaze>,
             <ore:dustBlaze>, <ore:dustBlaze>]);
-			
+            
 mods.astralsorcery.Altar.addTraitAltarRecipe("arcane_crystal_ball", <additions:greedycraft-arcane_crystal_ball>, 5500, 800, [
 <thaumcraft:mechanism_complex>, <draconicevolution:dragon_heart>, <thaumcraft:mechanism_complex>,
 <draconicevolution:dragon_heart>, <thaumcraft:salis_mundus>, <draconicevolution:dragon_heart>,

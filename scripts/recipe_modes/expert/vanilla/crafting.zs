@@ -14,25 +14,25 @@ import crafttweaker.data.IData;
 import crafttweaker.item.IIngredient;
 
 val removedRecipes as IIngredient[] = [
-	<minecraft:enchanting_table>,
-	<draconicevolution:draconic_core>,
-	<draconicevolution:crafting_injector>,
-	<avaritia:resource>,
-	<avaritia:resource:1>,
-	<draconicevolution:energy_storage_core>,
-	<thermalexpansion:machine:3>,
-	<enderio:item_material>,
-	<enderio:item_material:51>,
-	<additions:greedycraft-blueprint>,
-	<additions:greedycraft-twilight_gem>,
-	<additions:greedycraft-ender_charm>,
-	<actuallyadditions:block_misc:9>,
-	<additions:greedycraft-twilight_shield>,
-	<additions:greedycraft-blueprint_shuriken>
+    <minecraft:enchanting_table>,
+    <draconicevolution:draconic_core>,
+    <draconicevolution:crafting_injector>,
+    <avaritia:resource>,
+    <avaritia:resource:1>,
+    <draconicevolution:energy_storage_core>,
+    <thermalexpansion:machine:3>,
+    <enderio:item_material>,
+    <enderio:item_material:51>,
+    <additions:greedycraft-blueprint>,
+    <additions:greedycraft-twilight_gem>,
+    <additions:greedycraft-ender_charm>,
+    <actuallyadditions:block_misc:9>,
+    <additions:greedycraft-twilight_shield>,
+    <additions:greedycraft-blueprint_shuriken>
 ];
 
 for ingredient in removedRecipes {
-	recipes.remove(ingredient);
+    recipes.remove(ingredient);
 }
 
 recipes.addShaped("auto_gen_-1702953212", <minecraft:enchanting_table>, 

@@ -9,19 +9,19 @@
 import mods.dropt.Dropt;
 
 Dropt.list("bedrock")
-	.add(Dropt.rule()
+    .add(Dropt.rule()
     .matchBlocks(["minecraft:bedrock:*"])
-	.replaceStrategy("ADD")
+    .replaceStrategy("ADD")
     .matchHarvester(Dropt.harvester()
           .type("PLAYER")
           .mainHand("WHITELIST", [], "pickaxe;10;-1")
     )
     .addDrop(Dropt.drop().items([<minecraft:bedrock>])));
-	
+    
 Dropt.list("end_portal_frame")
-	.add(Dropt.rule()
+    .add(Dropt.rule()
     .matchBlocks(["minecraft:end_portal_frame:*"])
-	.replaceStrategy("ADD")
+    .replaceStrategy("ADD")
     .matchHarvester(Dropt.harvester()
           .type("PLAYER")
           .mainHand("WHITELIST", [], "pickaxe;5;-1")
@@ -30,9 +30,9 @@ Dropt.list("end_portal_frame")
 ));
 
 Dropt.list("barrier")
-	.add(Dropt.rule()
+    .add(Dropt.rule()
     .matchBlocks(["minecraft:barrier:*"])
-	.replaceStrategy("ADD")
+    .replaceStrategy("ADD")
     .matchHarvester(Dropt.harvester()
           .type("PLAYER")
           .mainHand("WHITELIST", [], "pickaxe;12;-1")
@@ -41,9 +41,9 @@ Dropt.list("barrier")
 ));
 
 Dropt.list("lucky_clover")
-	.add(Dropt.rule()
+    .add(Dropt.rule()
     .matchBlocks([
-	    "minecraft:tallgrass:*",
+        "minecraft:tallgrass:*",
         "minecraft:vine:*",
         "pvj:short_grass:*",
         "biomesoplenty:plant_0:*",
@@ -54,10 +54,10 @@ Dropt.list("lucky_clover")
         "pvj:silverleaf:*",
         "biomesoplenty:willow_vine:*",
         "xlfoodmod:grass:*",
-		"minecraft:double_plant:*"
-	])
-	.replaceStrategy("ADD")
-	.addDrop(Dropt.drop()
+        "minecraft:double_plant:*"
+    ])
+    .replaceStrategy("ADD")
+    .addDrop(Dropt.drop()
           .selector(Dropt.weight(199)) 
     ).addDrop(Dropt.drop()
           .selector(Dropt.weight(1))

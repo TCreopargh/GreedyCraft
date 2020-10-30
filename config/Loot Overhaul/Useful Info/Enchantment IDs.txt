@@ -240,28 +240,28 @@ endercore:xpboost
    - Max Level: 3
 
 
-enderio:repellent
+enderio:soulbound
    - Id: 29
    - Rarity: VERY_RARE
    - Treasure: false
    - Min Level: 1
-   - Max Level: 4
+   - Max Level: 1
 
 
-enderio:witherarrow
+enderio:shimmer
    - Id: 30
-   - Rarity: UNCOMMON
-   - Treasure: false
+   - Rarity: VERY_RARE
+   - Treasure: true
    - Min Level: 1
    - Max Level: 1
 
 
-enderio:soulbound
+enderio:repellent
    - Id: 31
    - Rarity: VERY_RARE
    - Treasure: false
    - Min Level: 1
-   - Max Level: 1
+   - Max Level: 4
 
 
 minecraft:efficiency
@@ -296,7 +296,7 @@ minecraft:fortune
    - Max Level: 3
 
 
-enderio:witherweapon
+enderio:witherarrow
    - Id: 36
    - Rarity: UNCOMMON
    - Treasure: false
@@ -304,10 +304,10 @@ enderio:witherweapon
    - Max Level: 1
 
 
-enderio:shimmer
+enderio:witherweapon
    - Id: 37
-   - Rarity: VERY_RARE
-   - Treasure: true
+   - Rarity: UNCOMMON
+   - Treasure: false
    - Min Level: 1
    - Max Level: 1
 
@@ -648,8 +648,64 @@ astralsorcery:enchantment.as.smelting
    - Max Level: 1
 
 
-abyssalcraft:coralium
+charm:curse_break
    - Id: 80
+   - Rarity: RARE
+   - Treasure: true
+   - Min Level: 1
+   - Max Level: 1
+
+
+charm:rusting_curse
+   - Id: 81
+   - Rarity: VERY_RARE
+   - Treasure: true
+   - Min Level: 1
+   - Max Level: 1
+
+
+charm:clumsiness_curse
+   - Id: 82
+   - Rarity: VERY_RARE
+   - Treasure: true
+   - Min Level: 1
+   - Max Level: 1
+
+
+charm:haunting_curse
+   - Id: 83
+   - Rarity: VERY_RARE
+   - Treasure: true
+   - Min Level: 1
+   - Max Level: 1
+
+
+charm:harming_curse
+   - Id: 84
+   - Rarity: VERY_RARE
+   - Treasure: true
+   - Min Level: 1
+   - Max Level: 1
+
+
+charm:homing
+   - Id: 85
+   - Rarity: RARE
+   - Treasure: true
+   - Min Level: 1
+   - Max Level: 1
+
+
+charm:magnetic
+   - Id: 86
+   - Rarity: RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 1
+
+
+abyssalcraft:coralium
+   - Id: 87
    - Rarity: RARE
    - Treasure: false
    - Min Level: 1
@@ -657,7 +713,7 @@ abyssalcraft:coralium
 
 
 abyssalcraft:dread
-   - Id: 81
+   - Id: 88
    - Rarity: RARE
    - Treasure: false
    - Min Level: 1
@@ -665,7 +721,7 @@ abyssalcraft:dread
 
 
 abyssalcraft:light_pierce
-   - Id: 82
+   - Id: 89
    - Rarity: COMMON
    - Treasure: false
    - Min Level: 1
@@ -673,7 +729,7 @@ abyssalcraft:light_pierce
 
 
 abyssalcraft:iron_wall
-   - Id: 83
+   - Id: 90
    - Rarity: UNCOMMON
    - Treasure: false
    - Min Level: 1
@@ -681,7 +737,7 @@ abyssalcraft:iron_wall
 
 
 abyssalcraft:sapping
-   - Id: 84
+   - Id: 91
    - Rarity: UNCOMMON
    - Treasure: false
    - Min Level: 1
@@ -689,7 +745,7 @@ abyssalcraft:sapping
 
 
 abyssalcraft:multi_rend
-   - Id: 85
+   - Id: 92
    - Rarity: RARE
    - Treasure: false
    - Min Level: 1

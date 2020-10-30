@@ -1,0 +1,32 @@
+{
+	"name": "compactmachines3:aether_portal",
+	"target-item": "aether_legacy:aether_portal_frame",
+	"target-count": 1,
+
+	"catalyst": "minecraft:water_bucket",
+
+	"input-types": {
+		"g": {
+			"id": "minecraft:glowstone"
+		}
+	},
+
+	"symmetrical": true,
+	"shape": [
+		[
+			["g", "g", "g", "g"]
+		],
+		[
+			["g", "-", "-", "g"]
+		],
+		[
+			["g", "-", "-", "g"]
+		],
+        [
+			["g", "-", "-", "g"]
+		],
+        [
+			["g", "g", "g", "g"]
+		]
+	]
+}

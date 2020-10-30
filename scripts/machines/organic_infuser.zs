@@ -81,16 +81,6 @@ val crops as IItemStack[][] = [
     [<mysticalagriculture:basalz_seeds>, <mysticalagriculture:basalz_essence>],
     [<mysticalagriculture:ironwood_seeds>, <mysticalagriculture:ironwood_essence>],
     [<mysticalagriculture:redstone_seeds>, <mysticalagriculture:redstone_essence>],
-    [<jaopca:item_mysticalseedsastralstarmetal>, <jaopca:item_essenceastralstarmetal>],
-    [<jaopca:item_mysticalseedsexperience>, <jaopca:item_essenceexperience>],
-    [<jaopca:item_mysticalseedsliquifiedcoralium>, <jaopca:item_essenceliquifiedcoralium>],
-    [<jaopca:item_mysticalseedsumbrium>, <jaopca:item_essenceumbrium>],
-    [<jaopca:item_mysticalseedsambrosium>, <jaopca:item_essenceambrosium>],
-    [<jaopca:item_mysticalseedsdimensionalshard>, <jaopca:item_essencedimensionalshard>],
-    [<jaopca:item_mysticalseedshephaestite>, <jaopca:item_essencehephaestite>],
-    [<jaopca:item_mysticalseedsquartzblack>, <jaopca:item_essencequartzblack>],
-    [<jaopca:item_mysticalseedsscarlite>, <jaopca:item_essencescarlite>],
-    [<jaopca:item_mysticalseedsniter>, <jaopca:item_essenceniter>],
     [<mysticalagriculture:pulsating_iron_seeds>, <mysticalagriculture:pulsating_iron_essence>],
     [<mysticalagriculture:gold_seeds>, <mysticalagriculture:gold_essence>],
     [<mysticalagriculture:end_seeds>, <mysticalagriculture:end_essence>],
@@ -128,8 +118,6 @@ val crops as IItemStack[][] = [
     [<mysticalagriculture:constantan_seeds>, <mysticalagriculture:constantan_essence>],
     [<mysticalagriculture:ruby_seeds>, <mysticalagriculture:ruby_essence>],
     [<mysticalagriculture:blaze_seeds>, <mysticalagriculture:blaze_essence>],
-    [<jaopca:item_mysticalseedsaeroite>, <jaopca:item_essenceaeroite>],
-    [<jaopca:item_mysticalseedsasgardium>, <jaopca:item_essenceasgardium>],
     [<mysticalagriculture:starmetal_seeds>, <mysticalagriculture:starmetal_essence>],
     [<mysticalagriculture:enderium_seeds>, <mysticalagriculture:enderium_essence>],
     [<mysticalagriculture:terrasteel_seeds>, <mysticalagriculture:terrasteel_essence>],
@@ -147,57 +135,78 @@ val crops as IItemStack[][] = [
     [<mysticalagriculture:refined_obsidian_seeds>, <mysticalagriculture:refined_obsidian_essence>],
     [<mysticalagriculture:vibrant_alloy_seeds>, <mysticalagriculture:vibrant_alloy_essence>],
     [<mysticalagriculture:diamond_seeds>, <mysticalagriculture:diamond_essence>],
-    [<jaopca:item_mysticalseedsshadowium>, <jaopca:item_essenceshadowium>],
     [<mysticalagradditions:awakened_draconium_seeds>, <mysticalagradditions:awakened_draconium_essence>],
     [<mysticalagradditions:nether_star_seeds>, <mysticalagradditions:nether_star_essence>],
     [<mysticalagradditions:neutronium_seeds>, <mysticalagradditions:neutronium_essence>],
     [<mysticalagradditions:dragon_egg_seeds>, <mysticalagradditions:dragon_egg_essence>],
+    [<jaopca:item_mysticalseedsscarlite>, <jaopca:item_essencescarlite>],
     [<jaopca:item_mysticalseedscryonium>, <jaopca:item_essencecryonium>],
-    [<jaopca:item_mysticalseedscytosinite>, <jaopca:item_essencecytosinite>],
+    [<jaopca:item_mysticalseedsambrosium>, <jaopca:item_essenceambrosium>],
+    [<jaopca:item_mysticalseedshephaestite>, <jaopca:item_essencehephaestite>],
+    [<jaopca:item_mysticalseedsexperience>, <jaopca:item_essenceexperience>],
+    [<jaopca:item_mysticalseedsdimensionalshard>, <jaopca:item_essencedimensionalshard>],
     [<jaopca:item_mysticalseedsinfernium>, <jaopca:item_essenceinfernium>],
+    [<jaopca:item_mysticalseedsliquifiedcoralium>, <jaopca:item_essenceliquifiedcoralium>],
+    [<jaopca:item_mysticalseedsshadowium>, <jaopca:item_essenceshadowium>],
+    [<jaopca:item_mysticalseedscytosinite>, <jaopca:item_essencecytosinite>],
+    [<jaopca:item_mysticalseedsasgardium>, <jaopca:item_essenceasgardium>],
+    [<jaopca:item_mysticalseedsaeroite>, <jaopca:item_essenceaeroite>],
+    [<jaopca:item_mysticalseedsumbrium>, <jaopca:item_essenceumbrium>],
+    [<jaopca:item_mysticalseedsniter>, <jaopca:item_essenceniter>],
     [<jaopca:item_mysticalseedsancientdebris>, <jaopca:item_essenceancientdebris>],
+    [<jaopca:item_mysticalseedsastralstarmetal>, <jaopca:item_essenceastralstarmetal>],
+    [<jaopca:item_mysticalseedsquartzblack>, <jaopca:item_essencequartzblack>],
+    [<mysticalagriculture:tier1_inferium_seeds>, <mysticalagriculture:crafting>],
+    [<mysticalagriculture:tier2_inferium_seeds>, <mysticalagriculture:crafting> * 2],
+    [<mysticalagriculture:tier3_inferium_seeds>, <mysticalagriculture:crafting> * 3],
+    [<mysticalagriculture:tier4_inferium_seeds>, <mysticalagriculture:crafting> * 4],
+    [<mysticalagriculture:tier5_inferium_seeds>, <mysticalagriculture:crafting> * 5],
+    [<mysticalagradditions:tier6_inferium_seeds>, <mysticalagriculture:crafting> * 6],
     [<appliedenergistics2:crystal_seed>, <appliedenergistics2:material:10>],
     [<appliedenergistics2:crystal_seed:600>, <appliedenergistics2:material:11>],
     [<appliedenergistics2:crystal_seed:1200>, <appliedenergistics2:material:12>]
 ];
 
-	var energy = [30, 40, 50, 60, 80, 100, 200] as int[];
-	var time = [15, 20, 25, 30, 40, 60, 600] as int[];
-	var fluid = [500, 550, 600, 650, 700, 800, 3200] as int[];
+    var energy = [30, 40, 50, 60, 80, 100, 200] as int[];
+    var time = [15, 20, 25, 30, 40, 60, 600] as int[];
+    var fluid = [500, 550, 600, 650, 700, 800, 3200] as int[];
+    var recipeId = 0;
 
 for row in crops {
-	if(row.length != 2) {
-		break;
-	}
-	var seed = row[0] as IItemStack;
-	var essence = row[1] as IItemStack;
-	var tier = 0;
-	if(<ore:seedsTier1> has seed) {
-		tier = 1;
-	} else if(<ore:seedsTier2> has seed) {
-		tier = 2;
-	} else if(<ore:seedsTier3> has seed) {
-		tier = 3;
-	} else if(<ore:seedsTier4> has seed) {
-		tier = 4;
-	} else if(<ore:seedsTier5> has seed) {
-		tier = 5;
-	} else if(<ore:seedsTier6> has seed) {
-		tier = 6;
-	}
-	mods.modularmachinery.RecipeBuilder.newBuilder(regName + "_grow_" + seed.name, regName, time[tier], 0)
-	.addItemInput(seed)
-	.addEnergyPerTickInput(energy[tier])
-	.addFluidInput(<liquid:organic_fluid> * fluid[tier])
-	.addItemOutput(seed)
-	.addItemOutput(seed)
-	.setChance(0.1 as float)
-	.addItemOutput(essence)
-	.addItemOutput(essence)
-	.setChance(0.5 as float)
-	.addItemOutput(essence)
-	.setChance(0.25 as float)
-	.addItemOutput(essence)
-	.setChance(0.125 as float)
-	.build();
+    if(row.length != 2) {
+        break;
+    }
+    var seed = row[0] as IItemStack;
+    var essence = row[1] as IItemStack;
+    var tier = 0;
+    if(<ore:seedsTier1> has seed) {
+        tier = 1;
+    } else if(<ore:seedsTier2> has seed) {
+        tier = 2;
+    } else if(<ore:seedsTier3> has seed) {
+        tier = 3;
+    } else if(<ore:seedsTier4> has seed) {
+        tier = 4;
+    } else if(<ore:seedsTier5> has seed) {
+        tier = 5;
+    } else if(<ore:seedsTier6> has seed) {
+        tier = 6;
+    }
+    mods.modularmachinery.RecipeBuilder.newBuilder(regName + "_grow_" + seed.name + "_" + recipeId, regName, time[tier], 0)
+    .addItemInput(seed)
+    .addEnergyPerTickInput(energy[tier])
+    .addFluidInput(<liquid:organic_fluid> * fluid[tier])
+    .addItemOutput(seed)
+    .addItemOutput(seed)
+    .setChance(0.1 as float)
+    .addItemOutput(essence)
+    .addItemOutput(essence)
+    .setChance(0.5 as float)
+    .addItemOutput(essence)
+    .setChance(0.25 as float)
+    .addItemOutput(essence)
+    .setChance(0.125 as float)
+    .build();
+    
+    recipeId+=1;
 }

@@ -23,13 +23,13 @@ Exhaustion.setMaxExhaustionLevel("x*1.8");
 
 // Decreasing hunger consumption at lower hunger values
 HungerEvents.onExhausted(function(event as mods.hungertweaker.events.ExhaustedEvent) {
-	if((Math.random()*10000)<((20-event.player.foodStats.foodLevel)*400)) {
-		event.deltaHunger = 0;
-		event.deltaSaturation = 0;
-		
-	}else if(event.player.foodStats.foodLevel <= 6) {
-		event.player.server.commandManager.executeCommand(event.player.server, "/title " + event.player.name + " actionbar [\"\",{\"text\":\"\u8b66\u544a\",\"color\":\"red\"},{\"text\":\": \u9965\u997f\u503c\u8f83\u4f4e\",\"color\":\"yellow\"}]\"");
-		//event.player.executeCommand("/playsound entity.item.pickup neutral @p");
-	} 
+    if((Math.random()*10000)<((20-event.player.foodStats.foodLevel)*400)) {
+        event.deltaHunger = 0;
+        event.deltaSaturation = 0;
+        
+    }else if(event.player.foodStats.foodLevel <= 6) {
+        event.player.server.commandManager.executeCommand(event.player.server, "/title " + event.player.name + " actionbar [\"\",{\"text\":\"\u8b66\u544a\",\"color\":\"red\"},{\"text\":\": \u9965\u997f\u503c\u8f83\u4f4e\",\"color\":\"yellow\"}]\"");
+        //event.player.executeCommand("/playsound entity.item.pickup neutral @p");
+    } 
 });
 //Powered by TCreopargh

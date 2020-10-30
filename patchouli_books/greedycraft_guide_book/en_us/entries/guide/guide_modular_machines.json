@@ -25,7 +25,7 @@
             "type": "spotlight",
 			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:exp_power_generator\"}",
 			"title": "经验发电机",
-            "text": "$(2)经验发电机$()可以使用液态$(2)知识精华$()发电！如果你有很多经验，不妨试试将它们用来发电。它每tick能产生800FE的电量，效率非常不错！$(br2)$(2)$(o)“知识就是力量！”"
+            "text": "$(2)经验发电机$()可以使用液态$(2)知识精华$()发电！如果你有很多经验，不妨试试将它们用来发电。它每tick能产生$(4)2000FE$()的电量，效率非常不错！$(br2)$(2)$(o)“知识就是力量！”"
         },
 		{
             "type": "spotlight",
@@ -56,6 +56,24 @@
 			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:alloy_decomposer\"}",
 			"title": "合金分解机",
             "text": "$(8)合金分解机$()可以将一些合金分解为其组成部分。"
+        },
+		{
+            "type": "spotlight",
+			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:liquid_converter\"}",
+			"title": "流体转换机",
+            "text": "$(3)流体转换机$()可以将一些等价的液体互相转换，速度很快而且消耗的能量极少。"
+        },
+		{
+            "type": "spotlight",
+			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:loot_power_generator\"}",
+			"title": "战利品发电机",
+            "text": "$(8)战利品发电机$()可以用你从地牢里找到的乱七八糟的战利品发电，而且发电功率超级大！"
+        },
+		{
+            "type": "spotlight",
+			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:blazing_furnace\"}",
+			"title": "烈焰熔炉",
+            "text": "$(6)烈焰熔炉$()通过烈焰之炽焱和电力来飞速烧制物品，速度快得难以想象！"
         }
     ]
 }

@@ -8,4 +8,4 @@
 
 #priority 32767
 
-global versionName as string = "1.10.0";
+global versionName as string = "1.11.0";

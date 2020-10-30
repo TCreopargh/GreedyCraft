@@ -255,7 +255,7 @@
                     {
                         "name": "minecraft:leaves",
                         "metadata": 3,
-                        "weight": 20
+                        "weight": 10
                     },
                     {
                         "name": "minecraft:log",
@@ -265,6 +265,10 @@
                     {
                         "name": "minecraft:mossy_cobblestone",
                         "weight": 50
+                    },
+                    {
+                        "name": "minecraft:cobblestone",
+                        "weight": 10
                     }
                 ],
                 "material": "minecraft:stone",
@@ -289,6 +293,10 @@
                     {
                         "type": "dictionary",
                         "entry": "SWAMP"
+                    },
+                    {
+                        "type": "dictionary",
+                        "entry": "LUSH"
                     }
                 ]
             },
@@ -296,7 +304,8 @@
                 "restriction": "blacklist",
                 "value": [
                     1,
-                    -1
+                    -1,
+                    4
                 ]
             }
         },
@@ -313,14 +322,22 @@
                     }
                 ],
                 "outline-block": [
+					{
+                        "name": "minecraft:stone",
+                        "weight": 60
+                    },
+					{
+                        "name": "minecraft:cobblestone",
+                        "weight": 24
+                    },
                     {
                         "name": "minecraft:gravel",
-                        "weight": 84
+                        "weight": 6
                     },
                     {
                         "name": "thermalfoundation:ore_fluid",
                         "metadata": 1,
-                        "weight": 16
+                        "weight": 10
                     }
                 ],
                 "material": "minecraft:stone",
@@ -336,7 +353,8 @@
                 "restriction": "blacklist",
                 "value": [
                     1,
-                    -1
+                    -1,
+                    4
                 ]
             }
         },
@@ -603,10 +621,9 @@
             "retrogen": "true",
             "biome": "all",
             "dimension": {
-                "restriction": "blacklist",
+                "restriction": "whitelist",
                 "value": [
-                    -1,
-                    1
+                    4
                 ]
             }
         },
@@ -906,6 +923,10 @@
                     {
                         "type": "dictionary",
                         "entry": "COLD"
+                    },
+                    {
+                        "type": "dictionary",
+                        "entry": "SNOWY"
                     }
                 ]
             },
@@ -952,6 +973,10 @@
                     {
                         "type": "dictionary",
                         "entry": "SWAMP"
+                    },
+                    {
+                        "type": "dictionary",
+                        "entry": "LUSH"
                     }
                 ]
             },
@@ -994,9 +1019,131 @@
                     {
                         "type": "dictionary",
                         "entry": "SWAMP"
+                    },
+                    {
+                        "type": "dictionary",
+                        "entry": "LUSH"
                     }
                 ]
             },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+		"leaves": {
+            "enabled": "true",
+            "distribution": "cave",
+            "generator": {
+				"type": "large-vein",
+                "block": [
+                    {
+                        "name": "minecraft:leaves",
+						"metadata": 4,
+                        "weight": 70
+                    },
+					{
+                        "name": "minecraft:mossy_cobblestone",
+                        "weight": 30
+                    }
+                ],
+                "material": "minecraft:stone",
+                "cluster-size": 250
+            },
+            "cluster-count": 2,
+			"ceiling": "true",
+            "retrogen": "true",
+            "biome": {
+                "restriction": "whitelist",
+                "value": [
+                    {
+                        "type": "dictionary",
+                        "entry": "JUNGLE"
+                    },
+                    {
+                        "type": "dictionary",
+                        "entry": "DENSE"
+                    },
+                    {
+                        "type": "dictionary",
+                        "entry": "SWAMP"
+                    },
+                    {
+                        "type": "dictionary",
+                        "entry": "FOREST"
+                    },
+                    {
+                        "type": "dictionary",
+                        "entry": "LUSH"
+                    }
+                ]
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+		"stalactite": {
+            "enabled": "true",
+            "distribution": "cave",
+            "generator": {
+				"type": "stalactite",
+				"min-height": 5,
+				"height-variance": 12,
+				"fat": false,
+				"alt-sinc": true,
+                "block": [
+                    {
+                        "name": "minecraft:stone",
+                        "weight": 164
+                    },
+					{
+                        "name": "minecraft:mossy_cobblestone",
+                        "weight": 6
+                    },
+					{
+                        "name": "minecraft:cobblestone",
+                        "weight": 18
+                    },
+					{
+                        "name": "minecraft:coal_ore",
+                        "weight": 6
+                    },
+					{
+                        "name": "minecraft:iron_ore",
+                        "weight": 2
+                    },
+					{
+                        "name": "minecraft:gold_ore",
+                        "weight": 1
+                    },
+					{
+                        "name": "minecraft:diamond_ore",
+                        "weight": 1
+                    },
+					{
+                        "name": "minecraft:emerald_ore",
+                        "weight": 1
+                    },
+					{
+                        "name": "minecraft:lapis_ore",
+                        "weight": 1
+                    }
+                ],
+                "material": "minecraft:stone",
+                "cluster-size": 150
+            },
+			"chunk-chance": 4,
+            "cluster-count": 1,
+			"ceiling": "true",
+            "retrogen": "true",
+            "biome": "all",
             "dimension": {
                 "restriction": "blacklist",
                 "value": [

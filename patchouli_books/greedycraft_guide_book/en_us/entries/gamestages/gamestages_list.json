@@ -9,11 +9,11 @@
         },
         {
             "type": "text",
-            "text": "$(li)$(c)novice_engineer $(): 初级工程师，做出热力感应炉后解锁，可解锁EnderIO的全部内容。$(li)$(c)skilled_engineer $(): 中级工程师，做出强化机器框架后解锁，可解锁Mekanism的全部内容。$(li)$(c)master_engineer $(): 高级工程师，通过进行工业时代篇章中$(9)通用机械$()的任务解锁，可解锁通用机械的高级内容。$(li)$(c)novice_wizard $(): 初级魔法师，做出天辉祭坛后解锁，可解锁神秘时代的注魔合成。$(li)$(c)skilled_wizard $(): 中级魔法师，做出注魔稳定器后解锁，可解锁星辉魔法的后半段内容。"
+            "text": "$(li)$(c)novice_engineer $(): 初级工程师，完成热力感应炉任务后解锁，可解锁EnderIO的全部内容。$(li)$(c)skilled_engineer $(): 中级工程师，完成强化机器框架任务后解锁，可解锁Mekanism的全部内容。$(li)$(c)master_engineer $(): 高级工程师，通过进行工业时代篇章中$(9)通用机械$()的任务解锁，可解锁通用机械的高级内容。$(li)$(c)novice_wizard $(): 初级魔法师，完成天辉祭坛任务后解锁，可解锁神秘时代的注魔合成。$(li)$(c)skilled_wizard $(): 中级魔法师，完成注魔稳定器任务后解锁，可解锁星辉魔法的后半段内容。"
         },
         {
             "type": "text",
-            "text": "$(li)$(c)master_wizard $(): 高级魔法师，使用$(d)奥术水晶球$()解锁，可解锁神秘时代的后期内容。$(li)$(c)twilight_shield $(): 使用$(d)暮色之庇护$()后获得，允许进入下界。$(li)$(c)ender_charm $(): 使用$(3)末影护符$()后获得，允许进入末地。$(li)$(c)hardmode $(): $(c)困难模式$()，这个阶段是如此重要，以至于有一篇单独的文章来讨论它。$(li)$(c)wither_slayer $(): 凋灵杀手，击杀凋灵后解锁。$(li)$(c)wielder_of_infinity $(): 做出无尽催化剂后解锁。"
+            "text": "$(li)$(c)master_wizard $(): 高级魔法师，使用$(d)奥术水晶球$()解锁，可解锁神秘时代的后期内容。$(li)$(c)twilight_shield $(): 使用$(d)暮色之庇护$()后获得，允许进入下界。$(li)$(c)ender_charm $(): 使用$(3)末影护符$()后获得，允许进入末地。$(li)$(c)hardmode $(): $(c)困难模式$()，这个阶段是如此重要，以至于有一篇单独的文章来讨论它。$(li)$(c)wither_slayer $(): 凋灵杀手，击杀凋灵后解锁。$(li)$(c)wielder_of_infinity $(): 完成无尽催化剂任务后解锁。"
         },
         {
             "type": "text",

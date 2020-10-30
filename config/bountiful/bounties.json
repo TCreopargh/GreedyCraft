@@ -514,24 +514,6 @@
         "weight": 14
     },
 	{
-        "content": "entity:spiderstpo:better_cave_spider",
-        "amount": {
-            "min": 4,
-            "max": 20
-        },
-        "unitWorth": 280,
-        "weight": 250
-    },
-	{
-        "content": "entity:spiderstpo:better_spider",
-        "amount": {
-            "min": 4,
-            "max": 24
-        },
-        "unitWorth": 240,
-        "weight": 300
-    },
-	{
         "content": "entity:minecraft:witch",
         "amount": {
             "min": 2,

@@ -1,0 +1,12 @@
+{
+  "weight": 750,
+  "type": "tconevo:tool",
+  "name": "星界之刃",
+  "lore": "这把剑与天上的星辰产生了共鸣。",
+  "tool": "broadsword",
+  "materials": [
+    "meteor",
+    "starmetal",
+    "fluix_steel"
+  ]
+}

@@ -1400,8 +1400,32 @@ tconevo:damage_boost
 	- Is Beneficial: true
 
 
-abyssalcraft:cplague
+charm:coffee
    - Id: 174
+   - Color: 1442306
+   - Is Instant: false
+   - Is Bad: false
+	- Is Beneficial: false
+
+
+charm:decay
+   - Id: 175
+   - Color: 2490656
+   - Is Instant: false
+   - Is Bad: true
+	- Is Beneficial: false
+
+
+charm:ender_sight
+   - Id: 176
+   - Color: 7708951
+   - Is Instant: false
+   - Is Bad: false
+	- Is Beneficial: false
+
+
+abyssalcraft:cplague
+   - Id: 177
    - Color: 65535
    - Is Instant: false
    - Is Bad: true
@@ -1409,7 +1433,7 @@ abyssalcraft:cplague
 
 
 abyssalcraft:dplague
-   - Id: 175
+   - Id: 178
    - Color: 11342611
    - Is Instant: false
    - Is Bad: true
@@ -1417,7 +1441,7 @@ abyssalcraft:dplague
 
 
 abyssalcraft:antimatter
-   - Id: 176
+   - Id: 179
    - Color: 16777215
    - Is Instant: false
    - Is Bad: true
@@ -1425,7 +1449,7 @@ abyssalcraft:antimatter
 
 
 bountifulbaubles:sinful
-   - Id: 177
+   - Id: 180
    - Color: 1053463
    - Is Instant: false
    - Is Bad: false
@@ -1433,7 +1457,7 @@ bountifulbaubles:sinful
 
 
 thaumadditions:sonus
-   - Id: 178
+   - Id: 181
    - Color: 16755200
    - Is Instant: false
    - Is Bad: false
@@ -1441,7 +1465,7 @@ thaumadditions:sonus
 
 
 thaumadditions:sanity_checker
-   - Id: 179
+   - Id: 182
    - Color: -1
    - Is Instant: false
    - Is Bad: false
@@ -1449,7 +1473,7 @@ thaumadditions:sanity_checker
 
 
 extrautils2:effect.xu2.doom
-   - Id: 180
+   - Id: 183
    - Color: 3149840
    - Is Instant: false
    - Is Bad: true
@@ -1457,7 +1481,7 @@ extrautils2:effect.xu2.doom
 
 
 extrautils2:effect.xu2.gravity
-   - Id: 181
+   - Id: 184
    - Color: 2105376
    - Is Instant: false
    - Is Bad: true
@@ -1465,7 +1489,7 @@ extrautils2:effect.xu2.gravity
 
 
 extrautils2:effect.xu2.second.chance
-   - Id: 182
+   - Id: 185
    - Color: 6356848
    - Is Instant: false
    - Is Bad: false
@@ -1473,7 +1497,7 @@ extrautils2:effect.xu2.second.chance
 
 
 extrautils2:effect.xu2.greek.fire
-   - Id: 183
+   - Id: 186
    - Color: 16732160
    - Is Instant: false
    - Is Bad: true
@@ -1481,7 +1505,7 @@ extrautils2:effect.xu2.greek.fire
 
 
 extrautils2:effect.xu2.fizzy.lifting
-   - Id: 184
+   - Id: 187
    - Color: 10547296
    - Is Instant: false
    - Is Bad: true
@@ -1489,7 +1513,7 @@ extrautils2:effect.xu2.fizzy.lifting
 
 
 extrautils2:effect.xu2.relapse
-   - Id: 185
+   - Id: 188
    - Color: 6312191
    - Is Instant: false
    - Is Bad: false
@@ -1497,7 +1521,7 @@ extrautils2:effect.xu2.relapse
 
 
 extrautils2:effect.xu2.love
-   - Id: 186
+   - Id: 189
    - Color: 16761051
    - Is Instant: true
    - Is Bad: false
@@ -1505,7 +1529,7 @@ extrautils2:effect.xu2.love
 
 
 extrautils2:effect.xu2.purging
-   - Id: 187
+   - Id: 190
    - Color: 16738816
    - Is Instant: true
    - Is Bad: true
