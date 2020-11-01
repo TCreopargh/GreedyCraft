@@ -49,13 +49,13 @@
     +B:Connected Texture=true
 
     # How many RF/FE does this solar panel produce per tick? (Default: 524288, Range: [1;9223372036854775807])
-    +L:Generation Rate=60000
+    +L:Generation Rate=64000
 
     # How high is this solar panel? (Default: 6.0, Range: [0.0;16.0])
     +F:Height=6.0
 
     # How many RF/FE does this solar panel emit to other blocks, per tick? (Default: 4096000, Range: [1;9223372036854775807])
-    +L:Transfer Rate=120000
+    +L:Transfer Rate=128000
 
   }
 

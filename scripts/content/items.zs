@@ -9,6 +9,9 @@
 #priority 2200
 
 #norun
+//For items added by this modpack, please go to the /addons/additions folder.
+
+//Disabled as this is a failed attempt
 
 /*
 import mods.contenttweaker.VanillaFactory;

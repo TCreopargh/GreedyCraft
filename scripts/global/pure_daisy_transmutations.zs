@@ -13,12 +13,12 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.block.IBlockState;
 
 global pureDaisyTransmutations as IItemStack[IIngredient] = {
-    <ore:logWood> : <botania:livingwood>,
     <ore:stone> : <botania:livingrock>,
+    <ore:logWood> : <botania:livingwood>,
     <ore:cobblestone> : <botania:livingrock>,
     <ore:netherrack> : <minecraft:cobblestone>,
     <ore:endstone> : <minecraft:cobblestone>,
-    <minecraft:soul_sand> : <minecraft:sand>,
+    <minecraft:soul_sand> : <minecraft:gravel>,
     <ore:grass> : <minecraft:dirt>,
     <minecraft:ice> : <minecraft:packed_ice>,
     <botania:blazeblock> : <minecraft:obsidian>,
@@ -50,5 +50,12 @@ global pureDaisyTransmutations as IItemStack[IIngredient] = {
     <abyssalcraft:stone:7> : <minecraft:stone>,
     <ore:blockMud> : <minecraft:brown_mushroom_block>,
     <ore:plankWood> : <botania:livingwood:1>,
-    <ore:gravel> : <minecraft:sand>
+    <ore:gravel> : <minecraft:sand>,
+    <thaumcraft:taint_soil> : <minecraft:dirt>,
+    <thaumcraft:taint_rock> : <minecraft:stone>,
+    <thaumcraft:taint_log> : <minecraft:log>,
+    <ore:blockRottenFlesh> : <biomesoplenty:flesh>,
+    <ore:mycelium> : <minecraft:grass>,
+    <biomesoplenty:bramble_plant> : <twilightforest:thorns>,
+    <twilightforest:thorns> : <twilightforest:burnt_thorns>
 } as IItemStack[IIngredient];

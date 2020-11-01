@@ -264,7 +264,7 @@ giantslayerTrait.color = Color.fromHex("ffb74d").getIntColor();
 giantslayerTrait.localizedName = "巨魔猎手";
 giantslayerTrait.localizedDescription = (
     "§o不要屈服于强大的敌人！§r\n" +
-    "§f对血量高于己方的目标造成更高的伤害。");
+    "§f对血量远高于己方的目标造成更高的伤害。");
 giantslayerTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
     var multiplier = 0.05 * (target.health / attacker.maxHealth) as float;
     if(multiplier < 1.0) {
@@ -276,3 +276,87 @@ giantslayerTrait.calcDamage = function(trait, tool, attacker, target, originalDa
     return newDamage * multiplier as float;
 };
 giantslayerTrait.register();
+
+val crystalTrait = mods.contenttweaker.tconstruct.TraitBuilder.create("crystal_force");
+crystalTrait.color = Color.fromHex("18ffff").getIntColor(); 
+crystalTrait.localizedName = "水晶之力";
+crystalTrait.localizedDescription = (
+    "§o保养很重要！§r\n" +
+    "§f在接近满耐久的情况下造成更高的伤害，但在耐久较低时造成的伤害会降低。");
+crystalTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+    if(tool.maxDamage != 0) {
+        var dmg as float = 0.0 as float + tool.damage as float;
+        var maxDmg as float = 0.0 as float + tool.maxDamage as float;
+        var durabilityPercent as float = 1.0 as float - (dmg as float / maxDmg as float) as float;
+        var multiplier as float = 0.8 as float + (durabilityPercent as float * 0.5 as float) as float;
+        return newDamage as float * multiplier as float;
+    }
+    return newDamage;
+};
+crystalTrait.register();
+
+val spartanTrait = mods.contenttweaker.tconstruct.TraitBuilder.create("spartan");
+spartanTrait.color = Color.fromHex("e53935").getIntColor(); 
+spartanTrait.localizedName = "斯巴达之怒";
+spartanTrait.localizedDescription = (
+    "§o这里，是，斯巴达！§r\n" +
+    "§f在生命垂危时大幅提升攻击伤害。");
+spartanTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+    if(!((attacker.health as float / attacker.maxHealth as float) as float > 0.33 as float)) {
+        var multiplier as float = 1.75 as float + (1.0 as float - (attacker.health as float / attacker.maxHealth as float * 0.33 as float)) * 1.25 as float;
+        return newDamage as float * multiplier as float;
+    }
+    return newDamage;
+};
+spartanTrait.register();
+
+val knowledgefulTrait = mods.contenttweaker.tconstruct.TraitBuilder.create("knowledgeful");
+knowledgefulTrait.color = Color.fromHex("76ff03").getIntColor(); 
+knowledgefulTrait.localizedName = "知识之力";
+knowledgefulTrait.localizedDescription = (
+    "§o知识就是力量！§r\n" +
+    "§f根据攻击者的经验等级提升伤害。每一级提供额外的0.25%伤害，最高800级。");
+knowledgefulTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+    if(attacker instanceof IPlayer) {
+        var player as IPlayer = attacker;
+        var xpLevel = player.xp;
+        if(xpLevel > 800) {
+            xpLevel = 800;
+        }
+        return newDamage as float * (1.0 as float + xpLevel as float * 0.0025 as float) as float;
+    }
+    return newDamage;
+};
+knowledgefulTrait.register();
+
+val matterTrait1 = mods.contenttweaker.tconstruct.TraitBuilder.create("matter_condensing1");
+matterTrait1.color = Color.fromHex("691b9a").getIntColor(); 
+matterTrait1.localizedName = "物质凝聚I";
+matterTrait1.localizedDescription = (
+    "§o万物皆为物质！§r\n" +
+    "§f攻击时有概率获得奇异物质，这是EMC的一种不错的来源。造成的伤害越高，获得的概率越高。");
+matterTrait1.afterHit = function(trait, tool, attacker, target, damageDealt, wasCritical, wasHit) {
+    if(attacker instanceof IPlayer && target instanceof IEntityMob) {
+        if(!(Math.random() as double > (damageDealt as double / 100000.0 as double))) {
+            var player as IPlayer = attacker;
+            server.commandManager.executeCommand(server, "/give " + player.name + " additions:greedycraft-strange_matter");
+        }
+    }
+};
+matterTrait1.register();
+
+val matterTrait2 = mods.contenttweaker.tconstruct.TraitBuilder.create("matter_condensing2");
+matterTrait2.color = Color.fromHex("691b9a").getIntColor(); 
+matterTrait2.localizedName = "物质凝聚II";
+matterTrait2.localizedDescription = (
+    "§o万物皆为物质！§r\n" +
+    "§f攻击时有概率获得奇异物质，这是EMC的一种不错的来源。造成的伤害越高，获得的概率越高。");
+matterTrait2.afterHit = function(trait, tool, attacker, target, damageDealt, wasCritical, wasHit) {
+    if(attacker instanceof IPlayer && target instanceof IEntityMob) {
+        if(!(Math.random() as double > (damageDealt as double / 36000.0 as double))) {
+            var player as IPlayer = attacker;
+            server.commandManager.executeCommand(server, "/give " + player.name + " additions:greedycraft-strange_matter");
+        }
+    }
+};
+matterTrait2.register();

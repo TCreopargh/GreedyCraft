@@ -76,6 +76,8 @@ modularium                                        (contenttweaker:modularium)   
 meteor                                            (contenttweaker:meteor)                                                          = 熔融陨星
 chromium                                          (jaopca:fluid_moltenchromium)                                                    = 熔融铬
 stainless_steel                                   (contenttweaker:stainless_steel)                                                 = 熔融不锈钢
+protonium                                         (contenttweaker:protonium)                                                       = 超密质子流体
+electronium                                       (contenttweaker:electronium)                                                     = 粘性电子流质
 alumite                                           (plustic:plustic.molten_alumite)                                                 = 熔融耐酸铝
 osgloglas                                         (plustic:plustic.molten_osgloglas)                                               = 熔融锇荧黑曜合金
 osmiridium                                        (plustic:plustic.molten_osmiridium)                                              = 熔融铱锇合金

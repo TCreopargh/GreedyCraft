@@ -159,8 +159,20 @@ mods.tconstruct.Casting.addTableRecipe(<minecraft:coal>, <tconstruct:cast_custom
 mods.tconstruct.Casting.addTableRecipe(<additions:greedycraft-stainless_steel_ball>, <tconstruct:cast_custom:2>, <liquid:stainless_steel>, 30, false, 60);
 mods.tconstruct.Melting.addRecipe(<liquid:sakura.food_oil> * 100, <ore:tallow>, 200);
 
+mods.tconstruct.Melting.addRecipe(<liquid:protonium> * 144, <ore:ingotProtonium>, 1200);
+mods.tconstruct.Melting.addRecipe(<liquid:protonium> * 1296, <ore:blockProtonium>, 1200);
+mods.tconstruct.Casting.addTableRecipe(<additions:protonium_ingot>, <tconstruct:cast_custom>, <liquid:protonium>, 144, false, 200);
+mods.tconstruct.Casting.addBasinRecipe(<additions:greedycraft-protonium_block>, null, <liquid:protonium>, 1296, false, 300);
+
+mods.tconstruct.Melting.addRecipe(<liquid:electronium> * 144, <ore:ingotElectronium>, 1200);
+mods.tconstruct.Melting.addRecipe(<liquid:electronium> * 1296, <ore:blockElectronium>, 1200);
+mods.tconstruct.Casting.addTableRecipe(<additions:electronium_ingot>, <tconstruct:cast_custom>, <liquid:electronium>, 144, false, 200);
+mods.tconstruct.Casting.addBasinRecipe(<additions:greedycraft-electronium_block>, null, <liquid:electronium>, 1296, false, 300);
+
 mods.tconstruct.Fuel.registerFuel(<liquid:infernium> * 1, 600);
 mods.tconstruct.Fuel.registerFuel(<liquid:cosmilite> * 1, 2400);
+mods.tconstruct.Fuel.registerFuel(<liquid:protonium> * 1, 100);
+mods.tconstruct.Fuel.registerFuel(<liquid:electronium> * 1, 200);
 
 //mods.tconstruct.Melting.addRecipe(<liquid:liquid_chocolate> * 48, <ore:beanCocoa>, 200);
 

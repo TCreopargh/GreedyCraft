@@ -141,6 +141,8 @@ organic_fluid                                     (contenttweaker:organic_fluid)
 modularium                                        (contenttweaker:modularium)                                                      = 熔融模块化合金
 meteor                                            (contenttweaker:meteor)                                                          = 熔融陨星
 stainless_steel                                   (contenttweaker:stainless_steel)                                                 = 熔融不锈钢
+protonium                                         (contenttweaker:protonium)                                                       = 超密质子流体
+electronium                                       (contenttweaker:electronium)                                                     = 粘性电子流质
 canolaoil                                         (actuallyadditions:block_canola_oil)                                             = 菜籽油
 refinedcanolaoil                                  (actuallyadditions:block_refined_canola_oil)                                     = 精制菜籽油
 crystaloil                                        (actuallyadditions:block_crystal_oil)                                            = 晶化油

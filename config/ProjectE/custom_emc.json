@@ -883,6 +883,18 @@
     {
       "item": "additions:chromium_ingot|0",
       "emc": 2200
+    },
+    {
+      "item": "additions:protonium_ingot|0",
+      "emc": 42000000
+    },
+    {
+      "item": "additions:electronium_ingot|0",
+      "emc": 250000
+    },
+    {
+      "item": "additions:greedycraft-strange_matter|0",
+      "emc": 800000
     }
   ]
 }

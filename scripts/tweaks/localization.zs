@@ -98,6 +98,8 @@ val localizationMap as string[string] = {
     "fluid.modularium": "熔融模块化合金",
     "fluid.meteor": "熔融陨星",
     "fluid.stainless_steel": "熔融不锈钢",
+    "fluid.protonium": "超密质子流体",
+    "fluid.electronium": "粘性电子流质",
     "jaopca.entry.Dilithium": "双锂",
     "jaopca.entry.Asgardium": "神金",
     "jaopca.entry.Shadowium": "暗影",
@@ -123,7 +125,8 @@ val localizationMap as string[string] = {
     "component.missing.modularmachinery.gas.input": "没有找到流体输入仓以供输入气体！",
     "component.missing.modularmachinery.item.output": "没有找到物品输出仓！",
     "component.missing.modularmachinery.item.input": "没有找到物品输入仓！",
-    "item.aether_portal_frame.name": "一键式天境传送门"
+    "item.aether_portal_frame.name": "一键式天境传送门",
+    "modifier.tconevo.crystalline.desc": "§c§n[已禁用]§r\n该特性将不会出现在工具上。"
 } as string[string];
 
 for k, v in localizationMap {

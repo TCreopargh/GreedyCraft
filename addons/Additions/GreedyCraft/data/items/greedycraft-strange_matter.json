@@ -1,0 +1,9 @@
+{
+  "name": "§a奇异物质",
+  "tooltip": [
+    "§2宇宙中最危险的物质，储藏于磁力约束装置中。",
+    "§7唯一的用处是换取EMC"
+  ],
+  "ore_dict": "itemStrangeMatter",
+  "type": "additions:simple"
+}

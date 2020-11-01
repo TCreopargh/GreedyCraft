@@ -143,7 +143,9 @@ stageFusionMatrix.addIngredients([
     <ore:oreDraconium>,
     <ore:ingotDraconium>,
     <ore:dustDraconium>,
-    <ore:blockDraconium>
+    <ore:blockDraconium>,
+    <ore:ingotElectronium>,
+    <ore:blockElectronium>
 ], true);
 
 stageWyvern.addIngredients([
@@ -175,7 +177,9 @@ stageAwakened.addIngredients([
     <ore:ingotTerraAlloy>,
     <actuallyadditions:item_misc:15>,
     <magicfeather:magicfeather>,
-    <ore:bedrock>
+    <ore:bedrock>,
+    <ore:ingotProtonium>,
+    <ore:blockProtonium>
 ], true);
 
 stageNether.addIngredients([
@@ -320,7 +324,8 @@ stageNether.addIngredients([
     <ore:ingotMeteor>,
     <ore:blockMeteor>,
     <ore:dustMeteor>,
-    <openblocks:auto_anvil>
+    <openblocks:auto_anvil>,
+    <hooked:hook:3>
 ], true);
 
 stageNether.addIngredients([
@@ -815,7 +820,13 @@ restageItem("fusion_matrix", <ore:dustDraconium>);
 restageItem("wither_slayer", <enderio:block_reinforced_obsidian>);
 restageItem("awakened", <cyclicmagic:glowing_chorus>);
 restageItem("fusion_matrix", <draconicevolution:wyvern_core>);
-restageItem("wyvern", <avaritia:neutron_collector>);
+restageItems("wyvern", [
+    <avaritia:neutron_collector>, 
+    <avaritia:resource:2>,
+    <ore:nuggetCosmicNeutronium>,
+    <ore:ingotCosmicNeutronium>,
+    <ore:blockCosmicNeutronium>
+] as IIngredient[]);
 restageItem("awakened", <avaritia:neutronium_compressor>);
 restageItem("hardmode", <cyclicmagic:block_disenchanter>);
 restageItem("fusion_matrix", <cyclicmagic:ender_lightning>);
@@ -871,7 +882,7 @@ restageItems("disabled", [
     <cyclicmagic:heart_toxic>,
     <enderio:block_powered_spawner>,
     <enderio:item_broken_spawner>
-]);
+] as IIngredient[]);
 
 mods.ItemStages.removeItemStage(<cyclicmagic:inventory_food>);
 mods.ItemStages.removeItemStage(<cyclicmagic:crafting_food>);

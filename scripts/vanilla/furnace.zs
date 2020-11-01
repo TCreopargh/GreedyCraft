@@ -7,6 +7,10 @@
 
 #priority 3000
 
+import crafttweaker.item.IItemStack;
+import crafttweaker.data.IData;
+import crafttweaker.item.IIngredient;
+
 furnace.remove(<tconstruct:materials>);
 furnace.remove(<extrabotany:material:5>);
 furnace.addRecipe(<tconstruct:materials>, <ore:ingotBrick>);
@@ -26,3 +30,7 @@ furnace.addRecipe(<additions:netherite_scrap> * 2, <ore:oreAncientDebris>);
 furnace.addRecipe(<tcomplement:materials:1>, <ore:ingotBrickSeared>);
 furnace.addRecipe(<tcomplement:scorched_block>, <ore:blockSeared>);
 furnace.addRecipe(<additions:chromium_ingot>, <ore:oreChromium>);
+
+for input in furnaceRecipes {
+    furnace.addRecipe(furnaceRecipes[input] as IItemStack, input, furnaceXp);
+}

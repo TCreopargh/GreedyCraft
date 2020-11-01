@@ -127,3 +127,4 @@ game.setLocalization("tooltip.itemstages.name.default", "§5§ka§r §d未知物
 <twilightforest:uncrafting_table>.addTooltip("§e注意：无法拆解物品");
 <minecraft:potion>.withTag({Potion: "minecraft:water"}).addTooltip("§e请勿使用堆叠的水瓶酿药");
 <minecraft:potion>.withTag({Potion: "minecraft:water"}).addTooltip("§e请拆解为未堆叠的水瓶后再放入酿造台。");
+<oeintegration:excavatemodifier>.addTooltip("§e请在工具锻造台中与工具合成以应用该强化");

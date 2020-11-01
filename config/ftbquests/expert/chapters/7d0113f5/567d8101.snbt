@@ -28,5 +28,12 @@
 		uid: "ddd49b76",
 		type: "xp",
 		xp: 9000
+	},
+	{
+		uid: "acacffc3",
+		type: "command",
+		title: "修复研究无法完成的bug",
+		auto: "no_toast",
+		command: "/thaumcraft research @p TAR_ADAMINITE_SMELTER"
 	}]
 }

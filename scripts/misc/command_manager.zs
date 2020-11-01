@@ -198,6 +198,9 @@ pureDaisyCommand.execute = function(command, server, sender, args) {
         return;
     }
     if(!isNull(player)) {
+        if(player.world.remote) {
+            return;
+        }
         var x = player.x as int;
         var y = player.y as int;
         var z = player.z as int;

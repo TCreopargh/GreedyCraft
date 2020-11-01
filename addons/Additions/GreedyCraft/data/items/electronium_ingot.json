@@ -1,0 +1,7 @@
+{
+  "name": "§9电子锭",
+  "is_beacon_payment": true,
+  "tooltip": "§b随时都在散发着闪电。",
+  "ore_dict": "ingotElectronium",
+  "type": "additions:simple"
+}

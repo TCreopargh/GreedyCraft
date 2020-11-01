@@ -6,6 +6,7 @@
  */
 #priority 3000
 mods.thermalexpansion.Transposer.addFillRecipe(<thermalfoundation:fertilizer:1>, <thermalfoundation:fertilizer:0>, <liquid:resin> * 200, 20);
+
 mods.thermalexpansion.Compactor.removeStorageRecipe(<thaumadditions:adaminite_ingot>);
 mods.thermalexpansion.Compactor.removeStorageRecipe(<thaumadditions:mithrillium_ingot>);
 mods.thermalexpansion.Compactor.removeStorageRecipe(<thaumadditions:mithminite_ingot>);
@@ -26,6 +27,15 @@ mods.thermalexpansion.Pulverizer.addRecipe(<nyx:meteor_dust>, <nyx:meteor_ingot>
 mods.thermalexpansion.Pulverizer.addRecipe(<nyx:meteor_dust> * 9, <nyx:meteor_block>, 600);
 mods.thermalexpansion.Pulverizer.addRecipe(<nyx:meteor_dust>, <nyx:meteor_shard>, 600);
 mods.thermalexpansion.Pulverizer.addRecipe(<additions:greedycraft-purifying_dust> * 8, <botania:specialflower>.withTag({type: "puredaisy"}), 600);
+
+mods.thermalexpansion.Infuser.addRecipe(<thaumcraft:primordial_pearl>, <thaumcraft:primordial_pearl:1>, 200000);
+mods.thermalexpansion.Infuser.addRecipe(<thaumcraft:primordial_pearl>, <thaumcraft:primordial_pearl:2>, 400000);
+mods.thermalexpansion.Infuser.addRecipe(<thaumcraft:primordial_pearl>, <thaumcraft:primordial_pearl:3>, 600000);
+mods.thermalexpansion.Infuser.addRecipe(<thaumcraft:primordial_pearl>, <thaumcraft:primordial_pearl:4>, 800000);
+mods.thermalexpansion.Infuser.addRecipe(<thaumcraft:primordial_pearl>, <thaumcraft:primordial_pearl:5>, 1000000);
+mods.thermalexpansion.Infuser.addRecipe(<thaumcraft:primordial_pearl>, <thaumcraft:primordial_pearl:6>, 1200000);
+mods.thermalexpansion.Infuser.addRecipe(<thaumcraft:primordial_pearl>, <thaumcraft:primordial_pearl:7>, 1400000);
+mods.thermalexpansion.Infuser.addRecipe(<thaumcraft:primordial_pearl>, <thaumcraft:primordial_pearl:8>, 1600000);
 
 /*
 for item in <ore:dungeonlootTier1>.items {

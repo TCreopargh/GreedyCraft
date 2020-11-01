@@ -23,5 +23,12 @@
 		uid: "790d9d87",
 		type: "loot",
 		table: 3
+	},
+	{
+		uid: "acacffc1",
+		type: "command",
+		title: "修复研究无法完成的bug",
+		auto: "no_toast",
+		command: "/thaumcraft research @p TAR_MITHMINITE_SMELTER"
 	}]
 }

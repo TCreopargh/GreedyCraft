@@ -27,3 +27,4 @@ mods.jei.JEI.addDescription(<additions:greedycraft-shadowium_ore>, "你可以在
 mods.jei.JEI.addDescription(<additions:greedycraft-experience_ore>, "这种矿物分布非常广泛但并不常见，你可以在主世界的地下找到它们");
 mods.jei.JEI.addDescription(<additions:greedycraft-titanium_ore>, "这种矿物非常罕见，你可以在末地找到它");
 mods.jei.JEI.addDescription(<additions:greedycraft-purifying_dust>, "这种粉尘可以像白雏菊一样净化方块，不过可以一次性净化很大一片。");
+mods.jei.JEI.addDescription(<additions:protonium_ingot>, "使用中子素粒、质能转换核心和紫物质合成，此过程不消耗质能转换核心。");

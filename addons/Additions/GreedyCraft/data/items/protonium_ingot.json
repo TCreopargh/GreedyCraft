@@ -1,0 +1,7 @@
+{
+  "name": "§c质子锭",
+  "is_beacon_payment": true,
+  "tooltip": "§5§o最纯粹的物质，我在想如果吃一小勺会怎么样？",
+  "ore_dict": "ingotProtonium",
+  "type": "additions:simple"
+}

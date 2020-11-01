@@ -23,5 +23,12 @@
 		uid: "7c7fee99",
 		type: "xp",
 		xp: 7500
+	},
+	{
+		uid: "acacffc2",
+		type: "command",
+		title: "修复研究无法完成的bug",
+		auto: "no_toast",
+		command: "/thaumcraft research @p TAR_MITHRILLIUM_SMELTER"
 	}]
 }

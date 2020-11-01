@@ -2,8 +2,7 @@
   "name": "§9尼龙绳",
   "burn_time": 10,
   "ore_dict": [
-    "stringNylon",
-    "string"
+    "stringNylon"
   ],
   "type": "additions:simple"
 }

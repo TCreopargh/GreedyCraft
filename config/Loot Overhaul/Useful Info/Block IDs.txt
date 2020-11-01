@@ -7277,3 +7277,7 @@ jaopca:fluid_moltenmithril - 7274
 jaopca:fluid_moltenshadowium - 7275
 jaopca:fluid_moltentitanium - 7276
 jaopca:fluid_moltenuranium - 7277
+contenttweaker:protonium - 7278
+additions:greedycraft-protonium_block - 7279
+additions:greedycraft-electronium_block - 7280
+contenttweaker:electronium - 7281

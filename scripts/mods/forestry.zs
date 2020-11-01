@@ -163,6 +163,8 @@ val seedRecipes as IIngredient[][][IItemStack] = {
 
 for seed in seedRecipes {
     recipes.remove(seed);
+    seed.addTooltip("§e注意：合成时需要放入木工机的基础物品数量大于等于9个。");
+    seed.addTooltip("§7例如：铁种子的基础物品是铁锭");
     var time = [60, 75, 80, 100, 140, 210, 1200] as int[];
     var fluid = [600, 750, 900, 1200, 1600, 2400, 10000] as int[];
     var fertilizer = [<thermalfoundation:fertilizer>, <thermalfoundation:fertilizer>, <thermalfoundation:fertilizer:1>, <thermalfoundation:fertilizer:1>, <thermalfoundation:fertilizer:2>, <thermalfoundation:fertilizer:2>, <mysticalagriculture:mystical_fertilizer>] as IItemStack[];

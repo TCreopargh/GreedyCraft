@@ -11,6 +11,8 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.data.IData;
 import crafttweaker.item.IIngredient;
 
+val oeEnchantId = <enchantment:oeintegration:oreexcavation>.id as int;
+
 val removedRecipes as IIngredient[] = [
     <oeintegration:excavatemodifier>,
     <projecte:item.pe_philosophers_stone>,
@@ -280,7 +282,12 @@ val removedRecipes as IIngredient[] = [
     <extrautils2:drum:*>,
     <randomthings:chunkanalyzer>,
     <cyclicmagic:harvester_block>,
-    <mysticalagriculture:mystical_fertilizer>
+    <mysticalagriculture:mystical_fertilizer>,
+    <charm:rotten_flesh_block>,
+    <extrabotany:goblinslayerhelm>,
+    <extrabotany:goblinslayerchest>,
+    <extrabotany:goblinslayerlegs>,
+    <extrabotany:goblinslayerboots>
 ];
 
 for ingredient in removedRecipes {
@@ -320,7 +327,7 @@ recipes.addShaped("elytra", <minecraft:elytra>, [[<minecraft:paper>, <draconicev
 recipes.addShapeless("rotleather", <minecraft:leather>, [<minecraft:rotten_flesh>,<minecraft:rotten_flesh>,<minecraft:rotten_flesh>,<minecraft:rotten_flesh>]);
 recipes.addShaped("oemod1", <oeintegration:excavatemodifier>, [[<ore:gearBronze>, <ore:gearGold>, <ore:gearBronze>],[<ore:gearGold>, <ore:gearLead>, <ore:gearGold>],[<ore:gearBronze>, <ore:gearGold>, <ore:gearBronze>]]);
 recipes.addShaped("oemod2", <oeintegration:excavatemodifier>, [[<ore:gearGold>, <ore:gearBronze>, <ore:gearGold>],[<ore:gearBronze>, <ore:gearLead>, <ore:gearBronze>],[<ore:gearGold>, <ore:gearBronze>, <ore:gearGold>]]);
-recipes.addShapeless("oebook", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 5 as short, id: 44}]}), [<oeintegration:excavatemodifier>, <oeintegration:excavatemodifier>, <oeintegration:excavatemodifier>, <oeintegration:excavatemodifier>, <oeintegration:excavatemodifier>, <minecraft:book>]);
+recipes.addShapeless("oebook", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 5 as short, id: oeEnchantId}]}), [<oeintegration:excavatemodifier>, <oeintegration:excavatemodifier>, <oeintegration:excavatemodifier>, <oeintegration:excavatemodifier>, <oeintegration:excavatemodifier>, <minecraft:book>]);
 //auto-generated
 recipes.addShaped("auto_gen_2051907122", <minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:villager"}}), 
 [[null, <minecraft:emerald>, null],
@@ -1246,8 +1253,7 @@ recipes.addShaped("demagnetizer_advanced", <demagnetize:demagnetizer_advanced>,
 [<ore:ingotStainlessSteel>, <ore:ingotConductiveIron>, <ore:ingotStainlessSteel>]]);
 recipes.addShapeless("terrestrial_artifact", <biomesoplenty:terrestrial_artifact>, 
 [<ore:gemRuby>, <ore:gemTopaz>, <ore:gemAmber>, <ore:gemPeridot>, <ore:gemMalachite>, <ore:gemSapphire>, <ore:gemTanzanite>, <ore:gemAmethyst>, <ore:gemScarlite>]);
-recipes.addShapeless("primordial_pearl_fix", <thaumcraft:primordial_pearl>, 
-[<thaumcraft:primordial_pearl>.anyDamage(), <thaumcraft:void_seed>]);
+// recipes.addShapeless("primordial_pearl_fix", <thaumcraft:primordial_pearl>, [<thaumcraft:primordial_pearl>.anyDamage(), <thaumcraft:void_seed>]);
 recipes.addShaped("chunk_analyzer", <randomthings:chunkanalyzer>, 
 [[<ore:stickIron>, null, <ore:stickIron>],
 [<ore:ingotStainlessSteel>, <ore:gemTerrestrial>, <ore:ingotStainlessSteel>],
@@ -1260,3 +1266,22 @@ recipes.addShaped("ma_mystical_fertilizer", <mysticalagriculture:mystical_fertil
 [[<mysticalagriculture:fertilized_essence>, <thermalfoundation:fertilizer:2>, <mysticalagriculture:fertilized_essence>],
 [<thermalfoundation:fertilizer:2>, <ore:essenceSupremium>, <thermalfoundation:fertilizer:2>],
 [<mysticalagriculture:fertilized_essence>, <thermalfoundation:fertilizer:2>, <mysticalagriculture:fertilized_essence>]]);
+
+recipes.addShaped("protonium_block", <additions:greedycraft-protonium_block>, 
+[[<ore:ingotProtonium>, <ore:ingotProtonium>, <ore:ingotProtonium>],
+[<ore:ingotProtonium>, <ore:ingotProtonium>, <ore:ingotProtonium>],
+[<ore:ingotProtonium>, <ore:ingotProtonium>, <ore:ingotProtonium>]]);
+recipes.addShapeless("protonium_rev", <additions:protonium_ingot> * 9, [<ore:blockProtonium>]);
+recipes.addShaped("protonium_ingot", <additions:protonium_ingot>, 
+[[<ore:nuggetCosmicNeutronium>, <projectex:matter:2>, <ore:nuggetCosmicNeutronium>],
+[<projectex:matter:2>, <additions:greedycraft-energy_matter_core>.transformReplace(<additions:greedycraft-energy_matter_core>), <projectex:matter:2>],
+[<ore:nuggetCosmicNeutronium>, <projectex:matter:2>, <ore:nuggetCosmicNeutronium>]]);
+recipes.addShaped("electronium_block", <additions:greedycraft-electronium_block>, 
+[[<ore:ingotElectronium>, <ore:ingotElectronium>, <ore:ingotElectronium>],
+[<ore:ingotElectronium>, <ore:ingotElectronium>, <ore:ingotElectronium>],
+[<ore:ingotElectronium>, <ore:ingotElectronium>, <ore:ingotElectronium>]]);
+recipes.addShapeless("electronium_rev", <additions:electronium_ingot> * 9, [<ore:blockElectronium>]);
+recipes.addShapeless("neutronium_combination", <avaritia:resource:4> * 2, [<ore:ingotProtonium>, <ore:ingotElectronium>]);
+recipes.addShapeless("neutronium_block_combination", <avaritia:block_resource> * 2, [<ore:blockProtonium>, <ore:blockElectronium>]);
+recipes.addShapeless("rotten_flesh_block_1", <charm:rotten_flesh_block>, [<thaumcraft:flesh_block>]);
+recipes.addShapeless("rotten_flesh_block_2", <thaumcraft:flesh_block>, [<charm:rotten_flesh_block>]);

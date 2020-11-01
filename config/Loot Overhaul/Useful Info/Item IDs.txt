@@ -12219,6 +12219,7 @@ weeeflowers:blackdyeitem - 15901
 weeeflowers:bluedyeitem - 15902
 weeeflowers:browndyeitem - 15903
 weeeflowers:whitedyeitem - 15904
+additions:greedycraft-respawn_anchor - 15905
 pvj:short_grass - 15906
 pvj:frost_lotus - 15907
 pvj:silverleaf - 15908
@@ -13839,3 +13840,8 @@ jaopca:fluid_moltenmithril - 17522
 jaopca:fluid_moltenshadowium - 17523
 jaopca:fluid_moltentitanium - 17524
 jaopca:fluid_moltenuranium - 17525
+additions:greedycraft-protonium_block - 17526
+additions:protonium_ingot - 17527
+additions:electronium_ingot - 17528
+additions:greedycraft-strange_matter - 17529
+additions:greedycraft-electronium_block - 17530

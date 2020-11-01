@@ -80,45 +80,6 @@ LootTweaker.getTable("minecraft:chests/jungle_temple").getPool("main").removeEnt
 LootTweaker.getTable("minecraft:chests/end_city_treasure").getPool("main").removeEntry("cyclicmagic:item.cyclic_wand_build");
 LootTweaker.getTable("minecraft:chests/nether_bridge").getPool("main").removeEntry("cyclicmagic:item.cyclic_wand_build");
 
-/*
-mainPool.addItemEntryHelper(<thermalfoundation:material:128>, 10, 1, [Functions.setCount(2, 12)], []);
-mainPool.addItemEntryHelper(<thermalfoundation:material:129>, 10, 1, [Functions.setCount(2, 12)], []);
-mainPool.addItemEntryHelper(<thermalfoundation:material:163>, 18, 1, [Functions.setCount(2, 10)], []);
-mainPool.addItemEntryHelper(<thermalfoundation:material:134>, 6, 1, [Functions.setCount(2, 6)], []);
-mainPool.addItemEntryHelper(<thermalfoundation:material:199>, 8, 1, [Functions.setCount(2, 8)], []);
-mainPool.addItemEntryHelper(<tofucraft:tofu_food>, 16, 1, [Functions.setCount(24, 64)], []);
-mainPool.addItemEntryHelper(<tofucraft:tofu_food:2>, 8, 1, [Functions.setCount(12, 32)], []);
-mainPool.addItemEntryHelper(<tofucraft:tofu_food:3>, 10, 1, [Functions.setCount(12, 24)], []);
-mainPool.addItemEntryHelper(<tofucraft:tofu_material>, 4, 1, [Functions.setCount(4, 20)], []);
-mainPool.addItemEntryHelper(<additions:greedycraft-one_punch>, 1, 1, [Functions.setCount(1, 1)], []);
-dungeonPool1.addItemEntryHelper(<additions:greedycraft-reward_ticket_common>, 15, 1, [Functions.setCount(1, 2)], []);
-dungeonPool1.addItemEntryHelper(<additions:greedycraft-reward_ticket_rare>, 5, 1, [Functions.setCount(1, 1)], []);
-dungeonPool1.addItemEntryHelper(<additions:greedycraft-reward_ticket_epic>, 1, 1, [Functions.setCount(1, 1)], []);
-dungeonPool1.addItemEntryHelper(<additions:greedycraft-medkit_super>, 1, 1, [Functions.setCount(1, 1)], []);
-dungeonPool1.addItemEntryHelper(<additions:greedycraft-medkit_big>, 4, 1, [Functions.setCount(1, 3)], []);
-dungeonPool1.addItemEntryHelper(<additions:greedycraft-medkit_small>, 20, 1, [Functions.setCount(1, 6)], []);
-dungeonPool1.addItemEntryHelper(<additions:greedycraft-experience_ingot>, 18, 1, [Functions.setCount(2, 12)], []);
-dungeonPool1.addItemEntryHelper(<scalinghealth:crystalshard>, 10, 1, [Functions.setCount(1, 2)], []);
-dungeonPool1.addItemEntryHelper(<scalinghealth:heartdust>, 14, 1, [Functions.setCount(4, 24)], []);
-dungeonPool1.addItemEntryHelper(<additions:greedycraft-delivery_order>, 4, 1, [Functions.setCount(1, 1)], []);
-dungeonPool1.addItemEntryHelper(<additions:greedycraft-tower_chest_key>, 2, 1, [Functions.setCount(1, 1)], []);
-dungeonPool1.addItemEntryHelper(<additions:greedycraft-sunny_doll>, 2, 1, [Functions.setCount(1, 1)], []);
-dungeonPool1.addItemEntryHelper(<additions:greedycraft-bag_of_dyes>, 6, 1, [Functions.setCount(1, 3)], []);
-dungeonPool1.addItemEntryHelper(<additions:tcsponsors-sponsors_chest>, 1, 1, [Functions.setCount(1, 1)], []);
-dungeonPool1.addItemEntryHelper(<additions:tcsponsors-sponsor_chest_fragment>, 3, 1, [Functions.setCount(1, 2)], []);
-dungeonPool1.addItemEntryHelper(<additions:greedycraft-true_eye_of_ender>, 1, 1, [Functions.setCount(1, 1)], []);
-dungeonPool1.addItemEntryHelper(<abyssalcraft:shadowgem>, 6, 1, [Functions.setCount(1, 1)], []);
-dungeonPool1.addItemEntryHelper(<abyssalcraft:shadowshard>, 12, 1, [Functions.setCount(1, 6)], []);
-dungeonPool1.addItemEntryHelper(<abyssalcraft:shadowfragment>, 18, 1, [Functions.setCount(1, 20)], []);
-dungeonPool1.addItemEntryHelper(<additions:greedycraft-huaji>, 8, 1, [Functions.setCount(1, 2)], []);
-dungeonPool1.addItemEntryHelper(<additions:greedycraft-poop>, 8, 1, [Functions.setCount(1, 2)], []);
-dungeonPool1.addItemEntryHelper(<additions:greedycraft-experience_transporter>, 1, 1, [Functions.setCount(1, 1)], []);
-dungeonPool1.addItemEntryHelper(<additions:greedycraft-blueprint_yoyo>, 1, 1, [Functions.setCount(1, 1)], []);
-dungeonPool1.addItemEntryHelper(<actuallyadditions:block_treasure_chest>, 9, 1, [Functions.setCount(1, 1)], []);
-dungeonPool1.addItemEntryHelper(<additions:greedycraft-skill_reset_scroll>, 1, 1, [Functions.setCount(1, 1)], []);
-dungeonPool1.addItemEntryHelper(<additions:greedycraft-plate_of_honor>, 1, 1, [Functions.setCount(1, 1)], []);
-*/
-
 addItem(<thermalfoundation:material:128>, 10, 1, 2, 12);
 addItem(<thermalfoundation:material:129>, 10, 1, 2, 12);
 addItem(<thermalfoundation:material:163>, 18, 1, 2, 10);
@@ -128,7 +89,7 @@ addItem(<tofucraft:tofu_food>, 16, 1, 24, 64);
 addItem(<tofucraft:tofu_food:2>, 8, 1, 12, 32);
 addItem(<tofucraft:tofu_food:3>, 10, 1, 12, 24);
 addItem(<tofucraft:tofu_material>, 4, 1, 4, 20);
-addItem(<additions:greedycraft-one_punch>, 1, 1, 1, 1);
+addItem(<additions:greedycraft-one_punch>.withTag({ench: [{lvl: 33 as short, id: 19}]}), 1, 1, 1, 1);
 addItem(<additions:greedycraft-reward_ticket_common>, 15, 1, 1, 2);
 addItem(<additions:greedycraft-reward_ticket_rare>, 5, 1, 1, 1);
 addItem(<additions:greedycraft-reward_ticket_epic>, 1, 1, 1, 1);
@@ -158,6 +119,7 @@ addItem(<additions:greedycraft-plate_of_honor>, 1, 1, 1, 1);
 addItem(<inventorypets:meta_pet>, 2, 1, 1, 1);
 addItem(<additions:greedycraft-purifying_dust>, 3, 1, 10, 40);
 addItem(<additions:greedycraft-perfectly_generic_item>, 2, 1, 1, 1);
+addItem(<additions:greedycraft-respawn_anchor>, 1, 1, 1, 1);
 
 var dungeonPool2 = dungeon.getPool("pool2");  
 dungeonPool2.addItemEntryHelper(<additions:greedycraft-reward_ticket_common>, 12, 1, [Functions.setCount(1, 2)], []);
@@ -175,3 +137,16 @@ dungeonPool2.addItemEntryHelper(<additions:greedycraft-sunny_doll>, 2, 1, [Funct
 dungeonPool2.addItemEntryHelper(<additions:greedycraft-bag_of_dyes>, 6, 1, [Functions.setCount(1, 3)], []);
 dungeonPool2.addItemEntryHelper(<additions:tcsponsors-sponsor_chest_fragment>, 2, 1, [Functions.setCount(1, 3)], []);
 dungeonPool2.addItemEntryHelper(<additions:greedycraft-huaji>, 4, 1, [Functions.setCount(1, 2)], []);
+
+/*
+mainPool.addItemEntryHelper(<thermalfoundation:material:128>, 10, 1, [Functions.setCount(2, 12)], []);
+mainPool.addItemEntryHelper(<thermalfoundation:material:129>, 10, 1, [Functions.setCount(2, 12)], []);
+mainPool.addItemEntryHelper(<thermalfoundation:material:163>, 18, 1, [Functions.setCount(2, 10)], []);
+mainPool.addItemEntryHelper(<thermalfoundation:material:134>, 6, 1, [Functions.setCount(2, 6)], []);
+mainPool.addItemEntryHelper(<thermalfoundation:material:199>, 8, 1, [Functions.setCount(2, 8)], []);
+mainPool.addItemEntryHelper(<tofucraft:tofu_food>, 16, 1, [Functions.setCount(24, 64)], []);
+mainPool.addItemEntryHelper(<tofucraft:tofu_food:2>, 8, 1, [Functions.setCount(12, 32)], []);
+mainPool.addItemEntryHelper(<tofucraft:tofu_food:3>, 10, 1, [Functions.setCount(12, 24)], []);
+mainPool.addItemEntryHelper(<tofucraft:tofu_material>, 4, 1, [Functions.setCount(4, 20)], []);
+mainPool.addItemEntryHelper(<additions:greedycraft-one_punch>, 1, 1, [Functions.setCount(1, 1)], []);
+*/

@@ -7,7 +7,9 @@
 
 
 #priority 20000
+
 import crafttweaker.game.IGame;
+
 <ore:slime>.add(<defiledlands:foul_slime>);
 <ore:stoneMarble>.add(<pvj:marble>);
 <ore:workbench>.add(<natura:overworld_workbenches:*>);
@@ -64,8 +66,7 @@ import crafttweaker.game.IGame;
     <conarm:helmet>,
     <conarm:chestplate>,
     <conarm:leggings>,
-    <conarm:boots>,
-    <minecraft:enchanted_book>
+    <conarm:boots>
 ]);
 <ore:dungeonLootTier1>.addItems([
     <additions:greedycraft-medkit_small>,
@@ -306,6 +307,17 @@ if(loadedMods.contains("inventorypets")) {
 <ore:pulpWood>.addAll(<ore:dustWood>);
 <ore:itemRune>.addItems([<quark:rune:*>]);
 <ore:gemTerrestrial>.add(<biomesoplenty:terrestrial_artifact>);
+<ore:blockRottenFlesh>.add(<thaumcraft:flesh_block>);
+<ore:blockRottenFlesh>.add(<charm:rotten_flesh_block>);
+<ore:rottenFlesh>.add(<minecraft:rotten_flesh>);
+<ore:spiderEye>.add(<minecraft:spider_eye>);
+<ore:mycelium>.addItems([
+    <quark:glowcelium>,
+    <netherex:hyphae>,
+    <biomesoplenty:grass:8>,
+    <betternether:nether_mycelium>
+]);
+<ore:netherrack>.add(<betternether:netherrack_moss>);
 
 for item in loadedMods["weeeflowers"].items {
     if(item.definition.id.contains("flower")) {

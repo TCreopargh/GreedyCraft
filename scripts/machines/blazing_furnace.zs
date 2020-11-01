@@ -8,19 +8,39 @@
 
 #priority 30
 
+import crafttweaker.item.IItemStack;
+import crafttweaker.data.IData;
+import crafttweaker.item.IIngredient;
+
 val regName = "blazing_furnace";
 val speed = 1;
 var num as int = 0;
 
 for recipe in furnace.all {
     var xpAmount as int = (recipe.xp * 16) as int;
-    mods.modularmachinery.RecipeBuilder.newBuilder(regName + "_" + recipe.input.definition.id + "_" + recipe.input.metadata + "_" + num, regName, speed, 20)
+    mods.modularmachinery.RecipeBuilder.newBuilder(regName + "_" + num, regName, speed, 20)
         .addItemInput(recipe.input)
         .addEnergyPerTickInput(400)
         .addFluidOutput(<liquid:experience> * xpAmount as int)
-        .addFluidInput(<liquid:pyrotheum> * 4)
+        .addFluidInput(<liquid:pyrotheum> * 2)
         .addItemOutput(recipe.output)
         .build();
         
     num+=1;
+}
+
+for input in furnaceRecipes {
+    var output as IItemStack = furnaceRecipes[input] as IItemStack;
+    for item in input.items {
+        var xpAmount as int = (furnaceXp * 16) as int;
+        mods.modularmachinery.RecipeBuilder.newBuilder(regName + "_" + num, regName, speed, 20)
+            .addItemInput(item)
+            .addEnergyPerTickInput(400)
+            .addFluidOutput(<liquid:experience> * xpAmount as int)
+            .addFluidInput(<liquid:pyrotheum> * 2)
+            .addItemOutput(output)
+            .build();
+        
+        num+=1;
+    }
 }

@@ -175,3 +175,14 @@ FusionCrafting.add(<draconicevolution:reactor_core>, <draconicevolution:chaos_sh
     <additions:terra_alloy_ingot>,
     <additions:terra_alloy_ingot>
 ]);
+
+FusionCrafting.add(<additions:electronium_ingot>, <tconevo:material>, 0, 400000000, [ 
+    <redstonearsenal:material:32>,
+    <redstonerepository:material:1>,
+    <redstonearsenal:material:32>,
+    <redstonerepository:material:1>,
+    <redstonearsenal:material:32>,
+    <redstonerepository:material:1>,
+    <redstonearsenal:material:32>,
+    <redstonerepository:material:1>
+]);

@@ -1,0 +1,7 @@
+{
+  "name": "§d重生之锚",
+  "shines": true,
+  "tooltip": "§e右键以设定当前位置为出生点",
+  "ore_dict": "dungeonLootTier3",
+  "type": "additions:simple"
+}
