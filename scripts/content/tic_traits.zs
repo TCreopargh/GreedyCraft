@@ -1,7 +1,7 @@
 /*
  * This script is created for the GreedyCraft modpack by TCreopargh.
  * You may NOT use this script in any other publicly distributed modpack without my permission.
- * Powered by TCreopargh.
+
  * All rights reserved.
  */
 
@@ -331,13 +331,17 @@ knowledgefulTrait.register();
 
 val matterTrait1 = mods.contenttweaker.tconstruct.TraitBuilder.create("matter_condensing1");
 matterTrait1.color = Color.fromHex("691b9a").getIntColor(); 
-matterTrait1.localizedName = "物质凝聚I";
+matterTrait1.localizedName = "物质凝聚";
 matterTrait1.localizedDescription = (
     "§o万物皆为物质！§r\n" +
     "§f攻击时有概率获得奇异物质，这是EMC的一种不错的来源。造成的伤害越高，获得的概率越高。");
 matterTrait1.afterHit = function(trait, tool, attacker, target, damageDealt, wasCritical, wasHit) {
     if(attacker instanceof IPlayer && target instanceof IEntityMob) {
-        if(!(Math.random() as double > (damageDealt as double / 100000.0 as double))) {
+        var chance as double = (damageDealt as double / 120000.0 as double);
+        if(chance > 0.025) {
+            chance = 0.025;
+        }
+        if(!(Math.random() as double > chance)) {
             var player as IPlayer = attacker;
             server.commandManager.executeCommand(server, "/give " + player.name + " additions:greedycraft-strange_matter");
         }
@@ -347,16 +351,31 @@ matterTrait1.register();
 
 val matterTrait2 = mods.contenttweaker.tconstruct.TraitBuilder.create("matter_condensing2");
 matterTrait2.color = Color.fromHex("691b9a").getIntColor(); 
-matterTrait2.localizedName = "物质凝聚II";
+matterTrait2.localizedName = "物质凝聚 EX";
 matterTrait2.localizedDescription = (
-    "§o万物皆为物质！§r\n" +
+    "§o万物皆为物质！ §d§o§n豪华加强版§r\n" +
     "§f攻击时有概率获得奇异物质，这是EMC的一种不错的来源。造成的伤害越高，获得的概率越高。");
 matterTrait2.afterHit = function(trait, tool, attacker, target, damageDealt, wasCritical, wasHit) {
     if(attacker instanceof IPlayer && target instanceof IEntityMob) {
-        if(!(Math.random() as double > (damageDealt as double / 36000.0 as double))) {
+        var chance as double = (damageDealt as double / 50000.0 as double);
+        if(chance > 0.05) {
+            chance = 0.05;
+        }
+        if(!(Math.random() as double > chance)) {
             var player as IPlayer = attacker;
             server.commandManager.executeCommand(server, "/give " + player.name + " additions:greedycraft-strange_matter");
         }
     }
 };
 matterTrait2.register();
+
+val perfectionist = mods.contenttweaker.tconstruct.TraitBuilder.create("perfectionist");
+perfectionist.color = Color.fromHex("4caf50").getIntColor(); 
+perfectionist.localizedName = "完美主义";
+perfectionist.localizedDescription = (
+    "§o强迫症的终极救星！§r\n" +
+    "§f你的基础伤害会四舍五入到十位数！（计算盔甲减伤前）");
+perfectionist.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+    return (Math.round(newDamage as float / 10 as float) as float * 10 as float) as float;
+};
+perfectionist.register();

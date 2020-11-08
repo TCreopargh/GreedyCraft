@@ -7,3 +7,5 @@ global BARAKO_MINION_COUNT as int = 8;
 global FROSTMAW_MINION_COUNT as int = 10;
 global PACKMODE as int = MODE_EXPERT;
 global DEATH_HUMAN_SPAWN_CHANCE as float = 0.5;
+global COSMILITE_OUTPUT_COUNT as int = 4;
+

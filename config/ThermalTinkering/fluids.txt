@@ -143,6 +143,7 @@ meteor                                            (contenttweaker:meteor)       
 stainless_steel                                   (contenttweaker:stainless_steel)                                                 = 熔融不锈钢
 protonium                                         (contenttweaker:protonium)                                                       = 超密质子流体
 electronium                                       (contenttweaker:electronium)                                                     = 粘性电子流质
+crimsonite                                        (contenttweaker:crimsonite)                                                      = 猩红浆液
 canolaoil                                         (actuallyadditions:block_canola_oil)                                             = 菜籽油
 refinedcanolaoil                                  (actuallyadditions:block_refined_canola_oil)                                     = 精制菜籽油
 crystaloil                                        (actuallyadditions:block_crystal_oil)                                            = 晶化油
@@ -249,6 +250,7 @@ valkyrie                                          (tinkersaether:molten_valkyrie
 xu_evil_metal                                     ([no block])                                                                     = 恶魔灌注铁
 xu_enchanted_metal                                ([no block])                                                                     = 附魔金属
 xu_demonic_metal                                  ([no block])                                                                     = 熔融恶魔金属
+molten_blood_infused_iron                         (bloodarsenal:bloodarsenal.molten_blood_infused_iron)                            = 熔融注血铁
 binnie.growth.medium                              (genetics:binnie.growth.medium)                                                  = 培养基
 binnie.bacteria                                   (genetics:binnie.bacteria)                                                       = 细菌
 binnie.bacteria.poly                              (genetics:binnie.bacteria.poly)                                                  = 聚合菌
@@ -407,9 +409,13 @@ yellorium                                         (bigreactors:yellorium)       
 cyanite                                           (bigreactors:cyanite)                                                            = 液态蓝晶
 fuelcolumn                                        ([no block])                                                                     = fluid.fuelcolumn
 pure_metal                                        ([no block])                                                                     = 纯金属
+lifeessence                                       (bloodmagic:life_essence)                                                        = 生命源质
+refined_life_essence                              (bloodarsenal:refined_life_essence)                                              = 精炼生命精华
 lunar_water                                       (nyx:lunar_water)                                                                = 月露
 endacid                                           (stygian:endacid)                                                                = 幽冥酸液
 fluid_quicksilver                                 (thaumicwonders:fluid_quicksilver)                                               = 水银
+blockfluiddirt                                    (animus:blockfluiddirt)                                                          = 液态泥土
+blockfluidantimatter                              (animus:blockfluidantimatter)                                                    = 液态反物质
 astralsorcery.liquidstarlight                     (astralsorcery:fluidblockliquidstarlight)                                        = 星能液
 aeroite                                           (jaopca:fluid_moltenaeroite)                                                     = 熔融云浮
 asgardium                                         (jaopca:fluid_moltenasgardium)                                                   = 熔融神金

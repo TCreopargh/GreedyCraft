@@ -39,5 +39,11 @@
 		uid: "8710086c",
 		type: "loot",
 		table: 1
+	},
+	{
+		uid: "7d524d2e",
+		type: "advancement",
+		advancement: "twilightforest:progress_naga",
+		criterion: ""
 	}]
 }

@@ -1,10 +1,7 @@
 /*
  * This script is created for the GreedyCraft modpack by TCreopargh.
- * You may NOT use this script in any other publicly distributed modpack without my permission.
- * Powered by TCreopargh.
- * All rights reserved.
- */
-
+ * You may NOT use this script in any other publicly distributed modpack without my permission. 
+ */ 
 
 #priority 299
 import crafttweaker.item.IItemStack;
@@ -47,7 +44,13 @@ mods.TinkerStages.addMaterialStage("skilled_wizard", "astral_metal");
 mods.TinkerStages.addMaterialStage("hardmode", "red_matter");
 mods.TinkerStages.addMaterialStage("hardmode", "dark_matter");
 mods.TinkerStages.addMaterialStage("hardmode", "fusion_matrix");
+mods.TinkerStages.addMaterialStage("hardmode", "amethyst");
 mods.TinkerStages.addMaterialStage("disabled", "extrabotany:ingotorichalcos");
 mods.TinkerStages.addMaterialStage("disabled", "extrabotany:ingotshadowium");
 mods.TinkerStages.addMaterialStage("master_wizard", "void_metal");
 mods.TinkerStages.addMaterialStage("fusion_matrix", "electronium");
+mods.TinkerStages.addMaterialStage("novice_wizard", "sentient_metal");
+mods.TinkerStages.addMaterialStage("novice_wizard", "bound_metal");
+mods.TinkerStages.addMaterialStage("novice_wizard", "blood_infused_wood");
+mods.TinkerStages.addMaterialStage("novice_wizard", "blood_infused_iron");
+mods.TinkerStages.addMaterialStage("skilled_wizard", "crimsonite");

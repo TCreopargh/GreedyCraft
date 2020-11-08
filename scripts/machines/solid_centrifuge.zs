@@ -1,10 +1,7 @@
 /*
  * This script is created for the GreedyCraft modpack by TCreopargh.
- * You may NOT use this script in any other publicly distributed modpack without my permission.
- * Powered by TCreopargh.
- * All rights reserved.
- */
-
+ * You may NOT use this script in any other publicly distributed modpack without my permission. 
+ */ 
 
 #priority 30
 
@@ -398,3 +395,4 @@ mods.modularmachinery.RecipeBuilder.newBuilder(regName + "_ice", regName, speed,
     .addItemOutput(<thermalfoundation:material:2049>)
     .setChance(0.0125 as float)
     .build();
+    

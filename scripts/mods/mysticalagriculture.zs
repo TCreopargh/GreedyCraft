@@ -1,7 +1,6 @@
 /*
  * This script is created for the GreedyCraft modpack by TCreopargh.
- * You may NOT use this script in any other publicly distributed modpack without my permission.
- * Powered by TCreopargh.
+ * You may NOT use this script in any other publicly distributed modpack without my permission.
  * All rights reserved.
  */
 
@@ -42,7 +41,12 @@ function registerSeedRecipe(seed as IItemStack, baseItem as IItemStack, tier as 
         } else if(tier == 6) {
             <ore:seedsTier6>.add(seed);
         }
-    
+        
+        var baseItemName as string = "基础物品";
+        baseItemName = baseItem.displayName;
+        seed.addTooltip("§e注意：合成时需要放入木工机的§6" + baseItemName + "§e数量大于等于9个。");
+        mods.jei.JEI.addDescription(seed, "§0使用木工机合成\n注意：放入木工机的§5" + baseItemName + "§0数量必须大于等于9个，否则机器将不会开始制作。");
+
         mods.forestry.Carpenter.addRecipe(seed, [
             [baseItem, essences[tier], baseItem],
             [essences[tier], bases[tier], essences[tier]],

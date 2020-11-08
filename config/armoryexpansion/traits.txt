@@ -52,6 +52,8 @@
   "tconevo.sentient",
   "splinters",
   "starfishy",
+  "living1",
+  "living2",
   "slimey_blue_armor",
   "mind",
   "tconevo.soul_rend3",

@@ -895,6 +895,26 @@
     {
       "item": "additions:greedycraft-strange_matter|0",
       "emc": 800000
+    },
+    {
+      "item": "appliedenergistics2:material|6",
+      "emc": 0
+    },
+    {
+      "item": "compactmachines3:psd|0",
+      "emc": 0
+    },
+    {
+      "item": "defiledlands:scarlite|0",
+      "emc": 4096
+    },
+    {
+      "item": "defiledlands:umbrium_ingot|0",
+      "emc": 128
+    },
+    {
+      "item": "minecraft:spawn_egg|0",
+      "emc": 0
     }
   ]
 }

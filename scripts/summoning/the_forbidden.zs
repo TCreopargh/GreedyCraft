@@ -1,10 +1,7 @@
 /*
  * This script is created for the GreedyCraft modpack by TCreopargh.
- * You may NOT use this script in any other publicly distributed modpack without my permission.
- * Powered by TCreopargh.
- * All rights reserved.
- */
-
+ * You may NOT use this script in any other publicly distributed modpack without my permission. 
+ */ 
 
 #priority 20
 
@@ -70,13 +67,13 @@ SummoningDirector.addSummonInfo(
             }
             if(attempt.world.getProvider().getDimensionID() != -1) {
                 attempt.success = false;
-                attempt.message = "§c你只能在下界召唤§c§kT C r e o p a r g h§r§c。";
+                attempt.message = "§c你只能在下界召唤§c§kTCreopargh§r§c。";
             } else if(!pass1) {
                 attempt.success = false;
-                attempt.message = "§c无法召唤§c§kT C r e o p a r g h§r§c。周围的地形不够开阔。";
+                attempt.message = "§c无法召唤§c§kTCreopargh§r§c。周围的地形不够开阔。";
             } else if(!pass2) {
                 attempt.success = false;
-                attempt.message = "§c无法召唤§c§kT C r e o p a r g h§r§c。周围的地形不够平坦。";
+                attempt.message = "§c无法召唤§c§kTCreopargh§r§c。周围的地形不够平坦。";
             } else {
                 attempt.message = "§cTCreopargh §5§o已苏醒！";
             }

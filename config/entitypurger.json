@@ -1,28 +1,33 @@
 {
-	"version": "1.2.3",
-	"logging": false,
-	"whitelist": [],
-	"blacklist": ["mca.entity.*", "de.ellpeck.actuallyadditions.mod.entity.EntityWorm", "net.minecraft.entity.item.EntityItemFrame", "net.minecraft.entity.item.EntityPainting"],
-	"defaultThreshold": 24,
-	"checkTimeSeconds": 15,
-	"purgeTamedEntities": false,
-	"blacklistedChunksNearPlayer": 2,
-	"claimedChunksAreBlacklisted": true,
-	"entitySettings": [{
-		"entityId": "net.minecraft.entity.item.*",
-		"threshold": 80,
-		"lifetime": 30,
-		"overrideClaimedChunk": false,
-		"overridePlayerChunk": false
-	}, {
-		"entityId": "net.minecraft.entity.passive.*",
-		"threshold": 32,
-		"overrideClaimedChunk": false,
-		"overridePlayerChunk": false
-	}, {
-		"entityId": "ZombieAwareness.EntityScent",
-		"threshold": 30,
-		"overrideClaimedChunk": false,
-		"overridePlayerChunk": false
-	}]
+    "version": "1.2.3",
+    "logging": false,
+    "whitelist": [],
+    "blacklist": ["mca.entity.*", "de.ellpeck.actuallyadditions.mod.entity.EntityWorm", "net.minecraft.entity.item.EntityItemFrame", "net.minecraft.entity.item.EntityPainting"],
+    "defaultThreshold": 18,
+    "checkTimeSeconds": 15,
+    "purgeTamedEntities": false,
+    "blacklistedChunksNearPlayer": 2,
+    "claimedChunksAreBlacklisted": true,
+    "entitySettings": [{
+        "entityId": "net.minecraft.entity.item.*",
+        "threshold": 64,
+        "lifetime": 30,
+        "overrideClaimedChunk": false,
+        "overridePlayerChunk": false
+    }, {
+        "entityId": "net.minecraft.entity.passive.*",
+        "threshold": 32,
+        "overrideClaimedChunk": false,
+        "overridePlayerChunk": false
+    }, {
+        "entityId": "ZombieAwareness.EntityScent",
+        "threshold": 30,
+        "overrideClaimedChunk": true,
+        "overridePlayerChunk": false
+    }, {
+        "entityId": "com.github.tartaricacid.touhoulittlemaid.entity.passive.EntityMaid",
+        "threshold": 120,
+        "overrideClaimedChunk": false,
+        "overridePlayerChunk": false
+    }]
 }

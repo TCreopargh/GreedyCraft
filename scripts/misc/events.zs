@@ -1,18 +1,19 @@
 /*
  * This script is created for the GreedyCraft modpack by TCreopargh.
  * You may NOT use this script in any other publicly distributed modpack without my permission.
- * Powered by TCreopargh.
- * All rights reserved.
  */
 
-
 #priority 90
+
 import crafttweaker.event.PlayerLoggedInEvent;
 import crafttweaker.player.IPlayer;
 import crafttweaker.event.IPlayerEvent;
-import mods.ctutils.world.IGameRules;
 import crafttweaker.event.PlayerRespawnEvent;
+import crafttweaker.event.PlayerTickEvent;
+import crafttweaker.data.IData;
+
 import mods.ctutils.utils.Math;
+import mods.ctutils.world.IGameRules;
 
 val killEntities as string[] = [
     "mowziesmobs:barako",
@@ -86,3 +87,30 @@ events.onEntityLivingDeath(function (event as crafttweaker.event.EntityLivingDea
         }
     }
 });
+
+/* This doesn't work because a player's data gets cleared upon death
+events.onPlayerTick(function (event as PlayerTickEvent) {
+    if((event.player.world.getWorldTime() as long) % 600 != 0 || event.player.world.remote) {
+        return;
+    }
+    var player as IPlayer = event.player;
+    if(isNull(player)) {
+        return;
+    }
+    for stage in commonStages {
+        if(player.hasGameStage(stage)) {
+            if(!isNull(player.data.memberGet("GameStagesBackup"))) {
+                var gameStagesBackup = player.data.memberGet("GameStagesBackup");
+                if(!isNull(gameStagesBackup) && !isNull(gameStagesBackup.asList())) {
+                    var updateData as IData = (gameStagesBackup.update([stage] as IData)) as IData;
+                    player.update(updateData);
+                } else {
+                    player.update({GameStagesBackup: [stage as string]} as IData);
+                }
+            } else {
+                player.update({GameStagesBackup: [stage as string]} as IData);
+            }
+        }
+    }
+});
+*/

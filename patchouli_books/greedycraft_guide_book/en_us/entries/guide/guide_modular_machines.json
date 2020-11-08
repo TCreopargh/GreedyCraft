@@ -13,8 +13,8 @@
         },
         {
             "type": "text",
-            "text": "当你搭建好一个模块化机械时，通常它会$(5)变色$()，这说明你的机器搭建正确。如果没有变色，请仔细检查结构是否完整。注意：模块化机械中需要的水方块和其他流体均为$(2)静止水源$()，流动水是不会被识别的，请着重检查流体部分。"
-        }, 
+            "text": "当你搭建好一个模块化机械时，通常它会$(5)变色$()，这说明你的机器搭建正确。如果没有变色，请仔细检查结构是否完整。注意：模块化机械中需要的水方块和其他流体均为$(2)静止水源$()，流动水是不会被识别的，请着重检查流体部分。$(br)$(c)注意：$()模块化机器$(5)不需要蓝图$()，JEI中的蓝图仅供查询合成配方和多方块结构。$(br)$(1)搭建多方块结构时，请确保你的物品输出仓大的足以容纳所有可能的输出。如果已有物品输入却提示”缺少物品输入”，请尝试增加物品输出仓的数量或升级输出仓。$()"
+        },
 		{
             "type": "spotlight",
 			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:soymilk_producer\"}",
@@ -74,6 +74,12 @@
 			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:blazing_furnace\"}",
 			"title": "烈焰熔炉",
             "text": "$(6)烈焰熔炉$()通过烈焰之炽焱和电力来飞速烧制物品，速度快得难以想象！"
+        },
+		{
+            "type": "spotlight",
+			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:cosmic_forge\"}",
+			"title": "寰宇熔炉",
+            "text": "$(5)寰宇熔炉$()是制造游戏后期重要材料——寰宇锭的必备机器！"
         }
     ]
 }

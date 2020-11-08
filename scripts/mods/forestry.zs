@@ -1,7 +1,6 @@
 /*
  * This script is created for the GreedyCraft modpack by TCreopargh.
- * You may NOT use this script in any other publicly distributed modpack without my permission.
- * Powered by TCreopargh.
+ * You may NOT use this script in any other publicly distributed modpack without my permission.
  * All rights reserved.
  */
 
@@ -163,8 +162,13 @@ val seedRecipes as IIngredient[][][IItemStack] = {
 
 for seed in seedRecipes {
     recipes.remove(seed);
-    seed.addTooltip("§e注意：合成时需要放入木工机的基础物品数量大于等于9个。");
-    seed.addTooltip("§7例如：铁种子的基础物品是铁锭");
+    var baseItemName as string = "基础物品";
+    var grid as IIngredient[][] = seedRecipes[seed] as IIngredient[][];
+    if(grid.length > 0 && grid[0].length > 0) {
+        baseItemName = grid[0][0].items[0].displayName;
+    }
+    seed.addTooltip("§e注意：合成时需要放入木工机的§6" + baseItemName + "§e数量大于等于9个。");
+    mods.jei.JEI.addDescription(seed, "§0使用木工机合成\n注意：放入木工机的§5" + baseItemName + "§0数量必须大于等于9个，否则机器将不会开始制作。");
     var time = [60, 75, 80, 100, 140, 210, 1200] as int[];
     var fluid = [600, 750, 900, 1200, 1600, 2400, 10000] as int[];
     var fertilizer = [<thermalfoundation:fertilizer>, <thermalfoundation:fertilizer>, <thermalfoundation:fertilizer:1>, <thermalfoundation:fertilizer:1>, <thermalfoundation:fertilizer:2>, <thermalfoundation:fertilizer:2>, <mysticalagriculture:mystical_fertilizer>] as IItemStack[];
@@ -182,5 +186,5 @@ for seed in seedRecipes {
     } else if(<ore:seedsTier6> has seed) {
         tier = 6;
     }
-    mods.forestry.Carpenter.addRecipe(seed, seedRecipes[seed] as IIngredient[][], time[tier], <liquid:organic_fluid> * fluid[tier], fertilizer[tier]);
+    mods.forestry.Carpenter.addRecipe(seed, grid, time[tier], <liquid:organic_fluid> * fluid[tier], fertilizer[tier]);
 }

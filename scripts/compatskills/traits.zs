@@ -1,11 +1,12 @@
 /*
  * This script is created for the GreedyCraft modpack by TCreopargh.
  * You may NOT use this script in any other publicly distributed modpack without my permission.
- * Powered by TCreopargh.
+
  * All rights reserved.
  */
 
-#priority 40
+#priority 40
+
 import mods.ctutils.utils.Math;
 import crafttweaker.damage.IDamageSource;
 import crafttweaker.player.IPlayer;
@@ -60,7 +61,7 @@ turbo_miner.description = "显著提高挖掘速度";
 turbo_miner.changeIcon("greedycraft:skills/turbo_miner.png");
 turbo_miner.setEnabled(true);
 turbo_miner.getBreakSpeed = function(event as crafttweaker.event.PlayerBreakSpeedEvent) {
-    event.newSpeed = (event.originalSpeed * 1.5) as float;
+    event.newSpeed = ((event.newSpeed * 1.5) as float);
 };
 
 var essence_reaper = mods.compatskills.TraitCreator.createTrait("essence_reaper", 2, 0, "reskillable:farming", 4, "reskillable:farming|12");

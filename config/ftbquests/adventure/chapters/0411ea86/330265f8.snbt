@@ -57,5 +57,18 @@
 		uid: "be5a507d",
 		type: "loot",
 		table: 1
+	},
+	{
+		uid: "82c36e1f",
+		type: "advancement",
+		auto: "no_toast",
+		advancement: "twilightforest:progress_labyrinth",
+		criterion: ""
+	},
+	{
+		uid: "8405cc5d",
+		type: "advancement",
+		advancement: "twilightforest:mazebreaker",
+		criterion: ""
 	}]
 }

@@ -48,5 +48,12 @@
 		uid: "2b1eee3b",
 		type: "loot",
 		table: 2
+	},
+	{
+		uid: "f30ed2d9",
+		type: "advancement",
+		auto: "no_toast",
+		advancement: "twilightforest:progress_glacier",
+		criterion: ""
 	}]
 }

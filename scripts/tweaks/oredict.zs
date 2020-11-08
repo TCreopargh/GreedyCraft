@@ -1,12 +1,9 @@
 /*
  * This script is created for the GreedyCraft modpack by TCreopargh.
  * You may NOT use this script in any other publicly distributed modpack without my permission.
- * Powered by TCreopargh.
- * All rights reserved.
  */
 
-
-#priority 20000
+#priority 24000
 
 import crafttweaker.game.IGame;
 
@@ -18,6 +15,8 @@ import crafttweaker.game.IGame;
 <ore:dirt>.add(<biomesoplenty:dirt:*>);
 <ore:plantCattail>.add(<pvj:cattail:*>);
 <ore:ingotFusionMatrix>.add(<tconevo:material>);
+<ore:ingotCoalescenceMatrix>.add(<tconevo:material>);
+<ore:blockCoalescenceMatrix>.addAll(<ore:blockFusionMatrix>);
 <ore:logWood>.add(<treasure2:wither_log>);
 <ore:plankWood>.add(<treasure2:wither_planks>);
 <ore:blockBasalt>.addAll(<ore:stoneBasalt>);
@@ -26,6 +25,8 @@ import crafttweaker.game.IGame;
 <ore:foodChocolate>.add(<foodexpansion:itemchocolatebar>);
 <ore:foodChocolate>.addAll(<ore:foodChocolateBar>);
 <ore:foodChocolateBar>.addAll(<ore:foodChocolate>);
+<ore:foodCandyCane>.add(<aether_legacy:candy_cane>);
+<ore:CandyCane>.addAll(<ore:foodCandyCane>);
 <ore:ingotGaia>.addAll(<ore:gaiaIngot>);
 <ore:blockTerrasteel>.add(<botania:storage:1>);
 <ore:blockElvenElementium>.add(<botania:storage:2>);
@@ -204,7 +205,8 @@ import crafttweaker.game.IGame;
     <cyclicmagic:ender_dungeon>,
     <cqrepoured:helmet_dragon>,
     <extrabotany:bottledflame>,
-    <astralsorcery:itemconstellationpaper>
+    <astralsorcery:itemconstellationpaper>,
+    <additions:greedycraft-loli_lolipop>
 ]);
 <ore:dungeonLootTier3>.addItems([
     <additions:greedycraft-goodie_bag>,
@@ -214,7 +216,8 @@ import crafttweaker.game.IGame;
     <additions:greedycraft-skill_reset_scroll>,
     <additions:tcsponsors-sponsors_chest>,
     <cyclicmagic:heart_food>,
-    <additions:greedycraft-one_punch>
+    <additions:greedycraft-one_punch>,
+    <additions:greedycraft-experiment_note>
 ]);
 <ore:dungeonShield>.addItems([
     <cqrepoured:shield_bull>,
@@ -247,6 +250,7 @@ import crafttweaker.game.IGame;
 <ore:gemTofu>.add(<tofucraft:material:18>);
 <ore:gemTofuStrong>.add(<tofucraft:material:25>);
 <ore:gemDiamondPink>.add(<sakura:sakura_diamond>);
+<ore:gemDiamondSakura>.add(<sakura:sakura_diamond>);
 <ore:dustCrystalHeart>.add(<scalinghealth:heartdust>);
 <ore:shardCrystalHeart>.add(<scalinghealth:crystalshard>);
 <ore:heartContainer>.addItems([<scalinghealth:heartcontainer>, <cyclicmagic:heart_food>]);
@@ -318,6 +322,10 @@ if(loadedMods.contains("inventorypets")) {
     <betternether:nether_mycelium>
 ]);
 <ore:netherrack>.add(<betternether:netherrack_moss>);
+<ore:shardCreative>.add(<additions:greedycraft-creative_shard>);
+<ore:soulCreative>.add(<additions:greedycraft-creative_soul>);
+<ore:blockDiamondPink>.add(<sakura:sakura_diamond_block>);
+<ore:blockDiamondSakura>.add(<sakura:sakura_diamond_block>);
 
 for item in loadedMods["weeeflowers"].items {
     if(item.definition.id.contains("flower")) {

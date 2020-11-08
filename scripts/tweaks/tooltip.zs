@@ -1,10 +1,7 @@
 /*
  * This script is created for the GreedyCraft modpack by TCreopargh.
- * You may NOT use this script in any other publicly distributed modpack without my permission.
- * Powered by TCreopargh.
- * All rights reserved.
- */
-
+ * You may NOT use this script in any other publicly distributed modpack without my permission. 
+ */ 
 
 #priority 100
 import crafttweaker.game.IGame;
@@ -114,9 +111,8 @@ game.setLocalization("tooltip.itemstages.name.default", "§5§ka§r §d未知物
 <tconstruct:longbow>.addTooltip("§e温馨提示：拉弓速度数值越低越快");
 <tconstruct:crossbow>.addTooltip("§e温馨提示：拉弓速度数值越低越快");
 <tconstruct:bow_limb>.addTooltip("§e温馨提示：拉弓速度数值越低越快");
-<modularmachinery:itemblueprint>.addTooltip("§e请确保你的物品输出仓大的足以容纳所有可能的输出");
-<modularmachinery:itemblueprint>.addTooltip("§e如果已有物品输入却提示”缺少物品输入”，");
-<modularmachinery:itemblueprint>.addTooltip("§e请尝试增加物品输出仓的数量或升级输出仓。");
+<modularmachinery:itemblueprint>.addTooltip("§e如果遇到问题请查阅整合包手册");
+<modularmachinery:itemblueprint>.addTooltip("§c机器工作不需要蓝图，蓝图仅供查询配方和结构");
 <thaumadditions:mithminite_plate>.addTooltip("§e神秘书上的配方不准确，请查询JEI以获得该物品的合成表。");
 <thaumadditions:adaminite_plate>.addTooltip("§e神秘书上的配方不准确，请查询JEI以获得该物品的合成表。");
 <thaumadditions:mithrillium_plate>.addTooltip("§e神秘书上的配方不准确，请查询JEI以获得该物品的合成表。");
@@ -128,3 +124,12 @@ game.setLocalization("tooltip.itemstages.name.default", "§5§ka§r §d未知物
 <minecraft:potion>.withTag({Potion: "minecraft:water"}).addTooltip("§e请勿使用堆叠的水瓶酿药");
 <minecraft:potion>.withTag({Potion: "minecraft:water"}).addTooltip("§e请拆解为未堆叠的水瓶后再放入酿造台。");
 <oeintegration:excavatemodifier>.addTooltip("§e请在工具锻造台中与工具合成以应用该强化");
+<bloodmagic:sentient_sword>.addTooltip("§c已禁用，请使用匠魂“感知”材料");
+<bloodmagic:sentient_bow>.addTooltip("§c已禁用，请使用匠魂“感知”材料");
+<bloodmagic:sentient_axe>.addTooltip("§c已禁用，请使用匠魂“感知”材料");
+<bloodmagic:sentient_pickaxe>.addTooltip("§c已禁用，请使用匠魂“感知”材料");
+<bloodmagic:sentient_shovel>.addTooltip("§c已禁用，请使用匠魂“感知”材料");
+<bloodmagic:sentient_shovel>.addTooltip("§c已禁用，请使用匠魂“感知”材料");
+<comforts:sleeping_bag:*>.addTooltip("§c注意：无法设置重生点");
+<comforts:hammock:*>.addTooltip("§c注意：无法设置重生点");
+<theoneprobe:probenote>.addTooltip("§c我建议你不要乱玩这张纸，否则你很有可能会把方块信息显示弄没。");

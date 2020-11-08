@@ -1,8 +1,6 @@
 /*
  * This script is created for the GreedyCraft modpack by TCreopargh.
- * You may NOT use this script in any other publicly distributed modpack without my permission.
- * Powered by TCreopargh.
- * All rights reserved.
+ * You may NOT use this script in any other publicly distributed modpack without my permission. 
  */
 
 #priority 90
@@ -52,18 +50,70 @@ function addItem(item as IItemStack, weight as int, quality as int, minCount as 
     }
 }
 
+function isBlacklisted(target as IItemStack) as bool {
+
+    val itemBlacklist as IItemStack[] = [
+        <bibliocraft:bibliocreativelock>
+    ] as IItemStack[];
+
+    for item in itemBlacklist {
+        if(target.definition.id == item.definition.id && target.metadata == item.metadata) {
+            if(!isNull(item.tag)) {
+                if(item.tag as IData == target.tag as IData) {
+                    return true;
+                }
+            } else {
+                return true;
+            }
+        }
+    }
+    return false;
+}
+
+val foodTable = LootTweaker.newTable("loottweaker:food_bag_loot_table");
+var foodTableMainPool = foodTable.addPool("main", 6, 14, 0, 0);
+for ingredient in foodList {
+    for item in ingredient.items {
+        if(!isBlacklisted(item)) {
+            if(item.metadata != 32767) {
+                foodTableMainPool.addItemEntryHelper(item, 1, 1, [Functions.setCount(1, 4)], []);
+            }
+        }
+    }
+}
+
+
+val furnitureTable = LootTweaker.newTable("loottweaker:furniture_crate_loot_table");
+var furnitureTableMainPool = furnitureTable.addPool("main", 3, 10, 0, 0);
+for item in loadedMods["bibliocraft"].items {
+    if(!isBlacklisted(item)) {
+        furnitureTableMainPool.addItemEntryHelper(item, 1, 1, [Functions.setCount(1, 3)], []);
+    }
+}
+for item in loadedMods["cfm"].items {
+    if(!isBlacklisted(item)) {
+        furnitureTableMainPool.addItemEntryHelper(item, 1, 1, [Functions.setCount(1, 3)], []);
+    }
+}
+
 LootTweaker.getTable("extrabotany:inject/simple_dungeon").getPool("main").removeEntry("extrabotany:bottledflame");
 
 val dungeon = LootTweaker.getTable("minecraft:chests/simple_dungeon");
-//val artifacts = LootTweaker.newTable("weapon_crate");
 dungeon.removePool("simpleDungeon");
 dungeon.removePool("spectrecoil_number");
+LootTweaker.getTable("botania:inject/simple_dungeon").getPool("main").removeEntry("botania:lexicon");
 var mainPool = dungeon.getPool("main");
 mainPool.removeEntry("cyclicmagic:item.cyclic_wand_build");
 var dungeonPool1 = dungeon.getPool("pool1");  
 mainPool.removeEntry("abyssalcraft:tin_ingot");
 mainPool.removeEntry("abyssalcraft:copper_ingot");
 dungeon.getPool("bountifulbaubles_dungeon").removeEntry("bountifulbaubles:trinketbrokenheart");
+LootTweaker.getTable("minecraft:chests/jungle_temple").removePool("jungleTemple");
+LootTweaker.getTable("minecraft:chests/abandoned_mineshaft").removePool("abandonedMineshaft");
+LootTweaker.getTable("minecraft:chests/end_city_treasure").removePool("endCity");
+LootTweaker.getTable("minecraft:chests/desert_pyramid").removePool("desertPyramid");
+LootTweaker.getTable("minecraft:chests/abandoned_mineshaft").removePool("spectrecoil_number");
+LootTweaker.getTable("minecraft:chests/end_city_treasure").removePool("spectrecoil_number");
 
 // var artifactsPool = dungeon.getPool("tconevo_artifacts");
 
@@ -79,6 +129,7 @@ LootTweaker.getTable("minecraft:chests/abandoned_mineshaft").getPool("main").rem
 LootTweaker.getTable("minecraft:chests/jungle_temple").getPool("main").removeEntry("cyclicmagic:item.cyclic_wand_build");
 LootTweaker.getTable("minecraft:chests/end_city_treasure").getPool("main").removeEntry("cyclicmagic:item.cyclic_wand_build");
 LootTweaker.getTable("minecraft:chests/nether_bridge").getPool("main").removeEntry("cyclicmagic:item.cyclic_wand_build");
+LootTweaker.getTable("minecraft:chests/desert_pyramid").getPool("main").removeEntry("cyclicmagic:item.cyclic_wand_build");
 
 addItem(<thermalfoundation:material:128>, 10, 1, 2, 12);
 addItem(<thermalfoundation:material:129>, 10, 1, 2, 12);
@@ -118,8 +169,12 @@ addItem(<additions:greedycraft-skill_reset_scroll>, 1, 1, 1, 1);
 addItem(<additions:greedycraft-plate_of_honor>, 1, 1, 1, 1);
 addItem(<inventorypets:meta_pet>, 2, 1, 1, 1);
 addItem(<additions:greedycraft-purifying_dust>, 3, 1, 10, 40);
-addItem(<additions:greedycraft-perfectly_generic_item>, 2, 1, 1, 1);
+addItem(<additions:perfectly_generic_item>, 2, 1, 1, 1);
 addItem(<additions:greedycraft-respawn_anchor>, 1, 1, 1, 1);
+addItem(<additions:greedycraft-loli_lolipop>, 3, 1, 1, 2);
+addItem(<additions:greedycraft-food_bag>, 2, 1, 1, 1);
+addItem(<additions:greedycraft-furniture_crate>, 2, 1, 1, 1);
+addItem(<sakura:sakura_diamond>, 2, 1, 3, 8);
 
 var dungeonPool2 = dungeon.getPool("pool2");  
 dungeonPool2.addItemEntryHelper(<additions:greedycraft-reward_ticket_common>, 12, 1, [Functions.setCount(1, 2)], []);

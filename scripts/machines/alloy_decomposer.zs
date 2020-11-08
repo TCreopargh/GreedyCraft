@@ -1,8 +1,6 @@
 /*
  * This script is created for the GreedyCraft modpack by TCreopargh.
- * You may NOT use this script in any other publicly distributed modpack without my permission.
- * Powered by TCreopargh.
- * All rights reserved.
+ * You may NOT use this script in any other publicly distributed modpack without my permission. 
  */
 
 #priority 30
@@ -19,7 +17,7 @@ val speed = 10;
 val energy = 20;
 
 val alloyRecipes as ILiquidStack[][] = [
-    [<liquid:modularium> * 288, /*divide*/ <liquid:iron> * 144, <liquid:bronze> * 144, <liquid:redstone> * 100],
+    [<liquid:modularium> * 288, /*divide*/ <liquid:conductive_iron> * 144, <liquid:bronze> * 144],
     [<liquid:scorched> * 144, /*divide*/ <liquid:lava> * 144, <liquid:stone> * 144],
     [<liquid:netherite> * 144, /*divide*/ <liquid:gold> * 576, <liquid:ancient_debris> * 576],
     [<liquid:liquid_chocolate> * 2, /*divide*/ <liquid:chocolate_liquor> * 1, <liquid:milk> * 1],

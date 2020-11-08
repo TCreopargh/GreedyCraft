@@ -21,10 +21,7 @@
             "biome": "all",
             "dimension": {
                 "restriction": "blacklist",
-                "value": [
-                    -1,
-                    1
-                ]
+                "value": [-1, 1]
             }
         },
         "tin": {
@@ -47,18 +44,14 @@
             "biome": "all",
             "dimension": {
                 "restriction": "blacklist",
-                "value": [
-                    -1,
-                    1
-                ]
+                "value": [-1, 1]
             }
         },
         "silver": {
             "enabled": "true",
             "distribution": "uniform",
             "generator": {
-                "block": [
-                    {
+                "block": [{
                         "name": "thermalfoundation:ore",
                         "properties": {
                             "type": "silver"
@@ -83,22 +76,17 @@
             "biome": "all",
             "dimension": {
                 "restriction": "blacklist",
-                "value": [
-                    -1,
-                    1
-                ]
+                "value": [-1, 1]
             }
         },
         "experience": {
             "enabled": "true",
             "distribution": "uniform",
             "generator": {
-                "block": [
-                    {
-                        "name": "additions:greedycraft-experience_ore",
-                        "weight": 100
-                    }
-                ],
+                "block": [{
+                    "name": "additions:greedycraft-experience_ore",
+                    "weight": 100
+                }],
                 "material": "minecraft:stone",
                 "cluster-size": 4
             },
@@ -109,10 +97,7 @@
             "biome": "all",
             "dimension": {
                 "restriction": "blacklist",
-                "value": [
-                    -1,
-                    1
-                ]
+                "value": [-1, 1]
             }
         },
         "pumpkin": {
@@ -120,8 +105,7 @@
             "distribution": "gaussian",
             "generator": {
                 "type": "decoration",
-                "block": [
-                    {
+                "block": [{
                         "name": "minecraft:pumpkin",
                         "weight": 90
                     },
@@ -130,8 +114,7 @@
                         "weight": 10
                     }
                 ],
-                "surface": [
-                    {
+                "surface": [{
                         "name": "minecraft:grass"
                     },
                     {
@@ -156,49 +139,39 @@
             "biome": "all",
             "dimension": {
                 "restriction": "blacklist",
-                "value": [
-                    -1,
-                    1
-                ]
+                "value": [-1, 1]
             }
         },
         "chromium": {
             "enabled": "true",
             "distribution": "uniform",
             "generator": {
-                "block": [
-                    {
-                        "name": "additions:greedycraft-chromium_ore",
-                        "weight": 100
-                    }
-                ],
+                "block": [{
+                    "name": "additions:greedycraft-chromium_ore",
+                    "weight": 100
+                }],
                 "material": "minecraft:stone",
                 "cluster-size": 4
             },
-            "cluster-count": 1,
-            "chunk-chance": 2,
-            "min-height": 6,
+            "cluster-count": 2,
+            "chunk-chance": 3,
+            "min-height": 5,
             "max-height": 24,
             "retrogen": "true",
             "biome": "all",
             "dimension": {
                 "restriction": "blacklist",
-                "value": [
-                    -1,
-                    1
-                ]
+                "value": [-1, 1]
             }
         },
         "shadowium": {
             "enabled": "true",
             "distribution": "uniform",
             "generator": {
-                "block": [
-                    {
-                        "name": "additions:greedycraft-shadowium_ore",
-                        "weight": 100
-                    }
-                ],
+                "block": [{
+                    "name": "additions:greedycraft-shadowium_ore",
+                    "weight": 100
+                }],
                 "material": "minecraft:stone",
                 "cluster-size": 4
             },
@@ -209,21 +182,17 @@
             "biome": "all",
             "dimension": {
                 "restriction": "whitelist",
-                "value": [
-                    -11325
-                ]
+                "value": [-11325]
             }
         },
         "asgardium": {
             "enabled": "true",
             "distribution": "uniform",
             "generator": {
-                "block": [
-                    {
-                        "name": "additions:greedycraft-asgardium_ore",
-                        "weight": 100
-                    }
-                ],
+                "block": [{
+                    "name": "additions:greedycraft-asgardium_ore",
+                    "weight": 100
+                }],
                 "material": "aether_legacy:holystone",
                 "cluster-size": 4
             },
@@ -234,9 +203,7 @@
             "biome": "all",
             "dimension": {
                 "restriction": "whitelist",
-                "value": [
-                    4
-                ]
+                "value": [4]
             }
         },
         "organic_fluid": {
@@ -245,14 +212,11 @@
             "generator": {
                 "type": "lake",
                 "total-outline": true,
-                "block": [
-                    {
-                        "name": "contenttweaker:organic_fluid",
-                        "weight": 100
-                    }
-                ],
-                "outline-block": [
-                    {
+                "block": [{
+                    "name": "contenttweaker:organic_fluid",
+                    "weight": 100
+                }],
+                "outline-block": [{
                         "name": "minecraft:leaves",
                         "metadata": 3,
                         "weight": 10
@@ -281,8 +245,7 @@
             "retrogen": "true",
             "biome": {
                 "restriction": "whitelist",
-                "value": [
-                    {
+                "value": [{
                         "type": "dictionary",
                         "entry": "JUNGLE"
                     },
@@ -302,11 +265,7 @@
             },
             "dimension": {
                 "restriction": "blacklist",
-                "value": [
-                    1,
-                    -1,
-                    4
-                ]
+                "value": [1, -1, 4]
             }
         },
         "crude_oil": {
@@ -315,18 +274,15 @@
             "generator": {
                 "type": "lake",
                 "total-outline": true,
-                "block": [
-                    {
-                        "name": "thermalfoundation:fluid_crude_oil",
-                        "weight": 100
-                    }
-                ],
-                "outline-block": [
-					{
+                "block": [{
+                    "name": "thermalfoundation:fluid_crude_oil",
+                    "weight": 100
+                }],
+                "outline-block": [{
                         "name": "minecraft:stone",
                         "weight": 60
                     },
-					{
+                    {
                         "name": "minecraft:cobblestone",
                         "weight": 24
                     },
@@ -344,18 +300,14 @@
                 "cluster-size": 320
             },
             "cluster-count": 1,
-            "chunk-chance": 20,
+            "chunk-chance": 32,
             "min-height": 11,
             "max-height": 40,
             "retrogen": "true",
             "biome": "all",
             "dimension": {
                 "restriction": "blacklist",
-                "value": [
-                    1,
-                    -1,
-                    4
-                ]
+                "value": [1, -1, 4]
             }
         },
         "beehive": {
@@ -363,15 +315,12 @@
             "distribution": "gaussian",
             "generator": {
                 "type": "geode",
-                "block": [
-                    {
-                        "name": "biomesoplenty:honey",
-                        "weight": 100
-                    }
-                ],
+                "block": [{
+                    "name": "biomesoplenty:honey",
+                    "weight": 100
+                }],
                 "useMaterial": true,
-                "crust": [
-                    {
+                "crust": [{
                         "name": "biomesoplenty:hive",
                         "metadata": 1,
                         "weight": 70
@@ -401,7 +350,7 @@
                 "material": "minecraft:air",
                 "cluster-size": 500
             },
-            "chunk-chance": 150,
+            "chunk-chance": 80,
             "cluster-count": 1,
             "center-height": 25,
             "spread": 20,
@@ -409,8 +358,7 @@
             "retrogen": "true",
             "biome": {
                 "restriction": "whitelist",
-                "value": [
-                    {
+                "value": [{
                         "type": "dictionary",
                         "entry": "JUNGLE"
                     },
@@ -426,11 +374,7 @@
             },
             "dimension": {
                 "restriction": "whitelist",
-                "value": [
-                    0,
-                    7,
-                    111
-                ]
+                "value": [0, 7, 111]
             }
         },
         "aeroite_cloud": {
@@ -438,8 +382,7 @@
             "distribution": "gaussian",
             "generator": {
                 "type": "geode",
-                "block": [
-                    {
+                "block": [{
                         "name": "additions:greedycraft-aeroite_ore",
                         "weight": 3
                     },
@@ -449,8 +392,7 @@
                     }
                 ],
                 "useMaterial": true,
-                "crust": [
-                    {
+                "crust": [{
                         "name": "aether_legacy:aercloud",
                         "weight": 85
                     },
@@ -471,8 +413,7 @@
                     }
                 ],
                 "hollow": true,
-                "filler": [
-                    {
+                "filler": [{
                         "name": "additions:greedycraft-aeroite_ore",
                         "weight": 30
                     },
@@ -493,12 +434,7 @@
             "biome": "all",
             "dimension": {
                 "restriction": "whitelist",
-                "value": [
-                    0,
-                    4,
-                    7,
-                    111
-                ]
+                "value": [0, 4, 7, 111]
             }
         },
         "plain_cloud": {
@@ -506,8 +442,7 @@
             "distribution": "gaussian",
             "generator": {
                 "type": "geode",
-                "block": [
-                    {
+                "block": [{
                         "name": "additions:greedycraft-aeroite_ore",
                         "weight": 2
                     },
@@ -517,8 +452,7 @@
                     }
                 ],
                 "useMaterial": true,
-                "crust": [
-                    {
+                "crust": [{
                         "name": "aether_legacy:aercloud",
                         "weight": 85
                     },
@@ -539,8 +473,7 @@
                     }
                 ],
                 "hollow": true,
-                "filler": [
-                    {
+                "filler": [{
                         "name": "aether_legacy:aercloud",
                         "metadata": 1,
                         "weight": 30
@@ -568,24 +501,17 @@
             "biome": "all",
             "dimension": {
                 "restriction": "whitelist",
-                "value": [
-                    0,
-                    4,
-                    7,
-                    111
-                ]
+                "value": [0, 4, 7, 111]
             }
         },
         "aeroite_aether": {
             "enabled": "true",
             "distribution": "uniform",
             "generator": {
-                "block": [
-                    {
-                        "name": "additions:greedycraft-aeroite_ore",
-                        "weight": 120
-                    }
-                ],
+                "block": [{
+                    "name": "additions:greedycraft-aeroite_ore",
+                    "weight": 120
+                }],
                 "material": "aether_legacy:aercloud",
                 "cluster-size": 8
             },
@@ -597,21 +523,17 @@
             "biome": "all",
             "dimension": {
                 "restriction": "whitelist",
-                "value": [
-                    7
-                ]
+                "value": [7]
             }
         },
         "heartcrystal": {
             "enabled": "true",
             "distribution": "uniform",
             "generator": {
-                "block": [
-                    {
-                        "name": "scalinghealth:crystalore",
-                        "weight": 100
-                    }
-                ],
+                "block": [{
+                    "name": "scalinghealth:crystalore",
+                    "weight": 100
+                }],
                 "material": "minecraft:stone",
                 "cluster-size": 1
             },
@@ -622,21 +544,17 @@
             "biome": "all",
             "dimension": {
                 "restriction": "whitelist",
-                "value": [
-                    4
-                ]
+                "value": [4]
             }
         },
         "emerald": {
             "enabled": "true",
             "distribution": "uniform",
             "generator": {
-                "block": [
-                    {
-                        "name": "minecraft:emerald_ore",
-                        "weight": 100
-                    }
-                ],
+                "block": [{
+                    "name": "minecraft:emerald_ore",
+                    "weight": 100
+                }],
                 "material": "minecraft:stone",
                 "cluster-size": 1
             },
@@ -647,24 +565,18 @@
             "biome": "all",
             "dimension": {
                 "restriction": "blacklist",
-                "value": [
-                    -1,
-                    1
-                ]
+                "value": [-1, 1]
             }
         },
         "ancient_debris": {
             "enabled": "true",
             "distribution": "uniform",
             "generator": {
-                "block": [
-                    {
-                        "name": "additions:greedycraft-ancient_debris",
-                        "weight": 100
-                    }
-                ],
-                "material": [
-                    {
+                "block": [{
+                    "name": "additions:greedycraft-ancient_debris",
+                    "weight": 100
+                }],
+                "material": [{
                         "name": "minecraft:netherrack"
                     },
                     {
@@ -690,23 +602,18 @@
             "biome": "all",
             "dimension": {
                 "restriction": "whitelist",
-                "value": [
-                    -1
-                ]
+                "value": [-1]
             }
         },
         "valyrium": {
             "enabled": "true",
             "distribution": "uniform",
             "generator": {
-                "block": [
-                    {
-                        "name": "taiga:valyrium_ore",
-                        "weight": 100
-                    }
-                ],
-                "material": [
-                    {
+                "block": [{
+                    "name": "taiga:valyrium_ore",
+                    "weight": 100
+                }],
+                "material": [{
                         "name": "minecraft:netherrack"
                     },
                     {
@@ -731,17 +638,14 @@
             "biome": "all",
             "dimension": {
                 "restriction": "whitelist",
-                "value": [
-                    -1
-                ]
+                "value": [-1]
             }
         },
         "lead": {
             "enabled": "true",
             "distribution": "uniform",
             "generator": {
-                "block": [
-                    {
+                "block": [{
                         "name": "thermalfoundation:ore",
                         "properties": {
                             "type": "lead"
@@ -766,10 +670,7 @@
             "biome": "all",
             "dimension": {
                 "restriction": "blacklist",
-                "value": [
-                    -1,
-                    1
-                ]
+                "value": [-1, 1]
             }
         },
         "nickel": {
@@ -792,18 +693,14 @@
             "biome": "all",
             "dimension": {
                 "restriction": "blacklist",
-                "value": [
-                    -1,
-                    1
-                ]
+                "value": [-1, 1]
             }
         },
         "platinum": {
             "enabled": "true",
             "distribution": "uniform",
             "generator": {
-                "block": [
-                    {
+                "block": [{
                         "name": "thermalfoundation:ore",
                         "properties": {
                             "type": "platinum"
@@ -828,10 +725,7 @@
             "biome": "all",
             "dimension": {
                 "restriction": "blacklist",
-                "value": [
-                    -1,
-                    1
-                ]
+                "value": [-1, 1]
             }
         },
         "aluminum": {
@@ -854,18 +748,14 @@
             "biome": "all",
             "dimension": {
                 "restriction": "blacklist",
-                "value": [
-                    -1,
-                    1
-                ]
+                "value": [-1, 1]
             }
         },
         "iridium": {
             "enabled": "true",
             "distribution": "uniform",
             "generator": {
-                "block": [
-                    {
+                "block": [{
                         "name": "thermalfoundation:ore",
                         "properties": {
                             "type": "iridium"
@@ -890,22 +780,17 @@
             "biome": "all",
             "dimension": {
                 "restriction": "blacklist",
-                "value": [
-                    -1,
-                    1
-                ]
+                "value": [-1, 1]
             }
         },
         "cryonium": {
             "enabled": "true",
             "distribution": "uniform",
             "generator": {
-                "block": [
-                    {
-                        "name": "additions:greedycraft-cryonium_ore",
-                        "weight": 100
-                    }
-                ],
+                "block": [{
+                    "name": "additions:greedycraft-cryonium_ore",
+                    "weight": 100
+                }],
                 "material": "minecraft:stone",
                 "cluster-size": 4
             },
@@ -915,8 +800,7 @@
             "retrogen": "true",
             "biome": {
                 "restriction": "whitelist",
-                "value": [
-                    {
+                "value": [{
                         "type": "temperature",
                         "entry": "COLD"
                     },
@@ -932,18 +816,14 @@
             },
             "dimension": {
                 "restriction": "blacklist",
-                "value": [
-                    -1,
-                    1
-                ]
+                "value": [-1, 1]
             }
         },
         "cytosinite": {
             "enabled": "true",
             "distribution": "uniform",
             "generator": {
-                "block": [
-                    {
+                "block": [{
                         "name": "additions:greedycraft-cytosinite_ore",
                         "weight": 5
                     },
@@ -961,8 +841,7 @@
             "retrogen": "true",
             "biome": {
                 "restriction": "whitelist",
-                "value": [
-                    {
+                "value": [{
                         "type": "dictionary",
                         "entry": "JUNGLE"
                     },
@@ -982,22 +861,17 @@
             },
             "dimension": {
                 "restriction": "blacklist",
-                "value": [
-                    -1,
-                    1
-                ]
+                "value": [-1, 1]
             }
         },
         "mud": {
             "enabled": "true",
             "distribution": "uniform",
             "generator": {
-                "block": [
-                    {
-                        "name": "biomesoplenty:mud",
-                        "weight": 100
-                    }
-                ],
+                "block": [{
+                    "name": "biomesoplenty:mud",
+                    "weight": 100
+                }],
                 "material": "minecraft:stone",
                 "cluster-size": 450
             },
@@ -1007,8 +881,7 @@
             "retrogen": "true",
             "biome": {
                 "restriction": "whitelist",
-                "value": [
-                    {
+                "value": [{
                         "type": "dictionary",
                         "entry": "JUNGLE"
                     },
@@ -1028,24 +901,20 @@
             },
             "dimension": {
                 "restriction": "blacklist",
-                "value": [
-                    -1,
-                    1
-                ]
+                "value": [-1, 1]
             }
         },
-		"leaves": {
+        "leaves": {
             "enabled": "true",
             "distribution": "cave",
             "generator": {
-				"type": "large-vein",
-                "block": [
-                    {
+                "type": "large-vein",
+                "block": [{
                         "name": "minecraft:leaves",
-						"metadata": 4,
+                        "metadata": 4,
                         "weight": 70
                     },
-					{
+                    {
                         "name": "minecraft:mossy_cobblestone",
                         "weight": 30
                     }
@@ -1054,12 +923,11 @@
                 "cluster-size": 250
             },
             "cluster-count": 2,
-			"ceiling": "true",
+            "ceiling": "true",
             "retrogen": "true",
             "biome": {
                 "restriction": "whitelist",
-                "value": [
-                    {
+                "value": [{
                         "type": "dictionary",
                         "entry": "JUNGLE"
                     },
@@ -1083,55 +951,51 @@
             },
             "dimension": {
                 "restriction": "blacklist",
-                "value": [
-                    -1,
-                    1
-                ]
+                "value": [-1, 1]
             }
         },
-		"stalactite": {
+        "stalactite": {
             "enabled": "true",
             "distribution": "cave",
             "generator": {
-				"type": "stalactite",
-				"min-height": 5,
-				"height-variance": 12,
-				"fat": false,
-				"alt-sinc": true,
-                "block": [
-                    {
+                "type": "stalactite",
+                "min-height": 5,
+                "height-variance": 12,
+                "fat": false,
+                "alt-sinc": true,
+                "block": [{
                         "name": "minecraft:stone",
                         "weight": 164
                     },
-					{
+                    {
                         "name": "minecraft:mossy_cobblestone",
                         "weight": 6
                     },
-					{
+                    {
                         "name": "minecraft:cobblestone",
                         "weight": 18
                     },
-					{
+                    {
                         "name": "minecraft:coal_ore",
                         "weight": 6
                     },
-					{
+                    {
                         "name": "minecraft:iron_ore",
                         "weight": 2
                     },
-					{
+                    {
                         "name": "minecraft:gold_ore",
                         "weight": 1
                     },
-					{
+                    {
                         "name": "minecraft:diamond_ore",
                         "weight": 1
                     },
-					{
+                    {
                         "name": "minecraft:emerald_ore",
                         "weight": 1
                     },
-					{
+                    {
                         "name": "minecraft:lapis_ore",
                         "weight": 1
                     }
@@ -1139,29 +1003,24 @@
                 "material": "minecraft:stone",
                 "cluster-size": 150
             },
-			"chunk-chance": 4,
+            "chunk-chance": 4,
             "cluster-count": 1,
-			"ceiling": "true",
+            "ceiling": "true",
             "retrogen": "true",
             "biome": "all",
             "dimension": {
                 "restriction": "blacklist",
-                "value": [
-                    -1,
-                    1
-                ]
+                "value": [-1, 1]
             }
         },
         "vibranium": {
             "enabled": "true",
             "distribution": "uniform",
             "generator": {
-                "block": [
-                    {
-                        "name": "taiga:vibranium_ore",
-                        "weight": 100
-                    }
-                ],
+                "block": [{
+                    "name": "taiga:vibranium_ore",
+                    "weight": 100
+                }],
                 "material": "minecraft:stone",
                 "cluster-size": 2
             },
@@ -1171,8 +1030,7 @@
             "retrogen": "true",
             "biome": {
                 "restriction": "whitelist",
-                "value": [
-                    {
+                "value": [{
                         "type": "dictionary",
                         "entry": "SANDY"
                     },
@@ -1188,18 +1046,14 @@
             },
             "dimension": {
                 "restriction": "blacklist",
-                "value": [
-                    -1,
-                    1
-                ]
+                "value": [-1, 1]
             }
         },
         "jauxum": {
             "enabled": "true",
             "distribution": "uniform",
             "generator": {
-                "block": [
-                    {
+                "block": [{
                         "name": "taiga:jauxum_ore",
                         "weight": 3
                     },
@@ -1210,28 +1064,24 @@
                     }
                 ],
                 "material": "minecraft:stone",
-                "cluster-size": 400
+                "cluster-size": 250
             },
             "cluster-count": 1,
-            "chunk-chance": 25,
+            "chunk-chance": 35,
             "min-height": 5,
             "max-height": 40,
             "retrogen": "true",
             "biome": "all",
             "dimension": {
                 "restriction": "blacklist",
-                "value": [
-                    -1,
-                    1
-                ]
+                "value": [-1, 1]
             }
         },
         "ovium": {
             "enabled": "true",
             "distribution": "uniform",
             "generator": {
-                "block": [
-                    {
+                "block": [{
                         "name": "taiga:ovium_ore",
                         "weight": 3
                     },
@@ -1242,28 +1092,24 @@
                     }
                 ],
                 "material": "minecraft:stone",
-                "cluster-size": 300
+                "cluster-size": 200
             },
             "cluster-count": 1,
-            "chunk-chance": 25,
+            "chunk-chance": 35,
             "min-height": 5,
             "max-height": 40,
             "retrogen": "true",
             "biome": "all",
             "dimension": {
                 "restriction": "blacklist",
-                "value": [
-                    -1,
-                    1
-                ]
+                "value": [-1, 1]
             }
         },
         "karmesine": {
             "enabled": "true",
             "distribution": "uniform",
             "generator": {
-                "block": [
-                    {
+                "block": [{
                         "name": "taiga:karmesine_ore",
                         "weight": 3
                     },
@@ -1274,28 +1120,24 @@
                     }
                 ],
                 "material": "minecraft:stone",
-                "cluster-size": 250
+                "cluster-size": 150
             },
             "cluster-count": 1,
-            "chunk-chance": 25,
+            "chunk-chance": 35,
             "min-height": 5,
             "max-height": 40,
             "retrogen": "true",
             "biome": "all",
             "dimension": {
                 "restriction": "blacklist",
-                "value": [
-                    -1,
-                    1
-                ]
+                "value": [-1, 1]
             }
         },
         "infernium": {
             "enabled": "true",
             "distribution": "uniform",
             "generator": {
-                "block": [
-                    {
+                "block": [{
                         "name": "additions:greedycraft-infernium_ore",
                         "weight": 14
                     },
@@ -1314,21 +1156,17 @@
             "biome": "all",
             "dimension": {
                 "restriction": "whitelist",
-                "value": [
-                    -1
-                ]
+                "value": [-1]
             }
         },
         "titanium": {
             "enabled": "true",
             "distribution": "uniform",
             "generator": {
-                "block": [
-                    {
-                        "name": "additions:greedycraft-titanium_ore",
-                        "weight": 100
-                    }
-                ],
+                "block": [{
+                    "name": "additions:greedycraft-titanium_ore",
+                    "weight": 100
+                }],
                 "material": "minecraft:end_stone",
                 "cluster-size": 2
             },
@@ -1339,9 +1177,7 @@
             "biome": "all",
             "dimension": {
                 "restriction": "whitelist",
-                "value": [
-                    1
-                ]
+                "value": [1]
             }
         },
         "copper_ocean": {
@@ -1363,19 +1199,14 @@
             "retrogen": "true",
             "biome": {
                 "restriction": "whitelist",
-                "value": [
-                    {
-                        "type": "dictionary",
-                        "entry": "OCEAN"
-                    }
-                ]
+                "value": [{
+                    "type": "dictionary",
+                    "entry": "OCEAN"
+                }]
             },
             "dimension": {
                 "restriction": "blacklist",
-                "value": [
-                    -1,
-                    1
-                ]
+                "value": [-1, 1]
             }
         },
         "copper_high": {
@@ -1398,10 +1229,7 @@
             "biome": "all",
             "dimension": {
                 "restriction": "blacklist",
-                "value": [
-                    -1,
-                    1
-                ]
+                "value": [-1, 1]
             }
         }
     }

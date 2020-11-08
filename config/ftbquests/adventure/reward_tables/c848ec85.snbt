@@ -264,7 +264,7 @@
 					Lore: [
 						"§6把它放在机器或农作物旁边，",
 						"§6即可将机器或农作物的速度提升至1000倍！",
-						"§0其实它一点屁用都没有，你是不是py又痒了"
+						"§0其实它一点屁用都没有，你是不是PY又痒了"
 					],
 					Name: "§b十重压缩加速火把"
 				}
@@ -642,6 +642,44 @@
 	{
 		item: "thaumcraft:curio 1 1",
 		random_bonus: 4
+	},
+	{
+		item: "additions:greedycraft-loli_lolipop"
+	},
+	{
+		item: "additions:greedycraft-purifying_dust",
+		count: 5,
+		random_bonus: 15
+	},
+	{
+		item: "additions:nylon_string",
+		random_bonus: 2
+	},
+	{
+		item: "additions:greedycraft-food_bag"
+	},
+	{
+		item: "additions:greedycraft-time_fragment",
+		count: 2,
+		random_bonus: 8
+	},
+	{
+		item: {
+			id: "touhou_little_maid:gashapon",
+			Damage: 1s
+		},
+		random_bonus: 4
+	},
+	{
+		item: {
+			id: "touhou_little_maid:gashapon",
+			Damage: 2s
+		},
+		random_bonus: 3
+	},
+	{
+		item: "additions:greedycraft-delivery_order",
+		weight: 2
 	}],
 	loot_crate: {
 		string_id: "loot_level_1",

@@ -78,6 +78,7 @@ chromium                                          (jaopca:fluid_moltenchromium) 
 stainless_steel                                   (contenttweaker:stainless_steel)                                                 = 熔融不锈钢
 protonium                                         (contenttweaker:protonium)                                                       = 超密质子流体
 electronium                                       (contenttweaker:electronium)                                                     = 粘性电子流质
+crimsonite                                        (contenttweaker:crimsonite)                                                      = 猩红浆液
 alumite                                           (plustic:plustic.molten_alumite)                                                 = 熔融耐酸铝
 osgloglas                                         (plustic:plustic.molten_osgloglas)                                               = 熔融锇荧黑曜合金
 osmiridium                                        (plustic:plustic.molten_osmiridium)                                              = 熔融铱锇合金
@@ -87,6 +88,8 @@ starmetal                                         (plustic:plustic.molten_starme
 crystal_matrix                                    ([no block])                                                                     = 不定型水晶矩阵
 neutronium                                        ([no block])                                                                     = 超密中子流体
 infinity_metal                                    ([no block])                                                                     = 无尽涌流
+bound_metal                                       ([no block])                                                                     = 熔融束缚金属
+sentient_metal                                    ([no block])                                                                     = 感知流质
 livingrock                                        ([no block])                                                                     = 熔融活石
 manasteel                                         ([no block])                                                                     = 熔融魔力钢
 terrasteel                                        ([no block])                                                                     = 熔融泰拉钢
@@ -150,6 +153,7 @@ valkyrie                                          (tinkersaether:molten_valkyrie
 xu_evil_metal                                     ([no block])                                                                     = 恶魔灌注铁
 xu_enchanted_metal                                ([no block])                                                                     = 附魔金属
 xu_demonic_metal                                  ([no block])                                                                     = 熔融恶魔金属
+molten_blood_infused_iron                         (bloodarsenal:bloodarsenal.molten_blood_infused_iron)                            = 熔融注血铁
 moltenabyssalnite                                 (acintegration:moltenabyssalnite)                                                = 熔融渊素
 moltenrefinedcoralium                             (acintegration:moltencoralium)                                                   = 熔融精炼珊瑚
 moltendreadium                                    (acintegration:moltendreadium)                                                   = 熔融惧质

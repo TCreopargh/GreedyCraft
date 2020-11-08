@@ -15,9 +15,7 @@
             "x": -2,
             "y": 0,
             "z": 2,
-            "elements": [
-                "minecraft:iron_bars@0"
-            ]
+            "elements": "iron_bars"
         },
         {
             "x": -1,
@@ -95,9 +93,7 @@
             "x": 2,
             "y": 0,
             "z": 2,
-            "elements": [
-                "minecraft:iron_bars@0"
-            ]
+            "elements": "iron_bars"
         },
         {
             "x": -1,
@@ -119,9 +115,7 @@
             "x": 0,
             "y": 0,
             "z": 4,
-            "elements": [
-                "minecraft:iron_bars@0"
-            ]
+            "elements": "iron_bars"
         },
         {
             "x": 1,

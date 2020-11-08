@@ -1,12 +1,10 @@
 /*
  * This script is created for the GreedyCraft modpack by TCreopargh.
  * You may NOT use this script in any other publicly distributed modpack without my permission.
- * Powered by TCreopargh.
- * All rights reserved.
  */
 
-
 #priority 950
+
 #modloaded projecte
 import mods.zenstages.ZenStager;
 import mods.zenstages.Stage;
@@ -325,7 +323,8 @@ stageNether.addIngredients([
     <ore:blockMeteor>,
     <ore:dustMeteor>,
     <openblocks:auto_anvil>,
-    <hooked:hook:3>
+    <hooked:hook:3>,
+    <additions:tcsponsors-sponsor_chest_fragment>
 ], true);
 
 stageNether.addIngredients([
@@ -457,7 +456,11 @@ stageInfinity.addIngredients([
     <additions:greedycraft-infinity_block_block>,
     <additions:greedycraft-infinity_block_block_block>,
     <additions:greedycraft-difficulty_changer>,
-    <draconicevolution:draconic_staff_of_power>
+    <draconicevolution:draconic_staff_of_power>,
+    <extrautils2:rainbowgenerator:2>,
+    <extrautils2:rainbowgenerator:1>,
+    <extrautils2:rainbowgenerator>,
+    <solarflux:solar_panel_infinity>
 ], true);
 
 stageGraduated.addIngredients([
@@ -492,7 +495,8 @@ stageGraduated.addIngredients([
     <randomthings:spectrecoil_genesis>,
     <additions:greedycraft-ocd_certificate>,
     <ae2wtlib:wut_creative>,
-    <ae2wtlib:wut_creative>.withTag({StoredTerminals: [{ForgeCaps: {"astralsorcery:cap_item_amulet_holder": {}}, id: "wct:wct_creative", Count: 1 as byte, Damage: 0 as short}, {ForgeCaps: {"astralsorcery:cap_item_amulet_holder": {}}, id: "wit:wct_creative", Count: 1 as byte, Damage: 0 as short}, {ForgeCaps: {"astralsorcery:cap_item_amulet_holder": {}}, id: "wit:wit_creative", Count: 1 as byte, Damage: 0 as short}, {ForgeCaps: {"astralsorcery:cap_item_amulet_holder": {}}, id: "wft:wft_creative", Count: 1 as byte, Damage: 0 as short}], IsInRange: 0 as byte, SelectedTerminal: 0, internalCurrentPower: 1600000.0})
+    <ae2wtlib:wut_creative>.withTag({StoredTerminals: [{ForgeCaps: {"astralsorcery:cap_item_amulet_holder": {}}, id: "wct:wct_creative", Count: 1 as byte, Damage: 0 as short}, {ForgeCaps: {"astralsorcery:cap_item_amulet_holder": {}}, id: "wit:wct_creative", Count: 1 as byte, Damage: 0 as short}, {ForgeCaps: {"astralsorcery:cap_item_amulet_holder": {}}, id: "wit:wit_creative", Count: 1 as byte, Damage: 0 as short}, {ForgeCaps: {"astralsorcery:cap_item_amulet_holder": {}}, id: "wft:wft_creative", Count: 1 as byte, Damage: 0 as short}], IsInRange: 0 as byte, SelectedTerminal: 0, internalCurrentPower: 1600000.0}),
+    <bloodmagic:sacrificial_dagger:1>
 ]);
 
 stageInfinity.addLiquid(<liquid:infinity_metal>);
@@ -530,7 +534,15 @@ stageNoviceWizard.addIngredients([
     <thaumcraft:matrix_cost>,
     <thaumcraft:plate:2>,
     <thaumcraft:stabilizer>,
-    <thaumcraft:ingot>
+    <thaumcraft:ingot>,
+    <ore:ingotBoundMetal>,
+    <ore:blockBoundMetal>,
+    <ore:nuggetBoundMetal>,
+    <ore:dustBoundMetal>,
+    <ore:ingotSentientMetal>,
+    <ore:blockSentientMetal>,
+    <ore:nuggetSentientMetal>,
+    <ore:dustSentientMetal>
 ], false);
 
 stageSkilledWizard.addIngredients([
@@ -542,7 +554,9 @@ stageSkilledWizard.addIngredients([
     <astralsorcery:itemcraftingcomponent:4>,
     <additions:greedycraft-arcane_crystal_ball>,
     <ore:blockAstralMetal>,
-    <ore:ingotAstralMetal>
+    <ore:ingotAstralMetal>,
+    <ore:blockCrimsonite>,
+    <ore:ingotCrimsonite>
 ], true);
 
 stageMasterWizard.addIngredients([
@@ -678,7 +692,6 @@ stageMasterEngineer.addIngredients([
     <solarflux:solar_panel_wyvern>,
     <solarflux:solar_panel_draconic>,
     <solarflux:solar_panel_chaotic>,
-    <solarflux:solar_panel_infinity>,
     <solarflux:solar_panel_neutronium>,
     <cyclicmagic:spikes_diamond>,
     <extrautils2:spike_diamond>,
@@ -761,7 +774,8 @@ stageFearlessMan.addIngredients([
 stageSkilledEngineer.addModId(["mekanism", "mekanismgenerators"]);
 stageHardmode.addModId(["avaritia", "draconicevolution", "extrabotany", "projecte", "projectex", "taiga"]);
 
-stageNether.addModId(["aether_legacy", "cyclicmagic"]);
+stageNether.addModId(["aether_legacy", "cyclicmagic", "touhou_little_maid"]);
+stageNoviceWizard.addModId(["bloodmagic", "bloodarsenal", "animus"]);
 
 stageNoviceEngineer.addModId(["enderio"]);
 
@@ -775,6 +789,8 @@ stageDisabled.addRecipeRegex("^candymod:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(swor
 stageDisabled.addRecipeRegex("^aether_legacy:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(sword)|(axe)|(shovel)|(boots)|(leggings)|(chestplate)|(helmet)|(plate)|(legs)|(helm)|(pick))$");
 stageDisabled.addRecipeRegex("^betternether:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(sword)|(axe)|(shovel)|(boots)|(leggings)|(chestplate)|(helmet)|(plate)|(legs)|(helm)|(pick))$");
 stageDisabled.addRecipeRegex("^tcomplement:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(sword)|(axe)|(shovel)|(boots)|(leggings)|(chestplate)|(helmet)|(plate)|(legs)|(helm)|(pick))$");
+stageDisabled.addRecipeRegex("^bloodarsenal:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(sword)|(axe)|(shovel)|(boots)|(leggings)|(chestplate)|(helmet)|(plate)|(legs)|(helm)|(pick))$");
+stageHardmode.addRecipeRegex("^botania:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(sword)|(axe)|(shovel)|(boots)|(leggings)|(chestplate)|(helmet)|(plate)|(legs)|(helm)|(pick)|(chest))$");
 stageDisabled.addRecipeRegex("^enderio:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(sword)|(axe)|(shovel)|(boots)|(leggings)|(chestplate)|(helmet))$");
 stageDisabled.addRecipeRegex("^thermalfoundation:tool.fishing_rod_(.*)$");
 stageDisabled.addRecipeRegex("^jaopca:block_crystalcluster(.*)$");
@@ -819,7 +835,14 @@ restageItem("master_engineer", <ore:circuitUltimate>);
 restageItem("fusion_matrix", <ore:dustDraconium>);
 restageItem("wither_slayer", <enderio:block_reinforced_obsidian>);
 restageItem("awakened", <cyclicmagic:glowing_chorus>);
-restageItem("fusion_matrix", <draconicevolution:wyvern_core>);
+restageItems("fusion_matrix", [
+    <draconicevolution:wyvern_core>,
+    <draconicevolution:draconic_core>,
+    <ore:ingotDraconium>,
+    <ore:oreDraconium>,
+    <ore:dustDraconium>,
+    <ore:blockDraconium>
+]);
 restageItems("wyvern", [
     <avaritia:neutron_collector>, 
     <avaritia:resource:2>,
@@ -881,7 +904,17 @@ restageItems("disabled", [
     <cyclicmagic:bundled_pipe>,
     <cyclicmagic:heart_toxic>,
     <enderio:block_powered_spawner>,
-    <enderio:item_broken_spawner>
+    <enderio:item_broken_spawner>,
+    <bloodmagic:bound_pickaxe>,
+    <bloodmagic:bound_axe>,
+    <bloodarsenal:bound_sickle>,
+    <bloodmagic:bound_shovel>,
+    <bloodmagic:bound_sword>,
+    <bloodmagic:living_armour_helmet>,
+    <bloodmagic:living_armour_chest>,
+    <bloodmagic:living_armour_chest>.withTag({}),
+    <bloodmagic:living_armour_leggings>,
+    <bloodmagic:living_armour_boots>
 ] as IIngredient[]);
 
 mods.ItemStages.removeItemStage(<cyclicmagic:inventory_food>);

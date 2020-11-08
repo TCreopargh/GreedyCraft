@@ -557,6 +557,16 @@
 		item: "additions:infernium_ingot",
 		count: 5,
 		random_bonus: 20
+	},
+	{
+		item: "taiga:adamant_ingot",
+		count: 8,
+		random_bonus: 18
+	},
+	{
+		item: "tconevo:material",
+		count: 5,
+		random_bonus: 5
 	}],
 	loot_crate: {
 		string_id: "loot_level_4",

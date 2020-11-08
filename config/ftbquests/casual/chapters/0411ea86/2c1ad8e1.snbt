@@ -29,5 +29,12 @@
 		uid: "a3d8b0cb",
 		type: "loot",
 		table: 1
+	},
+	{
+		uid: "7ae1c57b",
+		type: "advancement",
+		auto: "no_toast",
+		advancement: "twilightforest:progress_knights",
+		criterion: ""
 	}]
 }

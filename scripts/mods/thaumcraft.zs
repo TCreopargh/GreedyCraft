@@ -1,7 +1,6 @@
 /*
  * This script is created for the GreedyCraft modpack by TCreopargh.
- * You may NOT use this script in any other publicly distributed modpack without my permission.
- * Powered by TCreopargh.
+ * You may NOT use this script in any other publicly distributed modpack without my permission.
  * All rights reserved.
  */
 
@@ -12,6 +11,9 @@ import thaumcraft.aspect.CTAspect;
 import crafttweaker.item.IItemStack;
 import crafttweaker.data.IData;
 import crafttweaker.item.IIngredient;
+
+import mods.thaumcraft.Infusion;
+import mods.thaumcraft.ArcaneWorkbench;
 
 var removedRecipes as IItemStack[] = [
     <thaumadditions:adaminite_hood>,
@@ -77,6 +79,6 @@ var removedRecipes as IItemStack[] = [
 <draconicevolution:draconium_ingot>.setAspects(<aspect:draco>*50);
 
 for removedItem in removedRecipes {
-    mods.thaumcraft.Infusion.removeRecipe(removedItem);
-    mods.thaumcraft.ArcaneWorkbench.removeRecipe(removedItem);
+    Infusion.removeRecipe(removedItem);
+    ArcaneWorkbench.removeRecipe(removedItem);
 }

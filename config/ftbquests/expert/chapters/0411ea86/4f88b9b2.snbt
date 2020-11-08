@@ -3,13 +3,11 @@
 	icon: {
 		id: "twilightforest:giant_pickaxe"
 	},
-	x: 6.5d,
+	x: 9.0d,
 	y: -1.0d,
 	description: "击败巨人，并在空岛之下获得余烬之灯",
 	dependencies: [
-		"8ea08f88",
-		"8ce57eb1",
-		"052c11fa"
+		"48a55f8e"
 	],
 	tasks: [{
 		uid: "6ec44536",
@@ -118,5 +116,11 @@
 		uid: "8741abde",
 		type: "loot",
 		table: 2
+	},
+	{
+		uid: "9652e091",
+		type: "advancement",
+		advancement: "twilightforest:progress_troll",
+		criterion: ""
 	}]
 }

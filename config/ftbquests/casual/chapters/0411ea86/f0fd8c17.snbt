@@ -38,5 +38,11 @@
 		type: "command",
 		auto: "no_toast",
 		command: "/scalinghealth difficulty set 20 @p"
+	},
+	{
+		uid: "a61eba16",
+		type: "advancement",
+		advancement: "twilightforest:root",
+		criterion: ""
 	}]
 }

@@ -10,7 +10,7 @@
 		uid: "8a34e4ed",
 		type: "item",
 		items: [{
-			id: "additions:astral_metal_ingot"
+			item: "additions:astral_metal_ingot"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

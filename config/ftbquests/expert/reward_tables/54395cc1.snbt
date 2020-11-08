@@ -1152,7 +1152,7 @@
 	{
 		item: "additions:greedycraft-delivery_order",
 		random_bonus: 1,
-		weight: 2
+		weight: 8
 	},
 	{
 		item: "additions:greedycraft-sunny_doll",
@@ -1164,15 +1164,65 @@
 	},
 	{
 		item: {
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {
-					AS_Amulet_HolderLeast: -6677120288058627187L,
-					AS_Amulet_HolderMost: 3244428519259456314L
-				}
-			},
 			id: "ironchest:iron_shulker_box_light_blue",
 			Damage: 5s
 		}
+	},
+	{
+		item: "additions:greedycraft-loli_lolipop",
+		random_bonus: 3
+	},
+	{
+		item: "additions:greedycraft-purifying_dust",
+		count: 10,
+		random_bonus: 30
+	},
+	{
+		item: "additions:greedycraft-food_bag"
+	},
+	{
+		item: "touhou_little_maid:gashapon_coin",
+		count: 3,
+		random_bonus: 3
+	},
+	{
+		item: "additions:greedycraft-time_shard",
+		random_bonus: 2
+	},
+	{
+		item: {
+			id: "touhou_little_maid:gashapon",
+			Damage: 4s
+		},
+		random_bonus: 1
+	},
+	{
+		item: {
+			id: "touhou_little_maid:gashapon",
+			Damage: 3s
+		},
+		random_bonus: 1
+	},
+	{
+		item: "additions:chromium_ingot",
+		count: 3,
+		random_bonus: 8
+	},
+	{
+		item: "additions:stainless_steel_ingot",
+		count: 2,
+		random_bonus: 4
+	},
+	{
+		item: "additions:greedycraft-furniture_crate"
+	},
+	{
+		item: "threng:material",
+		random_bonus: 3
+	},
+	{
+		item: "additions:perfectly_generic_item",
+		random_bonus: 1
 	}],
 	loot_crate: {
 		string_id: "loot_level_2",

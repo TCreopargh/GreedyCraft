@@ -1,8 +1,6 @@
 /*
  * This script is created for the GreedyCraft modpack by TCreopargh.
- * You may NOT use this script in any other publicly distributed modpack without my permission.
- * Powered by TCreopargh.
- * All rights reserved.
+ * You may NOT use this script in any other publicly distributed modpack without my permission. 
  */
 
 #priority 4000
@@ -84,7 +82,6 @@ val removedRecipes as IIngredient[] = [
     <projecte:relay_mk1>,
     <projecte:relay_mk2>,
     <projecte:relay_mk3>,
-    <comforts:sleeping_bag:*>,
     <bountifulbaubles:ringiron>,
     <draconicevolution:grinder>,
     <extrautils2:chickenring>,
@@ -287,7 +284,23 @@ val removedRecipes as IIngredient[] = [
     <extrabotany:goblinslayerhelm>,
     <extrabotany:goblinslayerchest>,
     <extrabotany:goblinslayerlegs>,
-    <extrabotany:goblinslayerboots>
+    <extrabotany:goblinslayerboots>,
+    <sakura:kodachi>,
+    <sakura:sakura_kodachi>,
+    <sakura:tachi>,
+    <animus:kama_wood>,
+    <animus:kama_stone>,
+    <animus:kama_iron>,
+    <animus:kama_gold>,
+    <animus:kama_diamond>,
+    <animus:kama_bound>,
+    <bloodmagic:soul_forge>,
+    <thaumcraft:amber_brick>,
+    <bloodarsenal:vampire_ring>,
+    <bloodarsenal:blood_infused_iron_axe>,
+    <bloodarsenal:blood_infused_wooden_axe>,
+    <bloodmagic:upgrade_trainer>,
+    <bloodmagic:upgrade_tome>
 ];
 
 for ingredient in removedRecipes {
@@ -297,10 +310,6 @@ for ingredient in removedRecipes {
 recipes.removeByRecipeName("extrautils2:watering_can");
 recipes.removeByRecipeName("thaumcraft:ambertoblock");
 recipes.removeByRecipeName("prefab:ender_gateway");
-
- val omnipedia = <akashictome:tome>.withTag({"akashictome:is_morphing": 1 as byte, display: {Lore: ["§6第10版",  "§a§o你想知道的都在这里"], Name: "§d§ka§r §b百科全书 §d§ka§r"}, "akashictome:data": {tconstruct: {id:  "tconstruct:book", Count: 1 as byte, tag: {"akashictome:definedMod": "tconstruct"}, Damage: 0 as  short}, theoneprobe: {id: "theoneprobe:probenote", Count: 1 as byte, tag:  {"akashictome:definedMod": "theoneprobe"}, Damage: 0 as short}, astralsorcery: {ForgeCaps:  {"astralsorcery:cap_item_amulet_holder": {}}, id: "astralsorcery:itemjournal", Count: 1 as byte, tag:  {"akashictome:definedMod": "astralsorcery"}, Damage: 0 as short}, ftbquests: {id:  "ftbquests:book", Count: 1 as byte, tag: {"akashictome:definedMod": "ftbquests"}, Damage: 0 as  short}, rftools: {id: "rftools:rftools_shape_manual", Count: 1 as byte, tag: {"akashictome:definedMod": "rftools"}, Damage: 0 as short}, botania: {id: "botania:lexicon", Count:  1 as byte, tag: {"akashictome:definedMod": "botania"}, Damage: 0 as short}, rustic: {id: "rustic:book", Count: 1 as byte, tag: {"akashictome:definedMod": "rustic"}, Damage: 0 as short},  draconicevolution: {id: "draconicevolution:info_tablet", Count: 1 as byte, tag:  {"akashictome:definedMod": "draconicevolution"}, Damage: 0 as short}, bibliocraft2: {id: "bibliocraft:atlasbook", Count: 1 as byte, tag: {"akashictome:definedMod": "bibliocraft2", atlasID: 1422948728}, Damage: 33 as short}, bibliocraft1: {id: "bibliocraft:slottedbook", Count: 1 as byte, tag: {"akashictome:definedMod": "bibliocraft1", authorName: "by Sir Hidington"}, Damage: 0 as short}, projecte: {id: "projecte:item.pe_manual", Count: 1 as byte, tag: {"akashictome:definedMod": "projecte"}, Damage: 0 as short}, mekanism: {id: "mekanism:dictionary", Count: 1 as byte, tag: {"akashictome:definedMod": "mekanism"}, Damage: 0 as short}, extrautils2: {id: "extrautils2:book", Count: 1 as byte, tag: {"akashictome:definedMod": "extrautils2"}, Damage: 0 as short}, thermalfoundation: {id: "thermalfoundation:tome_lexicon", Count: 1 as byte, tag: {"akashictome:definedMod": "thermalfoundation"}, Damage: 0 as short}, bibliocraft4: {id: "bibliocraft:testeritem", Count: 1 as byte, tag: {"akashictome:definedMod": "bibliocraft4", containerUpdate: 0 as byte, Inventory: []}, Damage: 0 as short}, actuallyadditions: {id: "actuallyadditions:item_booklet", Count: 1 as byte, tag: {"akashictome:definedMod": "actuallyadditions"}, Damage: 0 as short}, bibliocraft3: {id: "bibliocraft:biblioredbook", Count: 1 as byte, tag: {"akashictome:definedMod": "bibliocraft3", redstonebook: "by James Maxwell"}, Damage: 0 as short}, patchouli: {id: "patchouli:guide_book", Count: 1 as byte, tag: {"akashictome:definedMod": "patchouli", "patchouli:book": "patchouli:greedycraft_guide_book"}, Damage: 0 as short}, abyssalcraft: {id: "abyssalcraft:necronomicon", Count: 1 as byte, tag: {"akashictome:definedMod": "abyssalcraft", PotEnergy: 0.0 as float}, Damage: 0 as short}, yoyos: {id: "yoyos:book", Count: 1 as byte, tag: {"akashictome:definedMod": "yoyos"}, Damage: 0 as short}, forestry1: {id: "forestry:catalogue", Count: 1 as byte, tag: {"akashictome:definedMod": "forestry1"}, Damage: 0 as short}, hammercore: {id: "hammercore:manual", Count: 1 as byte, tag: {"akashictome:definedMod": "hammercore"}, Damage: 0 as short}, cookingforblockheads: {id: "cookingforblockheads:recipe_book", Count: 1 as byte, tag: {"akashictome:definedMod": "cookingforblockheads"}, Damage: 0 as short}, xnet: {id: "xnet:xnet_manual", Count: 1 as byte, tag: {"akashictome:definedMod": "xnet"}, Damage: 0 as short}, rftoolscontrol: {id: "rftoolscontrol:rftoolscontrol_manual", Count: 1 as byte, tag: {"akashictome:definedMod": "rftoolscontrol"}, Damage: 0 as short}, cyclicmagic1: {id: "cyclicmagic:tool_trade", Count: 1 as byte, tag: {"akashictome:definedMod": "cyclicmagic1"}, Damage: 0 as short}, sakura: {ForgeCaps: {"astralsorcery:cap_item_amulet_holder": {}}, id: "patchouli:guide_book", Count: 1 as byte, tag: {"akashictome:definedMod": "sakura", "patchouli:book": "sakura:sakura_guide"}, Damage: 0 as short}, conarm: {id: "conarm:book", Count: 1 as byte, tag: {"akashictome:definedMod": "conarm"}, Damage: 0 as short}, cfm: {id: "cfm:item_recipe_book", Count: 1 as byte, tag: {"akashictome:definedMod": "cfm"}, Damage: 0 as short}, cookingforblockheads1: {id: "cookingforblockheads:recipe_book", Count: 1 as byte, tag: {"akashictome:definedMod": "cookingforblockheads1"}, Damage: 1 as short}, cookingforblockheads2: {id: "cookingforblockheads:recipe_book", Count: 1 as byte, tag: {"akashictome:definedMod": "cookingforblockheads2"}, Damage: 2 as short}, solcarrot: {id: "solcarrot:food_book", Count: 1 as byte, tag: {"akashictome:definedMod": "solcarrot"}, Damage: 0 as short}, rftools2: {id: "rftools:rftools_manual", Count: 1 as byte, tag:  {"akashictome:definedMod": "rftools2"}, Damage: 0 as short}, aether_legacy: {id:  "aether_legacy:lore_book", Count: 1 as byte, tag: {"akashictome:definedMod": "aether_legacy"},  Damage: 0 as short}, spiceoflife: {id: "spiceoflife:bookfoodjournal", Count: 1 as byte, tag:  {"akashictome:definedMod": "spiceoflife"}, Damage: 0 as short}, thaumcraft: {id:  "thaumcraft:thaumonomicon", Count: 1 as byte, tag: {"akashictome:definedMod": "thaumcraft"},  Damage: 0 as short}, logisticspipes: {id: "logisticspipes:guide_book", Count: 1 as byte, tag:  {"akashictome:definedMod": "logisticspipes"}, Damage: 0 as short}, twilightforest: {id:  "patchouli:guide_book", Count: 1 as byte, tag: {"akashictome:definedMod": "twilightforest",  "patchouli:book": "twilightforest:guide"}, Damage: 0 as short}, cyclicmagic: {id:  "guideapi:cyclicmagic-guide", Count: 1 as byte, tag: {"akashictome:definedMod": "cyclicmagic"},  Damage: 0 as short}, openblocks: {id: "openblocks:info_book", Count: 1 as byte, tag:  {"akashictome:definedMod": "openblocks"}, Damage: 0 as short}, forestry: {id:  "forestry:book_forester", Count: 1 as byte, tag: {"akashictome:definedMod": "forestry"}, Damage: 0 as short}, compactmachines3: {id:  "compactmachines3:psd", Count: 1 as byte, tag: {"akashictome:definedMod": "compactmachines3"}, Damage: 0 as short}}}) as IItemStack;
- 
- val errorStone = <minecraft:stone>.withTag({display: {Name:"§c错误之石", Lore:["§e如果你得到了这个，证明你发现了一个BUG！", "如果是这种情况，请将其汇报给作者！"]}}) as IItemStack;
  
 recipes.addShapeless(<minecraft:string> * 2, [<minecraft:web>]);
 recipes.addShapeless("encyclopedia", omnipedia, [<akashictome:tome>]);
@@ -413,7 +422,7 @@ recipes.addShaped("auto_gen_-2042519398", <additions:greedycraft-blood_sigil>,
 [null, <tconstruct:edible:3>, null]]);
 recipes.addShaped("auto_gen_1805774062", <additions:greedycraft-true_blood_sigil>, 
 [[<additions:greedycraft-bloody_sacrifice>, <additions:greedycraft-blood_sigil>, <additions:greedycraft-bloody_sacrifice>],
-[<additions:greedycraft-blood_sigil>, <additions:greedycraft-creative_shard>, <additions:greedycraft-blood_sigil>],
+[<additions:greedycraft-blood_sigil>, <ore:shardCreative>, <additions:greedycraft-blood_sigil>],
 [<additions:greedycraft-bloody_sacrifice>, <additions:greedycraft-blood_sigil>, <additions:greedycraft-bloody_sacrifice>]]);
 recipes.addShaped("auto_gen_826338285", <minecraft:name_tag>, 
 [[null, null, <minecraft:string>],
@@ -441,9 +450,9 @@ recipes.addShapeless("auto_gen_-1694793471", <minecraft:potion>.withTag({Potion:
 recipes.addShapeless("auto_gen_-865558598", <minecraft:dragon_breath>, [<minecraft:glass_bottle>, <ore:skullEnderDragon>.transformReplace(<minecraft:skull:5>)]);
 recipes.addShapeless("auto_gen_-340562326", <minecraft:spawn_egg>.withTag({EntityTag: {id: "abyssalcraft:chagaroth"}}), [<abyssalcraft:dreadaltartop>.transformReplace(<abyssalcraft:dreadaltartop>), <abyssalcraft:dreadaltarbottom>.transformReplace(<abyssalcraft:dreadaltarbottom>), <abyssalcraft:dreadshard>]);
 recipes.addShaped("auto_gen_1124990531", <projecte:item.pe_harvest_god>, 
-[[<additions:greedycraft-creative_soul>, <minecraft:vine>, <additions:greedycraft-creative_soul>],
+[[<ore:soulCreative>, <minecraft:vine>, <ore:soulCreative>],
 [<minecraft:vine>, <projecte:item.pe_ring_iron_band>, <minecraft:vine>],
-[<additions:greedycraft-creative_soul>, <minecraft:vine>, <additions:greedycraft-creative_soul>]]);
+[<ore:soulCreative>, <minecraft:vine>, <ore:soulCreative>]]);
 recipes.addShaped("auto_gen_-132199471", <projecte:nova_catalyst>, 
 [[<projecte:item.pe_fuel:1>, <projecte:item.pe_fuel:1>, <projecte:item.pe_fuel:1>],
 [<projecte:item.pe_matter:1>, <minecraft:tnt>, <projecte:item.pe_matter:1>],
@@ -468,8 +477,8 @@ recipes.addShaped("auto_gen_-1873046907", <additions:greedycraft-medkit_super>,
 recipes.addShapeless("auto_gen_1565439995", <scalinghealth:heartdust>*9, [<scalinghealth:crystalshard>]);
 recipes.addShapeless("auto_gen_522430280", <scalinghealth:crystalshard>, [<scalinghealth:heartdust>, <scalinghealth:heartdust>, <scalinghealth:heartdust>, <scalinghealth:heartdust>, <scalinghealth:heartdust>, <scalinghealth:heartdust>, <scalinghealth:heartdust>, <scalinghealth:heartdust>, <scalinghealth:heartdust>]);
 recipes.addShapeless("auto_gen_-1180907112", <scalinghealth:crystalshard>*9, [<scalinghealth:heartcontainer>]);
-recipes.addShapeless("auto_gen_1296047035", <minecraft:splash_potion>.withTag({CustomPotionEffects:[{Duration:2400,Id:1,Amplifier:49},{Duration:2400,Id:3,Amplifier:49},{Duration:2400,Id:5,Amplifier:49},{Id:6,Amplifier:28},{Duration:2400,Id:8,Amplifier:49},{Duration:2400,Id:10,Amplifier:31},{Duration:2400,Id:11,Amplifier:4},{Duration:2400,Id:12},{Duration:2400,Id:13},{Duration:2400,Id:14},{Duration:2400,Id:16},{Duration:2400,Id:21,Amplifier:49},{Duration:2400,Id:22,Amplifier:49},{Id:23,Amplifier:119},{Duration:2400,Id:26,Amplifier:49},{Duration:2400,Id:28}],CustomPotionColor:16648959,display:{Lore:["§d蕴含了世间强大力量的药剂"],Name:"§5§l巨龙药剂"}}), [<minecraft:glass_bottle>, <additions:greedycraft-dragon_soul>, <additions:greedycraft-creative_shard>, <additions:greedycraft-creative_shard>]);
-recipes.addShapeless("auto_gen_-2147158797", <minecraft:splash_potion>.withTag({CustomPotionEffects:[{Duration:2400,Id:2,Amplifier:49},{Duration:2400,Id:4,Amplifier:49},{Id:7,Amplifier:28},{Duration:2400,Id:9},{Duration:2400,Id:15},{Duration:2400,Id:17,Amplifier:49},{Duration:2400,Id:18,Amplifier:49},{Duration:2400,Id:19,Amplifier:4},{Duration:2400,Id:20,Amplifier:2},{Duration:2400,Id:24},{Duration:2400,Id:25,Amplifier:49},{Duration:2400,Id:27,Amplifier:49}],CustomPotionColor:0,display:{Lore:["蕴含了世间枯萎力量的药剂"],Name:"§8§l枯萎药剂"}}), [<minecraft:glass_bottle>, <additions:greedycraft-wither_soul>, <additions:greedycraft-creative_shard>, <additions:greedycraft-creative_shard>]);
+recipes.addShapeless("auto_gen_1296047035", <minecraft:splash_potion>.withTag({CustomPotionEffects:[{Duration:2400,Id:1,Amplifier:49},{Duration:2400,Id:3,Amplifier:49},{Duration:2400,Id:5,Amplifier:49},{Id:6,Amplifier:28},{Duration:2400,Id:8,Amplifier:49},{Duration:2400,Id:10,Amplifier:31},{Duration:2400,Id:11,Amplifier:4},{Duration:2400,Id:12},{Duration:2400,Id:13},{Duration:2400,Id:14},{Duration:2400,Id:16},{Duration:2400,Id:21,Amplifier:49},{Duration:2400,Id:22,Amplifier:49},{Id:23,Amplifier:119},{Duration:2400,Id:26,Amplifier:49},{Duration:2400,Id:28}],CustomPotionColor:16648959,display:{Lore:["§d蕴含了世间强大力量的药剂"],Name:"§5§l巨龙药剂"}}), [<minecraft:glass_bottle>, <additions:greedycraft-dragon_soul>, <ore:shardCreative>, <ore:shardCreative>]);
+recipes.addShapeless("auto_gen_-2147158797", <minecraft:splash_potion>.withTag({CustomPotionEffects:[{Duration:2400,Id:2,Amplifier:49},{Duration:2400,Id:4,Amplifier:49},{Id:7,Amplifier:28},{Duration:2400,Id:9},{Duration:2400,Id:15},{Duration:2400,Id:17,Amplifier:49},{Duration:2400,Id:18,Amplifier:49},{Duration:2400,Id:19,Amplifier:4},{Duration:2400,Id:20,Amplifier:2},{Duration:2400,Id:24},{Duration:2400,Id:25,Amplifier:49},{Duration:2400,Id:27,Amplifier:49}],CustomPotionColor:0,display:{Lore:["蕴含了世间枯萎力量的药剂"],Name:"§8§l枯萎药剂"}}), [<minecraft:glass_bottle>, <additions:greedycraft-wither_soul>, <ore:shardCreative>, <ore:shardCreative>]);
 recipes.addShapeless("auto_gen_1498134564", <ae2wtlib:wut_creative>, [<wit:wit_creative>, <wct:wct_creative>, <wft:wft_creative>]);
 recipes.addShaped("auto_gen_1179581625", <mysticalagriculture:growth_accelerator>*4, 
 [[<mysticalagriculture:storage:3>, <mysticalagriculture:storage:4>, <mysticalagriculture:storage:3>],
@@ -477,14 +486,14 @@ recipes.addShaped("auto_gen_1179581625", <mysticalagriculture:growth_accelerator
 [<mysticalagriculture:storage:3>, <mysticalagriculture:storage:4>, <mysticalagriculture:storage:3>]]);
 recipes.addShaped("auto_gen_-1186141268", <mekanismgenerators:generator:12>, 
 [[null, <mekanismgenerators:generator:10>, null],
-[<mekanismgenerators:generator:10>, <additions:greedycraft-creative_soul>, <mekanismgenerators:generator:10>],
+[<mekanismgenerators:generator:10>, <ore:soulCreative>, <mekanismgenerators:generator:10>],
 [null, <mekanismgenerators:generator:10>, null]]);
 recipes.addShaped("page0", <additions:greedycraft-ancient_tome_page> , [[<additions:greedycraft-ancient_tome_fragment>, <additions:greedycraft-ancient_tome_fragment>, <additions:greedycraft-ancient_tome_fragment>], [<additions:greedycraft-ancient_tome_fragment>, <additions:greedycraft-ancient_tome_fragment>, <additions:greedycraft-ancient_tome_fragment>], [<additions:greedycraft-ancient_tome_fragment>, <additions:greedycraft-ancient_tome_fragment>, <additions:greedycraft-ancient_tome_fragment>]]);
 recipes.addShaped("page1", <additions:greedycraft-ancient_tome> , [[<additions:greedycraft-ancient_tome_page>, <additions:greedycraft-ancient_tome_page>, <additions:greedycraft-ancient_tome_page>], [<additions:greedycraft-ancient_tome_page>, <additions:greedycraft-ancient_tome_page>, <additions:greedycraft-ancient_tome_page>], [<additions:greedycraft-ancient_tome_page>, <additions:greedycraft-ancient_tome_page>, <additions:greedycraft-ancient_tome_page>]]);
 recipes.addShaped("auto_gen_-1864302722", <mekanism:machineblock:4>, 
 [[<mekanism:teleportationcore>, <mekanism:machineblock:15>, <mekanism:teleportationcore>],
 [<mekanism:robit>, <mekanism:basicblock:8>, <mekanism:machineblock2:6>],
-[<additions:greedycraft-creative_shard>, <ore:blockWyvernMetal>, <additions:greedycraft-creative_shard>]]);
+[<ore:shardCreative>, <ore:blockWyvernMetal>, <ore:shardCreative>]]);
 recipes.addShaped("auto_gen_-1668597593", <actuallyadditions:block_giant_chest>, 
 [[<prefab:item_bundle_of_timber>, <prefab:item_bundle_of_timber>, <prefab:item_bundle_of_timber>],
 [<prefab:item_bundle_of_timber>, <actuallyadditions:block_misc:4>, <prefab:item_bundle_of_timber>],
@@ -503,7 +512,7 @@ recipes.addShaped("auto_gen_-1579945966", <simplesmelteryaccelerator:smeltery_ac
 [<tconstruct:materials>, <tconstruct:ingots:2>, <tconstruct:materials>]]);
 recipes.addShaped("auto_gen_1084804943", <mekanismgenerators:generator:6> * 10, 
 [[null, <mekanism:enrichedalloy>, null],
-[<mekanism:enrichedalloy>, <additions:greedycraft-creative_shard>, <mekanism:enrichedalloy>],
+[<mekanism:enrichedalloy>, <ore:shardCreative>, <mekanism:enrichedalloy>],
 [<mekanism:energytablet>, <mekanism:controlcircuit>, <mekanism:energytablet>]]);
 recipes.addShaped("auto_gen_685141373", <mekanismgenerators:generator:5>, 
 [[<mekanismgenerators:generator:1>, <mekanismgenerators:generator:1>, <mekanismgenerators:generator:1>],
@@ -515,11 +524,11 @@ recipes.addShaped("auto_gen_1109831349", <mekanismgenerators:generator:1>,
 [<mekanism:enrichedalloy>, <mekanism:enrichedalloy>, <mekanism:enrichedalloy>]]);
 recipes.addShaped("auto_gen_-1399323772", <projecte:item.pe_soul_stone>, 
 [[<minecraft:gold_ingot>, <minecraft:gold_ingot>, <minecraft:gold_ingot>],
-[<botania:storage:3>, <additions:greedycraft-creative_shard>, <botania:storage:3>],
+[<botania:storage:3>, <ore:shardCreative>, <botania:storage:3>],
 [<minecraft:gold_ingot>, <minecraft:gold_ingot>, <minecraft:gold_ingot>]]);
 recipes.addShaped("auto_gen_-1815095390", <projecte:item.pe_body_stone>, 
 [[<minecraft:gold_ingot>, <minecraft:gold_ingot>, <minecraft:gold_ingot>],
-[<additions:greedycraft-creative_shard>, <minecraft:redstone_block>, <additions:greedycraft-creative_shard>],
+[<ore:shardCreative>, <minecraft:redstone_block>, <ore:shardCreative>],
 [<minecraft:gold_ingot>, <minecraft:gold_ingot>, <minecraft:gold_ingot>]]);
 recipes.addShaped("auto_gen_-1600085367", <additions:greedycraft-experience_ingot>, 
 [[<additions:greedycraft-experience_nugget>, <additions:greedycraft-experience_nugget>, <additions:greedycraft-experience_nugget>],
@@ -574,7 +583,7 @@ recipes.removeByRecipeName("projecte:conversions/gold_to_diamond");
 recipes.removeByRecipeName("projecte:conversions/iron_to_gold");
 recipes.removeByRecipeName("projecte:conversions/gold_to_iron");
 recipes.addShaped("auto_gen_-626897020", <projecte:interdiction_torch>, 
-[[null, <additions:greedycraft-creative_shard>, null],
+[[null, <ore:shardCreative>, null],
 [<projecte:item.pe_matter:1>, <minecraft:torch>, <projecte:item.pe_matter:1>],
 [<minecraft:glowstone_dust>, <minecraft:glowstone_dust>, <minecraft:glowstone_dust>]]);
 recipes.addShapeless("auto_gen_741775353", <thermalfoundation:material:135>, [<projecte:item.pe_philosophers_stone>.transformReplace(<projecte:item.pe_philosophers_stone>), <ore:ingotPlatinum>, <ore:ingotPlatinum>, <ore:ingotPlatinum>, <ore:ingotPlatinum>]);
@@ -591,7 +600,7 @@ recipes.addShaped("auto_gen_-893381298", <draconicevolution:grinder>,
 [<minecraft:iron_block>, <draconicevolution:awakened_core>, <minecraft:iron_block>]]);
 recipes.addShaped("auto_gen_-1988060210", <extrautils2:rainbowgenerator>, 
 [[<additions:greedycraft-aurora_heart>, <extrautils2:rainbowgenerator:2>, <additions:greedycraft-aurora_heart>],
-[<additions:greedycraft-aurora_heart>, <additions:greedycraft-creative_soul>, <additions:greedycraft-aurora_heart>],
+[<ore:soulCreative>, <ore:soulCreative>, <ore:soulCreative>],
 [<additions:greedycraft-aurora_heart>, <extrautils2:rainbowgenerator:1>, <additions:greedycraft-aurora_heart>]]);
 recipes.addShaped("auto_gen_-360710734", <extrautils2:chickenring>, 
 [[<ore:feather>, <minecraft:iron_ingot>, <ore:feather>],
@@ -654,9 +663,9 @@ recipes.addShaped("auto_gen_272915411", <minecraft:crafting_table>*4,
 [[<ore:workbench>, <ore:workbench>],
 [<ore:workbench>, <ore:workbench>]]);
 recipes.addShaped("auto_gen_-1836563570", <projecte:item.pe_swrg>, 
-[[<ore:feather>, <additions:greedycraft-creative_shard>, <ore:feather>],
+[[<ore:feather>, <ore:shardCreative>, <ore:feather>],
 [<magicfeather:magicfeather>, <projecte:item.pe_ring_iron_band>, <magicfeather:magicfeather>],
-[<ore:feather>, <additions:greedycraft-creative_shard>, <ore:feather>]]);
+[<ore:feather>, <ore:shardCreative>, <ore:feather>]]);
 recipes.addShaped("auto_gen_1736866776", <actuallyadditions:item_wings_of_the_bats>, 
 [[null, <draconicevolution:wyvern_core>, null],
 [<actuallyadditions:item_misc:15>, <actuallyadditions:item_misc:15>, <actuallyadditions:item_misc:15>],
@@ -667,7 +676,7 @@ recipes.addShaped("auto_gen_-136091464", <extracells:terminal.universal.wireless
 [null, null, null],
 [null, null, null]]);
 recipes.addShaped("auto_gen_695406342", <projecte:item.pe_repair_talisman>, 
-[[<additions:greedycraft-creative_shard>, <additions:greedycraft-creative_shard>, <additions:greedycraft-creative_shard>],
+[[<ore:shardCreative>, <ore:shardCreative>, <ore:shardCreative>],
 [<tconstruct:materials:19>, <projecte:item.pe_matter:1>, <tconstruct:materials:19>],
 [<projecte:item.pe_covalence_dust>, <projecte:item.pe_covalence_dust:2>, <projecte:item.pe_covalence_dust:1>]]);
 recipes.addShaped("bh_medal_upgrade0", <additions:greedycraft-bounty_hunter_medal_silver>, 
@@ -710,7 +719,7 @@ recipes.addShapeless("auto_gen_-880073734", <forge:bucketfilled>, [<forge:bucket
 recipes.addShapeless("auto_gen_-983697411", <forge:bucketfilled>, [<forge:bucketfilled>.withTag({ForgeCaps:{"astralsorcery:cap_item_amulet_holder":{}},tag:{FluidName:"binnie.resin",Amount:1000}})]);
 recipes.addShapeless("auto_gen_-628920196", <minecraft:experience_bottle>, [<minecraft:glass_bottle>, <actuallyadditions:item_crystal_empowered:1>]);
 recipes.addShapeless("auto_gen_-2041446050", <storagedrawers:upgrade_creative>*32, 
-[<storagedrawers:upgrade_template>, <additions:greedycraft-creative_shard>]);
+[<storagedrawers:upgrade_template>, <ore:shardCreative>]);
 recipes.addShapeless("auto_gen_-2041446051", <storagedrawers:upgrade_creative>, 
 [<storagedrawers:upgrade_template>, <draconicevolution:awakened_core>]);
 recipes.addShapeless("auto_gen_-60414065", <mysticalagradditions:insanium>*9, [<ore:blockInsaniumEssence>]);
@@ -733,9 +742,9 @@ recipes.addShapeless("auto_gen_1276343630", <extracells:storage.component:3>, [<
 recipes.addShapeless("auto_gen_462958864", <projectex:energy_link>, [<projecte:transmutation_table>.transformReplace(<projecte:transmutation_table>), <rftools:machine_frame>]);
 recipes.addShapeless("pack_guide_book", <patchouli:guide_book>.withTag({"patchouli:book":"patchouli:greedycraft_guide_book"}), [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]);
 recipes.addShaped("auto_gen_591200402", <additions:greedycraft-purifying_pill>, 
-[[null, <additions:greedycraft-creative_shard>, null],
-[<additions:greedycraft-creative_shard>, <thaumcraft:sanity_soap>, <additions:greedycraft-creative_shard>],
-[null, <additions:greedycraft-creative_shard>, null]]);
+[[null, <ore:shardCreative>, null],
+[<ore:shardCreative>, <thaumcraft:sanity_soap>, <ore:shardCreative>],
+[null, <ore:shardCreative>, null]]);
 recipes.addShapeless("auto_gen_-1966891614", <quark:black_ash>, [<darkutils:material>]);
 recipes.addShapeless("auto_gen_2033568330", <enderio:item_material:63>, [<quark:black_ash>]);
 recipes.addShapeless("auto_gen_254615916", <quark:black_ash>, [<enderio:item_material:63>]);
@@ -758,7 +767,7 @@ recipes.addShaped("auto_gen_-1748732628", <extrabotany:material:6>,
 [<ore:gaiaIngot>, <ore:ingotShadowium>, <ore:gaiaIngot>]]);
 recipes.addShaped("auto_gen_-646800657", <thaumcraft:creative_flux_sponge>, 
 [[<thaumcraft:ingot:1>, <minecraft:sponge>, <thaumcraft:ingot:1>],
-[<minecraft:sponge>, <additions:greedycraft-creative_shard>, <minecraft:sponge>],
+[<minecraft:sponge>, <ore:shardCreative>, <minecraft:sponge>],
 [<thaumcraft:ingot:1>, <minecraft:sponge>, <thaumcraft:ingot:1>]]);
 recipes.addShaped("auto_gen_-887606647", <toolprogression:magic_mushroom>, 
 [[null, <ore:ingotDraconicMetal>, null],
@@ -771,7 +780,7 @@ recipes.addShaped("auto_gen_708890545", <extrautils2:chunkloader>,
 recipes.addShaped("auto_gen_-1606461473", <additions:greedycraft-death_coin>, 
 [[<draconicevolution:awakened_core>, <additions:greedycraft-ancient_tome_fragment>, <draconicevolution:awakened_core>],
 [<tconevo:metal:5>, <additions:greedycraft-bounty_hunter_medal>, <tconevo:metal:5>],
-[<draconicevolution:awakened_core>, <additions:greedycraft-creative_shard>, <draconicevolution:awakened_core>]]);
+[<draconicevolution:awakened_core>, <ore:shardCreative>, <draconicevolution:awakened_core>]]);
 recipes.addShaped("auto_gen_-1300353737", <additions:infernium_ingot>, 
 [[<additions:greedycraft-infernium_nugget>, <additions:greedycraft-infernium_nugget>, <additions:greedycraft-infernium_nugget>],
 [<additions:greedycraft-infernium_nugget>, <additions:greedycraft-infernium_nugget>, <additions:greedycraft-infernium_nugget>],
@@ -783,9 +792,9 @@ recipes.addShaped("auto_gen_1001339440", <additions:greedycraft-infernium_block>
 recipes.addShapeless("auto_gen_330301095", <additions:infernium_ingot>*9, [<additions:greedycraft-infernium_block>]);
 recipes.addShapeless("auto_gen_193347573", <additions:greedycraft-infernium_nugget>*9, [<additions:infernium_ingot>]);
 recipes.addShaped("auto_gen_-627290965", <randomthings:timeinabottle>, 
-[[<additions:greedycraft-creative_shard>, <draconicevolution:awakened_core>, <additions:greedycraft-creative_shard>],
+[[<ore:shardCreative>, <draconicevolution:awakened_core>, <ore:shardCreative>],
 [<draconicevolution:awakened_core>, <minecraft:glass_bottle>, <draconicevolution:awakened_core>],
-[<additions:greedycraft-creative_shard>, <draconicevolution:awakened_core>, <additions:greedycraft-creative_shard>]]);
+[<ore:shardCreative>, <draconicevolution:awakened_core>, <ore:shardCreative>]]);
 recipes.addShapeless("unlock_chest", <additions:greedycraft-tower_chest_unlocked>, 
 [<additions:tower_chest>, <additions:greedycraft-tower_chest_key>.anyDamage().transformDamage(1)]);
 recipes.addShapeless("stone", <additions:greedycraft-pebble>, 
@@ -798,12 +807,12 @@ recipes.addShaped("auto_gen_1077378325", <minecraft:vine>,
 [<ore:plantFibre>, null, <ore:plantFibre>]]);
 recipes.addShaped("auto_gen_-1896387144", <ambience:ocarina>, 
 [[null, <minecraft:light_blue_glazed_terracotta>, null],
-[<minecraft:light_blue_glazed_terracotta>, <additions:greedycraft-creative_soul>, <minecraft:light_blue_glazed_terracotta>],
+[<minecraft:light_blue_glazed_terracotta>, <ore:soulCreative>, <minecraft:light_blue_glazed_terracotta>],
 [null, <minecraft:light_blue_glazed_terracotta>, null]]);
 recipes.addShaped("auto_gen_-1617883388", <ambience:horn>, 
-[[null, <additions:greedycraft-creative_soul>, null],
-[<additions:greedycraft-creative_soul>, <twilightforest:crumble_horn>, <additions:greedycraft-creative_soul>],
-[null, <additions:greedycraft-creative_soul>, null]]);
+[[null, <ore:soulCreative>, null],
+[<ore:soulCreative>, <twilightforest:crumble_horn>, <ore:soulCreative>],
+[null, <ore:soulCreative>, null]]);
 recipes.addShapeless("auto_gen_-1599197603", <additions:greedycraft-grass_string>, [<ore:plantFibre>, <ore:plantFibre>, <ore:plantFibre>]);
 recipes.addShapeless("auto_gen_-689226972", <additions:greedycraft-crude_hatchet>, [<ore:pebble>, <ore:string>, <ore:stickWood>]);
 recipes.addShaped("auto_gen_1397188541", <hooked:hook>, 
@@ -820,7 +829,7 @@ recipes.addShapeless("rose_gold_dust", <mca:rose_gold_dust> * 3, [<ore:dustGold>
 recipes.addShapeless("sand_to_glass", <minecraft:glass>, [<ore:sand>, <additions:greedycraft-fake_philosopher_stone>.transformReplace(<additions:greedycraft-fake_philosopher_stone>)]);
 recipes.addShapeless("pinecone", <additions:greedycraft-pinecone>, [<pvj:pinecones>]);
 recipes.addShapeless("stick", <minecraft:stick>, [<ore:twigs>]);
-recipes.addShapeless("earth_talisman", <mowziesmobs:earth_talisman>, [<ore:dirt>, <additions:greedycraft-creative_shard>, <additions:greedycraft-creative_shard>]);
+recipes.addShapeless("earth_talisman", <mowziesmobs:earth_talisman>, [<ore:dirt>, <ore:shardCreative>, <ore:shardCreative>]);
 recipes.addShaped("auto_gen_-138403773", <additions:greedycraft-cryonium_block>, 
 [[<ore:ingotCryonium>, <ore:ingotCryonium>, <ore:ingotCryonium>],
 [<ore:ingotCryonium>, <ore:ingotCryonium>, <ore:ingotCryonium>],
@@ -837,7 +846,7 @@ recipes.addShaped("auto_gen_1913024224", <additions:greedycraft-sun_totem>,
 recipes.addShaped("auto_gen_-935233766", <cyclicmagic:block_miner>, 
 [[null, <minecraft:iron_pickaxe>, null],
 [<ore:circuitUltimate>, <rftools:machine_frame>, <ore:circuitUltimate>],
-[null, <additions:greedycraft-creative_shard>, null]]);
+[null, <ore:shardCreative>, null]]);
 recipes.addShapeless("shroom1", <biomesoplenty:shroompowder>, [<pvj:bracket_fungus>]);
 recipes.addShapeless("shroom2", <biomesoplenty:shroompowder>, [<pvj:flouropore>]);
 recipes.addShapeless("sea_oat1", <harvestcraft:oatsitem>, [<pvj:sea_oats>]);
@@ -865,7 +874,7 @@ recipes.addShaped("shadow_egg", <minecraft:spawn_egg>.withTag({EntityTag: {id: "
 [null, <ore:blockCoal>, null]]);
 recipes.addShaped("card_0", <rftools:shape_card>, 
 [[<ore:paper>, <ore:ingotBrick>, <ore:paper>],
-[<ore:ingotBrick>, <additions:greedycraft-creative_shard>, <ore:ingotBrick>],
+[<ore:ingotBrick>, <ore:shardCreative>, <ore:ingotBrick>],
 [<ore:paper>, <ore:ingotBrick>, <ore:paper>]]);
 recipes.addShaped("card_1", <rftools:shape_card:1>, 
 [[<ore:paper>, <ore:ingotVoid>, <ore:paper>],
@@ -873,7 +882,7 @@ recipes.addShaped("card_1", <rftools:shape_card:1>,
 [<ore:paper>, <ore:ingotVoid>, <ore:paper>]]);
 recipes.addShaped("environmental_controller", <rftools:environmental_controller>, 
 [[<ore:pearlEnderEye>, <ore:netherStar>, <ore:pearlEnderEye>],
-[<additions:greedycraft-creative_shard>, <rftools:machine_frame>, <additions:greedycraft-creative_shard>],
+[<ore:shardCreative>, <rftools:machine_frame>, <ore:shardCreative>],
 [<ore:pearlEnderEye>, <ore:netherStar>, <ore:pearlEnderEye>]]);
 recipes.addShaped("frame_alt", <rftools:machine_frame>, 
 [[<ore:blockGlass>, <ore:ingotIron>, <ore:blockGlass>],
@@ -1241,7 +1250,7 @@ recipes.addShaped("plate_of_honor", <additions:greedycraft-plate_of_honor>,
 [null, <quark:rune:16>, null]]);
 recipes.addShaped("emc_collector_purple", <projectex:collector:5>, 
 [[null, <projectex:matter:2>, null],
-[<projectex:matter:2>, <additions:greedycraft-creative_soul>, <projectex:matter:2>],
+[<projectex:matter:2>, <ore:soulCreative>, <projectex:matter:2>],
 [null, <projectex:matter:2>, null]]);
 recipes.addShaped("demagnetizer", <demagnetize:demagnetizer>, 
 [[<ore:ingotIron>, <ore:dustRedstone>, <ore:ingotIron>],
@@ -1285,3 +1294,25 @@ recipes.addShapeless("neutronium_combination", <avaritia:resource:4> * 2, [<ore:
 recipes.addShapeless("neutronium_block_combination", <avaritia:block_resource> * 2, [<ore:blockProtonium>, <ore:blockElectronium>]);
 recipes.addShapeless("rotten_flesh_block_1", <charm:rotten_flesh_block>, [<thaumcraft:flesh_block>]);
 recipes.addShapeless("rotten_flesh_block_2", <thaumcraft:flesh_block>, [<charm:rotten_flesh_block>]);
+recipes.addShaped("respawn_anchor", <additions:greedycraft-respawn_anchor>, 
+[[<ore:shardTime>, <ore:ingotAeroite>, <ore:shardTime>],
+[<ore:ingotAsgardium>, <ore:ingotAeroite>, <ore:ingotAsgardium>],
+[<ore:shardTime>, <ore:ingotAsgardium>, <ore:shardTime>]]);
+recipes.addShapeless("maid_token", <touhou_little_maid:gashapon_coin>, [<touhou_little_maid:gashapon_coin>]);
+recipes.addShaped("crimsonite_block", <additions:greedycraft-crimsonite_block>, 
+[[<ore:ingotCrimsonite>, <ore:ingotCrimsonite>, <ore:ingotCrimsonite>],
+[<ore:ingotCrimsonite>, <ore:ingotCrimsonite>, <ore:ingotCrimsonite>],
+[<ore:ingotCrimsonite>, <ore:ingotCrimsonite>, <ore:ingotCrimsonite>]]);
+recipes.addShapeless("crimsonite_rev", <additions:crimsonite_ingot> * 9, [<ore:blockCrimsonite>]);
+recipes.addShaped("loli_lolipop", <additions:greedycraft-loli_lolipop>, 
+[[null, <ore:listAllsugar>, <ore:shardTime>],
+[null, <ore:stickWood>, <ore:listAllsugar>],
+[<ore:stickWood>, null, null]]);
+recipes.addShaped("soul_forge", <bloodmagic:soul_forge>, 
+[[<ore:ingotStainlessSteel>, null, <ore:ingotStainlessSteel>],
+[<ore:blockNetherBrick>, <ore:rodBlaze>, <ore:blockNetherBrick>],
+[<ore:blockNetherBrick>, <ore:blockIron>, <ore:blockNetherBrick>]]);
+recipes.addShaped("amber_brick", <thaumcraft:amber_brick> * 4, 
+[[<ore:blockAmber>, <ore:blockAmber>],
+[<ore:blockAmber>, <ore:blockAmber>]]);
+recipes.addShapeless("emc_tablet_clear_nbt", <projecte:item.pe_transmutation_tablet>, [<projecte:item.pe_transmutation_tablet>]);

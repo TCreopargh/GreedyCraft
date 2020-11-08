@@ -18,10 +18,6 @@
 		uid: "256abf62",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				Parent: [],
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "botania:flowerbag"
 		}
 	},

@@ -22,11 +22,5 @@
 		uid: "4c043c86",
 		type: "loot",
 		table: 1
-	},
-	{
-		uid: "0eb07e5f",
-		type: "gamestage",
-		auto: "no_toast",
-		stage: "skilled_wizard"
 	}]
 }

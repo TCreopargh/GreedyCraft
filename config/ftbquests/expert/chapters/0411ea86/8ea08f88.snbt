@@ -51,5 +51,11 @@
 		uid: "f00278f4",
 		type: "loot",
 		table: 2
+	},
+	{
+		uid: "e833e738",
+		type: "advancement",
+		advancement: "twilightforest:progress_ur_ghast",
+		criterion: ""
 	}]
 }

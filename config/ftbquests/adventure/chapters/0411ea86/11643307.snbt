@@ -43,5 +43,12 @@
 		uid: "374790ab",
 		type: "loot",
 		table: 1
+	},
+	{
+		uid: "9aea09b2",
+		type: "advancement",
+		auto: "no_toast",
+		advancement: "twilightforest:progress_lich",
+		criterion: ""
 	}]
 }

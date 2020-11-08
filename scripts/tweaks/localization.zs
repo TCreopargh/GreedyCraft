@@ -1,7 +1,7 @@
 /*
  * This script is created for the GreedyCraft modpack by TCreopargh.
  * You may NOT use this script in any other publicly distributed modpack without my permission.
- * Powered by TCreopargh.
+
  * All rights reserved.
  */
 
@@ -100,6 +100,7 @@ val localizationMap as string[string] = {
     "fluid.stainless_steel": "熔融不锈钢",
     "fluid.protonium": "超密质子流体",
     "fluid.electronium": "粘性电子流质",
+    "fluid.crimsonite": "猩红浆液",
     "jaopca.entry.Dilithium": "双锂",
     "jaopca.entry.Asgardium": "神金",
     "jaopca.entry.Shadowium": "暗影",
@@ -126,7 +127,13 @@ val localizationMap as string[string] = {
     "component.missing.modularmachinery.item.output": "没有找到物品输出仓！",
     "component.missing.modularmachinery.item.input": "没有找到物品输入仓！",
     "item.aether_portal_frame.name": "一键式天境传送门",
-    "modifier.tconevo.crystalline.desc": "§c§n[已禁用]§r\n该特性将不会出现在工具上。"
+    "modifier.tconevo.crystalline.desc": "§c§n[已禁用]§r\n该特性将不会出现在工具上。",
+    "tconevo.info.cannot_replace": "§c无法替换该部件。\n§e拥有进化属性的工具的部件无法被替换。",
+    "tconevo.info.artifact_sealed": "§c无法改动未启封的“匠心之作”！\n§e要想改动该工具，请用工具锻造台将工具和§5启封之板§e合成。",
+    "text.component.animus.transposition.cleared": "移位标记已清除！",
+    "item.bloodmagic.alchemic_vial.base.name": "炼金之瓶",
+    "tile.bloodarsenal.slate..name": "石板砖",
+    "message.touhou_little_maid.change_model.disabled": "§e皮肤切换功能已被禁止，请使用§6扭蛋机§e抽取女仆皮肤！"
 } as string[string];
 
 for k, v in localizationMap {

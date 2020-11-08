@@ -1,8 +1,6 @@
 /*
  * This script is created for the GreedyCraft modpack by TCreopargh.
- * You may NOT use this script in any other publicly distributed modpack without my permission.
- * Powered by TCreopargh.
- * All rights reserved.
+ * You may NOT use this script in any other publicly distributed modpack without my permission. 
  */
 
 #priority 30
@@ -31,3 +29,4 @@ mods.modularmachinery.RecipeBuilder.newBuilder(regName + "_t3", regName, speed *
     .addItemInput(<ore:dungeonLootTier3>)
     .addEnergyPerTickOutput(8000)
     .build();
+    

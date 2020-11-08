@@ -30,5 +30,11 @@
 		uid: "0a71daeb",
 		type: "loot",
 		table: 1
+	},
+	{
+		uid: "0c794514",
+		type: "advancement",
+		advancement: "twilightforest:progress_yeti",
+		criterion: ""
 	}]
 }

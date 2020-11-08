@@ -29,5 +29,9 @@
 	"casings_seared": [
         "tconstruct:seared",
 		"tconstruct:seared_glass"
+    ],
+    "iron_bars": [
+        "minecraft:iron_bars",
+		"chisel:ironpane"
     ]
 }

@@ -1,10 +1,7 @@
 /*
  * This script is created for the GreedyCraft modpack by TCreopargh.
- * You may NOT use this script in any other publicly distributed modpack without my permission.
- * Powered by TCreopargh.
- * All rights reserved.
- */
-
+ * You may NOT use this script in any other publicly distributed modpack without my permission. 
+ */ 
 
 #priority 110
 mods.tieredtooltips.colorStage("hardmode", "b5000000","f0f27121", "f0e94057");

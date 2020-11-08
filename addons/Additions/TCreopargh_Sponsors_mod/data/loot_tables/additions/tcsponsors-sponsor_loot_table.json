@@ -12,7 +12,7 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{ench:[{lvl:5s,id:44},{lvl:3s,id:35}]}"
+                            "tag": "{ench:[{lvl:3s,id:35}]}"
                         }
                     ]
                 },
@@ -196,6 +196,16 @@
 				{
                     "type": "item",
                     "name": "additions:tcsponsors-eye_of_flesh",
+                    "weight": 1
+                },
+				{
+                    "type": "item",
+                    "name": "additions:tcsponsors-sun_umbrella",
+                    "weight": 1
+                },
+				{
+                    "type": "item",
+                    "name": "additions:tcsponsors-flow_of_time",
                     "weight": 1
                 }
             ]

@@ -1,7 +1,7 @@
 /*
  * This script is created for the GreedyCraft modpack by TCreopargh.
  * You may NOT use this script in any other publicly distributed modpack without my permission.
- * Powered by TCreopargh.
+
  * All rights reserved.
  */
 
@@ -10,7 +10,8 @@
 #modloaded plustic
 #modloaded tconevo
 #modloaded mysticalagriculture
-#priority 2200
+#priority 2200
+
 import mods.contenttweaker.tconstruct.Material;
 import mods.contenttweaker.tconstruct.MaterialBuilder;
 import mods.contenttweaker.Fluid;
@@ -74,7 +75,7 @@ insanium.localizedName = "究极精华";
 insanium.addHeadMaterialStats(1800, 29.6, 22.2, 6);
 insanium.addHandleMaterialStats(1.5, 720);
 insanium.addExtraMaterialStats(1200);
-insanium.addBowMaterialStats((1 as float / 0.68 as float) as float, 2.5, 8.2);
+insanium.addBowMaterialStats((1 as float / 0.88 as float) as float, 2.5, 8.2);
 insanium.addArrowShaftMaterialStats(2.25, 10);
 insanium.addProjectileMaterialStats();
 insanium.register();
@@ -107,7 +108,7 @@ experience.localizedName = "知识精华";
 experience.addHeadMaterialStats(400, 4.0, 4.2, 2);
 experience.addHandleMaterialStats(1.2, 80);
 experience.addExtraMaterialStats(60);
-experience.addBowMaterialStats((1 as float / 0.6 as float) as float, 1.1, 1.0);
+experience.addBowMaterialStats((1 as float / 0.72 as float) as float, 1.1, 1.0);
 experience.addProjectileMaterialStats();
 experience.register();
 
@@ -124,7 +125,7 @@ infernium.addExtraMaterialStats(1024);
 infernium.addMaterialTrait("flammable", "head");
 infernium.addMaterialTrait("flammable", "handle");
 infernium.addMaterialTrait("flammable", "extra");
-infernium.addBowMaterialStats((1 as float / 1.1 as float) as float, 1.2, 12.4);
+infernium.addBowMaterialStats((1 as float / 1.2 as float) as float, 1.2, 12.4);
 infernium.addArrowShaftMaterialStats(2.0, 30);
 infernium.addProjectileMaterialStats();
 infernium.register();
@@ -741,10 +742,10 @@ strong_tofu_gem.castable = false;
 strong_tofu_gem.representativeItem = <item:tofucraft:material:25>;
 strong_tofu_gem.addItem(<ore:gemTofuStrong>);
 strong_tofu_gem.localizedName = "强化豆腐宝石";
-strong_tofu_gem.addHeadMaterialStats(2300, 11.5, 9.6, 4);
-strong_tofu_gem.addHandleMaterialStats(1.35, 2450);
-strong_tofu_gem.addExtraMaterialStats(2000);
-strong_tofu_gem.addBowMaterialStats((1 as float / 1.2 as float) as float, 1.2, 3.8);
+strong_tofu_gem.addHeadMaterialStats(2300, 8.5, 6.3, 4);
+strong_tofu_gem.addHandleMaterialStats(1.35, 450);
+strong_tofu_gem.addExtraMaterialStats(300);
+strong_tofu_gem.addBowMaterialStats((1 as float / 1.2 as float) as float, 1.2, 2.8);
 strong_tofu_gem.addMaterialTrait("duritos", "head");
 strong_tofu_gem.addMaterialTrait("duritos", "handle");
 strong_tofu_gem.addMaterialTrait("duritos", "extra");
@@ -1156,6 +1157,36 @@ electronium.addBowMaterialStats((1 as float / 0.05 as float) as float, 0.6, -25)
 electronium.addProjectileMaterialStats();
 electronium.register();
 
+val molten_crimsonite = mods.contenttweaker.VanillaFactory.createFluid("crimsonite", Color.fromHex("a30000").getIntColor());
+molten_crimsonite.material = <blockmaterial:lava>;
+molten_crimsonite.viscosity = 3000;
+molten_crimsonite.density = 4500;
+molten_crimsonite.rarity = "EPIC";
+molten_crimsonite.colorize = true;
+molten_crimsonite.temperature = 1350;
+molten_crimsonite.luminosity = 12;
+molten_crimsonite.color = Color.fromHex("a30000").getIntColor();
+molten_crimsonite.stillLocation = "base:fluids/molten";
+molten_crimsonite.flowingLocation = "base:fluids/molten_flowing";
+molten_crimsonite.register();
+
+val crimsonite = mods.contenttweaker.tconstruct.MaterialBuilder.create("crimsonite");
+crimsonite.color = Color.fromHex("a30000").getIntColor(); 
+crimsonite.craftable = false;
+crimsonite.castable = true;
+crimsonite.representativeItem = <item:additions:crimsonite_ingot>;
+crimsonite.liquid = <liquid:crimsonite>;
+crimsonite.localizedName = "猩红";
+crimsonite.addHeadMaterialStats(1600, 21.6, 10.6, 5);
+crimsonite.addHandleMaterialStats(1.6, 500);
+crimsonite.addExtraMaterialStats(420);
+crimsonite.addMaterialTrait("duritos", "head");
+crimsonite.addMaterialTrait("duritos", "handle");
+crimsonite.addMaterialTrait("duritos", "extra");
+crimsonite.addBowMaterialStats((1 as float / 0.75 as float) as float, 1.25, 4.5);
+crimsonite.addProjectileMaterialStats();
+crimsonite.register();
+
 val nylon_string = mods.contenttweaker.tconstruct.MaterialBuilder.create("nylon_string");
 nylon_string.color = Color.fromHex("3949ab").getIntColor(); 
 nylon_string.craftable = true;
@@ -1202,6 +1233,23 @@ terrestrial.addMaterialTrait("duritos", "handle");
 terrestrial.addMaterialTrait("duritos", "extra");
 terrestrial.addProjectileMaterialStats();
 terrestrial.register();
+
+val perfect = mods.contenttweaker.tconstruct.MaterialBuilder.create("perfect");
+perfect.color = Color.fromHex("4caf50").getIntColor(); 
+perfect.craftable = true;
+perfect.castable = false;
+perfect.representativeItem = <item:additions:perfectly_generic_item>;
+perfect.addItem(<ore:itemPerfect>);
+perfect.localizedName = "完美";
+perfect.addHeadMaterialStats(1000, 10.0, 8.0, 4);
+perfect.addHandleMaterialStats(1.0, 1000);
+perfect.addExtraMaterialStats(1000);
+perfect.addBowMaterialStats((1.0 as float / 1.0 as float) as float, 2.0, 5.0);
+perfect.addMaterialTrait("duritos", "head");
+perfect.addMaterialTrait("duritos", "handle");
+perfect.addMaterialTrait("duritos", "extra");
+perfect.addProjectileMaterialStats();
+perfect.register();
 
 val pumpkin = mods.contenttweaker.tconstruct.MaterialBuilder.create("pumpkin");
 pumpkin.color = Color.fromHex("fb8c00").getIntColor(); 

@@ -1,7 +1,6 @@
 /*
  * This script is created for the GreedyCraft modpack by TCreopargh.
- * You may NOT use this script in any other publicly distributed modpack without my permission.
- * Powered by TCreopargh.
+ * You may NOT use this script in any other publicly distributed modpack without my permission.
  * All rights reserved.
  */
 
@@ -18,6 +17,8 @@ mods.MobStages.addStage("hardmode", "enderiozoo:fallenmount");
 mods.MobStages.addStage("hardmode", "enderiozoo:lovechild");
 mods.MobStages.addStage("hardmode", "enderiozoo:withercat");
 mods.MobStages.addStage("hardmode", "enderiozoo:witherwitch");
+mods.MobStages.addStage("nether", "touhou_little_maid:entity.monster.fairy");
+mods.MobStages.addStage("nether", "touhou_little_maid:entity.monster.rinnosuke");
 mods.MobStages.addStage("twilight_shield", "minecraft:blaze");
 mods.MobStages.addStage("twilight_shield", "minecraft:wither_skeleton");
 mods.MobStages.addStage("novice_wizard", "thaumcraft:eldritchguardian");

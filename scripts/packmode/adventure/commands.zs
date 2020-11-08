@@ -1,26 +1,26 @@
 /*
  * This script is created for the GreedyCraft modpack by TCreopargh.
- * You may NOT use this script in any other publicly distributed modpack without my permission.
- * Powered by TCreopargh.
- * All rights reserved.
+ * You may NOT use this script in any other publicly distributed modpack without my permission. 
  */
 
 #priority 50
 #packmode adventure
 // Powered by TCreopargh
+
 import crafttweaker.event.CommandEvent;
 import crafttweaker.event.PlayerRespawnEvent;
 import crafttweaker.player.IPlayer;
 import crafttweaker.item.IItemStack;
 import crafttweaker.event.EntityLivingDeathEvent;
-import mods.ctutils.utils.Math;
 import crafttweaker.data.IData;
-import mods.ctutils.world.IGameRules;
+import crafttweaker.event.PlayerTickEvent;
+
 import mods.zenutils.command.ZenCommand;
 import mods.zenutils.command.ZenUtilsCommandSender;
 import mods.zenutils.command.CommandUtils;
 import mods.zenutils.command.TabCompletion;
-import crafttweaker.event.PlayerTickEvent;
+import mods.ctutils.utils.Math;
+import mods.ctutils.world.IGameRules;
 
 function isWuss(player as IPlayer) as bool {
     return (player.creative || player.hasGameStage("iswuss")); 
@@ -93,7 +93,7 @@ events.onCommand(function (event as CommandEvent) {
     
     if(event.commandSender instanceof IPlayer) {
         val player as IPlayer = event.commandSender;    
-        if((player.name != "TCreopargh") && !isNull(event.parameters[2]) && (event.parameters[2] == "iswuss" || event.parameters[2] == "truehero")) {
+        if(((player.name != "TCreopargh") && !isNull(event.parameters[2]) && (event.parameters[2] == "iswuss" || event.parameters[2] == "truehero")) || ((player.name != "TCreopargh") && !isNull(event.parameters[1]) && (event.parameters[1] == "all"))) {
             event.cancel();
             player.server.commandManager.executeCommand(player.server, "/kill " + player.name);
             player.sendChat("§c§o你想干啥？！");
@@ -165,7 +165,7 @@ events.onCommand(function (event as CommandEvent) {
 });
 
 events.onPlayerTick(function (event as PlayerTickEvent) {
-    if((event.player.world.getWorldTime() as long) % 100 != 0 || event.player.world.remote) {
+    if((event.player.world.getWorldTime() as long) % 200 != 0 || event.player.world.remote) {
         return;
     }
     var player as IPlayer = event.player;

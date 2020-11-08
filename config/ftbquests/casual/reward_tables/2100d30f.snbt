@@ -812,7 +812,27 @@
 	},
 	{
 		item: "additions:greedycraft-delivery_order",
-		random_bonus: 4
+		random_bonus: 4,
+		weight: 2
+	},
+	{
+		item: {
+			id: "chancecubes:silk_touch_pendant"
+		}
+	},
+	{
+		item: {
+			id: "additions:greedycraft-one_punch",
+			tag: {
+				ench: [{
+					lvl: 33s,
+					id: 19
+				}]
+			}
+		}
+	},
+	{
+		item: "additions:greedycraft-blueprint_yoyo"
 	},
 	{
 		item: {
@@ -822,7 +842,36 @@
 					AS_Amulet_HolderMost: 3244428519259456314L
 				}
 			},
-			id: "chancecubes:silk_touch_pendant"
+			id: "touhou_little_maid:gashapon",
+			Damage: 5s
+		},
+		random_bonus: 1
+	},
+	{
+		item: "additions:greedycraft-food_bag",
+		random_bonus: 4
+	},
+	{
+		item: "touhou_little_maid:gashapon_coin",
+		count: 7,
+		random_bonus: 15
+	},
+	{
+		item: "minecraft:emerald_block",
+		count: 16,
+		random_bonus: 12
+	},
+	{
+		item: "taiga:adamant_ingot",
+		count: 2,
+		random_bonus: 2
+	},
+	{
+		item: "additions:greedycraft-plate_of_honor"
+	},
+	{
+		item: {
+			id: "additions:greedycraft-true_eye_of_ender"
 		}
 	}],
 	loot_crate: {

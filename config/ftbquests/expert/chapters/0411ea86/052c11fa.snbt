@@ -51,5 +51,11 @@
 		uid: "cf9dfc80",
 		type: "loot",
 		table: 2
+	},
+	{
+		uid: "486cae56",
+		type: "advancement",
+		advancement: "twilightforest:progress_hydra",
+		criterion: ""
 	}]
 }
