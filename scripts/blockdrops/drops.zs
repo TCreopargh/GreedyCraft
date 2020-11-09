@@ -1,10 +1,10 @@
 /*
  * This script is created for the GreedyCraft modpack by TCreopargh.
- * You may NOT use this script in any other publicly distributed modpack without my permission.
- * All rights reserved.
+ * You may NOT use this script in any other publicly distributed modpack without my permission.
  */
 
-#priority 40
+#priority 40
+
 import mods.dropt.Dropt;
 
 Dropt.list("bedrock")

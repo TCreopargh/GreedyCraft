@@ -300,7 +300,12 @@ val removedRecipes as IIngredient[] = [
     <bloodarsenal:blood_infused_iron_axe>,
     <bloodarsenal:blood_infused_wooden_axe>,
     <bloodmagic:upgrade_trainer>,
-    <bloodmagic:upgrade_tome>
+    <bloodmagic:upgrade_tome>,
+    <prefab:item_bulldozer:*>,
+    <bloodmagic:mimic:*>,
+    <enderio:item_endergy_conduit:11>,
+    <enderio:item_fluid_conduit>,
+    <defiledlands:calling_stone>
 ];
 
 for ingredient in removedRecipes {
@@ -978,31 +983,31 @@ recipes.addShaped("xnet_cable", <xnet:netcable>.withTag({display: {LocName: "til
 [<ore:dustRedstone>, <ore:ingotCopper>, <ore:dustRedstone>],
 [null, <ore:dustRedstone>, null]]);
 
-recipes.addShaped("auto_gen_-99538273", <solarflux:solar_panel_2>, 
+recipes.addShaped("sol_flux_panel_1", <solarflux:solar_panel_2>, 
 [[<solarflux:mirror>, <solarflux:mirror>, <solarflux:mirror>],
 [<solarflux:solar_panel_1>, <ore:ingotGold>, <solarflux:solar_panel_1>],
 [<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>]]);
-recipes.addShaped("auto_gen_-1449036263", <solarflux:solar_panel_3>, 
+recipes.addShaped("sol_flux_panel_2", <solarflux:solar_panel_3>, 
 [[<solarflux:photovoltaic_cell_1>, <solarflux:photovoltaic_cell_1>, <solarflux:photovoltaic_cell_1>],
 [<ore:ingotBronze>, <solarflux:solar_panel_2>, <ore:ingotBronze>],
 [<ore:ingotBronze>, <ore:ingotBronze>, <ore:ingotBronze>]]);
-recipes.addShaped("auto_gen_1253476915", <solarflux:solar_panel_4>, 
+recipes.addShaped("sol_flux_panel_3", <solarflux:solar_panel_4>, 
 [[<solarflux:photovoltaic_cell_2>, <solarflux:photovoltaic_cell_2>, <solarflux:photovoltaic_cell_2>],
 [<ore:ingotSteel>, <solarflux:solar_panel_3>, <ore:ingotSteel>],
 [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>]]);
-recipes.addShaped("auto_gen_-6955136", <solarflux:solar_panel_5>, 
+recipes.addShaped("sol_flux_panel_4", <solarflux:solar_panel_5>, 
 [[<solarflux:photovoltaic_cell_3>, <solarflux:photovoltaic_cell_3>, <solarflux:photovoltaic_cell_3>],
 [<ore:ingotElectricalSteel>, <solarflux:solar_panel_4>, <ore:ingotElectricalSteel>],
 [<ore:ingotElectricalSteel>, <ore:ingotEnergeticAlloy>, <ore:ingotElectricalSteel>]]);
-recipes.addShaped("auto_gen_-1412957844", <solarflux:solar_panel_6>, 
+recipes.addShaped("sol_flux_panel_5", <solarflux:solar_panel_6>, 
 [[<solarflux:photovoltaic_cell_4>, <solarflux:photovoltaic_cell_4>, <solarflux:photovoltaic_cell_4>],
 [<ore:ingotOsmium>, <solarflux:solar_panel_5>, <ore:ingotOsmium>],
 [<ore:ingotOsmium>, <ore:ingotOsmium>, <ore:ingotOsmium>]]);
-recipes.addShaped("auto_gen_-1220121495", <solarflux:solar_panel_7>, 
+recipes.addShaped("sol_flux_panel_6", <solarflux:solar_panel_7>, 
 [[<solarflux:photovoltaic_cell_5>, <solarflux:photovoltaic_cell_5>, <solarflux:photovoltaic_cell_5>],
 [<ore:ingotStellarAlloy>, <solarflux:solar_panel_6>, <ore:ingotStellarAlloy>],
 [<ore:ingotStellarAlloy>, <ore:ingotStellarAlloy>, <ore:ingotStellarAlloy>]]);
-recipes.addShaped("auto_gen_-1053080683", <solarflux:solar_panel_8>, 
+recipes.addShaped("sol_flux_panel_7", <solarflux:solar_panel_8>, 
 [[<solarflux:photovoltaic_cell_6>, <solarflux:photovoltaic_cell_6>, <solarflux:photovoltaic_cell_6>],
 [<ore:ingotFusionMatrix>, <solarflux:solar_panel_7>, <ore:ingotFusionMatrix>],
 [<ore:ingotFusionMatrix>, <ore:ingotFusionMatrix>, <ore:ingotFusionMatrix>]]);
@@ -1316,3 +1321,15 @@ recipes.addShaped("amber_brick", <thaumcraft:amber_brick> * 4,
 [[<ore:blockAmber>, <ore:blockAmber>],
 [<ore:blockAmber>, <ore:blockAmber>]]);
 recipes.addShapeless("emc_tablet_clear_nbt", <projecte:item.pe_transmutation_tablet>, [<projecte:item.pe_transmutation_tablet>]);
+recipes.addShaped("stellar_alloy_conduit_energy", <enderio:item_endergy_conduit:11> * 8, 
+[[<ore:itemConduitBinder>, <ore:ingotStellarAlloy>, <ore:itemConduitBinder>],
+[<ore:itemInfinityGoop>, <ore:ingotTitanium>, <ore:itemInfinityGoop>],
+[<ore:itemConduitBinder>, <ore:ingotStellarAlloy>, <ore:itemConduitBinder>]]);
+recipes.addShaped("stellar_alloy_conduit_fluid", <enderio:item_fluid_conduit> * 8, 
+[[<ore:itemConduitBinder>, <ore:ingotStellarAlloy>, <ore:itemConduitBinder>],
+[<ore:blockGlassHardened>, <ore:ingotTitanium>, <ore:blockGlassHardened>],
+[<ore:itemConduitBinder>, <ore:ingotStellarAlloy>, <ore:itemConduitBinder>]]);
+recipes.addShaped("calling_stone", <defiledlands:calling_stone>, 
+[[<ore:dustBlaze>, <ore:gemScarlite>, <ore:dustBlaze>],
+[<ore:gemScarlite>, <defiledlands:black_heart>, <ore:gemScarlite>],
+[<ore:dustBlaze>, <ore:gemScarlite>, <ore:dustBlaze>]]);

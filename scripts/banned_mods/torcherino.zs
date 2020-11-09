@@ -20,15 +20,15 @@ mods.avaritia.ExtremeCrafting.addShaped("torcherino_1", <torcherino:blockdoublec
 
 <torcherino:blocktorcherino>.addTooltip("§e在？PY又痒了？");
 <torcherino:blocktorcherino>.addTooltip("§e把加速火把插到你PY里，给你好好加个速！");
-<torcherino:blocktorcherino>.addTooltip("§5   ————一位不愿透露姓名的bat");
+<torcherino:blocktorcherino>.addTooltip("§5       ——一位不愿透露姓名的bat");
 
 <torcherino:blockcompressedtorcherino>.addTooltip("§e在？PY又痒了？");
 <torcherino:blockcompressedtorcherino>.addTooltip("§e把加速火把插到你PY里，给你好好加个速！");
-<torcherino:blockcompressedtorcherino>.addTooltip("§5   ————一位不愿透露姓名的bat");
+<torcherino:blockcompressedtorcherino>.addTooltip("§5       ——一位不愿透露姓名的bat");
 
 <torcherino:blockdoublecompressedtorcherino>.addTooltip("§e在？PY又痒了？");
 <torcherino:blockdoublecompressedtorcherino>.addTooltip("§e把加速火把插到你PY里，给你好好加个速！");
-<torcherino:blockdoublecompressedtorcherino>.addTooltip("§5   ————一位不愿透露姓名的bat");
+<torcherino:blockdoublecompressedtorcherino>.addTooltip("§5       ——一位不愿透露姓名的bat");
 
 // 这几个合成配方只会在检测到加速火把mod被安装时加载
 // Powered by TCreopargh

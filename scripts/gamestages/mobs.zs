@@ -1,47 +1,52 @@
 /*
  * This script is created for the GreedyCraft modpack by TCreopargh.
- * You may NOT use this script in any other publicly distributed modpack without my permission.
- * All rights reserved.
+ * You may NOT use this script in any other publicly distributed modpack without my permission.
  */
-
 
 #priority 1000
 
-mods.MobStages.addStage("hardmode", "enderiozoo:concussioncreeper");
-mods.MobStages.addStage("hardmode", "enderiozoo:direslime");
-mods.MobStages.addStage("hardmode", "enderiozoo:direwolf");
-mods.MobStages.addStage("hardmode", "enderiozoo:enderminy");
-mods.MobStages.addStage("hardmode", "enderiozoo:epicsquid");
-mods.MobStages.addStage("hardmode", "enderiozoo:fallenknight");
-mods.MobStages.addStage("hardmode", "enderiozoo:fallenmount");
-mods.MobStages.addStage("hardmode", "enderiozoo:lovechild");
-mods.MobStages.addStage("hardmode", "enderiozoo:withercat");
-mods.MobStages.addStage("hardmode", "enderiozoo:witherwitch");
-mods.MobStages.addStage("nether", "touhou_little_maid:entity.monster.fairy");
-mods.MobStages.addStage("nether", "touhou_little_maid:entity.monster.rinnosuke");
-mods.MobStages.addStage("twilight_shield", "minecraft:blaze");
-mods.MobStages.addStage("twilight_shield", "minecraft:wither_skeleton");
-mods.MobStages.addStage("novice_wizard", "thaumcraft:eldritchguardian");
-mods.MobStages.addStage("novice_wizard", "thaumcraft:cultistportallesser");
-mods.MobStages.addReplacement("enderiozoo:withercat", "minecraft:ocelot");
-mods.MobStages.addReplacement("enderiozoo:witherwitch", "minecraft:witch");
-mods.MobStages.addReplacement("enderiozoo:lovechild", "minecraft:zombie");
-mods.MobStages.addReplacement("enderiozoo:fallenknight", "minecraft:skeleton");
-mods.MobStages.addReplacement("enderiozoo:fallenmount", "minecraft:zombie_horse");
-mods.MobStages.addReplacement("enderiozoo:epicsquid", "minecraft:squid");
-mods.MobStages.addReplacement("enderiozoo:enderminy", "minecraft:enderman");
-mods.MobStages.addReplacement("enderiozoo:direwolf", "minecraft:wolf");
-mods.MobStages.addReplacement("enderiozoo:concussioncreeper", "minecraft:creeper");
+import mods.MobStages;
 
-mods.MobStages.addStage("wyvern", "mowziesmobs:barako");
-mods.MobStages.addStage("hardmode", "mowziesmobs:frostmaw");
+val mobStages as string[string] = {
+    "enderiozoo:concussioncreeper": "hardmode",
+    "enderiozoo:direslime": "hardmode",
+    "enderiozoo:direwolf": "hardmode",
+    "enderiozoo:enderminy": "hardmode",
+    "enderiozoo:epicsquid": "hardmode",
+    "enderiozoo:fallenknight": "hardmode",
+    "enderiozoo:fallenmount": "hardmode",
+    "enderiozoo:lovechild": "hardmode",
+    "enderiozoo:withercat": "hardmode",
+    "enderiozoo:witherwitch": "hardmode",
+    "touhou_little_maid:entity.monster.fairy": "nether",
+    "touhou_little_maid:entity.monster.rinnosuke": "nether",
+    "minecraft:blaze": "twilight_shield",
+    "minecraft:wither_skeleton": "twilight_shield",
+    "thaumcraft:eldritchguardian": "novice_wizard",
+    "thaumcraft:cultistportallesser": "novice_wizard",
+    "mowziesmobs:barako": "wyvern",
+    "mowziesmobs:frostmaw": "hardmode"
+} as string[string];
 
-mods.MobStages.toggleSpawner("enderiozoo:withercat", true);
-mods.MobStages.toggleSpawner("enderiozoo:witherwitch", true);
-mods.MobStages.toggleSpawner("enderiozoo:lovechild", true);
-mods.MobStages.toggleSpawner("enderiozoo:fallenknight", true);
-mods.MobStages.toggleSpawner("enderiozoo:fallenmount", true);
-mods.MobStages.toggleSpawner("enderiozoo:epicsquid", true);
-mods.MobStages.toggleSpawner("enderiozoo:enderminy", true);
-mods.MobStages.toggleSpawner("enderiozoo:direwolf", true);
-mods.MobStages.toggleSpawner("enderiozoo:concussioncreeper", true);
+val mobReplacements as string[string] = {
+    "enderiozoo:withercat": "minecraft:ocelot",
+    "enderiozoo:witherwitch": "minecraft:witch",
+    "enderiozoo:lovechild": "minecraft:zombie",
+    "enderiozoo:fallenknight": "minecraft:skeleton",
+    "enderiozoo:fallenmount": "minecraft:zombie_horse",
+    "enderiozoo:epicsquid": "minecraft:squid",
+    "enderiozoo:enderminy": "minecraft:enderman",
+    "enderiozoo:direwolf": "minecraft:wolf",
+    "enderiozoo:concussioncreeper": "minecraft:creeper"
+} as string[string];
+
+for mob in mobStages {
+    var stage as string = mobStages[mob] as string;
+    MobStages.addStage(stage, mob);
+}
+
+for mob in mobReplacements {
+    var replacement as string = mobReplacements[mob] as string;
+    MobStages.toggleSpawner(mob, true);
+    MobStages.addReplacement(mob, replacement);
+}

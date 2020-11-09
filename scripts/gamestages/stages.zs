@@ -5,14 +5,28 @@
 
 #priority 950
 
-#modloaded projecte
-import mods.zenstages.ZenStager;
-import mods.zenstages.Stage;
-
 import crafttweaker.item.IItemStack;
 import crafttweaker.data.IData;
 import crafttweaker.item.IIngredient;
 
+import mods.zenstages.ZenStager;
+import mods.zenstages.Stage;
+import mods.ItemStages;
+
+val noStageItems as IIngredient[] = [
+    <cyclicmagic:inventory_food>,
+    <cyclicmagic:crafting_food>,
+    <extrabotany:candybag>,
+    <extrabotany:candy:*>,
+    <ore:rock>,
+    <taiga:basalt_block>,
+    <ore:dustDiamond>,
+    <cyclicmagic:slingshot_weapon>,
+    <aether_legacy:aercloud:*>,
+    <ore:dustSalt>,
+    <mekanism:salt>,
+    <bloodmagic:monster_soul:3>
+] as IIngredient[];
 
 var stageTwilightShield = ZenStager.initStage("twilight_shield");
 var stageHardmode = ZenStager.initStage("hardmode");
@@ -86,7 +100,7 @@ stageDescendantOfTheSun.addIngredients([
     <additions:greedycraft-infernium_block>,
     <additions:greedycraft-infernium_nugget>,
     <additions:greedycraft-infernium_ore>
-]);
+], true);
 
 stageExpert.addIngredients([
     <additions:greedycraft-fake_philosopher_stone>,
@@ -324,7 +338,21 @@ stageNether.addIngredients([
     <ore:dustMeteor>,
     <openblocks:auto_anvil>,
     <hooked:hook:3>,
-    <additions:tcsponsors-sponsor_chest_fragment>
+    <additions:tcsponsors-sponsor_chest_fragment>,
+    <ore:ingotLumium>,
+    <ore:blockLumium>,
+    <ore:nuggetLumium>,
+    <ore:dustLumium>,
+    <ore:gearLumium>,
+    <ore:ingotValkyrie>,
+    <ore:nuggetValkyrie>,
+    <ore:blockValkyrie>,
+    <ore:essenceDestroyer>,
+    <ore:ingotRavaging>,
+    <defiledlands:calling_stone>,
+    <ore:essenceMourner>,
+    <ore:gemRemorseful>,
+    <ore:slimecrystalMagma>
 ], true);
 
 stageNether.addIngredients([
@@ -428,7 +456,12 @@ stageHardmode.addIngredients([
     <ore:oreMalachite>,
     <ore:oreSapphire>,
     <ore:oreAmber>,
-    <biomesoplenty:terrestrial_artifact>
+    <biomesoplenty:terrestrial_artifact>,
+    <ore:blockEthaxium>,
+    <ore:ingotEthaxium>,
+    <ore:nuggetEthaxium>,
+    <ore:ingotEthaxiumBrick>,
+    <ore:gemEnderBiotite>
 ], true);
 
 stageInfinity.addIngredients([
@@ -523,7 +556,11 @@ stageWitherSlayer.addIngredients([
     <ore:blockEvilMetal>,
     <rftools:shield_template_block:*>,
     <rftools:shield_block1>,
-    <rftools:shield_block2>
+    <rftools:shield_block2>,
+    <minecraft:end_crystal>,
+    <ore:ingotStellarAlloy>,
+    <ore:blockStellarAlloy>,
+    <ore:nuggetStellarAlloy>
 ], true);
 
 stageAbyssalConquerer.addMob("minecraft:wither");
@@ -677,7 +714,17 @@ stageSkilledEngineer.addIngredients([
     <randomthings:spectrecoil_ender>,
     <bigreactors:oreyellorite>,
     <bigreactors:ingotyellorium>,
-    <bigreactors:dustyellorium>
+    <bigreactors:dustyellorium>,
+    <ore:ingotEnderium>,
+    <ore:blockEnderium>,
+    <ore:nuggetEnderium>,
+    <ore:dustEnderium>,
+    <ore:gearEnderium>,
+    <ore:gemGelid>,
+    <ore:blockGelidGem>,
+    <ore:blockGelidEnderium>,
+    <ore:ingotGelidEnderium>,
+    <ore:nuggetGelidEnderium>
 ], true);
 
 stageMasterEngineer.addIngredients([
@@ -917,14 +964,17 @@ restageItems("disabled", [
     <bloodmagic:living_armour_boots>
 ] as IIngredient[]);
 
-mods.ItemStages.removeItemStage(<cyclicmagic:inventory_food>);
-mods.ItemStages.removeItemStage(<cyclicmagic:crafting_food>);
-mods.ItemStages.removeItemStage(<extrabotany:candybag>);
-mods.ItemStages.removeItemStage(<extrabotany:candy:*>);
-mods.ItemStages.removeItemStage(<ore:rock>);
-mods.ItemStages.removeItemStage(<taiga:basalt_block>);
-mods.ItemStages.removeItemStage(<ore:dustDiamond>);
-mods.ItemStages.removeItemStage(<cyclicmagic:slingshot_weapon>);
-mods.ItemStages.removeItemStage(<aether_legacy:aercloud:*>);
-mods.ItemStages.removeItemStage(<ore:dustSalt>);
-mods.ItemStages.removeItemStage(<mekanism:salt>);
+restageItems("energy_matter_core", [
+    <projectex:stone_table>,
+    <projectex:arcane_tablet>,
+    <projecte:transmutation_table>,
+    <projecte:item.pe_transmutation_tablet>,
+    <projectex:collector:*>,
+    <projectex:matter:*>,
+    <projecte:condenser_mk1>,
+    <projecte:condenser_mk2>
+] as IIngredient[]);
+
+for item in noStageItems {
+    ItemStages.removeItemStage(item);
+}

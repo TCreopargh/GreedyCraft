@@ -63,9 +63,9 @@
                     <var>memused</var>
                     <var>memtotal</var>
                 </pct>
-                <num>75</num>
+                <num>80</num>
                 <num>0</num>
-                <str>$c请按$6R$c键或使用$6/sampler gc$c指令清理内存！</str>
+                <str>$c 建议按$6R$c键清理内存</str>
                 <str />
             </op>
             <op>

@@ -7717,7 +7717,7 @@ extrabotany:dimensioncatalyst - 11399
 extrabotany:blockshadowium - 11400
 extrabotany:blockphotonium - 11401
 extrabotany:chargepad - 11402
-simplevoidworld:portal - 11403
+additions:tcsponsors-eevee_doll - 11403
 yoyos:cord - 11404
 yoyos:creative_yoyo - 11405
 yoyos:wooden_yoyo - 11406

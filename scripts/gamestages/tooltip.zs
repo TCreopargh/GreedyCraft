@@ -28,6 +28,7 @@ mods.tieredtooltips.colorStage("fusion_matrix", "b5000000", "f042275a", "f0734b6
 mods.tieredtooltips.colorStage("graduated", "b5000000", "f0fcfcfc", "f0909090");
 mods.tieredtooltips.colorStage("expert", "b5000000", "f0f953c6", "f0b91d73");
 mods.tieredtooltips.colorStage("descendant_of_the_sun", "b5000000", "f0f12711", "f0f5af19");
+mods.tieredtooltips.colorStage("energy_matter_core", "b5000000", "f0396afc", "f02948ff");
 
 mods.tieredtooltips.colorStage("challenger_a", "b5000000", "f0ff8008", "f0ffc837");
 mods.tieredtooltips.colorStage("challenger_b", "b5000000", "f0ff8008", "f0ffc837");

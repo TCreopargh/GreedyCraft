@@ -4,53 +4,107 @@
  */ 
 
 #priority 299
+
 import crafttweaker.item.IItemStack;
+import mods.TinkerStages;
 
-mods.TinkerStages.addToolTypeStage("wand_blueprint", "tconevo:tool_sceptre");
-mods.TinkerStages.addToolTypeStage("tactic_blueprint", "tconstruct:rapier");
-mods.TinkerStages.addToolTypeStage("tactic_blueprint", "tconstruct:longsword");
-mods.TinkerStages.addToolTypeStage("tactic_blueprint", "plustic:katana");
-mods.TinkerStages.addToolTypeStage("tactic_blueprint", "tconstruct:cleaver");
-mods.TinkerStages.addToolTypeStage("shuriken_blueprint", "tconstruct:shuriken");
-mods.TinkerStages.addToolTypeStage("yoyo_blueprint", "yoyos:yoyo");
+val materialStages as string[string] = {
+    "draconium": "fusion_matrix",
+    "insanium": "hardmode",
+    "ma.supremium": "hardmode",
+    "osmiridium": "hardmode",
+    "osgloglas": "hardmode",
+    "gelid_enderium": "skilled_engineer",
+    "gelid_gem": "skilled_engineer",
+    "infinity_metal": "wielder_of_infinity",
+    "chaotic_metal": "awakened",
+    "draconic_metal": "wyvern",
+    "neutronium": "awakened",
+    "infernium": "descendant_of_the_sun",
+    "ardite": "nether",
+    "cobalt": "nether",
+    "manyullyn": "nether",
+    "meteor": "nether",
+    "titanium": "awakened",
+    "cryonium": "hardmode",
+    "cytosinite": "hardmode",
+    "mithminite": "hardmode",
+    "adaminite": "hardmode",
+    "mithrillium": "hardmode",
+    "terra_alloy": "awakened",
+    "bedrock": "awakened",
+    "protonium": "awakened",
+    "cosmilite": "chaotic",
+    "astral_metal": "skilled_wizard",
+    "red_matter": "hardmode",
+    "dark_matter": "hardmode",
+    "fusion_matrix": "hardmode",
+    "amethyst": "hardmode",
+    "extrabotany:ingotorichalcos": "disabled",
+    "extrabotany:ingotshadowium": "disabled",
+    "void_metal": "master_wizard",
+    "electronium": "fusion_matrix",
+    "sentient_metal": "novice_wizard",
+    "bound_metal": "novice_wizard",
+    "blood_infused_wood": "novice_wizard",
+    "blood_infused_iron": "novice_wizard",
+    "crimsonite": "skilled_wizard",
+    "end_steel": "ender_charm",
+    "stellar_alloy_gc": "wither_slayer",
+    "enderium": "skilled_engineer",
+    "lumium": "nether",
+    "mirion": "abyssal_conquerer",
+    "dreadium": "fearless_man",
+    "ehtaxium": "hardmode",
+    "xu_withering": "wither_slayer",
+    "valkyrie": "nether",
+    "gravitite": "nether",
+    "zanite": "nether",
+    "golden_amber": "nether",
+    "platinum": "skilled_engineer",
+    "iridium": "skilled_engineer",
+    "primal_metal": "master_wizard",
+    "void_metal": "master_wizard",
+    "terrestrial": "hardmode",
+    "protonium": "energy_matter_core",
+    "asgardium": "nether",
+    "dimansional_shard": "nether",
+    "rime": "nether",
+    "shadowium": "hardmode",
+    "orichalcos": "hardmode",
+    "gaia": "nether",
+    "ravaging": "nether",
+    "remorseful": "nether",
+    "magmaslime": "nether",
+    "ender_biotite": "hardmode"
+} as string[string];
 
-mods.TinkerStages.addMaterialStage("fusion_matrix", "draconium");
-mods.TinkerStages.addMaterialStage("hardmode", "insanium");
-mods.TinkerStages.addMaterialStage("hardmode", "ma.supremium");
-mods.TinkerStages.addMaterialStage("hardmode", "osmiridium");
-mods.TinkerStages.addMaterialStage("hardmode", "osgloglas");
-mods.TinkerStages.addMaterialStage("hardmode", "gelid_enderium");
-mods.TinkerStages.addMaterialStage("wielder_of_infinity", "infinity_metal");
-mods.TinkerStages.addMaterialStage("awakened", "chaotic_metal");
-mods.TinkerStages.addMaterialStage("wyvern", "draconic_metal");
-mods.TinkerStages.addMaterialStage("awakened", "neutronium");
-mods.TinkerStages.addMaterialStage("descendant_of_the_sun", "infernium");
-mods.TinkerStages.addModifierStage("hardmode", "mending_moss");
-mods.TinkerStages.addMaterialStage("nether", "ardite");
-mods.TinkerStages.addMaterialStage("nether", "cobalt");
-mods.TinkerStages.addMaterialStage("nether", "manyullyn");
-mods.TinkerStages.addMaterialStage("nether", "meteor");
-mods.TinkerStages.addMaterialStage("awakened", "titanium");
-mods.TinkerStages.addMaterialStage("hardmode", "cryonium");
-mods.TinkerStages.addMaterialStage("hardmode", "cytosinite");
-mods.TinkerStages.addMaterialStage("hardmode", "mithminite");
-mods.TinkerStages.addMaterialStage("hardmode", "adaminite");
-mods.TinkerStages.addMaterialStage("hardmode", "mithrillium");
-mods.TinkerStages.addMaterialStage("awakened", "terra_alloy");
-mods.TinkerStages.addMaterialStage("awakened", "bedrock");
-mods.TinkerStages.addMaterialStage("awakened", "protonium");
-mods.TinkerStages.addMaterialStage("chaotic", "cosmilite");
-mods.TinkerStages.addMaterialStage("skilled_wizard", "astral_metal");
-mods.TinkerStages.addMaterialStage("hardmode", "red_matter");
-mods.TinkerStages.addMaterialStage("hardmode", "dark_matter");
-mods.TinkerStages.addMaterialStage("hardmode", "fusion_matrix");
-mods.TinkerStages.addMaterialStage("hardmode", "amethyst");
-mods.TinkerStages.addMaterialStage("disabled", "extrabotany:ingotorichalcos");
-mods.TinkerStages.addMaterialStage("disabled", "extrabotany:ingotshadowium");
-mods.TinkerStages.addMaterialStage("master_wizard", "void_metal");
-mods.TinkerStages.addMaterialStage("fusion_matrix", "electronium");
-mods.TinkerStages.addMaterialStage("novice_wizard", "sentient_metal");
-mods.TinkerStages.addMaterialStage("novice_wizard", "bound_metal");
-mods.TinkerStages.addMaterialStage("novice_wizard", "blood_infused_wood");
-mods.TinkerStages.addMaterialStage("novice_wizard", "blood_infused_iron");
-mods.TinkerStages.addMaterialStage("skilled_wizard", "crimsonite");
+val toolTypeStages as string[string] = {
+    "tconevo:tool_sceptre": "wand_blueprint",
+    "tconstruct:rapier": "tactic_blueprint",
+    "tconstruct:longsword": "tactic_blueprint",
+    "plustic:katana": "tactic_blueprint",
+    "tconstruct:cleaver": "tactic_blueprint",
+    "tconstruct:shuriken": "shuriken_blueprint",
+    "yoyos:yoyo": "yoyo_blueprint"
+} as string[string];
+
+val modifierStages as string[string] = {
+    "mending_moss": "hardmode"
+} as string[string];
+
+for toolType in toolTypeStages {
+    var stage as string = toolTypeStages[toolType] as string;
+    TinkerStages.addToolTypeStage(stage, toolType);
+}
+
+for modifier in modifierStages {
+    var stage as string = toolTypeStages[modifier] as string;
+    TinkerStages.addModifierStage(stage, modifier);
+}
+
+for material in materialStages {
+    var stage as string = materialStages[material] as string;
+    TinkerStages.addModifierStage(stage, material);
+}
+

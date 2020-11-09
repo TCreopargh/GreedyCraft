@@ -108,15 +108,6 @@ emptiness
 	- Terrain Scale: 16.0
 
 
-simplevoidworld
-	- Id: 43
-	- Height: 256
-	- Has Sky? true
-	- Cloud Height: 128.0
-	- Can Respawn Here? false
-	- Terrain Scale: 1.0
-
-
 candymod
 	- Id: 23
 	- Height: 256

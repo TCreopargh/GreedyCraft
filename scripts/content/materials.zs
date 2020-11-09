@@ -1,8 +1,6 @@
 /*
  * This script is created for the GreedyCraft modpack by TCreopargh.
  * You may NOT use this script in any other publicly distributed modpack without my permission.
-
- * All rights reserved.
  */
 
 #loader contenttweaker 
@@ -846,7 +844,7 @@ aeroite.castable = true;
 aeroite.representativeItem = <item:additions:aeroite_ingot>;
 aeroite.liquid = <liquid:aeroite>;
 aeroite.localizedName = "云浮";
-aeroite.addHeadMaterialStats(200, 17.5, 8.2, 3);
+aeroite.addHeadMaterialStats(200, 17.5, 7.7, 3);
 aeroite.addHandleMaterialStats(1.3, 120);
 aeroite.addExtraMaterialStats(200);
 aeroite.addMaterialTrait("duritos", "head");
@@ -863,7 +861,7 @@ asgardium.castable = true;
 asgardium.representativeItem = <item:additions:asgardium_ingot>;
 asgardium.liquid = <liquid:asgardium>;
 asgardium.localizedName = "神金";
-asgardium.addHeadMaterialStats(600, 12.5, 11.0, 4);
+asgardium.addHeadMaterialStats(600, 12.5, 8.8, 4);
 asgardium.addHandleMaterialStats(1.5, 520);
 asgardium.addExtraMaterialStats(600);
 asgardium.addMaterialTrait("duritos", "head");

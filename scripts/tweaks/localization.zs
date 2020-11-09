@@ -1,13 +1,9 @@
 /*
  * This script is created for the GreedyCraft modpack by TCreopargh.
  * You may NOT use this script in any other publicly distributed modpack without my permission.
-
- * All rights reserved.
  */
 
-
 #priority 800
-
 
 import crafttweaker.game.IGame;
 
@@ -133,11 +129,13 @@ val localizationMap as string[string] = {
     "text.component.animus.transposition.cleared": "移位标记已清除！",
     "item.bloodmagic.alchemic_vial.base.name": "炼金之瓶",
     "tile.bloodarsenal.slate..name": "石板砖",
-    "message.touhou_little_maid.change_model.disabled": "§e皮肤切换功能已被禁止，请使用§6扭蛋机§e抽取女仆皮肤！"
+    "message.touhou_little_maid.change_model.disabled": "§e皮肤切换功能已被禁止，请使用§6扭蛋机§e抽取女仆皮肤！",
+    "entity.Dummy.name": "训练用假人",
+    "item.bountifulbaubles.trinketAnkhCharm.name": "安赫护符"
 } as string[string];
 
 for k, v in localizationMap {
-    game.setLocalization(k, v);
+    game.setLocalization("zh_cn", k, v);
 }
 
 /*
