@@ -1,0 +1,32 @@
+¿ª´üÆ÷ (lootbags:loot_opener - 5226:0) has a TileEntity
+Full block state: lootbags:loot_opener
+Hardness: 1.5000, Explosion resistance: 12.0000, Material: ROCK
+Block class: mal.lootbags.blocks.BlockOpener
+IBlockState properties: <none>
+TileEntity class: mal.lootbags.tileentity.TileEntityOpener
+
+TileEntity NBT (from TileEntity#writeToNBT()):
+TAG_Compound (10) ('')
+{
+    TAG_List (9) ('inputItems') (0 entries of TAG_End (0))
+    {
+    }
+    TAG_Int (3) ('x'): 1136
+    TAG_Int (3) ('cooldown'): 0
+    TAG_Int (3) ('y'): 19
+    TAG_Compound (10) ('ForgeCaps')
+    {
+        TAG_Compound (10) ('abyssalcraft:itemtransfer')
+        {
+            TAG_Byte (1) ('isRunning'): 0
+            TAG_List (9) ('configurations') (0 entries of TAG_End (0))
+            {
+            }
+        }
+    }
+    TAG_List (9) ('outputItems') (0 entries of TAG_End (0))
+    {
+    }
+    TAG_Int (3) ('z'): 822
+    TAG_String (8) ('id'): "lootbags:tileentityopener"
+}
