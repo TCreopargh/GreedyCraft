@@ -106,10 +106,10 @@ key_quark.emote.dab:0
 key_quark.emote.jet:0
 key_quark.emote.exorcist:0
 key_quark.emote.zombie:0
-key_quark.keybind.toggleAutojump:0
 key_quark.keybind.dropoff:0
 key_quark.keybind.changeHotbar:184
 key_quark.keybind.lockBuilding:0
+key_quark.keybind.toggleAutojump:0
 key_keybind.baublesinventory:18:ALT
 key_pe.key.armor_toggle:45:ALT
 key_pe.key.charge:47:ALT
