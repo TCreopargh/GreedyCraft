@@ -915,6 +915,18 @@
     {
       "item": "minecraft:spawn_egg|0",
       "emc": 0
+    },
+    {
+      "item": "guideapi:bloodmagic-guide|0",
+      "emc": 0
+    },
+    {
+      "item": "guideapi:bloodarsenal-guide|0",
+      "emc": 0
+    },
+    {
+      "item": "bloodmagic:sanguine_book|0",
+      "emc": 0
     }
   ]
 }

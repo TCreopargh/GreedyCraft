@@ -89,18 +89,11 @@ val toolTypeStages as string[string] = {
     "yoyos:yoyo": "yoyo_blueprint"
 } as string[string];
 
-val modifierStages as string[string] = {
-    "mending_moss": "hardmode"
-} as string[string];
+TinkerStages.addModifierStage("hardmode", "mending_moss");
 
 for toolType in toolTypeStages {
     var stage as string = toolTypeStages[toolType] as string;
     TinkerStages.addToolTypeStage(stage, toolType);
-}
-
-for modifier in modifierStages {
-    var stage as string = toolTypeStages[modifier] as string;
-    TinkerStages.addModifierStage(stage, modifier);
 }
 
 for material in materialStages {

@@ -766,7 +766,9 @@ stageDisabled.addIngredients([
     <astralsorcery:itemenchantmentamulet>,
     <lootbags:loot_recycler>,
     <lootbags:loot_storage>,
-    <bloodarsenal:base_item:9>
+    <bloodarsenal:base_item:9>,
+    <tconstruct:spaghetti:*>,
+    <tconstruct:moms_spaghetti>
 ], true);
 
 stageDisabled.addLiquid(<liquid:sakura.hot_spring_water>);

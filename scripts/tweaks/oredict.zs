@@ -206,7 +206,8 @@ import crafttweaker.game.IGame;
     <cqrepoured:helmet_dragon>,
     <extrabotany:bottledflame>,
     <astralsorcery:itemconstellationpaper>,
-    <additions:greedycraft-loli_lolipop>
+    <additions:greedycraft-loli_lolipop>,
+    <openblocks:trophy:*>
 ]);
 <ore:dungeonLootTier3>.addItems([
     <additions:greedycraft-goodie_bag>,

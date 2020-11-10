@@ -132,7 +132,7 @@ levelingdamageTrait.localizedDescription = (
     "§o我要变得更强！§r\n" +
     "§f随着工具等级的提升获得越来越高的攻击力。");
 levelingdamageTrait.extraInfo = function(thisTrait, item, tag) {
-    var description as string[] = ["随着工具等级的提升提高其攻击力", "攻击力上限为250%"];
+    var description as string[] = ["随着工具等级的提升提高其攻击力", "攻击力提升上限为100%"];
     return description;
 };
 levelingdamageTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {

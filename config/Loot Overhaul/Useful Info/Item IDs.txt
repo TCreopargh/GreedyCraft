@@ -14118,3 +14118,4 @@ jaopca:fluid_moltenmithril - 17800
 jaopca:fluid_moltenshadowium - 17801
 jaopca:fluid_moltentitanium - 17802
 jaopca:fluid_moltenuranium - 17803
+additions:tcsponsors-water_book - 17804

@@ -144,6 +144,10 @@ LootTweaker.getTable("minecraft:chests/stronghold_library").getPool("main").remo
 LootTweaker.getTable("minecraft:chests/stronghold_crossing").getPool("main").removeEntry("cyclicmagic:item.heart_food");
 LootTweaker.getTable("minecraft:chests/village_blacksmith").getPool("main").removeEntry("cyclicmagic:item.heart_food");
 
+LootTweaker.getTable("minecraft:chests/desert_pyramid").removePool("moms_spaghetti");
+LootTweaker.getTable("minecraft:chests/jungle_temple").removePool("moms_spaghetti");
+LootTweaker.getTable("minecraft:chests/stronghold_crossing").removePool("moms_spaghetti");
+
 addItem(<thermalfoundation:material:128>, 10, 1, 2, 12);
 addItem(<thermalfoundation:material:129>, 10, 1, 2, 12);
 addItem(<thermalfoundation:material:163>, 18, 1, 2, 10);

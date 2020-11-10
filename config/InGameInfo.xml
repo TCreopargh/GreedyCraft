@@ -372,7 +372,7 @@
                 <var>potiondurationticks0</var>
                 <num>0.5</num>
                 <concat>
-                    <str>{potioneffect0} $7|$f</str>
+                    <str>{potioneffect0} $7|$f </str>
                     <op>
                         <str>ge</str>
                         <var>potiondurationticks0</var>
@@ -408,7 +408,7 @@
                 <var>potiondurationticks1</var>
                 <num>0.5</num>
                 <concat>
-                    <str>{potioneffect1} $7|$f</str>
+                    <str>{potioneffect1} $7|$f </str>
                     <op>
                         <str>ge</str>
                         <var>potiondurationticks1</var>
@@ -444,7 +444,7 @@
                 <var>potiondurationticks2</var>
                 <num>0.5</num>
                 <concat>
-                    <str>{potioneffect2} $7|$f</str>
+                    <str>{potioneffect2} $7|$f </str>
                     <op>
                         <str>ge</str>
                         <var>potiondurationticks2</var>
@@ -480,7 +480,7 @@
                 <var>potiondurationticks3</var>
                 <num>0.5</num>
                 <concat>
-                    <str>{potioneffect3} $7|$f</str>
+                    <str>{potioneffect3} $7|$f </str>
                     <op>
                         <str>ge</str>
                         <var>potiondurationticks3</var>
@@ -516,7 +516,7 @@
                 <var>potiondurationticks4</var>
                 <num>0.5</num>
                 <concat>
-                    <str>{potioneffect4} $7|$f</str>
+                    <str>{potioneffect4} $7|$f </str>
                     <op>
                         <str>ge</str>
                         <var>potiondurationticks4</var>
@@ -552,7 +552,7 @@
                 <var>potiondurationticks5</var>
                 <num>0.5</num>
                 <concat>
-                    <str>{potioneffect5} $7|$f</str>
+                    <str>{potioneffect5} $7|$f </str>
                     <op>
                         <str>ge</str>
                         <var>potiondurationticks5</var>
@@ -588,7 +588,7 @@
                 <var>potiondurationticks6</var>
                 <num>0.5</num>
                 <concat>
-                    <str>{potioneffect6} $7|$f</str>
+                    <str>{potioneffect6} $7|$f </str>
                     <op>
                         <str>ge</str>
                         <var>potiondurationticks6</var>
@@ -624,7 +624,7 @@
                 <var>potiondurationticks7</var>
                 <num>0.5</num>
                 <concat>
-                    <str>{potioneffect7} $7|$f</str>
+                    <str>{potioneffect7} $7|$f </str>
                     <op>
                         <str>ge</str>
                         <var>potiondurationticks7</var>
@@ -660,7 +660,7 @@
                 <var>potiondurationticks8</var>
                 <num>0.5</num>
                 <concat>
-                    <str>{potioneffect8} $7|$f</str>
+                    <str>{potioneffect8} $7|$f </str>
                     <op>
                         <str>ge</str>
                         <var>potiondurationticks8</var>
@@ -696,7 +696,7 @@
                 <var>potiondurationticks9</var>
                 <num>0.5</num>
                 <concat>
-                    <str>{potioneffect9} $7|$f</str>
+                    <str>{potioneffect9} $7|$f </str>
                     <op>
                         <str>ge</str>
                         <var>potiondurationticks9</var>
@@ -732,7 +732,7 @@
                 <var>potiondurationticks10</var>
                 <num>0.5</num>
                 <concat>
-                    <str>{potioneffect10} $7|$f</str>
+                    <str>{potioneffect10} $7|$f </str>
                     <op>
                         <str>ge</str>
                         <var>potiondurationticks10</var>
@@ -768,7 +768,7 @@
                 <var>potiondurationticks11</var>
                 <num>0.5</num>
                 <concat>
-                    <str>{potioneffect11} $7|$f</str>
+                    <str>{potioneffect11} $7|$f </str>
                     <op>
                         <str>ge</str>
                         <var>potiondurationticks11</var>
@@ -804,7 +804,7 @@
                 <var>potiondurationticks12</var>
                 <num>0.5</num>
                 <concat>
-                    <str>{potioneffect12} $7|$f</str>
+                    <str>{potioneffect12} $7|$f </str>
                     <op>
                         <str>ge</str>
                         <var>potiondurationticks12</var>

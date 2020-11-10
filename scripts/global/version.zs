@@ -5,5 +5,5 @@
 
 #priority 32767
 
-global versionName as string = "1.12.2";
-global versionCode as int = 62;
+global versionName as string = "1.12.3";
+global versionCode as int = 63;

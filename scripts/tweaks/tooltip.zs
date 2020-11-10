@@ -137,3 +137,4 @@ import crafttweaker.game.IGame;
 <scalinghealth:heartcontainer>.addTooltip("§e如果达到上限请使用§c心之容器 EX");
 <redstonerepository:ring_mining>.addTooltip("§e你不需要该物品，该效果已经自带");
 <prefab:item_monster_masher>.addTooltip("§e注意：不含刷怪笼");
+<tconstruct:materials:19>.addTooltip("§e注意：该强化只有在获得§6hardmode§e游戏阶段以后才能使用");
