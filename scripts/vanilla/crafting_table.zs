@@ -231,7 +231,7 @@ val removedRecipes as IIngredient[] = [
     <minecraft:golden_apple:1>,
     <modularmachinery:blockcasing:4>,
     <rftools:spawner>,
-    <draconicevolution:draconic_spawner>,
+    <draconicevolution:draconic_spawner:*>,
     <enderio:block_powered_spawner>,
     <botania:spawnerclaw>,
     <botania:spawnermover>,
@@ -269,7 +269,6 @@ val removedRecipes as IIngredient[] = [
     <buildinggadgets:copypastetool>,
     <buildinggadgets:destructiontool>,
     <actuallyadditions:block_misc:8>,
-    <cyclicmagic:heart_toxic>,
     <demagnetize:demagnetizer>,
     <demagnetize:demagnetizer_advanced>,
     <biomesoplenty:terrestrial_artifact>,
@@ -305,7 +304,13 @@ val removedRecipes as IIngredient[] = [
     <bloodmagic:mimic:*>,
     <enderio:item_endergy_conduit:11>,
     <enderio:item_fluid_conduit>,
-    <defiledlands:calling_stone>
+    <defiledlands:calling_stone>,
+    <lootbags:loot_recycler>,
+    <extrautils2:itemdestructionwand>,
+    <extrautils2:itembuilderswand>,
+    <lootbags:loot_storage>,
+    <ambience:horn>,
+    <redstonerepository:ring_mining>
 ];
 
 for ingredient in removedRecipes {
@@ -1333,3 +1338,7 @@ recipes.addShaped("calling_stone", <defiledlands:calling_stone>,
 [[<ore:dustBlaze>, <ore:gemScarlite>, <ore:dustBlaze>],
 [<ore:gemScarlite>, <defiledlands:black_heart>, <ore:gemScarlite>],
 [<ore:dustBlaze>, <ore:gemScarlite>, <ore:dustBlaze>]]);
+recipes.addShaped("cyclic_heart_food", <cyclicmagic:heart_food>, 
+[[<scalinghealth:heartcontainer>, <scalinghealth:heartcontainer>, <scalinghealth:heartcontainer>],
+[<scalinghealth:heartcontainer>, <ore:ingotCrimsonite>, <scalinghealth:heartcontainer>],
+[<scalinghealth:heartcontainer>, <scalinghealth:heartcontainer>, <scalinghealth:heartcontainer>]]);

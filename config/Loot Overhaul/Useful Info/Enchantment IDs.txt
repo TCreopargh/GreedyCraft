@@ -224,39 +224,39 @@ openblocks:flim_flam
    - Max Level: 4
 
 
-endercore:autosmelt
-   - Id: 27
-   - Rarity: RARE
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 1
-
-
 endercore:xpboost
-   - Id: 28
+   - Id: 27
    - Rarity: UNCOMMON
    - Treasure: false
    - Min Level: 1
    - Max Level: 3
 
 
-enderio:shimmer
+endercore:autosmelt
+   - Id: 28
+   - Rarity: RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 1
+
+
+enderio:witherweapon
    - Id: 29
+   - Rarity: UNCOMMON
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 1
+
+
+enderio:shimmer
+   - Id: 30
    - Rarity: VERY_RARE
    - Treasure: true
    - Min Level: 1
    - Max Level: 1
 
 
-enderio:repellent
-   - Id: 30
-   - Rarity: VERY_RARE
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 4
-
-
-enderio:witherweapon
+enderio:witherarrow
    - Id: 31
    - Rarity: UNCOMMON
    - Treasure: false
@@ -296,12 +296,12 @@ minecraft:fortune
    - Max Level: 3
 
 
-enderio:witherarrow
+enderio:repellent
    - Id: 36
-   - Rarity: UNCOMMON
+   - Rarity: VERY_RARE
    - Treasure: false
    - Min Level: 1
-   - Max Level: 1
+   - Max Level: 4
 
 
 enderio:soulbound

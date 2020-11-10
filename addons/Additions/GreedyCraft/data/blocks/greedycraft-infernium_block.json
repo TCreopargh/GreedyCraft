@@ -1,7 +1,7 @@
 {
   "item_block": {
     "name": "§6永燃块",
-    "burn_time": 81000,
+    "burn_time": 810000,
     "ore_dict": "blockInfernium",
     "type": "additions:block_simple"
   },

@@ -131,7 +131,9 @@ val localizationMap as string[string] = {
     "tile.bloodarsenal.slate..name": "石板砖",
     "message.touhou_little_maid.change_model.disabled": "§e皮肤切换功能已被禁止，请使用§6扭蛋机§e抽取女仆皮肤！",
     "entity.Dummy.name": "训练用假人",
-    "item.bountifulbaubles.trinketAnkhCharm.name": "安赫护符"
+    "item.bountifulbaubles.trinketAnkhCharm.name": "安赫护符",
+    "item.heart_food.name": "§c心之容器 EX§r",
+    "tooltip.itemstages.name.default": "§5§ka§r §d未知物品 §5§ka§r"
 } as string[string];
 
 for k, v in localizationMap {

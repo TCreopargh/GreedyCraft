@@ -276,9 +276,6 @@
 		random_bonus: 4
 	},
 	{
-		item: "cyclicmagic:heart_food"
-	},
-	{
 		item: "minecraft:cake",
 		random_bonus: 1
 	},

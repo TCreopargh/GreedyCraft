@@ -176,9 +176,6 @@
 		}
 	},
 	{
-		item: "cyclicmagic:heart_food"
-	},
-	{
 		item: "scalinghealth:heartcontainer"
 	},
 	{
@@ -618,12 +615,6 @@
 	},
 	{
 		item: "lootbags:loot_opener"
-	},
-	{
-		item: "lootbags:loot_recycler"
-	},
-	{
-		item: "lootbags:loot_storage"
 	},
 	{
 		item: {

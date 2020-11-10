@@ -1,6 +1,7 @@
 /*
  * This script is created for the GreedyCraft modpack by TCreopargh.
- * You may NOT use this script in any other publicly distributed modpack without my permission. */
+ * You may NOT use this script in any other publicly distributed modpack without my permission.
+ */
 
 #packmode expert
 #priority 20
@@ -29,7 +30,7 @@ Altar.addTraitAltarRecipe("arcane_crystal_ball", <additions:greedycraft-arcane_c
 
 Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/tool_exchange");
 
-Altar.addTraitAltarRecipe("astral_metal", <additions:astral_metal_ingot>, 6000, 400, [
+Altar.addTraitAltarRecipe("astral_metal", <additions:astral_metal_ingot> * 2, 6000, 400, [
 <ore:ingotAstralStarmetal>, <astralsorcery:itemusabledust>, <ore:ingotAstralStarmetal>,
 <astralsorcery:itemusabledust>, <ore:ingotFusionMatrix>, <astralsorcery:itemusabledust>,
 <ore:ingotAstralStarmetal>, <astralsorcery:itemusabledust>, <ore:ingotAstralStarmetal>,

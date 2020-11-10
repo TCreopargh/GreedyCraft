@@ -122,15 +122,6 @@
 		item: {
 			id: "ftbquests:lootcrate",
 			tag: {
-				type: "loot_level_4"
-			}
-		},
-		random_bonus: 1
-	},
-	{
-		item: {
-			id: "ftbquests:lootcrate",
-			tag: {
 				type: "loot_level_3"
 			}
 		},

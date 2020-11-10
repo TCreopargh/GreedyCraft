@@ -105,6 +105,6 @@ for modifier in modifierStages {
 
 for material in materialStages {
     var stage as string = materialStages[material] as string;
-    TinkerStages.addModifierStage(stage, material);
+    TinkerStages.addMaterialStage(stage, material);
 }
 

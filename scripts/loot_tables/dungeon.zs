@@ -114,6 +114,7 @@ LootTweaker.getTable("minecraft:chests/end_city_treasure").removePool("endCity")
 LootTweaker.getTable("minecraft:chests/desert_pyramid").removePool("desertPyramid");
 LootTweaker.getTable("minecraft:chests/abandoned_mineshaft").removePool("spectrecoil_number");
 LootTweaker.getTable("minecraft:chests/end_city_treasure").removePool("spectrecoil_number");
+LootTweaker.getTable("minecraft:chests/village_blacksmith").removePool("villageBlocksmith");
 
 // var artifactsPool = dungeon.getPool("tconevo_artifacts");
 
@@ -130,6 +131,18 @@ LootTweaker.getTable("minecraft:chests/jungle_temple").getPool("main").removeEnt
 LootTweaker.getTable("minecraft:chests/end_city_treasure").getPool("main").removeEntry("cyclicmagic:item.cyclic_wand_build");
 LootTweaker.getTable("minecraft:chests/nether_bridge").getPool("main").removeEntry("cyclicmagic:item.cyclic_wand_build");
 LootTweaker.getTable("minecraft:chests/desert_pyramid").getPool("main").removeEntry("cyclicmagic:item.cyclic_wand_build");
+
+LootTweaker.getTable("minecraft:chests/simple_dungeon").getPool("main").removeEntry("cyclicmagic:item.heart_food");
+LootTweaker.getTable("minecraft:chests/abandoned_mineshaft").getPool("main").removeEntry("cyclicmagic:item.heart_food");
+LootTweaker.getTable("minecraft:chests/end_city_treasure").getPool("main").removeEntry("cyclicmagic:item.heart_food");
+LootTweaker.getTable("minecraft:chests/igloo_chest").getPool("main").removeEntry("cyclicmagic:item.heart_food");
+LootTweaker.getTable("minecraft:chests/jungle_temple").getPool("main").removeEntry("cyclicmagic:item.heart_food");
+LootTweaker.getTable("minecraft:chests/nether_bridge").getPool("main").removeEntry("cyclicmagic:item.heart_food");
+LootTweaker.getTable("minecraft:chests/stronghold_corridor").getPool("main").removeEntry("cyclicmagic:item.heart_food");
+LootTweaker.getTable("minecraft:chests/desert_pyramid").getPool("main").removeEntry("cyclicmagic:item.heart_food");
+LootTweaker.getTable("minecraft:chests/stronghold_library").getPool("main").removeEntry("cyclicmagic:item.heart_food");
+LootTweaker.getTable("minecraft:chests/stronghold_crossing").getPool("main").removeEntry("cyclicmagic:item.heart_food");
+LootTweaker.getTable("minecraft:chests/village_blacksmith").getPool("main").removeEntry("cyclicmagic:item.heart_food");
 
 addItem(<thermalfoundation:material:128>, 10, 1, 2, 12);
 addItem(<thermalfoundation:material:129>, 10, 1, 2, 12);
@@ -175,6 +188,7 @@ addItem(<additions:greedycraft-loli_lolipop>, 3, 1, 1, 2);
 addItem(<additions:greedycraft-food_bag>, 2, 1, 1, 1);
 addItem(<additions:greedycraft-furniture_crate>, 2, 1, 1, 1);
 addItem(<sakura:sakura_diamond>, 2, 1, 3, 8);
+addItem(<thaumcraft:curio>, 2, 1, 1, 2);
 
 var dungeonPool2 = dungeon.getPool("pool2");  
 dungeonPool2.addItemEntryHelper(<additions:greedycraft-reward_ticket_common>, 12, 1, [Functions.setCount(1, 2)], []);

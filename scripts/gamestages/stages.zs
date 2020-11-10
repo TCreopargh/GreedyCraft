@@ -352,7 +352,8 @@ stageNether.addIngredients([
     <defiledlands:calling_stone>,
     <ore:essenceMourner>,
     <ore:gemRemorseful>,
-    <ore:slimecrystalMagma>
+    <ore:slimecrystalMagma>,
+    <ore:blockQuartz>
 ], true);
 
 stageNether.addIngredients([
@@ -567,10 +568,7 @@ stageAbyssalConquerer.addMob("minecraft:wither");
 
 stageNoviceWizard.addIngredients([
     <thaumcraft:infusion_matrix>,
-    <thaumcraft:matrix_speed>,
-    <thaumcraft:matrix_cost>,
     <thaumcraft:plate:2>,
-    <thaumcraft:stabilizer>,
     <thaumcraft:ingot>,
     <ore:ingotBoundMetal>,
     <ore:blockBoundMetal>,
@@ -579,10 +577,16 @@ stageNoviceWizard.addIngredients([
     <ore:ingotSentientMetal>,
     <ore:blockSentientMetal>,
     <ore:nuggetSentientMetal>,
-    <ore:dustSentientMetal>
+    <ore:dustSentientMetal>,
+    <thaumcraft:mechanism_complex>
 ], false);
 
 stageSkilledWizard.addIngredients([
+    <thaumadditions:void_thaumometer>,
+    <thaumadditions:crystal_bore>,
+    <thaumcraft:matrix_speed>,
+    <thaumcraft:matrix_cost>,
+    <thaumcraft:stabilizer>,
     <astralsorcery:blockstarlightinfuser>,
     <astralsorcery:blockattunementaltar>,
     <astralsorcery:blockaltar:3>,
@@ -594,7 +598,7 @@ stageSkilledWizard.addIngredients([
     <ore:ingotAstralMetal>,
     <ore:blockCrimsonite>,
     <ore:ingotCrimsonite>
-], true);
+], false);
 
 stageMasterWizard.addIngredients([
     <thaumcraft:primordial_pearl>,
@@ -759,7 +763,10 @@ stageDisabled.addIngredients([
     <extrautils2:lawsword>,
     <extrautils2:lawsword>.withTag({ench:[]}),
     <openblocks:sprinkler>,
-    <astralsorcery:itemenchantmentamulet>
+    <astralsorcery:itemenchantmentamulet>,
+    <lootbags:loot_recycler>,
+    <lootbags:loot_storage>,
+    <bloodarsenal:base_item:9>
 ], true);
 
 stageDisabled.addLiquid(<liquid:sakura.hot_spring_water>);
@@ -832,12 +839,12 @@ stageHardmode.addRecipeRegex("^tofucraft:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(swo
 stageDisabled.addRecipeRegex("^defiledlands:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(sword)|(axe)|(shovel)|(boots)|(leggings)|(chestplate)|(helmet))$");
 stageDisabled.addRecipeRegex("^abyssalcraft:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(sword)|(axe)|(shovel)|(boots)|(leggings)|(chestplate)|(helmet)|(plate)|(legs)|(helm)|(pick))$");
 stageDisabled.addRecipeRegex("^netherex:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(sword)|(axe)|(shovel)|(boots)|(leggings)|(chestplate)|(helmet)|(plate)|(legs)|(helm)|(pick))$");
-stageDisabled.addRecipeRegex("^candymod:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(sword)|(axe)|(shovel)|(boots)|(leggings)|(chestplate)|(helmet)|(plate)|(legs)|(helm)|(pick))_(.*)$");
-stageDisabled.addRecipeRegex("^aether_legacy:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(sword)|(axe)|(shovel)|(boots)|(leggings)|(chestplate)|(helmet)|(plate)|(legs)|(helm)|(pick))$");
-stageDisabled.addRecipeRegex("^betternether:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(sword)|(axe)|(shovel)|(boots)|(leggings)|(chestplate)|(helmet)|(plate)|(legs)|(helm)|(pick))$");
-stageDisabled.addRecipeRegex("^tcomplement:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(sword)|(axe)|(shovel)|(boots)|(leggings)|(chestplate)|(helmet)|(plate)|(legs)|(helm)|(pick))$");
-stageDisabled.addRecipeRegex("^bloodarsenal:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(sword)|(axe)|(shovel)|(boots)|(leggings)|(chestplate)|(helmet)|(plate)|(legs)|(helm)|(pick))$");
-stageHardmode.addRecipeRegex("^botania:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(sword)|(axe)|(shovel)|(boots)|(leggings)|(chestplate)|(helmet)|(plate)|(legs)|(helm)|(pick)|(chest))$");
+stageDisabled.addRecipeRegex("^candymod:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(sword)|(axe)|(shovel)|(boots)|(leggings)|(chestplate)|(helmet)|(legs)|(helm)|(pick))_(.*)$");
+stageDisabled.addRecipeRegex("^aether_legacy:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(sword)|(axe)|(shovel)|(boots)|(leggings)|(chestplate)|(helmet)|(legs)|(helm)|(pick))$");
+stageDisabled.addRecipeRegex("^betternether:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(sword)|(axe)|(shovel)|(boots)|(leggings)|(chestplate)|(helmet)|(legs)|(helm)|(pick))$");
+stageDisabled.addRecipeRegex("^tcomplement:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(sword)|(axe)|(shovel)|(boots)|(leggings)|(chestplate)|(helmet)|(legs)|(helm)|(pick))$");
+stageDisabled.addRecipeRegex("^bloodarsenal:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(sword)|(axe)|(shovel)|(boots)|(leggings)|(chestplate)|(helmet)|(legs)|(helm)|(pick))$");
+stageHardmode.addRecipeRegex("^botania:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(sword)|(axe)|(shovel)|(boots)|(leggings)|(chestplate)|(helmet)|(legs)|(helm)|(pick)|(chest))$");
 stageDisabled.addRecipeRegex("^enderio:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(sword)|(axe)|(shovel)|(boots)|(leggings)|(chestplate)|(helmet))$");
 stageDisabled.addRecipeRegex("^thermalfoundation:tool.fishing_rod_(.*)$");
 stageDisabled.addRecipeRegex("^jaopca:block_crystalcluster(.*)$");
@@ -949,7 +956,6 @@ restageItems("disabled", [
     <draconicadditions:chaotic_boots>.withTag({DEUpgrades: {}}),
     <cyclicmagic:sprinkler>,
     <cyclicmagic:bundled_pipe>,
-    <cyclicmagic:heart_toxic>,
     <enderio:block_powered_spawner>,
     <enderio:item_broken_spawner>,
     <bloodmagic:bound_pickaxe>,
