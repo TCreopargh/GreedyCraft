@@ -10,6 +10,8 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.data.IData;
 import crafttweaker.item.IIngredient;
 
+import mods.modularmachinery.RecipeBuilder;
+
 val regName = "organic_infuser";
 val speed = 40;
 
@@ -164,10 +166,10 @@ val crops as IItemStack[][] = [
     [<appliedenergistics2:crystal_seed:1200>, <appliedenergistics2:material:12>]
 ];
 
-    var energy = [30, 40, 50, 60, 80, 100, 200] as int[];
-    var time = [15, 20, 25, 30, 40, 60, 600] as int[];
-    var fluid = [500, 550, 600, 650, 700, 800, 3200] as int[];
-    var recipeId = 0;
+var energy = [30, 40, 50, 60, 80, 100, 200] as int[];
+var time = [15, 20, 25, 30, 40, 60, 600] as int[];
+var fluid = [500, 550, 600, 650, 700, 800, 3200] as int[];
+var recipeId = 0;
 
 for row in crops {
     if(row.length != 2) {
@@ -189,20 +191,20 @@ for row in crops {
     } else if(<ore:seedsTier6> has seed) {
         tier = 6;
     }
-    mods.modularmachinery.RecipeBuilder.newBuilder(regName + "_grow_" + seed.name + "_" + recipeId, regName, time[tier], 0)
+    RecipeBuilder.newBuilder(regName + "_grow_" + seed.name + "_" + recipeId, regName, time[tier], 0)
     .addItemInput(seed)
     .addEnergyPerTickInput(energy[tier])
     .addFluidInput(<liquid:organic_fluid> * fluid[tier])
     .addItemOutput(seed)
     .addItemOutput(seed)
-    .setChance(0.1 as float)
+    .setChance(0.05 as float)
     .addItemOutput(essence)
-    .addItemOutput(essence)
-    .setChance(0.5 as float)
     .addItemOutput(essence)
     .setChance(0.25 as float)
     .addItemOutput(essence)
     .setChance(0.125 as float)
+    .addItemOutput(essence)
+    .setChance(0.0625 as float)
     .build();
     
     recipeId+=1;

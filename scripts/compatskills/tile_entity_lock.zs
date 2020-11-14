@@ -4,5 +4,6 @@
  */ 
 
 #priority 400
+import mods.compatskills.TileEntityLock;
 
-mods.compatskills.TileEntityLock.addTileEntityLock("minecraft:enchanting_table", "reskillable:magic|12");
+TileEntityLock.addTileEntityLock("minecraft:enchanting_table", "reskillable:magic|12");

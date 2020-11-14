@@ -9,23 +9,25 @@
 
 import crafttweaker.player.IPlayer;
 import crafttweaker.entity.IEntityLivingBase;
-import mods.ctutils.utils.Math;
 import crafttweaker.damage.IDamageSource;
 import crafttweaker.entity.IEntityMob;
 import crafttweaker.item.IItemStack;
 import crafttweaker.data.IData;
 import crafttweaker.item.IIngredient;
+import crafttweaker.liquid.ILiquidStack;
+import crafttweaker.game.IGame;
+
+import mods.ctutils.utils.Math;
 import mods.contenttweaker.tconstruct.Material;
 import mods.contenttweaker.tconstruct.MaterialBuilder;
 import mods.contenttweaker.Fluid;
 import mods.contenttweaker.VanillaFactory;
-import crafttweaker.liquid.ILiquidStack;
-import crafttweaker.game.IGame;
 import mods.contenttweaker.Color;
 import mods.contenttweaker.tconstruct.Trait;
 import mods.contenttweaker.tconstruct.TraitDataRepresentation;
+import mods.contenttweaker.tconstruct.TraitBuilder;
 
-val poopTrait = mods.contenttweaker.tconstruct.TraitBuilder.create("poopy");
+val poopTrait = TraitBuilder.create("poopy");
 poopTrait.color = Color.fromHex("5d4037").getIntColor(); 
 poopTrait.localizedName = "114514";
 poopTrait.localizedDescription = (
@@ -42,7 +44,7 @@ poopTrait.onHit = function(trait, tool, attacker, target, damage, isCritical) {
 poopTrait.register();
 
 
-val pinkyTrait = mods.contenttweaker.tconstruct.TraitBuilder.create("pinky");
+val pinkyTrait = TraitBuilder.create("pinky");
 pinkyTrait.color = Color.fromHex("ff80ab").getIntColor(); 
 pinkyTrait.localizedName = "粉嫩";
 pinkyTrait.localizedDescription = (
@@ -57,7 +59,7 @@ pinkyTrait.onBlockHarvestDrops = function(trait, tool, event) {
 };
 pinkyTrait.register();
 
-val cotlifestealTrait = mods.contenttweaker.tconstruct.TraitBuilder.create("cotlifesteal");
+val cotlifestealTrait = TraitBuilder.create("cotlifesteal");
 cotlifestealTrait.color = Color.fromHex("ff5252").getIntColor(); 
 cotlifestealTrait.localizedName = "生命汲取";
 cotlifestealTrait.localizedDescription = (
@@ -72,7 +74,7 @@ cotlifestealTrait.afterHit = function(trait, tool, attacker, target, damageDealt
 };
 cotlifestealTrait.register();
 
-val superknockpackTrait = mods.contenttweaker.tconstruct.TraitBuilder.create("superknockback");
+val superknockpackTrait = TraitBuilder.create("superknockback");
 superknockpackTrait.color = Color.fromHex("7e57c2").getIntColor(); 
 superknockpackTrait.localizedName = "大力出奇迹";
 superknockpackTrait.localizedDescription = (
@@ -92,7 +94,7 @@ superknockpackTrait.calcKnockBack = function(trait, tool, attacker, target, dama
 };
 superknockpackTrait.register();
 
-val gambleTrait = mods.contenttweaker.tconstruct.TraitBuilder.create("gamble");
+val gambleTrait = TraitBuilder.create("gamble");
 gambleTrait.color = Color.fromHex("ffa000").getIntColor(); 
 gambleTrait.localizedName = "赌博";
 gambleTrait.localizedDescription = (
@@ -109,7 +111,7 @@ gambleTrait.calcDamage = function(trait, tool, attacker, target, originalDamage,
 };
 gambleTrait.register();
 
-val ragingTrait = mods.contenttweaker.tconstruct.TraitBuilder.create("raging");
+val ragingTrait = TraitBuilder.create("raging");
 ragingTrait.color = Color.fromHex("e040fb").getIntColor(); 
 ragingTrait.localizedName = "暴怒";
 ragingTrait.localizedDescription = (
@@ -123,7 +125,7 @@ ragingTrait.calcDamage = function(trait, tool, attacker, target, originalDamage,
 };
 ragingTrait.register();
 
-val levelingdamageTrait = mods.contenttweaker.tconstruct.TraitBuilder.create("levelingdamage");
+val levelingdamageTrait = TraitBuilder.create("levelingdamage");
 levelingdamageTrait.color = Color.fromHex("7e57c2").getIntColor(); 
 levelingdamageTrait.localizedName = "等级伤害";
 levelingdamageTrait.addItem(<ore:plateHonor>);
@@ -163,7 +165,7 @@ levelingdamageTrait.calcDamage = function(trait, tool, attacker, target, origina
 levelingdamageTrait.register();
 
 
-val thunderingTrait = mods.contenttweaker.tconstruct.TraitBuilder.create("lightning");
+val thunderingTrait = TraitBuilder.create("lightning");
 thunderingTrait.color = Color.fromHex("ffee58").getIntColor(); 
 thunderingTrait.localizedName = "天劫";
 thunderingTrait.localizedDescription = (
@@ -178,7 +180,7 @@ thunderingTrait.afterHit = function(trait, tool, attacker, target, damageDealt, 
 };
 thunderingTrait.register();
 
-val visionTrait = mods.contenttweaker.tconstruct.TraitBuilder.create("vision");
+val visionTrait = TraitBuilder.create("vision");
 visionTrait.color = Color.fromHex("ffeb3b").getIntColor(); 
 visionTrait.localizedName = "视域";
 visionTrait.localizedDescription = (
@@ -198,7 +200,7 @@ visionTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSelected)
 };
 visionTrait.register();
 
-val fortifiedTrait = mods.contenttweaker.tconstruct.TraitBuilder.create("fortified");
+val fortifiedTrait = TraitBuilder.create("fortified");
 fortifiedTrait.color = Color.fromHex("bdbdbd").getIntColor(); 
 fortifiedTrait.localizedName = "固若金汤";
 fortifiedTrait.localizedDescription = (
@@ -209,7 +211,7 @@ fortifiedTrait.onBlock = function(trait, tool, player, event) {
 };
 fortifiedTrait.register();
 
-val reliableTrait = mods.contenttweaker.tconstruct.TraitBuilder.create("reliable");
+val reliableTrait = TraitBuilder.create("reliable");
 reliableTrait.color = Color.fromHex("78909c").getIntColor(); 
 reliableTrait.localizedName = "可靠";
 reliableTrait.localizedDescription = (
@@ -228,7 +230,7 @@ reliableTrait.onToolDamage = function(trait, tool, unmodifiedAmount, newAmount, 
 };
 reliableTrait.register();
 
-val sacrificialTrait = mods.contenttweaker.tconstruct.TraitBuilder.create("sacrificial");
+val sacrificialTrait = TraitBuilder.create("sacrificial");
 sacrificialTrait.color = Color.fromHex("c62828").getIntColor(); 
 sacrificialTrait.localizedName = "天地同寿";
 sacrificialTrait.localizedDescription = (
@@ -241,7 +243,7 @@ sacrificialTrait.calcDamage = function(trait, tool, attacker, target, originalDa
 };
 sacrificialTrait.register();
 
-val halloweenTrait = mods.contenttweaker.tconstruct.TraitBuilder.create("halloween");
+val halloweenTrait = TraitBuilder.create("halloween");
 halloweenTrait.color = Color.fromHex("fb8c00").getIntColor(); 
 halloweenTrait.localizedName = "万圣节";
 halloweenTrait.localizedDescription = (
@@ -257,7 +259,7 @@ halloweenTrait.onHit = function(trait, tool, attacker, target, damage, isCritica
 };
 halloweenTrait.register();
 
-val giantslayerTrait = mods.contenttweaker.tconstruct.TraitBuilder.create("giantslayer");
+val giantslayerTrait = TraitBuilder.create("giantslayer");
 giantslayerTrait.color = Color.fromHex("ffb74d").getIntColor(); 
 giantslayerTrait.localizedName = "巨魔猎手";
 giantslayerTrait.localizedDescription = (
@@ -275,7 +277,7 @@ giantslayerTrait.calcDamage = function(trait, tool, attacker, target, originalDa
 };
 giantslayerTrait.register();
 
-val crystalTrait = mods.contenttweaker.tconstruct.TraitBuilder.create("crystal_force");
+val crystalTrait = TraitBuilder.create("crystal_force");
 crystalTrait.color = Color.fromHex("18ffff").getIntColor(); 
 crystalTrait.localizedName = "水晶之力";
 crystalTrait.localizedDescription = (
@@ -293,7 +295,7 @@ crystalTrait.calcDamage = function(trait, tool, attacker, target, originalDamage
 };
 crystalTrait.register();
 
-val spartanTrait = mods.contenttweaker.tconstruct.TraitBuilder.create("spartan");
+val spartanTrait = TraitBuilder.create("spartan");
 spartanTrait.color = Color.fromHex("e53935").getIntColor(); 
 spartanTrait.localizedName = "斯巴达之怒";
 spartanTrait.localizedDescription = (
@@ -308,7 +310,7 @@ spartanTrait.calcDamage = function(trait, tool, attacker, target, originalDamage
 };
 spartanTrait.register();
 
-val knowledgefulTrait = mods.contenttweaker.tconstruct.TraitBuilder.create("knowledgeful");
+val knowledgefulTrait = TraitBuilder.create("knowledgeful");
 knowledgefulTrait.color = Color.fromHex("76ff03").getIntColor(); 
 knowledgefulTrait.localizedName = "知识之力";
 knowledgefulTrait.localizedDescription = (
@@ -327,7 +329,7 @@ knowledgefulTrait.calcDamage = function(trait, tool, attacker, target, originalD
 };
 knowledgefulTrait.register();
 
-val matterTrait1 = mods.contenttweaker.tconstruct.TraitBuilder.create("matter_condensing1");
+val matterTrait1 = TraitBuilder.create("matter_condensing1");
 matterTrait1.color = Color.fromHex("691b9a").getIntColor(); 
 matterTrait1.localizedName = "物质凝聚";
 matterTrait1.localizedDescription = (
@@ -347,7 +349,7 @@ matterTrait1.afterHit = function(trait, tool, attacker, target, damageDealt, was
 };
 matterTrait1.register();
 
-val matterTrait2 = mods.contenttweaker.tconstruct.TraitBuilder.create("matter_condensing2");
+val matterTrait2 = TraitBuilder.create("matter_condensing2");
 matterTrait2.color = Color.fromHex("691b9a").getIntColor(); 
 matterTrait2.localizedName = "物质凝聚 EX";
 matterTrait2.localizedDescription = (
@@ -367,7 +369,7 @@ matterTrait2.afterHit = function(trait, tool, attacker, target, damageDealt, was
 };
 matterTrait2.register();
 
-val perfectionist = mods.contenttweaker.tconstruct.TraitBuilder.create("perfectionist");
+val perfectionist = TraitBuilder.create("perfectionist");
 perfectionist.color = Color.fromHex("4caf50").getIntColor(); 
 perfectionist.localizedName = "完美主义";
 perfectionist.localizedDescription = (
@@ -377,3 +379,27 @@ perfectionist.calcDamage = function(trait, tool, attacker, target, originalDamag
     return (Math.round(newDamage as float / 10 as float) as float * 10 as float) as float;
 };
 perfectionist.register();
+
+val tidal_force = TraitBuilder.create("tidal_force");
+tidal_force.color = Color.fromHex("64ffda").getIntColor(); 
+tidal_force.localizedName = "潮汐之力";
+tidal_force.localizedDescription = (
+    "§o宁就是海王？§r\n" +
+    "§f持握时获得水下呼吸效果，并且在水中或雨中时能够造成更多伤害！");
+tidal_force.onUpdate = function(trait, tool, world, owner, itemSlot, isSelected) {
+    if(owner instanceof IEntityLivingBase) {
+        var ownerBase as IEntityLivingBase = owner;
+        if(isSelected) {
+            ownerBase.addPotionEffect(<potion:minecraft:water_breathing>.makePotionEffect(50, 0, false, false));
+        }
+    }
+};
+tidal_force.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+    if(attacker.isInWater || (attacker.wet)) {
+        return newDamage * 1.33;
+    } else {
+        return newDamage;
+    }
+};
+tidal_force.register();
+

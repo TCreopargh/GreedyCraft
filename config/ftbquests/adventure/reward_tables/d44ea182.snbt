@@ -383,7 +383,7 @@
 																																																				BlockEntityTag: {
 																																																					Items: [{
 																																																						Slot: 0,
-																																																						id: "eternalsingularity:eternal_singularity",
+																																																						id: "additions:greedycraft-black_hole_remnant",
 																																																						Count: 1
 																																																					}]
 																																																				},

@@ -1,0 +1,31 @@
+ÎÞµ×Ö®ÏäÀ©Õ¹Îë (danknull:danknull_dock - 5315:0) has a TileEntity
+Full block state: danknull:danknull_dock
+Hardness: 10.0000, Explosion resistance: 3600000.0000, Material: IRON
+Block class: p455w0rd.danknull.blocks.BlockDankNullDock
+IBlockState properties: <none>
+TileEntity class: p455w0rd.danknull.blocks.tiles.TileDankNullDock
+
+TileEntity NBT (from TileEntity#writeToNBT()):
+TAG_Compound (10) ('')
+{
+    TAG_Int (3) ('x'): -205
+    TAG_Int (3) ('y'): 63
+    TAG_Compound (10) ('ForgeCaps')
+    {
+        TAG_Compound (10) ('abyssalcraft:itemtransfer')
+        {
+            TAG_Byte (1) ('isRunning'): 0
+            TAG_List (9) ('configurations') (0 entries of TAG_End (0))
+            {
+            }
+        }
+    }
+    TAG_Int (3) ('z'): 127
+    TAG_String (8) ('id'): "danknull:danknull_dock"
+    TAG_Compound (10) ('DankNullStack')
+    {
+        TAG_String (8) ('id'): "minecraft:air"
+        TAG_Byte (1) ('Count'): 2
+        TAG_Short (2) ('Damage'): 15
+    }
+}

@@ -10,6 +10,8 @@ import crafttweaker.data.IData;
 import crafttweaker.item.IIngredient;
 import crafttweaker.oredict.IOreDictEntry;
 
+import mods.modularmachinery.RecipeBuilder;
+
 val regName = "cosmic_forge";
 val speed = 3000;
 
@@ -28,10 +30,11 @@ val itemInput as int[IOreDictEntry] = {
     <ore:ingotGaia> : 1,
     <ore:ingotOsgloglas> : 1,
     <ore:ingotNetherite> : 1,
-    <ore:ingotCrimsonite>: 1
+    <ore:ingotCrimsonite>: 1,
+    <ore:ingotAqualite>: 1
 } as int[IOreDictEntry];
 
-var builder = mods.modularmachinery.RecipeBuilder.newBuilder(regName + "_main", regName, speed, 0);
+var builder = RecipeBuilder.newBuilder(regName + "_main", regName, speed, 0);
 
 for input in itemInput {
     builder.addItemInput(input, itemInput[input] as int);

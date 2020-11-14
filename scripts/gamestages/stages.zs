@@ -25,7 +25,8 @@ val noStageItems as IIngredient[] = [
     <aether_legacy:aercloud:*>,
     <ore:dustSalt>,
     <mekanism:salt>,
-    <bloodmagic:monster_soul:3>
+    <bloodmagic:monster_soul:3>,
+    <ore:blockSalt>
 ] as IIngredient[];
 
 var stageTwilightShield = ZenStager.initStage("twilight_shield");
@@ -64,30 +65,32 @@ var stageExpert = ZenStager.initStage("expert");
 var stageDescendantOfTheSun = ZenStager.initStage("descendant_of_the_sun");
 var stageGraduated = ZenStager.initStage("graduated");
 
-mods.ItemStages.stageTooltip("energy_matter_core", "EMC:");
-mods.ItemStages.stageTooltip("energy_matter_core", "EMC总和:");
-mods.ItemStages.stageTooltip("energy_matter_core", "§eEMC:");
-mods.ItemStages.stageTooltip("energy_matter_core", "§eEMC总和:");
-mods.ItemStages.stageTooltip("energy_matter_core", "EMC：");
-mods.ItemStages.stageTooltip("energy_matter_core", "EMC总和：");
-mods.ItemStages.stageTooltip("energy_matter_core", "§eEMC：");
-mods.ItemStages.stageTooltip("energy_matter_core", "§eEMC总和：");
+ItemStages.stageTooltip("energy_matter_core", "EMC:");
+ItemStages.stageTooltip("energy_matter_core", "EMC总和:");
+ItemStages.stageTooltip("energy_matter_core", "§eEMC:");
+ItemStages.stageTooltip("energy_matter_core", "§eEMC总和:");
+ItemStages.stageTooltip("energy_matter_core", "EMC：");
+ItemStages.stageTooltip("energy_matter_core", "EMC总和：");
+ItemStages.stageTooltip("energy_matter_core", "§eEMC：");
+ItemStages.stageTooltip("energy_matter_core", "§eEMC总和：");
 
 for mod in loadedMods {
     for item in mod.items {
-        mods.ItemStages.setUnfamiliarName("§5§ka§r §d未知物品 §5§ka§r", item);
+        ItemStages.setUnfamiliarName("§5§ka§r §d未知物品 §5§ka§r", item);
     }
 }
-mods.ItemStages.setUnfamiliarName("§c无法直视的头颅", <ore:skullWitherSkeleton>);
+
+ItemStages.setUnfamiliarName("§c无法直视的头颅", <ore:skullWitherSkeleton>);
 
 function restageItem(stage as string, item as IIngredient) {
-    mods.ItemStages.removeItemStage(item);
-    mods.ItemStages.addItemStage(stage, item);
+    ItemStages.removeItemStage(item);
+    ItemStages.addItemStage(stage, item);
 }
+
 function restageItems(stage as string, items as IIngredient[]) {
     for item in items {
-        mods.ItemStages.removeItemStage(item);
-        mods.ItemStages.addItemStage(stage, item);
+        ItemStages.removeItemStage(item);
+        ItemStages.addItemStage(stage, item);
     }
 }
 
@@ -122,6 +125,7 @@ stageChaoticDominator.addIngredients([
 stageGettingStarted.addIngredients([
     <ore:workbench>,
     <ore:plankWood>,
+    <ore:chest>,
     <ore:craftingTableWood>,
     <minecraft:wooden_pickaxe>,
     <minecraft:stone_pickaxe>,
@@ -353,7 +357,13 @@ stageNether.addIngredients([
     <ore:essenceMourner>,
     <ore:gemRemorseful>,
     <ore:slimecrystalMagma>,
-    <ore:blockQuartz>
+    <ore:blockQuartz>,
+    <minecraft:brewing_stand>,
+    <ore:ingotAqualite>,
+    <ore:nuggetAqualite>,
+    <ore:dustAqualite>,
+    <ore:oreAqualite>,
+    <ore:blockAqualite>
 ], true);
 
 stageNether.addIngredients([
@@ -375,8 +385,6 @@ stageChaotic.addIngredients([
     <solarflux:custom_solar_panel_cosmic_solar_panel>,
     <eternalsingularity:eternal_singularity>
 ], true);
-
-mods.ItemStages.addItemStage("novice_engineer", <enderio:item_dark_steel_sword>);
 
 stageNoviceEngineer.addIngredients([
     <openblocks:block_placer>,
@@ -404,7 +412,8 @@ stageNoviceEngineer.addIngredients([
     <actuallyadditions:block_phantom_redstoneface>,
     <actuallyadditions:block_phantom_booster>,
     <actuallyadditions:block_coffee_machine>,
-    <actuallyadditions:block_atomic_reconstructor>
+    <actuallyadditions:block_atomic_reconstructor>,
+    <enderio:item_dark_steel_sword>
 ], true);
 
 stageHardmode.addIngredients([
@@ -462,7 +471,8 @@ stageHardmode.addIngredients([
     <ore:ingotEthaxium>,
     <ore:nuggetEthaxium>,
     <ore:ingotEthaxiumBrick>,
-    <ore:gemEnderBiotite>
+    <ore:gemEnderBiotite>,
+    <modularmachinery:blockcasing:1>
 ], true);
 
 stageInfinity.addIngredients([
@@ -543,7 +553,9 @@ stageFusionMatrix.addLiquid(<liquid:draconium>);
 
 stageAbyssalConquerer.addIngredients([
     <ore:netherStar>,
-    <ore:skullWitherSkeleton>
+    <ore:skullWitherSkeleton>,
+    <ore:ingotMirion>,
+    <ore:blockMirion>
 ], true);
 
 stageWitherSlayer.addIngredients([
@@ -638,7 +650,8 @@ stageEnderCharm.addIngredients([
     <minecraft:end_portal_frame>,
     <prefab:item_basic_structure>.withTag({ForgeCaps: {"prefab:structuresconfiguration": {configuration: {wareHouseFacing: "north", structureEnumName: "EnderGateway"}}}, id: "prefab:item_basic_structure", Count: 1 as byte, Damage: 0 as short}),
     <ore:endstone>,
-    <ore:cropChorusfruit>
+    <ore:cropChorusfruit>,
+    <hooked:hook:4>
 ], true);
 
 stageHardmode.addOreReplacement(<taiga:dilithium_ore:*>, <minecraft:stone>, false);
@@ -676,7 +689,9 @@ stageNether.addOreReplacement(<minecraft:quartz_ore>, <minecraft:netherrack>, fa
 stageNether.addOreReplacement(<thaumcraft:ore_quartz>, <minecraft:stone>, false);
 stageNether.addOreReplacement(<netherendingores:ore_other_1>, <minecraft:stone>, false);
 stageNether.addOreReplacement(<additions:greedycraft-aeroite_ore>, <aether_legacy:aercloud>, false);
+stageNether.addOreReplacement(<additions:greedycraft-aqualite_ore>, <minecraft:prismarine>, false);
 stageHardmode.addOreReplacement(<additions:greedycraft-cytosinite_ore>, <biomesoplenty:mud>, false);
+stageGettingStarted.addOreReplacement(<ore:chest>, <additions:greedycraft-unknown_block>, false);
 
 stageSkilledEngineer.addIngredients([
     <ore:ingotIridium>,
@@ -768,7 +783,12 @@ stageDisabled.addIngredients([
     <lootbags:loot_storage>,
     <bloodarsenal:base_item:9>,
     <tconstruct:spaghetti:*>,
-    <tconstruct:moms_spaghetti>
+    <tconstruct:moms_spaghetti>,
+    <abyssalcraft:abyssalniteu>,
+    <abyssalcraft:coraliumu>,
+    <abyssalcraft:dreadiumu>,
+    <abyssalcraft:ethaxiumu>,
+    <twilightforest:uncrafting_table>
 ], true);
 
 stageDisabled.addLiquid(<liquid:sakura.hot_spring_water>);
@@ -851,14 +871,8 @@ stageDisabled.addRecipeRegex("^enderio:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(sword
 stageDisabled.addRecipeRegex("^thermalfoundation:tool.fishing_rod_(.*)$");
 stageDisabled.addRecipeRegex("^jaopca:block_crystalcluster(.*)$");
 stageDisabled.addRecipeRegex("^actuallyadditions:recipes24[3456789]$");
-stageDisabled.addRecipeRegex("^actuallyadditions:recipes25.$");
-stageDisabled.addRecipeRegex("^actuallyadditions:recipes26.$");
-stageDisabled.addRecipeRegex("^actuallyadditions:recipes27.$");
-stageDisabled.addRecipeRegex("^actuallyadditions:recipes28.$");
-stageDisabled.addRecipeRegex("^actuallyadditions:recipes29.$");
-stageDisabled.addRecipeRegex("^actuallyadditions:recipes30.$");
-stageDisabled.addRecipeRegex("^actuallyadditions:recipes31.$");
-stageDisabled.addRecipeRegex("^actuallyadditions:recipes32.$");
+stageDisabled.addRecipeRegex("^actuallyadditions:recipes2[56789].$");
+stageDisabled.addRecipeRegex("^actuallyadditions:recipes3[012].$");
 stageDisabled.addRecipeRegex("^actuallyadditions:recipes33[01234567]$");
 stageDisabled.addRecipeRegex("^thermalfoundation:((tool)|(armor))(.*)$");
 stageDisabled.addRecipeRegex("^redstonearsenal:((tool)|(armor))(.*)$");

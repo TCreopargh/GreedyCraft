@@ -1,11 +1,9 @@
 {
-    "block_pools": [
-        {
+    "block_pools": [{
             "name": "stone",
             "type": {
                 "type": "block_list",
-                "blocks": [
-                    {
+                "blocks": [{
                         "name": "pvj:stone_rocks"
                     },
                     {
@@ -31,8 +29,7 @@
                     }
                 ]
             },
-            "properties": [
-                {
+            "properties": [{
                     "type": "require_empty_hand"
                 },
                 {
@@ -45,30 +42,23 @@
                 }
             ],
             "clicktype": "rightclick",
-            "drops": [
-                {
-                    "name": "additions:greedycraft-pebble"
-                }
-            ],
-            "messages": [
-                {
-                    "id": "require_empty_hand",
-                    "message": "§e你需要空手右键才能捡起它。"
-                }
-            ]
+            "drops": [{
+                "name": "additions:greedycraft-pebble"
+            }],
+            "messages": [{
+                "id": "require_empty_hand",
+                "message": "§e你需要空手右键才能捡起它。"
+            }]
         },
         {
             "name": "pinecone",
             "type": {
                 "type": "block_list",
-                "blocks": [
-                    {
-                        "name": "pvj:pinecones"
-                    }
-                ]
+                "blocks": [{
+                    "name": "pvj:pinecones"
+                }]
             },
-            "properties": [
-                {
+            "properties": [{
                     "type": "require_empty_hand"
                 },
                 {
@@ -81,27 +71,22 @@
                 }
             ],
             "clicktype": "rightclick",
-            "drops": [
-                {
-                    "name": "additions:greedycraft-pinecone"
-                }
-            ],
-            "messages": [
-                {
-                    "id": "require_empty_hand",
-                    "message": "§e你需要空手右键才能捡起它。"
-                }
-            ]
+            "drops": [{
+                "name": "additions:greedycraft-pinecone"
+            }],
+            "messages": [{
+                "id": "require_empty_hand",
+                "message": "§e你需要空手右键才能捡起它。"
+            }]
         },
         {
             "name": "grass",
             "type": {
                 "type": "block_list",
-                "blocks": [
-                    {
+                "blocks": [{
                         "name": "minecraft:tallgrass"
                     },
-					{
+                    {
                         "name": "minecraft:double_plant"
                     },
                     {
@@ -137,8 +122,7 @@
                 ]
             },
             "clicktype": "rightclick",
-            "properties": [
-                {
+            "properties": [{
                     "type": "require_empty_hand"
                 },
                 {
@@ -150,12 +134,10 @@
                     "name": "minecraft:block.grass.break"
                 }
             ],
-            "drops": [
-                {
-                    "name": "additions:greedycraft-plant_fibre",
-                    "chance": 10
-                }
-            ]
+            "drops": [{
+                "name": "additions:greedycraft-plant_fibre",
+                "chance": 10
+            }]
         },
         {
             "name": "leaves",
@@ -164,26 +146,21 @@
                 "name": "treeLeaves"
             },
             "clicktype": "break",
-            "drops": [
-                {
-                    "name": "minecraft:stick",
-                    "chance": 25
-                }
-            ]
+            "drops": [{
+                "name": "minecraft:stick",
+                "chance": 25
+            }]
         },
         {
             "name": "clam",
             "type": {
                 "type": "block_list",
-                "blocks": [
-                    {
-                        "name": "pvj:seashells"
-                    }
-                ]
+                "blocks": [{
+                    "name": "pvj:seashells"
+                }]
             },
             "clicktype": "rightclick",
-            "properties": [
-                {
+            "properties": [{
                     "type": "require_empty_hand"
                 },
                 {
@@ -195,32 +172,25 @@
                     "name": "minecraft:block.stone.break"
                 }
             ],
-            "drops": [
-                {
-                    "name": "pvj:clam",
-                    "chance": 100
-                }
-            ],
-            "messages": [
-                {
-                    "id": "require_empty_hand",
-                    "message": "§e你需要空手右键才能捡起它。"
-                }
-            ]
+            "drops": [{
+                "name": "pvj:clam",
+                "chance": 100
+            }],
+            "messages": [{
+                "id": "require_empty_hand",
+                "message": "§e你需要空手右键才能捡起它。"
+            }]
         },
         {
             "name": "bones",
             "type": {
                 "type": "block_list",
-                "blocks": [
-                    {
-                        "name": "pvj:bones"
-                    }
-                ]
+                "blocks": [{
+                    "name": "pvj:bones"
+                }]
             },
             "clicktype": "rightclick",
-            "properties": [
-                {
+            "properties": [{
                     "type": "require_empty_hand"
                 },
                 {
@@ -232,33 +202,28 @@
                     "name": "minecraft:block.stone.break"
                 }
             ],
-            "drops": [
-                {
-                    "name": "minecraft:bone",
-                    "amount": 6,
-                    "chance": 100
-                }
-            ],
-            "messages": [
-                {
-                    "id": "require_empty_hand",
-                    "message": "§e你需要空手右键才能捡起它。"
-                }
-            ]
+            "drops": [{
+                "name": "minecraft:bone",
+                "amount": 6,
+                "chance": 100
+            }],
+            "messages": [{
+                "id": "require_empty_hand",
+                "message": "§e你需要空手右键才能捡起它。"
+            }]
         },
         {
             "name": "flower_patch",
             "type": {
                 "type": "block_list",
-                "blocks": [
-                    {
-                        "name": "pvj:flower_patch"
-                    }
-                ]
+                "blocks": [{
+                    "name": "pvj:flower_patch"
+                }, {
+                    "name": "biomesoplenty:flower_0"
+                }]
             },
             "clicktype": "rightclick",
-            "properties": [
-                {
+            "properties": [{
                     "type": "require_empty_hand"
                 },
                 {
@@ -270,8 +235,7 @@
                     "name": "minecraft:block.grass.break"
                 }
             ],
-            "drops": [
-                {
+            "drops": [{
                     "name": "botania:dye",
                     "meta": 0,
                     "weight": 1
@@ -352,12 +316,10 @@
                     "weight": 1
                 }
             ],
-            "messages": [
-                {
-                    "id": "require_empty_hand",
-                    "message": "§e你需要空手右键才能捡起它。"
-                }
-            ]
+            "messages": [{
+                "id": "require_empty_hand",
+                "message": "§e你需要空手右键才能捡起它。"
+            }]
         },
         {
             "name": "log",
@@ -365,25 +327,19 @@
                 "type": "ore",
                 "name": "logWood"
             },
-            "properties": [
-                {
-                    "type": "require_empty_hand"
-                }
-            ],
+            "properties": [{
+                "type": "require_empty_hand"
+            }],
             "clicktype": "break",
-            "messages": [
-                {
-                    "id": "success",
-                    "message": "§e你无法徒手获取木头！§6关于如何获取木头，请参阅整合包指导手册。"
-                }
-            ],
-            "drops": [
-                {
-                    "name": "thermalfoundation:material",
-                    "meta": 800,
-                    "chance": 5
-                }
-            ]
+            "messages": [{
+                "id": "success",
+                "message": "§e你无法徒手获取木头！§6关于如何获取木头，请参阅整合包指导手册。"
+            }],
+            "drops": [{
+                "name": "thermalfoundation:material",
+                "meta": 800,
+                "chance": 5
+            }]
         },
         {
             "name": "twigs",
@@ -391,8 +347,7 @@
                 "type": "ore",
                 "name": "twigs"
             },
-            "properties": [
-                {
+            "properties": [{
                     "type": "require_empty_hand"
                 },
                 {
@@ -405,18 +360,14 @@
                 }
             ],
             "clicktype": "rightclick",
-            "drops": [
-                {
-                    "name": "minecraft:stick",
-                    "chance": 100
-                }
-            ],
-            "messages": [
-                {
-                    "id": "require_empty_hand",
-                    "message": "§e你需要空手右键才能捡起它。"
-                }
-            ]
+            "drops": [{
+                "name": "minecraft:stick",
+                "chance": 100
+            }],
+            "messages": [{
+                "id": "require_empty_hand",
+                "message": "§e你需要空手右键才能捡起它。"
+            }]
         },
         {
             "name": "plank",
@@ -424,36 +375,29 @@
                 "type": "ore",
                 "name": "plankWood"
             },
-            "properties": [
-                {
-                    "type": "require_empty_hand"
-                }
-            ],
+            "properties": [{
+                "type": "require_empty_hand"
+            }],
             "clicktype": "break",
-            "messages": [
-                {
-                    "id": "success",
-                    "message": "§e你无法徒手获取木头！§6关于如何获取木头，请参阅整合包指导手册。"
-                }
-            ],
-            "drops": [
-                {
-                    "name": "thermalfoundation:material",
-                    "meta": 800,
-                    "chance": 5
-                }
-            ]
+            "messages": [{
+                "id": "success",
+                "message": "§e你无法徒手获取木头！§6关于如何获取木头，请参阅整合包指导手册。"
+            }],
+            "drops": [{
+                "name": "thermalfoundation:material",
+                "meta": 800,
+                "chance": 5
+            }]
         },
         {
             "name": "oat",
             "type": {
                 "type": "block_list",
-                "blocks": [
-                    {
+                "blocks": [{
                         "name": "biomesoplenty:double_plant",
                         "meta": 3
                     },
-					{
+                    {
                         "name": "biomesoplenty:double_plant",
                         "meta": 11
                     },
@@ -462,8 +406,7 @@
                     }
                 ]
             },
-            "properties": [
-				{
+            "properties": [{
                     "type": "consume_block"
                 },
                 {
@@ -473,12 +416,10 @@
                 }
             ],
             "clicktype": "break",
-            "drops": [
-                {
-                    "name": "harvestcraft:oatsitem",
-                    "chance": 50
-                }
-            ]
+            "drops": [{
+                "name": "harvestcraft:oatsitem",
+                "chance": 50
+            }]
         }
     ]
 }

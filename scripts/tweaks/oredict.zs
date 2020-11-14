@@ -7,7 +7,7 @@
 
 import crafttweaker.game.IGame;
 
-<ore:slime>.add(<defiledlands:foul_slime>);
+<ore:slimeball>.add(<defiledlands:foul_slime>);
 <ore:stoneMarble>.add(<pvj:marble>);
 <ore:workbench>.add(<natura:overworld_workbenches:*>);
 <ore:plantFibre>.add(<hooked:microcrafting>);
@@ -327,9 +327,11 @@ if(loadedMods.contains("inventorypets")) {
 <ore:soulCreative>.add(<additions:greedycraft-creative_soul>);
 <ore:blockDiamondPink>.add(<sakura:sakura_diamond_block>);
 <ore:blockDiamondSakura>.add(<sakura:sakura_diamond_block>);
+<ore:blockQuartzBlack>.addAll(<ore:blockQuartzDark>);
+<ore:blockQuartzDark>.addAll(<ore:blockQuartzBlack>);
 
 for item in loadedMods["weeeflowers"].items {
-    if(item.definition.id.contains("flower")) {
+    if(item.definition.id.replace("weeeflowers", "").contains("flower")) {
         <ore:listAllflower>.add(item);
     }
 }

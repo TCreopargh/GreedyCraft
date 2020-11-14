@@ -28,5 +28,6 @@ global furnaceRecipes as IItemStack[IIngredient] = {
     <ore:oreAncientDebris> : <additions:netherite_scrap> * 2,
     <ore:ingotBrickSeared> : <tcomplement:materials:1>,
     <ore:blockSeared> : <tcomplement:scorched_block>,
-    <ore:oreChromium> : <additions:chromium_ingot>
+    <ore:oreChromium> : <additions:chromium_ingot>,
+    <ore:oreAqualite> : <additions:aqualite_ingot>
 } as IItemStack[IIngredient];

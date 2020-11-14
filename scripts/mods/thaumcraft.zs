@@ -35,7 +35,8 @@ var removedRecipes as IItemStack[] = [
     <thaumadditions:mithminite_handle>,
     <thaumadditions:adaminite_fabric>,
     <thaumadditions:mithminite_fabric>,
-    <thaumadditions:entity_summoner>
+    <thaumadditions:entity_summoner>,
+    <thaumadditions:dna_sample>
 ];
 
 <minecraft:wooden_axe>.setAspects(<aspect:instrumentum>*5, <aspect:herba>*5);

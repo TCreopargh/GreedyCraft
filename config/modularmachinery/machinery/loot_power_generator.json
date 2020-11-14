@@ -2,6 +2,21 @@
 	"registryname": "loot_power_generator",
     "localizedname": "战利品发电机",
     "color": "ffeb3b",
+	"modifiers": [
+	   {
+		   "elements": "modularmachinery:blockcasing@1",
+		   "x": 0,
+		   "y": 1,
+		   "z": 1,
+		   "description": "将最顶端的石砖换成机械通风口以增加电量产出！",
+		   "modifier": {
+			   "io": "output",
+			   "target": "energy",
+			   "operation": 1,
+			   "multiplier": 1.5
+		   }
+	   }
+   ],
     "parts": [
         {
             "x": 0,

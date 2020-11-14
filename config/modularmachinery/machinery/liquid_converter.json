@@ -1,7 +1,22 @@
-{    
+{
     "registryname": "liquid_converter",
     "localizedname": "流体转换机",
     "color": "e0e0e0",
+    "modifiers": [
+       {
+           "elements": "modularmachinery:blockcasing@1",
+           "x": 0,
+           "y": 1,
+           "z": 0,
+           "description": "将控制器上方紧挨着的方块换成机械通风口以提高机器运转速度！",
+           "modifier": {
+               "io": "output",
+               "target": "duration",
+               "operation": 1,
+               "multiplier": 0.5
+           }
+       }
+   ],
     "parts": [
         {
             "x": -1,

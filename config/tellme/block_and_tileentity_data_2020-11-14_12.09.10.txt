@@ -1,0 +1,69 @@
+Ò±Á¶Â¯¿ØÖÆÆ÷ (tconstruct:smeltery_controller - 3205:2) has a TileEntity
+Full block state: tconstruct:smeltery_controller[active=false,facing=north]
+Hardness: 3.0000, Explosion resistance: 12.0000, Material: ROCK
+Block class: slimeknights.tconstruct.smeltery.block.BlockSmelteryController
+IBlockState properties, including getActualState():
+PropertyBool{name=active, clazz=class java.lang.Boolean, values=[true, false]}: false
+PropertyDirection{name=facing, clazz=class net.minecraft.util.EnumFacing, values=[north, south, west, east]}: north
+TileEntity class: slimeknights.tconstruct.smeltery.tileentity.TileSmeltery
+
+TileEntity NBT (from TileEntity#writeToNBT()):
+TAG_Compound (10) ('')
+{
+    TAG_Compound (10) ('currentFuel')
+    {
+    }
+    TAG_List (9) ('Liquids') (0 entries of TAG_End (0))
+    {
+    }
+    TAG_Compound (10) ('insidePos')
+    {
+        TAG_Int (3) ('X'): 234
+        TAG_Int (3) ('Y'): 91
+        TAG_Int (3) ('Z'): 247
+    }
+    TAG_Int (3) ('fuel'): 0
+    TAG_Byte (1) ('active'): 0
+    TAG_Int (3) ('InventorySize'): 0
+    TAG_Int_Array (11) ('itemTemperatures') (0 values)
+    TAG_Compound (10) ('currentTank')
+    {
+    }
+    TAG_Int_Array (11) ('itemTempRequired') (0 values)
+    TAG_Int (3) ('x'): 487
+    TAG_Int (3) ('temperature'): 0
+    TAG_Int (3) ('y'): 69
+    TAG_Compound (10) ('ForgeCaps')
+    {
+        TAG_Compound (10) ('abyssalcraft:itemtransfer')
+        {
+            TAG_Byte (1) ('isRunning'): 0
+            TAG_List (9) ('configurations') (0 entries of TAG_End (0))
+            {
+            }
+        }
+    }
+    TAG_Compound (10) ('minPos')
+    {
+        TAG_Int (3) ('X'): 487
+        TAG_Int (3) ('Y'): 69
+        TAG_Int (3) ('Z'): 460
+    }
+    TAG_List (9) ('tanks') (0 entries of TAG_End (0))
+    {
+    }
+    TAG_Int (3) ('LiquidCapacity'): 0
+    TAG_Int (3) ('z'): 460
+    TAG_List (9) ('Items') (0 entries of TAG_End (0))
+    {
+    }
+    TAG_String (8) ('id'): "minecraft:tconstruct.smeltery_controller"
+    TAG_Byte (1) ('needsFuel'): 0
+    TAG_Compound (10) ('maxPos')
+    {
+        TAG_Int (3) ('X'): 487
+        TAG_Int (3) ('Y'): 69
+        TAG_Int (3) ('Z'): 460
+    }
+    TAG_Int (3) ('fuelQuality'): 0
+}

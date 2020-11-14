@@ -4,7 +4,7 @@
     "whitelist": [],
     "blacklist": ["mca.entity.*", "de.ellpeck.actuallyadditions.mod.entity.EntityWorm", "net.minecraft.entity.item.EntityItemFrame", "net.minecraft.entity.item.EntityPainting"],
     "defaultThreshold": 18,
-    "checkTimeSeconds": 15,
+    "checkTimeSeconds": 10,
     "purgeTamedEntities": false,
     "blacklistedChunksNearPlayer": 2,
     "claimedChunksAreBlacklisted": true,
@@ -21,12 +21,12 @@
         "overridePlayerChunk": false
     }, {
         "entityId": "ZombieAwareness.EntityScent",
-        "threshold": 30,
+        "threshold": 25,
         "overrideClaimedChunk": true,
         "overridePlayerChunk": false
     }, {
         "entityId": "com.github.tartaricacid.touhoulittlemaid.entity.passive.EntityMaid",
-        "threshold": 120,
+        "threshold": 100,
         "overrideClaimedChunk": false,
         "overridePlayerChunk": false
     }]

@@ -13,19 +13,53 @@ import loottweaker.vanilla.loot.Conditions;
 import loottweaker.vanilla.loot.Functions;
 import loottweaker.LootTweaker;
 
+import crafttweaker.item.IItemStack;
+import crafttweaker.data.IData;
+import crafttweaker.item.IIngredient;
+
 val urn = LootTweaker.getTable("pyramidplunder:urn");
 
 var urnPool = urn.getPool("main");  
-urnPool.addItemEntryHelper(<additions:greedycraft-reward_ticket_common>, 15, 1, [Functions.setCount(1, 2)], []);
-urnPool.addItemEntryHelper(<additions:greedycraft-reward_ticket_rare>, 5, 1, [Functions.setCount(1, 1)], []);
-urnPool.addItemEntryHelper(<additions:greedycraft-reward_ticket_epic>, 1, 1, [Functions.setCount(1, 1)], []);
-urnPool.addItemEntryHelper(<additions:greedycraft-medkit_super>, 1, 1, [Functions.setCount(1, 1)], []);
-urnPool.addItemEntryHelper(<additions:greedycraft-medkit_big>, 4, 1, [Functions.setCount(1, 3)], []);
-urnPool.addItemEntryHelper(<additions:greedycraft-medkit_small>, 20, 1, [Functions.setCount(1, 6)], []);
-urnPool.addItemEntryHelper(<additions:greedycraft-experience_ingot>, 18, 1, [Functions.setCount(2, 12)], []);
-urnPool.addItemEntryHelper(<scalinghealth:crystalshard>, 10, 1, [Functions.setCount(1, 2)], []);
-urnPool.addItemEntryHelper(<scalinghealth:heartdust>, 14, 1, [Functions.setCount(4, 24)], []);
-urnPool.addItemEntryHelper(<additions:greedycraft-delivery_order>, 40, 1, [Functions.setCount(1, 1)], []);
-urnPool.addItemEntryHelper(<additions:greedycraft-tower_chest_key>, 10, 1, [Functions.setCount(1, 1)], []);
-urnPool.addItemEntryHelper(<additions:tcsponsors-sponsor_chest_fragment>, 5, 1, [Functions.setCount(1, 3)], []);
-urnPool.addItemEntryHelper(<additions:greedycraft-huaji>, 8, 1, [Functions.setCount(1, 2)], []);
+var urnPool1 = urn.getPool("treasure");
+var urnPool2 = urn.getPool("rare");
+
+urnPool1.removeEntry("minecraft:gold_nugget");
+
+function addItem(item as IItemStack, weight as int, quality as int, minCount as int, maxCount as int) {
+    val urn = LootTweaker.getTable("pyramidplunder:urn");
+    var pools as LootPool[] = [
+        urn.getPool("main"),
+        urn.getPool("treasure"),
+        urn.getPool("rare")
+    ];
+    for pool in pools {
+        pool.addItemEntryHelper(item, weight, quality, [Functions.setCount(minCount, maxCount)], []);
+    }
+}
+
+addItem(<additions:greedycraft-reward_ticket_common>, 18, 1, 1, 2);
+addItem(<additions:greedycraft-reward_ticket_rare>, 5, 1, 1, 1);
+addItem(<additions:greedycraft-reward_ticket_epic>, 1, 1, 1, 1);
+addItem(<additions:greedycraft-medkit_super>, 1, 1, 1, 1);
+addItem(<additions:greedycraft-medkit_big>, 4, 1, 1, 3);
+addItem(<additions:greedycraft-medkit_small>, 20, 1, 1, 6);
+addItem(<additions:greedycraft-experience_ingot>, 18, 1, 2, 12);
+addItem(<scalinghealth:crystalshard>, 10, 1, 1, 2);
+addItem(<scalinghealth:heartdust>, 14, 1, 4, 24);
+addItem(<additions:greedycraft-delivery_order>, 30, 1, 1, 1);
+addItem(<additions:greedycraft-tower_chest_key>, 10, 1, 1, 1);
+addItem(<additions:tcsponsors-sponsor_chest_fragment>, 5, 1, 1, 3);
+addItem(<additions:greedycraft-huaji>, 8, 1, 1, 2);
+addItem(<bountifulbaubles:potionrecall>, 32, 1, 2, 5);
+addItem(<minecraft:gold_nugget>, 20, 1, 5, 12);
+addItem(<thermalfoundation:material:128>, 10, 1, 2, 12);
+addItem(<thermalfoundation:material:129>, 10, 1, 2, 12);
+addItem(<thermalfoundation:material:163>, 18, 1, 2, 10);
+addItem(<thermalfoundation:material:134>, 6, 1, 2, 6);
+addItem(<thermalfoundation:material:199>, 8, 1, 2, 8);
+addItem(<additions:greedycraft-food_bag>, 2, 1, 1, 1);
+addItem(<additions:greedycraft-furniture_crate>, 2, 1, 1, 1);
+addItem(<sakura:sakura_diamond>, 2, 1, 3, 8);
+addItem(<inventorypets:meta_pet>, 2, 1, 1, 1);
+addItem(<additions:greedycraft-purifying_dust>, 3, 1, 10, 40);
+addItem(<additions:perfectly_generic_item>, 2, 1, 1, 1);

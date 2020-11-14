@@ -203,6 +203,15 @@
       "item": "additions:greedycraft-crimsonite_block"
     },
     {
+      "item": "additions:greedycraft-aqualite_ore"
+    },
+    {
+      "item": "additions:aqualite_ingot"
+    },
+    {
+      "item": "additions:greedycraft-aqualite_block"
+    },
+    {
       "item": "additions:greedycraft-strange_matter"
     },
     {
@@ -211,6 +220,12 @@
     {
       "item": "additions:greedycraft-one_punch",
       "tag": "{ench:[{lvl:33s,id:19}]}"
+    },
+    {
+      "item": "additions:greedycraft-black_hole_remnant"
+    },
+    {
+      "item": "additions:greedycraft-sand_of_time"
     },
     {
       "item": "additions:greedycraft-food_bag"

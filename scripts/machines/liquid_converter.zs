@@ -10,7 +10,9 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.data.IData;
 import crafttweaker.item.IIngredient;
 import crafttweaker.liquid.ILiquidStack;
+
 import mods.ctutils.utils.Math;
+import mods.modularmachinery.RecipeBuilder;
 
 val regName = "liquid_converter";
 val speed = 5;
@@ -31,7 +33,7 @@ for row in converterRecipes {
     var amount = inputStack.amount;
     var alloyEnergy = energy as int;
     var alloySpeed = Math.ceil((amount as float / 100.0 as float) * speed as float) as int;
-    var builder = mods.modularmachinery.RecipeBuilder.newBuilder(regName + "_alloy_" + inputStack.definition.name, regName, alloySpeed, 0);
+    var builder = RecipeBuilder.newBuilder(regName + "_alloy_" + inputStack.definition.name, regName, alloySpeed, 0);
     builder.addFluidInput(inputStack);
     builder.addEnergyPerTickInput(alloyEnergy);
     for i in 1 to row.length {
@@ -39,7 +41,7 @@ for row in converterRecipes {
     }
     builder.build();
     
-    var builderReversed = mods.modularmachinery.RecipeBuilder.newBuilder(regName + "_alloy_" + inputStack.definition.name + "_reversed", regName, alloySpeed, 0);
+    var builderReversed = RecipeBuilder.newBuilder(regName + "_alloy_" + inputStack.definition.name + "_reversed", regName, alloySpeed, 0);
     for i in 1 to row.length {
         builderReversed.addFluidInput(row[i] as ILiquidStack);
     }

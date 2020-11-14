@@ -1,8 +1,36 @@
 [
 	{
+        "mob": ["minecraft:guardian", "minecraft:squid", "enderiozoo:epicsquid"],
+		"mincount": {
+            "amount": 20,
+            "perplayer": true
+        },
+		"result": "deny"
+    },
+	{
+        "mob": ["minecraft:guardian", "minecraft:squid", "enderiozoo:epicsquid"],
+		"block": "minecraft:water",
+		"maxheight": 39,
+		"result": "allow"
+    },
+	{
+        "dimension": -1,
+        "mob": ["minecraft:squid"],
+		"result": "deny"
+    },
+	{
+        "mob": ["minecraft:guardian", "minecraft:squid", "enderiozoo:epicsquid"],
+		"result": "deny"
+    },
+	{
 		"onjoin": true,
         "mob": ["pvj:pvj_goon", "pvj:pvj_clam"],
 		"result": "deny"
+    },
+	{
+        "mod": "spiderstpo",
+        "minlight": 7,
+        "result": "deny"
     },
     {
         "dimension": 0,
@@ -75,7 +103,6 @@
         "mob": ["minecraft:bat"],
 		"mincount": {
             "amount": 10,
-			"mod": "minecraft",
             "perplayer": true
         },
         "result": "deny"
@@ -84,7 +111,6 @@
         "mob": ["minecraft:wolf"],
 		"mincount": {
             "amount": 20,
-			"mod": "minecraft",
             "perplayer": true
         },
 		"onjoin": true,
@@ -95,7 +121,6 @@
         "mob": "headcrumbs:human",
         "mincount": {
             "amount": 28,
-            "mod": "headcrumbs",
             "hostile": true,
             "perplayer": true
         },
@@ -114,7 +139,6 @@
         "mob": "thermalfoundation:basalz",
         "mincount": {
             "amount": 8,
-            "mod": "thermalfoundation",
             "hostile": true,
             "perplayer": true
         },
@@ -125,7 +149,6 @@
         "mod": "abyssalcraft",
         "mincount": {
             "amount": 24,
-            "mod": "abyssalcraft",
             "hostile": true,
             "perplayer": true
         },
@@ -136,7 +159,6 @@
         "mob": "abyssalcraft:shadowmonster",
         "mincount": {
             "amount": 18,
-            "mod": "abyssalcraft",
             "hostile": true,
             "perplayer": true
         },
@@ -147,7 +169,6 @@
         "mob": "abyssalcraft:omotholghoul",
         "mincount": {
             "amount": 24,
-            "mod": "abyssalcraft",
             "hostile": true,
             "perplayer": true
         },

@@ -5,10 +5,12 @@
 
 #priority 30
 
+import mods.modularmachinery.RecipeBuilder;
+
 val regName = "soymilk_producer";
 val speed = 10;
 
-mods.modularmachinery.RecipeBuilder.newBuilder(regName + "_normal", regName, speed, 20)
+RecipeBuilder.newBuilder(regName + "_normal", regName, speed, 20)
     .addItemInput(<ore:cropSoybean>)
     .addEnergyPerTickInput(30)
     .addFluidOutput(<liquid:soymilk> * 1000)

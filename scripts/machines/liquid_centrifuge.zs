@@ -10,13 +10,15 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.data.IData;
 import crafttweaker.item.IIngredient;
 import crafttweaker.liquid.ILiquidStack;
+
+import mods.modularmachinery.RecipeBuilder;
 import mods.ctutils.utils.Math;
 
 val regName = "liquid_centrifuge";
 val speed = 10;
 val energy = 20;
 
-mods.modularmachinery.RecipeBuilder.newBuilder(regName + "_water", regName, speed, 0)
+RecipeBuilder.newBuilder(regName + "_water", regName, speed, 0)
     .addFluidInput(<liquid:water> * 100)
     .addEnergyPerTickInput(energy)
     .addItemOutput(<minecraft:sand>)
@@ -41,7 +43,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(regName + "_water", regName, spee
     .addFluidOutput(<liquid:seed_oil> * 2)
     .build();
 
-mods.modularmachinery.RecipeBuilder.newBuilder(regName + "_lava", regName, speed, 0)
+RecipeBuilder.newBuilder(regName + "_lava", regName, speed, 0)
     .addFluidInput(<liquid:lava> * 100)
     .addEnergyPerTickInput(energy)
     .addItemOutput(<minecraft:netherrack>)
@@ -74,7 +76,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(regName + "_lava", regName, speed
     .addFluidOutput(<liquid:gold> * 2)
     .build();
     
-mods.modularmachinery.RecipeBuilder.newBuilder(regName + "_organic_fluid", regName, speed, 0)
+RecipeBuilder.newBuilder(regName + "_organic_fluid", regName, speed, 0)
     .addFluidInput(<liquid:organic_fluid> * 100)
     .addEnergyPerTickInput(energy)
     .addItemOutput(<tconstruct:materials:18>)
@@ -102,7 +104,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(regName + "_organic_fluid", regNa
     .addFluidOutput(<liquid:resin> * 10)
     .build();
     
-mods.modularmachinery.RecipeBuilder.newBuilder(regName + "_sand", regName, speed, 0)
+RecipeBuilder.newBuilder(regName + "_sand", regName, speed, 0)
     .addFluidInput(<liquid:sand> * 100)
     .addEnergyPerTickInput(energy)
     .addItemOutput(<minecraft:sand>)
@@ -127,7 +129,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(regName + "_sand", regName, speed
     .addFluidOutput(<liquid:aerotheum> * 5)
     .build();
     
-mods.modularmachinery.RecipeBuilder.newBuilder(regName + "_blood", regName, speed, 0)
+RecipeBuilder.newBuilder(regName + "_blood", regName, speed, 0)
     .addFluidInput(<liquid:blood> * 100)
     .addEnergyPerTickInput(energy)
     .addItemOutput(<minecraft:bone>)
@@ -150,7 +152,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(regName + "_blood", regName, spee
     .addFluidOutput(<liquid:organic_fluid> * 10)
     .build();
     
-mods.modularmachinery.RecipeBuilder.newBuilder(regName + "_crude_oil", regName, speed, 0)
+RecipeBuilder.newBuilder(regName + "_crude_oil", regName, speed, 0)
     .addFluidInput(<liquid:crude_oil> * 100)
     .addEnergyPerTickInput(energy)
     .addItemOutput(<thermalfoundation:material:892>)

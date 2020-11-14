@@ -2325,6 +2325,496 @@
 					"item": "botania:manaresource:5"
 				}
 			]
+		}, "touhou_little_maid:entity.monster.rinnosuke": {
+			"[0, 32767]": [{
+					"amount": "[1,1]",
+					"chance": 0.0015,
+					"item": "additions:greedycraft-reward_ticket_common"
+				},
+				{
+					"amount": "[1,1]",
+					"chance": 0.6,
+					"item": "additions:greedycraft-raw_human_meat"
+				},
+				{
+					"amount": "[1,1]",
+					"chance": 0.01,
+					"item": "additions:greedycraft-loli_lolipop"
+				}
+			],
+			"[128, 32767]": [{
+					"amount": "[1,2]",
+					"chance": 1,
+					"item": "additions:greedycraft-raw_human_meat"
+				},
+				{
+					"amount": "[2,4]",
+					"chance": 1,
+					"item": "mysticalagriculture:crafting"
+				},
+				{
+					"amount": "[1,1]",
+					"chance": 0.0025,
+					"item": "additions:greedycraft-reward_ticket_common"
+				},
+				{
+					"amount": "[1,1]",
+					"chance": 0.0025,
+					"item": "scalinghealth:crystalshard"
+				},
+				{
+					"amount": "[1,1]",
+					"chance": 0.01,
+					"item": "additions:greedycraft-loli_lolipop"
+				}
+			],
+			"[256, 32767]": [{
+					"amount": "[2,4]",
+					"chance": 1,
+					"item": "additions:greedycraft-raw_human_meat"
+				},
+				{
+					"amount": "[4,8]",
+					"chance": 1,
+					"item": "mysticalagriculture:crafting"
+				},
+				{
+					"amount": "[1,1]",
+					"chance": 0.005,
+					"item": "additions:greedycraft-reward_ticket_common"
+				},
+				{
+					"amount": "[1,1]",
+					"chance": 0.005,
+					"item": "scalinghealth:crystalshard"
+				},
+				{
+					"amount": "[1,1]",
+					"chance": 0.01,
+					"item": "additions:greedycraft-loli_lolipop"
+				}
+			],
+			"[384, 32767]": [{
+					"amount": "[3,8]",
+					"chance": 1,
+					"item": "additions:greedycraft-raw_human_meat"
+				},
+				{
+					"amount": "[8,12]",
+					"chance": 1,
+					"item": "mysticalagriculture:crafting"
+				},
+				{
+					"amount": "[1,1]",
+					"chance": 0.01,
+					"item": "additions:greedycraft-reward_ticket_common"
+				},
+				{
+					"amount": "[1,1]",
+					"chance": 0.0025,
+					"item": "additions:greedycraft-reward_ticket_rare"
+				},
+				{
+					"amount": "[1,1]",
+					"chance": 0.002,
+					"item": "additions:greedycraft-ancient_tome_fragment"
+				},
+				{
+					"amount": "[1,1]",
+					"chance": 0.01,
+					"item": "scalinghealth:crystalshard"
+				},
+				{
+					"amount": "[1,1]",
+					"chance": 0.02,
+					"item": "additions:greedycraft-loli_lolipop"
+				}
+			],
+			"[500, 32767]": [{
+					"amount": "[24,30]",
+					"chance": 1,
+					"item": "additions:greedycraft-raw_human_meat"
+				},
+				{
+					"amount": "[12,24]",
+					"chance": 1,
+					"item": "mysticalagriculture:crafting"
+				},
+				{
+					"amount": "[1,1]",
+					"chance": 0.005,
+					"item": "additions:greedycraft-reward_ticket_rare"
+				},
+				{
+					"amount": "[1,1]",
+					"chance": 0.002,
+					"item": "additions:greedycraft-ancient_tome_fragment"
+				},
+				{
+					"amount": "[1,1]",
+					"chance": 0.02,
+					"item": "scalinghealth:crystalshard"
+				},
+				{
+					"amount": "[1,1]",
+					"chance": 0.01,
+					"item": "additions:greedycraft-loli_lolipop"
+				}
+			],
+			"[750, 32767]": [{
+					"amount": "[16,32]",
+					"chance": 1,
+					"item": "additions:greedycraft-raw_human_meat"
+				},
+				{
+					"amount": "[24,40]",
+					"chance": 1,
+					"item": "mysticalagriculture:crafting"
+				},
+				{
+					"amount": "[1,1]",
+					"chance": 0.01,
+					"item": "additions:greedycraft-reward_ticket_rare"
+				},
+				{
+					"amount": "[1,1]",
+					"chance": 0.0025,
+					"item": "additions:greedycraft-reward_ticket_epic"
+				},
+				{
+					"amount": "[1,1]",
+					"chance": 0.004,
+					"item": "additions:greedycraft-ancient_tome_fragment"
+				},
+				{
+					"amount": "[1,1]",
+					"chance": 0.02,
+					"item": "scalinghealth:crystalshard"
+				}
+			],
+			"[1000, 32767]": [{
+					"amount": "[16,32]",
+					"chance": 1,
+					"item": "additions:greedycraft-raw_human_meat"
+				},
+				{
+					"amount": "[24,40]",
+					"chance": 1,
+					"item": "mysticalagriculture:crafting"
+				},
+				{
+					"amount": "[1,1]",
+					"chance": 0.01,
+					"item": "additions:greedycraft-reward_ticket_rare"
+				},
+				{
+					"amount": "[1,1]",
+					"chance": 0.0025,
+					"item": "additions:greedycraft-reward_ticket_epic"
+				},
+				{
+					"amount": "[1,1]",
+					"chance": 0.016,
+					"item": "additions:greedycraft-ancient_tome_fragment"
+				},
+				{
+					"amount": "[1,1]",
+					"chance": 0.02,
+					"item": "scalinghealth:crystalshard"
+				}
+			],
+			"[1250, 32767]": [{
+					"amount": "[16,32]",
+					"chance": 1,
+					"item": "additions:greedycraft-raw_human_meat"
+				},
+				{
+					"amount": "[24,40]",
+					"chance": 1,
+					"item": "mysticalagriculture:crafting"
+				},
+				{
+					"amount": "[1,1]",
+					"chance": 0.005,
+					"item": "additions:greedycraft-reward_ticket_epic"
+				},
+				{
+					"amount": "[1,1]",
+					"chance": 0.032,
+					"item": "additions:greedycraft-ancient_tome_fragment"
+				},
+				{
+					"amount": "[1,1]",
+					"chance": 0.032,
+					"item": "additions:greedycraft-ancient_tome_fragment"
+				}
+			],
+			"[1500, 32767]": [{
+					"amount": "[16,32]",
+					"chance": 1,
+					"item": "additions:greedycraft-raw_human_meat"
+				},
+				{
+					"amount": "[24,40]",
+					"chance": 1,
+					"item": "mysticalagriculture:crafting"
+				},
+				{
+					"amount": "[1,1]",
+					"chance": 0.005,
+					"item": "additions:greedycraft-reward_ticket_epic"
+				},
+				{
+					"amount": "[1,1]",
+					"chance": 0.1,
+					"item": "additions:greedycraft-ancient_tome_fragment"
+				}
+			]
+		}, "touhou_little_maid:entity.monster.fairy": {
+			"[0, 32767]": [{
+					"amount": "[1,1]",
+					"chance": 0.0015,
+					"item": "additions:greedycraft-reward_ticket_common"
+				},
+				{
+					"amount": "[1,1]",
+					"chance": 0.6,
+					"item": "additions:greedycraft-raw_human_meat"
+				},
+				{
+					"amount": "[1,1]",
+					"chance": 0.01,
+					"item": "additions:greedycraft-loli_lolipop"
+				}
+			],
+			"[128, 32767]": [{
+					"amount": "[1,2]",
+					"chance": 1,
+					"item": "additions:greedycraft-raw_human_meat"
+				},
+				{
+					"amount": "[2,4]",
+					"chance": 1,
+					"item": "mysticalagriculture:crafting"
+				},
+				{
+					"amount": "[1,1]",
+					"chance": 0.0025,
+					"item": "additions:greedycraft-reward_ticket_common"
+				},
+				{
+					"amount": "[1,1]",
+					"chance": 0.0025,
+					"item": "scalinghealth:crystalshard"
+				},
+				{
+					"amount": "[1,1]",
+					"chance": 0.01,
+					"item": "additions:greedycraft-loli_lolipop"
+				}
+			],
+			"[256, 32767]": [{
+					"amount": "[2,4]",
+					"chance": 1,
+					"item": "additions:greedycraft-raw_human_meat"
+				},
+				{
+					"amount": "[4,8]",
+					"chance": 1,
+					"item": "mysticalagriculture:crafting"
+				},
+				{
+					"amount": "[1,1]",
+					"chance": 0.005,
+					"item": "additions:greedycraft-reward_ticket_common"
+				},
+				{
+					"amount": "[1,1]",
+					"chance": 0.005,
+					"item": "scalinghealth:crystalshard"
+				},
+				{
+					"amount": "[1,1]",
+					"chance": 0.01,
+					"item": "additions:greedycraft-loli_lolipop"
+				}
+			],
+			"[384, 32767]": [{
+					"amount": "[3,8]",
+					"chance": 1,
+					"item": "additions:greedycraft-raw_human_meat"
+				},
+				{
+					"amount": "[8,12]",
+					"chance": 1,
+					"item": "mysticalagriculture:crafting"
+				},
+				{
+					"amount": "[1,1]",
+					"chance": 0.01,
+					"item": "additions:greedycraft-reward_ticket_common"
+				},
+				{
+					"amount": "[1,1]",
+					"chance": 0.0025,
+					"item": "additions:greedycraft-reward_ticket_rare"
+				},
+				{
+					"amount": "[1,1]",
+					"chance": 0.002,
+					"item": "additions:greedycraft-ancient_tome_fragment"
+				},
+				{
+					"amount": "[1,1]",
+					"chance": 0.01,
+					"item": "scalinghealth:crystalshard"
+				},
+				{
+					"amount": "[1,1]",
+					"chance": 0.02,
+					"item": "additions:greedycraft-loli_lolipop"
+				}
+			],
+			"[500, 32767]": [{
+					"amount": "[24,30]",
+					"chance": 1,
+					"item": "additions:greedycraft-raw_human_meat"
+				},
+				{
+					"amount": "[12,24]",
+					"chance": 1,
+					"item": "mysticalagriculture:crafting"
+				},
+				{
+					"amount": "[1,1]",
+					"chance": 0.005,
+					"item": "additions:greedycraft-reward_ticket_rare"
+				},
+				{
+					"amount": "[1,1]",
+					"chance": 0.002,
+					"item": "additions:greedycraft-ancient_tome_fragment"
+				},
+				{
+					"amount": "[1,1]",
+					"chance": 0.02,
+					"item": "scalinghealth:crystalshard"
+				},
+				{
+					"amount": "[1,1]",
+					"chance": 0.02,
+					"item": "additions:greedycraft-loli_lolipop"
+				}
+			],
+			"[750, 32767]": [{
+					"amount": "[16,32]",
+					"chance": 1,
+					"item": "additions:greedycraft-raw_human_meat"
+				},
+				{
+					"amount": "[24,40]",
+					"chance": 1,
+					"item": "mysticalagriculture:crafting"
+				},
+				{
+					"amount": "[1,1]",
+					"chance": 0.01,
+					"item": "additions:greedycraft-reward_ticket_rare"
+				},
+				{
+					"amount": "[1,1]",
+					"chance": 0.0025,
+					"item": "additions:greedycraft-reward_ticket_epic"
+				},
+				{
+					"amount": "[1,1]",
+					"chance": 0.004,
+					"item": "additions:greedycraft-ancient_tome_fragment"
+				},
+				{
+					"amount": "[1,1]",
+					"chance": 0.02,
+					"item": "scalinghealth:crystalshard"
+				}
+			],
+			"[1000, 32767]": [{
+					"amount": "[16,32]",
+					"chance": 1,
+					"item": "additions:greedycraft-raw_human_meat"
+				},
+				{
+					"amount": "[24,40]",
+					"chance": 1,
+					"item": "mysticalagriculture:crafting"
+				},
+				{
+					"amount": "[1,1]",
+					"chance": 0.01,
+					"item": "additions:greedycraft-reward_ticket_rare"
+				},
+				{
+					"amount": "[1,1]",
+					"chance": 0.0025,
+					"item": "additions:greedycraft-reward_ticket_epic"
+				},
+				{
+					"amount": "[1,1]",
+					"chance": 0.016,
+					"item": "additions:greedycraft-ancient_tome_fragment"
+				},
+				{
+					"amount": "[1,1]",
+					"chance": 0.02,
+					"item": "scalinghealth:crystalshard"
+				}
+			],
+			"[1250, 32767]": [{
+					"amount": "[16,32]",
+					"chance": 1,
+					"item": "additions:greedycraft-raw_human_meat"
+				},
+				{
+					"amount": "[24,40]",
+					"chance": 1,
+					"item": "mysticalagriculture:crafting"
+				},
+				{
+					"amount": "[1,1]",
+					"chance": 0.005,
+					"item": "additions:greedycraft-reward_ticket_epic"
+				},
+				{
+					"amount": "[1,1]",
+					"chance": 0.032,
+					"item": "additions:greedycraft-ancient_tome_fragment"
+				},
+				{
+					"amount": "[1,1]",
+					"chance": 0.032,
+					"item": "additions:greedycraft-ancient_tome_fragment"
+				}
+			],
+			"[1500, 32767]": [{
+					"amount": "[16,32]",
+					"chance": 1,
+					"item": "additions:greedycraft-raw_human_meat"
+				},
+				{
+					"amount": "[24,40]",
+					"chance": 1,
+					"item": "mysticalagriculture:crafting"
+				},
+				{
+					"amount": "[1,1]",
+					"chance": 0.005,
+					"item": "additions:greedycraft-reward_ticket_epic"
+				},
+				{
+					"amount": "[1,1]",
+					"chance": 0.1,
+					"item": "additions:greedycraft-ancient_tome_fragment"
+				}
+			]
 		}
 	}
 }

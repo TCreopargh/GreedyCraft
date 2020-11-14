@@ -79,6 +79,7 @@ stainless_steel                                   (contenttweaker:stainless_stee
 protonium                                         (contenttweaker:protonium)                                                       = ³¬ÃÜÖÊ×ÓÁ÷Ìå
 electronium                                       (contenttweaker:electronium)                                                     = Õ³ĞÔµç×ÓÁ÷ÖÊ
 crimsonite                                        (contenttweaker:crimsonite)                                                      = ĞÉºì½¬Òº
+aqualite                                          (jaopca:fluid_moltenaqualite)                                                    = ÈÛÈÚË®»ª
 alumite                                           (plustic:plustic.molten_alumite)                                                 = ÈÛÈÚÄÍËáÂÁ
 osgloglas                                         (plustic:plustic.molten_osgloglas)                                               = ÈÛÈÚï°Ó«ºÚê×ºÏ½ğ
 osmiridium                                        (plustic:plustic.molten_osmiridium)                                              = ÈÛÈÚÒ¿ï°ºÏ½ğ
@@ -118,6 +119,8 @@ constantan                                        ([no block])                  
 signalum                                          (tconstruct:molten_signalum)                                                     = ÈÛÈÚĞÅËØ
 lumium                                            (tconstruct:molten_lumium)                                                       = ÈÛÈÚÁ÷Ã÷
 enderium                                          (tconstruct:molten_enderium)                                                     = ÈÛÈÚÄ©Ó°
+gravitite                                         (tinkersaether:molten_gravitite)                                                 = ÈÛÈÚÖØÁ¦¾§
+valkyrie                                          (tinkersaether:molten_valkyrie)                                                  = ÈÛÈÚÅ®ÎäÉñ½ğÊô
 tiberium_fluid                                    (taiga:molten_tiberium_fluid)                                                    = ÈÛÈÚÌ©²®ÀûÑÇ
 aurorium_fluid                                    (taiga:molten_aurorium_fluid)                                                    = ÈÛÈÚ¼«¹â½ğÊô
 prometheum_fluid                                  (taiga:molten_prometheum_fluid)                                                  = ÈÛÈÚÆÕÂŞÄ·
@@ -148,8 +151,6 @@ niob_fluid                                        (taiga:molten_niob_fluid)     
 yrdeen_fluid                                      (taiga:molten_yrdeen_fluid)                                                      = ÈÛÈÚÔ­½ğ
 meteorite_fluid                                   (taiga:molten_meteorite_fluid)                                                   = ÈÛÈÚÔÉÌú
 obsidiorite_fluid                                 (taiga:molten_obsidiorite_fluid)                                                 = ÈÛÈÚºÚÔÉÌú
-gravitite                                         (tinkersaether:molten_gravitite)                                                 = ÈÛÈÚÖØÁ¦¾§
-valkyrie                                          (tinkersaether:molten_valkyrie)                                                  = ÈÛÈÚÅ®ÎäÉñ½ğÊô
 xu_evil_metal                                     ([no block])                                                                     = ¶ñÄ§¹à×¢Ìú
 xu_enchanted_metal                                ([no block])                                                                     = ¸½Ä§½ğÊô
 xu_demonic_metal                                  ([no block])                                                                     = ÈÛÈÚ¶ñÄ§½ğÊô

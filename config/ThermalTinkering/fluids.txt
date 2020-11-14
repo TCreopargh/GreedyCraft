@@ -199,6 +199,8 @@ fluxed_electrum                                   ([no block])                  
 gelid_enderium                                    ([no block])                                                                     = ÈÛÈÚ¼«º®Ä©Ó°
 void_metal                                        ([no block])                                                                     = ÈÛÈÚĞé¿Õ½ğÊô
 primal_metal                                      ([no block])                                                                     = ÈÛÈÚÔª½ğ
+gravitite                                         (tinkersaether:molten_gravitite)                                                 = ÈÛÈÚÖØÁ¦¾§
+valkyrie                                          (tinkersaether:molten_valkyrie)                                                  = ÈÛÈÚÅ®ÎäÉñ½ğÊô
 fluidedmana                                       (extrabotany:fluidedmana)                                                        = ÒºÌ¬Ä§Á¦
 basalt_fluid                                      (taiga:molten_basalt_fluid)                                                      = ÈÛÈÚĞşÎäÑÒ
 tiberium_fluid                                    (taiga:molten_tiberium_fluid)                                                    = ÈÛÈÚÌ©²®ÀûÑÇ
@@ -245,8 +247,6 @@ dark_chocolate                                    (tcomplement:liquid_dark_choco
 mutagen                                           (gendustry:mutagen)                                                              = ÓÕ±ä¼Á
 liquiddna                                         (gendustry:liquiddna)                                                            = ÒºÌ¬»ùÒò
 protein                                           (gendustry:protein)                                                              = µ°°×ÖÊ
-gravitite                                         (tinkersaether:molten_gravitite)                                                 = ÈÛÈÚÖØÁ¦¾§
-valkyrie                                          (tinkersaether:molten_valkyrie)                                                  = ÈÛÈÚÅ®ÎäÉñ½ğÊô
 xu_evil_metal                                     ([no block])                                                                     = ¶ñÄ§¹à×¢Ìú
 xu_enchanted_metal                                ([no block])                                                                     = ¸½Ä§½ğÊô
 xu_demonic_metal                                  ([no block])                                                                     = ÈÛÈÚ¶ñÄ§½ğÊô
@@ -418,6 +418,7 @@ blockfluiddirt                                    (animus:blockfluiddirt)       
 blockfluidantimatter                              (animus:blockfluidantimatter)                                                    = ÒºÌ¬·´ÎïÖÊ
 astralsorcery.liquidstarlight                     (astralsorcery:fluidblockliquidstarlight)                                        = ĞÇÄÜÒº
 aeroite                                           (jaopca:fluid_moltenaeroite)                                                     = ÈÛÈÚÔÆ¸¡
+aqualite                                          (jaopca:fluid_moltenaqualite)                                                    = ÈÛÈÚË®»ª
 asgardium                                         (jaopca:fluid_moltenasgardium)                                                   = ÈÛÈÚÉñ½ğ
 chromium                                          (jaopca:fluid_moltenchromium)                                                    = ÈÛÈÚ¸õ
 cryonium                                          (jaopca:fluid_moltencryonium)                                                    = ÈÛÈÚ¼«º®

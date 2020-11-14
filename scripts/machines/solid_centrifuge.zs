@@ -10,11 +10,13 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.data.IData;
 import crafttweaker.item.IIngredient;
 
+import mods.modularmachinery.RecipeBuilder;
+
 val regName = "solid_centrifuge";
 val speed = 20;
 val energy = 50;
 
-mods.modularmachinery.RecipeBuilder.newBuilder(regName + "_leaves", regName, speed, 0)
+RecipeBuilder.newBuilder(regName + "_leaves", regName, speed, 0)
     .addItemInput(<ore:treeLeaves>)
     .addEnergyPerTickInput(energy)
     .addFluidInput(<liquid:water> * 50)
@@ -36,7 +38,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(regName + "_leaves", regName, spe
     .setChance(0.05 as float)
     .build();
     
-mods.modularmachinery.RecipeBuilder.newBuilder(regName + "_log", regName, speed, 0)
+RecipeBuilder.newBuilder(regName + "_log", regName, speed, 0)
     .addItemInput(<ore:logWood>)
     .addEnergyPerTickInput(energy)
     .addFluidInput(<liquid:water> * 50)
@@ -50,7 +52,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(regName + "_log", regName, speed,
     .setChance(0.05 as float)
     .build();
 
-mods.modularmachinery.RecipeBuilder.newBuilder(regName + "_gravel", regName, speed, 0)
+RecipeBuilder.newBuilder(regName + "_gravel", regName, speed, 0)
     .addItemInput(<ore:gravel>)
     .addEnergyPerTickInput(energy)
     .addFluidInput(<liquid:water> * 50)
@@ -88,7 +90,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(regName + "_gravel", regName, spe
     .setChance(0.005 as float)
     .build();
     
-mods.modularmachinery.RecipeBuilder.newBuilder(regName + "_sand", regName, speed, 0)
+RecipeBuilder.newBuilder(regName + "_sand", regName, speed, 0)
     .addItemInput(<ore:sand>)
     .addEnergyPerTickInput(energy)
     .addFluidInput(<liquid:water> * 50)
@@ -118,7 +120,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(regName + "_sand", regName, speed
     .setChance(0.0075 as float)
     .build();
     
-mods.modularmachinery.RecipeBuilder.newBuilder(regName + "_sandstone", regName, speed, 0)
+RecipeBuilder.newBuilder(regName + "_sandstone", regName, speed, 0)
     .addItemInput(<ore:sandstone>)
     .addEnergyPerTickInput(energy)
     .addFluidInput(<liquid:water> * 50)
@@ -148,7 +150,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(regName + "_sandstone", regName, 
     .setChance(0.0075 as float)
     .build();
     
-mods.modularmachinery.RecipeBuilder.newBuilder(regName + "_netherrack", regName, speed, 0)
+RecipeBuilder.newBuilder(regName + "_netherrack", regName, speed, 0)
     .addItemInput(<ore:netherrack>)
     .addEnergyPerTickInput(energy)
     .addFluidInput(<liquid:water> * 50)
@@ -178,7 +180,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(regName + "_netherrack", regName,
     .setChance(0.00025 as float)
     .build();
     
-mods.modularmachinery.RecipeBuilder.newBuilder(regName + "_endstone", regName, speed, 0)
+RecipeBuilder.newBuilder(regName + "_endstone", regName, speed, 0)
     .addItemInput(<ore:endstone>)
     .addEnergyPerTickInput(energy)
     .addFluidInput(<liquid:water> * 50)
@@ -200,7 +202,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(regName + "_endstone", regName, s
     .setChance(0.000003 as float)
     .build();
 
-mods.modularmachinery.RecipeBuilder.newBuilder(regName + "_stone", regName, speed, 0)
+RecipeBuilder.newBuilder(regName + "_stone", regName, speed, 0)
     .addItemInput(<ore:stone>)
     .addEnergyPerTickInput(energy)
     .addFluidInput(<liquid:water> * 50)
@@ -242,7 +244,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(regName + "_stone", regName, spee
     .setChance(0.006 as float)
     .build();
     
-mods.modularmachinery.RecipeBuilder.newBuilder(regName + "_cobble", regName, speed, 0)
+RecipeBuilder.newBuilder(regName + "_cobble", regName, speed, 0)
     .addItemInput(<ore:cobblestone>)
     .addEnergyPerTickInput(energy)
     .addFluidInput(<liquid:water> * 50)
@@ -282,7 +284,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(regName + "_cobble", regName, spe
     .setChance(0.004 as float)
     .build();
 
-mods.modularmachinery.RecipeBuilder.newBuilder(regName + "_dirt", regName, speed, 0)
+RecipeBuilder.newBuilder(regName + "_dirt", regName, speed, 0)
     .addItemInput(<ore:dirt>)
     .addEnergyPerTickInput(energy)
     .addFluidInput(<liquid:water> * 50)
@@ -320,7 +322,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(regName + "_dirt", regName, speed
     .setChance(0.000375 as float)
     .build();
     
-mods.modularmachinery.RecipeBuilder.newBuilder(regName + "_grass", regName, speed, 0)
+RecipeBuilder.newBuilder(regName + "_grass", regName, speed, 0)
     .addItemInput(<ore:grass>)
     .addEnergyPerTickInput(energy)
     .addFluidInput(<liquid:water> * 50)
@@ -360,7 +362,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(regName + "_grass", regName, spee
     .setChance(0.000625 as float)
     .build();
     
-mods.modularmachinery.RecipeBuilder.newBuilder(regName + "_snow", regName, speed, 0)
+RecipeBuilder.newBuilder(regName + "_snow", regName, speed, 0)
     .addItemInput(<ore:blockSnow>)
     .addEnergyPerTickInput(energy)
     .addFluidInput(<liquid:water> * 50)
@@ -378,7 +380,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(regName + "_snow", regName, speed
     .setChance(0.0125 as float)
     .build();
     
-mods.modularmachinery.RecipeBuilder.newBuilder(regName + "_ice", regName, speed, 0)
+RecipeBuilder.newBuilder(regName + "_ice", regName, speed, 0)
     .addItemInput(<ore:ice>)
     .addEnergyPerTickInput(energy)
     .addFluidInput(<liquid:water> * 50)

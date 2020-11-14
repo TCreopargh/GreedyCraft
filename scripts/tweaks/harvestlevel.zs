@@ -13,3 +13,6 @@
 
 <item:minecraft:barrier>.asBlock().definition.hardness = 1000.0 as float;
 <item:minecraft:barrier>.asBlock().definition.setHarvestLevel("pickaxe", 12);
+
+<item:quark:monster_box>.asBlock().definition.hardness = 150.0 as float;
+<item:quark:monster_box>.asBlock().definition.setHarvestLevel("pickaxe", 4);

@@ -9,7 +9,21 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.data.IData;
 import crafttweaker.item.IIngredient;
 
+function addCompressingRecipe(original as IItemStack, compressed as IItemStack) {
+    recipes.addShaped(original.definition.id.replace(":", "_") + "_compress", compressed, 
+    [[original, original, original], 
+    [original, original, original], 
+    [original, original, original]] as IIngredient[][]);
+    recipes.addShapeless(original.definition.id.replace(":", "_") + "_decompress", original * 9, [compressed] as IIngredient[]);
+}
+
 val oeEnchantId = <enchantment:oeintegration:oreexcavation>.id as int;
+
+val compressingRecipes as IItemStack[IItemStack] = {
+    <additions:aqualite_ingot> : <additions:greedycraft-aqualite_block>,
+    <additions:greedycraft-time_fragment> : <additions:greedycraft-time_shard>,
+    <additions:greedycraft-time_shard> : <additions:greedycraft-sand_of_time>
+} as IItemStack[IItemStack];
 
 val removedRecipes as IIngredient[] = [
     <oeintegration:excavatemodifier>,
@@ -310,11 +324,17 @@ val removedRecipes as IIngredient[] = [
     <extrautils2:itembuilderswand>,
     <lootbags:loot_storage>,
     <ambience:horn>,
-    <redstonerepository:ring_mining>
+    <redstonerepository:ring_mining>,
+    <hooked:hook:4>
 ];
 
 for ingredient in removedRecipes {
     recipes.remove(ingredient);
+}
+
+for original in compressingRecipes {
+    var compressed = compressingRecipes[original] as IItemStack;
+    addCompressingRecipe(original, compressed);
 }
 
 recipes.removeByRecipeName("extrautils2:watering_can");
@@ -650,9 +670,9 @@ recipes.addShaped("auto_gen_-1513078655", <cyclicmagic:battery>,
 [<ore:ingotTin>, <thaumcraft:nugget:10>, <ore:ingotTin>],
 [<ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>]]);
 recipes.addShaped("auto_gen_918073950", <waystones:warp_stone>, 
-[[<ore:gemAmethyst>, <ore:gemDiamond>, <ore:gemAmethyst>],
+[[<ore:obsidian>, <ore:gemDiamond>, <ore:obsidian>],
 [<ore:gemDiamond>, <ore:pearlEnderEye>, <ore:gemDiamond>],
-[<ore:gemAmethyst>, <ore:gemDiamond>, <ore:gemAmethyst>]]);
+[<ore:obsidian>, <ore:gemDiamond>, <ore:obsidian>]]);
 recipes.addShaped("auto_gen_2018337295", <thermalfoundation:material:23>, 
 [[null, <ore:cobblestone>, null],
 [<ore:cobblestone>, null, <ore:cobblestone>],
@@ -967,10 +987,6 @@ recipes.addShaped("forbidden_bible_1", <additions:greedycraft-forbidden_bible>,
 [[<ore:ingotVoid>, <ore:ingotDemonicMetal>, <ore:ingotVoid>],
 [<ore:ingotDemonicMetal>, <minecraft:skull:3>.withTag({SkullOwner: {"Name": "TCreopargh"}}), <ore:ingotDemonicMetal>],
 [<ore:ingotVoid>, <ore:ingotDemonicMetal>, <ore:ingotVoid>]]);
-recipes.addShaped("time_shard", <additions:greedycraft-time_shard>, 
-[[<ore:fragmentTime>, <ore:fragmentTime>, <ore:fragmentTime>],
-[<ore:fragmentTime>, <ore:fragmentTime>, <ore:fragmentTime>],
-[<ore:fragmentTime>, <ore:fragmentTime>, <ore:fragmentTime>]]);
 recipes.addShaped("time_order", <additions:greedycraft-delivery_order>, 
 [[<ore:shardTime>, <ore:shardTime>, <ore:shardTime>],
 [<ore:shardTime>, <ore:paper>, <ore:shardTime>],
@@ -1248,7 +1264,7 @@ recipes.addShaped("rubber_band", <additions:rubber_band>,
 [[<thermalfoundation:material:832>, <thermalfoundation:material:832>, <thermalfoundation:material:832>]]);
 recipes.addShaped("ender_casing", <actuallyadditions:block_misc:8>, 
 [[<ore:ingotEnderium>, <ore:ingotFusionMatrix>, <ore:ingotEnderium>],
-[<ore:ingotStainlessSteel>, <ore:blockQuartzBlack>, <ore:ingotStainlessSteel>],
+[<ore:ingotStainlessSteel>, <ore:blockQuartzBlack> | <ore:blockQuartzDark>, <ore:ingotStainlessSteel>],
 [<ore:ingotEnderium>, <ore:ingotFusionMatrix>, <ore:ingotEnderium>]]);
 recipes.addShaped("stainless_steel_ball", <additions:greedycraft-stainless_steel_ball> * 24, 
 [[null, <ore:ingotStainlessSteel>, null],
@@ -1342,3 +1358,21 @@ recipes.addShaped("cyclic_heart_food", <cyclicmagic:heart_food>,
 [[<scalinghealth:heartcontainer>, <scalinghealth:heartcontainer>, <scalinghealth:heartcontainer>],
 [<scalinghealth:heartcontainer>, <ore:ingotCrimsonite>, <scalinghealth:heartcontainer>],
 [<scalinghealth:heartcontainer>, <scalinghealth:heartcontainer>, <scalinghealth:heartcontainer>]]);
+recipes.addShaped("soul_vial", <enderio:item_soul_vial>, 
+[[null, <ore:ingotSoularium>, null],
+[<ore:blockGlass>, null, <ore:blockGlass>],
+[null, <ore:blockGlass>, null]]);
+recipes.addShapeless("black_quartz_block", <actuallyadditions:block_misc:2>, 
+[<ore:gemQuartzBlack>, <ore:gemQuartzBlack>, <ore:gemQuartzBlack>, <ore:gemQuartzBlack>]);
+recipes.addShapeless("forestry_resource_2", <magicbees:resource:2> * 4, 
+[<ore:itemBiomassRich>, <ore:itemBiomassRich>, <ore:itemBiomassRich>, <ore:itemBiomassRich>]);
+recipes.addShaped("ender_hook", <hooked:hook:4>, 
+[[<ore:pearlEnderEye>, <ore:rodBlaze>, <ore:endstone>],
+[null, <hooked:hook:2>, <ore:rodBlaze>],
+[<ore:dustBlaze>, null, <ore:pearlEnderEye>]]);
+recipes.addShapeless("eternal_singularity_dupe", <eternalsingularity:eternal_singularity> * 2, 
+[<eternalsingularity:eternal_singularity>, <additions:greedycraft-black_hole_remnant>, <additions:greedycraft-black_hole_remnant>]);
+recipes.addShaped("machine_upgrade_1", <modularmachinery:blockcasing:1>, 
+[[<modularmachinery:blockcasing:4>, <ore:ingotStellarAlloy>, <modularmachinery:blockcasing:4>],
+[<ore:ingotStainlessSteel>, <ore:ingotFusionMatrix>, <ore:ingotStainlessSteel>],
+[<modularmachinery:blockcasing:4>, <ore:ingotStellarAlloy>, <modularmachinery:blockcasing:4>]]);

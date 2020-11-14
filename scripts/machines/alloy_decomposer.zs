@@ -10,6 +10,8 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.data.IData;
 import crafttweaker.item.IIngredient;
 import crafttweaker.liquid.ILiquidStack;
+
+import mods.modularmachinery.RecipeBuilder;
 import mods.ctutils.utils.Math;
 
 val regName = "alloy_decomposer";
@@ -82,7 +84,7 @@ for row in alloyRecipes {
     var amount = inputStack.amount;
     var alloyEnergy = energy as int;
     var alloySpeed = Math.ceil((amount as float / 100.0 as float) * speed as float) as int;
-    var builder = mods.modularmachinery.RecipeBuilder.newBuilder(regName + "_alloy_" + inputStack.definition.name, regName, alloySpeed, 0);
+    var builder = RecipeBuilder.newBuilder(regName + "_alloy_" + inputStack.definition.name, regName, alloySpeed, 0);
         builder.addFluidInput(inputStack);
         builder.addEnergyPerTickInput(alloyEnergy);
     for i in 1 to row.length {

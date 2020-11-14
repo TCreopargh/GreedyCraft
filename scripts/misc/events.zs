@@ -41,6 +41,9 @@ events.onPlayerLoggedIn(function (event as crafttweaker.event.PlayerLoggedInEven
         "§6如果感到卡顿，请尝试按§eR§6打开菜单并点击“§e清理内存§6”按钮。另外也可以试试调整下视距再调回来。§e/purge§6命令可以清理掉落物品，这可以在跑图时降低卡顿。\n§e组合键§6F3 + A§e可以重载区块并提高帧率，§6F3 + S§e可以重载声音系统（在没有声音时使用）");
     } else {
         event.player.sendChat("§2§o欢迎回家，§e" + event.player.name + "§2§o！");
+        if(Math.random() < 0.25) {
+            event.player.sendChat("§e感到卡顿？请在刚进入游戏或内存占用较高时使用§6R§e键菜单中的§6释放内存§e按钮手动清理内存！");
+        }
     }
     
     if(event.player.hasGameStage("truehero") && !event.player.hasGameStage("iswuss")) {

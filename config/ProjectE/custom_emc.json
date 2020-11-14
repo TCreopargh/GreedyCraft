@@ -927,6 +927,14 @@
     {
       "item": "bloodmagic:sanguine_book|0",
       "emc": 0
+    },
+    {
+      "item": "additions:aqualite_ingot|0",
+      "emc": 5200
+    },
+    {
+      "item": "tconevo:metal|25",
+      "emc": 6666
     }
   ]
 }

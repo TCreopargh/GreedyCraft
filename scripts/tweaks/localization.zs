@@ -77,6 +77,7 @@ val localizationMap as string[string] = {
     "jaopca.entry.Hephaestite": "赫菲斯辛",
     "jaopca.entry.Scarlite": "绯红宝石",
     "jaopca.entry.Chromium": "铬",
+    "jaopca.entry.Aqualite": "水华",
     "fluid.mithrillium": "熔融秘银",
     "fluid.adaminite": "熔融铿金",
     "fluid.mithminite": "熔融秘金",

@@ -5,7 +5,9 @@
 
 #priority 400
 
-mods.compatskills.ModifierLock.addModifierLock("fiery", "reskillable:attack|15");
-mods.compatskills.ModifierLock.addModifierLock("shulking", "reskillable:magic|15");
-mods.compatskills.ModifierLock.addModifierLock("webbed", "reskillable:agility|15");
-mods.compatskills.ModifierLock.addModifierLock("silktouch", "reskillable:gathering|12");
+import mods.compatskills.ModifierLock;
+
+ModifierLock.addModifierLock("fiery", "reskillable:attack|15");
+ModifierLock.addModifierLock("shulking", "reskillable:magic|15");
+ModifierLock.addModifierLock("webbed", "reskillable:agility|15");
+ModifierLock.addModifierLock("silktouch", "reskillable:gathering|12");

@@ -7,6 +7,8 @@
 
 import crafttweaker.oredict.IOreDictEntry;
 
+import mods.modularmachinery.RecipeBuilder;
+
 val regName = "organic_producer";
 val speed = 40;
 
@@ -565,7 +567,7 @@ val seeds as IOreDictEntry[] = [
 ];
 
 for crop in crops {
-    mods.modularmachinery.RecipeBuilder.newBuilder(regName + "_crop_" + crop.name, regName, speed, 0)
+    RecipeBuilder.newBuilder(regName + "_crop_" + crop.name, regName, speed, 0)
     .addItemInput(crop)
     .addEnergyPerTickInput(40)
     .addFluidOutput(<liquid:organic_fluid> * 100)
@@ -573,158 +575,158 @@ for crop in crops {
     .build();
 }
 for seed in seeds {
-    mods.modularmachinery.RecipeBuilder.newBuilder(regName + "_seed_" + seed.name, regName, speed, 0)
+    RecipeBuilder.newBuilder(regName + "_seed_" + seed.name, regName, speed, 0)
     .addItemInput(seed)
     .addEnergyPerTickInput(30)
     .addFluidOutput(<liquid:organic_fluid> * 60)
     .addFluidInput(<liquid:water> * 60)
     .build();
 }
-mods.modularmachinery.RecipeBuilder.newBuilder(regName + "_seed_" + "t1", regName, speed, 0)
+RecipeBuilder.newBuilder(regName + "_seed_" + "t1", regName, speed, 0)
     .addItemInput(<ore:seedsTier1>)
     .addEnergyPerTickInput(20)
     .addFluidOutput(<liquid:organic_fluid> * 100)
     .addFluidInput(<liquid:water> * 100)
     .build();
-mods.modularmachinery.RecipeBuilder.newBuilder(regName + "_seed_" + "t2", regName, speed, 0)
+RecipeBuilder.newBuilder(regName + "_seed_" + "t2", regName, speed, 0)
     .addItemInput(<ore:seedsTier2>)
     .addEnergyPerTickInput(40)
     .addFluidOutput(<liquid:organic_fluid> * 200)
     .addFluidInput(<liquid:water> * 200)
     .build();
-mods.modularmachinery.RecipeBuilder.newBuilder(regName + "_seed_" + "t3", regName, speed, 0)
+RecipeBuilder.newBuilder(regName + "_seed_" + "t3", regName, speed, 0)
     .addItemInput(<ore:seedsTier3>)
     .addEnergyPerTickInput(60)
     .addFluidOutput(<liquid:organic_fluid> * 300)
     .addFluidInput(<liquid:water> * 300)
     .build();
-mods.modularmachinery.RecipeBuilder.newBuilder(regName + "_seed_" + "t4", regName, speed, 0)
+RecipeBuilder.newBuilder(regName + "_seed_" + "t4", regName, speed, 0)
     .addItemInput(<ore:seedsTier4>)
     .addEnergyPerTickInput(80)
     .addFluidOutput(<liquid:organic_fluid> * 400)
     .addFluidInput(<liquid:water> * 400)
     .build();
-mods.modularmachinery.RecipeBuilder.newBuilder(regName + "_seed_" + "t5", regName, speed, 0)
+RecipeBuilder.newBuilder(regName + "_seed_" + "t5", regName, speed, 0)
     .addItemInput(<ore:seedsTier5>)
     .addEnergyPerTickInput(100)
     .addFluidOutput(<liquid:organic_fluid> * 500)
     .addFluidInput(<liquid:water> * 500)
     .build();
-mods.modularmachinery.RecipeBuilder.newBuilder(regName + "_seed_" + "t6", regName, speed, 0)
+RecipeBuilder.newBuilder(regName + "_seed_" + "t6", regName, speed, 0)
     .addItemInput(<ore:seedsTier6>)
     .addEnergyPerTickInput(120)
     .addFluidOutput(<liquid:organic_fluid> * 800)
     .addFluidInput(<liquid:water> * 800)
     .build();
-mods.modularmachinery.RecipeBuilder.newBuilder(regName + "_sapling", regName, speed, 0)
+RecipeBuilder.newBuilder(regName + "_sapling", regName, speed, 0)
     .addItemInput(<ore:treeSapling>)
     .addEnergyPerTickInput(20)
     .addFluidOutput(<liquid:organic_fluid> * 20)
     .addFluidInput(<liquid:water> * 20)
     .build();
-mods.modularmachinery.RecipeBuilder.newBuilder(regName + "_log", regName, speed, 0)
+RecipeBuilder.newBuilder(regName + "_log", regName, speed, 0)
     .addItemInput(<ore:logWood>)
     .addEnergyPerTickInput(30)
     .addFluidOutput(<liquid:organic_fluid> * 30)
     .addFluidInput(<liquid:water> * 30)
     .build();
-mods.modularmachinery.RecipeBuilder.newBuilder(regName + "_leaves", regName, speed, 0)
+RecipeBuilder.newBuilder(regName + "_leaves", regName, speed, 0)
     .addItemInput(<ore:treeLeaves>)
     .addEnergyPerTickInput(5)
     .addFluidOutput(<liquid:organic_fluid> * 5)
     .addFluidInput(<liquid:water> * 5)
     .build();
-mods.modularmachinery.RecipeBuilder.newBuilder(regName + "_cytosinite_ingot", regName, speed * 9, 0)
+RecipeBuilder.newBuilder(regName + "_cytosinite_ingot", regName, speed * 9, 0)
     .addItemInput(<ore:ingotCytosinite>)
     .addEnergyPerTickInput(270)
     .addFluidOutput(<liquid:organic_fluid> * 3600)
     .addFluidInput(<liquid:water> * 3600)
     .build();
-mods.modularmachinery.RecipeBuilder.newBuilder(regName + "_cytosinite_block", regName, speed * 81, 0)
+RecipeBuilder.newBuilder(regName + "_cytosinite_block", regName, speed * 81, 0)
     .addItemInput(<ore:blockCytosinite>)
     .addEnergyPerTickInput(270)
     .addFluidOutput(<liquid:organic_fluid> * 32400)
     .addFluidInput(<liquid:water> * 32400)
     .build();
-mods.modularmachinery.RecipeBuilder.newBuilder(regName + "_cytosinite_nugget", regName, speed, 0)
+RecipeBuilder.newBuilder(regName + "_cytosinite_nugget", regName, speed, 0)
     .addItemInput(<ore:nuggetCytosinite>)
     .addEnergyPerTickInput(270)
     .addFluidOutput(<liquid:organic_fluid> * 400)
     .addFluidInput(<liquid:water> * 400)
     .build();
-mods.modularmachinery.RecipeBuilder.newBuilder(regName + "_fertilizer_1", regName, speed, 0)
+RecipeBuilder.newBuilder(regName + "_fertilizer_1", regName, speed, 0)
     .addItemInput(<mysticalagriculture:fertilized_essence>)
     .addEnergyPerTickInput(30)
     .addFluidOutput(<liquid:organic_fluid> * 200)
     .addFluidInput(<liquid:water> * 200)
     .build();
-mods.modularmachinery.RecipeBuilder.newBuilder(regName + "_fertilizer_2", regName, speed, 0)
+RecipeBuilder.newBuilder(regName + "_fertilizer_2", regName, speed, 0)
     .addItemInput(<thermalfoundation:fertilizer>)
     .addEnergyPerTickInput(30)
     .addFluidOutput(<liquid:organic_fluid> * 100)
     .addFluidInput(<liquid:water> * 100)
     .build();
-mods.modularmachinery.RecipeBuilder.newBuilder(regName + "_fertilizer_3", regName, speed, 0)
+RecipeBuilder.newBuilder(regName + "_fertilizer_3", regName, speed, 0)
     .addItemInput(<thermalfoundation:fertilizer:1>)
     .addEnergyPerTickInput(30)
     .addFluidOutput(<liquid:organic_fluid> * 400)
     .addFluidInput(<liquid:water> * 400)
     .build();
-mods.modularmachinery.RecipeBuilder.newBuilder(regName + "_fertilizer_4", regName, speed, 0)
+RecipeBuilder.newBuilder(regName + "_fertilizer_4", regName, speed, 0)
     .addItemInput(<thermalfoundation:fertilizer:2>)
     .addEnergyPerTickInput(30)
     .addFluidOutput(<liquid:organic_fluid> * 800)
     .addFluidInput(<liquid:water> * 800)
     .build();
-mods.modularmachinery.RecipeBuilder.newBuilder(regName + "_fertilizer_5", regName, speed, 0)
+RecipeBuilder.newBuilder(regName + "_fertilizer_5", regName, speed, 0)
     .addItemInput(<mysticalagriculture:mystical_fertilizer>)
     .addEnergyPerTickInput(30)
     .addFluidOutput(<liquid:organic_fluid> * 320)
     .addFluidInput(<liquid:water> * 320)
     .build();
-mods.modularmachinery.RecipeBuilder.newBuilder(regName + "_plantfiber", regName, speed, 0)
+RecipeBuilder.newBuilder(regName + "_plantfiber", regName, speed, 0)
     .addItemInput(<ore:plantFiber>)
     .addEnergyPerTickInput(30)
     .addFluidOutput(<liquid:organic_fluid> * 100)
     .addFluidInput(<liquid:water> * 100)
     .build();
-mods.modularmachinery.RecipeBuilder.newBuilder(regName + "_seed_oil", regName, speed, 0)
+RecipeBuilder.newBuilder(regName + "_seed_oil", regName, speed, 0)
     .addFluidInput(<liquid:water> * 50)
     .addFluidInput(<liquid:seed_oil> * 100)
     .addEnergyPerTickInput(30)
     .addFluidOutput(<liquid:organic_fluid> * 50)
     .build();
-mods.modularmachinery.RecipeBuilder.newBuilder(regName + "_resin", regName, speed, 0)
+RecipeBuilder.newBuilder(regName + "_resin", regName, speed, 0)
     .addFluidInput(<liquid:water> * 50)
     .addFluidInput(<liquid:resin> * 100)
     .addEnergyPerTickInput(30)
     .addFluidOutput(<liquid:organic_fluid> * 50)
     .build();
-mods.modularmachinery.RecipeBuilder.newBuilder(regName + "_wood_dust", regName, speed, 0)
+RecipeBuilder.newBuilder(regName + "_wood_dust", regName, speed, 0)
     .addFluidInput(<liquid:water> * 30)
     .addItemInput(<ore:dustWood>)
     .addEnergyPerTickInput(30)
     .addFluidOutput(<liquid:organic_fluid> * 30)
     .build();
-mods.modularmachinery.RecipeBuilder.newBuilder(regName + "_biomass_1", regName, speed, 0)
+RecipeBuilder.newBuilder(regName + "_biomass_1", regName, speed, 0)
     .addFluidInput(<liquid:water> * 50)
     .addItemInput(<ore:itemBiomass>)
     .addEnergyPerTickInput(30)
     .addFluidOutput(<liquid:organic_fluid> * 50)
     .build();
-mods.modularmachinery.RecipeBuilder.newBuilder(regName + "_biomass_2", regName, speed, 0)
+RecipeBuilder.newBuilder(regName + "_biomass_2", regName, speed, 0)
     .addFluidInput(<liquid:water> * 90)
     .addItemInput(<ore:itemBiomassRich>)
     .addEnergyPerTickInput(30)
     .addFluidOutput(<liquid:organic_fluid> * 90)
     .build();
-mods.modularmachinery.RecipeBuilder.newBuilder(regName + "_biomass_3", regName, speed, 0)
+RecipeBuilder.newBuilder(regName + "_biomass_3", regName, speed, 0)
     .addFluidInput(<liquid:water> * 180)
     .addItemInput(<ore:itemBioblend>)
     .addEnergyPerTickInput(30)
     .addFluidOutput(<liquid:organic_fluid> * 180)
     .build();
-mods.modularmachinery.RecipeBuilder.newBuilder(regName + "_biomass_4", regName, speed, 0)
+RecipeBuilder.newBuilder(regName + "_biomass_4", regName, speed, 0)
     .addFluidInput(<liquid:water> * 230)
     .addItemInput(<ore:itemBioblendRich>)
     .addEnergyPerTickInput(30)
