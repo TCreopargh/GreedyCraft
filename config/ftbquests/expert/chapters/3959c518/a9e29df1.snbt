@@ -42,7 +42,7 @@
 		items: [{
 			item: "additions:greedycraft-greedy_medal"
 		}],
-		count: 9L
+		count: 6L
 	}],
 	rewards: [{
 		uid: "567422aa",

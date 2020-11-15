@@ -222,6 +222,7 @@ addItem(<thaumcraft:curio>, 2, 1, 1, 2);
 addItem(<thermalfoundation:material:136>, 1, 1, 2, 4);
 addItem(<appliedenergistics2:material:36>, 3, 1, 3, 6);
 addItem(<appliedenergistics2:material:38>, 1, 1, 2, 4);
+addItem(<harvestcraft:bambooshootitem>, 2, 1, 8, 20);
 
 var dungeonPool2 = dungeon.getPool("pool2");  
 dungeonPool2.addItemEntryHelper(<additions:greedycraft-reward_ticket_common>, 12, 1, [Functions.setCount(1, 2)], []);

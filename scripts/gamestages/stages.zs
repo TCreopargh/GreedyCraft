@@ -472,7 +472,12 @@ stageHardmode.addIngredients([
     <ore:nuggetEthaxium>,
     <ore:ingotEthaxiumBrick>,
     <ore:gemEnderBiotite>,
-    <modularmachinery:blockcasing:1>
+    <modularmachinery:blockcasing:1>,
+    <tofucraft:swordkinu>,
+    <tofucraft:swordmomen>,
+    <tofucraft:swordsolid>,
+    <tofucraft:swordmetal>,
+    <tofucraft:sworddiamond>
 ], true);
 
 stageInfinity.addIngredients([

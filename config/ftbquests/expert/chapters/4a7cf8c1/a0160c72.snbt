@@ -48,12 +48,14 @@
 		uid: "7b6ae8c4",
 		type: "item",
 		item: "additions:greedycraft-creative_shard",
+		count: 3,
 		random_bonus: 1
 	},
 	{
 		uid: "edcd7081",
 		type: "item",
 		item: "additions:greedycraft-ordinary_medal",
+		count: 3,
 		random_bonus: 1
 	},
 	{

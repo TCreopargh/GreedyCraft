@@ -11,7 +11,7 @@
 	tasks: [{
 		uid: "5a66ebfc",
 		type: "emc",
-		value: 250000000L
+		value: 100000000L
 	}],
 	rewards: [{
 		uid: "609198e6",
