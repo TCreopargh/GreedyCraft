@@ -170,11 +170,11 @@
     },
     {
       "item": "avaritia:resource|6",
-      "emc": 8000000000
+      "emc": 4000000000
     },
     {
       "item": "avaritia:block_resource|1",
-      "emc": 72000000000
+      "emc": 36000000000
     },
     {
       "item": "botania:specialflower|0",
@@ -935,6 +935,10 @@
     {
       "item": "tconevo:metal|25",
       "emc": 6666
+    },
+    {
+      "item": "mysticalagriculture:fertilized_essence|0",
+      "emc": 0
     }
   ]
 }

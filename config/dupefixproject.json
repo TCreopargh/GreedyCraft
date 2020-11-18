@@ -1,12 +1,15 @@
 {
-    "netherChest": "",
-    "bloodMagic": "",
-    "industrialForegoing": "",
     "actuallyAdditions": "[实用附加]ActuallyAdditions-r151-2.jar",
-    "thaumcraft": "[神秘时代6]Thaumcraft-6.1.BETA26.jar",
+    "theFarlanders": "",
+    "thaumicWonders": "[神秘奇境]thaumicwonders-1.8.2.jar",
+    "spiceOfLife": "[生活调味料]SpiceOfLife-mc1.12(1.3.12).jar",
+    "netherChest": "",
+    "bloodMagic": "[血魔法]BloodMagic-1.12.2-2.4.3-105.jar",
+    "industrialForegoing": "",
+    "thaumcraft": "Thaumcraft-1.12.2-6.1.BETA26.jar",
     "tinyProgressions": "",
     "extraUtilities": "[更多实用设备]extrautils2-1.12(1.9.9).jar",
-    "enderio": "[末影接口]EnderIO(5.2.59).jar",
+    "enderio": "[末影接口EIO]EnderIO-1.12.2-5.2.61.jar",
     "_comment": "Visit the wiki to learn how to configure it: https://github.com/Focamacho/DupeFix-Project/wiki",
-    "spiceOfLife": "[生活调味料]SpiceOfLife-mc1.12(1.3.12).jar"
+    "forestry": "[林业]forestry_1.12.2(5.8.2.387).jar"
 }

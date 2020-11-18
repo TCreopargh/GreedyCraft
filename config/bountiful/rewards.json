@@ -201,8 +201,18 @@
     },
     {
         "content": "additions:greedycraft-bounty_hunter_medal_bronze",
-        "unitWorth": 4000,
-        "weight": 800
+        "unitWorth": 3200,
+        "weight": 600
+    },
+    {
+        "content": "additions:greedycraft-bounty_hunter_medal_bronze",
+        "unitWorth": 2400,
+        "weight": 400
+    },
+    {
+        "content": "additions:greedycraft-bounty_hunter_medal_bronze",
+        "unitWorth": 1600,
+        "weight": 200
     },
     {
         "content": "additions:greedycraft-bounty_hunter_medal_silver",

@@ -71,7 +71,6 @@ import crafttweaker.game.IGame;
 ]);
 <ore:dungeonLootTier1>.addItems([
     <additions:greedycraft-medkit_small>,
-    <bountifulbaubles:potionrecall>,
     <additions:greedycraft-bag_of_dyes>,
     <quark:rune:*>,
     <cyclicmagic:apple_emerald>,

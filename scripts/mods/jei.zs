@@ -11,7 +11,7 @@ import crafttweaker.item.IIngredient;
 
 import mods.jei.JEI;
 
-val discriptions as string[IIngredient] = {
+val descriptions as string[IIngredient] = {
     <additions:cryonium_ingot> : "通过在600难度以上击败冰霜巨口或挖掘极寒矿获得。",
     <additions:infernium_ingot> : "在700难度以上击败太阳酋长并使用太阳宝石后，在下界生成",
     <additions:cytosinite_ingot> : "在打败末影龙后可在树木繁茂的生物群系或沼泽的地下泥巴堆里找到这种矿物",
@@ -23,6 +23,8 @@ val discriptions as string[IIngredient] = {
     <additions:cosmilite_ingot> : "§0这是一种由超多金属合成的合金，需要使用§5寰宇熔炉§0制作！",
     <additions:terra_alloy_ingot> : "这是一种合金，合成表请查询其液体！",
     <additions:aqualite_ingot> : "这种矿物能在深海被淹没的洞穴中偶尔找到。要挖掘此矿物，首先必须获得阶段nether。",
+    <additions:crimsonite_ingot> : "通过注魔合成获得，合成配方请查询猩红块。",
+    <additions:manganese_ingot> : "这种矿物能在深海地下的洞穴当中找到，这是一种非常重要的用于制作不锈钢的材料。",
     <additions:greedycraft-cryonium_ore> : "通过在600难度以上击败冰霜巨口或挖掘极寒矿获得。",
     <additions:greedycraft-infernium_ore> : "在700难度以上击败太阳酋长并使用太阳宝石后，在下界生成",
     <additions:greedycraft-cytosinite_ore> : "在打败末影龙后可在树木繁茂的生物群系或沼泽的地下泥巴堆里找到这种矿物",
@@ -32,6 +34,7 @@ val discriptions as string[IIngredient] = {
     <additions:greedycraft-experience_ore> : "这种矿物分布非常广泛但并不常见，你可以在主世界的地下找到它们",
     <additions:greedycraft-titanium_ore> : "这种矿物非常罕见，你可以在末地找到它",
     <additions:greedycraft-aqualite_ore> : "这种矿物能在深海被淹没的洞穴中偶尔找到。要挖掘此矿物，首先必须获得阶段nether。",
+    <additions:greedycraft-manganese_ore> : "这种矿物能在深海地下的洞穴当中找到，这是一种非常重要的用于制作不锈钢的材料。",
     <additions:greedycraft-purifying_dust> : "这种粉尘可以像白雏菊一样净化方块，不过可以一次性净化很大一片。",
     <additions:protonium_ingot> : "使用中子素粒、质能转换核心和紫物质合成，此过程不消耗质能转换核心。",
     <cyclicmagic:heart_food> : "更高级的心之容器。可以使用普通心之容器合成，不过同样具有上限。",
@@ -48,9 +51,9 @@ for ingredient in hides {
     }
 }
 
-for ingredient in discriptions {
+for ingredient in descriptions {
     for item in ingredient.items {
-        var discription = discriptions[ingredient] as string;
-        JEI.addDescription(item, discription);
+        var description = descriptions[ingredient] as string;
+        JEI.addDescription(item, description);
     }
 }

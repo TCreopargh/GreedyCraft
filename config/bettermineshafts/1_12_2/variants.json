@@ -534,7 +534,7 @@
     "mainBlock": "minecraft:planks[variant=oak]",
     "supportBlock": "minecraft:fence[east=false,north=false,south=false,west=false]",
     "slabBlock": "minecraft:wooden_slab[half=bottom,variant=oak]",
-    "gravelBlock": "minecraft:gravel",
+    "gravelBlock": "minecraft:tnt",
     "stoneWallBlock": "minecraft:cobblestone_wall[east=false,north=false,south=false,up=false,variant=cobblestone,west=false]",
     "stoneSlabBlock": "minecraft:stone_slab[half=top,variant=stone_brick]",
     "vineChance": 0.35,

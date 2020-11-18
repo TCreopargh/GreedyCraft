@@ -29,5 +29,10 @@
         "threshold": 100,
         "overrideClaimedChunk": false,
         "overridePlayerChunk": false
+    }, {
+        "entityId": "vibrantjourneys.entities.passive.EntityBeachStarfish",
+        "threshold": 6,
+        "overrideClaimedChunk": false,
+        "overridePlayerChunk": false
     }]
 }

@@ -149,6 +149,12 @@ LootTweaker.getTable("minecraft:chests/desert_pyramid").removePool("moms_spaghet
 LootTweaker.getTable("minecraft:chests/jungle_temple").removePool("moms_spaghetti");
 LootTweaker.getTable("minecraft:chests/stronghold_crossing").removePool("moms_spaghetti");
 
+LootTweaker.getTable("enderio:chests/simple_dungeon").getPool("Ender IO").removeEntry("enderio:item_dark_steel_sword:0");
+LootTweaker.getTable("enderio:chests/simple_dungeon").getPool("Ender IO").removeEntry("enderio:item_dark_steel_boots:0");
+LootTweaker.getTable("enderio:chests/village_blacksmith").getPool("Ender IO").removeEntry("enderio:item_dark_steel_sword:0");
+LootTweaker.getTable("enderio:chests/village_blacksmith").getPool("Ender IO").removeEntry("enderio:item_dark_steel_boots:0");
+LootTweaker.getTable("enderio:chests/nether_bridge").getPool("Ender IO").removeEntry("enderio:item_dark_steel_boots:0");
+
 addItem(<thermalfoundation:material:128>, 10, 1, 2, 12);
 addItem(<thermalfoundation:material:129>, 10, 1, 2, 12);
 addItem(<thermalfoundation:material:163>, 18, 1, 2, 10);
@@ -223,6 +229,14 @@ addItem(<thermalfoundation:material:136>, 1, 1, 2, 4);
 addItem(<appliedenergistics2:material:36>, 3, 1, 3, 6);
 addItem(<appliedenergistics2:material:38>, 1, 1, 2, 4);
 addItem(<harvestcraft:bambooshootitem>, 2, 1, 8, 20);
+addItem(<bountifulbaubles:potionrecall>, 30, 1, 1, 4);
+addItem(<bountifulbaubles:potionwormhole>, 8, 1, 3, 8);
+addItem(<harvestcraft:hamandpineapplepizzaitem>, 2, 1, 3, 5);
+addItem(<minecraft:clay_ball>, 12, 1, 16, 64);
+addItem(<redstonepaste:redstonepaste>, 4, 1, 16, 64);
+addItem(<mysticalagriculture:crafting:32>, 4, 1, 6, 12);
+addItem(<mysticalagriculture:crafting:33>, 3, 1, 5, 9);
+addItem(<additions:greedycraft-strange_matter>, 1, 1, 1, 1);
 
 var dungeonPool2 = dungeon.getPool("pool2");  
 dungeonPool2.addItemEntryHelper(<additions:greedycraft-reward_ticket_common>, 12, 1, [Functions.setCount(1, 2)], []);

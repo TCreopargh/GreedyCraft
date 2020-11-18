@@ -6,6 +6,10 @@
     "dmillerw.menu.gui.GuiRadialMenu": {
       "scale": 0,
       "name": "R_Menu"
+    },
+    "slimeknights.tconstruct.tools.common.client.GuiStencilTable": {
+      "scale": 3,
+      "name": "匠魂模具合成台"
     }
   },
   "customGroupGuiScales": {},

@@ -102,10 +102,6 @@
 		item: "projectex:matter 1 3"
 	},
 	{
-		item: "projectex:personal_link",
-		count: 2
-	},
-	{
 		item: {
 			id: "minecraft:elytra"
 		}

@@ -144,6 +144,7 @@ stainless_steel                                   (contenttweaker:stainless_stee
 protonium                                         (contenttweaker:protonium)                                                       = ³¬ÃÜÖÊ×ÓÁ÷Ìå
 electronium                                       (contenttweaker:electronium)                                                     = Õ³ĞÔµç×ÓÁ÷ÖÊ
 crimsonite                                        (contenttweaker:crimsonite)                                                      = ĞÉºì½¬Òº
+manganese_steel                                   (contenttweaker:manganese_steel)                                                 = ÈÛÈÚÃÌ¸Ö
 canolaoil                                         (actuallyadditions:block_canola_oil)                                             = ²Ë×ÑÓÍ
 refinedcanolaoil                                  (actuallyadditions:block_refined_canola_oil)                                     = ¾«ÖÆ²Ë×ÑÓÍ
 crystaloil                                        (actuallyadditions:block_crystal_oil)                                            = ¾§»¯ÓÍ
@@ -425,6 +426,7 @@ cryonium                                          (jaopca:fluid_moltencryonium) 
 cytosinite                                        (jaopca:fluid_moltencytosinite)                                                  = ÈÛÈÚ°ûà×
 dilithium                                         (jaopca:fluid_moltendilithium)                                                   = ÈÛÈÚË«ï®
 infernium                                         (jaopca:fluid_molteninfernium)                                                   = ÈÛÈÚÓÀÈ¼
+manganese                                         (jaopca:fluid_moltenmanganese)                                                   = ÈÛÈÚÃÌÌú
 mithril                                           (jaopca:fluid_moltenmithril)                                                     = ÈÛÈÚÃØÒø
 shadowium                                         (jaopca:fluid_moltenshadowium)                                                   = ÈÛÈÚ°µÓ°
 titanium                                          (jaopca:fluid_moltentitanium)                                                    = ÈÛÈÚîÑ½ğ

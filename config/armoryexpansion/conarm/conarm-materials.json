@@ -551,6 +551,28 @@
   },
   {
     "coreMaterialStats": {
+      "durability": 103.0,
+      "defense": 34.2,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 64.0,
+      "modifier": 29.647058,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 64.0,
+      "materialType": "trim"
+    },
+    "identifier": "manganese_steel",
+    "color": -12232092,
+    "type": "METAL",
+    "castable": true,
+    "craftable": false
+  },
+  {
+    "coreMaterialStats": {
       "durability": 118.0,
       "defense": 21.6,
       "materialType": "core"
@@ -1362,6 +1384,28 @@
     "type": "METAL",
     "castable": false,
     "craftable": true
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 28.0,
+      "defense": 27.9,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 25.6,
+      "modifier": 25.411766,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 25.6,
+      "materialType": "trim"
+    },
+    "identifier": "manganese",
+    "color": -14273992,
+    "type": "METAL",
+    "castable": true,
+    "craftable": false
   },
   {
     "coreMaterialStats": {

@@ -339,7 +339,7 @@
                 <str>上弦月</str>
                 <str>盈凸</str>
             </op>
-            <str> $7| $e光照等级$f：</str>
+            <str> $7| $e光照$f：</str>
             <op>
                 <str>gt</str>
                 <var>light</var>

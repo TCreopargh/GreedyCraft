@@ -14,8 +14,6 @@ import mods.zenstages.Stage;
 import mods.ItemStages;
 
 val noStageItems as IIngredient[] = [
-    <cyclicmagic:inventory_food>,
-    <cyclicmagic:crafting_food>,
     <extrabotany:candybag>,
     <extrabotany:candy:*>,
     <ore:rock>,
@@ -363,7 +361,8 @@ stageNether.addIngredients([
     <ore:nuggetAqualite>,
     <ore:dustAqualite>,
     <ore:oreAqualite>,
-    <ore:blockAqualite>
+    <ore:blockAqualite>,
+    <inventorypets:squid_pet>
 ], true);
 
 stageNether.addIngredients([
@@ -578,7 +577,8 @@ stageWitherSlayer.addIngredients([
     <minecraft:end_crystal>,
     <ore:ingotStellarAlloy>,
     <ore:blockStellarAlloy>,
-    <ore:nuggetStellarAlloy>
+    <ore:nuggetStellarAlloy>,
+    <abyssalcraft:soulreaper>
 ], true);
 
 stageAbyssalConquerer.addMob("minecraft:wither");
@@ -910,6 +910,10 @@ restageItem("master_engineer", <ore:circuitUltimate>);
 restageItem("fusion_matrix", <ore:dustDraconium>);
 restageItem("wither_slayer", <enderio:block_reinforced_obsidian>);
 restageItem("awakened", <cyclicmagic:glowing_chorus>);
+restageItems("getting_started", [
+    <cyclicmagic:inventory_food>,
+    <cyclicmagic:crafting_food>
+]);
 restageItems("fusion_matrix", [
     <draconicevolution:wyvern_core>,
     <draconicevolution:draconic_core>,
@@ -988,7 +992,21 @@ restageItems("disabled", [
     <bloodmagic:living_armour_chest>,
     <bloodmagic:living_armour_chest>.withTag({}),
     <bloodmagic:living_armour_leggings>,
-    <bloodmagic:living_armour_boots>
+    <bloodmagic:living_armour_boots>,
+    <cyclicmagic:magnet_anti_block>,
+    <bloodmagic:bound_sword>.withTag({activated: 0 as byte}),
+    <bloodmagic:bound_sword>.withTag({activated: 1 as byte}),
+    <bloodmagic:bound_sword>,
+    <bloodmagic:bound_pickaxe>.withTag({activated: 0 as byte}),
+    <bloodmagic:bound_pickaxe>.withTag({activated: 1 as byte}),
+    <bloodmagic:bound_pickaxe>,
+    <bloodmagic:bound_axe>.withTag({activated: 0 as byte}),
+    <bloodmagic:bound_axe>.withTag({activated: 1 as byte}),
+    <bloodmagic:bound_axe>,
+    <bloodmagic:bound_shovel>.withTag({activated: 0 as byte}),
+    <bloodmagic:bound_shovel>.withTag({activated: 1 as byte}),
+    <bloodmagic:bound_shovel>,
+    <animus:kama_bound>
 ] as IIngredient[]);
 
 restageItems("energy_matter_core", [

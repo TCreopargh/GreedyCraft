@@ -1,9 +1,25 @@
 [
 	{
-        "mob": ["minecraft:guardian", "minecraft:squid", "enderiozoo:epicsquid"],
+        "mob": ["minecraft:guardian"],
 		"mincount": {
-            "amount": 20,
+            "amount": 16,
             "perplayer": true
+        },
+		"result": "deny"
+    },
+	{
+        "mob": ["minecraft:squid", "enderiozoo:epicsquid"],
+		"mincount": {
+            "amount": 12,
+            "perplayer": true
+        },
+		"result": "deny"
+    },
+	{
+        "mob": ["pvj:pvj_starfish"],
+		"mincount": {
+            "amount": 6,
+            "perplayer": false
         },
 		"result": "deny"
     },
@@ -102,7 +118,7 @@
 	{
         "mob": ["minecraft:bat"],
 		"mincount": {
-            "amount": 10,
+            "amount": 6,
             "perplayer": true
         },
         "result": "deny"

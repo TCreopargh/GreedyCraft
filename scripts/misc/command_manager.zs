@@ -120,6 +120,7 @@ infinityStoneCommand.execute = function(command, server, sender, args) {
                 if(player.hasGameStage("truehero") || player.creative) {
                     player.addPotionEffect(<potion:minecraft:resistance>.makePotionEffect(50, 4, false, false));
                     player.addPotionEffect(<potion:minecraft:strength>.makePotionEffect(50, 10, false, false));
+                    player.addPotionEffect(<potion:minecraft:regeneration>.makePotionEffect(50, 4, false, false));
                     return;
                 }
             }

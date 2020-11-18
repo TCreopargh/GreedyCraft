@@ -80,6 +80,8 @@ protonium                                         (contenttweaker:protonium)    
 electronium                                       (contenttweaker:electronium)                                                     = Õ³ĞÔµç×ÓÁ÷ÖÊ
 crimsonite                                        (contenttweaker:crimsonite)                                                      = ĞÉºì½¬Òº
 aqualite                                          (jaopca:fluid_moltenaqualite)                                                    = ÈÛÈÚË®»ª
+manganese                                         (jaopca:fluid_moltenmanganese)                                                   = ÈÛÈÚÃÌÌú
+manganese_steel                                   (contenttweaker:manganese_steel)                                                 = ÈÛÈÚÃÌ¸Ö
 alumite                                           (plustic:plustic.molten_alumite)                                                 = ÈÛÈÚÄÍËáÂÁ
 osgloglas                                         (plustic:plustic.molten_osgloglas)                                               = ÈÛÈÚï°Ó«ºÚê×ºÏ½ğ
 osmiridium                                        (plustic:plustic.molten_osmiridium)                                              = ÈÛÈÚÒ¿ï°ºÏ½ğ

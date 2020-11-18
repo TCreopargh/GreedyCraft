@@ -6,11 +6,17 @@
 #priority 90
 
 import crafttweaker.event.PlayerLoggedInEvent;
-import crafttweaker.player.IPlayer;
 import crafttweaker.event.IPlayerEvent;
 import crafttweaker.event.PlayerRespawnEvent;
 import crafttweaker.event.PlayerTickEvent;
 import crafttweaker.data.IData;
+import crafttweaker.damage.IDamageSource;
+import crafttweaker.entity.IEntityLivingBase;
+import crafttweaker.player.IPlayer;
+import crafttweaker.util.Position3f;
+import crafttweaker.block.IBlock;
+import crafttweaker.world.IBlockPos;
+import crafttweaker.block.IBlockState;
 
 import mods.ctutils.utils.Math;
 import mods.ctutils.world.IGameRules;
@@ -22,6 +28,10 @@ val killEntities as string[] = [
     "mowziesmobs:frostmaw",
     "twilightforest:yeti"
 ];
+
+function getBlockPos(x as float, y as float, z as float) as IBlockPos {
+    return Position3f.create(x, y, z).asBlockPos() as IBlockPos;
+}
 
 events.onPlayerLoggedIn(function (event as crafttweaker.event.PlayerLoggedInEvent) {
     if(!event.player.hasGameStage("getting_started")) {
@@ -87,6 +97,75 @@ events.onEntityLivingDeath(function (event as crafttweaker.event.EntityLivingDea
             var offset = Math.random() - 0.5 as float;
             player.server.commandManager.executeCommand(player.server, "/summon headcrumbs:human " + (player.x + offset) + " " + (player.y + 1) + " "+ (player.z + offset) +" {Username:\"" + player.name + "\"}");
             player.sendChat("§5§o你感到周围的时空发生了扭曲...");
+        }
+    }
+});
+
+events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
+    var player = event.player;
+    if(!player.creative && (player.world.getBiome(player.position).name.contains("Ocean") || player.world.getBiome(player.position).name.contains("Coral Reef") || player.world.getBiome(player.position).name.contains("Kelp Forest")) && player.y < 40.0) {
+        var checkPoints as Position3f[] = [player.position, player.position, player.position, player.position] as Position3f[];
+        var isInOcean = true;
+        checkPoints[0].x = checkPoints[0].x + 5.0;
+        checkPoints[1].z = checkPoints[1].z + 5.0;
+        checkPoints[2].x = checkPoints[2].x - 5.0;
+        checkPoints[3].z = checkPoints[3].z - 5.0;
+        for checkPoint in checkPoints {
+            if(!(player.world.getBiome(checkPoint).name.contains("Ocean") || player.world.getBiome(checkPoint).name.contains("Coral Reef") || player.world.getBiome(checkPoint).name.contains("Kelp Forest"))) {
+                isInOcean = false;
+                break;
+            }
+        }
+        if(isInOcean && !player.isPotionActive(<potion:minecraft:water_breathing>) && player.world.getBlock(getBlockPos(player.x, player.y + 1.0, player.z)).definition.id != "minecraft:water") {
+            player.air = 0;
+            if(player.world.getBlock(getBlockPos(player.x, player.y + 1.0, player.z)).definition.id != "minecraft:air") {
+                if(!player.isPotionActive(<potion:minecraft:wither>)) {
+                    player.addPotionEffect(<potion:minecraft:wither>.makePotionEffect(100, 1, false, false));
+                }
+            }
+            if(player.world.getWorldTime() as long % 20 == 0) {
+                player.addPotionEffect(<potion:minecraft:nausea>.makePotionEffect(50, 0, false, false));
+                player.attackEntityFrom(IDamageSource.DROWN(), 10.0);
+                server.commandManager.executeCommand(server, "/title " + player.name + " actionbar [\"\",{\"text\":\"警告\",\"color\":\"red\"},{\"text\":\": 深海的压力隔绝了一切氧气，使你无法呼吸。\",\"color\":\"yellow\"}]\"");
+            }
+        }
+    }
+});
+
+events.onBlockHarvestDrops(function(event as crafttweaker.event.BlockHarvestDropsEvent) {
+    if(event.isPlayer) {
+        var player as IPlayer = event.player;
+        if(!isNull(player) && !player.creative && (event.world.getBiome(event.position).name.contains("Ocean") || event.world.getBiome(event.position).name.contains("Coral Reef")) && event.y < 40.0) {
+            var blockState as IBlockState = IBlockState.getBlockState("minecraft:water", [] as string[]);
+            event.world.setBlockState(blockState, event.position as IBlockPos);
+        }
+    }
+});
+
+events.onEntityLivingHurt(function(event as crafttweaker.event.EntityLivingHurtEvent) {
+    var entity as IEntityLivingBase = event.entityLivingBase;
+    if(isNull(entity) || !entity instanceof IPlayer) {
+        return;
+    }
+    var spiderId = <entity:spiderstpo:better_spider>.id;
+    var caveSpiderId = <entity:spiderstpo:better_cave_spider>.id;
+    if(!isNull(event.damageSource.getTrueSource()) && event.damageSource.getTrueSource() instanceof IEntityLivingBase) {
+        if(event.damageSource.getTrueSource().definition.id == spiderId || event.damageSource.getTrueSource().definition.id == caveSpiderId) {
+            if(!entity.isPotionActive(<potion:minecraft:slowness>)) {
+                entity.addPotionEffect(<potion:minecraft:slowness>.makePotionEffect(200, 0, false, false));
+            } else {
+                if(Math.random() < 0.66) {
+                    var slownessLevel = entity.getActivePotionEffect(<potion:minecraft:slowness>).amplifier;
+                    if(slownessLevel < 3) {
+                        entity.addPotionEffect(<potion:minecraft:slowness>.makePotionEffect(200, slownessLevel + 1, false, false));
+                    } else {
+                        if(!isNull(entity.world.getBlock(entity.position)) && entity.world.getBlock(entity.position).definition.id == "minecraft:air") {
+                            var blockState as IBlockState = IBlockState.getBlockState(<minecraft:web>.definition.id, [] as string[]);
+                            entity.world.setBlockState(blockState, entity.position as IBlockPos);
+                        }
+                    }
+                }
+            }
         }
     }
 });

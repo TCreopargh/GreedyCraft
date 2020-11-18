@@ -505,6 +505,60 @@
         "weight": 14
     },
 	{
+        "content": "additions:aqualite_ingot",
+        "amount": {
+            "min": 1,
+            "max": 16
+        },
+        "unitWorth": 3000,
+        "weight": 6
+    },
+	{
+        "content": "additions:crimsonite_ingot",
+        "amount": {
+            "min": 1,
+            "max": 4
+        },
+        "unitWorth": 5000,
+        "weight": 10
+    },
+	{
+        "content": "additions:manganese_ingot",
+        "amount": {
+            "min": 1,
+            "max": 20
+        },
+        "unitWorth": 800,
+        "weight": 12
+    },
+    {
+        "content": "additions:manganese_steel_ingot",
+        "amount": {
+            "min": 1,
+            "max": 10
+        },
+        "unitWorth": 2000,
+        "weight": 15
+    },
+    {
+        "content": "additions:greedycraft-sand_of_time",
+        "amount": {
+            "min": 1,
+            "max": 1
+        },
+        "unitWorth": 20000,
+        "weight": 10
+    },
+    {
+        "content": "additions:greedycraft-time_shard",
+        "amount": {
+            "min": 1,
+            "max": 5
+        },
+        "unitWorth": 1500,
+        "weight": 25
+    },
+	{
         "content": "tconevo:material",
         "amount": {
             "min": 1,

@@ -4,6 +4,7 @@
  */ 
 
 #priority 900
+
 import mods.recipestages.Recipes;
 
 Recipes.setPackageStage("appeng", commonStages);

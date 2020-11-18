@@ -62,7 +62,7 @@ val localizationMap as string[string] = {
     "thaumicaugmentation.text.entered_spire": "你发现了%s。",
     "thaumicaugmentation.text.boss_room_spire": "你发现了尖塔的核心。",
     "death.attack.cinderSpark": "%s被%s的火球烧成了灰烬。",
-    "botania_tweaks.entrodupe.nicetry": "你弄了个TNT复制机，挺好，但是我不吃这套了，没想到吧！",
+    "botania_tweaks.entrodupe.nicetry": "TNT复制机？给爷爬。能不能拿点正常的东西喂我？！",
     "fluid.fusion_matrix": "熔融聚合矩阵",
     "fluid.insanium": "熔融究极精华",
     "jaopca.entry.Infernium": "永燃",
@@ -98,12 +98,14 @@ val localizationMap as string[string] = {
     "fluid.protonium": "超密质子流体",
     "fluid.electronium": "粘性电子流质",
     "fluid.crimsonite": "猩红浆液",
+    "fluid.manganese_steel": "熔融锰钢",
     "jaopca.entry.Dilithium": "双锂",
     "jaopca.entry.Asgardium": "神金",
     "jaopca.entry.Shadowium": "暗影",
     "jaopca.entry.Aeroite": "云浮",
     "jaopca.entry.AncientDebris": "远古残骸",
     "jaopca.entry.Meteor": "陨星",
+    "jaopca.entry.Manganese": "锰铁",
     "jer.worldgen.averageChunk": "平均每区块方块数",
     "entity.spiderstpo.better_cave_spider.name": "洞穴蜘蛛",
     "entity.spiderstpo.better_spider.name": "蜘蛛",
@@ -124,7 +126,8 @@ val localizationMap as string[string] = {
     "component.missing.modularmachinery.item.output": "没有找到物品输出仓！",
     "component.missing.modularmachinery.item.input": "没有找到物品输入仓！",
     "item.aether_portal_frame.name": "一键式天境传送门",
-    "modifier.tconevo.crystalline.desc": "§c§n[已禁用]§r\n该特性将不会出现在工具上。",
+    "modifier.tconevo.crystalline.desc": "§c§n[已禁用]§r\n该特性将不会出现在工具或盔甲上。",
+    "modifier.tconevo.will_strength_armor.desc": "§c§n[已禁用]§r\n该特性将不会出现在工具或盔甲上。",
     "tconevo.info.cannot_replace": "§c无法替换该部件。\n§e拥有进化属性的工具的部件无法被替换。",
     "tconevo.info.artifact_sealed": "§c无法改动未启封的“匠心之作”！\n§e要想改动该工具，请用工具锻造台将工具和§5启封之板§e合成。",
     "text.component.animus.transposition.cleared": "移位标记已清除！",
@@ -134,7 +137,11 @@ val localizationMap as string[string] = {
     "entity.Dummy.name": "训练用假人",
     "item.bountifulbaubles.trinketAnkhCharm.name": "安赫护符",
     "item.heart_food.name": "§c心之容器 EX§r",
-    "tooltip.itemstages.name.default": "§5§ka§r §d未知物品 §5§ka§r"
+    "tooltip.itemstages.name.default": "§5§ka§r §d未知物品 §5§ka§r",
+    "commands.publish.started": "§e已在端口§6%s§e上开启局域网游戏。 \n§7(如果需要非正版玩家登录，请在config/serverGlobalConfig.properties中把online-mode后面的true改成false)",
+    "betterfoliage.rendererror": "§a[更好的树叶]§f 在渲染原木方块 %s （位于%s）时出错。§7（该提示一般可忽略）",
+    "potion.saturation": "饱腹",
+    "tconevo.info.cannot_replace": "无法替换该工具部件！（注：无法替换掉带有进化属性的部件）"
 } as string[string];
 
 for k, v in localizationMap {

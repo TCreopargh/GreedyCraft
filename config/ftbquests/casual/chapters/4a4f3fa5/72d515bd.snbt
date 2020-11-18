@@ -34,6 +34,6 @@
 		type: "command",
 		title: "§c崩端提醒",
 		auto: "enabled",
-		command: "/tellraw @a {\"text\":\"§c提示：§e由于已知的崩端问题，请在召唤盖亚III前按F8，将第一个按钮点成§cfalse§额§e关闭§aBetter Foliage§e，战斗结束后再开启。\"}"
+		command: "/tellraw @a {\"text\":\"§c提示：§e注意盖亚III已知会在战斗结束后出现客户端崩溃（但之后重进仍可以捡到战利品），请做好准备。\"}"
 	}]
 }
