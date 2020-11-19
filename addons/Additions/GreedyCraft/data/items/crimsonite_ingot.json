@@ -1,0 +1,6 @@
+{
+  "name": "§4猩红锭",
+  "is_beacon_payment": true,
+  "ore_dict": "ingotCrimsonite",
+  "type": "additions:simple"
+}

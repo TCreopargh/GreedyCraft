@@ -1,0 +1,32 @@
+{
+	title: "§3更好的石板",
+	x: 6.0d,
+	y: 5.0d,
+	description: "使用祭坛升级石板",
+	dependencies: [
+		"cdc1deb9"
+	],
+	tasks: [{
+		uid: "0ab52f32",
+		type: "item",
+		items: [{
+			item: "bloodmagic:slate 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "7e137d43",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "16c974d7",
+		type: "xp",
+		xp: 1250
+	},
+	{
+		uid: "e72bba98",
+		type: "item",
+		item: "bloodmagic:blood_rune",
+		count: 16
+	}]
+}

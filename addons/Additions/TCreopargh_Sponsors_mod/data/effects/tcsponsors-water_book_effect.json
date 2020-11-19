@@ -1,0 +1,21 @@
+{
+  "cause": {
+    "item": {
+      "item": "additions:tcsponsors-water_book",
+      "damage": "any"
+    },
+    "type": "additions:item_in_inventory"
+  },
+  "effects": [
+    {
+      "chance": 0.05,
+      "type": "additions:damage_item"
+    },
+    {
+      "command": "/xp 1 @p",
+      "command_sender_name": "",
+      "chance": 0.05,
+      "type": "additions:command"
+    }
+  ]
+}

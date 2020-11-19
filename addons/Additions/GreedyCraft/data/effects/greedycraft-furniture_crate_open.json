@@ -1,0 +1,18 @@
+{
+  "cause": {
+    "item": {
+      "item": "additions:greedycraft-furniture_crate",
+      "damage": "any"
+    },
+    "type": "additions:item_right_click"
+  },
+  "effects": [
+    {
+      "type": "additions:consume_item"
+    },
+    {
+      "loot_table": "loottweaker:furniture_crate_loot_table",
+      "type": "additions:loot_table_at"
+    }
+  ]
+}

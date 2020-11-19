@@ -1,0 +1,16 @@
+{
+  "item_block": {
+    "name": "§9锰钢块",
+    "ore_dict": "blockManganeseSteel",
+    "type": "additions:block_simple"
+  },
+  "name": "§9锰钢块",
+  "material": "minecraft:metal",
+  "map_color": "minecraft:cyan",
+  "hardness": 8.0,
+  "resistance": 1000.0,
+  "harvest_level": 3,
+  "harvest_tool": "pickaxe",
+  "is_beacon_base": true,
+  "type": "additions:simple"
+}

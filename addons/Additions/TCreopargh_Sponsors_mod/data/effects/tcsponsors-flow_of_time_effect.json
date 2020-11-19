@@ -1,0 +1,24 @@
+{
+  "cause": {
+    "item": {
+      "item": "additions:tcsponsors-flow_of_time",
+      "damage": "any"
+    },
+    "type": "additions:item_right_click"
+  },
+  "effects": [
+    {
+      "command": "/tellraw @p {\"text\":\"§2§o在？PY又痒了？\"}",
+      "command_sender_name": "",
+      "type": "additions:command"
+    },
+    {
+      "type": "additions:consume_item"
+    },
+    {
+      "command": "/kill @p",
+      "command_sender_name": "",
+      "type": "additions:command"
+    }
+  ]
+}

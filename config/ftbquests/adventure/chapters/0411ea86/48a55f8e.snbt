@@ -1,0 +1,28 @@
+{
+	title: "§6一段冒险的结束，另一段冒险的开始",
+	icon: "twilightforest:trollsteinn",
+	x: 6.5d,
+	y: -1.0d,
+	description: "向高地发起挑战",
+	dependencies: [
+		"8ea08f88",
+		"8ce57eb1",
+		"052c11fa"
+	],
+	rewards: [{
+		uid: "3ca3e6b9",
+		type: "xp",
+		xp: 500
+	},
+	{
+		uid: "9cb28778",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "579f3ea0",
+		type: "advancement",
+		advancement: "twilightforest:progress_merge",
+		criterion: ""
+	}]
+}

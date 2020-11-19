@@ -1,0 +1,18 @@
+{
+    "preset_block": "additions:greedycraft-hardened_stone",
+    "preset_dropStack": {
+        "item": "minecraft:stone"
+    },
+    "preset_dropMin": 1,
+    "preset_dropMax": 1,
+    "preset_fortunable": false,
+    "pools": [{
+        "name": "item_pool",
+        "rolls": 1,
+        "entries": [{
+            "type": "item",
+            "name": "minecraft:stone"
+        }]
+    }],
+    "preset_type": "additions:block_item_drop"
+}

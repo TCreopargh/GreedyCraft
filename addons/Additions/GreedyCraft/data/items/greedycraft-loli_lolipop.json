@@ -1,0 +1,25 @@
+{
+  "name": "§d萝莉牌棒棒糖",
+  "tooltip": [
+    "§b§o上面写着一行字：“诱拐专用”",
+    "§6可以用于驯服或诱拐女仆",
+    "§e吃掉后可以将周围10格内女仆的最大生命值同步为自己最大生命值的4倍"
+  ],
+  "ore_dict": "foodLolipop",
+  "hunger": 10,
+  "saturation": 0.6,
+  "always_edible": true,
+  "eaten_effects": [
+    {
+      "command": "/setmaidhealth @e[r\u003d10,type\u003dtouhou_little_maid:entity.passive.maid] @p",
+      "command_sender_name": "",
+      "type": "additions:command"
+    },
+    {
+      "command": "/particle happyVillager ~ ~ ~ 1 1 1 1 30 force",
+      "command_sender_name": "",
+      "type": "additions:command"
+    }
+  ],
+  "type": "additions:food"
+}

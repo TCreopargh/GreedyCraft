@@ -1,0 +1,10 @@
+{
+  "name": "§2完美通用物品",
+  "is_beacon_payment": true,
+  "tooltip": "§a这是一个完美的通用物品，太完美了。",
+  "ore_dict": [
+    "dungeonLootTier3",
+    "itemPerfect"
+  ],
+  "type": "additions:simple"
+}

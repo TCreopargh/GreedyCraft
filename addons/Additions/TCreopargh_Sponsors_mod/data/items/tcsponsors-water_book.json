@@ -1,0 +1,17 @@
+{
+  "name": "§9水贴小本本",
+  "tooltip": [
+    "§3放在物品栏中时平均每秒钟增加1点经验",
+    "§b§o赞助者物品 by 沐晴皓月"
+  ],
+  "max_stack": 1,
+  "durability": 10000,
+  "harvest_level": 0,
+  "harvest_radius_width": 0,
+  "harvest_depth": 0,
+  "efficiency": 0.0,
+  "enchantability": 0,
+  "repair_stacks": {},
+  "tool_classes": [],
+  "type": "additions:multitool"
+}

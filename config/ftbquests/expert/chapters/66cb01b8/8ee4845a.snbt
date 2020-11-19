@@ -1,0 +1,11 @@
+{
+	title: "§e前置任务！",
+	x: -9.5d,
+	y: 1.0d,
+	description: "要开始血魔法的发展，你需要首先在星辉魔法任务线取得相应的游戏阶段",
+	tasks: [{
+		uid: "8e97786b",
+		type: "gamestage",
+		stage: "novice_wizard"
+	}]
+}

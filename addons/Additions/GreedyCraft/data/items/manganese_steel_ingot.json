@@ -1,0 +1,6 @@
+{
+  "name": "§9锰钢锭",
+  "is_beacon_payment": true,
+  "ore_dict": "ingotManganeseSteel",
+  "type": "additions:simple"
+}

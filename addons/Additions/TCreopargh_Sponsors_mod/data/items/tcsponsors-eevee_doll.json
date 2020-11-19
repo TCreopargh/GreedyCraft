@@ -1,0 +1,17 @@
+{
+  "name": "§d仙子伊布的玩偶",
+  "tooltip": [
+    "§e可爱的玩偶，给你带来仙子伊布的祝福",
+    "§b§o赞助者物品 by EeveeSylveon"
+  ],
+  "max_stack": 1,
+  "durability": 6000,
+  "harvest_level": 0,
+  "harvest_radius_width": 0,
+  "harvest_depth": 0,
+  "efficiency": 0.0,
+  "enchantability": 0,
+  "repair_stacks": {},
+  "tool_classes": [],
+  "type": "additions:multitool"
+}

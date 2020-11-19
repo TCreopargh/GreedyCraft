@@ -1,0 +1,7 @@
+{
+  "name": "§b时之沙",
+  "shines": true,
+  "tooltip": "§b这些沙子在被装到沙漏里时会向上流动。",
+  "ore_dict": "dustTime",
+  "type": "additions:simple"
+}

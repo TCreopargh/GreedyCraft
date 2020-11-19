@@ -1,0 +1,27 @@
+{
+	title: "§b灵魂出窍",
+	x: -3.0d,
+	y: 0.0d,
+	description: "获得最初级的恶魔意志",
+	dependencies: [
+		"7e0193d6"
+	],
+	tasks: [{
+		uid: "89a48bf1",
+		type: "item",
+		items: [{
+			id: "bloodmagic:monster_soul"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b2cb1d85",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "3910e140",
+		type: "xp",
+		xp: 600
+	}]
+}

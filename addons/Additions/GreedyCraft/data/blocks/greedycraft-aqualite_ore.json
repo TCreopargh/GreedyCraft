@@ -1,0 +1,16 @@
+{
+  "item_block": {
+    "name": "§b水华矿",
+    "ore_dict": "oreAqualite",
+    "type": "additions:block_simple"
+  },
+  "name": "§b水华矿",
+  "material": "minecraft:stone",
+  "map_color": "minecraft:diamond",
+  "hardness": 4.0,
+  "resistance": 2000.0,
+  "harvest_level": 5,
+  "harvest_tool": "pickaxe",
+  "light_level": 10,
+  "type": "additions:simple"
+}

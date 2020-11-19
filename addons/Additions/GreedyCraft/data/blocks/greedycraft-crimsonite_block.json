@@ -1,0 +1,21 @@
+{
+  "item_block": {
+    "name": "§4猩红块",
+    "ore_dict": "blockCrimsonite",
+    "type": "additions:block_simple"
+  },
+  "name": "§4猩红块",
+  "material": "minecraft:metal",
+  "place_sound": "minecraft:block.metal.place",
+  "break_sound": "minecraft:block.metal.break",
+  "hit_sound": "minecraft:block.metal.hit",
+  "step_sound": "minecraft:block.metal.step",
+  "fall_sound": "minecraft:block.metal.fall",
+  "map_color": "minecraft:netherrack",
+  "hardness": 20.0,
+  "resistance": 20.0,
+  "harvest_level": 4,
+  "harvest_tool": "pickaxe",
+  "is_beacon_base": true,
+  "type": "additions:simple"
+}

@@ -1,0 +1,34 @@
+{
+  "cause": {
+    "item": {
+      "item": "additions:tcsponsors-eevee_doll",
+      "damage": "any"
+    },
+    "type": "additions:item_in_inventory"
+  },
+  "effects": [
+    {
+      "type": "additions:damage_item"
+    },
+    {
+      "potion": {
+        "name": "minecraft:regeneration",
+        "duration": 50,
+        "amplifier": 1,
+        "ambient": false,
+        "show_particles": true
+      },
+      "type": "additions:potion"
+    },
+    {
+      "potion": {
+        "name": "minecraft:strength",
+        "duration": 50,
+        "amplifier": 1,
+        "ambient": false,
+        "show_particles": true
+      },
+      "type": "additions:potion"
+    }
+  ]
+}

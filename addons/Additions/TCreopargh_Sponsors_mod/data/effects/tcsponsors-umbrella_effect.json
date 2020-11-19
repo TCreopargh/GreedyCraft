@@ -1,0 +1,25 @@
+{
+  "cause": {
+    "item": {
+      "item": "additions:tcsponsors-sun_umbrella",
+      "damage": "any"
+    },
+    "type": "additions:item_in_inventory"
+  },
+  "effects": [
+    {
+      "chance": 0.5,
+      "type": "additions:damage_item"
+    },
+    {
+      "potion": {
+        "name": "minecraft:night_vision",
+        "duration": 250,
+        "amplifier": 0,
+        "ambient": false,
+        "show_particles": true
+      },
+      "type": "additions:potion"
+    }
+  ]
+}

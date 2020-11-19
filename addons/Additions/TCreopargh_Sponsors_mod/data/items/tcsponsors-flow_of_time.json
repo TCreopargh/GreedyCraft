@@ -1,0 +1,13 @@
+{
+  "name": "§c时间洪流怀表 MK II",
+  "shines": true,
+  "tooltip": [
+    "§2时间洪流怀表 MK II",
+    "§6更快 更长",
+    "§7右键使用，提升附近的时间流动",
+    "§0§m以上介绍均为胡扯",
+    "§b§o赞助者物品 by ssaxxcvv"
+  ],
+  "max_stack": 1,
+  "type": "additions:simple"
+}

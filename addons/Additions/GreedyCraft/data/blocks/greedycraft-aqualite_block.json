@@ -1,0 +1,18 @@
+{
+  "item_block": {
+    "name": "§b水华块",
+    "ore_dict": "blockAqualite",
+    "type": "additions:block_simple"
+  },
+  "name": "§b水华块",
+  "material": "minecraft:metal",
+  "map_color": "minecraft:diamond",
+  "hardness": 5.0,
+  "resistance": 3000.0,
+  "harvest_level": 5,
+  "harvest_tool": "pickaxe",
+  "light_level": 12,
+  "slipperiness": 0.99,
+  "is_beacon_base": true,
+  "type": "additions:simple"
+}
