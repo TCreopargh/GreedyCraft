@@ -939,6 +939,10 @@
     {
       "item": "mysticalagriculture:fertilized_essence|0",
       "emc": 0
+    },
+    {
+      "item": "tinkersaether:valkyrie_ingot|0",
+      "emc": 6666
     }
   ]
 }

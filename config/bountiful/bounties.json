@@ -135,6 +135,15 @@
         "weight": 100
     },
     {
+        "content": "botania:manaresource:4",
+        "amount": {
+            "min": 3,
+            "max": 8
+        },
+        "unitWorth": 4000,
+        "weight": 80
+    },
+    {
         "content": "minecraft:rotten_flesh",
         "amount": {
             "min": 12,
@@ -519,7 +528,7 @@
             "min": 1,
             "max": 4
         },
-        "unitWorth": 5000,
+        "unitWorth": 7200,
         "weight": 10
     },
 	{
@@ -584,5 +593,239 @@
         },
         "unitWorth": 900,
         "weight": 160
+    },
+    {
+        "content": "additions:manganese_steel_ingot",
+        "amount": {
+            "min": 1,
+            "max": 12
+        },
+        "unitWorth": 3500,
+        "weight": 25
+    },
+    {
+        "content": "additions:chromium_ingot",
+        "amount": {
+            "min": 1,
+            "max": 12
+        },
+        "unitWorth": 4000,
+        "weight": 25
+    },
+    {
+        "content": "additions:cytosinite_ingot",
+        "amount": {
+            "min": 12,
+            "max": 24
+        },
+        "unitWorth": 3200,
+        "weight": 25
+    },
+    {
+        "content": "enderio:item_alloy_ingot:6",
+        "amount": {
+            "min": 6,
+            "max": 16
+        },
+        "unitWorth": 2500,
+        "weight": 25
+    },
+    {
+        "content": "abyssalcraft:abyingot",
+        "amount": {
+            "min": 8,
+            "max": 15
+        },
+        "unitWorth": 2800,
+        "weight": 20
+    },
+    {
+        "content": "bloodarsenal:blood_diamond:3",
+        "amount": {
+            "min": 1,
+            "max": 3
+        },
+        "unitWorth": 5000,
+        "weight": 20
+    },
+    {
+        "content": "additions:terra_alloy_ingot",
+        "amount": {
+            "min": 1,
+            "max": 8
+        },
+        "unitWorth": 25000,
+        "weight": 12
+    },
+    {
+        "content": "minecraft:nether_star",
+        "amount": {
+            "min": 1,
+            "max": 10
+        },
+        "unitWorth": 8000,
+        "weight": 10
+    },
+    {
+        "content": "eternalsingularity:eternal_singularity",
+        "amount": {
+            "min": 1,
+            "max": 1
+        },
+        "unitWorth": 5000000,
+        "weight": 2
+    },
+    {
+        "content": "entity:minecraft:husk",
+        "amount": {
+            "min": 3,
+            "max": 15
+        },
+        "unitWorth": 800,
+        "weight": 40
+    },
+    {
+        "content": "entity:minecraft:ghast",
+        "amount": {
+            "min": 1,
+            "max": 3
+        },
+        "unitWorth": 1200,
+        "weight": 80
+    },
+    {
+        "content": "entity:defiledlands:slime_defiled",
+        "amount": {
+            "min": 8,
+            "max": 20
+        },
+        "unitWorth": 200,
+        "weight": 80
+    },
+    {
+        "content": "entity:defiledlands:shambler",
+        "amount": {
+            "min": 4,
+            "max": 12
+        },
+        "unitWorth": 400,
+        "weight": 80
+    },
+    {
+        "content": "entity:defiledlands:book_wyrm",
+        "amount": {
+            "min": 4,
+            "max": 16
+        },
+        "unitWorth": 300,
+        "weight": 80
+    },
+    {
+        "content": "entity:defiledlands:the_destroyer",
+        "amount": {
+            "min": 1,
+            "max": 1
+        },
+        "unitWorth": 15000,
+        "weight": 16
+    },
+    {
+        "content": "entity:defiledlands:the_mourner",
+        "amount": {
+            "min": 1,
+            "max": 1
+        },
+        "unitWorth": 20000,
+        "weight": 16
+    },
+    {
+        "content": "entity:twilightforest:giant_miner",
+        "amount": {
+            "min": 1,
+            "max": 1
+        },
+        "unitWorth": 8000,
+        "weight": 12
+    },
+    {
+        "content": "entity:twilightforest:minoshroom",
+        "amount": {
+            "min": 1,
+            "max": 1
+        },
+        "unitWorth": 6000,
+        "weight": 12
+    },
+    {
+        "content": "entity:twilightforest:minotaur",
+        "amount": {
+            "min": 6,
+            "max": 20
+        },
+        "unitWorth": 450,
+        "weight": 20
+    },
+    {
+        "content": "entity:twilightforest:hydra",
+        "amount": {
+            "min": 1,
+            "max": 1
+        },
+        "unitWorth": 12000,
+        "weight": 12
+    },
+    {
+        "content": "entity:twilightforest:naga",
+        "amount": {
+            "min": 1,
+            "max": 1
+        },
+        "unitWorth": 7200,
+        "weight": 12
+    },
+    {
+        "content": "entity:twilightforest:ur_ghast",
+        "amount": {
+            "min": 1,
+            "max": 1
+        },
+        "unitWorth": 18000,
+        "weight": 12
+    },
+    {
+        "content": "entity:twilightforest:lich",
+        "amount": {
+            "min": 1,
+            "max": 1
+        },
+        "unitWorth": 10000,
+        "weight": 12
+    },
+    {
+        "content": "entity:twilightforest:snow_queen",
+        "amount": {
+            "min": 1,
+            "max": 1
+        },
+        "unitWorth": 15000,
+        "weight": 12
+    },
+    {
+        "content": "entity:twilightforest:yeti_alpha",
+        "amount": {
+            "min": 1,
+            "max": 1
+        },
+        "unitWorth": 8000,
+        "weight": 12
+    },
+    {
+        "content": "entity:twilightforest:knight_phantom",
+        "amount": {
+            "min": 1,
+            "max": 1
+        },
+        "unitWorth": 9000,
+        "weight": 12
     }
 ]

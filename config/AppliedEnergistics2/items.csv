@@ -1717,29 +1717,7 @@ forestry:resource_storage:2, 锡块
 forestry:resource_storage:3, 青铜块
 forestry:ash_brick:0, 灰砖
 forestry:ash_stairs:0, 灰砖楼梯
-forestry:stamps:0, 邮票(1n)
-forestry:stamps:1, 邮票(2n)
-forestry:stamps:2, 邮票(5n)
-forestry:stamps:3, 邮票(10n)
-forestry:stamps:4, 邮票(20n)
-forestry:stamps:5, 邮票(50n)
-forestry:stamps:6, 邮票(100n)
-forestry:letters, 信件
-forestry:catalogue, 贸易目录
-forestry:mailbox:0, 信箱
-forestry:trade_station:0, 贸易站
-forestry:stamp_collector:0, 集邮箱
 forestry:crate, 板条箱
-forestry:fluid.bio.ethanol, 种子油
-forestry:fluid.glass, 液态玻璃
-forestry:fluid.for.honey, 蜂蜜
-forestry:fluid.ice, 碎冰
-forestry:fluid.juice, 果汁
-forestry:fluid.seed.oil, 种子油
-forestry:fluid.short.mead, 蜂蜜酒
-forestry:can, item.for.can.name
-forestry:capsule, item.for.capsule.name
-forestry:refractory, item.for.refractory.name
 forestry:bottler:0, 装瓶机
 forestry:carpenter:0, 木工机
 forestry:centrifuge:0, 离心机
@@ -1750,114 +1728,6 @@ forestry:still:0, 蒸馏器
 forestry:rainmaker:0, 造雨机
 forestry:fabricator:0, 热电子加工台
 forestry:raintank:0, 集雨蓄水槽
-forestry:habitat_former:0, Habitat Former
-forestry:habitat_screen, Habitat Screen
-forestry:genetic_filter:0, 基因过滤器
-forestry:database:0, 数据库
-forestry:apiarist_bag, 养蜂员背包
-forestry:lepidopterist_bag, 鳞翅目昆虫学家背包
-forestry:miner_bag, 采矿者背包
-forestry:miner_bag_t2, 采矿者编织背包
-forestry:digger_bag, 挖掘者背包
-forestry:digger_bag_t2, 挖掘者编织背包
-forestry:forester_bag, 林业员背包
-forestry:forester_bag_t2, 林业员编织背包
-forestry:hunter_bag, 狩猎者背包
-forestry:hunter_bag_t2, 狩猎者编织背包
-forestry:adventurer_bag, 冒险家背包
-forestry:adventurer_bag_t2, 冒险家编织背包
-forestry:builder_bag, 建筑师背包
-forestry:builder_bag_t2, 建筑师编织背包
-forestry:mushroom:0, tile.for.mushroom.name
-forestry:mushroom:1, tile.for.mushroom.name
-forestry:ffarm:0, 农场方块
-forestry:ffarm:0, 农场方块
-forestry:ffarm:0, 农场方块
-forestry:ffarm:0, 农场方块
-forestry:ffarm:0, 农场方块
-forestry:ffarm:0, 农场方块
-forestry:ffarm:0, 农场方块
-forestry:ffarm:0, 农场方块
-forestry:ffarm:0, 农场方块
-forestry:ffarm:0, 农场方块
-forestry:ffarm:0, 农场方块
-forestry:ffarm:2, 农场齿轮箱
-forestry:ffarm:2, 农场齿轮箱
-forestry:ffarm:2, 农场齿轮箱
-forestry:ffarm:2, 农场齿轮箱
-forestry:ffarm:2, 农场齿轮箱
-forestry:ffarm:2, 农场齿轮箱
-forestry:ffarm:2, 农场齿轮箱
-forestry:ffarm:2, 农场齿轮箱
-forestry:ffarm:2, 农场齿轮箱
-forestry:ffarm:2, 农场齿轮箱
-forestry:ffarm:2, 农场齿轮箱
-forestry:ffarm:3, 农场出货箱
-forestry:ffarm:3, 农场出货箱
-forestry:ffarm:3, 农场出货箱
-forestry:ffarm:3, 农场出货箱
-forestry:ffarm:3, 农场出货箱
-forestry:ffarm:3, 农场出货箱
-forestry:ffarm:3, 农场出货箱
-forestry:ffarm:3, 农场出货箱
-forestry:ffarm:3, 农场出货箱
-forestry:ffarm:3, 农场出货箱
-forestry:ffarm:3, 农场出货箱
-forestry:ffarm:4, 农场水阀
-forestry:ffarm:4, 农场水阀
-forestry:ffarm:4, 农场水阀
-forestry:ffarm:4, 农场水阀
-forestry:ffarm:4, 农场水阀
-forestry:ffarm:4, 农场水阀
-forestry:ffarm:4, 农场水阀
-forestry:ffarm:4, 农场水阀
-forestry:ffarm:4, 农场水阀
-forestry:ffarm:4, 农场水阀
-forestry:ffarm:4, 农场水阀
-forestry:ffarm:5, 农场控制盒
-forestry:ffarm:5, 农场控制盒
-forestry:ffarm:5, 农场控制盒
-forestry:ffarm:5, 农场控制盒
-forestry:ffarm:5, 农场控制盒
-forestry:ffarm:5, 农场控制盒
-forestry:ffarm:5, 农场控制盒
-forestry:ffarm:5, 农场控制盒
-forestry:ffarm:5, 农场控制盒
-forestry:ffarm:5, 农场控制盒
-forestry:ffarm:5, 农场控制盒
-forestry:arboretum:0, 自动伐木机
-forestry:arboretum:1, 手动伐木机
-forestry:farm_crops:0, 自动收割机
-forestry:farm_crops:1, 手动收割机
-forestry:farm_mushroom:0, 自动蘑菇收割机
-forestry:farm_mushroom:1, 手动蘑菇收割机
-forestry:farm_gourd:0, 自动瓜类收割机
-forestry:farm_gourd:1, 手动瓜类收割机
-forestry:farm_nether:0, 自动地狱收割机
-forestry:farm_nether:1, 手动地狱收割机
-forestry:farm_ender:0, 自动末影收割机
-forestry:farm_ender:1, 手动末影收割机
-forestry:peat_bog:0, 自动泥炭沼泽
-forestry:peat_bog:1, 手动泥炭沼泽
-forestry:greenhouse:0, Greenhouse Block
-forestry:greenhouse:3, 温室能量分配器
-forestry:greenhouse:4, 温室控制器
-forestry:greenhouse:5, 温室屏幕
-forestry:climatiser:0, 温室湿度控制器
-forestry:climatiser:1, 温室加热器
-forestry:climatiser:2, 温室风扇
-forestry:climatiser:3, 温室加湿器
-forestry:climatiser:4, 温室除湿器
-forestry:greenhouse.window:0, 温室窗户
-forestry:greenhouse.window_up:0, 温室天窗
-forestry:worktable:0, 工作台
-forestry:honeyed_slice, 蜂蜜面包
-forestry:ambrosia, 仙馔密酒
-forestry:honey_pot, 蜜罐
-forestry:engine_peat:0, 泥炭引擎
-forestry:engine_biogas:0, 沼气引擎
-forestry:engine_clockwork:0, 发条引擎
-forestry:book_forester, 林务员手册
 forestry:charcoal:0, 木炭块
 forestry:wood_pile:0, 原木堆
 forestry:wood_pile_decorative:0, 装饰用原木堆
@@ -1866,65 +1736,7 @@ forestry:ash_block_1:0, Ash Block
 forestry:ash_block_2:0, Ash Block
 forestry:ash_block_3:0, Ash Block
 forestry:loam:0, 壤土
-forestry:habitat_locator, 栖息地定位仪
-forestry:imprinter, 染色体变换仪
-forestry:cart.beehouse:0, 蜂房车
-forestry:cart.beehouse:1, 蜂箱车
-forestry:frame_untreated, 未处理框架
-forestry:frame_impregnated, 浸渍框架
-forestry:frame_proven, 标定框架
-forestry:honey_drop:0, 蜂蜜滴
-forestry:pollen:0, 花粉
-forestry:pollen:1, 水晶花粉
-forestry:propolis:0, 蜂胶
-forestry:propolis:1, 粘性蜂胶
-forestry:propolis:3, 丝滑蜂胶
-forestry:honeydew, 蜂蜜汁
-forestry:royal_jelly, 蜂王浆
-forestry:wax_cast, 打蜡工具
-forestry:bee_combs:0, 蜜蜂蜂窝
-forestry:bee_combs:2, 激化蜂窝
-forestry:bee_combs:3, 纤维蜂窝
-forestry:bee_combs:4, 冻结蜂窝
-forestry:bee_combs:5, 滴水蜂窝
-forestry:bee_combs:6, 丝滑蜂窝
-forestry:bee_combs:7, 炎热蜂窝
-forestry:bee_combs:15, 苔藓蜂窝
-forestry:bee_combs:16, 醇厚蜂窝
-forestry:apiarist_helmet, 养蜂员帽子
-forestry:apiarist_chest, 养蜂员衬衣
-forestry:apiarist_legs, 养蜂员裤子
-forestry:apiarist_boots, 养蜂员靴子
-forestry:scoop, 捕虫网
-forestry:smoker, 驱蜂烟雾
-forestry:apiary:0, 蜂箱
-forestry:bee_house:0, 简易蜂房
-forestry:bee_chest:0, 养蜂人箱子
-forestry:beehives:0, 森林蜂巢
-forestry:beehives:1, 草地蜂巢
-forestry:beehives:2, 温和蜂巢
-forestry:beehives:3, 热带蜂巢
-forestry:beehives:4, 末影蜂巢
-forestry:beehives:5, 凛冬蜂巢
-forestry:beehives:6, 沼泽蜂巢
-forestry:candle:0, 熄灭的蜡烛
-forestry:stump:0, 蜡烛
-forestry:bee_combs_0:0, 蜜蜂蜂窝块
-forestry:bee_combs_0:2, 激化蜂窝块
-forestry:bee_combs_0:3, 纤维蜂窝块
-forestry:bee_combs_0:4, 冻结蜂窝块
-forestry:bee_combs_0:5, 滴水蜂窝块
-forestry:bee_combs_0:6, 丝滑蜂窝块
-forestry:bee_combs_0:7, 炎热蜂窝块
-forestry:bee_combs_0:15, 苔藓蜂窝块
-forestry:bee_combs_1:0, 醇厚蜂窝块
-forestry:alveary.plain:0, 蜂箱组
-forestry:alveary.swarmer:0, 蜂箱组克隆盒
-forestry:alveary.fan:0, 蜂箱组风扇
-forestry:alveary.heater:0, 蜂箱组加热器
-forestry:alveary.hygro:0, 蜂箱组保湿器
-forestry:alveary.stabiliser:0, 蜂箱组稳定器
-forestry:alveary.sieve:0, 蜂箱组滤网
+forestry:genetic_filter:0, 基因过滤器
 forestry:grafter, 剪枝器
 forestry:grafter_proven, 标定剪枝器
 forestry:logs.0:0, 落叶树原木
@@ -2380,6 +2192,194 @@ forestry:tree_chest:0, 林业员箱子
 forestry:butterfly_chest:0, 鳞翅目昆虫学家箱子
 forestry:cocoon:0, tile.for.cocoon.name
 forestry:cocoon.solid:0, tile.for.cocoon.solid.name
+forestry:book_forester, 林务员手册
+forestry:stamps:0, 邮票(1n)
+forestry:stamps:1, 邮票(2n)
+forestry:stamps:2, 邮票(5n)
+forestry:stamps:3, 邮票(10n)
+forestry:stamps:4, 邮票(20n)
+forestry:stamps:5, 邮票(50n)
+forestry:stamps:6, 邮票(100n)
+forestry:letters, 信件
+forestry:catalogue, 贸易目录
+forestry:mailbox:0, 信箱
+forestry:trade_station:0, 贸易站
+forestry:stamp_collector:0, 集邮箱
+forestry:fluid.bio.ethanol, 种子油
+forestry:fluid.glass, 液态玻璃
+forestry:fluid.for.honey, 蜂蜜
+forestry:fluid.ice, 碎冰
+forestry:fluid.juice, 果汁
+forestry:fluid.seed.oil, 种子油
+forestry:fluid.short.mead, 蜂蜜酒
+forestry:can, item.for.can.name
+forestry:capsule, item.for.capsule.name
+forestry:refractory, item.for.refractory.name
+forestry:worktable:0, 工作台
+forestry:honeyed_slice, 蜂蜜面包
+forestry:ambrosia, 仙馔密酒
+forestry:honey_pot, 蜜罐
+forestry:habitat_locator, 栖息地定位仪
+forestry:imprinter, 染色体变换仪
+forestry:cart.beehouse:0, 蜂房车
+forestry:cart.beehouse:1, 蜂箱车
+forestry:frame_untreated, 未处理框架
+forestry:frame_impregnated, 浸渍框架
+forestry:frame_proven, 标定框架
+forestry:honey_drop:0, 蜂蜜滴
+forestry:pollen:0, 花粉
+forestry:pollen:1, 水晶花粉
+forestry:propolis:0, 蜂胶
+forestry:propolis:1, 粘性蜂胶
+forestry:propolis:3, 丝滑蜂胶
+forestry:honeydew, 蜂蜜汁
+forestry:royal_jelly, 蜂王浆
+forestry:wax_cast, 打蜡工具
+forestry:bee_combs:0, 蜜蜂蜂窝
+forestry:bee_combs:2, 激化蜂窝
+forestry:bee_combs:3, 纤维蜂窝
+forestry:bee_combs:4, 冻结蜂窝
+forestry:bee_combs:5, 滴水蜂窝
+forestry:bee_combs:6, 丝滑蜂窝
+forestry:bee_combs:7, 炎热蜂窝
+forestry:bee_combs:15, 苔藓蜂窝
+forestry:bee_combs:16, 醇厚蜂窝
+forestry:apiarist_helmet, 养蜂员帽子
+forestry:apiarist_chest, 养蜂员衬衣
+forestry:apiarist_legs, 养蜂员裤子
+forestry:apiarist_boots, 养蜂员靴子
+forestry:scoop, 捕虫网
+forestry:smoker, 驱蜂烟雾
+forestry:apiary:0, 蜂箱
+forestry:bee_house:0, 简易蜂房
+forestry:bee_chest:0, 养蜂人箱子
+forestry:beehives:0, 森林蜂巢
+forestry:beehives:1, 草地蜂巢
+forestry:beehives:2, 温和蜂巢
+forestry:beehives:3, 热带蜂巢
+forestry:beehives:4, 末影蜂巢
+forestry:beehives:5, 凛冬蜂巢
+forestry:beehives:6, 沼泽蜂巢
+forestry:candle:0, 熄灭的蜡烛
+forestry:stump:0, 蜡烛
+forestry:bee_combs_0:0, 蜜蜂蜂窝块
+forestry:bee_combs_0:2, 激化蜂窝块
+forestry:bee_combs_0:3, 纤维蜂窝块
+forestry:bee_combs_0:4, 冻结蜂窝块
+forestry:bee_combs_0:5, 滴水蜂窝块
+forestry:bee_combs_0:6, 丝滑蜂窝块
+forestry:bee_combs_0:7, 炎热蜂窝块
+forestry:bee_combs_0:15, 苔藓蜂窝块
+forestry:bee_combs_1:0, 醇厚蜂窝块
+forestry:alveary.plain:0, 蜂箱组
+forestry:alveary.swarmer:0, 蜂箱组克隆盒
+forestry:alveary.fan:0, 蜂箱组风扇
+forestry:alveary.heater:0, 蜂箱组加热器
+forestry:alveary.hygro:0, 蜂箱组保湿器
+forestry:alveary.stabiliser:0, 蜂箱组稳定器
+forestry:alveary.sieve:0, 蜂箱组滤网
+forestry:engine_peat:0, 泥炭引擎
+forestry:engine_biogas:0, 沼气引擎
+forestry:engine_clockwork:0, 发条引擎
+forestry:mushroom:0, tile.for.mushroom.name
+forestry:mushroom:1, tile.for.mushroom.name
+forestry:ffarm:0, 农场方块
+forestry:ffarm:0, 农场方块
+forestry:ffarm:0, 农场方块
+forestry:ffarm:0, 农场方块
+forestry:ffarm:0, 农场方块
+forestry:ffarm:0, 农场方块
+forestry:ffarm:0, 农场方块
+forestry:ffarm:0, 农场方块
+forestry:ffarm:0, 农场方块
+forestry:ffarm:0, 农场方块
+forestry:ffarm:0, 农场方块
+forestry:ffarm:2, 农场齿轮箱
+forestry:ffarm:2, 农场齿轮箱
+forestry:ffarm:2, 农场齿轮箱
+forestry:ffarm:2, 农场齿轮箱
+forestry:ffarm:2, 农场齿轮箱
+forestry:ffarm:2, 农场齿轮箱
+forestry:ffarm:2, 农场齿轮箱
+forestry:ffarm:2, 农场齿轮箱
+forestry:ffarm:2, 农场齿轮箱
+forestry:ffarm:2, 农场齿轮箱
+forestry:ffarm:2, 农场齿轮箱
+forestry:ffarm:3, 农场出货箱
+forestry:ffarm:3, 农场出货箱
+forestry:ffarm:3, 农场出货箱
+forestry:ffarm:3, 农场出货箱
+forestry:ffarm:3, 农场出货箱
+forestry:ffarm:3, 农场出货箱
+forestry:ffarm:3, 农场出货箱
+forestry:ffarm:3, 农场出货箱
+forestry:ffarm:3, 农场出货箱
+forestry:ffarm:3, 农场出货箱
+forestry:ffarm:3, 农场出货箱
+forestry:ffarm:4, 农场水阀
+forestry:ffarm:4, 农场水阀
+forestry:ffarm:4, 农场水阀
+forestry:ffarm:4, 农场水阀
+forestry:ffarm:4, 农场水阀
+forestry:ffarm:4, 农场水阀
+forestry:ffarm:4, 农场水阀
+forestry:ffarm:4, 农场水阀
+forestry:ffarm:4, 农场水阀
+forestry:ffarm:4, 农场水阀
+forestry:ffarm:4, 农场水阀
+forestry:ffarm:5, 农场控制盒
+forestry:ffarm:5, 农场控制盒
+forestry:ffarm:5, 农场控制盒
+forestry:ffarm:5, 农场控制盒
+forestry:ffarm:5, 农场控制盒
+forestry:ffarm:5, 农场控制盒
+forestry:ffarm:5, 农场控制盒
+forestry:ffarm:5, 农场控制盒
+forestry:ffarm:5, 农场控制盒
+forestry:ffarm:5, 农场控制盒
+forestry:ffarm:5, 农场控制盒
+forestry:arboretum:0, 自动伐木机
+forestry:arboretum:1, 手动伐木机
+forestry:farm_crops:0, 自动收割机
+forestry:farm_crops:1, 手动收割机
+forestry:farm_mushroom:0, 自动蘑菇收割机
+forestry:farm_mushroom:1, 手动蘑菇收割机
+forestry:farm_gourd:0, 自动瓜类收割机
+forestry:farm_gourd:1, 手动瓜类收割机
+forestry:farm_nether:0, 自动地狱收割机
+forestry:farm_nether:1, 手动地狱收割机
+forestry:farm_ender:0, 自动末影收割机
+forestry:farm_ender:1, 手动末影收割机
+forestry:peat_bog:0, 自动泥炭沼泽
+forestry:peat_bog:1, 手动泥炭沼泽
+forestry:habitat_former:0, Habitat Former
+forestry:habitat_screen, Habitat Screen
+forestry:greenhouse:0, Greenhouse Block
+forestry:greenhouse:3, 温室能量分配器
+forestry:greenhouse:4, 温室控制器
+forestry:greenhouse:5, 温室屏幕
+forestry:climatiser:0, 温室湿度控制器
+forestry:climatiser:1, 温室加热器
+forestry:climatiser:2, 温室风扇
+forestry:climatiser:3, 温室加湿器
+forestry:climatiser:4, 温室除湿器
+forestry:greenhouse.window:0, 温室窗户
+forestry:greenhouse.window_up:0, 温室天窗
+forestry:apiarist_bag, 养蜂员背包
+forestry:lepidopterist_bag, 鳞翅目昆虫学家背包
+forestry:miner_bag, 采矿者背包
+forestry:miner_bag_t2, 采矿者编织背包
+forestry:digger_bag, 挖掘者背包
+forestry:digger_bag_t2, 挖掘者编织背包
+forestry:forester_bag, 林业员背包
+forestry:forester_bag_t2, 林业员编织背包
+forestry:hunter_bag, 狩猎者背包
+forestry:hunter_bag_t2, 狩猎者编织背包
+forestry:adventurer_bag, 冒险家背包
+forestry:adventurer_bag_t2, 冒险家编织背包
+forestry:builder_bag, 建筑师背包
+forestry:builder_bag_t2, 建筑师编织背包
+forestry:database:0, 数据库
 avaritia:resource:0, 钻石晶格
 avaritia:resource:1, 水晶矩阵锭
 avaritia:resource:2, 中子素尘埃
@@ -3747,16 +3747,6 @@ thermaldynamics:cover:0, 覆盖板：木炭块
 thermaldynamics:cover:0, 覆盖板：原木堆
 thermaldynamics:cover:0, 覆盖板：装饰用原木堆
 thermaldynamics:cover:0, 覆盖板：壤土
-thermaldynamics:cover:0, 覆盖板：蜡烛
-thermaldynamics:cover:0, 覆盖板：蜜蜂蜂窝块
-thermaldynamics:cover:0, 覆盖板：激化蜂窝块
-thermaldynamics:cover:0, 覆盖板：纤维蜂窝块
-thermaldynamics:cover:0, 覆盖板：冻结蜂窝块
-thermaldynamics:cover:0, 覆盖板：滴水蜂窝块
-thermaldynamics:cover:0, 覆盖板：丝滑蜂窝块
-thermaldynamics:cover:0, 覆盖板：炎热蜂窝块
-thermaldynamics:cover:0, 覆盖板：苔藓蜂窝块
-thermaldynamics:cover:0, 覆盖板：醇厚蜂窝块
 thermaldynamics:cover:0, 覆盖板：落叶树原木
 thermaldynamics:cover:0, 覆盖板：柚树原木
 thermaldynamics:cover:0, 覆盖板：金合欢树原木
@@ -4205,6 +4195,16 @@ thermaldynamics:cover:0, 覆盖板：绿心樟树叶
 thermaldynamics:cover:0, 覆盖板：木瓜树叶
 thermaldynamics:cover:0, 覆盖板：椰枣树叶
 thermaldynamics:cover:0, 覆盖板：白杨树叶
+thermaldynamics:cover:0, 覆盖板：蜡烛
+thermaldynamics:cover:0, 覆盖板：蜜蜂蜂窝块
+thermaldynamics:cover:0, 覆盖板：激化蜂窝块
+thermaldynamics:cover:0, 覆盖板：纤维蜂窝块
+thermaldynamics:cover:0, 覆盖板：冻结蜂窝块
+thermaldynamics:cover:0, 覆盖板：滴水蜂窝块
+thermaldynamics:cover:0, 覆盖板：丝滑蜂窝块
+thermaldynamics:cover:0, 覆盖板：炎热蜂窝块
+thermaldynamics:cover:0, 覆盖板：苔藓蜂窝块
+thermaldynamics:cover:0, 覆盖板：醇厚蜂窝块
 thermaldynamics:cover:0, 覆盖板：压缩工作台
 thermaldynamics:cover:0, 覆盖板：二重压缩工作台
 thermaldynamics:cover:0, 覆盖板：中子素块
@@ -5835,13 +5835,13 @@ solarflux:solar_panel_8, 太阳能电池板 VIII
 solarflux:custom_solar_panel_cosmic_solar_panel, 寰宇太阳能板
 solarflux:solar_panel_neutronium, 中子太阳能板
 solarflux:solar_panel_infinity, 无尽太阳能板
+solarflux:solar_panel_wyvern, 飞龙太阳能板
+solarflux:solar_panel_draconic, 神龙太阳能电池板
+solarflux:solar_panel_chaotic, 混沌太阳能电池板
 solarflux:solar_panel_alchemical, 炼金太阳能电池板
 solarflux:solar_panel_alchemical_brass, 黄铜太阳能板
 solarflux:solar_panel_thaumium, 神秘太阳能板
 solarflux:solar_panel_void_metal, 虚空金属太阳能板
-solarflux:solar_panel_wyvern, 飞龙太阳能板
-solarflux:solar_panel_draconic, 神龙太阳能电池板
-solarflux:solar_panel_chaotic, 混沌太阳能电池板
 solarflux:mirror, 镜子
 solarflux:photovoltaic_cell_1, 光电池 I
 solarflux:photovoltaic_cell_2, 光电池 II
@@ -6751,7 +6751,9 @@ botany:misc:4, 肥料粉
 botany:misc:5, 堆肥粉
 botany:misc:6, 砂浆
 botany:misc:7, 除草剂
-botany:machine:0, 瓦砖工坊
+botany:botanist_bag, 园丁背包
+botany:database:0, 植物学家数据库
+botany:database:1, 植物学家大师数据库
 botany:ceramic:0, 碧蓝陶瓷块
 botany:ceramic:1, 黑陶瓷块
 botany:ceramic:2, 深蓝陶瓷块
@@ -7087,7 +7089,6 @@ botany:clay:77, 白粘土
 botany:clay:78, 黄粘土
 botany:clay:79, 黄绿粘土
 botany:misc_ceramic:0, 砂浆
-botany:botanist_bag, 园丁背包
 botany:insulated_tube:0, 铜-粘土绝缘电子管
 botany:insulated_tube:128, 铜-圆石绝缘电子管
 botany:insulated_tube:256, 铜-砂岩绝缘电子管
@@ -7112,8 +7113,7 @@ botany:insulated_tube:259, 铁-砂岩绝缘电子管
 botany:insulated_tube:387, 铁-硬化粘土绝缘电子管
 botany:insulated_tube:515, 铁-石头绝缘电子管
 botany:insulated_tube:643, 铁-砂岩绝缘电子管
-botany:database:0, 植物学家数据库
-botany:database:1, 植物学家大师数据库
+botany:machine:0, 瓦砖工坊
 extrabees:honey_crystal, item.honey_crystal.name
 extrabees:honey_drop:0, 能量液滴
 extrabees:honey_drop:1, 酸液液滴
@@ -7341,6 +7341,34 @@ extratrees:food:59, 石栗
 extratrees:hammer, 锤子
 extratrees:durable_hammer, item.durable_hammer.name
 extratrees:hops, 啤酒花
+extratrees:databaselepi, item.databaseLepi.name
+extratrees:databasetree, item.databaseTree.name
+extratrees:drink:0, 啤酒杯
+extratrees:drink:0, 品脱杯
+extratrees:drink:0, 窄口酒杯
+extratrees:drink:0, 细长酒杯
+extratrees:drink:0, 鸡尾酒杯
+extratrees:drink:0, 甜果汁杯
+extratrees:drink:0, 可林斯杯
+extratrees:drink:0, 高球杯
+extratrees:drink:0, 飓风杯
+extratrees:drink:0, 玛格丽塔酒杯
+extratrees:drink:0, 老式酒杯
+extratrees:drink:0, 葡萄酒杯
+extratrees:drink:0, 小酒杯
+extratrees:drink:0, 雪利酒杯
+extratrees:drink:0, 香槟杯
+extratrees:drink:0, 葡萄酒杯
+extratrees:machine:0, 锯木机
+extratrees:machine:1, 木材作坊
+extratrees:machine:2, 镶板作坊
+extratrees:machine:4, 水果压榨机
+extratrees:machine:5, 发酵机
+extratrees:machine:6, 蒸馏器
+extratrees:machine:7, 玻璃作坊
+extratrees:carpentry, tile.null.name
+extratrees:carpentrypanel, tile.null.name
+extratrees:stainedglass, tile.null.name
 extratrees:logs.0:0, 苹果树原木
 extratrees:logs.0:1, 无花果树原木
 extratrees:logs.0:2, 灰胡桃树原木
@@ -7916,34 +7944,6 @@ extratrees:leaves.decorative.5:14, 树叶
 extratrees:leaves.decorative.5:15, 树叶
 extratrees:leaves.decorative.6:0, 树叶
 extratrees:shrub_log:0, 灌木原木
-extratrees:drink:0, 啤酒杯
-extratrees:drink:0, 品脱杯
-extratrees:drink:0, 窄口酒杯
-extratrees:drink:0, 细长酒杯
-extratrees:drink:0, 鸡尾酒杯
-extratrees:drink:0, 甜果汁杯
-extratrees:drink:0, 可林斯杯
-extratrees:drink:0, 高球杯
-extratrees:drink:0, 飓风杯
-extratrees:drink:0, 玛格丽塔酒杯
-extratrees:drink:0, 老式酒杯
-extratrees:drink:0, 葡萄酒杯
-extratrees:drink:0, 小酒杯
-extratrees:drink:0, 雪利酒杯
-extratrees:drink:0, 香槟杯
-extratrees:drink:0, 葡萄酒杯
-extratrees:machine:0, 锯木机
-extratrees:machine:1, 木材作坊
-extratrees:machine:2, 镶板作坊
-extratrees:machine:4, 水果压榨机
-extratrees:machine:5, 发酵机
-extratrees:machine:6, 蒸馏器
-extratrees:machine:7, 玻璃作坊
-extratrees:carpentry, tile.null.name
-extratrees:carpentrypanel, tile.null.name
-extratrees:stainedglass, tile.null.name
-extratrees:databaselepi, item.databaseLepi.name
-extratrees:databasetree, item.databaseTree.name
 extratrees:binnie.juice.apple, 苹果汁
 extratrees:binnie.juice.apricot, 杏汁
 extratrees:binnie.juice.banana, 香蕉汁
@@ -9211,6 +9211,7 @@ additions:tcsponsors-nanxun_happy_cake, item.tcsponsors-nanxun_happy_cake.name
 additions:tcsponsors-natsume_mio_necklace, item.tcsponsors-natsume_mio_necklace.name
 additions:tcsponsors-plain_phone, item.tcsponsors-plain_phone.name
 additions:tcsponsors-rabbit_hat, item.tcsponsors-rabbit_hat.name
+additions:tcsponsors-reds_pandora_box, item.tcsponsors-reds_pandora_box.name
 additions:tcsponsors-snake_rune, item.tcsponsors-snake_rune.name
 additions:tcsponsors-sponsors_chest, item.tcsponsors-sponsors_chest.name
 additions:tcsponsors-sponsor_chest_fragment, item.tcsponsors-sponsor_chest_fragment.name
@@ -14073,52 +14074,52 @@ tconstruct:slime_vine_purple_end:0, 紫色史莱姆藤蔓
 tconstruct:slime_vine_purple_mid:0, 紫色史莱姆藤蔓
 tconstruct:slime_vine_purple:0, 紫色史莱姆藤蔓
 tconstruct:pattern:0, 空白模具
-tconstruct:pattern:0, 宽护手模具
-tconstruct:pattern:0, 枪管模具
-tconstruct:pattern:0, 斧刃模具
-tconstruct:pattern:0, 弓弦模具
-tconstruct:pattern:0, 吹嘴模具
-tconstruct:pattern:0, 开掘铲头模具
-tconstruct:pattern:0, 镖尖模具
-tconstruct:pattern:0, 园艺镰头模具
-tconstruct:pattern:0, 护手模具
-tconstruct:pattern:0, 胸甲基底模具
-tconstruct:pattern:0, 轮轴模具
-tconstruct:pattern:0, 弓臂模具
-tconstruct:pattern:0, 镐头模具
-tconstruct:pattern:0, 坚韧手柄模具
-tconstruct:pattern:0, 坚韧绑定结模具
-tconstruct:pattern:0, 箭羽模具
-tconstruct:pattern:0, 镰刀头模具
-tconstruct:pattern:0, 头盔基底模具
-tconstruct:pattern:0, 磨制工具模具
-tconstruct:pattern:0, 凿子头模具
-tconstruct:pattern:0, 绑定结模具
-tconstruct:pattern:0, 箭头模具
-tconstruct:pattern:0, 吹管模具
-tconstruct:pattern:0, 抛光工具模具
-tconstruct:pattern:0, 靴子基底模具
-tconstruct:pattern:0, 蓄电池模具
-tconstruct:pattern:0, 护腿基底模具
-tconstruct:pattern:0, 铲头模具
-tconstruct:pattern:0, 捆绳模具
-tconstruct:pattern:0, 宽斧刃模具
-tconstruct:pattern:0, 护甲板模具
-tconstruct:pattern:0, 碎片模具
-tconstruct:pattern:0, 护甲夹板模具
-tconstruct:pattern:0, 外壳模具
-tconstruct:pattern:0, 手柄模具
-tconstruct:pattern:0, 盘模具
-tconstruct:pattern:0, 激光传导器模具
-tconstruct:pattern:0, 锤头模具
-tconstruct:pattern:0, 大板模具
-tconstruct:pattern:0, 宽剑刃模具
-tconstruct:pattern:0, 牌板模具
-tconstruct:pattern:0, 箭杆模具
-tconstruct:pattern:0, 十字柄模具
-tconstruct:pattern:0, 奇术焦镜模具
 tconstruct:pattern:0, 剑刃模具
+tconstruct:pattern:0, 弓弦模具
+tconstruct:pattern:0, 靴子基底模具
+tconstruct:pattern:0, 捆绳模具
+tconstruct:pattern:0, 镐头模具
+tconstruct:pattern:0, 镰刀头模具
+tconstruct:pattern:0, 胸甲基底模具
+tconstruct:pattern:0, 大板模具
 tconstruct:pattern:0, 刀刃模具
+tconstruct:pattern:0, 园艺镰头模具
+tconstruct:pattern:0, 宽斧刃模具
+tconstruct:pattern:0, 磨制工具模具
+tconstruct:pattern:0, 蓄电池模具
+tconstruct:pattern:0, 牌板模具
+tconstruct:pattern:0, 宽护手模具
+tconstruct:pattern:0, 宽剑刃模具
+tconstruct:pattern:0, 绑定结模具
+tconstruct:pattern:0, 坚韧手柄模具
+tconstruct:pattern:0, 锤头模具
+tconstruct:pattern:0, 奇术焦镜模具
+tconstruct:pattern:0, 箭羽模具
+tconstruct:pattern:0, 箭头模具
+tconstruct:pattern:0, 护甲夹板模具
+tconstruct:pattern:0, 盘模具
+tconstruct:pattern:0, 护腿基底模具
+tconstruct:pattern:0, 开掘铲头模具
+tconstruct:pattern:0, 护手模具
+tconstruct:pattern:0, 护甲板模具
+tconstruct:pattern:0, 抛光工具模具
+tconstruct:pattern:0, 碎片模具
+tconstruct:pattern:0, 斧刃模具
+tconstruct:pattern:0, 外壳模具
+tconstruct:pattern:0, 十字柄模具
+tconstruct:pattern:0, 吹管模具
+tconstruct:pattern:0, 凿子头模具
+tconstruct:pattern:0, 铲头模具
+tconstruct:pattern:0, 吹嘴模具
+tconstruct:pattern:0, 手柄模具
+tconstruct:pattern:0, 激光传导器模具
+tconstruct:pattern:0, 弓臂模具
+tconstruct:pattern:0, 头盔基底模具
+tconstruct:pattern:0, 箭杆模具
+tconstruct:pattern:0, 坚韧绑定结模具
+tconstruct:pattern:0, 枪管模具
+tconstruct:pattern:0, 轮轴模具
+tconstruct:pattern:0, 镖尖模具
 tconstruct:shard:0, 娜迦鳞片 碎片
 tconstruct:shard:0, 钢叶 碎片
 tconstruct:shard:0, 炽铁 碎片
@@ -14170,6 +14171,64 @@ tconstruct:shard:0, 初级精华 碎片
 tconstruct:shard:0, 中级精华 碎片
 tconstruct:shard:0, 高级精华 碎片
 tconstruct:shard:0, 终极精华 碎片
+tconstruct:shard:0, 奶酪 碎片
+tconstruct:shard:0, 究极精华 碎片
+tconstruct:shard:0, 聚合矩阵 碎片
+tconstruct:shard:0, 知识精华 碎片
+tconstruct:shard:0, 永燃 碎片
+tconstruct:shard:0, 钛金 碎片
+tconstruct:shard:0, 极寒 碎片
+tconstruct:shard:0, 铝黄铜 碎片
+tconstruct:shard:0, 钻石 碎片
+tconstruct:shard:0, 金质碎片
+tconstruct:shard:0, 煤 碎片
+tconstruct:shard:0, 伊桑斯 碎片
+tconstruct:shard:0, 绯红宝石 碎片
+tconstruct:shard:0, 赫菲斯辛 碎片
+tconstruct:shard:0, 秘银 碎片
+tconstruct:shard:0, 铿金 碎片
+tconstruct:shard:0, 秘金 碎片
+tconstruct:shard:0, 毁灭 碎片
+tconstruct:shard:0, 忏悔宝石 碎片
+tconstruct:shard:0, 盖亚魂 碎片
+tconstruct:shard:0, 胞嘧 碎片
+tconstruct:shard:0, 大地合金 碎片
+tconstruct:shard:0, 恒星合金 碎片
+tconstruct:shard:0, 寰宇 碎片
+tconstruct:shard:0, 星辰 碎片
+tconstruct:shard:0, 奥利哈刚 碎片
+tconstruct:shard:0, 黄铀 碎片
+tconstruct:shard:0, 巧克力 碎片
+tconstruct:shard:0, 辛西纳石 碎片
+tconstruct:shard:0, 霜晶 碎片
+tconstruct:shard:0, 末影云母 碎片
+tconstruct:shard:0, 豆腐宝石 碎片
+tconstruct:shard:0, 强化豆腐宝石 碎片
+tconstruct:shard:0, 樱色钻石 碎片
+tconstruct:shard:0, 泥巴 碎片
+tconstruct:shard:0, 空间碎片 碎片
+tconstruct:shard:0, 水晶之心 碎片
+tconstruct:shard:0, 基岩 碎片
+tconstruct:shard:0, 云浮 碎片
+tconstruct:shard:0, 神金 碎片
+tconstruct:shard:0, 暗影 碎片
+tconstruct:shard:0, 下界合金 碎片
+tconstruct:shard:0, 焦黑石头 碎片
+tconstruct:shard:0, 高炉砖 碎片
+tconstruct:shard:0, 模块化合金 碎片
+tconstruct:shard:0, 陨星 碎片
+tconstruct:shard:0, 铬 碎片
+tconstruct:shard:0, 不锈钢 碎片
+tconstruct:shard:0, 质子 碎片
+tconstruct:shard:0, 电子 碎片
+tconstruct:shard:0, 猩红 碎片
+tconstruct:shard:0, 水华 碎片
+tconstruct:shard:0, 锰铁 碎片
+tconstruct:shard:0, 锰钢 碎片
+tconstruct:shard:0, 天地宝晶 碎片
+tconstruct:shard:0, 完美 碎片
+tconstruct:shard:0, 南瓜 碎片
+tconstruct:shard:0, 便便 碎片
 tconstruct:shard:0, 耐酸铝 碎片
 tconstruct:shard:0, 蓝宝石 碎片
 tconstruct:shard:0, 红宝石 碎片
@@ -14362,6 +14421,64 @@ tconstruct:sharpening_kit:0, 初级精华 磨制工具
 tconstruct:sharpening_kit:0, 中级精华 磨制工具
 tconstruct:sharpening_kit:0, 高级精华 磨制工具
 tconstruct:sharpening_kit:0, 终极精华 磨制工具
+tconstruct:sharpening_kit:0, 奶酪 磨制工具
+tconstruct:sharpening_kit:0, 究极精华 磨制工具
+tconstruct:sharpening_kit:0, 聚合矩阵 磨制工具
+tconstruct:sharpening_kit:0, 知识精华 磨制工具
+tconstruct:sharpening_kit:0, 永燃 磨制工具
+tconstruct:sharpening_kit:0, 钛金 磨制工具
+tconstruct:sharpening_kit:0, 极寒 磨制工具
+tconstruct:sharpening_kit:0, 铝黄铜 磨制工具
+tconstruct:sharpening_kit:0, 钻石 磨制工具
+tconstruct:sharpening_kit:0, 金质磨制工具
+tconstruct:sharpening_kit:0, 煤 磨制工具
+tconstruct:sharpening_kit:0, 伊桑斯 磨制工具
+tconstruct:sharpening_kit:0, 绯红宝石 磨制工具
+tconstruct:sharpening_kit:0, 赫菲斯辛 磨制工具
+tconstruct:sharpening_kit:0, 秘银 磨制工具
+tconstruct:sharpening_kit:0, 铿金 磨制工具
+tconstruct:sharpening_kit:0, 秘金 磨制工具
+tconstruct:sharpening_kit:0, 毁灭 磨制工具
+tconstruct:sharpening_kit:0, 忏悔宝石 磨制工具
+tconstruct:sharpening_kit:0, 盖亚魂 磨制工具
+tconstruct:sharpening_kit:0, 胞嘧 磨制工具
+tconstruct:sharpening_kit:0, 大地合金 磨制工具
+tconstruct:sharpening_kit:0, 恒星合金 磨制工具
+tconstruct:sharpening_kit:0, 寰宇 磨制工具
+tconstruct:sharpening_kit:0, 星辰 磨制工具
+tconstruct:sharpening_kit:0, 奥利哈刚 磨制工具
+tconstruct:sharpening_kit:0, 黄铀 磨制工具
+tconstruct:sharpening_kit:0, 巧克力 磨制工具
+tconstruct:sharpening_kit:0, 辛西纳石 磨制工具
+tconstruct:sharpening_kit:0, 霜晶 磨制工具
+tconstruct:sharpening_kit:0, 末影云母 磨制工具
+tconstruct:sharpening_kit:0, 豆腐宝石 磨制工具
+tconstruct:sharpening_kit:0, 强化豆腐宝石 磨制工具
+tconstruct:sharpening_kit:0, 樱色钻石 磨制工具
+tconstruct:sharpening_kit:0, 泥巴 磨制工具
+tconstruct:sharpening_kit:0, 空间碎片 磨制工具
+tconstruct:sharpening_kit:0, 水晶之心 磨制工具
+tconstruct:sharpening_kit:0, 基岩 磨制工具
+tconstruct:sharpening_kit:0, 云浮 磨制工具
+tconstruct:sharpening_kit:0, 神金 磨制工具
+tconstruct:sharpening_kit:0, 暗影 磨制工具
+tconstruct:sharpening_kit:0, 下界合金 磨制工具
+tconstruct:sharpening_kit:0, 焦黑石头 磨制工具
+tconstruct:sharpening_kit:0, 高炉砖 磨制工具
+tconstruct:sharpening_kit:0, 模块化合金 磨制工具
+tconstruct:sharpening_kit:0, 陨星 磨制工具
+tconstruct:sharpening_kit:0, 铬 磨制工具
+tconstruct:sharpening_kit:0, 不锈钢 磨制工具
+tconstruct:sharpening_kit:0, 质子 磨制工具
+tconstruct:sharpening_kit:0, 电子 磨制工具
+tconstruct:sharpening_kit:0, 猩红 磨制工具
+tconstruct:sharpening_kit:0, 水华 磨制工具
+tconstruct:sharpening_kit:0, 锰铁 磨制工具
+tconstruct:sharpening_kit:0, 锰钢 磨制工具
+tconstruct:sharpening_kit:0, 天地宝晶 磨制工具
+tconstruct:sharpening_kit:0, 完美 磨制工具
+tconstruct:sharpening_kit:0, 南瓜 磨制工具
+tconstruct:sharpening_kit:0, 便便 磨制工具
 tconstruct:sharpening_kit:0, 耐酸铝 磨制工具
 tconstruct:sharpening_kit:0, 蓝宝石 磨制工具
 tconstruct:sharpening_kit:0, 红宝石 磨制工具
@@ -14554,6 +14671,64 @@ tconstruct:pick_head:0, 初级精华 镐头
 tconstruct:pick_head:0, 中级精华 镐头
 tconstruct:pick_head:0, 高级精华 镐头
 tconstruct:pick_head:0, 终极精华 镐头
+tconstruct:pick_head:0, 奶酪 镐头
+tconstruct:pick_head:0, 究极精华 镐头
+tconstruct:pick_head:0, 聚合矩阵 镐头
+tconstruct:pick_head:0, 知识精华 镐头
+tconstruct:pick_head:0, 永燃 镐头
+tconstruct:pick_head:0, 钛金 镐头
+tconstruct:pick_head:0, 极寒 镐头
+tconstruct:pick_head:0, 铝黄铜 镐头
+tconstruct:pick_head:0, 钻石 镐头
+tconstruct:pick_head:0, 金质镐头
+tconstruct:pick_head:0, 煤 镐头
+tconstruct:pick_head:0, 伊桑斯 镐头
+tconstruct:pick_head:0, 绯红宝石 镐头
+tconstruct:pick_head:0, 赫菲斯辛 镐头
+tconstruct:pick_head:0, 秘银 镐头
+tconstruct:pick_head:0, 铿金 镐头
+tconstruct:pick_head:0, 秘金 镐头
+tconstruct:pick_head:0, 毁灭 镐头
+tconstruct:pick_head:0, 忏悔宝石 镐头
+tconstruct:pick_head:0, 盖亚魂 镐头
+tconstruct:pick_head:0, 胞嘧 镐头
+tconstruct:pick_head:0, 大地合金 镐头
+tconstruct:pick_head:0, 恒星合金 镐头
+tconstruct:pick_head:0, 寰宇 镐头
+tconstruct:pick_head:0, 星辰 镐头
+tconstruct:pick_head:0, 奥利哈刚 镐头
+tconstruct:pick_head:0, 黄铀 镐头
+tconstruct:pick_head:0, 巧克力 镐头
+tconstruct:pick_head:0, 辛西纳石 镐头
+tconstruct:pick_head:0, 霜晶 镐头
+tconstruct:pick_head:0, 末影云母 镐头
+tconstruct:pick_head:0, 豆腐宝石 镐头
+tconstruct:pick_head:0, 强化豆腐宝石 镐头
+tconstruct:pick_head:0, 樱色钻石 镐头
+tconstruct:pick_head:0, 泥巴 镐头
+tconstruct:pick_head:0, 空间碎片 镐头
+tconstruct:pick_head:0, 水晶之心 镐头
+tconstruct:pick_head:0, 基岩 镐头
+tconstruct:pick_head:0, 云浮 镐头
+tconstruct:pick_head:0, 神金 镐头
+tconstruct:pick_head:0, 暗影 镐头
+tconstruct:pick_head:0, 下界合金 镐头
+tconstruct:pick_head:0, 焦黑石头 镐头
+tconstruct:pick_head:0, 高炉砖 镐头
+tconstruct:pick_head:0, 模块化合金 镐头
+tconstruct:pick_head:0, 陨星 镐头
+tconstruct:pick_head:0, 铬 镐头
+tconstruct:pick_head:0, 不锈钢 镐头
+tconstruct:pick_head:0, 质子 镐头
+tconstruct:pick_head:0, 电子 镐头
+tconstruct:pick_head:0, 猩红 镐头
+tconstruct:pick_head:0, 水华 镐头
+tconstruct:pick_head:0, 锰铁 镐头
+tconstruct:pick_head:0, 锰钢 镐头
+tconstruct:pick_head:0, 天地宝晶 镐头
+tconstruct:pick_head:0, 完美 镐头
+tconstruct:pick_head:0, 南瓜 镐头
+tconstruct:pick_head:0, 便便 镐头
 tconstruct:pick_head:0, 耐酸铝 镐头
 tconstruct:pick_head:0, 蓝宝石 镐头
 tconstruct:pick_head:0, 红宝石 镐头
@@ -14746,6 +14921,64 @@ tconstruct:shovel_head:0, 初级精华 铲头
 tconstruct:shovel_head:0, 中级精华 铲头
 tconstruct:shovel_head:0, 高级精华 铲头
 tconstruct:shovel_head:0, 终极精华 铲头
+tconstruct:shovel_head:0, 奶酪 铲头
+tconstruct:shovel_head:0, 究极精华 铲头
+tconstruct:shovel_head:0, 聚合矩阵 铲头
+tconstruct:shovel_head:0, 知识精华 铲头
+tconstruct:shovel_head:0, 永燃 铲头
+tconstruct:shovel_head:0, 钛金 铲头
+tconstruct:shovel_head:0, 极寒 铲头
+tconstruct:shovel_head:0, 铝黄铜 铲头
+tconstruct:shovel_head:0, 钻石 铲头
+tconstruct:shovel_head:0, 金质铲头
+tconstruct:shovel_head:0, 煤 铲头
+tconstruct:shovel_head:0, 伊桑斯 铲头
+tconstruct:shovel_head:0, 绯红宝石 铲头
+tconstruct:shovel_head:0, 赫菲斯辛 铲头
+tconstruct:shovel_head:0, 秘银 铲头
+tconstruct:shovel_head:0, 铿金 铲头
+tconstruct:shovel_head:0, 秘金 铲头
+tconstruct:shovel_head:0, 毁灭 铲头
+tconstruct:shovel_head:0, 忏悔宝石 铲头
+tconstruct:shovel_head:0, 盖亚魂 铲头
+tconstruct:shovel_head:0, 胞嘧 铲头
+tconstruct:shovel_head:0, 大地合金 铲头
+tconstruct:shovel_head:0, 恒星合金 铲头
+tconstruct:shovel_head:0, 寰宇 铲头
+tconstruct:shovel_head:0, 星辰 铲头
+tconstruct:shovel_head:0, 奥利哈刚 铲头
+tconstruct:shovel_head:0, 黄铀 铲头
+tconstruct:shovel_head:0, 巧克力 铲头
+tconstruct:shovel_head:0, 辛西纳石 铲头
+tconstruct:shovel_head:0, 霜晶 铲头
+tconstruct:shovel_head:0, 末影云母 铲头
+tconstruct:shovel_head:0, 豆腐宝石 铲头
+tconstruct:shovel_head:0, 强化豆腐宝石 铲头
+tconstruct:shovel_head:0, 樱色钻石 铲头
+tconstruct:shovel_head:0, 泥巴 铲头
+tconstruct:shovel_head:0, 空间碎片 铲头
+tconstruct:shovel_head:0, 水晶之心 铲头
+tconstruct:shovel_head:0, 基岩 铲头
+tconstruct:shovel_head:0, 云浮 铲头
+tconstruct:shovel_head:0, 神金 铲头
+tconstruct:shovel_head:0, 暗影 铲头
+tconstruct:shovel_head:0, 下界合金 铲头
+tconstruct:shovel_head:0, 焦黑石头 铲头
+tconstruct:shovel_head:0, 高炉砖 铲头
+tconstruct:shovel_head:0, 模块化合金 铲头
+tconstruct:shovel_head:0, 陨星 铲头
+tconstruct:shovel_head:0, 铬 铲头
+tconstruct:shovel_head:0, 不锈钢 铲头
+tconstruct:shovel_head:0, 质子 铲头
+tconstruct:shovel_head:0, 电子 铲头
+tconstruct:shovel_head:0, 猩红 铲头
+tconstruct:shovel_head:0, 水华 铲头
+tconstruct:shovel_head:0, 锰铁 铲头
+tconstruct:shovel_head:0, 锰钢 铲头
+tconstruct:shovel_head:0, 天地宝晶 铲头
+tconstruct:shovel_head:0, 完美 铲头
+tconstruct:shovel_head:0, 南瓜 铲头
+tconstruct:shovel_head:0, 便便 铲头
 tconstruct:shovel_head:0, 耐酸铝 铲头
 tconstruct:shovel_head:0, 蓝宝石 铲头
 tconstruct:shovel_head:0, 红宝石 铲头
@@ -14938,6 +15171,64 @@ tconstruct:axe_head:0, 初级精华 斧刃
 tconstruct:axe_head:0, 中级精华 斧刃
 tconstruct:axe_head:0, 高级精华 斧刃
 tconstruct:axe_head:0, 终极精华 斧刃
+tconstruct:axe_head:0, 奶酪 斧刃
+tconstruct:axe_head:0, 究极精华 斧刃
+tconstruct:axe_head:0, 聚合矩阵 斧刃
+tconstruct:axe_head:0, 知识精华 斧刃
+tconstruct:axe_head:0, 永燃 斧刃
+tconstruct:axe_head:0, 钛金 斧刃
+tconstruct:axe_head:0, 极寒 斧刃
+tconstruct:axe_head:0, 铝黄铜 斧刃
+tconstruct:axe_head:0, 钻石 斧刃
+tconstruct:axe_head:0, 金质斧刃
+tconstruct:axe_head:0, 煤 斧刃
+tconstruct:axe_head:0, 伊桑斯 斧刃
+tconstruct:axe_head:0, 绯红宝石 斧刃
+tconstruct:axe_head:0, 赫菲斯辛 斧刃
+tconstruct:axe_head:0, 秘银 斧刃
+tconstruct:axe_head:0, 铿金 斧刃
+tconstruct:axe_head:0, 秘金 斧刃
+tconstruct:axe_head:0, 毁灭 斧刃
+tconstruct:axe_head:0, 忏悔宝石 斧刃
+tconstruct:axe_head:0, 盖亚魂 斧刃
+tconstruct:axe_head:0, 胞嘧 斧刃
+tconstruct:axe_head:0, 大地合金 斧刃
+tconstruct:axe_head:0, 恒星合金 斧刃
+tconstruct:axe_head:0, 寰宇 斧刃
+tconstruct:axe_head:0, 星辰 斧刃
+tconstruct:axe_head:0, 奥利哈刚 斧刃
+tconstruct:axe_head:0, 黄铀 斧刃
+tconstruct:axe_head:0, 巧克力 斧刃
+tconstruct:axe_head:0, 辛西纳石 斧刃
+tconstruct:axe_head:0, 霜晶 斧刃
+tconstruct:axe_head:0, 末影云母 斧刃
+tconstruct:axe_head:0, 豆腐宝石 斧刃
+tconstruct:axe_head:0, 强化豆腐宝石 斧刃
+tconstruct:axe_head:0, 樱色钻石 斧刃
+tconstruct:axe_head:0, 泥巴 斧刃
+tconstruct:axe_head:0, 空间碎片 斧刃
+tconstruct:axe_head:0, 水晶之心 斧刃
+tconstruct:axe_head:0, 基岩 斧刃
+tconstruct:axe_head:0, 云浮 斧刃
+tconstruct:axe_head:0, 神金 斧刃
+tconstruct:axe_head:0, 暗影 斧刃
+tconstruct:axe_head:0, 下界合金 斧刃
+tconstruct:axe_head:0, 焦黑石头 斧刃
+tconstruct:axe_head:0, 高炉砖 斧刃
+tconstruct:axe_head:0, 模块化合金 斧刃
+tconstruct:axe_head:0, 陨星 斧刃
+tconstruct:axe_head:0, 铬 斧刃
+tconstruct:axe_head:0, 不锈钢 斧刃
+tconstruct:axe_head:0, 质子 斧刃
+tconstruct:axe_head:0, 电子 斧刃
+tconstruct:axe_head:0, 猩红 斧刃
+tconstruct:axe_head:0, 水华 斧刃
+tconstruct:axe_head:0, 锰铁 斧刃
+tconstruct:axe_head:0, 锰钢 斧刃
+tconstruct:axe_head:0, 天地宝晶 斧刃
+tconstruct:axe_head:0, 完美 斧刃
+tconstruct:axe_head:0, 南瓜 斧刃
+tconstruct:axe_head:0, 便便 斧刃
 tconstruct:axe_head:0, 耐酸铝 斧刃
 tconstruct:axe_head:0, 蓝宝石 斧刃
 tconstruct:axe_head:0, 红宝石 斧刃
@@ -15130,6 +15421,64 @@ tconstruct:broad_axe_head:0, 初级精华 宽斧刃
 tconstruct:broad_axe_head:0, 中级精华 宽斧刃
 tconstruct:broad_axe_head:0, 高级精华 宽斧刃
 tconstruct:broad_axe_head:0, 终极精华 宽斧刃
+tconstruct:broad_axe_head:0, 奶酪 宽斧刃
+tconstruct:broad_axe_head:0, 究极精华 宽斧刃
+tconstruct:broad_axe_head:0, 聚合矩阵 宽斧刃
+tconstruct:broad_axe_head:0, 知识精华 宽斧刃
+tconstruct:broad_axe_head:0, 永燃 宽斧刃
+tconstruct:broad_axe_head:0, 钛金 宽斧刃
+tconstruct:broad_axe_head:0, 极寒 宽斧刃
+tconstruct:broad_axe_head:0, 铝黄铜 宽斧刃
+tconstruct:broad_axe_head:0, 钻石 宽斧刃
+tconstruct:broad_axe_head:0, 金质宽斧刃
+tconstruct:broad_axe_head:0, 煤 宽斧刃
+tconstruct:broad_axe_head:0, 伊桑斯 宽斧刃
+tconstruct:broad_axe_head:0, 绯红宝石 宽斧刃
+tconstruct:broad_axe_head:0, 赫菲斯辛 宽斧刃
+tconstruct:broad_axe_head:0, 秘银 宽斧刃
+tconstruct:broad_axe_head:0, 铿金 宽斧刃
+tconstruct:broad_axe_head:0, 秘金 宽斧刃
+tconstruct:broad_axe_head:0, 毁灭 宽斧刃
+tconstruct:broad_axe_head:0, 忏悔宝石 宽斧刃
+tconstruct:broad_axe_head:0, 盖亚魂 宽斧刃
+tconstruct:broad_axe_head:0, 胞嘧 宽斧刃
+tconstruct:broad_axe_head:0, 大地合金 宽斧刃
+tconstruct:broad_axe_head:0, 恒星合金 宽斧刃
+tconstruct:broad_axe_head:0, 寰宇 宽斧刃
+tconstruct:broad_axe_head:0, 星辰 宽斧刃
+tconstruct:broad_axe_head:0, 奥利哈刚 宽斧刃
+tconstruct:broad_axe_head:0, 黄铀 宽斧刃
+tconstruct:broad_axe_head:0, 巧克力 宽斧刃
+tconstruct:broad_axe_head:0, 辛西纳石 宽斧刃
+tconstruct:broad_axe_head:0, 霜晶 宽斧刃
+tconstruct:broad_axe_head:0, 末影云母 宽斧刃
+tconstruct:broad_axe_head:0, 豆腐宝石 宽斧刃
+tconstruct:broad_axe_head:0, 强化豆腐宝石 宽斧刃
+tconstruct:broad_axe_head:0, 樱色钻石 宽斧刃
+tconstruct:broad_axe_head:0, 泥巴 宽斧刃
+tconstruct:broad_axe_head:0, 空间碎片 宽斧刃
+tconstruct:broad_axe_head:0, 水晶之心 宽斧刃
+tconstruct:broad_axe_head:0, 基岩 宽斧刃
+tconstruct:broad_axe_head:0, 云浮 宽斧刃
+tconstruct:broad_axe_head:0, 神金 宽斧刃
+tconstruct:broad_axe_head:0, 暗影 宽斧刃
+tconstruct:broad_axe_head:0, 下界合金 宽斧刃
+tconstruct:broad_axe_head:0, 焦黑石头 宽斧刃
+tconstruct:broad_axe_head:0, 高炉砖 宽斧刃
+tconstruct:broad_axe_head:0, 模块化合金 宽斧刃
+tconstruct:broad_axe_head:0, 陨星 宽斧刃
+tconstruct:broad_axe_head:0, 铬 宽斧刃
+tconstruct:broad_axe_head:0, 不锈钢 宽斧刃
+tconstruct:broad_axe_head:0, 质子 宽斧刃
+tconstruct:broad_axe_head:0, 电子 宽斧刃
+tconstruct:broad_axe_head:0, 猩红 宽斧刃
+tconstruct:broad_axe_head:0, 水华 宽斧刃
+tconstruct:broad_axe_head:0, 锰铁 宽斧刃
+tconstruct:broad_axe_head:0, 锰钢 宽斧刃
+tconstruct:broad_axe_head:0, 天地宝晶 宽斧刃
+tconstruct:broad_axe_head:0, 完美 宽斧刃
+tconstruct:broad_axe_head:0, 南瓜 宽斧刃
+tconstruct:broad_axe_head:0, 便便 宽斧刃
 tconstruct:broad_axe_head:0, 耐酸铝 宽斧刃
 tconstruct:broad_axe_head:0, 蓝宝石 宽斧刃
 tconstruct:broad_axe_head:0, 红宝石 宽斧刃
@@ -15322,6 +15671,64 @@ tconstruct:sword_blade:0, 初级精华 剑刃
 tconstruct:sword_blade:0, 中级精华 剑刃
 tconstruct:sword_blade:0, 高级精华 剑刃
 tconstruct:sword_blade:0, 终极精华 剑刃
+tconstruct:sword_blade:0, 奶酪 剑刃
+tconstruct:sword_blade:0, 究极精华 剑刃
+tconstruct:sword_blade:0, 聚合矩阵 剑刃
+tconstruct:sword_blade:0, 知识精华 剑刃
+tconstruct:sword_blade:0, 永燃 剑刃
+tconstruct:sword_blade:0, 钛金 剑刃
+tconstruct:sword_blade:0, 极寒 剑刃
+tconstruct:sword_blade:0, 铝黄铜 剑刃
+tconstruct:sword_blade:0, 钻石 剑刃
+tconstruct:sword_blade:0, 金质剑刃
+tconstruct:sword_blade:0, 煤 剑刃
+tconstruct:sword_blade:0, 伊桑斯 剑刃
+tconstruct:sword_blade:0, 绯红宝石 剑刃
+tconstruct:sword_blade:0, 赫菲斯辛 剑刃
+tconstruct:sword_blade:0, 秘银 剑刃
+tconstruct:sword_blade:0, 铿金 剑刃
+tconstruct:sword_blade:0, 秘金 剑刃
+tconstruct:sword_blade:0, 毁灭 剑刃
+tconstruct:sword_blade:0, 忏悔宝石 剑刃
+tconstruct:sword_blade:0, 盖亚魂 剑刃
+tconstruct:sword_blade:0, 胞嘧 剑刃
+tconstruct:sword_blade:0, 大地合金 剑刃
+tconstruct:sword_blade:0, 恒星合金 剑刃
+tconstruct:sword_blade:0, 寰宇 剑刃
+tconstruct:sword_blade:0, 星辰 剑刃
+tconstruct:sword_blade:0, 奥利哈刚 剑刃
+tconstruct:sword_blade:0, 黄铀 剑刃
+tconstruct:sword_blade:0, 巧克力 剑刃
+tconstruct:sword_blade:0, 辛西纳石 剑刃
+tconstruct:sword_blade:0, 霜晶 剑刃
+tconstruct:sword_blade:0, 末影云母 剑刃
+tconstruct:sword_blade:0, 豆腐宝石 剑刃
+tconstruct:sword_blade:0, 强化豆腐宝石 剑刃
+tconstruct:sword_blade:0, 樱色钻石 剑刃
+tconstruct:sword_blade:0, 泥巴 剑刃
+tconstruct:sword_blade:0, 空间碎片 剑刃
+tconstruct:sword_blade:0, 水晶之心 剑刃
+tconstruct:sword_blade:0, 基岩 剑刃
+tconstruct:sword_blade:0, 云浮 剑刃
+tconstruct:sword_blade:0, 神金 剑刃
+tconstruct:sword_blade:0, 暗影 剑刃
+tconstruct:sword_blade:0, 下界合金 剑刃
+tconstruct:sword_blade:0, 焦黑石头 剑刃
+tconstruct:sword_blade:0, 高炉砖 剑刃
+tconstruct:sword_blade:0, 模块化合金 剑刃
+tconstruct:sword_blade:0, 陨星 剑刃
+tconstruct:sword_blade:0, 铬 剑刃
+tconstruct:sword_blade:0, 不锈钢 剑刃
+tconstruct:sword_blade:0, 质子 剑刃
+tconstruct:sword_blade:0, 电子 剑刃
+tconstruct:sword_blade:0, 猩红 剑刃
+tconstruct:sword_blade:0, 水华 剑刃
+tconstruct:sword_blade:0, 锰铁 剑刃
+tconstruct:sword_blade:0, 锰钢 剑刃
+tconstruct:sword_blade:0, 天地宝晶 剑刃
+tconstruct:sword_blade:0, 完美 剑刃
+tconstruct:sword_blade:0, 南瓜 剑刃
+tconstruct:sword_blade:0, 便便 剑刃
 tconstruct:sword_blade:0, 耐酸铝 剑刃
 tconstruct:sword_blade:0, 蓝宝石 剑刃
 tconstruct:sword_blade:0, 红宝石 剑刃
@@ -15514,6 +15921,64 @@ tconstruct:large_sword_blade:0, 初级精华 宽剑刃
 tconstruct:large_sword_blade:0, 中级精华 宽剑刃
 tconstruct:large_sword_blade:0, 高级精华 宽剑刃
 tconstruct:large_sword_blade:0, 终极精华 宽剑刃
+tconstruct:large_sword_blade:0, 奶酪 宽剑刃
+tconstruct:large_sword_blade:0, 究极精华 宽剑刃
+tconstruct:large_sword_blade:0, 聚合矩阵 宽剑刃
+tconstruct:large_sword_blade:0, 知识精华 宽剑刃
+tconstruct:large_sword_blade:0, 永燃 宽剑刃
+tconstruct:large_sword_blade:0, 钛金 宽剑刃
+tconstruct:large_sword_blade:0, 极寒 宽剑刃
+tconstruct:large_sword_blade:0, 铝黄铜 宽剑刃
+tconstruct:large_sword_blade:0, 钻石 宽剑刃
+tconstruct:large_sword_blade:0, 金质宽剑刃
+tconstruct:large_sword_blade:0, 煤 宽剑刃
+tconstruct:large_sword_blade:0, 伊桑斯 宽剑刃
+tconstruct:large_sword_blade:0, 绯红宝石 宽剑刃
+tconstruct:large_sword_blade:0, 赫菲斯辛 宽剑刃
+tconstruct:large_sword_blade:0, 秘银 宽剑刃
+tconstruct:large_sword_blade:0, 铿金 宽剑刃
+tconstruct:large_sword_blade:0, 秘金 宽剑刃
+tconstruct:large_sword_blade:0, 毁灭 宽剑刃
+tconstruct:large_sword_blade:0, 忏悔宝石 宽剑刃
+tconstruct:large_sword_blade:0, 盖亚魂 宽剑刃
+tconstruct:large_sword_blade:0, 胞嘧 宽剑刃
+tconstruct:large_sword_blade:0, 大地合金 宽剑刃
+tconstruct:large_sword_blade:0, 恒星合金 宽剑刃
+tconstruct:large_sword_blade:0, 寰宇 宽剑刃
+tconstruct:large_sword_blade:0, 星辰 宽剑刃
+tconstruct:large_sword_blade:0, 奥利哈刚 宽剑刃
+tconstruct:large_sword_blade:0, 黄铀 宽剑刃
+tconstruct:large_sword_blade:0, 巧克力 宽剑刃
+tconstruct:large_sword_blade:0, 辛西纳石 宽剑刃
+tconstruct:large_sword_blade:0, 霜晶 宽剑刃
+tconstruct:large_sword_blade:0, 末影云母 宽剑刃
+tconstruct:large_sword_blade:0, 豆腐宝石 宽剑刃
+tconstruct:large_sword_blade:0, 强化豆腐宝石 宽剑刃
+tconstruct:large_sword_blade:0, 樱色钻石 宽剑刃
+tconstruct:large_sword_blade:0, 泥巴 宽剑刃
+tconstruct:large_sword_blade:0, 空间碎片 宽剑刃
+tconstruct:large_sword_blade:0, 水晶之心 宽剑刃
+tconstruct:large_sword_blade:0, 基岩 宽剑刃
+tconstruct:large_sword_blade:0, 云浮 宽剑刃
+tconstruct:large_sword_blade:0, 神金 宽剑刃
+tconstruct:large_sword_blade:0, 暗影 宽剑刃
+tconstruct:large_sword_blade:0, 下界合金 宽剑刃
+tconstruct:large_sword_blade:0, 焦黑石头 宽剑刃
+tconstruct:large_sword_blade:0, 高炉砖 宽剑刃
+tconstruct:large_sword_blade:0, 模块化合金 宽剑刃
+tconstruct:large_sword_blade:0, 陨星 宽剑刃
+tconstruct:large_sword_blade:0, 铬 宽剑刃
+tconstruct:large_sword_blade:0, 不锈钢 宽剑刃
+tconstruct:large_sword_blade:0, 质子 宽剑刃
+tconstruct:large_sword_blade:0, 电子 宽剑刃
+tconstruct:large_sword_blade:0, 猩红 宽剑刃
+tconstruct:large_sword_blade:0, 水华 宽剑刃
+tconstruct:large_sword_blade:0, 锰铁 宽剑刃
+tconstruct:large_sword_blade:0, 锰钢 宽剑刃
+tconstruct:large_sword_blade:0, 天地宝晶 宽剑刃
+tconstruct:large_sword_blade:0, 完美 宽剑刃
+tconstruct:large_sword_blade:0, 南瓜 宽剑刃
+tconstruct:large_sword_blade:0, 便便 宽剑刃
 tconstruct:large_sword_blade:0, 耐酸铝 宽剑刃
 tconstruct:large_sword_blade:0, 蓝宝石 宽剑刃
 tconstruct:large_sword_blade:0, 红宝石 宽剑刃
@@ -15706,6 +16171,64 @@ tconstruct:hammer_head:0, 初级精华 锤头
 tconstruct:hammer_head:0, 中级精华 锤头
 tconstruct:hammer_head:0, 高级精华 锤头
 tconstruct:hammer_head:0, 终极精华 锤头
+tconstruct:hammer_head:0, 奶酪 锤头
+tconstruct:hammer_head:0, 究极精华 锤头
+tconstruct:hammer_head:0, 聚合矩阵 锤头
+tconstruct:hammer_head:0, 知识精华 锤头
+tconstruct:hammer_head:0, 永燃 锤头
+tconstruct:hammer_head:0, 钛金 锤头
+tconstruct:hammer_head:0, 极寒 锤头
+tconstruct:hammer_head:0, 铝黄铜 锤头
+tconstruct:hammer_head:0, 钻石 锤头
+tconstruct:hammer_head:0, 金质锤头
+tconstruct:hammer_head:0, 煤 锤头
+tconstruct:hammer_head:0, 伊桑斯 锤头
+tconstruct:hammer_head:0, 绯红宝石 锤头
+tconstruct:hammer_head:0, 赫菲斯辛 锤头
+tconstruct:hammer_head:0, 秘银 锤头
+tconstruct:hammer_head:0, 铿金 锤头
+tconstruct:hammer_head:0, 秘金 锤头
+tconstruct:hammer_head:0, 毁灭 锤头
+tconstruct:hammer_head:0, 忏悔宝石 锤头
+tconstruct:hammer_head:0, 盖亚魂 锤头
+tconstruct:hammer_head:0, 胞嘧 锤头
+tconstruct:hammer_head:0, 大地合金 锤头
+tconstruct:hammer_head:0, 恒星合金 锤头
+tconstruct:hammer_head:0, 寰宇 锤头
+tconstruct:hammer_head:0, 星辰 锤头
+tconstruct:hammer_head:0, 奥利哈刚 锤头
+tconstruct:hammer_head:0, 黄铀 锤头
+tconstruct:hammer_head:0, 巧克力 锤头
+tconstruct:hammer_head:0, 辛西纳石 锤头
+tconstruct:hammer_head:0, 霜晶 锤头
+tconstruct:hammer_head:0, 末影云母 锤头
+tconstruct:hammer_head:0, 豆腐宝石 锤头
+tconstruct:hammer_head:0, 强化豆腐宝石 锤头
+tconstruct:hammer_head:0, 樱色钻石 锤头
+tconstruct:hammer_head:0, 泥巴 锤头
+tconstruct:hammer_head:0, 空间碎片 锤头
+tconstruct:hammer_head:0, 水晶之心 锤头
+tconstruct:hammer_head:0, 基岩 锤头
+tconstruct:hammer_head:0, 云浮 锤头
+tconstruct:hammer_head:0, 神金 锤头
+tconstruct:hammer_head:0, 暗影 锤头
+tconstruct:hammer_head:0, 下界合金 锤头
+tconstruct:hammer_head:0, 焦黑石头 锤头
+tconstruct:hammer_head:0, 高炉砖 锤头
+tconstruct:hammer_head:0, 模块化合金 锤头
+tconstruct:hammer_head:0, 陨星 锤头
+tconstruct:hammer_head:0, 铬 锤头
+tconstruct:hammer_head:0, 不锈钢 锤头
+tconstruct:hammer_head:0, 质子 锤头
+tconstruct:hammer_head:0, 电子 锤头
+tconstruct:hammer_head:0, 猩红 锤头
+tconstruct:hammer_head:0, 水华 锤头
+tconstruct:hammer_head:0, 锰铁 锤头
+tconstruct:hammer_head:0, 锰钢 锤头
+tconstruct:hammer_head:0, 天地宝晶 锤头
+tconstruct:hammer_head:0, 完美 锤头
+tconstruct:hammer_head:0, 南瓜 锤头
+tconstruct:hammer_head:0, 便便 锤头
 tconstruct:hammer_head:0, 耐酸铝 锤头
 tconstruct:hammer_head:0, 蓝宝石 锤头
 tconstruct:hammer_head:0, 红宝石 锤头
@@ -15898,6 +16421,64 @@ tconstruct:excavator_head:0, 初级精华 开掘铲头
 tconstruct:excavator_head:0, 中级精华 开掘铲头
 tconstruct:excavator_head:0, 高级精华 开掘铲头
 tconstruct:excavator_head:0, 终极精华 开掘铲头
+tconstruct:excavator_head:0, 奶酪 开掘铲头
+tconstruct:excavator_head:0, 究极精华 开掘铲头
+tconstruct:excavator_head:0, 聚合矩阵 开掘铲头
+tconstruct:excavator_head:0, 知识精华 开掘铲头
+tconstruct:excavator_head:0, 永燃 开掘铲头
+tconstruct:excavator_head:0, 钛金 开掘铲头
+tconstruct:excavator_head:0, 极寒 开掘铲头
+tconstruct:excavator_head:0, 铝黄铜 开掘铲头
+tconstruct:excavator_head:0, 钻石 开掘铲头
+tconstruct:excavator_head:0, 金质开掘铲头
+tconstruct:excavator_head:0, 煤 开掘铲头
+tconstruct:excavator_head:0, 伊桑斯 开掘铲头
+tconstruct:excavator_head:0, 绯红宝石 开掘铲头
+tconstruct:excavator_head:0, 赫菲斯辛 开掘铲头
+tconstruct:excavator_head:0, 秘银 开掘铲头
+tconstruct:excavator_head:0, 铿金 开掘铲头
+tconstruct:excavator_head:0, 秘金 开掘铲头
+tconstruct:excavator_head:0, 毁灭 开掘铲头
+tconstruct:excavator_head:0, 忏悔宝石 开掘铲头
+tconstruct:excavator_head:0, 盖亚魂 开掘铲头
+tconstruct:excavator_head:0, 胞嘧 开掘铲头
+tconstruct:excavator_head:0, 大地合金 开掘铲头
+tconstruct:excavator_head:0, 恒星合金 开掘铲头
+tconstruct:excavator_head:0, 寰宇 开掘铲头
+tconstruct:excavator_head:0, 星辰 开掘铲头
+tconstruct:excavator_head:0, 奥利哈刚 开掘铲头
+tconstruct:excavator_head:0, 黄铀 开掘铲头
+tconstruct:excavator_head:0, 巧克力 开掘铲头
+tconstruct:excavator_head:0, 辛西纳石 开掘铲头
+tconstruct:excavator_head:0, 霜晶 开掘铲头
+tconstruct:excavator_head:0, 末影云母 开掘铲头
+tconstruct:excavator_head:0, 豆腐宝石 开掘铲头
+tconstruct:excavator_head:0, 强化豆腐宝石 开掘铲头
+tconstruct:excavator_head:0, 樱色钻石 开掘铲头
+tconstruct:excavator_head:0, 泥巴 开掘铲头
+tconstruct:excavator_head:0, 空间碎片 开掘铲头
+tconstruct:excavator_head:0, 水晶之心 开掘铲头
+tconstruct:excavator_head:0, 基岩 开掘铲头
+tconstruct:excavator_head:0, 云浮 开掘铲头
+tconstruct:excavator_head:0, 神金 开掘铲头
+tconstruct:excavator_head:0, 暗影 开掘铲头
+tconstruct:excavator_head:0, 下界合金 开掘铲头
+tconstruct:excavator_head:0, 焦黑石头 开掘铲头
+tconstruct:excavator_head:0, 高炉砖 开掘铲头
+tconstruct:excavator_head:0, 模块化合金 开掘铲头
+tconstruct:excavator_head:0, 陨星 开掘铲头
+tconstruct:excavator_head:0, 铬 开掘铲头
+tconstruct:excavator_head:0, 不锈钢 开掘铲头
+tconstruct:excavator_head:0, 质子 开掘铲头
+tconstruct:excavator_head:0, 电子 开掘铲头
+tconstruct:excavator_head:0, 猩红 开掘铲头
+tconstruct:excavator_head:0, 水华 开掘铲头
+tconstruct:excavator_head:0, 锰铁 开掘铲头
+tconstruct:excavator_head:0, 锰钢 开掘铲头
+tconstruct:excavator_head:0, 天地宝晶 开掘铲头
+tconstruct:excavator_head:0, 完美 开掘铲头
+tconstruct:excavator_head:0, 南瓜 开掘铲头
+tconstruct:excavator_head:0, 便便 开掘铲头
 tconstruct:excavator_head:0, 耐酸铝 开掘铲头
 tconstruct:excavator_head:0, 蓝宝石 开掘铲头
 tconstruct:excavator_head:0, 红宝石 开掘铲头
@@ -16090,6 +16671,64 @@ tconstruct:kama_head:0, 初级精华 园艺镰头
 tconstruct:kama_head:0, 中级精华 园艺镰头
 tconstruct:kama_head:0, 高级精华 园艺镰头
 tconstruct:kama_head:0, 终极精华 园艺镰头
+tconstruct:kama_head:0, 奶酪 园艺镰头
+tconstruct:kama_head:0, 究极精华 园艺镰头
+tconstruct:kama_head:0, 聚合矩阵 园艺镰头
+tconstruct:kama_head:0, 知识精华 园艺镰头
+tconstruct:kama_head:0, 永燃 园艺镰头
+tconstruct:kama_head:0, 钛金 园艺镰头
+tconstruct:kama_head:0, 极寒 园艺镰头
+tconstruct:kama_head:0, 铝黄铜 园艺镰头
+tconstruct:kama_head:0, 钻石 园艺镰头
+tconstruct:kama_head:0, 金质园艺镰头
+tconstruct:kama_head:0, 煤 园艺镰头
+tconstruct:kama_head:0, 伊桑斯 园艺镰头
+tconstruct:kama_head:0, 绯红宝石 园艺镰头
+tconstruct:kama_head:0, 赫菲斯辛 园艺镰头
+tconstruct:kama_head:0, 秘银 园艺镰头
+tconstruct:kama_head:0, 铿金 园艺镰头
+tconstruct:kama_head:0, 秘金 园艺镰头
+tconstruct:kama_head:0, 毁灭 园艺镰头
+tconstruct:kama_head:0, 忏悔宝石 园艺镰头
+tconstruct:kama_head:0, 盖亚魂 园艺镰头
+tconstruct:kama_head:0, 胞嘧 园艺镰头
+tconstruct:kama_head:0, 大地合金 园艺镰头
+tconstruct:kama_head:0, 恒星合金 园艺镰头
+tconstruct:kama_head:0, 寰宇 园艺镰头
+tconstruct:kama_head:0, 星辰 园艺镰头
+tconstruct:kama_head:0, 奥利哈刚 园艺镰头
+tconstruct:kama_head:0, 黄铀 园艺镰头
+tconstruct:kama_head:0, 巧克力 园艺镰头
+tconstruct:kama_head:0, 辛西纳石 园艺镰头
+tconstruct:kama_head:0, 霜晶 园艺镰头
+tconstruct:kama_head:0, 末影云母 园艺镰头
+tconstruct:kama_head:0, 豆腐宝石 园艺镰头
+tconstruct:kama_head:0, 强化豆腐宝石 园艺镰头
+tconstruct:kama_head:0, 樱色钻石 园艺镰头
+tconstruct:kama_head:0, 泥巴 园艺镰头
+tconstruct:kama_head:0, 空间碎片 园艺镰头
+tconstruct:kama_head:0, 水晶之心 园艺镰头
+tconstruct:kama_head:0, 基岩 园艺镰头
+tconstruct:kama_head:0, 云浮 园艺镰头
+tconstruct:kama_head:0, 神金 园艺镰头
+tconstruct:kama_head:0, 暗影 园艺镰头
+tconstruct:kama_head:0, 下界合金 园艺镰头
+tconstruct:kama_head:0, 焦黑石头 园艺镰头
+tconstruct:kama_head:0, 高炉砖 园艺镰头
+tconstruct:kama_head:0, 模块化合金 园艺镰头
+tconstruct:kama_head:0, 陨星 园艺镰头
+tconstruct:kama_head:0, 铬 园艺镰头
+tconstruct:kama_head:0, 不锈钢 园艺镰头
+tconstruct:kama_head:0, 质子 园艺镰头
+tconstruct:kama_head:0, 电子 园艺镰头
+tconstruct:kama_head:0, 猩红 园艺镰头
+tconstruct:kama_head:0, 水华 园艺镰头
+tconstruct:kama_head:0, 锰铁 园艺镰头
+tconstruct:kama_head:0, 锰钢 园艺镰头
+tconstruct:kama_head:0, 天地宝晶 园艺镰头
+tconstruct:kama_head:0, 完美 园艺镰头
+tconstruct:kama_head:0, 南瓜 园艺镰头
+tconstruct:kama_head:0, 便便 园艺镰头
 tconstruct:kama_head:0, 耐酸铝 园艺镰头
 tconstruct:kama_head:0, 蓝宝石 园艺镰头
 tconstruct:kama_head:0, 红宝石 园艺镰头
@@ -16282,6 +16921,64 @@ tconstruct:scythe_head:0, 初级精华 镰刀头
 tconstruct:scythe_head:0, 中级精华 镰刀头
 tconstruct:scythe_head:0, 高级精华 镰刀头
 tconstruct:scythe_head:0, 终极精华 镰刀头
+tconstruct:scythe_head:0, 奶酪 镰刀头
+tconstruct:scythe_head:0, 究极精华 镰刀头
+tconstruct:scythe_head:0, 聚合矩阵 镰刀头
+tconstruct:scythe_head:0, 知识精华 镰刀头
+tconstruct:scythe_head:0, 永燃 镰刀头
+tconstruct:scythe_head:0, 钛金 镰刀头
+tconstruct:scythe_head:0, 极寒 镰刀头
+tconstruct:scythe_head:0, 铝黄铜 镰刀头
+tconstruct:scythe_head:0, 钻石 镰刀头
+tconstruct:scythe_head:0, 金质镰刀头
+tconstruct:scythe_head:0, 煤 镰刀头
+tconstruct:scythe_head:0, 伊桑斯 镰刀头
+tconstruct:scythe_head:0, 绯红宝石 镰刀头
+tconstruct:scythe_head:0, 赫菲斯辛 镰刀头
+tconstruct:scythe_head:0, 秘银 镰刀头
+tconstruct:scythe_head:0, 铿金 镰刀头
+tconstruct:scythe_head:0, 秘金 镰刀头
+tconstruct:scythe_head:0, 毁灭 镰刀头
+tconstruct:scythe_head:0, 忏悔宝石 镰刀头
+tconstruct:scythe_head:0, 盖亚魂 镰刀头
+tconstruct:scythe_head:0, 胞嘧 镰刀头
+tconstruct:scythe_head:0, 大地合金 镰刀头
+tconstruct:scythe_head:0, 恒星合金 镰刀头
+tconstruct:scythe_head:0, 寰宇 镰刀头
+tconstruct:scythe_head:0, 星辰 镰刀头
+tconstruct:scythe_head:0, 奥利哈刚 镰刀头
+tconstruct:scythe_head:0, 黄铀 镰刀头
+tconstruct:scythe_head:0, 巧克力 镰刀头
+tconstruct:scythe_head:0, 辛西纳石 镰刀头
+tconstruct:scythe_head:0, 霜晶 镰刀头
+tconstruct:scythe_head:0, 末影云母 镰刀头
+tconstruct:scythe_head:0, 豆腐宝石 镰刀头
+tconstruct:scythe_head:0, 强化豆腐宝石 镰刀头
+tconstruct:scythe_head:0, 樱色钻石 镰刀头
+tconstruct:scythe_head:0, 泥巴 镰刀头
+tconstruct:scythe_head:0, 空间碎片 镰刀头
+tconstruct:scythe_head:0, 水晶之心 镰刀头
+tconstruct:scythe_head:0, 基岩 镰刀头
+tconstruct:scythe_head:0, 云浮 镰刀头
+tconstruct:scythe_head:0, 神金 镰刀头
+tconstruct:scythe_head:0, 暗影 镰刀头
+tconstruct:scythe_head:0, 下界合金 镰刀头
+tconstruct:scythe_head:0, 焦黑石头 镰刀头
+tconstruct:scythe_head:0, 高炉砖 镰刀头
+tconstruct:scythe_head:0, 模块化合金 镰刀头
+tconstruct:scythe_head:0, 陨星 镰刀头
+tconstruct:scythe_head:0, 铬 镰刀头
+tconstruct:scythe_head:0, 不锈钢 镰刀头
+tconstruct:scythe_head:0, 质子 镰刀头
+tconstruct:scythe_head:0, 电子 镰刀头
+tconstruct:scythe_head:0, 猩红 镰刀头
+tconstruct:scythe_head:0, 水华 镰刀头
+tconstruct:scythe_head:0, 锰铁 镰刀头
+tconstruct:scythe_head:0, 锰钢 镰刀头
+tconstruct:scythe_head:0, 天地宝晶 镰刀头
+tconstruct:scythe_head:0, 完美 镰刀头
+tconstruct:scythe_head:0, 南瓜 镰刀头
+tconstruct:scythe_head:0, 便便 镰刀头
 tconstruct:scythe_head:0, 耐酸铝 镰刀头
 tconstruct:scythe_head:0, 蓝宝石 镰刀头
 tconstruct:scythe_head:0, 红宝石 镰刀头
@@ -16474,6 +17171,64 @@ tconstruct:pan_head:0, 初级精华 盘
 tconstruct:pan_head:0, 中级精华 盘
 tconstruct:pan_head:0, 高级精华 盘
 tconstruct:pan_head:0, 终极精华 盘
+tconstruct:pan_head:0, 奶酪 盘
+tconstruct:pan_head:0, 究极精华 盘
+tconstruct:pan_head:0, 聚合矩阵 盘
+tconstruct:pan_head:0, 知识精华 盘
+tconstruct:pan_head:0, 永燃 盘
+tconstruct:pan_head:0, 钛金 盘
+tconstruct:pan_head:0, 极寒 盘
+tconstruct:pan_head:0, 铝黄铜 盘
+tconstruct:pan_head:0, 钻石 盘
+tconstruct:pan_head:0, 金质盘
+tconstruct:pan_head:0, 煤 盘
+tconstruct:pan_head:0, 伊桑斯 盘
+tconstruct:pan_head:0, 绯红宝石 盘
+tconstruct:pan_head:0, 赫菲斯辛 盘
+tconstruct:pan_head:0, 秘银 盘
+tconstruct:pan_head:0, 铿金 盘
+tconstruct:pan_head:0, 秘金 盘
+tconstruct:pan_head:0, 毁灭 盘
+tconstruct:pan_head:0, 忏悔宝石 盘
+tconstruct:pan_head:0, 盖亚魂 盘
+tconstruct:pan_head:0, 胞嘧 盘
+tconstruct:pan_head:0, 大地合金 盘
+tconstruct:pan_head:0, 恒星合金 盘
+tconstruct:pan_head:0, 寰宇 盘
+tconstruct:pan_head:0, 星辰 盘
+tconstruct:pan_head:0, 奥利哈刚 盘
+tconstruct:pan_head:0, 黄铀 盘
+tconstruct:pan_head:0, 巧克力 盘
+tconstruct:pan_head:0, 辛西纳石 盘
+tconstruct:pan_head:0, 霜晶 盘
+tconstruct:pan_head:0, 末影云母 盘
+tconstruct:pan_head:0, 豆腐宝石 盘
+tconstruct:pan_head:0, 强化豆腐宝石 盘
+tconstruct:pan_head:0, 樱色钻石 盘
+tconstruct:pan_head:0, 泥巴 盘
+tconstruct:pan_head:0, 空间碎片 盘
+tconstruct:pan_head:0, 水晶之心 盘
+tconstruct:pan_head:0, 基岩 盘
+tconstruct:pan_head:0, 云浮 盘
+tconstruct:pan_head:0, 神金 盘
+tconstruct:pan_head:0, 暗影 盘
+tconstruct:pan_head:0, 下界合金 盘
+tconstruct:pan_head:0, 焦黑石头 盘
+tconstruct:pan_head:0, 高炉砖 盘
+tconstruct:pan_head:0, 模块化合金 盘
+tconstruct:pan_head:0, 陨星 盘
+tconstruct:pan_head:0, 铬 盘
+tconstruct:pan_head:0, 不锈钢 盘
+tconstruct:pan_head:0, 质子 盘
+tconstruct:pan_head:0, 电子 盘
+tconstruct:pan_head:0, 猩红 盘
+tconstruct:pan_head:0, 水华 盘
+tconstruct:pan_head:0, 锰铁 盘
+tconstruct:pan_head:0, 锰钢 盘
+tconstruct:pan_head:0, 天地宝晶 盘
+tconstruct:pan_head:0, 完美 盘
+tconstruct:pan_head:0, 南瓜 盘
+tconstruct:pan_head:0, 便便 盘
 tconstruct:pan_head:0, 耐酸铝 盘
 tconstruct:pan_head:0, 蓝宝石 盘
 tconstruct:pan_head:0, 红宝石 盘
@@ -16666,6 +17421,64 @@ tconstruct:sign_head:0, 初级精华 牌板
 tconstruct:sign_head:0, 中级精华 牌板
 tconstruct:sign_head:0, 高级精华 牌板
 tconstruct:sign_head:0, 终极精华 牌板
+tconstruct:sign_head:0, 奶酪 牌板
+tconstruct:sign_head:0, 究极精华 牌板
+tconstruct:sign_head:0, 聚合矩阵 牌板
+tconstruct:sign_head:0, 知识精华 牌板
+tconstruct:sign_head:0, 永燃 牌板
+tconstruct:sign_head:0, 钛金 牌板
+tconstruct:sign_head:0, 极寒 牌板
+tconstruct:sign_head:0, 铝黄铜 牌板
+tconstruct:sign_head:0, 钻石 牌板
+tconstruct:sign_head:0, 金质牌板
+tconstruct:sign_head:0, 煤 牌板
+tconstruct:sign_head:0, 伊桑斯 牌板
+tconstruct:sign_head:0, 绯红宝石 牌板
+tconstruct:sign_head:0, 赫菲斯辛 牌板
+tconstruct:sign_head:0, 秘银 牌板
+tconstruct:sign_head:0, 铿金 牌板
+tconstruct:sign_head:0, 秘金 牌板
+tconstruct:sign_head:0, 毁灭 牌板
+tconstruct:sign_head:0, 忏悔宝石 牌板
+tconstruct:sign_head:0, 盖亚魂 牌板
+tconstruct:sign_head:0, 胞嘧 牌板
+tconstruct:sign_head:0, 大地合金 牌板
+tconstruct:sign_head:0, 恒星合金 牌板
+tconstruct:sign_head:0, 寰宇 牌板
+tconstruct:sign_head:0, 星辰 牌板
+tconstruct:sign_head:0, 奥利哈刚 牌板
+tconstruct:sign_head:0, 黄铀 牌板
+tconstruct:sign_head:0, 巧克力 牌板
+tconstruct:sign_head:0, 辛西纳石 牌板
+tconstruct:sign_head:0, 霜晶 牌板
+tconstruct:sign_head:0, 末影云母 牌板
+tconstruct:sign_head:0, 豆腐宝石 牌板
+tconstruct:sign_head:0, 强化豆腐宝石 牌板
+tconstruct:sign_head:0, 樱色钻石 牌板
+tconstruct:sign_head:0, 泥巴 牌板
+tconstruct:sign_head:0, 空间碎片 牌板
+tconstruct:sign_head:0, 水晶之心 牌板
+tconstruct:sign_head:0, 基岩 牌板
+tconstruct:sign_head:0, 云浮 牌板
+tconstruct:sign_head:0, 神金 牌板
+tconstruct:sign_head:0, 暗影 牌板
+tconstruct:sign_head:0, 下界合金 牌板
+tconstruct:sign_head:0, 焦黑石头 牌板
+tconstruct:sign_head:0, 高炉砖 牌板
+tconstruct:sign_head:0, 模块化合金 牌板
+tconstruct:sign_head:0, 陨星 牌板
+tconstruct:sign_head:0, 铬 牌板
+tconstruct:sign_head:0, 不锈钢 牌板
+tconstruct:sign_head:0, 质子 牌板
+tconstruct:sign_head:0, 电子 牌板
+tconstruct:sign_head:0, 猩红 牌板
+tconstruct:sign_head:0, 水华 牌板
+tconstruct:sign_head:0, 锰铁 牌板
+tconstruct:sign_head:0, 锰钢 牌板
+tconstruct:sign_head:0, 天地宝晶 牌板
+tconstruct:sign_head:0, 完美 牌板
+tconstruct:sign_head:0, 南瓜 牌板
+tconstruct:sign_head:0, 便便 牌板
 tconstruct:sign_head:0, 耐酸铝 牌板
 tconstruct:sign_head:0, 蓝宝石 牌板
 tconstruct:sign_head:0, 红宝石 牌板
@@ -16855,6 +17668,64 @@ tconstruct:tool_rod:0, 初级精华 手柄
 tconstruct:tool_rod:0, 中级精华 手柄
 tconstruct:tool_rod:0, 高级精华 手柄
 tconstruct:tool_rod:0, 终极精华 手柄
+tconstruct:tool_rod:0, 奶酪 手柄
+tconstruct:tool_rod:0, 究极精华 手柄
+tconstruct:tool_rod:0, 聚合矩阵 手柄
+tconstruct:tool_rod:0, 知识精华 手柄
+tconstruct:tool_rod:0, 永燃 手柄
+tconstruct:tool_rod:0, 钛金 手柄
+tconstruct:tool_rod:0, 极寒 手柄
+tconstruct:tool_rod:0, 铝黄铜 手柄
+tconstruct:tool_rod:0, 钻石 手柄
+tconstruct:tool_rod:0, 金质手柄
+tconstruct:tool_rod:0, 煤 手柄
+tconstruct:tool_rod:0, 伊桑斯 手柄
+tconstruct:tool_rod:0, 绯红宝石 手柄
+tconstruct:tool_rod:0, 赫菲斯辛 手柄
+tconstruct:tool_rod:0, 秘银 手柄
+tconstruct:tool_rod:0, 铿金 手柄
+tconstruct:tool_rod:0, 秘金 手柄
+tconstruct:tool_rod:0, 毁灭 手柄
+tconstruct:tool_rod:0, 忏悔宝石 手柄
+tconstruct:tool_rod:0, 盖亚魂 手柄
+tconstruct:tool_rod:0, 胞嘧 手柄
+tconstruct:tool_rod:0, 大地合金 手柄
+tconstruct:tool_rod:0, 恒星合金 手柄
+tconstruct:tool_rod:0, 寰宇 手柄
+tconstruct:tool_rod:0, 星辰 手柄
+tconstruct:tool_rod:0, 奥利哈刚 手柄
+tconstruct:tool_rod:0, 黄铀 手柄
+tconstruct:tool_rod:0, 巧克力 手柄
+tconstruct:tool_rod:0, 辛西纳石 手柄
+tconstruct:tool_rod:0, 霜晶 手柄
+tconstruct:tool_rod:0, 末影云母 手柄
+tconstruct:tool_rod:0, 豆腐宝石 手柄
+tconstruct:tool_rod:0, 强化豆腐宝石 手柄
+tconstruct:tool_rod:0, 樱色钻石 手柄
+tconstruct:tool_rod:0, 泥巴 手柄
+tconstruct:tool_rod:0, 空间碎片 手柄
+tconstruct:tool_rod:0, 水晶之心 手柄
+tconstruct:tool_rod:0, 基岩 手柄
+tconstruct:tool_rod:0, 云浮 手柄
+tconstruct:tool_rod:0, 神金 手柄
+tconstruct:tool_rod:0, 暗影 手柄
+tconstruct:tool_rod:0, 下界合金 手柄
+tconstruct:tool_rod:0, 焦黑石头 手柄
+tconstruct:tool_rod:0, 高炉砖 手柄
+tconstruct:tool_rod:0, 模块化合金 手柄
+tconstruct:tool_rod:0, 陨星 手柄
+tconstruct:tool_rod:0, 铬 手柄
+tconstruct:tool_rod:0, 不锈钢 手柄
+tconstruct:tool_rod:0, 质子 手柄
+tconstruct:tool_rod:0, 电子 手柄
+tconstruct:tool_rod:0, 猩红 手柄
+tconstruct:tool_rod:0, 水华 手柄
+tconstruct:tool_rod:0, 锰铁 手柄
+tconstruct:tool_rod:0, 锰钢 手柄
+tconstruct:tool_rod:0, 天地宝晶 手柄
+tconstruct:tool_rod:0, 完美 手柄
+tconstruct:tool_rod:0, 南瓜 手柄
+tconstruct:tool_rod:0, 便便 手柄
 tconstruct:tool_rod:0, 耐酸铝 手柄
 tconstruct:tool_rod:0, 蓝宝石 手柄
 tconstruct:tool_rod:0, 红宝石 手柄
@@ -17044,6 +17915,64 @@ tconstruct:tough_tool_rod:0, 初级精华 坚韧手柄
 tconstruct:tough_tool_rod:0, 中级精华 坚韧手柄
 tconstruct:tough_tool_rod:0, 高级精华 坚韧手柄
 tconstruct:tough_tool_rod:0, 终极精华 坚韧手柄
+tconstruct:tough_tool_rod:0, 奶酪 坚韧手柄
+tconstruct:tough_tool_rod:0, 究极精华 坚韧手柄
+tconstruct:tough_tool_rod:0, 聚合矩阵 坚韧手柄
+tconstruct:tough_tool_rod:0, 知识精华 坚韧手柄
+tconstruct:tough_tool_rod:0, 永燃 坚韧手柄
+tconstruct:tough_tool_rod:0, 钛金 坚韧手柄
+tconstruct:tough_tool_rod:0, 极寒 坚韧手柄
+tconstruct:tough_tool_rod:0, 铝黄铜 坚韧手柄
+tconstruct:tough_tool_rod:0, 钻石 坚韧手柄
+tconstruct:tough_tool_rod:0, 金质坚韧手柄
+tconstruct:tough_tool_rod:0, 煤 坚韧手柄
+tconstruct:tough_tool_rod:0, 伊桑斯 坚韧手柄
+tconstruct:tough_tool_rod:0, 绯红宝石 坚韧手柄
+tconstruct:tough_tool_rod:0, 赫菲斯辛 坚韧手柄
+tconstruct:tough_tool_rod:0, 秘银 坚韧手柄
+tconstruct:tough_tool_rod:0, 铿金 坚韧手柄
+tconstruct:tough_tool_rod:0, 秘金 坚韧手柄
+tconstruct:tough_tool_rod:0, 毁灭 坚韧手柄
+tconstruct:tough_tool_rod:0, 忏悔宝石 坚韧手柄
+tconstruct:tough_tool_rod:0, 盖亚魂 坚韧手柄
+tconstruct:tough_tool_rod:0, 胞嘧 坚韧手柄
+tconstruct:tough_tool_rod:0, 大地合金 坚韧手柄
+tconstruct:tough_tool_rod:0, 恒星合金 坚韧手柄
+tconstruct:tough_tool_rod:0, 寰宇 坚韧手柄
+tconstruct:tough_tool_rod:0, 星辰 坚韧手柄
+tconstruct:tough_tool_rod:0, 奥利哈刚 坚韧手柄
+tconstruct:tough_tool_rod:0, 黄铀 坚韧手柄
+tconstruct:tough_tool_rod:0, 巧克力 坚韧手柄
+tconstruct:tough_tool_rod:0, 辛西纳石 坚韧手柄
+tconstruct:tough_tool_rod:0, 霜晶 坚韧手柄
+tconstruct:tough_tool_rod:0, 末影云母 坚韧手柄
+tconstruct:tough_tool_rod:0, 豆腐宝石 坚韧手柄
+tconstruct:tough_tool_rod:0, 强化豆腐宝石 坚韧手柄
+tconstruct:tough_tool_rod:0, 樱色钻石 坚韧手柄
+tconstruct:tough_tool_rod:0, 泥巴 坚韧手柄
+tconstruct:tough_tool_rod:0, 空间碎片 坚韧手柄
+tconstruct:tough_tool_rod:0, 水晶之心 坚韧手柄
+tconstruct:tough_tool_rod:0, 基岩 坚韧手柄
+tconstruct:tough_tool_rod:0, 云浮 坚韧手柄
+tconstruct:tough_tool_rod:0, 神金 坚韧手柄
+tconstruct:tough_tool_rod:0, 暗影 坚韧手柄
+tconstruct:tough_tool_rod:0, 下界合金 坚韧手柄
+tconstruct:tough_tool_rod:0, 焦黑石头 坚韧手柄
+tconstruct:tough_tool_rod:0, 高炉砖 坚韧手柄
+tconstruct:tough_tool_rod:0, 模块化合金 坚韧手柄
+tconstruct:tough_tool_rod:0, 陨星 坚韧手柄
+tconstruct:tough_tool_rod:0, 铬 坚韧手柄
+tconstruct:tough_tool_rod:0, 不锈钢 坚韧手柄
+tconstruct:tough_tool_rod:0, 质子 坚韧手柄
+tconstruct:tough_tool_rod:0, 电子 坚韧手柄
+tconstruct:tough_tool_rod:0, 猩红 坚韧手柄
+tconstruct:tough_tool_rod:0, 水华 坚韧手柄
+tconstruct:tough_tool_rod:0, 锰铁 坚韧手柄
+tconstruct:tough_tool_rod:0, 锰钢 坚韧手柄
+tconstruct:tough_tool_rod:0, 天地宝晶 坚韧手柄
+tconstruct:tough_tool_rod:0, 完美 坚韧手柄
+tconstruct:tough_tool_rod:0, 南瓜 坚韧手柄
+tconstruct:tough_tool_rod:0, 便便 坚韧手柄
 tconstruct:tough_tool_rod:0, 耐酸铝 坚韧手柄
 tconstruct:tough_tool_rod:0, 蓝宝石 坚韧手柄
 tconstruct:tough_tool_rod:0, 红宝石 坚韧手柄
@@ -17233,6 +18162,64 @@ tconstruct:binding:0, 初级精华 绑定结
 tconstruct:binding:0, 中级精华 绑定结
 tconstruct:binding:0, 高级精华 绑定结
 tconstruct:binding:0, 终极精华 绑定结
+tconstruct:binding:0, 奶酪 绑定结
+tconstruct:binding:0, 究极精华 绑定结
+tconstruct:binding:0, 聚合矩阵 绑定结
+tconstruct:binding:0, 知识精华 绑定结
+tconstruct:binding:0, 永燃 绑定结
+tconstruct:binding:0, 钛金 绑定结
+tconstruct:binding:0, 极寒 绑定结
+tconstruct:binding:0, 铝黄铜 绑定结
+tconstruct:binding:0, 钻石 绑定结
+tconstruct:binding:0, 金质绑定结
+tconstruct:binding:0, 煤 绑定结
+tconstruct:binding:0, 伊桑斯 绑定结
+tconstruct:binding:0, 绯红宝石 绑定结
+tconstruct:binding:0, 赫菲斯辛 绑定结
+tconstruct:binding:0, 秘银 绑定结
+tconstruct:binding:0, 铿金 绑定结
+tconstruct:binding:0, 秘金 绑定结
+tconstruct:binding:0, 毁灭 绑定结
+tconstruct:binding:0, 忏悔宝石 绑定结
+tconstruct:binding:0, 盖亚魂 绑定结
+tconstruct:binding:0, 胞嘧 绑定结
+tconstruct:binding:0, 大地合金 绑定结
+tconstruct:binding:0, 恒星合金 绑定结
+tconstruct:binding:0, 寰宇 绑定结
+tconstruct:binding:0, 星辰 绑定结
+tconstruct:binding:0, 奥利哈刚 绑定结
+tconstruct:binding:0, 黄铀 绑定结
+tconstruct:binding:0, 巧克力 绑定结
+tconstruct:binding:0, 辛西纳石 绑定结
+tconstruct:binding:0, 霜晶 绑定结
+tconstruct:binding:0, 末影云母 绑定结
+tconstruct:binding:0, 豆腐宝石 绑定结
+tconstruct:binding:0, 强化豆腐宝石 绑定结
+tconstruct:binding:0, 樱色钻石 绑定结
+tconstruct:binding:0, 泥巴 绑定结
+tconstruct:binding:0, 空间碎片 绑定结
+tconstruct:binding:0, 水晶之心 绑定结
+tconstruct:binding:0, 基岩 绑定结
+tconstruct:binding:0, 云浮 绑定结
+tconstruct:binding:0, 神金 绑定结
+tconstruct:binding:0, 暗影 绑定结
+tconstruct:binding:0, 下界合金 绑定结
+tconstruct:binding:0, 焦黑石头 绑定结
+tconstruct:binding:0, 高炉砖 绑定结
+tconstruct:binding:0, 模块化合金 绑定结
+tconstruct:binding:0, 陨星 绑定结
+tconstruct:binding:0, 铬 绑定结
+tconstruct:binding:0, 不锈钢 绑定结
+tconstruct:binding:0, 质子 绑定结
+tconstruct:binding:0, 电子 绑定结
+tconstruct:binding:0, 猩红 绑定结
+tconstruct:binding:0, 水华 绑定结
+tconstruct:binding:0, 锰铁 绑定结
+tconstruct:binding:0, 锰钢 绑定结
+tconstruct:binding:0, 天地宝晶 绑定结
+tconstruct:binding:0, 完美 绑定结
+tconstruct:binding:0, 南瓜 绑定结
+tconstruct:binding:0, 便便 绑定结
 tconstruct:binding:0, 耐酸铝 绑定结
 tconstruct:binding:0, 蓝宝石 绑定结
 tconstruct:binding:0, 红宝石 绑定结
@@ -17422,6 +18409,64 @@ tconstruct:tough_binding:0, 初级精华 坚韧绑定结
 tconstruct:tough_binding:0, 中级精华 坚韧绑定结
 tconstruct:tough_binding:0, 高级精华 坚韧绑定结
 tconstruct:tough_binding:0, 终极精华 坚韧绑定结
+tconstruct:tough_binding:0, 奶酪 坚韧绑定结
+tconstruct:tough_binding:0, 究极精华 坚韧绑定结
+tconstruct:tough_binding:0, 聚合矩阵 坚韧绑定结
+tconstruct:tough_binding:0, 知识精华 坚韧绑定结
+tconstruct:tough_binding:0, 永燃 坚韧绑定结
+tconstruct:tough_binding:0, 钛金 坚韧绑定结
+tconstruct:tough_binding:0, 极寒 坚韧绑定结
+tconstruct:tough_binding:0, 铝黄铜 坚韧绑定结
+tconstruct:tough_binding:0, 钻石 坚韧绑定结
+tconstruct:tough_binding:0, 金质坚韧绑定结
+tconstruct:tough_binding:0, 煤 坚韧绑定结
+tconstruct:tough_binding:0, 伊桑斯 坚韧绑定结
+tconstruct:tough_binding:0, 绯红宝石 坚韧绑定结
+tconstruct:tough_binding:0, 赫菲斯辛 坚韧绑定结
+tconstruct:tough_binding:0, 秘银 坚韧绑定结
+tconstruct:tough_binding:0, 铿金 坚韧绑定结
+tconstruct:tough_binding:0, 秘金 坚韧绑定结
+tconstruct:tough_binding:0, 毁灭 坚韧绑定结
+tconstruct:tough_binding:0, 忏悔宝石 坚韧绑定结
+tconstruct:tough_binding:0, 盖亚魂 坚韧绑定结
+tconstruct:tough_binding:0, 胞嘧 坚韧绑定结
+tconstruct:tough_binding:0, 大地合金 坚韧绑定结
+tconstruct:tough_binding:0, 恒星合金 坚韧绑定结
+tconstruct:tough_binding:0, 寰宇 坚韧绑定结
+tconstruct:tough_binding:0, 星辰 坚韧绑定结
+tconstruct:tough_binding:0, 奥利哈刚 坚韧绑定结
+tconstruct:tough_binding:0, 黄铀 坚韧绑定结
+tconstruct:tough_binding:0, 巧克力 坚韧绑定结
+tconstruct:tough_binding:0, 辛西纳石 坚韧绑定结
+tconstruct:tough_binding:0, 霜晶 坚韧绑定结
+tconstruct:tough_binding:0, 末影云母 坚韧绑定结
+tconstruct:tough_binding:0, 豆腐宝石 坚韧绑定结
+tconstruct:tough_binding:0, 强化豆腐宝石 坚韧绑定结
+tconstruct:tough_binding:0, 樱色钻石 坚韧绑定结
+tconstruct:tough_binding:0, 泥巴 坚韧绑定结
+tconstruct:tough_binding:0, 空间碎片 坚韧绑定结
+tconstruct:tough_binding:0, 水晶之心 坚韧绑定结
+tconstruct:tough_binding:0, 基岩 坚韧绑定结
+tconstruct:tough_binding:0, 云浮 坚韧绑定结
+tconstruct:tough_binding:0, 神金 坚韧绑定结
+tconstruct:tough_binding:0, 暗影 坚韧绑定结
+tconstruct:tough_binding:0, 下界合金 坚韧绑定结
+tconstruct:tough_binding:0, 焦黑石头 坚韧绑定结
+tconstruct:tough_binding:0, 高炉砖 坚韧绑定结
+tconstruct:tough_binding:0, 模块化合金 坚韧绑定结
+tconstruct:tough_binding:0, 陨星 坚韧绑定结
+tconstruct:tough_binding:0, 铬 坚韧绑定结
+tconstruct:tough_binding:0, 不锈钢 坚韧绑定结
+tconstruct:tough_binding:0, 质子 坚韧绑定结
+tconstruct:tough_binding:0, 电子 坚韧绑定结
+tconstruct:tough_binding:0, 猩红 坚韧绑定结
+tconstruct:tough_binding:0, 水华 坚韧绑定结
+tconstruct:tough_binding:0, 锰铁 坚韧绑定结
+tconstruct:tough_binding:0, 锰钢 坚韧绑定结
+tconstruct:tough_binding:0, 天地宝晶 坚韧绑定结
+tconstruct:tough_binding:0, 完美 坚韧绑定结
+tconstruct:tough_binding:0, 南瓜 坚韧绑定结
+tconstruct:tough_binding:0, 便便 坚韧绑定结
 tconstruct:tough_binding:0, 耐酸铝 坚韧绑定结
 tconstruct:tough_binding:0, 蓝宝石 坚韧绑定结
 tconstruct:tough_binding:0, 红宝石 坚韧绑定结
@@ -17611,6 +18656,64 @@ tconstruct:wide_guard:0, 初级精华 宽护手
 tconstruct:wide_guard:0, 中级精华 宽护手
 tconstruct:wide_guard:0, 高级精华 宽护手
 tconstruct:wide_guard:0, 终极精华 宽护手
+tconstruct:wide_guard:0, 奶酪 宽护手
+tconstruct:wide_guard:0, 究极精华 宽护手
+tconstruct:wide_guard:0, 聚合矩阵 宽护手
+tconstruct:wide_guard:0, 知识精华 宽护手
+tconstruct:wide_guard:0, 永燃 宽护手
+tconstruct:wide_guard:0, 钛金 宽护手
+tconstruct:wide_guard:0, 极寒 宽护手
+tconstruct:wide_guard:0, 铝黄铜 宽护手
+tconstruct:wide_guard:0, 钻石 宽护手
+tconstruct:wide_guard:0, 金质宽护手
+tconstruct:wide_guard:0, 煤 宽护手
+tconstruct:wide_guard:0, 伊桑斯 宽护手
+tconstruct:wide_guard:0, 绯红宝石 宽护手
+tconstruct:wide_guard:0, 赫菲斯辛 宽护手
+tconstruct:wide_guard:0, 秘银 宽护手
+tconstruct:wide_guard:0, 铿金 宽护手
+tconstruct:wide_guard:0, 秘金 宽护手
+tconstruct:wide_guard:0, 毁灭 宽护手
+tconstruct:wide_guard:0, 忏悔宝石 宽护手
+tconstruct:wide_guard:0, 盖亚魂 宽护手
+tconstruct:wide_guard:0, 胞嘧 宽护手
+tconstruct:wide_guard:0, 大地合金 宽护手
+tconstruct:wide_guard:0, 恒星合金 宽护手
+tconstruct:wide_guard:0, 寰宇 宽护手
+tconstruct:wide_guard:0, 星辰 宽护手
+tconstruct:wide_guard:0, 奥利哈刚 宽护手
+tconstruct:wide_guard:0, 黄铀 宽护手
+tconstruct:wide_guard:0, 巧克力 宽护手
+tconstruct:wide_guard:0, 辛西纳石 宽护手
+tconstruct:wide_guard:0, 霜晶 宽护手
+tconstruct:wide_guard:0, 末影云母 宽护手
+tconstruct:wide_guard:0, 豆腐宝石 宽护手
+tconstruct:wide_guard:0, 强化豆腐宝石 宽护手
+tconstruct:wide_guard:0, 樱色钻石 宽护手
+tconstruct:wide_guard:0, 泥巴 宽护手
+tconstruct:wide_guard:0, 空间碎片 宽护手
+tconstruct:wide_guard:0, 水晶之心 宽护手
+tconstruct:wide_guard:0, 基岩 宽护手
+tconstruct:wide_guard:0, 云浮 宽护手
+tconstruct:wide_guard:0, 神金 宽护手
+tconstruct:wide_guard:0, 暗影 宽护手
+tconstruct:wide_guard:0, 下界合金 宽护手
+tconstruct:wide_guard:0, 焦黑石头 宽护手
+tconstruct:wide_guard:0, 高炉砖 宽护手
+tconstruct:wide_guard:0, 模块化合金 宽护手
+tconstruct:wide_guard:0, 陨星 宽护手
+tconstruct:wide_guard:0, 铬 宽护手
+tconstruct:wide_guard:0, 不锈钢 宽护手
+tconstruct:wide_guard:0, 质子 宽护手
+tconstruct:wide_guard:0, 电子 宽护手
+tconstruct:wide_guard:0, 猩红 宽护手
+tconstruct:wide_guard:0, 水华 宽护手
+tconstruct:wide_guard:0, 锰铁 宽护手
+tconstruct:wide_guard:0, 锰钢 宽护手
+tconstruct:wide_guard:0, 天地宝晶 宽护手
+tconstruct:wide_guard:0, 完美 宽护手
+tconstruct:wide_guard:0, 南瓜 宽护手
+tconstruct:wide_guard:0, 便便 宽护手
 tconstruct:wide_guard:0, 耐酸铝 宽护手
 tconstruct:wide_guard:0, 蓝宝石 宽护手
 tconstruct:wide_guard:0, 红宝石 宽护手
@@ -17800,6 +18903,64 @@ tconstruct:hand_guard:0, 初级精华 护手
 tconstruct:hand_guard:0, 中级精华 护手
 tconstruct:hand_guard:0, 高级精华 护手
 tconstruct:hand_guard:0, 终极精华 护手
+tconstruct:hand_guard:0, 奶酪 护手
+tconstruct:hand_guard:0, 究极精华 护手
+tconstruct:hand_guard:0, 聚合矩阵 护手
+tconstruct:hand_guard:0, 知识精华 护手
+tconstruct:hand_guard:0, 永燃 护手
+tconstruct:hand_guard:0, 钛金 护手
+tconstruct:hand_guard:0, 极寒 护手
+tconstruct:hand_guard:0, 铝黄铜 护手
+tconstruct:hand_guard:0, 钻石 护手
+tconstruct:hand_guard:0, 金质护手
+tconstruct:hand_guard:0, 煤 护手
+tconstruct:hand_guard:0, 伊桑斯 护手
+tconstruct:hand_guard:0, 绯红宝石 护手
+tconstruct:hand_guard:0, 赫菲斯辛 护手
+tconstruct:hand_guard:0, 秘银 护手
+tconstruct:hand_guard:0, 铿金 护手
+tconstruct:hand_guard:0, 秘金 护手
+tconstruct:hand_guard:0, 毁灭 护手
+tconstruct:hand_guard:0, 忏悔宝石 护手
+tconstruct:hand_guard:0, 盖亚魂 护手
+tconstruct:hand_guard:0, 胞嘧 护手
+tconstruct:hand_guard:0, 大地合金 护手
+tconstruct:hand_guard:0, 恒星合金 护手
+tconstruct:hand_guard:0, 寰宇 护手
+tconstruct:hand_guard:0, 星辰 护手
+tconstruct:hand_guard:0, 奥利哈刚 护手
+tconstruct:hand_guard:0, 黄铀 护手
+tconstruct:hand_guard:0, 巧克力 护手
+tconstruct:hand_guard:0, 辛西纳石 护手
+tconstruct:hand_guard:0, 霜晶 护手
+tconstruct:hand_guard:0, 末影云母 护手
+tconstruct:hand_guard:0, 豆腐宝石 护手
+tconstruct:hand_guard:0, 强化豆腐宝石 护手
+tconstruct:hand_guard:0, 樱色钻石 护手
+tconstruct:hand_guard:0, 泥巴 护手
+tconstruct:hand_guard:0, 空间碎片 护手
+tconstruct:hand_guard:0, 水晶之心 护手
+tconstruct:hand_guard:0, 基岩 护手
+tconstruct:hand_guard:0, 云浮 护手
+tconstruct:hand_guard:0, 神金 护手
+tconstruct:hand_guard:0, 暗影 护手
+tconstruct:hand_guard:0, 下界合金 护手
+tconstruct:hand_guard:0, 焦黑石头 护手
+tconstruct:hand_guard:0, 高炉砖 护手
+tconstruct:hand_guard:0, 模块化合金 护手
+tconstruct:hand_guard:0, 陨星 护手
+tconstruct:hand_guard:0, 铬 护手
+tconstruct:hand_guard:0, 不锈钢 护手
+tconstruct:hand_guard:0, 质子 护手
+tconstruct:hand_guard:0, 电子 护手
+tconstruct:hand_guard:0, 猩红 护手
+tconstruct:hand_guard:0, 水华 护手
+tconstruct:hand_guard:0, 锰铁 护手
+tconstruct:hand_guard:0, 锰钢 护手
+tconstruct:hand_guard:0, 天地宝晶 护手
+tconstruct:hand_guard:0, 完美 护手
+tconstruct:hand_guard:0, 南瓜 护手
+tconstruct:hand_guard:0, 便便 护手
 tconstruct:hand_guard:0, 耐酸铝 护手
 tconstruct:hand_guard:0, 蓝宝石 护手
 tconstruct:hand_guard:0, 红宝石 护手
@@ -17989,6 +19150,64 @@ tconstruct:cross_guard:0, 初级精华 十字柄
 tconstruct:cross_guard:0, 中级精华 十字柄
 tconstruct:cross_guard:0, 高级精华 十字柄
 tconstruct:cross_guard:0, 终极精华 十字柄
+tconstruct:cross_guard:0, 奶酪 十字柄
+tconstruct:cross_guard:0, 究极精华 十字柄
+tconstruct:cross_guard:0, 聚合矩阵 十字柄
+tconstruct:cross_guard:0, 知识精华 十字柄
+tconstruct:cross_guard:0, 永燃 十字柄
+tconstruct:cross_guard:0, 钛金 十字柄
+tconstruct:cross_guard:0, 极寒 十字柄
+tconstruct:cross_guard:0, 铝黄铜 十字柄
+tconstruct:cross_guard:0, 钻石 十字柄
+tconstruct:cross_guard:0, 金质十字柄
+tconstruct:cross_guard:0, 煤 十字柄
+tconstruct:cross_guard:0, 伊桑斯 十字柄
+tconstruct:cross_guard:0, 绯红宝石 十字柄
+tconstruct:cross_guard:0, 赫菲斯辛 十字柄
+tconstruct:cross_guard:0, 秘银 十字柄
+tconstruct:cross_guard:0, 铿金 十字柄
+tconstruct:cross_guard:0, 秘金 十字柄
+tconstruct:cross_guard:0, 毁灭 十字柄
+tconstruct:cross_guard:0, 忏悔宝石 十字柄
+tconstruct:cross_guard:0, 盖亚魂 十字柄
+tconstruct:cross_guard:0, 胞嘧 十字柄
+tconstruct:cross_guard:0, 大地合金 十字柄
+tconstruct:cross_guard:0, 恒星合金 十字柄
+tconstruct:cross_guard:0, 寰宇 十字柄
+tconstruct:cross_guard:0, 星辰 十字柄
+tconstruct:cross_guard:0, 奥利哈刚 十字柄
+tconstruct:cross_guard:0, 黄铀 十字柄
+tconstruct:cross_guard:0, 巧克力 十字柄
+tconstruct:cross_guard:0, 辛西纳石 十字柄
+tconstruct:cross_guard:0, 霜晶 十字柄
+tconstruct:cross_guard:0, 末影云母 十字柄
+tconstruct:cross_guard:0, 豆腐宝石 十字柄
+tconstruct:cross_guard:0, 强化豆腐宝石 十字柄
+tconstruct:cross_guard:0, 樱色钻石 十字柄
+tconstruct:cross_guard:0, 泥巴 十字柄
+tconstruct:cross_guard:0, 空间碎片 十字柄
+tconstruct:cross_guard:0, 水晶之心 十字柄
+tconstruct:cross_guard:0, 基岩 十字柄
+tconstruct:cross_guard:0, 云浮 十字柄
+tconstruct:cross_guard:0, 神金 十字柄
+tconstruct:cross_guard:0, 暗影 十字柄
+tconstruct:cross_guard:0, 下界合金 十字柄
+tconstruct:cross_guard:0, 焦黑石头 十字柄
+tconstruct:cross_guard:0, 高炉砖 十字柄
+tconstruct:cross_guard:0, 模块化合金 十字柄
+tconstruct:cross_guard:0, 陨星 十字柄
+tconstruct:cross_guard:0, 铬 十字柄
+tconstruct:cross_guard:0, 不锈钢 十字柄
+tconstruct:cross_guard:0, 质子 十字柄
+tconstruct:cross_guard:0, 电子 十字柄
+tconstruct:cross_guard:0, 猩红 十字柄
+tconstruct:cross_guard:0, 水华 十字柄
+tconstruct:cross_guard:0, 锰铁 十字柄
+tconstruct:cross_guard:0, 锰钢 十字柄
+tconstruct:cross_guard:0, 天地宝晶 十字柄
+tconstruct:cross_guard:0, 完美 十字柄
+tconstruct:cross_guard:0, 南瓜 十字柄
+tconstruct:cross_guard:0, 便便 十字柄
 tconstruct:cross_guard:0, 耐酸铝 十字柄
 tconstruct:cross_guard:0, 蓝宝石 十字柄
 tconstruct:cross_guard:0, 红宝石 十字柄
@@ -18181,6 +19400,64 @@ tconstruct:large_plate:0, 初级精华 大板
 tconstruct:large_plate:0, 中级精华 大板
 tconstruct:large_plate:0, 高级精华 大板
 tconstruct:large_plate:0, 终极精华 大板
+tconstruct:large_plate:0, 奶酪 大板
+tconstruct:large_plate:0, 究极精华 大板
+tconstruct:large_plate:0, 聚合矩阵 大板
+tconstruct:large_plate:0, 知识精华 大板
+tconstruct:large_plate:0, 永燃 大板
+tconstruct:large_plate:0, 钛金 大板
+tconstruct:large_plate:0, 极寒 大板
+tconstruct:large_plate:0, 铝黄铜 大板
+tconstruct:large_plate:0, 钻石 大板
+tconstruct:large_plate:0, 金质大板
+tconstruct:large_plate:0, 煤 大板
+tconstruct:large_plate:0, 伊桑斯 大板
+tconstruct:large_plate:0, 绯红宝石 大板
+tconstruct:large_plate:0, 赫菲斯辛 大板
+tconstruct:large_plate:0, 秘银 大板
+tconstruct:large_plate:0, 铿金 大板
+tconstruct:large_plate:0, 秘金 大板
+tconstruct:large_plate:0, 毁灭 大板
+tconstruct:large_plate:0, 忏悔宝石 大板
+tconstruct:large_plate:0, 盖亚魂 大板
+tconstruct:large_plate:0, 胞嘧 大板
+tconstruct:large_plate:0, 大地合金 大板
+tconstruct:large_plate:0, 恒星合金 大板
+tconstruct:large_plate:0, 寰宇 大板
+tconstruct:large_plate:0, 星辰 大板
+tconstruct:large_plate:0, 奥利哈刚 大板
+tconstruct:large_plate:0, 黄铀 大板
+tconstruct:large_plate:0, 巧克力 大板
+tconstruct:large_plate:0, 辛西纳石 大板
+tconstruct:large_plate:0, 霜晶 大板
+tconstruct:large_plate:0, 末影云母 大板
+tconstruct:large_plate:0, 豆腐宝石 大板
+tconstruct:large_plate:0, 强化豆腐宝石 大板
+tconstruct:large_plate:0, 樱色钻石 大板
+tconstruct:large_plate:0, 泥巴 大板
+tconstruct:large_plate:0, 空间碎片 大板
+tconstruct:large_plate:0, 水晶之心 大板
+tconstruct:large_plate:0, 基岩 大板
+tconstruct:large_plate:0, 云浮 大板
+tconstruct:large_plate:0, 神金 大板
+tconstruct:large_plate:0, 暗影 大板
+tconstruct:large_plate:0, 下界合金 大板
+tconstruct:large_plate:0, 焦黑石头 大板
+tconstruct:large_plate:0, 高炉砖 大板
+tconstruct:large_plate:0, 模块化合金 大板
+tconstruct:large_plate:0, 陨星 大板
+tconstruct:large_plate:0, 铬 大板
+tconstruct:large_plate:0, 不锈钢 大板
+tconstruct:large_plate:0, 质子 大板
+tconstruct:large_plate:0, 电子 大板
+tconstruct:large_plate:0, 猩红 大板
+tconstruct:large_plate:0, 水华 大板
+tconstruct:large_plate:0, 锰铁 大板
+tconstruct:large_plate:0, 锰钢 大板
+tconstruct:large_plate:0, 天地宝晶 大板
+tconstruct:large_plate:0, 完美 大板
+tconstruct:large_plate:0, 南瓜 大板
+tconstruct:large_plate:0, 便便 大板
 tconstruct:large_plate:0, 耐酸铝 大板
 tconstruct:large_plate:0, 蓝宝石 大板
 tconstruct:large_plate:0, 红宝石 大板
@@ -18370,6 +19647,64 @@ tconstruct:knife_blade:0, 初级精华 刀刃
 tconstruct:knife_blade:0, 中级精华 刀刃
 tconstruct:knife_blade:0, 高级精华 刀刃
 tconstruct:knife_blade:0, 终极精华 刀刃
+tconstruct:knife_blade:0, 奶酪 刀刃
+tconstruct:knife_blade:0, 究极精华 刀刃
+tconstruct:knife_blade:0, 聚合矩阵 刀刃
+tconstruct:knife_blade:0, 知识精华 刀刃
+tconstruct:knife_blade:0, 永燃 刀刃
+tconstruct:knife_blade:0, 钛金 刀刃
+tconstruct:knife_blade:0, 极寒 刀刃
+tconstruct:knife_blade:0, 铝黄铜 刀刃
+tconstruct:knife_blade:0, 钻石 刀刃
+tconstruct:knife_blade:0, 金质刀刃
+tconstruct:knife_blade:0, 煤 刀刃
+tconstruct:knife_blade:0, 伊桑斯 刀刃
+tconstruct:knife_blade:0, 绯红宝石 刀刃
+tconstruct:knife_blade:0, 赫菲斯辛 刀刃
+tconstruct:knife_blade:0, 秘银 刀刃
+tconstruct:knife_blade:0, 铿金 刀刃
+tconstruct:knife_blade:0, 秘金 刀刃
+tconstruct:knife_blade:0, 毁灭 刀刃
+tconstruct:knife_blade:0, 忏悔宝石 刀刃
+tconstruct:knife_blade:0, 盖亚魂 刀刃
+tconstruct:knife_blade:0, 胞嘧 刀刃
+tconstruct:knife_blade:0, 大地合金 刀刃
+tconstruct:knife_blade:0, 恒星合金 刀刃
+tconstruct:knife_blade:0, 寰宇 刀刃
+tconstruct:knife_blade:0, 星辰 刀刃
+tconstruct:knife_blade:0, 奥利哈刚 刀刃
+tconstruct:knife_blade:0, 黄铀 刀刃
+tconstruct:knife_blade:0, 巧克力 刀刃
+tconstruct:knife_blade:0, 辛西纳石 刀刃
+tconstruct:knife_blade:0, 霜晶 刀刃
+tconstruct:knife_blade:0, 末影云母 刀刃
+tconstruct:knife_blade:0, 豆腐宝石 刀刃
+tconstruct:knife_blade:0, 强化豆腐宝石 刀刃
+tconstruct:knife_blade:0, 樱色钻石 刀刃
+tconstruct:knife_blade:0, 泥巴 刀刃
+tconstruct:knife_blade:0, 空间碎片 刀刃
+tconstruct:knife_blade:0, 水晶之心 刀刃
+tconstruct:knife_blade:0, 基岩 刀刃
+tconstruct:knife_blade:0, 云浮 刀刃
+tconstruct:knife_blade:0, 神金 刀刃
+tconstruct:knife_blade:0, 暗影 刀刃
+tconstruct:knife_blade:0, 下界合金 刀刃
+tconstruct:knife_blade:0, 焦黑石头 刀刃
+tconstruct:knife_blade:0, 高炉砖 刀刃
+tconstruct:knife_blade:0, 模块化合金 刀刃
+tconstruct:knife_blade:0, 陨星 刀刃
+tconstruct:knife_blade:0, 铬 刀刃
+tconstruct:knife_blade:0, 不锈钢 刀刃
+tconstruct:knife_blade:0, 质子 刀刃
+tconstruct:knife_blade:0, 电子 刀刃
+tconstruct:knife_blade:0, 猩红 刀刃
+tconstruct:knife_blade:0, 水华 刀刃
+tconstruct:knife_blade:0, 锰铁 刀刃
+tconstruct:knife_blade:0, 锰钢 刀刃
+tconstruct:knife_blade:0, 天地宝晶 刀刃
+tconstruct:knife_blade:0, 完美 刀刃
+tconstruct:knife_blade:0, 南瓜 刀刃
+tconstruct:knife_blade:0, 便便 刀刃
 tconstruct:knife_blade:0, 耐酸铝 刀刃
 tconstruct:knife_blade:0, 蓝宝石 刀刃
 tconstruct:knife_blade:0, 红宝石 刀刃
@@ -18561,6 +19896,64 @@ tconstruct:bow_limb:0, 初级精华 弓臂
 tconstruct:bow_limb:0, 中级精华 弓臂
 tconstruct:bow_limb:0, 高级精华 弓臂
 tconstruct:bow_limb:0, 终极精华 弓臂
+tconstruct:bow_limb:0, 奶酪 弓臂
+tconstruct:bow_limb:0, 究极精华 弓臂
+tconstruct:bow_limb:0, 聚合矩阵 弓臂
+tconstruct:bow_limb:0, 知识精华 弓臂
+tconstruct:bow_limb:0, 永燃 弓臂
+tconstruct:bow_limb:0, 钛金 弓臂
+tconstruct:bow_limb:0, 极寒 弓臂
+tconstruct:bow_limb:0, 铝黄铜 弓臂
+tconstruct:bow_limb:0, 钻石 弓臂
+tconstruct:bow_limb:0, 金质弓臂
+tconstruct:bow_limb:0, 煤 弓臂
+tconstruct:bow_limb:0, 伊桑斯 弓臂
+tconstruct:bow_limb:0, 绯红宝石 弓臂
+tconstruct:bow_limb:0, 赫菲斯辛 弓臂
+tconstruct:bow_limb:0, 秘银 弓臂
+tconstruct:bow_limb:0, 铿金 弓臂
+tconstruct:bow_limb:0, 秘金 弓臂
+tconstruct:bow_limb:0, 毁灭 弓臂
+tconstruct:bow_limb:0, 忏悔宝石 弓臂
+tconstruct:bow_limb:0, 盖亚魂 弓臂
+tconstruct:bow_limb:0, 胞嘧 弓臂
+tconstruct:bow_limb:0, 大地合金 弓臂
+tconstruct:bow_limb:0, 恒星合金 弓臂
+tconstruct:bow_limb:0, 寰宇 弓臂
+tconstruct:bow_limb:0, 星辰 弓臂
+tconstruct:bow_limb:0, 奥利哈刚 弓臂
+tconstruct:bow_limb:0, 黄铀 弓臂
+tconstruct:bow_limb:0, 巧克力 弓臂
+tconstruct:bow_limb:0, 辛西纳石 弓臂
+tconstruct:bow_limb:0, 霜晶 弓臂
+tconstruct:bow_limb:0, 末影云母 弓臂
+tconstruct:bow_limb:0, 豆腐宝石 弓臂
+tconstruct:bow_limb:0, 强化豆腐宝石 弓臂
+tconstruct:bow_limb:0, 樱色钻石 弓臂
+tconstruct:bow_limb:0, 泥巴 弓臂
+tconstruct:bow_limb:0, 空间碎片 弓臂
+tconstruct:bow_limb:0, 水晶之心 弓臂
+tconstruct:bow_limb:0, 基岩 弓臂
+tconstruct:bow_limb:0, 云浮 弓臂
+tconstruct:bow_limb:0, 神金 弓臂
+tconstruct:bow_limb:0, 暗影 弓臂
+tconstruct:bow_limb:0, 下界合金 弓臂
+tconstruct:bow_limb:0, 焦黑石头 弓臂
+tconstruct:bow_limb:0, 高炉砖 弓臂
+tconstruct:bow_limb:0, 模块化合金 弓臂
+tconstruct:bow_limb:0, 陨星 弓臂
+tconstruct:bow_limb:0, 铬 弓臂
+tconstruct:bow_limb:0, 不锈钢 弓臂
+tconstruct:bow_limb:0, 质子 弓臂
+tconstruct:bow_limb:0, 电子 弓臂
+tconstruct:bow_limb:0, 猩红 弓臂
+tconstruct:bow_limb:0, 水华 弓臂
+tconstruct:bow_limb:0, 锰铁 弓臂
+tconstruct:bow_limb:0, 锰钢 弓臂
+tconstruct:bow_limb:0, 天地宝晶 弓臂
+tconstruct:bow_limb:0, 完美 弓臂
+tconstruct:bow_limb:0, 南瓜 弓臂
+tconstruct:bow_limb:0, 便便 弓臂
 tconstruct:bow_limb:0, 耐酸铝 弓臂
 tconstruct:bow_limb:0, 蓝宝石 弓臂
 tconstruct:bow_limb:0, 红宝石 弓臂
@@ -18702,6 +20095,8 @@ tconstruct:bow_string:0, 线 弓弦
 tconstruct:bow_string:0, 史莱姆藤蔓 弓弦
 tconstruct:bow_string:0, 史莱姆藤蔓 弓弦
 tconstruct:bow_string:0, 藤蔓 弓弦
+tconstruct:bow_string:0, 尼龙绳 弓弦
+tconstruct:bow_string:0, 橡皮筋 弓弦
 tconstruct:bow_string:0, 蕴魔 弓弦
 tconstruct:bow_string:0, 充能 弓弦
 tconstruct:bow_string:0, 火弦 弓弦
@@ -18756,6 +20151,64 @@ tconstruct:arrow_head:0, 初级精华 箭头
 tconstruct:arrow_head:0, 中级精华 箭头
 tconstruct:arrow_head:0, 高级精华 箭头
 tconstruct:arrow_head:0, 终极精华 箭头
+tconstruct:arrow_head:0, 奶酪 箭头
+tconstruct:arrow_head:0, 究极精华 箭头
+tconstruct:arrow_head:0, 聚合矩阵 箭头
+tconstruct:arrow_head:0, 知识精华 箭头
+tconstruct:arrow_head:0, 永燃 箭头
+tconstruct:arrow_head:0, 钛金 箭头
+tconstruct:arrow_head:0, 极寒 箭头
+tconstruct:arrow_head:0, 铝黄铜 箭头
+tconstruct:arrow_head:0, 钻石 箭头
+tconstruct:arrow_head:0, 金质箭头
+tconstruct:arrow_head:0, 煤 箭头
+tconstruct:arrow_head:0, 伊桑斯 箭头
+tconstruct:arrow_head:0, 绯红宝石 箭头
+tconstruct:arrow_head:0, 赫菲斯辛 箭头
+tconstruct:arrow_head:0, 秘银 箭头
+tconstruct:arrow_head:0, 铿金 箭头
+tconstruct:arrow_head:0, 秘金 箭头
+tconstruct:arrow_head:0, 毁灭 箭头
+tconstruct:arrow_head:0, 忏悔宝石 箭头
+tconstruct:arrow_head:0, 盖亚魂 箭头
+tconstruct:arrow_head:0, 胞嘧 箭头
+tconstruct:arrow_head:0, 大地合金 箭头
+tconstruct:arrow_head:0, 恒星合金 箭头
+tconstruct:arrow_head:0, 寰宇 箭头
+tconstruct:arrow_head:0, 星辰 箭头
+tconstruct:arrow_head:0, 奥利哈刚 箭头
+tconstruct:arrow_head:0, 黄铀 箭头
+tconstruct:arrow_head:0, 巧克力 箭头
+tconstruct:arrow_head:0, 辛西纳石 箭头
+tconstruct:arrow_head:0, 霜晶 箭头
+tconstruct:arrow_head:0, 末影云母 箭头
+tconstruct:arrow_head:0, 豆腐宝石 箭头
+tconstruct:arrow_head:0, 强化豆腐宝石 箭头
+tconstruct:arrow_head:0, 樱色钻石 箭头
+tconstruct:arrow_head:0, 泥巴 箭头
+tconstruct:arrow_head:0, 空间碎片 箭头
+tconstruct:arrow_head:0, 水晶之心 箭头
+tconstruct:arrow_head:0, 基岩 箭头
+tconstruct:arrow_head:0, 云浮 箭头
+tconstruct:arrow_head:0, 神金 箭头
+tconstruct:arrow_head:0, 暗影 箭头
+tconstruct:arrow_head:0, 下界合金 箭头
+tconstruct:arrow_head:0, 焦黑石头 箭头
+tconstruct:arrow_head:0, 高炉砖 箭头
+tconstruct:arrow_head:0, 模块化合金 箭头
+tconstruct:arrow_head:0, 陨星 箭头
+tconstruct:arrow_head:0, 铬 箭头
+tconstruct:arrow_head:0, 不锈钢 箭头
+tconstruct:arrow_head:0, 质子 箭头
+tconstruct:arrow_head:0, 电子 箭头
+tconstruct:arrow_head:0, 猩红 箭头
+tconstruct:arrow_head:0, 水华 箭头
+tconstruct:arrow_head:0, 锰铁 箭头
+tconstruct:arrow_head:0, 锰钢 箭头
+tconstruct:arrow_head:0, 天地宝晶 箭头
+tconstruct:arrow_head:0, 完美 箭头
+tconstruct:arrow_head:0, 南瓜 箭头
+tconstruct:arrow_head:0, 便便 箭头
 tconstruct:arrow_head:0, 耐酸铝 箭头
 tconstruct:arrow_head:0, 蓝宝石 箭头
 tconstruct:arrow_head:0, 红宝石 箭头
@@ -18906,6 +20359,13 @@ tconstruct:arrow_shaft:0, 烈焰棒 箭杆
 tconstruct:arrow_shaft:0, 甘蔗 箭杆
 tconstruct:arrow_shaft:0, 冰 箭杆
 tconstruct:arrow_shaft:0, 末地烛 箭杆
+tconstruct:arrow_shaft:0, 究极精华 箭杆
+tconstruct:arrow_shaft:0, 聚合矩阵 箭杆
+tconstruct:arrow_shaft:0, 永燃 箭杆
+tconstruct:arrow_shaft:0, 钛金 箭杆
+tconstruct:arrow_shaft:0, 极寒 箭杆
+tconstruct:arrow_shaft:0, 陨星 箭杆
+tconstruct:arrow_shaft:0, 不锈钢 箭杆
 tconstruct:arrow_shaft:0, 活木 箭杆
 tconstruct:arrow_shaft:0, 梦之木 箭杆
 tconstruct:arrow_shaft:0, HDPE 箭杆
@@ -18925,6 +20385,7 @@ tconstruct:fletching:0, 史莱姆树叶 箭羽
 tconstruct:fletching:0, 史莱姆树叶 箭羽
 tconstruct:fletching:0, 史莱姆树叶 箭羽
 tconstruct:fletching:0, 树叶 箭羽
+tconstruct:fletching:0, 尼龙布 箭羽
 tconstruct:fletching:0, 幽魂木 箭羽
 tconstruct:fletching:0, 镍 箭羽
 tconstruct:fletching:0, 殷钢 箭羽
@@ -18942,6 +20403,13 @@ tconstruct:bolt_core:0, 烈焰棒-铁 弩箭核心
 tconstruct:bolt_core:0, 甘蔗-铁 弩箭核心
 tconstruct:bolt_core:0, 冰-铁 弩箭核心
 tconstruct:bolt_core:0, 末地烛-铁 弩箭核心
+tconstruct:bolt_core:0, 究极精华-铁 弩箭核心
+tconstruct:bolt_core:0, 聚合矩阵-铁 弩箭核心
+tconstruct:bolt_core:0, 永燃-铁 弩箭核心
+tconstruct:bolt_core:0, 钛金-铁 弩箭核心
+tconstruct:bolt_core:0, 极寒-铁 弩箭核心
+tconstruct:bolt_core:0, 陨星-铁 弩箭核心
+tconstruct:bolt_core:0, 不锈钢-铁 弩箭核心
 tconstruct:bolt_core:0, 活木-铁 弩箭核心
 tconstruct:bolt_core:0, 梦之木-铁 弩箭核心
 tconstruct:bolt_core:0, HDPE-铁 弩箭核心
@@ -19628,104 +21096,104 @@ tconstruct:seared_stairs_road:0, 焦黑铺路石楼梯
 tconstruct:seared_stairs_tile:0, 焦黑瓷砖楼梯
 tconstruct:seared_stairs_creeper:0, 焦黑雕琢楼梯
 tconstruct:cast:0, 空白铸模
-tconstruct:cast:0, 宽护手铸模
-tconstruct:cast:0, 枪管铸模
-tconstruct:cast:0, 斧刃铸模
-tconstruct:cast:0, 弓弦铸模
-tconstruct:cast:0, 吹嘴铸模
-tconstruct:cast:0, 开掘铲头铸模
-tconstruct:cast:0, 镖尖铸模
-tconstruct:cast:0, 园艺镰头铸模
-tconstruct:cast:0, 护手铸模
-tconstruct:cast:0, 胸甲基底铸模
-tconstruct:cast:0, 轮轴铸模
-tconstruct:cast:0, 弓臂铸模
-tconstruct:cast:0, 镐头铸模
-tconstruct:cast:0, 坚韧手柄铸模
-tconstruct:cast:0, 坚韧绑定结铸模
-tconstruct:cast:0, 箭羽铸模
-tconstruct:cast:0, 镰刀头铸模
-tconstruct:cast:0, 头盔基底铸模
-tconstruct:cast:0, 磨制工具铸模
-tconstruct:cast:0, 凿子头铸模
-tconstruct:cast:0, 绑定结铸模
-tconstruct:cast:0, 箭头铸模
-tconstruct:cast:0, 吹管铸模
-tconstruct:cast:0, 抛光工具铸模
-tconstruct:cast:0, 靴子基底铸模
-tconstruct:cast:0, 蓄电池铸模
-tconstruct:cast:0, 护腿基底铸模
-tconstruct:cast:0, 铲头铸模
-tconstruct:cast:0, 捆绳铸模
-tconstruct:cast:0, 宽斧刃铸模
-tconstruct:cast:0, 护甲板铸模
-tconstruct:cast:0, 碎片铸模
-tconstruct:cast:0, 护甲夹板铸模
-tconstruct:cast:0, 外壳铸模
-tconstruct:cast:0, 手柄铸模
-tconstruct:cast:0, 盘铸模
-tconstruct:cast:0, 激光传导器铸模
-tconstruct:cast:0, 锤头铸模
-tconstruct:cast:0, 大板铸模
-tconstruct:cast:0, 宽剑刃铸模
-tconstruct:cast:0, 牌板铸模
-tconstruct:cast:0, 箭杆铸模
-tconstruct:cast:0, 十字柄铸模
-tconstruct:cast:0, 奇术焦镜铸模
 tconstruct:cast:0, 剑刃铸模
+tconstruct:cast:0, 弓弦铸模
+tconstruct:cast:0, 靴子基底铸模
+tconstruct:cast:0, 捆绳铸模
+tconstruct:cast:0, 镐头铸模
+tconstruct:cast:0, 镰刀头铸模
+tconstruct:cast:0, 胸甲基底铸模
+tconstruct:cast:0, 大板铸模
 tconstruct:cast:0, 刀刃铸模
+tconstruct:cast:0, 园艺镰头铸模
+tconstruct:cast:0, 宽斧刃铸模
+tconstruct:cast:0, 磨制工具铸模
+tconstruct:cast:0, 蓄电池铸模
+tconstruct:cast:0, 牌板铸模
+tconstruct:cast:0, 宽护手铸模
+tconstruct:cast:0, 宽剑刃铸模
+tconstruct:cast:0, 绑定结铸模
+tconstruct:cast:0, 坚韧手柄铸模
+tconstruct:cast:0, 锤头铸模
+tconstruct:cast:0, 奇术焦镜铸模
+tconstruct:cast:0, 箭羽铸模
+tconstruct:cast:0, 箭头铸模
+tconstruct:cast:0, 护甲夹板铸模
+tconstruct:cast:0, 盘铸模
+tconstruct:cast:0, 护腿基底铸模
+tconstruct:cast:0, 开掘铲头铸模
+tconstruct:cast:0, 护手铸模
+tconstruct:cast:0, 护甲板铸模
+tconstruct:cast:0, 抛光工具铸模
+tconstruct:cast:0, 碎片铸模
+tconstruct:cast:0, 斧刃铸模
+tconstruct:cast:0, 外壳铸模
+tconstruct:cast:0, 十字柄铸模
+tconstruct:cast:0, 吹管铸模
+tconstruct:cast:0, 凿子头铸模
+tconstruct:cast:0, 铲头铸模
+tconstruct:cast:0, 吹嘴铸模
+tconstruct:cast:0, 手柄铸模
+tconstruct:cast:0, 激光传导器铸模
+tconstruct:cast:0, 弓臂铸模
+tconstruct:cast:0, 头盔基底铸模
+tconstruct:cast:0, 箭杆铸模
+tconstruct:cast:0, 坚韧绑定结铸模
+tconstruct:cast:0, 枪管铸模
+tconstruct:cast:0, 轮轴铸模
+tconstruct:cast:0, 镖尖铸模
 tconstruct:cast_custom:0, 锭铸模
 tconstruct:cast_custom:1, 粒铸模
 tconstruct:cast_custom:2, 宝石铸模
 tconstruct:cast_custom:3, 板铸模
 tconstruct:cast_custom:4, 齿轮铸模
 tconstruct:clay_cast:0, item.tconstruct.clay_cast.blank
-tconstruct:clay_cast:0, 宽护手粘土铸模
-tconstruct:clay_cast:0, 枪管粘土铸模
-tconstruct:clay_cast:0, 斧刃粘土铸模
-tconstruct:clay_cast:0, 弓弦粘土铸模
-tconstruct:clay_cast:0, 吹嘴粘土铸模
-tconstruct:clay_cast:0, 开掘铲头粘土铸模
-tconstruct:clay_cast:0, 镖尖粘土铸模
-tconstruct:clay_cast:0, 园艺镰头粘土铸模
-tconstruct:clay_cast:0, 护手粘土铸模
-tconstruct:clay_cast:0, 胸甲基底粘土铸模
-tconstruct:clay_cast:0, 轮轴粘土铸模
-tconstruct:clay_cast:0, 弓臂粘土铸模
-tconstruct:clay_cast:0, 镐头粘土铸模
-tconstruct:clay_cast:0, 坚韧手柄粘土铸模
-tconstruct:clay_cast:0, 坚韧绑定结粘土铸模
-tconstruct:clay_cast:0, 箭羽粘土铸模
-tconstruct:clay_cast:0, 镰刀头粘土铸模
-tconstruct:clay_cast:0, 头盔基底粘土铸模
-tconstruct:clay_cast:0, 磨制工具粘土铸模
-tconstruct:clay_cast:0, 凿子头粘土铸模
-tconstruct:clay_cast:0, 绑定结粘土铸模
-tconstruct:clay_cast:0, 箭头粘土铸模
-tconstruct:clay_cast:0, 吹管粘土铸模
-tconstruct:clay_cast:0, 抛光工具粘土铸模
-tconstruct:clay_cast:0, 靴子基底粘土铸模
-tconstruct:clay_cast:0, 蓄电池粘土铸模
-tconstruct:clay_cast:0, 护腿基底粘土铸模
-tconstruct:clay_cast:0, 铲头粘土铸模
-tconstruct:clay_cast:0, 捆绳粘土铸模
-tconstruct:clay_cast:0, 宽斧刃粘土铸模
-tconstruct:clay_cast:0, 护甲板粘土铸模
-tconstruct:clay_cast:0, 碎片粘土铸模
-tconstruct:clay_cast:0, 护甲夹板粘土铸模
-tconstruct:clay_cast:0, 外壳粘土铸模
-tconstruct:clay_cast:0, 手柄粘土铸模
-tconstruct:clay_cast:0, 盘粘土铸模
-tconstruct:clay_cast:0, 激光传导器粘土铸模
-tconstruct:clay_cast:0, 锤头粘土铸模
-tconstruct:clay_cast:0, 大板粘土铸模
-tconstruct:clay_cast:0, 宽剑刃粘土铸模
-tconstruct:clay_cast:0, 牌板粘土铸模
-tconstruct:clay_cast:0, 箭杆粘土铸模
-tconstruct:clay_cast:0, 十字柄粘土铸模
-tconstruct:clay_cast:0, 奇术焦镜粘土铸模
 tconstruct:clay_cast:0, 剑刃粘土铸模
+tconstruct:clay_cast:0, 弓弦粘土铸模
+tconstruct:clay_cast:0, 靴子基底粘土铸模
+tconstruct:clay_cast:0, 捆绳粘土铸模
+tconstruct:clay_cast:0, 镐头粘土铸模
+tconstruct:clay_cast:0, 镰刀头粘土铸模
+tconstruct:clay_cast:0, 胸甲基底粘土铸模
+tconstruct:clay_cast:0, 大板粘土铸模
 tconstruct:clay_cast:0, 刀刃粘土铸模
+tconstruct:clay_cast:0, 园艺镰头粘土铸模
+tconstruct:clay_cast:0, 宽斧刃粘土铸模
+tconstruct:clay_cast:0, 磨制工具粘土铸模
+tconstruct:clay_cast:0, 蓄电池粘土铸模
+tconstruct:clay_cast:0, 牌板粘土铸模
+tconstruct:clay_cast:0, 宽护手粘土铸模
+tconstruct:clay_cast:0, 宽剑刃粘土铸模
+tconstruct:clay_cast:0, 绑定结粘土铸模
+tconstruct:clay_cast:0, 坚韧手柄粘土铸模
+tconstruct:clay_cast:0, 锤头粘土铸模
+tconstruct:clay_cast:0, 奇术焦镜粘土铸模
+tconstruct:clay_cast:0, 箭羽粘土铸模
+tconstruct:clay_cast:0, 箭头粘土铸模
+tconstruct:clay_cast:0, 护甲夹板粘土铸模
+tconstruct:clay_cast:0, 盘粘土铸模
+tconstruct:clay_cast:0, 护腿基底粘土铸模
+tconstruct:clay_cast:0, 开掘铲头粘土铸模
+tconstruct:clay_cast:0, 护手粘土铸模
+tconstruct:clay_cast:0, 护甲板粘土铸模
+tconstruct:clay_cast:0, 抛光工具粘土铸模
+tconstruct:clay_cast:0, 碎片粘土铸模
+tconstruct:clay_cast:0, 斧刃粘土铸模
+tconstruct:clay_cast:0, 外壳粘土铸模
+tconstruct:clay_cast:0, 十字柄粘土铸模
+tconstruct:clay_cast:0, 吹管粘土铸模
+tconstruct:clay_cast:0, 凿子头粘土铸模
+tconstruct:clay_cast:0, 铲头粘土铸模
+tconstruct:clay_cast:0, 吹嘴粘土铸模
+tconstruct:clay_cast:0, 手柄粘土铸模
+tconstruct:clay_cast:0, 激光传导器粘土铸模
+tconstruct:clay_cast:0, 弓臂粘土铸模
+tconstruct:clay_cast:0, 头盔基底粘土铸模
+tconstruct:clay_cast:0, 箭杆粘土铸模
+tconstruct:clay_cast:0, 坚韧绑定结粘土铸模
+tconstruct:clay_cast:0, 枪管粘土铸模
+tconstruct:clay_cast:0, 轮轴粘土铸模
+tconstruct:clay_cast:0, 镖尖粘土铸模
 tconstruct:stone_torch:0, 石柄火把
 tconstruct:stone_ladder:0, 石梯
 tconstruct:punji:0, 尖竹钉
@@ -23105,6 +24573,64 @@ conarm:helmet_core:0, 初级精华 头盔基底
 conarm:helmet_core:0, 中级精华 头盔基底
 conarm:helmet_core:0, 高级精华 头盔基底
 conarm:helmet_core:0, 终极精华 头盔基底
+conarm:helmet_core:0, 奶酪 头盔基底
+conarm:helmet_core:0, 究极精华 头盔基底
+conarm:helmet_core:0, 聚合矩阵 头盔基底
+conarm:helmet_core:0, 知识精华 头盔基底
+conarm:helmet_core:0, 永燃 头盔基底
+conarm:helmet_core:0, 钛金 头盔基底
+conarm:helmet_core:0, 极寒 头盔基底
+conarm:helmet_core:0, 铝黄铜 头盔基底
+conarm:helmet_core:0, 钻石 头盔基底
+conarm:helmet_core:0, 金质头盔基底
+conarm:helmet_core:0, 煤 头盔基底
+conarm:helmet_core:0, 伊桑斯 头盔基底
+conarm:helmet_core:0, 绯红宝石 头盔基底
+conarm:helmet_core:0, 赫菲斯辛 头盔基底
+conarm:helmet_core:0, 秘银 头盔基底
+conarm:helmet_core:0, 铿金 头盔基底
+conarm:helmet_core:0, 秘金 头盔基底
+conarm:helmet_core:0, 毁灭 头盔基底
+conarm:helmet_core:0, 忏悔宝石 头盔基底
+conarm:helmet_core:0, 盖亚魂 头盔基底
+conarm:helmet_core:0, 胞嘧 头盔基底
+conarm:helmet_core:0, 大地合金 头盔基底
+conarm:helmet_core:0, 恒星合金 头盔基底
+conarm:helmet_core:0, 寰宇 头盔基底
+conarm:helmet_core:0, 星辰 头盔基底
+conarm:helmet_core:0, 奥利哈刚 头盔基底
+conarm:helmet_core:0, 黄铀 头盔基底
+conarm:helmet_core:0, 巧克力 头盔基底
+conarm:helmet_core:0, 辛西纳石 头盔基底
+conarm:helmet_core:0, 霜晶 头盔基底
+conarm:helmet_core:0, 末影云母 头盔基底
+conarm:helmet_core:0, 豆腐宝石 头盔基底
+conarm:helmet_core:0, 强化豆腐宝石 头盔基底
+conarm:helmet_core:0, 樱色钻石 头盔基底
+conarm:helmet_core:0, 泥巴 头盔基底
+conarm:helmet_core:0, 空间碎片 头盔基底
+conarm:helmet_core:0, 水晶之心 头盔基底
+conarm:helmet_core:0, 基岩 头盔基底
+conarm:helmet_core:0, 云浮 头盔基底
+conarm:helmet_core:0, 神金 头盔基底
+conarm:helmet_core:0, 暗影 头盔基底
+conarm:helmet_core:0, 下界合金 头盔基底
+conarm:helmet_core:0, 焦黑石头 头盔基底
+conarm:helmet_core:0, 高炉砖 头盔基底
+conarm:helmet_core:0, 模块化合金 头盔基底
+conarm:helmet_core:0, 陨星 头盔基底
+conarm:helmet_core:0, 铬 头盔基底
+conarm:helmet_core:0, 不锈钢 头盔基底
+conarm:helmet_core:0, 质子 头盔基底
+conarm:helmet_core:0, 电子 头盔基底
+conarm:helmet_core:0, 猩红 头盔基底
+conarm:helmet_core:0, 水华 头盔基底
+conarm:helmet_core:0, 锰铁 头盔基底
+conarm:helmet_core:0, 锰钢 头盔基底
+conarm:helmet_core:0, 天地宝晶 头盔基底
+conarm:helmet_core:0, 完美 头盔基底
+conarm:helmet_core:0, 南瓜 头盔基底
+conarm:helmet_core:0, 便便 头盔基底
 conarm:helmet_core:0, 耐酸铝 头盔基底
 conarm:helmet_core:0, 蓝宝石 头盔基底
 conarm:helmet_core:0, 红宝石 头盔基底
@@ -23297,6 +24823,64 @@ conarm:armor_trim:0, 初级精华 护甲夹板
 conarm:armor_trim:0, 中级精华 护甲夹板
 conarm:armor_trim:0, 高级精华 护甲夹板
 conarm:armor_trim:0, 终极精华 护甲夹板
+conarm:armor_trim:0, 奶酪 护甲夹板
+conarm:armor_trim:0, 究极精华 护甲夹板
+conarm:armor_trim:0, 聚合矩阵 护甲夹板
+conarm:armor_trim:0, 知识精华 护甲夹板
+conarm:armor_trim:0, 永燃 护甲夹板
+conarm:armor_trim:0, 钛金 护甲夹板
+conarm:armor_trim:0, 极寒 护甲夹板
+conarm:armor_trim:0, 铝黄铜 护甲夹板
+conarm:armor_trim:0, 钻石 护甲夹板
+conarm:armor_trim:0, 金质护甲夹板
+conarm:armor_trim:0, 煤 护甲夹板
+conarm:armor_trim:0, 伊桑斯 护甲夹板
+conarm:armor_trim:0, 绯红宝石 护甲夹板
+conarm:armor_trim:0, 赫菲斯辛 护甲夹板
+conarm:armor_trim:0, 秘银 护甲夹板
+conarm:armor_trim:0, 铿金 护甲夹板
+conarm:armor_trim:0, 秘金 护甲夹板
+conarm:armor_trim:0, 毁灭 护甲夹板
+conarm:armor_trim:0, 忏悔宝石 护甲夹板
+conarm:armor_trim:0, 盖亚魂 护甲夹板
+conarm:armor_trim:0, 胞嘧 护甲夹板
+conarm:armor_trim:0, 大地合金 护甲夹板
+conarm:armor_trim:0, 恒星合金 护甲夹板
+conarm:armor_trim:0, 寰宇 护甲夹板
+conarm:armor_trim:0, 星辰 护甲夹板
+conarm:armor_trim:0, 奥利哈刚 护甲夹板
+conarm:armor_trim:0, 黄铀 护甲夹板
+conarm:armor_trim:0, 巧克力 护甲夹板
+conarm:armor_trim:0, 辛西纳石 护甲夹板
+conarm:armor_trim:0, 霜晶 护甲夹板
+conarm:armor_trim:0, 末影云母 护甲夹板
+conarm:armor_trim:0, 豆腐宝石 护甲夹板
+conarm:armor_trim:0, 强化豆腐宝石 护甲夹板
+conarm:armor_trim:0, 樱色钻石 护甲夹板
+conarm:armor_trim:0, 泥巴 护甲夹板
+conarm:armor_trim:0, 空间碎片 护甲夹板
+conarm:armor_trim:0, 水晶之心 护甲夹板
+conarm:armor_trim:0, 基岩 护甲夹板
+conarm:armor_trim:0, 云浮 护甲夹板
+conarm:armor_trim:0, 神金 护甲夹板
+conarm:armor_trim:0, 暗影 护甲夹板
+conarm:armor_trim:0, 下界合金 护甲夹板
+conarm:armor_trim:0, 焦黑石头 护甲夹板
+conarm:armor_trim:0, 高炉砖 护甲夹板
+conarm:armor_trim:0, 模块化合金 护甲夹板
+conarm:armor_trim:0, 陨星 护甲夹板
+conarm:armor_trim:0, 铬 护甲夹板
+conarm:armor_trim:0, 不锈钢 护甲夹板
+conarm:armor_trim:0, 质子 护甲夹板
+conarm:armor_trim:0, 电子 护甲夹板
+conarm:armor_trim:0, 猩红 护甲夹板
+conarm:armor_trim:0, 水华 护甲夹板
+conarm:armor_trim:0, 锰铁 护甲夹板
+conarm:armor_trim:0, 锰钢 护甲夹板
+conarm:armor_trim:0, 天地宝晶 护甲夹板
+conarm:armor_trim:0, 完美 护甲夹板
+conarm:armor_trim:0, 南瓜 护甲夹板
+conarm:armor_trim:0, 便便 护甲夹板
 conarm:armor_trim:0, 耐酸铝 护甲夹板
 conarm:armor_trim:0, 蓝宝石 护甲夹板
 conarm:armor_trim:0, 红宝石 护甲夹板
@@ -23489,6 +25073,64 @@ conarm:armor_plate:0, 初级精华 护甲板
 conarm:armor_plate:0, 中级精华 护甲板
 conarm:armor_plate:0, 高级精华 护甲板
 conarm:armor_plate:0, 终极精华 护甲板
+conarm:armor_plate:0, 奶酪 护甲板
+conarm:armor_plate:0, 究极精华 护甲板
+conarm:armor_plate:0, 聚合矩阵 护甲板
+conarm:armor_plate:0, 知识精华 护甲板
+conarm:armor_plate:0, 永燃 护甲板
+conarm:armor_plate:0, 钛金 护甲板
+conarm:armor_plate:0, 极寒 护甲板
+conarm:armor_plate:0, 铝黄铜 护甲板
+conarm:armor_plate:0, 钻石 护甲板
+conarm:armor_plate:0, 金质护甲板
+conarm:armor_plate:0, 煤 护甲板
+conarm:armor_plate:0, 伊桑斯 护甲板
+conarm:armor_plate:0, 绯红宝石 护甲板
+conarm:armor_plate:0, 赫菲斯辛 护甲板
+conarm:armor_plate:0, 秘银 护甲板
+conarm:armor_plate:0, 铿金 护甲板
+conarm:armor_plate:0, 秘金 护甲板
+conarm:armor_plate:0, 毁灭 护甲板
+conarm:armor_plate:0, 忏悔宝石 护甲板
+conarm:armor_plate:0, 盖亚魂 护甲板
+conarm:armor_plate:0, 胞嘧 护甲板
+conarm:armor_plate:0, 大地合金 护甲板
+conarm:armor_plate:0, 恒星合金 护甲板
+conarm:armor_plate:0, 寰宇 护甲板
+conarm:armor_plate:0, 星辰 护甲板
+conarm:armor_plate:0, 奥利哈刚 护甲板
+conarm:armor_plate:0, 黄铀 护甲板
+conarm:armor_plate:0, 巧克力 护甲板
+conarm:armor_plate:0, 辛西纳石 护甲板
+conarm:armor_plate:0, 霜晶 护甲板
+conarm:armor_plate:0, 末影云母 护甲板
+conarm:armor_plate:0, 豆腐宝石 护甲板
+conarm:armor_plate:0, 强化豆腐宝石 护甲板
+conarm:armor_plate:0, 樱色钻石 护甲板
+conarm:armor_plate:0, 泥巴 护甲板
+conarm:armor_plate:0, 空间碎片 护甲板
+conarm:armor_plate:0, 水晶之心 护甲板
+conarm:armor_plate:0, 基岩 护甲板
+conarm:armor_plate:0, 云浮 护甲板
+conarm:armor_plate:0, 神金 护甲板
+conarm:armor_plate:0, 暗影 护甲板
+conarm:armor_plate:0, 下界合金 护甲板
+conarm:armor_plate:0, 焦黑石头 护甲板
+conarm:armor_plate:0, 高炉砖 护甲板
+conarm:armor_plate:0, 模块化合金 护甲板
+conarm:armor_plate:0, 陨星 护甲板
+conarm:armor_plate:0, 铬 护甲板
+conarm:armor_plate:0, 不锈钢 护甲板
+conarm:armor_plate:0, 质子 护甲板
+conarm:armor_plate:0, 电子 护甲板
+conarm:armor_plate:0, 猩红 护甲板
+conarm:armor_plate:0, 水华 护甲板
+conarm:armor_plate:0, 锰铁 护甲板
+conarm:armor_plate:0, 锰钢 护甲板
+conarm:armor_plate:0, 天地宝晶 护甲板
+conarm:armor_plate:0, 完美 护甲板
+conarm:armor_plate:0, 南瓜 护甲板
+conarm:armor_plate:0, 便便 护甲板
 conarm:armor_plate:0, 耐酸铝 护甲板
 conarm:armor_plate:0, 蓝宝石 护甲板
 conarm:armor_plate:0, 红宝石 护甲板
@@ -23681,6 +25323,64 @@ conarm:chest_core:0, 初级精华 胸甲基底
 conarm:chest_core:0, 中级精华 胸甲基底
 conarm:chest_core:0, 高级精华 胸甲基底
 conarm:chest_core:0, 终极精华 胸甲基底
+conarm:chest_core:0, 奶酪 胸甲基底
+conarm:chest_core:0, 究极精华 胸甲基底
+conarm:chest_core:0, 聚合矩阵 胸甲基底
+conarm:chest_core:0, 知识精华 胸甲基底
+conarm:chest_core:0, 永燃 胸甲基底
+conarm:chest_core:0, 钛金 胸甲基底
+conarm:chest_core:0, 极寒 胸甲基底
+conarm:chest_core:0, 铝黄铜 胸甲基底
+conarm:chest_core:0, 钻石 胸甲基底
+conarm:chest_core:0, 金质胸甲基底
+conarm:chest_core:0, 煤 胸甲基底
+conarm:chest_core:0, 伊桑斯 胸甲基底
+conarm:chest_core:0, 绯红宝石 胸甲基底
+conarm:chest_core:0, 赫菲斯辛 胸甲基底
+conarm:chest_core:0, 秘银 胸甲基底
+conarm:chest_core:0, 铿金 胸甲基底
+conarm:chest_core:0, 秘金 胸甲基底
+conarm:chest_core:0, 毁灭 胸甲基底
+conarm:chest_core:0, 忏悔宝石 胸甲基底
+conarm:chest_core:0, 盖亚魂 胸甲基底
+conarm:chest_core:0, 胞嘧 胸甲基底
+conarm:chest_core:0, 大地合金 胸甲基底
+conarm:chest_core:0, 恒星合金 胸甲基底
+conarm:chest_core:0, 寰宇 胸甲基底
+conarm:chest_core:0, 星辰 胸甲基底
+conarm:chest_core:0, 奥利哈刚 胸甲基底
+conarm:chest_core:0, 黄铀 胸甲基底
+conarm:chest_core:0, 巧克力 胸甲基底
+conarm:chest_core:0, 辛西纳石 胸甲基底
+conarm:chest_core:0, 霜晶 胸甲基底
+conarm:chest_core:0, 末影云母 胸甲基底
+conarm:chest_core:0, 豆腐宝石 胸甲基底
+conarm:chest_core:0, 强化豆腐宝石 胸甲基底
+conarm:chest_core:0, 樱色钻石 胸甲基底
+conarm:chest_core:0, 泥巴 胸甲基底
+conarm:chest_core:0, 空间碎片 胸甲基底
+conarm:chest_core:0, 水晶之心 胸甲基底
+conarm:chest_core:0, 基岩 胸甲基底
+conarm:chest_core:0, 云浮 胸甲基底
+conarm:chest_core:0, 神金 胸甲基底
+conarm:chest_core:0, 暗影 胸甲基底
+conarm:chest_core:0, 下界合金 胸甲基底
+conarm:chest_core:0, 焦黑石头 胸甲基底
+conarm:chest_core:0, 高炉砖 胸甲基底
+conarm:chest_core:0, 模块化合金 胸甲基底
+conarm:chest_core:0, 陨星 胸甲基底
+conarm:chest_core:0, 铬 胸甲基底
+conarm:chest_core:0, 不锈钢 胸甲基底
+conarm:chest_core:0, 质子 胸甲基底
+conarm:chest_core:0, 电子 胸甲基底
+conarm:chest_core:0, 猩红 胸甲基底
+conarm:chest_core:0, 水华 胸甲基底
+conarm:chest_core:0, 锰铁 胸甲基底
+conarm:chest_core:0, 锰钢 胸甲基底
+conarm:chest_core:0, 天地宝晶 胸甲基底
+conarm:chest_core:0, 完美 胸甲基底
+conarm:chest_core:0, 南瓜 胸甲基底
+conarm:chest_core:0, 便便 胸甲基底
 conarm:chest_core:0, 耐酸铝 胸甲基底
 conarm:chest_core:0, 蓝宝石 胸甲基底
 conarm:chest_core:0, 红宝石 胸甲基底
@@ -23873,6 +25573,64 @@ conarm:leggings_core:0, 初级精华 护腿基底
 conarm:leggings_core:0, 中级精华 护腿基底
 conarm:leggings_core:0, 高级精华 护腿基底
 conarm:leggings_core:0, 终极精华 护腿基底
+conarm:leggings_core:0, 奶酪 护腿基底
+conarm:leggings_core:0, 究极精华 护腿基底
+conarm:leggings_core:0, 聚合矩阵 护腿基底
+conarm:leggings_core:0, 知识精华 护腿基底
+conarm:leggings_core:0, 永燃 护腿基底
+conarm:leggings_core:0, 钛金 护腿基底
+conarm:leggings_core:0, 极寒 护腿基底
+conarm:leggings_core:0, 铝黄铜 护腿基底
+conarm:leggings_core:0, 钻石 护腿基底
+conarm:leggings_core:0, 金质护腿基底
+conarm:leggings_core:0, 煤 护腿基底
+conarm:leggings_core:0, 伊桑斯 护腿基底
+conarm:leggings_core:0, 绯红宝石 护腿基底
+conarm:leggings_core:0, 赫菲斯辛 护腿基底
+conarm:leggings_core:0, 秘银 护腿基底
+conarm:leggings_core:0, 铿金 护腿基底
+conarm:leggings_core:0, 秘金 护腿基底
+conarm:leggings_core:0, 毁灭 护腿基底
+conarm:leggings_core:0, 忏悔宝石 护腿基底
+conarm:leggings_core:0, 盖亚魂 护腿基底
+conarm:leggings_core:0, 胞嘧 护腿基底
+conarm:leggings_core:0, 大地合金 护腿基底
+conarm:leggings_core:0, 恒星合金 护腿基底
+conarm:leggings_core:0, 寰宇 护腿基底
+conarm:leggings_core:0, 星辰 护腿基底
+conarm:leggings_core:0, 奥利哈刚 护腿基底
+conarm:leggings_core:0, 黄铀 护腿基底
+conarm:leggings_core:0, 巧克力 护腿基底
+conarm:leggings_core:0, 辛西纳石 护腿基底
+conarm:leggings_core:0, 霜晶 护腿基底
+conarm:leggings_core:0, 末影云母 护腿基底
+conarm:leggings_core:0, 豆腐宝石 护腿基底
+conarm:leggings_core:0, 强化豆腐宝石 护腿基底
+conarm:leggings_core:0, 樱色钻石 护腿基底
+conarm:leggings_core:0, 泥巴 护腿基底
+conarm:leggings_core:0, 空间碎片 护腿基底
+conarm:leggings_core:0, 水晶之心 护腿基底
+conarm:leggings_core:0, 基岩 护腿基底
+conarm:leggings_core:0, 云浮 护腿基底
+conarm:leggings_core:0, 神金 护腿基底
+conarm:leggings_core:0, 暗影 护腿基底
+conarm:leggings_core:0, 下界合金 护腿基底
+conarm:leggings_core:0, 焦黑石头 护腿基底
+conarm:leggings_core:0, 高炉砖 护腿基底
+conarm:leggings_core:0, 模块化合金 护腿基底
+conarm:leggings_core:0, 陨星 护腿基底
+conarm:leggings_core:0, 铬 护腿基底
+conarm:leggings_core:0, 不锈钢 护腿基底
+conarm:leggings_core:0, 质子 护腿基底
+conarm:leggings_core:0, 电子 护腿基底
+conarm:leggings_core:0, 猩红 护腿基底
+conarm:leggings_core:0, 水华 护腿基底
+conarm:leggings_core:0, 锰铁 护腿基底
+conarm:leggings_core:0, 锰钢 护腿基底
+conarm:leggings_core:0, 天地宝晶 护腿基底
+conarm:leggings_core:0, 完美 护腿基底
+conarm:leggings_core:0, 南瓜 护腿基底
+conarm:leggings_core:0, 便便 护腿基底
 conarm:leggings_core:0, 耐酸铝 护腿基底
 conarm:leggings_core:0, 蓝宝石 护腿基底
 conarm:leggings_core:0, 红宝石 护腿基底
@@ -24065,6 +25823,64 @@ conarm:boots_core:0, 初级精华 靴子基底
 conarm:boots_core:0, 中级精华 靴子基底
 conarm:boots_core:0, 高级精华 靴子基底
 conarm:boots_core:0, 终极精华 靴子基底
+conarm:boots_core:0, 奶酪 靴子基底
+conarm:boots_core:0, 究极精华 靴子基底
+conarm:boots_core:0, 聚合矩阵 靴子基底
+conarm:boots_core:0, 知识精华 靴子基底
+conarm:boots_core:0, 永燃 靴子基底
+conarm:boots_core:0, 钛金 靴子基底
+conarm:boots_core:0, 极寒 靴子基底
+conarm:boots_core:0, 铝黄铜 靴子基底
+conarm:boots_core:0, 钻石 靴子基底
+conarm:boots_core:0, 金质靴子基底
+conarm:boots_core:0, 煤 靴子基底
+conarm:boots_core:0, 伊桑斯 靴子基底
+conarm:boots_core:0, 绯红宝石 靴子基底
+conarm:boots_core:0, 赫菲斯辛 靴子基底
+conarm:boots_core:0, 秘银 靴子基底
+conarm:boots_core:0, 铿金 靴子基底
+conarm:boots_core:0, 秘金 靴子基底
+conarm:boots_core:0, 毁灭 靴子基底
+conarm:boots_core:0, 忏悔宝石 靴子基底
+conarm:boots_core:0, 盖亚魂 靴子基底
+conarm:boots_core:0, 胞嘧 靴子基底
+conarm:boots_core:0, 大地合金 靴子基底
+conarm:boots_core:0, 恒星合金 靴子基底
+conarm:boots_core:0, 寰宇 靴子基底
+conarm:boots_core:0, 星辰 靴子基底
+conarm:boots_core:0, 奥利哈刚 靴子基底
+conarm:boots_core:0, 黄铀 靴子基底
+conarm:boots_core:0, 巧克力 靴子基底
+conarm:boots_core:0, 辛西纳石 靴子基底
+conarm:boots_core:0, 霜晶 靴子基底
+conarm:boots_core:0, 末影云母 靴子基底
+conarm:boots_core:0, 豆腐宝石 靴子基底
+conarm:boots_core:0, 强化豆腐宝石 靴子基底
+conarm:boots_core:0, 樱色钻石 靴子基底
+conarm:boots_core:0, 泥巴 靴子基底
+conarm:boots_core:0, 空间碎片 靴子基底
+conarm:boots_core:0, 水晶之心 靴子基底
+conarm:boots_core:0, 基岩 靴子基底
+conarm:boots_core:0, 云浮 靴子基底
+conarm:boots_core:0, 神金 靴子基底
+conarm:boots_core:0, 暗影 靴子基底
+conarm:boots_core:0, 下界合金 靴子基底
+conarm:boots_core:0, 焦黑石头 靴子基底
+conarm:boots_core:0, 高炉砖 靴子基底
+conarm:boots_core:0, 模块化合金 靴子基底
+conarm:boots_core:0, 陨星 靴子基底
+conarm:boots_core:0, 铬 靴子基底
+conarm:boots_core:0, 不锈钢 靴子基底
+conarm:boots_core:0, 质子 靴子基底
+conarm:boots_core:0, 电子 靴子基底
+conarm:boots_core:0, 猩红 靴子基底
+conarm:boots_core:0, 水华 靴子基底
+conarm:boots_core:0, 锰铁 靴子基底
+conarm:boots_core:0, 锰钢 靴子基底
+conarm:boots_core:0, 天地宝晶 靴子基底
+conarm:boots_core:0, 完美 靴子基底
+conarm:boots_core:0, 南瓜 靴子基底
+conarm:boots_core:0, 便便 靴子基底
 conarm:boots_core:0, 耐酸铝 靴子基底
 conarm:boots_core:0, 蓝宝石 靴子基底
 conarm:boots_core:0, 红宝石 靴子基底
@@ -24283,6 +26099,64 @@ conarm:polishing_kit:0, 初级精华 抛光工具
 conarm:polishing_kit:0, 中级精华 抛光工具
 conarm:polishing_kit:0, 高级精华 抛光工具
 conarm:polishing_kit:0, 终极精华 抛光工具
+conarm:polishing_kit:0, 奶酪 抛光工具
+conarm:polishing_kit:0, 究极精华 抛光工具
+conarm:polishing_kit:0, 聚合矩阵 抛光工具
+conarm:polishing_kit:0, 知识精华 抛光工具
+conarm:polishing_kit:0, 永燃 抛光工具
+conarm:polishing_kit:0, 钛金 抛光工具
+conarm:polishing_kit:0, 极寒 抛光工具
+conarm:polishing_kit:0, 铝黄铜 抛光工具
+conarm:polishing_kit:0, 钻石 抛光工具
+conarm:polishing_kit:0, 金质抛光工具
+conarm:polishing_kit:0, 煤 抛光工具
+conarm:polishing_kit:0, 伊桑斯 抛光工具
+conarm:polishing_kit:0, 绯红宝石 抛光工具
+conarm:polishing_kit:0, 赫菲斯辛 抛光工具
+conarm:polishing_kit:0, 秘银 抛光工具
+conarm:polishing_kit:0, 铿金 抛光工具
+conarm:polishing_kit:0, 秘金 抛光工具
+conarm:polishing_kit:0, 毁灭 抛光工具
+conarm:polishing_kit:0, 忏悔宝石 抛光工具
+conarm:polishing_kit:0, 盖亚魂 抛光工具
+conarm:polishing_kit:0, 胞嘧 抛光工具
+conarm:polishing_kit:0, 大地合金 抛光工具
+conarm:polishing_kit:0, 恒星合金 抛光工具
+conarm:polishing_kit:0, 寰宇 抛光工具
+conarm:polishing_kit:0, 星辰 抛光工具
+conarm:polishing_kit:0, 奥利哈刚 抛光工具
+conarm:polishing_kit:0, 黄铀 抛光工具
+conarm:polishing_kit:0, 巧克力 抛光工具
+conarm:polishing_kit:0, 辛西纳石 抛光工具
+conarm:polishing_kit:0, 霜晶 抛光工具
+conarm:polishing_kit:0, 末影云母 抛光工具
+conarm:polishing_kit:0, 豆腐宝石 抛光工具
+conarm:polishing_kit:0, 强化豆腐宝石 抛光工具
+conarm:polishing_kit:0, 樱色钻石 抛光工具
+conarm:polishing_kit:0, 泥巴 抛光工具
+conarm:polishing_kit:0, 空间碎片 抛光工具
+conarm:polishing_kit:0, 水晶之心 抛光工具
+conarm:polishing_kit:0, 基岩 抛光工具
+conarm:polishing_kit:0, 云浮 抛光工具
+conarm:polishing_kit:0, 神金 抛光工具
+conarm:polishing_kit:0, 暗影 抛光工具
+conarm:polishing_kit:0, 下界合金 抛光工具
+conarm:polishing_kit:0, 焦黑石头 抛光工具
+conarm:polishing_kit:0, 高炉砖 抛光工具
+conarm:polishing_kit:0, 模块化合金 抛光工具
+conarm:polishing_kit:0, 陨星 抛光工具
+conarm:polishing_kit:0, 铬 抛光工具
+conarm:polishing_kit:0, 不锈钢 抛光工具
+conarm:polishing_kit:0, 质子 抛光工具
+conarm:polishing_kit:0, 电子 抛光工具
+conarm:polishing_kit:0, 猩红 抛光工具
+conarm:polishing_kit:0, 水华 抛光工具
+conarm:polishing_kit:0, 锰铁 抛光工具
+conarm:polishing_kit:0, 锰钢 抛光工具
+conarm:polishing_kit:0, 天地宝晶 抛光工具
+conarm:polishing_kit:0, 完美 抛光工具
+conarm:polishing_kit:0, 南瓜 抛光工具
+conarm:polishing_kit:0, 便便 抛光工具
 conarm:polishing_kit:0, 耐酸铝 抛光工具
 conarm:polishing_kit:0, 蓝宝石 抛光工具
 conarm:polishing_kit:0, 红宝石 抛光工具
@@ -24549,6 +26423,64 @@ plustic:pipe_piece:0, 初级精华 枪管
 plustic:pipe_piece:0, 中级精华 枪管
 plustic:pipe_piece:0, 高级精华 枪管
 plustic:pipe_piece:0, 终极精华 枪管
+plustic:pipe_piece:0, 奶酪 枪管
+plustic:pipe_piece:0, 究极精华 枪管
+plustic:pipe_piece:0, 聚合矩阵 枪管
+plustic:pipe_piece:0, 知识精华 枪管
+plustic:pipe_piece:0, 永燃 枪管
+plustic:pipe_piece:0, 钛金 枪管
+plustic:pipe_piece:0, 极寒 枪管
+plustic:pipe_piece:0, 铝黄铜 枪管
+plustic:pipe_piece:0, 钻石 枪管
+plustic:pipe_piece:0, 金质枪管
+plustic:pipe_piece:0, 煤 枪管
+plustic:pipe_piece:0, 伊桑斯 枪管
+plustic:pipe_piece:0, 绯红宝石 枪管
+plustic:pipe_piece:0, 赫菲斯辛 枪管
+plustic:pipe_piece:0, 秘银 枪管
+plustic:pipe_piece:0, 铿金 枪管
+plustic:pipe_piece:0, 秘金 枪管
+plustic:pipe_piece:0, 毁灭 枪管
+plustic:pipe_piece:0, 忏悔宝石 枪管
+plustic:pipe_piece:0, 盖亚魂 枪管
+plustic:pipe_piece:0, 胞嘧 枪管
+plustic:pipe_piece:0, 大地合金 枪管
+plustic:pipe_piece:0, 恒星合金 枪管
+plustic:pipe_piece:0, 寰宇 枪管
+plustic:pipe_piece:0, 星辰 枪管
+plustic:pipe_piece:0, 奥利哈刚 枪管
+plustic:pipe_piece:0, 黄铀 枪管
+plustic:pipe_piece:0, 巧克力 枪管
+plustic:pipe_piece:0, 辛西纳石 枪管
+plustic:pipe_piece:0, 霜晶 枪管
+plustic:pipe_piece:0, 末影云母 枪管
+plustic:pipe_piece:0, 豆腐宝石 枪管
+plustic:pipe_piece:0, 强化豆腐宝石 枪管
+plustic:pipe_piece:0, 樱色钻石 枪管
+plustic:pipe_piece:0, 泥巴 枪管
+plustic:pipe_piece:0, 空间碎片 枪管
+plustic:pipe_piece:0, 水晶之心 枪管
+plustic:pipe_piece:0, 基岩 枪管
+plustic:pipe_piece:0, 云浮 枪管
+plustic:pipe_piece:0, 神金 枪管
+plustic:pipe_piece:0, 暗影 枪管
+plustic:pipe_piece:0, 下界合金 枪管
+plustic:pipe_piece:0, 焦黑石头 枪管
+plustic:pipe_piece:0, 高炉砖 枪管
+plustic:pipe_piece:0, 模块化合金 枪管
+plustic:pipe_piece:0, 陨星 枪管
+plustic:pipe_piece:0, 铬 枪管
+plustic:pipe_piece:0, 不锈钢 枪管
+plustic:pipe_piece:0, 质子 枪管
+plustic:pipe_piece:0, 电子 枪管
+plustic:pipe_piece:0, 猩红 枪管
+plustic:pipe_piece:0, 水华 枪管
+plustic:pipe_piece:0, 锰铁 枪管
+plustic:pipe_piece:0, 锰钢 枪管
+plustic:pipe_piece:0, 天地宝晶 枪管
+plustic:pipe_piece:0, 完美 枪管
+plustic:pipe_piece:0, 南瓜 枪管
+plustic:pipe_piece:0, 便便 枪管
 plustic:pipe_piece:0, 耐酸铝 枪管
 plustic:pipe_piece:0, 蓝宝石 枪管
 plustic:pipe_piece:0, 红宝石 枪管
@@ -24800,6 +26732,130 @@ netherendingores:ore_other_1:7, Overworld Gravitite Ore
 netherendingores:ore_other_1:8, Overworld Zanite Ore
 netherendingores:ore_other_1:9, Overworld Arkenium Ore
 netherendingores:ore_other_1:10, Overworld Icestone Ore
+quark:roots, tile.roots.name
+quark:root, item.root.name
+quark:roots_blue_flower, tile.roots_blue_flower.name
+quark:roots_black_flower, tile.roots_black_flower.name
+quark:roots_white_flower, tile.roots_white_flower.name
+quark:root_flower:0, 蓝色洞穴块根
+quark:root_flower:1, 黑色洞穴块根
+quark:root_flower:2, 白色洞穴块根
+quark:root_dye:0, 蓝色染料
+quark:root_dye:1, 黑色染料
+quark:root_dye:2, 白色染料
+quark:diamond_heart, item.diamond_heart.name
+quark:archaeologist_hat, item.archaeologist_hat.name
+quark:variant_leaves:0, 沼泽木树叶
+quark:variant_leaves:1, 樱花树叶
+quark:variant_sapling:0, 沼泽木树苗
+quark:variant_sapling:1, 樱花树树苗
+quark:crystal:0, 白色洞穴水晶
+quark:crystal:1, 红色洞穴水晶
+quark:crystal:2, 橙色洞穴水晶
+quark:crystal:3, 黄色洞穴水晶
+quark:crystal:4, 绿色洞穴水晶
+quark:crystal:5, 青色洞穴水晶
+quark:crystal:6, 蓝色洞穴水晶
+quark:crystal:7, 紫色洞穴水晶
+quark:crystal:8, 黑色洞穴水晶
+quark:crystal_pane:0, 白色洞穴水晶薄板
+quark:crystal_pane:1, 红色洞穴水晶薄板
+quark:crystal_pane:2, 橙色洞穴水晶薄板
+quark:crystal_pane:3, 黄色洞穴水晶薄板
+quark:crystal_pane:4, 绿色洞穴水晶薄板
+quark:crystal_pane:5, 青色洞穴水晶薄板
+quark:crystal_pane:6, 蓝色洞穴水晶薄板
+quark:crystal_pane:7, 紫色洞穴水晶薄板
+quark:crystal_pane:8, 黑色洞穴水晶薄板
+quark:stone_speleothem, tile.stone_speleothem.name
+quark:granite_speleothem, tile.granite_speleothem.name
+quark:diorite_speleothem, tile.diorite_speleothem.name
+quark:andesite_speleothem, tile.andesite_speleothem.name
+quark:netherrack_speleothem, tile.netherrack_speleothem.name
+quark:basalt_speleothem, tile.basalt_speleothem.name
+quark:marble_speleothem, tile.marble_speleothem.name
+quark:limestone_speleothem, tile.limestone_speleothem.name
+quark:jasper_speleothem, tile.jasper_speleothem.name
+quark:slate_speleothem, tile.slate_speleothem.name
+quark:biotite_ore, tile.biotite_ore.name
+quark:biotite_block:0, 云母块
+quark:biotite_block:1, 錾制云母块
+quark:biotite_block:2, 竖纹云母块
+quark:biotite, item.biotite.name
+quark:biotite_slab:0, 云母台阶
+quark:biotite_stairs, tile.biotite_stairs.name
+quark:biotite_wall, tile.biotite_wall.name
+quark:monster_box, 陷阱刷怪箱
+quark:basalt:0, 玄武岩
+quark:basalt:1, 磨制玄武岩
+quark:stone_basalt_slab:0, 玄武岩台阶
+quark:stone_basalt_stairs, tile.stone_basalt_stairs.name
+quark:basalt_wall, tile.basalt_wall.name
+quark:frog_leg, 蟾蜍腿
+quark:cooked_frog_leg, 煮熟的蟾蜍腿
+quark:golden_frog_leg, item.golden_frog_leg.name
+quark:pirate_hat, 海盗帽
+quark:crab_leg, item.crab_leg.name
+quark:cooked_crab_leg, item.cooked_crab_leg.name
+quark:crab_shell, item.crab_shell.name
+quark:marble:0, 大理石
+quark:marble:1, 磨制大理石
+quark:stone_marble_slab:0, 大理石台阶
+quark:stone_marble_stairs, tile.stone_marble_stairs.name
+quark:marble_wall, tile.marble_wall.name
+quark:limestone:0, 石灰石
+quark:limestone:1, 磨制石灰石
+quark:stone_limestone_slab:0, 石灰石台阶
+quark:stone_limestone_stairs, tile.stone_limestone_stairs.name
+quark:limestone_wall, tile.limestone_wall.name
+quark:jasper:0, 黄石
+quark:jasper:1, 磨制黄石
+quark:stone_jasper_slab:0, 黄石台阶
+quark:stone_jasper_stairs, tile.stone_jasper_stairs.name
+quark:jasper_wall, tile.jasper_wall.name
+quark:slate:0, 青石
+quark:slate:1, 磨制青石
+quark:stone_slate_slab:0, 青石台阶
+quark:stone_slate_stairs, tile.stone_slate_stairs.name
+quark:slate_wall, tile.slate_wall.name
+quark:biome_cobblestone:0, 硫黄石
+quark:biome_cobblestone:1, 永冻石
+quark:biome_cobblestone:2, 鹅卵石
+quark:biome_brick:0, 硫黄石砖
+quark:biome_brick:1, 永冻石砖
+quark:elder_prismarine:0, 老化海晶石
+quark:elder_prismarine:1, 老化海晶石砖
+quark:elder_prismarine:2, 黑暗老化海晶石
+quark:elder_sea_lantern, tile.elder_sea_lantern.name
+quark:fire_stone_slab:0, 硫黄石台阶
+quark:fire_stone_stairs, tile.fire_stone_stairs.name
+quark:fire_stone_brick_slab:0, 硫黄石砖台阶
+quark:fire_stone_brick_stairs, tile.fire_stone_brick_stairs.name
+quark:icy_stone_slab:0, 永冻石台阶
+quark:icy_stone_stairs, tile.icy_stone_stairs.name
+quark:icy_stone_brick_slab:0, 永冻石砖台阶
+quark:icy_stone_brick_stairs, tile.icy_stone_brick_stairs.name
+quark:cobbed_stone_slab:0, 鹅卵石台阶
+quark:cobbed_stone_stairs, tile.cobbed_stone_stairs.name
+quark:elder_prismarine_slab:0, 老化海晶石台阶
+quark:elder_prismarine_stairs, tile.elder_prismarine_stairs.name
+quark:elder_prismarine_bricks_slab:0, 老化海晶石转台阶
+quark:elder_prismarine_bricks_stairs, tile.elder_prismarine_bricks_stairs.name
+quark:elder_prismarine_dark_slab:0, 黑暗老化海晶石台阶
+quark:elder_prismarine_dark_stairs, tile.elder_prismarine_dark_stairs.name
+quark:fire_stone_wall, tile.fire_stone_wall.name
+quark:icy_stone_wall, tile.icy_stone_wall.name
+quark:cobbed_stone_wall, tile.cobbed_stone_wall.name
+quark:fire_stone_brick_wall, tile.fire_stone_brick_wall.name
+quark:icy_stone_brick_wall, tile.icy_stone_brick_wall.name
+quark:elder_prismarine_wall, tile.elder_prismarine_wall.name
+quark:elder_prismarine_bricks_wall, tile.elder_prismarine_bricks_wall.name
+quark:elder_prismarine_dark_wall, tile.elder_prismarine_dark_wall.name
+quark:glowcelium, 荧光菌丝
+quark:glowshroom, tile.glowshroom.name
+quark:glowshroom_block, tile.glowshroom_block.name
+quark:soul_bead, item.soul_bead.name
+quark:smoker, 烟口
 quark:witch_hat, item.witch_hat.name
 quark:chute, 滑槽漏斗
 quark:sugar_block, 结晶砂糖
@@ -24817,23 +26873,6 @@ quark:redstone_inductor, tile.redstone_inductor.name
 quark:obsidian_pressure_plate, tile.obsidian_pressure_plate.name
 quark:rain_detector, tile.rain_detector.name
 quark:chain, item.chain.name
-quark:glass_shards:0, 玻璃碎片
-quark:glass_shards:1, 白色玻璃碎片
-quark:glass_shards:2, 橙色玻璃碎片
-quark:glass_shards:3, 品红色玻璃碎片
-quark:glass_shards:4, 淡蓝色玻璃碎片
-quark:glass_shards:5, 黄色玻璃碎片
-quark:glass_shards:6, 黄绿色玻璃碎片
-quark:glass_shards:7, 粉红色玻璃碎片
-quark:glass_shards:8, 灰色玻璃碎片
-quark:glass_shards:9, 淡灰色玻璃碎片
-quark:glass_shards:10, 青色玻璃碎片
-quark:glass_shards:11, 紫色玻璃碎片
-quark:glass_shards:12, 蓝色玻璃碎片
-quark:glass_shards:13, 棕色玻璃碎片
-quark:glass_shards:14, 绿色玻璃碎片
-quark:glass_shards:15, 红色玻璃碎片
-quark:glass_shards:16, 黑色玻璃碎片
 quark:spruce_trapdoor, tile.spruce_trapdoor.name
 quark:birch_trapdoor, tile.birch_trapdoor.name
 quark:jungle_trapdoor, tile.jungle_trapdoor.name
@@ -25284,130 +27323,23 @@ quark:parrot_egg:2, 绿色鹦鹉蛋
 quark:parrot_egg:3, 青色鹦鹉蛋
 quark:parrot_egg:4, 灰色鹦鹉蛋
 quark:enderdragon_scale, item.enderdragon_scale.name
-quark:roots, tile.roots.name
-quark:root, item.root.name
-quark:roots_blue_flower, tile.roots_blue_flower.name
-quark:roots_black_flower, tile.roots_black_flower.name
-quark:roots_white_flower, tile.roots_white_flower.name
-quark:root_flower:0, 蓝色洞穴块根
-quark:root_flower:1, 黑色洞穴块根
-quark:root_flower:2, 白色洞穴块根
-quark:root_dye:0, 蓝色染料
-quark:root_dye:1, 黑色染料
-quark:root_dye:2, 白色染料
-quark:diamond_heart, item.diamond_heart.name
-quark:archaeologist_hat, item.archaeologist_hat.name
-quark:variant_leaves:0, 沼泽木树叶
-quark:variant_leaves:1, 樱花树叶
-quark:variant_sapling:0, 沼泽木树苗
-quark:variant_sapling:1, 樱花树树苗
-quark:crystal:0, 白色洞穴水晶
-quark:crystal:1, 红色洞穴水晶
-quark:crystal:2, 橙色洞穴水晶
-quark:crystal:3, 黄色洞穴水晶
-quark:crystal:4, 绿色洞穴水晶
-quark:crystal:5, 青色洞穴水晶
-quark:crystal:6, 蓝色洞穴水晶
-quark:crystal:7, 紫色洞穴水晶
-quark:crystal:8, 黑色洞穴水晶
-quark:crystal_pane:0, 白色洞穴水晶薄板
-quark:crystal_pane:1, 红色洞穴水晶薄板
-quark:crystal_pane:2, 橙色洞穴水晶薄板
-quark:crystal_pane:3, 黄色洞穴水晶薄板
-quark:crystal_pane:4, 绿色洞穴水晶薄板
-quark:crystal_pane:5, 青色洞穴水晶薄板
-quark:crystal_pane:6, 蓝色洞穴水晶薄板
-quark:crystal_pane:7, 紫色洞穴水晶薄板
-quark:crystal_pane:8, 黑色洞穴水晶薄板
-quark:stone_speleothem, tile.stone_speleothem.name
-quark:granite_speleothem, tile.granite_speleothem.name
-quark:diorite_speleothem, tile.diorite_speleothem.name
-quark:andesite_speleothem, tile.andesite_speleothem.name
-quark:netherrack_speleothem, tile.netherrack_speleothem.name
-quark:basalt_speleothem, tile.basalt_speleothem.name
-quark:marble_speleothem, tile.marble_speleothem.name
-quark:limestone_speleothem, tile.limestone_speleothem.name
-quark:jasper_speleothem, tile.jasper_speleothem.name
-quark:slate_speleothem, tile.slate_speleothem.name
-quark:biotite_ore, tile.biotite_ore.name
-quark:biotite_block:0, 云母块
-quark:biotite_block:1, 錾制云母块
-quark:biotite_block:2, 竖纹云母块
-quark:biotite, item.biotite.name
-quark:biotite_slab:0, 云母台阶
-quark:biotite_stairs, tile.biotite_stairs.name
-quark:biotite_wall, tile.biotite_wall.name
-quark:monster_box, 陷阱刷怪箱
-quark:basalt:0, 玄武岩
-quark:basalt:1, 磨制玄武岩
-quark:stone_basalt_slab:0, 玄武岩台阶
-quark:stone_basalt_stairs, tile.stone_basalt_stairs.name
-quark:basalt_wall, tile.basalt_wall.name
-quark:frog_leg, 蟾蜍腿
-quark:cooked_frog_leg, 煮熟的蟾蜍腿
-quark:golden_frog_leg, item.golden_frog_leg.name
-quark:pirate_hat, 海盗帽
-quark:crab_leg, item.crab_leg.name
-quark:cooked_crab_leg, item.cooked_crab_leg.name
-quark:crab_shell, item.crab_shell.name
-quark:marble:0, 大理石
-quark:marble:1, 磨制大理石
-quark:stone_marble_slab:0, 大理石台阶
-quark:stone_marble_stairs, tile.stone_marble_stairs.name
-quark:marble_wall, tile.marble_wall.name
-quark:limestone:0, 石灰石
-quark:limestone:1, 磨制石灰石
-quark:stone_limestone_slab:0, 石灰石台阶
-quark:stone_limestone_stairs, tile.stone_limestone_stairs.name
-quark:limestone_wall, tile.limestone_wall.name
-quark:jasper:0, 黄石
-quark:jasper:1, 磨制黄石
-quark:stone_jasper_slab:0, 黄石台阶
-quark:stone_jasper_stairs, tile.stone_jasper_stairs.name
-quark:jasper_wall, tile.jasper_wall.name
-quark:slate:0, 青石
-quark:slate:1, 磨制青石
-quark:stone_slate_slab:0, 青石台阶
-quark:stone_slate_stairs, tile.stone_slate_stairs.name
-quark:slate_wall, tile.slate_wall.name
-quark:biome_cobblestone:0, 硫黄石
-quark:biome_cobblestone:1, 永冻石
-quark:biome_cobblestone:2, 鹅卵石
-quark:biome_brick:0, 硫黄石砖
-quark:biome_brick:1, 永冻石砖
-quark:elder_prismarine:0, 老化海晶石
-quark:elder_prismarine:1, 老化海晶石砖
-quark:elder_prismarine:2, 黑暗老化海晶石
-quark:elder_sea_lantern, tile.elder_sea_lantern.name
-quark:fire_stone_slab:0, 硫黄石台阶
-quark:fire_stone_stairs, tile.fire_stone_stairs.name
-quark:fire_stone_brick_slab:0, 硫黄石砖台阶
-quark:fire_stone_brick_stairs, tile.fire_stone_brick_stairs.name
-quark:icy_stone_slab:0, 永冻石台阶
-quark:icy_stone_stairs, tile.icy_stone_stairs.name
-quark:icy_stone_brick_slab:0, 永冻石砖台阶
-quark:icy_stone_brick_stairs, tile.icy_stone_brick_stairs.name
-quark:cobbed_stone_slab:0, 鹅卵石台阶
-quark:cobbed_stone_stairs, tile.cobbed_stone_stairs.name
-quark:elder_prismarine_slab:0, 老化海晶石台阶
-quark:elder_prismarine_stairs, tile.elder_prismarine_stairs.name
-quark:elder_prismarine_bricks_slab:0, 老化海晶石转台阶
-quark:elder_prismarine_bricks_stairs, tile.elder_prismarine_bricks_stairs.name
-quark:elder_prismarine_dark_slab:0, 黑暗老化海晶石台阶
-quark:elder_prismarine_dark_stairs, tile.elder_prismarine_dark_stairs.name
-quark:fire_stone_wall, tile.fire_stone_wall.name
-quark:icy_stone_wall, tile.icy_stone_wall.name
-quark:cobbed_stone_wall, tile.cobbed_stone_wall.name
-quark:fire_stone_brick_wall, tile.fire_stone_brick_wall.name
-quark:icy_stone_brick_wall, tile.icy_stone_brick_wall.name
-quark:elder_prismarine_wall, tile.elder_prismarine_wall.name
-quark:elder_prismarine_bricks_wall, tile.elder_prismarine_bricks_wall.name
-quark:elder_prismarine_dark_wall, tile.elder_prismarine_dark_wall.name
-quark:glowcelium, 荧光菌丝
-quark:glowshroom, tile.glowshroom.name
-quark:glowshroom_block, tile.glowshroom_block.name
-quark:soul_bead, item.soul_bead.name
-quark:smoker, 烟口
+quark:glass_shards:0, 玻璃碎片
+quark:glass_shards:1, 白色玻璃碎片
+quark:glass_shards:2, 橙色玻璃碎片
+quark:glass_shards:3, 品红色玻璃碎片
+quark:glass_shards:4, 淡蓝色玻璃碎片
+quark:glass_shards:5, 黄色玻璃碎片
+quark:glass_shards:6, 黄绿色玻璃碎片
+quark:glass_shards:7, 粉红色玻璃碎片
+quark:glass_shards:8, 灰色玻璃碎片
+quark:glass_shards:9, 淡灰色玻璃碎片
+quark:glass_shards:10, 青色玻璃碎片
+quark:glass_shards:11, 紫色玻璃碎片
+quark:glass_shards:12, 蓝色玻璃碎片
+quark:glass_shards:13, 棕色玻璃碎片
+quark:glass_shards:14, 绿色玻璃碎片
+quark:glass_shards:15, 红色玻璃碎片
+quark:glass_shards:16, 黑色玻璃碎片
 morphtool:tool, item.tool.name
 akashictome:tome, item.tome.name
 coroutil:repairing_block, 修复方块
@@ -25552,6 +27484,64 @@ tinkersaether:mouthpiece:0, 初级精华 吹嘴
 tinkersaether:mouthpiece:0, 中级精华 吹嘴
 tinkersaether:mouthpiece:0, 高级精华 吹嘴
 tinkersaether:mouthpiece:0, 终极精华 吹嘴
+tinkersaether:mouthpiece:0, 奶酪 吹嘴
+tinkersaether:mouthpiece:0, 究极精华 吹嘴
+tinkersaether:mouthpiece:0, 聚合矩阵 吹嘴
+tinkersaether:mouthpiece:0, 知识精华 吹嘴
+tinkersaether:mouthpiece:0, 永燃 吹嘴
+tinkersaether:mouthpiece:0, 钛金 吹嘴
+tinkersaether:mouthpiece:0, 极寒 吹嘴
+tinkersaether:mouthpiece:0, 铝黄铜 吹嘴
+tinkersaether:mouthpiece:0, 钻石 吹嘴
+tinkersaether:mouthpiece:0, 金质吹嘴
+tinkersaether:mouthpiece:0, 煤 吹嘴
+tinkersaether:mouthpiece:0, 伊桑斯 吹嘴
+tinkersaether:mouthpiece:0, 绯红宝石 吹嘴
+tinkersaether:mouthpiece:0, 赫菲斯辛 吹嘴
+tinkersaether:mouthpiece:0, 秘银 吹嘴
+tinkersaether:mouthpiece:0, 铿金 吹嘴
+tinkersaether:mouthpiece:0, 秘金 吹嘴
+tinkersaether:mouthpiece:0, 毁灭 吹嘴
+tinkersaether:mouthpiece:0, 忏悔宝石 吹嘴
+tinkersaether:mouthpiece:0, 盖亚魂 吹嘴
+tinkersaether:mouthpiece:0, 胞嘧 吹嘴
+tinkersaether:mouthpiece:0, 大地合金 吹嘴
+tinkersaether:mouthpiece:0, 恒星合金 吹嘴
+tinkersaether:mouthpiece:0, 寰宇 吹嘴
+tinkersaether:mouthpiece:0, 星辰 吹嘴
+tinkersaether:mouthpiece:0, 奥利哈刚 吹嘴
+tinkersaether:mouthpiece:0, 黄铀 吹嘴
+tinkersaether:mouthpiece:0, 巧克力 吹嘴
+tinkersaether:mouthpiece:0, 辛西纳石 吹嘴
+tinkersaether:mouthpiece:0, 霜晶 吹嘴
+tinkersaether:mouthpiece:0, 末影云母 吹嘴
+tinkersaether:mouthpiece:0, 豆腐宝石 吹嘴
+tinkersaether:mouthpiece:0, 强化豆腐宝石 吹嘴
+tinkersaether:mouthpiece:0, 樱色钻石 吹嘴
+tinkersaether:mouthpiece:0, 泥巴 吹嘴
+tinkersaether:mouthpiece:0, 空间碎片 吹嘴
+tinkersaether:mouthpiece:0, 水晶之心 吹嘴
+tinkersaether:mouthpiece:0, 基岩 吹嘴
+tinkersaether:mouthpiece:0, 云浮 吹嘴
+tinkersaether:mouthpiece:0, 神金 吹嘴
+tinkersaether:mouthpiece:0, 暗影 吹嘴
+tinkersaether:mouthpiece:0, 下界合金 吹嘴
+tinkersaether:mouthpiece:0, 焦黑石头 吹嘴
+tinkersaether:mouthpiece:0, 高炉砖 吹嘴
+tinkersaether:mouthpiece:0, 模块化合金 吹嘴
+tinkersaether:mouthpiece:0, 陨星 吹嘴
+tinkersaether:mouthpiece:0, 铬 吹嘴
+tinkersaether:mouthpiece:0, 不锈钢 吹嘴
+tinkersaether:mouthpiece:0, 质子 吹嘴
+tinkersaether:mouthpiece:0, 电子 吹嘴
+tinkersaether:mouthpiece:0, 猩红 吹嘴
+tinkersaether:mouthpiece:0, 水华 吹嘴
+tinkersaether:mouthpiece:0, 锰铁 吹嘴
+tinkersaether:mouthpiece:0, 锰钢 吹嘴
+tinkersaether:mouthpiece:0, 天地宝晶 吹嘴
+tinkersaether:mouthpiece:0, 完美 吹嘴
+tinkersaether:mouthpiece:0, 南瓜 吹嘴
+tinkersaether:mouthpiece:0, 便便 吹嘴
 tinkersaether:mouthpiece:0, 耐酸铝 吹嘴
 tinkersaether:mouthpiece:0, 蓝宝石 吹嘴
 tinkersaether:mouthpiece:0, 红宝石 吹嘴
@@ -25743,6 +27733,64 @@ tinkersaether:tube:0, 初级精华 吹管
 tinkersaether:tube:0, 中级精华 吹管
 tinkersaether:tube:0, 高级精华 吹管
 tinkersaether:tube:0, 终极精华 吹管
+tinkersaether:tube:0, 奶酪 吹管
+tinkersaether:tube:0, 究极精华 吹管
+tinkersaether:tube:0, 聚合矩阵 吹管
+tinkersaether:tube:0, 知识精华 吹管
+tinkersaether:tube:0, 永燃 吹管
+tinkersaether:tube:0, 钛金 吹管
+tinkersaether:tube:0, 极寒 吹管
+tinkersaether:tube:0, 铝黄铜 吹管
+tinkersaether:tube:0, 钻石 吹管
+tinkersaether:tube:0, 金质吹管
+tinkersaether:tube:0, 煤 吹管
+tinkersaether:tube:0, 伊桑斯 吹管
+tinkersaether:tube:0, 绯红宝石 吹管
+tinkersaether:tube:0, 赫菲斯辛 吹管
+tinkersaether:tube:0, 秘银 吹管
+tinkersaether:tube:0, 铿金 吹管
+tinkersaether:tube:0, 秘金 吹管
+tinkersaether:tube:0, 毁灭 吹管
+tinkersaether:tube:0, 忏悔宝石 吹管
+tinkersaether:tube:0, 盖亚魂 吹管
+tinkersaether:tube:0, 胞嘧 吹管
+tinkersaether:tube:0, 大地合金 吹管
+tinkersaether:tube:0, 恒星合金 吹管
+tinkersaether:tube:0, 寰宇 吹管
+tinkersaether:tube:0, 星辰 吹管
+tinkersaether:tube:0, 奥利哈刚 吹管
+tinkersaether:tube:0, 黄铀 吹管
+tinkersaether:tube:0, 巧克力 吹管
+tinkersaether:tube:0, 辛西纳石 吹管
+tinkersaether:tube:0, 霜晶 吹管
+tinkersaether:tube:0, 末影云母 吹管
+tinkersaether:tube:0, 豆腐宝石 吹管
+tinkersaether:tube:0, 强化豆腐宝石 吹管
+tinkersaether:tube:0, 樱色钻石 吹管
+tinkersaether:tube:0, 泥巴 吹管
+tinkersaether:tube:0, 空间碎片 吹管
+tinkersaether:tube:0, 水晶之心 吹管
+tinkersaether:tube:0, 基岩 吹管
+tinkersaether:tube:0, 云浮 吹管
+tinkersaether:tube:0, 神金 吹管
+tinkersaether:tube:0, 暗影 吹管
+tinkersaether:tube:0, 下界合金 吹管
+tinkersaether:tube:0, 焦黑石头 吹管
+tinkersaether:tube:0, 高炉砖 吹管
+tinkersaether:tube:0, 模块化合金 吹管
+tinkersaether:tube:0, 陨星 吹管
+tinkersaether:tube:0, 铬 吹管
+tinkersaether:tube:0, 不锈钢 吹管
+tinkersaether:tube:0, 质子 吹管
+tinkersaether:tube:0, 电子 吹管
+tinkersaether:tube:0, 猩红 吹管
+tinkersaether:tube:0, 水华 吹管
+tinkersaether:tube:0, 锰铁 吹管
+tinkersaether:tube:0, 锰钢 吹管
+tinkersaether:tube:0, 天地宝晶 吹管
+tinkersaether:tube:0, 完美 吹管
+tinkersaether:tube:0, 南瓜 吹管
+tinkersaether:tube:0, 便便 吹管
 tinkersaether:tube:0, 耐酸铝 吹管
 tinkersaether:tube:0, 蓝宝石 吹管
 tinkersaether:tube:0, 红宝石 吹管
@@ -25930,6 +27978,64 @@ tinkersaether:dart_tip:0, 初级精华 镖尖
 tinkersaether:dart_tip:0, 中级精华 镖尖
 tinkersaether:dart_tip:0, 高级精华 镖尖
 tinkersaether:dart_tip:0, 终极精华 镖尖
+tinkersaether:dart_tip:0, 奶酪 镖尖
+tinkersaether:dart_tip:0, 究极精华 镖尖
+tinkersaether:dart_tip:0, 聚合矩阵 镖尖
+tinkersaether:dart_tip:0, 知识精华 镖尖
+tinkersaether:dart_tip:0, 永燃 镖尖
+tinkersaether:dart_tip:0, 钛金 镖尖
+tinkersaether:dart_tip:0, 极寒 镖尖
+tinkersaether:dart_tip:0, 铝黄铜 镖尖
+tinkersaether:dart_tip:0, 钻石 镖尖
+tinkersaether:dart_tip:0, 金质镖尖
+tinkersaether:dart_tip:0, 煤 镖尖
+tinkersaether:dart_tip:0, 伊桑斯 镖尖
+tinkersaether:dart_tip:0, 绯红宝石 镖尖
+tinkersaether:dart_tip:0, 赫菲斯辛 镖尖
+tinkersaether:dart_tip:0, 秘银 镖尖
+tinkersaether:dart_tip:0, 铿金 镖尖
+tinkersaether:dart_tip:0, 秘金 镖尖
+tinkersaether:dart_tip:0, 毁灭 镖尖
+tinkersaether:dart_tip:0, 忏悔宝石 镖尖
+tinkersaether:dart_tip:0, 盖亚魂 镖尖
+tinkersaether:dart_tip:0, 胞嘧 镖尖
+tinkersaether:dart_tip:0, 大地合金 镖尖
+tinkersaether:dart_tip:0, 恒星合金 镖尖
+tinkersaether:dart_tip:0, 寰宇 镖尖
+tinkersaether:dart_tip:0, 星辰 镖尖
+tinkersaether:dart_tip:0, 奥利哈刚 镖尖
+tinkersaether:dart_tip:0, 黄铀 镖尖
+tinkersaether:dart_tip:0, 巧克力 镖尖
+tinkersaether:dart_tip:0, 辛西纳石 镖尖
+tinkersaether:dart_tip:0, 霜晶 镖尖
+tinkersaether:dart_tip:0, 末影云母 镖尖
+tinkersaether:dart_tip:0, 豆腐宝石 镖尖
+tinkersaether:dart_tip:0, 强化豆腐宝石 镖尖
+tinkersaether:dart_tip:0, 樱色钻石 镖尖
+tinkersaether:dart_tip:0, 泥巴 镖尖
+tinkersaether:dart_tip:0, 空间碎片 镖尖
+tinkersaether:dart_tip:0, 水晶之心 镖尖
+tinkersaether:dart_tip:0, 基岩 镖尖
+tinkersaether:dart_tip:0, 云浮 镖尖
+tinkersaether:dart_tip:0, 神金 镖尖
+tinkersaether:dart_tip:0, 暗影 镖尖
+tinkersaether:dart_tip:0, 下界合金 镖尖
+tinkersaether:dart_tip:0, 焦黑石头 镖尖
+tinkersaether:dart_tip:0, 高炉砖 镖尖
+tinkersaether:dart_tip:0, 模块化合金 镖尖
+tinkersaether:dart_tip:0, 陨星 镖尖
+tinkersaether:dart_tip:0, 铬 镖尖
+tinkersaether:dart_tip:0, 不锈钢 镖尖
+tinkersaether:dart_tip:0, 质子 镖尖
+tinkersaether:dart_tip:0, 电子 镖尖
+tinkersaether:dart_tip:0, 猩红 镖尖
+tinkersaether:dart_tip:0, 水华 镖尖
+tinkersaether:dart_tip:0, 锰铁 镖尖
+tinkersaether:dart_tip:0, 锰钢 镖尖
+tinkersaether:dart_tip:0, 天地宝晶 镖尖
+tinkersaether:dart_tip:0, 完美 镖尖
+tinkersaether:dart_tip:0, 南瓜 镖尖
+tinkersaether:dart_tip:0, 便便 镖尖
 tinkersaether:dart_tip:0, 耐酸铝 镖尖
 tinkersaether:dart_tip:0, 蓝宝石 镖尖
 tinkersaether:dart_tip:0, 红宝石 镖尖
@@ -26354,6 +28460,64 @@ tcomplement:chisel_head:0, 初级精华 凿子头
 tcomplement:chisel_head:0, 中级精华 凿子头
 tcomplement:chisel_head:0, 高级精华 凿子头
 tcomplement:chisel_head:0, 终极精华 凿子头
+tcomplement:chisel_head:0, 奶酪 凿子头
+tcomplement:chisel_head:0, 究极精华 凿子头
+tcomplement:chisel_head:0, 聚合矩阵 凿子头
+tcomplement:chisel_head:0, 知识精华 凿子头
+tcomplement:chisel_head:0, 永燃 凿子头
+tcomplement:chisel_head:0, 钛金 凿子头
+tcomplement:chisel_head:0, 极寒 凿子头
+tcomplement:chisel_head:0, 铝黄铜 凿子头
+tcomplement:chisel_head:0, 钻石 凿子头
+tcomplement:chisel_head:0, 金质凿子头
+tcomplement:chisel_head:0, 煤 凿子头
+tcomplement:chisel_head:0, 伊桑斯 凿子头
+tcomplement:chisel_head:0, 绯红宝石 凿子头
+tcomplement:chisel_head:0, 赫菲斯辛 凿子头
+tcomplement:chisel_head:0, 秘银 凿子头
+tcomplement:chisel_head:0, 铿金 凿子头
+tcomplement:chisel_head:0, 秘金 凿子头
+tcomplement:chisel_head:0, 毁灭 凿子头
+tcomplement:chisel_head:0, 忏悔宝石 凿子头
+tcomplement:chisel_head:0, 盖亚魂 凿子头
+tcomplement:chisel_head:0, 胞嘧 凿子头
+tcomplement:chisel_head:0, 大地合金 凿子头
+tcomplement:chisel_head:0, 恒星合金 凿子头
+tcomplement:chisel_head:0, 寰宇 凿子头
+tcomplement:chisel_head:0, 星辰 凿子头
+tcomplement:chisel_head:0, 奥利哈刚 凿子头
+tcomplement:chisel_head:0, 黄铀 凿子头
+tcomplement:chisel_head:0, 巧克力 凿子头
+tcomplement:chisel_head:0, 辛西纳石 凿子头
+tcomplement:chisel_head:0, 霜晶 凿子头
+tcomplement:chisel_head:0, 末影云母 凿子头
+tcomplement:chisel_head:0, 豆腐宝石 凿子头
+tcomplement:chisel_head:0, 强化豆腐宝石 凿子头
+tcomplement:chisel_head:0, 樱色钻石 凿子头
+tcomplement:chisel_head:0, 泥巴 凿子头
+tcomplement:chisel_head:0, 空间碎片 凿子头
+tcomplement:chisel_head:0, 水晶之心 凿子头
+tcomplement:chisel_head:0, 基岩 凿子头
+tcomplement:chisel_head:0, 云浮 凿子头
+tcomplement:chisel_head:0, 神金 凿子头
+tcomplement:chisel_head:0, 暗影 凿子头
+tcomplement:chisel_head:0, 下界合金 凿子头
+tcomplement:chisel_head:0, 焦黑石头 凿子头
+tcomplement:chisel_head:0, 高炉砖 凿子头
+tcomplement:chisel_head:0, 模块化合金 凿子头
+tcomplement:chisel_head:0, 陨星 凿子头
+tcomplement:chisel_head:0, 铬 凿子头
+tcomplement:chisel_head:0, 不锈钢 凿子头
+tcomplement:chisel_head:0, 质子 凿子头
+tcomplement:chisel_head:0, 电子 凿子头
+tcomplement:chisel_head:0, 猩红 凿子头
+tcomplement:chisel_head:0, 水华 凿子头
+tcomplement:chisel_head:0, 锰铁 凿子头
+tcomplement:chisel_head:0, 锰钢 凿子头
+tcomplement:chisel_head:0, 天地宝晶 凿子头
+tcomplement:chisel_head:0, 完美 凿子头
+tcomplement:chisel_head:0, 南瓜 凿子头
+tcomplement:chisel_head:0, 便便 凿子头
 tcomplement:chisel_head:0, 耐酸铝 凿子头
 tcomplement:chisel_head:0, 蓝宝石 凿子头
 tcomplement:chisel_head:0, 红宝石 凿子头
@@ -26734,15 +28898,15 @@ dungeons2:wall_sconce_sandstone, Sandstone Wall Sconce
 dungeons2:wall_sconce_smooth_sandstone, Smooth Sandstone Wall Sconce
 dungeons2:grate, Grate
 dungeons2:sandstone_gravel, Sandstone Gravel
+aeble:obsidian_ring, 黑曜之戒
+aeble:luck_belt, 幸运皮带
 aeble:repulsion_belt, 排斥皮带
+aeble:bubble_ring, 泡泡之戒
 aeble:air_ring, 空气之戒
 aeble:regeneration_ring, 重生之戒
-aeble:obsidian_ring, 黑曜之戒
-aeble:zanite_ring, 紫晶之戒
-aeble:ice_ring, 冰冻之戒
-aeble:bubble_ring, 泡泡之戒
 aeble:valkyrie_belt, 女武神皮带
-aeble:luck_belt, 幸运皮带
+aeble:ice_ring, 冰冻之戒
+aeble:zanite_ring, 紫晶之戒
 snad:snad:0, 子沙
 snad:snad:1, 红子沙
 treasure2:wood_chest, 木宝箱
@@ -28615,35 +30779,35 @@ bloodarsenal:soul_pendant:1, [细块]灵魂垂饰
 bloodarsenal:soul_pendant:2, [普通]灵魂垂饰
 bloodarsenal:soul_pendant:3, [较大]灵魂垂饰
 bloodarsenal:soul_pendant:4, [精致]灵魂垂饰
-nyx:meteor_rock, 陨星石
-nyx:meteor_sword, 陨星剑
+nyx:unrefined_crystal, 未精炼的纯净水晶
 nyx:meteor_glass, 陨星玻璃
-nyx:meteor_hammer, 陨星锤
-nyx:meteor_block, 陨星块
-nyx:meteor_shard, 陨星碎片
-nyx:meteor_finder, 陨星定位器
-nyx:star_block, 流星块
 nyx:meteor_helm, 陨星头盔
-nyx:meteor_pants, 陨星护腿
-nyx:meteor_chest, 陨星胸甲
-nyx:meteor_dust, 陨星尘
-nyx:chiseled_star_block, 錾制流星块
-nyx:crystal, 纯净水晶
-nyx:meteor_ingot, 陨星锭
-nyx:meteor_shovel, 陨星铲
+nyx:scythe, 收集之镰
+nyx:meteor_block, 陨星块
 nyx:cracked_star_block, 破裂流星块
 nyx:meteor_hoe, 陨星锄
-nyx:meteor_boots, 陨星靴子
-nyx:star_stairs, 流星块楼梯
-nyx:lunar_water_bottle, 瓶装月露
-nyx:scythe, 收集之镰
-nyx:gleaning_meteor_rock, 纯净陨石块
-nyx:meteor_pickaxe, 陨星镐
-nyx:meteor_axe, 陨星斧
-nyx:star_slab, 流星块台阶
-nyx:unrefined_crystal, 未精炼的纯净水晶
-nyx:meteor_bow, 陨星加强弓
+nyx:star_block, 流星块
 nyx:fallen_star, 落星
+nyx:meteor_rock, 陨星石
+nyx:star_slab, 流星块台阶
+nyx:meteor_axe, 陨星斧
+nyx:meteor_shovel, 陨星铲
+nyx:meteor_hammer, 陨星锤
+nyx:star_stairs, 流星块楼梯
+nyx:meteor_finder, 陨星定位器
+nyx:meteor_bow, 陨星加强弓
+nyx:meteor_pickaxe, 陨星镐
+nyx:lunar_water_bottle, 瓶装月露
+nyx:meteor_chest, 陨星胸甲
+nyx:chiseled_star_block, 錾制流星块
+nyx:gleaning_meteor_rock, 纯净陨石块
+nyx:meteor_dust, 陨星尘
+nyx:crystal, 纯净水晶
+nyx:meteor_sword, 陨星剑
+nyx:meteor_boots, 陨星靴子
+nyx:meteor_shard, 陨星碎片
+nyx:meteor_ingot, 陨星锭
+nyx:meteor_pants, 陨星护腿
 stygian:endlog, 龙树原木
 stygian:endplanks, 龙木木板
 stygian:endleaves, 龙树树叶
@@ -28791,36 +30955,36 @@ mysticalcreations:stainless_steel_seeds, 不锈钢种子
 mysticalcreations:fusion_matrix_crop, tile.fusion_matrix_crop.name
 mysticalcreations:fusion_matrix_essence, 聚合矩阵精华
 mysticalcreations:fusion_matrix_seeds, 聚合矩阵种子
-thaumicwonders:primordial_accelerator, 元始加速器
-thaumicwonders:creative_essentia_jar, 创造模式源质罐子
-thaumicwonders:placeholder_void_metal_block, 元始积聚室
-thaumicwonders:vishroom_crop, 纤毛姑
-thaumicwonders:void_beacon, 虚空信标
-thaumicwonders:hexamite, 乌洛托品（魔法版01型）
-thaumicwonders:madness_engine, 疯狂引擎
-thaumicwonders:flux_capacitor, 咒波容器
-thaumicwonders:primordial_accelerator_tunnel, 元始加速轨道
-thaumicwonders:coalescence_matrix, 聚合矩阵
-thaumicwonders:flux_distiller, 咒波蒸馏器
-thaumicwonders:shimmerleaf_crop, 水银花
-thaumicwonders:placeholder_obsidian, 催化室
-thaumicwonders:meteorb, 气象之球
-thaumicwonders:placeholder_adv_alch_construct, 元始积聚室
-thaumicwonders:placeholder_thaumium_block, 元始积聚室
-thaumicwonders:alkahest_vat, 万能溶剂之锅
-thaumicwonders:catalyzation_chamber, 催化室
-thaumicwonders:meaty_orb, 嗜肉之球
-thaumicwonders:coalescence_matrix_precursor, 聚合矩阵
-thaumicwonders:portal_generator, 传送门生成器
-thaumicwonders:primordial_accelerator_terminus, 元始加速冲撞终端
-thaumicwonders:placeholder_arcane_stone, 催化室
-thaumicwonders:dimensional_ripper, 维度撕裂器
-thaumicwonders:everburning_urn, 永燃之瓮
-thaumicwonders:inspiration_engine, 灵感引擎
-thaumicwonders:ore_diviner, 矿石探测器
 thaumicwonders:cinderpearl_crop, 火焰草
-thaumicwonders:primordial_accretion_chamber, 元始积聚室
+thaumicwonders:portal_generator, 传送门生成器
+thaumicwonders:shimmerleaf_crop, 水银花
+thaumicwonders:flux_capacitor, 咒波容器
+thaumicwonders:flux_distiller, 咒波蒸馏器
+thaumicwonders:coalescence_matrix, 聚合矩阵
+thaumicwonders:dimensional_ripper, 维度撕裂器
+thaumicwonders:ore_diviner, 矿石探测器
+thaumicwonders:everburning_urn, 永燃之瓮
+thaumicwonders:catalyzation_chamber, 催化室
+thaumicwonders:primordial_accelerator, 元始加速器
 thaumicwonders:portal_anchor, 传送锚
+thaumicwonders:vishroom_crop, 纤毛姑
+thaumicwonders:primordial_accelerator_terminus, 元始加速冲撞终端
+thaumicwonders:alkahest_vat, 万能溶剂之锅
+thaumicwonders:void_beacon, 虚空信标
+thaumicwonders:primordial_accretion_chamber, 元始积聚室
+thaumicwonders:placeholder_adv_alch_construct, 元始积聚室
+thaumicwonders:meaty_orb, 嗜肉之球
+thaumicwonders:creative_essentia_jar, 创造模式源质罐子
+thaumicwonders:hexamite, 乌洛托品（魔法版01型）
+thaumicwonders:placeholder_arcane_stone, 催化室
+thaumicwonders:coalescence_matrix_precursor, 聚合矩阵
+thaumicwonders:primordial_accelerator_tunnel, 元始加速轨道
+thaumicwonders:placeholder_thaumium_block, 元始积聚室
+thaumicwonders:placeholder_void_metal_block, 元始积聚室
+thaumicwonders:inspiration_engine, 灵感引擎
+thaumicwonders:meteorb, 气象之球
+thaumicwonders:madness_engine, 疯狂引擎
+thaumicwonders:placeholder_obsidian, 催化室
 thaumicwonders:disjunction_cloth, 驱魔之布
 thaumicwonders:primal_destroyer, 元始毁灭者
 thaumicwonders:flying_carpet, 飞毯
@@ -31085,15 +33249,6 @@ chiselsandbits:block_bit:0, 雕刻碎屑 - 青铜块
 chiselsandbits:block_bit:0, 雕刻碎屑 - 灰砖
 chiselsandbits:block_bit:0, 雕刻碎屑 - 木炭块
 chiselsandbits:block_bit:0, 雕刻碎屑 - 壤土
-chiselsandbits:block_bit:0, 雕刻碎屑 - 蜜蜂蜂窝块
-chiselsandbits:block_bit:0, 雕刻碎屑 - 激化蜂窝块
-chiselsandbits:block_bit:0, 雕刻碎屑 - 纤维蜂窝块
-chiselsandbits:block_bit:0, 雕刻碎屑 - 冻结蜂窝块
-chiselsandbits:block_bit:0, 雕刻碎屑 - 滴水蜂窝块
-chiselsandbits:block_bit:0, 雕刻碎屑 - 丝滑蜂窝块
-chiselsandbits:block_bit:0, 雕刻碎屑 - 炎热蜂窝块
-chiselsandbits:block_bit:0, 雕刻碎屑 - 苔藓蜂窝块
-chiselsandbits:block_bit:0, 雕刻碎屑 - 醇厚蜂窝块
 chiselsandbits:block_bit:0, 雕刻碎屑 - 落叶树原木 上/下
 chiselsandbits:block_bit:0, 雕刻碎屑 - 柚树原木 上/下
 chiselsandbits:block_bit:0, 雕刻碎屑 - 金合欢树原木 上/下
@@ -31222,6 +33377,15 @@ chiselsandbits:block_bit:0, 雕刻碎屑 - 抗燃白桦木板
 chiselsandbits:block_bit:0, 雕刻碎屑 - 抗燃丛林木板
 chiselsandbits:block_bit:0, 雕刻碎屑 - 抗燃金合欢木板
 chiselsandbits:block_bit:0, 雕刻碎屑 - 抗燃深色橡木木板
+chiselsandbits:block_bit:0, 雕刻碎屑 - 蜜蜂蜂窝块
+chiselsandbits:block_bit:0, 雕刻碎屑 - 激化蜂窝块
+chiselsandbits:block_bit:0, 雕刻碎屑 - 纤维蜂窝块
+chiselsandbits:block_bit:0, 雕刻碎屑 - 冻结蜂窝块
+chiselsandbits:block_bit:0, 雕刻碎屑 - 滴水蜂窝块
+chiselsandbits:block_bit:0, 雕刻碎屑 - 丝滑蜂窝块
+chiselsandbits:block_bit:0, 雕刻碎屑 - 炎热蜂窝块
+chiselsandbits:block_bit:0, 雕刻碎屑 - 苔藓蜂窝块
+chiselsandbits:block_bit:0, 雕刻碎屑 - 醇厚蜂窝块
 chiselsandbits:block_bit:0, 雕刻碎屑 - 压缩工作台
 chiselsandbits:block_bit:0, 雕刻碎屑 - 二重压缩工作台
 chiselsandbits:block_bit:0, 雕刻碎屑 - 中子素块
@@ -34548,6 +36712,29 @@ chiselsandbits:block_bit:0, 雕刻碎屑 - Overworld Gravitite Ore
 chiselsandbits:block_bit:0, 雕刻碎屑 - Overworld Zanite Ore
 chiselsandbits:block_bit:0, 雕刻碎屑 - Overworld Arkenium Ore
 chiselsandbits:block_bit:0, 雕刻碎屑 - Overworld Icestone Ore
+chiselsandbits:block_bit:0, 雕刻碎屑 - 末影云母矿石
+chiselsandbits:block_bit:0, 雕刻碎屑 - 云母块
+chiselsandbits:block_bit:0, 雕刻碎屑 - 錾制云母块
+chiselsandbits:block_bit:0, 雕刻碎屑 - 竖纹云母块
+chiselsandbits:block_bit:0, 雕刻碎屑 - 玄武岩
+chiselsandbits:block_bit:0, 雕刻碎屑 - 磨制玄武岩
+chiselsandbits:block_bit:0, 雕刻碎屑 - 大理石
+chiselsandbits:block_bit:0, 雕刻碎屑 - 磨制大理石
+chiselsandbits:block_bit:0, 雕刻碎屑 - 石灰石
+chiselsandbits:block_bit:0, 雕刻碎屑 - 磨制石灰石
+chiselsandbits:block_bit:0, 雕刻碎屑 - 黄石
+chiselsandbits:block_bit:0, 雕刻碎屑 - 磨制黄石
+chiselsandbits:block_bit:0, 雕刻碎屑 - 青石
+chiselsandbits:block_bit:0, 雕刻碎屑 - 磨制青石
+chiselsandbits:block_bit:0, 雕刻碎屑 - 硫黄石
+chiselsandbits:block_bit:0, 雕刻碎屑 - 永冻石
+chiselsandbits:block_bit:0, 雕刻碎屑 - 鹅卵石
+chiselsandbits:block_bit:0, 雕刻碎屑 - 硫黄石砖
+chiselsandbits:block_bit:0, 雕刻碎屑 - 永冻石砖
+chiselsandbits:block_bit:0, 雕刻碎屑 - 老化海晶石
+chiselsandbits:block_bit:0, 雕刻碎屑 - 老化海晶石砖
+chiselsandbits:block_bit:0, 雕刻碎屑 - 黑暗老化海晶石
+chiselsandbits:block_bit:0, 雕刻碎屑 - 老化海晶灯
 chiselsandbits:block_bit:0, 雕刻碎屑 - 糖方块
 chiselsandbits:block_bit:0, 雕刻碎屑 - 末影沙
 chiselsandbits:block_bit:0, 雕刻碎屑 - 云杉木书架
@@ -34690,29 +36877,6 @@ chiselsandbits:block_bit:0, 雕刻碎屑 - 棕色缝边羊毛
 chiselsandbits:block_bit:0, 雕刻碎屑 - 绿色缝边羊毛
 chiselsandbits:block_bit:0, 雕刻碎屑 - 红色缝边羊毛
 chiselsandbits:block_bit:0, 雕刻碎屑 - 黑色缝边羊毛
-chiselsandbits:block_bit:0, 雕刻碎屑 - 末影云母矿石
-chiselsandbits:block_bit:0, 雕刻碎屑 - 云母块
-chiselsandbits:block_bit:0, 雕刻碎屑 - 錾制云母块
-chiselsandbits:block_bit:0, 雕刻碎屑 - 竖纹云母块
-chiselsandbits:block_bit:0, 雕刻碎屑 - 玄武岩
-chiselsandbits:block_bit:0, 雕刻碎屑 - 磨制玄武岩
-chiselsandbits:block_bit:0, 雕刻碎屑 - 大理石
-chiselsandbits:block_bit:0, 雕刻碎屑 - 磨制大理石
-chiselsandbits:block_bit:0, 雕刻碎屑 - 石灰石
-chiselsandbits:block_bit:0, 雕刻碎屑 - 磨制石灰石
-chiselsandbits:block_bit:0, 雕刻碎屑 - 黄石
-chiselsandbits:block_bit:0, 雕刻碎屑 - 磨制黄石
-chiselsandbits:block_bit:0, 雕刻碎屑 - 青石
-chiselsandbits:block_bit:0, 雕刻碎屑 - 磨制青石
-chiselsandbits:block_bit:0, 雕刻碎屑 - 硫黄石
-chiselsandbits:block_bit:0, 雕刻碎屑 - 永冻石
-chiselsandbits:block_bit:0, 雕刻碎屑 - 鹅卵石
-chiselsandbits:block_bit:0, 雕刻碎屑 - 硫黄石砖
-chiselsandbits:block_bit:0, 雕刻碎屑 - 永冻石砖
-chiselsandbits:block_bit:0, 雕刻碎屑 - 老化海晶石
-chiselsandbits:block_bit:0, 雕刻碎屑 - 老化海晶石砖
-chiselsandbits:block_bit:0, 雕刻碎屑 - 黑暗老化海晶石
-chiselsandbits:block_bit:0, 雕刻碎屑 - 老化海晶灯
 chiselsandbits:block_bit:0, 雕刻碎屑 - 厨房地板
 chiselsandbits:block_bit:0, 雕刻碎屑 - 好漂亮的方块
 chiselsandbits:block_bit:0, 雕刻碎屑 - 奥利哈刚块
@@ -34935,11 +37099,11 @@ chiselsandbits:block_bit:0, 雕刻碎屑 - 石板砖
 chiselsandbits:block_bit:0, 雕刻碎屑 - 注血铁块
 chiselsandbits:block_bit:0, 雕刻碎屑 - 注血荧石
 chiselsandbits:block_bit:0, 雕刻碎屑 - 注血木板
-chiselsandbits:block_bit:0, 雕刻碎屑 - 陨星石
 chiselsandbits:block_bit:0, 雕刻碎屑 - 陨星块
-chiselsandbits:block_bit:0, 雕刻碎屑 - 流星块
-chiselsandbits:block_bit:0, 雕刻碎屑 - 錾制流星块
 chiselsandbits:block_bit:0, 雕刻碎屑 - 破裂流星块
+chiselsandbits:block_bit:0, 雕刻碎屑 - 流星块
+chiselsandbits:block_bit:0, 雕刻碎屑 - 陨星石
+chiselsandbits:block_bit:0, 雕刻碎屑 - 錾制流星块
 chiselsandbits:block_bit:0, 雕刻碎屑 - 纯净陨石块
 chiselsandbits:block_bit:0, 雕刻碎屑 - 龙树原木
 chiselsandbits:block_bit:0, 雕刻碎屑 - 龙木木板
@@ -38329,6 +40493,8 @@ yoyos:yoyo_axle:0, 琥珀金 轮轴
 yoyos:yoyo_axle:0, 钢 轮轴
 yoyos:yoyo_axle:0, 烈焰棒 轮轴
 yoyos:yoyo_axle:0, 冰 轮轴
+yoyos:yoyo_axle:0, 钛金 轮轴
+yoyos:yoyo_axle:0, 盖亚魂 轮轴
 yoyos:yoyo_axle:0, 耐酸铝 轮轴
 yoyos:yoyo_axle:0, 蓝宝石 轮轴
 yoyos:yoyo_axle:0, 红宝石 轮轴
@@ -38387,6 +40553,8 @@ yoyos:yoyo_body:0, 银 外壳
 yoyos:yoyo_body:0, 琥珀金 外壳
 yoyos:yoyo_body:0, 钢 外壳
 yoyos:yoyo_body:0, 冰 外壳
+yoyos:yoyo_body:0, 钛金 外壳
+yoyos:yoyo_body:0, 盖亚魂 外壳
 yoyos:yoyo_body:0, 耐酸铝 外壳
 yoyos:yoyo_body:0, 蓝宝石 外壳
 yoyos:yoyo_body:0, 红宝石 外壳
@@ -40162,13 +42330,13 @@ magicbees:mysteriousmagnet:18, 神秘磁铁
 magicbees:moondial, 翡翠色月相盘
 magicbees:manasteelgrafter, 魔力钢剪枝器
 magicbees:manasteelscoop, 魔力钢捕虫网
-magicbees:frames.magic, 魔法框架
-magicbees:frames.necrotic, 坏死框架
-magicbees:frames.gentle, 柔性框架
 magicbees:frames.resilient, 弹力框架
-magicbees:frames.metabolic, 代谢框架
-magicbees:frames.temporal, 瞬息框架
+magicbees:frames.gentle, 柔性框架
 magicbees:frames.oblivion, 湮灭框架
+magicbees:frames.necrotic, 坏死框架
+magicbees:frames.magic, 魔法框架
+magicbees:frames.temporal, 瞬息框架
+magicbees:frames.metabolic, 代谢框架
 magicbees:hiveblock:0, 好奇蜂巢
 magicbees:hiveblock:1, 非凡蜂巢
 magicbees:hiveblock:2, 共鸣蜂巢
@@ -40237,6 +42405,13 @@ forestry:crated.minecraft.sapling.2, item.crated.minecraft.sapling.2.name
 forestry:crated.minecraft.sapling.3, item.crated.minecraft.sapling.3.name
 forestry:crated.minecraft.sapling.4, item.crated.minecraft.sapling.4.name
 forestry:crated.minecraft.sapling.5, item.crated.minecraft.sapling.5.name
+forestry:crated.forestry.fruits.0, item.crated.forestry.fruits.0.name
+forestry:crated.forestry.fruits.1, item.crated.forestry.fruits.1.name
+forestry:crated.forestry.fruits.2, item.crated.forestry.fruits.2.name
+forestry:crated.forestry.fruits.3, item.crated.forestry.fruits.3.name
+forestry:crated.forestry.fruits.4, item.crated.forestry.fruits.4.name
+forestry:crated.forestry.fruits.6, item.crated.forestry.fruits.6.name
+forestry:crated.forestry.fruits.5, item.crated.forestry.fruits.5.name
 forestry:crated.forestry.beeswax.0, item.crated.forestry.beeswax.0.name
 forestry:crated.forestry.pollen.0, item.crated.forestry.pollen.0.name
 forestry:crated.forestry.pollen.1, item.crated.forestry.pollen.1.name
@@ -40257,13 +42432,6 @@ forestry:crated.forestry.bee_combs.14, item.crated.forestry.bee_combs.14.name
 forestry:crated.forestry.bee_combs.15, item.crated.forestry.bee_combs.15.name
 forestry:crated.forestry.bee_combs.16, item.crated.forestry.bee_combs.16.name
 forestry:crated.forestry.refractory_wax.0, item.crated.forestry.refractory_wax.0.name
-forestry:crated.forestry.fruits.0, item.crated.forestry.fruits.0.name
-forestry:crated.forestry.fruits.1, item.crated.forestry.fruits.1.name
-forestry:crated.forestry.fruits.2, item.crated.forestry.fruits.2.name
-forestry:crated.forestry.fruits.3, item.crated.forestry.fruits.3.name
-forestry:crated.forestry.fruits.4, item.crated.forestry.fruits.4.name
-forestry:crated.forestry.fruits.6, item.crated.forestry.fruits.6.name
-forestry:crated.forestry.fruits.5, item.crated.forestry.fruits.5.name
 forestry:crated.natura.edibles.0, item.crated.natura.edibles.0.name
 forestry:crated.natura.edibles.1, item.crated.natura.edibles.1.name
 forestry:crated.natura.edibles.11, item.crated.natura.edibles.11.name

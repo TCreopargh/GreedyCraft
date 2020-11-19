@@ -223,5 +223,55 @@
         "content": "additions:greedycraft-bounty_hunter_medal_emerald",
         "unitWorth": 24000,
         "weight": 50
+    },
+    {
+        "content": "additions:greedycraft-delivery_order",
+        "unitWorth": 8000,
+        "weight": 80
+    },
+    {
+        "content": "thermalfoundation:material:128",
+        "unitWorth": 200,
+        "weight": 30
+    },
+    {
+        "content": "thermalfoundation:material:129",
+        "unitWorth": 220,
+        "weight": 30
+    },
+    {
+        "content": "thermalfoundation:material:130",
+        "unitWorth": 280,
+        "weight": 30
+    },
+    {
+        "content": "thermalfoundation:material:131",
+        "unitWorth": 320,
+        "weight": 20
+    },
+    {
+        "content": "thermalfoundation:material:132",
+        "unitWorth": 360,
+        "weight": 20
+    },
+    {
+        "content": "thermalfoundation:material:133",
+        "unitWorth": 400,
+        "weight": 20
+    },
+    {
+        "content": "thermalfoundation:material:134",
+        "unitWorth": 800,
+        "weight": 10
+    },
+    {
+        "content": "thermalfoundation:material:135",
+        "unitWorth": 1200,
+        "weight": 10
+    },
+    {
+        "content": "thermalfoundation:material:163",
+        "unitWorth": 300,
+        "weight": 30
     }
 ]

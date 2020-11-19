@@ -217,6 +217,16 @@
                     "type": "item",
                     "name": "additions:tcsponsors-water_book",
                     "weight": 1
+                },
+				{
+                    "type": "item",
+                    "name": "additions:tcsponsors-reds_pandora_box",
+                    "weight": 1
+                },
+				{
+                    "type": "item",
+                    "name": "additions:tcsponsors-kekedi",
+                    "weight": 1
                 }
             ]
         }

@@ -43,7 +43,7 @@ val mobReplacements as string[string] = {
 for mob in mobStages {
     var stage as string = mobStages[mob] as string;
     MobStages.addStage(stage, mob);
-    MobStages.addRange(mob, 64);
+    MobStages.addRange(mob, 128);
 }
 
 for mob in mobReplacements {

@@ -20,7 +20,7 @@ var catalystRecipe as IIngredient[][] = [
     [<thaumcraft:ingot:1>, <tconevo:metal:20>, <additions:electronium_ingot>, <abyssalcraft:dreadiumingot>, <additions:protonium_ingot>, <botania:manaresource:4>, <botania:manaresource:14>, <botania:manaresource:7>, <tinkersaether:valkyrie_ingot>],
     [<mysticalagradditions:insanium:2>, <enderio:item_alloy_endergy_ingot:3>, <defiledlands:ravaging_ingot>, <threng:material>, <abyssalcraft:ethaxiumingot>, <additions:infernium_ingot>, <additions:titanium_ingot>, <additions:cryonium_ingot>, <thaumadditions:mithminite_ingot>],
     [<additions:cytosinite_ingot>, <additions:shadowium_ingot>, <additions:asgardium_ingot>, <additions:aeroite_ingot>, <additions:terra_alloy_ingot>, <additions:astral_metal_ingot>, <additions:cosmilite_ingot>, <mekanism:controlcircuit:3>, <biomesoplenty:terrestrial_artifact>],
-    [<additions:greedycraft-cryonic_artifact>, <additions:greedycraft-bounty_hunter_medal_bronze>, <additions:greedycraft-bounty_hunter_medal_silver>, <additions:greedycraft-bounty_hunter_medal>, <additions:greedycraft-bounty_hunter_medal_emerald>, <additions:greedycraft-energy_matter_core>, <additions:greedycraft-sand_of_time>, <additions:greedycraft-anti_entropy_matter>, <eternalsingularity:eternal_singularity>]
+    [<additions:greedycraft-cryonic_artifact>, <additions:greedycraft-bounty_hunter_medal_bronze>, <additions:greedycraft-bounty_hunter_medal_silver>, <additions:greedycraft-bounty_hunter_medal>, <additions:perfectly_generic_item>, <additions:greedycraft-energy_matter_core>, <additions:greedycraft-sand_of_time>, <additions:greedycraft-anti_entropy_matter>, <eternalsingularity:eternal_singularity>]
  ] as IIngredient[][];
 
 ExtremeCrafting.remove(<avaritia:resource:5>);

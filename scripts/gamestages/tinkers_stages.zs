@@ -49,7 +49,7 @@ val materialStages as string[string] = {
     "blood_infused_wood": "novice_wizard",
     "blood_infused_iron": "novice_wizard",
     "crimsonite": "skilled_wizard",
-    "end_steel": "ender_charm",
+    "end_steel": "novice_engineer",
     "stellar_alloy_gc": "wither_slayer",
     "enderium": "skilled_engineer",
     "lumium": "nether",

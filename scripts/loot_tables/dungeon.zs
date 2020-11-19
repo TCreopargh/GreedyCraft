@@ -229,8 +229,8 @@ addItem(<thermalfoundation:material:136>, 1, 1, 2, 4);
 addItem(<appliedenergistics2:material:36>, 3, 1, 3, 6);
 addItem(<appliedenergistics2:material:38>, 1, 1, 2, 4);
 addItem(<harvestcraft:bambooshootitem>, 2, 1, 8, 20);
-addItem(<bountifulbaubles:potionrecall>, 30, 1, 1, 4);
-addItem(<bountifulbaubles:potionwormhole>, 8, 1, 3, 8);
+addItem(<bountifulbaubles:potionrecall>, 30, 1, 2, 6);
+addItem(<bountifulbaubles:potionwormhole>, 15, 1, 3, 8);
 addItem(<harvestcraft:hamandpineapplepizzaitem>, 2, 1, 3, 5);
 addItem(<minecraft:clay_ball>, 12, 1, 16, 64);
 addItem(<redstonepaste:redstonepaste>, 4, 1, 16, 64);
@@ -254,6 +254,8 @@ dungeonPool2.addItemEntryHelper(<additions:greedycraft-sunny_doll>, 2, 1, [Funct
 dungeonPool2.addItemEntryHelper(<additions:greedycraft-bag_of_dyes>, 6, 1, [Functions.setCount(1, 3)], []);
 dungeonPool2.addItemEntryHelper(<additions:tcsponsors-sponsor_chest_fragment>, 2, 1, [Functions.setCount(1, 3)], []);
 dungeonPool2.addItemEntryHelper(<additions:greedycraft-huaji>, 4, 1, [Functions.setCount(1, 2)], []);
+dungeonPool2.addItemEntryHelper(<bountifulbaubles:potionrecall>, 10, 1, [Functions.setCount(2, 6)], []);
+dungeonPool2.addItemEntryHelper(<bountifulbaubles:potionwormhole>, 6, 1, [Functions.setCount(3, 8)], []);
 
 /*
 mainPool.addItemEntryHelper(<thermalfoundation:material:128>, 10, 1, [Functions.setCount(2, 12)], []);

@@ -13,7 +13,7 @@
   "step_sound": "minecraft:block.stone.step",
   "fall_sound": "minecraft:block.stone.fall",
   "map_color": "minecraft:gray",
-  "hardness": 100.0,
+  "hardness": 125.0,
   "resistance": 1000.0,
   "harvest_level": 3,
   "harvest_tool": "pickaxe",

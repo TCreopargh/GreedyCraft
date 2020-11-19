@@ -1,0 +1,13 @@
+{
+  "chancecubes:ticket_epic_zh_cn": {
+    "chance": 64,
+    "Item": [
+      {
+        "item": {
+          "id": "additions:greedycraft-delivery_order",
+          "Count": 1
+        }
+      }
+    ]
+  }
+}

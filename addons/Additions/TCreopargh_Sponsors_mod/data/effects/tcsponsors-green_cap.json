@@ -32,6 +32,10 @@
         "show_particles": true
       },
       "type": "additions:potion"
+    },
+    {
+      "chance": 0.05,
+      "type": "additions:damage_item"
     }
   ]
 }

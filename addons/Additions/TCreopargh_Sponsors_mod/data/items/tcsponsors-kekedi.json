@@ -1,0 +1,21 @@
+{
+  "name": "§e刻刻帝",
+  "tooltip": [
+    "§5时间比什么都温柔，就连两个人失去了每年仅有一次的机会的悲伤，",
+    "§5总有一天也会被治愈吧?时间比什么都残酷，就连两人起誓过的永恒，",
+    "§5总有一天会被风化吧？一直错过仅此确认彼此心意机会的他们，",
+    "§5究竟还能存在于对方的思念中多久？",
+    "§d(使用后随机传送并恢复血量)",
+    "§b§o赞助者物品 by 青衫酒"
+  ],
+  "max_stack": 1,
+  "durability": 12,
+  "harvest_level": 0,
+  "harvest_radius_width": 0,
+  "harvest_depth": 0,
+  "efficiency": 0.0,
+  "enchantability": 0,
+  "repair_stacks": {},
+  "tool_classes": [],
+  "type": "additions:multitool"
+}

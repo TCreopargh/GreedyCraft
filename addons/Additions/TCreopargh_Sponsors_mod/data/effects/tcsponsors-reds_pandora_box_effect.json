@@ -1,0 +1,25 @@
+{
+    "cause": {
+        "item": {
+            "item": "additions:tcsponsors-reds_pandora_box",
+            "damage": "any"
+        },
+        "type": "additions:item_right_click"
+    },
+    "effects": [{
+            "type": "additions:damage_item"
+        },
+        {
+            "command": "/give @p chancecubes:chance_cube 1 0",
+            "command_sender_name": "",
+            "chance": 0.99,
+            "type": "additions:command"
+        },
+        {
+            "command": "/give @p chancecubes:compact_giant_chance_cube 1 0",
+            "command_sender_name": "",
+            "chance": 0.01,
+            "type": "additions:command"
+        }
+    ]
+}

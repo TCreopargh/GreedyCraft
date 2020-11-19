@@ -1,0 +1,17 @@
+{
+  "name": "§4赤红的谜之匣",
+  "tooltip": [
+    "§e右键打开",
+    "§b§o赞助者物品 by chi_hong"
+  ],
+  "max_stack": 1,
+  "durability": 7,
+  "harvest_level": 0,
+  "harvest_radius_width": 0,
+  "harvest_depth": 0,
+  "efficiency": 0.0,
+  "enchantability": 0,
+  "repair_stacks": {},
+  "tool_classes": [],
+  "type": "additions:multitool"
+}

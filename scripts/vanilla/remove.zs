@@ -311,7 +311,12 @@ val removedRecipes as IIngredient[] = [
     <redstonerepository:ring_mining>,
     <hooked:hook:4>,
     <bloodmagic:soul_snare>,
-    <cyclicmagic:magnet_anti_block>
+    <cyclicmagic:magnet_anti_block>,
+    <aether_legacy:valkyrie_helmet>,
+    <aether_legacy:valkyrie_chestplate>,
+    <aether_legacy:valkyrie_leggings>,
+    <aether_legacy:valkyrie_boots>,
+    <aether_legacy:valkyrie_lance>
 ];
 
 val removedRecipeNames as string[] = [

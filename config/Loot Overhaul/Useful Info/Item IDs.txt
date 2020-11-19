@@ -14173,3 +14173,5 @@ jaopca:fluid_moltenmithril - 17855
 jaopca:fluid_moltenshadowium - 17856
 jaopca:fluid_moltentitanium - 17857
 jaopca:fluid_moltenuranium - 17858
+additions:tcsponsors-reds_pandora_box - 17859
+additions:tcsponsors-kekedi - 17860

@@ -505,7 +505,7 @@ recipes.addShaped("auto_gen_591200402", <additions:greedycraft-purifying_pill>, 
 ]);
 recipes.addShaped("auto_gen_-696385933", <additions:greedycraft-bravery_certificate>, [
     [<ore:ingotAsgardium>, <ore:netherStar>, <ore:ingotAsgardium>],
-    [<abyssalcraft:cingot>, <tinkersaether:valkyrie_block>, <abyssalcraft:cingot>],
+    [<abyssalcraft:cingot>, <ore:ingotValkyrie> | <ore:ingotBoundMetal>, <abyssalcraft:cingot>],
     [<ore:ingotAeroite>, <aether_legacy:golden_amber>, <ore:ingotAeroite>]
 ]);
 recipes.addShaped("auto_gen_252415292", <additions:greedycraft-fusion_matrix_block>, [
@@ -1164,6 +1164,11 @@ recipes.addShaped("hydra_spawn_egg", <minecraft:spawn_egg>.withTag({EntityTag: {
     [<twilightforest:cooked_meef>, <twilightforest:cooked_meef>, <twilightforest:cooked_meef>],
     [<twilightforest:meef_stroganoff>, <minecraft:egg>, <twilightforest:meef_stroganoff>],
     [<twilightforest:cooked_meef>, <twilightforest:cooked_meef>, <twilightforest:cooked_meef>]
+]);
+recipes.addShaped("exu_building_wand", <extrautils2:itembuilderswand>, [
+    [null, <ore:ingotAsgardium>, <ore:blockGold>],
+    [null, <ore:blockMagicalWood>, <ore:ingotAsgardium>],
+    [<ore:blockMagicalWood>, null, null]
 ]);
 
 /* Templates

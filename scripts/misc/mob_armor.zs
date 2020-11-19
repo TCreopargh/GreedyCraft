@@ -72,6 +72,69 @@ addGroup("pre_nether", 0.3, [{
     legs: <minecraft:chainmail_leggings> % 15,
     feet: <minecraft:chainmail_boots> % 15
 }, {
+    head: <thermalfoundation:armor.helmet_copper> % 10,
+    chest: <thermalfoundation:armor.plate_copper> % 10,
+    legs: <thermalfoundation:armor.legs_copper> % 10,
+    feet: <thermalfoundation:armor.boots_copper> % 10,
+    mainhand: <thermalfoundation:tool.sword_copper> % 5,
+    mainhand: <thermalfoundation:tool.shield_copper> % 5
+}, {
+    head: <thermalfoundation:armor.helmet_tin> % 10,
+    chest: <thermalfoundation:armor.plate_tin> % 10,
+    legs: <thermalfoundation:armor.legs_tin> % 10,
+    feet: <thermalfoundation:armor.boots_tin> % 10,
+    mainhand: <thermalfoundation:tool.sword_tin> % 5,
+    mainhand: <thermalfoundation:tool.shield_tin> % 5
+}, {
+    head: <thermalfoundation:armor.helmet_silver> % 5,
+    chest: <thermalfoundation:armor.plate_silver> % 5,
+    legs: <thermalfoundation:armor.legs_silver> % 5,
+    feet: <thermalfoundation:armor.boots_silver> % 5,
+    mainhand: <thermalfoundation:tool.sword_silver> % 5,
+    mainhand: <thermalfoundation:tool.shield_silver> % 5
+}, {
+    head: <thermalfoundation:armor.helmet_nickel> % 5,
+    chest: <thermalfoundation:armor.plate_nickel> % 5,
+    legs: <thermalfoundation:armor.legs_nickel> % 5,
+    feet: <thermalfoundation:armor.boots_nickel> % 5,
+    mainhand: <thermalfoundation:tool.sword_nickel> % 5,
+    mainhand: <thermalfoundation:tool.shield_nickel> % 5
+}, {
+    head: <thermalfoundation:armor.helmet_lead> % 5,
+    chest: <thermalfoundation:armor.plate_lead> % 5,
+    legs: <thermalfoundation:armor.legs_lead> % 5,
+    feet: <thermalfoundation:armor.boots_lead> % 5,
+    mainhand: <thermalfoundation:tool.sword_lead> % 5,
+    mainhand: <thermalfoundation:tool.shield_lead> % 5
+}, {
+    head: <thermalfoundation:armor.helmet_aluminum> % 5,
+    chest: <thermalfoundation:armor.plate_aluminum> % 5,
+    legs: <thermalfoundation:armor.legs_aluminum> % 5,
+    feet: <thermalfoundation:armor.boots_aluminum> % 5,
+    mainhand: <thermalfoundation:tool.sword_aluminum> % 5,
+    mainhand: <thermalfoundation:tool.shield_aluminum> % 5
+}, {
+    head: <thermalfoundation:armor.helmet_bronze> % 10,
+    chest: <thermalfoundation:armor.plate_bronze> % 10,
+    legs: <thermalfoundation:armor.legs_bronze> % 10,
+    feet: <thermalfoundation:armor.boots_bronze> % 10,
+    mainhand: <thermalfoundation:tool.sword_bronze> % 5,
+    mainhand: <thermalfoundation:tool.shield_bronze> % 5
+}, {
+    head: <thermalfoundation:armor.helmet_constantan> % 5,
+    chest: <thermalfoundation:armor.plate_constantan> % 5,
+    legs: <thermalfoundation:armor.legs_constantan> % 5,
+    feet: <thermalfoundation:armor.boots_constantan> % 5,
+    mainhand: <thermalfoundation:tool.sword_constantan> % 3,
+    mainhand: <thermalfoundation:tool.shield_constantan> % 3
+}, {
+    head: <thermalfoundation:armor.helmet_electrum> % 5,
+    chest: <thermalfoundation:armor.plate_electrum> % 5,
+    legs: <thermalfoundation:armor.legs_electrum> % 5,
+    feet: <thermalfoundation:armor.boots_electrum> % 5,
+    mainhand: <thermalfoundation:tool.sword_electrum> % 3,
+    mainhand: <thermalfoundation:tool.shield_electrum> % 3
+}, {
     offhand: <minecraft:shield> % 20
 }, {
     offhand: <tconstruct:battlesign>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 2.5 as float, FreeModifiers: 3, Durability: 91, HarvestLevel: 0, Attack: 2.0 as float}, Stats: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 2.5 as float, FreeModifiers: 5, Durability: 91, HarvestLevel: 0, Attack: 2.0 as float}, Special: {Categories: ["weapon", "tool"]}, TinkerData: {Materials: ["wood", "wood"], Modifiers: ["toolleveling"]}, Modifiers: [{identifier: "ecological", color: -7444965, level: 1}, {identifier: "toolleveling", color: 16777215, level: 1}], Traits: ["ecological", "toolleveling"]}) % 10
@@ -93,13 +156,35 @@ addGroup("pre_nether", 0.3, [{
     mainhand: <tconstruct:broadsword>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 5.625 as float, FreeModifiers: 3, Durability: 401, HarvestLevel: 1, Attack: 4.0 as float}, Stats: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 5.625 as float, FreeModifiers: 5, Durability: 401, HarvestLevel: 1, Attack: 4.0 as float}, Special: {Categories: ["weapon", "tool"]}, TinkerData: {Materials: ["netherrack", "netherrack", "netherrack"], Modifiers: ["toolleveling"]}, Modifiers: [{identifier: "hellish", color: -4698289, level: 1}, {identifier: "aridiculous", color: -4698289, level: 1}, {identifier: "toolleveling", color: 16777215, level: 1}], Traits: ["hellish", "aridiculous", "toolleveling"]}) % 5
 }, {
     mainhand: <tconstruct:broadsword>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 5.0375004 as float, FreeModifiers: 3, Durability: 2074, HarvestLevel: 0, Attack: 2.8 as float}, Stats: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 5.0375004 as float, FreeModifiers: 5, Durability: 2074, HarvestLevel: 0, Attack: 2.8 as float}, Special: {Categories: ["weapon", "tool"]}, TinkerData: {Materials: ["blueslime", "blueslime", "blueslime"], Modifiers: ["toolleveling"]}, Modifiers: [{identifier: "slimey_blue", color: -9123641, level: 1}, {identifier: "toolleveling", color: 16777215, level: 1}], Traits: ["slimey_blue", "toolleveling"]}) % 5
+}, {
+    mainhand: <tconstruct:broadsword>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 0.6375 as float, FreeModifiers: 3, Durability: 13, HarvestLevel: 0, Attack: 1.05 as float}, Stats: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 0.6375 as float, FreeModifiers: 7, Durability: 13, HarvestLevel: 0, Attack: 1.05 as float}, Special: {Categories: ["weapon", "tool"]}, TinkerData: {Materials: ["paper", "paper", "paper"], Modifiers: ["toolleveling"]}, Modifiers: [{identifier: "writable", color: -1, level: 2, writable2: 1 as byte, writable1: 1 as byte}, {identifier: "toolleveling", color: 16777215, level: 1}], Traits: ["writable1", "writable2", "toolleveling"]}) % 5
+}, {
+    mainhand: <tconstruct:hatchet>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 5.625 as float, FreeModifiers: 3, Durability: 219, HarvestLevel: 1, Attack: 4.5 as float}, Stats: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 5.625 as float, FreeModifiers: 5, Durability: 219, HarvestLevel: 1, Attack: 4.5 as float}, Special: {Categories: ["aoe", "weapon", "tool", "harvest"]}, TinkerData: {Materials: ["tin", "tin", "tin"], Modifiers: ["toolleveling"]}, Modifiers: [{identifier: "crude", color: -6771527, level: 1, crude1: 1 as byte}, {identifier: "toolleveling", color: 16777215, level: 1}], Traits: ["crude1", "toolleveling"]}) % 5
+}, {
+    mainhand: <tconstruct:hatchet>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 12.5 as float, FreeModifiers: 3, Durability: 390, HarvestLevel: 1, Attack: 4.5 as float}, Stats: {AttackSpeedMultiplier: 1.1 as float, MiningSpeed: 12.5 as float, FreeModifiers: 5, Durability: 390, HarvestLevel: 1, Attack: 4.5 as float}, Special: {Categories: ["aoe", "weapon", "tool", "harvest"]}, TinkerData: {Materials: ["aluminium", "aluminium", "aluminium"], Modifiers: ["toolleveling"]}, Modifiers: [{identifier: "lightweight", color: -2697246, level: 1}, {identifier: "toolleveling", color: 16777215, level: 1}], Traits: ["lightweight", "toolleveling"]}) % 5
+}, {
+    mainhand: <tconstruct:scythe>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 5.625 as float, FreeModifiers: 3, Durability: 642, HarvestLevel: 1, Attack: 4.0 as float}, Stats: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 5.625 as float, FreeModifiers: 5, Durability: 642, HarvestLevel: 1, Attack: 4.0 as float}, Special: {Categories: ["aoe", "weapon", "tool", "harvest"]}, TinkerData: {Materials: ["livingrock", "livingrock", "livingrock", "livingrock"], Modifiers: ["toolleveling"]}, Modifiers: [{identifier: "stonebound", color: -2630969, level: 1}, {identifier: "tconevo.sundering", color: -2630969, level: 1}, {identifier: "toolleveling", color: 16777215, level: 1}], Traits: ["stonebound", "tconevo.sundering", "toolleveling"]}) % 5
+}, {
+    mainhand: <tconstruct:pickaxe>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 13.5 as float, FreeModifiers: 3, Durability: 1290, HarvestLevel: 1, Attack: 5.0 as float}, Stats: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 13.5 as float, FreeModifiers: 5, Durability: 1290, HarvestLevel: 1, Attack: 5.0 as float}, Special: {Categories: ["aoe", "tool", "harvest"]}, TinkerData: {Materials: ["alubrass", "alubrass", "alubrass"], Modifiers: ["toolleveling"]}, Modifiers: [{identifier: "momentum", color: -278483, level: 1}, {identifier: "spartan", color: -278483, level: 1}, {identifier: "toolleveling", color: 16777215, level: 1}], Traits: ["momentum", "spartan", "toolleveling"]}) % 5
+}, {
+    mainhand: <tconstruct:shovel>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 3.5 as float, FreeModifiers: 3, Durability: 710, HarvestLevel: 3, Attack: 4.2 as float}, Stats: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 3.5 as float, FreeModifiers: 5, Durability: 710, HarvestLevel: 3, Attack: 4.2 as float}, Special: {Categories: ["aoe", "tool", "harvest"]}, TinkerData: {Materials: ["tofu_gem", "tofu_gem", "tofu_gem"], Modifiers: ["toolleveling"]}, Modifiers: [{identifier: "cheap", color: -2039584, level: 1}, {identifier: "crystal_force", color: -2039584, level: 1}, {identifier: "toolleveling", color: 16777215, level: 1}], Traits: ["cheap", "crystal_force", "toolleveling"]}) % 5
+}, {
+    mainhand: <tconstruct:shovel>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 6.25 as float, FreeModifiers: 3, Durability: 233, HarvestLevel: 0, Attack: 3.0 as float}, Stats: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 6.25 as float, FreeModifiers: 5, Durability: 233, HarvestLevel: 0, Attack: 3.0 as float}, Special: {Categories: ["aoe", "tool", "harvest"]}, TinkerData: {Materials: ["polyethylene", "polyethylene", "polyethylene"], Modifiers: ["toolleveling"]}, Modifiers: [{identifier: "crude", color: -2039584, level: 1, crude1: 1 as byte}, {identifier: "cheap", color: -2039584, level: 1}, {identifier: "tconevo.foot_fleet", color: -2039584, level: 1}, {identifier: "toolleveling", color: 16777215, level: 1}], Traits: ["crude1", "cheap", "tconevo.foot_fleet", "toolleveling"]}) % 5
+}, {
+    mainhand: <tconstruct:hatchet>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 2.5 as float, FreeModifiers: 3, Durability: 114, HarvestLevel: 0, Attack: 2.5 as float}, Stats: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 2.5 as float, FreeModifiers: 5, Durability: 114, HarvestLevel: 0, Attack: 2.5 as float}, Special: {Categories: ["aoe", "weapon", "tool", "harvest"]}, TinkerData: {Materials: ["wood", "wood", "wood"], Modifiers: ["toolleveling"]}, Modifiers: [{identifier: "ecological", color: -7444965, level: 1}, {identifier: "toolleveling", color: 16777215, level: 1}], Traits: ["ecological", "toolleveling"]}) % 5
+}, {
+    mainhand: <tconstruct:kama>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 1.0375 as float, FreeModifiers: 3, Durability: 31, HarvestLevel: 0, Attack: 0.1 as float}, Stats: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 1.0375 as float, FreeModifiers: 7, Durability: 31, HarvestLevel: 0, Attack: 0.1 as float}, Special: {Categories: ["aoe", "weapon", "tool", "harvest"]}, TinkerData: {Materials: ["ma.prosperity", "ma.prosperity", "ma.prosperity"], Modifiers: ["toolleveling"]}, Modifiers: [{identifier: "writable", color: -6044219, level: 2, writable2: 1 as byte, writable1: 1 as byte}, {identifier: "toolleveling", color: 16777215, level: 1}], Traits: ["writable1", "writable2", "toolleveling"]}) % 5
+}, {
+    mainhand: <tconstruct:hammer>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 12.5 as float, FreeModifiers: 3, Durability: 855, HarvestLevel: 1, Attack: 4.0 as float}, Stats: {AttackSpeedMultiplier: 1.1 as float, MiningSpeed: 12.5 as float, FreeModifiers: 5, Durability: 855, HarvestLevel: 1, Attack: 4.0 as float}, Special: {Categories: ["aoe", "weapon", "tool", "harvest"]}, TinkerData: {Materials: ["aluminium", "aluminium", "aluminium", "aluminium"], Modifiers: ["toolleveling"]}, Modifiers: [{identifier: "lightweight", color: -2697246, level: 1}, {identifier: "toolleveling", color: 16777215, level: 1}], Traits: ["lightweight", "toolleveling"]}) % 5
+}, {
+    mainhand: <tconstruct:scythe>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 5.3 as float, FreeModifiers: 3, Durability: 3119, HarvestLevel: 0, Attack: 1.8 as float}, Stats: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 5.3 as float, FreeModifiers: 5, Durability: 3119, HarvestLevel: 0, Attack: 1.8 as float}, Special: {Categories: ["aoe", "weapon", "tool", "harvest"]}, TinkerData: {Materials: ["slime", "slime", "slime", "slime"], Modifiers: ["toolleveling"]}, Modifiers: [{identifier: "slimey_green", color: -8206221, level: 1}, {identifier: "toolleveling", color: 16777215, level: 1}], Traits: ["slimey_green", "toolleveling"]}) % 5
 }] as WeightedItemStack[string][], "getting_started");
 
 addGroup("post_nether", 0.25, [{
-    head: <abyssalcraft:ahelmet> % 15,
-    chest: <abyssalcraft:aplate> % 15,
-    legs: <abyssalcraft:alegs> % 15,
-    feet: <abyssalcraft:aboots> % 15,
+    head: <abyssalcraft:ahelmet> % 10,
+    chest: <abyssalcraft:aplate> % 10,
+    legs: <abyssalcraft:alegs> % 10,
+    feet: <abyssalcraft:aboots> % 10,
     mainhand: <abyssalcraft:asword>.withTag({ench: [{lvl: 1 as short, id: 16}]}) % 15
 }, {
     head: <abyssalcraft:corhelmet> % 5,
@@ -115,6 +200,27 @@ addGroup("post_nether", 0.25, [{
     legs: <tofucraft:armordiamondleggins> % 5,
     feet: <tofucraft:armordiamondboots> % 5,
     mainhand: <tofucraft:sworddiamond>.withTag({ench: [{lvl: 2 as short, id: 16}, {lvl: 1 as short, id: 19}]}) % 5
+}, {
+    head: <thermalfoundation:armor.helmet_steel> % 10,
+    chest: <thermalfoundation:armor.plate_steel> % 10,
+    legs: <thermalfoundation:armor.legs_steel> % 10,
+    feet: <thermalfoundation:armor.boots_steel> % 10,
+    mainhand: <thermalfoundation:tool.sword_steel> % 5,
+    mainhand: <thermalfoundation:tool.shield_steel> % 5
+}, {
+    head: <thermalfoundation:armor.helmet_platinum> % 10,
+    chest: <thermalfoundation:armor.plate_platinum> % 10,
+    legs: <thermalfoundation:armor.legs_platinum> % 10,
+    feet: <thermalfoundation:armor.boots_platinum> % 10,
+    mainhand: <thermalfoundation:tool.sword_platinum> % 5,
+    mainhand: <thermalfoundation:tool.shield_platinum> % 5
+}, {
+    head: <thermalfoundation:armor.helmet_invar> % 5,
+    chest: <thermalfoundation:armor.plate_invar> % 5,
+    legs: <thermalfoundation:armor.legs_invar> % 5,
+    feet: <thermalfoundation:armor.boots_invar> % 5,
+    mainhand: <thermalfoundation:tool.sword_invar> % 3,
+    mainhand: <thermalfoundation:tool.shield_invar> % 3
 }, {
     offhand: <thermalfoundation:tool.shield_diamond> % 20
 }, {
@@ -141,14 +247,46 @@ addGroup("post_nether", 0.25, [{
     mainhand: <tconstruct:frypan>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 12.5 as float, FreeModifiers: 3, Durability: 941, HarvestLevel: 4, Attack: 6.0 as float}, Stats: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 12.5 as float, FreeModifiers: 5, Durability: 941, HarvestLevel: 4, Attack: 6.0 as float}, Special: {Categories: ["weapon", "tool"]}, TinkerData: {Materials: ["abyssalnite", "abyssalnite"], Modifiers: ["toolleveling"]}, Modifiers: [{identifier: "dreadpurity", color: -11920247, level: 1}, {identifier: "toolleveling", color: 16777215, level: 1}], Traits: ["dreadpurity", "toolleveling"]}) % 5
 }, {
     mainhand: <tconstruct:frypan>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 17.0 as float, FreeModifiers: 3, Durability: 3680, HarvestLevel: 3, Attack: 7.6 as float}, Stats: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 17.0 as float, FreeModifiers: 5, Durability: 3680, HarvestLevel: 3, Attack: 7.6 as float}, Special: {Categories: ["weapon", "tool"]}, TinkerData: {Materials: ["manganese_steel", "manganese_steel"], Modifiers: ["toolleveling"]}, Modifiers: [{identifier: "dense", color: -12232092, level: 1}, {identifier: "reliable", color: -12232092, level: 1}, {identifier: "toolleveling", color: 16777215, level: 1}], Traits: ["dense", "reliable", "toolleveling"]}) % 5
+}, {
+    mainhand: <tconstruct:pickaxe>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 6.875 as float, FreeModifiers: 3, Durability: 402, HarvestLevel: 1, Attack: 6.2 as float}, Stats: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 6.875 as float, FreeModifiers: 5, Durability: 402, HarvestLevel: 1, Attack: 6.2 as float}, Special: {Categories: ["aoe", "tool", "harvest"]}, TinkerData: {Materials: ["prismarine", "prismarine", "prismarine"], Modifiers: ["toolleveling"]}, Modifiers: [{identifier: "aquadynamic", color: -8462660, level: 1}, {identifier: "jagged", color: -8462660, level: 1}, {identifier: "toolleveling", color: 16777215, level: 1}], Traits: ["aquadynamic", "jagged", "toolleveling"]}) % 5
+}, {
+    mainhand: <tconstruct:longsword>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 6.25 as float, FreeModifiers: 3, Durability: 677, HarvestLevel: 1, Attack: 5.5 as float}, Stats: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 6.25 as float, FreeModifiers: 5, Durability: 677, HarvestLevel: 1, Attack: 5.5 as float}, Special: {Categories: ["weapon", "tool"]}, TinkerData: {Materials: ["silver", "silver", "silver"], Modifiers: ["toolleveling"]}, Modifiers: [{identifier: "holy", color: -3019530, level: 1}, {identifier: "toolleveling", color: 16777215, level: 1}], Traits: ["holy", "toolleveling"]}) % 5
+}, {
+    mainhand: <tconstruct:scythe>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 6.25 as float, FreeModifiers: 3, Durability: 1247, HarvestLevel: 2, Attack: 4.0 as float}, Stats: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 6.25 as float, FreeModifiers: 5, Durability: 1247, HarvestLevel: 2, Attack: 4.0 as float}, Special: {Categories: ["aoe", "weapon", "tool", "harvest"]}, TinkerData: {Materials: ["umbrium", "umbrium", "umbrium", "umbrium"], Modifiers: ["toolleveling"]}, Modifiers: [{identifier: "defiled", color: -5956916, level: 1}, {identifier: "toolleveling", color: 16777215, level: 1}], Traits: ["defiled", "toolleveling"]}) % 5
+}, {
+    mainhand: <tconstruct:excavator>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 8.125 as float, FreeModifiers: 3, Durability: 1611, HarvestLevel: 2, Attack: 5.5 as float}, Stats: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 8.125 as float, FreeModifiers: 5, Durability: 1611, HarvestLevel: 2, Attack: 5.5 as float}, Special: {Categories: ["aoe", "tool", "harvest"]}, TinkerData: {Materials: ["invar", "invar", "invar", "invar"], Modifiers: ["toolleveling"]}, Modifiers: [{identifier: "duritos", color: -7101283, level: 1}, {identifier: "stiff", color: -7101283, level: 1}, {identifier: "toolleveling", color: 16777215, level: 1}], Traits: ["duritos", "stiff", "toolleveling"]}) % 5
+}, {
+    mainhand: <tconstruct:hammer>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 8.75 as float, FreeModifiers: 3, Durability: 4595, HarvestLevel: 4, Attack: 6.0 as float}, Stats: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 8.75 as float, FreeModifiers: 5, Durability: 4595, HarvestLevel: 4, Attack: 6.0 as float}, Special: {Categories: ["aoe", "weapon", "tool", "harvest"]}, TinkerData: {Materials: ["knightmetal", "knightmetal", "knightmetal", "knightmetal"], Modifiers: ["toolleveling"]}, Modifiers: [{identifier: "twilit", color: -3873106, level: 1}, {identifier: "stalwart", color: -3873106, level: 1}, {identifier: "toolleveling", color: 16777215, level: 1}], Traits: ["twilit", "stalwart", "toolleveling"]}) % 5
+}, {
+    mainhand: <tconstruct:kama>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 7.75 as float, FreeModifiers: 3, Durability: 990, HarvestLevel: 2, Attack: 4.5 as float}, Stats: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 7.75 as float, FreeModifiers: 5, Durability: 990, HarvestLevel: 2, Attack: 4.5 as float}, Special: {Categories: ["aoe", "weapon", "tool", "harvest"]}, TinkerData: {Materials: ["pigiron", "pigiron", "pigiron"], Modifiers: ["toolleveling"]}, Modifiers: [{identifier: "tasty", color: -1073509, level: 1}, {identifier: "baconlicious", color: -1073509, level: 1}, {identifier: "toolleveling", color: 16777215, level: 1}], Traits: ["tasty", "baconlicious", "toolleveling"]}) % 5
+}, {
+    mainhand: <tconstruct:hatchet>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 9.375 as float, FreeModifiers: 3, Durability: 1035, HarvestLevel: 2, Attack: 6.0 as float}, Stats: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 9.375 as float, FreeModifiers: 5, Durability: 1035, HarvestLevel: 2, Attack: 6.0 as float}, Special: {Categories: ["aoe", "weapon", "tool", "harvest"]}, TinkerData: {Materials: ["osmium", "osmium", "osmium"], Modifiers: ["toolleveling"]}, Modifiers: [{identifier: "stiff", color: -5653044, level: 1}, {identifier: "dense", color: -5653044, level: 1}, {identifier: "toolleveling", color: 16777215, level: 1}], Traits: ["stiff", "dense", "toolleveling"]}) % 5
+}, {
+    mainhand: <tconstruct:shovel>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 11.25 as float, FreeModifiers: 3, Durability: 332, HarvestLevel: 1, Attack: 5.5 as float}, Stats: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 11.25 as float, FreeModifiers: 5, Durability: 332, HarvestLevel: 1, Attack: 5.5 as float}, Special: {Categories: ["aoe", "tool", "harvest"]}, TinkerData: {Materials: ["lumium", "lumium", "lumium"], Modifiers: ["toolleveling"]}, Modifiers: [{identifier: "tconevo.opportunist", color: -2235507, level: 1}, {identifier: "tconevo.luminiferous", color: -2235507, level: 1}, {identifier: "toolleveling", color: 16777215, level: 1}], Traits: ["tconevo.opportunist", "tconevo.luminiferous", "toolleveling"]}) % 5
+}, {
+    mainhand: <tconstruct:shovel>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 11.25 as float, FreeModifiers: 3, Durability: 1980, HarvestLevel: 4, Attack: 6.5 as float}, Stats: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 11.25 as float, FreeModifiers: 5, Durability: 1980, HarvestLevel: 4, Attack: 6.5 as float}, Special: {Categories: ["aoe", "tool", "harvest"]}, TinkerData: {Materials: ["platinum", "platinum", "platinum"], Modifiers: ["toolleveling"]}, Modifiers: [{identifier: "tconevo.deadly_precision", color: -10366477, level: 1}, {identifier: "coldblooded", color: -10366477, level: 1}, {identifier: "toolleveling", color: 16777215, level: 1}], Traits: ["tconevo.deadly_precision", "coldblooded", "toolleveling"]}) % 5
+}, {
+    mainhand: <tconstruct:broadsword>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 14.5 as float, FreeModifiers: 3, Durability: 3591, HarvestLevel: 3, Attack: 6.7 as float}, Stats: {AttackSpeedMultiplier: 1.1 as float, MiningSpeed: 14.5 as float, FreeModifiers: 5, Durability: 3591, HarvestLevel: 3, Attack: 6.7 as float}, Special: {Categories: ["weapon", "tool"]}, TinkerData: {Materials: ["diamond", "diamond", "diamond"], Modifiers: ["toolleveling"]}, Modifiers: [{identifier: "duritos", color: -15138817, level: 1}, {identifier: "crystal_force", color: -15138817, level: 1}, {identifier: "lightweight", color: -15138817, level: 1}, {identifier: "toolleveling", color: 16777215, level: 1}], Traits: ["duritos", "crystal_force", "lightweight", "toolleveling"]}) % 5
+}, {
+    mainhand: <tconstruct:cleaver>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 9.375 as float, FreeModifiers: 3, Durability: 3916, HarvestLevel: 3, Attack: 10.799999 as float}, Stats: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 9.375 as float, FreeModifiers: 5, Durability: 3916, HarvestLevel: 3, Attack: 10.799999 as float}, Special: {Categories: ["weapon", "tool"]}, TinkerData: {Materials: ["diamantine_crystal", "diamantine_crystal", "diamantine_crystal", "diamantine_crystal"], Modifiers: ["beheading_cleaver", "toolleveling"]}, Modifiers: [{identifier: "tconevo.aftershock", color: -7617026, level: 3}, {identifier: "beheading_cleaver", color: 1070923, level: 2}, {identifier: "toolleveling", color: 16777215, level: 1}], Traits: ["tconevo.aftershock1", "toolleveling"]}) % 5
+}, {
+    mainhand: <tconstruct:hatchet>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 5.75 as float, FreeModifiers: 3, Durability: 1224, HarvestLevel: 3, Attack: 6.9 as float}, Stats: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 5.75 as float, FreeModifiers: 5, Durability: 1224, HarvestLevel: 3, Attack: 6.9 as float}, Special: {Categories: ["aoe", "weapon", "tool", "harvest"]}, TinkerData: {Materials: ["ruby", "ruby", "ruby"], Modifiers: ["toolleveling"]}, Modifiers: [{identifier: "raging", color: -43691, level: 1}, {identifier: "bloodymary", color: -43691, level: 1}, {identifier: "toolleveling", color: 16777215, level: 1}], Traits: ["raging", "bloodymary", "toolleveling"]}) % 5
+}, {
+    mainhand: <tconstruct:mattock>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, HarvestLevelAxe: 2, MiningSpeed: 7.5 as float, FreeModifiers: 3, HarvestLevelShovel: 2, Durability: 270, HarvestLevel: 2, Attack: 7.5 as float}, Stats: {AttackSpeedMultiplier: 1.1 as float, HarvestLevelAxe: 2, MiningSpeed: 7.5 as float, FreeModifiers: 5, HarvestLevelShovel: 2, Durability: 270, HarvestLevel: 2, Attack: 7.5 as float}, Special: {Categories: ["aoe", "tool", "harvest"]}, TinkerData: {Materials: ["certus_quartz", "certus_quartz", "certus_quartz"], Modifiers: ["toolleveling"]}, Modifiers: [{identifier: "lightweight", color: -3743233, level: 1}, {identifier: "crystal_force", color: -3743233, level: 1}, {identifier: "toolleveling", color: 16777215, level: 1}], Traits: ["lightweight", "crystal_force", "toolleveling"]}) % 5
 }] as WeightedItemStack[string][], "nether");
 
 addGroup("post_hardmode", 0.25, [{
-    head: <abyssalcraft:dreadiumhelmet> % 15,
-    chest: <abyssalcraft:dreadiumplate> % 15,
-    legs: <abyssalcraft:dreadiumlegs> % 15,
-    feet: <abyssalcraft:dreadiumboots> % 15,
+    head: <abyssalcraft:dreadiumhelmet> % 10,
+    chest: <abyssalcraft:dreadiumplate> % 10,
+    legs: <abyssalcraft:dreadiumlegs> % 10,
+    feet: <abyssalcraft:dreadiumboots> % 10,
     mainhand: <abyssalcraft:dreadiumsword>.withTag({ench: [{lvl: 2 as short, id: 16}]}) % 15
+}, {
+    head: <tcomplement:manyullyn_helmet> % 10,
+    chest: <tcomplement:manyullyn_chestplate> % 10,
+    legs: <tcomplement:manyullyn_leggings> % 10,
+    feet: <tcomplement:manyullyn_boots> % 10,
+    mainhand: <tconstruct:broadsword>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 8.775 as float, FreeModifiers: 3, Durability: 1130, HarvestLevel: 4, Attack: 9.9 as float}, Stats: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 8.775 as float, FreeModifiers: 5, Durability: 1130, HarvestLevel: 4, Attack: 9.9 as float}, Special: {Categories: ["tool", "weapon"]}, TinkerData: {Materials: ["manyullyn", "manyullyn", "manyullyn"], Modifiers: ["toolleveling"]}, Modifiers: [{identifier: "coldblooded", color: -6202120, level: 1}, {identifier: "insatiable", color: -6202120, level: 1}, {identifier: "toolleveling", color: 16777215, level: 1}], Traits: ["coldblooded", "insatiable", "toolleveling"]}) % 5
 }, {
     head: <abyssalcraft:ethaxiumhelmet> % 5,
     chest: <abyssalcraft:ethaxiumplate> % 5,
@@ -189,4 +327,26 @@ addGroup("post_hardmode", 0.25, [{
     mainhand: <tconstruct:longsword>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 20.0 as float, FreeModifiers: 3, Durability: 13030, HarvestLevel: 4, Attack: 9.0 as float}, Stats: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 20.0 as float, FreeModifiers: 5, Durability: 13030, HarvestLevel: 4, Attack: 9.0 as float}, Special: {Categories: ["weapon", "tool"]}, TinkerData: {Materials: ["stainless_steel", "stainless_steel", "stainless_steel"], Modifiers: ["toolleveling"]}, Modifiers: [{identifier: "anticorrosion", color: -9079435, level: 1}, {identifier: "fortified", color: -9079435, level: 1}, {identifier: "reliable", color: -9079435, level: 1}, {identifier: "toolleveling", color: 16777215, level: 1}], Traits: ["anticorrosion", "fortified", "reliable", "toolleveling"]}) % 5
 }, {
     mainhand: <tconstruct:broadsword>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 9.375 as float, FreeModifiers: 3, Durability: 1692, HarvestLevel: 3, Attack: 6.0 as float}, Stats: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 9.375 as float, FreeModifiers: 5, Durability: 1692, HarvestLevel: 3, Attack: 6.0 as float}, Special: {Categories: ["weapon", "tool"]}, TinkerData: {Materials: ["gravitite", "gravitite", "gravitite"], Modifiers: ["toolleveling"]}, Modifiers: [{identifier: "launching", color: -3385942, level: 1}, {identifier: "antigrav", color: -3385942, level: 1}, {identifier: "gilded", color: -3385942, level: 1}, {identifier: "toolleveling", color: 16777215, level: 1}], Traits: ["launching", "antigrav", "gilded", "toolleveling"]}) % 5
+}, {
+    mainhand: <tconstruct:hatchet>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 80.5 as float, FreeModifiers: 3, Durability: 1520, HarvestLevel: 4, Attack: 10.7 as float}, Stats: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 80.5 as float, FreeModifiers: 5, Durability: 1520, HarvestLevel: 4, Attack: 10.7 as float}, Special: {Categories: ["aoe", "weapon", "tool", "harvest"]}, TinkerData: {Materials: ["ravaging", "ravaging", "ravaging"], Modifiers: ["toolleveling"]}, Modifiers: [{identifier: "tconevo.relentless", color: -15901, level: 1}, {identifier: "pulverizing", color: -15901, level: 1}, {identifier: "crumbling", color: -15901, level: 1}, {identifier: "toolleveling", color: 16777215, level: 1}], Traits: ["tconevo.relentless", "pulverizing", "crumbling", "toolleveling"]}) % 5
+}, {
+    mainhand: <tconstruct:pickaxe>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 14.6 as float, FreeModifiers: 3, Durability: 4688, HarvestLevel: 4, Attack: 10.8 as float}, Stats: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 14.6 as float, FreeModifiers: 5, Durability: 4688, HarvestLevel: 4, Attack: 10.8 as float}, Special: {Categories: ["aoe", "tool", "harvest"]}, TinkerData: {Materials: ["starmetal", "starmetal", "starmetal"], Modifiers: ["toolleveling"]}, Modifiers: [{identifier: "tconevo.astral", color: -14529617, level: 1}, {identifier: "unnatural", color: -14529617, level: 1}, {identifier: "toolleveling", color: 16777215, level: 1}], Traits: ["tconevo.astral", "unnatural", "toolleveling"]}) % 5
+}, {
+    mainhand: <tconstruct:mattock>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, HarvestLevelAxe: 5, MiningSpeed: 8.5 as float, FreeModifiers: 3, HarvestLevelShovel: 5, Durability: 1693, HarvestLevel: 5, Attack: 15.2 as float}, Stats: {AttackSpeedMultiplier: 1.0 as float, HarvestLevelAxe: 5, MiningSpeed: 8.5 as float, FreeModifiers: 5, HarvestLevelShovel: 5, Durability: 1693, HarvestLevel: 5, Attack: 15.2 as float}, Special: {Categories: ["aoe", "tool", "harvest"]}, TinkerData: {Materials: ["gaia", "gaia", "gaia"], Modifiers: ["toolleveling"]}, Modifiers: [{identifier: "tconevo.mortal_wounds", color: -32597, level: 1}, {identifier: "tconevo.mana_infused", color: -32597, level: 1}, {identifier: "tconevo.gaia_wrath", color: -32597, level: 1}, {identifier: "toolleveling", color: 16777215, level: 1}], Traits: ["tconevo.mortal_wounds", "tconevo.mana_infused", "tconevo.gaia_wrath", "toolleveling"]}) % 5
+}, {
+    mainhand: <tconstruct:kama>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 4.5 as float, FreeModifiers: 3, Durability: 175, HarvestLevel: 0, Attack: 1.4 as float}, Stats: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 4.5 as float, FreeModifiers: 5, Durability: 175, HarvestLevel: 0, Attack: 1.4 as float}, Special: {Categories: ["aoe", "weapon", "tool", "harvest"]}, TinkerData: {Materials: ["poop", "poop", "poop"], Modifiers: ["toolleveling"]}, Modifiers: [{identifier: "poisonous", color: -10665929, level: 1}, {identifier: "poopy", color: -10665929, level: 1}, {identifier: "softy", color: -10665929, level: 1}, {identifier: "toolleveling", color: 16777215, level: 1}], Traits: ["poisonous", "poopy", "softy", "toolleveling"]}) % 5
+}, {
+    mainhand: <tconstruct:hammer>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 18.75 as float, FreeModifiers: 3, Durability: 13200, HarvestLevel: 5, Attack: 14.0 as float}, Stats: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 18.75 as float, FreeModifiers: 5, Durability: 13200, HarvestLevel: 5, Attack: 14.0 as float}, Special: {Categories: ["aoe", "weapon", "tool", "harvest"]}, TinkerData: {Materials: ["dark_matter", "dark_matter", "dark_matter", "dark_matter"], Modifiers: ["toolleveling"]}, Modifiers: [{identifier: "dense", color: -13684945, level: 1}, {identifier: "heavy", color: -13684945, level: 1}, {identifier: "toolleveling", color: 16777215, level: 1}], Traits: ["dense", "heavy", "toolleveling"]}) % 5
+}, {
+    mainhand: <tconstruct:excavator>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 16.0 as float, FreeModifiers: 3, Durability: 5894, HarvestLevel: 4, Attack: 8.2 as float}, Stats: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 16.0 as float, FreeModifiers: 5, Durability: 5894, HarvestLevel: 4, Attack: 8.2 as float}, Special: {Categories: ["aoe", "tool", "harvest"]}, TinkerData: {Materials: ["sentient_metal", "sentient_metal", "sentient_metal", "sentient_metal"], Modifiers: ["toolleveling"]}, Modifiers: [{identifier: "tconevo.willful", color: -8462621, level: 1}, {identifier: "tconevo.sentient", color: -8462621, level: 1}, {identifier: "toolleveling", color: 16777215, level: 1}], Traits: ["tconevo.willful", "tconevo.sentient", "toolleveling"]}) % 5
+}, {
+    mainhand: <tconstruct:lumberaxe>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 2.5 as float, FreeModifiers: 3, Durability: 898, HarvestLevel: 2, Attack: 6.0 as float}, Stats: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 2.5 as float, FreeModifiers: 5, Durability: 898, HarvestLevel: 2, Attack: 6.0 as float}, Special: {Categories: ["aoe", "tool", "harvest"]}, TinkerData: {Materials: ["zanite", "zanite", "zanite", "zanite"], Modifiers: ["toolleveling"]}, Modifiers: [{identifier: "crystal_force", color: -10087971, level: 1}, {identifier: "gilded", color: -10087971, level: 1}, {identifier: "toolleveling", color: 16777215, level: 1}], Traits: ["crystal_force", "gilded", "toolleveling"]}) % 5
+}, {
+    mainhand: <tconstruct:scythe>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 8.6 as float, FreeModifiers: 3, Durability: 4144, HarvestLevel: 4, Attack: 7.2 as float}, Stats: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 8.6 as float, FreeModifiers: 5, Durability: 4144, HarvestLevel: 4, Attack: 7.2 as float}, Special: {Categories: ["aoe", "weapon", "tool", "harvest"]}, TinkerData: {Materials: ["xu_demonic_metal", "xu_demonic_metal", "xu_demonic_metal", "xu_demonic_metal"], Modifiers: ["toolleveling"]}, Modifiers: [{identifier: "xu_whispering", color: -6079744, level: 1}, {identifier: "toolleveling", color: 16777215, level: 1}], Traits: ["xu_whispering", "toolleveling"]}) % 5
+}, {
+    mainhand: <tconstruct:cleaver>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 10.0 as float, FreeModifiers: 3, Durability: 7500, HarvestLevel: 5, Attack: 14.7 as float}, Stats: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 10.0 as float, FreeModifiers: 5, Durability: 7500, HarvestLevel: 5, Attack: 14.7 as float}, Special: {Categories: ["weapon", "tool"]}, TinkerData: {Materials: ["enderium", "enderium", "enderium", "enderium"], Modifiers: ["beheading_cleaver", "toolleveling"]}, Modifiers: [{identifier: "enderference", color: -15835295, level: 1}, {identifier: "tconevo.mortal_wounds", color: -15835295, level: 1}, {identifier: "beheading_cleaver", color: 1070923, level: 2}, {identifier: "toolleveling", color: 16777215, level: 1}], Traits: ["enderference", "tconevo.mortal_wounds", "toolleveling"]}) % 5
+}, {
+    mainhand: <tconstruct:rapier>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 80.5 as float, FreeModifiers: 3, Durability: 1216, HarvestLevel: 4, Attack: 10.2 as float}, Stats: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 80.5 as float, FreeModifiers: 5, Durability: 1216, HarvestLevel: 4, Attack: 10.2 as float}, Special: {Categories: ["weapon", "tool"]}, TinkerData: {Materials: ["ravaging", "ravaging", "ravaging"], Modifiers: ["toolleveling"]}, Modifiers: [{identifier: "tconevo.relentless", color: -15901, level: 1}, {identifier: "pulverizing", color: -15901, level: 1}, {identifier: "crumbling", color: -15901, level: 1}, {identifier: "toolleveling", color: 16777215, level: 1}], Traits: ["tconevo.relentless", "pulverizing", "crumbling", "toolleveling"]}) % 5
+}, {
+    mainhand: <tconstruct:frypan>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 10.0 as float, FreeModifiers: 3, Durability: 2000, HarvestLevel: 4, Attack: 8.0 as float}, Stats: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 10.0 as float, FreeModifiers: 5, Durability: 2000, HarvestLevel: 4, Attack: 8.0 as float}, Special: {Categories: ["weapon", "tool"]}, TinkerData: {Materials: ["perfect", "perfect"], Modifiers: ["toolleveling"]}, Modifiers: [{identifier: "perfectionist", color: -11751600, level: 1}, {identifier: "toolleveling", color: 16777215, level: 1}], Traits: ["perfectionist", "toolleveling"]}) % 5
 }] as WeightedItemStack[string][], "hardmode");
