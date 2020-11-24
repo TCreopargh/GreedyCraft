@@ -1,0 +1,28 @@
+{
+  "weight": 240,
+  "type": "tconevo:armour",
+  "name": "相位之靴",
+  "lore": "借助风的力量使你直步青云。",
+  "armour": "boots",
+  "materials": [
+    "tofumetal",
+    "aeroite",
+    "prismarine"
+  ],
+  "free_mods": 7,
+  "mods": [
+    {
+      "id": "speedy_armor",
+      "level": 100
+    },
+    {
+      "id": "shulkerweight_armor",
+      "level": 20
+    },
+    "high_stride_armor",
+    {
+      "id": "reinforced_armor",
+      "level": 3
+    }
+  ]
+}

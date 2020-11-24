@@ -121,5 +121,7 @@ global deathQuotes as string[] = [
     "§9/sudo rm -rf /",
     "§5对象“§d%playername%§5”已被删除。",
     "<Herobrine> %playername%，我盯上你了，你完蛋了！",
-    "§6我们赶到事发现场时只发现一张纸条，上面写着：“%playername%，yyds”"
+    "§6我们赶到事发现场时只发现一张纸条，上面写着：“%playername%，yyds”",
+    "§6我大意了，没有闪！",
+    "§e年轻人我劝你耗子尾汁！"
 ];

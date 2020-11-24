@@ -1,0 +1,9 @@
+{
+  "name": "§6没时间解释了，快上车",
+  "shines": true,
+  "tooltip": [
+    "§e都几点了，还不开车！",
+    "§b§o赞助者物品 by Lunetda"
+  ],
+  "type": "additions:simple"
+}

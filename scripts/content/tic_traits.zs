@@ -3,9 +3,11 @@
  * You may NOT use this script in any other publicly distributed modpack without my permission.
  */
 
-#loader contenttweaker 
+#loader contenttweaker
+
 #modloaded tconstruct
-#priority 2600
+
+#priority 2602
 
 import crafttweaker.player.IPlayer;
 import crafttweaker.entity.IEntityLivingBase;
@@ -29,7 +31,7 @@ import mods.contenttweaker.tconstruct.TraitBuilder;
 
 val poopTrait = TraitBuilder.create("poopy");
 poopTrait.color = Color.fromHex("5d4037").getIntColor(); 
-poopTrait.localizedName = "114514";
+poopTrait.localizedName = "恶臭";
 poopTrait.localizedDescription = (
     "§o兄啊这么臭的工具有用的必要么（恼）§r\n" +
     "§f击打怪物时概率获得...算了不说了，呕。");
@@ -42,7 +44,6 @@ poopTrait.onHit = function(trait, tool, attacker, target, damage, isCritical) {
     }
 };
 poopTrait.register();
-
 
 val pinkyTrait = TraitBuilder.create("pinky");
 pinkyTrait.color = Color.fromHex("ff80ab").getIntColor(); 
@@ -129,13 +130,43 @@ val levelingdamageTrait = TraitBuilder.create("levelingdamage");
 levelingdamageTrait.color = Color.fromHex("7e57c2").getIntColor(); 
 levelingdamageTrait.localizedName = "等级伤害";
 levelingdamageTrait.addItem(<ore:plateHonor>);
-levelingdamageTrait.maxLevel = 1;
+levelingdamageTrait.maxLevel = 3;
 levelingdamageTrait.localizedDescription = (
     "§o我要变得更强！§r\n" +
     "§f随着工具等级的提升获得越来越高的攻击力。");
 levelingdamageTrait.extraInfo = function(thisTrait, item, tag) {
-    var description as string[] = ["随着工具等级的提升提高其攻击力", "攻击力提升上限为100%"];
-    return description;
+    if(isNull(tag) || isNull(tag.memberGet("Modifiers"))) {
+        return [] as string[];
+    }
+    var modifiers = tag.memberGet("Modifiers") as IData;
+    var toolLevel = {} as IData;
+    if(modifiers.asString().contains("toolleveling")) {
+        for i in 0 to modifiers.length {
+            var current as IData = modifiers[i];
+            if(current.asString().contains("toolleveling")) {
+                toolLevel = current;
+                break;
+            }
+        }
+    }
+    var multiplier = 1.0;
+    if(!isNull(toolLevel.memberGet("level"))) {
+        var level = toolLevel.memberGet("level").asInt() as int;
+        while(level > 0) {
+            level -= 1;
+            multiplier += 0.05;
+        }
+        if(multiplier > 2.0) {
+            multiplier = 2.0 + (multiplier - 2.0) / 4;
+        }
+    }
+    var data as TraitDataRepresentation = thisTrait.getData(item);
+    var level = 0;
+    if(!isNull(data)) {
+        level = data.level;
+    }
+    multiplier = (multiplier - 1.0 as float) * (level / 3) + 1.0 as float;
+    return ["武器伤害加成：" + Math.round((multiplier - 1.0) * 100) as int + "%"] as string[];
 };
 levelingdamageTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
     var modifiers = tool.tag.memberGet("Modifiers") as IData;
@@ -157,13 +188,18 @@ levelingdamageTrait.calcDamage = function(trait, tool, attacker, target, origina
             multiplier += 0.05;
         }
         if(multiplier > 2.0) {
-            multiplier = 2.0;
+            multiplier = 2.0 + (multiplier - 2.0) / 4;
         }
+    }    
+    var data as TraitDataRepresentation = trait.getData(tool);
+    var level = 0;
+    if(!isNull(data)) {
+        level = data.level;
     }
+    multiplier = (multiplier - 1.0 as float) * (level / 3) + 1.0 as float;
     return newDamage * multiplier as float;
 };
 levelingdamageTrait.register();
-
 
 val thunderingTrait = TraitBuilder.create("lightning");
 thunderingTrait.color = Color.fromHex("ffee58").getIntColor(); 
@@ -207,7 +243,9 @@ fortifiedTrait.localizedDescription = (
     "§o我们未能击穿敌人的装甲！§r\n" +
     "§f格挡成功时获得抗性提升II效果。");
 fortifiedTrait.onBlock = function(trait, tool, player, event) {
-    player.addPotionEffect(<potion:minecraft:resistance>.makePotionEffect(125, 1, false, false));
+    if(!isNull(player)) {
+        player.addPotionEffect(<potion:minecraft:resistance>.makePotionEffect(125, 1, false, false));
+    }
 };
 fortifiedTrait.register();
 
@@ -259,6 +297,22 @@ halloweenTrait.onHit = function(trait, tool, attacker, target, damage, isCritica
 };
 halloweenTrait.register();
 
+val milkyTrait = TraitBuilder.create("milky");
+milkyTrait.color = Color.fromHex("ffffff").getIntColor(); 
+milkyTrait.localizedName = "奶香";
+milkyTrait.localizedDescription = (
+    "§o不是所有牛奶都叫xxx！§r\n" +
+    "§f偶尔会清空你的所有状态效果（对，包括正面效果…）");
+milkyTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSelected) {
+    if(!isNull(owner) && owner instanceof IEntityLivingBase) {
+        var ownerBase as IEntityLivingBase = owner;
+        if(world.getWorldTime() as long % 12000 == 0) {
+            ownerBase.clearActivePotions();
+        }
+    }
+};
+milkyTrait.register();
+
 val giantslayerTrait = TraitBuilder.create("giantslayer");
 giantslayerTrait.color = Color.fromHex("ffb74d").getIntColor(); 
 giantslayerTrait.localizedName = "巨魔猎手";
@@ -302,8 +356,8 @@ spartanTrait.localizedDescription = (
     "§o这里，是，斯巴达！§r\n" +
     "§f在生命垂危时大幅提升攻击伤害。");
 spartanTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
-    if(!((attacker.health as float / attacker.maxHealth as float) as float > 0.33 as float)) {
-        var multiplier as float = 1.75 as float + (1.0 as float - (attacker.health as float / attacker.maxHealth as float * 0.33 as float)) * 1.25 as float;
+    if((attacker.health as float / attacker.maxHealth as float) as float < 0.33 as float) {
+        var multiplier as float = 1.75 as float + (1.0 as float - (attacker.health as float / (attacker.maxHealth as float * 0.33) as float)) * 1.25 as float;
         return newDamage as float * multiplier as float;
     }
     return newDamage;
@@ -403,3 +457,48 @@ tidal_force.calcDamage = function(trait, tool, attacker, target, originalDamage,
 };
 tidal_force.register();
 
+val holdGroundTrait = TraitBuilder.create("hold_ground");
+holdGroundTrait.color = Color.fromHex("f44336").getIntColor(); 
+holdGroundTrait.localizedName = "坚守阵地";
+holdGroundTrait.localizedDescription = (
+    "§o我们已经无路可退！§r\n" +
+    "§f手持该工具潜行时提高造成的伤害且在格挡时获得力量效果！");
+holdGroundTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+    if(attacker.isSneaking) {
+        return newDamage * 1.25;
+    } else {
+        return newDamage;
+    }
+};
+holdGroundTrait.onBlock = function(trait, tool, player, event) {
+    if(!isNull(player) && player.isSneaking) {
+        player.addPotionEffect(<potion:minecraft:strength>.makePotionEffect(125, 1, false, false));
+    }
+};
+holdGroundTrait.register();
+
+val motionTrait = TraitBuilder.create("motion");
+motionTrait.color = Color.fromHex("ffee58").getIntColor(); 
+motionTrait.localizedName = "影流之主";
+motionTrait.localizedDescription = (
+    "§o生命在于运动！§r\n" +
+    "§f疾跑时大幅提高造成的伤害和击退，不过由于向敌人暴露了弱点，你也会受到更多的伤害！");
+motionTrait.onPlayerHurt = function(trait, tool, player, attacker, event) {
+    if(!isNull(player) && player.isSprinting) {
+        event.amount = event.amount * 1.5 as float;
+    }
+};
+motionTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+    if(attacker.isSprinting) {
+        return newDamage * 1.33;
+    } else {
+        return newDamage;
+    }
+};
+motionTrait.calcKnockBack = function(trait, tool, attacker, target, damage, originalKnockBack, newKnockBack, isCritical) {
+    if(attacker.isSprinting) {
+        return (newKnockBack * 2.5) as float; 
+    }
+    return newKnockBack;
+};
+motionTrait.register();

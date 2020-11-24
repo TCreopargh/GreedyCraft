@@ -88,7 +88,8 @@ import crafttweaker.game.IGame;
     <cyclicmagic:charm_wing>,
     <cyclicmagic:charm_antidote>,
     <cyclicmagic:charm_fire>,
-    <cyclicmagic:charm_void>
+    <cyclicmagic:charm_void>,
+    <actuallyadditions:item_misc:20>
 ]);
 <ore:dungeonLootTier1>.addAll(<ore:itemPoop>);
 <ore:dungeonLootTier1>.addAll(<ore:gemShadow>);
@@ -218,7 +219,9 @@ import crafttweaker.game.IGame;
     <additions:tcsponsors-sponsors_chest>,
     <cyclicmagic:heart_food>,
     <additions:greedycraft-one_punch>,
-    <additions:greedycraft-experiment_note>
+    <additions:greedycraft-experiment_note>,
+    <mowziesmobs:wrought_helmet>,
+    <mowziesmobs:wrought_axe>
 ]);
 <ore:dungeonShield>.addItems([
     <cqrepoured:shield_bull>,

@@ -407,7 +407,7 @@ recipes.addShaped("auto_gen_-1513078655", <cyclicmagic:battery>, [
 ]);
 recipes.addShaped("auto_gen_918073950", <waystones:warp_stone>, [
     [<ore:obsidian>, <ore:gemDiamond>, <ore:obsidian>],
-    [<ore:gemDiamond>, <ore:pearlEnderEye>, <ore:gemDiamond>],
+    [<ore:gemDiamond>, <ore:enderpearl>, <ore:gemDiamond>],
     [<ore:obsidian>, <ore:gemDiamond>, <ore:obsidian>]
 ]);
 recipes.addShaped("auto_gen_2018337295", <thermalfoundation:material:23>, [
@@ -1169,6 +1169,36 @@ recipes.addShaped("exu_building_wand", <extrautils2:itembuilderswand>, [
     [null, <ore:ingotAsgardium>, <ore:blockGold>],
     [null, <ore:blockMagicalWood>, <ore:ingotAsgardium>],
     [<ore:blockMagicalWood>, null, null]
+]);
+recipes.addShaped("bubble_ring", <aeble:bubble_ring>, [
+    [<ore:ingotAqualite>, <ore:ingotAsgardium>, <ore:ingotAqualite>],
+    [<ore:ingotAsgardium>, <ore:ingotAqualite>, <ore:ingotAsgardium>],
+    [<ore:ingotAqualite>, <ore:ingotAsgardium>, <ore:ingotAqualite>]
+]);
+recipes.addShaped("ice_ring", <aeble:ice_ring>, [
+    [<ore:ice>, <ore:ingotAsgardium>, <ore:ice>],
+    [<ore:ingotAsgardium>, <ore:ice>, <ore:ingotAsgardium>],
+    [<ore:ice>, <ore:ingotAsgardium>, <ore:ice>]
+]);
+recipes.addShaped("zanite_ring", <aeble:zanite_ring>, [
+    [<ore:gemZanite>, <ore:ingotAsgardium>, <ore:gemZanite>],
+    [<ore:ingotAsgardium>, <ore:gemZanite>, <ore:ingotAsgardium>],
+    [<ore:gemZanite>, <ore:ingotAsgardium>, <ore:gemZanite>]
+]);
+recipes.addShaped("obsidian_ring", <aeble:obsidian_ring>, [
+    [<ore:obsidian>, <ore:ingotAsgardium>, <ore:obsidian>],
+    [<ore:ingotAsgardium>, <ore:obsidian>, <ore:ingotAsgardium>],
+    [<ore:obsidian>, <ore:ingotAsgardium>, <ore:obsidian>]
+]);
+recipes.addShaped("regen_ring", <aeble:regeneration_ring>, [
+    [<scalinghealth:heartcontainer>, <ore:ingotAsgardium>, <scalinghealth:heartcontainer>],
+    [<ore:ingotAsgardium>, <scalinghealth:heartcontainer>, <ore:ingotAsgardium>],
+    [<scalinghealth:heartcontainer>, <ore:ingotAsgardium>, <scalinghealth:heartcontainer>]
+]);
+recipes.addShaped("air_ring", <aeble:air_ring>, [
+    [<ore:ingotAeroite>, <ore:ingotAsgardium>, <ore:ingotAeroite>],
+    [<ore:ingotAsgardium>, <ore:ingotAeroite>, <ore:ingotAsgardium>],
+    [<ore:ingotAeroite>, <ore:ingotAsgardium>, <ore:ingotAeroite>]
 ]);
 
 /* Templates

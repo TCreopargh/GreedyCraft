@@ -24,7 +24,8 @@ val noStageItems as IIngredient[] = [
     <ore:dustSalt>,
     <mekanism:salt>,
     <bloodmagic:monster_soul:3>,
-    <ore:blockSalt>
+    <ore:blockSalt>,
+    <aether_legacy:ambrosium_shard>
 ] as IIngredient[];
 
 var stageTwilightShield = ZenStager.initStage("twilight_shield");
@@ -362,7 +363,13 @@ stageNether.addIngredients([
     <ore:dustAqualite>,
     <ore:oreAqualite>,
     <ore:blockAqualite>,
-    <inventorypets:squid_pet>
+    <inventorypets:squid_pet>,
+    <minecraft:ghast_tear>,
+    <ore:boneWithered>,
+    <darkutils:material>,
+    <ore:dropofevil>,
+    <quark:black_ash>,
+    <minecraft:magma_cream>
 ], true);
 
 stageNether.addIngredients([
@@ -680,21 +687,21 @@ stageHardmode.addOreReplacement(<draconicevolution:draconium_ore:1>, <minecraft:
 stageHardmode.addOreReplacement(<draconicevolution:draconium_ore:2>, <minecraft:end_stone>, false);
 stageHardmode.addOreReplacement(<biomesoplenty:gem_ore:*>, <minecraft:stone>, false);
 stageHardmode.addOreReplacement(<biomesoplenty:gem_ore:0>, <minecraft:end_stone>, false);
-stageSkilledEngineer.addOreReplacement(<thermalfoundation:ore:7>, <minecraft:stone>, false);
-stageSkilledEngineer.addOreReplacement(<thermalfoundation:ore:6>, <minecraft:stone>, false);
+stageSkilledEngineer.addOreReplacement(<ore:oreIridium>, <minecraft:stone>, false);
+stageSkilledEngineer.addOreReplacement(<ore:orePlatinum>, <minecraft:stone>, false);
 stageSkilledEngineer.addOreReplacement(<bigreactors:oreyellorite:*>, <minecraft:stone>, false);
 stageSkilledEngineer.addOreReplacement(<mekanism:oreblock:*>, <minecraft:stone>, false);
 stageEnderCharm.addOreReplacement(<minecraft:end_portal_frame:*>, <additions:greedycraft-unknown_block>, false);
 stageNether.addOreReplacement(<minecraft:anvil:*>, <additions:greedycraft-unknown_block>, false);
 stageNether.addOreReplacement(<minecraft:enchanting_table:*>, <additions:greedycraft-unknown_block>, false);
 stageNether.addOreReplacement(<minecraft:beacon:*>, <additions:greedycraft-unknown_block>, false);
-stageHardmode.addOreReplacement(<additions:greedycraft-titanium_ore>, <minecraft:end_stone>, false);
-stageHardmode.addOreReplacement(<additions:greedycraft-cryonium_ore>, <minecraft:stone>, false);
+stageHardmode.addOreReplacement(<ore:oreTitanium>, <minecraft:end_stone>, false);
+stageHardmode.addOreReplacement(<ore:oreCryonium>, <minecraft:stone>, false);
 stageNether.addOreReplacement(<minecraft:quartz_ore>, <minecraft:netherrack>, false);
 stageNether.addOreReplacement(<thaumcraft:ore_quartz>, <minecraft:stone>, false);
 stageNether.addOreReplacement(<netherendingores:ore_other_1>, <minecraft:stone>, false);
-stageNether.addOreReplacement(<additions:greedycraft-aeroite_ore>, <aether_legacy:aercloud>, false);
-stageNether.addOreReplacement(<additions:greedycraft-aqualite_ore>, <minecraft:prismarine>, false);
+stageNether.addOreReplacement(<ore:oreAeroite>, <aether_legacy:aercloud>, false);
+stageNether.addOreReplacement(<ore:oreAqualite>, <minecraft:prismarine>, false);
 stageHardmode.addOreReplacement(<additions:greedycraft-cytosinite_ore>, <biomesoplenty:mud>, false);
 stageGettingStarted.addOreReplacement(<ore:chest>, <additions:greedycraft-unknown_block>, false);
 
@@ -855,7 +862,7 @@ stageFearlessMan.addIngredients([
 stageSkilledEngineer.addModId(["mekanism", "mekanismgenerators"]);
 stageHardmode.addModId(["avaritia", "draconicevolution", "extrabotany", "projecte", "projectex", "taiga"]);
 
-stageNether.addModId(["aether_legacy", "cyclicmagic", "touhou_little_maid"]);
+stageNether.addModId(["aether_legacy", "cyclicmagic", "touhou_little_maid", "aeble"]);
 stageNoviceWizard.addModId(["bloodmagic", "bloodarsenal", "animus"]);
 
 stageNoviceEngineer.addModId(["enderio"]);

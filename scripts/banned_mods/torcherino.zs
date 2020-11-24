@@ -18,17 +18,21 @@ mods.avaritia.ExtremeCrafting.addShaped("torcherino_1", <torcherino:blockcompres
 recipes.remove(<torcherino:blockdoublecompressedtorcherino>);
 mods.avaritia.ExtremeCrafting.addShaped("torcherino_1", <torcherino:blockdoublecompressedtorcherino> * 1, [[<projectex:matter:9>, <projectex:matter:9>, <projectex:matter:9>, <projectex:matter:9>, <projectex:matter:9>, <projectex:matter:9>, <projectex:matter:9>, <projectex:matter:9>, <projectex:matter:9>], [<projectex:matter:9>, <projectex:matter:8>, <projectex:matter:8>, <projectex:matter:8>, <projectex:matter:8>, <projectex:matter:8>, <projectex:matter:8>, <projectex:matter:8>, <projectex:matter:9>],[<projectex:matter:9>, <projectex:matter:8>, <torcherino:blockcompressedtorcherino>, <additions:greedycraft-infinity_block_block_block>, <torcherino:blockcompressedtorcherino>, <additions:greedycraft-infinity_block_block_block>, <torcherino:blockcompressedtorcherino>, <projectex:matter:8>, <projectex:matter:9>],[<projectex:matter:9>, <projectex:matter:8>, <additions:greedycraft-infinity_block_block_block>, <additions:greedycraft-creative_soul>, <additions:greedycraft-creative_soul>, <additions:greedycraft-creative_soul>, <additions:greedycraft-infinity_block_block_block>, <projectex:matter:8>, <projectex:matter:9>],[<projectex:matter:9>, <projectex:matter:8>, <torcherino:blockcompressedtorcherino>, <additions:greedycraft-creative_soul>, <torcherino:blockcompressedtorcherino>, <additions:greedycraft-creative_soul>, <torcherino:blockcompressedtorcherino>, <projectex:matter:8>, <projectex:matter:9>],[<projectex:matter:9>, <projectex:matter:8>, <additions:greedycraft-infinity_block_block_block>, <additions:greedycraft-creative_soul>, <additions:greedycraft-creative_soul>, <additions:greedycraft-creative_soul>, <additions:greedycraft-infinity_block_block_block>, <projectex:matter:8>, <projectex:matter:9>],[<projectex:matter:9>, <projectex:matter:8>, <torcherino:blockcompressedtorcherino>, <additions:greedycraft-infinity_block_block_block>, <torcherino:blockcompressedtorcherino>, <additions:greedycraft-infinity_block_block_block>, <torcherino:blockcompressedtorcherino>, <projectex:matter:8>, <projectex:matter:9>],[<projectex:matter:9>, <projectex:matter:8>, <projectex:matter:8>, <projectex:matter:8>, <projectex:matter:8>, <projectex:matter:8>, <projectex:matter:8>, <projectex:matter:8>, <projectex:matter:9>],[<projectex:matter:9>, <projectex:matter:9>, <projectex:matter:9>, <projectex:matter:9>, <projectex:matter:9>, <projectex:matter:9>, <projectex:matter:9>, <projectex:matter:9>, <projectex:matter:9>]]);
 
-<torcherino:blocktorcherino>.addTooltip("§e在？PY又痒了？");
-<torcherino:blocktorcherino>.addTooltip("§e把加速火把插到你PY里，给你好好加个速！");
-<torcherino:blocktorcherino>.addTooltip("§5       ——一位不愿透露姓名的bat");
+val toolTip1 as string = "§e在？PY又痒了？";
+val toolTip2 as string = "§e把加速火把插到你PY里，给你好好加个速！";
+val toolTip3 as string = "§5       ——一位不愿透露姓名的bat";
 
-<torcherino:blockcompressedtorcherino>.addTooltip("§e在？PY又痒了？");
-<torcherino:blockcompressedtorcherino>.addTooltip("§e把加速火把插到你PY里，给你好好加个速！");
-<torcherino:blockcompressedtorcherino>.addTooltip("§5       ——一位不愿透露姓名的bat");
+<torcherino:blocktorcherino>.addTooltip(toolTip1);
+<torcherino:blocktorcherino>.addTooltip(toolTip2);
+<torcherino:blocktorcherino>.addTooltip(toolTip3);
 
-<torcherino:blockdoublecompressedtorcherino>.addTooltip("§e在？PY又痒了？");
-<torcherino:blockdoublecompressedtorcherino>.addTooltip("§e把加速火把插到你PY里，给你好好加个速！");
-<torcherino:blockdoublecompressedtorcherino>.addTooltip("§5       ——一位不愿透露姓名的bat");
+<torcherino:blockcompressedtorcherino>.addTooltip(toolTip1);
+<torcherino:blockcompressedtorcherino>.addTooltip(toolTip2);
+<torcherino:blockcompressedtorcherino>.addTooltip(toolTip3);
+
+<torcherino:blockdoublecompressedtorcherino>.addTooltip(toolTip1);
+<torcherino:blockdoublecompressedtorcherino>.addTooltip(toolTip2);
+<torcherino:blockdoublecompressedtorcherino>.addTooltip(toolTip3);
 
 // 这几个合成配方只会在检测到加速火把mod被安装时加载
 // Powered by TCreopargh

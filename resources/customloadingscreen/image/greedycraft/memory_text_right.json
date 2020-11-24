@@ -1,0 +1,14 @@
+{
+    "parent": "builtin/text",
+    "image": "customloadingscreen:font/ascii.png",
+    "position_type": "TOP_RIGHT",
+    "offset_pos": "TOP_RIGHT",
+    "text": "'(' + floor(mem_percent * 100) + '% Used) '",
+    "position": {
+        "x": "0",
+        "y": "10",
+        "width": "0",
+        "height": "0"
+    },
+    "colour": "mem_color"
+}

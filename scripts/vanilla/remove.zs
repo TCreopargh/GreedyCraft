@@ -316,7 +316,17 @@ val removedRecipes as IIngredient[] = [
     <aether_legacy:valkyrie_chestplate>,
     <aether_legacy:valkyrie_leggings>,
     <aether_legacy:valkyrie_boots>,
-    <aether_legacy:valkyrie_lance>
+    <aether_legacy:valkyrie_lance>,
+    <cyclicmagic:purple_helmet>,
+    <cyclicmagic:purple_chestplate>,
+    <cyclicmagic:purple_leggings>,
+    <cyclicmagic:purple_boots>,
+    <aeble:bubble_ring>,
+    <aeble:ice_ring>,
+    <aeble:zanite_ring>,
+    <aeble:obsidian_ring>,
+    <aeble:regeneration_ring>,
+    <aeble:air_ring>
 ];
 
 val removedRecipeNames as string[] = [

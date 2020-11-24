@@ -5,6 +5,7 @@ skin.prinzeugen.net
 fleey.org
 www.skinme.cc
 json.tcreopargh.xyz
+greedycraft.tcreopargh.xyz
 tcreopargh.xyz
 pastebin.com
 imgchr.com
@@ -23,3 +24,5 @@ skin.prinzeugen.net
 games.glitchless.ru
 mcskin.cn
 downloader.meitangdehulu.com
+skin.pangdidi.com
+discord.gg

@@ -9,6 +9,16 @@
   "effects": [
     {
       "type": "additions:consume_item"
+    },
+    {
+      "potion": {
+        "name": "minecraft:instant_damage",
+        "duration": 1,
+        "amplifier": 99,
+        "ambient": false,
+        "show_particles": true
+      },
+      "type": "additions:potion"
     }
   ]
 }

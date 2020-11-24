@@ -396,6 +396,20 @@ giveOmnipediaCommand.execute = function(command, server, sender, args) {
 };
 giveOmnipediaCommand.register();
 
+val suicideCommand as ZenCommand = ZenCommand.create("suicide");
+suicideCommand.getCommandUsage = function(sender) {
+    return "/suicide";
+};
+suicideCommand.requiredPermissionLevel = 0;
+suicideCommand.execute = function(command, server, sender, args) {
+    var player as IPlayer = CommandUtils.getCommandSenderAsPlayer(sender) as IPlayer;
+    if(!isNull(player)) {
+        player.clearActivePotions();
+        server.commandManager.executeCommand(server, "/kill " + player.name);
+    }
+};
+suicideCommand.register();
+
 /*
 val syncGamestagesCommand as ZenCommand = ZenCommand.create("syncgamestages");
 syncGamestagesCommand.getCommandUsage = function(sender) {

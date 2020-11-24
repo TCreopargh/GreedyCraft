@@ -5655,6 +5655,28 @@
   },
   {
     "coreMaterialStats": {
+      "durability": 14.0,
+      "defense": 4.5,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 10.24,
+      "modifier": 2.117647,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 10.24,
+      "materialType": "trim"
+    },
+    "identifier": "alpha_fur",
+    "color": -14575885,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
       "durability": 36.0,
       "defense": 21.6,
       "materialType": "core"

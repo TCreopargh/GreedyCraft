@@ -1,0 +1,24 @@
+{
+    "renders": [
+        "greedycraft/bg",
+        "greedycraft/banner",
+        "greedycraft/progress_base",
+        "greedycraft/loading_bar_white",
+        "greedycraft/percentage_text",
+        "greedycraft/progress_text",
+        "greedycraft/progress_text_sub",
+        "greedycraft/time_passed_text",
+        "greedycraft/mojang_logo",
+        "greedycraft/ram_bar",
+        "greedycraft/memory_text_left",
+        "greedycraft/memory_text_right"
+    ],
+    "variables": {
+        "mem_percent": "((floor(memory_used() * 100) + 0.0) / (floor(memory_max() * 100) + 0.0))",
+        "mem_color": "(mem_percent < 0.7) ? 0x64dd17 : ((mem_percent < 0.8) ? 0xffeb3b : ((mem_percent < 0.9) ? 0xffc400 : 0xff5252))"
+    },
+    "functions": [],
+    "factories": [
+    ],
+    "actions": []
+}

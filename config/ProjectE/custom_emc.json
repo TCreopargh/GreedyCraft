@@ -943,6 +943,18 @@
     {
       "item": "tinkersaether:valkyrie_ingot|0",
       "emc": 6666
+    },
+    {
+      "item": "additions:manganese_ingot|0",
+      "emc": 1500
+    },
+    {
+      "item": "additions:manganese_steel_ingot|0",
+      "emc": 2500
+    },
+    {
+      "item": "thermalfoundation:material|136",
+      "emc": 3000
     }
   ]
 }

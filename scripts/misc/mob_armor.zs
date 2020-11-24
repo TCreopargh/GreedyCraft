@@ -49,23 +49,59 @@ addGroup("pre_nether", 0.3, [{
 }, {
     mainhand: <minecraft:stone_sword> % 15
 }, {
-    head: <minecraft:iron_helmet> % 10,
-    chest: <minecraft:iron_chestplate> % 10,
-    legs: <minecraft:iron_leggings> % 10,
-    feet: <minecraft:iron_boots> % 10,
-    mainhand: <minecraft:iron_sword> % 10
+    mainhand: <minecraft:iron_pickaxe> % 15,
+    offhand: <minecraft:torch> % 10
 }, {
-    head: <minecraft:golden_helmet> % 5,
-    chest: <minecraft:golden_chestplate> % 5,
-    legs: <minecraft:golden_leggings> % 5,
-    feet: <minecraft:golden_boots> % 5,
-    mainhand: <minecraft:golden_sword> % 5
+    mainhand: <minecraft:diamond_pickaxe> % 10,
+    offhand: <minecraft:torch> % 10
 }, {
-    head: <minecraft:diamond_helmet> % 2,
-    chest: <minecraft:diamond_chestplate> % 2,
-    legs: <minecraft:diamond_leggings> % 2,
-    feet: <minecraft:diamond_boots> % 2,
-    mainhand: <minecraft:diamond_sword> % 2
+    head: <minecraft:iron_helmet> % 15,
+    chest: <minecraft:iron_chestplate> % 15,
+    legs: <minecraft:iron_leggings> % 15,
+    feet: <minecraft:iron_boots> % 15,
+    mainhand: <minecraft:iron_sword> % 15
+}, {
+    head: <actuallyadditions:item_helm_crystal_black> % 3,
+    chest: <actuallyadditions:item_chest_crystal_black> % 3,
+    legs: <actuallyadditions:item_pants_crystal_black> % 3,
+    feet: <actuallyadditions:item_boots_crystal_black> % 3,
+    mainhand: <actuallyadditions:item_sword_crystal_black> % 2
+}, {
+    head: <actuallyadditions:item_helm_crystal_white> % 3,
+    chest: <actuallyadditions:item_chest_crystal_white> % 3,
+    legs: <actuallyadditions:item_pants_crystal_white> % 3,
+    feet: <actuallyadditions:item_boots_crystal_white> % 3,
+    mainhand: <actuallyadditions:item_sword_crystal_white> % 2
+}, {
+    head: <actuallyadditions:item_helm_crystal_red> % 3,
+    chest: <actuallyadditions:item_chest_crystal_red> % 3,
+    legs: <actuallyadditions:item_pants_crystal_red> % 3,
+    feet: <actuallyadditions:item_boots_crystal_red> % 3,
+    mainhand: <actuallyadditions:item_sword_crystal_red> % 2
+}, {
+    head: <actuallyadditions:item_helm_crystal_blue> % 3,
+    chest: <actuallyadditions:item_chest_crystal_blue> % 3,
+    legs: <actuallyadditions:item_pants_crystal_blue> % 3,
+    feet: <actuallyadditions:item_boots_crystal_blue> % 3,
+    mainhand: <actuallyadditions:item_sword_crystal_blue> % 2
+}, {
+    head: <minecraft:golden_helmet> % 10,
+    chest: <minecraft:golden_chestplate> % 10,
+    legs: <minecraft:golden_leggings> % 10,
+    feet: <minecraft:golden_boots> % 10,
+    mainhand: <minecraft:golden_sword> % 10
+}, {
+    head: <minecraft:diamond_helmet> % 5,
+    chest: <minecraft:diamond_chestplate> % 5,
+    legs: <minecraft:diamond_leggings> % 5,
+    feet: <minecraft:diamond_boots> % 5,
+    mainhand: <minecraft:diamond_sword> % 5
+}, {
+    head: <actuallyadditions:item_helm_obsidian> % 3,
+    chest: <actuallyadditions:item_chest_obsidian> % 3,
+    legs: <actuallyadditions:item_pants_obsidian> % 3,
+    feet: <actuallyadditions:item_boots_obsidian> % 3,
+    mainhand: <actuallyadditions:item_sword_obsidian> % 2
 }, {
     head: <minecraft:chainmail_helmet> % 15,
     chest: <minecraft:chainmail_chestplate> % 15,
@@ -77,63 +113,63 @@ addGroup("pre_nether", 0.3, [{
     legs: <thermalfoundation:armor.legs_copper> % 10,
     feet: <thermalfoundation:armor.boots_copper> % 10,
     mainhand: <thermalfoundation:tool.sword_copper> % 5,
-    mainhand: <thermalfoundation:tool.shield_copper> % 5
+    offhand: <thermalfoundation:tool.shield_copper> % 5
 }, {
     head: <thermalfoundation:armor.helmet_tin> % 10,
     chest: <thermalfoundation:armor.plate_tin> % 10,
     legs: <thermalfoundation:armor.legs_tin> % 10,
     feet: <thermalfoundation:armor.boots_tin> % 10,
     mainhand: <thermalfoundation:tool.sword_tin> % 5,
-    mainhand: <thermalfoundation:tool.shield_tin> % 5
+    offhand: <thermalfoundation:tool.shield_tin> % 5
 }, {
     head: <thermalfoundation:armor.helmet_silver> % 5,
     chest: <thermalfoundation:armor.plate_silver> % 5,
     legs: <thermalfoundation:armor.legs_silver> % 5,
     feet: <thermalfoundation:armor.boots_silver> % 5,
     mainhand: <thermalfoundation:tool.sword_silver> % 5,
-    mainhand: <thermalfoundation:tool.shield_silver> % 5
+    offhand: <thermalfoundation:tool.shield_silver> % 5
 }, {
     head: <thermalfoundation:armor.helmet_nickel> % 5,
     chest: <thermalfoundation:armor.plate_nickel> % 5,
     legs: <thermalfoundation:armor.legs_nickel> % 5,
     feet: <thermalfoundation:armor.boots_nickel> % 5,
     mainhand: <thermalfoundation:tool.sword_nickel> % 5,
-    mainhand: <thermalfoundation:tool.shield_nickel> % 5
+    offhand: <thermalfoundation:tool.shield_nickel> % 5
 }, {
     head: <thermalfoundation:armor.helmet_lead> % 5,
     chest: <thermalfoundation:armor.plate_lead> % 5,
     legs: <thermalfoundation:armor.legs_lead> % 5,
     feet: <thermalfoundation:armor.boots_lead> % 5,
     mainhand: <thermalfoundation:tool.sword_lead> % 5,
-    mainhand: <thermalfoundation:tool.shield_lead> % 5
+    offhand: <thermalfoundation:tool.shield_lead> % 5
 }, {
     head: <thermalfoundation:armor.helmet_aluminum> % 5,
     chest: <thermalfoundation:armor.plate_aluminum> % 5,
     legs: <thermalfoundation:armor.legs_aluminum> % 5,
     feet: <thermalfoundation:armor.boots_aluminum> % 5,
     mainhand: <thermalfoundation:tool.sword_aluminum> % 5,
-    mainhand: <thermalfoundation:tool.shield_aluminum> % 5
+    offhand: <thermalfoundation:tool.shield_aluminum> % 5
 }, {
     head: <thermalfoundation:armor.helmet_bronze> % 10,
     chest: <thermalfoundation:armor.plate_bronze> % 10,
     legs: <thermalfoundation:armor.legs_bronze> % 10,
     feet: <thermalfoundation:armor.boots_bronze> % 10,
     mainhand: <thermalfoundation:tool.sword_bronze> % 5,
-    mainhand: <thermalfoundation:tool.shield_bronze> % 5
+    offhand: <thermalfoundation:tool.shield_bronze> % 5
 }, {
     head: <thermalfoundation:armor.helmet_constantan> % 5,
     chest: <thermalfoundation:armor.plate_constantan> % 5,
     legs: <thermalfoundation:armor.legs_constantan> % 5,
     feet: <thermalfoundation:armor.boots_constantan> % 5,
     mainhand: <thermalfoundation:tool.sword_constantan> % 3,
-    mainhand: <thermalfoundation:tool.shield_constantan> % 3
+    offhand: <thermalfoundation:tool.shield_constantan> % 3
 }, {
     head: <thermalfoundation:armor.helmet_electrum> % 5,
     chest: <thermalfoundation:armor.plate_electrum> % 5,
     legs: <thermalfoundation:armor.legs_electrum> % 5,
     feet: <thermalfoundation:armor.boots_electrum> % 5,
     mainhand: <thermalfoundation:tool.sword_electrum> % 3,
-    mainhand: <thermalfoundation:tool.shield_electrum> % 3
+    offhand: <thermalfoundation:tool.shield_electrum> % 3
 }, {
     offhand: <minecraft:shield> % 20
 }, {
@@ -178,9 +214,24 @@ addGroup("pre_nether", 0.3, [{
     mainhand: <tconstruct:hammer>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 12.5 as float, FreeModifiers: 3, Durability: 855, HarvestLevel: 1, Attack: 4.0 as float}, Stats: {AttackSpeedMultiplier: 1.1 as float, MiningSpeed: 12.5 as float, FreeModifiers: 5, Durability: 855, HarvestLevel: 1, Attack: 4.0 as float}, Special: {Categories: ["aoe", "weapon", "tool", "harvest"]}, TinkerData: {Materials: ["aluminium", "aluminium", "aluminium", "aluminium"], Modifiers: ["toolleveling"]}, Modifiers: [{identifier: "lightweight", color: -2697246, level: 1}, {identifier: "toolleveling", color: 16777215, level: 1}], Traits: ["lightweight", "toolleveling"]}) % 5
 }, {
     mainhand: <tconstruct:scythe>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 5.3 as float, FreeModifiers: 3, Durability: 3119, HarvestLevel: 0, Attack: 1.8 as float}, Stats: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 5.3 as float, FreeModifiers: 5, Durability: 3119, HarvestLevel: 0, Attack: 1.8 as float}, Special: {Categories: ["aoe", "weapon", "tool", "harvest"]}, TinkerData: {Materials: ["slime", "slime", "slime", "slime"], Modifiers: ["toolleveling"]}, Modifiers: [{identifier: "slimey_green", color: -8206221, level: 1}, {identifier: "toolleveling", color: 16777215, level: 1}], Traits: ["slimey_green", "toolleveling"]}) % 5
+}, {
+    mainhand: <tconstruct:broadsword>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 7.5 as float, FreeModifiers: 3, Durability: 470, HarvestLevel: 2, Attack: 6.0 as float}, Stats: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 7.5 as float, FreeModifiers: 5, Durability: 470, HarvestLevel: 2, Attack: 6.0 as float}, Special: {Categories: ["tool", "weapon"]}, TinkerData: {Materials: ["enori_crystal", "enori_crystal", "enori_crystal"], Modifiers: ["toolleveling"]}, Modifiers: [{identifier: "magnetic", color: -1842205, level: 1, magnetic1: 1 as byte}, {identifier: "toolleveling", color: 16777215, level: 1}], Traits: ["magnetic1", "toolleveling"]}) % 5
+}, {
+    mainhand: <tconstruct:broadsword>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 3.125 as float, FreeModifiers: 3, Durability: 165, HarvestLevel: 0, Attack: 4.5 as float}, Stats: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 3.125 as float, FreeModifiers: 8, Durability: 165, HarvestLevel: 0, Attack: 4.5 as float}, Special: {Categories: ["tool", "weapon"]}, TinkerData: {Materials: ["livingwood", "livingwood", "livingwood"], Modifiers: ["toolleveling"]}, Modifiers: [{identifier: "tconevo.modifiable", color: -8824277, level: 3}, {identifier: "ecological", color: -8824277, level: 1}, {identifier: "toolleveling", color: 16777215, level: 1}], Traits: ["tconevo.modifiable1", "ecological", "toolleveling"]}) % 5
+}, {
+    mainhand: <tconstruct:broadsword>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 7.5 as float, FreeModifiers: 3, Durability: 588, HarvestLevel: 2, Attack: 5.5 as float}, Stats: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 7.5 as float, FreeModifiers: 5, Durability: 588, HarvestLevel: 2, Attack: 5.5 as float}, Special: {Categories: ["tool", "weapon"]}, TinkerData: {Materials: ["constantan", "constantan", "constantan"], Modifiers: ["toolleveling"]}, Modifiers: [{identifier: "freezing", color: -4219041, level: 1}, {identifier: "aridiculous", color: -4219041, level: 1}, {identifier: "toolleveling", color: 16777215, level: 1}], Traits: ["freezing", "aridiculous", "toolleveling"]}) % 5
+}, {
+    mainhand: <tconstruct:broadsword>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 16.25 as float, FreeModifiers: 3, Durability: 191, HarvestLevel: 1, Attack: 5.5 as float}, Stats: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 16.25 as float, FreeModifiers: 5, Durability: 191, HarvestLevel: 1, Attack: 5.5 as float}, Special: {Categories: ["tool", "weapon"]}, TinkerData: {Materials: ["signalum", "signalum", "signalum"], Modifiers: ["toolleveling"]}, Modifiers: [{identifier: "tconevo.relentless", color: -2139136, level: 1}, {identifier: "tconevo.aftershock", color: -2139136, level: 3}, {identifier: "toolleveling", color: 16777215, level: 1}], Traits: ["tconevo.relentless", "tconevo.aftershock1", "toolleveling"]}) % 5
 }] as WeightedItemStack[string][], "getting_started");
 
 addGroup("post_nether", 0.25, [{
+    head: <cyclicmagic:emerald_helmet> % 10,
+    chest: <cyclicmagic:emerald_chestplate> % 10,
+    legs: <cyclicmagic:emerald_leggings> % 10,
+    feet: <cyclicmagic:emerald_boots> % 10,
+    mainhand: <cyclicmagic:emerald_sword> % 10,
+    offhand: <cyclicmagic:emerald_axe> % 10
+},  {
     head: <abyssalcraft:ahelmet> % 10,
     chest: <abyssalcraft:aplate> % 10,
     legs: <abyssalcraft:alegs> % 10,
@@ -221,6 +272,31 @@ addGroup("post_nether", 0.25, [{
     feet: <thermalfoundation:armor.boots_invar> % 5,
     mainhand: <thermalfoundation:tool.sword_invar> % 3,
     mainhand: <thermalfoundation:tool.shield_invar> % 3
+}, {
+    head: <actuallyadditions:item_helm_crystal_green> % 3,
+    chest: <actuallyadditions:item_chest_crystal_green> % 3,
+    legs: <actuallyadditions:item_pants_crystal_green> % 3,
+    feet: <actuallyadditions:item_boots_crystal_green> % 3,
+    mainhand: <actuallyadditions:item_sword_crystal_green> % 2
+}, {
+    head: <actuallyadditions:item_helm_crystal_light_blue> % 3,
+    chest: <actuallyadditions:item_chest_crystal_light_blue> % 3,
+    legs: <actuallyadditions:item_pants_crystal_light_blue> % 3,
+    feet: <actuallyadditions:item_boots_crystal_light_blue> % 3,
+    mainhand: <actuallyadditions:item_sword_crystal_light_blue> % 2
+}, {
+    head: <actuallyadditions:item_helm_emerald> % 3,
+    chest: <actuallyadditions:item_chest_emerald> % 3,
+    legs: <actuallyadditions:item_pants_emerald> % 3,
+    feet: <actuallyadditions:item_boots_emerald> % 3,
+    mainhand: <actuallyadditions:item_sword_emerald> % 2
+}, {
+    head: <tcomplement:knightslime_helmet> % 10,
+    chest: <tcomplement:knightslime_chestplate> % 10,
+    legs: <tcomplement:knightslime_leggings> % 10,
+    feet: <tcomplement:knightslime_boots> % 10,
+    mainhand: <tconstruct:broadsword>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 7.25 as float, FreeModifiers: 3, Durability: 1630, HarvestLevel: 3, Attack: 6.1 as float}, Stats: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 7.25 as float, FreeModifiers: 5, Durability: 1630, HarvestLevel: 3, Attack: 6.1 as float}, Special: {Categories: ["weapon", "tool"]}, TinkerData: {Materials: ["knightslime", "knightslime", "knightslime"], Modifiers: ["toolleveling"]}, Modifiers: [{identifier: "unnatural", color: -946192, level: 1}, {identifier: "crumbling", color: -946192, level: 1}, {identifier: "toolleveling", color: 16777215, level: 1}], Traits: ["unnatural", "crumbling", "toolleveling"]}) % 5,
+    mainhand: <tconstruct:hammer>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 7.25 as float, FreeModifiers: 3, Durability: 3470, HarvestLevel: 3, Attack: 5.1 as float}, Stats: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 7.25 as float, FreeModifiers: 5, Durability: 3470, HarvestLevel: 3, Attack: 5.1 as float}, Special: {Categories: ["aoe", "weapon", "harvest", "tool"]}, TinkerData: {Materials: ["knightslime", "knightslime", "knightslime", "knightslime"], Modifiers: ["toolleveling"]}, Modifiers: [{identifier: "unnatural", color: -946192, level: 1}, {identifier: "crumbling", color: -946192, level: 1}, {identifier: "toolleveling", color: 16777215, level: 1}], Traits: ["unnatural", "crumbling", "toolleveling"]}) % 5
 }, {
     offhand: <thermalfoundation:tool.shield_diamond> % 20
 }, {
@@ -273,6 +349,10 @@ addGroup("post_nether", 0.25, [{
     mainhand: <tconstruct:hatchet>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 5.75 as float, FreeModifiers: 3, Durability: 1224, HarvestLevel: 3, Attack: 6.9 as float}, Stats: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 5.75 as float, FreeModifiers: 5, Durability: 1224, HarvestLevel: 3, Attack: 6.9 as float}, Special: {Categories: ["aoe", "weapon", "tool", "harvest"]}, TinkerData: {Materials: ["ruby", "ruby", "ruby"], Modifiers: ["toolleveling"]}, Modifiers: [{identifier: "raging", color: -43691, level: 1}, {identifier: "bloodymary", color: -43691, level: 1}, {identifier: "toolleveling", color: 16777215, level: 1}], Traits: ["raging", "bloodymary", "toolleveling"]}) % 5
 }, {
     mainhand: <tconstruct:mattock>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, HarvestLevelAxe: 2, MiningSpeed: 7.5 as float, FreeModifiers: 3, HarvestLevelShovel: 2, Durability: 270, HarvestLevel: 2, Attack: 7.5 as float}, Stats: {AttackSpeedMultiplier: 1.1 as float, HarvestLevelAxe: 2, MiningSpeed: 7.5 as float, FreeModifiers: 5, HarvestLevelShovel: 2, Durability: 270, HarvestLevel: 2, Attack: 7.5 as float}, Special: {Categories: ["aoe", "tool", "harvest"]}, TinkerData: {Materials: ["certus_quartz", "certus_quartz", "certus_quartz"], Modifiers: ["toolleveling"]}, Modifiers: [{identifier: "lightweight", color: -3743233, level: 1}, {identifier: "crystal_force", color: -3743233, level: 1}, {identifier: "toolleveling", color: 16777215, level: 1}], Traits: ["lightweight", "crystal_force", "toolleveling"]}) % 5
+}, {
+    mainhand: <tconstruct:broadsword>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 9.375 as float, FreeModifiers: 3, Durability: 2153, HarvestLevel: 3, Attack: 7.0 as float}, Stats: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 9.375 as float, FreeModifiers: 5, Durability: 2153, HarvestLevel: 3, Attack: 7.0 as float}, Special: {Categories: ["tool", "weapon"]}, TinkerData: {Materials: ["diamantine_crystal", "diamantine_crystal", "diamantine_crystal"], Modifiers: ["toolleveling"]}, Modifiers: [{identifier: "tconevo.aftershock", color: -7617026, level: 3}, {identifier: "toolleveling", color: 16777215, level: 1}], Traits: ["tconevo.aftershock1", "toolleveling"]}) % 5
+}, {
+    mainhand: <tconstruct:broadsword>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 8.75 as float, FreeModifiers: 3, Durability: 2345, HarvestLevel: 4, Attack: 8.0 as float}, Stats: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 8.75 as float, FreeModifiers: 5, Durability: 2345, HarvestLevel: 4, Attack: 8.0 as float}, Special: {Categories: ["tool", "weapon"]}, TinkerData: {Materials: ["emerald_plustic", "emerald_plustic", "emerald_plustic"], Modifiers: ["toolleveling"]}, Modifiers: [{identifier: "terrafirma", color: -11141291, level: 1, terrafirma1: 1 as byte}, {identifier: "elemental", color: -11141291, level: 1}, {identifier: "toolleveling", color: 16777215, level: 1}], Traits: ["terrafirma1", "elemental", "toolleveling"]}) % 5
 }] as WeightedItemStack[string][], "nether");
 
 addGroup("post_hardmode", 0.25, [{
@@ -292,6 +372,12 @@ addGroup("post_hardmode", 0.25, [{
     chest: <abyssalcraft:ethaxiumplate> % 5,
     legs: <abyssalcraft:ethaxiumlegs> % 5,
     feet: <abyssalcraft:ethaxiumboots> % 5,
+    mainhand: <abyssalcraft:ethaxiumsword>.withTag({ench: [{lvl: 3 as short, id: 16}, {lvl: 1 as short, id: 19}]}) % 5
+}, {
+    head: <cyclicmagic:purple_helmet> % 10,
+    chest: <cyclicmagic:purple_chestplate> % 10,
+    legs: <cyclicmagic:purple_leggings> % 10,
+    feet: <cyclicmagic:purple_boots> % 10,
     mainhand: <abyssalcraft:ethaxiumsword>.withTag({ench: [{lvl: 3 as short, id: 16}, {lvl: 1 as short, id: 19}]}) % 5
 }, {
     mainhand: <avaritia:skullfire_sword> % 5

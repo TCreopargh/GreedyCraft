@@ -17,6 +17,8 @@ import crafttweaker.util.Position3f;
 import crafttweaker.block.IBlock;
 import crafttweaker.world.IBlockPos;
 import crafttweaker.block.IBlockState;
+import crafttweaker.potions.IPotionEffect;
+import crafttweaker.world.IFacing;
 
 import mods.ctutils.utils.Math;
 import mods.ctutils.world.IGameRules;
@@ -29,8 +31,9 @@ val killEntities as string[] = [
     "twilightforest:yeti"
 ];
 
-function getBlockPos(x as float, y as float, z as float) as IBlockPos {
-    return Position3f.create(x, y, z).asBlockPos() as IBlockPos;
+function getHeadBlockPos(player as IPlayer) as IBlockPos {
+    var pos as IBlockPos = player.position as IBlockPos;
+    return pos.getOffset(IFacing.up(), 1) as IBlockPos;
 }
 
 events.onPlayerLoggedIn(function (event as crafttweaker.event.PlayerLoggedInEvent) {
@@ -103,6 +106,19 @@ events.onEntityLivingDeath(function (event as crafttweaker.event.EntityLivingDea
 
 events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
     var player = event.player;
+    if(!player.creative && player.isPotionActive(<potion:minecraft:saturation>) && player.getActivePotionEffect(<potion:minecraft:saturation>).duration > 1) {
+        var effect as IPotionEffect = player.getActivePotionEffect(<potion:minecraft:saturation>);
+        player.removePotionEffect(<potion:minecraft:saturation>);
+        player.addPotionEffect(<potion:minecraft:saturation>.makePotionEffect(1, effect.amplifier, effect.isAmbient, effect.doesShowParticles));
+    }
+    if(player.world.getWorldTime() as long % 20 == 0) {
+        if(player.world.getBlock(player.position).definition.id == "minecraft:portal" && !player.hasGameStage("twilight_shield")) {
+            server.commandManager.executeCommand(server, "/title " + player.name + " actionbar [\"\",{\"text\":\"你需要取得更多进展才能进入下界！请查看整合包指南手册。\",\"color\":\"dark_purple\"}]");
+        }
+        if(player.world.getBlock(player.position).definition.id == "minecraft:end_portal" && !player.hasGameStage("ender_charm")) {
+            server.commandManager.executeCommand(server, "/title " + player.name + " actionbar [\"\",{\"text\":\"你需要取得更多进展才能进入末地！请查看整合包指南手册。\",\"color\":\"dark_purple\"}]");
+        }
+    }
     if(!player.creative && (player.world.getBiome(player.position).name.contains("Ocean") || player.world.getBiome(player.position).name.contains("Coral Reef") || player.world.getBiome(player.position).name.contains("Kelp Forest")) && player.y < 40.0) {
         var checkPoints as Position3f[] = [player.position, player.position, player.position, player.position] as Position3f[];
         var isInOcean = true;
@@ -116,17 +132,17 @@ events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
                 break;
             }
         }
-        if(isInOcean && !player.isPotionActive(<potion:minecraft:water_breathing>) && player.world.getBlock(getBlockPos(player.x, player.y + 1.0, player.z)).definition.id != "minecraft:water") {
+        if(isInOcean && !(player.isPotionActive(<potion:minecraft:water_breathing>) || player.isPotionActive(<potion:potioncore:drown>)) && player.world.getBlock(getHeadBlockPos(player)).definition.id != "minecraft:water") {
             player.air = 0;
-            if(player.world.getBlock(getBlockPos(player.x, player.y + 1.0, player.z)).definition.id != "minecraft:air") {
+            if(player.world.getBlock(getHeadBlockPos(player)).definition.id != "minecraft:air") {
                 if(!player.isPotionActive(<potion:minecraft:wither>)) {
                     player.addPotionEffect(<potion:minecraft:wither>.makePotionEffect(100, 1, false, false));
                 }
             }
             if(player.world.getWorldTime() as long % 20 == 0) {
-                player.addPotionEffect(<potion:minecraft:nausea>.makePotionEffect(50, 0, false, false));
+                player.addPotionEffect(<potion:minecraft:blindness>.makePotionEffect(50, 0, false, false));
                 player.attackEntityFrom(IDamageSource.DROWN(), 10.0);
-                server.commandManager.executeCommand(server, "/title " + player.name + " actionbar [\"\",{\"text\":\"警告\",\"color\":\"red\"},{\"text\":\": 深海的压力隔绝了一切氧气，使你无法呼吸。\",\"color\":\"yellow\"}]\"");
+                server.commandManager.executeCommand(server, "/title " + player.name + " actionbar [\"\",{\"text\":\"警告\",\"color\":\"red\"},{\"text\":\": 深海的压力隔绝了一切氧气，使你无法呼吸。\",\"color\":\"yellow\"}]");
             }
         }
     }
@@ -157,8 +173,13 @@ events.onEntityLivingHurt(function(event as crafttweaker.event.EntityLivingHurtE
                 if(Math.random() < 0.66) {
                     var slownessLevel = entity.getActivePotionEffect(<potion:minecraft:slowness>).amplifier;
                     if(slownessLevel < 3) {
-                        entity.addPotionEffect(<potion:minecraft:slowness>.makePotionEffect(200, slownessLevel + 1, false, false));
+                        var increment = 1;
+                        if(Math.random() < 0.33) {
+                            increment = 2;
+                        }
+                        entity.addPotionEffect(<potion:minecraft:slowness>.makePotionEffect(200, slownessLevel + increment, false, false));
                     } else {
+                        entity.addPotionEffect(<potion:minecraft:slowness>.makePotionEffect(200, 4, false, false));
                         if(!isNull(entity.world.getBlock(entity.position)) && entity.world.getBlock(entity.position).definition.id == "minecraft:air") {
                             var blockState as IBlockState = IBlockState.getBlockState(<minecraft:web>.definition.id, [] as string[]);
                             entity.world.setBlockState(blockState, entity.position as IBlockPos);

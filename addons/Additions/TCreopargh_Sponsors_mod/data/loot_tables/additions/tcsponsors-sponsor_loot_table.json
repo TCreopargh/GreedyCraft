@@ -227,6 +227,11 @@
                     "type": "item",
                     "name": "additions:tcsponsors-kekedi",
                     "weight": 1
+                },
+				{
+                    "type": "item",
+                    "name": "additions:tcsponsors-golden_minecart",
+                    "weight": 1
                 }
             ]
         }

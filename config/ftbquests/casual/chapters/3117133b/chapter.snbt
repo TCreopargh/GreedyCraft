@@ -1,6 +1,6 @@
 {
 	title: "§e天境传说",
-	icon: "tinkersaether:valkyrie_ingot",
+	icon: "aether_legacy:ambrosium_shard",
 	always_invisible: false,
 	group: 0,
 	default_quest_shape: "",

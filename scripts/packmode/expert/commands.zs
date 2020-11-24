@@ -158,6 +158,9 @@ events.onCommand(function (event as CommandEvent) {
                     //player.server.commandManager.executeCommand(player.server, "/kill " + player.name);
                     player.sendChat("§c§o请不要这样做。");
                     player.sendChat("§c该指令已被禁止使用: §4" + name);
+                    if((name == "kill" && event.parameters.length > 0 && event.parameters[0] == "@p") || (name == "kill" && event.parameters.length == 0)) {
+                        player.sendChat("§a§o提示：如果想自杀可以使用§b/suicide§a指令。");
+                    }
                 }
             }
         }

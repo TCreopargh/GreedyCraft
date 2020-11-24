@@ -37,10 +37,10 @@
                     <var>memused</var>
                     <var>memtotal</var>
                 </pct>
-                <num>50</num>
                 <num>60</num>
                 <num>70</num>
                 <num>80</num>
+                <num>90</num>
                 <num>100</num>
                 <str>$a</str>
                 <str>$e</str>
