@@ -3,7 +3,7 @@
     "image": "customloadingscreen:font/ascii.png",
     "position_type": "TOP_LEFT",
     "offset_pos": "TOP_LEFT",
-    "text": "' Memory Used: ' + memory_used() + 'MB / ' + memory_max() + 'MB'",
+    "text": "' Memory Usage: ' + memory_used() + 'MB / ' + memory_max() + 'MB'",
     "position": {
         "x": "0",
         "y": "10",

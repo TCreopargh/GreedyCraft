@@ -955,6 +955,10 @@
     {
       "item": "thermalfoundation:material|136",
       "emc": 3000
+    },
+    {
+      "item": "jaopca:item_essencescarlite|0",
+      "emc": 0
     }
   ]
 }

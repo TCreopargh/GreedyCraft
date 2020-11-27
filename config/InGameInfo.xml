@@ -68,6 +68,7 @@
                 <str>$c 建议按$6R$c键清理内存</str>
                 <str />
             </op>
+            <str>$7 |$f {rltime24}</str>
             <op>
                 <str>gt</str>
                 <var>ping</var>

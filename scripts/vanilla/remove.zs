@@ -326,7 +326,13 @@ val removedRecipes as IIngredient[] = [
     <aeble:zanite_ring>,
     <aeble:obsidian_ring>,
     <aeble:regeneration_ring>,
-    <aeble:air_ring>
+    <aeble:air_ring>,
+    <minecraft:iron_trapdoor>,
+    <abyssalcraft:ironp>,
+	<extrautils2:spike_diamond>,
+	<cyclicmagic:spikes_diamond>,
+    <extrautils2:quarry>,
+    <extrautils2:quarryproxy>
 ];
 
 val removedRecipeNames as string[] = [
@@ -338,7 +344,17 @@ val removedRecipeNames as string[] = [
     "projecte:conversions/gold_to_iron",
     "extrautils2:watering_can",
     "thaumcraft:ambertoblock",
-    "prefab:ender_gateway"
+    "prefab:ender_gateway",
+    "botania:flighttiara_0",
+    "botania:flighttiara_1",
+    "botania:flighttiara_2",
+    "botania:flighttiara_3",
+    "botania:flighttiara_4",
+    "botania:flighttiara_5",
+    "botania:flighttiara_6",
+    "botania:flighttiara_7",
+    "botania:flighttiara_8",
+    "extrabotany:recipe_coregod"
 ];
 
 for ingredient in removedRecipes {

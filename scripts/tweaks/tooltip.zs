@@ -158,7 +158,9 @@ val tooltipMap as string[][IIngredient] = {
     <bloodmagic:bound_shovel> : [bound_disabled],
     <animus:kama_bound> : [disabled],
     <tconstruct:tooltables:3> : [how_to_repair],
-    <tconstruct:toolforge> : [how_to_repair]
+    <tconstruct:toolforge> : [how_to_repair],
+    <danknull:danknull_dock> : ["§e空手Shift+右键将无底之箱从扩展坞上取出"],
+	<extrautils2:snowglobe:*> : ["§c拿在手上会导致严重掉帧，请注意"]
 } as string[][IIngredient];
 
 for ingredient in tooltipMap {

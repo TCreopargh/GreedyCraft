@@ -1005,11 +1005,12 @@ recipes.addShaped("auto_gen_352019415", <buildinggadgets:exchangertool>, [
     [<ore:pearlEnderEye>, <ore:gemDiamond>, <ore:pearlEnderEye>],
     [<ore:ingotStainlessSteel>, <ore:dustRedstone>, <ore:ingotStainlessSteel>]
 ]);
+/* Disabled
 recipes.addShaped("auto_gen_-1071431898", <buildinggadgets:copypastetool>, [
     [<ore:ingotStainlessSteel>, <ore:dustRedstone>, <ore:ingotStainlessSteel>],
     [<ore:slimeball>, <ore:gemDiamond>, <ore:slimeball>],
     [<ore:ingotStainlessSteel>, <ore:dustRedstone>, <ore:ingotStainlessSteel>]
-]);
+]); */
 recipes.addShaped("auto_gen_12241914", <buildinggadgets:destructiontool>, [
     [<ore:ingotStainlessSteel>, <ore:dustRedstone>, <ore:ingotStainlessSteel>],
     [<ore:ingotRavaging>, <ore:gemDiamond>, <ore:ingotRavaging>],
@@ -1199,6 +1200,30 @@ recipes.addShaped("air_ring", <aeble:air_ring>, [
     [<ore:ingotAeroite>, <ore:ingotAsgardium>, <ore:ingotAeroite>],
     [<ore:ingotAsgardium>, <ore:ingotAeroite>, <ore:ingotAsgardium>],
     [<ore:ingotAeroite>, <ore:ingotAsgardium>, <ore:ingotAeroite>]
+]);
+recipes.addShaped("coregod", <extrabotany:coregod>.withTag({}), [
+    [<ore:quartzSunny>, <ore:quartzSunny>, <ore:quartzSunny>],
+    [<ore:ingotOrichalcos>, <minecraft:elytra>, <ore:ingotOrichalcos>],
+    [<ore:quartzSunny>, <ore:quartzSunny>, <ore:quartzSunny>]
+]);
+recipes.addShaped("iron_plate", <abyssalcraft:ironp> * 4, [
+    [<ore:ingotIron>, <ore:ingotIron>],
+    [<ore:ingotIron>, <ore:ingotIron>]
+]);
+recipes.addShaped("iron_trap_door", <minecraft:iron_trapdoor> * 2, [
+    [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>],
+    [<ore:ingotIron>, <ore:dustRedstone>, <ore:ingotIron>],
+    [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]
+]);
+recipes.addShaped("quantum_quarry_core", <extrautils2:quarry>, [
+    [<draconicevolution:awakened_core>, <ore:ingotTerraAlloy>, <draconicevolution:awakened_core>],
+    [<ore:ingotTerraAlloy>, <ore:magic_snow_globe>, <ore:ingotTerraAlloy>],
+    [<draconicevolution:awakened_core>, <ore:ingotTerraAlloy>, <draconicevolution:awakened_core>]
+]);
+recipes.addShaped("quantum_quarry_proxy", <extrautils2:quarryproxy>, [
+    [<ore:ingotEndSteel>, <ore:circuitUltimate>, <ore:ingotEndSteel>],
+    [<ore:ingotTitanium>, <ore:gemTerrestrial>, <ore:ingotTitanium>],
+    [<ore:ingotEndSteel>, <ore:ingotEndSteel>, <ore:ingotEndSteel>]
 ]);
 
 /* Templates

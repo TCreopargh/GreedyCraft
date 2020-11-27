@@ -41,12 +41,12 @@ warmTrait.localizedDescription = (
 warmTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
     var reduction = 0.0 as float;
     if(!isNull(player) && player.world.getBiome(player.position).isSnowyBiome) {
-        reduction += 0.2 as float;
+        reduction += 0.05 as float;
         if(player.world.raining) {
-            reduction += 0.1 as float;
+            reduction += 0.025 as float;
         }
     }
-    return newDamage * (1.0 as float - reduction) as float;
+    return newDamage * (1.0 as float - reduction as float) as float;
 };
 warmTrait.register();
 
@@ -58,7 +58,7 @@ fortifiedTrait.localizedDescription = (
     "§f提高对于投掷物的保护！");
 fortifiedTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
     if(source.isProjectile()) {
-        return (newDamage * 0.66 as float) as float;
+        return (newDamage * 0.85 as float) as float;
     }
     return newDamage;
 };
@@ -73,7 +73,7 @@ infernoTrait.localizedDescription = (
 infernoTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
     if(!isNull(source.getTrueSource()) && source.getTrueSource() instanceof IEntityLivingBase) {
         var attacker as IEntity = source.getTrueSource();
-        if(Math.random() < 0.25) {
+        if(Math.random() < 0.2) {
             attacker.setFire(8);
         }
     }
@@ -90,7 +90,7 @@ cryonicTrait.localizedDescription = (
 cryonicTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
     if(!isNull(source.getTrueSource()) && source.getTrueSource() instanceof IEntityLivingBase) {
         var attacker as IEntityLivingBase = source.getTrueSource();
-        if(Math.random() < 0.5) {
+        if(Math.random() < 0.2) {
             attacker.addPotionEffect(<potion:minecraft:slowness>.makePotionEffect(200, 2, false, false));
         }
     }
@@ -109,7 +109,7 @@ knowledgefulTrait.onHurt = function(trait, armor, player, source, damage, newDam
     if(!isNull(player)) {
         reduction = (player.xp / 800) as float * 0.5 as float;
     }
-    return newDamage * (1.0 - reduction) as float;
+    return newDamage * (1.0 - 0.25 as float * reduction as float) as float;
 };
 knowledgefulTrait.register();
 
@@ -150,7 +150,7 @@ spartanTrait.onHurt = function(trait, armor, player, source, damage, newDamage, 
     if((player.health as float / player.maxHealth as float) as float < 0.33 as float) {
         reduction = 0.3 as float + (1.0 as float - player.health as float / (player.maxHealth as float * 0.33 as float)) * 0.45 as float;
     }
-    return newDamage * (1.0 as float - reduction as float) as float;
+    return newDamage * (1.0 as float - 0.25 as float * reduction as float) as float;
 };
 spartanTrait.register();
 
@@ -166,7 +166,7 @@ crystalTrait.onHurt = function(trait, armor, player, source, damage, newDamage, 
         var dmg as float = 0.0 as float + armor.damage as float;
         var maxDmg as float = 0.0 as float + armor.maxDamage as float;
         var durabilityPercent as float = 1.0 as float - (dmg as float / maxDmg as float) as float;
-        damagePercent = (1.2 as float - (durabilityPercent as float * 0.45 as float) as float);
+        damagePercent = (1.05 as float - (durabilityPercent as float * 0.12 as float) as float);
     }
     return (newDamage * damagePercent) as float;
 };
@@ -180,7 +180,7 @@ secondLifeTrait.localizedDescription = (
     "§f在受到低于自己最大生命值的致命伤害时，有概率抵消该次伤害，并获得一小段时间的无敌效果。");
 secondLifeTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
     if(!isNull(player) && damage < player.maxHealth && !source.isDamageAbsolute()) {
-        if(damage > player.health && Math.random() < 0.25) {
+        if(damage > player.health && Math.random() < 0.05) {
             evt.cancel();
             player.addPotionEffect(<potion:minecraft:absorption>.makePotionEffect(200, 3, false, false));
             player.addPotionEffect(<potion:minecraft:regeneration>.makePotionEffect(100, 3, false, false));
@@ -213,10 +213,10 @@ gambleTrait.localizedDescription = (
     "§o这是个看脸的世界！§r\n" +
     "§f穿戴盔甲有概率将受到的伤害降低10倍，同时也有很小的概率受到10倍伤害...一切都看脸！");
 gambleTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
-    if(Math.random() < 0.025) {
+    if(Math.random() < 0.005) {
         return newDamage * 10.0 as float;
     }
-    if(Math.random() < 0.25) {
+    if(Math.random() < 0.05) {
         return (newDamage / 10.0 as float) as float;
     }
     return newDamage;
@@ -228,10 +228,10 @@ firstGuardTrait.color = Color.fromHex("f44336").getIntColor();
 firstGuardTrait.localizedName = "第一防线";
 firstGuardTrait.localizedDescription = (
     "§o后发优势！§r\n" +
-    "§f满血时受到的伤害减半！");
+    "§f满血时降低受到的伤害！");
 firstGuardTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
     if(!isNull(player) && (player.maxHealth - player.health) as float < 1.0 as float) {
-        return (newDamage / 2.0 as float) as float;
+        return (newDamage * 0.84 as float) as float;
     }
     return newDamage;
 };
@@ -260,19 +260,21 @@ levelingdefenseTrait.extraInfo = function(thisTrait, item, tag) {
             }
         }
     }
-    var multiplier = 0.0;
+    var multiplier as float = 0.0 as float;
     if(!isNull(armorLevel.memberGet("level"))) {
         var level = armorLevel.memberGet("level").asInt() as int;
         while(level > 0) {
             level -= 1;
-            multiplier += 0.05;
+            multiplier += 0.05 as float;
         }
-        if(multiplier > 1.0) {
-            multiplier = 1.0 + (multiplier - 1.0) / 4;
+        if(multiplier > 1.0 as float) {
+            multiplier = 1.0 as float + (multiplier as float - 1.0 as float) / 4.0 as float;
         }
     }
-    var description as string[] = ["§9伤害减免：" + Math.round((1.0 - (1.0 / (multiplier + 1.0))) * 100) as int + "%"];
-    return description;
+    multiplier *= 0.25 as float;
+    var percentage as int = Math.round((1.0 as float - (1.0 as float / (multiplier + 1.0 as float))) * 100.0 as float) as int;
+    var desc as string[] = ["§9伤害减免：" + percentage + "%"];
+    return desc;
 };
 levelingdefenseTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
     var modifiers = armor.tag.memberGet("Modifiers") as IData;
@@ -297,7 +299,8 @@ levelingdefenseTrait.onHurt = function(trait, armor, player, source, damage, new
             multiplier = 1.0 as float + (multiplier - 1.0 as float) / 4.0 as float;
         }
     }
-    return newDamage / (multiplier + 1.0) as float;
+    multiplier *= 0.25f;
+    return (newDamage / (multiplier + 1.0)) as float;
 };
 levelingdefenseTrait.register();
 
@@ -337,7 +340,7 @@ milkyTrait.localizedDescription = (
     "§f偶尔会清空你的所有状态效果（对，包括正面效果…）");
 milkyTrait.onAbility = function(trait, level, world, player) {
     if(!isNull(player)) {
-        if(world.getWorldTime() as long % 12000 == 0) {
+        if(world.getWorldTime() as long % 18000 == 0) {
             player.clearActivePotions();
         }
     }
@@ -365,7 +368,7 @@ trueDefenseTrait.localizedDescription = (
     "§f降低穿戴者受到的真实伤害！");
 trueDefenseTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
     if(!isNull(player) && source.isDamageAbsolute()) {
-        return (newDamage as float * 0.66 as float) as float;
+        return (newDamage as float * 0.9 as float) as float;
     }
     return newDamage as float;
 };
@@ -379,7 +382,7 @@ holdGroundTrait.localizedDescription = (
     "§f潜行时降低受到的伤害且不会被击退！");
 holdGroundTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
     if(!isNull(player) && player.isSneaking) {
-        return (newDamage as float * 0.7 as float) as float;
+        return (newDamage as float * 0.92 as float) as float;
     }
     return newDamage as float;
 };
@@ -398,13 +401,13 @@ motionTrait.localizedDescription = (
     "§f疾跑时降低受到的伤害，不过你因为重心不稳更容易被击退！");
 motionTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
     if(!isNull(player) && player.isSprinting) {
-        return (newDamage as float * 0.75 as float) as float;
+        return (newDamage as float * 0.93 as float) as float;
     }
     return newDamage as float;
 };
 motionTrait.onKnockback = function(trait, armor, player, evt) {
     if(!isNull(player) && player.isSprinting) {
-        evt.strength = (evt.strength * 1.5) as float;
+        evt.strength = (evt.strength * 1.4) as float;
     }
 };
 motionTrait.register();
@@ -419,11 +422,11 @@ kungfuTrait.onHurt = function(trait, armor, player, source, damage, newDamage, e
     if(!isNull(player) && !isNull(source.getTrueSource()) && source.getTrueSource() instanceof IEntityLivingBase) {
         var attacker as IEntityLivingBase = source.getTrueSource();
         if(attacker.isChild) {
-            return (newDamage * 1.5 as float) as float;
+            return (newDamage * 1.125 as float) as float;
         }
     }
     if(!isNull(player) && !source.isDamageAbsolute()) {
-        if(Math.random() < 0.15) {
+        if(Math.random() < 0.04) {
             player.addPotionEffect(<potion:minecraft:speed>.makePotionEffect(100, 3, false, false));
             evt.cancel();
             return 0.0 as float;

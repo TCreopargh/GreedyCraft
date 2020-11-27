@@ -10,155 +10,751 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.data.IData;
 import crafttweaker.item.IIngredient;
 
+val base as IIngredient[] = [<mysticalagriculture:crafting:16>, <mysticalagriculture:crafting:17>, <mysticalagriculture:crafting:18>, <mysticalagriculture:crafting:19>, <mysticalagriculture:crafting:20>, <mysticalagriculture:crafting:21>, <mysticalagradditions:insanium:1>];
+
+val essence as IIngredient[] = [<mysticalagriculture:crafting:5>, <ore:essenceInfernium>, <ore:essencePrudentium>, <ore:essenceIntermedium>, <ore:essenceSuperium>, <ore:essenceSupremium>, <ore:essenceInsanium>];
+
 val seedRecipes as IIngredient[][][IItemStack] = {
-    <mysticalagriculture:soularium_seeds>: [[<ore:ingotSoularium>, <mysticalagriculture:crafting:3>, <ore:ingotSoularium>], [<mysticalagriculture:crafting:3>, <mysticalagriculture:crafting:20>, <mysticalagriculture:crafting:3>], [<ore:ingotSoularium>, <mysticalagriculture:crafting:3>, <ore:ingotSoularium>]],
-    <mysticalagriculture:quicksilver_seeds>: [[<ore:quicksilver>, <mysticalagriculture:crafting:2>, <ore:quicksilver>], [<mysticalagriculture:crafting:2>, <mysticalagriculture:crafting:19>, <mysticalagriculture:crafting:2>], [<ore:quicksilver>, <mysticalagriculture:crafting:2>, <ore:quicksilver>]],
-    <mysticalagriculture:vibrant_alloy_seeds>: [[<ore:ingotVibrantAlloy>, <mysticalagriculture:crafting:4>, <ore:ingotVibrantAlloy>], [<mysticalagriculture:crafting:4>, <mysticalagriculture:crafting:21>, <mysticalagriculture:crafting:4>], [<ore:ingotVibrantAlloy>, <mysticalagriculture:crafting:4>, <ore:ingotVibrantAlloy>]],
-    <mysticalagriculture:draconium_seeds>: [[<ore:ingotDraconium>, <mysticalagriculture:crafting:4>, <ore:ingotDraconium>], [<mysticalagriculture:crafting:4>, <mysticalagriculture:crafting:21>, <mysticalagriculture:crafting:4>], [<ore:ingotDraconium>, <mysticalagriculture:crafting:4>, <ore:ingotDraconium>]],
-    <mysticalagriculture:blizz_seeds>: [[<mysticalagriculture:chunk:21>, <mysticalagriculture:crafting:2>, <mysticalagriculture:chunk:21>], [<mysticalagriculture:crafting:2>, <mysticalagriculture:crafting:19>, <mysticalagriculture:crafting:2>], [<mysticalagriculture:chunk:21>, <mysticalagriculture:crafting:2>, <mysticalagriculture:chunk:21>]],
-    <mysticalagriculture:dark_steel_seeds>: [[<ore:ingotDarkSteel>, <mysticalagriculture:crafting:3>, <ore:ingotDarkSteel>], [<mysticalagriculture:crafting:3>, <mysticalagriculture:crafting:20>, <mysticalagriculture:crafting:3>], [<ore:ingotDarkSteel>, <mysticalagriculture:crafting:3>, <ore:ingotDarkSteel>]],
-    <mysticalagriculture:ironwood_seeds>: [[<ore:ingotIronwood>, <mysticalagriculture:crafting:2>, <ore:ingotIronwood>], [<mysticalagriculture:crafting:2>, <mysticalagriculture:crafting:19>, <mysticalagriculture:crafting:2>], [<ore:ingotIronwood>, <mysticalagriculture:crafting:2>, <ore:ingotIronwood>]],
-    <mysticalagriculture:coralium_seeds>: [[<ore:gemCoralium>, <mysticalagriculture:crafting:2>, <ore:gemCoralium>], [<mysticalagriculture:crafting:2>, <mysticalagriculture:crafting:19>, <mysticalagriculture:crafting:2>], [<ore:gemCoralium>, <mysticalagriculture:crafting:2>, <ore:gemCoralium>]],
-    <mysticalagriculture:slate_seeds>: [[<rustic:slate>, <mysticalagriculture:crafting:1>, <rustic:slate>], [<mysticalagriculture:crafting:1>, <mysticalagriculture:crafting:18>, <mysticalagriculture:crafting:1>], [<rustic:slate>, <mysticalagriculture:crafting:1>, <rustic:slate>]],
-    <mysticalagriculture:saltpeter_seeds>: [[<ore:dustSaltpeter>, <mysticalagriculture:crafting:2>, <ore:dustSaltpeter>], [<mysticalagriculture:crafting:2>, <mysticalagriculture:crafting:19>, <mysticalagriculture:crafting:2>], [<ore:dustSaltpeter>, <mysticalagriculture:crafting:2>, <ore:dustSaltpeter>]],
-    <mysticalagriculture:elementium_seeds>: [[<botania:manaresource:7>, <mysticalagriculture:crafting:3>, <botania:manaresource:7>], [<mysticalagriculture:crafting:3>, <mysticalagriculture:crafting:20>, <mysticalagriculture:crafting:3>], [<botania:manaresource:7>, <mysticalagriculture:crafting:3>, <botania:manaresource:7>]],
-    <mysticalagriculture:rabbit_seeds>: [[<mysticalagriculture:chunk:15>, <mysticalagriculture:crafting:2>, <mysticalagriculture:chunk:15>], [<mysticalagriculture:crafting:2>, <mysticalagriculture:crafting:19>, <mysticalagriculture:crafting:2>], [<mysticalagriculture:chunk:15>, <mysticalagriculture:crafting:2>, <mysticalagriculture:chunk:15>]],
-    <mysticalagriculture:void_metal_seeds>: [[<ore:ingotVoid>, <mysticalagriculture:crafting:3>, <ore:ingotVoid>], [<mysticalagriculture:crafting:3>, <mysticalagriculture:crafting:20>, <mysticalagriculture:crafting:3>], [<ore:ingotVoid>, <mysticalagriculture:crafting:3>, <ore:ingotVoid>]],
-    <mysticalagriculture:fire_seeds>: [[<minecraft:lava_bucket>, <mysticalagriculture:crafting:1>, <minecraft:lava_bucket>], [<mysticalagriculture:crafting:1>, <mysticalagriculture:crafting:18>, <mysticalagriculture:crafting:1>], [<minecraft:lava_bucket>, <mysticalagriculture:crafting:1>, <minecraft:lava_bucket>]],
-    <mysticalagriculture:nether_quartz_seeds>: [[<minecraft:quartz>, <mysticalagriculture:crafting:2>, <minecraft:quartz>], [<mysticalagriculture:crafting:2>, <mysticalagriculture:crafting:19>, <mysticalagriculture:crafting:2>], [<minecraft:quartz>, <mysticalagriculture:crafting:2>, <minecraft:quartz>]],
-    <mysticalagriculture:redstone_seeds>: [[<minecraft:redstone>, <mysticalagriculture:crafting:2>, <minecraft:redstone>], [<mysticalagriculture:crafting:2>, <mysticalagriculture:crafting:19>, <mysticalagriculture:crafting:2>], [<minecraft:redstone>, <mysticalagriculture:crafting:2>, <minecraft:redstone>]],
-    <mysticalagriculture:aluminum_seeds>: [[<ore:ingotAluminum>, <mysticalagriculture:crafting:1>, <ore:ingotAluminum>], [<mysticalagriculture:crafting:1>, <mysticalagriculture:crafting:18>, <mysticalagriculture:crafting:1>], [<ore:ingotAluminum>, <mysticalagriculture:crafting:1>, <ore:ingotAluminum>]],
-    <mysticalagriculture:tin_seeds>: [[<ore:ingotTin>, <mysticalagriculture:crafting:2>, <ore:ingotTin>], [<mysticalagriculture:crafting:2>, <mysticalagriculture:crafting:19>, <mysticalagriculture:crafting:2>], [<ore:ingotTin>, <mysticalagriculture:crafting:2>, <ore:ingotTin>]],
-    <mysticalagriculture:lapis_lazuli_seeds>: [[<minecraft:dye:4>, <mysticalagriculture:crafting:3>, <minecraft:dye:4>], [<mysticalagriculture:crafting:3>, <mysticalagriculture:crafting:20>, <mysticalagriculture:crafting:3>], [<minecraft:dye:4>, <mysticalagriculture:crafting:3>, <minecraft:dye:4>]],
-    <mysticalagriculture:basalz_seeds>: [[<mysticalagriculture:chunk:23>, <mysticalagriculture:crafting:2>, <mysticalagriculture:chunk:23>], [<mysticalagriculture:crafting:2>, <mysticalagriculture:crafting:19>, <mysticalagriculture:crafting:2>], [<mysticalagriculture:chunk:23>, <mysticalagriculture:crafting:2>, <mysticalagriculture:chunk:23>]],
-    <mysticalagriculture:amber_seeds>: [[<ore:gemAmber>, <mysticalagriculture:crafting:3>, <ore:gemAmber>], [<mysticalagriculture:crafting:3>, <mysticalagriculture:crafting:20>, <mysticalagriculture:crafting:3>], [<ore:gemAmber>, <mysticalagriculture:crafting:3>, <ore:gemAmber>]],
-    <mysticalagriculture:refined_obsidian_seeds>: [[<ore:ingotRefinedObsidian>, <mysticalagriculture:crafting:4>, <ore:ingotRefinedObsidian>], [<mysticalagriculture:crafting:4>, <mysticalagriculture:crafting:21>, <mysticalagriculture:crafting:4>], [<ore:ingotRefinedObsidian>, <mysticalagriculture:crafting:4>, <ore:ingotRefinedObsidian>]],
-    <mysticalagriculture:abyssalnite_seeds>: [[<ore:ingotAbyssalnite>, <mysticalagriculture:crafting:3>, <ore:ingotAbyssalnite>], [<mysticalagriculture:crafting:3>, <mysticalagriculture:crafting:20>, <mysticalagriculture:crafting:3>], [<ore:ingotAbyssalnite>, <mysticalagriculture:crafting:3>, <ore:ingotAbyssalnite>]],
-    <mysticalagriculture:chicken_seeds>: [[<mysticalagriculture:chunk:8>, <mysticalagriculture:crafting:1>, <mysticalagriculture:chunk:8>], [<mysticalagriculture:crafting:1>, <mysticalagriculture:crafting:18>, <mysticalagriculture:crafting:1>], [<mysticalagriculture:chunk:8>, <mysticalagriculture:crafting:1>, <mysticalagriculture:chunk:8>]],
-    <mysticalagriculture:steel_seeds>: [[<ore:ingotSteel>, <mysticalagriculture:crafting:4>, <ore:ingotSteel>], [<mysticalagriculture:crafting:4>, <mysticalagriculture:crafting:21>, <mysticalagriculture:crafting:4>], [<ore:ingotSteel>, <mysticalagriculture:crafting:4>, <ore:ingotSteel>]],
-    <mysticalagriculture:slime_seeds>: [[<mysticalagriculture:chunk:11>, <mysticalagriculture:crafting:1>, <mysticalagriculture:chunk:11>], [<mysticalagriculture:crafting:1>, <mysticalagriculture:crafting:18>, <mysticalagriculture:crafting:1>], [<mysticalagriculture:chunk:11>, <mysticalagriculture:crafting:1>, <mysticalagriculture:chunk:11>]],
-    <mysticalagriculture:blitz_seeds>: [[<mysticalagriculture:chunk:22>, <mysticalagriculture:crafting:2>, <mysticalagriculture:chunk:22>], [<mysticalagriculture:crafting:2>, <mysticalagriculture:crafting:19>, <mysticalagriculture:crafting:2>], [<mysticalagriculture:chunk:22>, <mysticalagriculture:crafting:2>, <mysticalagriculture:chunk:22>]],
-    <mysticalagriculture:platinum_seeds>: [[<ore:ingotPlatinum>, <mysticalagriculture:crafting:4>, <ore:ingotPlatinum>], [<mysticalagriculture:crafting:4>, <mysticalagriculture:crafting:21>, <mysticalagriculture:crafting:4>], [<ore:ingotPlatinum>, <mysticalagriculture:crafting:4>, <ore:ingotPlatinum>]],
-    <mysticalagriculture:fluix_seeds>: [[<ore:crystalFluix>, <mysticalagriculture:crafting:3>, <ore:crystalFluix>], [<mysticalagriculture:crafting:3>, <mysticalagriculture:crafting:20>, <mysticalagriculture:crafting:3>], [<ore:crystalFluix>, <mysticalagriculture:crafting:3>, <ore:crystalFluix>]],
-    <mysticalagriculture:bronze_seeds>: [[<ore:ingotBronze>, <mysticalagriculture:crafting:2>, <ore:ingotBronze>], [<mysticalagriculture:crafting:2>, <mysticalagriculture:crafting:19>, <mysticalagriculture:crafting:2>], [<ore:ingotBronze>, <mysticalagriculture:crafting:2>, <ore:ingotBronze>]],
-    <mysticalagriculture:copper_seeds>: [[<ore:ingotCopper>, <mysticalagriculture:crafting:1>, <ore:ingotCopper>], [<mysticalagriculture:crafting:1>, <mysticalagriculture:crafting:18>, <mysticalagriculture:crafting:1>], [<ore:ingotCopper>, <mysticalagriculture:crafting:1>, <ore:ingotCopper>]],
-    <mysticalagriculture:end_steel_seeds>: [[<ore:ingotEndSteel>, <mysticalagriculture:crafting:4>, <ore:ingotEndSteel>], [<mysticalagriculture:crafting:4>, <mysticalagriculture:crafting:21>, <mysticalagriculture:crafting:4>], [<ore:ingotEndSteel>, <mysticalagriculture:crafting:4>, <ore:ingotEndSteel>]],
-    <mysticalagriculture:creeper_seeds>: [[<mysticalagriculture:chunk:13>, <mysticalagriculture:crafting:2>, <mysticalagriculture:chunk:13>], [<mysticalagriculture:crafting:2>, <mysticalagriculture:crafting:19>, <mysticalagriculture:crafting:2>], [<mysticalagriculture:chunk:13>, <mysticalagriculture:crafting:2>, <mysticalagriculture:chunk:13>]],
-    <mysticalagriculture:enderman_seeds>: [[<mysticalagriculture:chunk:19>, <mysticalagriculture:crafting:3>, <mysticalagriculture:chunk:19>], [<mysticalagriculture:crafting:3>, <mysticalagriculture:crafting:20>, <mysticalagriculture:crafting:3>], [<mysticalagriculture:chunk:19>, <mysticalagriculture:crafting:3>, <mysticalagriculture:chunk:19>]],
-    <mysticalagriculture:lead_seeds>: [[<ore:ingotLead>, <mysticalagriculture:crafting:2>, <ore:ingotLead>], [<mysticalagriculture:crafting:2>, <mysticalagriculture:crafting:19>, <mysticalagriculture:crafting:2>], [<ore:ingotLead>, <mysticalagriculture:crafting:2>, <ore:ingotLead>]],
-    <mysticalagriculture:dye_seeds>: [[<mysticalagriculture:crafting:7>, <mysticalagriculture:crafting:1>, <mysticalagriculture:crafting:7>], [<mysticalagriculture:crafting:1>, <mysticalagriculture:crafting:18>, <mysticalagriculture:crafting:1>], [<mysticalagriculture:crafting:7>, <mysticalagriculture:crafting:1>, <mysticalagriculture:crafting:7>]],
-    <mysticalagriculture:ender_amethyst_seeds>: [[<biomesoplenty:gem>, <mysticalagriculture:crafting:4>, <biomesoplenty:gem>], [<mysticalagriculture:crafting:4>, <mysticalagriculture:crafting:21>, <mysticalagriculture:crafting:4>], [<biomesoplenty:gem>, <mysticalagriculture:crafting:4>, <biomesoplenty:gem>]],
-    <mysticalagriculture:starmetal_seeds>: [[<astralsorcery:itemcraftingcomponent:1>, <mysticalagriculture:crafting:4>, <astralsorcery:itemcraftingcomponent:1>], [<mysticalagriculture:crafting:4>, <mysticalagriculture:crafting:21>, <mysticalagriculture:crafting:4>], [<astralsorcery:itemcraftingcomponent:1>, <mysticalagriculture:crafting:4>, <astralsorcery:itemcraftingcomponent:1>]],
-    <mysticalagriculture:knightmetal_seeds>: [[<ore:ingotKnightmetal>, <mysticalagriculture:crafting:3>, <ore:ingotKnightmetal>], [<mysticalagriculture:crafting:3>, <mysticalagriculture:crafting:20>, <mysticalagriculture:crafting:3>], [<ore:ingotKnightmetal>, <mysticalagriculture:crafting:3>, <ore:ingotKnightmetal>]],
-    <mysticalagriculture:nickel_seeds>: [[<ore:ingotNickel>, <mysticalagriculture:crafting:3>, <ore:ingotNickel>], [<mysticalagriculture:crafting:3>, <mysticalagriculture:crafting:20>, <mysticalagriculture:crafting:3>], [<ore:ingotNickel>, <mysticalagriculture:crafting:3>, <ore:ingotNickel>]],
-    <mysticalagriculture:ender_biotite_seeds>: [[<ore:gemEnderBiotite>, <mysticalagriculture:crafting:2>, <ore:gemEnderBiotite>], [<mysticalagriculture:crafting:2>, <mysticalagriculture:crafting:19>, <mysticalagriculture:crafting:2>], [<ore:gemEnderBiotite>, <mysticalagriculture:crafting:2>, <ore:gemEnderBiotite>]],
-    <mysticalagriculture:steeleaf_seeds>: [[<ore:ingotSteeleaf>, <mysticalagriculture:crafting:2>, <ore:ingotSteeleaf>], [<mysticalagriculture:crafting:2>, <mysticalagriculture:crafting:19>, <mysticalagriculture:crafting:2>], [<ore:ingotSteeleaf>, <mysticalagriculture:crafting:2>, <ore:ingotSteeleaf>]],
-    <mysticalagriculture:marble_seeds>: [[<chisel:marble2:7>, <mysticalagriculture:crafting:1>, <chisel:marble2:7>], [<mysticalagriculture:crafting:1>, <mysticalagriculture:crafting:18>, <mysticalagriculture:crafting:1>], [<chisel:marble2:7>, <mysticalagriculture:crafting:1>, <chisel:marble2:7>]],
-    <mysticalagriculture:conductive_iron_seeds>: [[<ore:ingotConductiveIron>, <mysticalagriculture:crafting:2>, <ore:ingotConductiveIron>], [<mysticalagriculture:crafting:2>, <mysticalagriculture:crafting:19>, <mysticalagriculture:crafting:2>], [<ore:ingotConductiveIron>, <mysticalagriculture:crafting:2>, <ore:ingotConductiveIron>]],
-    <mysticalagriculture:black_quartz_seeds>: [[<ore:gemQuartzBlack>, <mysticalagriculture:crafting:2>, <ore:gemQuartzBlack>], [<mysticalagriculture:crafting:2>, <mysticalagriculture:crafting:19>, <mysticalagriculture:crafting:2>], [<ore:gemQuartzBlack>, <mysticalagriculture:crafting:2>, <ore:gemQuartzBlack>]],
-    <mysticalagriculture:tanzanite_seeds>: [[<ore:gemTanzanite>, <mysticalagriculture:crafting:3>, <ore:gemTanzanite>], [<mysticalagriculture:crafting:3>, <mysticalagriculture:crafting:20>, <mysticalagriculture:crafting:3>], [<ore:gemTanzanite>, <mysticalagriculture:crafting:3>, <ore:gemTanzanite>]],
-    <mysticalagriculture:mithril_seeds>: [[<ore:ingotMithril>, <mysticalagriculture:crafting:3>, <ore:ingotMithril>], [<mysticalagriculture:crafting:3>, <mysticalagriculture:crafting:20>, <mysticalagriculture:crafting:3>], [<ore:ingotMithril>, <mysticalagriculture:crafting:3>, <ore:ingotMithril>]],
-    <mysticalagriculture:alumite_seeds>: [[<ore:ingotAlumite>, <mysticalagriculture:crafting:3>, <ore:ingotAlumite>], [<mysticalagriculture:crafting:3>, <mysticalagriculture:crafting:20>, <mysticalagriculture:crafting:3>], [<ore:ingotAlumite>, <mysticalagriculture:crafting:3>, <ore:ingotAlumite>]],
-    <mysticalagriculture:iron_seeds>: [[<ore:ingotIron>, <mysticalagriculture:crafting:2>, <ore:ingotIron>], [<mysticalagriculture:crafting:2>, <mysticalagriculture:crafting:19>, <mysticalagriculture:crafting:2>], [<ore:ingotIron>, <mysticalagriculture:crafting:2>, <ore:ingotIron>]],
-    <mysticalagriculture:manasteel_seeds>: [[<botania:manaresource>, <mysticalagriculture:crafting:2>, <botania:manaresource>], [<mysticalagriculture:crafting:2>, <mysticalagriculture:crafting:19>, <mysticalagriculture:crafting:2>], [<botania:manaresource>, <mysticalagriculture:crafting:2>, <botania:manaresource>]],
-    <mysticalagriculture:basalt_seeds>: [[<chisel:basalt2:7>, <mysticalagriculture:crafting:1>, <chisel:basalt2:7>], [<mysticalagriculture:crafting:1>, <mysticalagriculture:crafting:18>, <mysticalagriculture:crafting:1>], [<chisel:basalt2:7>, <mysticalagriculture:crafting:1>, <chisel:basalt2:7>]],
-    <mysticalagriculture:aquamarine_seeds>: [[<astralsorcery:itemcraftingcomponent>, <mysticalagriculture:crafting:2>, <astralsorcery:itemcraftingcomponent>], [<mysticalagriculture:crafting:2>, <mysticalagriculture:crafting:19>, <mysticalagriculture:crafting:2>], [<astralsorcery:itemcraftingcomponent>, <mysticalagriculture:crafting:2>, <astralsorcery:itemcraftingcomponent>]],
-    <mysticalagriculture:malachite_seeds>: [[<ore:gemMalachite>, <mysticalagriculture:crafting:3>, <ore:gemMalachite>], [<mysticalagriculture:crafting:3>, <mysticalagriculture:crafting:20>, <mysticalagriculture:crafting:3>], [<ore:gemMalachite>, <mysticalagriculture:crafting:3>, <ore:gemMalachite>]],
-    <mysticalagriculture:thaumium_seeds>: [[<ore:ingotThaumium>, <mysticalagriculture:crafting:2>, <ore:ingotThaumium>], [<mysticalagriculture:crafting:2>, <mysticalagriculture:crafting:19>, <mysticalagriculture:crafting:2>], [<ore:ingotThaumium>, <mysticalagriculture:crafting:2>, <ore:ingotThaumium>]],
-    <mysticalagriculture:aluminum_brass_seeds>: [[<tconstruct:ingots:5>, <mysticalagriculture:crafting:1>, <tconstruct:ingots:5>], [<mysticalagriculture:crafting:1>, <mysticalagriculture:crafting:18>, <mysticalagriculture:crafting:1>], [<tconstruct:ingots:5>, <mysticalagriculture:crafting:1>, <tconstruct:ingots:5>]],
-    <mysticalagriculture:invar_seeds>: [[<ore:ingotInvar>, <mysticalagriculture:crafting:3>, <ore:ingotInvar>], [<mysticalagriculture:crafting:3>, <mysticalagriculture:crafting:20>, <mysticalagriculture:crafting:3>], [<ore:ingotInvar>, <mysticalagriculture:crafting:3>, <ore:ingotInvar>]],
-    <mysticalagriculture:gold_seeds>: [[<ore:ingotGold>, <mysticalagriculture:crafting:3>, <ore:ingotGold>], [<mysticalagriculture:crafting:3>, <mysticalagriculture:crafting:20>, <mysticalagriculture:crafting:3>], [<ore:ingotGold>, <mysticalagriculture:crafting:3>, <ore:ingotGold>]],
-    <mysticalagriculture:experience_seeds>: [[<mysticalagriculture:chunk:5>, <mysticalagriculture:crafting:3>, <mysticalagriculture:chunk:5>], [<mysticalagriculture:crafting:3>, <mysticalagriculture:crafting:20>, <mysticalagriculture:crafting:3>], [<mysticalagriculture:chunk:5>, <mysticalagriculture:crafting:3>, <mysticalagriculture:chunk:5>]],
-    <mysticalagriculture:obsidian_seeds>: [[<minecraft:obsidian>, <mysticalagriculture:crafting:2>, <minecraft:obsidian>], [<mysticalagriculture:crafting:2>, <mysticalagriculture:crafting:19>, <mysticalagriculture:crafting:2>], [<minecraft:obsidian>, <mysticalagriculture:crafting:2>, <minecraft:obsidian>]],
-    <mysticalagriculture:skeleton_seeds>: [[<mysticalagriculture:chunk:12>, <mysticalagriculture:crafting:2>, <mysticalagriculture:chunk:12>], [<mysticalagriculture:crafting:2>, <mysticalagriculture:crafting:19>, <mysticalagriculture:crafting:2>], [<mysticalagriculture:chunk:12>, <mysticalagriculture:crafting:2>, <mysticalagriculture:chunk:12>]],
-    <mysticalagriculture:dreadium_seeds>: [[<ore:ingotDreadium>, <mysticalagriculture:crafting:4>, <ore:ingotDreadium>], [<mysticalagriculture:crafting:4>, <mysticalagriculture:crafting:21>, <mysticalagriculture:crafting:4>], [<ore:ingotDreadium>, <mysticalagriculture:crafting:4>, <ore:ingotDreadium>]],
-    <mysticalagriculture:cow_seeds>: [[<mysticalagriculture:chunk:9>, <mysticalagriculture:crafting:1>, <mysticalagriculture:chunk:9>], [<mysticalagriculture:crafting:1>, <mysticalagriculture:crafting:18>, <mysticalagriculture:crafting:1>], [<mysticalagriculture:chunk:9>, <mysticalagriculture:crafting:1>, <mysticalagriculture:chunk:9>]],
-    <mysticalagriculture:emerald_seeds>: [[<minecraft:emerald>, <mysticalagriculture:crafting:4>, <minecraft:emerald>], [<mysticalagriculture:crafting:4>, <mysticalagriculture:crafting:21>, <mysticalagriculture:crafting:4>], [<minecraft:emerald>, <mysticalagriculture:crafting:4>, <minecraft:emerald>]],
-    <mysticalagriculture:certus_quartz_seeds>: [[<ore:crystalCertusQuartz>, <mysticalagriculture:crafting:2>, <ore:crystalCertusQuartz>], [<mysticalagriculture:crafting:2>, <mysticalagriculture:crafting:19>, <mysticalagriculture:crafting:2>], [<ore:crystalCertusQuartz>, <mysticalagriculture:crafting:2>, <ore:crystalCertusQuartz>]],
-    <mysticalagriculture:apatite_seeds>: [[<ore:gemApatite>, <mysticalagriculture:crafting:1>, <ore:gemApatite>], [<mysticalagriculture:crafting:1>, <mysticalagriculture:crafting:18>, <mysticalagriculture:crafting:1>], [<ore:gemApatite>, <mysticalagriculture:crafting:1>, <ore:gemApatite>]],
-    <mysticalagriculture:wither_skeleton_seeds>: [[<mysticalagriculture:chunk:20>, <mysticalagriculture:crafting:4>, <mysticalagriculture:chunk:20>], [<mysticalagriculture:crafting:4>, <mysticalagriculture:crafting:21>, <mysticalagriculture:crafting:4>], [<mysticalagriculture:chunk:20>, <mysticalagriculture:crafting:4>, <mysticalagriculture:chunk:20>]],
-    <mysticalagriculture:coal_seeds>: [[<minecraft:coal>, <mysticalagriculture:crafting:1>, <minecraft:coal>], [<mysticalagriculture:crafting:1>, <mysticalagriculture:crafting:18>, <mysticalagriculture:crafting:1>], [<minecraft:coal>, <mysticalagriculture:crafting:1>, <minecraft:coal>]],
-    <mysticalagriculture:peridot_seeds>: [[<ore:gemPeridot>, <mysticalagriculture:crafting:3>, <ore:gemPeridot>], [<mysticalagriculture:crafting:3>, <mysticalagriculture:crafting:20>, <mysticalagriculture:crafting:3>], [<ore:gemPeridot>, <mysticalagriculture:crafting:3>, <ore:gemPeridot>]],
-    <mysticalagriculture:redstone_alloy_seeds>: [[<ore:ingotRedstoneAlloy>, <mysticalagriculture:crafting:2>, <ore:ingotRedstoneAlloy>], [<mysticalagriculture:crafting:2>, <mysticalagriculture:crafting:19>, <mysticalagriculture:crafting:2>], [<ore:ingotRedstoneAlloy>, <mysticalagriculture:crafting:2>, <ore:ingotRedstoneAlloy>]],
-    <mysticalagriculture:silicon_seeds>: [[<ore:itemSilicon>, <mysticalagriculture:crafting:1>, <ore:itemSilicon>], [<mysticalagriculture:crafting:1>, <mysticalagriculture:crafting:18>, <mysticalagriculture:crafting:1>], [<ore:itemSilicon>, <mysticalagriculture:crafting:1>, <ore:itemSilicon>]],
-    <mysticalagriculture:energetic_alloy_seeds>: [[<ore:ingotEnergeticAlloy>, <mysticalagriculture:crafting:3>, <ore:ingotEnergeticAlloy>], [<mysticalagriculture:crafting:3>, <mysticalagriculture:crafting:20>, <mysticalagriculture:crafting:3>], [<ore:ingotEnergeticAlloy>, <mysticalagriculture:crafting:3>, <ore:ingotEnergeticAlloy>]],
-    <mysticalagriculture:constantan_seeds>: [[<ore:ingotConstantan>, <mysticalagriculture:crafting:3>, <ore:ingotConstantan>], [<mysticalagriculture:crafting:3>, <mysticalagriculture:crafting:20>, <mysticalagriculture:crafting:3>], [<ore:ingotConstantan>, <mysticalagriculture:crafting:3>, <ore:ingotConstantan>]],
-    <mysticalagriculture:sapphire_seeds>: [[<ore:gemSapphire>, <mysticalagriculture:crafting:3>, <ore:gemSapphire>], [<mysticalagriculture:crafting:3>, <mysticalagriculture:crafting:20>, <mysticalagriculture:crafting:3>], [<ore:gemSapphire>, <mysticalagriculture:crafting:3>, <ore:gemSapphire>]],
-    <mysticalagriculture:graphite_seeds>: [[<ore:ingotGraphite>, <mysticalagriculture:crafting:2>, <ore:ingotGraphite>], [<mysticalagriculture:crafting:2>, <mysticalagriculture:crafting:19>, <mysticalagriculture:crafting:2>], [<ore:ingotGraphite>, <mysticalagriculture:crafting:2>, <ore:ingotGraphite>]],
-    <mysticalagriculture:ruby_seeds>: [[<ore:gemRuby>, <mysticalagriculture:crafting:3>, <ore:gemRuby>], [<mysticalagriculture:crafting:3>, <mysticalagriculture:crafting:20>, <mysticalagriculture:crafting:3>], [<ore:gemRuby>, <mysticalagriculture:crafting:3>, <ore:gemRuby>]],
-    <mysticalagriculture:fiery_ingot_seeds>: [[<ore:ingotFiery>, <mysticalagriculture:crafting:3>, <ore:ingotFiery>], [<mysticalagriculture:crafting:3>, <mysticalagriculture:crafting:20>, <mysticalagriculture:crafting:3>], [<ore:ingotFiery>, <mysticalagriculture:crafting:3>, <ore:ingotFiery>]],
-    <mysticalagriculture:iridium_seeds>: [[<ore:ingotIridium>, <mysticalagriculture:crafting:4>, <ore:ingotIridium>], [<mysticalagriculture:crafting:4>, <mysticalagriculture:crafting:21>, <mysticalagriculture:crafting:4>], [<ore:ingotIridium>, <mysticalagriculture:crafting:4>, <ore:ingotIridium>]],
-    <mysticalagriculture:electrum_seeds>: [[<ore:ingotElectrum>, <mysticalagriculture:crafting:3>, <ore:ingotElectrum>], [<mysticalagriculture:crafting:3>, <mysticalagriculture:crafting:20>, <mysticalagriculture:crafting:3>], [<ore:ingotElectrum>, <mysticalagriculture:crafting:3>, <ore:ingotElectrum>]],
-    <mysticalagriculture:topaz_seeds>: [[<ore:gemTopaz>, <mysticalagriculture:crafting:3>, <ore:gemTopaz>], [<mysticalagriculture:crafting:3>, <mysticalagriculture:crafting:20>, <mysticalagriculture:crafting:3>], [<ore:gemTopaz>, <mysticalagriculture:crafting:3>, <ore:gemTopaz>]],
-    <mysticalagriculture:limestone_seeds>: [[<chisel:limestone2:7>, <mysticalagriculture:crafting:1>, <chisel:limestone2:7>], [<mysticalagriculture:crafting:1>, <mysticalagriculture:crafting:18>, <mysticalagriculture:crafting:1>], [<chisel:limestone2:7>, <mysticalagriculture:crafting:1>, <chisel:limestone2:7>]],
-    <mysticalagriculture:glowstone_seeds>: [[<minecraft:glowstone>, <mysticalagriculture:crafting:2>, <minecraft:glowstone>], [<mysticalagriculture:crafting:2>, <mysticalagriculture:crafting:19>, <mysticalagriculture:crafting:2>], [<minecraft:glowstone>, <mysticalagriculture:crafting:2>, <minecraft:glowstone>]],
-    <mysticalagriculture:ghast_seeds>: [[<mysticalagriculture:chunk:18>, <mysticalagriculture:crafting:3>, <mysticalagriculture:chunk:18>], [<mysticalagriculture:crafting:3>, <mysticalagriculture:crafting:20>, <mysticalagriculture:crafting:3>], [<mysticalagriculture:chunk:18>, <mysticalagriculture:crafting:3>, <mysticalagriculture:chunk:18>]],
-    <mysticalagriculture:fluxed_electrum_seeds>: [[<ore:ingotElectrumFlux>, <mysticalagriculture:crafting:3>, <ore:ingotElectrumFlux>], [<mysticalagriculture:crafting:3>, <mysticalagriculture:crafting:20>, <mysticalagriculture:crafting:3>], [<ore:ingotElectrumFlux>, <mysticalagriculture:crafting:3>, <ore:ingotElectrumFlux>]],
-    <mysticalagriculture:sheep_seeds>: [[<mysticalagriculture:chunk:10>, <mysticalagriculture:crafting:1>, <mysticalagriculture:chunk:10>], [<mysticalagriculture:crafting:1>, <mysticalagriculture:crafting:18>, <mysticalagriculture:crafting:1>], [<mysticalagriculture:chunk:10>, <mysticalagriculture:crafting:1>, <mysticalagriculture:chunk:10>]],
-    <mysticalagriculture:diamond_seeds>: [[<minecraft:diamond>, <mysticalagriculture:crafting:4>, <minecraft:diamond>], [<mysticalagriculture:crafting:4>, <mysticalagriculture:crafting:21>, <mysticalagriculture:crafting:4>], [<minecraft:diamond>, <mysticalagriculture:crafting:4>, <minecraft:diamond>]],
-    <mysticalagriculture:cobalt_seeds>: [[<tconstruct:ingots>, <mysticalagriculture:crafting:3>, <tconstruct:ingots>], [<mysticalagriculture:crafting:3>, <mysticalagriculture:crafting:20>, <mysticalagriculture:crafting:3>], [<tconstruct:ingots>, <mysticalagriculture:crafting:3>, <tconstruct:ingots>]],
-    <mysticalagriculture:knightslime_seeds>: [[<tconstruct:ingots:3>, <mysticalagriculture:crafting:2>, <tconstruct:ingots:3>], [<mysticalagriculture:crafting:2>, <mysticalagriculture:crafting:19>, <mysticalagriculture:crafting:2>], [<tconstruct:ingots:3>, <mysticalagriculture:crafting:2>, <tconstruct:ingots:3>]],
-    <mysticalagriculture:marble_seeds>: [[<astralsorcery:blockmarble>, <mysticalagriculture:crafting:1>, <astralsorcery:blockmarble>], [<mysticalagriculture:crafting:1>, <mysticalagriculture:crafting:18>, <mysticalagriculture:crafting:1>], [<astralsorcery:blockmarble>, <mysticalagriculture:crafting:1>, <astralsorcery:blockmarble>]],
-    <mysticalagriculture:grains_of_infinity_seeds>: [[<ore:dustBedrock>, <mysticalagriculture:crafting:1>, <ore:dustBedrock>], [<mysticalagriculture:crafting:1>, <mysticalagriculture:crafting:18>, <mysticalagriculture:crafting:1>], [<ore:dustBedrock>, <mysticalagriculture:crafting:1>, <ore:dustBedrock>]],
-    <mysticalagriculture:pig_seeds>: [[<mysticalagriculture:chunk:7>, <mysticalagriculture:crafting:1>, <mysticalagriculture:chunk:7>], [<mysticalagriculture:crafting:1>, <mysticalagriculture:crafting:18>, <mysticalagriculture:crafting:1>], [<mysticalagriculture:chunk:7>, <mysticalagriculture:crafting:1>, <mysticalagriculture:chunk:7>]],
-    <mysticalagriculture:guardian_seeds>: [[<mysticalagriculture:chunk:16>, <mysticalagriculture:crafting:2>, <mysticalagriculture:chunk:16>], [<mysticalagriculture:crafting:2>, <mysticalagriculture:crafting:19>, <mysticalagriculture:crafting:2>], [<mysticalagriculture:chunk:16>, <mysticalagriculture:crafting:2>, <mysticalagriculture:chunk:16>]],
-    <mysticalagriculture:terrasteel_seeds>: [[<botania:manaresource:4>, <mysticalagriculture:crafting:4>, <botania:manaresource:4>], [<mysticalagriculture:crafting:4>, <mysticalagriculture:crafting:21>, <mysticalagriculture:crafting:4>], [<botania:manaresource:4>, <mysticalagriculture:crafting:4>, <botania:manaresource:4>]],
-    <mysticalagriculture:signalum_seeds>: [[<ore:ingotSignalum>, <mysticalagriculture:crafting:3>, <ore:ingotSignalum>], [<mysticalagriculture:crafting:3>, <mysticalagriculture:crafting:20>, <mysticalagriculture:crafting:3>], [<ore:ingotSignalum>, <mysticalagriculture:crafting:3>, <ore:ingotSignalum>]],
-    <mysticalagriculture:glowstone_ingot_seeds>: [[<ore:ingotRefinedGlowstone>, <mysticalagriculture:crafting:3>, <ore:ingotRefinedGlowstone>], [<mysticalagriculture:crafting:3>, <mysticalagriculture:crafting:20>, <mysticalagriculture:crafting:3>], [<ore:ingotRefinedGlowstone>, <mysticalagriculture:crafting:3>, <ore:ingotRefinedGlowstone>]],
-    <mysticalagriculture:ardite_seeds>: [[<tconstruct:ingots:1>, <mysticalagriculture:crafting:2>, <tconstruct:ingots:1>], [<mysticalagriculture:crafting:2>, <mysticalagriculture:crafting:19>, <mysticalagriculture:crafting:2>], [<tconstruct:ingots:1>, <mysticalagriculture:crafting:2>, <tconstruct:ingots:1>]],
-    <mysticalagriculture:blaze_seeds>: [[<mysticalagriculture:chunk:17>, <mysticalagriculture:crafting:3>, <mysticalagriculture:chunk:17>], [<mysticalagriculture:crafting:3>, <mysticalagriculture:crafting:20>, <mysticalagriculture:crafting:3>], [<mysticalagriculture:chunk:17>, <mysticalagriculture:crafting:3>, <mysticalagriculture:chunk:17>]],
-    <mysticalagriculture:spider_seeds>: [[<mysticalagriculture:chunk:14>, <mysticalagriculture:crafting:2>, <mysticalagriculture:chunk:14>], [<mysticalagriculture:crafting:2>, <mysticalagriculture:crafting:19>, <mysticalagriculture:crafting:2>], [<mysticalagriculture:chunk:14>, <mysticalagriculture:crafting:2>, <mysticalagriculture:chunk:14>]],
-    <mysticalagriculture:manyullyn_seeds>: [[<tconstruct:ingots:2>, <mysticalagriculture:crafting:4>, <tconstruct:ingots:2>], [<mysticalagriculture:crafting:4>, <mysticalagriculture:crafting:21>, <mysticalagriculture:crafting:4>], [<tconstruct:ingots:2>, <mysticalagriculture:crafting:4>, <tconstruct:ingots:2>]],
-    <mysticalagriculture:osmium_seeds>: [[<ore:ingotOsmium>, <mysticalagriculture:crafting:3>, <ore:ingotOsmium>], [<mysticalagriculture:crafting:3>, <mysticalagriculture:crafting:20>, <mysticalagriculture:crafting:3>], [<ore:ingotOsmium>, <mysticalagriculture:crafting:3>, <ore:ingotOsmium>]],
-    <mysticalagriculture:pulsating_iron_seeds>: [[<ore:ingotPulsatingIron>, <mysticalagriculture:crafting:3>, <ore:ingotPulsatingIron>], [<mysticalagriculture:crafting:3>, <mysticalagriculture:crafting:20>, <mysticalagriculture:crafting:3>], [<ore:ingotPulsatingIron>, <mysticalagriculture:crafting:3>, <ore:ingotPulsatingIron>]],
-    <mysticalagriculture:mystical_flower_seeds>: [[<mysticalagriculture:crafting:10>, <mysticalagriculture:crafting:1>, <mysticalagriculture:crafting:10>], [<mysticalagriculture:crafting:1>, <mysticalagriculture:crafting:18>, <mysticalagriculture:crafting:1>], [<mysticalagriculture:crafting:10>, <mysticalagriculture:crafting:1>, <mysticalagriculture:crafting:10>]],
-    <mysticalagriculture:sulfur_seeds>: [[<ore:dustSulfur>, <mysticalagriculture:crafting:1>, <ore:dustSulfur>], [<mysticalagriculture:crafting:1>, <mysticalagriculture:crafting:18>, <mysticalagriculture:crafting:1>], [<ore:dustSulfur>, <mysticalagriculture:crafting:1>, <ore:dustSulfur>]],
-    <mysticalagriculture:lumium_seeds>: [[<ore:ingotLumium>, <mysticalagriculture:crafting:3>, <ore:ingotLumium>], [<mysticalagriculture:crafting:3>, <mysticalagriculture:crafting:20>, <mysticalagriculture:crafting:3>], [<ore:ingotLumium>, <mysticalagriculture:crafting:3>, <ore:ingotLumium>]],
-    <mysticalagriculture:rock_crystal_seeds>: [[<astralsorcery:itemrockcrystalsimple>, <mysticalagriculture:crafting:4>, <astralsorcery:itemrockcrystalsimple>], [<mysticalagriculture:crafting:4>, <mysticalagriculture:crafting:21>, <mysticalagriculture:crafting:4>], [<astralsorcery:itemrockcrystalsimple>, <mysticalagriculture:crafting:4>, <astralsorcery:itemrockcrystalsimple>]],
-    <mysticalagriculture:end_seeds>: [[<mysticalagriculture:crafting:9>, <mysticalagriculture:crafting:3>, <mysticalagriculture:crafting:9>], [<mysticalagriculture:crafting:3>, <mysticalagriculture:crafting:20>, <mysticalagriculture:crafting:3>], [<mysticalagriculture:crafting:9>, <mysticalagriculture:crafting:3>, <mysticalagriculture:crafting:9>]],
-    <mysticalagriculture:electrical_steel_seeds>: [[<ore:ingotElectricalSteel>, <mysticalagriculture:crafting:2>, <ore:ingotElectricalSteel>], [<mysticalagriculture:crafting:2>, <mysticalagriculture:crafting:19>, <mysticalagriculture:crafting:2>], [<ore:ingotElectricalSteel>, <mysticalagriculture:crafting:2>, <ore:ingotElectricalSteel>]],
-    <mysticalagriculture:silver_seeds>: [[<ore:ingotSilver>, <mysticalagriculture:crafting:2>, <ore:ingotSilver>], [<mysticalagriculture:crafting:2>, <mysticalagriculture:crafting:19>, <mysticalagriculture:crafting:2>], [<ore:ingotSilver>, <mysticalagriculture:crafting:2>, <ore:ingotSilver>]],
-    <mysticalagriculture:sky_stone_seeds>: [[<appliedenergistics2:sky_stone_block>, <mysticalagriculture:crafting:2>, <appliedenergistics2:sky_stone_block>], [<mysticalagriculture:crafting:2>, <mysticalagriculture:crafting:19>, <mysticalagriculture:crafting:2>], [<appliedenergistics2:sky_stone_block>, <mysticalagriculture:crafting:2>, <appliedenergistics2:sky_stone_block>]],
-    <mysticalagriculture:brass_seeds>: [[<ore:ingotBrass>, <mysticalagriculture:crafting:2>, <ore:ingotBrass>], [<mysticalagriculture:crafting:2>, <mysticalagriculture:crafting:19>, <mysticalagriculture:crafting:2>], [<ore:ingotBrass>, <mysticalagriculture:crafting:2>, <ore:ingotBrass>]],
-    <mysticalagriculture:yellorium_seeds>: [[<ore:ingotYellorium>, <mysticalagriculture:crafting:4>, <ore:ingotYellorium>], [<mysticalagriculture:crafting:4>, <mysticalagriculture:crafting:21>, <mysticalagriculture:crafting:4>], [<ore:ingotYellorium>, <mysticalagriculture:crafting:4>, <ore:ingotYellorium>]],
-    <mysticalagriculture:enderium_seeds>: [[<ore:ingotEnderium>, <mysticalagriculture:crafting:4>, <ore:ingotEnderium>], [<mysticalagriculture:crafting:4>, <mysticalagriculture:crafting:21>, <mysticalagriculture:crafting:4>], [<ore:ingotEnderium>, <mysticalagriculture:crafting:4>, <ore:ingotEnderium>]],
-    <mysticalagriculture:nether_seeds>: [[<mysticalagriculture:crafting:8>, <mysticalagriculture:crafting:1>, <mysticalagriculture:crafting:8>], [<mysticalagriculture:crafting:1>, <mysticalagriculture:crafting:18>, <mysticalagriculture:crafting:1>], [<mysticalagriculture:crafting:8>, <mysticalagriculture:crafting:1>, <mysticalagriculture:crafting:8>]],
-    <mysticalagriculture:dirt_seeds>: [[<ore:dirt>, <mysticalagriculture:crafting:0>, <ore:dirt>], [<mysticalagriculture:crafting:0>, <mysticalagriculture:crafting:17>, <mysticalagriculture:crafting:0>], [<ore:dirt>, <mysticalagriculture:crafting:0>, <ore:dirt>]],
-    <mysticalagriculture:stone_seeds>: [[<ore:stone>, <mysticalagriculture:crafting:0>, <ore:stone>], [<mysticalagriculture:crafting:0>, <mysticalagriculture:crafting:17>, <mysticalagriculture:crafting:0>], [<ore:stone>, <mysticalagriculture:crafting:0>, <ore:stone>]],
-    <mysticalagriculture:nature_seeds>: [[<mysticalagriculture:crafting:6>, <mysticalagriculture:crafting:0>, <mysticalagriculture:crafting:6>], [<mysticalagriculture:crafting:0>, <mysticalagriculture:crafting:17>, <mysticalagriculture:crafting:0>], [<mysticalagriculture:crafting:6>, <mysticalagriculture:crafting:0>, <mysticalagriculture:crafting:6>]],
-    <mysticalagriculture:wood_seeds>: [[<ore:logWood>, <mysticalagriculture:crafting:0>, <ore:logWood>], [<mysticalagriculture:crafting:0>, <mysticalagriculture:crafting:17>, <mysticalagriculture:crafting:0>], [<ore:logWood>, <mysticalagriculture:crafting:0>, <ore:logWood>]],
-    <mysticalagriculture:water_seeds>: [[<minecraft:water_bucket>, <mysticalagriculture:crafting:0>, <minecraft:water_bucket>], [<mysticalagriculture:crafting:0>, <mysticalagriculture:crafting:17>, <mysticalagriculture:crafting:0>], [<minecraft:water_bucket>, <mysticalagriculture:crafting:0>, <minecraft:water_bucket>]],
-    <mysticalagriculture:zombie_seeds>: [[<mysticalagriculture:chunk:6>, <mysticalagriculture:crafting:0>, <mysticalagriculture:chunk:6>], [<mysticalagriculture:crafting:0>, <mysticalagriculture:crafting:17>, <mysticalagriculture:crafting:0>], [<mysticalagriculture:chunk:6>, <mysticalagriculture:crafting:0>, <mysticalagriculture:chunk:6>]],
-    <mysticalagriculture:ice_seeds>: [[<ore:ice>, <mysticalagriculture:crafting:0>, <ore:ice>], [<mysticalagriculture:crafting:0>, <mysticalagriculture:crafting:17>, <mysticalagriculture:crafting:0>], [<ore:ice>, <mysticalagriculture:crafting:0>, <ore:ice>]],
-    <jaopca:item_mysticalseedsscarlite>: [[<ore:gemScarlite>, <ore:essenceIntermedium>, <ore:gemScarlite>], [<ore:essenceIntermedium>, <mysticalagriculture:crafting:19>, <ore:essenceIntermedium>], [<ore:gemScarlite>, <ore:essenceIntermedium>, <ore:gemScarlite>]],
-    <jaopca:item_mysticalseedscryonium>: [[<ore:ingotCryonium>, <ore:essenceInsanium>, <ore:ingotCryonium>], [<ore:essenceInsanium>, <mysticalagradditions:insanium:1>, <ore:essenceInsanium>], [<ore:ingotCryonium>, <ore:essenceInsanium>, <ore:ingotCryonium>]],
-    <jaopca:item_mysticalseedsambrosium>: [[<ore:gemAmbrosium>, <ore:essenceIntermedium>, <ore:gemAmbrosium>], [<ore:essenceIntermedium>, <mysticalagriculture:crafting:19>, <ore:essenceIntermedium>], [<ore:gemAmbrosium>, <ore:essenceIntermedium>, <ore:gemAmbrosium>]],
-    <jaopca:item_mysticalseedshephaestite>: [[<ore:gemHephaestite>, <ore:essenceIntermedium>, <ore:gemHephaestite>], [<ore:essenceIntermedium>, <mysticalagriculture:crafting:19>, <ore:essenceIntermedium>], [<ore:gemHephaestite>, <ore:essenceIntermedium>, <ore:gemHephaestite>]],
-    <jaopca:item_mysticalseedsexperience>: [[<ore:ingotExperience>, <ore:essenceIntermedium>, <ore:ingotExperience>], [<ore:essenceIntermedium>, <mysticalagriculture:crafting:19>, <ore:essenceIntermedium>], [<ore:ingotExperience>, <ore:essenceIntermedium>, <ore:ingotExperience>]],
-    <jaopca:item_mysticalseedsaqualite>: [[<ore:ingotAqualite>, <ore:essenceSupremium>, <ore:ingotAqualite>], [<ore:essenceSupremium>, <mysticalagriculture:crafting:21>, <ore:essenceSupremium>], [<ore:ingotAqualite>, <ore:essenceSupremium>, <ore:ingotAqualite>]],
-    <jaopca:item_mysticalseedsmanganese>: [[<ore:ingotManganese>, <ore:essenceSuperium>, <ore:ingotManganese>], [<ore:essenceSuperium>, <mysticalagriculture:crafting:20>, <ore:essenceSuperium>], [<ore:ingotManganese>, <ore:essenceSuperium>, <ore:ingotManganese>]],
-    <jaopca:item_mysticalseedsdimensionalshard>: [[<ore:gemDimensionalShard>, <ore:essenceIntermedium>, <ore:gemDimensionalShard>], [<ore:essenceIntermedium>, <mysticalagriculture:crafting:19>, <ore:essenceIntermedium>], [<ore:gemDimensionalShard>, <ore:essenceIntermedium>, <ore:gemDimensionalShard>]],
-    <jaopca:item_mysticalseedsinfernium>: [[<ore:ingotInfernium>, <ore:essenceInsanium>, <ore:ingotInfernium>], [<ore:essenceInsanium>, <mysticalagradditions:insanium:1>, <ore:essenceInsanium>], [<ore:ingotInfernium>, <ore:essenceInsanium>, <ore:ingotInfernium>]],
-    <jaopca:item_mysticalseedsliquifiedcoralium>: [[<ore:ingotLiquifiedCoralium>, <ore:essenceIntermedium>, <ore:ingotLiquifiedCoralium>], [<ore:essenceIntermedium>, <mysticalagriculture:crafting:19>, <ore:essenceIntermedium>], [<ore:ingotLiquifiedCoralium>, <ore:essenceIntermedium>, <ore:ingotLiquifiedCoralium>]],
-    <jaopca:item_mysticalseedsshadowium>: [[<ore:ingotShadowium>, <ore:essenceSupremium>, <ore:ingotShadowium>], [<ore:essenceSupremium>, <mysticalagriculture:crafting:21>, <ore:essenceSupremium>], [<ore:ingotShadowium>, <ore:essenceSupremium>, <ore:ingotShadowium>]],
-    <jaopca:item_mysticalseedscytosinite>: [[<ore:ingotCytosinite>, <ore:essenceInsanium>, <ore:ingotCytosinite>], [<ore:essenceInsanium>, <mysticalagradditions:insanium:1>, <ore:essenceInsanium>], [<ore:ingotCytosinite>, <ore:essenceInsanium>, <ore:ingotCytosinite>]],
-    <jaopca:item_mysticalseedsasgardium>: [[<ore:ingotAsgardium>, <ore:essenceSuperium>, <ore:ingotAsgardium>], [<ore:essenceSuperium>, <mysticalagriculture:crafting:20>, <ore:essenceSuperium>], [<ore:ingotAsgardium>, <ore:essenceSuperium>, <ore:ingotAsgardium>]],
-    <jaopca:item_mysticalseedsaeroite>: [[<ore:ingotAeroite>, <ore:essenceSuperium>, <ore:ingotAeroite>], [<ore:essenceSuperium>, <mysticalagriculture:crafting:20>, <ore:essenceSuperium>], [<ore:ingotAeroite>, <ore:essenceSuperium>, <ore:ingotAeroite>]],
-    <jaopca:item_mysticalseedsumbrium>: [[<ore:ingotUmbrium>, <ore:essenceIntermedium>, <ore:ingotUmbrium>], [<ore:essenceIntermedium>, <mysticalagriculture:crafting:19>, <ore:essenceIntermedium>], [<ore:ingotUmbrium>, <ore:essenceIntermedium>, <ore:ingotUmbrium>]],
-    <jaopca:item_mysticalseedsniter>: [[<ore:dustNiter>, <ore:essenceIntermedium>, <ore:dustNiter>], [<ore:essenceIntermedium>, <mysticalagriculture:crafting:19>, <ore:essenceIntermedium>], [<ore:dustNiter>, <ore:essenceIntermedium>, <ore:dustNiter>]],
-    <jaopca:item_mysticalseedsancientdebris>: [[<ore:gemAncientDebris>, <ore:essenceInsanium>, <ore:gemAncientDebris>], [<ore:essenceInsanium>, <mysticalagradditions:insanium:1>, <ore:essenceInsanium>], [<ore:gemAncientDebris>, <ore:essenceInsanium>, <ore:gemAncientDebris>]],
-    <jaopca:item_mysticalseedsastralstarmetal>: [[<ore:ingotAstralStarmetal>, <ore:essenceIntermedium>, <ore:ingotAstralStarmetal>], [<ore:essenceIntermedium>, <mysticalagriculture:crafting:19>, <ore:essenceIntermedium>], [<ore:ingotAstralStarmetal>, <ore:essenceIntermedium>, <ore:ingotAstralStarmetal>]],
-    <jaopca:item_mysticalseedsquartzblack>: [[<ore:gemQuartzBlack>, <ore:essenceIntermedium>, <ore:gemQuartzBlack>], [<ore:essenceIntermedium>, <mysticalagriculture:crafting:19>, <ore:essenceIntermedium>], [<ore:gemQuartzBlack>, <ore:essenceIntermedium>, <ore:gemQuartzBlack>]],
-    <mysticalagradditions:awakened_draconium_seeds>: [[<ore:ingotDraconiumAwakened>, <mysticalagradditions:insanium>, <ore:ingotDraconiumAwakened>], [<mysticalagradditions:insanium>, <mysticalagradditions:insanium:1>, <mysticalagradditions:insanium>], [<ore:ingotDraconiumAwakened>, <mysticalagradditions:insanium>, <ore:ingotDraconiumAwakened>]],
-    <mysticalagradditions:dragon_egg_seeds>: [[<mysticalagradditions:stuff:3>, <mysticalagradditions:insanium>, <mysticalagradditions:stuff:3>], [<mysticalagradditions:insanium>, <mysticalagradditions:insanium:1>, <mysticalagradditions:insanium>], [<mysticalagradditions:stuff:3>, <mysticalagradditions:insanium>, <mysticalagradditions:stuff:3>]],
-    <mysticalagradditions:tier6_inferium_seeds>: [[<mysticalagradditions:insanium>, <mysticalagradditions:insanium>, <mysticalagradditions:insanium>], [<mysticalagradditions:insanium>, <mysticalagriculture:tier5_inferium_seeds>, <mysticalagradditions:insanium>], [<mysticalagradditions:insanium>, <mysticalagradditions:insanium>, <mysticalagradditions:insanium>]],
-    <mysticalagradditions:nether_star_seeds>: [[<minecraft:nether_star>, <mysticalagradditions:insanium>, <minecraft:nether_star>], [<mysticalagradditions:insanium>, <mysticalagradditions:insanium:1>, <mysticalagradditions:insanium>], [<minecraft:nether_star>, <mysticalagradditions:insanium>, <minecraft:nether_star>]],
-    <mysticalagradditions:neutronium_seeds>: [[<ore:ingotCosmicNeutronium>, <mysticalagradditions:insanium>, <ore:ingotCosmicNeutronium>], [<mysticalagradditions:insanium>, <mysticalagradditions:insanium:1>, <mysticalagradditions:insanium>], [<ore:ingotCosmicNeutronium>, <mysticalagradditions:insanium>, <ore:ingotCosmicNeutronium>]],
-    <mysticalagriculture:tier4_inferium_seeds>: [[<mysticalagriculture:crafting:3>, <mysticalagriculture:crafting:3>, <mysticalagriculture:crafting:3>], [<mysticalagriculture:crafting:3>, <mysticalagriculture:tier3_inferium_seeds>, <mysticalagriculture:crafting:3>], [<mysticalagriculture:crafting:3>, <mysticalagriculture:crafting:3>, <mysticalagriculture:crafting:3>]],
-    <mysticalagriculture:tier2_inferium_seeds>: [[<mysticalagriculture:crafting:1>, <mysticalagriculture:crafting:1>, <mysticalagriculture:crafting:1>], [<mysticalagriculture:crafting:1>, <mysticalagriculture:tier1_inferium_seeds>, <mysticalagriculture:crafting:1>], [<mysticalagriculture:crafting:1>, <mysticalagriculture:crafting:1>, <mysticalagriculture:crafting:1>]],
-    <mysticalagriculture:tier1_inferium_seeds>: [[<mysticalagriculture:crafting>, <mysticalagriculture:crafting>, <mysticalagriculture:crafting>], [<mysticalagriculture:crafting>, <minecraft:wheat_seeds>, <mysticalagriculture:crafting>], [<mysticalagriculture:crafting>, <mysticalagriculture:crafting>, <mysticalagriculture:crafting>]],
-    <mysticalagriculture:tier5_inferium_seeds>: [[<mysticalagriculture:crafting:4>, <mysticalagriculture:crafting:4>, <mysticalagriculture:crafting:4>], [<mysticalagriculture:crafting:4>, <mysticalagriculture:tier4_inferium_seeds>, <mysticalagriculture:crafting:4>], [<mysticalagriculture:crafting:4>, <mysticalagriculture:crafting:4>, <mysticalagriculture:crafting:4>]],
-    <mysticalagriculture:tier3_inferium_seeds>: [[<mysticalagriculture:crafting:2>, <mysticalagriculture:crafting:2>, <mysticalagriculture:crafting:2>], [<mysticalagriculture:crafting:2>, <mysticalagriculture:tier2_inferium_seeds>, <mysticalagriculture:crafting:2>], [<mysticalagriculture:crafting:2>, <mysticalagriculture:crafting:2>, <mysticalagriculture:crafting:2>]]
+    <mysticalagriculture:soularium_seeds> : [
+        [<ore:ingotSoularium>, essence[4], <ore:ingotSoularium>], 
+        [essence[4], base[4], essence[4]], 
+        [<ore:ingotSoularium>, essence[4], <ore:ingotSoularium>]
+    ],
+    <mysticalagriculture:quicksilver_seeds> : [
+        [<ore:quicksilver>, essence[3], <ore:quicksilver>], 
+        [essence[3], base[3], essence[3]], 
+        [<ore:quicksilver>, essence[3], <ore:quicksilver>]
+    ],
+    <mysticalagriculture:vibrant_alloy_seeds> : [
+        [<ore:ingotVibrantAlloy>, essence[5], <ore:ingotVibrantAlloy>], 
+        [essence[5], base[5], essence[5]], 
+        [<ore:ingotVibrantAlloy>, essence[5], <ore:ingotVibrantAlloy>]
+    ],
+    <mysticalagriculture:draconium_seeds> : [
+        [<ore:ingotDraconium>, essence[5], <ore:ingotDraconium>], 
+        [essence[5], base[5], essence[5]], 
+        [<ore:ingotDraconium>, essence[5], <ore:ingotDraconium>]
+    ],
+    <mysticalagriculture:blizz_seeds> : [
+        [<mysticalagriculture:chunk:21>, essence[3], <mysticalagriculture:chunk:21>], 
+        [essence[3], base[3], essence[3]], 
+        [<mysticalagriculture:chunk:21>, essence[3], <mysticalagriculture:chunk:21>]
+    ],
+    <mysticalagriculture:dark_steel_seeds> : [
+        [<ore:ingotDarkSteel>, essence[4], <ore:ingotDarkSteel>], 
+        [essence[4], base[4], essence[4]], 
+        [<ore:ingotDarkSteel>, essence[4], <ore:ingotDarkSteel>]
+    ],
+    <mysticalagriculture:ironwood_seeds> : [
+        [<ore:ingotIronwood>, essence[3], <ore:ingotIronwood>], 
+        [essence[3], base[3], essence[3]], 
+        [<ore:ingotIronwood>, essence[3], <ore:ingotIronwood>]
+    ],
+    <mysticalagriculture:coralium_seeds> : [
+        [<ore:gemCoralium>, essence[3], <ore:gemCoralium>], 
+        [essence[3], base[3], essence[3]], 
+        [<ore:gemCoralium>, essence[3], <ore:gemCoralium>]
+    ],
+    <mysticalagriculture:slate_seeds> : [
+        [<rustic:slate>, essence[2], <rustic:slate>], 
+        [essence[2], base[2], essence[2]], 
+        [<rustic:slate>, essence[2], <rustic:slate>]
+    ],
+    <mysticalagriculture:saltpeter_seeds> : [
+        [<ore:dustSaltpeter>, essence[3], <ore:dustSaltpeter>], 
+        [essence[3], base[3], essence[3]], 
+        [<ore:dustSaltpeter>, essence[3], <ore:dustSaltpeter>]
+    ],
+    <mysticalagriculture:elementium_seeds> : [
+        [<botania:manaresource:7>, essence[4], <botania:manaresource:7>], 
+        [essence[4], base[4], essence[4]], 
+        [<botania:manaresource:7>, essence[4], <botania:manaresource:7>]
+    ],
+    <mysticalagriculture:rabbit_seeds> : [
+        [<mysticalagriculture:chunk:15>, essence[3], <mysticalagriculture:chunk:15>], 
+        [essence[3], base[3], essence[3]], 
+        [<mysticalagriculture:chunk:15>, essence[3], <mysticalagriculture:chunk:15>]
+    ],
+    <mysticalagriculture:void_metal_seeds> : [
+        [<ore:ingotVoid>, essence[4], <ore:ingotVoid>], 
+        [essence[4], base[4], essence[4]], 
+        [<ore:ingotVoid>, essence[4], <ore:ingotVoid>]
+    ],
+    <mysticalagriculture:fire_seeds> : [
+        [<minecraft:lava_bucket>, essence[2], <minecraft:lava_bucket>], 
+        [essence[2], base[2], essence[2]], 
+        [<minecraft:lava_bucket>, essence[2], <minecraft:lava_bucket>]
+    ],
+    <mysticalagriculture:nether_quartz_seeds> : [
+        [<minecraft:quartz>, essence[3], <minecraft:quartz>], 
+        [essence[3], base[3], essence[3]], 
+        [<minecraft:quartz>, essence[3], <minecraft:quartz>]
+    ],
+    <mysticalagriculture:redstone_seeds> : [
+        [<minecraft:redstone>, essence[3], <minecraft:redstone>], 
+        [essence[3], base[3], essence[3]], 
+        [<minecraft:redstone>, essence[3], <minecraft:redstone>]
+    ],
+    <mysticalagriculture:aluminum_seeds> : [
+        [<ore:ingotAluminum>, essence[2], <ore:ingotAluminum>], 
+        [essence[2], base[2], essence[2]], 
+        [<ore:ingotAluminum>, essence[2], <ore:ingotAluminum>]
+    ],
+    <mysticalagriculture:tin_seeds> : [
+        [<ore:ingotTin>, essence[3], <ore:ingotTin>], 
+        [essence[3], base[3], essence[3]], 
+        [<ore:ingotTin>, essence[3], <ore:ingotTin>]
+    ],
+    <mysticalagriculture:lapis_lazuli_seeds> : [
+        [<minecraft:dye:4>, essence[4], <minecraft:dye:4>], 
+        [essence[4], base[4], essence[4]], 
+        [<minecraft:dye:4>, essence[4], <minecraft:dye:4>]
+    ],
+    <mysticalagriculture:basalz_seeds> : [
+        [<mysticalagriculture:chunk:23>, essence[3], <mysticalagriculture:chunk:23>], 
+        [essence[3], base[3], essence[3]], 
+        [<mysticalagriculture:chunk:23>, essence[3], <mysticalagriculture:chunk:23>]
+    ],
+    <mysticalagriculture:amber_seeds> : [
+        [<ore:gemAmber>, essence[4], <ore:gemAmber>], 
+        [essence[4], base[4], essence[4]], 
+        [<ore:gemAmber>, essence[4], <ore:gemAmber>]
+    ],
+    <mysticalagriculture:refined_obsidian_seeds> : [
+        [<ore:ingotRefinedObsidian>, essence[5], <ore:ingotRefinedObsidian>], 
+        [essence[5], base[5], essence[5]], 
+        [<ore:ingotRefinedObsidian>, essence[5], <ore:ingotRefinedObsidian>]
+    ],
+    <mysticalagriculture:abyssalnite_seeds> : [
+        [<ore:ingotAbyssalnite>, essence[4], <ore:ingotAbyssalnite>], 
+        [essence[4], base[4], essence[4]], 
+        [<ore:ingotAbyssalnite>, essence[4], <ore:ingotAbyssalnite>]
+    ],
+    <mysticalagriculture:chicken_seeds> : [
+        [<mysticalagriculture:chunk:8>, essence[2], <mysticalagriculture:chunk:8>], 
+        [essence[2], base[2], essence[2]], 
+        [<mysticalagriculture:chunk:8>, essence[2], <mysticalagriculture:chunk:8>]
+    ],
+    <mysticalagriculture:steel_seeds> : [
+        [<ore:ingotSteel>, essence[5], <ore:ingotSteel>], 
+        [essence[5], base[5], essence[5]], 
+        [<ore:ingotSteel>, essence[5], <ore:ingotSteel>]
+    ],
+    <mysticalagriculture:slime_seeds> : [
+        [<mysticalagriculture:chunk:11>, essence[2], <mysticalagriculture:chunk:11>], 
+        [essence[2], base[2], essence[2]], 
+        [<mysticalagriculture:chunk:11>, essence[2], <mysticalagriculture:chunk:11>]
+    ],
+    <mysticalagriculture:blitz_seeds> : [
+        [<mysticalagriculture:chunk:22>, essence[3], <mysticalagriculture:chunk:22>], 
+        [essence[3], base[3], essence[3]], 
+        [<mysticalagriculture:chunk:22>, essence[3], <mysticalagriculture:chunk:22>]
+    ],
+    <mysticalagriculture:platinum_seeds> : [
+        [<ore:ingotPlatinum>, essence[5], <ore:ingotPlatinum>], 
+        [essence[5], base[5], essence[5]], 
+        [<ore:ingotPlatinum>, essence[5], <ore:ingotPlatinum>]
+    ],
+    <mysticalagriculture:fluix_seeds> : [
+        [<ore:crystalFluix>, essence[4], <ore:crystalFluix>], 
+        [essence[4], base[4], essence[4]], 
+        [<ore:crystalFluix>, essence[4], <ore:crystalFluix>]
+    ],
+    <mysticalagriculture:bronze_seeds> : [
+        [<ore:ingotBronze>, essence[3], <ore:ingotBronze>], 
+        [essence[3], base[3], essence[3]], 
+        [<ore:ingotBronze>, essence[3], <ore:ingotBronze>]
+    ],
+    <mysticalagriculture:copper_seeds> : [
+        [<ore:ingotCopper>, essence[2], <ore:ingotCopper>], 
+        [essence[2], base[2], essence[2]], 
+        [<ore:ingotCopper>, essence[2], <ore:ingotCopper>]
+    ],
+    <mysticalagriculture:end_steel_seeds> : [
+        [<ore:ingotEndSteel>, essence[5], <ore:ingotEndSteel>], 
+        [essence[5], base[5], essence[5]], 
+        [<ore:ingotEndSteel>, essence[5], <ore:ingotEndSteel>]
+    ],
+    <mysticalagriculture:creeper_seeds> : [
+        [<mysticalagriculture:chunk:13>, essence[3], <mysticalagriculture:chunk:13>], 
+        [essence[3], base[3], essence[3]], 
+        [<mysticalagriculture:chunk:13>, essence[3], <mysticalagriculture:chunk:13>]
+    ],
+    <mysticalagriculture:enderman_seeds> : [
+        [<mysticalagriculture:chunk:19>, essence[4], <mysticalagriculture:chunk:19>], 
+        [essence[4], base[4], essence[4]], 
+        [<mysticalagriculture:chunk:19>, essence[4], <mysticalagriculture:chunk:19>]
+    ],
+    <mysticalagriculture:lead_seeds> : [
+        [<ore:ingotLead>, essence[3], <ore:ingotLead>], 
+        [essence[3], base[3], essence[3]], 
+        [<ore:ingotLead>, essence[3], <ore:ingotLead>]
+    ],
+    <mysticalagriculture:dye_seeds> : [
+        [<mysticalagriculture:crafting:7>, essence[2], <mysticalagriculture:crafting:7>], 
+        [essence[2], base[2], essence[2]], 
+        [<mysticalagriculture:crafting:7>, essence[2], <mysticalagriculture:crafting:7>]
+    ],
+    <mysticalagriculture:ender_amethyst_seeds> : [
+        [<biomesoplenty:gem>, essence[5], <biomesoplenty:gem>], 
+        [essence[5], base[5], essence[5]], 
+        [<biomesoplenty:gem>, essence[5], <biomesoplenty:gem>]
+    ],
+    <mysticalagriculture:starmetal_seeds> : [
+        [<astralsorcery:itemcraftingcomponent:1>, essence[5], <astralsorcery:itemcraftingcomponent:1>], 
+        [essence[5], base[5], essence[5]], 
+        [<astralsorcery:itemcraftingcomponent:1>, essence[5], <astralsorcery:itemcraftingcomponent:1>]
+    ],
+    <mysticalagriculture:knightmetal_seeds> : [
+        [<ore:ingotKnightmetal>, essence[4], <ore:ingotKnightmetal>], 
+        [essence[4], base[4], essence[4]], 
+        [<ore:ingotKnightmetal>, essence[4], <ore:ingotKnightmetal>]
+    ],
+    <mysticalagriculture:nickel_seeds> : [
+        [<ore:ingotNickel>, essence[4], <ore:ingotNickel>], 
+        [essence[4], base[4], essence[4]], 
+        [<ore:ingotNickel>, essence[4], <ore:ingotNickel>]
+    ],
+    <mysticalagriculture:ender_biotite_seeds> : [
+        [<ore:gemEnderBiotite>, essence[3], <ore:gemEnderBiotite>], 
+        [essence[3], base[3], essence[3]], 
+        [<ore:gemEnderBiotite>, essence[3], <ore:gemEnderBiotite>]
+    ],
+    <mysticalagriculture:steeleaf_seeds> : [
+        [<ore:ingotSteeleaf>, essence[3], <ore:ingotSteeleaf>], 
+        [essence[3], base[3], essence[3]], 
+        [<ore:ingotSteeleaf>, essence[3], <ore:ingotSteeleaf>]
+    ],
+    <mysticalagriculture:marble_seeds> : [
+        [<chisel:marble2:7>, essence[2], <chisel:marble2:7>], 
+        [essence[2], base[2], essence[2]], 
+        [<chisel:marble2:7>, essence[2], <chisel:marble2:7>]
+    ],
+    <mysticalagriculture:conductive_iron_seeds> : [
+        [<ore:ingotConductiveIron>, essence[3], <ore:ingotConductiveIron>], 
+        [essence[3], base[3], essence[3]], 
+        [<ore:ingotConductiveIron>, essence[3], <ore:ingotConductiveIron>]
+    ],
+    <mysticalagriculture:black_quartz_seeds> : [
+        [<ore:gemQuartzBlack>, essence[3], <ore:gemQuartzBlack>], 
+        [essence[3], base[3], essence[3]], 
+        [<ore:gemQuartzBlack>, essence[3], <ore:gemQuartzBlack>]
+    ],
+    <mysticalagriculture:tanzanite_seeds> : [
+        [<ore:gemTanzanite>, essence[4], <ore:gemTanzanite>], 
+        [essence[4], base[4], essence[4]], 
+        [<ore:gemTanzanite>, essence[4], <ore:gemTanzanite>]
+    ],
+    <mysticalagriculture:mithril_seeds> : [
+        [<ore:ingotMithril>, essence[4], <ore:ingotMithril>], 
+        [essence[4], base[4], essence[4]], 
+        [<ore:ingotMithril>, essence[4], <ore:ingotMithril>]
+    ],
+    <mysticalagriculture:alumite_seeds> : [
+        [<ore:ingotAlumite>, essence[4], <ore:ingotAlumite>], 
+        [essence[4], base[4], essence[4]], 
+        [<ore:ingotAlumite>, essence[4], <ore:ingotAlumite>]
+    ],
+    <mysticalagriculture:iron_seeds> : [
+        [<ore:ingotIron>, essence[3], <ore:ingotIron>], 
+        [essence[3], base[3], essence[3]], 
+        [<ore:ingotIron>, essence[3], <ore:ingotIron>]
+    ],
+    <mysticalagriculture:manasteel_seeds> : [
+        [<botania:manaresource>, essence[3], <botania:manaresource>], 
+        [essence[3], base[3], essence[3]], 
+        [<botania:manaresource>, essence[3], <botania:manaresource>]
+    ],
+    <mysticalagriculture:basalt_seeds> : [
+        [<chisel:basalt2:7>, essence[2], <chisel:basalt2:7>], 
+        [essence[2], base[2], essence[2]], 
+        [<chisel:basalt2:7>, essence[2], <chisel:basalt2:7>]
+    ],
+    <mysticalagriculture:aquamarine_seeds> : [
+        [<astralsorcery:itemcraftingcomponent>, essence[3], <astralsorcery:itemcraftingcomponent>], 
+        [essence[3], base[3], essence[3]], 
+        [<astralsorcery:itemcraftingcomponent>, essence[3], <astralsorcery:itemcraftingcomponent>]
+    ],
+    <mysticalagriculture:malachite_seeds> : [
+        [<ore:gemMalachite>, essence[4], <ore:gemMalachite>], 
+        [essence[4], base[4], essence[4]], 
+        [<ore:gemMalachite>, essence[4], <ore:gemMalachite>]
+    ],
+    <mysticalagriculture:thaumium_seeds> : [
+        [<ore:ingotThaumium>, essence[3], <ore:ingotThaumium>], 
+        [essence[3], base[3], essence[3]], 
+        [<ore:ingotThaumium>, essence[3], <ore:ingotThaumium>]
+    ],
+    <mysticalagriculture:aluminum_brass_seeds> : [
+        [<tconstruct:ingots:5>, essence[2], <tconstruct:ingots:5>], 
+        [essence[2], base[2], essence[2]], 
+        [<tconstruct:ingots:5>, essence[2], <tconstruct:ingots:5>]
+    ],
+    <mysticalagriculture:invar_seeds> : [
+        [<ore:ingotInvar>, essence[4], <ore:ingotInvar>], 
+        [essence[4], base[4], essence[4]], 
+        [<ore:ingotInvar>, essence[4], <ore:ingotInvar>]
+    ],
+    <mysticalagriculture:gold_seeds> : [
+        [<ore:ingotGold>, essence[4], <ore:ingotGold>], 
+        [essence[4], base[4], essence[4]], 
+        [<ore:ingotGold>, essence[4], <ore:ingotGold>]
+    ],
+    <mysticalagriculture:experience_seeds> : [
+        [<mysticalagriculture:chunk:5>, essence[4], <mysticalagriculture:chunk:5>], 
+        [essence[4], base[4], essence[4]], 
+        [<mysticalagriculture:chunk:5>, essence[4], <mysticalagriculture:chunk:5>]
+    ],
+    <mysticalagriculture:obsidian_seeds> : [
+        [<minecraft:obsidian>, essence[3], <minecraft:obsidian>], 
+        [essence[3], base[3], essence[3]], 
+        [<minecraft:obsidian>, essence[3], <minecraft:obsidian>]
+    ],
+    <mysticalagriculture:skeleton_seeds> : [
+        [<mysticalagriculture:chunk:12>, essence[3], <mysticalagriculture:chunk:12>], 
+        [essence[3], base[3], essence[3]], 
+        [<mysticalagriculture:chunk:12>, essence[3], <mysticalagriculture:chunk:12>]
+    ],
+    <mysticalagriculture:dreadium_seeds> : [
+        [<ore:ingotDreadium>, essence[5], <ore:ingotDreadium>], 
+        [essence[5], base[5], essence[5]], 
+        [<ore:ingotDreadium>, essence[5], <ore:ingotDreadium>]
+    ],
+    <mysticalagriculture:cow_seeds> : [
+        [<mysticalagriculture:chunk:9>, essence[2], <mysticalagriculture:chunk:9>], 
+        [essence[2], base[2], essence[2]], 
+        [<mysticalagriculture:chunk:9>, essence[2], <mysticalagriculture:chunk:9>]
+    ],
+    <mysticalagriculture:emerald_seeds> : [
+        [<minecraft:emerald>, essence[5], <minecraft:emerald>], 
+        [essence[5], base[5], essence[5]], 
+        [<minecraft:emerald>, essence[5], <minecraft:emerald>]
+    ],
+    <mysticalagriculture:certus_quartz_seeds> : [
+        [<ore:crystalCertusQuartz>, essence[3], <ore:crystalCertusQuartz>], 
+        [essence[3], base[3], essence[3]], 
+        [<ore:crystalCertusQuartz>, essence[3], <ore:crystalCertusQuartz>]
+    ],
+    <mysticalagriculture:apatite_seeds> : [
+        [<ore:gemApatite>, essence[2], <ore:gemApatite>], 
+        [essence[2], base[2], essence[2]], 
+        [<ore:gemApatite>, essence[2], <ore:gemApatite>]
+    ],
+    <mysticalagriculture:wither_skeleton_seeds> : [
+        [<mysticalagriculture:chunk:20>, essence[5], <mysticalagriculture:chunk:20>], 
+        [essence[5], base[5], essence[5]], 
+        [<mysticalagriculture:chunk:20>, essence[5], <mysticalagriculture:chunk:20>]
+    ],
+    <mysticalagriculture:coal_seeds> : [
+        [<minecraft:coal>, essence[2], <minecraft:coal>], 
+        [essence[2], base[2], essence[2]], 
+        [<minecraft:coal>, essence[2], <minecraft:coal>]
+    ],
+    <mysticalagriculture:peridot_seeds> : [
+        [<ore:gemPeridot>, essence[4], <ore:gemPeridot>], 
+        [essence[4], base[4], essence[4]], 
+        [<ore:gemPeridot>, essence[4], <ore:gemPeridot>]
+    ],
+    <mysticalagriculture:redstone_alloy_seeds> : [
+        [<ore:ingotRedstoneAlloy>, essence[3], <ore:ingotRedstoneAlloy>], 
+        [essence[3], base[3], essence[3]], 
+        [<ore:ingotRedstoneAlloy>, essence[3], <ore:ingotRedstoneAlloy>]
+    ],
+    <mysticalagriculture:silicon_seeds> : [
+        [<ore:itemSilicon>, essence[2], <ore:itemSilicon>], 
+        [essence[2], base[2], essence[2]], 
+        [<ore:itemSilicon>, essence[2], <ore:itemSilicon>]
+    ],
+    <mysticalagriculture:energetic_alloy_seeds> : [
+        [<ore:ingotEnergeticAlloy>, essence[4], <ore:ingotEnergeticAlloy>], 
+        [essence[4], base[4], essence[4]], 
+        [<ore:ingotEnergeticAlloy>, essence[4], <ore:ingotEnergeticAlloy>]
+    ],
+    <mysticalagriculture:constantan_seeds> : [
+        [<ore:ingotConstantan>, essence[4], <ore:ingotConstantan>], 
+        [essence[4], base[4], essence[4]], 
+        [<ore:ingotConstantan>, essence[4], <ore:ingotConstantan>]
+    ],
+    <mysticalagriculture:sapphire_seeds> : [
+        [<ore:gemSapphire>, essence[4], <ore:gemSapphire>], 
+        [essence[4], base[4], essence[4]], 
+        [<ore:gemSapphire>, essence[4], <ore:gemSapphire>]
+    ],
+    <mysticalagriculture:graphite_seeds> : [
+        [<ore:ingotGraphite>, essence[3], <ore:ingotGraphite>], 
+        [essence[3], base[3], essence[3]], 
+        [<ore:ingotGraphite>, essence[3], <ore:ingotGraphite>]
+    ],
+    <mysticalagriculture:ruby_seeds> : [
+        [<ore:gemRuby>, essence[4], <ore:gemRuby>], 
+        [essence[4], base[4], essence[4]], 
+        [<ore:gemRuby>, essence[4], <ore:gemRuby>]
+    ],
+    <mysticalagriculture:fiery_ingot_seeds> : [
+        [<ore:ingotFiery>, essence[4], <ore:ingotFiery>], 
+        [essence[4], base[4], essence[4]], 
+        [<ore:ingotFiery>, essence[4], <ore:ingotFiery>]
+    ],
+    <mysticalagriculture:iridium_seeds> : [
+        [<ore:ingotIridium>, essence[5], <ore:ingotIridium>], 
+        [essence[5], base[5], essence[5]], 
+        [<ore:ingotIridium>, essence[5], <ore:ingotIridium>]
+    ],
+    <mysticalagriculture:electrum_seeds> : [
+        [<ore:ingotElectrum>, essence[4], <ore:ingotElectrum>], 
+        [essence[4], base[4], essence[4]], 
+        [<ore:ingotElectrum>, essence[4], <ore:ingotElectrum>]
+    ],
+    <mysticalagriculture:topaz_seeds> : [
+        [<ore:gemTopaz>, essence[4], <ore:gemTopaz>], 
+        [essence[4], base[4], essence[4]], 
+        [<ore:gemTopaz>, essence[4], <ore:gemTopaz>]
+    ],
+    <mysticalagriculture:limestone_seeds> : [
+        [<chisel:limestone2:7>, essence[2], <chisel:limestone2:7>], 
+        [essence[2], base[2], essence[2]], 
+        [<chisel:limestone2:7>, essence[2], <chisel:limestone2:7>]
+    ],
+    <mysticalagriculture:glowstone_seeds> : [
+        [<minecraft:glowstone>, essence[3], <minecraft:glowstone>], 
+        [essence[3], base[3], essence[3]], 
+        [<minecraft:glowstone>, essence[3], <minecraft:glowstone>]
+    ],
+    <mysticalagriculture:ghast_seeds> : [
+        [<mysticalagriculture:chunk:18>, essence[4], <mysticalagriculture:chunk:18>], 
+        [essence[4], base[4], essence[4]], 
+        [<mysticalagriculture:chunk:18>, essence[4], <mysticalagriculture:chunk:18>]
+    ],
+    <mysticalagriculture:fluxed_electrum_seeds> : [
+        [<ore:ingotElectrumFlux>, essence[4], <ore:ingotElectrumFlux>], 
+        [essence[4], base[4], essence[4]], 
+        [<ore:ingotElectrumFlux>, essence[4], <ore:ingotElectrumFlux>]
+    ],
+    <mysticalagriculture:sheep_seeds> : [
+        [<mysticalagriculture:chunk:10>, essence[2], <mysticalagriculture:chunk:10>], 
+        [essence[2], base[2], essence[2]], 
+        [<mysticalagriculture:chunk:10>, essence[2], <mysticalagriculture:chunk:10>]
+    ],
+    <mysticalagriculture:diamond_seeds> : [
+        [<minecraft:diamond>, essence[5], <minecraft:diamond>], 
+        [essence[5], base[5], essence[5]], 
+        [<minecraft:diamond>, essence[5], <minecraft:diamond>]
+    ],
+    <mysticalagriculture:cobalt_seeds> : [
+        [<tconstruct:ingots>, essence[4], <tconstruct:ingots>], 
+        [essence[4], base[4], essence[4]], 
+        [<tconstruct:ingots>, essence[4], <tconstruct:ingots>]
+    ],
+    <mysticalagriculture:knightslime_seeds> : [
+        [<tconstruct:ingots:3>, essence[3], <tconstruct:ingots:3>], 
+        [essence[3], base[3], essence[3]], 
+        [<tconstruct:ingots:3>, essence[3], <tconstruct:ingots:3>]
+    ],
+    <mysticalagriculture:marble_seeds> : [
+        [<astralsorcery:blockmarble>, essence[2], <astralsorcery:blockmarble>], 
+        [essence[2], base[2], essence[2]], 
+        [<astralsorcery:blockmarble>, essence[2], <astralsorcery:blockmarble>]
+    ],
+    <mysticalagriculture:grains_of_infinity_seeds> : [
+        [<ore:dustBedrock>, essence[2], <ore:dustBedrock>], 
+        [essence[2], base[2], essence[2]], 
+        [<ore:dustBedrock>, essence[2], <ore:dustBedrock>]
+    ],
+    <mysticalagriculture:pig_seeds> : [
+        [<mysticalagriculture:chunk:7>, essence[2], <mysticalagriculture:chunk:7>], 
+        [essence[2], base[2], essence[2]], 
+        [<mysticalagriculture:chunk:7>, essence[2], <mysticalagriculture:chunk:7>]
+    ],
+    <mysticalagriculture:guardian_seeds> : [
+        [<mysticalagriculture:chunk:16>, essence[3], <mysticalagriculture:chunk:16>], 
+        [essence[3], base[3], essence[3]], 
+        [<mysticalagriculture:chunk:16>, essence[3], <mysticalagriculture:chunk:16>]
+    ],
+    <mysticalagriculture:terrasteel_seeds> : [
+        [<botania:manaresource:4>, essence[5], <botania:manaresource:4>], 
+        [essence[5], base[5], essence[5]], 
+        [<botania:manaresource:4>, essence[5], <botania:manaresource:4>]
+    ],
+    <mysticalagriculture:signalum_seeds> : [
+        [<ore:ingotSignalum>, essence[4], <ore:ingotSignalum>], 
+        [essence[4], base[4], essence[4]], 
+        [<ore:ingotSignalum>, essence[4], <ore:ingotSignalum>]
+    ],
+    <mysticalagriculture:glowstone_ingot_seeds> : [
+        [<ore:ingotRefinedGlowstone>, essence[4], <ore:ingotRefinedGlowstone>], 
+        [essence[4], base[4], essence[4]], 
+        [<ore:ingotRefinedGlowstone>, essence[4], <ore:ingotRefinedGlowstone>]
+    ],
+    <mysticalagriculture:ardite_seeds> : [
+        [<tconstruct:ingots:1>, essence[3], <tconstruct:ingots:1>], 
+        [essence[3], base[3], essence[3]], 
+        [<tconstruct:ingots:1>, essence[3], <tconstruct:ingots:1>]
+    ],
+    <mysticalagriculture:blaze_seeds> : [
+        [<mysticalagriculture:chunk:17>, essence[4], <mysticalagriculture:chunk:17>], 
+        [essence[4], base[4], essence[4]], 
+        [<mysticalagriculture:chunk:17>, essence[4], <mysticalagriculture:chunk:17>]
+    ],
+    <mysticalagriculture:spider_seeds> : [
+        [<mysticalagriculture:chunk:14>, essence[3], <mysticalagriculture:chunk:14>], 
+        [essence[3], base[3], essence[3]], 
+        [<mysticalagriculture:chunk:14>, essence[3], <mysticalagriculture:chunk:14>]
+    ],
+    <mysticalagriculture:manyullyn_seeds> : [
+        [<tconstruct:ingots:2>, essence[5], <tconstruct:ingots:2>], 
+        [essence[5], base[5], essence[5]], 
+        [<tconstruct:ingots:2>, essence[5], <tconstruct:ingots:2>]
+    ],
+    <mysticalagriculture:osmium_seeds> : [
+        [<ore:ingotOsmium>, essence[4], <ore:ingotOsmium>], 
+        [essence[4], base[4], essence[4]], 
+        [<ore:ingotOsmium>, essence[4], <ore:ingotOsmium>]
+    ],
+    <mysticalagriculture:pulsating_iron_seeds> : [
+        [<ore:ingotPulsatingIron>, essence[4], <ore:ingotPulsatingIron>], 
+        [essence[4], base[4], essence[4]], 
+        [<ore:ingotPulsatingIron>, essence[4], <ore:ingotPulsatingIron>]
+    ],
+    <mysticalagriculture:mystical_flower_seeds> : [
+        [<mysticalagriculture:crafting:10>, essence[2], <mysticalagriculture:crafting:10>], 
+        [essence[2], base[2], essence[2]], 
+        [<mysticalagriculture:crafting:10>, essence[2], <mysticalagriculture:crafting:10>]
+    ],
+    <mysticalagriculture:sulfur_seeds> : [
+        [<ore:dustSulfur>, essence[2], <ore:dustSulfur>], 
+        [essence[2], base[2], essence[2]], 
+        [<ore:dustSulfur>, essence[2], <ore:dustSulfur>]
+    ],
+    <mysticalagriculture:lumium_seeds> : [
+        [<ore:ingotLumium>, essence[4], <ore:ingotLumium>], 
+        [essence[4], base[4], essence[4]], 
+        [<ore:ingotLumium>, essence[4], <ore:ingotLumium>]
+    ],
+    <mysticalagriculture:rock_crystal_seeds> : [
+        [<astralsorcery:itemrockcrystalsimple>, essence[5], <astralsorcery:itemrockcrystalsimple>], 
+        [essence[5], base[5], essence[5]], 
+        [<astralsorcery:itemrockcrystalsimple>, essence[5], <astralsorcery:itemrockcrystalsimple>]
+    ],
+    <mysticalagriculture:end_seeds> : [
+        [<mysticalagriculture:crafting:9>, essence[4], <mysticalagriculture:crafting:9>], 
+        [essence[4], base[4], essence[4]], 
+        [<mysticalagriculture:crafting:9>, essence[4], <mysticalagriculture:crafting:9>]
+    ],
+    <mysticalagriculture:electrical_steel_seeds> : [
+        [<ore:ingotElectricalSteel>, essence[3], <ore:ingotElectricalSteel>], 
+        [essence[3], base[3], essence[3]], 
+        [<ore:ingotElectricalSteel>, essence[3], <ore:ingotElectricalSteel>]
+    ],
+    <mysticalagriculture:silver_seeds> : [
+        [<ore:ingotSilver>, essence[3], <ore:ingotSilver>], 
+        [essence[3], base[3], essence[3]], 
+        [<ore:ingotSilver>, essence[3], <ore:ingotSilver>]
+    ],
+    <mysticalagriculture:sky_stone_seeds> : [
+        [<appliedenergistics2:sky_stone_block>, essence[3], <appliedenergistics2:sky_stone_block>], 
+        [essence[3], base[3], essence[3]], 
+        [<appliedenergistics2:sky_stone_block>, essence[3], <appliedenergistics2:sky_stone_block>]
+    ],
+    <mysticalagriculture:brass_seeds> : [
+        [<ore:ingotBrass>, essence[3], <ore:ingotBrass>], 
+        [essence[3], base[3], essence[3]], 
+        [<ore:ingotBrass>, essence[3], <ore:ingotBrass>]
+    ],
+    <mysticalagriculture:yellorium_seeds> : [
+        [<ore:ingotYellorium>, essence[5], <ore:ingotYellorium>], 
+        [essence[5], base[5], essence[5]], 
+        [<ore:ingotYellorium>, essence[5], <ore:ingotYellorium>]
+    ],
+    <mysticalagriculture:enderium_seeds> : [
+        [<ore:ingotEnderium>, essence[5], <ore:ingotEnderium>], 
+        [essence[5], base[5], essence[5]], 
+        [<ore:ingotEnderium>, essence[5], <ore:ingotEnderium>]
+    ],
+    <mysticalagriculture:nether_seeds> : [
+        [<mysticalagriculture:crafting:8>, essence[2], <mysticalagriculture:crafting:8>], 
+        [essence[2], base[2], essence[2]], 
+        [<mysticalagriculture:crafting:8>, essence[2], <mysticalagriculture:crafting:8>]
+    ],
+    <mysticalagriculture:dirt_seeds> : [
+        [<ore:dirt>, essence[1], <ore:dirt>], 
+        [essence[1], base[1], essence[1]], 
+        [<ore:dirt>, essence[1], <ore:dirt>]
+    ],
+    <mysticalagriculture:stone_seeds> : [
+        [<ore:stone>, essence[1], <ore:stone>], 
+        [essence[1], base[1], essence[1]], 
+        [<ore:stone>, essence[1], <ore:stone>]
+    ],
+    <mysticalagriculture:nature_seeds> : [
+        [<mysticalagriculture:crafting:6>, essence[1], <mysticalagriculture:crafting:6>], 
+        [essence[1], base[1], essence[1]], 
+        [<mysticalagriculture:crafting:6>, essence[1], <mysticalagriculture:crafting:6>]
+    ],
+    <mysticalagriculture:wood_seeds> : [
+        [<ore:logWood>, essence[1], <ore:logWood>], 
+        [essence[1], base[1], essence[1]], 
+        [<ore:logWood>, essence[1], <ore:logWood>]
+    ],
+    <mysticalagriculture:water_seeds> : [
+        [<minecraft:water_bucket>, essence[1], <minecraft:water_bucket>], 
+        [essence[1], base[1], essence[1]], 
+        [<minecraft:water_bucket>, essence[1], <minecraft:water_bucket>]
+    ],
+    <mysticalagriculture:zombie_seeds> : [
+        [<mysticalagriculture:chunk:6>, essence[1], <mysticalagriculture:chunk:6>], 
+        [essence[1], base[1], essence[1]], 
+        [<mysticalagriculture:chunk:6>, essence[1], <mysticalagriculture:chunk:6>]
+    ],
+    <mysticalagriculture:ice_seeds> : [
+        [<ore:ice>, essence[1], <ore:ice>], 
+        [essence[1], base[1], essence[1]], 
+        [<ore:ice>, essence[1], <ore:ice>]
+    ],
+    <jaopca:item_mysticalseedsscarlite> : [
+        [<ore:gemScarlite>, essence[5], <ore:gemScarlite>], 
+        [essence[5], base[5], essence[5]], 
+        [<ore:gemScarlite>, essence[5], <ore:gemScarlite>]
+    ],
+    <jaopca:item_mysticalseedscryonium> : [
+        [<ore:ingotCryonium>, essence[6], <ore:ingotCryonium>], 
+        [essence[6], base[6], essence[6]], 
+        [<ore:ingotCryonium>, essence[6], <ore:ingotCryonium>]
+    ],
+    <jaopca:item_mysticalseedsambrosium> : [
+        [<ore:gemAmbrosium>, essence[3], <ore:gemAmbrosium>], 
+        [essence[3], base[3], essence[3]], 
+        [<ore:gemAmbrosium>, essence[3], <ore:gemAmbrosium>]
+    ],
+    <jaopca:item_mysticalseedshephaestite> : [
+        [<ore:gemHephaestite>, essence[3], <ore:gemHephaestite>], 
+        [essence[3], base[3], essence[3]], 
+        [<ore:gemHephaestite>, essence[3], <ore:gemHephaestite>]
+    ],
+    <jaopca:item_mysticalseedsexperience> : [
+        [<ore:ingotExperience>, essence[3], <ore:ingotExperience>], 
+        [essence[3], base[3], essence[3]], 
+        [<ore:ingotExperience>, essence[3], <ore:ingotExperience>]
+    ],
+    <jaopca:item_mysticalseedsaqualite> : [
+        [<ore:ingotAqualite>, essence[5], <ore:ingotAqualite>], 
+        [essence[5], base[5], essence[5]], 
+        [<ore:ingotAqualite>, essence[5], <ore:ingotAqualite>]
+    ],
+    <jaopca:item_mysticalseedsmanganese> : [
+        [<ore:ingotManganese>, essence[4], <ore:ingotManganese>], 
+        [essence[4], base[4], essence[4]], 
+        [<ore:ingotManganese>, essence[4], <ore:ingotManganese>]
+    ],
+    <jaopca:item_mysticalseedsdimensionalshard> : [
+        [<ore:gemDimensionalShard>, essence[3], <ore:gemDimensionalShard>], 
+        [essence[3], base[3], essence[3]], 
+        [<ore:gemDimensionalShard>, essence[3], <ore:gemDimensionalShard>]
+    ],
+    <jaopca:item_mysticalseedsinfernium> : [
+        [<ore:ingotInfernium>, essence[6], <ore:ingotInfernium>], 
+        [essence[6], base[6], essence[6]], 
+        [<ore:ingotInfernium>, essence[6], <ore:ingotInfernium>]
+    ],
+    <jaopca:item_mysticalseedsliquifiedcoralium> : [
+        [<ore:ingotLiquifiedCoralium>, essence[3], <ore:ingotLiquifiedCoralium>], 
+        [essence[3], base[3], essence[3]], 
+        [<ore:ingotLiquifiedCoralium>, essence[3], <ore:ingotLiquifiedCoralium>]
+    ],
+    <jaopca:item_mysticalseedsshadowium> : [
+        [<ore:ingotShadowium>, essence[5], <ore:ingotShadowium>], 
+        [essence[5], base[5], essence[5]], 
+        [<ore:ingotShadowium>, essence[5], <ore:ingotShadowium>]
+    ],
+    <jaopca:item_mysticalseedscytosinite> : [
+        [<ore:ingotCytosinite>, essence[6], <ore:ingotCytosinite>], 
+        [essence[6], base[6], essence[6]], 
+        [<ore:ingotCytosinite>, essence[6], <ore:ingotCytosinite>]
+    ],
+    <jaopca:item_mysticalseedsasgardium> : [
+        [<ore:ingotAsgardium>, essence[4], <ore:ingotAsgardium>], 
+        [essence[4], base[4], essence[4]], 
+        [<ore:ingotAsgardium>, essence[4], <ore:ingotAsgardium>]
+    ],
+    <jaopca:item_mysticalseedsaeroite> : [
+        [<ore:ingotAeroite>, essence[4], <ore:ingotAeroite>], 
+        [essence[4], base[4], essence[4]], 
+        [<ore:ingotAeroite>, essence[4], <ore:ingotAeroite>]
+    ],
+    <jaopca:item_mysticalseedsumbrium> : [
+        [<ore:ingotUmbrium>, essence[3], <ore:ingotUmbrium>], 
+        [essence[3], base[3], essence[3]], 
+        [<ore:ingotUmbrium>, essence[3], <ore:ingotUmbrium>]
+    ],
+    <jaopca:item_mysticalseedsniter> : [
+        [<ore:dustNiter>, essence[3], <ore:dustNiter>], 
+        [essence[3], base[3], essence[3]], 
+        [<ore:dustNiter>, essence[3], <ore:dustNiter>]
+    ],
+    <jaopca:item_mysticalseedsancientdebris> : [
+        [<ore:gemAncientDebris>, essence[6], <ore:gemAncientDebris>], 
+        [essence[6], base[6], essence[6]], 
+        [<ore:gemAncientDebris>, essence[6], <ore:gemAncientDebris>]
+    ],
+    <jaopca:item_mysticalseedsastralstarmetal> : [
+        [<ore:ingotAstralStarmetal>, essence[3], <ore:ingotAstralStarmetal>], 
+        [essence[3], base[3], essence[3]], 
+        [<ore:ingotAstralStarmetal>, essence[3], <ore:ingotAstralStarmetal>]
+    ],
+    <jaopca:item_mysticalseedsquartzblack> : [
+        [<ore:gemQuartzBlack>, essence[3], <ore:gemQuartzBlack>], 
+        [essence[3], base[3], essence[3]], 
+        [<ore:gemQuartzBlack>, essence[3], <ore:gemQuartzBlack>]
+    ],
+    <mysticalagradditions:awakened_draconium_seeds> : [
+        [<ore:ingotDraconiumAwakened>, essence[6], <ore:ingotDraconiumAwakened>], 
+        [essence[6], base[6], essence[6]], 
+        [<ore:ingotDraconiumAwakened>, essence[6], <ore:ingotDraconiumAwakened>]
+    ],
+    <mysticalagradditions:dragon_egg_seeds> : [
+        [<mysticalagradditions:stuff:3>, essence[6], <mysticalagradditions:stuff:3>], 
+        [essence[6], base[6], essence[6]], 
+        [<mysticalagradditions:stuff:3>, essence[6], <mysticalagradditions:stuff:3>]
+    ],
+    <mysticalagradditions:tier6_inferium_seeds> : [
+        [essence[6], essence[6], essence[6]], 
+        [essence[6], <mysticalagriculture:tier5_inferium_seeds>, essence[6]], 
+        [essence[6], essence[6], essence[6]]
+    ],
+    <mysticalagradditions:nether_star_seeds> : [
+        [<minecraft:nether_star>, essence[6], <minecraft:nether_star>], 
+        [essence[6], base[6], essence[6]], 
+        [<minecraft:nether_star>, essence[6], <minecraft:nether_star>]
+    ],
+    <mysticalagradditions:neutronium_seeds> : [
+        [<ore:ingotCosmicNeutronium>, essence[6], <ore:ingotCosmicNeutronium>], 
+        [essence[6], base[6], essence[6]], 
+        [<ore:ingotCosmicNeutronium>, essence[6], <ore:ingotCosmicNeutronium>]
+    ],
+    <mysticalagriculture:tier4_inferium_seeds> : [
+        [essence[4], essence[4], essence[4]], 
+        [essence[4], <mysticalagriculture:tier3_inferium_seeds>, essence[4]], 
+        [essence[4], essence[4], essence[4]]
+    ],
+    <mysticalagriculture:tier2_inferium_seeds> : [
+        [essence[2], essence[2], essence[2]], 
+        [essence[2], <mysticalagriculture:tier1_inferium_seeds>, essence[2]], 
+        [essence[2], essence[2], essence[2]]
+    ],
+    <mysticalagriculture:tier1_inferium_seeds> : [
+        [essence[1], essence[1], essence[1]], 
+        [essence[1], <minecraft:wheat_seeds>, essence[1]], 
+        [essence[1], essence[1], essence[1]]
+    ],
+    <mysticalagriculture:tier5_inferium_seeds> : [
+        [essence[5], essence[5], essence[5]], 
+        [essence[5], <mysticalagriculture:tier4_inferium_seeds>, essence[5]], 
+        [essence[5], essence[5], essence[5]]
+    ],
+    <mysticalagriculture:tier3_inferium_seeds> : [
+        [essence[3], essence[3], essence[3]], 
+        [essence[3], <mysticalagriculture:tier2_inferium_seeds>, essence[3]], 
+        [essence[3], essence[3], essence[3]]
+    ]
 } as IIngredient[][][IItemStack];
 
 for seed in seedRecipes {

@@ -117,11 +117,6 @@ prudentium                                        (mysticalagradditions:molten_p
 intermedium                                       (mysticalagradditions:molten_intermedium)                                        = ÈÛÈÚÖĞ¼¶¾«»ª
 superium                                          (mysticalagradditions:molten_superium)                                           = ÈÛÈÚ¸ß¼¶¾«»ª
 supremium                                         (mysticalagradditions:molten_supremium)                                          = ÈÛÈÚÖÕ¼«¾«»ª
-sand                                              (biomesoplenty:sand)                                                             = Á÷É³
-honey                                             (biomesoplenty:honey)                                                            = ·äÃÛ
-blood                                             (biomesoplenty:blood)                                                            = Ñª
-poison                                            (biomesoplenty:poison)                                                           = ¶¾Òº
-hot_spring_water                                  (biomesoplenty:hot_spring_water)                                                 = ÎÂÈªË®
 fusion_matrix                                     (contenttweaker:fusion_matrix)                                                   = ÈÛÈÚ¾ÛºÏ¾ØÕó
 insanium                                          (contenttweaker:insanium)                                                        = ÈÛÈÚ¾¿¼«¾«»ª
 ethaxium                                          (contenttweaker:ethaxium)                                                        = ÈÛÈÚÒÁÉ£Ë¹
@@ -149,6 +144,11 @@ canolaoil                                         (actuallyadditions:block_canol
 refinedcanolaoil                                  (actuallyadditions:block_refined_canola_oil)                                     = ¾«ÖÆ²Ë×ÑÓÍ
 crystaloil                                        (actuallyadditions:block_crystal_oil)                                            = ¾§»¯ÓÍ
 empoweredoil                                      (actuallyadditions:block_empowered_oil)                                          = ³äÄÜÓÍ
+sand                                              (biomesoplenty:sand)                                                             = Á÷É³
+honey                                             (biomesoplenty:honey)                                                            = ·äÃÛ
+blood                                             (biomesoplenty:blood)                                                            = Ñª
+poison                                            (biomesoplenty:poison)                                                           = ¶¾Òº
+hot_spring_water                                  (biomesoplenty:hot_spring_water)                                                 = ÎÂÈªË®
 alumite                                           (plustic:plustic.molten_alumite)                                                 = ÈÛÈÚÄÍËáÂÁ
 osmium                                            (plustic:plustic.molten_osmium)                                                  = ÈÛÈÚï°
 refinedobsidian                                   (plustic:plustic.molten_refinedobsidian)                                         = ÈÛÈÚÇ¿»¯ºÚê×Ê¯
@@ -406,6 +406,7 @@ dirt                                              (tconstruct:molten_dirt)      
 emerald                                           (tconstruct:molten_emerald)                                                      = ÈÛÈÚÂÌ±¦Ê¯
 blueslime                                         (tconstruct:blueslime)                                                           = ÒºÌ¬À¶É«Ê·À³Ä·
 purpleslime                                       (tconstruct:purpleslime)                                                         = ÒºÌ¬×ÏÉ«Ê·À³Ä·
+ichor                                             (netherex:ichor)                                                                 = ²»ĞàÖ®Ñª
 yellorium                                         (bigreactors:yellorium)                                                          = ÒºÌ¬»ÆÓË
 cyanite                                           (bigreactors:cyanite)                                                            = ÒºÌ¬À¶¾§
 fuelcolumn                                        ([no block])                                                                     = fluid.fuelcolumn

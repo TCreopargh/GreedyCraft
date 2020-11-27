@@ -397,7 +397,6 @@ stageNoviceEngineer.addIngredients([
     <cyclicmagic:placer_block>,
     <actuallyadditions:block_placer>,
     <actuallyadditions:block_phantom_placer>,
-    <extrautils2:spike_gold>,
     <actuallyadditions:block_battery_box>,
     <actuallyadditions:block_item_viewer_hopping>,
     <actuallyadditions:block_bio_reactor>,
@@ -690,7 +689,7 @@ stageHardmode.addOreReplacement(<biomesoplenty:gem_ore:0>, <minecraft:end_stone>
 stageSkilledEngineer.addOreReplacement(<ore:oreIridium>, <minecraft:stone>, false);
 stageSkilledEngineer.addOreReplacement(<ore:orePlatinum>, <minecraft:stone>, false);
 stageSkilledEngineer.addOreReplacement(<bigreactors:oreyellorite:*>, <minecraft:stone>, false);
-stageSkilledEngineer.addOreReplacement(<mekanism:oreblock:*>, <minecraft:stone>, false);
+stageSkilledEngineer.addOreReplacement(<ore:oreOsmium>, <minecraft:stone>, false);
 stageEnderCharm.addOreReplacement(<minecraft:end_portal_frame:*>, <additions:greedycraft-unknown_block>, false);
 stageNether.addOreReplacement(<minecraft:anvil:*>, <additions:greedycraft-unknown_block>, false);
 stageNether.addOreReplacement(<minecraft:enchanting_table:*>, <additions:greedycraft-unknown_block>, false);
@@ -706,6 +705,7 @@ stageHardmode.addOreReplacement(<additions:greedycraft-cytosinite_ore>, <biomeso
 stageGettingStarted.addOreReplacement(<ore:chest>, <additions:greedycraft-unknown_block>, false);
 
 stageSkilledEngineer.addIngredients([
+    <extrautils2:spike_gold>,
     <ore:ingotIridium>,
     <ore:nuggetIridium>,
     <ore:blockIridium>,
@@ -760,6 +760,7 @@ stageSkilledEngineer.addIngredients([
 
 stageMasterEngineer.addIngredients([
     <extrautils2:quarry>,
+    <extrautils2:quarryproxy>,
     <ore:alloyUltimate>,
     <ore:circuitUltimate>,
     <solarflux:solar_panel_8>,
@@ -771,8 +772,6 @@ stageMasterEngineer.addIngredients([
     <solarflux:solar_panel_draconic>,
     <solarflux:solar_panel_chaotic>,
     <solarflux:solar_panel_neutronium>,
-    <cyclicmagic:spikes_diamond>,
-    <extrautils2:spike_diamond>,
     <actuallyadditions:block_breaker>,
     <actuallyadditions:block_phantom_breaker>,
     <actuallyadditions:block_fluid_placer>,
@@ -800,7 +799,9 @@ stageDisabled.addIngredients([
     <abyssalcraft:coraliumu>,
     <abyssalcraft:dreadiumu>,
     <abyssalcraft:ethaxiumu>,
-    <twilightforest:uncrafting_table>
+    <twilightforest:uncrafting_table>,
+    <cyclicmagic:spikes_diamond>,
+	<extrautils2:spike_diamond>
 ], true);
 
 stageDisabled.addLiquid(<liquid:sakura.hot_spring_water>);

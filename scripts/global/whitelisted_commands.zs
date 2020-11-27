@@ -52,5 +52,7 @@ global whitelistedCommands as string[] = [
     "solarflux",
     "compactmachines3",
     "igi",
-    "suicide"
+    "suicide",
+    "cleanmemory",
+    "cm"
 ];

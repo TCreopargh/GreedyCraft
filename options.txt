@@ -15,7 +15,7 @@ difficulty:3
 fancyGraphics:true
 ao:1
 renderClouds:false
-resourcePacks:["Default+Improved+PBR+1.12.zip","Default+Improved+PBR+1.12+-+Biomes+O\u0027+Plenty.zip","Default+Improved+PBR+1.12+-+Quark.zip","Dark+Mode.zip","Dark+Modern+GUIs+-+1.0.2.zip","Default+Improved+PBR+1.12+Base+Metals_thermalfoundation.zip","Default+Improved+1.12+-+Storage+Drawers+Addon.zip","Default+Improved+1.12+-+Storage+Drawers+Extras+Addon.zip","Journeymap+Mob+Icons.zip","1616lb.zip","Draconic_Evolution_16x.zip","AudioCraftV1.6.zip","Tinker\u0027s+Tables.zip","Minecraft-Mod-Language-Package.zip","chocolate_quest_lang.zip","GreedyPack.zip","MuteGhasts.zip","greedy_Localization_pack.zip","hardcoreitemstages_tweaks.zip","greedy_music_tweaks.zip","GreedyColors.zip"]
+resourcePacks:["Default+Improved+PBR+1.12.zip","Default+Improved+PBR+1.12+-+Biomes+O\u0027+Plenty.zip","Default+Improved+PBR+1.12+-+Quark.zip","Dark+Mode.zip","Dark+Modern+GUIs+-+1.0.2.zip","Default+Improved+PBR+1.12+Base+Metals_thermalfoundation.zip","Default+Improved+1.12+-+Storage+Drawers+Addon.zip","Default+Improved+1.12+-+Storage+Drawers+Extras+Addon.zip","Journeymap+Mob+Icons.zip","1616lb.zip","Draconic_Evolution_16x.zip","AudioCraftV1.6.zip","Tinker\u0027s+Tables.zip","Minecraft-Mod-Language-Package.zip","chocolate_quest_lang.zip","GreedyPack.zip","MuteGhasts.zip","greedy_Localization_pack.zip","hardcoreitemstages_tweaks.zip","greedy_music_tweaks.zip","GreedyColors.zip","shiny_player_model.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:zh_cn
@@ -24,7 +24,7 @@ chatColors:true
 chatLinks:true
 chatLinksPrompt:true
 chatOpacity:1.0
-snooperEnabled:true
+snooperEnabled:false
 fullscreen:true
 enableVsync:false
 useVbo:true
@@ -90,6 +90,8 @@ key_Change Caster Focus:0
 key_Misc Caster Toggle:0
 key_quark.keybind.toggleAutojump:0
 key_quark.keybind.lockBuilding:0
+key_quark.keybind.dropoff:0
+key_quark.keybind.changeHotbar:184
 key_quark.emote.no:0
 key_quark.emote.yes:0
 key_quark.emote.wave:0
@@ -108,8 +110,6 @@ key_quark.emote.dab:0
 key_quark.emote.jet:0
 key_quark.emote.exorcist:0
 key_quark.emote.zombie:0
-key_quark.keybind.dropoff:0
-key_quark.keybind.changeHotbar:184
 key_keybind.baublesinventory:18:ALT
 key_pe.key.armor_toggle:49:CONTROL
 key_pe.key.charge:47:ALT
@@ -122,7 +122,6 @@ key_key.ftbutilities.trash:211
 key_key.ftbquests.quests:0
 key_key.ftbguides.guide:0
 key_key.fart.desc:78
-key_key.toastcontrol.clear:0
 key_key.findme.search:21
 key_key.conarm.toggle_helm.desc:34
 key_key.conarm.toggle_chest.desc:35
@@ -144,11 +143,24 @@ key_key.xu2.searchforitems:0
 key_bloodmagic.keybind.open_holding:35
 key_bloodmagic.keybind.cycle_holding_pos:13:SHIFT
 key_bloodmagic.keybind.cycle_holding_neg:12:SHIFT
+key_key.toastcontrol.clear:0
+key_key.open_menu:19
+key_key.betterfoliage.gui:66
+key_ChatFlow:68
+key_oreexcavation.key.excavate:41
+key_key.toggleFoVChanges:51:SHIFT
+key_key.reloadSoundSystem:0
+key_key.toggleTimeOfDayOverlay:0
+key_key.togglePotionParticles:0
+key_Camera left:203
+key_Camera right:205
+key_Camera closer:200
+key_Camera farther:208
+key_Swap shoulder:63
+key_hiddenarmor.key.disableHiddenArmor:0
 key_openblocks.keybind.vario_switch:47
 key_openblocks.keybind.vario_vol_up:0
 key_openblocks.keybind.vario_vol_down:0
-key_oreexcavation.key.excavate:41
-key_key.open_menu:19
 key_Difficulty Meter - Show:49
 key_Difficulty Meter - Show Always:0
 key_key.next_item.desc:0
@@ -162,8 +174,6 @@ key_key.open_wit.desc:0
 key_key.open_wpt.desc:0
 key_key.ironbackpacks.equip:23:ALT
 key_key.ironbackpacks.open:23
-key_key.betterfoliage.gui:66
-key_ChatFlow:68
 key_key.staff_mode.desc:77
 key_key.use_cage.desc:0
 key_key.configurator_mode.desc:0
@@ -171,17 +181,7 @@ key_key.configurator_filter.desc:0
 key_key.configurator_path.desc:0
 key_thaumicaugmentation.key.elytra_boost:57
 key_keybind.hammercorerenderstack:77
-key_key.toggleFoVChanges:51:SHIFT
-key_key.reloadSoundSystem:0
-key_key.toggleTimeOfDayOverlay:0
-key_key.togglePotionParticles:0
-key_Camera left:203
-key_Camera right:205
-key_Camera closer:200
-key_Camera farther:208
-key_Swap shoulder:63
 key_key.hooked.fire:16
-key_hiddenarmor.key.disableHiddenArmor:0
 key_dshuds.keybind.SelectionBox:37:ALT
 key_dshuds.keybind.LightLevel:38:ALT
 key_dshuds.keybind.ChunkBorders:36:ALT
@@ -246,8 +246,6 @@ key_mekanism.key.mode:50:ALT
 key_mekanism.key.armorMode:34:ALT
 key_mekanism.key.feetMode:35
 key_mekanism.key.voice:22
-key_FpsReducer.key.guiOpen:207
-key_FpsReducer.key.forceIdle:197
 key_nei.options.keys.gui.botania_corporea_request:0
 key_jecalculation.key.gui_craft:0:ALT
 key_jecalculation.key.gui_math:47:ALT
@@ -255,6 +253,26 @@ key_key.porterNextDestination:0
 key_key.porterPrevDestination:0
 key_key.debugDumpNBTItem:0
 key_key.debugDumpNBTBlock:0
+key_gui.xaero_open_map:50
+key_gui.xaero_open_settings:0
+key_gui.xaero_map_zoom_in:13
+key_gui.xaero_map_zoom_out:12
+key_gui.xaero_quick_confirm:54
+key_gui.xaero_switch_waypoint_set:0
+key_gui.xaero_instant_waypoint:48:CONTROL
+key_gui.xaero_toggle_slime:0
+key_gui.xaero_toggle_grid:0
+key_gui.xaero_toggle_waypoints:0
+key_gui.xaero_toggle_map_waypoints:0
+key_gui.xaero_toggle_map:0
+key_gui.xaero_enlarge_map:0
+key_gui.xaero_waypoints_key:52
+key_gui.xaero_zoom_in:12
+key_gui.xaero_zoom_out:13
+key_gui.xaero_new_waypoint:48
+key_gui.xaero_display_all_sets:0
+key_gui.xaero_toggle_light_overlay:0
+key_gui.xaero_minimap_settings:0
 key_key.plustic_release_entity.desc:0
 key_key.plustic_toggle_gui.desc:52:ALT
 key_key.plustic_set_portal.desc:210
@@ -279,8 +297,17 @@ key_key.trashslot.toggle:0
 key_key.trashslot.delete:211
 key_key.trashslot.deleteAll:211:SHIFT
 key_variegated.keybinds.offhand:0
+key_FpsReducer.key.guiOpen:207
+key_FpsReducer.key.forceIdle:197
 key_key.clienttweaks.disable_step_assist:0
 key_key.clienttweaks.hide_offhand_item:0
+key_Mo' Bends Menu:74
+key_Refresh Animations:0
+key_key.arms.desc:0
+key_key.mod.desc:65
+key_key.head.desc:0
+key_key.inventoryhud.toggle:76
+key_key.inventoryhud.openconfig:23:CONTROL
 key_Reputation GUI:62
 key_key.craftingtweaks.rotate:0
 key_key.craftingtweaks.rotate_counter_clockwise:0
@@ -306,41 +333,18 @@ key_key.connected_area:0
 key_key.rotate_mirror:0
 key_key.material_list:50
 key_key.infinity_armor.noclip:40
-key_Mo' Bends Menu:74
-key_Refresh Animations:0
 key_key.projectex.focusSearchBar:15
 key_key.bettersigns.nosigntext:56
 key_binniecore.key.hold.for.help.tooltips:0
 key_key.sakura.sheath_in:47
 key_key.categories.naming:49:ALT
 key_invtweaks.key.sort:19
-key_key.arms.desc:0
-key_key.mod.desc:65
-key_key.head.desc:0
 key_key.carpet_forward:17
 key_key.carpet_backward:31
-key_key.inventoryhud.toggle:76
-key_key.inventoryhud.openconfig:23:CONTROL
 key_key.colytra.toggle.desc:34:CONTROL
 key_key.overload:0
-key_打开背包:37
-key_key.journeymap.zoom_in:13:ALT
-key_key.journeymap.zoom_out:12:ALT
-key_key.journeymap.minimap_type:14:ALT
-key_key.journeymap.minimap_preset:0
-key_key.journeymap.create_waypoint:48:CONTROL
-key_key.journeymap.toggle_waypoints:0
-key_key.journeymap.fullscreen_create_waypoint:48:CONTROL
-key_key.journeymap.fullscreen_chat_position:20:ALT
-key_key.journeymap.map_toggle_alt:50
-key_key.journeymap.fullscreen_waypoints:48
-key_key.journeymap.minimap_toggle_alt:0
-key_key.journeymap.fullscreen_options:24:ALT
-key_key.journeymap.fullscreen.north:200
-key_key.journeymap.fullscreen.south:208
-key_key.journeymap.fullscreen.east:205
-key_key.journeymap.fullscreen.west:203
 key_oeshapeselector.key:41:ALT
+key_打开背包:37
 key_enderio.keybind.inventory:0
 key_enderio.keybind.dsu:0
 key_enderio.keybind.glidertoggle:0
