@@ -162,7 +162,7 @@ Melting.addRecipe(<liquid:terra_alloy> * VOLUME_INGOT, <ore:ingotTerraAlloy>, 15
 Melting.addRecipe(<liquid:yellorium> * VOLUME_BLOCK, <ore:blockYellorium>, 1400);
 Melting.addRecipe(<liquid:yellorium> * VOLUME_INGOT, <ore:ingotYellorium>, 1400);
 Melting.addRecipe(<liquid:iron> * (VOLUME_INGOT * 2), <sakura:iron_sand>, 534);
-Melting.addRecipe(<liquid:manganese_steel> * (VOLUME_INGOT * 2), <ore:ingotMagnaneseSteel>, 734);
+Melting.addRecipe(<liquid:manganese_steel> * (VOLUME_INGOT * 2), <ore:ingotManganeseSteel>, 734);
 Melting.addRecipe(<liquid:manganese_steel> * VOLUME_BLOCK, <ore:blockManganeseSteel>, 734);
 
 Melting.removeRecipe(<liquid:gold>, <minecraft:golden_rail>);

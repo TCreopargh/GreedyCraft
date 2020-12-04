@@ -54,15 +54,12 @@ events.onPlayerLoggedIn(function (event as crafttweaker.event.PlayerLoggedInEven
         "§6如果感到卡顿，请尝试按§eR§6打开菜单并点击“§e清理内存§6”按钮。另外也可以试试调整下视距再调回来。§e/purge§6命令可以清理掉落物品，这可以在跑图时降低卡顿。\n§e组合键§6F3 + A§e可以重载区块并提高帧率，§6F3 + S§e可以重载声音系统（在没有声音时使用）");
     } else {
         event.player.sendChat("§2§o欢迎回家，§e" + event.player.name + "§2§o！");
-        if(Math.random() < 0.25) {
-            event.player.sendChat("§e感到卡顿？请在刚进入游戏或内存占用较高时使用§6R§e键菜单中的§6释放内存§e按钮手动清理内存！");
-        }
     }
     
     if(event.player.hasGameStage("truehero") && !event.player.hasGameStage("iswuss")) {
         event.player.sendChat("§6§o欢迎回家，真正的英雄§e" + event.player.name + "§6§o！");
     } else if(event.player.hasGameStage("iswuss")) {
-        event.player.server.commandManager.executeCommand(event.player.server, "/tellraw @a {\"text\":\"§e" + event.player.name + "§a处于作弊模式。\"}");
+        server.commandManager.executeCommand(server, "/tellraw @a {\"text\":\"§e" + event.player.name + "§a处于作弊模式。\"}");
         event.player.sendChat("§a§o您当前处于作弊模式。");
         if(event.player.creative) {
             event.player.addGameStage("creative");
@@ -70,19 +67,20 @@ events.onPlayerLoggedIn(function (event as crafttweaker.event.PlayerLoggedInEven
     } else if(event.player.creative) {
         if(!event.player.hasGameStage("truehero")) {
             event.player.addGameStage("creative");
-            event.player.server.commandManager.executeCommand(event.player.server, "/tellraw @a {\"text\":\"§e" + event.player.name + "§a处于创造模式，作弊模式已为其自动开启。\"}");
-            event.player.server.commandManager.executeCommand(event.player.server, "/gamestage add " + event.player.name + " iswuss");
+            server.commandManager.executeCommand(server, "/tellraw @a {\"text\":\"§e" + event.player.name + "§a处于创造模式，作弊模式已为其自动开启。\"}");
+            server.commandManager.executeCommand(server, "/gamestage add " + event.player.name + " iswuss");
             event.player.sendChat("§a§o检测到您处于创造模式，作弊模式已自动开启。");
-            event.player.server.commandManager.executeCommand(event.player.server, "/unlockallstages " + event.player.name);
+            server.commandManager.executeCommand(server, "/unlockallstages " + event.player.name);
             event.player.sendChat("§d§o由于您以创造模式创建了该存档，所有游戏阶段都已解锁，祝您游戏愉快。");
         }
     }
+    event.player.executeCommand("sendwelcomequote");
 });
 
 events.onPlayerRespawn(function (event as crafttweaker.event.PlayerRespawnEvent) {
     if(PACKMODE != MODE_CASUAL) {
         for entity in killEntities {
-            event.player.server.commandManager.executeCommand(event.player.server, "/ctrlkill " + entity + " 0");
+            server.commandManager.executeCommand(server, "/ctrlkill " + entity + " 0");
         }
     }
 });

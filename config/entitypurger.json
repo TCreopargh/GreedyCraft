@@ -34,5 +34,10 @@
         "threshold": 6,
         "overrideClaimedChunk": false,
         "overridePlayerChunk": false
+    }, {
+        "entityId": "net.daveyx0.primitivemobs.*",
+        "threshold": 5,
+        "overrideClaimedChunk": false,
+        "overridePlayerChunk": false
     }]
 }

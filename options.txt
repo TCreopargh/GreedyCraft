@@ -88,10 +88,10 @@ key_key.hotbar.9:10
 key_of.key.zoom:46
 key_Change Caster Focus:0
 key_Misc Caster Toggle:0
-key_quark.keybind.toggleAutojump:0
 key_quark.keybind.lockBuilding:0
 key_quark.keybind.dropoff:0
 key_quark.keybind.changeHotbar:184
+key_quark.keybind.toggleAutojump:0
 key_quark.emote.no:0
 key_quark.emote.yes:0
 key_quark.emote.wave:0

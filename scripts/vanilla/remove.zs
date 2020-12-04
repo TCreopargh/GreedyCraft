@@ -332,7 +332,8 @@ val removedRecipes as IIngredient[] = [
 	<extrautils2:spike_diamond>,
 	<cyclicmagic:spikes_diamond>,
     <extrautils2:quarry>,
-    <extrautils2:quarryproxy>
+    <extrautils2:quarryproxy>,
+    <thaumadditions:thaumic_lectern>
 ];
 
 val removedRecipeNames as string[] = [

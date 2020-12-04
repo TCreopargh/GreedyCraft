@@ -208,7 +208,8 @@ import crafttweaker.game.IGame;
     <astralsorcery:itemconstellationpaper>,
     <additions:greedycraft-loli_lolipop>,
     <openblocks:trophy:*>,
-    <charm:charged_emerald>
+    <charm:charged_emerald>,
+    <charm:totem_of_shielding>
 ]);
 <ore:dungeonLootTier3>.addItems([
     <additions:greedycraft-goodie_bag>,
@@ -332,6 +333,8 @@ if(loadedMods.contains("inventorypets")) {
 <ore:blockDiamondSakura>.add(<sakura:sakura_diamond_block>);
 <ore:blockQuartzBlack>.addAll(<ore:blockQuartzDark>);
 <ore:blockQuartzDark>.addAll(<ore:blockQuartzBlack>);
+<ore:rodBlizz>.add(<netherex:frost_rod>);
+<ore:dustBlizz>.add(<netherex:frost_powder>);
 
 for item in loadedMods["weeeflowers"].items {
     if(item.definition.id.replace("weeeflowers", "").contains("flower")) {

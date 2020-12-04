@@ -354,7 +354,7 @@ setMaidHealthCommand.execute = function(command, server, sender, args) {
 
                 entityBase.addPotionEffect(<potion:minecraft:health_boost>.makePotionEffect(2147483647, potionLevel, false, false));
                 entityBase.addPotionEffect(<potion:minecraft:instant_health>.makePotionEffect(1, potionLevel * 4, false, false));
-                entityBase.addPotionEffect(<potion:minecraft:regeneration>.makePotionEffect(600, 2, false, false));
+                entityBase.addPotionEffect(<potion:minecraft:regeneration>.makePotionEffect(2147483647, 1, false, false));
                 entityBase.addPotionEffect(<potion:minecraft:resistance>.makePotionEffect(2147483647, 1, false, false));
                 
                 /* This sonehow just doesn't work
@@ -409,6 +409,30 @@ suicideCommand.execute = function(command, server, sender, args) {
     }
 };
 suicideCommand.register();
+
+val sendWelcomeQuoteCommand as ZenCommand = ZenCommand.create("sendwelcomequote");
+sendWelcomeQuoteCommand.getCommandUsage = function(sender) {
+    return "/sendwelcomequote";
+};
+sendWelcomeQuoteCommand.requiredPermissionLevel = 0;
+sendWelcomeQuoteCommand.execute = function(command, server, sender, args) {
+    var player as IPlayer = CommandUtils.getCommandSenderAsPlayer(sender) as IPlayer;
+    if(!isNull(player)) {
+        var index as int = Math.floor(Math.random() * welcomeQuotes.length) as int;
+        if(index < 0) {
+            index = 0;
+        }
+        if(index >= welcomeQuotes.length) {
+            index = welcomeQuotes.length - 1;
+        }
+        var msg as string = welcomeQuotes[index].replace("%playername%", player.name);
+        if(!msg.startsWith("[")) {
+            msg = '["",{"text":"' + msg + '"}]';
+        }
+        server.commandManager.executeCommand(server, "/tellraw " + player.name + " " + msg);
+    }
+};
+sendWelcomeQuoteCommand.register();
 
 /*
 val syncGamestagesCommand as ZenCommand = ZenCommand.create("syncgamestages");

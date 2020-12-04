@@ -1,4 +1,35 @@
 [
+    {
+        "mob": ["primitivemobs:festive_creeper"],
+		"mincount": {
+            "amount": 4,
+            "perplayer": true
+        },
+		"result": "deny"
+    },{
+        "mob": ["primitivemobs:flame_spewer"],
+		"mincount": {
+            "amount": 4,
+            "perplayer": true
+        },
+		"result": "deny"
+    },
+    {
+        "mob": ["primitivemobs:harpy"],
+		"mincount": {
+            "amount": 4,
+            "perplayer": true
+        },
+		"result": "deny"
+    },
+    {
+        "mod": "primitivemobs",
+        "mincount": {
+            "amount": 20,
+            "perplayer": true
+        },
+        "result": "deny"
+    },
 	{
         "mob": ["minecraft:guardian"],
 		"mincount": {

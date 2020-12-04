@@ -142,7 +142,9 @@ val localizationMap as string[string] = {
     "betterfoliage.rendererror": "§a[更好的树叶]§f 在渲染原木方块 %s （位于%s）时出错。§7（该提示一般可忽略）",
     "potion.saturation": "饱腹",
     "tconevo.info.cannot_replace": "无法替换该工具部件！（注：无法替换掉带有进化属性的部件）",
-    "tile.quark:monster_box.name": "§c陷阱刷怪笼"
+    "tile.quark:monster_box.name": "§c陷阱刷怪笼",
+    "entity.primitivemobs.flame_spewer.name": "炽焰八爪鱼",
+    "mob_effect.netherex:fire_burning": "极寒之焰"
 } as string[string];
 
 for k, v in localizationMap {

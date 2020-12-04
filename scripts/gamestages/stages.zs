@@ -482,7 +482,10 @@ stageHardmode.addIngredients([
     <tofucraft:swordmomen>,
     <tofucraft:swordsolid>,
     <tofucraft:swordmetal>,
-    <tofucraft:sworddiamond>
+    <tofucraft:sworddiamond>,
+    <netherex:amethyst_ore>,
+    <netherex:amethyst_crystal>,
+    <netherex:amethyst_block>
 ], true);
 
 stageInfinity.addIngredients([
@@ -686,16 +689,25 @@ stageHardmode.addOreReplacement(<draconicevolution:draconium_ore:1>, <minecraft:
 stageHardmode.addOreReplacement(<draconicevolution:draconium_ore:2>, <minecraft:end_stone>, false);
 stageHardmode.addOreReplacement(<biomesoplenty:gem_ore:*>, <minecraft:stone>, false);
 stageHardmode.addOreReplacement(<biomesoplenty:gem_ore:0>, <minecraft:end_stone>, false);
-stageSkilledEngineer.addOreReplacement(<ore:oreIridium>, <minecraft:stone>, false);
-stageSkilledEngineer.addOreReplacement(<ore:orePlatinum>, <minecraft:stone>, false);
-stageSkilledEngineer.addOreReplacement(<bigreactors:oreyellorite:*>, <minecraft:stone>, false);
-stageSkilledEngineer.addOreReplacement(<ore:oreOsmium>, <minecraft:stone>, false);
+stageSkilledEngineer.addOreReplacement(<netherendingores:ore_end_modded_1:2>, <minecraft:end_stone>, false);
+stageSkilledEngineer.addOreReplacement(<netherendingores:ore_nether_modded_1:2>, <minecraft:netherrack>, false);
+stageSkilledEngineer.addOreReplacement(<thermalfoundation:ore:7>, <minecraft:stone>, false);
+stageSkilledEngineer.addOreReplacement(<netherendingores:ore_end_modded_1:6>, <minecraft:end_stone>, false);
+stageSkilledEngineer.addOreReplacement(<netherendingores:ore_nether_modded_1:6>, <minecraft:netherrack>, false);
+stageSkilledEngineer.addOreReplacement(<thermalfoundation:ore:6>, <minecraft:stone>, false);
+stageSkilledEngineer.addOreReplacement(<netherendingores:ore_end_modded_1:13>, <minecraft:end_stone>, false);
+stageSkilledEngineer.addOreReplacement(<netherendingores:ore_nether_modded_1:13>, <minecraft:netherrack>, false);
+stageSkilledEngineer.addOreReplacement(<bigreactors:oreyellorite>, <minecraft:stone>, false);
+stageSkilledEngineer.addOreReplacement(<netherendingores:ore_end_modded_1:11>, <minecraft:end_stone>, false);
+stageSkilledEngineer.addOreReplacement(<netherendingores:ore_nether_modded_1:11>, <minecraft:netherrack>, false);
+stageSkilledEngineer.addOreReplacement(<mekanism:oreblock>, <minecraft:stone>, false);
 stageEnderCharm.addOreReplacement(<minecraft:end_portal_frame:*>, <additions:greedycraft-unknown_block>, false);
 stageNether.addOreReplacement(<minecraft:anvil:*>, <additions:greedycraft-unknown_block>, false);
 stageNether.addOreReplacement(<minecraft:enchanting_table:*>, <additions:greedycraft-unknown_block>, false);
 stageNether.addOreReplacement(<minecraft:beacon:*>, <additions:greedycraft-unknown_block>, false);
 stageHardmode.addOreReplacement(<ore:oreTitanium>, <minecraft:end_stone>, false);
 stageHardmode.addOreReplacement(<ore:oreCryonium>, <minecraft:stone>, false);
+stageHardmode.addOreReplacement(<netherex:amethyst_ore>, <minecraft:netherrack>, false);
 stageNether.addOreReplacement(<minecraft:quartz_ore>, <minecraft:netherrack>, false);
 stageNether.addOreReplacement(<thaumcraft:ore_quartz>, <minecraft:stone>, false);
 stageNether.addOreReplacement(<netherendingores:ore_other_1>, <minecraft:stone>, false);
@@ -743,9 +755,9 @@ stageSkilledEngineer.addIngredients([
     <randomthings:spectrecoil_normal>,
     <randomthings:spectrecoil_redstone>,
     <randomthings:spectrecoil_ender>,
-    <bigreactors:oreyellorite>,
-    <bigreactors:ingotyellorium>,
-    <bigreactors:dustyellorium>,
+    <ore:oreYellorium>,
+    <ore:ingotYellorium>,
+    <ore:dustYellorium>,
     <ore:ingotEnderium>,
     <ore:blockEnderium>,
     <ore:nuggetEnderium>,
@@ -755,7 +767,9 @@ stageSkilledEngineer.addIngredients([
     <ore:blockGelidGem>,
     <ore:blockGelidEnderium>,
     <ore:ingotGelidEnderium>,
-    <ore:nuggetGelidEnderium>
+    <ore:nuggetGelidEnderium>,
+    <bigreactors:orebenitoite>,
+    <bigreactors:oreanglesite>
 ], true);
 
 stageMasterEngineer.addIngredients([
@@ -801,7 +815,8 @@ stageDisabled.addIngredients([
     <abyssalcraft:ethaxiumu>,
     <twilightforest:uncrafting_table>,
     <cyclicmagic:spikes_diamond>,
-	<extrautils2:spike_diamond>
+	<extrautils2:spike_diamond>,
+    <thaumadditions:thaumic_lectern>
 ], true);
 
 stageDisabled.addLiquid(<liquid:sakura.hot_spring_water>);

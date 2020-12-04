@@ -959,6 +959,66 @@
     {
       "item": "jaopca:item_essencescarlite|0",
       "emc": 0
+    },
+    {
+      "item": "jaopca:item_essenceaeroite|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essenceaqualite|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essenceasgardium|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essenceastralstarmetal|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essenceexperience|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essenceliquifiedcoralium|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencemanganese|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essenceshadowium|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essenceumbrium|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essenceambrosium|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencedimensionalshard|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencehephaestite|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencequartzblack|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essenceniter|0",
+      "emc": 0
+    },
+    {
+      "item": "bloodmagic:blood_shard|1",
+      "emc": 12048
     }
   ]
 }

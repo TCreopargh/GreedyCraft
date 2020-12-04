@@ -39,9 +39,9 @@ openblocks:explosive
 endercore:xpboost
 endercore:autosmelt
 enderio:witherarrow
-enderio:soulbound
-enderio:shimmer
 enderio:witherweapon
+enderio:shimmer
+enderio:soulbound
 enderio:repellent
 tofucraft:ench_drain
 tofucraft:ench_batch
