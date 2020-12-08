@@ -3,7 +3,7 @@
     "logging": false,
     "whitelist": [],
     "blacklist": ["mca.entity.*", "de.ellpeck.actuallyadditions.mod.entity.EntityWorm", "net.minecraft.entity.item.EntityItemFrame", "net.minecraft.entity.item.EntityPainting"],
-    "defaultThreshold": 18,
+    "defaultThreshold": 15,
     "checkTimeSeconds": 10,
     "purgeTamedEntities": false,
     "blacklistedChunksNearPlayer": 2,
@@ -16,12 +16,12 @@
         "overridePlayerChunk": false
     }, {
         "entityId": "net.minecraft.entity.passive.*",
-        "threshold": 32,
+        "threshold": 25,
         "overrideClaimedChunk": false,
         "overridePlayerChunk": false
     }, {
         "entityId": "ZombieAwareness.EntityScent",
-        "threshold": 25,
+        "threshold": 20,
         "overrideClaimedChunk": true,
         "overridePlayerChunk": false
     }, {
@@ -36,7 +36,7 @@
         "overridePlayerChunk": false
     }, {
         "entityId": "net.daveyx0.primitivemobs.*",
-        "threshold": 5,
+        "threshold": 6,
         "overrideClaimedChunk": false,
         "overridePlayerChunk": false
     }]

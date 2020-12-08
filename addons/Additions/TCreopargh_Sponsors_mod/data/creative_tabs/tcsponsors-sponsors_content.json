@@ -133,6 +133,12 @@
         },
         {
             "item": "additions:tcsponsors-golden_minecart"
+        },
+        {
+            "item": "additions:tcsponsors-red_tea"
+        },
+        {
+            "item": "additions:tcsponsors-emperors_gift"
         }
     ]
 }

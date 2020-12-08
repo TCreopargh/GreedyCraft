@@ -232,6 +232,16 @@
                     "type": "item",
                     "name": "additions:tcsponsors-golden_minecart",
                     "weight": 1
+                },
+				{
+                    "type": "item",
+                    "name": "additions:tcsponsors-red_tea",
+                    "weight": 1
+                },
+				{
+                    "type": "item",
+                    "name": "additions:tcsponsors-emperors_gift",
+                    "weight": 1
                 }
             ]
         }

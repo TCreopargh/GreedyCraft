@@ -14211,3 +14211,5 @@ primitivemobs:camouflage_helmet - 17893
 primitivemobs:camouflage_boots - 17894
 primitivemobs:dodo_egg - 17895
 primitivemobs:spider_egg - 17896
+additions:tcsponsors-red_tea - 17897
+additions:tcsponsors-emperors_gift - 17898

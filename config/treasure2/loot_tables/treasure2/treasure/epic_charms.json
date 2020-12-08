@@ -1,5 +1,5 @@
 {
-	"version": "1.0",
+	"version": "1.1",
 	"pools": [
 		{
 			"name": "epic_charms",
@@ -13,19 +13,19 @@
 					"conditions": [
 						{
 							"condition": "random_chance",
-							"chance": 0.10
+							"chance": 0.08
 						}
 					]
 				},
 				{
 					"entryName": "miners_friend",
 					"type": "item",
-					"name": "treasure2:minders_friend",
+					"name": "treasure2:miners_friend",
 					"weight": 10,
 					"conditions": [
 						{
 							"condition": "random_chance",
-							"chance": 0.15
+							"chance": 0.12
 						}
 					]
 				},
@@ -37,7 +37,7 @@
 					"conditions": [
 						{
 							"condition": "random_chance",
-							"chance": 0.25
+							"chance": 0.20
 						}
 					],
 					"functions": [
@@ -71,7 +71,7 @@
 					"conditions": [
 						{
 							"condition": "random_chance",
-							"chance": 0.2
+							"chance": 0.18
 						}
 					],
 					"functions": [
@@ -106,7 +106,7 @@
 					"conditions": [
 						{
 							"condition": "random_chance",
-							"chance": 0.15
+							"chance": 0.12
 						}
 					]
 				}

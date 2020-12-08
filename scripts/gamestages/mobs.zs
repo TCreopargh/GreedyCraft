@@ -25,7 +25,8 @@ val mobStages as string[string] = {
     "thaumcraft:eldritchguardian": "novice_wizard",
     "thaumcraft:cultistportallesser": "novice_wizard",
     "mowziesmobs:barako": "wyvern",
-    "mowziesmobs:frostmaw": "hardmode"
+    "mowziesmobs:frostmaw": "hardmode",
+    "primitivemobs:blazing_juggernaut": "nether"
 } as string[string];
 
 val mobReplacements as string[string] = {

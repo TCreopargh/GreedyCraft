@@ -45,7 +45,7 @@ Casting.addBasinRecipe(<additions:greedycraft-stainless_steel_block>, null, <liq
 Casting.addBasinRecipe(<additions:greedycraft-terra_alloy_block>, null, <liquid:terra_alloy>, VOLUME_BLOCK, false, 300);
 Casting.addBasinRecipe(<additions:greedycraft-manganese_steel_block>, null, <liquid:manganese_steel>, VOLUME_BLOCK, false, 300);
 Casting.addBasinRecipe(<bigreactors:blockyellorium>, null, <liquid:yellorium>, VOLUME_BLOCK, false, 300);
-Casting.addBasinRecipe(<candymod:chocolate_block>, null, <liquid:cosmilite>, VOLUME_BLOCK, false, 300);
+Casting.addBasinRecipe(<candymod:chocolate_block>, null, <liquid:liquid_chocolate>, VOLUME_BLOCK, false, 300);
 Casting.addBasinRecipe(<extrabotany:blockorichalcos>, null, <liquid:orichalcos>, VOLUME_BLOCK, false, 300);
 Casting.addBasinRecipe(<nyx:meteor_block>, null, <liquid:meteor>, VOLUME_BLOCK, false, 300);
 Casting.addBasinRecipe(<tcomplement:scorched_block>, null, <liquid:scorched>, VOLUME_BLOCK, false, 300);

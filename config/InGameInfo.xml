@@ -98,7 +98,7 @@
                 <var>ping</var>
                 <num>1</num>
                 <num>0</num>
-                <str> $e{ping}</str>
+                <str> $e{ping}ms</str>
                 <str />
             </op>
         </line>

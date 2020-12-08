@@ -88,6 +88,21 @@ events.onPlayerRespawn(function (event as crafttweaker.event.PlayerRespawnEvent)
 events.onEntityLivingDeath(function (event as crafttweaker.event.EntityLivingDeathEvent) {
     if(event.entityLivingBase instanceof IPlayer) {
         var player as IPlayer = event.entityLivingBase;
+        var damageSource as IDamageSource = event.damageSource;
+        var deathMsg as string = damageSource.getDeathMessage(player);
+        deathMsg = deathMsg.replace(player.name, "§e" + player.name + "§7");
+        if(!isNull(damageSource.getTrueSource()) && damageSource.getTrueSource() instanceof IEntityLivingBase) {
+            var name as string = damageSource.getTrueSource().definition.name;
+            if(damageSource.getTrueSource().hasCustomName) {
+                name = damageSource.getTrueSource().customName;
+            }
+            deathMsg = deathMsg.replace(name, "§c" + name + "§7");
+        }
+        deathMsg = " §c☠ §7" + deathMsg;
+        deathMsg = deathMsg.replace("§r", "§7");
+
+        server.commandManager.executeCommand(server, "/broadcast " + deathMsg);
+
         var index as int = Math.floor(Math.random() * deathQuotes.length as float) as int;
         if(!(index >= deathQuotes.length || !(index >= 0)) && !player.hasGameStage("hide_death_quotes")) {
             var quote as string = deathQuotes[index];

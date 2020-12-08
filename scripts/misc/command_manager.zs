@@ -23,6 +23,7 @@ import mods.ctutils.world.IGameRules;
 import mods.zenutils.command.ZenCommand;
 import mods.zenutils.command.ZenUtilsCommandSender;
 import mods.zenutils.command.CommandUtils;
+import mods.zenutils.command.IGetTabCompletion;
 import mods.zenutils.command.TabCompletion;
 
 function compareItemStack(a as IItemStack, b as IItemStack) as bool {
@@ -65,7 +66,7 @@ syncDifficultyCommand.getCommandUsage = function(sender) {
     return "/syncdifficulty [玩家]";
 };
 syncDifficultyCommand.requiredPermissionLevel = 0; 
-syncDifficultyCommand.tabCompletion = TabCompletion.create(["player"]);
+syncDifficultyCommand.tabCompletionGetters = [IGetTabCompletion.player()];
 syncDifficultyCommand.execute = function(command, server, sender, args) {
     var players as IPlayer[] = [] as IPlayer[];
     if (args.length == 0) {
@@ -98,7 +99,7 @@ infinityStoneCommand.getCommandUsage = function(sender) {
     return "/infinitykill [玩家]";
 };
 infinityStoneCommand.requiredPermissionLevel = 2; 
-infinityStoneCommand.tabCompletion = TabCompletion.create(["player"]);
+infinityStoneCommand.tabCompletionGetters = [IGetTabCompletion.player()];
 infinityStoneCommand.execute = function(command, server, sender, args) {
     var players as IPlayer[] = [] as IPlayer[];
     if (args.length == 0) {
@@ -141,7 +142,7 @@ unlockAllCommand.getCommandUsage = function(sender) {
     return "/unlockallstages [玩家]";
 };
 unlockAllCommand.requiredPermissionLevel = 2; 
-unlockAllCommand.tabCompletion = TabCompletion.create(["player"]);
+unlockAllCommand.tabCompletionGetters = [IGetTabCompletion.player()];
 unlockAllCommand.execute = function(command, server, sender, args) {
     var players as IPlayer[] = [] as IPlayer[];
     if (args.length == 0) {
@@ -169,7 +170,7 @@ lockAllCommand.getCommandUsage = function(sender) {
     return "/lockallstages [玩家]";
 };
 lockAllCommand.requiredPermissionLevel = 2; 
-lockAllCommand.tabCompletion = TabCompletion.create(["player"]);
+lockAllCommand.tabCompletionGetters = [IGetTabCompletion.player()];
 lockAllCommand.execute = function(command, server, sender, args) {
     var players as IPlayer[] = [] as IPlayer[];
     if (args.length == 0) {
@@ -197,7 +198,7 @@ pureDaisyCommand.getCommandUsage = function(sender) {
     return "/lockallstages [玩家]";
 };
 pureDaisyCommand.requiredPermissionLevel = 2; 
-pureDaisyCommand.tabCompletion = TabCompletion.create(["player"]);
+pureDaisyCommand.tabCompletionGetters = [IGetTabCompletion.player()];
 pureDaisyCommand.execute = function(command, server, sender, args) {
     var players as IPlayer[] = [] as IPlayer[];
     if (args.length == 0) {
@@ -278,7 +279,7 @@ showDeathQuotesCommand.getCommandUsage = function(sender) {
     return "/showdeathquotes [玩家]";
 };
 showDeathQuotesCommand.requiredPermissionLevel = 0; 
-showDeathQuotesCommand.tabCompletion = TabCompletion.create(["player"]);
+showDeathQuotesCommand.tabCompletionGetters = [IGetTabCompletion.player()];
 showDeathQuotesCommand.execute = function(command, server, sender, args) {
     var players as IPlayer[] = [] as IPlayer[];
     if (args.length == 0) {
@@ -303,7 +304,7 @@ hideDeathQuotesCommand.getCommandUsage = function(sender) {
     return "/hidedeathquotes [玩家]";
 };
 hideDeathQuotesCommand.requiredPermissionLevel = 0; 
-hideDeathQuotesCommand.tabCompletion = TabCompletion.create(["player"]);
+hideDeathQuotesCommand.tabCompletionGetters = [IGetTabCompletion.player()];
 hideDeathQuotesCommand.execute = function(command, server, sender, args) {
     var players as IPlayer[] = [] as IPlayer[];
     if (args.length == 0) {
@@ -328,7 +329,7 @@ setMaidHealthCommand.getCommandUsage = function(sender) {
     return "/setmaidhealth [实体] [玩家]";
 };
 setMaidHealthCommand.requiredPermissionLevel = 2; 
-setMaidHealthCommand.tabCompletion = TabCompletion.create(["player", "player"]);
+setMaidHealthCommand.tabCompletionGetters = [IGetTabCompletion.player(), IGetTabCompletion.player()];
 setMaidHealthCommand.execute = function(command, server, sender, args) {
     var players as IPlayer[] = [] as IPlayer[];
     var entities as IEntity[];
@@ -377,7 +378,7 @@ giveOmnipediaCommand.getCommandUsage = function(sender) {
     return "/giveomnipedia [玩家]";
 };
 giveOmnipediaCommand.requiredPermissionLevel = 2; 
-giveOmnipediaCommand.tabCompletion = TabCompletion.create(["player"]);
+giveOmnipediaCommand.tabCompletionGetters = [IGetTabCompletion.player()];
 giveOmnipediaCommand.execute = function(command, server, sender, args) {
     var players as IPlayer[] = [] as IPlayer[];
     if (args.length == 0) {
@@ -434,13 +435,34 @@ sendWelcomeQuoteCommand.execute = function(command, server, sender, args) {
 };
 sendWelcomeQuoteCommand.register();
 
+val broadcastCommand as ZenCommand = ZenCommand.create("broadcast");
+sendWelcomeQuoteCommand.getCommandUsage = function(sender) {
+    return "/broadcast [消息]";
+};
+broadcastCommand.requiredPermissionLevel = 2;
+broadcastCommand.execute = function(command, server, sender, args) {
+    var players as IPlayer[] = CommandUtils.getPlayers(server, sender, "@a") as IPlayer[];
+    var str as string = "";
+    for arg in args {
+        str += arg;
+        str += " ";
+    }
+    str = str.trim();
+    for player in players {
+        if(!isNull(player)) {
+            player.sendChat(str);
+        }
+    }
+};
+broadcastCommand.register();
+
 /*
 val syncGamestagesCommand as ZenCommand = ZenCommand.create("syncgamestages");
 syncGamestagesCommand.getCommandUsage = function(sender) {
     return "/syncgamestages [玩家]";
 };
 syncGamestagesCommand.requiredPermissionLevel = 0; 
-syncGamestagesCommand.tabCompletion = TabCompletion.create(["player"]);
+syncGamestagesCommand.tabCompletionGetters = [IGetTabCompletion.player()];
 syncGamestagesCommand.execute = function(command, server, sender, args) {
     var players as IPlayer[] = [] as IPlayer[];
     if (args.length == 0) {

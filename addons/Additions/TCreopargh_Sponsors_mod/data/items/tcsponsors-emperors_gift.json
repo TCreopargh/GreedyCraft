@@ -1,0 +1,9 @@
+{
+  "name": "§6皇帝的恩赐",
+  "tooltip": [
+    "§e令人畏惧的，是余的神之才能啊！",
+    "§b§o赞助者物品 by 一顿能吃五大海碗"
+  ],
+  "max_stack": 1,
+  "type": "additions:simple"
+}

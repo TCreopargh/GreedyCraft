@@ -1,0 +1,116 @@
+{
+	"version": "1.0",
+	"pools": [
+		{
+			"name": "epic_charms",
+			"rolls": 1,
+			"entries": [
+				{
+					"entryName": "angel_blessed",
+					"type": "item",
+					"name": "treasure2:angel_blessed",
+					"weight": 10,
+					"conditions": [
+						{
+							"condition": "random_chance",
+							"chance": 0.10
+						}
+					]
+				},
+				{
+					"entryName": "miners_friend",
+					"type": "item",
+					"name": "treasure2:minders_friend",
+					"weight": 10,
+					"conditions": [
+						{
+							"condition": "random_chance",
+							"chance": 0.15
+						}
+					]
+				},
+				{
+					"entryName": "charm1",
+					"type": "item",
+					"name": "treasure2:charmed_gold_coin",
+					"weight": 10,
+					"conditions": [
+						{
+							"condition": "random_chance",
+							"chance": 0.25
+						}
+					],
+					"functions": [
+						{
+							"function": "treasure2:charm_randomly",
+							"charms": [
+								"greater_healing",
+								"hardened_shielding",
+								"overfed_fullness",
+								"major_harvesting",
+								"greater_illumination"
+							]
+						},
+						{
+							"function": "treasure2:charm_randomly",
+							"charms": [
+								"greater_healing",
+								"hardened_shielding",
+								"overfed_fullness",
+								"major_harvesting",
+								"greater_illumination"
+							]
+						}
+					]
+				},
+				{
+					"entryName": "charm2",
+					"type": "item",
+					"name": "treasure2:charmed_gold_coin",
+					"weight": 10,
+					"conditions": [
+						{
+							"condition": "random_chance",
+							"chance": 0.2
+						}
+					],
+					"functions": [
+						{
+							"function": "treasure2:charm_randomly",
+							"charms": [
+								"greater_healing",
+								"hardened_shielding",
+								"overfed_fullness",
+								"major_harvesting",
+								"greater_illumination",
+								"greater_decay"
+							]
+						},
+						{
+							"function": "treasure2:charm_randomly",
+							"charms": [
+								"grand_healing",
+								"powerful_shielding",
+								"gorged_fullness",
+								"grand_harvesting",
+								"grand_illumination"
+							]
+						}
+					]
+				},
+				{
+					"entryName": "masters_pouch",
+					"type": "item",
+					"weight": 10,
+					"name": "treasure2:masters_pouch",
+					"conditions": [
+						{
+							"condition": "random_chance",
+							"chance": 0.15
+						}
+					]
+				}
+			]
+		}
+	]
+}

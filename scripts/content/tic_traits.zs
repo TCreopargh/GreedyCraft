@@ -276,7 +276,9 @@ sacrificialTrait.localizedDescription = (
     "§f每次攻击时按比例消耗自身生命值造成巨量伤害。生命值越高，消耗越多，伤害越高。");
 sacrificialTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
     var sacrifice as float = attacker.maxHealth * 0.1 as float;
-    attacker.attackEntityFrom(crafttweaker.damage.IDamageSource.GENERIC(), sacrifice);
+    var source as IDamageSource = crafttweaker.damage.IDamageSource.GENERIC();
+    source.setDamageIsAbsolute();
+    attacker.attackEntityFrom(source, sacrifice);
     return newDamage + sacrifice * 20.0 as float; 
 };
 sacrificialTrait.register();
@@ -502,3 +504,26 @@ motionTrait.calcKnockBack = function(trait, tool, attacker, target, damage, orig
     return newKnockBack;
 };
 motionTrait.register();
+
+val executionerTrait = TraitBuilder.create("executioner");
+executionerTrait.color = Color.fromHex("e53935").getIntColor(); 
+executionerTrait.localizedName = "刽子手";
+executionerTrait.localizedDescription = (
+    "§o我是个莫得感情的杀手！§r\n" +
+    "§f当敌方生命值低于20% (Boss 为 10%) 时直接斩杀对手。");
+executionerTrait.onHit = function(trait, tool, attacker, target, damage, isCritical) {
+    if(isNull(target) || !target instanceof IEntityLivingBase || !attacker instanceof IPlayer || damage < 0.1) {
+        return;
+    }
+    var player as IPlayer = attacker;
+    var threshold as float = 0.2f;
+    if(target.isBoss) {
+        threshold = 0.1f;
+    }
+    if((target.health as float / target.maxHealth as float) as float < threshold) {
+        var source as IDamageSource = IDamageSource.createPlayerDamage(player);
+        source.setDamageIsAbsolute();
+        target.attackEntityFrom(source, 2147483647.0f);
+    }
+};
+executionerTrait.register();
