@@ -1,0 +1,68 @@
+These are the functions which can be called on a immersiveengineering:multiblock_formed 
+
+criteria trigger. This criteria is triggered by a player forming an Immersive Engineering 
+
+multiblock.
+
+
+
+
+
+
+
+setItem:
+
+    Arguments:
+
+        ItemBlockData
+
+    Usage:
+
+        item data
+
+    Notes:
+
+        Sets the required item.
+
+
+
+setMultiblock:
+
+    Arguments:
+
+        String
+
+    Usage:
+
+        multiblock id
+
+    Notes:
+
+        Sets the id for the multiblock this trigger will be triggerd by the formation of.
+
+
+
+setCount:
+
+    Arguments:
+
+        int
+
+    Usage:
+
+        count
+
+    Notes:
+
+        Sets the number of times this criteria must be completed before it counts towards advancement progress.
+
+
+
+getPlayerData:
+
+    Notes:
+
+        Gets the PlayerData for the criteria. Can set many things to test against the player themselves.
+
+
+

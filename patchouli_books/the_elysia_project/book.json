@@ -1,0 +1,10 @@
+{
+	"name": "§b埃拉西亚计划™ §e§o记录手册",
+	"subtitle": "© Beyond Reality Tech Co. Ltd.",
+	"advancement_namespaces": [ "greedycraft" ],
+	"landing_text": "本书为埃拉西亚计划的章程及内部技术指导，$(c)未经允许，严禁外传。$()$(br2)  © Beyond Reality Tech Co. Ltd.",
+	"version": 1337,
+	"pause_game": true,
+	"book_texture": "patchouli:textures/gui/book_cyan.png",
+	"model": "additions:greedycraft-elysia_project_lore"
+}

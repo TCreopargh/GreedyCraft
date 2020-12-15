@@ -1,0 +1,146 @@
+{
+	"version": "1.1",
+	"pools": [
+		{
+			"name": "uncommon_keys",
+			"rolls": 1,
+			"entries": [
+				{
+					"entryName": "wood_key",
+					"type": "item",
+					"name": "treasure2:wood_key",
+					"weight": 15,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					]
+				},
+				{
+					"entryName": "stone_key",
+					"type": "item",
+					"name": "treasure2:stone_key",
+					"weight": 15,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					]
+				},
+				{
+					"entryName": "pilferers_lock_pick",
+					"type": "item",
+					"name": "treasure2:pilferers_lock_pick",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					]
+				},
+				{
+					"entryName": "iron_key",
+					"type": "item",
+					"name": "treasure2:iron_key",
+					"weight": 25,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					]
+				},
+				{
+					"entryName": "thiefs_lock_pick",
+					"type": "item",
+					"name": "treasure2:thiefs_lock_pick",
+					"weight": 20,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					]
+				},
+ 				{
+					"entryName": "ember_key",
+					"type": "item",
+					"name": "treasure2:ember_key",
+					"weight": 10
+				},
+				{
+					"entryName": "leaf_key",
+					"type": "item",
+					"name": "treasure2:leaf_key",
+					"weight": 15
+				},
+				{
+					"entryName": "gold_key",
+					"type": "item",
+					"name": "treasure2:gold_key",
+					"weight": 10
+				},
+				{
+					"entryName": "spider_key",
+					"type": "item",
+					"name": "treasure2:spider_key",
+					"weight": 10
+				}
+			]
+		},
+		{
+			"name": "uncommon_treasure",
+			"rolls": 1,
+			"entries": [
+				{
+					"entryName": "silver_coin",
+					"type": "item",
+					"name": "treasure2:silver_coin",
+					"weight": 25,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					]
+				},
+				{
+					"entryName": "gold_coin",
+					"type": "item",
+					"name": "treasure2:gold_coin",
+					"weight": 15,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 0,
+								"max": 1
+							}
+						}
+					]
+				}
+			]
+		}	
+	]
+}

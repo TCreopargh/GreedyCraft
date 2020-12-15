@@ -46,7 +46,7 @@ addItem(<additions:greedycraft-medkit_small>, 20, 1, 1, 6);
 addItem(<additions:greedycraft-experience_ingot>, 18, 1, 2, 12);
 addItem(<scalinghealth:crystalshard>, 10, 1, 1, 2);
 addItem(<scalinghealth:heartdust>, 14, 1, 4, 24);
-addItem(<additions:greedycraft-delivery_order>, 30, 1, 1, 1);
+addItem(<additions:greedycraft-delivery_order>, 8, 1, 1, 1);
 addItem(<additions:greedycraft-tower_chest_key>, 10, 1, 1, 1);
 addItem(<additions:tcsponsors-sponsor_chest_fragment>, 5, 1, 1, 3);
 addItem(<additions:greedycraft-huaji>, 8, 1, 1, 2);

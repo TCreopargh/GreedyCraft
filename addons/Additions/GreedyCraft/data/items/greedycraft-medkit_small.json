@@ -7,14 +7,14 @@
   "hunger": 0,
   "saturation": 0.0,
   "always_edible": true,
-  "eat_time": 16,
+  "eat_time": 40,
   "is_drink": true,
   "eaten_effects": [
     {
       "potion": {
         "name": "minecraft:instant_health",
         "duration": 1,
-        "amplifier": 2,
+        "amplifier": 1,
         "ambient": false,
         "show_particles": true
       },

@@ -26,7 +26,9 @@ val mobStages as string[string] = {
     "thaumcraft:cultistportallesser": "novice_wizard",
     "mowziesmobs:barako": "wyvern",
     "mowziesmobs:frostmaw": "hardmode",
-    "primitivemobs:blazing_juggernaut": "nether"
+    "primitivemobs:blazing_juggernaut": "nether",
+    "primitivemobs:haunted_tool": "nether",
+    "primitivemobs:bewitched_tome": "nether"
 } as string[string];
 
 val mobReplacements as string[string] = {
@@ -44,7 +46,6 @@ val mobReplacements as string[string] = {
 for mob in mobStages {
     var stage as string = mobStages[mob] as string;
     MobStages.addStage(stage, mob);
-    MobStages.addRange(mob, 128);
 }
 
 for mob in mobReplacements {

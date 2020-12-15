@@ -1,0 +1,201 @@
+{
+	"version": "1.1",
+	"pools": [
+		{
+			"name": "scarce_keys",
+			"rolls": 1,
+			"entries": [
+				{
+					"entryName": "iron_key",
+					"type": "item",
+					"name": "treasure2:iron_key",
+					"weight": 15,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					]
+				},
+				{
+					"entryName": "thiefs_lock_pick",
+					"type": "item",
+					"name": "treasure2:thiefs_lock_pick",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					]
+				},
+				{
+					"entryName": "leaf_key",
+					"type": "item",
+					"name": "treasure2:leaf_key",
+					"weight": 20,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					]
+				},				
+				{
+					"entryName": "ember_key",
+					"type": "item",
+					"name": "treasure2:ember_key",
+					"weight": 25,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					]
+				},
+				{
+					"entryName": "lightning_key",
+					"type": "item",
+					"name": "treasure2:lightning_key",
+					"weight": 7
+				},
+				{
+					"entryName": "gold_key",
+					"type": "item",
+					"name": "treasure2:gold_key",
+					"weight": 25,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					]
+				},
+				{
+					"entryName": "spider_key",
+					"type": "item",
+					"name": "treasure2:spider_key",
+					"weight": 20
+				},
+				{
+					"entryName": "diamond_key",
+					"type": "item",
+					"name": "treasure2:diamond_key",
+					"weight": 10
+				},
+				{
+					"entryName": "emerald_key",
+					"type": "item",
+					"name": "treasure2:emerald_key",
+					"weight": 10
+				}
+			]
+		},
+		{
+			"name": "scarce_treasure",
+			"rolls": 1,
+			"entries": [
+				{
+					"entryName": "silver_coin",
+					"type": "item",
+					"name": "treasure2:silver_coin",
+					"weight": 50,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 3
+							}
+						}
+					]
+				},
+				{
+					"entryName": "gold_coin",
+					"type": "item",
+					"name": "treasure2:gold_coin",
+					"weight": 40,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					]
+				},
+				{
+					"entryName": "skull_sword",
+					"type": "item",
+					"name": "treasure2:skull_sword",
+					"weight": 10,
+					"conditions": [
+						{
+							"condition": "random_chance",
+							"chance": 0.2
+						}
+					]
+				},
+				{
+					"entryName": "painting_blocks_dirt",
+					"type": "item",
+					"name": "treasure2:painting_blocks_dirt",
+					"weight": 10,
+					"conditions": [
+						{
+							"condition": "random_chance",
+							"chance": 0.5
+						}
+					]
+				},
+				{
+					"entryName": "painting_blocks_cobblestone",
+					"type": "item",
+					"name": "treasure2:painting_blocks_cobblestone",
+					"weight": 10,
+					"conditions": [
+						{
+							"condition": "random_chance",
+							"chance": 0.5
+						}
+					]
+				},
+				{
+					"entryName": "painting_blocks_water",
+					"type": "item",
+					"name": "treasure2:painting_blocks_water",
+					"weight": 10,
+					"conditions": [
+						{
+							"condition": "random_chance",
+							"chance": 0.5
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "scarce_charms",
+			"rolls": 1,
+			"entries": [
+
+			]
+		}
+	]
+}

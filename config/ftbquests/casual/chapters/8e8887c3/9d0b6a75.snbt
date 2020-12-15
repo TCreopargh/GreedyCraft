@@ -53,20 +53,6 @@
 		table: 2
 	},
 	{
-		uid: "7d871d6d",
-		type: "item",
-		item: {
-			id: "minecraft:written_book",
-			tag: {
-				pages: [
-					"{\"text\":\"§c实验记录 §6#4\\n§r§0\\n观察到Alpha击杀了名为“末影龙”的实体，过去的实验体中仅有9%完成了这一过程。\\n\\n这意味着与Alpha进行更多沟通是可能的，这将有助于我们找到最近空间维度异常的原因。值得注意的是，Alpha似乎很沉迷于模拟程序，并对其显示出了很大乐趣。我们将进行进一步的研究来找出其原因。\\n\\n§9研究员：§6K\"}"
-				],
-				author: "K",
-				title: "§b实验记录 §e#4"
-			}
-		}
-	},
-	{
 		uid: "b522b1e6",
 		type: "item",
 		item: "additions:tcsponsors-sponsors_chest"

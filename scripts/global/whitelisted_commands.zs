@@ -55,5 +55,6 @@ global whitelistedCommands as string[] = [
     "suicide",
     "cleanmemory",
     "cm",
-    "sendwelcomequote"
+    "sendwelcomequote",
+    "sendfirstjoinmessage"
 ];

@@ -1,6 +1,6 @@
 {
 	title: "§c切换为: §c§n专家模式",
-	icon: "darkutils:material",
+	icon: "minecraft:fire_charge",
 	x: 13.0d,
 	y: -0.62d,
 	shape: "circle",

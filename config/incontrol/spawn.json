@@ -1,5 +1,9 @@
 [
     {
+        "dimension": 0,
+        "mob": ["primitivemobs:blazing_juggernaut"],
+		"result": "deny"
+    }, {
         "mob": ["primitivemobs:festive_creeper"],
 		"mincount": {
             "amount": 4,

@@ -1,0 +1,209 @@
+{
+	"version": "1.0",
+	"pools": [
+		{
+			"name": "uncommon_items",
+			"rolls": 1,
+			"entries": [
+				{
+					"entryName": "spectral_arrow",
+					"type": "item",
+					"name": "minecraft:spectral_arrow",
+					"weight": 15,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 2,
+								"max": 6
+							}
+						}
+					]						
+				},			
+				{
+					"entryName": "iron_ingot",
+					"type": "item",
+					"name": "minecraft:iron_ingot",
+					"weight": 20,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 2,
+								"max": 7
+							}
+						}
+					]						
+				},
+				{
+					"entryName": "paper",
+					"type": "item",
+					"name": "minecraft:paper",
+					"weight": 25,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					]						
+				},
+				{
+					"entryName": "reeds",
+					"type": "item",
+					"name": "minecraft:reeds",
+					"weight": 50,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					]						
+				},				
+				{
+					"entryName": "book",
+					"type": "item",
+					"name": "minecraft:book",
+					"weight": 25,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					]						
+				},
+				{
+					"entryName": "bowl",
+					"type": "item",
+					"name": "minecraft:bowl",
+					"weight": 30				
+				},
+				{
+					"entryName": "redstone",
+					"type": "item",
+					"name": "minecraft:redstone",
+					"weight": 30,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 3
+							}
+						}
+					]						
+				},
+				{
+					"entryName": "redstone_torch",
+					"type": "item",
+					"name": "minecraft:redstone_torch",
+					"weight": 40,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					]						
+				},
+				{
+					"entryName": "coal",
+					"type": "item",
+					"name": "minecraft:coal",
+					"weight": 50,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 5
+							}
+						}
+					]						
+				},
+				{
+					"entryName": "bow",
+					"type": "item",
+					"name": "minecraft:bow",
+					"weight": 25			
+				},
+				{
+					"entryName": "clay",
+					"type": "item",
+					"name": "minecraft:clay",
+					"weight": 15,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 3
+							}
+						}
+					]						
+				},
+				{
+					"entryName": "bucket",
+					"type": "item",
+					"name": "minecraft:bucket",
+					"weight": 50					
+				},
+				{
+					"entryName": "slime_ball",
+					"type": "item",
+					"name": "minecraft:slime_ball",
+					"weight": 35,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 3
+							}
+						}
+					]						
+				},
+				{
+					"entryName": "lead",
+					"type": "item",
+					"name": "minecraft:lead",
+					"weight": 35,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 3
+							}
+						}
+					]						
+				},
+				{
+					"entryName": "fermented_spider_eye",
+					"type": "item",
+					"name": "minecraft:fermented_spider_eye",
+					"weight": 25,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 3
+							}
+						}
+					]						
+				}
+			]
+		}
+	]
+}

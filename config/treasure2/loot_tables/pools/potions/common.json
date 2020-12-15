@@ -1,0 +1,59 @@
+{
+	"version": "1.0",
+	"pools": [
+		{
+			"name": "common_potions",
+			"rolls": 1,
+			"entries": [
+				{
+					"entryName": "potion_c1",
+					"type": "item",
+					"name": "minecraft:potion",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{Potion:\"minecraft:regeneration\"}"
+						}
+					]
+				},
+				{
+					"entryName": "potion_c2",
+					"type": "item",
+					"name": "minecraft:potion",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{Potion:\"minecraft:night_vision\"}"
+						}
+					]
+				},
+				{
+					"entryName": "potion_c3",
+					"type": "item",
+					"name": "minecraft:potion",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{Potion:\"minecraft:leaping\"}"
+						}
+					]
+				},
+				{
+					"entryName": "potion_c4",
+					"type": "item",
+					"name": "minecraft:potion",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{Potion:\"minecraft:mundane\"}"
+						}
+					]
+				}				
+			]
+		}
+	]
+}

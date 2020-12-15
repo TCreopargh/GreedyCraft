@@ -668,6 +668,7 @@ stageEnderCharm.addIngredients([
     <hooked:hook:4>
 ], true);
 
+stageGettingStarted.addOreReplacement(<ore:workbench>, <additions:greedycraft-unknown_block>, false);
 stageHardmode.addOreReplacement(<taiga:dilithium_ore:*>, <minecraft:stone>, false);
 stageHardmode.addOreReplacement(<taiga:karmesine_ore:*>, <minecraft:stone:5>, false);
 stageHardmode.addOreReplacement(<taiga:ovium_ore:*>, <minecraft:stone:3>, false);
@@ -1029,7 +1030,9 @@ restageItems("disabled", [
     <bloodmagic:bound_shovel>.withTag({activated: 0 as byte}),
     <bloodmagic:bound_shovel>.withTag({activated: 1 as byte}),
     <bloodmagic:bound_shovel>,
-    <animus:kama_bound>
+    <animus:kama_bound>,
+    <cyclicmagic:tool_push>,
+    <cyclicmagic:tool_push>.withTag({})
 ] as IIngredient[]);
 
 restageItems("energy_matter_core", [

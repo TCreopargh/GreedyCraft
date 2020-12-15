@@ -1,0 +1,176 @@
+These are the functions which can be called on a triumph:player_death trigger.
+
+
+
+
+
+
+
+damageType:
+
+    Arguments:
+
+        String
+
+    Usage:
+
+        damage type
+
+    Notes:
+
+        Sets the damage type string used to construct the DamageSource. Vanilla examples include "inFire", "outOfWorld", "cactus", "drown", "starve", etc.
+
+
+
+isExplosion:
+
+    Arguments:
+
+        boolean
+
+    Usage:
+
+        true/false
+
+    Notes:
+
+        Sets if the damage source is an explosion.
+
+
+
+isProjectile:
+
+    Arguments:
+
+        boolean
+
+    Usage:
+
+        true/false
+
+    Notes:
+
+        Sets if the damage source is a projectile.
+
+
+
+isFire:
+
+    Arguments:
+
+        boolean
+
+    Usage:
+
+        true/false
+
+    Notes:
+
+        Sets if the damage source is fire.
+
+
+
+bypassesArmor:
+
+    Arguments:
+
+        boolean
+
+    Usage:
+
+        true/false
+
+    Notes:
+
+        Sets if the damage source bypasses armor.
+
+
+
+getSourceData:
+
+    Notes:
+
+        Returns the EntityData object for the source entity (This would be for the player/skeleton/etc.) so functions can be called on it.
+
+
+
+bypassesMagic:
+
+    Arguments:
+
+        boolean
+
+    Usage:
+
+        true/false
+
+    Notes:
+
+        Sets if the damage source bypasses magic.
+
+
+
+isMagic:
+
+    Arguments:
+
+        boolean
+
+    Usage:
+
+        true/false
+
+    Notes:
+
+        Sets if the damage source is magic.
+
+
+
+bypassesInvulnerability:
+
+    Arguments:
+
+        boolean
+
+    Usage:
+
+        true/false
+
+    Notes:
+
+        Sets if the damage source bypasses invulerability.
+
+
+
+getImmediateSourceData:
+
+    Notes:
+
+        Returns the EntityData object for the immediate source entity (This would be for things like projectiles.) so functions can be called on it.
+
+
+
+setCount:
+
+    Arguments:
+
+        int
+
+    Usage:
+
+        count
+
+    Notes:
+
+        Sets the number of times this criteria must be completed before it counts towards advancement progress.
+
+
+
+getPlayerData:
+
+    Notes:
+
+        Gets the PlayerData for the criteria. Can set many things to test against the player themselves.
+
+
+

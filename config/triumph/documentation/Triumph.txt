@@ -1,0 +1,158 @@
+This file is for basic mod options. If Triumph.txt does not exist, default configs 
+
+and documentation will be printed.
+
+
+
+
+
+
+
+printDocumentation:
+
+    Arguments:
+
+        boolean
+
+    Default Values:
+
+        true
+
+    Notes:
+
+        Used to set whether Triumph should print config documentation.
+
+
+
+pageOrder:
+
+    Arguments:
+
+        String array
+
+    Usage:
+
+        Array of root advancement resource location
+
+    Notes:
+
+        Forces an order for advancement pages in the gui. Any not added to this array are ordered alphabetically.
+
+
+
+allowDragging:
+
+    Arguments:
+
+        boolean
+
+    Default Values:
+
+        false
+
+    Notes:
+
+        Sets whether advancements can be dragged around in the gui. End positions will be saved to script files when the mouse button is released, but advancements must be reloaded to refresh positions after the gui is closed.
+
+
+
+useNewParentCompletionCriteriaNames:
+
+    Notes:
+
+        Tells the mod to use the new naming scheme for parent completion criteria generated with 'setRequiresParents()', instead of the old one. 'Completed Title' vs 'completedParent1'
+
+
+
+removeAdvancements:
+
+    Arguments:
+
+        String array
+
+    Default Values:
+
+        true
+
+    Notes:
+
+        Used to set advancements that should be removed. Can contain both mod ids and advancement ids. If anything is set in this array, everything else will be kept.
+
+
+
+removeModAdvancements:
+
+    Arguments:
+
+        boolean
+
+    Default Values:
+
+        true
+
+    Notes:
+
+        Used to set whether Triumph should remove mod advancements.
+
+
+
+keepAdvancements:
+
+    Arguments:
+
+        String array
+
+    Default Values:
+
+        true
+
+    Notes:
+
+        Used to set advancements that should be kept. Can contain both mod ids and advancement ids. If anything is set in this array, everything else will be removed.
+
+
+
+printDefaultConfigs:
+
+    Arguments:
+
+        boolean
+
+    Default Values:
+
+        true
+
+    Notes:
+
+        Used to set whether Triumph should print default config files. This will replace files. Always backup first!
+
+
+
+forceReloadFunctions:
+
+    Arguments:
+
+        boolean
+
+    Notes:
+
+        No longer does anything. Simply here to avoid script errors. Will be removed fully in a future update.
+
+
+
+removeVanillaAdvancements:
+
+    Arguments:
+
+        boolean
+
+    Default Values:
+
+        true
+
+    Notes:
+
+        Used to set whether Triumph should remove vanilla advancements.
+
+
+

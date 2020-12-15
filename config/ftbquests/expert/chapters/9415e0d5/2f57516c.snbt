@@ -39,21 +39,6 @@
 		table: 0
 	},
 	{
-		uid: "0381707b",
-		type: "item",
-		item: {
-			id: "minecraft:written_book",
-			tag: {
-				pages: [
-					"{\"text\":\"§c实验记录 §6#11\\n\\n§0Alpha刚刚进入了一个村庄并屠了村。\\n如果Alpha真的是智慧生命的话，那真是太可怕了。\\n\\n§9实验员: §6J\"}"
-				],
-				author: "J",
-				title: "§b实验记录 §6#11",
-				resolved: 1b
-			}
-		}
-	},
-	{
 		uid: "f14d26d0",
 		type: "item",
 		item: "bountiful:bountyboarditem"

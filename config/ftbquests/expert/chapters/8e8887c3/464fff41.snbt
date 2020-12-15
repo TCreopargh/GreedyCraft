@@ -55,20 +55,6 @@
 		count: 2
 	},
 	{
-		uid: "df42b623",
-		type: "item",
-		item: {
-			id: "minecraft:written_book",
-			tag: {
-				pages: [
-					"{\"text\":\"§c§o实验记录 §6§o#2\\n§r§r§0就像其他实验对象一样，Alpha对于被称为“钻石”的对象表现出了极大兴趣，并立即获得了一些钻石。\\n目前，可以确定的是该实验对象所处的维度和其他实验对象都一样。正在研讨关于与Alpha进行交谈的可能性。\\n\\n§9研究员：§4J\"}"
-				],
-				author: "J",
-				title: "§b实验记录 §e#2"
-			}
-		}
-	},
-	{
 		uid: "18a3b977",
 		type: "item",
 		item: "prefab:item_start_house"

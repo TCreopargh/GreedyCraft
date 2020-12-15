@@ -14,7 +14,7 @@
 	tasks: [{
 		uid: "d43b8cff",
 		type: "forge_energy",
-		value: 75000000000L
+		value: 150000000000L
 	}],
 	rewards: [{
 		uid: "237b2919",

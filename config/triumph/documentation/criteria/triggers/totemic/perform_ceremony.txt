@@ -1,0 +1,50 @@
+These are the functions which can be called on a totemic:perform_ceremony criteria 
+
+trigger. This criteria is triggered by a player performing a ceremony.
+
+
+
+
+
+
+
+setCeremony:
+
+    Arguments:
+
+        String
+
+    Usage:
+
+        ceremony id
+
+    Notes:
+
+        Sets the ceremony that the player must perform to complete the criteria.
+
+
+
+setCount:
+
+    Arguments:
+
+        int
+
+    Usage:
+
+        count
+
+    Notes:
+
+        Sets the number of times this criteria must be completed before it counts towards advancement progress.
+
+
+
+getPlayerData:
+
+    Notes:
+
+        Gets the PlayerData for the criteria. Can set many things to test against the player themselves.
+
+
+

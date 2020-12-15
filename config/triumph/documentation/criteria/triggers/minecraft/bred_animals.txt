@@ -1,0 +1,106 @@
+These are the functions which can be called on a minecraft:bred_animals criteria 
+
+trigger.
+
+
+
+
+
+
+
+getParentData:
+
+    Notes:
+
+        Returns the EntityData object for the parent so functions can be called on it.
+
+
+
+setParentType:
+
+    Arguments:
+
+        String
+
+    Usage:
+
+        entity type
+
+    Notes:
+
+        Sets the parent entity type.
+
+
+
+getPartnerData:
+
+    Notes:
+
+        Returns the EntityData object for the partner so functions can be called on it.
+
+
+
+setPartnerType:
+
+    Arguments:
+
+        String
+
+    Usage:
+
+        entity type
+
+    Notes:
+
+        Sets the partner entity type.
+
+
+
+getChildData:
+
+    Notes:
+
+        Returns the EntityData object for the child so functions can be called on it.
+
+
+
+setChildType:
+
+    Arguments:
+
+        String
+
+    Usage:
+
+        entity type
+
+    Notes:
+
+        Sets the child entity type.
+
+
+
+setCount:
+
+    Arguments:
+
+        int
+
+    Usage:
+
+        count
+
+    Notes:
+
+        Sets the number of times this criteria must be completed before it counts towards advancement progress.
+
+
+
+getPlayerData:
+
+    Notes:
+
+        Gets the PlayerData for the criteria. Can set many things to test against the player themselves.
+
+
+

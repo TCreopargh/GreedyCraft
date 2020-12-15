@@ -76,20 +76,5 @@
 		type: "item",
 		item: "projectex:collector 1 7",
 		count: 2
-	},
-	{
-		uid: "c19e62ec",
-		type: "item",
-		item: {
-			id: "minecraft:written_book",
-			tag: {
-				pages: [
-					"{\"text\":\"§c实验记录 §6#32\\n§0\\n\\n数据显示，Alpha制作出了名为“无尽锭”的物品，仅有0.02%的实验体完成了此任务。得益于Alpha，我们最近报告的人口失踪和不明人口的案例大幅降低。\\nAlpha终将有一天永远退出该模拟程序，到时候我们将不得不再消耗大量人口制作一个新的模拟程序。\"}"
-				],
-				author: "J",
-				title: "§b实验记录 §e#32",
-				resolved: 1b
-			}
-		}
 	}]
 }

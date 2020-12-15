@@ -1,0 +1,21 @@
+setIcon(<additions:greedycraft-experiment_note>)
+
+setTitle("埃拉西亚日志#6")
+
+setDescription("要解锁该日志，你需要获得飞龙核心")
+
+addParent("greedycraft:elysia/log5")
+
+setPos(160,100)
+
+alwaysVisible()
+
+drawDirectLines(true)
+
+setShowToast(false)
+
+setAnnounceToChat(false)
+
+criteriaLog6 = addCriteria("gc_stage_wyvern", "triumph:gamestage")
+
+criteriaLog6.setStage("wyvern")

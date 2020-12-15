@@ -31,30 +31,23 @@ val killEntities as string[] = [
     "twilightforest:yeti"
 ];
 
+val advancementMap as string[string] = {
+    twilight_forest: "greedycraft:elysia/log1",
+    nether: "greedycraft:elysia/log2",
+    wither_slayer: "greedycraft:elysia/log3",
+    ender_charm: "greedycraft:elysia/log4",
+    hardmode: "greedycraft:elysia/log5",
+    wyvern: "greedycraft:elysia/log6",
+    awakened: "greedycraft:elysia/log7",
+    chaotic: "greedycraft:elysia/log8"
+} as string[string];
+
 function getHeadBlockPos(player as IPlayer) as IBlockPos {
     var pos as IBlockPos = player.position as IBlockPos;
     return pos.getOffset(IFacing.up(), 1) as IBlockPos;
 }
 
 events.onPlayerLoggedIn(function (event as crafttweaker.event.PlayerLoggedInEvent) {
-    if(!event.player.hasGameStage("getting_started")) {
-        event.player.sendChat(
-        "\n"+
-        "§7§o [电流声]\n"+
-        "§e - 就这样开始了吗？\n"+
-        "§6 - 好的，开始实验吧。\n"+
-        "§9§o - 实验体编号5468-6543-686F-7365-6E50-6C61-7965-7220，状态良好。\n"+
-        "§e - 已经开始了。它能看到我们的谈话。\n"+
-        "§6 - 嗯，好的，继续实验吧。\n"+
-        "§e - 我们给了它一本小册子，这应该能帮助它自己解决问题。\n"+
-        "§6 - 嗯，还有一个详细的任务列表，这应该能告诉它应当做什么。\n"+
-        "§e - 那么，就这样吧。接下来的事情，就要看它自己了。\n"+
-        "§c§o [传输中止]\n"+
-        "\n"+
-        "§6如果感到卡顿，请尝试按§eR§6打开菜单并点击“§e清理内存§6”按钮。另外也可以试试调整下视距再调回来。§e/purge§6命令可以清理掉落物品，这可以在跑图时降低卡顿。\n§e组合键§6F3 + A§e可以重载区块并提高帧率，§6F3 + S§e可以重载声音系统（在没有声音时使用）");
-    } else {
-        event.player.sendChat("§2§o欢迎回家，§e" + event.player.name + "§2§o！");
-    }
     
     if(event.player.hasGameStage("truehero") && !event.player.hasGameStage("iswuss")) {
         event.player.sendChat("§6§o欢迎回家，真正的英雄§e" + event.player.name + "§6§o！");
@@ -74,7 +67,15 @@ events.onPlayerLoggedIn(function (event as crafttweaker.event.PlayerLoggedInEven
             event.player.sendChat("§d§o由于您以创造模式创建了该存档，所有游戏阶段都已解锁，祝您游戏愉快。");
         }
     }
-    event.player.executeCommand("sendwelcomequote");
+    event.player.executeCommand("sendwelcomequote " + event.player.name);
+    
+    if(!event.player.hasGameStage("first_join_message_shown")) {
+        event.player.executeCommand("sendfirstjoinmessage " + event.player.name);
+        event.player.addGameStage("first_join_message_shown");
+    } else {
+        event.player.sendChat("§2§o欢迎回来，§e" + event.player.name + "§2§o！");
+    }
+
 });
 
 events.onPlayerRespawn(function (event as crafttweaker.event.PlayerRespawnEvent) {
@@ -111,7 +112,7 @@ events.onEntityLivingDeath(function (event as crafttweaker.event.EntityLivingDea
         }
         if(!(Math.random() > DEATH_HUMAN_SPAWN_CHANCE)) {
             var offset = Math.random() - 0.5 as float;
-            player.server.commandManager.executeCommand(player.server, "/summon headcrumbs:human " + (player.x + offset) + " " + (player.y + 1) + " "+ (player.z + offset) +" {Username:\"" + player.name + "\"}");
+            server.commandManager.executeCommand(server, "/summon headcrumbs:human " + (player.x + offset) + " " + (player.y + 1) + " "+ (player.z + offset) +" {Username:\"" + player.name + "\"}");
             player.sendChat("§5§o你感到周围的时空发生了扭曲...");
         }
     }
@@ -119,6 +120,18 @@ events.onEntityLivingDeath(function (event as crafttweaker.event.EntityLivingDea
 
 events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
     var player = event.player;
+    if(player.world.getWorldTime() as long % 40 == 0) {
+        server.commandManager.executeCommand(server, "/advancement grant " + player.name + " only greedycraft:elysia/root");
+        for stage in advancementMap {
+            if(player.hasGameStage(stage)) {
+                var advancement as string = advancementMap[stage] as string;
+                server.commandManager.executeCommand(server, "/advancement grant " + player.name + " only " + advancement);
+            }
+        }
+        if(!isNull(player.currentItem) && player.currentItem.definition.id == "patchouli:guide_book" && !isNull(player.currentItem.tag.memberGet("patchouli:book")) && player.currentItem.tag.memberGet("patchouli:book") == "patchouli:the_elysia_project") {
+            server.commandManager.executeCommand(server, "/advancement grant " + player.name + " only greedycraft:elysia/book");
+        }
+    }
     if(!player.creative && player.isPotionActive(<potion:minecraft:saturation>) && player.getActivePotionEffect(<potion:minecraft:saturation>).duration > 1) {
         var effect as IPotionEffect = player.getActivePotionEffect(<potion:minecraft:saturation>);
         player.removePotionEffect(<potion:minecraft:saturation>);
@@ -203,30 +216,3 @@ events.onEntityLivingHurt(function(event as crafttweaker.event.EntityLivingHurtE
         }
     }
 });
-
-/* This doesn't work because a player's data gets cleared upon death
-events.onPlayerTick(function (event as PlayerTickEvent) {
-    if((event.player.world.getWorldTime() as long) % 600 != 0 || event.player.world.remote) {
-        return;
-    }
-    var player as IPlayer = event.player;
-    if(isNull(player)) {
-        return;
-    }
-    for stage in commonStages {
-        if(player.hasGameStage(stage)) {
-            if(!isNull(player.data.memberGet("GameStagesBackup"))) {
-                var gameStagesBackup = player.data.memberGet("GameStagesBackup");
-                if(!isNull(gameStagesBackup) && !isNull(gameStagesBackup.asList())) {
-                    var updateData as IData = (gameStagesBackup.update([stage] as IData)) as IData;
-                    player.update(updateData);
-                } else {
-                    player.update({GameStagesBackup: [stage as string]} as IData);
-                }
-            } else {
-                player.update({GameStagesBackup: [stage as string]} as IData);
-            }
-        }
-    }
-});
-*/

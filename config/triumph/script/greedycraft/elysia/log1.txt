@@ -1,0 +1,21 @@
+setIcon(<additions:greedycraft-experiment_note>)
+
+setTitle("埃拉西亚日志#1")
+
+setDescription("要解锁该日志，你需要进入暮色森林")
+
+addParent("greedycraft:elysia/root")
+
+setPos(-40,100)
+
+alwaysVisible()
+
+drawDirectLines(true)
+
+setShowToast(false)
+
+setAnnounceToChat(false)
+
+criteriaLog1 = addCriteria("gc_entered_twilight_forest", "minecraft:changed_dimension")
+
+criteriaLog1.setDimensionDestination("twilight_forest")

@@ -1,0 +1,21 @@
+setIcon(<additions:greedycraft-experiment_note>)
+
+setTitle("埃拉西亚日志#3")
+
+setDescription("要解锁该日志，你需要击败凋零")
+
+addParent("greedycraft:elysia/log2")
+
+setPos(40,100)
+
+alwaysVisible()
+
+drawDirectLines(true)
+
+setShowToast(false)
+
+setAnnounceToChat(false)
+
+criteriaLog3 = addCriteria("gc_killed_wither", "minecraft:player_killed_entity")
+
+criteriaLog3.setEntityType("wither")

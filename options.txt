@@ -11,7 +11,7 @@ bobView:false
 anaglyph3d:false
 maxFps:260
 fboEnable:true
-difficulty:3
+difficulty:2
 fancyGraphics:true
 ao:1
 renderClouds:false
@@ -38,7 +38,7 @@ heldItemTooltips:true
 chatHeightFocused:1.0
 chatHeightUnfocused:0.62676054
 chatScale:0.9577465
-chatWidth:0.62676054
+chatWidth:0.6619718
 mipmapLevels:4
 forceUnicodeFont:false
 reducedDebugInfo:false
@@ -88,6 +88,7 @@ key_key.hotbar.9:10
 key_of.key.zoom:46
 key_Change Caster Focus:0
 key_Misc Caster Toggle:0
+key_quark.keybind.toggleAutojump:0
 key_quark.emote.no:0
 key_quark.emote.yes:0
 key_quark.emote.wave:0
@@ -106,10 +107,9 @@ key_quark.emote.dab:0
 key_quark.emote.jet:0
 key_quark.emote.exorcist:0
 key_quark.emote.zombie:0
+key_quark.keybind.lockBuilding:0
 key_quark.keybind.dropoff:0
 key_quark.keybind.changeHotbar:184
-key_quark.keybind.lockBuilding:0
-key_quark.keybind.toggleAutojump:0
 key_keybind.baublesinventory:18:ALT
 key_pe.key.armor_toggle:49:CONTROL
 key_pe.key.charge:47:ALT
@@ -179,7 +179,6 @@ key_key.use_cage.desc:0
 key_key.configurator_mode.desc:0
 key_key.configurator_filter.desc:0
 key_key.configurator_path.desc:0
-key_thaumicaugmentation.key.elytra_boost:57
 key_keybind.hammercorerenderstack:77
 key_key.hooked.fire:16
 key_dshuds.keybind.SelectionBox:37:ALT
@@ -343,8 +342,8 @@ key_key.carpet_forward:17
 key_key.carpet_backward:31
 key_key.colytra.toggle.desc:34:CONTROL
 key_key.overload:0
-key_oeshapeselector.key:41:ALT
 key_打开背包:37
+key_oeshapeselector.key:41:ALT
 key_enderio.keybind.inventory:0
 key_enderio.keybind.dsu:0
 key_enderio.keybind.glidertoggle:0

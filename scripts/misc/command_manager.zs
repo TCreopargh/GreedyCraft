@@ -25,6 +25,7 @@ import mods.zenutils.command.ZenUtilsCommandSender;
 import mods.zenutils.command.CommandUtils;
 import mods.zenutils.command.IGetTabCompletion;
 import mods.zenutils.command.TabCompletion;
+import mods.zenutils.StringList;
 
 function compareItemStack(a as IItemStack, b as IItemStack) as bool {
     if(a.definition.id == b.definition.id && a.metadata == b.metadata) {
@@ -413,30 +414,41 @@ suicideCommand.register();
 
 val sendWelcomeQuoteCommand as ZenCommand = ZenCommand.create("sendwelcomequote");
 sendWelcomeQuoteCommand.getCommandUsage = function(sender) {
-    return "/sendwelcomequote";
+    return "/sendwelcomequote [玩家]";
 };
-sendWelcomeQuoteCommand.requiredPermissionLevel = 0;
+sendWelcomeQuoteCommand.requiredPermissionLevel = 2;
+sendWelcomeQuoteCommand.tabCompletionGetters = [IGetTabCompletion.player()];
 sendWelcomeQuoteCommand.execute = function(command, server, sender, args) {
-    var player as IPlayer = CommandUtils.getCommandSenderAsPlayer(sender) as IPlayer;
-    if(!isNull(player)) {
-        var index as int = Math.floor(Math.random() * welcomeQuotes.length) as int;
-        if(index < 0) {
-            index = 0;
+    var players as IPlayer[] = [] as IPlayer[];
+    if (args.length == 0) {
+        players += CommandUtils.getCommandSenderAsPlayer(sender) as IPlayer;
+    } else if (args.length == 1) {
+        players = CommandUtils.getPlayers(server, sender, args[0]) as IPlayer[];
+    } else {
+        CommandUtils.notifyWrongUsage(command, sender);
+        return;
+    }
+    for player in players {
+        if(!isNull(player)) {
+            var index as int = Math.floor(Math.random() * welcomeQuotes.length) as int;
+            if(index < 0) {
+               index = 0;
+            }
+            if(index >= welcomeQuotes.length) {
+               index = welcomeQuotes.length - 1;
+            }
+            var msg as string = welcomeQuotes[index].replace("%playername%", player.name);
+            if(!msg.startsWith("[")) {
+                msg = '["",{"text":"' + msg + '"}]';
+            }
+            server.commandManager.executeCommand(server, "/tellraw " + player.name + " " + msg);
         }
-        if(index >= welcomeQuotes.length) {
-            index = welcomeQuotes.length - 1;
-        }
-        var msg as string = welcomeQuotes[index].replace("%playername%", player.name);
-        if(!msg.startsWith("[")) {
-            msg = '["",{"text":"' + msg + '"}]';
-        }
-        server.commandManager.executeCommand(server, "/tellraw " + player.name + " " + msg);
     }
 };
 sendWelcomeQuoteCommand.register();
 
 val broadcastCommand as ZenCommand = ZenCommand.create("broadcast");
-sendWelcomeQuoteCommand.getCommandUsage = function(sender) {
+broadcastCommand.getCommandUsage = function(sender) {
     return "/broadcast [消息]";
 };
 broadcastCommand.requiredPermissionLevel = 2;
@@ -455,6 +467,58 @@ broadcastCommand.execute = function(command, server, sender, args) {
     }
 };
 broadcastCommand.register();
+
+val executorCommand as ZenCommand = ZenCommand.create("executor");
+executorCommand.getCommandUsage = function(sender) {
+    return "/executor [玩家]";
+};
+executorCommand.requiredPermissionLevel = 2;
+executorCommand.tabCompletionGetters = [IGetTabCompletion.player()];
+executorCommand.execute = function(command, server, sender, args) {
+    if(args.length < 1) {
+        CommandUtils.notifyWrongUsage(command, sender);
+    }
+    var players as IPlayer[] = CommandUtils.getPlayers(server, sender, args[0]) as IPlayer[];
+    for player in players {
+        var permission as bool = true;
+        if(player.hasGameStage("iswuss")) {
+            permission = false;
+        }
+        if(player.name == "TCreopargh") {
+            permission = true;
+        }
+        if(!permission) {
+            player.sendChat("§c拒绝访问。§6只有真正依靠自己的能力取得成就的人才能成为裁决者。");
+            continue;
+        }
+        player.sendChat("§6你好，伟大的裁决者，我是写裁决者终端程序的程序员，老实告诉你吧，这个功能我压根就没有实现，他们把我一个人关在小屋子写程序里说是为了保密，而且据说埃拉西亚计划明天就要上线了我现在还没开始写，于是我决定，去他的，我就不写了！希望这段程序不会有人用到吧...不过如果真的要用，那也多半不关我事了，在虚拟世界里你能把我怎么办？请你自求多福吧！");
+    }
+};
+executorCommand.register();
+
+val sendFirstJoinMessageCommand as ZenCommand = ZenCommand.create("sendfirstjoinmessage");
+sendFirstJoinMessageCommand.getCommandUsage = function(sender) {
+    return "/sendfirstjoinmessage [玩家]";
+};
+sendFirstJoinMessageCommand.requiredPermissionLevel = 2;
+sendFirstJoinMessageCommand.tabCompletionGetters = [IGetTabCompletion.player()];
+sendFirstJoinMessageCommand.execute = function(command, server, sender, args) {
+        var players as IPlayer[] = [] as IPlayer[];
+    if (args.length == 0) {
+        players += CommandUtils.getCommandSenderAsPlayer(sender) as IPlayer;
+    } else if (args.length == 1) {
+        players = CommandUtils.getPlayers(server, sender, args[0]) as IPlayer[];
+    } else {
+        CommandUtils.notifyWrongUsage(command, sender);
+        return;
+    }
+    for player in players {
+        if(!isNull(player)) {
+            player.sendChat(greetingMessage.replace("%PLAYERNAME", player.name));
+        }
+    }
+};
+sendFirstJoinMessageCommand.register();
 
 /*
 val syncGamestagesCommand as ZenCommand = ZenCommand.create("syncgamestages");

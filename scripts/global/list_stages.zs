@@ -62,7 +62,8 @@ global commonStages as string[] = [
     "energy_matter_core",
     "thaumaturge",
     "storage_maniac",
-    "descendant_of_the_sun"
+    "descendant_of_the_sun",
+    "first_join_message_shown"
 ];
 
 global listStages as string[] = [

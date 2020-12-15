@@ -10,12 +10,11 @@
 	y: 0.0d,
 	description: "§3去吧，证明你自己。",
 	text: [
-		"进行了这么长时间的实验，想必我们和你都很累了。",
-		"如果你已经完成了几乎所有的一切，为什么我们还要强行把你留在这里呢？",
-		"如果我们给你设定一个目标，完成了这个，你就能得到你想要的一切，",
-		"你会继续留在这里吗？如果不会，到时候，我们会制作一个新的模拟程序。",
-		"总之，玩得开心点。",
-		" —— J & K"
+		"我想，这就是旅途的终点了。",
+		"只有极度贪婪，渴望得到一切，也最终得到一切的人，",
+		"才能最终站在这里，决定埃拉西亚的命运。",
+		"你应该想好了怎么做。",
+		" ———— 超越现实有限公司"
 	],
 	can_repeat: true,
 	dependencies: [
@@ -49,6 +48,12 @@
 		type: "item",
 		item: "tconstruct:materials 1 50",
 		count: 320
+	},
+	{
+		uid: "fbbfcfcf",
+		type: "item",
+		item: "additions:greedycraft-executor_terminal",
+		count: 1
 	},
 	{
 		uid: "f41fbfc8",
@@ -165,20 +170,6 @@
 		type: "item",
 		item: "additions:greedycraft-creative_soul",
 		count: 320
-	},
-	{
-		uid: "dcd7bcc5",
-		type: "item",
-		item: {
-			id: "minecraft:written_book",
-			tag: {
-				pages: [
-					"{\"text\":\"§c实验记录 §6#127\\n\\n§0Alpha出色地完成了一切，这是第一次有实验体完成这一壮举。这表明这次构建的模拟程序是成功的。\\n无论如何，Alpha可能很快就会离开模拟程序，因为这个模拟程序里已经没有什么要做的了。为了让Alpha在里面待尽可能长的时间，建议仿照本次实验的模拟程序重做一个，但内容要完全不同。\\n\\n§9——████自然研究所主任\\n§c§dTCreopargh\"}"
-				],
-				author: "§kTCreopargh§r",
-				title: "§b实验记录 §e#127"
-			}
-		}
 	},
 	{
 		uid: "d933c52f",

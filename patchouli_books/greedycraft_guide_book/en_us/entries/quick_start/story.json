@@ -1,0 +1,16 @@
+{
+    "name": "背景故事",
+    "icon": "minecraft:writable_book",
+    "category": "patchouli:quick_start_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "关于$(2)背景故事$()，请阅读$(3)埃拉西亚计划记录手册$()，它记载了整合包的剧情。注意有些内容会随着游戏进度解锁。"
+        }, 
+ 	    {
+            "type": "spotlight",
+            "item": "patchouli:guide_book{\"patchouli:book\": \"patchouli:the_elysia_project\"}",
+            "text": "百科全书里包含了此书，除此之外也可以从地牢箱子中获取。"
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+setIcon(<additions:greedycraft-experiment_note>)
+
+setTitle("埃拉西亚日志#5")
+
+setDescription("要解锁该日志，你需要击败末影龙")
+
+addParent("greedycraft:elysia/log4")
+
+setPos(120,100)
+
+alwaysVisible()
+
+drawDirectLines(true)
+
+setShowToast(false)
+
+setAnnounceToChat(false)
+
+criteriaLog5 = addCriteria("gc_stage_hardmode", "triumph:gamestage")
+
+criteriaLog5.setStage("hardmode")

@@ -9,7 +9,8 @@ import crafttweaker.game.IGame;
 
 <ore:slimeball>.add(<defiledlands:foul_slime>);
 <ore:stoneMarble>.add(<pvj:marble>);
-<ore:workbench>.add(<natura:overworld_workbenches:*>);
+<ore:workbench>.addAll(<ore:craftingTableWood>);
+<ore:workbench>.add(<randomthings:customworkbench:*>);
 <ore:plantFibre>.add(<hooked:microcrafting>);
 <ore:string>.add(<hooked:microcrafting:1>);
 <ore:dirt>.add(<biomesoplenty:dirt:*>);
@@ -335,6 +336,7 @@ if(loadedMods.contains("inventorypets")) {
 <ore:blockQuartzDark>.addAll(<ore:blockQuartzBlack>);
 <ore:rodBlizz>.add(<netherex:frost_rod>);
 <ore:dustBlizz>.add(<netherex:frost_powder>);
+<ore:netherrack>.add(<betternether:nether_mycelium>);
 
 for item in loadedMods["weeeflowers"].items {
     if(item.definition.id.replace("weeeflowers", "").contains("flower")) {

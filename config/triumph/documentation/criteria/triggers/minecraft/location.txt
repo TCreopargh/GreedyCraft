@@ -1,0 +1,120 @@
+These are the functions which can be called on a minecraft:location criteria trigger.
+
+
+
+
+
+
+
+setFeature:
+
+    Arguments:
+
+        String
+
+    Usage:
+
+        feature id
+
+    Notes:
+
+        Sets the feature id. Used for things like structures.
+
+
+
+setDimID:
+
+    Arguments:
+
+        int
+
+    Usage:
+
+        dimension id
+
+    Notes:
+
+        Sets the dimension id.
+
+
+
+getLocationData:
+
+    Notes:
+
+        Returns the LocationData object so functions can be called on it.
+
+
+
+setWorldType:
+
+    Arguments:
+
+        String
+
+    Usage:
+
+        WorldType id
+
+    Notes:
+
+        Sets the WorldType id.
+
+
+
+setBiome:
+
+    Arguments:
+
+        Non_Null_Biome_ID
+
+    Usage:
+
+        biome id
+
+    Notes:
+
+        Sets the biome id. Can be an int or String.
+
+
+
+setGeneratorOptions:
+
+    Arguments:
+
+        String
+
+    Usage:
+
+        generator string
+
+    Notes:
+
+        Sets the generator options string.
+
+
+
+setCount:
+
+    Arguments:
+
+        int
+
+    Usage:
+
+        count
+
+    Notes:
+
+        Sets the number of times this criteria must be completed before it counts towards advancement progress.
+
+
+
+getPlayerData:
+
+    Notes:
+
+        Gets the PlayerData for the criteria. Can set many things to test against the player themselves.
+
+
+

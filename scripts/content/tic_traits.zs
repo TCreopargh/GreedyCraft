@@ -226,7 +226,7 @@ visionTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSelected)
     if(owner instanceof IEntityLivingBase) {
         var ownerBase as IEntityLivingBase = owner;
         if(isSelected) {
-            ownerBase.addPotionEffect(<potion:minecraft:night_vision>.makePotionEffect(250, 0, false, false));
+            ownerBase.addPotionEffect(<potion:minecraft:night_vision>.makePotionEffect(410, 0, false, false));
         } else {
             if(!isNull(ownerBase.getActivePotionEffect(<potion:minecraft:night_vision>)) && (!(ownerBase.getActivePotionEffect(<potion:minecraft:night_vision>).duration > 250)) && (!ownerBase.getActivePotionEffect(<potion:minecraft:night_vision>).isAmbient) && (!ownerBase.getActivePotionEffect(<potion:minecraft:night_vision>).doesShowParticles)) {
                 ownerBase.removePotionEffect(<potion:minecraft:night_vision>);
@@ -276,10 +276,10 @@ sacrificialTrait.localizedDescription = (
     "§f每次攻击时按比例消耗自身生命值造成巨量伤害。生命值越高，消耗越多，伤害越高。");
 sacrificialTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
     var sacrifice as float = attacker.maxHealth * 0.1 as float;
-    var source as IDamageSource = crafttweaker.damage.IDamageSource.GENERIC();
+    var source as IDamageSource = crafttweaker.damage.IDamageSource.OUT_OF_WORLD();
     source.setDamageIsAbsolute();
     attacker.attackEntityFrom(source, sacrifice);
-    return newDamage + sacrifice * 20.0 as float; 
+    return newDamage + sacrifice * 10.0 as float; 
 };
 sacrificialTrait.register();
 

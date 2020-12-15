@@ -38,7 +38,9 @@ val descriptions as string[IIngredient] = {
     <additions:greedycraft-purifying_dust> : "这种粉尘可以像白雏菊一样净化方块，不过可以一次性净化很大一片。",
     <additions:protonium_ingot> : "使用中子素粒、质能转换核心和紫物质合成，此过程不消耗质能转换核心。",
     <cyclicmagic:heart_food> : "更高级的心之容器。可以使用普通心之容器合成，不过同样具有上限。",
-    <scalinghealth:heartcontainer> : "§0心之容器可以提高你的生命值上限。不过有最大使用次数限制。如果达到了限制，你将无法继续使用心之容器，不过可以用这种心之容器合成§4心之容器EX§0，高级心之容器有独立计算的生命值提高上限。"
+    <scalinghealth:heartcontainer> : "§0心之容器可以提高你的生命值上限。不过有最大使用次数限制。如果达到了限制，你将无法继续使用心之容器，不过可以用这种心之容器合成§4心之容器EX§0，高级心之容器有独立计算的生命值提高上限。",
+    <projecte:item.pe_transmutation_tablet> : "带有NBT的此物品无法参与聚合合成，请将其放入工作台以清除NBT。",
+    <projectex:arcane_tablet> : "注意：带有NBT的便携式转换桌无法用于合成此物品，如果无法合成请将便携式转化桌放入工作台以清除其NBT。"
 } as string[IIngredient];
 
 val hides as IIngredient[] = [

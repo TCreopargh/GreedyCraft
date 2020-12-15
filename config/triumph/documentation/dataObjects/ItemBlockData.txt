@@ -1,0 +1,13 @@
+This is the generic data object which is used for all item/block variables.
+
+
+
+The syntax for one of these data objects can be generated using the command `/bnb hand` for an item, or `/bnb block` for a block.
+
+
+
+All numbers can be written as ranges as well as single numbers. `meta:0` means only meta 0. `meta:0~4` means meta 0 to 4.
+
+
+
+No variables are required, and any which are missing are counted as any. Be sure to remove any variables you don't care about!

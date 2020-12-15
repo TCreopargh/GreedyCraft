@@ -26,8 +26,7 @@
 	{
 		uid: "c51bdcc3",
 		type: "item",
-		item: "cyclicmagic:heart_food",
-		count: 1
+		item: "cyclicmagic:heart_food"
 	},
 	{
 		uid: "8399fb22",

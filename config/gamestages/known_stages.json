@@ -66,5 +66,6 @@
 	"expert",
 	"creative",
 	"hide_death_quotes",
-	"iswuss"
+    "iswuss",
+    "first_join_message_shown"
 ]

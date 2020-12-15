@@ -278,19 +278,5 @@
 		uid: "bf61ff4c",
 		type: "loot",
 		table: 1
-	},
-	{
-		uid: "80cb5942",
-		type: "item",
-		item: {
-			id: "minecraft:written_book",
-			tag: {
-				pages: [
-					"{\"text\":\"§c实验记录  §6#3\\n\\n§0我们在发出信号的时候遭到了来源不明的干扰。目前我们仍然没有收到来自Alpha的回复，Alpha的性质仍然不明。\\n不过我仍然相信Alpha是某种智慧生命体。我会继续尝试与Alpha沟通，看看能不能得到回复。\\n另外，可以尝试将实验记录发送给Alpha。虽然这可能不太好，但至少能让他知道我们在干什么。\\n\\n§9研究员：§6K\"}"
-				],
-				author: "K",
-				title: "§b实验记录 §e#3"
-			}
-		}
 	}]
 }

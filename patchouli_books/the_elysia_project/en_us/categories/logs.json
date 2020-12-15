@@ -1,0 +1,6 @@
+{
+	"name": "§3日志",
+	"description": "自埃拉西亚计划提出之日起，应保持记录日志，以叙述计划的最新进展和情况。$(br)$(4)注意：部分日志仅对特定权限的人群查看。锁上的日志会根据游戏进度解锁。你可以在进度系统中查看详情。",
+	"icon": "additions:greedycraft-experiment_note",
+	"sortnum": 3
+}

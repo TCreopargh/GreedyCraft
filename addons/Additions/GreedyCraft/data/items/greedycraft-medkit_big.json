@@ -5,18 +5,17 @@
     "§7并获得40秒的生命恢复III效果",
     "§7同时回复32点生命值"
   ],
-  "max_stack": 64,
   "hunger": 0,
   "saturation": 0.0,
   "always_edible": true,
-  "eat_time": 16,
+  "eat_time": 60,
   "is_drink": true,
   "eaten_effects": [
     {
       "potion": {
         "name": "minecraft:instant_health",
         "duration": 1,
-        "amplifier": 3,
+        "amplifier": 2,
         "ambient": false,
         "show_particles": true
       },
@@ -26,7 +25,7 @@
       "potion": {
         "name": "minecraft:regeneration",
         "duration": 800,
-        "amplifier": 2,
+        "amplifier": 1,
         "ambient": false,
         "show_particles": true
       },

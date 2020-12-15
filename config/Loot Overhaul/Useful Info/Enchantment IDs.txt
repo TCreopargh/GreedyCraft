@@ -232,15 +232,15 @@ endercore:autosmelt
    - Max Level: 1
 
 
-enderio:witherweapon
+enderio:soulbound
    - Id: 28
-   - Rarity: UNCOMMON
+   - Rarity: VERY_RARE
    - Treasure: false
    - Min Level: 1
    - Max Level: 1
 
 
-enderio:witherarrow
+enderio:witherweapon
    - Id: 29
    - Rarity: UNCOMMON
    - Treasure: false
@@ -248,20 +248,20 @@ enderio:witherarrow
    - Max Level: 1
 
 
-enderio:soulbound
+enderio:repellent
    - Id: 30
    - Rarity: VERY_RARE
    - Treasure: false
    - Min Level: 1
-   - Max Level: 1
+   - Max Level: 4
 
 
-enderio:repellent
+enderio:witherarrow
    - Id: 31
-   - Rarity: VERY_RARE
+   - Rarity: UNCOMMON
    - Treasure: false
    - Min Level: 1
-   - Max Level: 4
+   - Max Level: 1
 
 
 minecraft:efficiency

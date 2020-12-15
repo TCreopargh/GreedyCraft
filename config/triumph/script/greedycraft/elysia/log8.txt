@@ -1,0 +1,21 @@
+setIcon(<additions:greedycraft-experiment_note>)
+
+setTitle("埃拉西亚日志#8")
+
+setDescription("要解锁该日志，你需要获得混沌核心")
+
+addParent("greedycraft:elysia/log7")
+
+setPos(240,100)
+
+alwaysVisible()
+
+drawDirectLines(true)
+
+setShowToast(false)
+
+setAnnounceToChat(false)
+
+criteriaLog8 = addCriteria("gc_stage_chaotic", "triumph:gamestage")
+
+criteriaLog8.setStage("chaotic")

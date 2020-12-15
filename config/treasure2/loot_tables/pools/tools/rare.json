@@ -1,0 +1,61 @@
+{
+	"version": "1.0",
+	"pools": [
+		{
+			"name": "rare_tools",
+			"rolls": 1,
+			"entries": [
+				{
+					"entryName": "iron_sword",
+					"type": "item",
+					"name": "minecraft:iron_sword",
+					"weight": 35	,
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 30,
+							"treasure": true
+						},					
+						{
+							"function": "enchant_randomly"
+						}
+					]					
+				},
+				{
+					"entryName": "diamond_sword",
+					"type": "item",
+					"name": "minecraft:diamond_sword",
+					"weight": 50,
+					"functions": [
+						{
+							"function": "enchant_randomly"
+						}					
+					]					
+				},
+
+				{
+					"entryName": "diamond_pickaxe",
+					"type": "item",
+					"name": "minecraft:diamond_pickaxe",
+					"weight": 50,
+					"functions": [
+						{
+							"function": "enchant_randomly"
+						}					
+					]		
+				},	
+				{
+					"entryName": "diamond_axe",
+					"type": "item",
+					"name": "minecraft:diamond_axe",
+					"weight": 50,
+					"functions": [
+						{
+							"function": "enchant_randomly"
+						}					
+					]
+				}
+			]
+		}
+	]
+}

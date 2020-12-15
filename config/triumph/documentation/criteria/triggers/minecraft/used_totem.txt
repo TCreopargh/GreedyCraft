@@ -1,0 +1,48 @@
+These are the functions which can be called on a minecraft:used_totem criteria trigger.
+
+
+
+
+
+
+
+setItem:
+
+    Arguments:
+
+        ItemBlockData
+
+    Usage:
+
+        item data
+
+    Notes:
+
+        Sets the required item.
+
+
+
+setCount:
+
+    Arguments:
+
+        int
+
+    Usage:
+
+        count
+
+    Notes:
+
+        Sets the number of times this criteria must be completed before it counts towards advancement progress.
+
+
+
+getPlayerData:
+
+    Notes:
+
+        Gets the PlayerData for the criteria. Can set many things to test against the player themselves.
+
+
+

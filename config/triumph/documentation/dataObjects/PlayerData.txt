@@ -1,0 +1,240 @@
+These are the functions which can be called on an PlayerData object.
+
+
+
+
+
+
+
+setGamestage:
+
+    Arguments:
+
+        String
+
+    Usage:
+
+        gamestage
+
+    Notes:
+
+        Sets the required gamestage for the player.
+
+
+
+getInventoryData:
+
+    Notes:
+
+        Returns the InventoryData object for the player
+
+
+
+setUUID:
+
+    Arguments:
+
+        String
+
+    Usage:
+
+        UUID
+
+    Notes:
+
+        Sets the required UUID for the player.
+
+
+
+setEquipmentSlot:
+
+    Arguments:
+
+        String, ItemBlockData
+
+    Usage:
+
+        slot, item
+
+    Notes:
+
+        Sets the required item for the provided equipment slot. Slot options are "mainhand", "offhand", "feet", "legs", "chest", "head".
+
+
+
+setEquipmentSlotEmpty:
+
+    Arguments:
+
+        String
+
+    Usage:
+
+        slot
+
+    Notes:
+
+        Requires the provided slot be empty. Slot options are "mainhand", "offhand", "feet", "legs", "chest", "head".
+
+
+
+setFeature:
+
+    Arguments:
+
+        String
+
+    Usage:
+
+        feature id
+
+    Notes:
+
+        Sets the feature id. Used for things like structures.
+
+
+
+setDimID:
+
+    Arguments:
+
+        int
+
+    Usage:
+
+        dimension id
+
+    Notes:
+
+        Sets the dimension id.
+
+
+
+getDistanceData:
+
+    Notes:
+
+        Returns the DistanceData object so functions can be called on it.
+
+
+
+getLocationData:
+
+    Notes:
+
+        Returns the LocationData object so functions can be called on it.
+
+
+
+setDimensionType:
+
+    Arguments:
+
+        String
+
+    Usage:
+
+        dimension type
+
+    Notes:
+
+        Sets the dimension type. Vanilla options are "overworld", "the_nether", "the_end"
+
+
+
+setWorldType:
+
+    Arguments:
+
+        String
+
+    Usage:
+
+        WorldType id
+
+    Notes:
+
+        Sets the WorldType id.
+
+
+
+setScoreboard:
+
+    Arguments:
+
+        String, Float, Float
+
+    Usage:
+
+        score name, min score, max score
+
+    Notes:
+
+        Sets a required scoreboard score.
+
+
+
+setBiome:
+
+    Arguments:
+
+        Non_Null_Biome_ID
+
+    Usage:
+
+        biome id
+
+    Notes:
+
+        Sets the biome id. Can be an int or String.
+
+
+
+setName:
+
+    Arguments:
+
+        String
+
+    Usage:
+
+        name
+
+    Notes:
+
+        Sets the required name for the entity.
+
+
+
+setType:
+
+    Arguments:
+
+        String
+
+    Usage:
+
+        entity type
+
+    Notes:
+
+        Sets the entity type.
+
+
+
+setGeneratorOptions:
+
+    Arguments:
+
+        String
+
+    Usage:
+
+        generator string
+
+    Notes:
+
+        Sets the generator options string.
+
+
+

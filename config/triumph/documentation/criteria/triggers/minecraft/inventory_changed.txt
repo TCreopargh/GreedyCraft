@@ -1,0 +1,194 @@
+These are the functions which can be called on a minecraft:inventory_changed criteria 
+
+trigger.
+
+
+
+
+
+
+
+setOccupiedMin:
+
+    Arguments:
+
+        float
+
+    Usage:
+
+        min
+
+    Notes:
+
+        Sets the min value for occupied inventory slots.
+
+
+
+setOccupiedMax:
+
+    Arguments:
+
+        float
+
+    Usage:
+
+        max
+
+    Notes:
+
+        Sets the max value for occupied inventory slots.
+
+
+
+setFullMinMax:
+
+    Arguments:
+
+        float, float
+
+    Usage:
+
+        min, max
+
+    Notes:
+
+        Sets the min and max values for full inventory slots.
+
+
+
+setFullMax:
+
+    Arguments:
+
+        float
+
+    Usage:
+
+        max
+
+    Notes:
+
+        Sets the max value for full inventory slots.
+
+
+
+setFullMin:
+
+    Arguments:
+
+        float
+
+    Usage:
+
+        min
+
+    Notes:
+
+        Sets the min value for full inventory slots.
+
+
+
+setEmptyMin:
+
+    Arguments:
+
+        float
+
+    Usage:
+
+        min
+
+    Notes:
+
+        Sets the min value for empty inventory slots.
+
+
+
+setEmptyMax:
+
+    Arguments:
+
+        float
+
+    Usage:
+
+        max
+
+    Notes:
+
+        Sets the max value for empty inventory slots.
+
+
+
+setEmptyMinMax:
+
+    Arguments:
+
+        float, float
+
+    Usage:
+
+        min, max
+
+    Notes:
+
+        Sets the min and max values for empty inventory slots.
+
+
+
+addItem:
+
+    Arguments:
+
+        ItemBlockData
+
+    Usage:
+
+        item data
+
+    Notes:
+
+        Adds a required item.
+
+
+
+setOccupiedMinMax:
+
+    Arguments:
+
+        float, float
+
+    Usage:
+
+        min, max
+
+    Notes:
+
+        Sets the min and max values for occupied inventory slots.
+
+
+
+setCount:
+
+    Arguments:
+
+        int
+
+    Usage:
+
+        count
+
+    Notes:
+
+        Sets the number of times this criteria must be completed before it counts towards advancement progress.
+
+
+
+getPlayerData:
+
+    Notes:
+
+        Gets the PlayerData for the criteria. Can set many things to test against the player themselves.
+
+
+
