@@ -334,7 +334,20 @@ val removedRecipes as IIngredient[] = [
     <extrautils2:quarry>,
     <extrautils2:quarryproxy>,
     <thaumadditions:thaumic_lectern>,
-    <cyclicmagic:tool_push>
+    <cyclicmagic:tool_push>,
+    <mekanismgenerators:generator:10>,
+    <twilightforest:charm_of_keeping_2>,
+    <twilightforest:charm_of_keeping_3>,
+    <bloodmagic:altar>,
+    <mekanism:basicblock2:7>,
+    <mekanism:controlcircuit:1>,
+    <mekanism:controlcircuit:2>,
+    <mekanism:controlcircuit:3>,
+    <actuallyadditions:item_misc:8>,
+    <actuallyadditions:block_phantomface>,
+    <extrautils2:user>,
+    <cyclicmagic:block_user>,
+    <openmodularturrets:turret_base:*>
 ];
 
 val removedRecipeNames as string[] = [

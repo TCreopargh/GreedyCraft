@@ -19,6 +19,7 @@ import crafttweaker.world.IBlockPos;
 import crafttweaker.block.IBlockState;
 import crafttweaker.potions.IPotionEffect;
 import crafttweaker.world.IFacing;
+import crafttweaker.command.ICommandSender;
 
 import mods.ctutils.utils.Math;
 import mods.ctutils.world.IGameRules;
@@ -93,7 +94,7 @@ events.onEntityLivingDeath(function (event as crafttweaker.event.EntityLivingDea
         var deathMsg as string = damageSource.getDeathMessage(player);
         deathMsg = deathMsg.replace(player.name, "§e" + player.name + "§7");
         if(!isNull(damageSource.getTrueSource()) && damageSource.getTrueSource() instanceof IEntityLivingBase) {
-            var name as string = damageSource.getTrueSource().definition.name;
+            var name as string = damageSource.getTrueSource().displayName;
             if(damageSource.getTrueSource().hasCustomName) {
                 name = damageSource.getTrueSource().customName;
             }
@@ -101,6 +102,7 @@ events.onEntityLivingDeath(function (event as crafttweaker.event.EntityLivingDea
         }
         deathMsg = " §c☠ §7" + deathMsg;
         deathMsg = deathMsg.replace("§r", "§7");
+        deathMsg = deathMsg + " §9@ §7(§3" + Math.floor(player.x) as int + "§7, §3" + Math.floor(player.y) as int + "§7, §3" + Math.floor(player.z) as int + "§7)";
 
         server.commandManager.executeCommand(server, "/broadcast " + deathMsg);
 

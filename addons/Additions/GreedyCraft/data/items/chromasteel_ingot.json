@@ -1,0 +1,6 @@
+{
+  "name": "§d炫钢锭",
+  "is_beacon_payment": true,
+  "ore_dict": "ingotChromasteel",
+  "type": "additions:simple"
+}

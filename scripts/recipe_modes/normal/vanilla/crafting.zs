@@ -39,9 +39,9 @@ recipes.addShaped("auto_gen_-226107769", <additions:greedycraft-twilight_gem>, [
 ]);
 
 recipes.addShaped("auto_gen_-1501549292", <additions:greedycraft-ender_charm>, [
-    [<ore:pearlEnderEye>, <ore:gaiaIngot>, <ore:pearlEnderEye>],
+    [<ore:pearlEnderEye>, <ore:ingotDurasteel>, <ore:pearlEnderEye>],
     [<ore:ingotDreadium>, <ore:netherStar>, <ore:ingotDreadium>],
-    [<ore:pearlEnderEye>, <ore:gaiaIngot>, <ore:pearlEnderEye>]
+    [<ore:pearlEnderEye>, <ore:ingotDurasteel>, <ore:pearlEnderEye>]
 ]);
 
 recipes.addShaped("auto_gen_-1473452503", <additions:greedycraft-twilight_shield>, [

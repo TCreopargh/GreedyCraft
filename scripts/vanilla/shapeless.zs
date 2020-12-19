@@ -163,6 +163,7 @@ recipes.addShapeless("emc_tablet_clear_nbt", <projecte:item.pe_transmutation_tab
 recipes.addShapeless("black_quartz_block", <actuallyadditions:block_misc:2>, [<ore:gemQuartzBlack>, <ore:gemQuartzBlack>, <ore:gemQuartzBlack>, <ore:gemQuartzBlack>]);
 recipes.addShapeless("forestry_resource_2", <magicbees:resource:2> * 4, [<ore:itemBiomassRich>, <ore:itemBiomassRich>, <ore:itemBiomassRich>, <ore:itemBiomassRich>]);
 recipes.addShapeless("eternal_singularity_dupe", <eternalsingularity:eternal_singularity> * 2, [<eternalsingularity:eternal_singularity>, <additions:greedycraft-black_hole_remnant>, <additions:greedycraft-black_hole_remnant>]);
+recipes.addShapeless("advanced_coil", <actuallyadditions:item_misc:8>, [<actuallyadditions:item_misc:7>, <ore:ingotDurasteel>]);
 
 /* Template
 

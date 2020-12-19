@@ -1,0 +1,16 @@
+{
+  "item_block": {
+    "name": "§d炫钢块",
+    "ore_dict": "blockChromasteel",
+    "type": "additions:block_simple"
+  },
+  "name": "§d炫钢块",
+  "material": "minecraft:metal",
+  "map_color": "minecraft:tnt",
+  "hardness": 60.0,
+  "resistance": 100000.0,
+  "harvest_level": 9,
+  "harvest_tool": "pickaxe",
+  "is_beacon_base": true,
+  "type": "additions:simple"
+}

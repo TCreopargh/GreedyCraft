@@ -3,33 +3,64 @@
     "localizedname": "有机提取机",
     "color": "ec407a",
     "modifiers": [
-       {
-           "elements": "modularmachinery:blockcasing@1",
-           "x": 0,
-           "y": 1,
-           "z": 0,
-           "description": "将控制器上方的紧挨着的方块换成机械通风口以提高有机液产出率！",
-           "modifier": {
-               "io": "output",
-               "target": "fluid",
-               "operation": 1,
-               "multiplier": 1.5
-           }
-       }
-   ],
+        {
+            "elements": "modularmachinery:blockcasing@1",
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "description": "将控制器上方的紧挨着的方块换成机械升级方块以提高有机液产出率！",
+            "modifier": {
+                "io": "output",
+                "target": "fluid",
+                "operation": 1,
+                "multiplier": 1.25
+            }
+        },
+        {
+            "elements": "modularmachinery:blockcasing@2",
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "description": "将控制器上方的紧挨着的方块换成机械升级方块以提高有机液产出率！",
+            "modifier": {
+                "io": "output",
+                "target": "fluid",
+                "operation": 1,
+                "multiplier": 1.5
+            }
+        },
+        {
+            "elements": "modularmachinery:blockcasing@3",
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "description": "将控制器上方的紧挨着的方块换成机械升级方块以提高有机液产出率！",
+            "modifier": {
+                "io": "output",
+                "target": "fluid",
+                "operation": 1,
+                "multiplier": 2.0
+            }
+        },
+        {
+            "elements": "modularmachinery:blockcasing@5",
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "description": "将控制器上方的紧挨着的方块换成机械升级方块以提高有机液产出率！",
+            "modifier": {
+                "io": "output",
+                "target": "fluid",
+                "operation": 1,
+                "multiplier": 2.5
+            }
+        }
+    ],
     "parts": [
-		{
-            "x": [
-                1,
-                0,
-                -1
-            ],
+        {
+            "x": [1, 0, -1],
             "y": -1,
-            "z": [
-                3,
-                2,
-                1
-            ],
+            "z": [3, 2, 1],
             "elements": "contenttweaker:organic_fluid"
         },
         {
@@ -48,17 +79,13 @@
             "x": 1,
             "y": 2,
             "z": 1,
-            "elements": [
-                "minecraft:glass@0"
-            ]
+            "elements": ["minecraft:glass@0"]
         },
         {
             "x": -1,
             "y": 2,
             "z": 3,
-            "elements": [
-                "minecraft:glass@0"
-            ]
+            "elements": ["minecraft:glass@0"]
         },
         {
             "x": 1,
@@ -70,33 +97,25 @@
             "x": 0,
             "y": 2,
             "z": 3,
-            "elements": [
-                "minecraft:glass@0"
-            ]
+            "elements": ["minecraft:glass@0"]
         },
         {
             "x": -1,
             "y": -2,
             "z": 1,
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
+            "elements": ["modularmachinery:blockcasing@0"]
         },
         {
             "x": 1,
             "y": 2,
             "z": 3,
-            "elements": [
-                "minecraft:glass@0"
-            ]
+            "elements": ["minecraft:glass@0"]
         },
         {
             "x": 0,
             "y": -2,
             "z": 1,
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
+            "elements": ["modularmachinery:blockcasing@0"]
         },
         {
             "x": -1,
@@ -108,17 +127,13 @@
             "x": 1,
             "y": -2,
             "z": 1,
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
+            "elements": ["modularmachinery:blockcasing@0"]
         },
         {
             "x": -1,
             "y": -2,
             "z": 3,
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
+            "elements": ["modularmachinery:blockcasing@0"]
         },
         {
             "x": 0,
@@ -136,9 +151,7 @@
             "x": 0,
             "y": -2,
             "z": 3,
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
+            "elements": ["modularmachinery:blockcasing@0"]
         },
         {
             "x": 1,
@@ -150,129 +163,97 @@
             "x": 1,
             "y": -2,
             "z": 3,
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
+            "elements": ["modularmachinery:blockcasing@0"]
         },
         {
             "x": 1,
             "y": -1,
             "z": 0,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
+            "elements": ["modularmachinery:blockcasing@4"]
         },
         {
             "x": -1,
             "y": 1,
             "z": 0,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
+            "elements": ["modularmachinery:blockcasing@4"]
         },
         {
             "x": 0,
             "y": -1,
             "z": 0,
-            "elements": [
-                "mysticalagriculture:storage@3"
-            ]
+            "elements": ["mysticalagriculture:storage@3"]
         },
         {
             "x": -2,
             "y": 1,
             "z": 2,
-            "elements": [
-                "mysticalagriculture:storage@3"
-            ]
+            "elements": ["mysticalagriculture:storage@3"]
         },
         {
             "x": 0,
             "y": 1,
             "z": 0,
-            "elements": [
-                "mysticalagriculture:storage@3"
-            ]
+            "elements": ["mysticalagriculture:storage@3"]
         },
         {
             "x": -1,
             "y": -1,
             "z": 0,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
+            "elements": ["modularmachinery:blockcasing@4"]
         },
         {
             "x": 1,
             "y": 1,
             "z": 0,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
+            "elements": ["modularmachinery:blockcasing@4"]
         },
         {
             "x": -2,
             "y": -1,
             "z": 1,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
+            "elements": ["modularmachinery:blockcasing@4"]
         },
         {
             "x": -1,
             "y": 1,
             "z": 4,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
+            "elements": ["modularmachinery:blockcasing@4"]
         },
         {
             "x": -2,
             "y": -1,
             "z": 3,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
+            "elements": ["modularmachinery:blockcasing@4"]
         },
         {
             "x": 0,
             "y": 1,
             "z": 4,
-            "elements": [
-                "mysticalagriculture:storage@3"
-            ]
+            "elements": ["mysticalagriculture:storage@3"]
         },
         {
             "x": 2,
             "y": 1,
             "z": 2,
-            "elements": [
-                "mysticalagriculture:storage@3"
-            ]
+            "elements": ["mysticalagriculture:storage@3"]
         },
         {
             "x": 1,
             "y": 1,
             "z": 4,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
+            "elements": ["modularmachinery:blockcasing@4"]
         },
         {
             "x": 2,
             "y": -1,
             "z": 1,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
+            "elements": ["modularmachinery:blockcasing@4"]
         },
         {
             "x": 2,
             "y": -1,
             "z": 3,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
+            "elements": ["modularmachinery:blockcasing@4"]
         },
         {
             "x": -2,
@@ -284,17 +265,13 @@
             "x": -1,
             "y": 2,
             "z": 2,
-            "elements": [
-                "minecraft:glass@0"
-            ]
+            "elements": ["minecraft:glass@0"]
         },
         {
             "x": 0,
             "y": 2,
             "z": 2,
-            "elements": [
-                "minecraft:glass@0"
-            ]
+            "elements": ["minecraft:glass@0"]
         },
         {
             "x": -2,
@@ -306,17 +283,13 @@
             "x": 1,
             "y": 2,
             "z": 2,
-            "elements": [
-                "minecraft:glass@0"
-            ]
+            "elements": ["minecraft:glass@0"]
         },
         {
             "x": -1,
             "y": -2,
             "z": 2,
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
+            "elements": ["modularmachinery:blockcasing@0"]
         },
         {
             "x": 2,
@@ -328,17 +301,13 @@
             "x": 0,
             "y": -2,
             "z": 2,
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
+            "elements": ["modularmachinery:blockcasing@0"]
         },
         {
             "x": 1,
             "y": -2,
             "z": 2,
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
+            "elements": ["modularmachinery:blockcasing@0"]
         },
         {
             "x": 2,
@@ -350,88 +319,67 @@
             "x": -2,
             "y": 1,
             "z": 1,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
+            "elements": ["modularmachinery:blockcasing@4"]
         },
         {
             "x": -2,
             "y": 1,
             "z": 3,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
+            "elements": ["modularmachinery:blockcasing@4"]
         },
         {
             "x": -2,
             "y": -1,
             "z": 2,
-            "elements": [
-                "mysticalagriculture:storage@3"
-            ]
+            "elements": ["mysticalagriculture:storage@3"]
         },
         {
             "x": 2,
             "y": 1,
             "z": 1,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
+            "elements": ["modularmachinery:blockcasing@4"]
         },
         {
             "x": 2,
             "y": 1,
             "z": 3,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
+            "elements": ["modularmachinery:blockcasing@4"]
         },
         {
             "x": -1,
             "y": -1,
             "z": 4,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
+            "elements": ["modularmachinery:blockcasing@4"]
         },
         {
             "x": 2,
             "y": -1,
             "z": 2,
-            "elements": [
-                "mysticalagriculture:storage@3"
-            ]
+            "elements": ["mysticalagriculture:storage@3"]
         },
         {
             "x": 0,
             "y": -1,
             "z": 4,
-            "elements": [
-                "mysticalagriculture:storage@3"
-            ]
+            "elements": ["mysticalagriculture:storage@3"]
         },
         {
             "x": 1,
             "y": -1,
             "z": 4,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
+            "elements": ["modularmachinery:blockcasing@4"]
         },
         {
             "x": -1,
             "y": 2,
             "z": 1,
-            "elements": [
-                "minecraft:glass@0"
-            ]
+            "elements": ["minecraft:glass@0"]
         },
         {
             "x": 0,
             "y": 2,
             "z": 1,
-            "elements": [
-                "minecraft:glass@0"
-            ]
+            "elements": ["minecraft:glass@0"]
         }
-    ]}
+    ]
+}

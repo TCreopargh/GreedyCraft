@@ -280,7 +280,7 @@ recipes.addShaped("auto_gen_-1579945966", <simplesmelteryaccelerator:smeltery_ac
     [<tconstruct:ingots:2>, <minecraft:diamond_block>, <tconstruct:ingots:2>],
     [<tconstruct:materials>, <tconstruct:ingots:2>, <tconstruct:materials>]
 ]);
-recipes.addShaped("auto_gen_1084804943", <mekanismgenerators:generator:6> * 10, [
+recipes.addShaped("auto_gen_1084804943", <mekanismgenerators:generator:6> * 8, [
     [null, <mekanism:enrichedalloy>, null],
     [<mekanism:enrichedalloy>, <ore:shardCreative>, <mekanism:enrichedalloy>],
     [<mekanism:energytablet>, <mekanism:controlcircuit>, <mekanism:energytablet>]
@@ -372,7 +372,7 @@ recipes.addShaped("auto_gen_-893381298", <draconicevolution:grinder>, [
 ]);
 recipes.addShaped("auto_gen_-1988060210", <extrautils2:rainbowgenerator>, [
     [<additions:greedycraft-aurora_heart>, <extrautils2:rainbowgenerator:2>, <additions:greedycraft-aurora_heart>],
-    [<ore:soulCreative>, <ore:soulCreative>, <ore:soulCreative>],
+    [<ore:soulCreative>, <ore:blockChromasteel>, <ore:soulCreative>],
     [<additions:greedycraft-aurora_heart>, <extrautils2:rainbowgenerator:1>, <additions:greedycraft-aurora_heart>]
 ]);
 recipes.addShaped("auto_gen_-360710734", <extrautils2:chickenring>, [
@@ -584,7 +584,7 @@ recipes.addShaped("auto_gen_-138403773", <additions:greedycraft-cryonium_block>,
     [<ore:ingotCryonium>, <ore:ingotCryonium>, <ore:ingotCryonium>]
 ]);
 recipes.addShaped("auto_gen_100207823", <additions:greedycraft-beast_hand>, [
-    [null, <ore:blockSnow>, null],
+    [<ore:ingotAeonsteel>, <ore:blockSnow>, <ore:ingotAeonsteel>],
     [<twilightforest:alpha_fur>, <ore:dustDraconium>, <twilightforest:alpha_fur>],
     [null, <twilightforest:alpha_fur>, null]
 ]);
@@ -811,19 +811,19 @@ recipes.addShaped("blockinputbus_3", <modularmachinery:blockinputbus:3>, [
     [<ore:ingotModularium>, <ore:ingotStainlessSteel>, <ore:ingotModularium>]
 ]);
 recipes.addShaped("blockinputbus_4", <modularmachinery:blockinputbus:4>, [
-    [<ore:ingotModularium>, <ore:ingotCrystallineAlloy>, <ore:ingotModularium>],
-    [<ore:ingotCrystallineAlloy>, <modularmachinery:blockinputbus:3>, <ore:ingotCrystallineAlloy>],
-    [<ore:ingotModularium>, <ore:ingotCrystallineAlloy>, <ore:ingotModularium>]
+    [<ore:ingotModularium>, <ore:ingotDurasteel>, <ore:ingotModularium>],
+    [<ore:ingotDurasteel>, <modularmachinery:blockinputbus:3>, <ore:ingotDurasteel>],
+    [<ore:ingotModularium>, <ore:ingotDurasteel>, <ore:ingotModularium>]
 ]);
 recipes.addShaped("blockinputbus_5", <modularmachinery:blockinputbus:5>, [
-    [<ore:ingotModularium>, <ore:ingotEnderium>, <ore:ingotModularium>],
-    [<ore:ingotEnderium>, <modularmachinery:blockinputbus:4>, <ore:ingotEnderium>],
-    [<ore:ingotModularium>, <ore:ingotEnderium>, <ore:ingotModularium>]
+    [<ore:ingotModularium>, <ore:ingotAeonsteel>, <ore:ingotModularium>],
+    [<ore:ingotAeonsteel>, <modularmachinery:blockinputbus:4>, <ore:ingotAeonsteel>],
+    [<ore:ingotModularium>, <ore:ingotAeonsteel>, <ore:ingotModularium>]
 ]);
 recipes.addShaped("blockinputbus_6", <modularmachinery:blockinputbus:6>, [
-    [<ore:ingotModularium>, <ore:ingotFusionMatrix>, <ore:ingotModularium>],
-    [<ore:ingotFusionMatrix>, <modularmachinery:blockinputbus:5>, <ore:ingotFusionMatrix>],
-    [<ore:ingotModularium>, <ore:ingotFusionMatrix>, <ore:ingotModularium>]
+    [<ore:ingotModularium>, <ore:ingotChromasteel>, <ore:ingotModularium>],
+    [<ore:ingotChromasteel>, <modularmachinery:blockinputbus:5>, <ore:ingotChromasteel>],
+    [<ore:ingotModularium>, <ore:ingotChromasteel>, <ore:ingotModularium>]
 ]);
 recipes.addShaped("blockoutputbus_3", <modularmachinery:blockoutputbus:3>, [
     [<ore:ingotModularium>, <ore:ingotStainlessSteel>, <ore:ingotModularium>],
@@ -831,19 +831,19 @@ recipes.addShaped("blockoutputbus_3", <modularmachinery:blockoutputbus:3>, [
     [<ore:ingotModularium>, <ore:ingotStainlessSteel>, <ore:ingotModularium>]
 ]);
 recipes.addShaped("blockoutputbus_4", <modularmachinery:blockoutputbus:4>, [
-    [<ore:ingotModularium>, <ore:ingotCrystallineAlloy>, <ore:ingotModularium>],
-    [<ore:ingotCrystallineAlloy>, <modularmachinery:blockoutputbus:3>, <ore:ingotCrystallineAlloy>],
-    [<ore:ingotModularium>, <ore:ingotCrystallineAlloy>, <ore:ingotModularium>]
+    [<ore:ingotModularium>, <ore:ingotDurasteel>, <ore:ingotModularium>],
+    [<ore:ingotDurasteel>, <modularmachinery:blockoutputbus:3>, <ore:ingotDurasteel>],
+    [<ore:ingotModularium>, <ore:ingotDurasteel>, <ore:ingotModularium>]
 ]);
 recipes.addShaped("blockoutputbus_5", <modularmachinery:blockoutputbus:5>, [
-    [<ore:ingotModularium>, <ore:ingotEnderium>, <ore:ingotModularium>],
-    [<ore:ingotEnderium>, <modularmachinery:blockoutputbus:4>, <ore:ingotEnderium>],
-    [<ore:ingotModularium>, <ore:ingotEnderium>, <ore:ingotModularium>]
+    [<ore:ingotModularium>, <ore:ingotAeonsteel>, <ore:ingotModularium>],
+    [<ore:ingotAeonsteel>, <modularmachinery:blockoutputbus:4>, <ore:ingotAeonsteel>],
+    [<ore:ingotModularium>, <ore:ingotAeonsteel>, <ore:ingotModularium>]
 ]);
 recipes.addShaped("blockoutputbus_6", <modularmachinery:blockoutputbus:6>, [
-    [<ore:ingotModularium>, <ore:ingotFusionMatrix>, <ore:ingotModularium>],
-    [<ore:ingotFusionMatrix>, <modularmachinery:blockoutputbus:5>, <ore:ingotFusionMatrix>],
-    [<ore:ingotModularium>, <ore:ingotFusionMatrix>, <ore:ingotModularium>]
+    [<ore:ingotModularium>, <ore:ingotChromasteel>, <ore:ingotModularium>],
+    [<ore:ingotChromasteel>, <modularmachinery:blockoutputbus:5>, <ore:ingotChromasteel>],
+    [<ore:ingotModularium>, <ore:ingotChromasteel>, <ore:ingotModularium>]
 ]);
 recipes.addShaped("blockfluidinputhatch_3", <modularmachinery:blockfluidinputhatch:3>, [
     [<ore:ingotModularium>, <ore:ingotStainlessSteel>, <ore:ingotModularium>],
@@ -851,24 +851,24 @@ recipes.addShaped("blockfluidinputhatch_3", <modularmachinery:blockfluidinputhat
     [<ore:ingotModularium>, <ore:ingotStainlessSteel>, <ore:ingotModularium>]
 ]);
 recipes.addShaped("blockfluidinputhatch_4", <modularmachinery:blockfluidinputhatch:4>, [
-    [<ore:ingotModularium>, <ore:ingotCrystallineAlloy>, <ore:ingotModularium>],
-    [<ore:ingotCrystallineAlloy>, <modularmachinery:blockfluidinputhatch:3>, <ore:ingotCrystallineAlloy>],
-    [<ore:ingotModularium>, <ore:ingotCrystallineAlloy>, <ore:ingotModularium>]
+    [<ore:ingotModularium>, <ore:ingotDurasteel>, <ore:ingotModularium>],
+    [<ore:ingotDurasteel>, <modularmachinery:blockfluidinputhatch:3>, <ore:ingotDurasteel>],
+    [<ore:ingotModularium>, <ore:ingotDurasteel>, <ore:ingotModularium>]
 ]);
 recipes.addShaped("blockfluidinputhatch_5", <modularmachinery:blockfluidinputhatch:5>, [
-    [<ore:ingotModularium>, <ore:ingotEnderium>, <ore:ingotModularium>],
-    [<ore:ingotEnderium>, <modularmachinery:blockfluidinputhatch:4>, <ore:ingotEnderium>],
-    [<ore:ingotModularium>, <ore:ingotEnderium>, <ore:ingotModularium>]
+    [<ore:ingotModularium>, <ore:ingotAeonsteel>, <ore:ingotModularium>],
+    [<ore:ingotAeonsteel>, <modularmachinery:blockfluidinputhatch:4>, <ore:ingotAeonsteel>],
+    [<ore:ingotModularium>, <ore:ingotAeonsteel>, <ore:ingotModularium>]
 ]);
 recipes.addShaped("blockfluidinputhatch_6", <modularmachinery:blockfluidinputhatch:6>, [
-    [<ore:ingotModularium>, <ore:ingotFusionMatrix>, <ore:ingotModularium>],
-    [<ore:ingotFusionMatrix>, <modularmachinery:blockfluidinputhatch:5>, <ore:ingotFusionMatrix>],
-    [<ore:ingotModularium>, <ore:ingotFusionMatrix>, <ore:ingotModularium>]
+    [<ore:ingotModularium>, <ore:ingotChromasteel>, <ore:ingotModularium>],
+    [<ore:ingotChromasteel>, <modularmachinery:blockfluidinputhatch:5>, <ore:ingotChromasteel>],
+    [<ore:ingotModularium>, <ore:ingotChromasteel>, <ore:ingotModularium>]
 ]);
 recipes.addShaped("blockfluidinputhatch_7", <modularmachinery:blockfluidinputhatch:7>, [
-    [<ore:ingotModularium>, <ore:ingotTitanium>, <ore:ingotModularium>],
-    [<ore:ingotTitanium>, <modularmachinery:blockfluidinputhatch:5>, <ore:ingotTitanium>],
-    [<ore:ingotModularium>, <ore:ingotTitanium>, <ore:ingotModularium>]
+    [<ore:ingotModularium>, <ore:ingotCosmilite>, <ore:ingotModularium>],
+    [<ore:ingotCosmilite>, <modularmachinery:blockfluidinputhatch:5>, <ore:ingotCosmilite>],
+    [<ore:ingotModularium>, <ore:ingotCosmilite>, <ore:ingotModularium>]
 ]);
 recipes.addShaped("blockfluidoutputhatch_3", <modularmachinery:blockfluidoutputhatch:3>, [
     [<ore:ingotModularium>, <ore:ingotStainlessSteel>, <ore:ingotModularium>],
@@ -876,24 +876,24 @@ recipes.addShaped("blockfluidoutputhatch_3", <modularmachinery:blockfluidoutputh
     [<ore:ingotModularium>, <ore:ingotStainlessSteel>, <ore:ingotModularium>]
 ]);
 recipes.addShaped("blockfluidoutputhatch_4", <modularmachinery:blockfluidoutputhatch:4>, [
-    [<ore:ingotModularium>, <ore:ingotCrystallineAlloy>, <ore:ingotModularium>],
-    [<ore:ingotCrystallineAlloy>, <modularmachinery:blockfluidoutputhatch:3>, <ore:ingotCrystallineAlloy>],
-    [<ore:ingotModularium>, <ore:ingotCrystallineAlloy>, <ore:ingotModularium>]
+    [<ore:ingotModularium>, <ore:ingotDurasteel>, <ore:ingotModularium>],
+    [<ore:ingotDurasteel>, <modularmachinery:blockfluidoutputhatch:3>, <ore:ingotDurasteel>],
+    [<ore:ingotModularium>, <ore:ingotDurasteel>, <ore:ingotModularium>]
 ]);
 recipes.addShaped("blockfluidoutputhatch_5", <modularmachinery:blockfluidoutputhatch:5>, [
-    [<ore:ingotModularium>, <ore:ingotEnderium>, <ore:ingotModularium>],
-    [<ore:ingotEnderium>, <modularmachinery:blockfluidoutputhatch:4>, <ore:ingotEnderium>],
-    [<ore:ingotModularium>, <ore:ingotEnderium>, <ore:ingotModularium>]
+    [<ore:ingotModularium>, <ore:ingotAeonsteel>, <ore:ingotModularium>],
+    [<ore:ingotAeonsteel>, <modularmachinery:blockfluidoutputhatch:4>, <ore:ingotAeonsteel>],
+    [<ore:ingotModularium>, <ore:ingotAeonsteel>, <ore:ingotModularium>]
 ]);
 recipes.addShaped("blockfluidoutputhatch_6", <modularmachinery:blockfluidoutputhatch:6>, [
-    [<ore:ingotModularium>, <ore:ingotFusionMatrix>, <ore:ingotModularium>],
-    [<ore:ingotFusionMatrix>, <modularmachinery:blockfluidoutputhatch:5>, <ore:ingotFusionMatrix>],
-    [<ore:ingotModularium>, <ore:ingotFusionMatrix>, <ore:ingotModularium>]
+    [<ore:ingotModularium>, <ore:ingotChromasteel>, <ore:ingotModularium>],
+    [<ore:ingotChromasteel>, <modularmachinery:blockfluidoutputhatch:5>, <ore:ingotChromasteel>],
+    [<ore:ingotModularium>, <ore:ingotChromasteel>, <ore:ingotModularium>]
 ]);
 recipes.addShaped("blockfluidoutputhatch_7", <modularmachinery:blockfluidoutputhatch:7>, [
-    [<ore:ingotModularium>, <ore:ingotTitanium>, <ore:ingotModularium>],
-    [<ore:ingotTitanium>, <modularmachinery:blockfluidoutputhatch:5>, <ore:ingotTitanium>],
-    [<ore:ingotModularium>, <ore:ingotTitanium>, <ore:ingotModularium>]
+    [<ore:ingotModularium>, <ore:ingotCosmilite>, <ore:ingotModularium>],
+    [<ore:ingotCosmilite>, <modularmachinery:blockfluidoutputhatch:5>, <ore:ingotCosmilite>],
+    [<ore:ingotModularium>, <ore:ingotCosmilite>, <ore:ingotModularium>]
 ]);
 recipes.addShaped("blockenergyinputhatch_3", <modularmachinery:blockenergyinputhatch:3>, [
     [<ore:ingotModularium>, <ore:ingotStainlessSteel>, <ore:ingotModularium>],
@@ -901,24 +901,24 @@ recipes.addShaped("blockenergyinputhatch_3", <modularmachinery:blockenergyinputh
     [<ore:ingotModularium>, <ore:ingotStainlessSteel>, <ore:ingotModularium>]
 ]);
 recipes.addShaped("blockenergyinputhatch_4", <modularmachinery:blockenergyinputhatch:4>, [
-    [<ore:ingotModularium>, <ore:ingotCrystallineAlloy>, <ore:ingotModularium>],
-    [<ore:ingotCrystallineAlloy>, <modularmachinery:blockenergyinputhatch:3>, <ore:ingotCrystallineAlloy>],
-    [<ore:ingotModularium>, <ore:ingotCrystallineAlloy>, <ore:ingotModularium>]
+    [<ore:ingotModularium>, <ore:ingotDurasteel>, <ore:ingotModularium>],
+    [<ore:ingotDurasteel>, <modularmachinery:blockenergyinputhatch:3>, <ore:ingotDurasteel>],
+    [<ore:ingotModularium>, <ore:ingotDurasteel>, <ore:ingotModularium>]
 ]);
 recipes.addShaped("blockenergyinputhatch_5", <modularmachinery:blockenergyinputhatch:5>, [
-    [<ore:ingotModularium>, <ore:ingotEnderium>, <ore:ingotModularium>],
-    [<ore:ingotEnderium>, <modularmachinery:blockenergyinputhatch:4>, <ore:ingotEnderium>],
-    [<ore:ingotModularium>, <ore:ingotEnderium>, <ore:ingotModularium>]
+    [<ore:ingotModularium>, <ore:ingotAeonsteel>, <ore:ingotModularium>],
+    [<ore:ingotAeonsteel>, <modularmachinery:blockenergyinputhatch:4>, <ore:ingotAeonsteel>],
+    [<ore:ingotModularium>, <ore:ingotAeonsteel>, <ore:ingotModularium>]
 ]);
 recipes.addShaped("blockenergyinputhatch_6", <modularmachinery:blockenergyinputhatch:6>, [
-    [<ore:ingotModularium>, <ore:ingotFusionMatrix>, <ore:ingotModularium>],
-    [<ore:ingotFusionMatrix>, <modularmachinery:blockenergyinputhatch:5>, <ore:ingotFusionMatrix>],
-    [<ore:ingotModularium>, <ore:ingotFusionMatrix>, <ore:ingotModularium>]
+    [<ore:ingotModularium>, <ore:ingotChromasteel>, <ore:ingotModularium>],
+    [<ore:ingotChromasteel>, <modularmachinery:blockenergyinputhatch:5>, <ore:ingotChromasteel>],
+    [<ore:ingotModularium>, <ore:ingotChromasteel>, <ore:ingotModularium>]
 ]);
 recipes.addShaped("blockenergyinputhatch_7", <modularmachinery:blockenergyinputhatch:7>, [
-    [<ore:ingotModularium>, <ore:ingotTitanium>, <ore:ingotModularium>],
-    [<ore:ingotTitanium>, <modularmachinery:blockenergyinputhatch:5>, <ore:ingotTitanium>],
-    [<ore:ingotModularium>, <ore:ingotTitanium>, <ore:ingotModularium>]
+    [<ore:ingotModularium>, <ore:ingotCosmilite>, <ore:ingotModularium>],
+    [<ore:ingotCosmilite>, <modularmachinery:blockenergyinputhatch:5>, <ore:ingotCosmilite>],
+    [<ore:ingotModularium>, <ore:ingotCosmilite>, <ore:ingotModularium>]
 ]);
 recipes.addShaped("blockenergyoutputhatch_3", <modularmachinery:blockenergyoutputhatch:3>, [
     [<ore:ingotModularium>, <ore:ingotStainlessSteel>, <ore:ingotModularium>],
@@ -926,54 +926,54 @@ recipes.addShaped("blockenergyoutputhatch_3", <modularmachinery:blockenergyoutpu
     [<ore:ingotModularium>, <ore:ingotStainlessSteel>, <ore:ingotModularium>]
 ]);
 recipes.addShaped("blockenergyoutputhatch_4", <modularmachinery:blockenergyoutputhatch:4>, [
-    [<ore:ingotModularium>, <ore:ingotCrystallineAlloy>, <ore:ingotModularium>],
-    [<ore:ingotCrystallineAlloy>, <modularmachinery:blockenergyoutputhatch:3>, <ore:ingotCrystallineAlloy>],
-    [<ore:ingotModularium>, <ore:ingotCrystallineAlloy>, <ore:ingotModularium>]
+    [<ore:ingotModularium>, <ore:ingotDurasteel>, <ore:ingotModularium>],
+    [<ore:ingotDurasteel>, <modularmachinery:blockenergyoutputhatch:3>, <ore:ingotDurasteel>],
+    [<ore:ingotModularium>, <ore:ingotDurasteel>, <ore:ingotModularium>]
 ]);
 recipes.addShaped("blockenergyoutputhatch_5", <modularmachinery:blockenergyoutputhatch:5>, [
-    [<ore:ingotModularium>, <ore:ingotEnderium>, <ore:ingotModularium>],
-    [<ore:ingotEnderium>, <modularmachinery:blockenergyoutputhatch:4>, <ore:ingotEnderium>],
-    [<ore:ingotModularium>, <ore:ingotEnderium>, <ore:ingotModularium>]
+    [<ore:ingotModularium>, <ore:ingotAeonsteel>, <ore:ingotModularium>],
+    [<ore:ingotAeonsteel>, <modularmachinery:blockenergyoutputhatch:4>, <ore:ingotAeonsteel>],
+    [<ore:ingotModularium>, <ore:ingotAeonsteel>, <ore:ingotModularium>]
 ]);
 recipes.addShaped("blockenergyoutputhatch_6", <modularmachinery:blockenergyoutputhatch:6>, [
-    [<ore:ingotModularium>, <ore:ingotFusionMatrix>, <ore:ingotModularium>],
-    [<ore:ingotFusionMatrix>, <modularmachinery:blockenergyoutputhatch:5>, <ore:ingotFusionMatrix>],
-    [<ore:ingotModularium>, <ore:ingotFusionMatrix>, <ore:ingotModularium>]
+    [<ore:ingotModularium>, <ore:ingotChromasteel>, <ore:ingotModularium>],
+    [<ore:ingotChromasteel>, <modularmachinery:blockenergyoutputhatch:5>, <ore:ingotChromasteel>],
+    [<ore:ingotModularium>, <ore:ingotChromasteel>, <ore:ingotModularium>]
 ]);
 recipes.addShaped("blockenergyoutputhatch_7", <modularmachinery:blockenergyoutputhatch:7>, [
-    [<ore:ingotModularium>, <ore:ingotTitanium>, <ore:ingotModularium>],
-    [<ore:ingotTitanium>, <modularmachinery:blockenergyoutputhatch:5>, <ore:ingotTitanium>],
-    [<ore:ingotModularium>, <ore:ingotTitanium>, <ore:ingotModularium>]
+    [<ore:ingotModularium>, <ore:ingotCosmilite>, <ore:ingotModularium>],
+    [<ore:ingotCosmilite>, <modularmachinery:blockenergyoutputhatch:5>, <ore:ingotCosmilite>],
+    [<ore:ingotModularium>, <ore:ingotCosmilite>, <ore:ingotModularium>]
 ]);
 recipes.addShaped("blockinputbus_2", <modularmachinery:blockinputbus:2>, [
-    [<ore:ingotModularium>, <ore:ingotInvar>, <ore:ingotModularium>],
-    [<ore:ingotInvar>, <modularmachinery:blockinputbus:1>, <ore:ingotInvar>],
-    [<ore:ingotModularium>, <ore:ingotInvar>, <ore:ingotModularium>]
+    [<ore:ingotModularium>, <ore:ingotSteel>, <ore:ingotModularium>],
+    [<ore:ingotSteel>, <modularmachinery:blockinputbus:1>, <ore:ingotSteel>],
+    [<ore:ingotModularium>, <ore:ingotSteel>, <ore:ingotModularium>]
 ]);
 recipes.addShaped("blockoutputbus_2", <modularmachinery:blockoutputbus:2>, [
-    [<ore:ingotModularium>, <ore:ingotInvar>, <ore:ingotModularium>],
-    [<ore:ingotInvar>, <modularmachinery:blockoutputbus:1>, <ore:ingotInvar>],
-    [<ore:ingotModularium>, <ore:ingotInvar>, <ore:ingotModularium>]
+    [<ore:ingotModularium>, <ore:ingotSteel>, <ore:ingotModularium>],
+    [<ore:ingotSteel>, <modularmachinery:blockoutputbus:1>, <ore:ingotSteel>],
+    [<ore:ingotModularium>, <ore:ingotSteel>, <ore:ingotModularium>]
 ]);
 recipes.addShaped("blockfluidinputhatch_2", <modularmachinery:blockfluidinputhatch:2>, [
-    [<ore:ingotModularium>, <ore:ingotInvar>, <ore:ingotModularium>],
-    [<ore:ingotInvar>, <modularmachinery:blockfluidinputhatch:1>, <ore:ingotInvar>],
-    [<ore:ingotModularium>, <ore:ingotInvar>, <ore:ingotModularium>]
+    [<ore:ingotModularium>, <ore:ingotSteel>, <ore:ingotModularium>],
+    [<ore:ingotSteel>, <modularmachinery:blockfluidinputhatch:1>, <ore:ingotSteel>],
+    [<ore:ingotModularium>, <ore:ingotSteel>, <ore:ingotModularium>]
 ]);
 recipes.addShaped("blockfluidoutputhatch_2", <modularmachinery:blockfluidoutputhatch:2>, [
-    [<ore:ingotModularium>, <ore:ingotInvar>, <ore:ingotModularium>],
-    [<ore:ingotInvar>, <modularmachinery:blockfluidoutputhatch:1>, <ore:ingotInvar>],
-    [<ore:ingotModularium>, <ore:ingotInvar>, <ore:ingotModularium>]
+    [<ore:ingotModularium>, <ore:ingotSteel>, <ore:ingotModularium>],
+    [<ore:ingotSteel>, <modularmachinery:blockfluidoutputhatch:1>, <ore:ingotSteel>],
+    [<ore:ingotModularium>, <ore:ingotSteel>, <ore:ingotModularium>]
 ]);
 recipes.addShaped("blockenergyinputhatch_2", <modularmachinery:blockenergyinputhatch:2>, [
-    [<ore:ingotModularium>, <ore:ingotInvar>, <ore:ingotModularium>],
-    [<ore:ingotInvar>, <modularmachinery:blockenergyinputhatch:1>, <ore:ingotInvar>],
-    [<ore:ingotModularium>, <ore:ingotInvar>, <ore:ingotModularium>]
+    [<ore:ingotModularium>, <ore:ingotSteel>, <ore:ingotModularium>],
+    [<ore:ingotSteel>, <modularmachinery:blockenergyinputhatch:1>, <ore:ingotSteel>],
+    [<ore:ingotModularium>, <ore:ingotSteel>, <ore:ingotModularium>]
 ]);
 recipes.addShaped("blockenergyoutputhatch_2", <modularmachinery:blockenergyoutputhatch:2>, [
-    [<ore:ingotModularium>, <ore:ingotInvar>, <ore:ingotModularium>],
-    [<ore:ingotInvar>, <modularmachinery:blockenergyoutputhatch:1>, <ore:ingotInvar>],
-    [<ore:ingotModularium>, <ore:ingotInvar>, <ore:ingotModularium>]
+    [<ore:ingotModularium>, <ore:ingotSteel>, <ore:ingotModularium>],
+    [<ore:ingotSteel>, <modularmachinery:blockenergyoutputhatch:1>, <ore:ingotSteel>],
+    [<ore:ingotModularium>, <ore:ingotSteel>, <ore:ingotModularium>]
 ]);
 recipes.addShaped("casing_strong", <modularmachinery:blockcasing:4> * 4, [
     [<ore:ingotSteel>, <modularmachinery:blockcasing>, <ore:ingotSteel>],
@@ -1034,7 +1034,7 @@ recipes.addShaped("rubber_band", <additions:rubber_band>, [
 ]);
 recipes.addShaped("ender_casing", <actuallyadditions:block_misc:8>, [
     [<ore:ingotEnderium>, <ore:ingotFusionMatrix>, <ore:ingotEnderium>],
-    [<ore:ingotStainlessSteel>, <ore:blockQuartzBlack> | <ore:blockQuartzDark>, <ore:ingotStainlessSteel>],
+    [<ore:ingotDurasteel>, <ore:blockQuartzBlack> | <ore:blockQuartzDark>, <ore:ingotDurasteel>],
     [<ore:ingotEnderium>, <ore:ingotFusionMatrix>, <ore:ingotEnderium>]
 ]);
 recipes.addShaped("stainless_steel_ball", <additions:greedycraft-stainless_steel_ball> * 24, [
@@ -1069,8 +1069,8 @@ recipes.addShaped("chunk_analyzer", <randomthings:chunkanalyzer>, [
 ]);
 recipes.addShaped("harvester", <cyclicmagic:harvester_block>, [
     [null, <cyclicmagic:tool_harvest_crops>, null],
-    [<ore:ingotStainlessSteel>, <minecraft:dispenser>, <ore:ingotStainlessSteel>],
-    [<ore:circuitElite>, <ore:ingotStainlessSteel>, <ore:circuitElite>]
+    [<ore:ingotDurasteel>, <minecraft:dispenser>, <ore:ingotDurasteel>],
+    [<ore:circuitElite>, <ore:ingotDurasteel>, <ore:circuitElite>]
 ]);
 recipes.addShaped("ma_mystical_fertilizer", <mysticalagriculture:mystical_fertilizer> * 3, [
     [<mysticalagriculture:fertilized_essence>, <thermalfoundation:fertilizer:2>, <mysticalagriculture:fertilized_essence>],
@@ -1146,11 +1146,6 @@ recipes.addShaped("ender_hook", <hooked:hook:4>, [
     [null, <hooked:hook:2>, <ore:rodBlaze>],
     [<ore:dustBlaze>, null, <ore:pearlEnderEye>]
 ]);
-recipes.addShaped("machine_upgrade_1", <modularmachinery:blockcasing:1>, [
-    [<modularmachinery:blockcasing:4>, <ore:ingotStellarAlloy>, <modularmachinery:blockcasing:4>],
-    [<ore:ingotStainlessSteel>, <ore:ingotFusionMatrix>, <ore:ingotStainlessSteel>],
-    [<modularmachinery:blockcasing:4>, <ore:ingotStellarAlloy>, <modularmachinery:blockcasing:4>]
-]);
 recipes.addShaped("soul_snare", <bloodmagic:soul_snare> * 8, [
     [null,null, <minecraft:web>],
     [null, <ore:stringNylon>, null],
@@ -1216,16 +1211,90 @@ recipes.addShaped("iron_trap_door", <minecraft:iron_trapdoor> * 2, [
     [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]
 ]);
 recipes.addShaped("quantum_quarry_core", <extrautils2:quarry>, [
-    [<draconicevolution:awakened_core>, <ore:ingotTerraAlloy>, <draconicevolution:awakened_core>],
-    [<ore:ingotTerraAlloy>, <ore:magic_snow_globe>, <ore:ingotTerraAlloy>],
-    [<draconicevolution:awakened_core>, <ore:ingotTerraAlloy>, <draconicevolution:awakened_core>]
+    [<draconicevolution:awakened_core>, <ore:ingotChromasteel>, <draconicevolution:awakened_core>],
+    [<ore:ingotChromasteel>, <ore:magic_snow_globe>, <ore:ingotChromasteel>],
+    [<draconicevolution:awakened_core>, <ore:ingotChromasteel>, <draconicevolution:awakened_core>]
 ]);
 recipes.addShaped("quantum_quarry_proxy", <extrautils2:quarryproxy>, [
     [<ore:ingotEndSteel>, <ore:circuitUltimate>, <ore:ingotEndSteel>],
-    [<ore:ingotTitanium>, <ore:gemTerrestrial>, <ore:ingotTitanium>],
+    [<ore:ingotAeonsteel>, <ore:gemTerrestrial>, <ore:ingotAeonsteel>],
     [<ore:ingotEndSteel>, <ore:ingotEndSteel>, <ore:ingotEndSteel>]
 ]);
-
+recipes.addShaped("turbo_casing", <mekanismgenerators:generator:10> * 16, [
+    [<ore:ingotTitanium>, <ore:ingotAeonsteel>, <ore:ingotTitanium>],
+    [<ore:ingotAeonsteel>, <additions:greedycraft-creative_shard>, <ore:ingotAeonsteel>],
+    [<ore:ingotTitanium>, <ore:ingotAeonsteel>, <ore:ingotTitanium>]
+]);
+recipes.addShaped("charm_of_keeping_2", <twilightforest:charm_of_keeping_2>, [
+    [<ore:ingotDurasteel>, <twilightforest:charm_of_keeping_1>, <ore:ingotDurasteel>],
+    [<twilightforest:charm_of_keeping_1>, <minecraft:golden_apple:1>, <twilightforest:charm_of_keeping_1>],
+    [<ore:ingotDurasteel>, <twilightforest:charm_of_keeping_1>, <ore:ingotDurasteel>]
+]);
+recipes.addShaped("charm_of_keeping_3", <twilightforest:charm_of_keeping_3>, [
+    [<ore:ingotAeonsteel>, <twilightforest:charm_of_keeping_2>, <ore:ingotAeonsteel>],
+    [<twilightforest:charm_of_keeping_2>, <ore:netherStar>, <twilightforest:charm_of_keeping_2>],
+    [<ore:ingotAeonsteel>, <twilightforest:charm_of_keeping_2>, <ore:ingotAeonsteel>]
+]);
+recipes.addShaped("mek_casing_2", <mekanism:basicblock2:7>, [
+    [null, <ore:ingotAeonsteel>, null],
+    [<ore:ingotAeonsteel>, <ore:ingotStainlessSteel>, <ore:ingotAeonsteel>],
+    [null, <ore:ingotAeonsteel>, null]
+]);
+recipes.addShaped("mek_circuit_1", <mekanism:controlcircuit:1>, [
+    [null, <ore:ingotStainlessSteel>, null],
+    [<ore:alloyAdvanced>, <ore:circuitBasic>, <ore:alloyAdvanced>],
+    [null, <ore:ingotStainlessSteel>, null]
+]);
+recipes.addShaped("mek_circuit_2", <mekanism:controlcircuit:2>, [
+    [null, <ore:ingotDurasteel>, null],
+    [<ore:alloyElite>, <ore:circuitAdvanced>, <ore:alloyElite>],
+    [null, <ore:ingotDurasteel>, null]
+]);
+recipes.addShaped("mek_circuit_3", <mekanism:controlcircuit:3>, [
+    [null, <ore:ingotAeonsteel>, null],
+    [<ore:alloyUltimate>, <ore:circuitElite>, <ore:alloyUltimate>],
+    [null, <ore:ingotAeonsteel>, null]
+]);
+recipes.addShaped("phantom_interface", <actuallyadditions:block_phantomface>, [
+    [<ore:ingotAeonsteel>, <actuallyadditions:item_misc:8>, <ore:ingotAeonsteel>],
+    [<ore:alloyUltimate>, <actuallyadditions:block_misc:8>, <ore:alloyUltimate>],
+    [<ore:ingotAeonsteel>, <actuallyadditions:item_misc:8>, <ore:ingotAeonsteel>]
+]);
+recipes.addShaped("exu_user", <extrautils2:user>, [
+    [<extrautils2:decorativesolid:3>, <minecraft:dispenser>, <extrautils2:decorativesolid:3>],
+    [<ore:alloyUltimate>, <ore:circuitUltimate>, <ore:alloyUltimate>],
+    [<extrautils2:decorativesolid:3>, <extrautils2:redstoneclock>, <extrautils2:decorativesolid:3>]
+]);
+recipes.addShaped("cyclic_user", <cyclicmagic:block_user>, [
+    [<ore:obsidian>, <minecraft:dispenser>, <ore:obsidian>],
+    [<ore:alloyUltimate>, <ore:circuitUltimate>, <ore:alloyUltimate>],
+    [<ore:obsidian>, <cyclicmagic:clock>, <ore:obsidian>]
+]);
+recipes.addShaped("turret_base_1", <openmodularturrets:turret_base>, [
+    [<ore:ingotIron>, <openmodularturrets:intermediate_regular>, <ore:ingotIron>],
+    [<openmodularturrets:intermediate_regular>, <openmodularturrets:intermediate_tiered>, <openmodularturrets:intermediate_regular>],
+    [<ore:ingotIron>, <openmodularturrets:intermediate_regular>, <ore:ingotIron>]
+]);
+recipes.addShaped("turret_base_2", <openmodularturrets:turret_base:1>, [
+    [<ore:ingotSteel>, <openmodularturrets:intermediate_regular>, <ore:ingotSteel>],
+    [<openmodularturrets:intermediate_regular>, <openmodularturrets:intermediate_tiered:1>, <openmodularturrets:intermediate_regular>],
+    [<ore:ingotSteel>, <openmodularturrets:intermediate_regular>, <ore:ingotSteel>]
+]);
+recipes.addShaped("turret_base_3", <openmodularturrets:turret_base:2>, [
+    [<ore:ingotDurasteel>, <openmodularturrets:intermediate_regular>, <ore:ingotDurasteel>],
+    [<openmodularturrets:intermediate_regular>, <openmodularturrets:intermediate_tiered:2>, <openmodularturrets:intermediate_regular>],
+    [<ore:ingotDurasteel>, <openmodularturrets:intermediate_regular>, <ore:ingotDurasteel>]
+]);
+recipes.addShaped("turret_base_4", <openmodularturrets:turret_base:3>, [
+    [<ore:ingotAeonsteel>, <openmodularturrets:intermediate_regular>, <ore:ingotAeonsteel>],
+    [<openmodularturrets:intermediate_regular>, <openmodularturrets:intermediate_tiered:3>, <openmodularturrets:intermediate_regular>],
+    [<ore:ingotAeonsteel>, <openmodularturrets:intermediate_regular>, <ore:ingotAeonsteel>]
+]); 
+recipes.addShaped("turret_base_5", <openmodularturrets:turret_base:4>, [
+    [<ore:ingotChromasteel>, <openmodularturrets:intermediate_regular>, <ore:ingotChromasteel>],
+    [<openmodularturrets:intermediate_regular>, <openmodularturrets:intermediate_tiered:4>, <openmodularturrets:intermediate_regular>],
+    [<ore:ingotChromasteel>, <openmodularturrets:intermediate_regular>, <ore:ingotChromasteel>]
+]);
 /* Templates
 
 recipes.addShaped("", <>, [

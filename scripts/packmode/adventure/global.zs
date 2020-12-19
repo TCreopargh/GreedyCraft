@@ -8,3 +8,6 @@ global FROSTMAW_MINION_COUNT as int = 6;
 global PACKMODE as int = MODE_ADVENTURE;
 global DEATH_HUMAN_SPAWN_CHANCE as float = 0.33;
 global COSMILITE_OUTPUT_COUNT as int = 8;
+global MOB_ARMOR_MULTIPLIER as double = 1.0;
+global FORGE_OUTPUT_MULTIPLIER as double = 1.0;
+global FORGE_COST_MULTIPLIER as double = 1.0;

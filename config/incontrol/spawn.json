@@ -106,7 +106,7 @@
         "hostile": true,
 		"mincount": {
             "hostile": true,
-            "amount": 60,
+            "amount": 45,
             "perplayer": true
         },
         "result": "deny"
@@ -114,7 +114,7 @@
     {
 		"mincount": {
             "passive": true,
-            "amount": 80,
+            "amount": 50,
             "perplayer": true
         },
         "result": "deny"

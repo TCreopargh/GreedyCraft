@@ -16,10 +16,6 @@ import loottweaker.LootTweaker;
 
 val dungeon = LootTweaker.getTable("minecraft:chests/simple_dungeon");
 
-var mainPool = dungeon.getPool("main");
-var dungeonPool1 = dungeon.getPool("pool1");
-var dungeonPool2 = dungeon.getPool("pool2");  
+var mainPool = dungeon.getPool("main"); 
 
-dungeonPool1.addItemEntryHelper(<additions:greedycraft-goodie_bag>, 20, 1, [Functions.setCount(1, 1)], []);
-dungeonPool2.addItemEntryHelper(<additions:greedycraft-goodie_bag>, 15, 1, [Functions.setCount(1, 1)], []);
-mainPool.addItemEntryHelper(<additions:greedycraft-goodie_bag>, 15, 1, [Functions.setCount(1, 1)], []);
+mainPool.addItemEntryHelper(<additions:greedycraft-goodie_bag>, 4, 1, [Functions.setCount(1, 1)], []);

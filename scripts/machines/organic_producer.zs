@@ -10,7 +10,9 @@ import crafttweaker.oredict.IOreDictEntry;
 import mods.modularmachinery.RecipeBuilder;
 
 val regName = "organic_producer";
-val speed = 40;
+val speed = 20;
+
+var recipeID = 0;
 
 val crops as IOreDictEntry[] = [
     <ore:cropWheat>,
@@ -567,20 +569,27 @@ val seeds as IOreDictEntry[] = [
 ];
 
 for crop in crops {
-    RecipeBuilder.newBuilder(regName + "_crop_" + crop.name, regName, speed, 0)
-    .addItemInput(crop)
-    .addEnergyPerTickInput(40)
-    .addFluidOutput(<liquid:organic_fluid> * 100)
-    .addFluidInput(<liquid:water> * 100)
-    .build();
+    for item in crop.items {
+        RecipeBuilder.newBuilder(regName + "_crop_" + item.name + "_" + recipeID, regName, speed, 0)
+        .addItemInput(item)
+        .addEnergyPerTickInput(40)
+        .addFluidOutput(<liquid:organic_fluid> * 100)
+        .addFluidInput(<liquid:water> * 100)
+        .build();
+        recipeID += 1;
+    }
 }
+
 for seed in seeds {
-    RecipeBuilder.newBuilder(regName + "_seed_" + seed.name, regName, speed, 0)
-    .addItemInput(seed)
-    .addEnergyPerTickInput(30)
-    .addFluidOutput(<liquid:organic_fluid> * 60)
-    .addFluidInput(<liquid:water> * 60)
-    .build();
+    for item in seed.items {
+        RecipeBuilder.newBuilder(regName + "_seed_" + item.name + "_" + recipeID, regName, speed, 0)
+        .addItemInput(item)
+        .addEnergyPerTickInput(30)
+        .addFluidOutput(<liquid:organic_fluid> * 60)
+        .addFluidInput(<liquid:water> * 60)
+        .build();
+        recipeID += 1;
+    }
 }
 RecipeBuilder.newBuilder(regName + "_seed_" + "t1", regName, speed, 0)
     .addItemInput(<ore:seedsTier1>)

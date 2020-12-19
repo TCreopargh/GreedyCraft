@@ -90,9 +90,9 @@ recipes.addShaped("auto_gen_-226107769", <additions:greedycraft-twilight_gem>, [
     [<ore:dustDiamond>, <ore:gemAquamarine>, <ore:dustDiamond>]
 ]);
 recipes.addShaped("auto_gen_-1501549292", <additions:greedycraft-ender_charm>, [
-    [<ore:dustEnderium>, <ore:gaiaIngot>, <ore:dustEnderium>],
+    [<ore:dustEnderium>, <ore:ingotDurasteel>, <ore:dustEnderium>],
     [<ore:netherStar>, <abyssalcraft:dreadkey>.transformReplace(<abyssalcraft:dreadkey>), <ore:netherStar>],
-    [<ore:ingotNetherite>, <ore:gaiaIngot>, <ore:ingotNetherite>]
+    [<ore:ingotNetherite>, <ore:ingotDurasteel>, <ore:ingotNetherite>]
 ]);
 recipes.addShaped("auto_gen_-47119480", <actuallyadditions:block_misc:9>, [
     [<ore:ingotSteel>, <ore:dustNetherQuartz>, <ore:ingotSteel>],

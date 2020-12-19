@@ -42,7 +42,7 @@ function addGroup(groupName as string, chanceToGetUsed as double, armors as Weig
     group.addGameStage(stage);
 }
 
-addGroup("pre_nether", 0.3, [{
+addGroup("pre_nether", (0.25 * MOB_ARMOR_MULTIPLIER as double) as double, [{
     head: <minecraft:leather_helmet> % 20,
     chest: <minecraft:leather_chestplate> % 20,
     legs: <minecraft:leather_leggings> % 20,
@@ -226,7 +226,7 @@ addGroup("pre_nether", 0.3, [{
     mainhand: <tconstruct:broadsword>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 16.25 as float, FreeModifiers: 3, Durability: 191, HarvestLevel: 1, Attack: 5.5 as float}, Stats: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 16.25 as float, FreeModifiers: 5, Durability: 191, HarvestLevel: 1, Attack: 5.5 as float}, Special: {Categories: ["tool", "weapon"]}, TinkerData: {Materials: ["signalum", "signalum", "signalum"], Modifiers: ["toolleveling"]}, Modifiers: [{identifier: "tconevo.relentless", color: -2139136, level: 1}, {identifier: "tconevo.aftershock", color: -2139136, level: 3}, {identifier: "toolleveling", color: 16777215, level: 1}], Traits: ["tconevo.relentless", "tconevo.aftershock1", "toolleveling"]}) % 5
 }] as WeightedItemStack[string][], "getting_started");
 
-addGroup("post_nether", 0.25, [{
+addGroup("post_nether", (0.2 * MOB_ARMOR_MULTIPLIER as double) as double, [{
     head: <cyclicmagic:emerald_helmet> % 10,
     chest: <cyclicmagic:emerald_chestplate> % 10,
     legs: <cyclicmagic:emerald_leggings> % 10,
@@ -357,7 +357,7 @@ addGroup("post_nether", 0.25, [{
     mainhand: <tconstruct:broadsword>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 8.75 as float, FreeModifiers: 3, Durability: 2345, HarvestLevel: 4, Attack: 8.0 as float}, Stats: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 8.75 as float, FreeModifiers: 5, Durability: 2345, HarvestLevel: 4, Attack: 8.0 as float}, Special: {Categories: ["tool", "weapon"]}, TinkerData: {Materials: ["emerald_plustic", "emerald_plustic", "emerald_plustic"], Modifiers: ["toolleveling"]}, Modifiers: [{identifier: "terrafirma", color: -11141291, level: 1, terrafirma1: 1 as byte}, {identifier: "elemental", color: -11141291, level: 1}, {identifier: "toolleveling", color: 16777215, level: 1}], Traits: ["terrafirma1", "elemental", "toolleveling"]}) % 5
 }] as WeightedItemStack[string][], "nether");
 
-addGroup("post_hardmode", 0.25, [{
+addGroup("post_hardmode", (0.2 * MOB_ARMOR_MULTIPLIER as double) as double, [{
     head: <abyssalcraft:dreadiumhelmet> % 10,
     chest: <abyssalcraft:dreadiumplate> % 10,
     legs: <abyssalcraft:dreadiumlegs> % 10,

@@ -194,7 +194,11 @@ stageAwakened.addIngredients([
     <magicfeather:magicfeather>,
     <ore:bedrock>,
     <ore:ingotProtonium>,
-    <ore:blockProtonium>
+    <ore:blockProtonium>,
+    <modularmachinery:blockcasing:5>,
+    <ore:ingotChromasteel>,
+    <ore:blockChromasteel>,
+    <openmodularturrets:turret_base:4>
 ], true);
 
 stageNether.addIngredients([
@@ -225,7 +229,6 @@ stageNether.addIngredients([
     <additions:greedycraft-bloody_sacrifice>,
     <minecraft:ender_eye>,
     <minecraft:enchanted_book>,
-    <openmodularturrets:turret_base:1>,
     <minecraft:anvil:*>,
     <enderio:item_dark_steel_sword>.withTag({RepairCost: 0}),
     <minecraft:enchanting_table>,
@@ -369,7 +372,11 @@ stageNether.addIngredients([
     <darkutils:material>,
     <ore:dropofevil>,
     <quark:black_ash>,
-    <minecraft:magma_cream>
+    <minecraft:magma_cream>,
+    <modularmachinery:blockcasing:2>,
+    <ore:ingotDurasteel>,
+    <ore:blockDurasteel>,
+    <openmodularturrets:turret_base:2>
 ], true);
 
 stageNether.addIngredients([
@@ -396,7 +403,6 @@ stageNoviceEngineer.addIngredients([
     <openblocks:block_placer>,
     <cyclicmagic:placer_block>,
     <actuallyadditions:block_placer>,
-    <actuallyadditions:block_phantom_placer>,
     <actuallyadditions:block_battery_box>,
     <actuallyadditions:block_item_viewer_hopping>,
     <actuallyadditions:block_bio_reactor>,
@@ -411,17 +417,18 @@ stageNoviceEngineer.addIngredients([
     <actuallyadditions:block_energizer>,
     <actuallyadditions:block_lava_factory_controller>,
     <actuallyadditions:block_canola_press>,
-    <actuallyadditions:block_phantomface>,
-    <actuallyadditions:block_phantom_energyface>,
-    <actuallyadditions:block_phantom_liquiface>,
-    <actuallyadditions:block_phantom_redstoneface>,
-    <actuallyadditions:block_phantom_booster>,
     <actuallyadditions:block_coffee_machine>,
     <actuallyadditions:block_atomic_reconstructor>,
     <enderio:item_dark_steel_sword>
 ], true);
 
 stageHardmode.addIngredients([
+    <actuallyadditions:block_phantom_booster>,
+    <actuallyadditions:block_phantom_placer>,
+    <actuallyadditions:block_phantomface>,
+    <actuallyadditions:block_phantom_energyface>,
+    <actuallyadditions:block_phantom_liquiface>,
+    <actuallyadditions:block_phantom_redstoneface>,
     <actuallyadditions:item_disenchanting_lens>,
     <additions:greedycraft-forbidden_bible>,
     <extrautils2:machine>.withTag({Type: "extrautils2:generator_enchant"}),
@@ -430,7 +437,6 @@ stageHardmode.addIngredients([
     <additions:greedycraft-ordinary_medal>,
     <abyssalcraft:gatewaykeyjzh>,
     <minecraft:dragon_egg>,
-    <openmodularturrets:turret_base:3>,
     <additions:greedycraft-medkit_super>,
     <additions:greedycraft-wither_soul>,
     <additions:greedycraft-dragon_soul>,
@@ -477,7 +483,6 @@ stageHardmode.addIngredients([
     <ore:nuggetEthaxium>,
     <ore:ingotEthaxiumBrick>,
     <ore:gemEnderBiotite>,
-    <modularmachinery:blockcasing:1>,
     <tofucraft:swordkinu>,
     <tofucraft:swordmomen>,
     <tofucraft:swordsolid>,
@@ -485,7 +490,11 @@ stageHardmode.addIngredients([
     <tofucraft:sworddiamond>,
     <netherex:amethyst_ore>,
     <netherex:amethyst_crystal>,
-    <netherex:amethyst_block>
+    <netherex:amethyst_block>,
+    <modularmachinery:blockcasing:3>,
+    <ore:ingotAeonsteel>,
+    <ore:blockAeonsteel>,
+    <openmodularturrets:turret_base:3>
 ], true);
 
 stageInfinity.addIngredients([
@@ -573,7 +582,6 @@ stageAbyssalConquerer.addIngredients([
 
 stageWitherSlayer.addIngredients([
     <additions:greedycraft-bravery_certificate>,
-    <openmodularturrets:turret_base:2>,
     <enderio:block_reinforced_obsidian>,
     <mysticalagriculture:witherproof_block>,
     <mysticalagriculture:witherproof_glass>,
@@ -796,30 +804,6 @@ stageMasterEngineer.addIngredients([
     <rftools:shield_block4>
 ], true);
 
-stageDisabled.addIngredients([
-    <botania:blackholetalisman>,
-    <extrautils2:wateringcan>,
-    <bountifulbaubles:trinketbrokenheart>,
-    <actuallyadditions:block_greenhouse_glass>,
-    <extrautils2:lawsword>,
-    <extrautils2:lawsword>.withTag({ench:[]}),
-    <openblocks:sprinkler>,
-    <astralsorcery:itemenchantmentamulet>,
-    <lootbags:loot_recycler>,
-    <lootbags:loot_storage>,
-    <bloodarsenal:base_item:9>,
-    <tconstruct:spaghetti:*>,
-    <tconstruct:moms_spaghetti>,
-    <abyssalcraft:abyssalniteu>,
-    <abyssalcraft:coraliumu>,
-    <abyssalcraft:dreadiumu>,
-    <abyssalcraft:ethaxiumu>,
-    <twilightforest:uncrafting_table>,
-    <cyclicmagic:spikes_diamond>,
-	<extrautils2:spike_diamond>,
-    <thaumadditions:thaumic_lectern>
-], true);
-
 stageDisabled.addLiquid(<liquid:sakura.hot_spring_water>);
 
 stageChallenger1.addIngredients([
@@ -884,29 +868,6 @@ stageNoviceWizard.addModId(["bloodmagic", "bloodarsenal", "animus"]);
 
 stageNoviceEngineer.addModId(["enderio"]);
 
-stageDisabled.addRecipeRegex("^mysticalagriculture:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(sword)|(axe)|(shovel)|(boots)|(leggings)|(chestplate)|(helmet)|(sickle)|(fishing_rod)|(scythe))$");
-stageHardmode.addRecipeRegex("^twilightforest:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(sword)|(axe)|(shovel)|(boots)|(leggings)|(chestplate)|(helmet))$");
-stageHardmode.addRecipeRegex("^tofucraft:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(sword)|(axe)|(shovel)|(boots)|(leggings)|(leggins)|(chestplate)|(helmet))$");
-stageDisabled.addRecipeRegex("^defiledlands:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(sword)|(axe)|(shovel)|(boots)|(leggings)|(chestplate)|(helmet))$");
-stageDisabled.addRecipeRegex("^abyssalcraft:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(sword)|(axe)|(shovel)|(boots)|(leggings)|(chestplate)|(helmet)|(plate)|(legs)|(helm)|(pick))$");
-stageDisabled.addRecipeRegex("^netherex:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(sword)|(axe)|(shovel)|(boots)|(leggings)|(chestplate)|(helmet)|(plate)|(legs)|(helm)|(pick))$");
-stageDisabled.addRecipeRegex("^candymod:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(sword)|(axe)|(shovel)|(boots)|(leggings)|(chestplate)|(helmet)|(legs)|(helm)|(pick))_(.*)$");
-stageDisabled.addRecipeRegex("^aether_legacy:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(sword)|(axe)|(shovel)|(boots)|(leggings)|(chestplate)|(helmet)|(legs)|(helm)|(pick))$");
-stageDisabled.addRecipeRegex("^betternether:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(sword)|(axe)|(shovel)|(boots)|(leggings)|(chestplate)|(helmet)|(legs)|(helm)|(pick))$");
-stageDisabled.addRecipeRegex("^tcomplement:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(sword)|(axe)|(shovel)|(boots)|(leggings)|(chestplate)|(helmet)|(legs)|(helm)|(pick))$");
-stageDisabled.addRecipeRegex("^bloodarsenal:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(sword)|(axe)|(shovel)|(boots)|(leggings)|(chestplate)|(helmet)|(legs)|(helm)|(pick))$");
-stageHardmode.addRecipeRegex("^botania:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(sword)|(axe)|(shovel)|(boots)|(leggings)|(chestplate)|(helmet)|(legs)|(helm)|(pick)|(chest))$");
-stageDisabled.addRecipeRegex("^enderio:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(sword)|(axe)|(shovel)|(boots)|(leggings)|(chestplate)|(helmet))$");
-stageDisabled.addRecipeRegex("^thermalfoundation:tool.fishing_rod_(.*)$");
-stageDisabled.addRecipeRegex("^jaopca:block_crystalcluster(.*)$");
-stageDisabled.addRecipeRegex("^actuallyadditions:recipes24[3456789]$");
-stageDisabled.addRecipeRegex("^actuallyadditions:recipes2[56789].$");
-stageDisabled.addRecipeRegex("^actuallyadditions:recipes3[012].$");
-stageDisabled.addRecipeRegex("^actuallyadditions:recipes33[01234567]$");
-stageDisabled.addRecipeRegex("^thermalfoundation:((tool)|(armor))(.*)$");
-stageDisabled.addRecipeRegex("^redstonearsenal:((tool)|(armor))(.*)$");
-stageDisabled.addRecipeRegex("^redstonerepository:((tool)|(armor))(.*)$");
-
 ZenStager.buildAll();
 
 restageItem("wielder_of_infinity", <avaritia:infinity_sword>);
@@ -923,9 +884,7 @@ restageItem("wielder_of_infinity", <ore:blockInfinity>);
 
 restageItem("awakened", <draconicevolution:chaos_shard>);
 restageItem("chaotic_dominator", <draconicevolution:chaotic_core>);
-restageItem("disabled", <cyclicmagic:cyclic_wand_build>);
 restageItem("descendant_of_the_sun", <draconicevolution:awakened_core>);
-restageItem("disabled", <draconicevolution:wyvern_sword>);
 restageItem("chaotic", <avaritia:resource:5>);
 restageItem("master_engineer", <enderio:block_killer_joe>);
 restageItem("master_engineer", <cyclicmagic:block_user>);
@@ -958,83 +917,6 @@ restageItem("hardmode", <cyclicmagic:block_disenchanter>);
 restageItem("fusion_matrix", <cyclicmagic:ender_lightning>);
 restageItem("graduated", <cyclicmagic:battery_infinite>);
 restageItem("skilled_engineer", <cyclicmagic:harvester_block>);
-restageItems("disabled", [
-    <draconicevolution:wyvern_sword>,
-    <draconicevolution:wyvern_shovel>,
-    <draconicevolution:wyvern_bow>,
-    <draconicevolution:wyvern_axe>,
-    <draconicevolution:wyvern_pick>,
-    <draconicevolution:wyvern_helm>,
-    <draconicevolution:wyvern_chest>,
-    <draconicevolution:wyvern_legs>,
-    <draconicevolution:wyvern_boots>,
-    <draconicevolution:draconic_sword>,
-    <draconicevolution:draconic_shovel>,
-    <draconicevolution:draconic_bow>,
-    <draconicevolution:draconic_axe>,
-    <draconicevolution:draconic_pick>,
-    <draconicevolution:draconic_helm>,
-    <draconicevolution:draconic_chest>,
-    <draconicevolution:draconic_legs>,
-    <draconicevolution:draconic_boots>,
-    <draconicadditions:chaotic_helm>,
-    <draconicadditions:chaotic_chest>,
-    <draconicadditions:chaotic_legs>,
-    <draconicadditions:chaotic_boots>,
-    <draconicevolution:wyvern_sword>.withTag({DEUpgrades: {}}),
-    <draconicevolution:wyvern_shovel>.withTag({DEUpgrades: {}}),
-    <draconicevolution:wyvern_bow>.withTag({DEUpgrades: {}}),
-    <draconicevolution:wyvern_axe>.withTag({DEUpgrades: {}}),
-    <draconicevolution:wyvern_pick>.withTag({DEUpgrades: {}}),
-    <draconicevolution:wyvern_helm>.withTag({DEUpgrades: {}}),
-    <draconicevolution:wyvern_chest>.withTag({DEUpgrades: {}}),
-    <draconicevolution:wyvern_legs>.withTag({DEUpgrades: {}}),
-    <draconicevolution:wyvern_boots>.withTag({DEUpgrades: {}}),
-    <draconicevolution:draconic_sword>.withTag({DEUpgrades: {}}),
-    <draconicevolution:draconic_shovel>.withTag({DEUpgrades: {}}),
-    <draconicevolution:draconic_bow>.withTag({DEUpgrades: {}}),
-    <draconicevolution:draconic_axe>.withTag({DEUpgrades: {}}),
-    <draconicevolution:draconic_pick>.withTag({DEUpgrades: {}}),
-    <draconicevolution:draconic_helm>.withTag({DEUpgrades: {}}),
-    <draconicevolution:draconic_chest>.withTag({DEUpgrades: {}}),
-    <draconicevolution:draconic_legs>.withTag({DEUpgrades: {}}),
-    <draconicevolution:draconic_boots>.withTag({DEUpgrades: {}}),
-    <draconicadditions:chaotic_helm>.withTag({DEUpgrades: {}}),
-    <draconicadditions:chaotic_chest>.withTag({DEUpgrades: {}}),
-    <draconicadditions:chaotic_legs>.withTag({DEUpgrades: {}}),
-    <draconicadditions:chaotic_boots>.withTag({DEUpgrades: {}}),
-    <cyclicmagic:sprinkler>,
-    <cyclicmagic:bundled_pipe>,
-    <enderio:block_powered_spawner>,
-    <enderio:item_broken_spawner>,
-    <bloodmagic:bound_pickaxe>,
-    <bloodmagic:bound_axe>,
-    <bloodarsenal:bound_sickle>,
-    <bloodmagic:bound_shovel>,
-    <bloodmagic:bound_sword>,
-    <bloodmagic:living_armour_helmet>,
-    <bloodmagic:living_armour_chest>,
-    <bloodmagic:living_armour_chest>.withTag({}),
-    <bloodmagic:living_armour_leggings>,
-    <bloodmagic:living_armour_boots>,
-    <cyclicmagic:magnet_anti_block>,
-    <bloodmagic:bound_sword>.withTag({activated: 0 as byte}),
-    <bloodmagic:bound_sword>.withTag({activated: 1 as byte}),
-    <bloodmagic:bound_sword>,
-    <bloodmagic:bound_pickaxe>.withTag({activated: 0 as byte}),
-    <bloodmagic:bound_pickaxe>.withTag({activated: 1 as byte}),
-    <bloodmagic:bound_pickaxe>,
-    <bloodmagic:bound_axe>.withTag({activated: 0 as byte}),
-    <bloodmagic:bound_axe>.withTag({activated: 1 as byte}),
-    <bloodmagic:bound_axe>,
-    <bloodmagic:bound_shovel>.withTag({activated: 0 as byte}),
-    <bloodmagic:bound_shovel>.withTag({activated: 1 as byte}),
-    <bloodmagic:bound_shovel>,
-    <animus:kama_bound>,
-    <cyclicmagic:tool_push>,
-    <cyclicmagic:tool_push>.withTag({})
-] as IIngredient[]);
-
 restageItems("energy_matter_core", [
     <projectex:stone_table>,
     <projectex:arcane_tablet>,

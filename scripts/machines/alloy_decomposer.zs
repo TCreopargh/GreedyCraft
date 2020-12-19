@@ -18,6 +18,8 @@ val regName = "alloy_decomposer";
 val speed = 10;
 val energy = 20;
 
+var recipeID = 0;
+
 val alloyRecipes as ILiquidStack[][ILiquidStack] = {
     <liquid:modularium> * 288 : [<liquid:conductive_iron> * 144, <liquid:bronze> * 144],
     <liquid:scorched> * 144 : [<liquid:lava> * 144, <liquid:stone> * 144],
@@ -82,11 +84,12 @@ for input in alloyRecipes {
     var amount = input.amount;
     var alloyEnergy = energy as int;
     var alloySpeed = Math.ceil((amount as float / 100.0 as float) * speed as float) as int;
-    var builder = RecipeBuilder.newBuilder(regName + "_alloy_" + input.definition.name, regName, alloySpeed, 0);
+    var builder = RecipeBuilder.newBuilder(regName + "_alloy_" + input.definition.name + "_" + recipeID, regName, alloySpeed, 0);
         builder.addFluidInput(input);
         builder.addEnergyPerTickInput(alloyEnergy);
     for liquid in outputs {
         builder.addFluidOutput(liquid as ILiquidStack);
     }
     builder.build();
+    recipeID += 1;
 }

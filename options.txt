@@ -88,7 +88,7 @@ key_key.hotbar.9:10
 key_of.key.zoom:46
 key_Change Caster Focus:0
 key_Misc Caster Toggle:0
-key_quark.keybind.toggleAutojump:0
+key_quark.keybind.lockBuilding:0
 key_quark.emote.no:0
 key_quark.emote.yes:0
 key_quark.emote.wave:0
@@ -107,7 +107,7 @@ key_quark.emote.dab:0
 key_quark.emote.jet:0
 key_quark.emote.exorcist:0
 key_quark.emote.zombie:0
-key_quark.keybind.lockBuilding:0
+key_quark.keybind.toggleAutojump:0
 key_quark.keybind.dropoff:0
 key_quark.keybind.changeHotbar:184
 key_keybind.baublesinventory:18:ALT
@@ -126,6 +126,7 @@ key_key.findme.search:21
 key_key.conarm.toggle_helm.desc:34
 key_key.conarm.toggle_chest.desc:35
 key_key.conarm.toggle_leg.desc:36
+key_keybind.hammercorerenderstack:77
 key_Options.Reload:25:ALT
 key_Force Play:74:ALT
 key_Options.Shortcut1:55:ALT
@@ -179,7 +180,6 @@ key_key.use_cage.desc:0
 key_key.configurator_mode.desc:0
 key_key.configurator_filter.desc:0
 key_key.configurator_path.desc:0
-key_keybind.hammercorerenderstack:77
 key_key.hooked.fire:16
 key_dshuds.keybind.SelectionBox:37:ALT
 key_dshuds.keybind.LightLevel:38:ALT
@@ -295,6 +295,7 @@ key_Options Gui:66:ALT
 key_key.trashslot.toggle:0
 key_key.trashslot.delete:211
 key_key.trashslot.deleteAll:211:SHIFT
+key_key.categories.naming:49:ALT
 key_variegated.keybinds.offhand:0
 key_FpsReducer.key.guiOpen:207
 key_FpsReducer.key.forceIdle:197
@@ -336,7 +337,6 @@ key_key.projectex.focusSearchBar:15
 key_key.bettersigns.nosigntext:56
 key_binniecore.key.hold.for.help.tooltips:0
 key_key.sakura.sheath_in:47
-key_key.categories.naming:49:ALT
 key_invtweaks.key.sort:19
 key_key.carpet_forward:17
 key_key.carpet_backward:31

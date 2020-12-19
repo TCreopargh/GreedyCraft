@@ -96,10 +96,10 @@ FusionCrafting.add(<draconicevolution:awakened_core>, <minecraft:nether_star>, 1
     <draconicevolution:wyvern_core>,
     <draconicevolution:wyvern_core>,
     <draconicevolution:draconic_ingot>,
-    <additions:infernium_ingot>,
     <draconicevolution:draconic_ingot>,
+    <additions:aeonsteel_ingot>,
     <additions:infernium_ingot>,
-    <draconicevolution:draconic_ingot>,
+    <additions:aeonsteel_ingot>,
     <additions:infernium_ingot>
 ]);
 FusionCrafting.add(<additions:greedycraft-blueprint_tactic>, <additions:greedycraft-blueprint>, 0, 4000000, [ 
@@ -115,8 +115,8 @@ FusionCrafting.add(<draconicevolution:chaotic_core>, <draconicevolution:chaos_sh
     <tconevo:metal:5>,
     <avaritia:resource:4>,
     <avaritia:resource:4>,
-    <additions:terra_alloy_ingot>,
-    <additions:terra_alloy_ingot>
+    <additions:chromasteel_ingot>,
+    <additions:chromasteel_ingot>
 ]);
 FusionCrafting.add(<draconicevolution:wyvern_core>, <minecraft:nether_star>, 0, 1600000, [ 
     <draconicevolution:draconic_core>,

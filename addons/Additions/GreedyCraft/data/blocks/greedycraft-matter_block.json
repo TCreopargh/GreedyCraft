@@ -1,0 +1,26 @@
+{
+  "item_block": {
+    "name": "§d物质块",
+    "tooltip": "§d纯粹的物质。",
+    "type": "additions:block_simple"
+  },
+  "name": "§d物质块",
+  "material": "minecraft:glass",
+  "map_color": "minecraft:pink",
+  "hardness": 5.0,
+  "resistance": 200.0,
+  "harvest_level": 4,
+  "harvest_tool": "pickaxe",
+  "light_opacity": 2,
+  "light_level": 5,
+  "slipperiness": 0.7,
+  "semi_transparent": true,
+  "same_collision_bounding_box": false,
+  "collision_box_min_x": 0.25,
+  "collision_box_min_y": 0.25,
+  "collision_box_min_z": 0.25,
+  "collision_box_max_x": 0.75,
+  "collision_box_max_y": 0.75,
+  "collision_box_max_z": 0.75,
+  "type": "additions:simple"
+}

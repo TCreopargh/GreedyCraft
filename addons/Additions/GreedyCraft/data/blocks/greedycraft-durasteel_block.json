@@ -1,0 +1,16 @@
+{
+  "item_block": {
+    "name": "§9耐钢块",
+    "ore_dict": "blockDurasteel",
+    "type": "additions:block_simple"
+  },
+  "name": "§9耐钢块",
+  "material": "minecraft:metal",
+  "map_color": "minecraft:lapis",
+  "hardness": 10.0,
+  "resistance": 200.0,
+  "harvest_level": 4,
+  "harvest_tool": "pickaxe",
+  "is_beacon_base": true,
+  "type": "additions:simple"
+}

@@ -29,6 +29,7 @@ val sentient_disabled = "§c已禁用，请使用匠魂“感知”材料";
 val bound_disabled = "§c已禁用，请使用匠魂“束缚”材料";
 val how_to_repair = "§e请使用磨制工具和抛光工具来分别修理武器和盔甲";
 val cant_set_spawn = "§c注意：无法设置重生点";
+val machinery_upgrade_guide = "§a将其放到多方块机械指定位置上即可应用升级";
 
 val tooltipMap as string[][IIngredient] = {
     <mysticalagriculture:supremium_helmet> : [flight_disabled],
@@ -160,7 +161,11 @@ val tooltipMap as string[][IIngredient] = {
     <tconstruct:tooltables:3> : [how_to_repair],
     <tconstruct:toolforge> : [how_to_repair],
     <danknull:danknull_dock> : ["§e空手Shift+右键将无底之箱从扩展坞上取出"],
-	<extrautils2:snowglobe:*> : ["§c拿在手上会导致严重掉帧，请注意"]
+	<extrautils2:snowglobe:*> : ["§c拿在手上会导致严重掉帧，请注意"],
+	<modularmachinery:blockcasing:1> : ["§e1级机械升级方块", machinery_upgrade_guide],
+	<modularmachinery:blockcasing:2> : ["§e2级机械升级方块", machinery_upgrade_guide],
+	<modularmachinery:blockcasing:3> : ["§e3级机械升级方块", machinery_upgrade_guide],
+	<modularmachinery:blockcasing:5> : ["§e4级机械升级方块", machinery_upgrade_guide]
 } as string[][IIngredient];
 
 for ingredient in tooltipMap {

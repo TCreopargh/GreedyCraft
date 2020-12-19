@@ -1,22 +1,61 @@
 {
-	"registryname": "exp_power_generator",
+    "registryname": "exp_power_generator",
     "localizedname": "经验发电机",
     "color": "76ff03",
-	"modifiers": [
-	   {
-		   "elements": "modularmachinery:blockcasing@1",
-		   "x": 0,
-		   "y": 1,
-		   "z": 0,
-		   "description": "将控制器上方的紧挨着的方块换成机械通风口以增加电量产出！",
-		   "modifier": {
-			   "io": "output",
-			   "target": "energy",
-			   "operation": 1,
-			   "multiplier": 1.5
-		   }
-	   }
-   ],
+    "modifiers": [
+        {
+            "elements": "modularmachinery:blockcasing@1",
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "description": "将控制器上方的紧挨着的方块换成机械升级方块以增加电量产出！",
+            "modifier": {
+                "io": "output",
+                "target": "energy",
+                "operation": 1,
+                "multiplier": 1.25
+            }
+        },
+        {
+            "elements": "modularmachinery:blockcasing@2",
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "description": "将控制器上方的紧挨着的方块换成机械升级方块以增加电量产出！",
+            "modifier": {
+                "io": "output",
+                "target": "energy",
+                "operation": 1,
+                "multiplier": 1.5
+            }
+        },
+        {
+            "elements": "modularmachinery:blockcasing@3",
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "description": "将控制器上方的紧挨着的方块换成机械升级方块以增加电量产出！",
+            "modifier": {
+                "io": "output",
+                "target": "energy",
+                "operation": 1,
+                "multiplier": 2.0
+            }
+        },
+        {
+            "elements": "modularmachinery:blockcasing@5",
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "description": "将控制器上方的紧挨着的方块换成机械升级方块以增加电量产出！",
+            "modifier": {
+                "io": "output",
+                "target": "energy",
+                "operation": 1,
+                "multiplier": 2.5
+            }
+        }
+    ],
     "parts": [
         {
             "x": -1,
@@ -28,41 +67,31 @@
             "x": 1,
             "y": 1,
             "z": 0,
-            "elements": [
-                "additions:greedycraft-experience_block@0"
-            ]
+            "elements": ["additions:greedycraft-experience_block@0"]
         },
         {
             "x": -1,
             "y": 0,
             "z": 1,
-            "elements": [
-                "additions:greedycraft-compressed_experience_block@0"
-            ]
+            "elements": ["additions:greedycraft-compressed_experience_block@0"]
         },
         {
             "x": -1,
             "y": 1,
             "z": 2,
-            "elements": [
-                "additions:greedycraft-experience_block@0"
-            ]
+            "elements": ["additions:greedycraft-experience_block@0"]
         },
         {
             "x": 0,
             "y": 1,
             "z": 1,
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
+            "elements": ["modularmachinery:blockcasing@0"]
         },
         {
             "x": -1,
             "y": -1,
             "z": 1,
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
+            "elements": ["modularmachinery:blockcasing@0"]
         },
         {
             "x": 1,
@@ -80,73 +109,55 @@
             "x": 0,
             "y": 1,
             "z": 2,
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
+            "elements": ["modularmachinery:blockcasing@0"]
         },
         {
             "x": 1,
             "y": 1,
             "z": 1,
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
+            "elements": ["modularmachinery:blockcasing@0"]
         },
         {
             "x": 1,
             "y": 0,
             "z": 1,
-            "elements": [
-                "additions:greedycraft-compressed_experience_block@0"
-            ]
+            "elements": ["additions:greedycraft-compressed_experience_block@0"]
         },
         {
             "x": 0,
             "y": 0,
             "z": 2,
-            "elements": [
-                "additions:greedycraft-compressed_experience_block@0"
-            ]
+            "elements": ["additions:greedycraft-compressed_experience_block@0"]
         },
         {
             "x": -1,
             "y": -1,
             "z": 2,
-            "elements": [
-                "additions:greedycraft-experience_block@0"
-            ]
+            "elements": ["additions:greedycraft-experience_block@0"]
         },
         {
             "x": 1,
             "y": 1,
             "z": 2,
-            "elements": [
-                "additions:greedycraft-experience_block@0"
-            ]
+            "elements": ["additions:greedycraft-experience_block@0"]
         },
         {
             "x": 0,
             "y": -1,
             "z": 2,
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
+            "elements": ["modularmachinery:blockcasing@0"]
         },
-		{
+        {
             "x": 0,
             "y": -1,
             "z": 1,
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
+            "elements": ["modularmachinery:blockcasing@0"]
         },
         {
             "x": 1,
             "y": -1,
             "z": 1,
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
+            "elements": ["modularmachinery:blockcasing@0"]
         },
         {
             "x": 1,
@@ -158,57 +169,43 @@
             "x": 1,
             "y": -1,
             "z": 2,
-            "elements": [
-                "additions:greedycraft-experience_block@0"
-            ]
+            "elements": ["additions:greedycraft-experience_block@0"]
         },
         {
             "x": 1,
             "y": -1,
             "z": 0,
-            "elements": [
-                "additions:greedycraft-experience_block@0"
-            ]
+            "elements": ["additions:greedycraft-experience_block@0"]
         },
         {
             "x": -1,
             "y": 1,
             "z": 0,
-            "elements": [
-                "additions:greedycraft-experience_block@0"
-            ]
+            "elements": ["additions:greedycraft-experience_block@0"]
         },
         {
             "x": 0,
             "y": -1,
             "z": 0,
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
+            "elements": ["modularmachinery:blockcasing@0"]
         },
         {
             "x": -1,
             "y": 1,
             "z": 1,
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
+            "elements": ["modularmachinery:blockcasing@0"]
         },
         {
             "x": -1,
             "y": -1,
             "z": 0,
-            "elements": [
-                "additions:greedycraft-experience_block@0"
-            ]
+            "elements": ["additions:greedycraft-experience_block@0"]
         },
         {
             "x": 0,
             "y": 1,
             "z": 0,
-            "elements": [
-				"modularmachinery:blockcasing@0"
-			]
+            "elements": ["modularmachinery:blockcasing@0"]
         }
     ]
 }

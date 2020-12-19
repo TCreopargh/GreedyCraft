@@ -21,7 +21,7 @@
                 <str />
             </op>
             <var>fps</var>
-            <str>$7 |$f $2实体$f: $7已渲染$e{entitiesrendered}$f / $7共计$e{entitiestotal}$f</str>
+            <str>$7 |$f $2实体$f: $e{entitiestotal}$f</str>
             <str>$7 |$f $dRAM$f: $e</str>
             <round>
                 <div>
@@ -68,7 +68,7 @@
                 <str>$c 建议按$6R$c键清理内存</str>
                 <str />
             </op>
-            <str>$7 |$f {rltime24}</str>
+            <str>$7 |$a {rltime24}</str>
             <op>
                 <str>gt</str>
                 <var>ping</var>

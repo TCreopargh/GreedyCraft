@@ -1019,6 +1019,54 @@
     {
       "item": "bloodmagic:blood_shard|1",
       "emc": 12048
+    },
+    {
+      "item": "additions:crimsonite_ingot|0",
+      "emc": 10240
+    },
+    {
+      "item": "thermalfoundation:fertilizer|0",
+      "emc": 1240
+    },
+    {
+      "item": "thermalfoundation:fertilizer|1",
+      "emc": 2560
+    },
+    {
+      "item": "thermalfoundation:fertilizer|2",
+      "emc": 4800
+    },
+    {
+      "item": "openmodularturrets:disposable_item_turret|0",
+      "emc": 0
+    },
+    {
+      "item": "openmodularturrets:potato_cannon_turret|0",
+      "emc": 0
+    },
+    {
+      "item": "openmodularturrets:machine_gun_turret|0",
+      "emc": 0
+    },
+    {
+      "item": "openmodularturrets:incendiary_turret|0",
+      "emc": 0
+    },
+    {
+      "item": "openmodularturrets:grenade_turret|0",
+      "emc": 0
+    },
+    {
+      "item": "openmodularturrets:relativistic_turret|0",
+      "emc": 0
+    },
+    {
+      "item": "openmodularturrets:rocket_turret|0",
+      "emc": 0
+    },
+    {
+      "item": "openmodularturrets:teleporter_turret|0",
+      "emc": 0
     }
   ]
 }

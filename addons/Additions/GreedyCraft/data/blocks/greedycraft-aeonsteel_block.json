@@ -1,0 +1,16 @@
+{
+  "item_block": {
+    "name": "§3恒钢块",
+    "ore_dict": "blockAeonsteel",
+    "type": "additions:block_simple"
+  },
+  "name": "§3恒钢块",
+  "material": "minecraft:metal",
+  "map_color": "minecraft:cyan",
+  "hardness": 20.0,
+  "resistance": 1000.0,
+  "harvest_level": 7,
+  "harvest_tool": "pickaxe",
+  "is_beacon_base": true,
+  "type": "additions:simple"
+}

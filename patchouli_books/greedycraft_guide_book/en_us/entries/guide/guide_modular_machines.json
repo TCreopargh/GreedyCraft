@@ -15,6 +15,10 @@
             "type": "text",
             "text": "当你搭建好一个模块化机械时，通常它会$(5)变色$()，这说明你的机器搭建正确。如果没有变色，请仔细检查结构是否完整。注意：模块化机械中需要的水方块和其他流体均为$(2)静止水源$()，流动水是不会被识别的，请着重检查流体部分。$(br)$(c)注意：$()模块化机器$(5)不需要蓝图$()，JEI中的蓝图仅供查询合成配方和多方块结构。$(br)$(1)搭建多方块结构时，请确保你的物品输出仓大的足以容纳所有可能的输出。如果已有物品输入却提示”缺少物品输入”，请尝试增加物品输出仓的数量或升级输出仓。$()"
         },
+        {
+            "type": "text",
+            "text": "$(c)模块化机械升级：$()你可以将机器上的特定方块替换为另一方块以提升机器性能。具体的替换位置可以在JEI中查看。用于升级的方块主要有机械通风口、燃烧室外壳、机械齿轮箱和机械电路板这几种，这些都可以在JEI中搜索@ModularMachinery看到。"
+        },
 		{
             "type": "spotlight",
 			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:soymilk_producer\"}",
@@ -77,9 +81,27 @@
         },
 		{
             "type": "spotlight",
+			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:durasteel_forge\"}",
+			"title": "耐钢熔炉",
+            "text": "$(9)耐钢熔炉$()用于打造一种极其坚固的金属——耐钢！注意：该机器工作方式也许会有些难懂，在JEI中对着该机器的蓝图按U可查看其所有配方，在最后一页可以看到最简单的配方，这个配方里包含了所有基本的、不可或缺的材料。在第一页可以看到完整的配方，多出来的物品都是“催化剂”，在合成时放入越多的催化剂就能得到越快的合成和越少的能量消耗，不同的催化剂性能不同！"
+        },
+		{
+            "type": "spotlight",
+			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:aeonsteel_forge\"}",
+			"title": "恒钢熔炉",
+            "text": "$(3)恒钢熔炉$()用于打造游戏中期的强力材料——恒钢！该机器的工作方式与耐钢熔炉相同。"
+        },
+		{
+            "type": "spotlight",
+			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:chromasteel_forge\"}",
+			"title": "炫钢熔炉",
+            "text": "$(d)炫钢熔炉$()用于打造游戏中后期的强力材料——炫钢！该机器的工作方式与耐钢熔炉相同。"
+        },
+		{
+            "type": "spotlight",
 			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:cosmic_forge\"}",
 			"title": "寰宇熔炉",
-            "text": "$(5)寰宇熔炉$()是制造游戏后期重要材料——寰宇锭的必备机器！"
+            "text": "$(5)寰宇熔炉$()是制造游戏后期重要材料——寰宇锭的必备机器！该机器的工作方式与耐钢熔炉相同。"
         }
     ]
 }

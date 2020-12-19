@@ -11,28 +11,31 @@ import crafttweaker.item.IIngredient;
 
 import mods.avaritia.ExtremeCrafting;
 
-var catalystRecipe as IIngredient[][] = [
-    [<avaritia:resource:0>, <avaritia:resource:1>, <avaritia:resource:2>, <avaritia:resource:3>, <avaritia:resource:4>, <avaritia:cosmic_meatballs>, <avaritia:ultimate_stew>, <avaritia:endest_pearl>, <avaritia:resource:7>],
-    [<additions:greedycraft-experience_nugget>, <additions:greedycraft-experience_ingot>, <additions:greedycraft-experience_block>, <additions:greedycraft-compressed_experience_block>, <additions:greedycraft-pearl_of_knowledge>, <additions:greedycraft-wither_soul>, <additions:greedycraft-dragon_soul>, <additions:greedycraft-raw_human_meat>, <additions:greedycraft-city_defender_medal>],
-    [<additions:greedycraft-ancient_tome_fragment>, <additions:greedycraft-ancient_tome_page>, <additions:greedycraft-ancient_tome>, <additions:greedycraft-creative_shard>, <additions:greedycraft-poop>, <additions:greedycraft-poopburger>, <additions:greedycraft-bloody_sacrifice>, <additions:greedycraft-blood_sigil>, <additions:greedycraft-aurora_heart>],
-    [<additions:greedycraft-medkit_big>, <additions:greedycraft-medkit_small>, <additions:greedycraft-medkit_super>, <additions:greedycraft-lucky_clover>, <minecraft:nether_star>, <draconicevolution:dragon_heart>, <additions:greedycraft-fusion_matrix_block>, <redstonerepository:storage>, <mysticalagradditions:insanium:0>],
-    [<draconicevolution:wyvern_core>, <draconicevolution:awakened_core>, <draconicevolution:chaotic_core>, <projecte:item.pe_matter:1>, <tofucraft:blocktofudiamond>, <thermalfoundation:storage_alloy:7>, <tconevo:metal_block>, <tconevo:metal_block:1>, <tconevo:metal_block:2>],
-    [<thaumcraft:ingot:1>, <tconevo:metal:20>, <additions:electronium_ingot>, <abyssalcraft:dreadiumingot>, <additions:protonium_ingot>, <botania:manaresource:4>, <botania:manaresource:14>, <botania:manaresource:7>, <tinkersaether:valkyrie_ingot>],
-    [<mysticalagradditions:insanium:2>, <enderio:item_alloy_endergy_ingot:3>, <defiledlands:ravaging_ingot>, <threng:material>, <abyssalcraft:ethaxiumingot>, <additions:infernium_ingot>, <additions:titanium_ingot>, <additions:cryonium_ingot>, <thaumadditions:mithminite_ingot>],
-    [<additions:cytosinite_ingot>, <additions:shadowium_ingot>, <additions:asgardium_ingot>, <additions:aeroite_ingot>, <additions:terra_alloy_ingot>, <additions:astral_metal_ingot>, <additions:cosmilite_ingot>, <mekanism:controlcircuit:3>, <biomesoplenty:terrestrial_artifact>],
-    [<additions:greedycraft-cryonic_artifact>, <additions:greedycraft-bounty_hunter_medal_bronze>, <additions:greedycraft-bounty_hunter_medal_silver>, <additions:greedycraft-bounty_hunter_medal>, <additions:perfectly_generic_item>, <additions:greedycraft-energy_matter_core>, <additions:greedycraft-sand_of_time>, <additions:greedycraft-anti_entropy_matter>, <eternalsingularity:eternal_singularity>]
- ] as IIngredient[][];
+var catalystRecipe as IIngredient[] = [
+    <avaritia:resource:0>, <avaritia:resource:1>, <avaritia:resource:2>, <avaritia:resource:3>, <avaritia:resource:4>, <avaritia:cosmic_meatballs>, <avaritia:ultimate_stew>, <avaritia:endest_pearl>, <avaritia:resource:7>, <additions:greedycraft-experience_nugget>, <additions:greedycraft-experience_ingot>, <additions:greedycraft-experience_block>, <additions:greedycraft-compressed_experience_block>, <additions:greedycraft-pearl_of_knowledge>, <additions:greedycraft-wither_soul>, <additions:greedycraft-dragon_soul>, <additions:greedycraft-raw_human_meat>, <additions:greedycraft-city_defender_medal>, <additions:greedycraft-ancient_tome_fragment>, <additions:greedycraft-ancient_tome_page>, <additions:greedycraft-ancient_tome>, <additions:greedycraft-creative_shard>, <additions:greedycraft-poop>, <additions:greedycraft-poopburger>, <additions:greedycraft-bloody_sacrifice>, <additions:greedycraft-blood_sigil>, <additions:greedycraft-aurora_heart>, <additions:greedycraft-medkit_big>, <additions:greedycraft-medkit_small>, <additions:greedycraft-medkit_super>, <additions:greedycraft-lucky_clover>, <minecraft:nether_star>, <draconicevolution:dragon_heart>, <mysticalagradditions:insanium:0>, <draconicevolution:wyvern_core>, <draconicevolution:awakened_core>, <draconicevolution:chaotic_core>, <projecte:item.pe_matter:1>, <additions:cosmilite_ingot>, <additions:greedycraft-cosmilite_block>, <additions:greedycraft-cryonic_artifact>, <additions:greedycraft-bounty_hunter_medal_bronze>, <additions:greedycraft-bounty_hunter_medal_silver>, <additions:greedycraft-bounty_hunter_medal>, <additions:perfectly_generic_item>, <additions:greedycraft-energy_matter_core>, <additions:greedycraft-sand_of_time>, <additions:greedycraft-anti_entropy_matter>, <eternalsingularity:eternal_singularity>
+ ] as IIngredient[];
 
 ExtremeCrafting.remove(<avaritia:resource:5>);
 var outputCount = 3;
-var ingredients as IIngredient[] = [] as IIngredient[];
-for row in catalystRecipe {
-    for ingredient in row {
-        ingredients += ingredient as IIngredient;
+var ingredients as IIngredient[][] = [];
+var counter = 0;
+var row as IIngredient[] = [];
+for i in 0 to 81 {
+    var item as IIngredient = null;
+    if(i < catalystRecipe.length) {
+        item = catalystRecipe[i];
     }
+    if(counter == 9) {
+        counter = 0;
+        ingredients += row;
+        row = [];
+    }
+    row += item;
+    counter += 1;
 }
-ExtremeCrafting.addShapeless("custom_avaritia_recipe_catalyst_shapeless", <avaritia:resource:5> * outputCount, ingredients);
-ExtremeCrafting.addShaped("custom_avaritia_recipe_catalyst_shaped", <avaritia:resource:5> * outputCount, catalystRecipe);
+
+ExtremeCrafting.addShapeless("custom_avaritia_recipe_catalyst_shapeless", <avaritia:resource:5> * outputCount, catalystRecipe);
+ExtremeCrafting.addShaped("custom_avaritia_recipe_catalyst_shaped", <avaritia:resource:5> * outputCount, ingredients);
 
 // Eternal Singularity
 ExtremeCrafting.remove(<eternalsingularity:eternal_singularity>);

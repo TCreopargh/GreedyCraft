@@ -49,6 +49,9 @@ Casting.addBasinRecipe(<candymod:chocolate_block>, null, <liquid:liquid_chocolat
 Casting.addBasinRecipe(<extrabotany:blockorichalcos>, null, <liquid:orichalcos>, VOLUME_BLOCK, false, 300);
 Casting.addBasinRecipe(<nyx:meteor_block>, null, <liquid:meteor>, VOLUME_BLOCK, false, 300);
 Casting.addBasinRecipe(<tcomplement:scorched_block>, null, <liquid:scorched>, VOLUME_BLOCK, false, 300);
+Casting.addBasinRecipe(<additions:greedycraft-durasteel_block>, null, <liquid:durasteel>, VOLUME_BLOCK, false, 300);
+Casting.addBasinRecipe(<additions:greedycraft-aeonsteel_block>, null, <liquid:aeonsteel>, VOLUME_BLOCK, false, 300);
+Casting.addBasinRecipe(<additions:greedycraft-chromasteel_block>, null, <liquid:chromasteel>, VOLUME_BLOCK, false, 300);
 
 Casting.addTableRecipe(<abyssalcraft:ethaxiumingot>, <tconstruct:cast_custom>, <liquid:ethaxium>, VOLUME_INGOT, false, 200);
 Casting.addTableRecipe(<additions:astral_metal_ingot>, <tconstruct:cast_custom>, <liquid:astral_metal>, VOLUME_INGOT, false, 200);
@@ -81,6 +84,9 @@ Casting.addTableRecipe(<tconevo:material>, <tconstruct:cast_custom>, <liquid:fus
 Casting.addTableRecipe(<thaumadditions:adaminite_ingot>, <tconstruct:cast_custom>, <liquid:adaminite>, VOLUME_INGOT, false, 200);
 Casting.addTableRecipe(<thaumadditions:mithminite_ingot>, <tconstruct:cast_custom>, <liquid:mithminite>, VOLUME_INGOT, false, 200);
 Casting.addTableRecipe(<thaumadditions:mithrillium_ingot>, <tconstruct:cast_custom>, <liquid:mithrillium>, VOLUME_INGOT, false, 200);
+Casting.addTableRecipe(<additions:durasteel_ingot>, <tconstruct:cast_custom>, <liquid:durasteel>, VOLUME_INGOT, false, 200);
+Casting.addTableRecipe(<additions:aeonsteel_ingot>, <tconstruct:cast_custom>, <liquid:aeonsteel>, VOLUME_INGOT, false, 200);
+Casting.addTableRecipe(<additions:chromasteel_ingot>, <tconstruct:cast_custom>, <liquid:chromasteel>, VOLUME_INGOT, false, 200);
 
 Casting.removeBasinRecipe(<tcomplement:scorched_block:10>);
 Casting.removeBasinRecipe(<tcomplement:scorched_block:1>);
@@ -164,6 +170,14 @@ Melting.addRecipe(<liquid:yellorium> * VOLUME_INGOT, <ore:ingotYellorium>, 1400)
 Melting.addRecipe(<liquid:iron> * (VOLUME_INGOT * 2), <sakura:iron_sand>, 534);
 Melting.addRecipe(<liquid:manganese_steel> * VOLUME_INGOT, <ore:ingotManganeseSteel>, 734);
 Melting.addRecipe(<liquid:manganese_steel> * VOLUME_BLOCK, <ore:blockManganeseSteel>, 734);
+Melting.addRecipe(<liquid:gold> * (VOLUME_INGOT * 2), <treasure2:gold_coin>, 734);
+Melting.addRecipe(<liquid:silver> * (VOLUME_INGOT * 2), <treasure2:silver_coin>, 734);
+Melting.addRecipe(<liquid:durasteel> * VOLUME_INGOT, <ore:ingotDurasteel>, 777);
+Melting.addRecipe(<liquid:aeonsteel> * VOLUME_INGOT, <ore:ingotAeonsteel>, 1150);
+Melting.addRecipe(<liquid:chromasteel> * VOLUME_INGOT, <ore:ingotChromasteel>, 1337);
+Melting.addRecipe(<liquid:durasteel> * VOLUME_BLOCK, <ore:blockDurasteel>, 777);
+Melting.addRecipe(<liquid:aeonsteel> * VOLUME_BLOCK, <ore:blockAeonsteel>, 1150);
+Melting.addRecipe(<liquid:chromasteel> * VOLUME_BLOCK, <ore:blockChromasteel>, 1337);
 
 Melting.removeRecipe(<liquid:gold>, <minecraft:golden_rail>);
 Melting.removeRecipe(<liquid:iron>, <minecraft:activator_rail>);

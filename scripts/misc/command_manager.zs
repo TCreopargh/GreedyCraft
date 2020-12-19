@@ -514,7 +514,7 @@ sendFirstJoinMessageCommand.execute = function(command, server, sender, args) {
     }
     for player in players {
         if(!isNull(player)) {
-            player.sendChat(greetingMessage.replace("%PLAYERNAME", player.name));
+            player.sendChat(greetingMessage.replace("%PLAYERNAME%", player.name));
         }
     }
 };

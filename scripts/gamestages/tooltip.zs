@@ -28,7 +28,7 @@ tieredtooltips.colorStage("chaotic", "b5000000", "f0232526", "f0414345");
 tieredtooltips.colorStage("chaotic_dominator", "b5000000", "f0004e92", "f0000428");
 tieredtooltips.colorStage("fearless_man", "b5000000", "f0ff5f6d", "f0ffc371");
 tieredtooltips.colorStage("fusion_matrix", "b5000000", "f042275a", "f0734b6d");
-tieredtooltips.colorStage("graduated", "b5000000", "f0fcfcfc", "f0909090");
+tieredtooltips.colorStage("graduated", "b5000000", "f0f2994a", "f0f2c94c");
 tieredtooltips.colorStage("expert", "b5000000", "f0f953c6", "f0b91d73");
 tieredtooltips.colorStage("descendant_of_the_sun", "b5000000", "f0f12711", "f0f5af19");
 tieredtooltips.colorStage("energy_matter_core", "b5000000", "f0396afc", "f02948ff");

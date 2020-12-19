@@ -11,7 +11,7 @@ Altar.removeRecipe("touhou_little_maid:spawn_maid");
 Altar.removeRecipe("touhou_little_maid:reborn_maid");
 
 Altar.addMaidSpawnCraftRecipe("touhou_little_maid:spawn_maid", 0.8, 
-    <ore:shardTime>, <ore:shardTime>, <ore:shardTime>, <ore:shardTime>, <ore:blockEmerald>, <ore:blockDiamondPink>);
+    <ore:dustTime>, <ore:dustTime>, <tofucraft:blocktofudiamond>, <ore:blockDiamond>, <ore:blockEmerald>, <ore:blockDiamondPink>);
 
     
 Altar.addMaidReviveCraftRecipe("touhou_little_maid:reborn_maid", 0.6, 
