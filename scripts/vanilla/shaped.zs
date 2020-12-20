@@ -731,12 +731,12 @@ recipes.addShaped("xnet_cable", <xnet:netcable>.withTag({display: {LocName: "til
 recipes.addShaped("sol_flux_panel_1", <solarflux:solar_panel_2>, [
     [<solarflux:mirror>, <solarflux:mirror>, <solarflux:mirror>],
     [<solarflux:solar_panel_1>, <ore:ingotGold>, <solarflux:solar_panel_1>],
-    [<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>]
+    [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]
 ]);
 recipes.addShaped("sol_flux_panel_2", <solarflux:solar_panel_3>, [
     [<solarflux:photovoltaic_cell_1>, <solarflux:photovoltaic_cell_1>, <solarflux:photovoltaic_cell_1>],
-    [<ore:ingotBronze>, <solarflux:solar_panel_2>, <ore:ingotBronze>],
-    [<ore:ingotBronze>, <ore:ingotBronze>, <ore:ingotBronze>]
+    [<ore:ingotInvar>, <solarflux:solar_panel_2>, <ore:ingotInvar>],
+    [<ore:ingotInvar>, <ore:ingotInvar>, <ore:ingotInvar>]
 ]);
 recipes.addShaped("sol_flux_panel_3", <solarflux:solar_panel_4>, [
     [<solarflux:photovoltaic_cell_2>, <solarflux:photovoltaic_cell_2>, <solarflux:photovoltaic_cell_2>],
@@ -745,23 +745,23 @@ recipes.addShaped("sol_flux_panel_3", <solarflux:solar_panel_4>, [
 ]);
 recipes.addShaped("sol_flux_panel_4", <solarflux:solar_panel_5>, [
     [<solarflux:photovoltaic_cell_3>, <solarflux:photovoltaic_cell_3>, <solarflux:photovoltaic_cell_3>],
-    [<ore:ingotElectricalSteel>, <solarflux:solar_panel_4>, <ore:ingotElectricalSteel>],
-    [<ore:ingotElectricalSteel>, <ore:ingotEnergeticAlloy>, <ore:ingotElectricalSteel>]
+    [<ore:ingotStainlessSteel>, <solarflux:solar_panel_4>, <ore:ingotStainlessSteel>],
+    [<ore:ingotStainlessSteel>, <ore:ingotEnergeticAlloy>, <ore:ingotStainlessSteel>]
 ]);
 recipes.addShaped("sol_flux_panel_5", <solarflux:solar_panel_6>, [
     [<solarflux:photovoltaic_cell_4>, <solarflux:photovoltaic_cell_4>, <solarflux:photovoltaic_cell_4>],
-    [<ore:ingotOsmium>, <solarflux:solar_panel_5>, <ore:ingotOsmium>],
-    [<ore:ingotOsmium>, <ore:ingotOsmium>, <ore:ingotOsmium>]
+    [<ore:ingotDurasteel>, <solarflux:solar_panel_5>, <ore:ingotDurasteel>],
+    [<ore:ingotDurasteel>, <ore:ingotDurasteel>, <ore:ingotDurasteel>]
 ]);
 recipes.addShaped("sol_flux_panel_6", <solarflux:solar_panel_7>, [
     [<solarflux:photovoltaic_cell_5>, <solarflux:photovoltaic_cell_5>, <solarflux:photovoltaic_cell_5>],
-    [<ore:ingotStellarAlloy>, <solarflux:solar_panel_6>, <ore:ingotStellarAlloy>],
-    [<ore:ingotStellarAlloy>, <ore:ingotStellarAlloy>, <ore:ingotStellarAlloy>]
+    [<ore:ingotFusionMatrix>, <solarflux:solar_panel_6>, <ore:ingotFusionMatrix>],
+    [<ore:ingotFusionMatrix>, <ore:ingotFusionMatrix>, <ore:ingotFusionMatrix>]
 ]);
 recipes.addShaped("sol_flux_panel_7", <solarflux:solar_panel_8>, [
     [<solarflux:photovoltaic_cell_6>, <solarflux:photovoltaic_cell_6>, <solarflux:photovoltaic_cell_6>],
-    [<ore:ingotFusionMatrix>, <solarflux:solar_panel_7>, <ore:ingotFusionMatrix>],
-    [<ore:ingotFusionMatrix>, <ore:ingotFusionMatrix>, <ore:ingotFusionMatrix>]
+    [<ore:ingotAeonsteel>, <solarflux:solar_panel_7>, <ore:ingotAeonsteel>],
+    [<ore:ingotAeonsteel>, <ore:ingotAeonsteel>, <ore:ingotAeonsteel>]
 ]);
 recipes.addShaped("bottledstar", <extrabotany:bottledstar>, [
     [<ore:petalYellow>, <ore:petalYellow>, <ore:petalYellow>],

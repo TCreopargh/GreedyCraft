@@ -147,7 +147,8 @@ val localizationMap as string[string] = {
     "tconevo.info.cannot_replace": "无法替换该工具部件！（注：无法替换掉带有进化属性的部件）",
     "tile.quark:monster_box.name": "§c陷阱刷怪笼",
     "entity.primitivemobs.flame_spewer.name": "炽焰八爪鱼",
-    "mob_effect.netherex:fire_burning": "极寒之焰"
+    "mob_effect.netherex:fire_burning": "极寒之焰",
+    "info.nyx.blood_moon_sleeping": "§c你无法在血色之月的阴霾下安心入睡。"
 } as string[string];
 
 for k, v in localizationMap {

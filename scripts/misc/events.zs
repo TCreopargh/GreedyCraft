@@ -68,15 +68,15 @@ events.onPlayerLoggedIn(function (event as crafttweaker.event.PlayerLoggedInEven
             event.player.sendChat("§d§o由于您以创造模式创建了该存档，所有游戏阶段都已解锁，祝您游戏愉快。");
         }
     }
-    event.player.executeCommand("sendwelcomequote " + event.player.name);
+    server.commandManager.executeCommand(server, "/sendwelcomequote " + event.player.name);
     
     if(!event.player.hasGameStage("first_join_message_shown")) {
-        event.player.executeCommand("sendfirstjoinmessage " + event.player.name);
+        server.commandManager.executeCommand(server, "/sendfirstjoinmessage " + event.player.name);
         event.player.addGameStage("first_join_message_shown");
     } else {
         event.player.sendChat("§2§o欢迎回来，§e" + event.player.name + "§2§o！");
     }
-
+    server.commandManager.executeCommand(server, "/difficulty hard");
 });
 
 events.onPlayerRespawn(function (event as crafttweaker.event.PlayerRespawnEvent) {
@@ -85,6 +85,7 @@ events.onPlayerRespawn(function (event as crafttweaker.event.PlayerRespawnEvent)
             server.commandManager.executeCommand(server, "/ctrlkill " + entity + " 0");
         }
     }
+    server.commandManager.executeCommand(server, "/difficulty hard");
 });
 
 events.onEntityLivingDeath(function (event as crafttweaker.event.EntityLivingDeathEvent) {
@@ -122,6 +123,9 @@ events.onEntityLivingDeath(function (event as crafttweaker.event.EntityLivingDea
 
 events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
     var player = event.player;
+    if(player.isPotionActive(<potion:minecraft:night_vision>) && player.getActivePotionEffect(<potion:minecraft:night_vision>).duration <= 200) {
+        player.removePotionEffect(<potion:minecraft:night_vision>);
+    }
     if(player.world.getWorldTime() as long % 40 == 0) {
         server.commandManager.executeCommand(server, "/advancement grant " + player.name + " only greedycraft:elysia/root");
         for stage in advancementMap {

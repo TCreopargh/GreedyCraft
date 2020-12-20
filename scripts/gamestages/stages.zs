@@ -25,7 +25,13 @@ val noStageItems as IIngredient[] = [
     <mekanism:salt>,
     <bloodmagic:monster_soul:3>,
     <ore:blockSalt>,
-    <aether_legacy:ambrosium_shard>
+    <aether_legacy:ambrosium_shard>,
+    <cyclicmagic:ender_tnt_6>,
+    <cyclicmagic:ender_tnt_5>,
+    <cyclicmagic:ender_tnt_4>,
+    <cyclicmagic:ender_tnt_3>,
+    <cyclicmagic:ender_tnt_2>,
+    <cyclicmagic:ender_tnt_1>
 ] as IIngredient[];
 
 var stageTwilightShield = ZenStager.initStage("twilight_shield");
@@ -369,6 +375,7 @@ stageNether.addIngredients([
     <inventorypets:squid_pet>,
     <minecraft:ghast_tear>,
     <ore:boneWithered>,
+    <netherex:wither_bone>,
     <darkutils:material>,
     <ore:dropofevil>,
     <quark:black_ash>,
@@ -451,8 +458,8 @@ stageHardmode.addIngredients([
     <ore:dustCryonium>,
     <ore:nuggetCryonium>,
     <plustic:osgloglasingot>,
-    <minecraft:elytra>,
-    <colytra:elytra_bauble>,
+    <minecraft:elytra:*>,
+    <colytra:elytra_bauble:*>,
     <plustic:osmiridiumingot>,
     <biomesoplenty:gem:*>,
     <ore:ingotCytosinite>,
@@ -494,7 +501,8 @@ stageHardmode.addIngredients([
     <modularmachinery:blockcasing:3>,
     <ore:ingotAeonsteel>,
     <ore:blockAeonsteel>,
-    <openmodularturrets:turret_base:3>
+    <openmodularturrets:turret_base:3>,
+    <minecraft:elytra>.withTag({Unbreakable: 1, HideFlags: 63, display: {Lore: ["Sewn in India with ordinary cotton string, but sewn VERY well."], Name: "Glider"}})
 ], true);
 
 stageInfinity.addIngredients([

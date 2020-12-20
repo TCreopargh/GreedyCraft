@@ -51,6 +51,9 @@ netherex:freezing
 netherex:frigid_health
 netherex:dispersal
 netherex:sorrow
+quark:resilience
+quark:long_resilience
+quark:strong_resilience
 quark:haste
 quark:long_haste
 quark:strong_haste
@@ -62,9 +65,6 @@ quark:long_resistance
 quark:strong_resistance
 quark:danger_sight
 quark:long_danger_sight
-quark:resilience
-quark:long_resilience
-quark:strong_resilience
 potioncore:saturation
 potioncore:strong_saturation
 potioncore:wither

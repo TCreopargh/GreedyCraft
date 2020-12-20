@@ -121,7 +121,7 @@ visionTrait.localizedDescription = (
     "§f穿戴盔甲时获得夜视效果！");
 visionTrait.onAbility = function(trait, level, world, player) {
     if(!isNull(player)) {
-        player.addPotionEffect(<potion:minecraft:night_vision>.makePotionEffect(410, 2, false, false));
+        player.addPotionEffect(<potion:minecraft:night_vision>.makePotionEffect(330, 2, false, false));
     }
 };
 visionTrait.register();

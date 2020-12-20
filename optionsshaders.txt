@@ -1,5 +1,5 @@
-#Sat Dec 19 10:51:17 CST 2020
-shaderPack=§9(默认, §eBSL修改版§9)§e ComplementaryShaders_3.10_dev3.zip
+#Sun Dec 20 10:42:31 CST 2020
+shaderPack=§9(默认, §eBSL修改版§9)§e ComplementaryShaders_3.10_dev4.zip
 antialiasingLevel=0
 normalMapEnabled=true
 specularMapEnabled=true

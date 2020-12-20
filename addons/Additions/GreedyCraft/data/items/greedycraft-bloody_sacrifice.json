@@ -1,9 +1,5 @@
 {
-  "name": "§c血染祭品",
-  "tooltip": [
-    "§e使用时取消用血之印记设定的血月",
-    "§c在血月发生时使用无效",
-    "§7一次性物品"
-  ],
-  "type": "additions:simple"
+    "name": "§c血染祭品",
+    "tooltip": ["§e使用时跳过血月到下一个早上", "§7一次性物品"],
+    "type": "additions:simple"
 }

@@ -201,21 +201,6 @@ randomthings:strong_collapse
        randomthings:collapse - 300 - 1 - false - true
 
 
-enderio:floating
-   - Effects: 
-       minecraft:levitation - 140 - 0 - false - true
-
-
-enderio:strong_floating
-   - Effects: 
-       minecraft:levitation - 140 - 2 - false - true
-
-
-enderio:long_floating
-   - Effects: 
-       minecraft:levitation - 560 - 0 - false - true
-
-
 enderio:confusion
    - Effects: 
        minecraft:nausea - 900 - 0 - false - true
@@ -234,6 +219,21 @@ enderio:withering
 enderio:long_withering
    - Effects: 
        minecraft:wither - 2400 - 0 - false - true
+
+
+enderio:floating
+   - Effects: 
+       minecraft:levitation - 140 - 0 - false - true
+
+
+enderio:strong_floating
+   - Effects: 
+       minecraft:levitation - 140 - 2 - false - true
+
+
+enderio:long_floating
+   - Effects: 
+       minecraft:levitation - 560 - 0 - false - true
 
 
 mowziesmobs:poison_resist
@@ -264,6 +264,21 @@ netherex:dispersal
 netherex:sorrow
    - Effects: 
        netherex:crying - 600 - 0 - false - true
+
+
+quark:resilience
+   - Effects: 
+       quark:resilience - 3600 - 0 - false - true
+
+
+quark:long_resilience
+   - Effects: 
+       quark:resilience - 9600 - 0 - false - true
+
+
+quark:strong_resilience
+   - Effects: 
+       quark:resilience - 1800 - 1 - false - true
 
 
 quark:haste
@@ -319,21 +334,6 @@ quark:danger_sight
 quark:long_danger_sight
    - Effects: 
        quark:danger_sight - 9600 - 0 - false - true
-
-
-quark:resilience
-   - Effects: 
-       quark:resilience - 3600 - 0 - false - true
-
-
-quark:long_resilience
-   - Effects: 
-       quark:resilience - 9600 - 0 - false - true
-
-
-quark:strong_resilience
-   - Effects: 
-       quark:resilience - 1800 - 1 - false - true
 
 
 potioncore:saturation

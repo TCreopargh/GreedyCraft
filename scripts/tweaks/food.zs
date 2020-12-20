@@ -11,3 +11,5 @@ import crafttweaker.item.IIngredient;
 
 (<twilightforest:meef_stroganoff> as IIngredient).foodValues.hunger = 0;
 (<twilightforest:meef_stroganoff> as IIngredient).foodValues.saturationModifier = 0;
+
+(<abyssalcraft:mre> as IIngredient).foodValues.hunger = 10;

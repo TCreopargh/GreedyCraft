@@ -101,18 +101,18 @@ for item in loadedMods["cfm"].items {
 LootTweaker.getTable("minecraft:chests/simple_dungeon").getPool("pool1").setRolls(1.0, 1.0);
 LootTweaker.getTable("minecraft:chests/simple_dungeon").getPool("pool2").setRolls(1.0, 2.0);
 LootTweaker.getTable("minecraft:chests/simple_dungeon").getPool("main").setRolls(2.0, 4.0);
-LootTweaker.getTable("minecraft:chests/simple_dungeon").getPool("Ender IO").addConditionsHelper([Conditions.randomChance(0.4)]);
+LootTweaker.getTable("minecraft:chests/simple_dungeon").getPool("Ender IO").addConditionsHelper([Conditions.randomChance(0.3)]);
 LootTweaker.getTable("minecraft:chests/simple_dungeon").getPool("pool1").addConditionsHelper([Conditions.randomChance(0.5)]);
 LootTweaker.getTable("minecraft:chests/simple_dungeon").getPool("pool2").addConditionsHelper([Conditions.randomChance(0.25)]);
-LootTweaker.getTable("minecraft:chests/simple_dungeon").getPool("botania_inject_pool").addConditionsHelper([Conditions.randomChance(0.4)]);
+LootTweaker.getTable("minecraft:chests/simple_dungeon").getPool("botania_inject_pool").addConditionsHelper([Conditions.randomChance(0.25)]);
 LootTweaker.getTable("minecraft:chests/simple_dungeon").getPool("extrabotany_inject_pool").addConditionsHelper([Conditions.randomChance(0.05)]);
-LootTweaker.getTable("minecraft:chests/simple_dungeon").getPool("lavacharm").addConditionsHelper([Conditions.randomChance(0.25)]);
-LootTweaker.getTable("minecraft:chests/simple_dungeon").getPool("slimecube").addConditionsHelper([Conditions.randomChance(0.5)]);
-LootTweaker.getTable("minecraft:chests/simple_dungeon").getPool("openmods_inject_pool").addConditionsHelper([Conditions.randomChance(0.15)]);
+LootTweaker.getTable("minecraft:chests/simple_dungeon").getPool("lavacharm").addConditionsHelper([Conditions.randomChance(0.15)]);
+LootTweaker.getTable("minecraft:chests/simple_dungeon").getPool("slimecube").addConditionsHelper([Conditions.randomChance(0.25)]);
+LootTweaker.getTable("minecraft:chests/simple_dungeon").getPool("openmods_inject_pool").addConditionsHelper([Conditions.randomChance(0.1)]);
 LootTweaker.getTable("minecraft:chests/simple_dungeon").getPool("power_point").clearConditions();
-LootTweaker.getTable("minecraft:chests/simple_dungeon").getPool("power_point").addConditionsHelper([Conditions.randomChance(0.25)]);
+LootTweaker.getTable("minecraft:chests/simple_dungeon").getPool("power_point").addConditionsHelper([Conditions.randomChance(0.2)]);
 LootTweaker.getTable("minecraft:chests/simple_dungeon").getPool("forestry_apiculture_bees").addConditionsHelper([Conditions.randomChance(0.2)]);
-LootTweaker.getTable("minecraft:chests/simple_dungeon").getPool("treasure").addConditionsHelper([Conditions.randomChance(0.15)]);
+LootTweaker.getTable("minecraft:chests/simple_dungeon").getPool("treasure").addConditionsHelper([Conditions.randomChance(0.1)]);
 LootTweaker.getTable("minecraft:chests/simple_dungeon").getPool("tconevo_artifacts").addConditionsHelper([Conditions.randomChance(0.1)]);
 
 LootTweaker.getTable("extrabotany:inject/simple_dungeon").getPool("main").removeEntry("extrabotany:bottledflame");
@@ -173,7 +173,13 @@ LootTweaker.getTable("enderio:chests/village_blacksmith").getPool("Ender IO").re
 LootTweaker.getTable("enderio:chests/village_blacksmith").getPool("Ender IO").removeEntry("enderio:item_dark_steel_boots:0");
 LootTweaker.getTable("enderio:chests/nether_bridge").getPool("Ender IO").removeEntry("enderio:item_dark_steel_boots:0");
 
-addItem(<minecraft:dye:15>, 20, 1, 2, 10);
+addItem(<minecraft:bone>, 50, 1, 2, 10);
+addItem(<minecraft:web>, 40, 1, 2, 15);
+addItem(<minecraft:rotten_flesh>, 60, 1, 2, 12);
+addItem(<minecraft:dye:15>, 25, 1, 2, 10);
+addItem(<minecraft:paper>, 15, 1, 2, 16);
+addItem(<minecraft:clay_ball>, 10, 1, 12, 24);
+addItem(<cyclicmagic:ender_tnt_6>, 12, 1, 1, 3);
 addItem(<thermalfoundation:material:128>, 10, 1, 2, 12);
 addItem(<thermalfoundation:material:129>, 10, 1, 2, 12);
 addItem(<thermalfoundation:material:163>, 18, 1, 2, 10);
@@ -265,7 +271,7 @@ addItem(<lootbags:itemlootbag:6>, 1, 1, 1, 1);
 addItem(<lootbags:itemlootbag:11>, 1, 1, 1, 1);
 addItem(<lootbags:itemlootbag:13>, 1, 1, 1, 1);
 addItem(<extrautils2:ingredients:12>, 5, 1, 3, 5);
-addItem(<bigreactors:ingotgraphite>, 6, 1, 10, 15);
+addItem(<minecraft:coal>, 10, 1, 3, 12);
 addItem(<enderio:item_alloy_ingot:1>, 8, 1, 4, 12);
 addItem(<enderio:item_alloy_ingot:2>, 6, 1, 4, 8);
 addItem(<enderio:item_alloy_ingot:8>, 4, 1, 4, 8);
@@ -326,6 +332,7 @@ addItem(<natura:edibles:7>, 1, 1, 1, 4);
 addItem(<natura:edibles:8>, 1, 1, 1, 4);
 addItem(<natura:edibles:9>, 1, 1, 1, 4);
 addItem(<additions:greedycraft-catalyst_star>, 2, 1, 1, 1);
+addItem(<charm:suspicious_soup>, 10, 1, 1, 1);
 
 if(CHRISTMAS_MODE) {
     addItem(<additions:greedycraft-gift>, 20, 1, 1, 2);

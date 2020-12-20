@@ -7,7 +7,15 @@
 #packmode casual adventure
 
 events.onWorldTick(function(event as crafttweaker.event.WorldTickEvent) {
-    if(event.world.getWorldTime() as long % 60 == 0 && event.phase == "END" && event.side == "SERVER") {
+    if(event.world.getWorldTime() as long % 40 == 0 && event.phase == "END" && event.side == "SERVER") {
         server.commandManager.executeCommand(server, "/gamerule keepInventory true");
     }
+});
+
+events.onPlayerRespawn(function(event as crafttweaker.event.PlayerRespawnEvent) {
+    server.commandManager.executeCommand(server, "/gamerule keepInventory true");
+});
+
+events.onPlayerLoggedIn(function(event as crafttweaker.event.PlayerLoggedInEvent) {
+    server.commandManager.executeCommand(server, "/gamerule keepInventory true");
 });

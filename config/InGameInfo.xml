@@ -68,7 +68,18 @@
                 <str>$c 建议按$6R$c键清理内存</str>
                 <str />
             </op>
-            <str>$7 |$a {rltime24}</str>
+            <str>$7 |$r  </str>
+                <icon>
+                    <str>greedycraft:gui/clock.png</str>
+                    <num>0</num>
+                    <num>0</num>
+                    <num>128</num>
+                    <num>128</num>
+                    <num>128</num>
+                    <num>128</num>
+                </icon>
+            <str> $a</str>
+            <var>rltime24</var>
             <op>
                 <str>gt</str>
                 <var>ping</var>
@@ -101,6 +112,7 @@
                 <str> $e{ping}ms</str>
                 <str />
             </op>
+            <str>$r</str>
         </line>
     </lines>
     <lines at="bottomleft">
@@ -123,11 +135,11 @@
                 <str>$4</str>
                 <str />
             </op>
-            <str> </str>
+            <str></str>
             <max>
                 <var>offhanddamageleft</var>
                 <num>1</num>
-                <str>{offhanddamageleft}$f / $e{offhandmaxdamage}</str>
+                <str> {offhanddamageleft}$f / $e{offhandmaxdamage}</str>
                 <if>
                     <equal>
                         <var>offhandname</var>
@@ -135,6 +147,7 @@
                     </equal>
                     <str></str>
                     <concat>
+                        <str> </str>
                         <var>offhandname</var>
                         <str> $7× $e</str>
                         <var>offhandquantity</var>
@@ -161,11 +174,11 @@
                 <str>$4</str>
                 <str />
             </op>
-            <str> </str>
+            <str></str>
             <max>
                 <var>mainhanddamageleft</var>
                 <num>1</num>
-                <str>{mainhanddamageleft}$f / $e{mainhandmaxdamage}</str>
+                <str> {mainhanddamageleft}$f / $e{mainhandmaxdamage}</str>
                 <if>
                     <equal>
                         <var>mainhandname</var>
@@ -173,6 +186,7 @@
                     </equal>
                     <str></str>
                     <concat>
+                        <str> </str>
                         <var>mainhandname</var>
                         <str> $7× $e</str>
                         <var>mainhandquantity</var>
@@ -192,7 +206,13 @@
                     </add>
                     <num>0</num>
                 </greater>
-                <str>$5扭曲$f：$6{thaumwarptemp}$7/$c{thaumwarpnormal}$7/$4{thaumwarpperm}</str>
+                <concat>
+                    <icon>
+                        <str>thaumcraft:curio</str>
+                        <num>5</num>
+                    </icon>
+                    <str> $6{thaumwarptemp}$7/$c{thaumwarpnormal}$7/$4{thaumwarpperm}</str>
+                </concat>
                 <str />
             </if>
             <if>
@@ -200,12 +220,38 @@
                     <var>bmcurrentlp</var>
                     <num>0</num>
                 </greater>
-                <str>$7| $cLP$f: $b{bmcurrentlp}</str>
+                <concat>
+                    <str> $7| </str>
+                    <icon>
+                        <str>bloodmagic:textures/items/weakbloodorb.png</str>
+                        <num>0</num>
+                        <num>0</num>
+                        <num>16</num>
+                        <num>16</num>
+                        <num>16</num>
+                        <num>16</num>
+                    </icon>
+                    <str>$b{bmcurrentlp}</str>
+                </concat>
                 <str />
             </if>
         </line>
         <line>
-            <str>$a季节$f：</str>
+            <str>$r</str>
+            <icon>
+                <concat>
+                    <str>greedycraft:gui/season</str>
+                    <var>sereneseasonscurrentseasonord</var>
+                    <str>.png</str>
+                </concat>
+                <num>0</num>
+                <num>0</num>
+                <num>16</num>
+                <num>16</num>
+                <num>16</num>
+                <num>16</num>
+            </icon>
+            <str>$r </str>
             <if>
                 <equal>
                     <var>sereneseasonscurrentseason</var>
@@ -319,7 +365,21 @@
                     </if>
                 </if>
             </if>
-            <str> $7| $9月相$f：$3</str>
+            <str> $7|  $r</str>
+            <icon>
+                <concat>
+                    <str>greedycraft:gui/phase</str>
+                    <var>moonphase</var>
+                    <str>.png</str>
+                </concat>
+                <num>0</num>
+                <num>0</num>
+                <num>128</num>
+                <num>128</num>
+                <num>128</num>
+                <num>128</num>
+            </icon>
+            <str> </str>
             <op>
                 <str>le</str>
                 <var>moonphase</var>
@@ -340,7 +400,32 @@
                 <str>上弦月</str>
                 <str>盈凸</str>
             </op>
-            <str> $7| $e光照$f：</str>
+            <str> $7|  </str>
+            <if>
+                <greater>
+                    <var>light</var>
+                    <num>7</num>
+                </greater>
+                <icon>
+                    <str>greedycraft:gui/bright.png</str>
+                    <num>0</num>
+                    <num>0</num>
+                    <num>128</num>
+                    <num>128</num>
+                    <num>128</num>
+                    <num>128</num>
+                </icon>
+                <icon>
+                    <str>greedycraft:gui/dim.png</str>
+                    <num>0</num>
+                    <num>0</num>
+                    <num>128</num>
+                    <num>128</num>
+                    <num>128</num>
+                    <num>128</num>
+                </icon>
+            </if>
+            <str> </str>
             <op>
                 <str>gt</str>
                 <var>light</var>
@@ -356,6 +441,7 @@
                 <str>$4</str>
             </op>
             <var>light</var>
+            <str>$r</str>
         </line>
     </lines>
     <lines at="middleleft">

@@ -226,12 +226,15 @@ visionTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSelected)
     if(owner instanceof IEntityLivingBase) {
         var ownerBase as IEntityLivingBase = owner;
         if(isSelected) {
-            ownerBase.addPotionEffect(<potion:minecraft:night_vision>.makePotionEffect(410, 0, false, false));
-        } else {
+            ownerBase.addPotionEffect(<potion:minecraft:night_vision>.makePotionEffect(330, 0, false, false));
+        } 
+        /*
+        else {
             if(!isNull(ownerBase.getActivePotionEffect(<potion:minecraft:night_vision>)) && (!(ownerBase.getActivePotionEffect(<potion:minecraft:night_vision>).duration > 250)) && (!ownerBase.getActivePotionEffect(<potion:minecraft:night_vision>).isAmbient) && (!ownerBase.getActivePotionEffect(<potion:minecraft:night_vision>).doesShowParticles)) {
                 ownerBase.removePotionEffect(<potion:minecraft:night_vision>);
             }
         }
+        */
     }
 };
 visionTrait.register();
