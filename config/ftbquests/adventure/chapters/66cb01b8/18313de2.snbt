@@ -10,6 +10,9 @@
 		uid: "c1aaba3d",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "bloodmagic:soul_gem",
 			tag: {},
 			Damage: 2s
@@ -30,6 +33,9 @@
 		uid: "508a73d2",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "bloodmagic:soul_gem",
 			tag: {
 				souls: 256.0d

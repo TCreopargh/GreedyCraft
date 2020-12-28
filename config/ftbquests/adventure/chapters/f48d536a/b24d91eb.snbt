@@ -10,6 +10,9 @@
 		uid: "8f9ae330",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "abyssalcraft:eoa"
 		}],
 		ignore_damage: true,

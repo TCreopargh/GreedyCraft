@@ -211,13 +211,13 @@ gambleTrait.color = Color.fromHex("fdd835").getIntColor();
 gambleTrait.localizedName = "赌博";
 gambleTrait.localizedDescription = (
     "§o这是个看脸的世界！§r\n" +
-    "§f穿戴盔甲有概率将受到的伤害降低10倍，同时也有很小的概率受到10倍伤害...一切都看脸！");
+    "§f穿戴盔甲有概率将受到的伤害降低到1/2，同时也有小概率受到2倍伤害...一切都看脸！");
 gambleTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
-    if(Math.random() < 0.005) {
-        return newDamage * 10.0 as float;
-    }
     if(Math.random() < 0.05) {
-        return (newDamage / 10.0 as float) as float;
+        return newDamage * 2.0 as float;
+    }
+    if(Math.random() < 0.25) {
+        return (newDamage / 2.0 as float) as float;
     }
     return newDamage;
 };

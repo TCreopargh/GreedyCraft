@@ -7,6 +7,9 @@
 		uid: "4b2a8780",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "minecraft:elytra"
 		}],
 		ignore_damage: true,
@@ -22,6 +25,9 @@
 		uid: "445d6da6",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "minecraft:elytra"
 		}
 	},

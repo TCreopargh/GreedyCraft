@@ -100,13 +100,13 @@ gambleTrait.color = Color.fromHex("ffa000").getIntColor();
 gambleTrait.localizedName = "赌博";
 gambleTrait.localizedDescription = (
     "§o这是个看脸的世界！§r\n" +
-    "§f你的武器有概率造成10倍伤害，也有更大的概率只造成十分之一的伤害...一切都看脸！");
+    "§f你的武器有概率造成双倍伤害，也有更大的概率只造成二分之一的伤害...一切都看脸！");
 gambleTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
-    if(!(Math.random() as double > 0.04)) {
-        return newDamage * 10 as float; 
+    if(!(Math.random() as double > 0.15)) {
+        return newDamage * 2 as float; 
     }
-    if(!(Math.random() as double > 0.28)) {
-        return newDamage * 0.1 as float; 
+    if(!(Math.random() as double > 0.3)) {
+        return newDamage * 0.5 as float; 
     }
     return newDamage;
 };

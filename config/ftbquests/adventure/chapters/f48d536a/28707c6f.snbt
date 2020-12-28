@@ -22,6 +22,9 @@
 		uid: "5fcaff1d",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "abyssalcraft:drainstaff",
 			Damage: 3s
 		}

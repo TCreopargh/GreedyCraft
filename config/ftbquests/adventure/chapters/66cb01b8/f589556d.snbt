@@ -10,6 +10,9 @@
 		uid: "acc7e351",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "bloodmagic:soul_gem",
 			tag: {}
 		}],

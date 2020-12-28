@@ -18,6 +18,9 @@
 		uid: "d24becb3",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "tinymobfarm:lasso",
 			tag: {
 				capturedMob: {

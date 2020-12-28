@@ -43,6 +43,9 @@
 		uid: "871b3558",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "minecraft:stone_pickaxe"
 		}
 	},

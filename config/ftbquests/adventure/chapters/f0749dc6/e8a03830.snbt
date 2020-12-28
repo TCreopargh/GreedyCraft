@@ -1,6 +1,9 @@
 {
 	title: "坚持不懈I",
 	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
 		id: "minecraft:leather_helmet"
 	},
 	x: -5.5d,

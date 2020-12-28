@@ -24,6 +24,9 @@
 		uid: "f45c1153",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "avaritia:infinity_pickaxe",
 			tag: {
 				ench: [{
@@ -37,6 +40,9 @@
 		uid: "58a1abe6",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "avaritia:infinity_axe"
 		}
 	},
@@ -44,6 +50,9 @@
 		uid: "5ccbb97a",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "avaritia:infinity_hoe"
 		}
 	},
@@ -51,6 +60,9 @@
 		uid: "9716129c",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "avaritia:infinity_shovel"
 		}
 	},

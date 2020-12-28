@@ -10,6 +10,9 @@
 		uid: "4e793c89",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "thaumcraft:thaumometer"
 		}],
 		ignore_damage: true,
@@ -24,6 +27,9 @@
 		uid: "8ed858ee",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "thaumcraft:thaumometer"
 		},
 		count: 3

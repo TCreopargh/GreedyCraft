@@ -7,6 +7,9 @@
 		uid: "1b5b9527",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "spiceoflife:lunchbox"
 		}],
 		ignore_damage: true,

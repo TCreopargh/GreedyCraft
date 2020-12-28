@@ -7,6 +7,9 @@
 		uid: "d59e936a",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "additions:greedycraft-difficulty_changer"
 		}],
 		ignore_damage: true,

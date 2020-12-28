@@ -48,36 +48,54 @@
 	},
 	{
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "lootbags:itemlootbag",
 			Damage: 1s
 		}
 	},
 	{
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "lootbags:itemlootbag",
 			Damage: 2s
 		}
 	},
 	{
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "lootbags:itemlootbag",
 			Damage: 3s
 		}
 	},
 	{
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "lootbags:itemlootbag",
 			Damage: 4s
 		}
 	},
 	{
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "lootbags:itemlootbag",
 			Damage: 5s
 		}
 	},
 	{
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "lootbags:itemlootbag",
 			Damage: 11s
 		}
@@ -104,6 +122,9 @@
 	},
 	{
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "bountifulbaubles:disintegrationtablet"
 		}
 	},
@@ -112,6 +133,9 @@
 	},
 	{
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "bountifulbaubles:trinketvitamins"
 		}
 	},
@@ -159,12 +183,18 @@
 	},
 	{
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "thermalexpansion:reservoir",
 			tag: {}
 		}
 	},
 	{
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "tinymobfarm:lasso",
 			tag: {}
 		},
@@ -307,6 +337,9 @@
 	},
 	{
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "forge:bucketfilled",
 			tag: {
 				FluidName: "liquidantimatter",
@@ -316,6 +349,9 @@
 	},
 	{
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "forge:bucketfilled",
 			tag: {
 				FluidName: "organic_fluid",
@@ -374,6 +410,9 @@
 	},
 	{
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "prefab:item_villager_houses"
 		}
 	},
@@ -404,11 +443,17 @@
 	},
 	{
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "inventorypets:double_chest_pet"
 		}
 	},
 	{
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "inventorypets:meta_pet"
 		},
 		weight: 2
@@ -455,6 +500,9 @@
 	},
 	{
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "openblocks:generic_unstackable"
 		}
 	},
@@ -465,6 +513,9 @@
 	},
 	{
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "comforts:hammock"
 		},
 		random_bonus: 2
@@ -496,6 +547,9 @@
 	},
 	{
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "minecraft:diamond_sword",
 			tag: {
 				ench: [{
@@ -521,6 +575,9 @@
 	},
 	{
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "prefab:item_structure_part"
 		}
 	},
@@ -565,12 +622,18 @@
 	},
 	{
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "cyclicmagic:charm_boat",
 			tag: {}
 		}
 	},
 	{
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "cyclicmagic:charm_speed",
 			tag: {}
 		}
@@ -598,6 +661,9 @@
 	},
 	{
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "cyclicmagic:emerald_sword",
 			tag: {
 				display: {
@@ -615,6 +681,9 @@
 	},
 	{
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "hooked:hook",
 			Damage: 1s
 		}
@@ -662,6 +731,9 @@
 	},
 	{
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "touhou_little_maid:gashapon",
 			Damage: 1s
 		},
@@ -669,6 +741,9 @@
 	},
 	{
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "touhou_little_maid:gashapon",
 			Damage: 2s
 		},

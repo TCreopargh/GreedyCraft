@@ -1,6 +1,9 @@
 {
 	title: "§6怪物猎人V",
 	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
 		id: "minecraft:diamond_sword"
 	},
 	x: -3.0d,

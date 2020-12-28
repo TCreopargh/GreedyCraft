@@ -1,6 +1,9 @@
 {
 	title: "§b云顶巨人",
 	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
 		id: "twilightforest:giant_pickaxe"
 	},
 	x: 9.0d,
@@ -13,6 +16,9 @@
 		uid: "6ec44536",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "twilightforest:giant_sword"
 		}],
 		ignore_damage: true,
@@ -22,6 +28,9 @@
 		uid: "47cd2f2b",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "twilightforest:giant_pickaxe"
 		}],
 		ignore_damage: true,
@@ -31,6 +40,9 @@
 		uid: "6c8d9221",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "twilightforest:lamp_of_cinders"
 		}],
 		ignore_damage: true,
@@ -57,6 +69,9 @@
 		uid: "c66db1ba",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "thermalinnovation:magnet",
 			tag: {
 				Energy: 600000
@@ -68,6 +83,9 @@
 		uid: "59420aa9",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "thermalinnovation:saw",
 			tag: {
 				Energy: 600000,
@@ -80,6 +98,9 @@
 		uid: "ca443f22",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "thermalinnovation:drill",
 			tag: {
 				Energy: 600000,
@@ -92,6 +113,9 @@
 		uid: "84239c3e",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "thermalexpansion:capacitor",
 			tag: {
 				Energy: 25000000

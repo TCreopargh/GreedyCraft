@@ -159,6 +159,9 @@
 	},
 	{
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "thermalexpansion:capacitor",
 			tag: {
 				Energy: 4000000
@@ -168,6 +171,9 @@
 	},
 	{
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "thermalexpansion:capacitor",
 			tag: {
 				Energy: 9000000
@@ -186,6 +192,9 @@
 	},
 	{
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "additions:greedycraft-item_purger"
 		}
 	},
@@ -200,6 +209,9 @@
 	},
 	{
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "waystones:warp_stone"
 		},
 		random_bonus: 1
@@ -211,6 +223,9 @@
 	},
 	{
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "appliedenergistics2:storage_cell_16k",
 			tag: {}
 		},
@@ -297,6 +312,9 @@
 	},
 	{
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "minecraft:blue_shulker_box",
 			tag: {
 				BlockEntityTag: {
@@ -607,6 +625,9 @@
 	},
 	{
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "advanced-fishing:blazing_fishing_pole"
 		}
 	},
@@ -618,6 +639,9 @@
 	},
 	{
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "lootbags:itemlootbag",
 			Damage: 4s
 		},
@@ -625,6 +649,9 @@
 	},
 	{
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "lootbags:itemlootbag",
 			Damage: 3s
 		},
@@ -668,6 +695,9 @@
 	},
 	{
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "waystones:warp_stone"
 		}
 	},
@@ -812,6 +842,9 @@
 	},
 	{
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "inventorypets:meta_pet"
 		},
 		weight: 3
@@ -862,6 +895,9 @@
 	},
 	{
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "mekanismgenerators:generator",
 			Damage: 6s
 		}
@@ -905,6 +941,9 @@
 	},
 	{
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "minecraft:diamond_sword",
 			tag: {
 				ench: [{
@@ -1097,6 +1136,9 @@
 	},
 	{
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "cyclicmagic:emerald_sword",
 			tag: {
 				display: {
@@ -1113,11 +1155,17 @@
 	},
 	{
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "additions:greedycraft-guide_book"
 		}
 	},
 	{
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "hooked:hook",
 			tag: {
 				baubleModifier: "wild",
@@ -1128,6 +1176,9 @@
 	},
 	{
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "hooked:hook",
 			tag: {
 				baubleModifier: "angry"
@@ -1137,6 +1188,9 @@
 	},
 	{
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "additions:greedycraft-tower_chest_key"
 		}
 	},
@@ -1155,6 +1209,9 @@
 	},
 	{
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "ironchest:iron_shulker_box_light_blue",
 			Damage: 5s
 		}
@@ -1182,6 +1239,9 @@
 	},
 	{
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "touhou_little_maid:gashapon",
 			Damage: 4s
 		},
@@ -1189,6 +1249,9 @@
 	},
 	{
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "touhou_little_maid:gashapon",
 			Damage: 3s
 		},

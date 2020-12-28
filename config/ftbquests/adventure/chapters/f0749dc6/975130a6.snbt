@@ -1,6 +1,9 @@
 {
 	title: "§9旅行者III",
 	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
 		id: "minecraft:iron_boots"
 	},
 	x: -0.5d,
@@ -13,6 +16,9 @@
 		uid: "b0a12653",
 		type: "stat",
 		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "minecraft:iron_boots"
 		},
 		stat: "stat.walkOneCm",
@@ -22,6 +28,9 @@
 		uid: "bf9ce021",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "cyclicmagic:charm_wing",
 			tag: {}
 		}

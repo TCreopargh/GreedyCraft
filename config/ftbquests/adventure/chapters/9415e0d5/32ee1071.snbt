@@ -10,6 +10,9 @@
 		uid: "c42363e5",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "tofucraft:tofuforce_core"
 		}],
 		ignore_damage: true,
@@ -24,6 +27,9 @@
 		uid: "a754e760",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "tofucraft:tofuforce_core"
 		}
 	},

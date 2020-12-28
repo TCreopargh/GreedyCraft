@@ -1,6 +1,9 @@
 {
 	title: "旅行者I",
 	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
 		id: "minecraft:leather_boots"
 	},
 	x: -0.5d,
@@ -10,6 +13,9 @@
 		uid: "31969db1",
 		type: "stat",
 		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "minecraft:iron_boots"
 		},
 		stat: "stat.walkOneCm",

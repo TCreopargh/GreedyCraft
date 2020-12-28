@@ -13,6 +13,9 @@
 		uid: "9dab2097",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "abyssalcraft:transmutationgem"
 		}],
 		ignore_damage: true,

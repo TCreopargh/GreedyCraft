@@ -10,6 +10,9 @@
 		uid: "354d552a",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "bloodmagic:sigil_divination"
 		}],
 		ignore_damage: true,

@@ -10,6 +10,9 @@
 		uid: "e8fdd0ca",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "botania:manatablet",
 			tag: {}
 		}],

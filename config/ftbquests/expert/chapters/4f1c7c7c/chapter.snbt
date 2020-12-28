@@ -38,8 +38,8 @@
 		dev: false
 	},
 	{
-		x: 0.8d,
-		y: -8.0d,
+		x: 2.0d,
+		y: -9.0d,
 		width: 18.94d,
 		height: 9.86d,
 		rotation: 0.0d,
