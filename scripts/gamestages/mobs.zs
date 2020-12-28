@@ -7,6 +7,8 @@
 
 import mods.MobStages;
 
+import scripts.util.gamestages as GameStagesUtil;
+
 val mobStages as string[string] = {
     "enderiozoo:concussioncreeper": "hardmode",
     "enderiozoo:direslime": "hardmode",
@@ -28,7 +30,8 @@ val mobStages as string[string] = {
     "mowziesmobs:frostmaw": "hardmode",
     "primitivemobs:blazing_juggernaut": "nether",
     "primitivemobs:haunted_tool": "nether",
-    "primitivemobs:bewitched_tome": "nether"
+    "primitivemobs:bewitched_tome": "nether",
+    "minecraft:wither": "abyssal_conquerer"
 } as string[string];
 
 val mobReplacements as string[string] = {

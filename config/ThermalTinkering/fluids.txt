@@ -143,6 +143,7 @@ manganese_steel                                   (contenttweaker:manganese_stee
 durasteel                                         (contenttweaker:durasteel)                                                       = ÈÛÈÚÄÍ¸Ö
 aeonsteel                                         (contenttweaker:aeonsteel)                                                       = ÈÛÈÚºã¸Ö
 chromasteel                                       (contenttweaker:chromasteel)                                                     = ÈÛÈÚìÅ¸Ö
+spectre                                           (contenttweaker:spectre)                                                         = fluid.spectre
 canolaoil                                         (actuallyadditions:block_canola_oil)                                             = ²Ë×ÑÓÍ
 refinedcanolaoil                                  (actuallyadditions:block_refined_canola_oil)                                     = ¾«ÖÆ²Ë×ÑÓÍ
 crystaloil                                        (actuallyadditions:block_crystal_oil)                                            = ¾§»¯ÓÍ

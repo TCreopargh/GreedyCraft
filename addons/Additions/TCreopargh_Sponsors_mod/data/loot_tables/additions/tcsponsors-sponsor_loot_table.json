@@ -242,6 +242,11 @@
                     "type": "item",
                     "name": "additions:tcsponsors-emperors_gift",
                     "weight": 1
+                },
+				{
+                    "type": "item",
+                    "name": "additions:tcsponsors-yinghuas_hat",
+                    "weight": 1
                 }
             ]
         }

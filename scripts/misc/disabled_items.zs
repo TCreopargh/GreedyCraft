@@ -14,6 +14,8 @@ import mods.zenstages.Stage;
 import mods.ItemStages;
 import mods.jei.JEI;
 
+import scripts.util.recipes as RecipeUtil;
+
 val disabledItems as IIngredient[] = [
    <botania:blackholetalisman>,
     <extrautils2:wateringcan:*>,
@@ -199,7 +201,27 @@ val disabledItems as IIngredient[] = [
     <cyclicmagic:crystal_hoe:*>,
     <bloodarsenal:stasis_shovel:*>,
     <candymod:cotton_candy_shovel:*>,
-    <draconicevolution:draconic_spawner>
+    <draconicevolution:draconic_spawner>,
+    <enderio:item_material:9>,
+    <enderio:item_material:10>,
+    <inventorypets:solstice_sword>,
+    <inventorypets:solstice_helmet>,
+    <inventorypets:solstice_chestplate>,
+    <inventorypets:solstice_leggings>,
+    <inventorypets:solstice_boots>,
+    <inventorypets:solstice_sword>.withTag({ench: [{lvl: 3 as short, id: 34}, {lvl: 2 as short, id: 16}, {lvl: 2 as short, id: 17}]}),
+    <inventorypets:solstice_helmet>.withTag({ench: [{lvl: 4 as short, id: 34}, {lvl: 3 as short, id: 5}, {lvl: 1 as short, id: 6}]}),
+    <inventorypets:solstice_chestplate>.withTag({ench: [{lvl: 4 as short, id: 1}, {lvl: 4 as short, id: 4}, {lvl: 3 as short, id: 7}]}),
+    <inventorypets:solstice_leggings>.withTag({ench: [{lvl: 4 as short, id: 34}, {lvl: 4 as short, id: 3}, {lvl: 4 as short, id: 0}]}),
+    <inventorypets:solstice_boots>.withTag({ench: [{lvl: 4 as short, id: 34}, {lvl: 4 as short, id: 1}, {lvl: 4 as short, id: 2}]}),
+    <extrabotany:goblinslayerhelm>,
+    <extrabotany:goblinslayerchest>,
+    <extrabotany:goblinslayerlegs>,
+    <extrabotany:goblinslayerboots>,
+    <extrabotany:goblinslayerhelm>.withTag({isday: 0 as byte}),
+    <extrabotany:goblinslayerchest>.withTag({isday: 0 as byte}),
+    <extrabotany:goblinslayerlegs>.withTag({isday: 0 as byte}),
+    <extrabotany:goblinslayerboots>.withTag({isday: 0 as byte})
 ] as IIngredient[];
 
 val disabledRecipeRegex as string[] = [
@@ -215,6 +237,7 @@ val disabledRecipeRegex as string[] = [
     "^tcomplement:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(sword)|(axe)|(shovel)|(boots)|(leggings)|(chestplate)|(helmet)|(legs)|(helm)|(pick))$",
     "^bloodarsenal:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(sword)|(axe)|(shovel)|(boots)|(leggings)|(chestplate)|(helmet)|(legs)|(helm)|(pick))$",
     "^botania:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(sword)|(axe)|(shovel)|(boots)|(leggings)|(chestplate)|(helmet)|(legs)|(helm)|(pick)|(chest))$",
+    "^extrabotany:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(sword)|(axe)|(shovel)|(boots)|(leggings)|(chestplate)|(helmet)|(legs)|(helm)|(pick)|(chest))$",
     "^enderio:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(sword)|(axe)|(shovel)|(boots)|(leggings)|(chestplate)|(helmet))$",
     "^thermalfoundation:tool.fishing_rod_(.*)$",
     "^jaopca:block_crystalcluster(.*)$",
@@ -231,7 +254,7 @@ for ingredient in disabledItems {
     ItemStages.removeItemStage(ingredient);
     ItemStages.addItemStage("disabled", ingredient);
     for item in ingredient.items {
-        recipes.remove(item);
+        RecipeUtil.remove(item);
         JEI.hide(item);
         item.addTooltip("§c已禁用");
     }
@@ -240,7 +263,7 @@ for ingredient in disabledItems {
 for recipe in recipes.all {
     for regex in disabledRecipeRegex {
         if(recipe.fullResourceDomain.matches(regex)) {
-            recipes.remove(recipe.output);
+            RecipeUtil.remove(recipe.output);
             JEI.hide(recipe.output);
             recipe.output.addTooltip("§c已禁用");
             // Disabled this to fix the problem of zombies holding question marks

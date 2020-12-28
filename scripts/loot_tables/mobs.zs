@@ -32,7 +32,14 @@ val mobList as string[] = [
     "ghast",
     "blaze",
     "cave_spider",
-    "witch"
+    "witch",
+    "slime",
+    "magma_cube"
+];
+
+val slimeTables as string[] = [
+    "minecraft:entities/slime",
+    "minecraft:entities/magma_cube"
 ];
 
 val lootHusk = LootTweaker.getTable("minecraft:entities/husk");
@@ -44,6 +51,13 @@ if(CHRISTMAS_MODE) {
         var table as LootTable = LootTweaker.getTable("minecraft:entities/" + mob);
         var pool as LootPool = table.addPool("christmas_gift", 1, 1, 0, 0);
         pool.addItemEntryHelper(<additions:greedycraft-gift>, 1, 1, [Functions.setCount(1, 1)], []);
-        pool.addConditionsHelper([Conditions.randomChanceWithLooting(0.01, 0.005), Conditions.killedByPlayer()]);
+        pool.addConditionsHelper([Conditions.randomChanceWithLooting(0.00, 0.005), Conditions.killedByPlayer()]);
     }
+}
+
+for table in slimeTables {
+    var table as LootTable = LootTweaker.getTable(table);
+    var pool as LootPool = table.addPool("slime_crown", 1, 1, 0, 0); 
+    pool.addItemEntryHelper(<additions:greedycraft-slime_crown>, 1, 1, [Functions.setCount(1, 1)], []);
+    pool.addConditionsHelper([Conditions.randomChanceWithLooting(0.005, 0.005), Conditions.killedByPlayer()]);
 }

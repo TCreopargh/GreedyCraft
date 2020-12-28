@@ -863,7 +863,7 @@
 	},
 	{
 		item: "taiga:adamant_ingot",
-		count: 2,
+		count: 1,
 		random_bonus: 2
 	},
 	{

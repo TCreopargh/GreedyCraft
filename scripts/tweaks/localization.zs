@@ -102,6 +102,7 @@ val localizationMap as string[string] = {
     "fluid.durasteel": "熔融耐钢",
     "fluid.aeonsteel": "熔融恒钢",
     "fluid.chromasteel": "熔融炫钢",
+    "fluid.spectre": "灵魂之泉",
     "jaopca.entry.Dilithium": "双锂",
     "jaopca.entry.Asgardium": "神金",
     "jaopca.entry.Shadowium": "暗影",
@@ -142,13 +143,14 @@ val localizationMap as string[string] = {
     "item.heart_food.name": "§c心之容器 EX§r",
     "tooltip.itemstages.name.default": "§5§ka§r §d未知物品 §5§ka§r",
     "commands.publish.started": "§e已在端口§6%s§e上开启局域网游戏。 \n§7(如果需要非正版玩家登录，请在整合包根目录的config/serverGlobalConfig.properties中把online-mode后面的true改成false)",
-    "betterfoliage.rendererror": "§a[更好的树叶]§f 在渲染原木方块 %s （位于%s）时出错。§7（该提示一般可忽略）",
+    "betterfoliage.rendererror": "§a[更好的树叶]§f 在渲染原木方块 %s §9@ §7(§6%s§7) 时出错。§7（该提示一般可忽略）",
     "potion.saturation": "饱腹",
     "tconevo.info.cannot_replace": "无法替换该工具部件！（注：无法替换掉带有进化属性的部件）",
     "tile.quark:monster_box.name": "§c陷阱刷怪笼",
     "entity.primitivemobs.flame_spewer.name": "炽焰八爪鱼",
     "mob_effect.netherex:fire_burning": "极寒之焰",
-    "info.nyx.blood_moon_sleeping": "§c你无法在血色之月的阴霾下安心入睡。"
+    "info.nyx.blood_moon_sleeping": "§c你无法在血色之月的阴霾下安心入睡。",
+    "tile.torchmaster.mega_torch.lit.tooltip": "§e正道的光，照在了大地上！"
 } as string[string];
 
 for k, v in localizationMap {

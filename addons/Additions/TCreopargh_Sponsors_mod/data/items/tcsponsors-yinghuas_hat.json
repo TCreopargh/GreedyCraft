@@ -1,0 +1,15 @@
+{
+  "name": "§c樱华的帽子",
+  "tooltip": [
+    "§6镜中花：这顶帽子会不定时赋予你神奇的力量",
+    "§6水中月：这顶帽子为你带来了更强的生存能力",
+    "§6少女的洋帽有着好看的外表和少女美好的幻想，不过在这些美好之下似乎是华而不实。",
+    "§b§o赞助者物品 by 海市蜃萝"
+  ],
+  "max_stack": 1,
+  "durability": 9600,
+  "has_overlay": false,
+  "enchantability": 0,
+  "repair_stacks": {},
+  "type": "additions:hat"
+}

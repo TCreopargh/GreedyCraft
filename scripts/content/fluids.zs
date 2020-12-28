@@ -342,3 +342,15 @@ molten_chromasteel.color = Color.fromHex("f44336").getIntColor();
 molten_chromasteel.stillLocation = "base:fluids/molten";
 molten_chromasteel.flowingLocation = "base:fluids/molten_flowing";
 molten_chromasteel.register();
+
+val molten_spectre = mods.contenttweaker.VanillaFactory.createFluid("spectre", Color.fromHex("90a4ae").getIntColor());
+molten_spectre.material = <blockmaterial:lava>;
+molten_spectre.viscosity = 3000;
+molten_spectre.density = 6500;
+molten_spectre.colorize = true;
+molten_spectre.temperature = 1400;
+molten_spectre.luminosity = 10;
+molten_spectre.color = Color.fromHex("90a4ae").getIntColor();
+molten_spectre.stillLocation = "base:fluids/molten";
+molten_spectre.flowingLocation = "base:fluids/molten_flowing";
+molten_spectre.register();

@@ -1,0 +1,52 @@
+{
+  "cause": {
+    "equipment": [
+      {
+        "slot": "head",
+        "item": {
+          "item": "additions:tcsponsors-yinghuas_hat",
+          "damage": "any"
+        }
+      }
+    ],
+    "pieces_required": 1,
+    "type": "additions:item_equipped"
+  },
+  "effects": [
+    {
+      "potion": {
+        "name": "minecraft:strength",
+        "duration": 160,
+        "amplifier": 0,
+        "ambient": false,
+        "show_particles": true
+      },
+      "chance": 0.005,
+      "type": "additions:potion"
+    },
+    {
+      "chance": 0.05,
+      "type": "additions:damage_item"
+    },
+    {
+      "potion": {
+        "name": "minecraft:resistance",
+        "duration": 250,
+        "amplifier": 0,
+        "ambient": false,
+        "show_particles": true
+      },
+      "type": "additions:potion"
+    },
+    {
+      "potion": {
+        "name": "minecraft:slowness",
+        "duration": 250,
+        "amplifier": 0,
+        "ambient": false,
+        "show_particles": true
+      },
+      "type": "additions:potion"
+    }
+  ]
+}

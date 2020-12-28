@@ -101,4 +101,3 @@ for material in materialStages {
     var stage as string = materialStages[material] as string;
     TinkerStages.addMaterialStage(stage, material);
 }
-

@@ -201,16 +201,6 @@ randomthings:strong_collapse
        randomthings:collapse - 300 - 1 - false - true
 
 
-enderio:confusion
-   - Effects: 
-       minecraft:nausea - 900 - 0 - false - true
-
-
-enderio:long_confusion
-   - Effects: 
-       minecraft:nausea - 2400 - 0 - false - true
-
-
 enderio:withering
    - Effects: 
        minecraft:wither - 900 - 0 - false - true
@@ -219,6 +209,16 @@ enderio:withering
 enderio:long_withering
    - Effects: 
        minecraft:wither - 2400 - 0 - false - true
+
+
+enderio:confusion
+   - Effects: 
+       minecraft:nausea - 900 - 0 - false - true
+
+
+enderio:long_confusion
+   - Effects: 
+       minecraft:nausea - 2400 - 0 - false - true
 
 
 enderio:floating

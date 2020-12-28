@@ -165,7 +165,9 @@ val tooltipMap as string[][IIngredient] = {
 	<modularmachinery:blockcasing:1> : ["§e1级机械升级方块", machinery_upgrade_guide],
 	<modularmachinery:blockcasing:2> : ["§e2级机械升级方块", machinery_upgrade_guide],
 	<modularmachinery:blockcasing:3> : ["§e3级机械升级方块", machinery_upgrade_guide],
-	<modularmachinery:blockcasing:5> : ["§e4级机械升级方块", machinery_upgrade_guide]
+	<modularmachinery:blockcasing:5> : ["§e4级机械升级方块", machinery_upgrade_guide],
+	<enderio:item_material:9> : ["§e请使用热力系列的木齿轮"],
+	<enderio:item_material:10> : ["§e4请使用热力系列的石齿轮"]
 } as string[][IIngredient];
 
 for ingredient in tooltipMap {

@@ -40,8 +40,8 @@
 	{
 		x: 0.8d,
 		y: -8.0d,
-		width: 14.24d,
-		height: 6.64d,
+		width: 18.94d,
+		height: 9.86d,
 		rotation: 0.0d,
 		image: "greedycraft:quests/packmodes.png",
 		hover: [],

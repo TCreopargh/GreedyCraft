@@ -9,4 +9,5 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.data.IData;
 import crafttweaker.item.IIngredient;
 
-global CHRISTMAS_MODE as bool = true;
+// Currently you will need to manually enable this during Christmas
+global CHRISTMAS_MODE as bool = false;

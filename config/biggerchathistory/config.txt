@@ -1,0 +1,3 @@
+##[general]
+
+I:maxchatlines = '2000';

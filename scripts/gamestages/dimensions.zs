@@ -3,10 +3,21 @@
  * You may NOT use this script in any other publicly distributed modpack without my permission. 
  */ 
 
-#priority 1000
-mods.DimensionStages.addDimensionStage("twilight_shield", -1);
-mods.DimensionStages.addDimensionStage("ender_charm", 1);
-mods.DimensionStages.addDimensionStage("fearless_man", 51);
-mods.DimensionStages.addDimensionStage("hardmode", 52);
-mods.DimensionStages.addDimensionStage("nether", 4);
-mods.DimensionStages.addDimensionStage("hardmode", -11325);
+#priority 910
+
+import crafttweaker.item.IItemStack;
+import crafttweaker.data.IData;
+import crafttweaker.item.IIngredient;
+
+import mods.zenstages.ZenStager;
+import mods.zenstages.Stage;
+import mods.ItemStages;
+
+import scripts.util.gamestages as GameStagesUtil;
+
+GameStagesUtil.stageTwilightShield.addDimension(-1);
+GameStagesUtil.stageEnderCharm.addDimension(1);
+GameStagesUtil.stageFearlessMan.addDimension(51);
+GameStagesUtil.stageHardmode.addDimension(52);
+GameStagesUtil.stageHardmode.addDimension(4);
+GameStagesUtil.stageNether.addDimension(-11325);

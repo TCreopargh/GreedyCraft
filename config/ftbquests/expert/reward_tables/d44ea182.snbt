@@ -547,8 +547,8 @@
 	},
 	{
 		item: "taiga:adamant_ingot",
-		count: 8,
-		random_bonus: 18
+		count: 3,
+		random_bonus: 10
 	},
 	{
 		item: "tconevo:material",

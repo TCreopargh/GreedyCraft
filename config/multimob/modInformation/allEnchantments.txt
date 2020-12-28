@@ -36,12 +36,12 @@ extrautils2:xu.burnerang
 extrautils2:xu.bladerang
 extrautils2:xu.boomereaperang
 openblocks:explosive
-endercore:xpboost
 endercore:autosmelt
-enderio:soulbound
-enderio:witherarrow
-enderio:witherweapon
+endercore:xpboost
 enderio:repellent
+enderio:witherweapon
+enderio:witherarrow
+enderio:soulbound
 enderio:shimmer
 tofucraft:ench_drain
 tofucraft:ench_batch

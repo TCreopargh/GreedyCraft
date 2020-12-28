@@ -1,0 +1,7 @@
+{
+  "name": "§9皇家凝胶",
+  "burn_time": 4000,
+  "tooltip": "§e好吃又易燃！",
+  "ore_dict": "gel",
+  "type": "additions:simple"
+}

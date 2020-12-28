@@ -2818,7 +2818,7 @@
                     "item": "minecraft:dragon_egg"
                 },
                 {
-                    "amount": "[20,40]",
+                    "amount": "[10,20]",
                     "chance": 1,
                     "item": "draconicevolution:draconium_dust"
                 },
@@ -2844,7 +2844,7 @@
                     "item": "minecraft:dragon_egg"
                 },
                 {
-                    "amount": "[30,60]",
+                    "amount": "[20,30]",
                     "chance": 1,
                     "item": "draconicevolution:draconium_dust"
                 },
@@ -2870,7 +2870,7 @@
                     "item": "minecraft:dragon_egg"
                 },
                 {
-                    "amount": "[50,80]",
+                    "amount": "[30,40]",
                     "chance": 1,
                     "item": "draconicevolution:draconium_dust"
                 },
@@ -2896,7 +2896,7 @@
                     "item": "minecraft:dragon_egg"
                 },
                 {
-                    "amount": "[80,120]",
+                    "amount": "[40,60]",
                     "chance": 1,
                     "item": "draconicevolution:draconium_dust"
                 },
@@ -2922,7 +2922,7 @@
                     "item": "minecraft:dragon_egg"
                 },
                 {
-                    "amount": "[120,200]",
+                    "amount": "[60,100]",
                     "chance": 1,
                     "item": "draconicevolution:draconium_dust"
                 },
@@ -2948,7 +2948,7 @@
                     "item": "minecraft:dragon_egg"
                 },
                 {
-                    "amount": "[200,300]",
+                    "amount": "[100,200]",
                     "chance": 1,
                     "item": "draconicevolution:draconium_dust"
                 },
@@ -2974,7 +2974,7 @@
                     "item": "minecraft:dragon_egg"
                 },
                 {
-                    "amount": "[300,400]",
+                    "amount": "[100,200]",
                     "chance": 1,
                     "item": "draconicevolution:draconium_dust"
                 },
