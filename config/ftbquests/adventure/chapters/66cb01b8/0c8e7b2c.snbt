@@ -10,9 +10,6 @@
 		uid: "e59947df",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "bloodmagic:arcane_ashes"
 		}],
 		ignore_damage: true,
@@ -27,9 +24,6 @@
 		uid: "fe23218e",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "bloodmagic:arcane_ashes"
 		},
 		count: 3

@@ -10,9 +10,6 @@
 		uid: "42b94bdc",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "bloodmagic:sacrificial_dagger",
 			tag: {}
 		}],

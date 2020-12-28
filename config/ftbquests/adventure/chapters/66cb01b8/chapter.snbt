@@ -1,9 +1,6 @@
 {
 	title: "§c血魔法",
 	icon: {
-		ForgeCaps: {
-			"astralsorcery:cap_item_amulet_holder": {}
-		},
 		id: "bloodmagic:monster_soul",
 		Damage: 3s
 	},

@@ -7,9 +7,6 @@
 		uid: "27202258",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "jecalculation:item_calculator"
 		}],
 		ignore_nbt: 1b

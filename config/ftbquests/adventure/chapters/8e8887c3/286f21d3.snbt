@@ -1,9 +1,6 @@
 {
 	title: "§e欢迎游玩贪婪整合包§b§oby TCreopargh",
 	icon: {
-		ForgeCaps: {
-			"astralsorcery:cap_item_amulet_holder": {}
-		},
 		id: "ftbquests:custom_icon",
 		tag: {
 			icon: "greedycraft:mainmenu/logo.png"
@@ -27,9 +24,6 @@
 		type: "command",
 		title: "§e点击以领取你的§d百科全书§e！",
 		icon: {
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "akashictome:tome"
 		},
 		command: "/giveomnipedia @p"

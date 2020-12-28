@@ -10,9 +10,6 @@
 		uid: "083655be",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "botania:rainbowrod"
 		}],
 		ignore_damage: true,

@@ -17,9 +17,6 @@
 		uid: "976a941c",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "chancecubes:chance_pendant_tier1"
 		}
 	},

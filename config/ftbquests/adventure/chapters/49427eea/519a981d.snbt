@@ -7,9 +7,6 @@
 		uid: "0408eb81",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "mekanism:gastank",
 			tag: {
 				tier: 0

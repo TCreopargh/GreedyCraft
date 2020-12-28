@@ -8,9 +8,6 @@
 	default_quest_shape: "circle",
 	default_quest_disable_jei: false,
 	emergency_items: [{
-		ForgeCaps: {
-			"astralsorcery:cap_item_amulet_holder": {}
-		},
 		id: "additions:greedycraft-emergency_button"
 	}],
 	emergency_items_cooldown: "3m",

@@ -1,9 +1,6 @@
 {
 	title: "§d神秘时代",
 	icon: {
-		ForgeCaps: {
-			"astralsorcery:cap_item_amulet_holder": {}
-		},
 		id: "thaumcraft:thaumonomicon"
 	},
 	always_invisible: false,

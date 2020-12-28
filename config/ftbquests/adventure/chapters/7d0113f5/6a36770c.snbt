@@ -11,9 +11,6 @@
 		uid: "7654d2f7",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "thaumadditions:void_thaumometer"
 		}],
 		ignore_damage: true,

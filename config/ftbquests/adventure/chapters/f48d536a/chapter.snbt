@@ -1,9 +1,6 @@
 {
 	title: "§3深渊国度",
 	icon: {
-		ForgeCaps: {
-			"astralsorcery:cap_item_amulet_holder": {}
-		},
 		id: "abyssalcraft:necronomicon",
 		tag: {
 			PotEnergy: 0.0f

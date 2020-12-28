@@ -10,9 +10,6 @@
 		uid: "49d37098",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "thaumcraft:voidseer_charm"
 		}],
 		ignore_damage: true,
@@ -28,9 +25,6 @@
 		uid: "16ff36a6",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "thaumcraft:primordial_pearl"
 		},
 		count: 3

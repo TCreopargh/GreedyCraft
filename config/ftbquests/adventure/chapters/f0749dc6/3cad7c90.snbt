@@ -1,9 +1,6 @@
 {
 	title: "§d坚持不懈IV",
 	icon: {
-		ForgeCaps: {
-			"astralsorcery:cap_item_amulet_holder": {}
-		},
 		id: "minecraft:golden_helmet"
 	},
 	x: -5.5d,

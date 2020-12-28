@@ -7,9 +7,6 @@
 		uid: "edecb989",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "bountifulbaubles:trinketankhcharm"
 		}],
 		ignore_damage: true,

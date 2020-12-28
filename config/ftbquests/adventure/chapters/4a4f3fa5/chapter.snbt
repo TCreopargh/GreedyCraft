@@ -1,9 +1,6 @@
 {
 	title: "§a植物魔法",
 	icon: {
-		ForgeCaps: {
-			"astralsorcery:cap_item_amulet_holder": {}
-		},
 		id: "botania:lexicon",
 		tag: {}
 	},

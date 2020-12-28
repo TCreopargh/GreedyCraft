@@ -34,9 +34,6 @@
 		uid: "0d3266bc",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "prefab:item_structure_part"
 		}
 	}]

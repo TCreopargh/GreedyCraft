@@ -103,9 +103,6 @@
 	},
 	{
 		item: {
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "minecraft:elytra"
 		}
 	},
@@ -213,9 +210,6 @@
 	},
 	{
 		item: {
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "projecte:item.pe_klein_star",
 			tag: {},
 			Damage: 5s
@@ -224,9 +218,6 @@
 	},
 	{
 		item: {
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "projectex:magnum_star_ein",
 			tag: {}
 		},
@@ -288,9 +279,6 @@
 	},
 	{
 		item: {
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "minecraft:orange_shulker_box",
 			tag: {
 				BlockEntityTag: {

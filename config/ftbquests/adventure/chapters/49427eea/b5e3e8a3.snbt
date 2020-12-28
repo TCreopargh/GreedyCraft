@@ -39,9 +39,6 @@
 		uid: "fa502259",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "thermalexpansion:capacitor",
 			tag: {
 				Energy: 9000000

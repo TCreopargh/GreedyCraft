@@ -21,9 +21,6 @@
 		uid: "e532fa3a",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "cyclicmagic:charm_void",
 			tag: {}
 		}

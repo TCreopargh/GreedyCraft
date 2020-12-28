@@ -17,9 +17,6 @@
 		uid: "12e845ed",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "thaumcraft:primordial_pearl"
 		}],
 		ignore_damage: true,
@@ -34,9 +31,6 @@
 		uid: "aea43080",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "thaumcraft:primordial_pearl"
 		},
 		count: 4

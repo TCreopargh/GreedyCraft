@@ -1,9 +1,6 @@
 {
 	title: "§6旅行者V",
 	icon: {
-		ForgeCaps: {
-			"astralsorcery:cap_item_amulet_holder": {}
-		},
 		id: "minecraft:diamond_boots"
 	},
 	x: -0.5d,
@@ -16,9 +13,6 @@
 		uid: "30fe9de3",
 		type: "stat",
 		icon: {
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "minecraft:iron_boots"
 		},
 		stat: "stat.walkOneCm",
@@ -48,9 +42,6 @@
 		uid: "b726ae6a",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "extrautils2:angelring",
 			Damage: 2s
 		}
