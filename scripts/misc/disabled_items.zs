@@ -221,7 +221,9 @@ val disabledItems as IIngredient[] = [
     <extrabotany:goblinslayerhelm>.withTag({isday: 0 as byte}),
     <extrabotany:goblinslayerchest>.withTag({isday: 0 as byte}),
     <extrabotany:goblinslayerlegs>.withTag({isday: 0 as byte}),
-    <extrabotany:goblinslayerboots>.withTag({isday: 0 as byte})
+    <extrabotany:goblinslayerboots>.withTag({isday: 0 as byte}),
+    <cyclicmagic:auto_crafter>,
+    <cyclicmagic:auto_packager>
 ] as IIngredient[];
 
 val disabledRecipeRegex as string[] = [
@@ -255,7 +257,7 @@ for ingredient in disabledItems {
     ItemStages.addItemStage("disabled", ingredient);
     for item in ingredient.items {
         RecipeUtil.remove(item);
-        JEI.hide(item);
+        JEI.removeAndHide(item);
         item.addTooltip("§c已禁用");
     }
 }
@@ -264,7 +266,7 @@ for recipe in recipes.all {
     for regex in disabledRecipeRegex {
         if(recipe.fullResourceDomain.matches(regex)) {
             RecipeUtil.remove(recipe.output);
-            JEI.hide(recipe.output);
+            JEI.removeAndHide(recipe.output);
             recipe.output.addTooltip("§c已禁用");
             // Disabled this to fix the problem of zombies holding question marks
             //ItemStages.removeItemStage(recipe.output);

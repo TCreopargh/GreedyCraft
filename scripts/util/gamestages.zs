@@ -49,7 +49,7 @@ static stageExpert as Stage = ZenStager.initStage("expert");
 static stageDescendantOfTheSun as Stage = ZenStager.initStage("descendant_of_the_sun");
 static stageGraduated as Stage = ZenStager.initStage("graduated");
 
-static StageMap as Stage[string] = ZenStager.getStageMap();
+static zenStageMap as Stage[string] = ZenStager.getStageMap();
 
 function restageItem(stage as string, item as IIngredient) {
     ItemStages.removeItemStage(item);

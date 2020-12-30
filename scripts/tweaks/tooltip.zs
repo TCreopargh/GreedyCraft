@@ -167,7 +167,8 @@ val tooltipMap as string[][IIngredient] = {
 	<modularmachinery:blockcasing:3> : ["§e3级机械升级方块", machinery_upgrade_guide],
 	<modularmachinery:blockcasing:5> : ["§e4级机械升级方块", machinery_upgrade_guide],
 	<enderio:item_material:9> : ["§e请使用热力系列的木齿轮"],
-	<enderio:item_material:10> : ["§e4请使用热力系列的石齿轮"]
+	<enderio:item_material:10> : ["§e4请使用热力系列的石齿轮"],
+    <tombmanygraves:death_list> : ["§e拿在手上会有粒子效果指引你到该清单对应的墓碑", "§e按住Shift走上墓碑即可取回死亡时丢失的物品"]
 } as string[][IIngredient];
 
 for ingredient in tooltipMap {

@@ -1311,6 +1311,11 @@ RecipeUtil.addShaped("dread_lamp", <torchmaster:dread_lamp>, [
     [<ore:gel>, <ore:rodBlaze>, <ore:gel>],
     [<ore:obsidian>, <ore:blockGlass>, <ore:obsidian>]
 ]);
+RecipeUtil.addShaped("openblocks_sponge", <openblocks:sponge> * 2, [
+    [<ore:slimeball>, <minecraft:sponge>, <ore:slimeball>],
+    [<minecraft:sponge>, <ore:slimeball>, <minecraft:sponge>],
+    [<ore:slimeball>, <minecraft:sponge>, <ore:slimeball>]
+]);
 /* Templates
 
 RecipeUtil.addShaped("", <>, [

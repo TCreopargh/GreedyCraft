@@ -700,10 +700,10 @@
                 ],
                 "cluster-size": 3
             },
-            "cluster-count": 1,
+            "cluster-count": 2,
             "min-height": 5,
             "max-height": 37,
-            "chunk-chance": 2,
+            "chunk-chance": 3,
             "retrogen": "true",
             "biome": "all",
             "dimension": {
@@ -921,9 +921,9 @@
                     }
                 ],
                 "material": "minecraft:stone",
-                "cluster-size": 250
+                "cluster-size": 320
             },
-            "cluster-count": 2,
+            "cluster-count": 3,
             "ceiling": "true",
             "retrogen": "true",
             "biome": {
@@ -947,6 +947,18 @@
                     {
                         "type": "dictionary",
                         "entry": "LUSH"
+                    },
+                    {
+                        "type": "dictionary",
+                        "entry": "SPARSE"
+                    },
+                    {
+                        "type": "dictionary",
+                        "entry": "CONIFEROUS"
+                    },
+                    {
+                        "type": "dictionary",
+                        "entry": "SAVANNA"
                     }
                 ]
             },

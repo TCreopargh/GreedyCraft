@@ -93,3 +93,12 @@ function addNormalShapelessRecipe(name as string, outputNormal as IItemStack, no
         addShapeless(name, outputNormal, normalRecipe);
     }
 }
+
+function addCompressingRecipe(original as IItemStack, compressed as IItemStack) {
+    recipes.addShaped(original.definition.id.replace(":", "_") + "_compress", compressed, [
+        [original, original, original], 
+        [original, original, original], 
+        [original, original, original]
+    ] as IIngredient[][]);
+    recipes.addShapeless(original.definition.id.replace(":", "_") + "_decompress", original * 9, [compressed] as IIngredient[]);
+}

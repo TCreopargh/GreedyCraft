@@ -19,5 +19,5 @@ GameStagesUtil.stageTwilightShield.addDimension(-1);
 GameStagesUtil.stageEnderCharm.addDimension(1);
 GameStagesUtil.stageFearlessMan.addDimension(51);
 GameStagesUtil.stageHardmode.addDimension(52);
-GameStagesUtil.stageHardmode.addDimension(4);
-GameStagesUtil.stageNether.addDimension(-11325);
+GameStagesUtil.stageNether.addDimension(4);
+GameStagesUtil.stageHardmode.addDimension(-11325);

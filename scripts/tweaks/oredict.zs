@@ -305,7 +305,6 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
     <ore:dustMeteor> : [<nyx:meteor_dust>],
     <ore:shardMeteor> : [<nyx:meteor_shard>],
     <ore:oreMeteor> : [<nyx:meteor_rock>],
-    <ore:cobblestone> : [<quark:biome_cobblestone:*>],
     <ore:blockGlass> : [<betternether:quartz_stained_glass:*>],
     <ore:blockGlass> : [<betternether:quartz_glass:*>],
     <ore:blockGlass> : [<botany:stained:*>],
@@ -341,12 +340,22 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
     <ore:dustBlizz> : [<netherex:frost_powder>],
     <ore:netherrack> : [<betternether:nether_mycelium>],
     <ore:ingotSpectre> : [<randomthings:ingredient:3>],
-    <ore:stringSpectre> : [<randomthings:ingredient:12>]
+    <ore:stringSpectre> : [<randomthings:ingredient:12>],
+    <ore:prismarine> : [<ore:blockPrismarine>]
+};
+
+var removeMap as IIngredient[][IOreDictEntry] = {
+    <ore:cobblestone> : [<quark:biome_cobblestone:1>]
 };
 
 for oredict in oredictMap {
     var ingredients as IIngredient[] = oredictMap[oredict];
     OredictUtil.addOredictIngredients(oredict, ingredients);
+}
+
+for oredict in removeMap {
+    var ingredients as IIngredient[] = oredictMap[oredict];
+    OredictUtil.removeOredictIngredients(oredict, ingredients);
 }
 
 for item in loadedMods["weeeflowers"].items {

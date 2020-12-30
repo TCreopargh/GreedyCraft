@@ -9,14 +9,7 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.data.IData;
 import crafttweaker.item.IIngredient;
 
-function addCompressingRecipe(original as IItemStack, compressed as IItemStack) {
-    recipes.addShaped(original.definition.id.replace(":", "_") + "_compress", compressed, [
-        [original, original, original], 
-        [original, original, original], 
-        [original, original, original]
-    ] as IIngredient[][]);
-    recipes.addShapeless(original.definition.id.replace(":", "_") + "_decompress", original * 9, [compressed] as IIngredient[]);
-}
+import scripts.util.recipes as RecipeUtil;
 
 val compressingRecipes as IItemStack[IItemStack] = {
     <additions:aqualite_ingot> : <additions:greedycraft-aqualite_block>,
@@ -30,5 +23,5 @@ val compressingRecipes as IItemStack[IItemStack] = {
 
 for original in compressingRecipes {
     var compressed = compressingRecipes[original] as IItemStack;
-    addCompressingRecipe(original, compressed);
+    RecipeUtil.addCompressingRecipe(original, compressed);
 }
