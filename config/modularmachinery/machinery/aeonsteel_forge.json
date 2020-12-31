@@ -59,6 +59,12 @@
     "parts": [
         {
             "x": [-2, -1, 0, 1, 2],
+            "y": 0,
+            "z": [1, 2],
+            "elements": ["modularmachinery:blockcasing@4"]
+        },
+        {
+            "x": [-2, -1, 0, 1, 2],
             "y": [1, 2, 3],
             "z": [1, 2],
             "elements": ["minecraft:lava"]

@@ -38,6 +38,11 @@ function removeAndAdd(name as string, output as IItemStack, recipe as IIngredien
     addShaped(name, output, recipe);
 }
 
+function removeAndAddShapeless(name as string, output as IItemStack, recipe as IIngredient[]) {
+    remove(output);
+    addShapeless(name, output, recipe);
+}
+
 function addModeRecipe(name as string, output as IItemStack, normalRecipe as IIngredient[][], expertRecipe as IIngredient[][]) {
     if(PACKMODE == MODE_EXPERT) {
         addShaped(name, output, expertRecipe);

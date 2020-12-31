@@ -17,8 +17,7 @@ import scripts.util.oredict as OredictUtil;
 var oredictMap as IIngredient[][IOreDictEntry] = {
     <ore:slimeball> : [<defiledlands:foul_slime>],
     <ore:stoneMarble> : [<pvj:marble>],
-    <ore:workbench> : [<ore:craftingTableWood>],
-    <ore:workbench> : [<randomthings:customworkbench:*>],
+    <ore:workbench> : [<ore:craftingTableWood>, <randomthings:customworkbench:*>],
     <ore:plantFibre> : [<hooked:microcrafting>],
     <ore:string> : [<hooked:microcrafting:1>],
     <ore:dirt> : [<biomesoplenty:dirt:*>],
@@ -30,9 +29,7 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
     <ore:plankWood> : [<treasure2:wither_planks>],
     <ore:blockBasalt> : [<ore:stoneBasalt>],
     <ore:stoneBasalt> : [<taiga:basalt_block>],
-    <ore:foodChocolate> : [<actuallyadditions:item_food:9>],
-    <ore:foodChocolate> : [<foodexpansion:itemchocolatebar>],
-    <ore:foodChocolate> : [<ore:foodChocolateBar>],
+    <ore:foodChocolate> : [<actuallyadditions:item_food:9>, <foodexpansion:itemchocolatebar>, <ore:foodChocolateBar>],
     <ore:foodChocolateBar> : [<ore:foodChocolate>],
     <ore:foodCandyCane> : [<aether_legacy:candy_cane>],
     <ore:CandyCane> : [<ore:foodCandyCane>],
@@ -98,11 +95,11 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
         <cyclicmagic:charm_antidote>,
         <cyclicmagic:charm_fire>,
         <cyclicmagic:charm_void>,
-        <actuallyadditions:item_misc:20>
+        <actuallyadditions:item_misc:20>,
+        <ore:itemPoop>, 
+        <ore:gemShadow>, 
+        <ore:record>
     ],
-    <ore:dungeonLootTier1> : [<ore:itemPoop>],
-    <ore:dungeonLootTier1> : [<ore:gemShadow>],
-    <ore:dungeonLootTier1> : [<ore:record>],
     <ore:dungeonLootTier2> : [
         <randomthings:magichood>,
         <openblocks:technicolor_glasses>,
@@ -218,7 +215,9 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
         <additions:greedycraft-loli_lolipop>,
         <openblocks:trophy:*>,
         <charm:charged_emerald>,
-        <charm:totem_of_shielding>
+        <charm:totem_of_shielding>,
+        <ore:dungeonShield>,
+        <ore:inventoryPet>
     ],
     <ore:dungeonLootTier3> : [
         <additions:greedycraft-goodie_bag>,
@@ -258,7 +257,6 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
         <cqrepoured:shield_warped>,
         <cqrepoured:shield_zombie>
     ],
-    <ore:dungeonLootTier2> : [<ore:dungeonShield>],
     <ore:gemCincinnasite> : [<betternether:cincinnasite>],
     <ore:gemTofu> : [<tofucraft:material:18>],
     <ore:gemTofuStrong> : [<tofucraft:material:25>],
@@ -278,7 +276,6 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
     <ore:quartzDark> : [<ore:gemQuartzBlack>],
     <ore:gemQuartzBlack> : [<ore:quartzDark>],
     <ore:blockShadowium> : [<extrabotany:blockshadowium>],
-    <ore:dungeonLootTier2> : [<ore:inventoryPet>],
     <ore:ingotBrickScorched> : [<tcomplement:materials:1>],
     <ore:blockScorched> : [<tcomplement:scorched_block:*>],
     <ore:slabScorched> : [<tcomplement:scorched_slab:*>],
@@ -305,10 +302,11 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
     <ore:dustMeteor> : [<nyx:meteor_dust>],
     <ore:shardMeteor> : [<nyx:meteor_shard>],
     <ore:oreMeteor> : [<nyx:meteor_rock>],
-    <ore:blockGlass> : [<betternether:quartz_stained_glass:*>],
-    <ore:blockGlass> : [<betternether:quartz_glass:*>],
-    <ore:blockGlass> : [<botany:stained:*>],
-    <ore:blockGlass> : [<extratrees:stainedglass:*>],
+    <ore:blockGlass> : [<betternether:quartz_stained_glass:*>, 
+        <betternether:quartz_glass:*>, 
+        <botany:stained:*>, 
+        <extratrees:stainedglass:*>
+    ],
     <ore:slimeball> : [<thermalfoundation:material:833>],
     <ore:essenceChromium> : [<mysticalcreations:chromium_essence>],
     <ore:essenceTitanium> : [<mysticalcreations:titanium_essence>],
@@ -319,8 +317,7 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
     <ore:pulpWood> : [<ore:dustWood>],
     <ore:itemRune> : [<quark:rune:*>],
     <ore:gemTerrestrial> : [<biomesoplenty:terrestrial_artifact>],
-    <ore:blockRottenFlesh> : [<thaumcraft:flesh_block>],
-    <ore:blockRottenFlesh> : [<charm:rotten_flesh_block>],
+    <ore:blockRottenFlesh> : [<thaumcraft:flesh_block>, <charm:rotten_flesh_block>],
     <ore:rottenFlesh> : [<minecraft:rotten_flesh>],
     <ore:spiderEye> : [<minecraft:spider_eye>],
     <ore:mycelium> : [

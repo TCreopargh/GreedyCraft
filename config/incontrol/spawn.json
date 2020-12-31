@@ -1,30 +1,37 @@
 [
     {
+        "mod": "multimob",
+        "onjoin": true,
+        "result": "deny"
+    },
+    {
         "dimension": 0,
         "mob": ["primitivemobs:blazing_juggernaut"],
-		"result": "deny"
-    }, {
+        "result": "deny"
+    },
+    {
         "mob": ["primitivemobs:festive_creeper"],
-		"mincount": {
+        "mincount": {
             "amount": 4,
             "perplayer": true
         },
-		"result": "deny"
-    },{
+        "result": "deny"
+    },
+    {
         "mob": ["primitivemobs:flame_spewer"],
-		"mincount": {
+        "mincount": {
             "amount": 4,
             "perplayer": true
         },
-		"result": "deny"
+        "result": "deny"
     },
     {
         "mob": ["primitivemobs:harpy"],
-		"mincount": {
+        "mincount": {
             "amount": 4,
             "perplayer": true
         },
-		"result": "deny"
+        "result": "deny"
     },
     {
         "mod": "primitivemobs",
@@ -34,51 +41,59 @@
         },
         "result": "deny"
     },
-	{
+    {
         "mob": ["minecraft:guardian"],
-		"mincount": {
+        "mincount": {
             "amount": 16,
             "perplayer": true
         },
-		"result": "deny"
+        "result": "deny"
     },
-	{
+    {
         "mob": ["minecraft:squid", "enderiozoo:epicsquid"],
-		"mincount": {
+        "mincount": {
             "amount": 12,
             "perplayer": true
         },
-		"result": "deny"
+        "result": "deny"
     },
-	{
+    {
         "mob": ["pvj:pvj_starfish"],
-		"mincount": {
+        "mincount": {
             "amount": 6,
             "perplayer": false
         },
-		"result": "deny"
+        "result": "deny"
     },
-	{
-        "mob": ["minecraft:guardian", "minecraft:squid", "enderiozoo:epicsquid"],
-		"block": "minecraft:water",
-		"maxheight": 39,
-		"result": "allow"
+    {
+        "mob": [
+            "minecraft:guardian",
+            "minecraft:squid",
+            "enderiozoo:epicsquid"
+        ],
+        "block": "minecraft:water",
+        "maxheight": 39,
+        "result": "allow"
     },
-	{
+    {
         "dimension": -1,
         "mob": ["minecraft:squid"],
-		"result": "deny"
+        "result": "deny"
     },
-	{
-        "mob": ["minecraft:guardian", "minecraft:squid", "enderiozoo:epicsquid"],
-		"result": "deny"
+    {
+        "mob": [
+            "minecraft:guardian",
+            "minecraft:squid",
+            "enderiozoo:epicsquid"
+        ],
+        "result": "deny"
     },
-	{
-		"onjoin": true,
+    {
+        "onjoin": true,
         "mob": ["pvj:pvj_goon", "pvj:pvj_clam"],
-		"result": "deny"
+        "result": "deny"
     },
-	{
+    {
         "mod": "spiderstpo",
         "minlight": 7,
         "result": "deny"
@@ -102,9 +117,9 @@
         "damagemultiply": 1.2,
         "speedmultiply": 1.2
     },
-	{
+    {
         "hostile": true,
-		"mincount": {
+        "mincount": {
             "hostile": true,
             "amount": 45,
             "perplayer": true
@@ -112,7 +127,7 @@
         "result": "deny"
     },
     {
-		"mincount": {
+        "mincount": {
             "passive": true,
             "amount": 50,
             "perplayer": true
@@ -124,7 +139,7 @@
         "minlight": 7,
         "result": "deny"
     },
-	{
+    {
         "dimension": 0,
         "hostile": true,
         "seesky": true,
@@ -132,10 +147,15 @@
         "maxtime": 12000,
         "result": "deny"
     },
-	{
+    {
         "dimension": 0,
-		"onjoin": true,
-        "mob": ["minecraft:creeper", "enderiozoo:concussioncreeper", "minecraft:enderman", "enderiozoo:enderminy"],
+        "onjoin": true,
+        "mob": [
+            "minecraft:creeper",
+            "enderiozoo:concussioncreeper",
+            "minecraft:enderman",
+            "enderiozoo:enderminy"
+        ],
         "minheight": 55,
         "mintime": 0,
         "maxtime": 12000,
@@ -150,30 +170,30 @@
         "random": 0.95,
         "result": "deny"
     },
-	{
+    {
         "mob": ["minecraft:zombie_horse", "minecraft:skeleton_horse"],
-		"mincount": {
+        "mincount": {
             "amount": 16,
-			"mod": "minecraft",
+            "mod": "minecraft",
             "perplayer": true
         },
         "result": "deny"
     },
-	{
+    {
         "mob": ["minecraft:bat"],
-		"mincount": {
+        "mincount": {
             "amount": 6,
             "perplayer": true
         },
         "result": "deny"
     },
-	{
+    {
         "mob": ["minecraft:wolf"],
-		"mincount": {
+        "mincount": {
             "amount": 20,
             "perplayer": true
         },
-		"onjoin": true,
+        "onjoin": true,
         "result": "deny"
     },
     {
@@ -214,7 +234,7 @@
         },
         "result": "deny"
     },
-	{
+    {
         "dimension": 0,
         "mob": "abyssalcraft:shadowmonster",
         "mincount": {

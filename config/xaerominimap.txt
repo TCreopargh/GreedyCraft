@@ -24,7 +24,7 @@ distance:1
 showCoords:true
 lockNorth:true
 zoom:1
-mapSize:-1
+minimapSize:0
 entityAmount:1
 chunkGrid:-1
 slimeChunks:false
@@ -59,7 +59,7 @@ playerIcons:2
 mobIcons:2
 hostileIcons:2
 tamedIcons:2
-heightLimit:15
+heightLimit:10
 worldMap:true
 terrainDepth:true
 terrainSlopes:2

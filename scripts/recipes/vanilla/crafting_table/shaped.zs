@@ -525,11 +525,6 @@ RecipeUtil.addShaped("auto_gen_-887606647", <toolprogression:magic_mushroom>, [
     [<ore:ingotManasteel>, <ore:mushroomAny>, <ore:ingotManasteel>],
     [null, <ore:ingotDraconicMetal>, null]
 ]);
-RecipeUtil.addShaped("auto_gen_708890545", <extrautils2:chunkloader>, [
-    [<ore:stickWood>, <ore:eyeofredstone>, <ore:stickWood>],
-    [<ore:stickWood>, <ore:gemEmerald>, <ore:stickWood>],
-    [null, <ore:stickWood>, null]
-]);
 RecipeUtil.addShaped("auto_gen_-1606461473", <additions:greedycraft-death_coin>, [
     [<draconicevolution:awakened_core>, <additions:greedycraft-ancient_tome_fragment>, <draconicevolution:awakened_core>],
     [<tconevo:metal:5>, <additions:greedycraft-bounty_hunter_medal>, <tconevo:metal:5>],
@@ -1316,6 +1311,12 @@ RecipeUtil.addShaped("openblocks_sponge", <openblocks:sponge> * 2, [
     [<minecraft:sponge>, <ore:slimeball>, <minecraft:sponge>],
     [<ore:slimeball>, <minecraft:sponge>, <ore:slimeball>]
 ]);
+RecipeUtil.addShaped("xp_block", <globalxp:xp_block>, [
+    [<minecraft:iron_bars>, <ore:ingotExperience>, <minecraft:iron_bars>],
+    [<ore:ingotExperience>, <minecraft:emerald>, <ore:ingotExperience>],
+    [<minecraft:iron_bars>, <ore:ingotExperience>, <minecraft:iron_bars>]
+]);
+
 /* Templates
 
 RecipeUtil.addShaped("", <>, [

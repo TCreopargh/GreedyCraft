@@ -669,9 +669,6 @@
 		random_bonus: 3
 	},
 	{
-		item: "tconevo:material 1 2"
-	},
-	{
 		item: "thermalfoundation:upgrade 1 35"
 	},
 	{

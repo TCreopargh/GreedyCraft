@@ -223,7 +223,8 @@ val disabledItems as IIngredient[] = [
     <extrabotany:goblinslayerlegs>.withTag({isday: 0 as byte}),
     <extrabotany:goblinslayerboots>.withTag({isday: 0 as byte}),
     <cyclicmagic:auto_crafter>,
-    <cyclicmagic:auto_packager>
+    <cyclicmagic:auto_packager>,
+    <extrautils2:chunkloader>
 ] as IIngredient[];
 
 val disabledRecipeRegex as string[] = [

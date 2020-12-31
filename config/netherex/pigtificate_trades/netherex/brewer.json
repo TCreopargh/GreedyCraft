@@ -1,0 +1,91 @@
+{
+	"profession": "netherex:sorcerer",
+	"career": "netherex:brewer",
+	"trades": [
+		{
+			"output": {
+				"item": "netherex:spore",
+				"meta": 0,
+				"minCount": 2,
+				"maxCount": 5
+			},
+			"minTradeCount": 1,
+			"maxTradeCount": 8,
+			"inputOne": {
+				"item": "netherex:amethyst_crystal",
+				"meta": 0,
+				"minCount": 1,
+				"maxCount": 1
+			},
+			"tradeLevel": 1
+		}, 
+		{
+			"output": {
+				"item": "minecraft:magma_cream",
+				"meta": 0,
+				"minCount": 2,
+				"maxCount": 5
+			},
+			"minTradeCount": 2,
+			"maxTradeCount": 4,
+			"inputOne": {
+				"item": "netherex:amethyst_crystal",
+				"meta": 0,
+				"minCount": 1,
+				"maxCount": 2
+			},
+			"tradeLevel": 1
+		}, 
+		{
+			"output": {
+				"item": "minecraft:glass_bottle",
+				"meta": 0,
+				"minCount": 3,
+				"maxCount": 6
+			},
+			"minTradeCount": 4,
+			"maxTradeCount": 8,
+			"inputOne": {
+				"item": "netherex:amethyst_crystal",
+				"meta": 0,
+				"minCount": 1,
+				"maxCount": 1
+			},
+			"tradeLevel": 1
+		}, 
+		{
+			"output": {
+				"item": "minecraft:potion",
+				"meta": 0,
+				"minCount": 1,
+				"maxCount": 1
+			},
+			"minTradeCount": 1,
+			"maxTradeCount": 4,
+			"inputOne": {
+				"item": "netherex:amethyst_crystal",
+				"meta": 0,
+				"minCount": 3,
+				"maxCount": 4
+			},
+			"tradeLevel": 1
+		}, 
+		{
+			"output": {
+				"item": "minecraft:blaze_powder",
+				"meta": 0,
+				"minCount": 1,
+				"maxCount": 2
+			},
+			"minTradeCount": 1,
+			"maxTradeCount": 4,
+			"inputOne": {
+				"item": "netherex:amethyst_crystal",
+				"meta": 0,
+				"minCount": 6,
+				"maxCount": 12
+			},
+			"tradeLevel": 2
+		}
+	]
+}

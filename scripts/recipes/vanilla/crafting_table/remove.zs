@@ -354,7 +354,8 @@ val removedRecipes as IIngredient[] = [
     <torchmaster:feral_flare_lantern>,
     <torchmaster:dread_lamp>,
     <modularmachinery:blockcasing:2>,
-    <openblocks:sponge>
+    <openblocks:sponge>,
+    <globalxp:xp_block>
 ];
 
 val removedRecipeNames as string[] = [

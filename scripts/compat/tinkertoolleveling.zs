@@ -15,7 +15,7 @@ for i in 0 to 4096 {
         num -= 625;
     }
     while num >= 125 {
-        str += "§6 ⚜";
+        str += "§6⚜";
         num -= 100;
     }
     while num >= 25 {
@@ -30,5 +30,9 @@ for i in 0 to 4096 {
         str += "§e★";
         num -= 1;
     }
+    var msg as string = "§a你的 §7[§e%s§7]§a 已升至§b" + i + "§a级！";
     game.setLocalization("tooltip.level." + i, str);
+    game.setLocalization("message.levelup." + i, msg);
 }
+
+game.setLocalization("message.levelup.generic", "§a你的 §7[§r%s§7]§a 已升至等级§b%s§a！");

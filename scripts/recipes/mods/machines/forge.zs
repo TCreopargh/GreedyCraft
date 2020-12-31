@@ -17,12 +17,14 @@ import mods.jei.JEI;
 
 import scripts.util.machines as MMUtil;
 
-MMUtil.addForgeRecipe("durasteel_forge", MMUtil.getStack(<additions:durasteel_ingot>, 4), (12000 * FORGE_COST_MULTIPLIER) as int, (12000000 * FORGE_COST_MULTIPLIER) as long, [
+MMUtil.addForgeRecipe("durasteel_forge", MMUtil.getStack(<additions:durasteel_ingot>, 6), (12000 * FORGE_COST_MULTIPLIER) as int, (10000000 * FORGE_COST_MULTIPLIER) as long, [
     <tconstruct:ingots:2>,
     <additions:stainless_steel_ingot>,
     <additions:asgardium_ingot>,
     <additions:aeroite_ingot>,
-    <additions:aqualite_ingot>
+    <additions:aqualite_ingot>,
+    <twilightforest:fiery_ingot>,
+    <nyx:meteor_ingot>
 ] as IItemStack[], {
     <additions:greedycraft-catalyst_star> : {
         speed: 0.85,
@@ -57,8 +59,8 @@ MMUtil.addForgeRecipe("durasteel_forge", MMUtil.getStack(<additions:durasteel_in
         energy: 0.25
     }, 
     <plustic:mirioningot> : {
-        speed: 0.2,
-        energy: 0.2
+        speed: 0.33,
+        energy: 0.33
     }, 
     <astralsorcery:itemcraftingcomponent:1> : {
         speed: 0.15,
@@ -79,10 +81,18 @@ MMUtil.addForgeRecipe("durasteel_forge", MMUtil.getStack(<additions:durasteel_in
     <threng:material> : {
         speed: 0.25,
         energy: 0.25
+    }, 
+    <tconevo:metal:30> : {
+        speed: 0.2,
+        energy: 0.2
+    },
+    <additions:greedycraft-time_shard> : {
+        speed: 0.25,
+        energy: 0.0
     }
 } as double[string][IItemStack]);
 
-MMUtil.addForgeRecipe("aeonsteel_forge", MMUtil.getStack(<additions:aeonsteel_ingot>, 4), (24000 * FORGE_COST_MULTIPLIER) as int, (64000000 as long * FORGE_COST_MULTIPLIER as long) as long, [
+MMUtil.addForgeRecipe("aeonsteel_forge", MMUtil.getStack(<additions:aeonsteel_ingot>, 6), (24000 * FORGE_COST_MULTIPLIER) as int, (64000000 as long * FORGE_COST_MULTIPLIER as long) as long, [
     <additions:durasteel_ingot>,
     <tconevo:material>,
     <draconicevolution:draconium_ingot>,
@@ -140,12 +150,25 @@ MMUtil.addForgeRecipe("aeonsteel_forge", MMUtil.getStack(<additions:aeonsteel_in
     <projecte:item.pe_matter> : {
         speed: 0.25,
         energy: 0.25
+    },
+    <plustic:mirioningot> : {
+        speed: 0.2,
+        energy: 0.2
+    },
+    <additions:greedycraft-time_shard> : {
+        speed: 0.15,
+        energy: 0.0
+    },
+    <additions:greedycraft-sand_of_time> : {
+        speed: 0.7,
+        energy: 0.0
     }
 } as double[string][IItemStack]);
 
-MMUtil.addForgeRecipe("chromasteel_forge", MMUtil.getStack(<additions:chromasteel_ingot>, 4), (36000 * FORGE_COST_MULTIPLIER) as int, (240000000 as long * FORGE_COST_MULTIPLIER as long) as long, [
+MMUtil.addForgeRecipe("chromasteel_forge", MMUtil.getStack(<additions:chromasteel_ingot>, 6), (36000 * FORGE_COST_MULTIPLIER) as int, (240000000 as long * FORGE_COST_MULTIPLIER as long) as long, [
     <additions:aeonsteel_ingot>,
     <additions:terra_alloy_ingot>,
+    <plustic:mirioningot>,
     <biomesoplenty:terrestrial_artifact>,
     <mekanism:atomicalloy>,
     <tconevo:metal:20>,
@@ -199,6 +222,10 @@ MMUtil.addForgeRecipe("chromasteel_forge", MMUtil.getStack(<additions:chromastee
     <projecte:item.pe_matter:1> : {
         speed: 0.3,
         energy: 0.3
+    },
+    <additions:greedycraft-sand_of_time> : {
+        speed: 0.4,
+        energy: 0.0
     }
 } as double[string][IItemStack]);
 
@@ -230,12 +257,16 @@ MMUtil.addForgeRecipe("cosmic_forge", <additions:cosmilite_ingot> * COSMILITE_OU
         energy: 0.8
     },
     <projectex:matter:2> : {
-        speed: 0.35,
-        energy: 0.35
+        speed: 0.3,
+        energy: 0.3
     },
     <projectex:matter:3> : {
-        speed: 0.75,
-        energy: 0.75
+        speed: 0.7,
+        energy: 0.7
+    },
+    <additions:greedycraft-anti_entropy_matter> : {
+        speed: 0.9,
+        energy: 0.9
     }
 } as double[string][IItemStack]);
 

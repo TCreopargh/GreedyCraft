@@ -549,11 +549,6 @@
 		item: "taiga:adamant_ingot",
 		count: 3,
 		random_bonus: 10
-	},
-	{
-		item: "tconevo:material",
-		count: 5,
-		random_bonus: 5
 	}],
 	loot_crate: {
 		string_id: "loot_level_4",

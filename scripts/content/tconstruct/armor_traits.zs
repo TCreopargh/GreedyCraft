@@ -446,8 +446,12 @@ thronyTrait.onHurt = function(trait, armor, player, source, damage, newDamage, e
     if(!isNull(player)) {
         if(!isNull(source.getTrueSource()) && source.getTrueSource() instanceof IEntityLivingBase) {
             var attacker as IEntityLivingBase = source.getTrueSource();
-            var source as IDamageSource = IDamageSource.createThornsDamage(player);
-            attacker.attackEntityFrom(source, damage * 0.04);
+            var newSource as IDamageSource = IDamageSource.createThornsDamage(player);
+            var dmg as float = damage * 0.025f;
+            if(dmg > 10.0f) {
+                dmg = 10.0f;
+            }
+            attacker.attackEntityFrom(newSource, dmg);
         }
     }
     return newDamage as float;
@@ -463,7 +467,7 @@ enduranceTrait.localizedDescription = (
 enduranceTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
     if(!isNull(player)) {
         if(newDamage < (player.maxHealth * 0.05f) as float) {
-            return newDamage * 0.5f as float;
+            return newDamage * 0.8f as float;
         }
     }
     return newDamage as float;

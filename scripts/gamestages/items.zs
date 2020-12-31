@@ -641,7 +641,9 @@ GameStagesUtil.stageSkilledEngineer.addIngredients([
     <ore:ingotGelidEnderium>,
     <ore:nuggetGelidEnderium>,
     <bigreactors:orebenitoite>,
-    <bigreactors:oreanglesite>
+    <bigreactors:oreanglesite>,
+    <ore:ingotCyanite>,
+    <ore:blockCyanite>
 ], true);
 
 GameStagesUtil.stageMasterEngineer.addIngredients([

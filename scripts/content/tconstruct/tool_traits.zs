@@ -250,7 +250,7 @@ fortifiedTrait.localizedDescription = (
     "§f格挡成功时获得抗性提升II效果。");
 fortifiedTrait.onBlock = function(trait, tool, player, event) {
     if(!isNull(player)) {
-        player.addPotionEffect(<potion:minecraft:resistance>.makePotionEffect(125, 1, false, false));
+        player.addPotionEffect(<potion:minecraft:resistance>.makePotionEffect(99, 1, false, false));
     }
 };
 fortifiedTrait.register();
@@ -365,7 +365,7 @@ spartanTrait.localizedDescription = (
     "§f在生命垂危时大幅提升攻击伤害。");
 spartanTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
     if((attacker.health as float / attacker.maxHealth as float) as float < 0.33 as float) {
-        var multiplier as float = 1.5 as float + (1.0 as float - (attacker.health as float / (attacker.maxHealth as float * 0.33) as float)) * 1.25 as float;
+        var multiplier as float = 1.5 as float + (1.0 as float - (attacker.health as float / (attacker.maxHealth as float * 0.33) as float)) * 1.0 as float;
         return newDamage as float * multiplier as float;
     }
     return newDamage;
@@ -552,3 +552,22 @@ penetrationTrait.calcDamage = function(trait, tool, attacker, target, originalDa
     }
 };
 penetrationTrait.register();
+
+val thronyTrait = TraitBuilder.create("throny");
+thronyTrait.color = Color.fromHex("4caf50").getIntColor(); 
+thronyTrait.localizedName = "荆棘之触";
+thronyTrait.localizedDescription = (
+    "§o啊嗷嗷嗷，好疼！§r\n" +
+    "§f格挡时使敌人受到少量伤害。");
+thronyTrait.onBlock = function(trait, tool, player, event) {
+    if(!isNull(player)) {
+        var source as IDamageSource = event.damageSource;
+        if(!isNull(source.getTrueSource()) && source.getTrueSource() instanceof IEntityLivingBase) {
+            var attacker as IEntityLivingBase = source.getTrueSource();
+            var source as IDamageSource = IDamageSource.createThornsDamage(player);
+            var dmg as float = player.maxHealth * 0.2;
+            attacker.attackEntityFrom(source, dmg);
+        }
+    }
+};
+thronyTrait.register();

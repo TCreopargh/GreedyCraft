@@ -24,11 +24,29 @@ import crafttweaker.command.ICommandSender;
 import mods.ctutils.utils.Math;
 import mods.ctutils.world.IGameRules;
 
+static damageScalingBlacklist as string[] = [
+    "abyssalcraft:jzahar",
+    "draconicevolution:chaosguardian",
+    "abyssalcraft:shadowboss",
+    "aether_legacy:sun_spirit",
+    "extrabotany:gaiaiii",
+    "extrabotany:voidherrscher",
+    "botania:doppleganger"
+];
+
+static skeletonEntities as string[] = [
+    "minecraft:skeleton",
+    "minecraft:wither_skeleton",
+    "primitivemobs:skeleton_warrior"
+];
+
 events.onEntityLivingHurt(function(event as crafttweaker.event.EntityLivingHurtEvent) {
     var entity as IEntityLivingBase = event.entityLivingBase;
     if(isNull(entity) || !entity instanceof IPlayer) {
         return;
     }
+
+    var player as IPlayer = entity;
 
     // Spider traps player with slowness or web
     var spiderId = <entity:spiderstpo:better_spider>.id;
@@ -57,4 +75,47 @@ events.onEntityLivingHurt(function(event as crafttweaker.event.EntityLivingHurtE
             }
         }
     }
+
+    var dmg as float = event.amount;
+
+    // Scales explosion damage
+    if(event.damageSource.isExplosion()) {
+        if(player.hasGameStage("nether")) {
+            dmg *= 2.5f;
+        }
+        
+        if(player.hasGameStage("hardmode")) {
+            dmg *= 3.0f;
+        }
+    }
+
+    // Scales projectile damage
+    if(!isNull(event.damageSource.getTrueSource()) && event.damageSource.getTrueSource() instanceof IEntityLivingBase && event.damageSource.isProjectile()) {
+        if(!event.damageSource.getTrueSource().isBoss) {
+            if(player.hasGameStage("nether")) {
+                dmg *= 1.5f;
+                if(skeletonEntities has event.damageSource.getTrueSource().definition.id) {
+                    dmg *= 2.0f;
+                }
+            }
+        
+            if(player.hasGameStage("hardmode")) {
+                dmg *= 1.5f;
+                if(skeletonEntities has event.damageSource.getTrueSource().definition.id) {
+                    dmg *= 1.5f;
+                }
+            }
+        }
+    }
+
+    // More boss damage
+    if(!isNull(event.damageSource.getTrueSource()) && event.damageSource.getTrueSource() instanceof IEntityLivingBase) {
+        if(event.damageSource.getTrueSource().isBoss) {
+            if(!(damageScalingBlacklist has event.damageSource.getTrueSource().definition.id)) {
+                dmg *= 1.5f;       
+            }
+        }
+    }
+
+    event.amount = dmg;
 });
