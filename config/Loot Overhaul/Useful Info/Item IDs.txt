@@ -14237,3 +14237,5 @@ jaopca:fluid_moltenmithril - 17919
 jaopca:fluid_moltenshadowium - 17920
 jaopca:fluid_moltentitanium - 17921
 jaopca:fluid_moltenuranium - 17922
+additions:greedycraft-solar_seed - 17923
+additions:greedycraft-broken_solarium_star - 17924

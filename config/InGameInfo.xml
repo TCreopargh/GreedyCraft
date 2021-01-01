@@ -475,7 +475,14 @@
                         <str>$4</str>
                         <str />
                     </op>
-                    <var>potionduration0</var>
+                    <if>
+                        <greater>
+                            <var>potiondurationticks0</var>
+                            <num>30000</num>
+                        </greater>
+                        <str>§b∞</str>
+                        <var>potionduration0</var>
+                    </if>
                     <str>$f</str>
                 </concat>
                 <str />
@@ -511,7 +518,14 @@
                         <str>$4</str>
                         <str />
                     </op>
-                    <var>potionduration1</var>
+                    <if>
+                        <greater>
+                            <var>potiondurationticks1</var>
+                            <num>30000</num>
+                        </greater>
+                        <str>§b∞</str>
+                        <var>potionduration1</var>
+                    </if>
                     <str>$f</str>
                 </concat>
                 <str />
@@ -547,7 +561,14 @@
                         <str>$4</str>
                         <str />
                     </op>
-                    <var>potionduration2</var>
+                    <if>
+                        <greater>
+                            <var>potiondurationticks2</var>
+                            <num>30000</num>
+                        </greater>
+                        <str>§b∞</str>
+                        <var>potionduration2</var>
+                    </if>
                     <str>$f</str>
                 </concat>
                 <str />
@@ -583,7 +604,14 @@
                         <str>$4</str>
                         <str />
                     </op>
-                    <var>potionduration3</var>
+                    <if>
+                        <greater>
+                            <var>potiondurationticks3</var>
+                            <num>30000</num>
+                        </greater>
+                        <str>§b∞</str>
+                        <var>potionduration3</var>
+                    </if>
                     <str>$f</str>
                 </concat>
                 <str />
@@ -619,7 +647,14 @@
                         <str>$4</str>
                         <str />
                     </op>
-                    <var>potionduration4</var>
+                    <if>
+                        <greater>
+                            <var>potiondurationticks4</var>
+                            <num>30000</num>
+                        </greater>
+                        <str>§b∞</str>
+                        <var>potionduration4</var>
+                    </if>
                     <str>$f</str>
                 </concat>
                 <str />
@@ -655,7 +690,14 @@
                         <str>$4</str>
                         <str />
                     </op>
-                    <var>potionduration5</var>
+                    <if>
+                        <greater>
+                            <var>potiondurationticks5</var>
+                            <num>30000</num>
+                        </greater>
+                        <str>§b∞</str>
+                        <var>potionduration5</var>
+                    </if>
                     <str>$f</str>
                 </concat>
                 <str />
@@ -691,7 +733,14 @@
                         <str>$4</str>
                         <str />
                     </op>
-                    <var>potionduration6</var>
+                    <if>
+                        <greater>
+                            <var>potiondurationticks6</var>
+                            <num>30000</num>
+                        </greater>
+                        <str>§b∞</str>
+                        <var>potionduration6</var>
+                    </if>
                     <str>$f</str>
                 </concat>
                 <str />
@@ -727,7 +776,14 @@
                         <str>$4</str>
                         <str />
                     </op>
-                    <var>potionduration7</var>
+                    <if>
+                        <greater>
+                            <var>potiondurationticks7</var>
+                            <num>30000</num>
+                        </greater>
+                        <str>§b∞</str>
+                        <var>potionduration7</var>
+                    </if>
                     <str>$f</str>
                 </concat>
                 <str />
@@ -763,7 +819,14 @@
                         <str>$4</str>
                         <str />
                     </op>
-                    <var>potionduration8</var>
+                    <if>
+                        <greater>
+                            <var>potiondurationticks8</var>
+                            <num>30000</num>
+                        </greater>
+                        <str>§b∞</str>
+                        <var>potionduration8</var>
+                    </if>
                     <str>$f</str>
                 </concat>
                 <str />
@@ -799,7 +862,14 @@
                         <str>$4</str>
                         <str />
                     </op>
-                    <var>potionduration9</var>
+                    <if>
+                        <greater>
+                            <var>potiondurationticks9</var>
+                            <num>30000</num>
+                        </greater>
+                        <str>§b∞</str>
+                        <var>potionduration9</var>
+                    </if>
                     <str>$f</str>
                 </concat>
                 <str />
@@ -835,7 +905,14 @@
                         <str>$4</str>
                         <str />
                     </op>
-                    <var>potionduration10</var>
+                    <if>
+                        <greater>
+                            <var>potiondurationticks10</var>
+                            <num>30000</num>
+                        </greater>
+                        <str>§b∞</str>
+                        <var>potionduration10</var>
+                    </if>
                     <str>$f</str>
                 </concat>
                 <str />
@@ -871,7 +948,14 @@
                         <str>$4</str>
                         <str />
                     </op>
-                    <var>potionduration11</var>
+                    <if>
+                        <greater>
+                            <var>potiondurationticks11</var>
+                            <num>30000</num>
+                        </greater>
+                        <str>§b∞</str>
+                        <var>potionduration11</var>
+                    </if>
                     <str>$f</str>
                 </concat>
                 <str />
@@ -907,7 +991,14 @@
                         <str>$4</str>
                         <str />
                     </op>
-                    <var>potionduration12</var>
+                    <if>
+                        <greater>
+                            <var>potiondurationticks12</var>
+                            <num>30000</num>
+                        </greater>
+                        <str>§b∞</str>
+                        <var>potionduration12</var>
+                    </if>
                     <str>$f</str>
                 </concat>
                 <str />

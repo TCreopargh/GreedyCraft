@@ -38,10 +38,6 @@ MMUtil.addForgeRecipe("durasteel_forge", MMUtil.getStack(<additions:durasteel_in
         speed: 0.35,
         energy: 0.35
     }, 
-    <enderio:item_alloy_ingot:3> : {
-        speed: 0.0,
-        energy: 0.25
-    }, 
     <defiledlands:ravaging_ingot> : {
         speed: 0.25,
         energy: 0.05
@@ -69,15 +65,7 @@ MMUtil.addForgeRecipe("durasteel_forge", MMUtil.getStack(<additions:durasteel_in
     <abyssalcraft:dreadiumingot> : {
         speed: 0.25,
         energy: 0.25
-    }, 
-    <redstonerepository:material:1> : {
-        speed: 0.33,
-        energy: 0.0
-    }, 
-    <redstonearsenal:material:32> : {
-        speed: 0.0,
-        energy: 0.33
-    }, 
+    },
     <threng:material> : {
         speed: 0.25,
         energy: 0.25
@@ -97,6 +85,7 @@ MMUtil.addForgeRecipe("aeonsteel_forge", MMUtil.getStack(<additions:aeonsteel_in
     <tconevo:material>,
     <draconicevolution:draconium_ingot>,
     <enderio:item_alloy_endergy_ingot:3>,
+    <additions:cytosinite_ingot>,
     <avaritia:resource:1>
 ] as IItemStack[], {
     <additions:greedycraft-catalyst_star> : {
@@ -118,11 +107,7 @@ MMUtil.addForgeRecipe("aeonsteel_forge", MMUtil.getStack(<additions:aeonsteel_in
     <extrabotany:material:1> : {
         speed: 0.35,
         energy: 0.35
-    }, 
-    <additions:cytosinite_ingot> : {
-        speed: 0.1,
-        energy: 0.2
-    }, 
+    },
     <mysticalagradditions:insanium:2> : {
         speed: 0.25,
         energy: 0.05
@@ -130,11 +115,7 @@ MMUtil.addForgeRecipe("aeonsteel_forge", MMUtil.getStack(<additions:aeonsteel_in
     <thaumcraft:ingot:1> : {
         speed: 0.2,
         energy: 0.2
-    }, 
-    <thaumadditions:mithminite_ingot> : {
-        speed: 0.25,
-        energy: 0.25
-    }, 
+    },
     <abyssalcraft:ethaxiumingot> : {
         speed: 0.2,
         energy: 0.2
@@ -157,10 +138,6 @@ MMUtil.addForgeRecipe("aeonsteel_forge", MMUtil.getStack(<additions:aeonsteel_in
     },
     <additions:greedycraft-time_shard> : {
         speed: 0.15,
-        energy: 0.0
-    },
-    <additions:greedycraft-sand_of_time> : {
-        speed: 0.7,
         energy: 0.0
     }
 } as double[string][IItemStack]);

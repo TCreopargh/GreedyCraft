@@ -89,7 +89,9 @@ GameStagesUtil.stageWyvern.addIngredients([
     <ore:nuggetWyvernMetal>,
     <ore:dustWyvernMetal>,
     <additions:greedycraft-solarium_star>,
-    <additions:greedycraft-sun_totem>
+    <additions:greedycraft-sun_totem>,
+    <additions:greedycraft-solar_seed>,
+    <additions:greedycraft-broken_solarium_star>
 ], true);
 
 GameStagesUtil.stageAwakened.addIngredients([
@@ -488,6 +490,7 @@ GameStagesUtil.stageGraduated.addIngredients([
 ]);
 
 GameStagesUtil.stageAbyssalConquerer.addIngredients([
+    <minecraft:nether_star>.withTag({display:{Name:"North Star"}}),
     <ore:netherStar>,
     <ore:skullWitherSkeleton>,
     <ore:ingotMirion>,

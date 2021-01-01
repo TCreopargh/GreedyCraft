@@ -256,6 +256,7 @@ val disabledRecipeRegex as string[] = [
 for ingredient in disabledItems {
     ItemStages.removeItemStage(ingredient);
     ItemStages.addItemStage("disabled", ingredient);
+    ItemStages.setUnfamiliarName("§4已禁用的物品", ingredient);
     for item in ingredient.items {
         RecipeUtil.remove(item);
         JEI.removeAndHide(item);
@@ -270,8 +271,9 @@ for recipe in recipes.all {
             JEI.removeAndHide(recipe.output);
             recipe.output.addTooltip("§c已禁用");
             // Disabled this to fix the problem of zombies holding question marks
-            //ItemStages.removeItemStage(recipe.output);
-            //ItemStages.addItemStage("disabled", recipe.output);
+            // ItemStages.removeItemStage(recipe.output);
+            // ItemStages.addItemStage("disabled", recipe.output);
+            // ItemStages.setUnfamiliarName("§4已禁用的物品", ingredient);
             break;
         }
     }

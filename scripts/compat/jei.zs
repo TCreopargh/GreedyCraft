@@ -12,7 +12,7 @@ import crafttweaker.item.IIngredient;
 import mods.jei.JEI;
 
 val descriptions as string[][IIngredient] = {
-   <additions:cryonium_ingot> : ["通过在600难度以上击败冰霜巨口或挖掘极寒矿获得。"],
+    <additions:cryonium_ingot> : ["通过在600难度以上击败冰霜巨口或挖掘极寒矿获得。"],
     <additions:infernium_ingot> : ["在700难度以上击败太阳酋长并使用太阳宝石后，在下界生成"],
     <additions:cytosinite_ingot> : ["在打败末影龙后可在树木繁茂的生物群系或沼泽的地下泥巴堆里找到这种矿物"],
     <additions:aeroite_ingot> : ["你可以在天境主世界天空中的云里找到这种矿物"],

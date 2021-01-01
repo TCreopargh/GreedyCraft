@@ -1160,33 +1160,38 @@ RecipeUtil.addShaped("exu_building_wand", <extrautils2:itembuilderswand>, [
 ]);
 RecipeUtil.addShaped("bubble_ring", <aeble:bubble_ring>, [
     [<ore:ingotAqualite>, <ore:ingotAsgardium>, <ore:ingotAqualite>],
-    [<ore:ingotAsgardium>, <ore:ingotAqualite>, <ore:ingotAsgardium>],
+    [<ore:ingotAsgardium>, null, <ore:ingotAsgardium>],
     [<ore:ingotAqualite>, <ore:ingotAsgardium>, <ore:ingotAqualite>]
 ]);
 RecipeUtil.addShaped("ice_ring", <aeble:ice_ring>, [
     [<ore:ice>, <ore:ingotAsgardium>, <ore:ice>],
-    [<ore:ingotAsgardium>, <ore:ice>, <ore:ingotAsgardium>],
+    [<ore:ingotAsgardium>, null, <ore:ingotAsgardium>],
     [<ore:ice>, <ore:ingotAsgardium>, <ore:ice>]
 ]);
 RecipeUtil.addShaped("zanite_ring", <aeble:zanite_ring>, [
     [<ore:gemZanite>, <ore:ingotAsgardium>, <ore:gemZanite>],
-    [<ore:ingotAsgardium>, <ore:gemZanite>, <ore:ingotAsgardium>],
+    [<ore:ingotAsgardium>, null, <ore:ingotAsgardium>],
     [<ore:gemZanite>, <ore:ingotAsgardium>, <ore:gemZanite>]
 ]);
 RecipeUtil.addShaped("obsidian_ring", <aeble:obsidian_ring>, [
     [<ore:obsidian>, <ore:ingotAsgardium>, <ore:obsidian>],
-    [<ore:ingotAsgardium>, <ore:obsidian>, <ore:ingotAsgardium>],
+    [<ore:ingotAsgardium>, null, <ore:ingotAsgardium>],
     [<ore:obsidian>, <ore:ingotAsgardium>, <ore:obsidian>]
 ]);
 RecipeUtil.addShaped("regen_ring", <aeble:regeneration_ring>, [
     [<scalinghealth:heartcontainer>, <ore:ingotAsgardium>, <scalinghealth:heartcontainer>],
-    [<ore:ingotAsgardium>, <scalinghealth:heartcontainer>, <ore:ingotAsgardium>],
+    [<ore:ingotAsgardium>, null, <ore:ingotAsgardium>],
     [<scalinghealth:heartcontainer>, <ore:ingotAsgardium>, <scalinghealth:heartcontainer>]
 ]);
 RecipeUtil.addShaped("air_ring", <aeble:air_ring>, [
     [<ore:ingotAeroite>, <ore:ingotAsgardium>, <ore:ingotAeroite>],
-    [<ore:ingotAsgardium>, <ore:ingotAeroite>, <ore:ingotAsgardium>],
+    [<ore:ingotAsgardium>, null, <ore:ingotAsgardium>],
     [<ore:ingotAeroite>, <ore:ingotAsgardium>, <ore:ingotAeroite>]
+]);
+RecipeUtil.addShaped("valkyrie_belt", <aeble:valkyrie_belt>, [
+    [<ore:ingotValkyrie>, <ore:ingotAsgardium>, <ore:ingotValkyrie>],
+    [<ore:ingotAsgardium>, null, <ore:ingotAsgardium>],
+    [<ore:ingotValkyrie>, <ore:ingotAsgardium>, <ore:ingotValkyrie>]
 ]);
 RecipeUtil.addShaped("coregod", <extrabotany:coregod>.withTag({}), [
     [<ore:quartzSunny>, <ore:quartzSunny>, <ore:quartzSunny>],

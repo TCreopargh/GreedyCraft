@@ -3478,7 +3478,7 @@
             "[690, 32767]": [{
                     "amount": "[1,1]",
                     "chance": 1,
-                    "item": "additions:greedycraft-solarium_star"
+                    "item": "additions:greedycraft-broken_solarium_star"
                 },
                 {
                     "amount": "[4,12]",

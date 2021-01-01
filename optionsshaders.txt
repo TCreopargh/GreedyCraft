@@ -1,10 +1,10 @@
-#Thu Dec 31 00:42:08 CST 2020
+#Fri Jan 01 13:39:34 CST 2021
 shaderPack=¡ì9(Ä¬ÈÏ, ¡ìeBSLÐÞ¸Ä°æ¡ì9)¡ìe ComplementaryShaders_3.10_dev6.zip
 antialiasingLevel=0
 normalMapEnabled=true
 specularMapEnabled=true
 renderResMul=1.0
-shadowResMul=0.70710677
+shadowResMul=1.0
 handDepthMul=0.125
 cloudShadow=false
 oldHandLight=default

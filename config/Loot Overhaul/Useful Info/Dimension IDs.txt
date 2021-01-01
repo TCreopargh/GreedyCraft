@@ -121,7 +121,7 @@ AetherI
 	- Id: 4
 	- Height: 256
 	- Has Sky? true
-	- Cloud Height: 8.0
+	- Cloud Height: -5.0
 	- Can Respawn Here? false
 	- Terrain Scale: 1.0
 

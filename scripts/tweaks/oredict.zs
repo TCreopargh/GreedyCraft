@@ -15,7 +15,7 @@ import crafttweaker.oredict.IOreDictEntry;
 import scripts.util.oredict as OredictUtil;
 
 var oredictMap as IIngredient[][IOreDictEntry] = {
-    <ore:slimeball> : [<defiledlands:foul_slime>],
+    <ore:slimeball> : [<defiledlands:foul_slime>, <thermalfoundation:material:833>],
     <ore:stoneMarble> : [<pvj:marble>],
     <ore:workbench> : [<ore:craftingTableWood>, <randomthings:customworkbench:*>],
     <ore:plantFibre> : [<hooked:microcrafting>],
@@ -307,7 +307,6 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
         <botany:stained:*>, 
         <extratrees:stainedglass:*>
     ],
-    <ore:slimeball> : [<thermalfoundation:material:833>],
     <ore:essenceChromium> : [<mysticalcreations:chromium_essence>],
     <ore:essenceTitanium> : [<mysticalcreations:titanium_essence>],
     <ore:essenceWitch> : [<mysticalcreations:witch_essence>],
