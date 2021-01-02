@@ -1,0 +1,24 @@
+{
+  "cause": {
+    "item": {
+      "item": "additions:tcsponsors-goodbye_sword",
+      "damage": "any"
+    },
+    "type": "additions:item_attack"
+  },
+  "effects": [
+    {
+      "type": "additions:cancel_normal"
+    },
+    {
+      "potion": {
+        "name": "minecraft:instant_health",
+        "duration": 1,
+        "amplifier": 0,
+        "ambient": false,
+        "show_particles": false
+      },
+      "type": "additions:potion"
+    }
+  ]
+}

@@ -1,76 +1,107 @@
 {
-	"version": "1.0",
-	"pools": [
-		{
-			"name": "uncommon_charms",
-			"rolls": 1,
-			"entries": [
-				{
-					"entryName": "charm1",
-					"type": "item",
-					"name": "treasure2:charmed_silver_coin",
-					"weight": 1,
-					"conditions": [
-						{
-							"condition": "random_chance",
-							"chance": 0.2
-						}
-					],					
-					"functions": [
-						{
-							"function": "treasure2:charm_randomly",
-							"charms": [
-								"lesser_healing",
-								"durable_shielding"
-								]
-						}
+	"version": "2.0",
+	"pools": [{
+		"name": "uncommon_charms",
+		"rolls": 1,
+		"entries": [{
+				"entryName": "charm1",
+				"type": "item",
+				"name": "treasure2:charmed_silver_coin",
+				"weight": 30,
+				"conditions": [{
+					"condition": "random_chance",
+					"chance": 0.2
+				}],
+				"functions": [{
+					"function": "treasure2:charm_randomly",
+					"charms": [
+						"lesser_healing",
+						"durable_shielding"
 					]
-				},
-				{
-					"entryName": "charm2",
-					"type": "item",
-					"name": "treasure2:charmed_silver_coin",
-					"weight": 1,
-					"conditions": [
-						{
-							"condition": "random_chance",
-							"chance": 0.1
-						}
-					],					
-					"functions": [
-						{
-							"function": "treasure2:charm_randomly",
-							"charms": [
-								"lesser_healing",
-								"durable_shielding",
-								"sated_fullness",
-								"harvesting"
-								]
-						}
-					]
-				},				
-				{
-					"entryName": "charm3",
-					"type": "item",
-					"name": "treasure2:charmed_silver_coin",
-					"weight": 1,
-					"conditions": [
-						{
-							"condition": "random_chance",
-							"chance": 0.12
-						}
-					],						
-					"functions": [
-						{
-							"function": "treasure2:charm_randomly",
-							"charms": [
-								"healing",
-								"stout_shielding"
-								]
-						}
-					]
-				}				
-			]
-		}		
-	]
+				}]
+			},
+			{
+				"entryName": "charm2",
+				"type": "item",
+				"name": "treasure2:charmed_silver_coin",
+				"weight": 30,
+				"conditions": [{
+					"condition": "random_chance",
+					"chance": 0.15
+				}],
+				"functions": [{
+					"function": "treasure2:charm_randomly",
+					"levels": 1
+				}]
+			},
+			{
+				"entryName": "charm3",
+				"type": "item",
+				"name": "treasure2:charmed_silver_coin",
+				"weight": 30,
+				"conditions": [{
+					"condition": "random_chance",
+					"chance": 0.1
+				}],
+				"functions": [{
+					"function": "treasure2:charm_randomly",
+					"levels": 2
+				}]
+			},
+			{
+				"entryName": "adornment1",
+				"type": "item",
+				"name": "treasure2:silver_ring",
+				"weight": 3,
+				"quality": 3,
+				"conditions": [{
+					"condition": "random_chance",
+					"chance": 0.3
+				}],
+				"functions": [{
+					"function": "treasure2:set_slots",
+					"slots": {
+						"min": 0,
+						"max": 0
+					}
+				}]
+			},
+			{
+				"entryName": "adornment2",
+				"type": "item",
+				"name": "treasure2:gold_ring",
+				"weight": 3,
+				"quality": 3,
+				"conditions": [{
+					"condition": "random_chance",
+					"chance": 0.2
+				}],
+				"functions": [{
+					"function": "treasure2:set_slots",
+					"slots": {
+						"min": 1,
+						"max": 2
+					}
+				}]
+			},
+			{
+				"entryName": "adornment3",
+				"type": "item",
+				"name": "treasure2:silver_ring",
+				"weight": 3,
+				"quality": 3,
+				"conditions": [{
+					"condition": "random_chance",
+					"chance": 0.2
+				}],
+				"functions": [{
+					"function": "treasure2:set_slots",
+					"slots": {
+						"min": 1,
+						"max": 1
+					}
+				}]
+			}
+		]
+	}]
 }

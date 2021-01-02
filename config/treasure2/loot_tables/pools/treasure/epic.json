@@ -1,5 +1,5 @@
 {
-	"version": "1.0",
+	"version": "2.0",
 	"pools": [
 		{
 			"name": "epic_keys",
@@ -191,13 +191,6 @@
 						}
 					]
 				}
-			]
-		},
-		{
-			"name": "epic_charms",
-			"rolls": 1,
-			"entries": [
-
 			]
 		}
 	]

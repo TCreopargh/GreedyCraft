@@ -44,7 +44,8 @@ val descriptions as string[][IIngredient] = {
     <additions:greedycraft-matter_block> : ["通过使用贤者之石转换液态反物质获得。"],
     <additions:greedycraft-royal_gel> : ["通过击败史莱姆王获得。史莱姆王的召唤物可以从地牢获得或击杀普通的史莱姆掉落。"],
     <defiledlands:essence_destroyer> : ["通过击败污秽之地的毁灭者Boss获取，毁灭者需要通过在§5招魂坛§r上使用§5招魂石§r召唤"],
-    <defiledlands:essence_mourner> : ["通过击败污秽之地的悼亡者Boss获取，毁灭者需要通过在§5招魂坛§r上使用§5悲伤人偶§r召唤"]
+    <defiledlands:essence_mourner> : ["通过击败污秽之地的悼亡者Boss获取，毁灭者需要通过在§5招魂坛§r上使用§5悲伤人偶§r召唤"],
+    <nyx:meteor_ingot> : ["通过挖掘天上掉下的陨石获得。陨石会随机生成，在进入过下界后生成概率更高，在流星雨期间生成率最高。你可以使用§6闪耀之星§r召唤流星雨，在流星雨期间跑图时陨石就会有较高概率刷出来。"]
 };
 
 val hides as IIngredient[] = [

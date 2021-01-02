@@ -16,3 +16,6 @@
 
 <item:quark:monster_box>.asBlock().definition.hardness = 150.0 as float;
 <item:quark:monster_box>.asBlock().definition.setHarvestLevel("pickaxe", 4);
+
+<nyx:meteor_rock>.asBlock().definition.hardness = 32.0 as float;
+<nyx:meteor_rock>.asBlock().definition.setHarvestLevel("pickaxe", 4);

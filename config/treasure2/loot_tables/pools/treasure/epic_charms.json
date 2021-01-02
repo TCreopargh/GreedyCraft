@@ -1,116 +1,215 @@
 {
-	"version": "1.0",
-	"pools": [
-		{
-			"name": "epic_charms",
-			"rolls": 1,
-			"entries": [
-				{
-					"entryName": "angel_blessed",
-					"type": "item",
-					"name": "treasure2:angel_blessed",
-					"weight": 10,
-					"conditions": [
-						{
-							"condition": "random_chance",
-							"chance": 0.08
+	"version": "2.0",
+	"pools": [{
+		"name": "epic_charms",
+		"rolls": 1,
+		"entries": [{
+				"entryName": "charm0",
+				"type": "item",
+				"name": "treasure2:charmed_gold_coin",
+				"weight": 100,
+				"functions": [{
+					"function": "treasure2:charm_randomly",
+					"levels": 4
+				}]
+			},
+			{
+				"entryName": "charm1",
+				"type": "item",
+				"name": "treasure2:charmed_gold_coin",
+				"weight": 20,
+				"functions": [{
+						"function": "treasure2:charm_randomly",
+						"levels": 3
+					},
+					{
+						"function": "treasure2:charm_randomly",
+						"levels": 3,
+						"charms": [
+							"dirt_fill_1"
+						]
+					}
+				]
+			},
+			{
+				"entryName": "charm2",
+				"type": "item",
+				"name": "treasure2:charmed_gold_coin",
+				"weight": 18,
+				"functions": [{
+						"function": "treasure2:charm_randomly",
+						"levels": 3,
+						"charms": [
+							"dirt_fill_2"
+						]
+					},
+					{
+						"function": "treasure2:charm_randomly",
+						"levels": 4,
+						"charms": [
+							"dirt_walk_2"
+						]
+					}
+				]
+			},
+			{
+				"entryName": "charm3",
+				"type": "item",
+				"name": "treasure2:charmed_sapphire",
+				"weight": 10,
+				"functions": [{
+						"function": "treasure2:charm_randomly",
+						"levels": 4,
+						"charms": [
+							"dirt_fill_2"
+						]
+					},
+					{
+						"function": "treasure2:charm_randomly",
+						"charms": [
+							"whale_healing",
+							"shielding_13",
+							"bursting_fullness",
+							"glorious_harvesting",
+							"glorious_illumination",
+							"absolute_shielding_13",
+							"fire_resistence_13",
+							"fire_immunity_13",
+							"life_strike_10",
+							"reflection_10",
+							"drain_5",
+							"ruin_3",
+							"dirt_walk_2"
+						]
+					}
+				]
+			},
+			{
+				"entryName": "angel_blessed",
+				"type": "item",
+				"name": "treasure2:angel_blessed",
+				"weight": 8
+			},
+			{
+				"entryName": "miners_friend",
+				"type": "item",
+				"name": "treasure2:miners_friend",
+				"weight": 12
+			},
+
+			{
+				"entryName": "adornment1",
+				"type": "item",
+				"name": "treasure2:ruby_gold_ring",
+				"weight": 20,
+				"functions": [{
+					"function": "treasure2:set_slots",
+					"slots": {
+						"min": 1,
+						"max": 4
+					}
+				}]
+			},
+			{
+				"entryName": "adornment2",
+				"type": "item",
+				"name": "treasure2:sapphire_gold_ring",
+				"weight": 18,
+				"functions": [{
+					"function": "treasure2:set_slots",
+					"slots": {
+						"min": 1,
+						"max": 4
+					}
+				}]
+			},
+			{
+				"entryName": "adornment3",
+				"type": "item",
+				"name": "treasure2:sapphire_amulet",
+				"weight": 16,
+				"functions": [{
+					"function": "treasure2:set_slots",
+					"slots": {
+						"min": 1,
+						"max": 4
+					}
+				}]
+            },
+   			{
+				"entryName": "adornment4",
+				"type": "item",
+				"name": "treasure2:gold_bracelet",
+				"weight": 14,
+				"functions": [{
+					"function": "treasure2:set_slots",
+					"slots": {
+						"min": 1,
+						"max": 2
+					}
+                },
+                {
+                    "function": "treasure2:charm_randomly",
+                    "levels": {
+                        "min": 1,
+                        "max": 10
+                    }
+                }]
+			},         
+			{
+				"entryName": "angels_ring",
+				"type": "item",
+				"name": "treasure2:angels_ring",
+                "weight": 2,
+                "quality": 1
+			},
+			{
+				"entryName": "ring_of_fortitude",
+				"type": "item",
+				"name": "treasure2:ring_of_fortitude",
+                "weight": 2,
+                "quality": 1
+			},
+			{
+				"entryName": "bracelet_of_wonder",
+				"type": "item",
+				"name": "treasure2:bracelet_of_wonder",
+                "weight": 2,
+                "quality": 1
+			},
+			{
+				"entryName": "amulet_of_the_whale",
+				"type": "item",
+				"name": "treasure2:sapphire_amulet",
+                "weight": 1,
+                "quality": 1,
+				"functions": [{
+						"function": "treasure2:set_custom_name",
+						"customName": "Amulet of the Whale"
+					},
+					{
+						"function": "treasure2:set_slots",
+						"slots": {
+							"min": 1,
+							"max": 4
 						}
-					]
-				},
-				{
-					"entryName": "miners_friend",
-					"type": "item",
-					"name": "treasure2:miners_friend",
-					"weight": 10,
-					"conditions": [
-						{
-							"condition": "random_chance",
-							"chance": 0.12
-						}
-					]
-				},
-				{
-					"entryName": "charm1",
-					"type": "item",
-					"name": "treasure2:charmed_gold_coin",
-					"weight": 10,
-					"conditions": [
-						{
-							"condition": "random_chance",
-							"chance": 0.20
-						}
-					],
-					"functions": [
-						{
-							"function": "treasure2:charm_randomly",
-							"charms": [
-								"greater_healing",
-								"hardened_shielding",
-								"overfed_fullness",
-								"major_harvesting",
-								"greater_illumination"
-							]
-						},
-						{
-							"function": "treasure2:charm_randomly",
-							"charms": [
-								"greater_healing",
-								"hardened_shielding",
-								"overfed_fullness",
-								"major_harvesting",
-								"greater_illumination"
-							]
-						}
-					]
-				},
-				{
-					"entryName": "charm2",
-					"type": "item",
-					"name": "treasure2:charmed_gold_coin",
-					"weight": 10,
-					"conditions": [
-						{
-							"condition": "random_chance",
-							"chance": 0.18
-						}
-					],
-					"functions": [
-						{
-							"function": "treasure2:charm_randomly",
-							"charms": [
-								"greater_healing",
-								"hardened_shielding",
-								"overfed_fullness",
-								"major_harvesting",
-								"greater_illumination",
-								"greater_decay"
-							]
-						},
-						{
-							"function": "treasure2:charm_randomly",
-							"charms": [
-								"grand_healing",
-								"powerful_shielding",
-								"gorged_fullness",
-								"grand_harvesting",
-								"grand_illumination"
-							]
-						}
-					]
-				},
-				{
-					"entryName": "masters_pouch",
-					"type": "item",
-					"weight": 10,
-					"name": "treasure2:masters_pouch",
-					"conditions": [
-						{
-							"condition": "random_chance",
-							"chance": 0.12
-						}
-					]
-				}
-			]
-		}
-	]
+					},
+					{
+						"function": "treasure2:charm_randomly",
+						"levels": 13
+					},
+					{
+						"function": "treasure2:charm_randomly",
+						"levels": 13
+					}
+				]
+			},
+			{
+				"entryName": "masters_pouch",
+				"type": "item",
+				"weight": 12,
+				"name": "treasure2:masters_pouch"
+			}
+		]
+	}]
 }

@@ -1,0 +1,20 @@
+{
+  "cause": {
+    "item": {
+      "item": "additions:greedycraft-shining_star",
+      "damage": "any"
+    },
+    "type": "additions:item_right_click"
+  },
+  "effects": [
+    {
+      "type": "additions:consume_item"
+    },
+    {
+      "command": "/nyxforce star_shower",
+      "command_sender_name": "",
+      "hide_feedback": false,
+      "type": "additions:command"
+    }
+  ]
+}

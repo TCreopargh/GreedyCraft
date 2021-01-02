@@ -193,6 +193,7 @@ LootUtil.addItem(<natura:edibles:9>, 1, 1, 1, 4);
 LootUtil.addItem(<additions:greedycraft-catalyst_star>, 2, 1, 1, 1);
 LootUtil.addItem(<charm:suspicious_soup>, 10, 1, 1, 1);
 LootUtil.addItem(<additions:greedycraft-slime_crown>, 2, 1, 1, 1);
+LootUtil.addItem(<additions:greedycraft-shining_star>, 2, 1, 1, 1);
 
 if(CHRISTMAS_MODE) {
     LootUtil.addItem(<additions:greedycraft-gift>, 20, 1, 1, 2);

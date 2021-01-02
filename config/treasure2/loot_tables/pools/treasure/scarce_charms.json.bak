@@ -1,0 +1,117 @@
+{
+	"version": "1.0",
+	"pools": [
+		{
+			"name": "scarce_charms",
+			"rolls": 1,
+			"entries": [
+				{
+					"entryName": "charm1",
+					"type": "item",
+					"name": "treasure2:charmed_silver_coin",
+					"weight": 10,
+					"conditions": [
+						{
+							"condition": "random_chance",
+							"chance": 0.12
+						}
+					],
+					"functions": [
+						{
+							"function": "treasure2:charm_randomly",
+							"charms": [
+								"lesser_healing",
+								"durable_shielding",
+								"fullness",
+								"minor_harvesting",
+								"lesser_illumination"
+							]
+						}
+					]
+				},
+				{
+					"entryName": "charm2",
+					"type": "item",
+					"name": "treasure2:charmed_gold_coin",
+					"weight": 10,
+					"conditions": [
+						{
+							"condition": "random_chance",
+							"chance": 0.12
+						}
+					],
+					"functions": [
+						{
+							"function": "treasure2:charm_randomly",
+							"charms": [
+								"lesser_healing",
+								"durable_shielding",
+								"fullness",
+								"minor_harvesting",
+								"lesser_illumination"
+							]
+						},
+						{
+							"function": "treasure2:charm_randomly",
+							"charms": [
+								"healing",
+								"stout_shielding",
+								"sated_fullness",
+								"harvesting",
+								"illumination"
+							]
+						}
+					]
+				},
+				{
+					"entryName": "charm3",
+					"type": "item",
+					"name": "treasure2:charmed_gold_coin",
+					"weight": 10,
+					"conditions": [
+						{
+							"condition": "random_chance",
+							"chance": 0.1
+						}
+					],
+					"functions": [
+						{
+							"function": "treasure2:charm_randomly",
+							"charms": [
+								"greater_healing",
+								"hardened_shielding",
+								"overfed_fullness",
+								"major_harvesting",
+								"greater_illumination"
+							]
+						}
+					]
+				},
+				{
+					"entryName": "fools_coin",
+					"type": "item",
+					"weight": 10,
+					"name": "treasure2:fools_coin",
+					"conditions": [
+						{
+							"condition": "random_chance",
+							"chance": 0.12
+						}
+					]
+				},
+				{
+					"entryName": "lucky_pouch",
+					"type": "item",
+					"weight": 10,
+					"name": "treasure2:lucky_pouch",
+					"conditions": [
+						{
+							"condition": "random_chance",
+							"chance": 0.12
+						}
+					]
+				}
+			]
+		}
+	]
+}

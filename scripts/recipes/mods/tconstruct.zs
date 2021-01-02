@@ -33,6 +33,12 @@ Alloy.addRecipe(<liquid:terra_alloy> * 2, [<liquid:cytosinite> * 1, <liquid:cryo
 Alloy.addRecipe(<liquid:mirion> * 72, [<liquid:terrasteel> * 18, <liquid:manasteel> * 18, <liquid:elementium> * 18, <liquid:gaia> * 18]);
 Alloy.addRecipe(<liquid:gelid_enderium> * 144, [<liquid:enderium> * 144, <liquid:cryotheum> * 1000]);
 
+Casting.removeBasinRecipe(<tcomplement:scorched_block:10>);
+Casting.removeBasinRecipe(<tcomplement:scorched_block:1>);
+Casting.removeBasinRecipe(<tcomplement:scorched_block>);
+
+Casting.removeTableRecipe(<tcomplement:materials:1>);
+
 Casting.addBasinRecipe(<additions:greedycraft-astral_metal_block>, null, <liquid:astral_metal>, VOLUME_BLOCK, false, 300);
 Casting.addBasinRecipe(<additions:greedycraft-compressed_experience_block>, <ore:blockExperience>, <liquid:experience>, 10368, true, 300);
 Casting.addBasinRecipe(<additions:greedycraft-cosmilite_block>, null, <liquid:cosmilite>, VOLUME_BLOCK, false, 300);
@@ -90,10 +96,12 @@ Casting.addTableRecipe(<additions:aeonsteel_ingot>, <tconstruct:cast_custom>, <l
 Casting.addTableRecipe(<additions:chromasteel_ingot>, <tconstruct:cast_custom>, <liquid:chromasteel>, VOLUME_INGOT, false, 200);
 Casting.addTableRecipe(<randomthings:ingredient:3>, <tconstruct:cast_custom>, <liquid:spectre>, VOLUME_INGOT, false, 200);
 
-Casting.removeBasinRecipe(<tcomplement:scorched_block:10>);
-Casting.removeBasinRecipe(<tcomplement:scorched_block:1>);
-Casting.removeBasinRecipe(<tcomplement:scorched_block>);
-Casting.removeTableRecipe(<tcomplement:materials:1>);
+Melting.removeRecipe(<liquid:gold>, <minecraft:golden_rail>);
+Melting.removeRecipe(<liquid:iron>, <minecraft:activator_rail>);
+Melting.removeRecipe(<liquid:iron>, <minecraft:bucket>);
+Melting.removeRecipe(<liquid:iron>, <minecraft:detector_rail>);
+Melting.removeRecipe(<liquid:iron>, <minecraft:rail>);
+Melting.removeRecipe(<liquid:meteorite_fluid>, <taiga:obsidiorite_block>);
 
 Melting.addEntityMelting(<entity:minecraft:cow>, <liquid:milk>);
 Melting.addEntityMelting(<entity:minecraft:enderman>, <liquid:ender>);
@@ -181,13 +189,6 @@ Melting.addRecipe(<liquid:durasteel> * VOLUME_BLOCK, <ore:blockDurasteel>, 777);
 Melting.addRecipe(<liquid:aeonsteel> * VOLUME_BLOCK, <ore:blockAeonsteel>, 1150);
 Melting.addRecipe(<liquid:chromasteel> * VOLUME_BLOCK, <ore:blockChromasteel>, 1337);
 Melting.addRecipe(<liquid:spectre> * VOLUME_INGOT, <ore:ingotSpectre>, 1111);
-
-Melting.removeRecipe(<liquid:gold>, <minecraft:golden_rail>);
-Melting.removeRecipe(<liquid:iron>, <minecraft:activator_rail>);
-Melting.removeRecipe(<liquid:iron>, <minecraft:bucket>);
-Melting.removeRecipe(<liquid:iron>, <minecraft:detector_rail>);
-Melting.removeRecipe(<liquid:iron>, <minecraft:rail>);
-Melting.removeRecipe(<liquid:meteorite_fluid>, <taiga:obsidiorite_block>);
 
 Fuel.registerFuel(<liquid:infernium> * 1, 600);
 Fuel.registerFuel(<liquid:cosmilite> * 1, 2400);

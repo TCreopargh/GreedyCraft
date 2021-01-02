@@ -18,12 +18,11 @@ import crafttweaker.item.IIngredient;
 
 import scripts.util.loot_tables as LootUtil;
 
+static itemBlacklist as IItemStack[] = [
+    <bibliocraft:bibliocreativelock>
+] as IItemStack[];
+
 function isBlacklisted(target as IItemStack) as bool {
-
-    val itemBlacklist as IItemStack[] = [
-        <bibliocraft:bibliocreativelock>
-    ] as IItemStack[];
-
     for item in itemBlacklist {
         if(target.definition.id == item.definition.id && target.metadata == item.metadata) {
             if(!isNull(item.tag)) {

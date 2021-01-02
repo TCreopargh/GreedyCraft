@@ -23,7 +23,7 @@ oldDeathpoints:false
 distance:1
 showCoords:true
 lockNorth:true
-zoom:1
+zoom:2
 minimapSize:0
 entityAmount:1
 chunkGrid:-1
@@ -37,7 +37,10 @@ otherTeamColor:11
 tamedMobsColor:13
 mapSafeMode:false
 minimapOpacity:100.0
-waypointsScale:1.0
+waypointsIngameScale:1.0
+waypointsDistanceScale:1.0
+waypointsNameScale:0.800000011920929
+waypointsClampDepth:0.0
 antiAliasing:false
 blockColours:0
 lighting:true

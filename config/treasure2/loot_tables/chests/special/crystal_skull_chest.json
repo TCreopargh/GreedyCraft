@@ -1,5 +1,5 @@
 {
-	"version": "1.0",
+	"version": "1.1",
 	"category": "general",
 		"rarity": "epic",
 	"pools": [
@@ -81,7 +81,7 @@
 			"entries": [
                 {
                     "type": "loot_table",
-                    "name": "treasure2:loot_tables/treasure2/treasure/epic_charms",
+                    "name": "treasure2:pools/treasure/epic_charms",
                     "weight": 1
                 }
 			]

@@ -1,5 +1,10 @@
 [
     {
+        "hostile": true,
+        "minlight": 7,
+        "result": "deny"
+    },
+    {
         "mod": "multimob",
         "onjoin": true,
         "result": "deny"
@@ -135,11 +140,6 @@
         "result": "deny"
     },
     {
-        "hostile": true,
-        "minlight": 7,
-        "result": "deny"
-    },
-    {
         "dimension": 0,
         "hostile": true,
         "seesky": true,
@@ -252,6 +252,11 @@
             "hostile": true,
             "perplayer": true
         },
+        "result": "deny"
+    },
+    {
+        "hostile": true,
+        "minlight": 7,
         "result": "deny"
     }
 ]

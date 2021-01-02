@@ -224,7 +224,10 @@ val disabledItems as IIngredient[] = [
     <extrabotany:goblinslayerboots>.withTag({isday: 0 as byte}),
     <cyclicmagic:auto_crafter>,
     <cyclicmagic:auto_packager>,
-    <extrautils2:chunkloader>
+    <extrautils2:chunkloader>,
+    <treasure2:angels_ring>,
+    <treasure2:bracelet_of_wonder>,
+    <treasure2:ring_of_fortitude>
 ] as IIngredient[];
 
 val disabledRecipeRegex as string[] = [
@@ -253,6 +256,11 @@ val disabledRecipeRegex as string[] = [
     "^redstonerepository:((tool)|(armor))(.*)$"
 ];
 
+val outputBlacklist as IItemStack[] = [
+    <twilightforest:giant_pickaxe>,
+    <twilightforest:giant_sword>
+];
+
 for ingredient in disabledItems {
     ItemStages.removeItemStage(ingredient);
     ItemStages.addItemStage("disabled", ingredient);
@@ -267,14 +275,23 @@ for ingredient in disabledItems {
 for recipe in recipes.all {
     for regex in disabledRecipeRegex {
         if(recipe.fullResourceDomain.matches(regex)) {
-            RecipeUtil.remove(recipe.output);
-            JEI.removeAndHide(recipe.output);
-            recipe.output.addTooltip("§c已禁用");
-            // Disabled this to fix the problem of zombies holding question marks
-            // ItemStages.removeItemStage(recipe.output);
-            // ItemStages.addItemStage("disabled", recipe.output);
-            // ItemStages.setUnfamiliarName("§4已禁用的物品", ingredient);
-            break;
+            var isBlacklisted as bool = false;
+            for item in outputBlacklist {
+                if(recipe.output.definition.id == item.definition.id && recipe.output.metadata == item.metadata) {
+                    isBlacklisted = true;
+                    break;
+                }
+            }
+            if(!isBlacklisted) {
+                RecipeUtil.remove(recipe.output);
+                JEI.removeAndHide(recipe.output);
+                recipe.output.addTooltip("§c已禁用");
+                // Disabled this to fix the problem of zombies holding question marks
+                // ItemStages.removeItemStage(recipe.output);
+                // ItemStages.addItemStage("disabled", recipe.output);
+                // ItemStages.setUnfamiliarName("§4已禁用的物品", ingredient);
+                break;
+            }
         }
     }
 }

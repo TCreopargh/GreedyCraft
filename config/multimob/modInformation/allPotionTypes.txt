@@ -38,13 +38,13 @@ minecraft:luck
 randomthings:collapse
 randomthings:long_collapse
 randomthings:strong_collapse
-enderio:floating
-enderio:strong_floating
-enderio:long_floating
 enderio:withering
 enderio:long_withering
 enderio:confusion
 enderio:long_confusion
+enderio:floating
+enderio:strong_floating
+enderio:long_floating
 mowziesmobs:poison_resist
 mowziesmobs:long_poison_resist
 netherex:freezing

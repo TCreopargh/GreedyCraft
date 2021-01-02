@@ -1321,6 +1321,11 @@ RecipeUtil.addShaped("xp_block", <globalxp:xp_block>, [
     [<ore:ingotExperience>, <minecraft:emerald>, <ore:ingotExperience>],
     [<minecraft:iron_bars>, <ore:ingotExperience>, <minecraft:iron_bars>]
 ]);
+RecipeUtil.addShaped("shining_star", <additions:greedycraft-shining_star>, [
+    [<ore:fallenStar>, <ore:dustGlowstone>, <ore:fallenStar>],
+    [<ore:dustGlowstone>, <ore:ingotGold>, <ore:dustGlowstone>],
+    [<ore:fallenStar>, <ore:dustGlowstone>, <ore:fallenStar>]
+]);
 
 /* Templates
 

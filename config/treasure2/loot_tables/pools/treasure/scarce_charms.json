@@ -1,117 +1,172 @@
 {
-	"version": "1.0",
-	"pools": [
-		{
-			"name": "scarce_charms",
-			"rolls": 1,
-			"entries": [
-				{
-					"entryName": "charm1",
-					"type": "item",
-					"name": "treasure2:charmed_silver_coin",
-					"weight": 10,
-					"conditions": [
-						{
-							"condition": "random_chance",
-							"chance": 0.12
-						}
-					],
-					"functions": [
-						{
-							"function": "treasure2:charm_randomly",
-							"charms": [
-								"lesser_healing",
-								"durable_shielding",
-								"fullness",
-								"minor_harvesting",
-								"lesser_illumination"
-							]
-						}
-					]
-				},
-				{
-					"entryName": "charm2",
-					"type": "item",
-					"name": "treasure2:charmed_gold_coin",
-					"weight": 10,
-					"conditions": [
-						{
-							"condition": "random_chance",
-							"chance": 0.12
-						}
-					],
-					"functions": [
-						{
-							"function": "treasure2:charm_randomly",
-							"charms": [
-								"lesser_healing",
-								"durable_shielding",
-								"fullness",
-								"minor_harvesting",
-								"lesser_illumination"
-							]
-						},
-						{
-							"function": "treasure2:charm_randomly",
-							"charms": [
-								"healing",
-								"stout_shielding",
-								"sated_fullness",
-								"harvesting",
-								"illumination"
-							]
-						}
-					]
-				},
-				{
-					"entryName": "charm3",
-					"type": "item",
-					"name": "treasure2:charmed_gold_coin",
-					"weight": 10,
-					"conditions": [
-						{
-							"condition": "random_chance",
-							"chance": 0.1
-						}
-					],
-					"functions": [
-						{
-							"function": "treasure2:charm_randomly",
-							"charms": [
-								"greater_healing",
-								"hardened_shielding",
-								"overfed_fullness",
-								"major_harvesting",
-								"greater_illumination"
-							]
-						}
-					]
-				},
-				{
-					"entryName": "fools_coin",
-					"type": "item",
-					"weight": 10,
-					"name": "treasure2:fools_coin",
-					"conditions": [
-						{
-							"condition": "random_chance",
-							"chance": 0.12
-						}
-					]
-				},
-				{
-					"entryName": "lucky_pouch",
-					"type": "item",
-					"weight": 10,
-					"name": "treasure2:lucky_pouch",
-					"conditions": [
-						{
-							"condition": "random_chance",
-							"chance": 0.12
-						}
-					]
-				}
-			]
-		}
-	]
+	"version": "2.0",
+	"pools": [{
+		"name": "scarce_charms",
+		"rolls": 1,
+		"entries": [{
+				"entryName": "charm1",
+				"type": "item",
+				"name": "treasure2:charmed_silver_coin",
+				"weight": 30,
+				"conditions": [{
+					"condition": "random_chance",
+					"chance": 0.20
+				}],
+				"functions": [{
+					"function": "treasure2:charm_randomly",
+					"levels": 1
+				}]
+			},
+			{
+				"entryName": "charm2",
+				"type": "item",
+				"name": "treasure2:charmed_gold_coin",
+				"weight": 30,
+				"conditions": [{
+					"condition": "random_chance",
+					"chance": 0.15
+				}],
+				"functions": [{
+						"function": "treasure2:charm_randomly",
+						"levels": 1
+					},
+					{
+						"function": "treasure2:charm_randomly",
+						"levels": 2
+					}
+				]
+			},
+			{
+				"entryName": "charm3",
+				"type": "item",
+				"name": "treasure2:charmed_gold_coin",
+				"weight": 30,
+				"conditions": [{
+					"condition": "random_chance",
+					"chance": 0.1
+				}],
+				"functions": [{
+					"function": "treasure2:charm_randomly",
+					"levels": 3
+				}]
+			},
+			{
+				"entryName": "adornment0",
+				"type": "item",
+				"name": "treasure2:silver_ring",
+				"weight": 15,
+				"conditions": [{
+					"condition": "random_chance",
+					"chance": 0.5
+				}],
+				"functions": [{
+					"function": "treasure2:set_slots",
+					"slots": 0
+				}]
+			},
+			{
+				"entryName": "adornment1",
+				"type": "item",
+				"name": "treasure2:gold_ring",
+				"weight": 15,
+				"conditions": [{
+					"condition": "random_chance",
+					"chance": 0.5
+				}],
+				"functions": [{
+					"function": "treasure2:set_slots",
+					"slots": {
+						"min": 1,
+						"max": 2
+					}
+				}]
+			},
+			{
+				"entryName": "adornment2",
+				"type": "item",
+				"name": "treasure2:onyx_gold_ring",
+				"weight": 10,
+				"quality": 2,
+				"conditions": [{
+					"condition": "random_chance",
+					"chance": 0.5
+				}],
+				"functions": [{
+					"function": "treasure2:set_slots",
+					"slots": {
+						"min": 0,
+						"max": 2
+					}
+				}]
+			},
+			{
+				"entryName": "adornment3",
+				"type": "item",
+				"name": "treasure2:diamond_gold_ring",
+				"weight": 10,
+				"quality": 2,
+				"conditions": [{
+					"condition": "random_chance",
+					"chance": 0.4
+				}],
+				"functions": [{
+					"function": "treasure2:set_slots",
+					"slots": {
+						"min": 0,
+						"max": 2
+					}
+				}]
+			},
+			{
+				"entryName": "adornment4",
+				"type": "item",
+				"name": "treasure2:emerald_gold_ring",
+				"weight": 10,
+				"conditions": [{
+					"condition": "random_chance",
+					"chance": 0.3
+				}],
+				"functions": [{
+					"function": "treasure2:set_slots",
+					"slots": {
+						"min": 0,
+						"max": 2
+					}
+				}]
+            },
+            {
+				"entryName": "adornment5",
+				"type": "item",
+				"name": "treasure2:silver_signet_ring",
+				"weight": 10,
+				"conditions": [{
+					"condition": "random_chance",
+					"chance": 0.5
+				}],
+				"functions": [{
+					"function": "treasure2:set_slots",
+					"slots": {
+						"min": 0,
+						"max": 1
+					}
+				}]
+			},
+			{
+				"entryName": "fools_coin",
+				"type": "item",
+				"weight": 10,
+				"name": "treasure2:fools_coin"
+			},
+			{
+				"entryName": "lucky_pouch",
+				"type": "item",
+				"weight": 10,
+				"name": "treasure2:lucky_pouch",
+				"conditions": [{
+					"condition": "random_chance",
+					"chance": 0.25
+				}]
+			}
+		]
+	}]
 }
