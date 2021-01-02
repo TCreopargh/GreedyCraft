@@ -81,6 +81,13 @@ minecraft:llama_spit
 minecraft:parrot
 minecraft:villager
 minecraft:ender_crystal
+quark:flat_item_frame
+quark:leash_knot
+quark:colored_item_frame
+quark:glass_item_frame
+quark:seat
+quark:gravisand
+quark:chest_passenger
 quark:stoneling
 quark:archaeologist
 quark:foxhound
@@ -97,13 +104,6 @@ quark:arrow_torch
 quark:dragon_breath_bottle
 quark:soul_powder
 quark:parrot_egg
-quark:chest_passenger
-quark:flat_item_frame
-quark:leash_knot
-quark:colored_item_frame
-quark:glass_item_frame
-quark:seat
-quark:gravisand
 thermalfoundation:blizz
 thermalfoundation:blitz
 thermalfoundation:basalz
