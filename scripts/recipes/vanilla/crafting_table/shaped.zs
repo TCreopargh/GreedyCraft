@@ -1332,6 +1332,11 @@ RecipeUtil.addShaped("growth_ring", <actuallyadditions:item_growth_ring>, [
     [<minecraft:wheat_seeds>, <actuallyadditions:item_misc:6>, <minecraft:wheat_seeds>],
     [<ore:shardCreative>, <minecraft:wheat_seeds>, <ore:shardCreative>]
 ]);
+RecipeUtil.addShaped("efln", <tconstruct:throwball:1>, [
+    [<ore:gunpowder>, <ore:dustSulfur>, <ore:gunpowder>],
+    [<ore:dustSulfur>, <ore:ingotMeteor>, <ore:dustSulfur>],
+    [<ore:gunpowder>, <ore:dustSulfur>, <ore:gunpowder>]
+]);
 
 /* Templates
 
