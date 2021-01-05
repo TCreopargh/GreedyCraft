@@ -1003,11 +1003,12 @@ RecipeUtil.addShaped("auto_gen_-1071431898", <buildinggadgets:copypastetool>, [
     [<ore:slimeball>, <ore:gemDiamond>, <ore:slimeball>],
     [<ore:ingotStainlessSteel>, <ore:dustRedstone>, <ore:ingotStainlessSteel>]
 ]); */
+/* Disabled
 RecipeUtil.addShaped("auto_gen_12241914", <buildinggadgets:destructiontool>, [
-    [<ore:ingotStainlessSteel>, <ore:dustRedstone>, <ore:ingotStainlessSteel>],
-    [<ore:ingotRavaging>, <ore:gemDiamond>, <ore:ingotRavaging>],
-    [<ore:ingotStainlessSteel>, <ore:dustRedstone>, <ore:ingotStainlessSteel>]
-]);
+    [<ore:ingotAeonsteel>, <minecraft:bedrock>, <ore:ingotAeonsteel>],
+    [<ore:ingotRavaging>, <ore:netherStar>, <ore:ingotRavaging>],
+    [<ore:ingotAeonsteel>, <minecraft:bedrock>, <ore:ingotAeonsteel>]
+]); */
 RecipeUtil.addShaped("witch_essence", <minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:witch"}}), [
     [null, <ore:essenceWitch>, null],
     [<ore:essenceWitch>, <ore:egg>, <ore:essenceWitch>],
@@ -1325,6 +1326,11 @@ RecipeUtil.addShaped("shining_star", <additions:greedycraft-shining_star>, [
     [<ore:fallenStar>, <ore:dustGlowstone>, <ore:fallenStar>],
     [<ore:dustGlowstone>, <ore:ingotGold>, <ore:dustGlowstone>],
     [<ore:fallenStar>, <ore:dustGlowstone>, <ore:fallenStar>]
+]);
+RecipeUtil.addShaped("growth_ring", <actuallyadditions:item_growth_ring>, [
+    [<ore:shardCreative>, <minecraft:wheat_seeds>, <ore:shardCreative>],
+    [<minecraft:wheat_seeds>, <actuallyadditions:item_misc:6>, <minecraft:wheat_seeds>],
+    [<ore:shardCreative>, <minecraft:wheat_seeds>, <ore:shardCreative>]
 ]);
 
 /* Templates

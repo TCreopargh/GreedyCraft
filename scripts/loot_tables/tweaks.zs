@@ -90,6 +90,8 @@ LootTweaker.getTable("enderio:chests/village_blacksmith").getPool("Ender IO").re
 LootTweaker.getTable("enderio:chests/village_blacksmith").getPool("Ender IO").removeEntry("enderio:item_dark_steel_boots:0");
 LootTweaker.getTable("enderio:chests/nether_bridge").getPool("Ender IO").removeEntry("enderio:item_dark_steel_boots:0");
 LootTweaker.getTable("enderio:chests/desert_pyramid").getPool("Ender IO").removeEntry("enderio:item_dark_steel_sword:0");
+LootTweaker.getTable("enderio:chests/abandoned_mineshaft").getPool("Ender IO").removeEntry("enderio:item_dark_steel_sword:0");
+LootTweaker.getTable("enderio:chests/jungle_temple").getPool("Ender IO").removeEntry("enderio:item_dark_steel_sword:0");
 
 LootTweaker.getTable("enderio:chests/abandoned_mineshaft").getPool("Ender IO").removeEntry("enderio:item_material:9");
 LootTweaker.getTable("enderio:chests/simple_dungeon").getPool("Ender IO").removeEntry("enderio:item_material:9");

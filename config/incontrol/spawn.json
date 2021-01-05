@@ -76,6 +76,10 @@
             "minecraft:squid",
             "enderiozoo:epicsquid"
         ],
+        "maxcount": {
+            "amount": 10,
+            "perplayer": true
+        },
         "block": "minecraft:water",
         "maxheight": 39,
         "result": "allow"

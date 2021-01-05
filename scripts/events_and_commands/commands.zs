@@ -439,7 +439,7 @@ sendWelcomeQuoteCommand.execute = function(command, server, sender, args) {
             }
             var msg as string = welcomeQuotes[index].replace("%playername%", player.name);
             if(!msg.startsWith("[")) {
-                msg = '["",{"text":"' + msg + '"}]';
+                msg = '["",{"text":"§9[提示]§r ' + msg + '"}]';
             }
             server.commandManager.executeCommand(server, "/tellraw " + player.name + " " + msg);
         }

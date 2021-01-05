@@ -346,6 +346,8 @@ GameStagesUtil.stageNoviceEngineer.addIngredients([
 ], true);
 
 GameStagesUtil.stageHardmode.addIngredients([
+    <tconstruct:materials:19>,
+    <tconstruct:materials:18>,
     <actuallyadditions:block_phantom_booster>,
     <actuallyadditions:block_phantom_placer>,
     <actuallyadditions:block_phantomface>,
@@ -450,7 +452,8 @@ GameStagesUtil.stageInfinity.addIngredients([
     <extrautils2:rainbowgenerator:2>,
     <extrautils2:rainbowgenerator:1>,
     <extrautils2:rainbowgenerator>,
-    <solarflux:solar_panel_infinity>
+    <solarflux:solar_panel_infinity>,
+    <actuallyadditions:item_growth_ring>
 ], true);
 
 GameStagesUtil.stageGraduated.addIngredients([

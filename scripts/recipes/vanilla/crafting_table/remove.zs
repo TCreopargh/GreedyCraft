@@ -267,7 +267,6 @@ val removedRecipes as IIngredient[] = [
     <buildinggadgets:buildingtool>,
     <buildinggadgets:exchangertool>,
     <buildinggadgets:copypastetool>,
-    <buildinggadgets:destructiontool>,
     <actuallyadditions:block_misc:8>,
     <demagnetize:demagnetizer>,
     <demagnetize:demagnetizer_advanced>,
@@ -355,7 +354,8 @@ val removedRecipes as IIngredient[] = [
     <torchmaster:dread_lamp>,
     <modularmachinery:blockcasing:2>,
     <openblocks:sponge>,
-    <globalxp:xp_block>
+    <globalxp:xp_block>,
+    <actuallyadditions:item_growth_ring>
 ];
 
 val removedRecipeNames as string[] = [

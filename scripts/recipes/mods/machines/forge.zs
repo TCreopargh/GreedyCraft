@@ -17,7 +17,7 @@ import mods.jei.JEI;
 
 import scripts.util.machines as MMUtil;
 
-MMUtil.addForgeRecipe("durasteel_forge", MMUtil.getStack(<additions:durasteel_ingot>, 6), (12000 * FORGE_COST_MULTIPLIER) as int, (10000000 * FORGE_COST_MULTIPLIER) as long, [
+MMUtil.addForgeRecipe("durasteel_forge", MMUtil.getStack(<additions:durasteel_ingot>, 6), (18000 * FORGE_COST_MULTIPLIER) as int, (10000000 * FORGE_COST_MULTIPLIER) as long, [
     <tconstruct:ingots:2>,
     <additions:stainless_steel_ingot>,
     <additions:asgardium_ingot>,
@@ -58,10 +58,6 @@ MMUtil.addForgeRecipe("durasteel_forge", MMUtil.getStack(<additions:durasteel_in
         speed: 0.33,
         energy: 0.33
     }, 
-    <astralsorcery:itemcraftingcomponent:1> : {
-        speed: 0.15,
-        energy: 0.15
-    }, 
     <abyssalcraft:dreadiumingot> : {
         speed: 0.25,
         energy: 0.25
@@ -80,7 +76,7 @@ MMUtil.addForgeRecipe("durasteel_forge", MMUtil.getStack(<additions:durasteel_in
     }
 } as double[string][IItemStack]);
 
-MMUtil.addForgeRecipe("aeonsteel_forge", MMUtil.getStack(<additions:aeonsteel_ingot>, 6), (24000 * FORGE_COST_MULTIPLIER) as int, (64000000 as long * FORGE_COST_MULTIPLIER as long) as long, [
+MMUtil.addForgeRecipe("aeonsteel_forge", MMUtil.getStack(<additions:aeonsteel_ingot>, 6), (30000 * FORGE_COST_MULTIPLIER) as int, (64000000 as long * FORGE_COST_MULTIPLIER as long) as long, [
     <additions:durasteel_ingot>,
     <tconevo:material>,
     <draconicevolution:draconium_ingot>,
@@ -124,10 +120,6 @@ MMUtil.addForgeRecipe("aeonsteel_forge", MMUtil.getStack(<additions:aeonsteel_in
         speed: 0.35,
         energy: 0.35
     }, 
-    <plustic:osgloglasingot> : {
-        speed: 0.2,
-        energy: 0.2
-    }, 
     <projecte:item.pe_matter> : {
         speed: 0.25,
         energy: 0.25
@@ -142,7 +134,7 @@ MMUtil.addForgeRecipe("aeonsteel_forge", MMUtil.getStack(<additions:aeonsteel_in
     }
 } as double[string][IItemStack]);
 
-MMUtil.addForgeRecipe("chromasteel_forge", MMUtil.getStack(<additions:chromasteel_ingot>, 6), (36000 * FORGE_COST_MULTIPLIER) as int, (240000000 as long * FORGE_COST_MULTIPLIER as long) as long, [
+MMUtil.addForgeRecipe("chromasteel_forge", MMUtil.getStack(<additions:chromasteel_ingot>, 6), (42000 * FORGE_COST_MULTIPLIER) as int, (240000000 as long * FORGE_COST_MULTIPLIER as long) as long, [
     <additions:aeonsteel_ingot>,
     <additions:terra_alloy_ingot>,
     <plustic:mirioningot>,
@@ -206,7 +198,7 @@ MMUtil.addForgeRecipe("chromasteel_forge", MMUtil.getStack(<additions:chromastee
     }
 } as double[string][IItemStack]);
 
-MMUtil.addForgeRecipe("cosmic_forge", <additions:cosmilite_ingot> * COSMILITE_OUTPUT_COUNT, (60000 * FORGE_COST_MULTIPLIER) as int, (1000000000 as long * FORGE_COST_MULTIPLIER as long) as long, [
+MMUtil.addForgeRecipe("cosmic_forge", <additions:cosmilite_ingot> * COSMILITE_OUTPUT_COUNT, (72000 * FORGE_COST_MULTIPLIER) as int, (1000000000 as long * FORGE_COST_MULTIPLIER as long) as long, [
     <additions:chromasteel_ingot> * 4,
     <tconevo:metal:10>,
     <abyssalcraft:ethaxiumingot>,

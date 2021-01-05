@@ -15,7 +15,7 @@ difficulty:3
 fancyGraphics:true
 ao:1
 renderClouds:false
-resourcePacks:["Default+Improved+PBR+1.12.zip","Default+Improved+PBR+1.12+-+Biomes+O\u0027+Plenty.zip","Default+Improved+PBR+1.12+-+Quark.zip","Dark+Mode.zip","Dark+Modern+GUIs+-+1.0.2.zip","Default+Improved+PBR+1.12+Base+Metals_thermalfoundation.zip","Default+Improved+1.12+-+Storage+Drawers+Addon.zip","Default+Improved+1.12+-+Storage+Drawers+Extras+Addon.zip","Journeymap+Mob+Icons.zip","1616lb.zip","Draconic_Evolution_16x.zip","AudioCraftV1.6.zip","Tinker\u0027s+Tables.zip","Minecraft-Mod-Language-Package.zip","chocolate_quest_lang.zip","MuteGhasts.zip","GreedyPack.zip","greedy_Localization_pack.zip","greedy_music_tweaks.zip","GreedyColors.zip","shiny_player_model.zip"]
+resourcePacks:["Default+Improved+PBR+1.12.zip","Default+Improved+PBR+1.12+-+Biomes+O\u0027+Plenty.zip","Default+Improved+PBR+1.12+-+Quark.zip","Dark+Mode.zip","Dark+Modern+GUIs+-+1.0.2.zip","Default+Improved+PBR+1.12+Base+Metals_thermalfoundation.zip","Default+Improved+1.12+-+Storage+Drawers+Addon.zip","Default+Improved+1.12+-+Storage+Drawers+Extras+Addon.zip","Journeymap+Mob+Icons.zip","1616lb.zip","Draconic_Evolution_16x.zip","AudioCraftV1.6.zip","Tinker\u0027s+Tables.zip","Minecraft-Mod-Language-Package.zip","chocolate_quest_lang.zip","MuteGhasts.zip","GreedyPack.zip","greedy_Localization_pack.zip","greedy_music_tweaks.zip","hardcoreitemstages_tweaks.zip","greedy_Localization_pack.zip","GreedyColors.zip","shiny_player_model.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:zh_cn
@@ -89,9 +89,9 @@ key_of.key.zoom:46
 key_Change Caster Focus:0
 key_Misc Caster Toggle:0
 key_quark.keybind.lockBuilding:0
+key_quark.keybind.toggleAutojump:0
 key_quark.keybind.dropoff:0
 key_quark.keybind.changeHotbar:184
-key_quark.keybind.toggleAutojump:0
 key_quark.emote.no:0
 key_quark.emote.yes:0
 key_quark.emote.wave:0

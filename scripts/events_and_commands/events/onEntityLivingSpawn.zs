@@ -31,4 +31,7 @@ events.onCheckSpawn(function(event as EntityLivingExtendedSpawnEvent) {
     if(living.definition.id.startsWith("primitivemobs:") && living.maxHealth >= 10000.0f) {
         event.deny();
     }
+    if(living.maxHealth >= 1048576.0f) {
+        event.deny();
+    }
 });

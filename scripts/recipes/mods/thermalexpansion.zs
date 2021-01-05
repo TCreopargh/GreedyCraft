@@ -11,6 +11,7 @@ import mods.thermalexpansion.InductionSmelter;
 import mods.thermalexpansion.Insolator;
 import mods.thermalexpansion.Pulverizer;
 import mods.thermalexpansion.Infuser;
+import mods.thermalexpansion.Coolant;
 
 Transposer.addFillRecipe(<thermalfoundation:fertilizer:1>, <thermalfoundation:fertilizer:0>, <liquid:resin> * 200, 20);
 
@@ -43,3 +44,5 @@ Infuser.addRecipe(<thaumcraft:primordial_pearl>, <thaumcraft:primordial_pearl:5>
 Infuser.addRecipe(<thaumcraft:primordial_pearl>, <thaumcraft:primordial_pearl:6>, 1200000);
 Infuser.addRecipe(<thaumcraft:primordial_pearl>, <thaumcraft:primordial_pearl:7>, 1400000);
 Infuser.addRecipe(<thaumcraft:primordial_pearl>, <thaumcraft:primordial_pearl:8>, 1600000);
+
+Coolant.addCoolant(<liquid:cryonium>, 6000000, 75);

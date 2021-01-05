@@ -13,7 +13,8 @@ import mods.tconstruct.Fuel;
 val VOLUME_BLOCK = 1296;
 val VOLUME_INGOT = 144;
 
-Alloy.removeRecipe(<liquid:mirion>);
+//Alloy.removeRecipe(<liquid:mirion> * 72, [<liquid:terrasteel> * 18, <liquid:manasteel> * 18, <liquid:elementium> * 18, <liquid:cobalt> * 18, <liquid:glass> * 125]);
+//Alloy.removeRecipe(<liquid:mirion>);
 
 Alloy.addRecipe(<liquid:adamant_fluid> * 3, [<liquid:nihilite_fluid> * 1, <liquid:iox_fluid> * 3]);
 Alloy.addRecipe(<liquid:emerald> * 2, [<liquid:experience> * 3, <liquid:redstone> * 2, <liquid:glowstone> * 2]);
@@ -30,7 +31,7 @@ Alloy.addRecipe(<liquid:scorched> * VOLUME_INGOT, [<liquid:lava> * VOLUME_INGOT,
 Alloy.addRecipe(<liquid:stainless_steel> * (VOLUME_INGOT * 4), [<liquid:manganese_steel> * (VOLUME_INGOT * 4), <liquid:nickel> * VOLUME_INGOT, <liquid:chromium> * VOLUME_INGOT]);
 Alloy.addRecipe(<liquid:manganese_steel> * (VOLUME_INGOT * 2), [<liquid:steel> * (VOLUME_INGOT * 2), <liquid:manganese> * VOLUME_INGOT]);
 Alloy.addRecipe(<liquid:terra_alloy> * 2, [<liquid:cytosinite> * 1, <liquid:cryonium> * 1, <liquid:infernium> * 1, <liquid:titanium> * 1]);
-Alloy.addRecipe(<liquid:mirion> * 72, [<liquid:terrasteel> * 18, <liquid:manasteel> * 18, <liquid:elementium> * 18, <liquid:gaia> * 18]);
+//Alloy.addRecipe(<liquid:mirion> * 72, [<liquid:terrasteel> * 18, <liquid:manasteel> * 18, <liquid:elementium> * 18, <liquid:gaia> * 18]);
 Alloy.addRecipe(<liquid:gelid_enderium> * 144, [<liquid:enderium> * 144, <liquid:cryotheum> * 1000]);
 
 Casting.removeBasinRecipe(<tcomplement:scorched_block:10>);
