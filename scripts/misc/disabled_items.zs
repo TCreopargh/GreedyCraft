@@ -227,7 +227,10 @@ val disabledItems as IIngredient[] = [
     <extrautils2:chunkloader>,
     <treasure2:angels_ring>,
     <treasure2:bracelet_of_wonder>,
-    <treasure2:ring_of_fortitude>
+    <treasure2:ring_of_fortitude>,
+    <botania:unholycloak>,
+    <botania:balancecloak>,
+    <botania:holycloak>
 ] as IIngredient[];
 
 val disabledRecipeRegex as string[] = [
