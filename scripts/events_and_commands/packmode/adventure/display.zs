@@ -10,7 +10,7 @@ events.onPlayerLoggedIn(function (event as crafttweaker.event.PlayerLoggedInEven
     var player = event.player;
     player.server.commandManager.executeCommand(player.server, "/scoreboard objectives remove title");
     player.server.commandManager.executeCommand(player.server, "/scoreboard objectives add title dummy §b§l贪婪整合包§r §6v" + versionName);
-    player.server.commandManager.executeCommand(player.server, "/scoreboard players set §9游戏模式：§6§n冒险 title 2");
+    player.server.commandManager.executeCommand(player.server, "/scoreboard players set §9游戏模式：§6冒险 title 2");
     player.server.commandManager.executeCommand(player.server, "/scoreboard players set §b title 3");
     player.server.commandManager.executeCommand(player.server, "/scoreboard players set §eby：§dTCreopargh title 4");
     if (player.hasGameStage("iswuss")) {

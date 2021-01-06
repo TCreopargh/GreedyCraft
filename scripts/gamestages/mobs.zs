@@ -28,9 +28,6 @@ val mobStages as string[string] = {
     "thaumcraft:cultistportallesser": "novice_wizard",
     "mowziesmobs:barako": "wyvern",
     "mowziesmobs:frostmaw": "hardmode",
-    "primitivemobs:blazing_juggernaut": "nether",
-    "primitivemobs:haunted_tool": "nether",
-    "primitivemobs:bewitched_tome": "nether",
     "minecraft:wither": "abyssal_conquerer"
 } as string[string];
 

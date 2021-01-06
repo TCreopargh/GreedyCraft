@@ -25,7 +25,8 @@ global welcomeQuotes as string[] = [
     "§e你可以使用§6/hidescoreboard§e指令来暂时关闭右边的计分板！",
     "§e你可以使用§6/hidedeathquotes§e指令来关闭死亡信息显示，或§6/showdeathquotes§e重新打开死亡信息显示！",
     "§e你可以使用§6/backup§e指令手动备份世界，在世界选择界面可以找到恢复备份的选项！",
-    "§e按§6B§e键可以在你的位置新建路径点，在大地图界面按§6B§e可以在鼠标位置新建路径点！"
+    "§e按§6B§e键可以在你的位置新建路径点，在大地图界面按§6B§e可以在鼠标位置新建路径点！",
+    "§e更新整合包版本时，将之前整合包根目录下的§6saves§e文件夹挪到新版本的相同位置即可保留存档！"
 ];
 
 global greetingMessage as string = "\n"+

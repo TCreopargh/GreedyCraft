@@ -47,7 +47,6 @@ static pools as LootPool[] = [
     LootTweaker.getTable("quark:chests/pirate_chest").getPool("main")
 ];
 
-static treasureSlimePool as LootPool = LootTweaker.getTable("primitivemobs:entities/special/treasure_slime").getPool("treasureslime_spawnitem");
 
 static itemBlacklist as IItemStack[] = [
     <bibliocraft:bibliocreativelock>
@@ -72,8 +71,5 @@ function isBlacklisted(target as IItemStack) as bool {
 function addItem(item as IItemStack, weight as int, quality as int, minCount as int, maxCount as int) {
     for pool in pools {
         pool.addItemEntryHelper(item, weight, quality, [Functions.setCount(minCount, maxCount)], []);
-        if(maxCount >= 2) {
-            treasureSlimePool.addItemEntryHelper(item, weight, quality, [Functions.setCount(1, 1)], []);
-        }
     }
 }

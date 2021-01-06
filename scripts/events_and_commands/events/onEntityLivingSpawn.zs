@@ -28,9 +28,6 @@ import mods.ctutils.world.IGameRules;
 
 events.onCheckSpawn(function(event as EntityLivingExtendedSpawnEvent) {
     var living = event.entityLivingBase;
-    if(living.definition.id.startsWith("primitivemobs:") && living.maxHealth >= 10000.0f) {
-        event.deny();
-    }
     if(living.maxHealth >= 1048576.0f) {
         event.deny();
     }

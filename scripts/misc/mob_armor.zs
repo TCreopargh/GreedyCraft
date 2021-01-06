@@ -24,8 +24,7 @@ function addGroup(groupName as string, chanceToGetUsed as double, armors as Weig
         ArmorHandler.createArmorEntity("minecraft:husk"),
         ArmorHandler.createArmorEntity("minecraft:stray"),
         ArmorHandler.createArmorEntity("headcrumbs:human"),
-		ArmorHandler.createArmorEntity("pvj:pvj_skeletal_knight"),
-        ArmorHandler.createArmorEntity("primitivemobs:skeleton_warrior")
+		ArmorHandler.createArmorEntity("pvj:pvj_skeletal_knight")
     ] as ArmorEntity[];
     var group = ArmorHandler.createArmorGroup(groupName, chanceToGetUsed); 
     for entity in armorableEntities {

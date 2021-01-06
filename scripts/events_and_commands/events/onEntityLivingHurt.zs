@@ -36,12 +36,21 @@ static damageScalingBlacklist as string[] = [
 
 static skeletonEntities as string[] = [
     "minecraft:skeleton",
-    "minecraft:wither_skeleton",
-    "primitivemobs:skeleton_warrior"
+    "minecraft:wither_skeleton"
 ];
 
 events.onEntityLivingHurt(function(event as crafttweaker.event.EntityLivingHurtEvent) {
     var entity as IEntityLivingBase = event.entityLivingBase;
+
+    // Reduce throns damage caused by player
+    if(!isNull(event.damageSource.getTrueSource()) && event.damageSource.getTrueSource() instanceof IPlayer) {
+        if(event.damageSource.getDamageType().toLowerCase().contains("thorns")) {
+            if(event.amount > 50.0f) {
+                event.amount = 50.0f;
+            }
+        }
+    }
+
     if(isNull(entity) || !entity instanceof IPlayer) {
         return;
     }

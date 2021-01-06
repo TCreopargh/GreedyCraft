@@ -62,7 +62,7 @@ playerIcons:2
 mobIcons:2
 hostileIcons:2
 tamedIcons:2
-heightLimit:10
+heightLimit:15
 worldMap:true
 terrainDepth:true
 terrainSlopes:2

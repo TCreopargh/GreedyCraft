@@ -1,8 +1,0 @@
-Stronghold
-Mansion
-Monument
-Village
-Mineshaft
-Temple
-Fortress
-EndCity
