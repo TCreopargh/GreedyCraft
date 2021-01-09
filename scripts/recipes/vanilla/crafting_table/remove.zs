@@ -356,7 +356,9 @@ val removedRecipes as IIngredient[] = [
     <openblocks:sponge>,
     <globalxp:xp_block>,
     <actuallyadditions:item_growth_ring>,
-    <tconstruct:throwball:1>
+    <tconstruct:throwball:1>,
+    <openblocks:elevator:*>,
+    <openblocks:elevator_rotating:*>
 ];
 
 val removedRecipeNames as string[] = [

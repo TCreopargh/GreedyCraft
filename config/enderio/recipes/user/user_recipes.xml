@@ -3,10 +3,33 @@
     <recipe name="Spawner, Tinkers Construct" required="false">
         <spawning>
             <entity name="*" costMultiplier="1.0" disabled="true"/>
+            <entity name="minecraft:ender_dragon" disabled="true" soulvial="false"/>
+            <entity name="minecraft:wither" disabled="true" soulvial="false"/>
+            <entity name="betterslimes:quazar" disabled="true" soulvial="false"/>
+            <entity name="aether_legacy:sun_spirit" disabled="true" soulvial="false"/>
             <entity name="twilightforest:armored_giant" disabled="true" soulvial="false"/>
             <entity name="twilightforest:giant_miner" disabled="true" soulvial="false"/>
             <entity name="headcrumbs:human" disabled="true" soulvial="false"/>
             <entity name="battletowers:golem" disabled="true" soulvial="false"/>
+            <entity name="draconicevolution:guardiancrystal" disabled="true" soulvial="false"/>
+            <entity name="minecraft:vindication_illager" disabled="true" soulvial="false"/>
+            <entity name="minecraft:evocation_illager" disabled="true" soulvial="false"/>
+            <entity name="mowziesmobs:barako" disabled="true" soulvial="false"/>
+            <entity name="mowziesmobs:ferrous_wroughtnaut" disabled="true" soulvial="false"/>
+            <entity name="mowziesmobs:frostmaw" disabled="true" soulvial="false"/>
+            <entity name="extrabotany:gaiaiii" disabled="true" soulvial="false"/>
+            <entity name="extrabotany:voidherrscher" disabled="true" soulvial="false"/>
+            <entity name="twilightforest:naga" disabled="true" soulvial="false"/>
+            <entity name="twilightforest:lich" disabled="true" soulvial="false"/>
+            <entity name="twilightforest:hydra" disabled="true" soulvial="false"/>
+            <entity name="twilightforest:giant_miner" disabled="true" soulvial="false"/>
+            <entity name="twilightforest:armored_giant" disabled="true" soulvial="false"/>
+            <entity name="twilightforest:ur_ghast" disabled="true" soulvial="false"/>
+            <entity name="twilightforest:knight_phantom" disabled="true" soulvial="false"/>
+            <entity name="twilightforest:minoshroom" disabled="true" soulvial="false"/>
+            <entity name="twilightforest:yeti_alpha" disabled="true" soulvial="false"/>
+            <entity name="botania:doppleganger" disabled="true" soulvial="false"/>
+            <entity name="mowziesmobs:barakoaya" disabled="true" soulvial="false"/>
         </spawning>
     </recipe>
     <grindingball name="Flint" grinding="1.1" chance="1.15" power="0.85" durability="24000">

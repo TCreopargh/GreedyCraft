@@ -44,9 +44,16 @@ events.onEntityLivingHurt(function(event as crafttweaker.event.EntityLivingHurtE
 
     // Reduce throns damage caused by player
     if(!isNull(event.damageSource.getTrueSource()) && event.damageSource.getTrueSource() instanceof IPlayer) {
-        if(event.damageSource.getDamageType().toLowerCase().contains("thorns")) {
+        if(event.damageSource.getDamageType().equalsIgnoreCase(IDamageSource.createThornsDamage(event.damageSource.getTrueSource()).getDamageType())) {
             if(event.amount > 50.0f) {
                 event.amount = 50.0f;
+            }
+            if(event.amount > entity.maxHealth * 0.05f) {
+                event.amount = entity.maxHealth * 0.05f;
+            }
+            if(entity.isBoss) {
+                event.amount = 0.0f;
+                event.cancel();
             }
         }
     }

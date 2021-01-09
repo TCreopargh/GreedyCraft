@@ -107,3 +107,13 @@ function addCompressingRecipe(original as IItemStack, compressed as IItemStack) 
     ] as IIngredient[][]);
     recipes.addShapeless(original.definition.id.replace(":", "_") + "_decompress", original * 9, [compressed] as IIngredient[]);
 }
+
+function addDyeingRecipe(name as string, input as IIngredient, output as IItemStack, reversedOrder as bool) {
+    for i in 0 to 16 {
+        if(reversedOrder) {
+            addShapeless(name + "_" + i, output.withDamage(15 - i), [input, dyeList[i]]);
+        } else {
+            addShapeless(name + "_" + i, output.withDamage(i), [input, dyeList[i]]);
+        }
+    }
+}

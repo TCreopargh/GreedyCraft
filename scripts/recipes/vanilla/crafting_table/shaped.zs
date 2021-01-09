@@ -1337,6 +1337,21 @@ RecipeUtil.addShaped("efln", <tconstruct:throwball:1> * 4, [
     [<ore:dustSulfur>, <ore:ingotMeteor>, <ore:dustSulfur>],
     [<ore:gunpowder>, <ore:dustSulfur>, <ore:gunpowder>]
 ]);
+RecipeUtil.addShaped("shadowium_essence", <additions:shadowium_ingot>, [
+    [<jaopca:item_essenceshadowium>, <jaopca:item_essenceshadowium>, <jaopca:item_essenceshadowium>],
+    [<jaopca:item_essenceshadowium>, null, <jaopca:item_essenceshadowium>],
+    [<jaopca:item_essenceshadowium>, <jaopca:item_essenceshadowium>, <jaopca:item_essenceshadowium>]
+]);
+RecipeUtil.addShaped("heal_block", <openblocks:heal>, [
+    [<scalinghealth:heartcontainer>, <scalinghealth:heartcontainer>, <scalinghealth:heartcontainer>],
+    [<scalinghealth:heartcontainer>, <additions:greedycraft-medkit_super>, <scalinghealth:heartcontainer>],
+    [<scalinghealth:heartcontainer>, <scalinghealth:heartcontainer>, <scalinghealth:heartcontainer>]
+]);
+RecipeUtil.addShaped("openblocks_elevator", <openblocks:elevator>, [
+    [<ore:dustRedstone>, <ore:gemDiamond>, <ore:dustRedstone>],
+    [<ore:ingotIron>, <ore:enderpearl>, <ore:ingotIron>],
+    [<ore:ingotInvar>, <ore:ingotInvar>, <ore:ingotInvar>]
+]);
 
 /* Templates
 

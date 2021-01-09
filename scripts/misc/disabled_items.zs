@@ -17,7 +17,7 @@ import mods.jei.JEI;
 import scripts.util.recipes as RecipeUtil;
 
 val disabledItems as IIngredient[] = [
-   <botania:blackholetalisman>,
+    <botania:blackholetalisman>,
     <extrautils2:wateringcan:*>,
     <bountifulbaubles:trinketbrokenheart:*>,
     <actuallyadditions:block_greenhouse_glass>,
@@ -230,7 +230,11 @@ val disabledItems as IIngredient[] = [
     <treasure2:ring_of_fortitude>,
     <botania:unholycloak>,
     <botania:balancecloak>,
-    <botania:holycloak>
+    <botania:holycloak>,
+    <abyssalcraft:dhelmet>,
+    <abyssalcraft:dplate>,
+    <abyssalcraft:dlegs>,
+    <abyssalcraft:dboots>
 ] as IIngredient[];
 
 val disabledRecipeRegex as string[] = [

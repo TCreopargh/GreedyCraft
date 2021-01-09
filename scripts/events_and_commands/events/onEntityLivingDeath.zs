@@ -31,13 +31,21 @@ events.onEntityLivingDeath(function (event as crafttweaker.event.EntityLivingDea
 
         // Detailed death message
         var deathMsg as string = damageSource.getDeathMessage(player);
-        deathMsg = deathMsg.replace(player.name, "§e" + player.name + "§7");
+        if(patreonList has player.name) {            
+            deathMsg = deathMsg.replace(player.name, "§d" + player.name + "§7");
+        } else {
+            deathMsg = deathMsg.replace(player.name, "§e" + player.name + "§7");
+        }
         if(!isNull(damageSource.getTrueSource()) && damageSource.getTrueSource() instanceof IEntityLivingBase) {
             var name as string = damageSource.getTrueSource().displayName;
             if(damageSource.getTrueSource().hasCustomName) {
                 name = damageSource.getTrueSource().customName;
             }
-            deathMsg = deathMsg.replace(name, "§c" + name + "§7");
+            if(damageSource.getTrueSource() instanceof IPlayer && patreonList has name) {
+                deathMsg = deathMsg.replace(name, "§5" + name + "§7");
+            } else {
+                deathMsg = deathMsg.replace(name, "§c" + name + "§7");
+            }
         }
         deathMsg = " §c☠ §7" + deathMsg;
         deathMsg = deathMsg.replace("§r", "§7");

@@ -169,6 +169,7 @@ RecipeUtil.addShapeless("advanced_coil", <actuallyadditions:item_misc:8>, [<actu
 RecipeUtil.addShapeless("clear_rock_crystal_nbt", <astralsorcery:itemrockcrystalsimple>, [<astralsorcery:itemrockcrystalsimple>]);
 RecipeUtil.addShapeless("solarium_star", <additions:greedycraft-solarium_star>, [<additions:greedycraft-broken_solarium_star>, <additions:greedycraft-solar_seed>]);
 RecipeUtil.addShapeless("slimeball_convert", <minecraft:slime_ball>, [<ore:slimeball>]);
+RecipeUtil.addShapeless("openblocks_elevator_rotating", <openblocks:elevator_rotating>, [<openblocks:elevator:*>, <minecraft:compass>]);
 
 /* Template
 

@@ -162,7 +162,8 @@ val tooltipMap as string[][IIngredient] = {
 	<enderio:item_material:9> : ["§e请使用热力系列的木齿轮"],
 	<enderio:item_material:10> : ["§e4请使用热力系列的石齿轮"],
     <tombmanygraves:death_list> : ["§e拿在手上会有粒子效果指引你到该清单对应的墓碑", "§e按住Shift走上墓碑即可取回死亡时丢失的物品"],
-    <thaumadditions:vis_scribing_tools:*> : ["§c会产生卡顿，建议不要使用"]
+    <thaumadditions:vis_scribing_tools:*> : ["§c会产生卡顿，建议不要使用"],
+    <torchmaster:feral_flare_lantern> : ["§e请勿放到星辉魔法的法阵或Boss场地旁边", "§e其产生的隐形光源也是方块并且会干扰多方块结构的判定"]
 } as string[][IIngredient];
 
 for ingredient in tooltipMap {

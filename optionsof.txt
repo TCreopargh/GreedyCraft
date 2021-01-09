@@ -16,7 +16,7 @@ ofAnimatedFire:false
 ofAnimatedPortal:true
 ofAnimatedRedstone:true
 ofAnimatedExplosion:true
-ofAnimatedFlame:true
+ofAnimatedFlame:false
 ofAnimatedSmoke:true
 ofVoidParticles:false
 ofWaterParticles:false

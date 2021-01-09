@@ -150,7 +150,12 @@ val localizationMap as string[string] = {
     "mob_effect.netherex:fire_burning": "极寒之焰",
     "info.nyx.blood_moon_sleeping": "§c你无法在血色之月的阴霾下安心入睡。",
     "tile.torchmaster.mega_torch.lit.tooltip": "§e正道的光，照在了大地上！",
-    "entity.quazar.name": "§9史莱姆之神§r"
+    "entity.quazar.name": "§9史莱姆之神§r",
+    "§7entity.champions.cinder_spark.name": "精英怪范围伤害",
+    "vanillafix.gui.failed": "获取崩溃报告链接失败，请手动发送该报告",
+    "dc.message.death": "§c[死亡次数统计] §e你已经阵亡§c§l%s§r§e次。",
+    "dc.message.deathAndRank": "死亡次数: %1$s排名: %2$s",
+    "dc.command.leaderboard": "§a========== §e死亡排行榜 §a=========="
 } as string[string];
 
 for k, v in localizationMap {

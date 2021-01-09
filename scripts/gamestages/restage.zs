@@ -111,7 +111,8 @@ GameStagesUtil.restageItem("hardmode", <cyclicmagic:block_disenchanter>);
 GameStagesUtil.restageItem("fusion_matrix", <cyclicmagic:ender_lightning>);
 GameStagesUtil.restageItems("graduated", [
     <cyclicmagic:battery_infinite>,
-    <projecte:item.pe_harvest_god>
+    <projecte:item.pe_harvest_god>,
+    <draconicevolution:draconium_capacitor:2>
 ]);
 GameStagesUtil.restageItem("skilled_engineer", <cyclicmagic:harvester_block>);
 GameStagesUtil.restageItems("energy_matter_core", [

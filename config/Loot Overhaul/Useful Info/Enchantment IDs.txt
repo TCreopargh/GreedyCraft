@@ -216,23 +216,23 @@ openblocks:explosive
    - Max Level: 3
 
 
-endercore:autosmelt
-   - Id: 26
-   - Rarity: RARE
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 1
-
-
 endercore:xpboost
-   - Id: 27
+   - Id: 26
    - Rarity: UNCOMMON
    - Treasure: false
    - Min Level: 1
    - Max Level: 3
 
 
-enderio:witherweapon
+endercore:autosmelt
+   - Id: 27
+   - Rarity: RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 1
+
+
+enderio:witherarrow
    - Id: 28
    - Rarity: UNCOMMON
    - Treasure: false
@@ -240,28 +240,28 @@ enderio:witherweapon
    - Max Level: 1
 
 
-enderio:soulbound
-   - Id: 29
-   - Rarity: VERY_RARE
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 1
-
-
 enderio:shimmer
-   - Id: 30
+   - Id: 29
    - Rarity: VERY_RARE
    - Treasure: true
    - Min Level: 1
    - Max Level: 1
 
 
-enderio:witherarrow
-   - Id: 31
+enderio:witherweapon
+   - Id: 30
    - Rarity: UNCOMMON
    - Treasure: false
    - Min Level: 1
    - Max Level: 1
+
+
+enderio:repellent
+   - Id: 31
+   - Rarity: VERY_RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 4
 
 
 minecraft:efficiency
@@ -296,12 +296,12 @@ minecraft:fortune
    - Max Level: 3
 
 
-enderio:repellent
+enderio:soulbound
    - Id: 36
    - Rarity: VERY_RARE
    - Treasure: false
    - Min Level: 1
-   - Max Level: 4
+   - Max Level: 1
 
 
 tofucraft:ench_drain

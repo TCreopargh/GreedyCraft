@@ -1,6 +1,7 @@
 /*
  * This script is created for the GreedyCraft modpack by TCreopargh.
- * You may NOT use this script in any other publicly distributed modpack without my permission. */
+ * You may NOT use this script in any other publicly distributed modpack without my permission.
+ */
 
 #priority 1000
 
@@ -29,9 +30,11 @@ brewing.addBrew(<minecraft:potion>.withTag({Potion: "minecraft:awkward"}), [<min
 brewing.addBrew(<minecraft:potion>.withTag({Potion: "potioncore:extension"}), [<ore:dustGlowstone>], <minecraft:potion>.withTag({Potion: "potioncore:strong_extension"}));
 brewing.addBrew(<minecraft:potion>.withTag({Potion: "potioncore:extension"}), [<ore:dustRedstone>], <minecraft:potion>.withTag({Potion: "potioncore:long_extension"}));
 
+/*
 brewing.addBrew(<minecraft:potion>.withTag({Potion: "minecraft:awkward"}), [<minecraft:cactus>], <minecraft:potion>.withTag({Potion: "potioncore:recoil"}));
 brewing.addBrew(<minecraft:potion>.withTag({Potion: "potioncore:recoil"}), [<ore:dustGlowstone>], <minecraft:potion>.withTag({Potion: "potioncore:strong_recoil"}));
 brewing.addBrew(<minecraft:potion>.withTag({Potion: "potioncore:recoil"}), [<ore:dustRedstone>], <minecraft:potion>.withTag({Potion: "potioncore:long_recoil"}));
+*/
 
 brewing.addBrew(<minecraft:potion>.withTag({Potion: "minecraft:awkward"}), [<ore:ingotIron>], <minecraft:potion>.withTag({Potion: "potioncore:iron_skin"}));
 brewing.addBrew(<minecraft:potion>.withTag({Potion: "potioncore:iron_skin"}), [<ore:dustGlowstone>], <minecraft:potion>.withTag({Potion: "potioncore:strong_iron_skin"}));

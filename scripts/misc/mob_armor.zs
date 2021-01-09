@@ -381,8 +381,6 @@ addGroup("post_hardmode", (0.2 * MOB_ARMOR_MULTIPLIER as double) as double, [{
     feet: <cyclicmagic:purple_boots> % 10,
     mainhand: <abyssalcraft:ethaxiumsword>.withTag({ench: [{lvl: 3 as short, id: 16}, {lvl: 1 as short, id: 19}]}) % 5
 }, {
-    mainhand: <avaritia:skullfire_sword> % 5
-}, {
     head: <twilightforest:yeti_helmet>.withTag({ench: [{lvl: 2 as short, id: 0}]}) % 5,
     chest: <twilightforest:yeti_chestplate>.withTag({ench: [{lvl: 2 as short, id: 0}]}) % 5,
     legs: <twilightforest:yeti_leggings>.withTag({ench: [{lvl: 2 as short, id: 0}]}) % 5,

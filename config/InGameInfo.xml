@@ -21,7 +21,7 @@
                 <str />
             </op>
             <var>fps</var>
-            <str>$7 |$f $2实体$f: $e{entitiestotal}$f</str>
+            <str>$7 |$f $2Ent$f: $e{entitiestotal}$f</str>
             <str>$7 |$f $dRAM$f: $e</str>
             <round>
                 <div>
@@ -65,7 +65,7 @@
                 </pct>
                 <num>80</num>
                 <num>0</num>
-                <str>$c 建议按$6R$c键清理内存</str>
+                <str>$c 请及时清理内存</str>
                 <str />
             </op>
             <str>$7 |$r  </str>
@@ -85,7 +85,7 @@
                 <var>ping</var>
                 <num>1</num>
                 <num>0</num>
-                <str>$7 |$f $6延迟$f:</str>
+                <str>$7 |$f $6Ping$f:</str>
                 <str />
             </op>
             <op>

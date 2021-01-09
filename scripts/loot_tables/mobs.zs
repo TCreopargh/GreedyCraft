@@ -49,14 +49,14 @@ val slimeTables as string[] = [
     "betterslimes:yellow_slime"
 ];
 
-
-val lootHusk = LootTweaker.getTable("minecraft:entities/husk");
-val lootBountifulBaubles = lootHusk.getPool("bountifulbaubles_husk");
-lootBountifulBaubles.removeEntry("bountifulbaubles:apple");
+LootTweaker.getTable("minecraft:entities/husk").getPool("bountifulbaubles_husk").removeEntry("bountifulbaubles:apple");
 
 LootTweaker.getTable("betterslimes:quazar").getPool("main").setRolls(1.0, 1.0);
 LootTweaker.getTable("betterslimes:quazar").getPool("main").setBonusRolls(0.0, 0.0);
 LootTweaker.getTable("betterslimes:quazar").getPool("main").addItemEntryHelper(<additions:greedycraft-royal_gel>, 100, 1, [Functions.setCount(24, 50)], []);
+var quazarLootPool = LootTweaker.getTable("betterslimes:quazar").addPool("loot", 1.0, 1.0, 0.0, 0.0);
+quazarLootPool.addLootTableEntryHelper("minecraft:chests/simple_dungeon", 1, 1, [Conditions.killedByPlayer()]);
+
 LootTweaker.getTable("betterslimes:knight_slime").getPool("main").setRolls(1.0, 1.0);
 LootTweaker.getTable("betterslimes:knight_slime").getPool("main").setBonusRolls(0.0, 0.0);
 LootTweaker.getTable("betterslimes:knight_slime").getPool("main").addConditionsHelper([Conditions.randomChance(0.5)]);
@@ -70,6 +70,12 @@ LootTweaker.getTable("betterslimes:gold_slime").getPool("main").addItemEntryHelp
 LootTweaker.getTable("betterslimes:gold_slime").getPool("main").addItemEntryHelper(<minecraft:gold_ingot>, 20, 1, [Functions.setCount(1, 2)], []);
 LootTweaker.getTable("betterslimes:gold_slime").getPool("main").addItemEntryHelper(<minecraft:golden_apple>, 10, 1, [Functions.setCount(1, 1)], []);
 LootTweaker.getTable("betterslimes:gold_slime").getPool("main").addItemEntryHelper(<minecraft:golden_apple:1>, 1, 1, [Functions.setCount(1, 1)], []);
+
+LootTweaker.getTable("mowziesmobs:entities/ferrous_wroughtnaut").getPool("main").setRolls(2.0, 2.0);
+LootTweaker.getTable("mowziesmobs:entities/ferrous_wroughtnaut").getPool("main").setBonusRolls(0.0, 0.0);
+LootTweaker.getTable("mowziesmobs:entities/ferrous_wroughtnaut").getPool("main").addItemEntryHelper(<thermalfoundation:material:160>, 1, 1, [Functions.setCount(4, 16)], []);
+LootTweaker.getTable("mowziesmobs:entities/ferrous_wroughtnaut").getPool("main").addItemEntryHelper(<minecraft:iron_ingot>, 1, 1, [Functions.setCount(32, 64)], []);
+LootTweaker.getTable("mowziesmobs:entities/ferrous_wroughtnaut").getPool("main").addLootTableEntryHelper("minecraft:chests/simple_dungeon", 1, 1, [Conditions.killedByPlayer()]);
 
 if(CHRISTMAS_MODE) {
     for mob in mobList {
