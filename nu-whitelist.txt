@@ -26,3 +26,4 @@ mcskin.cn
 downloader.meitangdehulu.com
 skin.pangdidi.com
 discord.gg
+hastebin.com

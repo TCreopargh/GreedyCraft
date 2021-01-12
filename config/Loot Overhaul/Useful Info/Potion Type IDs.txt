@@ -201,14 +201,14 @@ randomthings:strong_collapse
        randomthings:collapse - 300 - 1 - false - true
 
 
-enderio:withering
+enderio:confusion
    - Effects: 
-       minecraft:wither - 900 - 0 - false - true
+       minecraft:nausea - 900 - 0 - false - true
 
 
-enderio:long_withering
+enderio:long_confusion
    - Effects: 
-       minecraft:wither - 2400 - 0 - false - true
+       minecraft:nausea - 2400 - 0 - false - true
 
 
 enderio:floating
@@ -226,14 +226,14 @@ enderio:long_floating
        minecraft:levitation - 560 - 0 - false - true
 
 
-enderio:confusion
+enderio:withering
    - Effects: 
-       minecraft:nausea - 900 - 0 - false - true
+       minecraft:wither - 900 - 0 - false - true
 
 
-enderio:long_confusion
+enderio:long_withering
    - Effects: 
-       minecraft:nausea - 2400 - 0 - false - true
+       minecraft:wither - 2400 - 0 - false - true
 
 
 mowziesmobs:poison_resist

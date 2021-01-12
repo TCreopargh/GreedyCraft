@@ -1,0 +1,1072 @@
+{
+  "entries": [
+    {
+      "item": "akashictome:tome|0",
+      "emc": 0
+    },
+    {
+      "item": "theoneprobe:probenote|0",
+      "emc": 0
+    },
+    {
+      "item": "draconicevolution:info_tablet|0",
+      "emc": 0
+    },
+    {
+      "item": "cyclicmagic:tool_trade|0",
+      "emc": 0
+    },
+    {
+      "item": "abyssalcraft:necronomicon|0",
+      "emc": 0
+    },
+    {
+      "item": "actuallyadditions:item_booklet|0",
+      "emc": 0
+    },
+    {
+      "item": "aether_legacy:lore_book|0",
+      "emc": 0
+    },
+    {
+      "item": "yoyos:book|0",
+      "emc": 0
+    },
+    {
+      "item": "xnet:xnet_manual|0",
+      "emc": 0
+    },
+    {
+      "item": "thermalfoundation:tome_lexicon|0",
+      "emc": 0
+    },
+    {
+      "item": "rftools:rftools_manual|0",
+      "emc": 0
+    },
+    {
+      "item": "rftoolscontrol:rftoolscontrol_manual|0",
+      "emc": 0
+    },
+    {
+      "item": "solcarrot:food_book|0",
+      "emc": 0
+    },
+    {
+      "item": "spiceoflife:bookfoodjournal|0",
+      "emc": 0
+    },
+    {
+      "item": "tconstruct:book|0",
+      "emc": 0
+    },
+    {
+      "item": "thaumcraft:thaumonomicon|0",
+      "emc": 0
+    },
+    {
+      "item": "rftoolsdim:rftoolsdim_manual|0",
+      "emc": 0
+    },
+    {
+      "item": "rftools:rftools_shape_manual|0",
+      "emc": 0
+    },
+    {
+      "item": "openblocks:info_book|0",
+      "emc": 0
+    },
+    {
+      "item": "logisticspipes:guide_book|0",
+      "emc": 0
+    },
+    {
+      "item": "levelup2:respecbook|0",
+      "emc": 0
+    },
+    {
+      "item": "levelup2:skillbook|0",
+      "emc": 0
+    },
+    {
+      "item": "hammercore:manual|0",
+      "emc": 0
+    },
+    {
+      "item": "galacticraftcore:prelaunch_checklist|0",
+      "emc": 0
+    },
+    {
+      "item": "ftbquests:book|0",
+      "emc": 0
+    },
+    {
+      "item": "forestry:catalogue|0",
+      "emc": 0
+    },
+    {
+      "item": "forestry:book_forester|0",
+      "emc": 0
+    },
+    {
+      "item": "extrautils2:book|0",
+      "emc": 0
+    },
+    {
+      "item": "cookingforblockheads:recipe_book|2",
+      "emc": 0
+    },
+    {
+      "item": "cookingforblockheads:recipe_book|1",
+      "emc": 0
+    },
+    {
+      "item": "cookingforblockheads:recipe_book|0",
+      "emc": 0
+    },
+    {
+      "item": "conarm:book|0",
+      "emc": 0
+    },
+    {
+      "item": "cfm:item_recipe_book|0",
+      "emc": 0
+    },
+    {
+      "item": "botania:lexicon|0",
+      "emc": 0
+    },
+    {
+      "item": "bibliocraft:testeritem|0",
+      "emc": 0
+    },
+    {
+      "item": "bibliocraft:biblioredbook|0",
+      "emc": 0
+    },
+    {
+      "item": "bibliocraft:atlasbook|0",
+      "emc": 0
+    },
+    {
+      "item": "bibliocraft:slottedbook|0",
+      "emc": 0
+    },
+    {
+      "item": "bibliocraft:bigbook|0",
+      "emc": 0
+    },
+    {
+      "item": "everlastingabilities:ability_totem|0",
+      "emc": 4000
+    },
+    {
+      "item": "scalinghealth:crystalshard|0",
+      "emc": 0
+    },
+    {
+      "item": "additions:greedycraft-infinity_block_block_block|0",
+      "emc": 9223372036854775807
+    },
+    {
+      "item": "avaritia:resource|6",
+      "emc": 4000000000
+    },
+    {
+      "item": "avaritia:block_resource|1",
+      "emc": 36000000000
+    },
+    {
+      "item": "botania:specialflower|0",
+      "emc": 2500
+    },
+    {
+      "item": "additions:greedycraft-poop|0",
+      "emc": 114514
+    },
+    {
+      "item": "improvableskills:skills_book|0",
+      "emc": 0
+    },
+    {
+      "item": "enderio:block_exit_rail|0",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:rail|0",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:activator_rail|0",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:golden_rail|0",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:detector_rail|0",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:skull|2",
+      "emc": 1024
+    },
+    {
+      "item": "minecraft:skull|4",
+      "emc": 1024
+    },
+    {
+      "item": "minecraft:skull|0",
+      "emc": 1024
+    },
+    {
+      "item": "minecraft:skull|1",
+      "emc": 12933
+    },
+    {
+      "item": "enderio:block_enderman_skull|2",
+      "emc": 2048
+    },
+    {
+      "item": "enderio:block_enderman_skull|0",
+      "emc": 2048
+    },
+    {
+      "item": "minecraft:skull|3",
+      "emc": 32
+    },
+    {
+      "item": "additions:greedycraft-lucky_clover|0",
+      "emc": 0
+    },
+    {
+      "item": "pvj:spectral_wrappings|0",
+      "emc": 600
+    },
+    {
+      "item": "redstonearsenal:material|32",
+      "emc": 1500
+    },
+    {
+      "item": "minecraft:dragon_breath|0",
+      "emc": 2
+    },
+    {
+      "item": "mysticalagriculture:wither_skeleton_essence|0",
+      "emc": 1600
+    },
+    {
+      "item": "mysticalagriculture:wither_skeleton_seeds|0",
+      "emc": 4200
+    },
+    {
+      "item": "mysticalagriculture:diamond_seeds|0",
+      "emc": 3000
+    },
+    {
+      "item": "mysticalagriculture:emerald_seeds|0",
+      "emc": 4800
+    },
+    {
+      "item": "mysticalagriculture:emerald_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:diamond_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:crafting|37",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:crafting|36",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:crafting|35",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:crafting|34",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:crafting|4",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:crafting|3",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:crafting|2",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:crafting|1",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:crafting|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:crafting|33",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:storage|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:storage|1",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:storage|2",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:storage|3",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:storage|4",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagradditions:insanium|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagradditions:insanium|2",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagradditions:insanium|3",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:crafting|41",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:crafting|40",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:crafting|42",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:crafting|43",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:crafting|44",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:ingot_storage|3",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:ingot_storage|4",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:ingot_storage|5",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:ingot_storage|2",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:ingot_storage|1",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:resource|5",
+      "emc": 0
+    },
+    {
+      "item": "additions:greedycraft-lucky_clover|0",
+      "emc": 500
+    },
+    {
+      "item": "patchouli:guide_book|0",
+      "emc": 0
+    },
+    {
+      "item": "draconicevolution:chaos_shard|0",
+      "emc": 10000000
+    },
+    {
+      "item": "draconicevolution:draconic_ingot|0",
+      "emc": 200000
+    },
+    {
+      "item": "mysticalagradditions:awakened_draconium_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagradditions:awakened_draconium_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagradditions:dragon_egg_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagradditions:nether_star_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:leather|0",
+      "emc": 256
+    },
+    {
+      "item": "draconicevolution:awakened_core|0",
+      "emc": 3500000
+    },
+    {
+      "item": "draconicevolution:crafting_injector|2",
+      "emc": 2500000
+    },
+    {
+      "item": "tconevo:metal|5",
+      "emc": 4500000
+    },
+    {
+      "item": "draconicevolution:chaotic_core|0",
+      "emc": 40000000
+    },
+    {
+      "item": "tconevo:metal|10",
+      "emc": 80000000
+    },
+    {
+      "item": "tconevo:metal|0",
+      "emc": 750000
+    },
+    {
+      "item": "draconicevolution:draconic_block|0",
+      "emc": 1800000
+    },
+    {
+      "item": "additions:greedycraft-dragon_soul|0",
+      "emc": 0
+    },
+    {
+      "item": "additions:greedycraft-wither_soul|0",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:resource|2",
+      "emc": 1024
+    },
+    {
+      "item": "additions:greedycraft-experience_ingot|0",
+      "emc": 900
+    },
+    {
+      "item": "lucky:lucky_block_avaritia|0",
+      "emc": 0
+    },
+    {
+      "item": "additions:greedycraft-raw_human_meat|0",
+      "emc": 42
+    },
+    {
+      "item": "additions:greedycraft-cooked_human_meat|0",
+      "emc": 56
+    },
+    {
+      "item": "minecraft:diamond|0",
+      "emc": 4096
+    },
+    {
+      "item": "minecraft:emerald|0",
+      "emc": 6000
+    },
+    {
+      "item": "minecraft:gold_ingot|0",
+      "emc": 1024
+    },
+    {
+      "item": "minecraft:iron_ingot|0",
+      "emc": 128
+    },
+    {
+      "item": "avaritia:infinity_pickaxe|0",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:infinity_shovel|0",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:infinity_axe|0",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:infinity_hoe|0",
+      "emc": 0
+    },
+    {
+      "item": "botania_tweaks:compressed_tiny_potato_8|0",
+      "emc": 0
+    },
+    {
+      "item": "natura:blaze_rail|0",
+      "emc": 0
+    },
+    {
+      "item": "natura:blaze_rail_golden|0",
+      "emc": 0
+    },
+    {
+      "item": "natura:blaze_rail_activator|0",
+      "emc": 0
+    },
+    {
+      "item": "natura:blaze_rail_detector|0",
+      "emc": 0
+    },
+    {
+      "item": "tconstruct:wood_rail|0",
+      "emc": 0
+    },
+    {
+      "item": "tconstruct:wood_rail_trapdoor|0",
+      "emc": 0
+    },
+    {
+      "item": "draconicevolution:dragon_heart|0",
+      "emc": 450000
+    },
+    {
+      "item": "extraplanets:ingot_mercury|0",
+      "emc": 5000
+    },
+    {
+      "item": "extraplanets:tier4_items|5",
+      "emc": 5000
+    },
+    {
+      "item": "extraplanets:tier5_items|5",
+      "emc": 5000
+    },
+    {
+      "item": "extraplanets:tier6_items|5",
+      "emc": 5000
+    },
+    {
+      "item": "extraplanets:tier7_items|5",
+      "emc": 5000
+    },
+    {
+      "item": "extraplanets:tier8_items|5",
+      "emc": 5000
+    },
+    {
+      "item": "extraplanets:tier9_items|5",
+      "emc": 5000
+    },
+    {
+      "item": "extraplanets:tier10_items|5",
+      "emc": 5000
+    },
+    {
+      "item": "moreplanets:chalos_item|1",
+      "emc": 5000
+    },
+    {
+      "item": "moreplanets:chalos_item|0",
+      "emc": 5000
+    },
+    {
+      "item": "moreplanets:fronos_item|0",
+      "emc": 5000
+    },
+    {
+      "item": "moreplanets:diona_item|6",
+      "emc": 5000
+    },
+    {
+      "item": "moreplanets:diona_item|0",
+      "emc": 5000
+    },
+    {
+      "item": "extraplanets:tier4_items|3",
+      "emc": 70000
+    },
+    {
+      "item": "extraplanets:tier5_items|3",
+      "emc": 80000
+    },
+    {
+      "item": "extraplanets:tier6_items|3",
+      "emc": 90000
+    },
+    {
+      "item": "extraplanets:tier7_items|3",
+      "emc": 100000
+    },
+    {
+      "item": "extraplanets:tier8_items|3",
+      "emc": 110000
+    },
+    {
+      "item": "extraplanets:tier9_items|3",
+      "emc": 120000
+    },
+    {
+      "item": "extraplanets:tier10_items|3",
+      "emc": 130000
+    },
+    {
+      "item": "galacticraftplanets:item_basic_asteroids|5",
+      "emc": 38000
+    },
+    {
+      "item": "galacticraftplanets:item_basic_mars|3",
+      "emc": 26000
+    },
+    {
+      "item": "galacticraftcore:heavy_plating|0",
+      "emc": 12000
+    },
+    {
+      "item": "moreplanets:tier_4_rocket_part|0",
+      "emc": 70000
+    },
+    {
+      "item": "moreplanets:tier_5_rocket_part|0",
+      "emc": 80000
+    },
+    {
+      "item": "moreplanets:nibiru_item|4",
+      "emc": 90000
+    },
+    {
+      "item": "mysticalagradditions:stuff|1",
+      "emc": 0
+    },
+    {
+      "item": "botania_tweaks:compressed_tiny_potato_7|0",
+      "emc": 0
+    },
+    {
+      "item": "botania_tweaks:compressed_tiny_potato_6|0",
+      "emc": 0
+    },
+    {
+      "item": "botania_tweaks:compressed_tiny_potato_5|0",
+      "emc": 0
+    },
+    {
+      "item": "botania_tweaks:compressed_tiny_potato_4|0",
+      "emc": 0
+    },
+    {
+      "item": "botania_tweaks:compressed_tiny_potato_3|0",
+      "emc": 0
+    },
+    {
+      "item": "botania_tweaks:compressed_tiny_potato_2|0",
+      "emc": 0
+    },
+    {
+      "item": "botania_tweaks:compressed_tiny_potato_1|0",
+      "emc": 0
+    },
+    {
+      "item": "botania:tinypotato|0",
+      "emc": 0
+    },
+    {
+      "item": "additions:greedycraft-city_defender_medal|0",
+      "emc": 40000
+    },
+    {
+      "item": "fluxnetworks:flux|0",
+      "emc": 80
+    },
+    {
+      "item": "minecraft:name_tag|0",
+      "emc": 1038
+    },
+    {
+      "item": "quark:biotite|0",
+      "emc": 600
+    },
+    {
+      "item": "netherex:amethyst_crystal|0",
+      "emc": 500
+    },
+    {
+      "item": "actuallyadditions:item_misc|5",
+      "emc": 256
+    },
+    {
+      "item": "cyclicmagic:heart_food|0",
+      "emc": 0
+    },
+    {
+      "item": "taiga:basalt_block|0",
+      "emc": 128
+    },
+    {
+      "item": "taiga:tiberium_ore|0",
+      "emc": 128
+    },
+    {
+      "item": "taiga:prometheum_ore|0",
+      "emc": 3000
+    },
+    {
+      "item": "taiga:duranite_ore|0",
+      "emc": 1500
+    },
+    {
+      "item": "taiga:valyrium_ore|0",
+      "emc": 12800
+    },
+    {
+      "item": "taiga:vibranium_ore|0",
+      "emc": 7500
+    },
+    {
+      "item": "taiga:karmesine_ore|0",
+      "emc": 2500
+    },
+    {
+      "item": "taiga:ovium_ore|0",
+      "emc": 2500
+    },
+    {
+      "item": "taiga:jauxum_ore|0",
+      "emc": 2500
+    },
+    {
+      "item": "taiga:palladium_ore|0",
+      "emc": 1200
+    },
+    {
+      "item": "taiga:uru_ore|0",
+      "emc": 1350
+    },
+    {
+      "item": "taiga:osram_ore|0",
+      "emc": 1500
+    },
+    {
+      "item": "taiga:eezo_ore|0",
+      "emc": 900
+    },
+    {
+      "item": "taiga:abyssum_ore|0",
+      "emc": 3000
+    },
+    {
+      "item": "taiga:meteorite_block|0",
+      "emc": 250
+    },
+    {
+      "item": "taiga:obsidiorite_block|0",
+      "emc": 250
+    },
+    {
+      "item": "taiga:obsidioritecobble_block|0",
+      "emc": 250
+    },
+    {
+      "item": "taiga:meteoritecobble_block|0",
+      "emc": 250
+    },
+    {
+      "item": "tconevo:material|0",
+      "emc": 131072
+    },
+    {
+      "item": "additions:greedycraft-infernium_ingot|0",
+      "emc": 40000
+    },
+    {
+      "item": "forge:bucketfilled|0",
+      "emc": 0
+    },
+    {
+      "item": "additions:infernium_ingot|0",
+      "emc": 75000
+    },
+    {
+      "item": "additions:titanium_ingot|0",
+      "emc": 240000
+    },
+    {
+      "item": "additions:cryonium_ingot|0",
+      "emc": 45000
+    },
+    {
+      "item": "biomesoplenty:gem|0",
+      "emc": 2048
+    },
+    {
+      "item": "biomesoplenty:gem|7",
+      "emc": 2048
+    },
+    {
+      "item": "biomesoplenty:gem|5",
+      "emc": 2048
+    },
+    {
+      "item": "biomesoplenty:gem|3",
+      "emc": 2048
+    },
+    {
+      "item": "biomesoplenty:gem|4",
+      "emc": 2048
+    },
+    {
+      "item": "tconevo:metal|20",
+      "emc": 300000
+    },
+    {
+      "item": "additions:cytosinite_ingot|0",
+      "emc": 20000
+    },
+    {
+      "item": "additions:terra_alloy_ingot|0",
+      "emc": 200000
+    },
+    {
+      "item": "thaumadditions:mithminite_ingot|0",
+      "emc": 262144
+    },
+    {
+      "item": "appliedenergistics2:material|47",
+      "emc": 0
+    },
+    {
+      "item": "nyx:fallen_star|0",
+      "emc": 8000
+    },
+    {
+      "item": "additions:shadowium_ingot|0",
+      "emc": 12000
+    },
+    {
+      "item": "additions:aeroite_ingot|0",
+      "emc": 2500
+    },
+    {
+      "item": "additions:asgardium_ingot|0",
+      "emc": 4000
+    },
+    {
+      "item": "thermalfoundation:material|160",
+      "emc": 3200
+    },
+    {
+      "item": "nyx:meteor_ingot|0",
+      "emc": 3200
+    },
+    {
+      "item": "botania:manaresource|4",
+      "emc": 7200
+    },
+    {
+      "item": "additions:chromium_ingot|0",
+      "emc": 2200
+    },
+    {
+      "item": "additions:protonium_ingot|0",
+      "emc": 42000000
+    },
+    {
+      "item": "additions:electronium_ingot|0",
+      "emc": 250000
+    },
+    {
+      "item": "additions:greedycraft-strange_matter|0",
+      "emc": 800000
+    },
+    {
+      "item": "appliedenergistics2:material|6",
+      "emc": 0
+    },
+    {
+      "item": "compactmachines3:psd|0",
+      "emc": 0
+    },
+    {
+      "item": "defiledlands:scarlite|0",
+      "emc": 4096
+    },
+    {
+      "item": "defiledlands:umbrium_ingot|0",
+      "emc": 128
+    },
+    {
+      "item": "minecraft:spawn_egg|0",
+      "emc": 0
+    },
+    {
+      "item": "guideapi:bloodmagic-guide|0",
+      "emc": 0
+    },
+    {
+      "item": "guideapi:bloodarsenal-guide|0",
+      "emc": 0
+    },
+    {
+      "item": "bloodmagic:sanguine_book|0",
+      "emc": 0
+    },
+    {
+      "item": "additions:aqualite_ingot|0",
+      "emc": 5200
+    },
+    {
+      "item": "tconevo:metal|25",
+      "emc": 6666
+    },
+    {
+      "item": "mysticalagriculture:fertilized_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "tinkersaether:valkyrie_ingot|0",
+      "emc": 6666
+    },
+    {
+      "item": "additions:manganese_ingot|0",
+      "emc": 1500
+    },
+    {
+      "item": "additions:manganese_steel_ingot|0",
+      "emc": 2500
+    },
+    {
+      "item": "thermalfoundation:material|136",
+      "emc": 3000
+    },
+    {
+      "item": "jaopca:item_essencescarlite|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essenceaeroite|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essenceaqualite|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essenceasgardium|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essenceastralstarmetal|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essenceexperience|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essenceliquifiedcoralium|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencemanganese|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essenceshadowium|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essenceumbrium|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essenceambrosium|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencedimensionalshard|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencehephaestite|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencequartzblack|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essenceniter|0",
+      "emc": 0
+    },
+    {
+      "item": "bloodmagic:blood_shard|1",
+      "emc": 12048
+    },
+    {
+      "item": "additions:crimsonite_ingot|0",
+      "emc": 10240
+    },
+    {
+      "item": "thermalfoundation:fertilizer|0",
+      "emc": 1240
+    },
+    {
+      "item": "thermalfoundation:fertilizer|1",
+      "emc": 2560
+    },
+    {
+      "item": "thermalfoundation:fertilizer|2",
+      "emc": 4800
+    },
+    {
+      "item": "openmodularturrets:disposable_item_turret|0",
+      "emc": 0
+    },
+    {
+      "item": "openmodularturrets:potato_cannon_turret|0",
+      "emc": 0
+    },
+    {
+      "item": "openmodularturrets:machine_gun_turret|0",
+      "emc": 0
+    },
+    {
+      "item": "openmodularturrets:incendiary_turret|0",
+      "emc": 0
+    },
+    {
+      "item": "openmodularturrets:grenade_turret|0",
+      "emc": 0
+    },
+    {
+      "item": "openmodularturrets:relativistic_turret|0",
+      "emc": 0
+    },
+    {
+      "item": "openmodularturrets:rocket_turret|0",
+      "emc": 0
+    },
+    {
+      "item": "openmodularturrets:teleporter_turret|0",
+      "emc": 0
+    }
+  ]
+}

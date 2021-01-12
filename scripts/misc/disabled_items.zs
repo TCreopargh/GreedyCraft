@@ -234,7 +234,9 @@ val disabledItems as IIngredient[] = [
     <abyssalcraft:dhelmet>,
     <abyssalcraft:dplate>,
     <abyssalcraft:dlegs>,
-    <abyssalcraft:dboots>
+    <abyssalcraft:dboots>,
+    <extrautils2:goldenlasso>,
+    <extrautils2:goldenlasso:1>
 ] as IIngredient[];
 
 val disabledRecipeRegex as string[] = [

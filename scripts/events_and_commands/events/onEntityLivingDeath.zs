@@ -24,6 +24,8 @@ import crafttweaker.command.ICommandSender;
 import mods.ctutils.utils.Math;
 import mods.ctutils.world.IGameRules;
 
+import scripts.util.patreons as PatreonUtil;
+
 events.onEntityLivingDeath(function (event as crafttweaker.event.EntityLivingDeathEvent) {
     if(event.entityLivingBase instanceof IPlayer) {
         var player as IPlayer = event.entityLivingBase;
@@ -31,7 +33,7 @@ events.onEntityLivingDeath(function (event as crafttweaker.event.EntityLivingDea
 
         // Detailed death message
         var deathMsg as string = damageSource.getDeathMessage(player);
-        if(patreonList has player.name) {            
+        if(PatreonUtil.isPatreon(player.name)) {            
             deathMsg = deathMsg.replace(player.name, "§d" + player.name + "§7");
         } else {
             deathMsg = deathMsg.replace(player.name, "§e" + player.name + "§7");
@@ -41,7 +43,7 @@ events.onEntityLivingDeath(function (event as crafttweaker.event.EntityLivingDea
             if(damageSource.getTrueSource().hasCustomName) {
                 name = damageSource.getTrueSource().customName;
             }
-            if(damageSource.getTrueSource() instanceof IPlayer && patreonList has name) {
+            if(damageSource.getTrueSource() instanceof IPlayer && PatreonUtil.isPatreon(name)) {
                 deathMsg = deathMsg.replace(name, "§5" + name + "§7");
             } else {
                 deathMsg = deathMsg.replace(name, "§c" + name + "§7");

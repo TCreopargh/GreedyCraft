@@ -17,7 +17,7 @@ recipes.addShapeless("nametag_to_human_spawn_egg", <minecraft:spawn_egg>, [<mine
 function(out, ins, cInfo) {
     var name = ins.nametag.displayName;
     return <minecraft:spawn_egg>.withTag({display: {Name: "§e"+name+"§b的刷怪蛋"}, EntityTag: {Username: name, id: "headcrumbs:human"}});
-},null);
+}, null);
 recipes.addShapeless("head_to_human_spawn_egg", <minecraft:spawn_egg>, [<minecraft:skull:3>.marked("head"), <minecraft:egg>], 
 function(out, ins, cInfo) {
     var name = "null";

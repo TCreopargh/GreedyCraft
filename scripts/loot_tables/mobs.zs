@@ -15,7 +15,9 @@ import loottweaker.LootTweaker;
 
 import crafttweaker.item.IItemStack;
 import crafttweaker.data.IData;
-import crafttweaker.item.IIngredient;   
+import crafttweaker.item.IIngredient;
+
+import scripts.util.date as CalendarUtil;
 
 val mobList as string[] = [
     "zombie",
@@ -77,7 +79,7 @@ LootTweaker.getTable("mowziesmobs:entities/ferrous_wroughtnaut").getPool("main")
 LootTweaker.getTable("mowziesmobs:entities/ferrous_wroughtnaut").getPool("main").addItemEntryHelper(<minecraft:iron_ingot>, 1, 1, [Functions.setCount(32, 64)], []);
 LootTweaker.getTable("mowziesmobs:entities/ferrous_wroughtnaut").getPool("main").addLootTableEntryHelper("minecraft:chests/simple_dungeon", 1, 1, [Conditions.killedByPlayer()]);
 
-if(CHRISTMAS_MODE) {
+if(CalendarUtil.isChristmas()) {
     for mob in mobList {
         var table as LootTable = LootTweaker.getTable("minecraft:entities/" + mob);
         var pool as LootPool = table.addPool("christmas_gift", 1, 1, 0, 0);

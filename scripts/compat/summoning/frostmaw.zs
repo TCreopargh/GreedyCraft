@@ -71,7 +71,7 @@ SummoningDirector.addSummonInfo(
             } else if(!pass2) {
                 attempt.success = false;
                 attempt.message = "§c召唤失败。周围的地板不够平整。\n§c你需要周围有至少15*15格的平坦开阔空间。\n§cc这条消息表明祭坛上方有足够的空气，但是祭坛所处的平台大小不够或有缺口。\n§6可以尝试使用Prefab的§e结构部件§6搭建平台。";
-            } else if(!world.getBiome(pos).isSnowyBiome) {
+            } else if(!world.getBiome(pos).isSnowyBiome && world.seasonState.seasonName != 3) {
                 attempt.success = false;
                 attempt.message = "§c冰霜巨口不愿回应你的召唤，你所在的地点太热了。它只在寒冷的生物群系下雪时出没！";
             } else if(!world.raining) {

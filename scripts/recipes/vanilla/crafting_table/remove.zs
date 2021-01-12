@@ -380,7 +380,8 @@ val removedRecipeNames as string[] = [
     "botania:flighttiara_6",
     "botania:flighttiara_7",
     "botania:flighttiara_8",
-    "extrabotany:recipe_coregod"
+    "extrabotany:recipe_coregod",
+    "natura:common/string"
 ];
 
 for ingredient in removedRecipes {

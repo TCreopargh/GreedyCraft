@@ -16,6 +16,7 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.data.IData;
 import crafttweaker.item.IIngredient;   
 
+import scripts.util.date as CalendarUtil;
 import scripts.util.loot_tables as LootUtil;
 
 LootUtil.addItem(<minecraft:bone>, 50, 1, 2, 10);
@@ -195,6 +196,6 @@ LootUtil.addItem(<charm:suspicious_soup>, 10, 1, 1, 1);
 LootUtil.addItem(<additions:greedycraft-slime_crown>, 2, 1, 1, 1);
 LootUtil.addItem(<additions:greedycraft-shining_star>, 2, 1, 1, 1);
 
-if(CHRISTMAS_MODE) {
+if(CalendarUtil.isChristmas()) {
     LootUtil.addItem(<additions:greedycraft-gift>, 20, 1, 1, 2);
 }

@@ -207,5 +207,5 @@ for row in crops {
     .setChance(0.0625 as float)
     .build();
     
-    recipeId+=1;
+    recipeId += 1;
 }
