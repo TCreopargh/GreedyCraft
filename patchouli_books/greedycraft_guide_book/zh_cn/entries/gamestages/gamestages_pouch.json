@@ -1,0 +1,15 @@
+{
+    "name": "§d未知之袋",
+    "icon": "pouchofunknown:pouch",
+    "category": "patchouli:gamestages_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(d)未知之袋$()是用于储存未知物品的袋子，在没有未知之袋的情况下，你无法捡起任何未知物品。将未知之袋放进物品栏，即可把未知物品收纳进袋子里。$(br)未知之袋没有物品栏，在你获得里面的所需的阶段之前，你无法将其取出。将未知之袋拿在手上右键即可取出所有达到了相应阶段的物品。$(5)（建议只在家打开，否则可能会扔出大量物品难以运走）$()如果丢失了未知之袋，可以方便地再合成一个。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "pouchofunknown:pouch"
+        }
+    ]
+}

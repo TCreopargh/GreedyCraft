@@ -1,30 +1,43 @@
 {
-	"name": "§9重要游戏机制§8及§6实用技巧",
-	"icon": "minecraft:torch",
-	"category": "patchouli:quick_start_category",
-	"pages": [{
-		"type": "text",
-		"text": "$(#ff80ab)$(l)以下是一些重要的游戏机制或实用的小技巧，对你应该很有帮助。更多的小技巧可以在加载界面看到。$()$(br2)$(li)$(c)匠魂$()武器和盔甲应该是你的首选装备，对于材料的选择请参阅百科全书中的$(6)匠魂宝典$()和$(9)盔甲锻造手册$()$(li)经验非常重要，有很多地方需要花费大量经验。"
-	}, {
-		"type": "text",
-		"text": "$(li)你可以在JEI中使用$(2)@$(3)mod名称$()的方式搜索所有对应mod的物品！$(li)Y键搜索对JEI中的物品也有用！$(li)做好万全的准备再去打凋灵和末影龙，因为击败它们后游戏的难度将会大幅上升！ $(li) 你可以直接拿着方块点击白雏菊以在它的周围放置方块。$(li)对着成熟的作物右键可以直接补种。$(li)玩家在获得$(6)awakened$()游戏阶段之前无法进行创造模式飞行。"
-	}, {
-		"type": "text",
-		"text": "$(li) 精英怪最多有10星， 星级越高战利品越好， 但难度较低时高星怪的生成概率很低。$(li)不要过于着急地推主线，请在主线明显感觉较难适当地进行支线任务。$(li)游戏中任何地方都可以使用章节符号。你可以用自定义字典的方式使你的输入法能快速输入此符号。$(li)在白天点击床可以设置重生点。$(li)在之前已经用床设置过重生点后，睡觉时只睡觉而不设定重生点。如果需要设置重生点请点击“Set Spawn”按钮。"
-	}, {
-		"type": "text",
-		"text": "$(li)使用同种矿物词典的矿物在采集时会自动归一化。即：你不需要好几个格子来存储不同mod的铜矿。 $(li) 心之容器碎片在击杀怪物时有低几率掉落。 $(li) 不同mod的导线和机器往往是通用的， 直接连接即可。 $(li) 等价交换的转化率为$(2)1/8$()， 即烧东西只能得到它$(2)1/8$()的EMC。 $(li) 路径石会在村庄生成， 路过时记得激活一下。 $(li) 在JEI中可以使用拼音搜索。"
-	}, {
-		"type": "text",
-		"text": "$(li) 当使用JEI将物品转移到合成台时， 按住shift点击“ + ”号可一次性转移所有物品！$(li) 点击任务界面右上角的按钮即可一键领取所有奖励。$(li) 物品栏人物右上角的戒指图标可以打开$(6)饰品栏$()，注意有些饰品有自动放置火把的功能！$(li) 你可以在冶炼炉中用牛奶在空的浇注台上浇注出奶酪(别问我为什么)$(li) 把僵尸猪人推进冶炼炉可以得到金子！$(li) 如果你想关闭光影的话请切换成“内置”而不是“关”，可以节省大量时间!"
-	}, {
-		"type": "text",
-		"text": "$(li) 你可以制作医疗包来在战斗中快速回复生命值！$(li) 如果你不喜欢真实的第一人称视角，可以在R键菜单里禁用。不过更推荐你使用过肩第三人称视角。$(li) 原版龙之研究工具和盔甲已被禁用，请使用$(5)龙金属$()这种匠魂材料。$(li) 把牛推进冶炼炉可以得到牛奶！$(li) 你可以用任意原版生物头颅和一个在铁砧改过名的命名牌合成命名牌名称对应玩家的头颅！"
-	}, {
-		"type": "text",
-		"text": "$(li) 用玩家头颅或命名牌和鸡蛋可以合成对应玩家的刷怪蛋！ $(li) 可以用液态金浇注羽毛获得金翎羽！$(li) 在这个游戏里，不要相信任何东西... $(li)恭喜你发现了彩蛋！$(9)$(l:https://www.bilibili.com/video/BV1Px411w7FH?from=search&seid=15213437677113887177)§n点击这里$(/l)$()即可获得10000无尽块！$(li) 你可以制作黑曜石船来在岩浆上航行！$(li)原版的武器和装备都遭到了削弱，钻石镐也无法挖掘黑曜石，你需要尽早发展出匠魂工具。$(li)在FTB声明区块页面按Shift点击声明过的区块可以让该区块保持加载。"
-	}, {
-		"type": "text",
-		"text": "$(li) 饰品可以具有前缀，前缀可以提供属性加成，你可以制造重锻站来消耗经验重铸饰品。 $(li) 建议尽早做出$(2)经验方块$()以存储经验。$(li) 刷怪笼具有刷怪次数限制，一个刷怪笼刷出一定数量的怪后就会被禁用，禁用的刷怪笼里面没有旋转的怪物模型。$(li)战斗高塔的大部分奖励需要打败高塔傀儡并获得钥匙后才能解锁。$(li) 大部分地上的小装饰（树枝、花斑等）都可以被捡起来。另外Shift+右键可以直接获得这些装饰的方块形式而非物品。"
-	}]
+    "name": "§9Pro Tips §8and §6Notes",
+    "icon": "minecraft:torch",
+    "category": "patchouli:quick_start_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(#ff80ab)$(l)These are some important tips and notes for this game that can be very helpful. More tips can be seen on the loading screen.$()$(br2)$(li)$(c)Tinker's Construct$() weapons and armors are your best choice, view $(6)Material And You$() and $(9)Material And You - Armor Addendum$() for material specs.$(li)Experience is very important, a lot of things require lots of XP, try not to lose XP!"
+        },
+        {
+            "type": "text",
+            "text": "$(li)JEI search tip: search $(2)@$(3)[mod id]$() to see all items in a mod!$(li)Press Y when hovering over an item in JEI to search this item in nearby chests!$(li)Be prepared before fighting the Wither and the Ender Dragon because difficulty will increase after defeating them! $(li) You can just click a pure daisy with blocks in your hand to place blocks around it.$(li)Rightclick a fully grown crop to harvest and replant it.$(li)You can't fly before getting the $(6)awakened$() gamestage."
+        },
+        {
+            "type": "text",
+            "text": "$(li) Champion mobs can get 10 stars, the more stars it have the better loot it drops. Average stars for champion mobs increase as you gain more difficulty. $(li)Don't rush the main questline, try some side quests when you feel it's difficult!$(li)You can use color codes and format codes everywhere! $(li)Clicking a bed at day sets spawn too.$(li)You can choose whether to set the spawn point or not when you sleep at night."
+        },
+        {
+            "type": "text",
+            "text": "$(li)Ores will be unified to the mostly used item in the same ore dictionary when mined. $(li) There's a low chance for normal mobs to drop Heart Crystal shards. $(li) Wire from different mods can usually interconnect. $(li) The transmutation rate of ProjectE is $(2)1/8$(), i.e. sell value is 8 times lower than buy value. $(li) You can find waystones in every village, make sure to activate them."
+        },
+        {
+            "type": "text",
+            "text": "$(li) When viewing recipes in JEI, Shift-click '+' button to move all required items in your inv to crafting table.$(li) You can claim all quest rewards at once by clicking the button on the top right of quest menu.$(li) $(6)Bauble slots$() are opened through the button on your avatar in inventory. Some baubles automatically place torches!$(li) You can cast milk to cheese with an empty casting table.$(li) Smelt zombie pigmen in tinkers' smeltry to get gold!."
+        },
+        {
+            "type": "text",
+            "text": "$(li) It's recommended to use 'Internal' than 'off' if you're gonna turn off shaders$(li) Use medkits to regenerate health in battles!$(li) Real first player toggle can be found in R-button menu.$(li) Draconic Evolution's tools and armors are disabled, use Tinkers' material instead.$(li) Push a cow into your smeltry to get milk!$(li) You can craft any player's skull by combining any mob head with a named name tag."
+        },
+        {
+            "type": "text",
+            "text": "$(li) You can craft human spawn eggs for any player by combining a player head or name tag with an egg. $(li) Don't trust anyone or anything in this game... $(li)Congrats! You found an Easter egg!$(9)$(l:https://www.youtube.com/watch?v=dQw4w9WgXcQ)§nClick Here$(/l)$() to claim 10000 infinity blocks!$(li) You can sail on lava with an obsidian boat!$(li)Vanilla weapons and armors are nerfed, use Tinkers' tools and armors instead!$(li)Shift-click an claimed chunk in FTB chunks to keep it loaded."
+        },
+        {
+            "type": "text",
+            "text": "$(li) Baubles can have prefixes which boosts your stats, you can change its prefix in a Reforging Station. $(li) It's suggested to make a $(2)XP Block$() as soon as possible to deposit experience.$(li) Spawners will disable itself after spawning a set amount of mobs. Disabled spawners give out smokes.$(li)Most loot in battle towers are locked, the Tower Golem has the key."
+        },
+        {
+            "type": "text",
+            "text": "$(li) Most ground decorations (twigs, pinecones, etc) can be picked up, Shift rightclick them to pick up their block form instead of their item."
+        }
+    ]
 }

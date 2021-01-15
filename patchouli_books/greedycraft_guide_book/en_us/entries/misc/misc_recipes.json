@@ -1,10 +1,10 @@
 {
-	"name": "§3合成配方",
+	"name": "§3Misc Recipes",
 	"icon": "minecraft:crafting_table",
 	"category": "patchouli:misc_category",
 	"pages": [{
 			"type": "text",
-			"text": "$(9)以下是一些乱七八糟的合成配方，可能有用，也可能没用。"
+			"text": "$(9)These are some recipes that might be helpful."
 		},
 		{
 			"type": "crafting",

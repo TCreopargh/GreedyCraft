@@ -6,6 +6,7 @@
 #priority 110
 
 import mods.tieredtooltips;
+import mods.ItemStages;
 
 tieredtooltips.colorStage("hardmode", "b5000000","f0f27121", "f0e94057");
 tieredtooltips.colorStage("novice_engineer", "b5000000", "f0ff9966", "f0ff5e62");
@@ -41,3 +42,6 @@ tieredtooltips.colorStage("challenger_e", "b5000000", "f0ff8008", "f0ffc837");
 tieredtooltips.colorStage("challenger_f", "b5000000", "f0ff8008", "f0ffc837");
 tieredtooltips.colorStage("challenger_g", "b5000000", "f0ff8008", "f0ffc837");
 tieredtooltips.colorStage("challenger_all", "b5000000", "f0ff8008", "f0ffc837");
+
+ItemStages.stageTooltip("energy_matter_core", game.localize("pe.emc.emc_tooltip_prefix"));
+ItemStages.stageTooltip("energy_matter_core", game.localize("pe.emc.stackemc_tooltip_prefix"));

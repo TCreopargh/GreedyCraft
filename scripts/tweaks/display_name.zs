@@ -12,6 +12,8 @@ import crafttweaker.item.IIngredient;
 
 import mods.jei.JEI;
 
+import scripts.util.lang as LangUtil;
+
 val names as string[IItemStack] = {
     <mysticalcreations:cake_essence> : "蛋糕精华",
     <mysticalcreations:cake_seeds> : "蛋糕种子",
@@ -28,9 +30,11 @@ val names as string[IItemStack] = {
     <mysticalcreations:fusion_matrix_seeds> : "聚合矩阵种子"
 } as string[IItemStack];
 
-for item in names {
-    var name as string = names[item] as string;
-    item.displayName = name;
-    item.addTooltip("§e" + name);
-    JEI.addDescription(item, "该物品的汉化名称是：" + name);
+if(LangUtil.getLanguage() == "zh_cn") {
+    for item in names {
+        var name as string = names[item] as string;
+        item.displayName = name;
+        item.addTooltip("§e" + name);
+        JEI.addDescription(item, "该物品的汉化名称是：" + name);
+    }
 }

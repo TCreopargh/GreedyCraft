@@ -26,14 +26,14 @@ SummoningDirector.addSummonInfo(
             .setCount(1)
             .setOffset(0,4,0)
             .setSpread(1,1,1)
-            .setData({HandItems: [{id: "avaritia:infinity_sword", Count: 1 as byte, Damage: 0 as short}, {id: "additions:greedycraft-huaji", Count: 64 as byte, Damage: 0 as short}], HandDropChances: [0 as float, 1 as float], CustomName: "TCreopargh的冤魂", Username: "TCreopargh", Health: 1919810, Attributes:[{"Name":"generic.maxHealth","Base": 114514}]})
+            .setData({HandItems: [{id: "avaritia:infinity_sword", Count: 1 as byte, Damage: 0 as short}, {id: "additions:greedycraft-huaji", Count: 64 as byte, Damage: 0 as short}], HandDropChances: [0 as float, 1 as float], CustomName: game.localize("greedycraft.zensummoning.tcreopargh.name"), Username: "TCreopargh", Health: 1919810, Attributes:[{"Name":"generic.maxHealth","Base": 114514}]})
         )
         .addMob(MobInfo.create()
             .setMob("headcrumbs:human")
             .setCount(12)
             .setOffset(0,4,0)
             .setSpread(7,3,7)
-            .setData({"CustomName": "TCreopargh的侍从", "Username": "TCreopargh","IsBaby": true as bool, "Health": 32767, "Attributes":[{"Name":"generic.maxHealth","Base": 32767}]})
+            .setData({"CustomName": "greedycraft.zensummoning.tcreopargh.minion.name", "Username": "TCreopargh","IsBaby": true as bool, "Health": 32767, "Attributes":[{"Name":"generic.maxHealth","Base": 32767}]})
         )
         .setMutator(function (attempt as SummoningAttempt) {
             var pos = attempt.pos;
@@ -68,15 +68,15 @@ SummoningDirector.addSummonInfo(
             }
             if(attempt.world.getProvider().getDimensionID() != -1) {
                 attempt.success = false;
-                attempt.message = "§c你只能在下界召唤§c§kTCreopargh§r§c。";
+                attempt.message = game.localize("greedycraft.zensummoning.tcreopargh.fail.1");
             } else if(!pass1) {
                 attempt.success = false;
-                attempt.message = "§c无法召唤§c§kTCreopargh§r§c。周围的地形不够开阔。";
+                attempt.message = game.localize("greedycraft.zensummoning.tcreopargh.fail.2");
             } else if(!pass2) {
                 attempt.success = false;
-                attempt.message = "§c无法召唤§c§kTCreopargh§r§c。周围的地形不够平坦。";
+                attempt.message = game.localize("greedycraft.zensummoning.tcreopargh.fail.3");
             } else {
-                attempt.message = "§cTCreopargh §5§o已苏醒！";
+                attempt.message = game.localize("greedycraft.zensummoning.tcreopargh.success");
             }
         })
 );

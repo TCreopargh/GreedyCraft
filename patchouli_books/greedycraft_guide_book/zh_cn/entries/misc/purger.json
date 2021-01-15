@@ -1,0 +1,15 @@
+{
+    "name": "Purge Items",
+    "icon": "additions:greedycraft-item_purger",
+    "category": "patchouli:misc_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "If you encounter lag when generating terrain, it might be caused by dropped items. You can purge them with a $(6)Hyperspace Broom$(). $(5)/purge$() command also works. By the way the 'Clean Memory' button in your R-key menu also helps increase performance."
+        }, 
+ 	{
+            "type": "crafting",
+            "recipe": "crafttweaker:auto_gen_11266081"
+        }
+    ]
+}

@@ -23,44 +23,46 @@ import crafttweaker.command.ICommandSender;
 
 import mods.ctutils.utils.Math;
 import mods.ctutils.world.IGameRules;
-import mods.ctintegration.net.Connection;
 import mods.ctintegration.data.DataUtil;
 import mods.ctintegration.util.DateUtil;
-import mods.ctintegration.date.IDate;   
-import mods.ctintegration.thread.Thread;   
+import mods.ctintegration.date.IDate;     
 
 import scripts.util.date as CalendarUtil;
 import scripts.util.patreons as PatreonUtil;
+
+import crafttweaker.chat.IChatMessage;
+
+import mods.zenutils.I18n;
 
 events.onPlayerLoggedIn(function (event as PlayerLoggedInEvent) {
 
     var player as IPlayer = event.player;
 
     if(player.hasGameStage("truehero") && !player.hasGameStage("iswuss")) {
-        player.sendChat("§6§o欢迎回家，真正的英雄§e" + player.name + "§6§o！");
+        player.sendChat(I18n.format("greedycraft.event.true_hero.join", player.name));
     } else if(player.hasGameStage("iswuss")) {
-        server.commandManager.executeCommand(server, "/tellraw @a {\"text\":\"§e" + player.name + "§a处于作弊模式。\"}");
-        player.sendChat("§a§o您当前处于作弊模式。");
+        server.commandManager.executeCommand(server, "/broadcast " + I18n.format("greedycraft.event.in_cheat.broadcast", player.name));
+        player.sendChat(game.localize("greedycraft.event.in_cheat.chat"));
         if(player.creative) {
             player.addGameStage("creative");
         }
     } else if(player.creative) {
         if(!player.hasGameStage("truehero")) {
             player.addGameStage("creative");
-            server.commandManager.executeCommand(server, "/tellraw @a {\"text\":\"§e" + player.name + "§a处于创造模式，作弊模式已为其自动开启。\"}");
+            server.commandManager.executeCommand(server, "/broadcast " + I18n.format("greedycraft.event.in_cheat.broadcast", player.name));
             server.commandManager.executeCommand(server, "/gamestage add " + player.name + " iswuss");
-            player.sendChat("§a§o检测到您处于创造模式，作弊模式已自动开启。");
+            player.sendChat(game.localize("greedycraft.event.creative_cheat.chat"));
             server.commandManager.executeCommand(server, "/unlockallstages " + player.name);
-            player.sendChat("§d§o由于您以创造模式创建了该存档，所有游戏阶段都已解锁，祝您游戏愉快。");
+            player.sendChat(game.localize("greedycraft.event.creative_stage_unlocked"));
         }
     }
     server.commandManager.executeCommand(server, "/sendwelcomequote " + player.name);
 
     //Patreon join notification
     if(player.hasGameStage("truehero")) {
-        server.commandManager.executeCommand(server, "/broadcast " + "§9>§d>§6> §d§ka§r §c裁决者§6" + player.name + "§c加入了游戏！§d§ka§r §6<§d<§9<");
+        server.commandManager.executeCommand(server, "/broadcast " + I18n.format("greedycraft.event.executor.welcome", player.name));
     } else if(PatreonUtil.isPatreon(player.name)) {
-        server.commandManager.executeCommand(server, "/broadcast " + "§e>§a>§b> §d§ka§r §6赞助者§d" + player.name + "§6加入了游戏！§d§ka§r §b<§a<§e<");
+        server.commandManager.executeCommand(server, "/broadcast " + I18n.format("greedycraft.event.sponsor.welcome", player.name));
     }
 
     if(!player.hasGameStage("first_join_message_shown")) {
@@ -69,47 +71,19 @@ events.onPlayerLoggedIn(function (event as PlayerLoggedInEvent) {
     } else {
         var playerName as string = "§e" + player.name + "§r";
         if(PatreonUtil.isPatreon(player.name)) {
-            playerName = "尊贵的§d" + player.name + "§r";
+            playerName = game.localize("greedycraft.event.sponsor.title") + "§d" + player.name + "§r";
         }
         if(CalendarUtil.isChristmas()) {
-            player.sendChat("§2§o圣诞快乐，" + player.name + "§2§o！");
+            player.sendChat(I18n.format("greedycraft.event.welcome.christmas", playerName));
         } else if(CalendarUtil.isHalloween()) {
-            player.sendChat("§6§o万圣节快乐，" + player.name + "§6§o！");
+            player.sendChat(I18n.format("greedycraft.event.welcome.halloween", playerName));
         } else if(CalendarUtil.isNewYear()) {
-            player.sendChat("§9§o" + DateUtil.now().year + "新年快乐，" + player.name + "§9§o！");
+            player.sendChat(I18n.format("greedycraft.event.welcome.new_year", [DateUtil.now().year, playerName] as string[]));
         } else if(CalendarUtil.isLunarNewYear()) {
-            player.sendChat("§c§o新年快乐，" + player.name + "§c§o！");
+            player.sendChat(I18n.format("greedycraft.event.welcome.lunar_new_year", playerName));
         } else {
-            player.sendChat("§a§o欢迎回来，§e" + player.name + "§a§o！");
+            player.sendChat(I18n.format("greedycraft.event.welcome.general", playerName));
         }
     }
     server.commandManager.executeCommand(server, "/difficulty hard");
-
-    //Check for updates 
-    Thread.create(function() {
-        if(server.getCurrentPlayerCount() > 1) {
-            return;
-        }
-        var connection as Connection = Connection.openUrl("http://json.tcreopargh.xyz/version.json");
-        if(isNull(connection)) {
-            player.sendChat("§c整合包更新检查失败！");
-            return;
-        }
-        var jsonString as string = connection.readToString();
-        if(isNull(jsonString)) {
-            player.sendChat("§c整合包更新检查失败！");
-            return;
-        }
-        var data = DataUtil.fromJson(jsonString);
-        if(!isNull(data.memberGet("version_name")) && !isNull(data.memberGet("version_code"))) {
-            var latestVersion = data.memberGet("version_name");
-            var latestVersionCode = data.memberGet("version_code");
-            if(latestVersionCode > versionCode) {
-                server.commandManager.executeCommand(server, "/tellraw " + player.name + ' ["",{"text":"§d==============================\\n' + 
-                "§9贪婪整合包有更新可用！\\n" +
-                "§c当前版本: §e§l" + versionName + "§r §6(" + versionCode + ")\\n" + 
-                '§b最新版本: §a§l' + latestVersion + '§r §2(' + latestVersionCode + ')\\n"},{"text":"§e§n更新地址","clickEvent":{"action":"open_url","value":"https://greedycraft.tcreopargh.xyz/"}},{"text":"\\n§d=============================="}]');
-            }
-        }
-    }).start();
 });

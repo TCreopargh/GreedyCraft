@@ -1,18 +1,18 @@
 {
-    "name": "§3支线教程",
+    "name": "§3Side Quests",
     "icon": "thaumcraft:curio",
     "category": "patchouli:guide_category",
     "pages": [{
             "type": "text",
-            "text": "$(2)本整合包除了主线（冒险线）以外，还有两个支线：科技线和魔法线。$()发展支线对进行主线会有极大的帮助，同时主线也影响着支线的开启。尽早发展支线能让你提高工作效率、获得更强力的装备，从而在进行主线时事半功倍。下面来介绍支线的发展顺序。"
+            "text": "$(2)Apart from the main questline which is based on adventure, there are two separate routes: tech and magic. $()Making progress in side quests is very helpful for the main questline and main questline also affects how far you can progress in side quests. You should do these side routes as soon as you can to make survival more easy. Here's the order to unlock them."
         },
         {
             "type": "text",
-            "text": "$(9)$(l)科技线$()$(br2)科技线的发展顺序：一开始你基本上只有$(9)热力膨胀$()mod的机器可以使用。在$(9)热力膨胀$()取得进展，就可以开启$(3)EnderIO$()的内容。要解锁$(2)通用机械$()mod的内容，你需要在$(3)EnderIO$()取得进展。在$(2)通用机械$()取得进展以解锁科技线的剩余所有内容。"
+            "text": "$(9)$(l)Tech$()$(br2)Tech route: $(9)Thermal Series$() ->$(3)Ender IO$() -> $(2)Mekanism$() -> rest of the Tech route."
         },
         {
             "type": "text",
-            "text": "$(5)$(l)魔法线$()$(br2)魔法线的发展顺序：首先在拿到$(5)水晶碎片$()后睡一觉获得异梦，按照异梦的指引制作出$(d)世界盐$()，这是主线前往暮色森林的条件。然后你应该发展$(5)星辉魔法$()，直到取得$(c)novice_wizard$()阶段（给予玩家阶段的任务会在任务图标旁边有重点符号标记），之后就可以开启$(c)血魔法$()的研究了。在$(c)血魔法$()获得$(c)skilled_wizard$()阶段，就可以解锁$(5)星辉魔法$()的后半段内容，之后继续$(5)星辉魔法$()的进度直到获得$(c)master_wizard$()阶段以解锁魔法线剩下的所有内容。"
+            "text": "$(5)$(l)Magic$()$(br2)$(5)Aspect Crystals$() -> $(d)Salis Mundus$() -> $(5)Beginning of Astral Sorcery$() -> $(c)novice_wizard stage$() -> $(c)Blood Magic$() -> $(c)skilled_wizard stage$() -> $(5)Rest of Astral Sorcery$() -> $(c)master_wizard stage$() -> rest of the Magic route."
         }
     ]
 }

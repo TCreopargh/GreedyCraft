@@ -27,6 +27,8 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
     <ore:blockCoalescenceMatrix> : [<ore:blockFusionMatrix>],
     <ore:logWood> : [<treasure2:wither_log>],
     <ore:plankWood> : [<treasure2:wither_planks>],
+    <ore:blockBasalt> : [<pvj:basalt>],
+    <ore:blockBasalt> : [<netherex:basalt>],
     <ore:blockBasalt> : [<ore:stoneBasalt>],
     <ore:stoneBasalt> : [<taiga:basalt_block>],
     <ore:foodChocolate> : [<actuallyadditions:item_food:9>, <foodexpansion:itemchocolatebar>, <ore:foodChocolateBar>],

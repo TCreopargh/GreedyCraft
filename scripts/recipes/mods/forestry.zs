@@ -10,6 +10,8 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.data.IData;
 import crafttweaker.item.IIngredient;
 
+import mods.zenutils.I18n;
+
 val base as IIngredient[] = [<mysticalagriculture:crafting:16>, <mysticalagriculture:crafting:17>, <mysticalagriculture:crafting:18>, <mysticalagriculture:crafting:19>, <mysticalagriculture:crafting:20>, <mysticalagriculture:crafting:21>, <mysticalagradditions:insanium:1>];
 
 val essence as IIngredient[] = [<mysticalagriculture:crafting:5>, <ore:essenceInferium>, <ore:essencePrudentium>, <ore:essenceIntermedium>, <ore:essenceSuperium>, <ore:essenceSupremium>, <ore:essenceInsanium>];
@@ -759,13 +761,13 @@ val seedRecipes as IIngredient[][][IItemStack] = {
 
 for seed in seedRecipes {
     recipes.remove(seed);
-    var baseItemName as string = "基础物品";
+    var baseItemName as string = game.localize("greedycraft.mysticalagriculture.base_item");
     var grid as IIngredient[][] = seedRecipes[seed] as IIngredient[][];
     if(grid.length > 0 && grid[0].length > 0) {
         baseItemName = grid[0][0].items[0].displayName;
     }
-    seed.addTooltip("§e注意：合成时需要放入木工机的§6" + baseItemName + "§e数量大于等于9个。");
-    mods.jei.JEI.addDescription(seed, "§0使用木工机合成\n注意：放入木工机的§5" + baseItemName + "§0数量必须大于等于9个，否则机器将不会开始制作。");
+    seed.addTooltip(I18n.format("greedycraft.mysticalagriculture.seed_tooltip", baseItemName));
+    mods.jei.JEI.addDescription(seed, I18n.format("greedycraft.mysticalagriculture.jei_info", baseItemName));
     var time = [60, 75, 80, 100, 140, 210, 1200] as int[];
     var fluid = [600, 750, 900, 1200, 1600, 2400, 10000] as int[];
     var fertilizer = [<thermalfoundation:fertilizer>, <thermalfoundation:fertilizer>, <thermalfoundation:fertilizer:1>, <thermalfoundation:fertilizer:1>, <thermalfoundation:fertilizer:2>, <thermalfoundation:fertilizer:2>, <mysticalagriculture:mystical_fertilizer>] as IItemStack[];

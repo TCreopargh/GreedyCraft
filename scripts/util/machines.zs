@@ -14,13 +14,14 @@ import crafttweaker.liquid.ILiquidStack;
 import mods.modularmachinery.RecipeBuilder;
 import mods.ctutils.utils.Math;
 import mods.jei.JEI;
+import mods.zenutils.I18n;
 
 import scripts.util.math as MathUtil;
 
 function addForgeRecipe(regName as string, output as IItemStack, baseSpeed as int, baseEnergy as long, baseIngradients as IItemStack[], catalysts as double[string][IItemStack]) {
-    var descriptions as string[] = ["§2要合成" + output.displayName + "§2，你需要在指定的多方块结构中制作，这是一项极为耗时并且费电的工作。除了基本的配方以外，还有一些物品可有可无，它们叫做催化剂，当它们参与合成时会降低合成所需时间与能量消耗。使用多个催化剂时其效果叠加。以下是可用的催化剂列表：", " §7(如果列表显示不全，滑动鼠标滚轮以查看剩余内容)"];
+    var descriptions as string[] = [I18n.format("greedycraft.machines.forge.tooltip.1", output.displayName), game.localize("greedycraft.machines.forge.tooltip.2")];
     for catalyst in catalysts {
-        descriptions += "§6" + catalyst.displayName + "§7: §5-" + (catalysts[catalyst]["speed"] * 100) as int + "% §2制作时长， §c-" + (catalysts[catalyst]["energy"] * 100) as int + "% §2能量消耗";
+        descriptions += I18n.format("greedycraft.machines.forge.list", [catalyst.displayName, ((catalysts[catalyst]["speed"] * 100) as int) as string, ((catalysts[catalyst]["energy"] * 100) as int) as string] as string[]);
     }
     JEI.addDescription(output, descriptions);
     for i in 0 to MathUtil.pow(2, catalysts.length) as int {

@@ -1,6 +1,6 @@
 {
-	"name": "§9技能",
-	"description": "关于技能系统",
+	"name": "§9Skills",
+	"description": "About the skill system. i.e. Reskillable mod",
 	"icon": "minecraft:iron_chestplate",
 	"sortnum": 5
 }

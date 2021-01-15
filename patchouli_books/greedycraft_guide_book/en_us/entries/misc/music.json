@@ -1,13 +1,17 @@
 {
-    "name": "音乐",
+    "name": "Music",
     "icon": "ambience:soundnizer",
     "category": "patchouli:misc_category",
     "pages": [
         {
             "type": "text",
-            "text": "本整合包会在Boss战、地下、村庄、被怪物包围等特殊情景下播放对应的音乐。建议佩戴耳机以获得最佳游戏体验。另外，如果你想在家就能听到某些音乐，你可以制作一个$(9)播音器$()，合成配方如右图所示。手持播音器左键一个方块，右键另一个方块，即可选定以这两条方块连线为对角线的长方体区域。此时再对着空气右键即可选定在该区域内播放的歌曲类别。"
-        }, 
- 	{
+            "text": "In this modpack some background music will be played during many events, like boss battles, in underground, in villages, etc. It's recommended to wear headphones. If the music stops playing for some reason (a forge bug), use - key on the numpad to reload it."
+        },
+        {
+            "type": "text",
+            "text": "If you want to listen to music at your base, you can make a $(9)Soundnizer$() (recipe below), select an area with a right click and a left click, and right click air to select the music you want to be played."
+        },
+        {
             "type": "crafting",
             "recipe": "crafttweaker:auto_gen_1438924738"
         }

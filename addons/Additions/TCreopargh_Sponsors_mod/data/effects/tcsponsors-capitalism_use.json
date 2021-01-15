@@ -1,0 +1,21 @@
+{
+  "cause": {
+    "item": {
+      "item": "additions:tcsponsors-capitalism",
+      "damage": "any"
+    },
+    "type": "additions:item_right_click"
+  },
+  "effects": [
+    {
+      "command": "/summon fireworks_rocket ~ ~1 ~ {LifeTime:30,FireworksItem:{id:fireworks,Count:1,tag:{Fireworks:{Flight:2,Explosions:[{Type:3,Flicker:0,Trail:0,Colors:[I;14188952,4312372,15435844],FadeColors:[I;2437522,14188952,4312372,12801229]}]}}}}",
+      "command_sender_name": "",
+      "type": "additions:command"
+    },
+    {
+      "command": "/tellraw @p {\"text\":\"§4「§dTC§f: §5啊……啊，要被§6钱钱§5填满了，这就去修，嗯，啊§e♂§5。§4」\"}",
+      "command_sender_name": "",
+      "type": "additions:command"
+    }
+  ]
+}

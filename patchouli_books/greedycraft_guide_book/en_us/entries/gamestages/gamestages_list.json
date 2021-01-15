@@ -1,31 +1,31 @@
 {
-    "name": "§2游戏阶段图鉴",
+    "name": "§2Game Stages List",
     "icon": "additions:greedycraft-blueprint",
     "category": "patchouli:gamestages_category",
     "pages": [
         {
             "type": "text",
-            "text": "$(2)本章介绍一些重要的游戏阶段的获取方法和作用。需要注意的是，当前版本并不是所有游戏阶段都有用。$(br)$(li)$(c)getting_started $(): 获得原木时解锁$(li)$(c)novice_engineer $(): 初级工程师，完成热力感应炉任务后解锁，可解锁EnderIO的全部内容。"
+            "text": "$(2)Here's how to get some important game stages and what they do. Note: currently not all game stages serve a purpose, some are reserved for future use.$(br)$(li)$(c)getting_started $(): Unlocked by getting any log$(li)$(c)novice_engineer $(): Unlocked by crafting the Induction Smelter"
         },
         {
             "type": "text",
-            "text": "$(li)$(c)skilled_engineer $(): 中级工程师，完成强化机器框架任务后解锁，可解锁Mekanism的全部内容。$(li)$(c)master_engineer $(): 高级工程师，通过进行工业时代篇章中$(9)通用机械$()的任务解锁，可解锁通用机械的高级内容。$(li)$(c)novice_wizard $(): 初级魔法师，完成天辉祭坛任务后解锁，可解锁注魔合成和血魔法内容。$(li)$(c)skilled_wizard $(): 中级魔法师，完成血魔法的束缚锭任务后解锁，可解锁注魔稳定器/加速器和星辉魔法的后半段内容。"
+            "text": "$(li)$(c)skilled_engineer $(): Unlocked by crafting Enhanced Machine Chassis, unlocks Mekanism stuff.$(li)$(c)master_engineer $(): Unlocked by making progress in Mekanism quests, unlocks more Mekanism stuff.$(li)$(c)novice_wizard $(): Unlocked by a quest that requires Celestial Altar, unlocks infusion crafting and blood magic.$(li)$(c)skilled_wizard $(): Unlocked by completing the Bound Metal quest, unlocks more Astral Sorcery stuff."
         },
         {
             "type": "text",
-            "text": "$(li)$(c)master_wizard $(): 高级魔法师，使用$(d)奥术水晶球$()解锁，可解锁神秘时代的后期内容。$(li)$(c)twilight_shield $(): 使用$(d)暮色之庇护$()后获得，允许进入下界。$(li)$(c)ender_charm $(): 使用$(3)末影护符$()后获得，允许进入末地。$(li)$(c)hardmode $(): $(c)困难模式$()，这个阶段是如此重要，以至于有一篇单独的文章来讨论它。$(li)$(c)wither_slayer $(): 凋灵杀手，击杀凋灵后解锁。$(li)$(c)wielder_of_infinity $(): 完成无尽催化剂任务后解锁。"
+            "text": "$(li)$(c)master_wizard $(): Unlocked upon using a $(d)Arcane Crystal Ball$(), unlocks some advanced Thaumcraft stuff.$(li)$(c)twilight_shield $(): Unlocked upon using a $(d)Twilight Shield$(), you can only go to The Nether after unlocking this stage.$(li)$(c)ender_charm $(): nlocked upon using a $(3)Ender Charm$(), allows the player into The End.$(li)$(c)hardmode $(): $(c)Hardmode$() is so important that there's an entry in this chapter that elaborates on it.$(li)$(c)wither_slayer $(): Unlocks by killing the Wither for the 1st time."
         },
         {
             "type": "text",
-            "text": "$(li)$(c)challenger_a/b/c/d/e/f/g/all $(): 完成指定数量的挑战任务解锁，能够解锁神秘农业的等级作物和迷你刷怪场。$(li)$(c)nether $(): 进入下界后解锁。$(li)$(c)energy_matter_core $(): 做出$(3)质能转换核心$()后解锁，只有在这个阶段解锁后，物品的工具提示上才会显示该物品所具有的EMC值。$(li)$(c)abyssal_conquerer $(): 制作并使用$(3)觉醒之眼$()后获得"
+            "text": ".$(li)$(c)wielder_of_infinity $(): Unlocks by completing the Infinity Catalyst quest.$(li)$(c)challenger_a/b/c/d/e/f/g/all $(): Unlocks by completing a set amount of challenge quests. Unlocks Mystical Agriculture content and mini mob farms.$(li)$(c)nether $(): Unlocks by going into the Nether for the first time.$(li)$(c)energy_matter_core $(): Unlocks by crafting a $(3)Energy-Matter Conversion Core$(), You can only see EMC values after unlocking this.$(li)$(c)abyssal_conquerer $(): Unlocks upon using a $(3)Awakened Eye$()."
         },
         {
             "type": "text",
-            "text": "$(li)$(c)wyvern $(): 做出飞龙核心后解锁，影响游戏难度。$(li)$(c)awakened $(): 做出觉醒核心后解锁，影响游戏难度。也是创造式飞行的解锁条件。$(li)$(c)chaotic $(): 做出混沌核心后解锁，影响游戏难度。$(li)$(c)chaotic_dominator $(): 击败混沌守卫后解锁，影响游戏难度。$(li)$(c)wand/tactic/shuriken/yoyo_blueprint $(): 使用对应的武器蓝图后解锁，能够解锁蓝图对应的匠魂武器。$(li)$(c)fearless_man $(): 使用$(6)勇气之证$()后解锁，允许进入恐惧之地。"
+            "text": "$(li)$(c)wyvern $(): Unlocks by making a Wyvern Core.$(li)$(c)awakened $(): Unlocks by making an Awakened Core. You can only use creative flight items after unlocking this stage.$(li)$(c)chaotic $(): Unlocks by making a Chaotic Core.$(li)$(c)chaotic_dominator $(): Unlocks by defeating a Chaos Guardian.$(li)$(c)wand/tactic/shuriken/yoyo_blueprint $(): Unlocks upon using their corresponding weapon bluepriont, unlocks some TConstruct weapons."
         },
         {
             "type": "text",
-            "text": "$(li)$(c)fusion_matrix $(): 做出聚合矩阵后获得$(li)$(c)descendant_of_the_sun $(): 击败太阳酋长后获得，具体内容请参阅“困难模式Boss”一章。$(li)$(c)graduated $(): 这个说明你毕业了！$(li)$(c)disabled $(): 这是被禁用的物品所归类的难度，除非你作弊或使用通行令牌，这些物品永远也不会解锁！$(li)$(c)$(k)qualified_ocd $(): $(k)You are now a qualified OCD patient."
+            "text": "$(li)$(c)fearless_man $(): Unlocked upon using a $(6)Bravery Certificate$(), allows the player into The Dreadlands.$(li)$(c)fusion_matrix $(): Unlocks by crafting a Coalescence Matrix.$(li)$(c)descendant_of_the_sun $(): Unlocks by defeating Barako, the Sun Chief. View 'Hardmode Bosses' entry for more info.$(li)$(c)graduated $(): This means you have beaten the game, congrats.$(li)$(c)disabled $(): This is where disabled items belong to, you can't get this stage normally.$(li)$(c)$(k)qualified_ocd $(): $(k)You are now a qualified OCD patient."
         }
     ]
 }

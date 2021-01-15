@@ -1,0 +1,16 @@
+{
+    "name": "§2幸运四叶草",
+    "icon": "additions:greedycraft-lucky_clover",
+    "category": "patchouli:misc_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(2)幸运四叶草$()是合成幸运方块的材料。破坏高草时有小概率获得四叶草。"
+        }, 
+		{
+            "type": "crafting",
+			"recipe2": "crafttweaker:auto_gen_1862248730",
+			"recipe": "crafttweaker:auto_gen_-1533033400"
+        }
+    ]
+}

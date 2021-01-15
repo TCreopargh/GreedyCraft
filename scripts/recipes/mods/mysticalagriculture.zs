@@ -9,6 +9,8 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.data.IData;
 import crafttweaker.item.IIngredient;
 
+import mods.zenutils.I18n;
+
 function registerSeedRecipe(seed as IItemStack, baseItem as IItemStack, tier as int, outputAmount as int, essence as IItemStack, outputStack as IItemStack) {
 
     val regName = "organic_infuser";
@@ -41,10 +43,10 @@ function registerSeedRecipe(seed as IItemStack, baseItem as IItemStack, tier as 
             <ore:seedsTier6>.add(seed);
         }
         
-        var baseItemName as string = "基础物品";
+        var baseItemName as string = game.localize("greedycraft.mysticalagriculture.base_item");
         baseItemName = baseItem.displayName;
-        seed.addTooltip("§e注意：合成时需要放入木工机的§6" + baseItemName + "§e数量大于等于9个。");
-        mods.jei.JEI.addDescription(seed, "§0使用木工机合成\n注意：放入木工机的§5" + baseItemName + "§0数量必须大于等于9个，否则机器将不会开始制作。");
+        seed.addTooltip(I18n.format("greedycraft.mysticalagriculture.seed_tooltip", baseItemName));
+        mods.jei.JEI.addDescription(seed, I18n.format("greedycraft.mysticalagriculture.jei_info", baseItemName));
 
         mods.forestry.Carpenter.addRecipe(seed, [
             [baseItem, essences[tier], baseItem],

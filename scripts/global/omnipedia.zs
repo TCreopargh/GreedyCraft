@@ -9,11 +9,13 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.data.IData;
 import crafttweaker.item.IIngredient;
 
+import mods.zenutils.I18n;
+
 global omnipedia as IItemStack =<akashictome:tome>.withTag({
 	"akashictome:is_morphing": 1 as byte,
 	display: {
-		Lore: ["§6第13版", "§a§o好好看书了吗？"],
-		Name: "§d§ka§r §b百科全书 §d§ka§r"
+		Lore: [I18n.format("greedycraft.omnipedia.version", "" + 13), game.localize("greedycraft.omnipedia.tooltip")],
+		Name: game.localize("greedycraft.omnipedia.name")
 	},
 	"akashictome:data": {
 		tconstruct: {

@@ -1,0 +1,11 @@
+{
+    "name": "§9备份",
+    "icon": "minecraft:record_13",
+    "category": "patchouli:misc_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "游戏每隔一段时间会进行备份，默认每隔$(9)30$()分钟，当备份时聊天消息会有提示。系统会自动删除较长时间以前的备份。你可以在config文件夹中找到 $(9)aroma1997/aromabackup.cfg$() 来调整备份设置。要恢复备份，请在世界选择界面点击“备份”。同时，你可以使用$(9)/aromabackup$()命令来手动备份。"
+        }
+    ]
+}

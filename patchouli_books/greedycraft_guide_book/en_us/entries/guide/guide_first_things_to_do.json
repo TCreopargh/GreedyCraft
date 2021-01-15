@@ -1,18 +1,22 @@
 {
-    "name": "§2§n第一天的生存",
+    "name": "§2§nFirst day's survival",
     "icon": "additions:greedycraft-crude_hatchet",
     "category": "patchouli:guide_category",
 	"priority": true,
     "pages": [
         {
             "type": "text",
-            "text": "$(2)当你进入这个世界时，会发现这里和你的经验不太一样。$()比如，树无法用手直接砍掉。为了度过生存的第一天并顺利做出工作台，你需要做如下几件事：$(li)$(9)空手右键$()地上的草丛，获取$(2)植物纤维$(7)(有一定概率)$();$(li)$(9)空手右键$()地上的散落石头，获取$(5)鹅卵石$();$(li)$(9)用手$()破坏树叶，获取$(6)木棍$()；$(li)使用上述步骤得到的物品制作一个$(9)粗制手斧$()，然后就可以愉快地砍树了！是不是很简单？"
+            "text": "$(2)When you first step into this world you might notice that some stuff doesn't match your vanilla Minecraft experience.$()For example, you can't chop trees with bare hands. To make a crafting table, you need to do these stuff:$(li)$(9)Right click$() tall grass on the ground with empty hand to get $(2)Plant Fiber$(7) (There's a chance to drop)$();"
+        },
+        {
+            "type": "text",
+            "text": "$(li)$(9)Right click$() tiny rocks scattered around the surface with enpty hands to get $(5)Pebbles$();$(li)Break tree leaves with $(9)bare hands$() to get $(6)wooden sticks$();$(li)Use everything you get so far to make a $(9)Crude Hatchet$(), then you can chop trees with it!"
         },
 		{
             "type": "spotlight",
-			"title": "§2散落石头长这样！",
+			"title": "§2Scattered rocks look like this!",
 			"item": "pvj:stone_rocks",
-            "text": "$(br)$(2)提示：如果找不到散落石头的话，可以去矿洞入口看看，那里往往很容易找到。$()$(br)散落石头也不只有这一种，还有花岗岩、闪长岩等变体。$()$(br2)下一页列出了你需要用到的合成配方。$(5)注：以下配方均为无序合成，只要以任意顺序放到2*2的合成栏里就能合成。$()"
+            "text": "$(br)$(2)Note: if you can't find rocks, try to find it near cave entrances, where there will usually be a lot.$()$(br)Rocks have many variants like Granite Rocks, Diorite Rocks, etc and they all give you pebble.$()$(br)The next page lists crafting recipes you will need. $(5)Note: these are shapeless recipes and just put all of the ingredients in the 2*2 crafting grid in your inventory.$()"
         },
 		{
 			"type": "crafting",

@@ -1,20 +1,24 @@
 {
-    "name": "§2§n食物机制介绍",
+    "name": "§2§nFood Introduction",
     "icon": "minecraft:bread",
     "category": "patchouli:food_category",
     "priority": "true",
     "pages": [
         {
             "type": "text",
-            "text": "§3贪婪整合包对原版食物机制进行了较大改进：§r$(br)吃掉不同种类的食物可以增加§c生命值§r。当你把鼠标放到一个食物上时，如果该食物还没吃过，则会显示\"$(3)$(o)还没吃！尝起来怎么样？$()\"如果该食物已经吃过，则会显示\"$(2)吃下后：帮助你回复生命值$()\"。为了提升生命值，请积极地品尝没吃过地食物，$(7)包括腐肉之类看上去就很难吃的$()。"
-        }, 
- 	{
+            "text": "$(3)This modpack made a lot of changes to the food and hunger system: $()$(br)Eating different kinds of food increases your §cHealth§r. Hover your mouse over a food to see if it has been eaten yet. To get more health you should try every food, $(7)including rotten flesh or similiar food that doesn't look very edible$()."
+        },
+        {
             "type": "text",
-            "text": "当你的饥饿值越低时，你饥饿值的消耗速度就越慢。$(br)现在饥饿为0时一次扣2滴血，并且会随着难度增加。$(br)头几次吃最近没吃过的食物会有加成，但是$(4)如果你一直吃同一种食物，它所提供的饥饿值就会越来越少$()，并且吃掉它用的时间也会越来越长。你的食物历史记录的长度为$(3)32$()，这表明你在吃掉一种食物后，需要吃掉另外32个食物才能再次获得这种食物的全部饥饿值。$(br)为了方便地存储与食用不同种类的食物，你可以制作一个$(l:food/food_introduction#lunchbox)§9§n午餐盒§r$(/l)。按Shift+右键打开后即可随机食用里面的食物。"
-        }, 
- 	{
+            "text": "The lower your hunger is, the slower it is consumed.$(br)Getting hungry will deal 2 damage every second and it increases with difficulty.$(br)The first time you eat a kind of food in a while will serve additional hunger values. But $(4)if you eat one kind of food repeatedly, it will serve decreasingly low hunger valuse$(), and it takes more time to eat it. The length of your food history is $(3)32$(), which means you need to eat 32 different food before a food's hunger value is reset."
+        },
+        {
+            "type": "text",
+            "text": "For easy food storage and consumption, you should make a $(l:food/food_introduction#lunchbox)§9§nLunch Box§r$(/l). After opening it, use it to randomly eat a food inside."
+        },
+        {
             "type": "crafting",
-	    "anchor": "lunchbox",
+            "anchor": "lunchbox",
             "recipe": "spiceoflife:lunchbox"
         }
     ]

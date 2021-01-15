@@ -236,7 +236,14 @@ val disabledItems as IIngredient[] = [
     <abyssalcraft:dlegs>,
     <abyssalcraft:dboots>,
     <extrautils2:goldenlasso>,
-    <extrautils2:goldenlasso:1>
+    <extrautils2:goldenlasso:1>,
+    <treasure2:charmed_gold_coin>,
+    <treasure2:salandaars_ward>,
+    <treasure2:dwarven_talisman>,
+    <treasure2:miners_friend>,
+    <treasure2:angel_blessed>,
+    <treasure2:adephagias_bounty>,
+    <treasure2:charmed_silver_coin>
 ] as IIngredient[];
 
 val disabledRecipeRegex as string[] = [
@@ -273,11 +280,11 @@ val outputBlacklist as IItemStack[] = [
 for ingredient in disabledItems {
     ItemStages.removeItemStage(ingredient);
     ItemStages.addItemStage("disabled", ingredient);
-    ItemStages.setUnfamiliarName("§4已禁用的物品", ingredient);
+    ItemStages.setUnfamiliarName(game.localize("greedycraft.stage.disabled_item.name"), ingredient);
     for item in ingredient.items {
         RecipeUtil.remove(item);
         JEI.removeAndHide(item);
-        item.addTooltip("§c已禁用");
+        item.addTooltip(game.localize("greedycraft.stage.disabled_item.tooltip"));
     }
 }
 
@@ -294,11 +301,11 @@ for recipe in recipes.all {
             if(!isBlacklisted) {
                 RecipeUtil.remove(recipe.output);
                 JEI.removeAndHide(recipe.output);
-                recipe.output.addTooltip("§c已禁用");
+                recipe.output.addTooltip(game.localize("greedycraft.stage.disabled_item.tooltip"));
                 // Disabled this to fix the problem of zombies holding question marks
                 // ItemStages.removeItemStage(recipe.output);
                 // ItemStages.addItemStage("disabled", recipe.output);
-                // ItemStages.setUnfamiliarName("§4已禁用的物品", ingredient);
+                // ItemStages.setUnfamiliarName(game.localize("greedycraft.stage.disabled_item.name"), ingredient);
                 break;
             }
         }

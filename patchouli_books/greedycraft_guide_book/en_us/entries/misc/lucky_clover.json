@@ -1,11 +1,11 @@
 {
-    "name": "§2幸运四叶草",
+    "name": "§2Lucky Clover",
     "icon": "additions:greedycraft-lucky_clover",
     "category": "patchouli:misc_category",
     "pages": [
         {
             "type": "text",
-            "text": "$(2)幸运四叶草$()是合成幸运方块的材料。破坏高草时有小概率获得四叶草。"
+            "text": "$(2)Lucky Clover$() is an ingredient for Chance Cubes. It has a small chance to be dropped from punching tall grass."
         }, 
 		{
             "type": "crafting",

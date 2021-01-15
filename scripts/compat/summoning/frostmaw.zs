@@ -67,21 +67,21 @@ SummoningDirector.addSummonInfo(
             }
             if(!pass1) {
                 attempt.success = false;
-                attempt.message = "§c召唤失败。周围的地形不够开阔。\n§c你需要周围有至少15*15格的平坦开阔空间。\n§c高草等可以穿过的方块同样也会影响召唤。\n§6可以尝试使用Prefab的§e结构部件§6搭建平台。";
+                attempt.message = game.localize("greedycraft.zensummoning.frostmaw.fail.1");
             } else if(!pass2) {
                 attempt.success = false;
-                attempt.message = "§c召唤失败。周围的地板不够平整。\n§c你需要周围有至少15*15格的平坦开阔空间。\n§cc这条消息表明祭坛上方有足够的空气，但是祭坛所处的平台大小不够或有缺口。\n§6可以尝试使用Prefab的§e结构部件§6搭建平台。";
-            } else if(!world.getBiome(pos).isSnowyBiome && world.seasonState.seasonName != 3) {
+                attempt.message = game.localize("greedycraft.zensummoning.frostmaw.fail.2");
+            } else if(!world.getBiome(pos).isSnowyBiome && world.seasonState.season != 3) {
                 attempt.success = false;
-                attempt.message = "§c冰霜巨口不愿回应你的召唤，你所在的地点太热了。它只在寒冷的生物群系下雪时出没！";
+                attempt.message = game.localize("greedycraft.zensummoning.frostmaw.fail.3");
             } else if(!world.raining) {
                 attempt.success = false;
-                attempt.message = "§c冰霜巨口不愿回应你的召唤，现在的天气过于晴朗。它只在寒冷的生物群系下雪时出没！";
+                attempt.message = game.localize("greedycraft.zensummoning.frostmaw.fail.4");
             } else if(attempt.world.getProvider().getDimensionID() != 0) {
                 attempt.success = false;
-                attempt.message = "§c你只能在主世界召唤冰霜巨口！";
+                attempt.message = game.localize("greedycraft.zensummoning.frostmaw.fail.5");
             } else {
-                attempt.message = "§b冰霜巨口 §5§o已苏醒！";
+                attempt.message = game.localize("greedycraft.zensummoning.frostmaw.success");
             }
         })
 );

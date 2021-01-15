@@ -11,12 +11,12 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.data.IData;
 import crafttweaker.item.IIngredient;
 
-val errorStone = <minecraft:stone>.withTag({display: {Name:"§c错误之石", Lore:["§e如果你得到了这个，证明你发现了一个BUG！", "如果是这种情况，请将其汇报给作者！"]}}) as IItemStack;
+val errorStone = <minecraft:stone>.withTag({display: {Name: game.localize("greedycraft.misc.bug_stone.name"), Lore: [game.localize("greedycraft.misc.bug_stone.tooltip.1"), game.localize("greedycraft.misc.bug_stone.tooltip.2")]}}) as IItemStack;
 
 recipes.addShapeless("nametag_to_human_spawn_egg", <minecraft:spawn_egg>, [<minecraft:name_tag>.marked("nametag"), <minecraft:egg>], 
 function(out, ins, cInfo) {
     var name = ins.nametag.displayName;
-    return <minecraft:spawn_egg>.withTag({display: {Name: "§e"+name+"§b的刷怪蛋"}, EntityTag: {Username: name, id: "headcrumbs:human"}});
+    return <minecraft:spawn_egg>.withTag({display: {Name: "§e" + name + game.localize("greedycraft.misc.spawn_egg")}, EntityTag: {Username: name, id: "headcrumbs:human"}});
 }, null);
 recipes.addShapeless("head_to_human_spawn_egg", <minecraft:spawn_egg>, [<minecraft:skull:3>.marked("head"), <minecraft:egg>], 
 function(out, ins, cInfo) {
@@ -30,12 +30,12 @@ function(out, ins, cInfo) {
             name = nameData.asString();
         }
     }
-    return <minecraft:spawn_egg>.withTag({display: {Name: "§e"+name+"§b的刷怪蛋"}, EntityTag: {Username: name, id: "headcrumbs:human"}});
+    return <minecraft:spawn_egg>.withTag({display: {Name: "§e" + name + game.localize("greedycraft.misc.spawn_egg")}, EntityTag: {Username: name, id: "headcrumbs:human"}});
 },null);
 recipes.addShapeless("nametag_to_head", <minecraft:skull>, [<minecraft:name_tag>.marked("nametag1"), <minecraft:skull:*>], 
 function(out, ins, cInfo) {
     var name = ins.nametag1.displayName;
-    return <minecraft:skull:3>.withTag({display: {Name: "§e"+name+"§b的头"}, SkullOwner: name});
+    return <minecraft:skull:3>.withTag({display: {Name: "§e" + name + game.localize("greedycraft.misc.head")}, SkullOwner: name});
 },null);
 
 recipes.addShaped("dank_null_1", <danknull:dank_null_1>, 

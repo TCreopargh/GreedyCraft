@@ -252,6 +252,16 @@
                     "type": "item",
                     "name": "additions:tcsponsors-goodbye_sword",
                     "weight": 1
+                },
+				{
+                    "type": "item",
+                    "name": "additions:tcsponsors-capitalism",
+                    "weight": 1
+                },
+				{
+                    "type": "item",
+                    "name": "additions:tcsponsors-doomshroom",
+                    "weight": 1
                 }
             ]
         }

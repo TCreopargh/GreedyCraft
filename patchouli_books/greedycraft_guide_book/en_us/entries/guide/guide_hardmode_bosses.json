@@ -1,22 +1,26 @@
 {
-    "name": "§c困难模式Boss",
+    "name": "§cHardmode Bosses",
     "icon": "additions:greedycraft-sun_totem",
     "category": "patchouli:guide_category",
     "pages": [
         {
             "type": "text",
-            "text": "$(c)要在困难模式中取得阶段性进展，你需要击败一些Boss。$(2)下面开始讲解在困难模式中你不得不遇见的Boss。$(br2)$(4)注意：在非休闲模式下，使用祭坛召唤的Boss存活时，如果有任何玩家死亡，Boss会立即消失。$(br)$(c)注意2：由于有四季更替，会下雪的地方不一定就是寒冷的生物群系！$()"
+            "text": "$(c)To make progress in hardmode, defeating some bosses are necessary.$(2) Here's the bosses you will encounter in hardmode.$(br2)$(4)Note: all bosses restore to full health when a player dies and some bosses just disappear instead.$(br)$(c)Note 2: Due to the season system, not all snowing places are actually \"Coid\".$()"
         },
         {
             "type": "entity",
             "entity": "mowziesmobs:frostmaw",
             "scale": 0.6,
 			"offset": 1,
-            "text": "$(5)雪地中的巨兽，虎视眈眈地等待着它的猎物。$()"
+            "text": "$(5)The giant beast rests in the snow that waits for its prey to come by.$()"
         },
         {
             "type": "text",
-            "text": "$(9)冰霜巨口$()需要手持$(9)巨兽之手$(8)$()Shift右键$(5)铸造祭坛$()(二者的合成配方如右图所示)进行召唤。$(c)注意：召唤需要祭坛周围有$(2)15 * 15$()$(c)的一块开阔平坦区域，在此区域内不能有其他方块并且地板不能有缺口。$(3)冰霜巨口只有在祭坛位于$(3)寒冷$()的生物群系且正在下雪时才能召唤。$()冰霜巨口是非休闲模式中获得第一块$(d)极寒锭$()的唯一方式，在$(5)600难度以上$()击败它可以获得随机数量的极寒锭，之后可以使用飞龙金属制成的工具在寒冷的生物群系挖掘极寒矿。$(br)注意：在非休闲模式下，冰霜巨口会在任意玩家死亡时消失，请为此做好准备。"
+            "text": "$(9)Frostmaw$() is summoned by Shift-right-clicking a $(5)Summoning Altar$() with a $(9)Beast Hand$(8) in your hand.$() (Crafting recipes can be found later in this book). $(c)Note: a $(2)15 * 15$()$(c) area of empty space is required near the altar. No other blocks are allowed in this area, and the surface must be flat, without holes.$(3) Frostmaw can only be summoned in a $(3cold$() biome when it's snowing.$() Frostmaw is the only way to get your first piece of $(d)Cryonic Ingot$() in expert and adventure modes."
+        },
+        {
+            "type": "text",
+            "text": " Defeating it above $(5)600 difficulty$() will get you a random amount of Cryonic Ingots. Then you can mine cryonic ore generated in coold biomes with a wyvern metal tool.$(br) Note: If the packmode is not casual mode, Frostmaw will disappear if any of the players in the server die. Please be prepared."
         },
         {
             "type": "crafting",
@@ -25,7 +29,7 @@
         },
 		 {
             "type": "multiblock",
-			"text": "一个有效的Boss场地的示范。最中间的放置于石头上的方块为铸造祭坛。$(3)平台上的积雪会被看作为空气，因此无需扫雪。$()",
+			"text": "A example of a valid boss arena. The block in the center is a Summoning Altar. $(3)You don't need to clear snow layers on the arena.$()",
 			"symmertrical": true,
             "multiblock": {
                 "mapping": {
@@ -74,11 +78,15 @@
             "type": "entity",
             "entity": "mowziesmobs:barako",
             "scale": 0.8,
-            "text": "$(6)世世代代侍奉太阳。$()"
+            "text": "$(6)The servant of the sun.$()"
         },
         {
             "type": "text",
-            "text": "$(5)太阳酋长$()需要手持$(9)太阳图腾$(8)(合成配方如右图所示)$()Shift右键$(5)铸造祭坛$()进行召唤。召唤方式基本与冰霜巨口相同，但是只有在天气晴朗的白天才能召唤成功。非休闲模式中，你必须击败太阳酋长才能获取$(6)永燃锭$()以制作神龙有关工具。在$(2)700以上难度$()击败召唤出的太阳酋长时必然会获得$(6)破碎的日耀之星$()和$(6)日耀之种$()，两者合成出的$(5)日耀之星$()使用后能够解锁$(c)永燃锭$()。$(br)注意：太阳酋长同样也会在玩家死亡时消失。"
+            "text": "$(5)Barako, the Sun Chief$() is summoned by right-clicking $(5)Summoning Altar$() with a $(9)Sun Totem$(8) in your hand. (Crafting recipe can be found later in this book) The summoning method is basically the same with Forstmaw, excepe you can only summon at day when it's sunny. In adventure and expert modes, Barako must be defeated before you can obtain $(6)Infernium Ingot$() to make Draconic Ingot. "
+        },
+        {
+            "type": "text",
+            "text": "Defeating a summoned Barako (not the naturally spawned ones) above $(2)700 difficulty$() will get you a $(6)Broken Solarium Star$() and a $(6)Seed of the Sun$(), use them to make a $(5)Solarium Star$() to unlock $(c)Infernium Ingot$(). $(br)Note: Barako will also disappear when a player dies."
         },
         {
             "type": "crafting",
@@ -90,19 +98,23 @@
             "entity": "draconicevolution:chaosguardian",
             "scale": 1.5,
 			"offset": -6,
-            "text": "$(5)熵与无序的支配者。$()"
+            "text": "$(5)The dominator of entropy and chaos.$()"
         },
         {
             "type": "text",
-            "text": "$(5)混沌守卫$()是你需要打的最后一个Boss。它生成在坐标为5000的整数倍的混沌岛处。$(8)（比如(-5000,5000), (5000,0), (0,5000), (5000,-10000)都会有混沌岛生成，但(0,0)除外，因为那里是末地主岛。）$()尽管混沌守卫可以在任何时候挑战，但是只有做出神龙相关装备之后前往才有意义，因为混沌守卫的混沌伤害可以轻易秒杀任何没有混沌防护的玩家，并且混沌碎片也无法在获得觉醒核心前使用。另外，最好拥有能持续飞行的手段（比如神龙护甲板），不然会非常难打。"
+            "text": "$(5)Chaos Guardian$() is the last boss you'll need to fight. It spawns in the center of chaos islands, which are located where the coords can be divided by 5000. $(8)(For instance, Chaos Guardian will spawn at (-5000,5000), (5000,0), (0,5000), (5000,-10000), but not (0,0) because that's the main End island.)$()"
         },
         {
             "type": "text",
-            "text": "要想在混沌守卫的密集弹幕中存活，$(6)混沌抗性强化$()是必不可少的，只要将觉醒核心打到你的匠魂盔甲上就能获得混沌抗性效果，最高5级，每个盔甲的效果叠加，因此建议将所有盔甲全打上5级混沌强化再前往。在你能伤害混沌守卫之前，必须打掉所有的$(c)混沌水晶$()。$(5)混沌水晶是不会复活的，但是当所在的区块没被加载时可能会自动重置，建议在战斗前在视频设置中把渲染距离调大（12左右），以防止水晶复活。$()"
+            "text": "$() Although you can fight it at any times, you only stand a chance to win after having full sets of draconic armor (or better ones) because Chaos Guardian can easily insta-kill anyone who has no protection against Chaotic Damage. Also chaotic shards can't be used before obtaining the awakened core. Also you need something that enables creative flight (like draconic metal armor plate)."
         },
         {
             "type": "text",
-            "text": "击败混沌守卫后，游戏难度会提升，并且你可以从混沌岛向下挖掘以获得$(5)混沌碎片$()，这是制作混沌核心的原料。在这之后，下一个要做的东西就是无尽催化剂了，请继续完善工业和魔法直到完成毕业设计。"
+            "text": "To survive in the rains of bullets during this battle, $(6)Entropic Modifier$() is a must-have. Put this modifier on your tconstruct armor to give yourself chaotic damage protection, when you max up this modifier to level 5 on all armors you can challenge the Chaos Guardian. You need to destroy all $(c)混Chaotic Crystals$() before dealing damage to the dragon. $(5) Chaos Crystals will not respawn normally, but will respawn if it's chunk is unloaded, so please increase your render distance (to around 12) to prevent crystals from respawning."
+        },
+        {
+            "type": "text",
+            "text": "After defeating the Chaos Guardian, the difficulty will increase and you can dig down from the center of the chaos island to get $(5)Chaotic Shards$(), a important ingredient for Chaotic Cores. Next, you will prepare for the Infinity Catalyst amd continue to expand your base."
         }
     ]
 }

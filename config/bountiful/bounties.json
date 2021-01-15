@@ -252,6 +252,24 @@
         "weight": 250
     },
     {
+        "content": "entity:minecraft:spider",
+        "amount": {
+            "min": 12,
+            "max": 40
+        },
+        "unitWorth": 300,
+        "weight": 250
+    },
+    {
+        "content": "entity:minecraft:cave_spider",
+        "amount": {
+            "min": 6,
+            "max": 32
+        },
+        "unitWorth": 500,
+        "weight": 250
+    },
+    {
         "content": "entity:headcrumbs:human",
         "amount": {
             "min": 4,

@@ -72,10 +72,10 @@ events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
     // Hint while trying to go to disallowed dimensions
     if(player.world.getWorldTime() as long % 20 == 0) {
         if(player.world.getBlock(player.position).definition.id == "minecraft:portal" && !player.hasGameStage("twilight_shield")) {
-            server.commandManager.executeCommand(server, "/title " + player.name + " actionbar [\"\",{\"text\":\"你需要取得更多进展才能进入下界！请查看整合包指南手册。\",\"color\":\"dark_purple\"}]");
+            server.commandManager.executeCommand(server, "/title " + player.name + " actionbar [\"\",{\"text\":\"" + game.localize("greedycraft.event.nether.reject.message") + "\",\"color\":\"dark_purple\"}]");
         }
         if(player.world.getBlock(player.position).definition.id == "minecraft:end_portal" && !player.hasGameStage("ender_charm")) {
-            server.commandManager.executeCommand(server, "/title " + player.name + " actionbar [\"\",{\"text\":\"你需要取得更多进展才能进入末地！请查看整合包指南手册。\",\"color\":\"dark_purple\"}]");
+            server.commandManager.executeCommand(server, "/title " + player.name + " actionbar [\"\",{\"text\":\"" + game.localize("greedycraft.event.end.reject.message") + "\",\"color\":\"dark_purple\"}]");
         }
     }
 
@@ -103,7 +103,7 @@ events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
             if(player.world.getWorldTime() as long % 20 == 0) {
                 player.addPotionEffect(<potion:minecraft:blindness>.makePotionEffect(50, 0, false, false));
                 player.attackEntityFrom(IDamageSource.DROWN(), 10.0);
-                server.commandManager.executeCommand(server, "/title " + player.name + " actionbar [\"\",{\"text\":\"警告\",\"color\":\"red\"},{\"text\":\": 深海的压力隔绝了一切氧气，使你无法呼吸。\",\"color\":\"yellow\"}]");
+                server.commandManager.executeCommand(server, "/title " + player.name + " actionbar [\"\",{\"text\":\"" + game.localize("greedycraft.event.deep_sea.warning") + "\",\"color\":\"red\"},{\"text\":\"" + game.localize("greedycraft.event.deep_sea.message") + "\",\"color\":\"yellow\"}]");
             }
         }
     }

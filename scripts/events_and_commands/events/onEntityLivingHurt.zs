@@ -65,8 +65,8 @@ events.onEntityLivingHurt(function(event as crafttweaker.event.EntityLivingHurtE
     var player as IPlayer = entity;
 
     // Spider traps player with slowness or web
-    var spiderId = <entity:spiderstpo:better_spider>.id;
-    var caveSpiderId = <entity:spiderstpo:better_cave_spider>.id;
+    var spiderId = <entity:minecraft:spider>.id;
+    var caveSpiderId = <entity:minecraft:cave_spider>.id;
     if(!isNull(event.damageSource.getTrueSource()) && event.damageSource.getTrueSource() instanceof IEntityLivingBase) {
         if(event.damageSource.getTrueSource().definition.id == spiderId || event.damageSource.getTrueSource().definition.id == caveSpiderId) {
             if(!entity.isPotionActive(<potion:minecraft:slowness>)) {

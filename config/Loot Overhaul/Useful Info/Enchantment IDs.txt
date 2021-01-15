@@ -216,20 +216,20 @@ openblocks:explosive
    - Max Level: 3
 
 
-endercore:xpboost
-   - Id: 26
-   - Rarity: UNCOMMON
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 3
-
-
 endercore:autosmelt
-   - Id: 27
+   - Id: 26
    - Rarity: RARE
    - Treasure: false
    - Min Level: 1
    - Max Level: 1
+
+
+endercore:xpboost
+   - Id: 27
+   - Rarity: UNCOMMON
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 3
 
 
 enderio:shimmer
@@ -248,20 +248,20 @@ enderio:witherarrow
    - Max Level: 1
 
 
-enderio:soulbound
+enderio:repellent
    - Id: 30
    - Rarity: VERY_RARE
    - Treasure: false
    - Min Level: 1
-   - Max Level: 1
+   - Max Level: 4
 
 
-enderio:repellent
+enderio:witherweapon
    - Id: 31
-   - Rarity: VERY_RARE
+   - Rarity: UNCOMMON
    - Treasure: false
    - Min Level: 1
-   - Max Level: 4
+   - Max Level: 1
 
 
 minecraft:efficiency
@@ -296,9 +296,9 @@ minecraft:fortune
    - Max Level: 3
 
 
-enderio:witherweapon
+enderio:soulbound
    - Id: 36
-   - Rarity: UNCOMMON
+   - Rarity: VERY_RARE
    - Treasure: false
    - Min Level: 1
    - Max Level: 1

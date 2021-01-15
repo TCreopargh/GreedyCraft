@@ -1,0 +1,16 @@
+{
+    "name": "§d难度同步",
+    "icon": "additions:greedycraft-difficulty_syncer",
+    "category": "patchouli:difficulty_category",
+    "priority": "true",
+    "pages": [
+        {
+            "type": "text",
+            "text": "难度一般会在你达到特定任务时给予，但是在版本更新/存档转移的过程中时可能会有小几率使你的难度丢失，或者被设为不正常的值。如果遇到这种情况，请使用$(c)/syncdifficulty$()指令来使你的难度和游戏阶段同步。如果你真的连这个指令都记不住的话可以使用右图的$(5)难度同步宝珠$()。"
+        }, 
+		{
+            "type": "crafting",
+            "recipe": "crafttweaker:difficulty_syncer"
+        }
+    ]
+}

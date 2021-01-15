@@ -1,0 +1,16 @@
+{
+    "name": "§c§n难度机制介绍",
+    "icon": "mysticalagradditions:stuff:1",
+    "category": "patchouli:difficulty_category",
+    "priority": "true",
+    "pages": [
+        {
+            "type": "text",
+            "text": "难度机制影响怪物的血量和你受到的伤害量，也影响着精英怪的生成几率。难度会随着你所处的游戏阶段发生变化。$(br)在§c下界§r或§5末地§r和部分mod维度时，难度会额外增加一定的数值，当你离开这些维度时难度会恢复正常。"
+        }, 
+ 	{
+            "type": "text",
+            "text": "难度会影响怪物的血量以及你受到的伤害，并且会§6极大地§r影响怪物的掉落物。在高难度时怪物和Boss掉落的经验、战利品都会大幅增加。关于难度随游戏阶段的影响，请参考下一篇内容。"
+        }
+    ]
+}

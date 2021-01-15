@@ -32,17 +32,17 @@ events.onCommand(function (event as CommandEvent) {
             val player as IPlayer = event.commandSender;    
                 event.cancel();
                 player.server.commandManager.executeCommand(player.server, "/kill " + player.name);
-                player.sendChat("§c§o你想干啥？！");
+                player.sendChat(game.localize("greedycraft.event.anticheat.wtf"));
         }
     }
 });    
 
 val wussMode as ZenCommand = ZenCommand.create("wussmode");
 wussMode.getCommandUsage = function(sender) {
-    return "无参数：开启沙雕模式"; 
+    return game.localize("greedycraft.command.wussmode.usage"); 
 };
 wussMode.requiredPermissionLevel = 2;
 wussMode.execute = function(command, server, sender, args) {
-    server.commandManager.executeCommand(server, "/tellraw @a {\"text\":\"§e[服务器]§a当前处于休闲模式，作弊模式已默认开启。\"}");
+    server.commandManager.executeCommand(server, "/tellraw @a {\"text\":\"" + game.localize("greedycraft.event.anticheat.casual.broadcast") + "\"}");
 };
 wussMode.register();

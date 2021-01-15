@@ -1,15 +1,15 @@
 {
-    "name": "多方块厨房",
+    "name": "Multiblock Kitchen",
     "icon": "cookingforblockheads:fridge",
     "category": "patchouli:food_category",
     "pages": [
         {
             "type": "text",
-            "text": "§3多方块厨房§r是一种多方块结构，能够便捷地制作不同种类的食物。本整合包有2000种左右的食物，并且吃不同种类的食物能够提升最大生命值，就让它来开启你的舌尖之旅吧！$(br)你可以在JEI中搜索§5@cookingforblockheads§r来查看多方块厨房的全部内容。$(br2)多方块厨房的使用非常简单，只要将所有方块简单地连接在一起即可。"
+            "text": "§3Multiblock Kitchen§r is a multiblock structure used to cook all kinds of food at ease. There are more than 2,000 kinds of food in this modpack, so why not make a kitchen for this? $(br)You can search §5@cookingforblockheads§r in JEI to view all content of the multiblock kitchen.$(br)Building the kitchen is pretty simple, just simply connect all blocks together and you're good to go."
         },
 		{
             "type": "text",
-            "text": "§3冰箱§r用于存储食材，你应该将你获得的所有食材都放在这里。§3烹饪桌§r是多方块厨房的核心组件，用于将食材制成食物或高级食材。§3烤箱§r用于烤熟生的食物，§3水槽§r可提供无限水，§3厨具架§r用于放置厨具，即：在食物配方中需要但不消耗的物品。§3牛奶罐§r用于存储牛奶。在牛奶罐上放一只牛并想方法用铁砧砸死牛就可以获得§3罐中奶牛§r，可以随时间而不断产生牛奶！还有其他的一些装饰方块，你可以自己研究。"
+            "text": "§3Fridge§r is used for storing ingredients, you should put all food ingredients you get in it. §3Cooking Table§r is the core component of the kitchen and is used to make ingredients into prepared food. §3Oven§r is used for cooking raw food. §3Sink§r supplies an infinite amount of water, §3Tool Rack§r is used for storing cooking tools, §3Milk Jar§r is used for storing milk. Try to smash a cow into the jar with an anvil to make a §3Cow in a Jar§r, wich produces milk automatically! Also there are some other blocks you can play with."
         }, 
 		{
             "type": "crafting",

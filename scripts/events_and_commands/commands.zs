@@ -26,6 +26,9 @@ import mods.zenutils.command.CommandUtils;
 import mods.zenutils.command.IGetTabCompletion;
 import mods.zenutils.command.TabCompletion;
 import mods.zenutils.StringList;
+import mods.zenutils.I18n;
+
+import scripts.util.lang as LangUtil;
 
 function compareItemStack(a as IItemStack, b as IItemStack) as bool {
     if(a.definition.id == b.definition.id && a.metadata == b.metadata) {
@@ -36,35 +39,35 @@ function compareItemStack(a as IItemStack, b as IItemStack) as bool {
 
 val purgeCommand as ZenCommand = ZenCommand.create("purge");
 purgeCommand.getCommandUsage = function(sender) {
-    return "/purge";
+    return game.localize("greedycraft.command.purgeCommand.usage");
 };
 purgeCommand.requiredPermissionLevel = 0; 
 purgeCommand.execute = function(command, server, sender, args) {
     server.commandManager.executeCommand(server, "/kill @e[type=Item]");
     var player as IPlayer = CommandUtils.getCommandSenderAsPlayer(sender) as IPlayer;
     if(!isNull(player)) {
-        player.sendChat("§6已清除所有掉落物");
+        player.sendChat(game.localize("greedycraft.command.purge.chat"));
     }
 };
 purgeCommand.register();
 
 val hideScoreboardCommand as ZenCommand = ZenCommand.create("hidescoreboard");
 hideScoreboardCommand.getCommandUsage = function(sender) {
-    return "/hidescoreboard";
+    return game.localize("greedycraft.command.hideScoreboardCommand.usage");
 };
 hideScoreboardCommand.requiredPermissionLevel = 2; 
 hideScoreboardCommand.execute = function(command, server, sender, args) {
     server.commandManager.executeCommand(server, "/scoreboard objectives remove title");
     var player as IPlayer = CommandUtils.getCommandSenderAsPlayer(sender) as IPlayer;
     if(!isNull(player)) {
-        player.sendChat("§a你已暂时隐藏计分板。注意计分板会在你下次进入游戏时重新显示。");
+        player.sendChat(game.localize("greedycraft.command.hideScoreboardCommand.chat"));
     }
 };
 hideScoreboardCommand.register();
 
 val syncDifficultyCommand as ZenCommand = ZenCommand.create("syncdifficulty");
 syncDifficultyCommand.getCommandUsage = function(sender) {
-    return "/syncdifficulty [玩家]";
+    return game.localize("greedycraft.command.syncDifficultyCommand.usage");
 };
 syncDifficultyCommand.requiredPermissionLevel = 0; 
 syncDifficultyCommand.tabCompletionGetters = [IGetTabCompletion.player()];
@@ -88,8 +91,8 @@ syncDifficultyCommand.execute = function(command, server, sender, args) {
                 }
             }
             server.commandManager.executeCommand(server, "/scalinghealth difficulty set " + maxDifficulty + " " + player.name);
-            sender.sendMessage("§e难度同步成功，已将§6" + player.name + "§e的难度设为§6" + maxDifficulty);
-            player.sendChat("§e难度同步成功，您的难度已被设为§6" + maxDifficulty);
+            sender.sendMessage(I18n.format("greedycraft.command.syncDifficultyCommand.chat1", [player.name, "" + maxDifficulty] as string[]));
+            player.sendChat(I18n.format("greedycraft.command.syncDifficultyCommand.chat2", "" + maxDifficulty));
         }
     }
 };
@@ -97,7 +100,7 @@ syncDifficultyCommand.register();
 
 val infinityStoneCommand as ZenCommand = ZenCommand.create("infinitykill");
 infinityStoneCommand.getCommandUsage = function(sender) {
-    return "/infinitykill [玩家]";
+    return game.localize("greedycraft.command.infinityStoneCommand.usage");
 };
 infinityStoneCommand.requiredPermissionLevel = 2; 
 infinityStoneCommand.tabCompletionGetters = [IGetTabCompletion.player()];
@@ -132,7 +135,7 @@ infinityStoneCommand.execute = function(command, server, sender, args) {
             server.commandManager.executeCommand(server, "/replaceitem entity " + player.name + " slot.armor.feet additions:greedycraft-infinity_stone");
             server.commandManager.executeCommand(server, "/give " + player.name + " additions:greedycraft-infinity_stone 1 0");
             server.commandManager.executeCommand(server, "/kill " + player.name);
-            player.sendChat("§5§o请问，您配吗？");
+            player.sendChat(game.localize("greedycraft.command.infinityStoneCommand.not_worth"));
         }
     }
 };
@@ -140,7 +143,7 @@ infinityStoneCommand.register();
 
 val unlockAllCommand as ZenCommand = ZenCommand.create("unlockallstages");
 unlockAllCommand.getCommandUsage = function(sender) {
-    return "/unlockallstages [玩家]";
+    return game.localize("greedycraft.command.unlockAllCommand.usage");
 };
 unlockAllCommand.requiredPermissionLevel = 2; 
 unlockAllCommand.tabCompletionGetters = [IGetTabCompletion.player()];
@@ -159,8 +162,8 @@ unlockAllCommand.execute = function(command, server, sender, args) {
             for stage in listStages {
                 player.addGameStage(stage);
             }
-            sender.sendMessage("§e已为§6" + player.name + "§e解锁§6" + listStages.length + "§e个阶段！");
-            player.sendChat("§e您已解锁§6" + listStages.length + "§e个阶段！");
+            sender.sendMessage(I18n.format("greedycraft.command.unlockAllCommand.chat1", [player.name, "" + listStages.length] as string[]));
+            player.sendChat(I18n.format("greedycraft.command.unlockAllCommand.chat2", "" + listStages.length));
         }
     }
 };
@@ -168,7 +171,7 @@ unlockAllCommand.register();
 
 val lockAllCommand as ZenCommand = ZenCommand.create("lockallstages");
 lockAllCommand.getCommandUsage = function(sender) {
-    return "/lockallstages [玩家]";
+    return game.localize("greedycraft.command.lockAllCommand.usage");
 };
 lockAllCommand.requiredPermissionLevel = 2; 
 lockAllCommand.tabCompletionGetters = [IGetTabCompletion.player()];
@@ -187,8 +190,8 @@ lockAllCommand.execute = function(command, server, sender, args) {
             for stage in listStages {
                 player.removeGameStage(stage);
             }
-            sender.sendMessage("§c已为§6" + player.name + "§c锁上§6" + listStages.length + "§c个阶段！");
-            player.sendChat("§c您已锁上§6" + listStages.length + "§c个阶段！");
+            sender.sendMessage(I18n.format("greedycraft.command.lockAllCommand.chat1", [player.name, "" + listStages.length] as string[]));
+            player.sendChat(I18n.format("greedycraft.command.lockAllCommand.chat2", "" + listStages.length));
         }
     }
 };
@@ -196,7 +199,7 @@ lockAllCommand.register();
 
 val pureDaisyCommand as ZenCommand = ZenCommand.create("purifyingdust");
 pureDaisyCommand.getCommandUsage = function(sender) {
-    return "/lockallstages [玩家]";
+    return game.localize("greedycraft.command.pureDaisyCommand.usage");
 };
 pureDaisyCommand.requiredPermissionLevel = 2; 
 pureDaisyCommand.tabCompletionGetters = [IGetTabCompletion.player()];
@@ -277,7 +280,7 @@ pureDaisyCommand.register();
 
 val showDeathQuotesCommand as ZenCommand = ZenCommand.create("showdeathquotes");
 showDeathQuotesCommand.getCommandUsage = function(sender) {
-    return "/showdeathquotes [玩家]";
+    return game.localize("greedycraft.command.showDeathQuotesCommand.usage");
 };
 showDeathQuotesCommand.requiredPermissionLevel = 0; 
 showDeathQuotesCommand.tabCompletionGetters = [IGetTabCompletion.player()];
@@ -294,7 +297,7 @@ showDeathQuotesCommand.execute = function(command, server, sender, args) {
     for player in players {
         if(!isNull(player)) {
             player.removeGameStage("hide_death_quotes");
-            player.sendChat("§e您已打开死亡随机信息显示。");
+            player.sendChat(game.localize("greedycraft.command.showDeathQuotesCommand.chat"));
         }
     }
 };
@@ -302,7 +305,7 @@ showDeathQuotesCommand.register();
 
 val hideDeathQuotesCommand as ZenCommand = ZenCommand.create("hidedeathquotes");
 hideDeathQuotesCommand.getCommandUsage = function(sender) {
-    return "/hidedeathquotes [玩家]";
+    return game.localize("greedycraft.command.hideDeathQuotesCommand.usage");
 };
 hideDeathQuotesCommand.requiredPermissionLevel = 0; 
 hideDeathQuotesCommand.tabCompletionGetters = [IGetTabCompletion.player()];
@@ -319,7 +322,7 @@ hideDeathQuotesCommand.execute = function(command, server, sender, args) {
     for player in players {
         if(!isNull(player)) {
             player.addGameStage("hide_death_quotes");
-            player.sendChat("§a您已隐藏死亡随机信息显示。");
+            player.sendChat(game.localize("greedycraft.command.hideDeathQuotesCommand.chat"));
         }
     }
 };
@@ -327,7 +330,7 @@ hideDeathQuotesCommand.register();
 
 val setMaidHealthCommand as ZenCommand = ZenCommand.create("setmaidhealth");
 setMaidHealthCommand.getCommandUsage = function(sender) {
-    return "/setmaidhealth [实体] [玩家]";
+    return game.localize("greedycraft.command.setMaidHealthCommand.usage");
 };
 setMaidHealthCommand.requiredPermissionLevel = 2; 
 setMaidHealthCommand.tabCompletionGetters = [IGetTabCompletion.player(), IGetTabCompletion.player()];
@@ -369,14 +372,14 @@ setMaidHealthCommand.execute = function(command, server, sender, args) {
                 */
             }
         }
-        player.sendChat("§d已设置§5" + entities.length + "§d个实体的血量！");
+        player.sendChat(I18n.format("greedycraft.command.setMaidHealthCommand.chat", "" + entities.length));
     }
 };
 setMaidHealthCommand.register();
 
 val giveOmnipediaCommand as ZenCommand = ZenCommand.create("giveomnipedia");
 giveOmnipediaCommand.getCommandUsage = function(sender) {
-    return "/giveomnipedia [玩家]";
+    return game.localize("greedycraft.command.giveOmnipediaCommand.usage");
 };
 giveOmnipediaCommand.requiredPermissionLevel = 2; 
 giveOmnipediaCommand.tabCompletionGetters = [IGetTabCompletion.player()];
@@ -400,7 +403,7 @@ giveOmnipediaCommand.register();
 
 val suicideCommand as ZenCommand = ZenCommand.create("suicide");
 suicideCommand.getCommandUsage = function(sender) {
-    return "/suicide";
+    return game.localize("greedycraft.command.suicideCommand.usage");
 };
 suicideCommand.requiredPermissionLevel = 0;
 suicideCommand.execute = function(command, server, sender, args) {
@@ -414,7 +417,7 @@ suicideCommand.register();
 
 val sendWelcomeQuoteCommand as ZenCommand = ZenCommand.create("sendwelcomequote");
 sendWelcomeQuoteCommand.getCommandUsage = function(sender) {
-    return "/sendwelcomequote [玩家]";
+    return game.localize("greedycraft.command.sendWelcomeQuoteCommand.usage");
 };
 sendWelcomeQuoteCommand.requiredPermissionLevel = 2;
 sendWelcomeQuoteCommand.tabCompletionGetters = [IGetTabCompletion.player()];
@@ -430,16 +433,17 @@ sendWelcomeQuoteCommand.execute = function(command, server, sender, args) {
     }
     for player in players {
         if(!isNull(player)) {
-            var index as int = Math.floor(Math.random() * welcomeQuotes.length) as int;
+            var quotes as string[] = welcomeQuotes[LangUtil.getLanguage()];
+            var index as int = Math.floor(Math.random() * quotes.length) as int;
             if(index < 0) {
                index = 0;
             }
-            if(index >= welcomeQuotes.length) {
-               index = welcomeQuotes.length - 1;
+            if(index >= quotes.length) {
+               index = quotes.length - 1;
             }
-            var msg as string = welcomeQuotes[index].replace("%playername%", player.name);
+            var msg as string = quotes[index].replace("%playername%", player.name);
             if(!msg.startsWith("[")) {
-                msg = '["",{"text":"§9[提示]§r ' + msg + '"}]';
+                msg = '["",{"text":"' + game.localize("greedycraft.command.sendWelcomeQuoteCommand.tip") + ' ' + msg + '"}]';
             }
             server.commandManager.executeCommand(server, "/tellraw " + player.name + " " + msg);
         }
@@ -449,7 +453,7 @@ sendWelcomeQuoteCommand.register();
 
 val broadcastCommand as ZenCommand = ZenCommand.create("broadcast");
 broadcastCommand.getCommandUsage = function(sender) {
-    return "/broadcast [消息]";
+    return game.localize("greedycraft.command.broadcastCommand.usage");
 };
 broadcastCommand.requiredPermissionLevel = 2;
 broadcastCommand.execute = function(command, server, sender, args) {
@@ -470,7 +474,7 @@ broadcastCommand.register();
 
 val executorCommand as ZenCommand = ZenCommand.create("executor");
 executorCommand.getCommandUsage = function(sender) {
-    return "/executor [玩家]";
+    return game.localize("greedycraft.command.executorCommand.usage");
 };
 executorCommand.requiredPermissionLevel = 2;
 executorCommand.tabCompletionGetters = [IGetTabCompletion.player()];
@@ -488,17 +492,17 @@ executorCommand.execute = function(command, server, sender, args) {
             permission = true;
         }
         if(!permission) {
-            player.sendChat("§c拒绝访问。§6只有真正依靠自己的能力取得成就的人才能成为裁决者。");
+            player.sendChat(game.localize("greedycraft.command.executorCommand.deny"));
             continue;
         }
-        player.sendChat("§6你好，伟大的裁决者，我是写裁决者终端程序的程序员，老实告诉你吧，这个功能我压根就没有实现，他们把我一个人关在小屋子写程序里说是为了保密，而且据说埃拉西亚计划明天就要上线了我现在还没开始写，于是我决定，去他的，我就不写了！希望这段程序不会有人用到吧...不过如果真的要用，那也多半不关我事了，在虚拟世界里你能把我怎么办？请你自求多福吧！");
+        player.sendChat(game.localize("greedycraft.command.executorCommand.message"));
     }
 };
 executorCommand.register();
 
 val sendFirstJoinMessageCommand as ZenCommand = ZenCommand.create("sendfirstjoinmessage");
 sendFirstJoinMessageCommand.getCommandUsage = function(sender) {
-    return "/sendfirstjoinmessage [玩家]";
+    return game.localize("greedycraft.command.sendFirstJoinMessageCommand.usage");
 };
 sendFirstJoinMessageCommand.requiredPermissionLevel = 2;
 sendFirstJoinMessageCommand.tabCompletionGetters = [IGetTabCompletion.player()];
@@ -514,7 +518,7 @@ sendFirstJoinMessageCommand.execute = function(command, server, sender, args) {
     }
     for player in players {
         if(!isNull(player)) {
-            player.sendChat(greetingMessage.replace("%PLAYERNAME%", player.name));
+            player.sendChat(greetingMessage[LangUtil.getLanguage()].replace("%PLAYERNAME%", player.name));
         }
     }
 };

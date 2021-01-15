@@ -1,13 +1,13 @@
 {
-	"name": "§6§n游戏阶段介绍",
+	"name": "§6§nGame Stages Introduction",
 	"icon": "additions:greedycraft-passport",
 	"category": "patchouli:gamestages_category",
 	"priority": true,
 	"pages": [{
 		"type": "text",
-		"text": "$(6)游戏阶段$()机制规定了基本的游戏流程，让游戏在有一定自由度的同时也有一定的目标性。在你探索的过程中，不难发现一些名为\"$(d)未知物品$()\"的物品，它们无法被捡起或使用。除物品之外，还有一些怪物、方块、合成表、匠魂材料、匠魂武器和强化也受到游戏阶段的影响。$(br2)如果你处于创造模式并且想解锁所有阶段，可以从JEI里拿一个$(6)通行令牌$()。"
+		"text": "$(6)Game Stages$() system indicates the walkthrough of the game and makes your target more clear. As you go on your journey, you will probably find some \"$(d)Unknown Items$()\". They can't be picked up or used until you have the corresponding game stage unlocked. Apart from items, some blocks, mobs, recipes, tinkers' materials and tinkers' tools are also locked behind stages. "
 	}, {
 		"type": "text",
-		"text": "$(2)关于游戏阶段的详细说明，请参考本章的其他内容。"
+		"text": "If you want to unlock all stages in creative mode, you can grab a $(6)Passport$() in JEI.$(br2)$(2)For elaborate info about game stages, please see other entries in this chapter."
 	}]
 }

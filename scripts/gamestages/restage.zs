@@ -39,23 +39,6 @@ GameStagesUtil.removeItemStages([
     <extrabotany:bottledpixie>
 ] as IIngredient[]);
 
-ItemStages.stageTooltip("energy_matter_core", "EMC:");
-ItemStages.stageTooltip("energy_matter_core", "EMC总和:");
-ItemStages.stageTooltip("energy_matter_core", "§eEMC:");
-ItemStages.stageTooltip("energy_matter_core", "§eEMC总和:");
-ItemStages.stageTooltip("energy_matter_core", "EMC：");
-ItemStages.stageTooltip("energy_matter_core", "EMC总和：");
-ItemStages.stageTooltip("energy_matter_core", "§eEMC：");
-ItemStages.stageTooltip("energy_matter_core", "§eEMC总和：");
-
-for mod in loadedMods {
-    for item in mod.items {
-        ItemStages.setUnfamiliarName("§5§ka§r §d未知物品 §5§ka§r", item);
-    }
-}
-
-ItemStages.setUnfamiliarName("§c无法直视的头颅", <ore:skullWitherSkeleton>);
-
 GameStagesUtil.restageItems("wielder_of_infinity", [
     <avaritia:infinity_sword>,
     <avaritia:infinity_bow>,

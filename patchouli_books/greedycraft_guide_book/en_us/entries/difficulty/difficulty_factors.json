@@ -1,11 +1,11 @@
 {
-    "name": "§5影响难度的因素",
+    "name": "§5Factors that affect difficulty",
     "icon": "minecraft:bed:14",
     "category": "patchouli:difficulty_category",
     "pages": [
         {
             "type": "text",
-            "text": "$(2)$(l)以下的关键事件会影响你当前的难度：$()$(li)进入暮色森林$(li)进入下界$(li)杀死凋零$(li)使用末影护符$(li)进入$(c)困难模式$()$(li)获得飞龙核心$(li)获得觉醒核心$(li)杀死混沌守卫$(li)获得混沌核心$(li)使用$(6)死亡金币$()开启$(c)超级困难模式$()$(li)获得无尽催化剂"
+            "text": "$(2)$(l)These events will have influence on your difficulty: $()$(li)Entering the Twilight Forest$(li)Entering the Nether$(li)Killing Wither for the first time$(li)Using Ender Charm$(li)Entering$(c) Hardmode$()$(li)Obtaining Wyvern Core$(li)Obtaining Awakened Core$(li)Killing Chaos Guardian for the first time$(li)Obtaining Chaotic Core$(li)Using $(6)Death Coin$()$(li)Obtaining Infinity Catalyst"
         }
     ]
 }

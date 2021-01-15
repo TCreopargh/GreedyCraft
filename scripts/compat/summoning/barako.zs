@@ -67,21 +67,21 @@ SummoningDirector.addSummonInfo(
             }
             if(!pass1) {
                 attempt.success = false;
-                attempt.message = "§c召唤失败。周围的地形不够开阔。\n§c你需要周围有至少15*15格的平坦开阔空间。\n§c高草等可以穿过的方块同样也会影响召唤。\n§6可以尝试使用Prefab的§e结构部件§6搭建平台。";
+                attempt.message = game.localize("greedycraft.zensummoning.barako.fail.1");
             } else if(!pass2) {
                 attempt.success = false;
-                attempt.message = "§c召唤失败。周围的地板不够平整。\n§c你需要周围有至少15*15格的平坦开阔空间。\n§c这条消息表明祭坛上方有足够的空气，但是祭坛所处的平台大小不够或有缺口。\n§6可以尝试使用Prefab的§e结构部件§6搭建平台。";
+                attempt.message = game.localize("greedycraft.zensummoning.barako.fail.2");
             } else if(attempt.world.isRaining()) {
                 attempt.success = false;
-                attempt.message = "§c雨水会削弱太阳酋长的能力，现在他不愿回应你的召唤！\n§6等到晴天再试试！";
+                attempt.message = game.localize("greedycraft.zensummoning.barako.fail.3");
             } else if(!attempt.world.dayTime) {
                 attempt.success = false;
-                attempt.message = "§c太阳酋长无法在夜间发挥他的能力，现在他不愿回应你的召唤！\n§6等到白天再试试！";
+                attempt.message = game.localize("greedycraft.zensummoning.barako.fail.4");
             } else if(attempt.world.getProvider().getDimensionID() != 0) {
                 attempt.success = false;
-                attempt.message = "§c你只能在主世界召唤太阳酋长！";
+                attempt.message = game.localize("greedycraft.zensummoning.barako.fail.5");
             } else { 
-                attempt.message = "§6太阳酋长 §5§o已苏醒！";
+                attempt.message = game.localize("greedycraft.zensummoning.barako.success");
             }
         })
 );

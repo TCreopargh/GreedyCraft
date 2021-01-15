@@ -67,5 +67,6 @@
 	"creative",
 	"hide_death_quotes",
     "iswuss",
-    "first_join_message_shown"
+    "first_join_message_shown",
+    "hide_scoreboard"
 ]

@@ -8,10 +8,10 @@
 
 events.onPlayerLoggedIn(function (event as crafttweaker.event.PlayerLoggedInEvent) {
     if(event.player.hasGameStage("expert") || event.player.hasGameStage("casual")) {
-        event.player.sendChat("§c检测到你的游戏模式和上次进入该存档时的游戏模式不同，这可能会对你的存档造成永久的影响（如强制开启作弊模式或进入假专家模式等），如果你不是有意为之，请及时恢复到上次进入该存档时的游戏模式并将该存档恢复至更改游戏模式前的备份。");
+        event.player.sendChat(game.localize("greedycraft.event.packmode_changed.chat"));
         server.commandManager.executeCommand(server, "/title " + event.player.name + " times 40 120 40");
-        server.commandManager.executeCommand(server, "/title " + event.player.name + " subtitle  {\"text\":\"§6请查看聊天记录以了解更多信息\"}");
-        server.commandManager.executeCommand(server, "/title " + event.player.name + " title {\"text\":\"§c§l游戏模式已更改！\"}");
+        server.commandManager.executeCommand(server, "/title " + event.player.name + " subtitle  {\"text\":\"" + game.localize("greedycraft.event.packmode_changed.title") + "\"}");
+        server.commandManager.executeCommand(server, "/title " + event.player.name + " title {\"text\":\"" + game.localize("greedycraft.event.packmode_changed.subtitle") + "\"}");
     } 
     event.player.removeGameStage("expert");
     event.player.removeGameStage("casual");

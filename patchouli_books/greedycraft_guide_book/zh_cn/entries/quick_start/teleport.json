@@ -1,0 +1,17 @@
+{
+    "name": "地图传送",
+    "icon": "waystones:waystone",
+    "category": "patchouli:quick_start_category",
+    "priority": "false",
+    "pages": [
+        {
+            "type": "text",
+            "text": "为了您的游戏体验，本整合包不建议使用小地图路径点传送。本整合包提供了大量的传送方式，比如在村庄里必然可以见到一个$(d)指路石$()。看到村庄记得激活一下指路石，然后就可以在所有路径石之间无成本传送。同时还有各种其他mod提供的传送道具，玩家可以自己探索。"
+        },
+		{
+            "type": "crafting",
+            "recipe": "waystones:waystone",
+			"recipe2": "crafttweaker:auto_gen_918073950"
+        }
+    ]
+}

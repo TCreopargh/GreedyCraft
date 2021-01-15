@@ -345,7 +345,7 @@
                 "cluster-size": 320
             },
             "cluster-count": 1,
-            "chunk-chance": 15,
+            "chunk-chance": 30,
             "min-height": 11,
             "max-height": 40,
             "retrogen": "true",
@@ -406,7 +406,7 @@
                 "cluster-size": 320
             },
             "cluster-count": 1,
-            "chunk-chance": 32,
+            "chunk-chance": 80,
             "min-height": 11,
             "max-height": 40,
             "retrogen": "true",

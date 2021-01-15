@@ -26,8 +26,6 @@ InfusionRitual.addRitual("abyssalite", 0, -1, 500, false, <abyssalcraft:abyore>,
     <abyssalcraft:shadowshard>, 
     <abyssalcraft:shadowfragment>
 ] as IIngredient[], false);
-game.setLocalization("ac.ritual.abyssalite", "渊素转化"); 
-game.setLocalization("ac.ritual.abyssalite.desc", "使用阴影宝石将铁矿石变成渊素矿石！");
 
 InfusionRitual.removeRitual(<abyssalcraft:psdl>);
 InfusionRitual.addRitual("dreadland_artifact", 1, -1, 10000, true, <abyssalcraft:psdl>,  <abyssalcraft:ingotblock:1>, [<abyssalcraft:powerstonetracker>, 

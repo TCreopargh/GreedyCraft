@@ -150,10 +150,10 @@ LootUtil.addItem(<minecraft:potion>.withTag({Potion: "minecraft:minecraft:luck"}
 LootUtil.addItem(<abyssalcraft:antidote>, 2, 1, 1, 1);
 LootUtil.addItem(<abyssalcraft:antidote:1>, 4, 1, 1, 1);
 LootUtil.addItem(<abyssalcraft:antidote:1>, 4, 1, 1, 1);
-LootUtil.addItem(<minecraft:splash_potion>.withTag({CustomPotionEffects: [{ShowParticles: 0 as byte, Duration: 1200, Id: 25, Amplifier: 126}], CustomPotionColor: 16722379, display: {Lore: ["§b你咋不上天呢？"], Name: "§6羽化登仙药剂"}}), 2, 1, 1, 1);
-LootUtil.addItem(<minecraft:splash_potion>.withTag({CustomPotionEffects: [{ShowParticles: 0 as byte, Duration: 2400, Id: 1, Amplifier: 126}, {ShowParticles: 0 as byte, Duration: 2400, Id: 8, Amplifier: 126}], CustomPotionColor: 720859, display: {Lore: ["§a感受疾风吧！"], Name: "§b§o卡其脱离太"}}), 2, 1, 1, 1);
-LootUtil.addItem(<minecraft:splash_potion>.withTag({CustomPotionEffects: [{ShowParticles: 0 as byte, Duration: 6000, Id: 27, Amplifier: 126}], CustomPotionColor: 0, display: {Lore: ["§9今天出货率真高啊！"], Name: "§8非酋药剂"}}), 2, 1, 1, 1);
-LootUtil.addItem(<minecraft:stick>.withTag({ench: [{lvl: 10, id: 19}], display: {Lore: ["§d§o你不要过来啊！！！"], Name: "§b击退之杖"}}), 1, 1, 1, 1);
+LootUtil.addItem(<minecraft:splash_potion>.withTag({CustomPotionEffects: [{ShowParticles: 0 as byte, Duration: 1200, Id: 25, Amplifier: 126}], CustomPotionColor: 16722379, display: {Lore: [game.localize("greedycraft.misc.flyingpotion.tooltip")], Name: game.localize("greedycraft.misc.flyingpotion.name")}}), 2, 1, 1, 1);
+LootUtil.addItem(<minecraft:splash_potion>.withTag({CustomPotionEffects: [{ShowParticles: 0 as byte, Duration: 2400, Id: 1, Amplifier: 126}, {ShowParticles: 0 as byte, Duration: 2400, Id: 8, Amplifier: 126}], CustomPotionColor: 720859, display: {Lore: [game.localize("greedycraft.misc.lightspeedpotion.tooltip")], Name: game.localize("greedycraft.misc.lightspeedpotion.name")}}), 2, 1, 1, 1);
+LootUtil.addItem(<minecraft:splash_potion>.withTag({CustomPotionEffects: [{ShowParticles: 0 as byte, Duration: 6000, Id: 27, Amplifier: 126}], CustomPotionColor: 0, display: {Lore: [game.localize("greedycraft.misc.badluckpotion.tooltip")], Name: game.localize("greedycraft.misc.badluckpotion.name")}}), 2, 1, 1, 1);
+LootUtil.addItem(<minecraft:stick>.withTag({ench: [{lvl: 10, id: 19}], display: {Lore: [game.localize("greedycraft.misc.knockbackwand.tooltip")], Name: game.localize("greedycraft.misc.knockbackwand.name")}}), 1, 1, 1, 1);
 LootUtil.addItem(<foodexpansion:itemchocolatebar>, 8, 1, 4, 10);
 LootUtil.addItem(<minecraft:potion>.withTag({Potion: "potioncore:long_absorption"}), 1, 1, 1, 1);
 LootUtil.addItem(<minecraft:potion>.withTag({Potion: "potioncore:long_step_up"}), 1, 1, 1, 1);

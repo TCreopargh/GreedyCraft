@@ -26,8 +26,6 @@ AdaptationTweaker.addAdaptation(<entity:minecraft:skeleton>, <potion:potioncore:
 AdaptationTweaker.addAdaptation(<entity:minecraft:stray>, <potion:potioncore:archery>.makePotionEffect(200, 0, false, false));
 AdaptationTweaker.addAdaptation(<entity:minecraft:spider>, <potion:potioncore:antidote>.makePotionEffect(200, 0, false, false));
 AdaptationTweaker.addAdaptation(<entity:minecraft:cave_spider>, <potion:potioncore:antidote>.makePotionEffect(200, 0, false, false));
-AdaptationTweaker.addAdaptation(<entity:spiderstpo:better_spider>, <potion:potioncore:antidote>.makePotionEffect(200, 0, false, false));
-AdaptationTweaker.addAdaptation(<entity:spiderstpo:better_cave_spider>, <potion:potioncore:antidote>.makePotionEffect(200, 0, false, false));
 AdaptationTweaker.addAdaptation(<entity:minecraft:zombie_pigman>, <potion:minecraft:fire_resistance>.makePotionEffect(200, 0, false, false));
 AdaptationTweaker.addAdaptation(<entity:minecraft:wither_skeleton>, <potion:potioncore:purity>.makePotionEffect(200, 0, false, false));
 AdaptationTweaker.addAdaptation(<entity:minecraft:wither>, <potion:potioncore:purity>.makePotionEffect(200, 0, false, false));
