@@ -1,0 +1,16 @@
+{
+    "name": "日志 §9#6",
+    "icon": "additions:greedycraft-experiment_note",
+    "category": "patchouli:logs",
+    "advancement": "greedycraft:elysia/log6",
+    "pages": [
+        {
+            "type": "text",
+            "text": "今天是个伟大的日子，埃拉西亚计划取得了伟大的胜利。在同一时刻，所有人都进入了虚拟世界。他们对一切都充满好奇，并在属于自己的世界中为所欲为，疯狂的满足着自己的欲望。与此同时，埃拉西亚公共界面也聚集满了民众。大家共同庆祝着这一时刻的到来。"
+        },
+        {
+            "type": "text",
+            "text": "与此同时，我们十分感谢消灭了反对者并使这一切成为可能的武装部队。至此，人类终于进入了新的时代。$(br2)2044年9月19日"
+        }
+    ]
+}

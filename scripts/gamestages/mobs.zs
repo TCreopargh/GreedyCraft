@@ -50,6 +50,10 @@ for mob in mobStages {
 
 for mob in mobReplacements {
     var replacement as string = mobReplacements[mob] as string;
-    MobStages.toggleSpawner(mob, true);
-    MobStages.addReplacement(mob, replacement);
+
+    // Disabled mob replacement because it causes a bug where mob spawns ignore spawn rules
+    // https://github.com/Darkhax-Minecraft/MobStages/issues/7
+
+    // MobStages.addReplacement(mob, replacement);
+    // MobStages.toggleSpawner(mob, true);
 }

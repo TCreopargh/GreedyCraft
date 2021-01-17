@@ -6,7 +6,7 @@
     "defaultThreshold": 15,
     "checkTimeSeconds": 10,
     "purgeTamedEntities": false,
-    "blacklistedChunksNearPlayer": 2,
+    "blacklistedChunksNearPlayer": 3,
     "claimedChunksAreBlacklisted": true,
     "entitySettings": [{
         "entityId": "net.minecraft.entity.item.*",

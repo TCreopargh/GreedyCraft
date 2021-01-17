@@ -106,20 +106,6 @@
     },
     {
         "dimension": 0,
-        "onjoin": true,
-        "mob": [
-            "minecraft:creeper",
-            "enderiozoo:concussioncreeper",
-            "minecraft:enderman",
-            "enderiozoo:enderminy"
-        ],
-        "minheight": 55,
-        "mintime": 0,
-        "maxtime": 12000,
-        "result": "deny"
-    },
-    {
-        "dimension": 0,
         "hostile": true,
         "seesky": true,
         "mintime": 0,

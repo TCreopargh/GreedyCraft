@@ -46,7 +46,7 @@ purgeCommand.execute = function(command, server, sender, args) {
     server.commandManager.executeCommand(server, "/kill @e[type=Item]");
     var player as IPlayer = CommandUtils.getCommandSenderAsPlayer(sender) as IPlayer;
     if(!isNull(player)) {
-        player.sendChat(game.localize("greedycraft.command.purge.chat"));
+        player.sendChat(game.localize("greedycraft.command.purgeCommand.chat"));
     }
 };
 purgeCommand.register();

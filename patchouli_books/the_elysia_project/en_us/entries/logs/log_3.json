@@ -1,16 +1,16 @@
 {
-    "name": "日志 §9#3",
+    "name": "Log §9#3",
     "icon": "additions:greedycraft-experiment_note",
     "category": "patchouli:logs",
     "advancement": "greedycraft:elysia/log3",
     "pages": [
         {
             "type": "text",
-            "text": "经过长时间的开发与测试，埃拉西亚系统终于能够组网运行了。————不过还有一个小问题。谁也不想在做着美梦的时候被突然唤醒，更何况苏醒之后的人就会像刚做完美梦一样，快速丢失掉在梦里的记忆。所以，为了埃拉西亚能够顺利实施，必须使地球上的所有人同时进入模拟程序。与此同时，超越现实公司的外面正聚集着一大批抗议的反对者。为了我们的美梦，这些人必须被铲除。"
+            "text": "After a long time of developing and testing, The Elysian Project system can finally be deployed. But there's still a problem -- No one wants to be waken up when having a nice dream. When people wake up, they will lose their memory of the dream, so, to prevent terrorists from waking up people by force, everyone in the world must go into the simulation at once. "
         },
         {
             "type": "text",
-            "text": "说真的，谁愿意活在这个现实里啊？！经济濒临崩溃，谁也找不到工作，就算找到了生活还是一如既往的无聊。我们致力于实现的是全人类的共同愿望，在这种情形下，不会有人在意反对者的生命。$(br2)2044年7月29日"
+            "text": "And there's a bunch of rioters gathering outside of our company's building right now, they must be eliminated before we make our dreams. If any one has an idea of still living in the miserable reality, they must be insane. The economy is broken, no one can get a job, and even if you get one, life still sucks anyways. We are trying to realize the common goal of the entire humanity, no one cares about the lives of these rioters.$(br2)Jul 29th, 2044"
         }
     ]
 }

@@ -244,7 +244,9 @@ val emcMapping as long[IIngredient] = {
     <openmodularturrets:grenade_turret:0> : 0 as long,
     <openmodularturrets:relativistic_turret:0> : 0 as long,
     <openmodularturrets:rocket_turret:0> : 0 as long,
-    <openmodularturrets:teleporter_turret:0> : 0 as long
+    <openmodularturrets:teleporter_turret:0> : 0 as long,
+    <projectex:stone_table> : 0 as long,
+    <projecte:transmutation_table> : 0 as long
 };
 
 for ingredient, value in emcMapping {

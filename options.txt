@@ -328,7 +328,7 @@ key_gui.xaero_new_waypoint:48
 key_gui.xaero_display_all_sets:0
 key_gui.xaero_toggle_light_overlay:0
 key_gui.xaero_minimap_settings:0
-key_Quick Commands:75:ALT
+key_快捷命令:83
 key_key.infinity_armor.noclip:40
 key_key.projectex.focusSearchBar:15
 key_key.bettersigns.nosigntext:56
@@ -344,7 +344,7 @@ key_gui.xaero_open_settings:0
 key_gui.xaero_map_zoom_in:13
 key_gui.xaero_map_zoom_out:12
 key_gui.xaero_quick_confirm:54
-key_Open Skill GUI:21
+key_打开背包:21
 key_oeshapeselector.key:41:ALT
 key_enderio.keybind.inventory:0
 key_enderio.keybind.dsu:0

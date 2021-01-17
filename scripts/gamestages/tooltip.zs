@@ -45,3 +45,11 @@ tieredtooltips.colorStage("challenger_all", "b5000000", "f0ff8008", "f0ffc837");
 
 ItemStages.stageTooltip("energy_matter_core", game.localize("pe.emc.emc_tooltip_prefix"));
 ItemStages.stageTooltip("energy_matter_core", game.localize("pe.emc.stackemc_tooltip_prefix"));
+ItemStages.stageTooltip("energy_matter_core", "EMC：");
+ItemStages.stageTooltip("energy_matter_core", "EMC总和：");
+ItemStages.stageTooltip("energy_matter_core", "EMC:");
+ItemStages.stageTooltip("energy_matter_core", "Stack EMC:");
+ItemStages.stageTooltip("energy_matter_core", "§eEMC：");
+ItemStages.stageTooltip("energy_matter_core", "§eEMC总和：");
+ItemStages.stageTooltip("energy_matter_core", "§eEMC:");
+ItemStages.stageTooltip("energy_matter_core", "§eStack EMC:");

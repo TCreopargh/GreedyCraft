@@ -27,3 +27,5 @@ downloader.meitangdehulu.com
 skin.pangdidi.com
 discord.gg
 hastebin.com
+optifine.net
+api.varden.info
