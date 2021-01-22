@@ -1,8 +1,8 @@
 {
-	title: "§5强力合金",
+	title: "{greedycraft.quest.fdbbe980.title}",
 	x: 4.0d,
 	y: -4.0d,
-	description: "获得玛玉灵锭",
+	description: "{greedycraft.quest.fdbbe980.desc}",
 	dependencies: [
 		"b01be720"
 	],

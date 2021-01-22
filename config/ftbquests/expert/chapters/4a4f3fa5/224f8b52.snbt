@@ -1,8 +1,9 @@
+
 {
-	title: "§d把它当作电池吧",
+	title: "{greedycraft.quest.224f8b52.title}",
 	x: -7.0d,
 	y: 1.5d,
-	description: "获得魔力池",
+	description: "{greedycraft.quest.224f8b52.desc}",
 	dependencies: [
 		"b2b1d53a"
 	],

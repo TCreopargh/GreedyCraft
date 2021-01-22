@@ -1,8 +1,8 @@
 {
-	title: "§a挂机收菜",
+	title: "{greedycraft.quest.3af0fb0a.title}",
 	x: 16.0d,
 	y: 11.0d,
-	description: "获得自动收获机",
+	description: "{greedycraft.quest.3af0fb0a.desc}",
 	tasks: [{
 		uid: "2148a0a8",
 		type: "item",

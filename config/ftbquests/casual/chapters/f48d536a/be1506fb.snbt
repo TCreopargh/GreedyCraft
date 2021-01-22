@@ -1,8 +1,9 @@
+
 {
-	title: "升级撕裂法杖！",
+	title: "{greedycraft.quest.be1506fb.title}",
 	x: 1.5d,
 	y: -1.5d,
-	description: "升级你的撕裂法杖",
+	description: "{greedycraft.quest.be1506fb.desc}",
 	dependencies: [
 		"254d7b2b"
 	],

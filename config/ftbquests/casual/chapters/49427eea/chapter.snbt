@@ -1,5 +1,5 @@
 {
-	title: "§b工业时代",
+	title: "{greedycraft.quest.chapter.industrial}",
 	icon: {
 		id: "thermalexpansion:machine",
 		tag: {

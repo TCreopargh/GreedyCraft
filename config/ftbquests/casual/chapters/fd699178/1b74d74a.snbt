@@ -1,8 +1,9 @@
+
 {
-	title: "§b§m不就是Wi-Fi嘛",
+	title: "{greedycraft.quest.1b74d74a.title}",
 	x: 6.5d,
 	y: -3.0d,
-	description: "获得ME无线访问点",
+	description: "{greedycraft.quest.1b74d74a.desc}",
 	dependencies: [
 		"6e46a027"
 	],

@@ -1,10 +1,11 @@
+
 {
-	title: "§3结束了？...还早着呢。",
+	title: "{greedycraft.quest.69d23675.title}",
 	icon: "minecraft:end_portal_frame",
 	x: 8.0d,
 	y: -2.0d,
 	shape: "rsquare",
-	description: "进入末地",
+	description: "{greedycraft.quest.69d23675.desc}",
 	dependencies: [
 		"d0e042f0",
 		"a01ff995"

@@ -1,8 +1,9 @@
+
 {
-	title: "§e恒星合金",
+	title: "{greedycraft.quest.b1c8ec3a.title}",
 	x: -2.0d,
 	y: 13.0d,
-	description: "获得恒星合金",
+	description: "{greedycraft.quest.b1c8ec3a.desc}",
 	dependencies: [
 		"2e7614df"
 	],

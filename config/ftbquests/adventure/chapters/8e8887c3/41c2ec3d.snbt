@@ -1,9 +1,9 @@
 {
-	title: "§5获得升级",
+	title: "{greedycraft.quest.41c2ec3d.title}",
 	x: 8.0d,
 	y: 0.0d,
 	shape: "square",
-	description: "升级你的聚合注入器",
+	description: "{greedycraft.quest.41c2ec3d.desc}",
 	dependencies: [
 		"f96bc0f5",
 		"a357fcd1"

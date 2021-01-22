@@ -1,8 +1,9 @@
+
 {
-	title: "§e精品石板",
+	title: "{greedycraft.quest.800217e4.title}",
 	x: 9.0d,
 	y: 4.0d,
-	description: "继续升级你的石板",
+	description: "{greedycraft.quest.800217e4.desc}",
 	dependencies: [
 		"4033f969"
 	],

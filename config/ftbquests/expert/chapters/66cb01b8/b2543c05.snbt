@@ -1,8 +1,9 @@
+
 {
-	title: "§b超空间跃迁",
+	title: "{greedycraft.quest.b2543c05.title}",
 	x: 12.0d,
 	y: 1.0d,
-	description: "升级你的传送核心",
+	description: "{greedycraft.quest.b2543c05.desc}",
 	dependencies: [
 		"c2a8d450",
 		"79cf1500"

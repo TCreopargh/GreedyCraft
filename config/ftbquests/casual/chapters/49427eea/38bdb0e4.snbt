@@ -1,8 +1,9 @@
+
 {
-	title: "烧钱发电",
+	title: "{greedycraft.quest.38bdb0e4.title}",
 	x: 0.5d,
 	y: -1.5d,
-	description: "获得通货能源炉",
+	description: "{greedycraft.quest.38bdb0e4.desc}",
 	dependencies: [
 		"f196d094"
 	],

@@ -1,8 +1,9 @@
+
 {
-	title: "§c稳定注魔",
+	title: "{greedycraft.quest.996344a7.title}",
 	x: 2.5d,
 	y: 4.5d,
-	description: "获得注魔稳定器",
+	description: "{greedycraft.quest.996344a7.desc}",
 	text: [
 		"研究解锁条件：被注魔时产生的闪电/爆炸伤害到。"
 	],

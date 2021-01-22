@@ -1,8 +1,9 @@
+
 {
-	title: "§8充能煤",
+	title: "{greedycraft.quest.6f084623.title}",
 	x: 23.0d,
 	y: -6.5d,
-	description: "使用充能台对矿物水晶充能",
+	description: "{greedycraft.quest.6f084623.desc}",
 	dependencies: [
 		"a504bbd8"
 	],

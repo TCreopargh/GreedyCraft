@@ -1,11 +1,12 @@
+
 {
-	title: "§a守护者II",
+	title: "{greedycraft.quest.ce837387.title}",
 	icon: {
 		id: "minecraft:chainmail_chestplate"
 	},
 	x: 2.0d,
 	y: -1.0d,
-	description: "累计受到指定伤害",
+	description: "{greedycraft.quest.ce837387.desc}",
 	dependencies: [
 		"74684c10"
 	],

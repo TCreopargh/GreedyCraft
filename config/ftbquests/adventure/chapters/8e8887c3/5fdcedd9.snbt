@@ -1,8 +1,8 @@
 {
-	title: "§6I am Superior",
+	title: "{greedycraft.quest.5fdcedd9.title}",
 	x: 10.0d,
 	y: 4.0d,
-	description: "获得神龙金属",
+	description: "{greedycraft.quest.5fdcedd9.desc}",
 	dependencies: [
 		"f136f4b7"
 	],

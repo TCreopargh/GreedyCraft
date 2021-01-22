@@ -1,8 +1,9 @@
+
 {
-	title: "§b科技祭坛",
+	title: "{greedycraft.quest.a504bbd8.title}",
 	x: 21.0d,
 	y: -8.0d,
-	description: "获得充能台",
+	description: "{greedycraft.quest.a504bbd8.desc}",
 	dependencies: [
 		"d9f888c8"
 	],

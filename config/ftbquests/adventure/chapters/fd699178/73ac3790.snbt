@@ -1,8 +1,8 @@
 {
-	title: "§d控制中枢",
+	title: "{greedycraft.quest.73ac3790.title}",
 	x: 8.0d,
 	y: 0.5d,
-	description: "频道不够用？快做个ME控制器吧！",
+	description: "{greedycraft.quest.73ac3790.desc}",
 	dependencies: [
 		"6e46a027"
 	],

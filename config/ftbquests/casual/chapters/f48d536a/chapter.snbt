@@ -1,5 +1,5 @@
 {
-	title: "§3深渊国度",
+	title: "{greedycraft.quest.chapter.abyssalcraft}",
 	icon: {
 		id: "abyssalcraft:necronomicon",
 		tag: {

@@ -1,8 +1,8 @@
 {
-	title: "§e隐私防护",
+	title: "{greedycraft.quest.0915d24a.title}",
 	x: 4.5d,
 	y: -3.0d,
-	description: "获得ME安全终端",
+	description: "{greedycraft.quest.0915d24a.desc}",
 	dependencies: [
 		"6e46a027",
 		"889b1268"

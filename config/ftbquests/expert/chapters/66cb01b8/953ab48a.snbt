@@ -1,8 +1,9 @@
+
 {
-	title: "§b灵魂出窍",
+	title: "{greedycraft.quest.953ab48a.title}",
 	x: -3.0d,
 	y: 0.0d,
-	description: "获得最初级的恶魔意志",
+	description: "{greedycraft.quest.953ab48a.desc}",
 	dependencies: [
 		"7e0193d6"
 	],

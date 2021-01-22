@@ -1,8 +1,8 @@
 {
-	title: "§bMusic!",
+	title: "{greedycraft.quest.aadb73c4.title}",
 	x: 4.0d,
 	y: 13.5d,
-	description: "获得播音器，可以划定一片区域播放指定的音乐",
+	description: "{greedycraft.quest.aadb73c4.desc}",
 	tasks: [{
 		uid: "fbe4e9d0",
 		type: "item",

@@ -1,10 +1,11 @@
+
 {
-	title: "§a要致富，先...",
+	title: "{greedycraft.quest.d8730528.title}",
 	icon: "minecraft:log",
 	x: -6.0d,
 	y: -2.0d,
 	shape: "rsquare",
-	description: "获得任意原木",
+	description: "{greedycraft.quest.d8730528.desc}",
 	dependencies: [
 		"11aa672a",
 		"560cad71"

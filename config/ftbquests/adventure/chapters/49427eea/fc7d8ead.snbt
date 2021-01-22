@@ -1,8 +1,8 @@
 {
-	title: "§b网络的大脑",
+	title: "{greedycraft.quest.fc7d8ead.title}",
 	x: 18.5d,
 	y: -4.0d,
-	description: "获得XNet控制器，将其充能并使用连接器连接到XNet网络",
+	description: "{greedycraft.quest.fc7d8ead.desc}",
 	tasks: [{
 		uid: "57bf306c",
 		type: "item",

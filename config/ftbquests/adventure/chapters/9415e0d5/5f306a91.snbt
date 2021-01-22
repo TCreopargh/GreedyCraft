@@ -1,8 +1,8 @@
 {
-	title: "§d封包合成",
+	title: "{greedycraft.quest.5f306a91.title}",
 	x: 6.0d,
 	y: 13.5d,
-	description: "获得打包机",
+	description: "{greedycraft.quest.5f306a91.desc}",
 	tasks: [{
 		uid: "724109e2",
 		type: "item",

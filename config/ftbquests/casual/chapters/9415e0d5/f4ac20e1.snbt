@@ -1,8 +1,9 @@
+
 {
-	title: "§9通量控制",
+	title: "{greedycraft.quest.f4ac20e1.title}",
 	x: -8.0d,
 	y: 15.5d,
-	description: "获得通量控制器",
+	description: "{greedycraft.quest.f4ac20e1.desc}",
 	dependencies: [
 		"dfdf1d06"
 	],

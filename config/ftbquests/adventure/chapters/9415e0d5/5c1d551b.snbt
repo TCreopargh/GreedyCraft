@@ -1,8 +1,8 @@
 {
-	title: "§c完美材料",
+	title: "{greedycraft.quest.5c1d551b.title}",
 	x: 2.0d,
 	y: -0.5d,
-	description: "获得终极精华锭",
+	description: "{greedycraft.quest.5c1d551b.desc}",
 	tasks: [{
 		uid: "7dd87c1c",
 		type: "item",

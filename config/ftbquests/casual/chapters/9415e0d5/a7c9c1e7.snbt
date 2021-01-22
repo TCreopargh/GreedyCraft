@@ -1,8 +1,9 @@
+
 {
-	title: "§b超大存储",
+	title: "{greedycraft.quest.a7c9c1e7.title}",
 	x: -6.0d,
 	y: 7.5d,
-	description: "获得一个钻石箱子",
+	description: "{greedycraft.quest.a7c9c1e7.desc}",
 	tasks: [{
 		uid: "c48bd5b6",
 		type: "item",

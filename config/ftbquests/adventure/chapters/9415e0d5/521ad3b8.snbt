@@ -1,9 +1,9 @@
 {
-	title: "§e豆腐世界",
+	title: "{greedycraft.quest.521ad3b8.title}",
 	icon: "tofucraft:tofustick",
 	x: 2.0d,
 	y: 5.5d,
-	description: "使用豆腐魔杖和烤豆腐制成的框架进入豆腐世界",
+	description: "{greedycraft.quest.521ad3b8.desc}",
 	tasks: [{
 		uid: "11da539b",
 		type: "dimension",

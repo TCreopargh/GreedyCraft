@@ -1,8 +1,9 @@
+
 {
-	title: "§d你有多少东西要装？！",
+	title: "{greedycraft.quest.ae69c46b.title}",
 	x: 5.5d,
 	y: 2.0d,
-	description: "获得最大的存储元件",
+	description: "{greedycraft.quest.ae69c46b.desc}",
 	dependencies: [
 		"6e46a027"
 	],

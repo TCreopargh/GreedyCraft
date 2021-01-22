@@ -1,9 +1,9 @@
 {
-	title: "§5进入下界",
+	title: "{greedycraft.quest.b01be720.title}",
 	x: 4.0d,
 	y: -2.0d,
 	shape: "rsquare",
-	description: "造访下界",
+	description: "{greedycraft.quest.b01be720.desc}",
 	text: [
 		"§c你需要完成“暮光之庇护”任务才能进入下界",
 		"§6否则无论在传送门里待多长时间都不会传送"

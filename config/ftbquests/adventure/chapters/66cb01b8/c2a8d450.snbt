@@ -1,8 +1,8 @@
 {
-	title: "§5豪华石板",
+	title: "{greedycraft.quest.c2a8d450.title}",
 	x: 12.0d,
 	y: 3.0d,
-	description: "到底还有多少石板？？",
+	description: "{greedycraft.quest.c2a8d450.desc}",
 	dependencies: [
 		"800217e4"
 	],

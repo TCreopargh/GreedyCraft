@@ -1,8 +1,8 @@
 {
-	title: "§b天神祭坛",
+	title: "{greedycraft.quest.4f3a644d.title}",
 	x: 6.5d,
 	y: 2.0d,
-	description: "获得天辉祭坛",
+	description: "{greedycraft.quest.4f3a644d.desc}",
 	dependencies: [
 		"019a77ed"
 	],

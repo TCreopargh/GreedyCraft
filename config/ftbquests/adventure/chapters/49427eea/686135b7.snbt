@@ -1,8 +1,8 @@
 {
-	title: "§e工业进化II",
+	title: "{greedycraft.quest.686135b7.title}",
 	x: -7.0d,
 	y: -6.0d,
-	description: "获得琥珀金升级套件",
+	description: "{greedycraft.quest.686135b7.desc}",
 	dependencies: [
 		"a68564bd",
 		"c16fec30"

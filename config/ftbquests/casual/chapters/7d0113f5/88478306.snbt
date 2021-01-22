@@ -1,8 +1,9 @@
+
 {
-	title: "§6价值连城",
+	title: "{greedycraft.quest.88478306.title}",
 	x: -9.5d,
 	y: -3.5d,
-	description: "获得传世珍宝",
+	description: "{greedycraft.quest.88478306.desc}",
 	tasks: [{
 		uid: "9ff3b6d2",
 		type: "item",

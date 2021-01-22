@@ -1,8 +1,9 @@
+
 {
-	title: "§c这个真的不能吃",
+	title: "{greedycraft.quest.7b73aaa5.title}",
 	x: 4.0d,
 	y: 15.5d,
-	description: "获得Magic™蘑菇，可以增加匠魂工具的挖掘等级",
+	description: "{greedycraft.quest.7b73aaa5.desc}",
 	tasks: [{
 		uid: "2ff659d1",
 		type: "item",

@@ -1,8 +1,9 @@
+
 {
-	title: "§b心灵感应",
+	title: "{greedycraft.quest.45197bcf.title}",
 	x: 6.0d,
 	y: -1.0d,
-	description: "获得感知锭",
+	description: "{greedycraft.quest.45197bcf.desc}",
 	dependencies: [
 		"f589556d"
 	],

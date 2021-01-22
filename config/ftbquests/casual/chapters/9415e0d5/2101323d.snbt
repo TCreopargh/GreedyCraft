@@ -1,8 +1,9 @@
+
 {
-	title: "§6赴汤蹈火",
+	title: "{greedycraft.quest.2101323d.title}",
 	x: 4.0d,
 	y: 1.5d,
-	description: "获得熔岩行者靴，可以让你在岩浆上行走",
+	description: "{greedycraft.quest.2101323d.desc}",
 	tasks: [{
 		uid: "f301622c",
 		type: "item",

@@ -1,8 +1,9 @@
+
 {
-	title: "§b符文收藏家",
+	title: "{greedycraft.quest.d3bc6986.title}",
 	x: -4.5d,
 	y: -2.5d,
-	description: "获得所有类型的符文",
+	description: "{greedycraft.quest.d3bc6986.desc}",
 	dependencies: [
 		"e2ccedd6"
 	],

@@ -1,8 +1,8 @@
 {
-	title: "§a魔力木头",
+	title: "{greedycraft.quest.08804ef2.title}",
 	x: -10.0d,
 	y: -1.5d,
-	description: "获得活木",
+	description: "{greedycraft.quest.08804ef2.desc}",
 	dependencies: [
 		"b53cb9e7"
 	],

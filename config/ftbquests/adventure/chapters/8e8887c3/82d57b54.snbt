@@ -1,9 +1,9 @@
 {
-	title: "§6觉醒核心",
+	title: "{greedycraft.quest.82d57b54.title}",
 	x: 12.0d,
 	y: 0.0d,
 	shape: "square",
-	description: "合成觉醒核心",
+	description: "{greedycraft.quest.82d57b54.desc}",
 	dependencies: [
 		"a357fcd1",
 		"5f44ba77"

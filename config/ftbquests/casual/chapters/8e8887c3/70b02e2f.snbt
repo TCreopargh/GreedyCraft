@@ -1,10 +1,11 @@
+
 {
-	title: "§4究极反应堆",
+	title: "{greedycraft.quest.70b02e2f.title}",
 	icon: "draconicevolution:reactor_core",
 	x: 16.0d,
 	y: 0.0d,
 	shape: "square",
-	description: "获得反应堆稳定器",
+	description: "{greedycraft.quest.70b02e2f.desc}",
 	dependencies: [
 		"b4991d6f",
 		"506b94fd"

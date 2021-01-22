@@ -1,8 +1,8 @@
 {
-	title: "§6能量灌注金属",
+	title: "{greedycraft.quest.7bab41e0.title}",
 	x: 0.5d,
 	y: -6.0d,
-	description: "获得红石琥珀金",
+	description: "{greedycraft.quest.7bab41e0.desc}",
 	tasks: [{
 		uid: "6c5b86ab",
 		type: "item",

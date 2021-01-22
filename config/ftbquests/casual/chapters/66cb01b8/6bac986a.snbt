@@ -1,8 +1,9 @@
+
 {
-	title: "神秘石板",
+	title: "{greedycraft.quest.6bac986a.title}",
 	x: 0.0d,
 	y: 3.0d,
-	description: "获得空白石板",
+	description: "{greedycraft.quest.6bac986a.desc}",
 	dependencies: [
 		"a79a5097"
 	],

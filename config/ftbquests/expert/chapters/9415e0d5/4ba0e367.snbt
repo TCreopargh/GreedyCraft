@@ -1,8 +1,9 @@
+
 {
-	title: "§2无底深洞",
+	title: "{greedycraft.quest.4ba0e367.title}",
 	x: 2.0d,
 	y: 1.5d,
-	description: "获得最高级的/dank/null",
+	description: "{greedycraft.quest.4ba0e367.desc}",
 	tasks: [{
 		uid: "f000f5c6",
 		type: "item",

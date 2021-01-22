@@ -1,8 +1,9 @@
+
 {
-	title: "§d优雅的合成方式",
+	title: "{greedycraft.quest.b4a4f0c3.title}",
 	x: 3.0d,
 	y: 2.0d,
-	description: "制作一个ME合成终端",
+	description: "{greedycraft.quest.b4a4f0c3.desc}",
 	dependencies: [
 		"da08dbca"
 	],

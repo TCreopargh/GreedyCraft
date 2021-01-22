@@ -1,8 +1,9 @@
+
 {
-	title: "§d没有比它更好的冶炼厂了",
+	title: "{greedycraft.quest.cb23fa95.title}",
 	x: 12.5d,
 	y: 1.5d,
-	description: "获得秘金源质冶炼厂",
+	description: "{greedycraft.quest.cb23fa95.desc}",
 	dependencies: [
 		"567d8101",
 		"e421a210"

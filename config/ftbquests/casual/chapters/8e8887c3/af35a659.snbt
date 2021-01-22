@@ -1,10 +1,11 @@
+
 {
-	title: "§9挖穿地球",
+	title: "{greedycraft.quest.af35a659.title}",
 	icon: "minecraft:bedrock",
 	x: -2.0d,
 	y: 0.0d,
 	shape: "rsquare",
-	description: "来到世界的最底层",
+	description: "{greedycraft.quest.af35a659.desc}",
 	dependencies: [
 		"bb3d9aaa"
 	],

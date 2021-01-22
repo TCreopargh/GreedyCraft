@@ -1,8 +1,9 @@
+
 {
-	title: "§d最强的神秘金属",
+	title: "{greedycraft.quest.e421a210.title}",
 	x: 10.5d,
 	y: 2.5d,
-	description: "获得秘金",
+	description: "{greedycraft.quest.e421a210.desc}",
 	dependencies: [
 		"5f8ba210"
 	],

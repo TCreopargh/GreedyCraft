@@ -1,9 +1,10 @@
+
 {
-	title: "§2耐心。",
+	title: "{greedycraft.quest.a7d5292c.title}",
 	x: 16.0d,
 	y: -4.0d,
 	shape: "octagon",
-	description: "获得中子态素收集器",
+	description: "{greedycraft.quest.a7d5292c.desc}",
 	dependencies: [
 		"1ed225b4"
 	],

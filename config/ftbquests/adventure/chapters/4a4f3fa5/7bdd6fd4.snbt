@@ -1,8 +1,8 @@
 {
-	title: "§a泰拉之力",
+	title: "{greedycraft.quest.7bdd6fd4.title}",
 	x: -2.0d,
 	y: 0.0d,
-	description: "获得泰拉凝聚板",
+	description: "{greedycraft.quest.7bdd6fd4.desc}",
 	dependencies: [
 		"e2ccedd6"
 	],

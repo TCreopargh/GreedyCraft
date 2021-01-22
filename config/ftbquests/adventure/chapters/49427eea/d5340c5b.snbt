@@ -1,8 +1,8 @@
 {
-	title: "无限水源",
+	title: "{greedycraft.quest.d5340c5b.title}",
 	x: -12.0d,
 	y: -4.0d,
-	description: "制造一个蓄水器，将其放在两个水源之间即可产生无限的水！",
+	description: "{greedycraft.quest.d5340c5b.desc}",
 	tasks: [{
 		uid: "5726d1fb",
 		type: "item",

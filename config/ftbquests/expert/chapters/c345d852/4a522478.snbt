@@ -1,8 +1,9 @@
+
 {
-	title: "§c基因转换",
+	title: "{greedycraft.quest.4a522478.title}",
 	x: 4.0d,
 	y: 2.5d,
-	description: "获得基因转换机",
+	description: "{greedycraft.quest.4a522478.desc}",
 	dependencies: [
 		"b1243a42",
 		"89d765f9"

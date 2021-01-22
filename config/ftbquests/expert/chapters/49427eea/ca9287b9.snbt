@@ -1,8 +1,9 @@
+
 {
-	title: "§b晶化合金",
+	title: "{greedycraft.quest.ca9287b9.title}",
 	x: -4.5d,
 	y: 11.0d,
-	description: "获得晶化合金",
+	description: "{greedycraft.quest.ca9287b9.desc}",
 	dependencies: [
 		"1fb45ac7"
 	],

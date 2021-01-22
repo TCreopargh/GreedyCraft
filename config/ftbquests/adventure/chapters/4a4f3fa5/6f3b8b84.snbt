@@ -1,8 +1,8 @@
 {
-	title: "§b口袋中的魔力",
+	title: "{greedycraft.quest.6f3b8b84.title}",
 	x: -7.0d,
 	y: 4.0d,
-	description: "获得魔力石板",
+	description: "{greedycraft.quest.6f3b8b84.desc}",
 	dependencies: [
 		"224f8b52"
 	],

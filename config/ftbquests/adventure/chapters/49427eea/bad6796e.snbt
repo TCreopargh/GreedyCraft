@@ -1,8 +1,8 @@
 {
-	title: "§9蒸汽时代",
+	title: "{greedycraft.quest.bad6796e.title}",
 	x: -12.5d,
 	y: 0.0d,
-	description: "为能源炉安装专业化升级",
+	description: "{greedycraft.quest.bad6796e.desc}",
 	dependencies: [
 		"e074db01"
 	],

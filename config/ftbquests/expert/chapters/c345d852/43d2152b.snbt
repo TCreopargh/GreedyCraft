@@ -1,8 +1,9 @@
+
 {
-	title: "§3诱变剂工厂",
+	title: "{greedycraft.quest.43d2152b.title}",
 	x: 4.0d,
 	y: 0.0d,
-	description: "获得诱变剂制造器",
+	description: "{greedycraft.quest.43d2152b.desc}",
 	dependencies: [
 		"b1243a42"
 	],

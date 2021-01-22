@@ -1,8 +1,9 @@
+
 {
-	title: "§b天降礼物",
+	title: "{greedycraft.quest.26e88520.title}",
 	x: 8.0d,
 	y: 15.5d,
-	description: "获得超时空快递订单",
+	description: "{greedycraft.quest.26e88520.desc}",
 	tasks: [{
 		uid: "79bae3aa",
 		type: "item",

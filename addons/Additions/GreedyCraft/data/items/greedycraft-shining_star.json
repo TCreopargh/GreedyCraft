@@ -1,5 +1,8 @@
 {
   "name": "§6闪耀之星",
-  "tooltip": "§b右键召唤流星雨。",
+  "tooltip": [
+    "§b右键在头顶召唤陨星",
+    "§c不要在家使用"
+  ],
   "type": "additions:simple"
 }

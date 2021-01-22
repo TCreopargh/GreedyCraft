@@ -1,8 +1,9 @@
+
 {
-	title: "§e建筑§6小帮手",
+	title: "{greedycraft.quest.16e053a5.title}",
 	x: 8.0d,
 	y: 3.5d,
-	description: "获得凿子，可以轻松地改变方块的样式",
+	description: "{greedycraft.quest.16e053a5.desc}",
 	tasks: [{
 		uid: "9780cd77",
 		type: "item",

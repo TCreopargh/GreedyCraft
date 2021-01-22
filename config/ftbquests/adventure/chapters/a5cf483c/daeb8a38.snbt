@@ -1,8 +1,8 @@
 {
-	title: "洁白无暇",
+	title: "{greedycraft.quest.daeb8a38.title}",
 	x: -3.5d,
 	y: -2.0d,
-	description: "挖到一块大理石",
+	description: "{greedycraft.quest.daeb8a38.desc}",
 	tasks: [{
 		uid: "37392953",
 		type: "item",

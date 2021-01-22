@@ -1,8 +1,8 @@
 {
-	title: "§b神秘宝石",
+	title: "{greedycraft.quest.2369efed.title}",
 	x: -2.5d,
 	y: 0.0d,
-	description: "获得嬗变宝石",
+	description: "{greedycraft.quest.2369efed.desc}",
 	text: [
 		"§e你可以制作阴影怪物的刷怪蛋来快速获取阴影宝石，配方请查看整合包手册的杂项配方。"
 	],

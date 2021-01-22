@@ -1,8 +1,9 @@
+
 {
-	title: "§c这个字怎么念来着？",
+	title: "{greedycraft.quest.5f8ba210.title}",
 	x: 8.5d,
 	y: 1.5d,
-	description: "获得铿(kēng)金",
+	description: "{greedycraft.quest.5f8ba210.desc}",
 	dependencies: [
 		"0a299e8c"
 	],

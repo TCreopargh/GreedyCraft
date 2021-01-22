@@ -1,8 +1,9 @@
+
 {
-	title: "§6炼铜癖",
+	title: "{greedycraft.quest.5b9f8f30.title}",
 	x: 0.5d,
 	y: -2.5d,
-	description: "获得炼金黄铜",
+	description: "{greedycraft.quest.5b9f8f30.desc}",
 	dependencies: [
 		"ffbd430f"
 	],

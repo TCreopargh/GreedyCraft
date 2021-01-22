@@ -1,8 +1,9 @@
+
 {
-	title: "§2深层知识",
+	title: "{greedycraft.quest.48323d8b.title}",
 	x: 4.0d,
 	y: -1.5d,
-	description: "升级你的死灵之书",
+	description: "{greedycraft.quest.48323d8b.desc}",
 	dependencies: [
 		"254d7b2b"
 	],

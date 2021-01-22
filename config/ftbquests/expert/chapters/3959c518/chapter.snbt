@@ -1,5 +1,5 @@
 {
-	title: "§4毕业设计",
+	title: "{greedycraft.quest.chapter.epilogue}",
 	icon: {
 		id: "ftbquests:custom_icon",
 		tag: {

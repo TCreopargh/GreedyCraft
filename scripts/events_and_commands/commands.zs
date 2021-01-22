@@ -82,7 +82,7 @@ syncDifficultyCommand.execute = function(command, server, sender, args) {
         return;
     }
     for player in players {
-    if(!isNull(player)) {
+        if(!isNull(player)) {
             var maxDifficulty = 0;
             for stage in stageMap {
                 var difficulty = stageMap[stage] as int;
@@ -90,7 +90,7 @@ syncDifficultyCommand.execute = function(command, server, sender, args) {
                     maxDifficulty = difficulty;
                 }
             }
-            server.commandManager.executeCommand(server, "/scalinghealth difficulty set " + maxDifficulty + " " + player.name);
+            player.difficulty = maxDifficulty;
             sender.sendMessage(I18n.format("greedycraft.command.syncDifficultyCommand.chat1", [player.name, "" + maxDifficulty] as string[]));
             player.sendChat(I18n.format("greedycraft.command.syncDifficultyCommand.chat2", "" + maxDifficulty));
         }

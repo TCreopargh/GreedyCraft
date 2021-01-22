@@ -1,9 +1,9 @@
 {
-	title: "§b高科技匠魂",
+	title: "{greedycraft.quest.f9c682fa.title}",
 	x: -2.0d,
 	y: -6.0d,
 	shape: "diamond",
-	description: "获得智能输出端",
+	description: "{greedycraft.quest.f9c682fa.desc}",
 	dependencies: [
 		"6b08fde1"
 	],

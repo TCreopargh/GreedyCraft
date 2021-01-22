@@ -1,9 +1,10 @@
+
 {
-	title: "§e随时随地",
+	title: "{greedycraft.quest.38d8e2e5.title}",
 	x: 2.0d,
 	y: 4.0d,
 	shape: "pentagon",
-	description: "获得便携式转化桌",
+	description: "{greedycraft.quest.38d8e2e5.desc}",
 	dependencies: [
 		"1deec501"
 	],

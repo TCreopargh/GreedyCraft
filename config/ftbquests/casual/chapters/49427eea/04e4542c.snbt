@@ -1,8 +1,9 @@
+
 {
-	title: "§c无§6尽§e电§a容",
+	title: "{greedycraft.quest.04e4542c.title}",
 	x: 5.5d,
 	y: 13.0d,
-	description: "获得无尽电容",
+	description: "{greedycraft.quest.04e4542c.desc}",
 	tasks: [{
 		uid: "75898e27",
 		type: "item",

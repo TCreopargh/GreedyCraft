@@ -1,8 +1,8 @@
 {
-	title: "§b更多的灵魂",
+	title: "{greedycraft.quest.9d817781.title}",
 	x: 6.0d,
 	y: -3.0d,
-	description: "升级你的地狱魂石",
+	description: "{greedycraft.quest.9d817781.desc}",
 	dependencies: [
 		"f589556d"
 	],

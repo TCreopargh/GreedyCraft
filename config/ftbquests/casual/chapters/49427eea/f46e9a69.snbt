@@ -1,8 +1,9 @@
+
 {
-	title: "§e钢铁是怎样炼成的",
+	title: "{greedycraft.quest.f46e9a69.title}",
 	x: 3.0d,
 	y: -4.0d,
-	description: "获得钢锭",
+	description: "{greedycraft.quest.f46e9a69.desc}",
 	text: [
 		"使用高炉冶炼钢锭！"
 	],

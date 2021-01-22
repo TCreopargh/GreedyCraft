@@ -1,8 +1,9 @@
+
 {
-	title: "§a知识就是力量",
+	title: "{greedycraft.quest.8f5c4950.title}",
 	x: -8.0d,
 	y: 7.5d,
-	description: "获得知识宝珠",
+	description: "{greedycraft.quest.8f5c4950.desc}",
 	dependencies: [
 		"b6185495"
 	],

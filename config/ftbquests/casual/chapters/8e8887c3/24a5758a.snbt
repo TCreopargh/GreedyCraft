@@ -1,9 +1,10 @@
+
 {
-	title: "§b这才像个工匠作坊！",
+	title: "{greedycraft.quest.24a5758a.title}",
 	x: -4.0d,
 	y: -6.0d,
 	shape: "diamond",
-	description: "用金属块制作盔甲装配台(任意材料)",
+	description: "{greedycraft.quest.24a5758a.desc}",
 	text: [
 		"启封之板可以用于解除“匠心之作”武器的封印，使用工具装配台安装即可"
 	],

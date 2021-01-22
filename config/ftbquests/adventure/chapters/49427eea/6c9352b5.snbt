@@ -1,8 +1,8 @@
 {
-	title: "反应堆外壳",
+	title: "{greedycraft.quest.6c9352b5.title}",
 	x: 18.5d,
 	y: 4.5d,
-	description: "获得反应堆外壳",
+	description: "{greedycraft.quest.6c9352b5.desc}",
 	dependencies: [
 		"a47d1237",
 		"02db1549",

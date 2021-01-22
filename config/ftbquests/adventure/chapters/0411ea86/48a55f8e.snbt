@@ -1,9 +1,9 @@
 {
-	title: "§6一段冒险的结束，另一段冒险的开始",
+	title: "{greedycraft.quest.48a55f8e.title}",
 	icon: "twilightforest:trollsteinn",
 	x: 6.5d,
 	y: -1.0d,
-	description: "向高地发起挑战",
+	description: "{greedycraft.quest.48a55f8e.desc}",
 	dependencies: [
 		"8ea08f88",
 		"8ce57eb1",

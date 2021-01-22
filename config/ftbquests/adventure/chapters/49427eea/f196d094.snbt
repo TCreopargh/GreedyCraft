@@ -1,8 +1,8 @@
 {
-	title: "压缩机",
+	title: "{greedycraft.quest.f196d094.title}",
 	x: -2.0d,
 	y: -4.0d,
-	description: "获得压缩机",
+	description: "{greedycraft.quest.f196d094.desc}",
 	dependencies: [
 		"c16fec30"
 	],

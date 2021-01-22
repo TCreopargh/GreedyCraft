@@ -1,8 +1,9 @@
+
 {
-	title: "§cR §aG §9B",
+	title: "{greedycraft.quest.5a62f505.title}",
 	x: 3.0d,
 	y: -4.0d,
-	description: "获得神话魔力池",
+	description: "{greedycraft.quest.5a62f505.desc}",
 	dependencies: [
 		"db4dce39"
 	],

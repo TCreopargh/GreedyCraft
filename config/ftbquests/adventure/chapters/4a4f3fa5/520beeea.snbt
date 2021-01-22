@@ -1,8 +1,8 @@
 {
-	title: "§d源质钢锭",
+	title: "{greedycraft.quest.520beeea.title}",
 	x: 3.0d,
 	y: 0.0d,
-	description: "获得源质钢锭",
+	description: "{greedycraft.quest.520beeea.desc}",
 	dependencies: [
 		"6ecb75bf",
 		"6ffc6415",

@@ -16,3 +16,12 @@ Altar.addDiscoveryAltarRecipe("shinydust", <astralsorcery:itemusabledust> * 16, 
             <ore:dustGlowstone>, <ore:fallenStar>, <ore:dustGlowstone>,
             null, <ore:dustGlowstone>, null]);
             
+Altar.addConstellationAltarRecipe("shining_star", <additions:greedycraft-shining_star>, 1000, 200, [
+            <astralsorcery:itemusabledust>, <ore:dustAstralStarmetal>, <astralsorcery:itemusabledust>,
+            <ore:dustAstralStarmetal>, <ore:blockGold>, <ore:dustAstralStarmetal>,
+            <astralsorcery:itemusabledust>, <ore:dustAstralStarmetal>, <astralsorcery:itemusabledust>,
+            <ore:fallenStar>, <ore:fallenStar>, <ore:fallenStar>, <ore:fallenStar>,
+            <ore:fallenStar>, <ore:fallenStar>,
+            <ore:fallenStar>, <ore:fallenStar>,
+            <ore:fallenStar>, <ore:fallenStar>,
+            <ore:fallenStar>, <ore:fallenStar>]);

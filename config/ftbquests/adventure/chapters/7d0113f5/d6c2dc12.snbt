@@ -1,8 +1,8 @@
 {
-	title: "§c这书上写的是啥",
+	title: "{greedycraft.quest.d6c2dc12.title}",
 	x: -7.5d,
 	y: -3.5d,
-	description: "获得血腥仪式",
+	description: "{greedycraft.quest.d6c2dc12.desc}",
 	tasks: [{
 		uid: "5f98c696",
 		type: "item",

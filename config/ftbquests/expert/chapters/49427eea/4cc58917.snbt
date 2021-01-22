@@ -1,8 +1,9 @@
+
 {
-	title: "§b化学氧化",
+	title: "{greedycraft.quest.4cc58917.title}",
 	x: -9.5d,
 	y: 5.5d,
-	description: "获得化学氧化机",
+	description: "{greedycraft.quest.4cc58917.desc}",
 	dependencies: [
 		"a1b00ed5"
 	],

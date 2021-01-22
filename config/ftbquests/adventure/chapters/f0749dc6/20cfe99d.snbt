@@ -1,11 +1,11 @@
 {
-	title: "§a旅行者II",
+	title: "{greedycraft.quest.20cfe99d.title}",
 	icon: {
 		id: "minecraft:chainmail_boots"
 	},
 	x: -0.5d,
 	y: -1.0d,
-	description: "行走指定的距离",
+	description: "{greedycraft.quest.20cfe99d.desc}",
 	dependencies: [
 		"a804b676"
 	],

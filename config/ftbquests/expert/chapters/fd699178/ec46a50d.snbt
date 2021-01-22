@@ -1,8 +1,9 @@
+
 {
-	title: "§5合成水晶",
+	title: "{greedycraft.quest.ec46a50d.title}",
 	x: -7.0d,
 	y: -0.5d,
-	description: "将充能赛特斯水晶、红石和下界石英扔进水里得到这种奇特的水晶",
+	description: "{greedycraft.quest.ec46a50d.desc}",
 	dependencies: [
 		"09f3e2c7",
 		"06264bbf"

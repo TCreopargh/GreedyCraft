@@ -1,9 +1,10 @@
+
 {
-	title: "§9凋灵杀手III",
+	title: "{greedycraft.quest.699b8400.title}",
 	icon: "mysticalagriculture:chunk 1 20",
 	x: 4.5d,
 	y: 1.0d,
-	description: "击杀指定数量的凋灵",
+	description: "{greedycraft.quest.699b8400.desc}",
 	dependencies: [
 		"f511ee80"
 	],

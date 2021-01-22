@@ -40,7 +40,8 @@ GameStagesUtil.stageChaoticDominator.addIngredients([
     <additions:greedycraft-death_coin>,
     <scalinghealth:difficultychanger:*>,
     <additions:greedycraft-difficulty_changer>,
-    <avaritiatweaks:infinitato>
+    <avaritiatweaks:infinitato>,
+    <draconicadditions:chaotic_energy_core>
 ], true);
 
 GameStagesUtil.stageGettingStarted.addIngredients([
@@ -74,6 +75,7 @@ GameStagesUtil.stageGettingStarted.addIngredients([
 ], false);
 
 GameStagesUtil.stageFusionMatrix.addIngredients([
+    <additions:greedycraft-beast_hand>,
     <zensummoning:altar>,
     <ore:oreDraconium>,
     <ore:ingotDraconium>,
@@ -124,6 +126,8 @@ GameStagesUtil.stageAwakened.addIngredients([
 ], true);
 
 GameStagesUtil.stageNether.addIngredients([
+    <treasure2:skull_sword>,
+    <additions:greedycraft-shining_star>,
     <ore:eternalLifeEssence>,
     <ore:ingotGaia>,
     <ore:ingotNetherite>,
@@ -346,6 +350,7 @@ GameStagesUtil.stageNoviceEngineer.addIngredients([
 ], true);
 
 GameStagesUtil.stageHardmode.addIngredients([
+    <minecraft:chorus_fruit_popped>,
     <tconstruct:materials:19>,
     <tconstruct:materials:18>,
     <actuallyadditions:block_phantom_booster>,
@@ -369,7 +374,6 @@ GameStagesUtil.stageHardmode.addIngredients([
     <tconevo:material>,
     <ore:blockFusionMatrix>,
     <additions:greedycraft-creative_shard>,
-    <additions:greedycraft-beast_hand>,
     <ore:ingotCryonium>,
     <ore:blockCryonium>,
     <ore:oreCryonium>,
@@ -590,7 +594,6 @@ GameStagesUtil.stageEnderCharm.addIngredients([
 ], true);
 
 GameStagesUtil.stageSkilledEngineer.addIngredients([
-    <extrautils2:spike_gold>,
     <ore:ingotIridium>,
     <ore:nuggetIridium>,
     <ore:blockIridium>,

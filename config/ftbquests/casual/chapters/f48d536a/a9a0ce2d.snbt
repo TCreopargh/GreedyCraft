@@ -1,8 +1,9 @@
+
 {
-	title: "§c恐惧祭坛（下）",
+	title: "{greedycraft.quest.a9a0ce2d.title}",
 	x: 12.0d,
 	y: 1.5d,
-	description: "获得恐惧祭坛的下半部分",
+	description: "{greedycraft.quest.a9a0ce2d.desc}",
 	dependencies: [
 		"3ed4aeae"
 	],

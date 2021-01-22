@@ -1,8 +1,9 @@
+
 {
-	title: "石英！",
+	title: "{greedycraft.quest.09f3e2c7.title}",
 	x: -9.0d,
 	y: -2.0d,
-	description: "获得下界石英",
+	description: "{greedycraft.quest.09f3e2c7.desc}",
 	tasks: [{
 		uid: "6c8bcd1e",
 		type: "item",

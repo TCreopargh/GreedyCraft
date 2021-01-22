@@ -1,8 +1,8 @@
 {
-	title: "§b魔力传输",
+	title: "{greedycraft.quest.dabc1ce4.title}",
 	x: -7.0d,
 	y: -1.5d,
-	description: "获得魔力发射器",
+	description: "{greedycraft.quest.dabc1ce4.desc}",
 	dependencies: [
 		"08804ef2"
 	],

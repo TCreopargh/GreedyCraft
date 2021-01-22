@@ -1,8 +1,9 @@
+
 {
-	title: "§6更大存储",
+	title: "{greedycraft.quest.b028fa9b.title}",
 	x: -4.0d,
 	y: 7.5d,
-	description: "获得大型板条箱",
+	description: "{greedycraft.quest.b028fa9b.desc}",
 	dependencies: [
 		"a7c9c1e7"
 	],

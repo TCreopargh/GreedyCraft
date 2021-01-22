@@ -1,8 +1,8 @@
 {
-	title: "§c恐惧之书",
+	title: "{greedycraft.quest.3ed4aeae.title}",
 	x: 10.0d,
 	y: 0.0d,
-	description: "获得恐惧之地死灵之书",
+	description: "{greedycraft.quest.3ed4aeae.desc}",
 	dependencies: [
 		"50fa4126"
 	],

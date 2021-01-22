@@ -1,8 +1,9 @@
+
 {
-	title: "§d别把东西吸走！",
+	title: "{greedycraft.quest.5d1e9951.title}",
 	x: 0.0d,
 	y: 7.5d,
-	description: "制作消磁器，它可以让一定范围内增加拾取范围的物品失去作用",
+	description: "{greedycraft.quest.5d1e9951.desc}",
 	dependencies: [
 		"4b2e0fa7"
 	],

@@ -1,11 +1,11 @@
 {
-	title: "坚持不懈I",
+	title: "{greedycraft.quest.e8a03830.title}",
 	icon: {
 		id: "minecraft:leather_helmet"
 	},
 	x: -5.5d,
 	y: -3.0d,
-	description: "达成指定的游戏时间",
+	description: "{greedycraft.quest.e8a03830.desc}",
 	tasks: [{
 		uid: "51ecd589",
 		type: "stat",

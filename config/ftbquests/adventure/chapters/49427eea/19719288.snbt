@@ -1,8 +1,8 @@
 {
-	title: "§6工业进化III",
+	title: "{greedycraft.quest.19719288.title}",
 	x: -4.5d,
 	y: -6.0d,
-	description: "获得信素升级套件",
+	description: "{greedycraft.quest.19719288.desc}",
 	dependencies: [
 		"686135b7"
 	],

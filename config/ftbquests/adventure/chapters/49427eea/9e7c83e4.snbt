@@ -1,8 +1,8 @@
 {
-	title: "§b机器水冷",
+	title: "{greedycraft.quest.9e7c83e4.title}",
 	x: 3.0d,
 	y: -6.0d,
-	description: "获得外置散热器，能够提高附近机器的运行速度",
+	description: "{greedycraft.quest.9e7c83e4.desc}",
 	tasks: [{
 		uid: "8c445a02",
 		type: "item",

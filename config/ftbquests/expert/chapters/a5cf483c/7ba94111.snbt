@@ -1,8 +1,9 @@
+
 {
-	title: "§e星能聚合",
+	title: "{greedycraft.quest.7ba94111.title}",
 	x: 9.0d,
 	y: 0.0d,
-	description: "获得星能聚合器",
+	description: "{greedycraft.quest.7ba94111.desc}",
 	dependencies: [
 		"e8404979",
 		"4f3a644d"

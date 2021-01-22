@@ -1,8 +1,9 @@
+
 {
-	title: "§b四倍矿产",
+	title: "{greedycraft.quest.4ecb1a4a.title}",
 	x: 5.5d,
 	y: 3.5d,
-	description: "获得化学压射器",
+	description: "{greedycraft.quest.4ecb1a4a.desc}",
 	dependencies: [
 		"33bb8983",
 		"9e787f12",

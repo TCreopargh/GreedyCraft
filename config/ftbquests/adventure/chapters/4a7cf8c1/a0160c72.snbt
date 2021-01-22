@@ -1,8 +1,8 @@
 {
-	title: "§c寰宇支配者",
+	title: "{greedycraft.quest.a0160c72.title}",
 	x: 4.5d,
 	y: 4.0d,
-	description: "§5§o掌握世界上的一切。",
+	description: "{greedycraft.quest.a0160c72.desc}",
 	can_repeat: true,
 	dependencies: [
 		"b1e0c43f"

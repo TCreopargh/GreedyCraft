@@ -1,9 +1,9 @@
 {
-	title: "§b贤者之石",
+	title: "{greedycraft.quest.df9c6844.title}",
 	x: 0.0d,
 	y: 0.0d,
 	shape: "pentagon",
-	description: "获得贤者之石",
+	description: "{greedycraft.quest.df9c6844.desc}",
 	dependencies: [
 		"464fff41"
 	],

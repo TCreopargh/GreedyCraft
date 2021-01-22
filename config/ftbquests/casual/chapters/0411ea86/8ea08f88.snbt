@@ -1,9 +1,10 @@
+
 {
-	title: "§c高塔守望者",
+	title: "{greedycraft.quest.8ea08f88.title}",
 	icon: "twilightforest:trophy 1 3",
 	x: 4.0d,
 	y: -1.0d,
-	description: "击败暮色恶魂",
+	description: "{greedycraft.quest.8ea08f88.desc}",
 	dependencies: [
 		"2c1ad8e1"
 	],

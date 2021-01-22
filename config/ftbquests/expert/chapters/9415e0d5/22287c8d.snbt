@@ -1,8 +1,9 @@
+
 {
-	title: "§a幸运儿",
+	title: "{greedycraft.quest.22287c8d.title}",
 	x: -2.0d,
 	y: 5.5d,
-	description: "获得幸运四叶草",
+	description: "{greedycraft.quest.22287c8d.desc}",
 	text: [
 		"破坏草丛时有小概率获得"
 	],

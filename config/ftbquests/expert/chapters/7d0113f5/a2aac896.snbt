@@ -1,8 +1,9 @@
+
 {
-	title: "§d元§a始§e金§c属",
+	title: "{greedycraft.quest.a2aac896.title}",
 	x: 4.5d,
 	y: 5.5d,
-	description: "获得元金锭",
+	description: "{greedycraft.quest.a2aac896.desc}",
 	dependencies: [
 		"06dba2ad"
 	],

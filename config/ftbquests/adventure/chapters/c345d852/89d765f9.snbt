@@ -1,8 +1,8 @@
 {
-	title: "§b基因采样",
+	title: "{greedycraft.quest.89d765f9.title}",
 	x: 1.5d,
 	y: 0.0d,
-	description: "获得基因采样机",
+	description: "{greedycraft.quest.89d765f9.desc}",
 	dependencies: [
 		"b1243a42"
 	],

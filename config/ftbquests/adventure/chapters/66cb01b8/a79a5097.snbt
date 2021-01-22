@@ -1,8 +1,8 @@
 {
-	title: "§c血之献祭",
+	title: "{greedycraft.quest.a79a5097.title}",
 	x: -3.0d,
 	y: 2.0d,
-	description: "获得血之祭坛",
+	description: "{greedycraft.quest.a79a5097.desc}",
 	dependencies: [
 		"7e0193d6"
 	],

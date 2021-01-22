@@ -1,8 +1,8 @@
 {
-	title: "§5看不见的能量",
+	title: "{greedycraft.quest.34525751.title}",
 	x: -6.0d,
 	y: 5.5d,
-	description: "获得暗物质",
+	description: "{greedycraft.quest.34525751.desc}",
 	tasks: [{
 		uid: "bb71aebd",
 		type: "item",

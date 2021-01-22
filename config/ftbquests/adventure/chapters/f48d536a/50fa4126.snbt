@@ -1,11 +1,11 @@
 {
-	title: "§4恐惧之地",
+	title: "{greedycraft.quest.50fa4126.title}",
 	icon: {
 		id: "abyssalcraft:gatewaykeydl"
 	},
 	x: 7.5d,
 	y: 0.0d,
-	description: "进入恐惧之地",
+	description: "{greedycraft.quest.50fa4126.desc}",
 	dependencies: [
 		"0d455b65",
 		"6c104851",

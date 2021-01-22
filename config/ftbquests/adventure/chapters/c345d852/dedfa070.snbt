@@ -1,8 +1,8 @@
 {
-	title: "§a更好的诱变机",
+	title: "{greedycraft.quest.dedfa070.title}",
 	x: -1.0d,
 	y: 2.5d,
-	description: "升级你的诱变机",
+	description: "{greedycraft.quest.dedfa070.desc}",
 	dependencies: [
 		"158a9205"
 	],

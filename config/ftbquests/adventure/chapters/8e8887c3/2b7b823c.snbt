@@ -1,9 +1,9 @@
 {
-	title: "§8致密金属",
+	title: "{greedycraft.quest.2b7b823c.title}",
 	x: 16.0d,
 	y: -6.0d,
 	shape: "octagon",
-	description: "获得中子锭",
+	description: "{greedycraft.quest.2b7b823c.desc}",
 	dependencies: [
 		"a7d5292c"
 	],

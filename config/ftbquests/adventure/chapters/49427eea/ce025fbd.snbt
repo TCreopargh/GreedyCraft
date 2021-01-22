@@ -1,8 +1,8 @@
 {
-	title: "磨粉机",
+	title: "{greedycraft.quest.ce025fbd.title}",
 	x: -7.0d,
 	y: 7.0d,
-	description: "获得简易SAG磨粉机",
+	description: "{greedycraft.quest.ce025fbd.desc}",
 	dependencies: [
 		"12db3c68"
 	],

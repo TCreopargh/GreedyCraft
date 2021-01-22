@@ -1,8 +1,9 @@
+
 {
-	title: "§d更好的冶炼厂",
+	title: "{greedycraft.quest.ac74928a.title}",
 	x: 4.5d,
 	y: -2.5d,
-	description: "获得神秘源质冶炼厂",
+	description: "{greedycraft.quest.ac74928a.desc}",
 	dependencies: [
 		"087117dd",
 		"b733b7fb"

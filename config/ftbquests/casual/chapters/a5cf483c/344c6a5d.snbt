@@ -1,8 +1,9 @@
+
 {
-	title: "§b更好的开始",
+	title: "{greedycraft.quest.344c6a5d.title}",
 	x: 14.0d,
 	y: 0.0d,
-	description: "获得辐射之星或更替之星",
+	description: "{greedycraft.quest.344c6a5d.desc}",
 	dependencies: [
 		"7cee006c",
 		"470b67b1"

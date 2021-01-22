@@ -1,8 +1,8 @@
 {
-	title: "净化仓",
+	title: "{greedycraft.quest.89933c6e.title}",
 	x: -4.5d,
 	y: 3.5d,
-	description: "获得净化仓，以将矿物打成3份矿物碎块",
+	description: "{greedycraft.quest.89933c6e.desc}",
 	dependencies: [
 		"37f07d1a"
 	],

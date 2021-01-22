@@ -1,8 +1,8 @@
 {
-	title: "抽屉网络",
+	title: "{greedycraft.quest.87feee4e.title}",
 	x: -10.0d,
 	y: 13.5d,
-	description: "获得抽屉管理器",
+	description: "{greedycraft.quest.87feee4e.desc}",
 	tasks: [{
 		uid: "d93c9349",
 		type: "item",

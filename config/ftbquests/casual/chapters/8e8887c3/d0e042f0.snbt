@@ -1,9 +1,10 @@
+
 {
-	title: "§6太烫了",
+	title: "{greedycraft.quest.d0e042f0.title}",
 	x: 6.0d,
 	y: -4.0d,
 	shape: "rsquare",
-	description: "获得一个烈焰棒",
+	description: "{greedycraft.quest.d0e042f0.desc}",
 	dependencies: [
 		"b01be720"
 	],

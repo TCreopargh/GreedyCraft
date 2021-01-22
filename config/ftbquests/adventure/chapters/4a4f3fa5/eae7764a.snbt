@@ -1,8 +1,8 @@
 {
-	title: "§3命运之骰",
+	title: "{greedycraft.quest.eae7764a.title}",
 	x: 8.0d,
 	y: 0.0d,
-	description: "使用盖亚魂锭再次召唤盖亚，获得命运之骰",
+	description: "{greedycraft.quest.eae7764a.desc}",
 	dependencies: [
 		"df8638f2"
 	],

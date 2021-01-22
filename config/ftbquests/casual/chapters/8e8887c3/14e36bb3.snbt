@@ -1,8 +1,9 @@
+
 {
-	title: "§5飞龙之力",
+	title: "{greedycraft.quest.14e36bb3.title}",
 	x: 8.0d,
 	y: 2.0d,
-	description: "获得飞龙金属",
+	description: "{greedycraft.quest.14e36bb3.desc}",
 	dependencies: [
 		"41c2ec3d",
 		"5e88a11f"

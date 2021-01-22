@@ -1,8 +1,9 @@
+
 {
-	title: "§b神秘祭坛",
+	title: "{greedycraft.quest.6962ac70.title}",
 	x: -3.5d,
 	y: -6.0d,
-	description: "找到一个古代神殿并观察其中的浮动水晶",
+	description: "{greedycraft.quest.6962ac70.desc}",
 	tasks: [{
 		uid: "a4cc377a",
 		type: "observation",

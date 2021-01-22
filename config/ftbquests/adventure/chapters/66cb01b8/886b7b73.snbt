@@ -1,8 +1,8 @@
 {
-	title: "§6镀金石板",
+	title: "{greedycraft.quest.886b7b73.title}",
 	x: 15.0d,
 	y: 2.0d,
-	description: "我保证这是最后一个石板了",
+	description: "{greedycraft.quest.886b7b73.desc}",
 	dependencies: [
 		"c2a8d450"
 	],

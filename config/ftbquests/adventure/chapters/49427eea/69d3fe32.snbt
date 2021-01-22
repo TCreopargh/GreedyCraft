@@ -1,8 +1,8 @@
 {
-	title: "§a有机灌注",
+	title: "{greedycraft.quest.69d3fe32.title}",
 	x: 8.0d,
 	y: -6.0d,
-	description: "获得有机灌注器",
+	description: "{greedycraft.quest.69d3fe32.desc}",
 	tasks: [{
 		uid: "b4c388a9",
 		type: "item",

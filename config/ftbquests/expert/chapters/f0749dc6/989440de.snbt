@@ -1,9 +1,10 @@
+
 {
-	title: "§d凋灵杀手IV",
+	title: "{greedycraft.quest.989440de.title}",
 	icon: "mysticalagradditions:stuff 1 1",
 	x: 4.5d,
 	y: 3.0d,
-	description: "击杀指定数量的凋灵",
+	description: "{greedycraft.quest.989440de.desc}",
 	dependencies: [
 		"699b8400"
 	],

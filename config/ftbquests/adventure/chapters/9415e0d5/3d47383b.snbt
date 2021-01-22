@@ -1,8 +1,8 @@
 {
-	title: "§b这是怎么做到的？！",
+	title: "{greedycraft.quest.3d47383b.title}",
 	x: 2.0d,
 	y: 3.5d,
-	description: "获得罐中奶牛",
+	description: "{greedycraft.quest.3d47383b.desc}",
 	tasks: [{
 		uid: "99a71bbe",
 		type: "item",

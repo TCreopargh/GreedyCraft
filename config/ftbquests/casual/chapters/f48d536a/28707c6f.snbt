@@ -1,8 +1,9 @@
+
 {
-	title: "§9深渊守门人",
+	title: "{greedycraft.quest.28707c6f.title}",
 	x: 18.5d,
 	y: 1.5d,
-	description: "来到奥穆索原点处的神殿 ，杀死守门者扎哈尔",
+	description: "{greedycraft.quest.28707c6f.desc}",
 	dependencies: [
 		"18558d0b"
 	],

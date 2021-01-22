@@ -1,8 +1,8 @@
 {
-	title: "§a赏金商人",
+	title: "{greedycraft.quest.25253c84.title}",
 	x: 8.0d,
 	y: 11.5d,
-	description: "获得绿宝石赏金猎人奖牌",
+	description: "{greedycraft.quest.25253c84.desc}",
 	dependencies: [
 		"05062cc8"
 	],

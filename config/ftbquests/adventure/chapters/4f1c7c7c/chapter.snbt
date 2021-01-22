@@ -1,5 +1,5 @@
 {
-	title: "§6游戏模式",
+	title: "{greedycraft.quest.chapter.packmodes}",
 	icon: "minecraft:golden_apple 1 1",
 	always_invisible: false,
 	group: 0,

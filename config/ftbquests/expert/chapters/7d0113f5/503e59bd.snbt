@@ -1,8 +1,9 @@
+
 {
-	title: "§6超然物外",
+	title: "{greedycraft.quest.503e59bd.title}",
 	x: 8.5d,
 	y: 3.5d,
-	description: "获得聚合矩阵方块",
+	description: "{greedycraft.quest.503e59bd.desc}",
 	dependencies: [
 		"f3ca9920"
 	],

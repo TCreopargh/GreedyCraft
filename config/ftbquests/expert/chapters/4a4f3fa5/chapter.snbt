@@ -1,5 +1,5 @@
 {
-	title: "§a植物魔法",
+	title: "{greedycraft.quest.chapter.botania}",
 	icon: {
 		id: "botania:lexicon",
 		tag: {}

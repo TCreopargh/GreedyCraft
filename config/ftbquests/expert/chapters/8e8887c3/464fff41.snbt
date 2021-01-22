@@ -1,10 +1,11 @@
+
 {
-	title: "§b闪亮亮",
+	title: "{greedycraft.quest.464fff41.title}",
 	icon: "minecraft:diamond",
 	x: 0.0d,
 	y: -2.0d,
 	shape: "rsquare",
-	description: "获得一个钻石",
+	description: "{greedycraft.quest.464fff41.desc}",
 	text: [
 		"§e§e/dank/null的使用方法请参阅整合包手册"
 	],

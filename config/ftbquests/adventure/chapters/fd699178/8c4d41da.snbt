@@ -1,8 +1,8 @@
 {
-	title: "§b把它们都磨成粉！",
+	title: "{greedycraft.quest.8c4d41da.title}",
 	x: -4.5d,
 	y: -0.5d,
-	description: "制备各种水晶粉末",
+	description: "{greedycraft.quest.8c4d41da.desc}",
 	dependencies: [
 		"ec46a50d"
 	],

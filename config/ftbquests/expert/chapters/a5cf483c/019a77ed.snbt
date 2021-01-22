@@ -1,8 +1,9 @@
+
 {
-	title: "§9凝聚星辰",
+	title: "{greedycraft.quest.019a77ed.title}",
 	x: 1.5d,
 	y: 2.0d,
-	description: "获得星辉锭",
+	description: "{greedycraft.quest.019a77ed.desc}",
 	dependencies: [
 		"5cc3003c"
 	],

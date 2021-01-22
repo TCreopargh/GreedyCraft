@@ -1,8 +1,8 @@
 {
-	title: "工业进化I",
+	title: "{greedycraft.quest.a68564bd.title}",
 	x: -9.5d,
 	y: -6.0d,
-	description: "获得殷钢升级套件",
+	description: "{greedycraft.quest.a68564bd.desc}",
 	dependencies: [
 		"93ff40d3",
 		"d5340c5b"

@@ -1,8 +1,9 @@
+
 {
-	title: "§c恐惧祭坛（上）",
+	title: "{greedycraft.quest.58c101a2.title}",
 	x: 12.0d,
 	y: -1.5d,
-	description: "得到查加洛特祭坛的上半部分",
+	description: "{greedycraft.quest.58c101a2.desc}",
 	dependencies: [
 		"3ed4aeae"
 	],

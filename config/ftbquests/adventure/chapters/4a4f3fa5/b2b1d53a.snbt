@@ -1,8 +1,8 @@
 {
-	title: "§a魔力石头",
+	title: "{greedycraft.quest.b2b1d53a.title}",
 	x: -10.0d,
 	y: 1.5d,
-	description: "获得活石",
+	description: "{greedycraft.quest.b2b1d53a.desc}",
 	dependencies: [
 		"b53cb9e7"
 	],

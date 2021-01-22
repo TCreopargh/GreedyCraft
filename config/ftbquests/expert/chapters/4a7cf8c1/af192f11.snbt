@@ -1,9 +1,10 @@
+
 {
-	title: "§c通量过载",
+	title: "{greedycraft.quest.af192f11.title}",
 	icon: "thermalexpansion:frame 1 148",
 	x: 4.5d,
 	y: 0.0d,
-	description: "提交指定数量的RF(红石通量)",
+	description: "{greedycraft.quest.af192f11.desc}",
 	text: [
 		"使用任务显示器连接通量管道来提交红石通量"
 	],

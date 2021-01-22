@@ -1,8 +1,8 @@
 {
-	title: "§6超越生死",
+	title: "{greedycraft.quest.6d9d38e5.title}",
 	x: 6.0d,
 	y: 7.5d,
-	description: "获得不死图腾",
+	description: "{greedycraft.quest.6d9d38e5.desc}",
 	tasks: [{
 		uid: "a68b4eaf",
 		type: "item",

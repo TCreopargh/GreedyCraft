@@ -1,8 +1,9 @@
+
 {
-	title: "§d星座共鸣",
+	title: "{greedycraft.quest.fd7ee13f.title}",
 	x: 4.0d,
 	y: 4.0d,
-	description: "获得共鸣祭坛",
+	description: "{greedycraft.quest.fd7ee13f.desc}",
 	dependencies: [
 		"019a77ed"
 	],

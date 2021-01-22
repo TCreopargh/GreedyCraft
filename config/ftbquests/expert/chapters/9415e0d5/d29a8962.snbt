@@ -1,8 +1,9 @@
+
 {
-	title: "§d创造之力",
+	title: "{greedycraft.quest.d29a8962.title}",
 	x: 6.0d,
 	y: 9.5d,
-	description: "获得创造之魂",
+	description: "{greedycraft.quest.d29a8962.desc}",
 	tasks: [{
 		uid: "ecca3399",
 		type: "item",

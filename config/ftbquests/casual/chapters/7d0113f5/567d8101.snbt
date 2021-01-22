@@ -1,8 +1,9 @@
+
 {
-	title: "§c向咒波说再见",
+	title: "{greedycraft.quest.567d8101.title}",
 	x: 10.5d,
 	y: 0.5d,
-	description: "获得铿金源质冶炼厂",
+	description: "{greedycraft.quest.567d8101.desc}",
 	dependencies: [
 		"807834f0",
 		"5f8ba210"

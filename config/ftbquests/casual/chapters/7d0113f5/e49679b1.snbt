@@ -1,8 +1,9 @@
+
 {
-	title: "§5咒波容器",
+	title: "{greedycraft.quest.e49679b1.title}",
 	x: 4.5d,
 	y: 1.5d,
-	description: "获得咒波容器",
+	description: "{greedycraft.quest.e49679b1.desc}",
 	dependencies: [
 		"06dba2ad",
 		"5a9b6af9"

@@ -1,8 +1,8 @@
 {
-	title: "§b海洋宝石",
+	title: "{greedycraft.quest.5cc3003c.title}",
 	x: -3.5d,
 	y: 2.0d,
-	description: "获得海蓝宝石，它可以在河床两岸的沙子中找到",
+	description: "{greedycraft.quest.5cc3003c.desc}",
 	tasks: [{
 		uid: "7644b80f",
 		type: "item",

@@ -1,8 +1,8 @@
 {
-	title: "§9末日毁灭者",
+	title: "{greedycraft.quest.6e2dee53.title}",
 	x: 25.5d,
 	y: 0.0d,
-	description: "击败末日先驱萨托斯并获得他的剑",
+	description: "{greedycraft.quest.6e2dee53.desc}",
 	dependencies: [
 		"fd0167a2"
 	],

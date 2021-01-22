@@ -1,8 +1,9 @@
+
 {
-	title: "§e日光能源",
+	title: "{greedycraft.quest.852cdf55.title}",
 	x: 0.5d,
 	y: 1.5d,
-	description: "获得高级太阳能发电机",
+	description: "{greedycraft.quest.852cdf55.desc}",
 	dependencies: [
 		"4252e75f"
 	],

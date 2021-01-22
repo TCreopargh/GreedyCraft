@@ -1,8 +1,8 @@
 {
-	title: "§6强敌",
+	title: "{greedycraft.quest.72d515bd.title}",
 	x: 10.5d,
 	y: 0.0d,
-	description: "获得挑战券",
+	description: "{greedycraft.quest.72d515bd.desc}",
 	dependencies: [
 		"eae7764a"
 	],

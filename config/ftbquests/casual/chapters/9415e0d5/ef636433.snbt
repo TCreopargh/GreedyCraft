@@ -1,8 +1,9 @@
+
 {
-	title: "§b昂贵的食物",
+	title: "{greedycraft.quest.ef636433.title}",
 	x: 0.0d,
 	y: 13.5d,
-	description: "获得下界之星吐司，这种昂贵的食物提供的饥饿值不会减少",
+	description: "{greedycraft.quest.ef636433.desc}",
 	tasks: [{
 		uid: "fca53e22",
 		type: "item",

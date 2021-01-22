@@ -1,8 +1,9 @@
+
 {
-	title: "§b灵魂绑定",
+	title: "{greedycraft.quest.2cabfa94.title}",
 	x: 0.5d,
 	y: 11.0d,
-	description: "获得灵魂绑定器",
+	description: "{greedycraft.quest.2cabfa94.desc}",
 	dependencies: [
 		"948e2b49"
 	],

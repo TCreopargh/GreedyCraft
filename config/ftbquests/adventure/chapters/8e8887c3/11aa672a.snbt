@@ -1,9 +1,9 @@
 {
-	title: "§6原始人",
+	title: "{greedycraft.quest.11aa672a.title}",
 	x: -8.0d,
 	y: -3.0d,
 	shape: "rsquare",
-	description: "寻找散落的碎石来收集鹅卵石",
+	description: "{greedycraft.quest.11aa672a.desc}",
 	dependencies: [
 		"286f21d3"
 	],

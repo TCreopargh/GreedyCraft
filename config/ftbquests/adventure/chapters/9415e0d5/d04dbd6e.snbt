@@ -1,8 +1,8 @@
 {
-	title: "§5我可以种出一切",
+	title: "{greedycraft.quest.d04dbd6e.title}",
 	x: 0.0d,
 	y: -0.5d,
-	description: "获得究极精华",
+	description: "{greedycraft.quest.d04dbd6e.desc}",
 	tasks: [{
 		uid: "7cd80ca9",
 		type: "item",

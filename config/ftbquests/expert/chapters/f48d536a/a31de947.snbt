@@ -1,8 +1,9 @@
+
 {
-	title: "§3深渊之书",
+	title: "{greedycraft.quest.a31de947.title}",
 	x: 20.5d,
 	y: 0.0d,
-	description: "获得深渊之书",
+	description: "{greedycraft.quest.a31de947.desc}",
 	dependencies: [
 		"28707c6f",
 		"51b259a1"

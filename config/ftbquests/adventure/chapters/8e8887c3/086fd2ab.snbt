@@ -1,9 +1,9 @@
 {
-	title: "§bE=mc²",
+	title: "{greedycraft.quest.086fd2ab.title}",
 	x: 0.0d,
 	y: 2.0d,
 	shape: "pentagon",
-	description: "获得质能转换核心",
+	description: "{greedycraft.quest.086fd2ab.desc}",
 	dependencies: [
 		"df9c6844"
 	],

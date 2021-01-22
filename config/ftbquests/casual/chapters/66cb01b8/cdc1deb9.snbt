@@ -1,8 +1,9 @@
+
 {
-	title: "§e升级祭坛！",
+	title: "{greedycraft.quest.cdc1deb9.title}",
 	x: 3.0d,
 	y: 4.0d,
-	description: "获得一些任意种类的符文石以升级你的祭坛",
+	description: "{greedycraft.quest.cdc1deb9.desc}",
 	dependencies: [
 		"6bac986a"
 	],

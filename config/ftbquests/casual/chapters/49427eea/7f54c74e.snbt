@@ -1,8 +1,9 @@
+
 {
-	title: "§b§o瞬间传输",
+	title: "{greedycraft.quest.7f54c74e.title}",
 	x: 10.5d,
 	y: -6.0d,
-	description: "获得凛冰固化能量管道",
+	description: "{greedycraft.quest.7f54c74e.desc}",
 	tasks: [{
 		uid: "9f8167c9",
 		type: "item",

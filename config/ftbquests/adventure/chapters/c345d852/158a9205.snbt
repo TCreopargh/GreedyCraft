@@ -1,8 +1,8 @@
 {
-	title: "§2诱变机",
+	title: "{greedycraft.quest.158a9205.title}",
 	x: -1.0d,
 	y: 0.0d,
-	description: "获得诱变机",
+	description: "{greedycraft.quest.158a9205.desc}",
 	dependencies: [
 		"b1243a42"
 	],

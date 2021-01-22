@@ -1,9 +1,10 @@
+
 {
-	title: "§d吃货天堂",
+	title: "{greedycraft.quest.9a8fb487.title}",
 	icon: "candymod:teleporter",
 	x: 6.0d,
 	y: 1.5d,
-	description: "使用魔法糖果进入糖果世界",
+	description: "{greedycraft.quest.9a8fb487.desc}",
 	tasks: [{
 		uid: "c526b9fb",
 		type: "dimension",

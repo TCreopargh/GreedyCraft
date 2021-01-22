@@ -1,8 +1,9 @@
+
 {
-	title: "§9玄钢",
+	title: "{greedycraft.quest.334e95a9.title}",
 	x: -9.5d,
 	y: 13.0d,
-	description: "获得玄钢，可使用合金炉或在地牢找到",
+	description: "{greedycraft.quest.334e95a9.desc}",
 	tasks: [{
 		uid: "7bd1fffa",
 		type: "item",

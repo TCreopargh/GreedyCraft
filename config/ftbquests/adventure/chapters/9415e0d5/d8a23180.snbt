@@ -1,9 +1,9 @@
 {
-	title: "§d挑战者VII",
+	title: "{greedycraft.quest.d8a23180.title}",
 	icon: "inventorypets:petachieveitem60",
 	x: 12.0d,
 	y: 11.5d,
-	description: "完成60个挑战任务",
+	description: "{greedycraft.quest.d8a23180.desc}",
 	hide_dependency_lines: true,
 	min_required_dependencies: 60,
 	dependencies: [

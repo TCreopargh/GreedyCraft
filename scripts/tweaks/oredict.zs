@@ -45,8 +45,6 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
         <plustic:laser_gun>,
         <plustic:katana>,
         <tcomplement:chisel>,
-        <tinkersaether:dart>,
-        <tinkersaether:dart_shooter>,
         <tconstruct:pickaxe>,
         <tconstruct:shovel>,
         <tconstruct:hatchet>,
@@ -339,7 +337,8 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
     <ore:netherrack> : [<betternether:nether_mycelium>],
     <ore:ingotSpectre> : [<randomthings:ingredient:3>],
     <ore:stringSpectre> : [<randomthings:ingredient:12>],
-    <ore:prismarine> : [<ore:blockPrismarine>]
+    <ore:prismarine> : [<ore:blockPrismarine>],
+    <ore:blockManaDiamond> : [<botania:storage:3>]
 };
 
 var removeMap as IIngredient[][IOreDictEntry] = {

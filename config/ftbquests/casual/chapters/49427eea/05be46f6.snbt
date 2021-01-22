@@ -1,8 +1,9 @@
+
 {
-	title: "§e永不腐蚀的金属",
+	title: "{greedycraft.quest.05be46f6.title}",
 	x: -2.0d,
 	y: 5.5d,
-	description: "获得铱锭",
+	description: "{greedycraft.quest.05be46f6.desc}",
 	dependencies: [
 		"acafd08c"
 	],

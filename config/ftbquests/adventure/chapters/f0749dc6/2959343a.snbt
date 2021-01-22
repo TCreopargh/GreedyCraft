@@ -1,11 +1,11 @@
 {
-	title: "§9坚持不懈III",
+	title: "{greedycraft.quest.2959343a.title}",
 	icon: {
 		id: "minecraft:iron_helmet"
 	},
 	x: -5.5d,
 	y: 1.0d,
-	description: "达成指定的游戏时间",
+	description: "{greedycraft.quest.2959343a.desc}",
 	dependencies: [
 		"2a5c1d85"
 	],

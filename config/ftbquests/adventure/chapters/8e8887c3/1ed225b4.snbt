@@ -1,9 +1,9 @@
 {
-	title: "§b终极合成",
+	title: "{greedycraft.quest.1ed225b4.title}",
 	x: 14.0d,
 	y: -4.0d,
 	shape: "octagon",
-	description: "制作一个终极合成台",
+	description: "{greedycraft.quest.1ed225b4.desc}",
 	dependencies: [
 		"0d5820d3"
 	],

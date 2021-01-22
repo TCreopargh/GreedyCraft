@@ -1,11 +1,12 @@
+
 {
-	title: "§6守护者V",
+	title: "{greedycraft.quest.fe070725.title}",
 	icon: {
 		id: "minecraft:diamond_chestplate"
 	},
 	x: 2.0d,
 	y: 5.0d,
-	description: "累计受到指定伤害",
+	description: "{greedycraft.quest.fe070725.desc}",
 	dependencies: [
 		"ae732102"
 	],

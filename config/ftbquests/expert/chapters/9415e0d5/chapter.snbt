@@ -1,5 +1,5 @@
 {
-	title: "§6挑战任务",
+	title: "{greedycraft.quest.chapter.challenges}",
 	icon: "additions:greedycraft-city_defender_medal",
 	always_invisible: false,
 	group: 0,

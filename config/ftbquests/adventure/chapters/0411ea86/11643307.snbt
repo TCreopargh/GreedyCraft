@@ -1,8 +1,8 @@
 {
-	title: "§e污妖王",
+	title: "{greedycraft.quest.11643307.title}",
 	x: -1.0d,
 	y: -1.0d,
-	description: "击败巫妖",
+	description: "{greedycraft.quest.11643307.desc}",
 	dependencies: [
 		"555122a8"
 	],

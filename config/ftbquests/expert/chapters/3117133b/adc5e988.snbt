@@ -1,8 +1,9 @@
+
 {
-	title: "§d重力矿石",
+	title: "{greedycraft.quest.adc5e988.title}",
 	x: 1.5d,
 	y: -2.5d,
-	description: "获得重力矿石",
+	description: "{greedycraft.quest.adc5e988.desc}",
 	dependencies: [
 		"b5350524"
 	],

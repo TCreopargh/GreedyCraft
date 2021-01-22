@@ -1,5 +1,5 @@
 {
-	title: "§d星辉魔法",
+	title: "{greedycraft.quest.chapter.astralsorcery}",
 	icon: {
 		id: "astralsorcery:itemlinkingtool"
 	},

@@ -36,7 +36,8 @@ GameStagesUtil.removeItemStages([
     <cyclicmagic:ender_tnt_1>,
     <extrabotany:material>,
     <extrabotany:bottledstar>,
-    <extrabotany:bottledpixie>
+    <extrabotany:bottledpixie>,
+    <extrabotany:rewardbag:*>
 ] as IIngredient[]);
 
 GameStagesUtil.restageItems("wielder_of_infinity", [

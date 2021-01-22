@@ -1,8 +1,9 @@
+
 {
-	title: "§d起死回生",
+	title: "{greedycraft.quest.811621da.title}",
 	x: -8.0d,
 	y: 9.5d,
-	description: "获得超级医疗包",
+	description: "{greedycraft.quest.811621da.desc}",
 	tasks: [{
 		uid: "77e04dc6",
 		type: "item",

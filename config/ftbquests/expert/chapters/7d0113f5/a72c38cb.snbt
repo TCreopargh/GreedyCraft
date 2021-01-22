@@ -1,8 +1,9 @@
+
 {
-	title: "§a注魔合成",
+	title: "{greedycraft.quest.a72c38cb.title}",
 	x: 0.5d,
 	y: 1.5d,
-	description: "获得符文矩阵",
+	description: "{greedycraft.quest.a72c38cb.desc}",
 	dependencies: [
 		"469b1d74"
 	],

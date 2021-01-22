@@ -1,11 +1,11 @@
 {
-	title: "§b云顶巨人",
+	title: "{greedycraft.quest.4f88b9b2.title}",
 	icon: {
 		id: "twilightforest:giant_pickaxe"
 	},
 	x: 9.0d,
 	y: -1.0d,
-	description: "击败巨人，并在空岛之下获得余烬之灯",
+	description: "{greedycraft.quest.4f88b9b2.desc}",
 	dependencies: [
 		"48a55f8e"
 	],

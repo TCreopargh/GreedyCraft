@@ -45,7 +45,8 @@ val descriptions as string[][IIngredient] = {
     <additions:greedycraft-royal_gel>: [game.localize("greedycraft.jei.additions.greedycraft_royal_gel.desc.0")],
     <defiledlands:essence_destroyer>: [game.localize("greedycraft.jei.defiledlands.essence_destroyer.desc.0")],
     <defiledlands:essence_mourner>: [game.localize("greedycraft.jei.defiledlands.essence_mourner.desc.0")],
-    <nyx:meteor_ingot>: [game.localize("greedycraft.jei.nyx.meteor_ingot.desc.0")]
+    <nyx:meteor_ingot>: [game.localize("greedycraft.jei.nyx.meteor_ingot.desc.0")],
+    <additions:netherite_scrap>: [game.localize("greedycraft.jei.additions.greedycraft_netherite_scrap.desc.0")]
 };
 
 val hides as IIngredient[] = [

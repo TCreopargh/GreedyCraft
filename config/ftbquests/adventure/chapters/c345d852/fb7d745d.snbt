@@ -1,8 +1,8 @@
 {
-	title: "发酵工艺",
+	title: "{greedycraft.quest.fb7d745d.title}",
 	x: 9.0d,
 	y: -2.5d,
-	description: "获得发酵机",
+	description: "{greedycraft.quest.fb7d745d.desc}",
 	dependencies: [
 		"99f6417a"
 	],

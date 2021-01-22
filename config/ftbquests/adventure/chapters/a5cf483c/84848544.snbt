@@ -1,8 +1,8 @@
 {
-	title: "§b连连看",
+	title: "{greedycraft.quest.84848544.title}",
 	x: -3.5d,
 	y: 4.0d,
-	description: "获得链接器",
+	description: "{greedycraft.quest.84848544.desc}",
 	dependencies: [
 		"5cc3003c"
 	],

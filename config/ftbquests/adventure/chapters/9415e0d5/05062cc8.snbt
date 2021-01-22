@@ -1,8 +1,8 @@
 {
-	title: "§6职业赏金猎人",
+	title: "{greedycraft.quest.05062cc8.title}",
 	x: 6.0d,
 	y: 11.5d,
-	description: "获得赏金猎人奖牌",
+	description: "{greedycraft.quest.05062cc8.desc}",
 	dependencies: [
 		"e0d65c62"
 	],

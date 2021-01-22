@@ -1,8 +1,9 @@
+
 {
-	title: "§e§o你想要来点铀子吗",
+	title: "{greedycraft.quest.a47d1237.title}",
 	x: 16.0d,
 	y: 3.0d,
-	description: "获得黄铀矿",
+	description: "{greedycraft.quest.a47d1237.desc}",
 	tasks: [{
 		uid: "bd204458",
 		type: "item",

@@ -647,9 +647,9 @@ modularium.representativeItem = <item:modularmachinery:itemmodularium>;
 modularium.liquid = <liquid:modularium>;
 modularium.addItem(<ore:ingotModularium>);
 modularium.localizedName = game.localize("greedycraft.tconstruct.material.modularium.name");
-modularium.addHeadMaterialStats(720, 10.7, 7.4, 3);
-modularium.addHandleMaterialStats(1.2, 200);
-modularium.addExtraMaterialStats(300);modularium.addBowMaterialStats(getDrawSpeed(1.6) as float, 1.2, 3.0);
+modularium.addHeadMaterialStats(420, 10.7, 7.4, 3);
+modularium.addHandleMaterialStats(1.2, 100);
+modularium.addExtraMaterialStats(150);modularium.addBowMaterialStats(getDrawSpeed(1.6) as float, 1.2, 3.0);
 modularium.addProjectileMaterialStats();
 modularium.register();
 

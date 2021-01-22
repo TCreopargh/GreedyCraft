@@ -1,9 +1,9 @@
 {
-	title: "凋灵杀手I",
+	title: "{greedycraft.quest.68c0cf56.title}",
 	icon: "quark:black_ash",
 	x: 4.5d,
 	y: -3.0d,
-	description: "击杀指定数量的凋灵",
+	description: "{greedycraft.quest.68c0cf56.desc}",
 	dependencies: [
 		"a357fcd1"
 	],

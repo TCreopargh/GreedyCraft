@@ -1,9 +1,10 @@
+
 {
-	title: "§b魔力过载",
+	title: "{greedycraft.quest.d0a698b8.title}",
 	icon: "botania:pool",
 	x: -2.5d,
 	y: 0.0d,
-	description: "提交指定数量的植物魔法魔力",
+	description: "{greedycraft.quest.d0a698b8.desc}",
 	can_repeat: true,
 	dependencies: [
 		"b1e0c43f"

@@ -1,8 +1,8 @@
 {
-	title: "硬化玻璃",
+	title: "{greedycraft.quest.cf124b65.title}",
 	x: -4.5d,
 	y: -5.0d,
-	description: "获得硬化玻璃",
+	description: "{greedycraft.quest.cf124b65.desc}",
 	dependencies: [
 		"c16fec30"
 	],

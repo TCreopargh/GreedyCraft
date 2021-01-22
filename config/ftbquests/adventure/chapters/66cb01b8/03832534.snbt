@@ -1,8 +1,8 @@
 {
-	title: "§b超越灵魂",
+	title: "{greedycraft.quest.03832534.title}",
 	x: 12.0d,
 	y: -1.0d,
-	description: "获得最高级的魂石",
+	description: "{greedycraft.quest.03832534.desc}",
 	dependencies: [
 		"18313de2"
 	],

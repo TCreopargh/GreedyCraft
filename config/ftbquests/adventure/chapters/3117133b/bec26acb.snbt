@@ -1,9 +1,9 @@
 {
-	title: "§6杀死太阳",
+	title: "{greedycraft.quest.bec26acb.title}",
 	icon: "minecraft:blaze_powder",
 	x: 1.5d,
 	y: 2.5d,
-	description: "制作极寒圣物，战胜烈阳巨魔",
+	description: "{greedycraft.quest.bec26acb.desc}",
 	dependencies: [
 		"b5350524"
 	],

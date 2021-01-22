@@ -19,3 +19,8 @@ RecipeUtil.removeAndAdd("iron_chain_ring", <hooked:microcrafting:2>, [
     [<ore:nuggetIron>, null, <ore:nuggetIron>], 
     [<ore:nuggetIron>, <ore:nuggetIron>, null]
 ]);
+RecipeUtil.removeAndAdd("diamond_hook", <hooked:hook:2>, [
+    [null, <ore:blockDiamond>, <botania:storage:3>], 
+    [null, <hooked:hook:1>, <ore:blockDiamond>], 
+    [<ore:blockDiamond>, null, null]
+]);

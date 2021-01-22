@@ -1,8 +1,9 @@
+
 {
-	title: "§d旋律合金",
+	title: "{greedycraft.quest.2e7614df.title}",
 	x: -4.5d,
 	y: 13.0d,
-	description: "获得旋律合金",
+	description: "{greedycraft.quest.2e7614df.desc}",
 	dependencies: [
 		"5f9118a0"
 	],

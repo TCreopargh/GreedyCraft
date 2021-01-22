@@ -1,8 +1,9 @@
+
 {
-	title: "§d这看上去一点都不五彩",
+	title: "{greedycraft.quest.470b67b1.title}",
 	x: 11.5d,
 	y: 2.0d,
-	description: "获得五彩祭坛",
+	description: "{greedycraft.quest.470b67b1.desc}",
 	dependencies: [
 		"7ba94111"
 	],

@@ -95,7 +95,8 @@ events.onCommand(function (event as CommandEvent) {
 });
 
 events.onPlayerTick(function (event as PlayerTickEvent) {
-    if((event.player.world.getWorldTime() as long) % 200 != 0 || event.player.world.remote) {
+    
+    if((event.player.world.getWorldTime() as long) % 200 != 0 || event.player.world.remote || event.phase != "END" || event.side != "SERVER") {
         return;
     }
     var player as IPlayer = event.player;

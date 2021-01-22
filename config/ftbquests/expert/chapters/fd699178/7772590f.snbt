@@ -1,8 +1,9 @@
+
 {
-	title: "§d水晶增产",
+	title: "{greedycraft.quest.7772590f.title}",
 	x: -4.5d,
 	y: -3.0d,
-	description: "用三种水晶粉制作它们对应的种子并增产！",
+	description: "{greedycraft.quest.7772590f.desc}",
 	dependencies: [
 		"8c4d41da"
 	],

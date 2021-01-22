@@ -1,8 +1,8 @@
 {
-	title: "§6此木只应天上有",
+	title: "{greedycraft.quest.3fa4c940.title}",
 	x: 4.0d,
 	y: -4.0d,
-	description: "获得聚星木",
+	description: "{greedycraft.quest.3fa4c940.desc}",
 	dependencies: [
 		"64609cf0"
 	],

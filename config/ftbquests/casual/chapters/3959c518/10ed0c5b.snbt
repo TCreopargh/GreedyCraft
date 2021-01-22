@@ -1,8 +1,9 @@
+
 {
-	title: "§6千里之行，始于足下",
+	title: "{greedycraft.quest.10ed0c5b.title}",
 	x: 0.0d,
 	y: -7.0d,
-	description: "获得平凡奖章",
+	description: "{greedycraft.quest.10ed0c5b.desc}",
 	tasks: [{
 		uid: "7038bd7f",
 		type: "item",

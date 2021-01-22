@@ -1,8 +1,9 @@
+
 {
-	title: "§3灵魂捕手",
+	title: "{greedycraft.quest.7e0193d6.title}",
 	x: -6.0d,
 	y: 1.0d,
-	description: "获得原始投网",
+	description: "{greedycraft.quest.7e0193d6.desc}",
 	dependencies: [
 		"8ee4845a"
 	],

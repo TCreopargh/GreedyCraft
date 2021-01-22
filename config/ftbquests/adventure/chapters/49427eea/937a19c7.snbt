@@ -1,8 +1,8 @@
 {
-	title: "§e批量生产",
+	title: "{greedycraft.quest.937a19c7.title}",
 	x: 5.5d,
 	y: -4.0d,
-	description: "获得循环装配台",
+	description: "{greedycraft.quest.937a19c7.desc}",
 	tasks: [{
 		uid: "2986b9ba",
 		type: "item",

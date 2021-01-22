@@ -1,8 +1,9 @@
+
 {
-	title: "§b灵魂收割者",
+	title: "{greedycraft.quest.18313de2.title}",
 	x: 9.0d,
 	y: -2.0d,
-	description: "进一步升级你的魂石",
+	description: "{greedycraft.quest.18313de2.desc}",
 	dependencies: [
 		"9d817781"
 	],

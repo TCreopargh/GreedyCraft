@@ -1,8 +1,9 @@
+
 {
-	title: "§a森林之力",
+	title: "{greedycraft.quest.c62747a9.title}",
 	x: -10.0d,
 	y: -4.0d,
-	description: "获得森林法杖",
+	description: "{greedycraft.quest.c62747a9.desc}",
 	dependencies: [
 		"08804ef2"
 	],

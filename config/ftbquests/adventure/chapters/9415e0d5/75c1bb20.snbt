@@ -1,8 +1,8 @@
 {
-	title: "妈妈的便当饭",
+	title: "{greedycraft.quest.75c1bb20.title}",
 	x: 0.0d,
 	y: 1.5d,
-	description: "制作一个午餐盒，它可以便捷地携带和使用食物。",
+	description: "{greedycraft.quest.75c1bb20.desc}",
 	tasks: [{
 		uid: "1b5b9527",
 		type: "item",

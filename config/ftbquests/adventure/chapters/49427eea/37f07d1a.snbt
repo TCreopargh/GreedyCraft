@@ -1,8 +1,8 @@
 {
-	title: "§b2H2O==2H2↑+O2↑",
+	title: "{greedycraft.quest.37f07d1a.title}",
 	x: -7.0d,
 	y: 3.5d,
-	description: "获得电解分离机，可以电解水来制取氢和氧",
+	description: "{greedycraft.quest.37f07d1a.desc}",
 	dependencies: [
 		"a1b00ed5"
 	],

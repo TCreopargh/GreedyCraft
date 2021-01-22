@@ -1,11 +1,11 @@
 {
-	title: "§9旅行者III",
+	title: "{greedycraft.quest.975130a6.title}",
 	icon: {
 		id: "minecraft:iron_boots"
 	},
 	x: -0.5d,
 	y: 1.0d,
-	description: "行走指定的距离",
+	description: "{greedycraft.quest.975130a6.desc}",
 	dependencies: [
 		"20cfe99d"
 	],

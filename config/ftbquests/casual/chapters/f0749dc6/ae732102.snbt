@@ -1,11 +1,12 @@
+
 {
-	title: "§d守护者IV",
+	title: "{greedycraft.quest.ae732102.title}",
 	icon: {
 		id: "minecraft:golden_chestplate"
 	},
 	x: 2.0d,
 	y: 3.0d,
-	description: "累计受到指定伤害",
+	description: "{greedycraft.quest.ae732102.desc}",
 	dependencies: [
 		"5f83f749"
 	],

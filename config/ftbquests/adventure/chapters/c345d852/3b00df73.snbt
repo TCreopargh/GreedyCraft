@@ -1,8 +1,8 @@
 {
-	title: "蒸馏工艺",
+	title: "{greedycraft.quest.3b00df73.title}",
 	x: -11.0d,
 	y: -2.5d,
-	description: "获得蒸馏器",
+	description: "{greedycraft.quest.3b00df73.desc}",
 	dependencies: [
 		"99f6417a"
 	],

@@ -1,8 +1,9 @@
+
 {
-	title: "§d谁不想要附魔台呢",
+	title: "{greedycraft.quest.4b2e0fa7.title}",
 	x: -2.0d,
 	y: 7.5d,
-	description: "获得一个附魔台",
+	description: "{greedycraft.quest.4b2e0fa7.desc}",
 	tasks: [{
 		uid: "04706ce3",
 		type: "item",

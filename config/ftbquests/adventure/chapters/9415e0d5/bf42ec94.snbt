@@ -1,8 +1,8 @@
 {
-	title: "§6炽焰金属",
+	title: "{greedycraft.quest.bf42ec94.title}",
 	x: -4.0d,
 	y: 15.5d,
-	description: "击败太阳酋长，获取永燃锭",
+	description: "{greedycraft.quest.bf42ec94.desc}",
 	tasks: [{
 		uid: "294727b4",
 		type: "item",

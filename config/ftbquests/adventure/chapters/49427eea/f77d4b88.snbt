@@ -1,8 +1,8 @@
 {
-	title: "§b冰§6火§5交融",
+	title: "{greedycraft.quest.f77d4b88.title}",
 	x: -4.5d,
 	y: 0.0d,
-	description: "为能源炉安装专业化升级",
+	description: "{greedycraft.quest.f77d4b88.desc}",
 	dependencies: [
 		"df41fda8"
 	],

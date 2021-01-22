@@ -1,11 +1,11 @@
 {
-	title: "怪物猎人I",
+	title: "{greedycraft.quest.260c92bf.title}",
 	icon: {
 		id: "minecraft:wooden_sword"
 	},
 	x: -3.0d,
 	y: -3.0d,
-	description: "击杀指定数量的生物",
+	description: "{greedycraft.quest.260c92bf.desc}",
 	tasks: [{
 		uid: "60d4757a",
 		type: "stat",

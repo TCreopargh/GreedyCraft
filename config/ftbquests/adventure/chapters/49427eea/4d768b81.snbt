@@ -1,8 +1,8 @@
 {
-	title: "§6解放双手",
+	title: "{greedycraft.quest.4d768b81.title}",
 	x: 8.0d,
 	y: 6.0d,
-	description: "获得数字型采矿机",
+	description: "{greedycraft.quest.4d768b81.desc}",
 	dependencies: [
 		"24e548e5"
 	],

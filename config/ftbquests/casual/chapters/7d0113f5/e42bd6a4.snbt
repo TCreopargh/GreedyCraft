@@ -1,8 +1,9 @@
+
 {
-	title: "§e世界精华",
+	title: "{greedycraft.quest.e42bd6a4.title}",
 	x: -3.5d,
 	y: -0.5d,
-	description: "根据《异梦》的指引获得世界盐",
+	description: "{greedycraft.quest.e42bd6a4.desc}",
 	tasks: [{
 		uid: "de0a213f",
 		type: "item",

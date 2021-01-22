@@ -1,11 +1,11 @@
 {
-	title: "§a怪物猎人II",
+	title: "{greedycraft.quest.653fa7f3.title}",
 	icon: {
 		id: "minecraft:stone_sword"
 	},
 	x: -3.0d,
 	y: -1.0d,
-	description: "击杀指定数量的生物",
+	description: "{greedycraft.quest.653fa7f3.desc}",
 	dependencies: [
 		"260c92bf"
 	],

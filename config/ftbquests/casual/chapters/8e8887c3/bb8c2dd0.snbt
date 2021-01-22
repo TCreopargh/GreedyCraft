@@ -1,8 +1,9 @@
+
 {
-	title: "§8混沌之力",
+	title: "{greedycraft.quest.bb8c2dd0.title}",
 	x: 16.0d,
 	y: 4.0d,
-	description: "获得混沌金属",
+	description: "{greedycraft.quest.bb8c2dd0.desc}",
 	dependencies: [
 		"506b94fd"
 	],

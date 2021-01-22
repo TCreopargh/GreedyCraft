@@ -1,8 +1,8 @@
 {
-	title: "§6试试手气！",
+	title: "{greedycraft.quest.7e836fe3.title}",
 	x: 0.0d,
 	y: 5.5d,
-	description: "获得一个机会方块",
+	description: "{greedycraft.quest.7e836fe3.desc}",
 	dependencies: [
 		"22287c8d"
 	],

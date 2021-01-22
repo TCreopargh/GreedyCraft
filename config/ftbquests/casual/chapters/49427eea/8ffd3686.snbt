@@ -1,8 +1,9 @@
+
 {
-	title: "高能激光",
+	title: "{greedycraft.quest.8ffd3686.title}",
 	x: 16.0d,
 	y: -8.0d,
-	description: "获得原子再构机",
+	description: "{greedycraft.quest.8ffd3686.desc}",
 	tasks: [{
 		uid: "e89cb7d6",
 		type: "item",

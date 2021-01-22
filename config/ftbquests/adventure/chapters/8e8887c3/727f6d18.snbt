@@ -1,9 +1,9 @@
 {
-	title: "§d这仅仅是十分之一？！",
+	title: "{greedycraft.quest.727f6d18.title}",
 	x: 20.0d,
 	y: -4.0d,
 	shape: "octagon",
-	description: "获得无尽催化剂",
+	description: "{greedycraft.quest.727f6d18.desc}",
 	dependencies: [
 		"d0e61e36"
 	],

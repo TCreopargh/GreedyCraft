@@ -1,8 +1,8 @@
 {
-	title: "§5洞察一切",
+	title: "{greedycraft.quest.6a36770c.title}",
 	x: 2.5d,
 	y: 0.5d,
-	description: "获得虚空魔导透镜",
+	description: "{greedycraft.quest.6a36770c.desc}",
 	dependencies: [
 		"5a9b6af9",
 		"a72c38cb"

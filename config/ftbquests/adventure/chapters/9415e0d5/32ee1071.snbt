@@ -1,8 +1,8 @@
 {
-	title: "§b豆腐之力",
+	title: "{greedycraft.quest.32ee1071.title}",
 	x: 4.0d,
 	y: 5.5d,
-	description: "击败豆腐战神获得豆腐能核心",
+	description: "{greedycraft.quest.32ee1071.desc}",
 	dependencies: [
 		"521ad3b8"
 	],

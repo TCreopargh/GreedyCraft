@@ -1,9 +1,10 @@
+
 {
-	title: "§b暮光屏障",
+	title: "{greedycraft.quest.754739e1.title}",
 	icon: "additions:greedycraft-twilight_shield",
 	x: 2.0d,
 	y: -4.0d,
-	description: "使用暮色之庇护以安全地进入下界",
+	description: "{greedycraft.quest.754739e1.desc}",
 	tasks: [{
 		uid: "87436bb4",
 		type: "gamestage",

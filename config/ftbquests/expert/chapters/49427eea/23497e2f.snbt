@@ -1,8 +1,9 @@
+
 {
-	title: "§a村民之怒",
+	title: "{greedycraft.quest.23497e2f.title}",
 	x: 0.5d,
 	y: 0.0d,
-	description: "为能源炉安装专业化升级",
+	description: "{greedycraft.quest.23497e2f.desc}",
 	dependencies: [
 		"38bdb0e4"
 	],

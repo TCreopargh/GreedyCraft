@@ -1,8 +1,9 @@
+
 {
-	title: "蒸汽时代",
+	title: "{greedycraft.quest.e074db01.title}",
 	x: -12.0d,
 	y: -1.5d,
-	description: "获得蒸汽能源炉",
+	description: "{greedycraft.quest.e074db01.desc}",
 	dependencies: [
 		"d5340c5b"
 	],

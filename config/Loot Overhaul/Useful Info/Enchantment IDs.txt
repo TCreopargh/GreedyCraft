@@ -232,28 +232,28 @@ endercore:autosmelt
    - Max Level: 1
 
 
-enderio:witherweapon
+enderio:repellent
    - Id: 28
+   - Rarity: VERY_RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 4
+
+
+enderio:witherweapon
+   - Id: 29
    - Rarity: UNCOMMON
    - Treasure: false
    - Min Level: 1
    - Max Level: 1
 
 
-enderio:shimmer
-   - Id: 29
-   - Rarity: VERY_RARE
-   - Treasure: true
-   - Min Level: 1
-   - Max Level: 1
-
-
-enderio:repellent
+enderio:soulbound
    - Id: 30
    - Rarity: VERY_RARE
    - Treasure: false
    - Min Level: 1
-   - Max Level: 4
+   - Max Level: 1
 
 
 enderio:witherarrow
@@ -296,10 +296,10 @@ minecraft:fortune
    - Max Level: 3
 
 
-enderio:soulbound
+enderio:shimmer
    - Id: 36
    - Rarity: VERY_RARE
-   - Treasure: false
+   - Treasure: true
    - Min Level: 1
    - Max Level: 1
 

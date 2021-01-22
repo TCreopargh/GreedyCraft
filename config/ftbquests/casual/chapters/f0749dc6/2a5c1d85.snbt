@@ -1,11 +1,12 @@
+
 {
-	title: "§a坚持不懈II",
+	title: "{greedycraft.quest.2a5c1d85.title}",
 	icon: {
 		id: "minecraft:chainmail_helmet"
 	},
 	x: -5.5d,
 	y: -1.0d,
-	description: "达成指定的游戏时间",
+	description: "{greedycraft.quest.2a5c1d85.desc}",
 	dependencies: [
 		"e8a03830"
 	],

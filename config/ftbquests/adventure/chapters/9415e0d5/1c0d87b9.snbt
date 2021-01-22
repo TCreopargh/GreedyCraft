@@ -1,8 +1,8 @@
 {
-	title: "§5巨龙之魂",
+	title: "{greedycraft.quest.1c0d87b9.title}",
 	x: 0.0d,
 	y: 9.5d,
-	description: "在最高难度下打败末影龙获得龙魂",
+	description: "{greedycraft.quest.1c0d87b9.desc}",
 	tasks: [{
 		uid: "dd371412",
 		type: "item",

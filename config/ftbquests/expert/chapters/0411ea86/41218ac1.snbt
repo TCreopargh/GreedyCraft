@@ -1,9 +1,10 @@
+
 {
-	title: "皮糙肉厚",
+	title: "{greedycraft.quest.41218ac1.title}",
 	icon: "twilightforest:alpha_fur",
 	x: 1.5d,
 	y: 1.0d,
-	description: "击败雪怪首领",
+	description: "{greedycraft.quest.41218ac1.desc}",
 	dependencies: [
 		"11643307"
 	],

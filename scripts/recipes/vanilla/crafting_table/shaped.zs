@@ -1065,7 +1065,7 @@ RecipeUtil.addShaped("harvester", <cyclicmagic:harvester_block>, [
     [<ore:ingotDurasteel>, <minecraft:dispenser>, <ore:ingotDurasteel>],
     [<ore:circuitElite>, <ore:ingotDurasteel>, <ore:circuitElite>]
 ]);
-RecipeUtil.addShaped("ma_mystical_fertilizer", <mysticalagriculture:mystical_fertilizer> * 3, [
+RecipeUtil.addShaped("ma_mystical_fertilizer", <mysticalagriculture:mystical_fertilizer> * 2, [
     [<mysticalagriculture:fertilized_essence>, <thermalfoundation:fertilizer:2>, <mysticalagriculture:fertilized_essence>],
     [<thermalfoundation:fertilizer:2>, <ore:essenceSupremium>, <thermalfoundation:fertilizer:2>],
     [<mysticalagriculture:fertilized_essence>, <thermalfoundation:fertilizer:2>, <mysticalagriculture:fertilized_essence>]
@@ -1259,14 +1259,14 @@ RecipeUtil.addShaped("phantom_interface", <actuallyadditions:block_phantomface>,
     [<ore:ingotAeonsteel>, <actuallyadditions:item_misc:8>, <ore:ingotAeonsteel>]
 ]);
 RecipeUtil.addShaped("exu_user", <extrautils2:user>, [
-    [<extrautils2:decorativesolid:3>, <minecraft:dispenser>, <extrautils2:decorativesolid:3>],
+    [<ore:blockAeonsteel>, <minecraft:dispenser>, <ore:blockAeonsteel>],
     [<ore:alloyUltimate>, <ore:circuitUltimate>, <ore:alloyUltimate>],
-    [<extrautils2:decorativesolid:3>, <extrautils2:redstoneclock>, <extrautils2:decorativesolid:3>]
+    [<ore:blockAeonsteel>, <extrautils2:redstoneclock>, <ore:blockAeonsteel>]
 ]);
 RecipeUtil.addShaped("cyclic_user", <cyclicmagic:block_user>, [
-    [<ore:obsidian>, <minecraft:dispenser>, <ore:obsidian>],
+    [<ore:blockAeonsteel>, <minecraft:dispenser>, <ore:blockAeonsteel>],
     [<ore:alloyUltimate>, <ore:circuitUltimate>, <ore:alloyUltimate>],
-    [<ore:obsidian>, <cyclicmagic:clock>, <ore:obsidian>]
+    [<ore:blockAeonsteel>, <cyclicmagic:clock>, <ore:blockAeonsteel>]
 ]);
 RecipeUtil.addShaped("turret_base_1", <openmodularturrets:turret_base>, [
     [<ore:ingotIron>, <openmodularturrets:intermediate_regular>, <ore:ingotIron>],
@@ -1321,11 +1321,6 @@ RecipeUtil.addShaped("xp_block", <globalxp:xp_block>, [
     [<minecraft:iron_bars>, <ore:ingotExperience>, <minecraft:iron_bars>],
     [<ore:ingotExperience>, <minecraft:emerald>, <ore:ingotExperience>],
     [<minecraft:iron_bars>, <ore:ingotExperience>, <minecraft:iron_bars>]
-]);
-RecipeUtil.addShaped("shining_star", <additions:greedycraft-shining_star>, [
-    [<ore:fallenStar>, <ore:dustGlowstone>, <ore:fallenStar>],
-    [<ore:dustGlowstone>, <ore:ingotGold>, <ore:dustGlowstone>],
-    [<ore:fallenStar>, <ore:dustGlowstone>, <ore:fallenStar>]
 ]);
 RecipeUtil.addShaped("growth_ring", <actuallyadditions:item_growth_ring>, [
     [<ore:shardCreative>, <minecraft:wheat_seeds>, <ore:shardCreative>],

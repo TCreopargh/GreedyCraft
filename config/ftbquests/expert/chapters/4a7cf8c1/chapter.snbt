@@ -1,5 +1,5 @@
 {
-	title: "§d可重复任务",
+	title: "{greedycraft.quest.chapter.repeatables}",
 	icon: {
 		id: "ftbquests:book"
 	},

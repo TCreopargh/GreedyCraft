@@ -1,9 +1,10 @@
+
 {
-	title: "§d不等价交换",
+	title: "{greedycraft.quest.9f632a25.title}",
 	icon: "projecte:transmutation_table",
 	x: 11.5d,
 	y: 0.0d,
-	description: "提交指定数量的EMC",
+	description: "{greedycraft.quest.9f632a25.desc}",
 	can_repeat: true,
 	dependencies: [
 		"b1e0c43f"

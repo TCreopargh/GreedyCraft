@@ -1,10 +1,10 @@
 {
-	title: "§6淘金热",
+	title: "{greedycraft.quest.734a9cfd.title}",
 	icon: "minecraft:gold_ore",
 	x: -4.0d,
 	y: 0.0d,
 	shape: "rsquare",
-	description: "获得金矿",
+	description: "{greedycraft.quest.734a9cfd.desc}",
 	dependencies: [
 		"bb3d9aaa"
 	],

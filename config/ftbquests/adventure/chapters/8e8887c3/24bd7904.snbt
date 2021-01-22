@@ -1,9 +1,9 @@
 {
-	title: "§6神龙之力",
+	title: "{greedycraft.quest.24bd7904.title}",
 	x: 12.0d,
 	y: 4.0d,
 	shape: "square",
-	description: "获得神龙权杖",
+	description: "{greedycraft.quest.24bd7904.desc}",
 	dependencies: [
 		"5fdcedd9"
 	],

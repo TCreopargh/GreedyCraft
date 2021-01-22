@@ -1,8 +1,9 @@
+
 {
-	title: "充能水晶",
+	title: "{greedycraft.quest.06264bbf.title}",
 	x: -9.0d,
 	y: 1.0d,
-	description: "通过将赛特斯石英水晶充能获得充能的赛特斯石英水晶，或者你也偶尔可以在地下找到",
+	description: "{greedycraft.quest.06264bbf.desc}",
 	dependencies: [
 		"75b58b30"
 	],

@@ -1,8 +1,8 @@
 {
-	title: "§5虚空预言者",
+	title: "{greedycraft.quest.9c5f6e99.title}",
 	x: 6.5d,
 	y: 4.5d,
-	description: "获得虚空预言者的珍珠",
+	description: "{greedycraft.quest.9c5f6e99.desc}",
 	dependencies: [
 		"06dba2ad"
 	],

@@ -1,9 +1,10 @@
+
 {
-	title: "§5邪恶根源",
+	title: "{greedycraft.quest.864212ba.title}",
 	icon: "extrautils2:ingredients 1 10",
 	x: -10.0d,
 	y: 1.5d,
-	description: "获得邪恶点滴",
+	description: "{greedycraft.quest.864212ba.desc}",
 	text: [
 		"在泥土上使用能使土变为诅咒之土，能够快速刷怪"
 	],

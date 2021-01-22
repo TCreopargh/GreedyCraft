@@ -1,8 +1,9 @@
+
 {
-	title: "反应堆端口",
+	title: "{greedycraft.quest.05a583e8.title}",
 	x: 22.0d,
 	y: 5.5d,
-	description: "获得反应堆能源端口或冷却端口",
+	description: "{greedycraft.quest.05a583e8.desc}",
 	tasks: [{
 		uid: "41e32160",
 		type: "item",

@@ -1,8 +1,9 @@
+
 {
-	title: "§e平凡人生",
+	title: "{greedycraft.quest.331dd91f.title}",
 	x: 8.0d,
 	y: -0.5d,
-	description: "和一个村民结婚生子",
+	description: "{greedycraft.quest.331dd91f.desc}",
 	tasks: [{
 		uid: "1799beb4",
 		type: "item",

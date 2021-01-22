@@ -1,8 +1,9 @@
+
 {
-	title: "§9奥穆索之书",
+	title: "{greedycraft.quest.51b259a1.title}",
 	x: 18.5d,
 	y: -1.5d,
-	description: "获得奥穆索死灵之书",
+	description: "{greedycraft.quest.51b259a1.desc}",
 	dependencies: [
 		"18558d0b"
 	],

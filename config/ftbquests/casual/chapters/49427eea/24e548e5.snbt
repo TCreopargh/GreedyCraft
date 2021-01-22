@@ -1,8 +1,9 @@
+
 {
-	title: "§6化学溶解",
+	title: "{greedycraft.quest.24e548e5.title}",
 	x: 5.5d,
 	y: 6.0d,
-	description: "获得一个化学溶解室",
+	description: "{greedycraft.quest.24e548e5.desc}",
 	dependencies: [
 		"4ecb1a4a"
 	],

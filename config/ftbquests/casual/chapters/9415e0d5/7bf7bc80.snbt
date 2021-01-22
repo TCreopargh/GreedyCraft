@@ -1,8 +1,9 @@
+
 {
-	title: "§b超大背包",
+	title: "{greedycraft.quest.7bf7bc80.title}",
 	x: 4.0d,
 	y: -0.5d,
-	description: "获得一个背包",
+	description: "{greedycraft.quest.7bf7bc80.desc}",
 	tasks: [{
 		uid: "f0a0c9c5",
 		type: "item",

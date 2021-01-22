@@ -1,8 +1,9 @@
+
 {
-	title: "§9浓缩的才是精华",
+	title: "{greedycraft.quest.dfdf1d06.title}",
 	x: -10.0d,
 	y: 15.5d,
-	description: "用黑曜石在基岩上挤压红石粉获取通量粉尘",
+	description: "{greedycraft.quest.dfdf1d06.desc}",
 	tasks: [{
 		uid: "cd8e6ad5",
 		type: "item",

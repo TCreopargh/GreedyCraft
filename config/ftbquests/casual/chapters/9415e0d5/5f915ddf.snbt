@@ -1,8 +1,9 @@
+
 {
-	title: "§3让怪物来的更猛烈些吧",
+	title: "{greedycraft.quest.5f915ddf.title}",
 	x: 6.0d,
 	y: 3.5d,
-	description: "获得一个水蜡烛，它可以大幅提升附近的刷怪率",
+	description: "{greedycraft.quest.5f915ddf.desc}",
 	tasks: [{
 		uid: "f6a34ff5",
 		type: "item",

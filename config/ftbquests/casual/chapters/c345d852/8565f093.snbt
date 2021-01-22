@@ -1,8 +1,9 @@
+
 {
-	title: "§a离心机",
+	title: "{greedycraft.quest.8565f093.title}",
 	x: 4.0d,
 	y: -2.5d,
-	description: "获得离心机",
+	description: "{greedycraft.quest.8565f093.desc}",
 	dependencies: [
 		"99f6417a"
 	],

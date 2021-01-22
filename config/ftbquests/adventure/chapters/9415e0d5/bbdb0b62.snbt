@@ -1,8 +1,8 @@
 {
-	title: "§b飞檐走壁",
+	title: "{greedycraft.quest.bbdb0b62.title}",
 	x: 6.0d,
 	y: -0.5d,
-	description: "获得钻石钩爪",
+	description: "{greedycraft.quest.bbdb0b62.desc}",
 	tasks: [{
 		uid: "296678e3",
 		type: "item",

@@ -1,8 +1,8 @@
 {
-	title: "§e我的多方块农场",
+	title: "{greedycraft.quest.322f3076.title}",
 	x: -3.5d,
 	y: 0.0d,
-	description: "获得农场方块",
+	description: "{greedycraft.quest.322f3076.desc}",
 	dependencies: [
 		"2034cbe8"
 	],

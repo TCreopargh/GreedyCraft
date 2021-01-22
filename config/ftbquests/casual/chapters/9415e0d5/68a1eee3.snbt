@@ -1,8 +1,9 @@
+
 {
-	title: "§e小星星坠落",
+	title: "{greedycraft.quest.68a1eee3.title}",
 	x: 2.0d,
 	y: 13.5d,
-	description: "捡到一颗流星，它们偶尔会在晚上划过天空",
+	description: "{greedycraft.quest.68a1eee3.desc}",
 	tasks: [{
 		uid: "51d4e9ee",
 		type: "item",

@@ -1,8 +1,8 @@
 {
-	title: "§b源质冶炼",
+	title: "{greedycraft.quest.b733b7fb.title}",
 	x: 2.5d,
 	y: -3.5d,
-	description: "获得源质冶炼厂",
+	description: "{greedycraft.quest.b733b7fb.desc}",
 	dependencies: [
 		"5b9f8f30"
 	],

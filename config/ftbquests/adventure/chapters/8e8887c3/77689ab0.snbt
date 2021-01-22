@@ -1,10 +1,10 @@
 {
-	title: "§3石器时代",
+	title: "{greedycraft.quest.77689ab0.title}",
 	icon: "minecraft:cobblestone",
 	x: -4.0d,
 	y: -2.0d,
 	shape: "rsquare",
-	description: "获得圆石",
+	description: "{greedycraft.quest.77689ab0.desc}",
 	dependencies: [
 		"d8730528"
 	],

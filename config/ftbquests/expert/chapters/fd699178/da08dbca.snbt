@@ -1,8 +1,9 @@
+
 {
-	title: "§b智能革命",
+	title: "{greedycraft.quest.da08dbca.title}",
 	x: 3.0d,
 	y: -0.5d,
-	description: "获得所有种类的处理器",
+	description: "{greedycraft.quest.da08dbca.desc}",
 	dependencies: [
 		"9d90bb25"
 	],

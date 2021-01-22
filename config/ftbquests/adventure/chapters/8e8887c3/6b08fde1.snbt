@@ -1,9 +1,9 @@
 {
-	title: "§9我的冶炼工坊",
+	title: "{greedycraft.quest.6b08fde1.title}",
 	x: -2.0d,
 	y: -4.0d,
 	shape: "diamond",
-	description: "制作出冶炼炉的核心",
+	description: "{greedycraft.quest.6b08fde1.desc}",
 	dependencies: [
 		"851cec5e"
 	],

@@ -1,8 +1,9 @@
+
 {
-	title: "§b探索天空",
+	title: "{greedycraft.quest.170a7274.title}",
 	x: 1.5d,
 	y: -6.0d,
-	description: "获得天文望远镜",
+	description: "{greedycraft.quest.170a7274.desc}",
 	dependencies: [
 		"20d93dfc"
 	],

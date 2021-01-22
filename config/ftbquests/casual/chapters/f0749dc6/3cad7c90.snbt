@@ -1,11 +1,12 @@
+
 {
-	title: "§d坚持不懈IV",
+	title: "{greedycraft.quest.3cad7c90.title}",
 	icon: {
 		id: "minecraft:golden_helmet"
 	},
 	x: -5.5d,
 	y: 3.0d,
-	description: "达成指定的游戏时间",
+	description: "{greedycraft.quest.3cad7c90.desc}",
 	dependencies: [
 		"2959343a"
 	],

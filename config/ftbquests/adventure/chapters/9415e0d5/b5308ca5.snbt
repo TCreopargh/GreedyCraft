@@ -1,8 +1,8 @@
 {
-	title: "懒人厨房",
+	title: "{greedycraft.quest.b5308ca5.title}",
 	x: -10.0d,
 	y: -0.5d,
-	description: "获得一个懒人厨房烹饪桌",
+	description: "{greedycraft.quest.b5308ca5.desc}",
 	tasks: [{
 		uid: "29a47cea",
 		type: "item",

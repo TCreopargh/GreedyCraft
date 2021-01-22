@@ -1,8 +1,9 @@
+
 {
-	title: "§c结晶器",
+	title: "{greedycraft.quest.1a619bf1.title}",
 	x: 10.0d,
 	y: 1.5d,
-	description: "获得结晶器",
+	description: "{greedycraft.quest.1a619bf1.desc}",
 	dependencies: [
 		"3ed4aeae"
 	],

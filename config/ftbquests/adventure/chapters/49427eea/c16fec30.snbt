@@ -1,8 +1,8 @@
 {
-	title: "神奇机器",
+	title: "{greedycraft.quest.c16fec30.title}",
 	x: -7.0d,
 	y: -4.0d,
-	description: "获得感应炉，这种机器有非常广泛的用途。",
+	description: "{greedycraft.quest.c16fec30.desc}",
 	dependencies: [
 		"93ff40d3"
 	],

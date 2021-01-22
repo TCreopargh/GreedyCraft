@@ -1,11 +1,11 @@
 {
-	title: "§7结束了。才怪。",
+	title: "{greedycraft.quest.a357fcd1.title}",
 	icon: "minecraft:skull 1 1",
 	disable_toast: true,
 	x: 10.0d,
 	y: -4.0d,
 	shape: "rsquare",
-	description: "§9杀死凋灵",
+	description: "{greedycraft.quest.a357fcd1.desc}",
 	text: [
 		"这会进一步增加你的游戏难度。"
 	],

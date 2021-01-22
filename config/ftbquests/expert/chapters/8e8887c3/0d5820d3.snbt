@@ -1,9 +1,10 @@
+
 {
-	title: "§b这玩意真贵",
+	title: "{greedycraft.quest.0d5820d3.title}",
 	x: 12.0d,
 	y: -4.0d,
 	shape: "octagon",
-	description: "获得水晶矩阵锭",
+	description: "{greedycraft.quest.0d5820d3.desc}",
 	dependencies: [
 		"a357fcd1"
 	],

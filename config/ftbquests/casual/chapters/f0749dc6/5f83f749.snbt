@@ -1,11 +1,12 @@
+
 {
-	title: "§9守护者III",
+	title: "{greedycraft.quest.5f83f749.title}",
 	icon: {
 		id: "minecraft:iron_chestplate"
 	},
 	x: 2.0d,
 	y: 1.0d,
-	description: "累计受到指定伤害",
+	description: "{greedycraft.quest.5f83f749.desc}",
 	dependencies: [
 		"ce837387"
 	],

@@ -1,8 +1,9 @@
+
 {
-	title: "清洁能源V",
+	title: "{greedycraft.quest.27c1c996.title}",
 	x: -2.0d,
 	y: -8.0d,
-	description: "制作指定的太阳能电池板",
+	description: "{greedycraft.quest.27c1c996.desc}",
 	dependencies: [
 		"4562abca",
 		"b5a43dd5"

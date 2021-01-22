@@ -1,8 +1,8 @@
 {
-	title: "§b符文祭坛",
+	title: "{greedycraft.quest.e2ccedd6.title}",
 	x: -4.5d,
 	y: 0.0d,
-	description: "获得符文祭坛",
+	description: "{greedycraft.quest.e2ccedd6.desc}",
 	dependencies: [
 		"dabc1ce4",
 		"224f8b52"

@@ -1,8 +1,8 @@
 {
-	title: "更好的机器B",
+	title: "{greedycraft.quest.dd58485d.title}",
 	x: -4.5d,
 	y: 7.0d,
-	description: "升级SAG磨粉机",
+	description: "{greedycraft.quest.dd58485d.desc}",
 	dependencies: [
 		"ce025fbd"
 	],

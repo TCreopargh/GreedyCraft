@@ -1,9 +1,10 @@
+
 {
-	title: "§6高效熔炉",
+	title: "{greedycraft.quest.5686a86a.title}",
 	x: 0.0d,
 	y: -4.0d,
 	shape: "diamond",
-	description: "制作出焦黑熔炉的核心",
+	description: "{greedycraft.quest.5686a86a.desc}",
 	dependencies: [
 		"6b08fde1"
 	],

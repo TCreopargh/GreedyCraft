@@ -1,8 +1,9 @@
+
 {
-	title: "§d网络工具",
+	title: "{greedycraft.quest.d4a3dabc.title}",
 	x: 8.0d,
 	y: 2.0d,
-	description: "获得网络工具",
+	description: "{greedycraft.quest.d4a3dabc.desc}",
 	tasks: [{
 		uid: "5c769d56",
 		type: "item",

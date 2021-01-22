@@ -13,7 +13,7 @@ import crafttweaker.item.IIngredient;
 import mods.modularmachinery.RecipeBuilder;
 
 val regName = "organic_infuser";
-val speed = 40;
+val speed = 200;
 
 val crops as IItemStack[][] = [
     [<mysticalagriculture:dirt_seeds>, <mysticalagriculture:dirt_essence>],
@@ -155,6 +155,8 @@ val crops as IItemStack[][] = [
     [<jaopca:item_mysticalseedsancientdebris>, <jaopca:item_essenceancientdebris>],
     [<jaopca:item_mysticalseedsastralstarmetal>, <jaopca:item_essenceastralstarmetal>],
     [<jaopca:item_mysticalseedsquartzblack>, <jaopca:item_essencequartzblack>],
+    [<jaopca:item_mysticalseedsaqualite>, <jaopca:item_essenceaqualite>],
+    [<jaopca:item_mysticalseedsmanganese>, <jaopca:item_essencemanganese>],
     [<mysticalagriculture:tier1_inferium_seeds>, <mysticalagriculture:crafting>],
     [<mysticalagriculture:tier2_inferium_seeds>, <mysticalagriculture:crafting> * 2],
     [<mysticalagriculture:tier3_inferium_seeds>, <mysticalagriculture:crafting> * 3],
@@ -166,8 +168,8 @@ val crops as IItemStack[][] = [
     [<appliedenergistics2:crystal_seed:1200>, <appliedenergistics2:material:12>]
 ];
 
-var energy = [30, 40, 50, 60, 80, 100, 200] as int[];
-var time = [15, 20, 25, 30, 40, 60, 600] as int[];
+var energy = [50, 75, 100, 200, 400, 800, 2500] as int[];
+var time = [60, 100, 120, 160, 200, 320, 2400] as int[];
 var fluid = [500, 550, 600, 650, 700, 800, 3200] as int[];
 var recipeId = 0;
 

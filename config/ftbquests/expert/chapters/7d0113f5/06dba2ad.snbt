@@ -1,8 +1,9 @@
+
 {
-	title: "§e§o宇宙诞生之初...",
+	title: "{greedycraft.quest.06dba2ad.title}",
 	x: 4.5d,
 	y: 3.5d,
-	description: "获得元始珍珠",
+	description: "{greedycraft.quest.06dba2ad.desc}",
 	text: [
 		"最初的元始珍珠只能通过使用悖论物质炸裂缝获得，但是最高的几率也只有17%。",
 		"悖论物质的研究前置为：咒波裂隙，vis电池，注魔。",

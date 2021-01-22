@@ -1,0 +1,171 @@
+Entity: 运输矿车 [registry name: minecraft:chest_minecart] (entityId: 5654)
+Entity class: net.minecraft.entity.item.EntityMinecartChest
+
+TAG_Compound (10) ('')
+{
+    TAG_List (9) ('Motion') (3 entries of TAG_Double (6))
+    {
+        TAG_Double (6) (''): -0.0
+        TAG_Double (6) (''): 0.0
+        TAG_Double (6) (''): -0.0
+    }
+    TAG_Compound (10) ('ForgeData')
+    {
+    }
+    TAG_Long (4) ('UUIDLeast'): -5124881034574868556
+    TAG_List (9) ('RelativeAABB') (6 entries of TAG_Double (6))
+    {
+        TAG_Double (6) (''): -0.49000000953674316
+        TAG_Double (6) (''): 0.0
+        TAG_Double (6) (''): -0.49000000953674316
+        TAG_Double (6) (''): 0.49000000953674316
+        TAG_Double (6) (''): 0.699999988079071
+        TAG_Double (6) (''): 0.49000000953674316
+    }
+    TAG_Byte (1) ('Invulnerable'): 0
+    TAG_Short (2) ('Air'): 0
+    TAG_Byte (1) ('OnGround'): 1
+    TAG_Int (3) ('Dimension'): 0
+    TAG_Int (3) ('PortalCooldown'): 0
+    TAG_List (9) ('Rotation') (2 entries of TAG_Float (5))
+    {
+        TAG_Float (5) (''): 52.568436
+        TAG_Float (5) (''): 0.0
+    }
+    TAG_Byte (1) ('UpdateBlocked'): 0
+    TAG_Float (5) ('FallDistance'): 0.0
+    TAG_Long (4) ('UUIDMost'): 5457073056669058507
+    TAG_List (9) ('Pos') (3 entries of TAG_Double (6))
+    {
+        TAG_Double (6) (''): -411.20055229364624
+        TAG_Double (6) (''): 68.0
+        TAG_Double (6) (''): -151.7634420799428
+    }
+    TAG_Short (2) ('Fire'): -1
+    TAG_Compound (10) ('ForgeCaps')
+    {
+        TAG_Int (3) ('bettercombatmod:ioffhandattack'): 0
+        TAG_Compound (10) ('llibrary:extendedentitydatacapability')
+        {
+        }
+        TAG_Int (3) ('bettercombatmod:isecondhurttimer'): 0
+        TAG_Compound (10) ('thaumicaugmentation:portal_state')
+        {
+            TAG_Byte (1) ('inPortal'): 0
+        }
+    }
+    TAG_List (9) ('Items') (11 entries of TAG_Compound (10))
+    {
+        TAG_Compound (10) ('')
+        {
+            TAG_Byte (1) ('Slot'): 2
+            TAG_String (8) ('id'): "bountifulbaubles:potionrecall"
+            TAG_Byte (1) ('Count'): 2
+            TAG_Short (2) ('Damage'): 0
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Byte (1) ('Slot'): 3
+            TAG_String (8) ('id'): "minecraft:rotten_flesh"
+            TAG_Byte (1) ('Count'): 1
+            TAG_Short (2) ('Damage'): 0
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Byte (1) ('Slot'): 4
+            TAG_String (8) ('id'): "minecraft:quartz"
+            TAG_Byte (1) ('Count'): 1
+            TAG_Short (2) ('Damage'): 0
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Byte (1) ('Slot'): 6
+            TAG_String (8) ('id'): "minecraft:rotten_flesh"
+            TAG_Byte (1) ('Count'): 2
+            TAG_Short (2) ('Damage'): 0
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Byte (1) ('Slot'): 10
+            TAG_String (8) ('id'): "minecraft:splash_potion"
+            TAG_Byte (1) ('Count'): 1
+            TAG_Compound (10) ('tag')
+            {
+                TAG_List (9) ('CustomPotionEffects') (2 entries of TAG_Compound (10))
+                {
+                    TAG_Compound (10) ('')
+                    {
+                        TAG_Byte (1) ('ShowParticles'): 0
+                        TAG_Int (3) ('Duration'): 2400
+                        TAG_Int (3) ('Id'): 1
+                        TAG_Int (3) ('Amplifier'): 126
+                    }
+                    TAG_Compound (10) ('')
+                    {
+                        TAG_Byte (1) ('ShowParticles'): 0
+                        TAG_Int (3) ('Duration'): 2400
+                        TAG_Int (3) ('Id'): 8
+                        TAG_Int (3) ('Amplifier'): 126
+                    }
+                }
+                TAG_Int (3) ('CustomPotionColor'): 720859
+                TAG_Compound (10) ('display')
+                {
+                    TAG_List (9) ('Lore') (1 entries of TAG_String (8))
+                    {
+                        TAG_String (8) (''): "§a感受疾风吧！"
+                    }
+                    TAG_String (8) ('Name'): "§b§o卡其脱离太"
+                }
+            }
+            TAG_Short (2) ('Damage'): 0
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Byte (1) ('Slot'): 12
+            TAG_String (8) ('id'): "bountifulbaubles:potionrecall"
+            TAG_Byte (1) ('Count'): 3
+            TAG_Short (2) ('Damage'): 0
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Byte (1) ('Slot'): 19
+            TAG_String (8) ('id'): "minecraft:quartz"
+            TAG_Byte (1) ('Count'): 2
+            TAG_Short (2) ('Damage'): 0
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Byte (1) ('Slot'): 20
+            TAG_String (8) ('id'): "touhou_little_maid:power_point"
+            TAG_Byte (1) ('Count'): 1
+            TAG_Short (2) ('Damage'): 0
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Byte (1) ('Slot'): 22
+            TAG_String (8) ('id'): "minecraft:rotten_flesh"
+            TAG_Byte (1) ('Count'): 1
+            TAG_Short (2) ('Damage'): 0
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Byte (1) ('Slot'): 23
+            TAG_String (8) ('id'): "minecraft:potion"
+            TAG_Byte (1) ('Count'): 1
+            TAG_Compound (10) ('tag')
+            {
+                TAG_String (8) ('Potion'): "potioncore:love"
+            }
+            TAG_Short (2) ('Damage'): 0
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Byte (1) ('Slot'): 25
+            TAG_String (8) ('id'): "touhou_little_maid:power_point"
+            TAG_Byte (1) ('Count'): 1
+            TAG_Short (2) ('Damage'): 0
+        }
+    }
+    TAG_String (8) ('id'): "minecraft:chest_minecart"
+}

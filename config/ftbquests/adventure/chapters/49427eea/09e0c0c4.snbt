@@ -1,8 +1,8 @@
 {
-	title: "§b就是个冰箱",
+	title: "{greedycraft.quest.09e0c0c4.title}",
 	x: 0.5d,
 	y: -4.0d,
-	description: "获得冷冻机",
+	description: "{greedycraft.quest.09e0c0c4.desc}",
 	tasks: [{
 		uid: "38262ca7",
 		type: "item",

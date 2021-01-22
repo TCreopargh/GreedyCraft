@@ -1,8 +1,9 @@
+
 {
-	title: "§a水贴之王",
+	title: "{greedycraft.quest.688a97db.title}",
 	x: -6.0d,
 	y: 1.5d,
-	description: "拥有并提交100级经验",
+	description: "{greedycraft.quest.688a97db.desc}",
 	tasks: [{
 		uid: "ca5cfaef",
 		type: "xp",

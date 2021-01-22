@@ -1,8 +1,9 @@
+
 {
-	title: "§b保卫家园",
+	title: "{greedycraft.quest.51868d62.title}",
 	x: 8.0d,
 	y: 9.5d,
-	description: "获得最高级的炮台基座",
+	description: "{greedycraft.quest.51868d62.desc}",
 	tasks: [{
 		uid: "66987272",
 		type: "item",

@@ -1,8 +1,8 @@
 {
-	title: "§d蜜蜂专用豪宅",
+	title: "{greedycraft.quest.86ab9dab.title}",
 	x: -6.0d,
 	y: 0.0d,
-	description: "获得蜂房，升级版的风箱",
+	description: "{greedycraft.quest.86ab9dab.desc}",
 	dependencies: [
 		"48fc4e8c",
 		"4fbc9995",

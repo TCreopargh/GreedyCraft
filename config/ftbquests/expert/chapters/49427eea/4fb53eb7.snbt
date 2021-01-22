@@ -1,8 +1,9 @@
+
 {
-	title: "§a粉碎机",
+	title: "{greedycraft.quest.4fb53eb7.title}",
 	x: -2.0d,
 	y: 3.5d,
-	description: "获得粉碎机，将矿物碎块打成污浊的矿粉",
+	description: "{greedycraft.quest.4fb53eb7.desc}",
 	dependencies: [
 		"89933c6e"
 	],

@@ -1,8 +1,8 @@
 {
-	title: "§ePCR仪",
+	title: "{greedycraft.quest.7a5ae137.title}",
 	x: 6.5d,
 	y: 2.5d,
-	description: "获得基因复制机",
+	description: "{greedycraft.quest.7a5ae137.desc}",
 	dependencies: [
 		"b1243a42"
 	],

@@ -1,8 +1,8 @@
 {
-	title: "§a经验固化",
+	title: "{greedycraft.quest.5d16dea3.title}",
 	x: 26.0d,
 	y: -8.0d,
-	description: "获得经验固化器",
+	description: "{greedycraft.quest.5d16dea3.desc}",
 	dependencies: [
 		"1d80a83d"
 	],

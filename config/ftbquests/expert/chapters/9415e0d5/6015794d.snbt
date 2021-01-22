@@ -1,8 +1,9 @@
+
 {
-	title: "§a一棵小树",
+	title: "{greedycraft.quest.6015794d.title}",
 	x: -10.0d,
 	y: 9.5d,
-	description: "获得盆栽盆，可用于便捷地种植树木",
+	description: "{greedycraft.quest.6015794d.desc}",
 	tasks: [{
 		uid: "c5c4b3f0",
 		type: "item",

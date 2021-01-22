@@ -1,8 +1,9 @@
+
 {
-	title: "§b星辰之力",
+	title: "{greedycraft.quest.20d93dfc.title}",
 	x: -1.0d,
 	y: -4.0d,
-	description: "获得星辉祭坛",
+	description: "{greedycraft.quest.20d93dfc.desc}",
 	dependencies: [
 		"98407c40",
 		"64609cf0",

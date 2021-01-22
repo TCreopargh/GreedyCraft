@@ -1,8 +1,8 @@
 {
-	title: "§d高级魔镜",
+	title: "{greedycraft.quest.31b2a0b7.title}",
 	x: 2.0d,
 	y: 11.5d,
-	description: "获得虫洞镜",
+	description: "{greedycraft.quest.31b2a0b7.desc}",
 	tasks: [{
 		uid: "1a3c87c2",
 		type: "item",

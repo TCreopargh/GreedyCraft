@@ -1,8 +1,8 @@
 {
-	title: "§d漫天星辰",
+	title: "{greedycraft.quest.d933b90a.title}",
 	x: 14.0d,
 	y: 4.0d,
-	description: "获得星辰锭",
+	description: "{greedycraft.quest.d933b90a.desc}",
 	dependencies: [
 		"470b67b1"
 	],

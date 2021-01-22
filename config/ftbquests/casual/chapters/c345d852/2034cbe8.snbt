@@ -1,8 +1,9 @@
+
 {
-	title: "§a热电子加工台",
+	title: "{greedycraft.quest.2034cbe8.title}",
 	x: -3.5d,
 	y: -2.5d,
-	description: "获得热电子加工台",
+	description: "{greedycraft.quest.2034cbe8.desc}",
 	dependencies: [
 		"99f6417a"
 	],

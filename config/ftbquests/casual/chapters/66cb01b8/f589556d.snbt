@@ -1,8 +1,9 @@
+
 {
-	title: "§b灵魂之石",
+	title: "{greedycraft.quest.f589556d.title}",
 	x: 3.0d,
 	y: -2.0d,
-	description: "获得最基本的地狱魂石",
+	description: "{greedycraft.quest.f589556d.desc}",
 	dependencies: [
 		"daa88805"
 	],

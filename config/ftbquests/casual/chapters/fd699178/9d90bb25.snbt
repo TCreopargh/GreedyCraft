@@ -1,8 +1,9 @@
+
 {
-	title: "§e电路压印",
+	title: "{greedycraft.quest.9d90bb25.title}",
 	x: 0.5d,
 	y: -0.5d,
-	description: "获得压印器",
+	description: "{greedycraft.quest.9d90bb25.desc}",
 	dependencies: [
 		"2cad7aab",
 		"bef89d76"

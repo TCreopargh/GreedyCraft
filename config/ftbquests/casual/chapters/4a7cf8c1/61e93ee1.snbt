@@ -1,9 +1,10 @@
+
 {
-	title: "§5击杀混沌守卫",
+	title: "{greedycraft.quest.61e93ee1.title}",
 	icon: "draconicevolution:chaotic_core",
 	x: 1.0d,
 	y: 0.0d,
-	description: "位于末地坐标为5000的整数倍处",
+	description: "{greedycraft.quest.61e93ee1.desc}",
 	can_repeat: true,
 	dependencies: [
 		"82d57b54"

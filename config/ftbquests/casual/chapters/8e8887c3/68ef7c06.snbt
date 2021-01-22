@@ -1,9 +1,10 @@
+
 {
-	title: "§5龙的力量",
+	title: "{greedycraft.quest.68ef7c06.title}",
 	x: 2.0d,
 	y: 0.0d,
 	shape: "square",
-	description: "获得龙尘",
+	description: "{greedycraft.quest.68ef7c06.desc}",
 	dependencies: [
 		"464fff41"
 	],

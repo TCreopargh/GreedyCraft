@@ -1,8 +1,8 @@
 {
-	title: "§4充能红石",
+	title: "{greedycraft.quest.cead5765.title}",
 	x: 20.0d,
 	y: -6.0d,
-	description: "使用充能台对矿物水晶充能",
+	description: "{greedycraft.quest.cead5765.desc}",
 	dependencies: [
 		"a504bbd8"
 	],

@@ -1,8 +1,8 @@
 {
-	title: "§6这也能做电容？！",
+	title: "{greedycraft.quest.93895f75.title}",
 	x: 3.0d,
 	y: 13.0d,
-	description: "获得不死图腾电容",
+	description: "{greedycraft.quest.93895f75.desc}",
 	tasks: [{
 		uid: "e00ed500",
 		type: "item",

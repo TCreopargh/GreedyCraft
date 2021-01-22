@@ -1,8 +1,8 @@
 {
-	title: "§4直面恐惧",
+	title: "{greedycraft.quest.6c104851.title}",
 	x: 5.0d,
 	y: 1.5d,
-	description: "获得恐惧之地蕴魔石",
+	description: "{greedycraft.quest.6c104851.desc}",
 	dependencies: [
 		"254d7b2b"
 	],

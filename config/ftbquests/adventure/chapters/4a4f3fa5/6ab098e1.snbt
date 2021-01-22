@@ -1,8 +1,8 @@
 {
-	title: "§b优雅的合成方式",
+	title: "{greedycraft.quest.6ab098e1.title}",
 	x: -4.5d,
 	y: 3.0d,
-	description: "获得工厂环",
+	description: "{greedycraft.quest.6ab098e1.desc}",
 	dependencies: [
 		"224f8b52"
 	],

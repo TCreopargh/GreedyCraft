@@ -243,7 +243,9 @@ val disabledItems as IIngredient[] = [
     <treasure2:miners_friend>,
     <treasure2:angel_blessed>,
     <treasure2:adephagias_bounty>,
-    <treasure2:charmed_silver_coin>
+    <treasure2:charmed_silver_coin>,
+    <extrautils2:spike_gold>,
+    <cqrepoured:spiderhook>
 ] as IIngredient[];
 
 val disabledRecipeRegex as string[] = [

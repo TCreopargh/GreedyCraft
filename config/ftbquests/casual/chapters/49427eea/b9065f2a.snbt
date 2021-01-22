@@ -1,8 +1,9 @@
+
 {
-	title: "§2充能绿宝石",
+	title: "{greedycraft.quest.b9065f2a.title}",
 	x: 19.0d,
 	y: -6.5d,
-	description: "使用充能台对矿物水晶充能",
+	description: "{greedycraft.quest.b9065f2a.desc}",
 	dependencies: [
 		"a504bbd8"
 	],

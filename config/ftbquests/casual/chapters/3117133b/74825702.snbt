@@ -1,8 +1,9 @@
+
 {
-	title: "§d战胜引力",
+	title: "{greedycraft.quest.74825702.title}",
 	x: 4.0d,
 	y: -2.5d,
-	description: "使用神能炉获得神淬重力晶矿",
+	description: "{greedycraft.quest.74825702.desc}",
 	dependencies: [
 		"5d584fb4",
 		"adc5e988"

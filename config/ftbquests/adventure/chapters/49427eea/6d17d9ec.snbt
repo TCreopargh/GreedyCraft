@@ -1,8 +1,8 @@
 {
-	title: "§e化学灌注",
+	title: "{greedycraft.quest.6d17d9ec.title}",
 	x: -7.0d,
 	y: 5.5d,
-	description: "获得化学灌注机",
+	description: "{greedycraft.quest.6d17d9ec.desc}",
 	dependencies: [
 		"4cc58917"
 	],

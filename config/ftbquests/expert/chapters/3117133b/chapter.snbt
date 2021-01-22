@@ -1,5 +1,5 @@
 {
-	title: "§e天境传说",
+	title: "{greedycraft.quest.chapter.aether}",
 	icon: "aether_legacy:ambrosium_shard",
 	always_invisible: false,
 	group: 0,

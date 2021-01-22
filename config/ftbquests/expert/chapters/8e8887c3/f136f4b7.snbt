@@ -1,9 +1,10 @@
+
 {
-	title: "§6强力聚合",
+	title: "{greedycraft.quest.f136f4b7.title}",
 	x: 10.0d,
 	y: 2.0d,
 	shape: "square",
-	description: "升级你的聚合装置到神龙级",
+	description: "{greedycraft.quest.f136f4b7.desc}",
 	dependencies: [
 		"5f44ba77"
 	],

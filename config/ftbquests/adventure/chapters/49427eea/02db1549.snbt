@@ -1,8 +1,8 @@
 {
-	title: "巨型铅笔芯",
+	title: "{greedycraft.quest.02db1549.title}",
 	x: 16.0d,
 	y: 6.0d,
-	description: "获得石墨棒",
+	description: "{greedycraft.quest.02db1549.desc}",
 	tasks: [{
 		uid: "4b3a1dfc",
 		type: "item",

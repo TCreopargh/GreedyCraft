@@ -1,8 +1,8 @@
 {
-	title: "§a自然水晶",
+	title: "{greedycraft.quest.6ecb75bf.title}",
 	x: 0.5d,
 	y: -2.0d,
-	description: "获得自然水晶",
+	description: "{greedycraft.quest.6ecb75bf.desc}",
 	dependencies: [
 		"6ffc6415"
 	],

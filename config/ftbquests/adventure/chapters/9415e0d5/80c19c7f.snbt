@@ -1,8 +1,8 @@
 {
-	title: "§d无限存储",
+	title: "{greedycraft.quest.80c19c7f.title}",
 	x: -8.0d,
 	y: 13.5d,
-	description: "获得创造模式容量升级",
+	description: "{greedycraft.quest.80c19c7f.desc}",
 	tasks: [{
 		uid: "e6e64015",
 		type: "item",

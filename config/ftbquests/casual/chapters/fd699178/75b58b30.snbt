@@ -1,8 +1,9 @@
+
 {
-	title: "神奇水晶",
+	title: "{greedycraft.quest.75b58b30.title}",
 	x: -11.5d,
 	y: 1.0d,
-	description: "获得赛特斯石英水晶",
+	description: "{greedycraft.quest.75b58b30.desc}",
 	tasks: [{
 		uid: "6f96d7de",
 		type: "item",

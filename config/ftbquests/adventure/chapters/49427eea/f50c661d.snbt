@@ -1,8 +1,8 @@
 {
-	title: "§2更多的木头",
+	title: "{greedycraft.quest.f50c661d.title}",
 	x: 8.0d,
 	y: -4.0d,
-	description: "获得锯木机",
+	description: "{greedycraft.quest.f50c661d.desc}",
 	tasks: [{
 		uid: "f102f0dc",
 		type: "item",

@@ -1,8 +1,9 @@
+
 {
-	title: "魔法纪元",
+	title: "{greedycraft.quest.b53cb9e7.title}",
 	x: -12.5d,
 	y: 0.0d,
-	description: "获得神秘花",
+	description: "{greedycraft.quest.b53cb9e7.desc}",
 	dependencies: [
 		"da5f76fd"
 	],

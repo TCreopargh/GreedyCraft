@@ -1,8 +1,9 @@
+
 {
-	title: "§2改造自然",
+	title: "{greedycraft.quest.b1243a42.title}",
 	x: -1.0d,
 	y: -2.5d,
-	description: "获得基因加工仪",
+	description: "{greedycraft.quest.b1243a42.desc}",
 	dependencies: [
 		"99f6417a"
 	],

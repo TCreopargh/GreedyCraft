@@ -1,8 +1,8 @@
 {
-	title: "§e涡轮增鸭",
+	title: "{greedycraft.quest.080d9d48.title}",
 	x: -11.5d,
 	y: 0.0d,
-	description: "为能源炉安装专业化升级",
+	description: "{greedycraft.quest.080d9d48.desc}",
 	dependencies: [
 		"e074db01"
 	],

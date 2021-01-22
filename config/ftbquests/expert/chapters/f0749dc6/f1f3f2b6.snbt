@@ -1,11 +1,12 @@
+
 {
-	title: "§6旅行者V",
+	title: "{greedycraft.quest.f1f3f2b6.title}",
 	icon: {
 		id: "minecraft:diamond_boots"
 	},
 	x: -0.5d,
 	y: 5.0d,
-	description: "行走指定的距离",
+	description: "{greedycraft.quest.f1f3f2b6.desc}",
 	dependencies: [
 		"aceed8d4"
 	],

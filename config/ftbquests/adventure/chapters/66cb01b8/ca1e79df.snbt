@@ -1,8 +1,8 @@
 {
-	title: "§c献上鲜血",
+	title: "{greedycraft.quest.ca1e79df.title}",
 	x: 0.0d,
 	y: 1.0d,
-	description: "获得牺牲匕首",
+	description: "{greedycraft.quest.ca1e79df.desc}",
 	dependencies: [
 		"a79a5097"
 	],

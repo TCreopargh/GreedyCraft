@@ -1,9 +1,10 @@
+
 {
-	title: "§6无畏之人",
+	title: "{greedycraft.quest.0d455b65.title}",
 	icon: "additions:greedycraft-bravery_certificate",
 	x: 7.5d,
 	y: 2.5d,
-	description: "只有击败天界的女武神并取得§6勇者之证§7的人才能探索恐惧之地",
+	description: "{greedycraft.quest.0d455b65.desc}",
 	tasks: [{
 		uid: "b6910a92",
 		type: "gamestage",

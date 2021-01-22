@@ -1,8 +1,8 @@
 {
-	title: "§d潘多拉魔盒",
+	title: "{greedycraft.quest.c9e4e432.title}",
 	x: 13.0d,
 	y: 0.0d,
-	description: "获得潘多拉魔盒",
+	description: "{greedycraft.quest.c9e4e432.desc}",
 	dependencies: [
 		"72d515bd"
 	],

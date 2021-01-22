@@ -1,8 +1,9 @@
+
 {
-	title: "§a富集仓",
+	title: "{greedycraft.quest.4252e75f.title}",
 	x: 0.5d,
 	y: 3.5d,
-	description: "获得富集仓，可将污浊的矿粉加工成纯净的矿粉以进行烧制",
+	description: "{greedycraft.quest.4252e75f.desc}",
 	dependencies: [
 		"4fb53eb7"
 	],

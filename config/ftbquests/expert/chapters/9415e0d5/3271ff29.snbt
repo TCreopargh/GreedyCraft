@@ -1,8 +1,9 @@
+
 {
-	title: "§a资本主义",
+	title: "{greedycraft.quest.3271ff29.title}",
 	x: -6.0d,
 	y: 9.5d,
-	description: "获得绿宝石",
+	description: "{greedycraft.quest.3271ff29.desc}",
 	tasks: [{
 		uid: "8ab2495b",
 		type: "item",

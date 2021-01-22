@@ -11,9 +11,8 @@
       "type": "additions:consume_item"
     },
     {
-      "command": "/nyxforce star_shower",
+      "command": "/nyxmeteor",
       "command_sender_name": "",
-      "hide_feedback": false,
       "type": "additions:command"
     }
   ]

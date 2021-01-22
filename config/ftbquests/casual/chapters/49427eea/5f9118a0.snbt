@@ -1,8 +1,9 @@
+
 {
-	title: "§3末影钢",
+	title: "{greedycraft.quest.5f9118a0.title}",
 	x: -7.0d,
 	y: 13.0d,
-	description: "获得末影钢",
+	description: "{greedycraft.quest.5f9118a0.desc}",
 	dependencies: [
 		"350f59d9",
 		"334e95a9"

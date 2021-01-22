@@ -1,8 +1,8 @@
 {
-	title: "§e更大的物品栏",
+	title: "{greedycraft.quest.49f7096a.title}",
 	x: 18.5d,
 	y: 11.0d,
-	description: "获得物品栏升级蛋糕",
+	description: "{greedycraft.quest.49f7096a.desc}",
 	tasks: [{
 		uid: "c74cd8fd",
 		type: "item",

@@ -1,9 +1,9 @@
 {
-	title: "§a植物纤维",
+	title: "{greedycraft.quest.560cad71.title}",
 	x: -8.0d,
 	y: -1.0d,
 	shape: "rsquare",
-	description: "空手对草或藤蔓右键来收集一些植物纤维",
+	description: "{greedycraft.quest.560cad71.desc}",
 	dependencies: [
 		"286f21d3"
 	],

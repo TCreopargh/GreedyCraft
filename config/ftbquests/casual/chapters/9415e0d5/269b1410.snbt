@@ -1,8 +1,9 @@
+
 {
-	title: "§b芜湖，起飞",
+	title: "{greedycraft.quest.269b1410.title}",
 	x: -2.0d,
 	y: 11.5d,
-	description: "获得鞘翅",
+	description: "{greedycraft.quest.269b1410.desc}",
 	tasks: [{
 		uid: "4b2a8780",
 		type: "item",

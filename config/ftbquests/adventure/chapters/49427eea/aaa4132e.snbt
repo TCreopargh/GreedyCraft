@@ -1,8 +1,8 @@
 {
-	title: "§6随身工作台",
+	title: "{greedycraft.quest.aaa4132e.title}",
 	x: 21.0d,
 	y: 11.0d,
-	description: "获得工作台升级蛋糕",
+	description: "{greedycraft.quest.aaa4132e.desc}",
 	tasks: [{
 		uid: "ba44440f",
 		type: "item",

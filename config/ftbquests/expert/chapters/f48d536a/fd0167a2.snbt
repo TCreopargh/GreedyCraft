@@ -1,8 +1,9 @@
+
 {
-	title: "§9战胜深渊",
+	title: "{greedycraft.quest.fd0167a2.title}",
 	x: 23.0d,
 	y: 0.0d,
-	description: "获得守门人之杖",
+	description: "{greedycraft.quest.fd0167a2.desc}",
 	dependencies: [
 		"a31de947"
 	],

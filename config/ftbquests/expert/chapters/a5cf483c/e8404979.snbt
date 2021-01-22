@@ -1,8 +1,9 @@
+
 {
-	title: "§e列文虎克",
+	title: "{greedycraft.quest.e8404979.title}",
 	x: 6.5d,
 	y: -2.0d,
-	description: "获得透镜",
+	description: "{greedycraft.quest.e8404979.desc}",
 	dependencies: [
 		"3fa4c940",
 		"3ee1ac1a"

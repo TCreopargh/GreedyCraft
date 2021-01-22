@@ -8,12 +8,12 @@
             }],
             "[128, 32767]": [{
                     "amount": "[1,2]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "minecraft:rotten_flesh"
                 },
                 {
                     "amount": "[2,4]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {
@@ -29,12 +29,12 @@
             ],
             "[256, 32767]": [{
                     "amount": "[2,4]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "minecraft:rotten_flesh"
                 },
                 {
                     "amount": "[4,8]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {
@@ -50,12 +50,12 @@
             ],
             "[384, 32767]": [{
                     "amount": "[3,8]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "minecraft:rotten_flesh"
                 },
                 {
                     "amount": "[8,12]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {
@@ -81,12 +81,12 @@
             ],
             "[500, 32767]": [{
                     "amount": "[24,30]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "minecraft:rotten_flesh"
                 },
                 {
                     "amount": "[12,24]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {
@@ -107,12 +107,12 @@
             ],
             "[750, 32767]": [{
                     "amount": "[16,32]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "minecraft:rotten_flesh"
                 },
                 {
                     "amount": "[24,40]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {
@@ -138,12 +138,12 @@
             ],
             "[1000, 32767]": [{
                     "amount": "[16,32]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "minecraft:rotten_flesh"
                 },
                 {
                     "amount": "[24,40]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {
@@ -169,12 +169,12 @@
             ],
             "[1250, 32767]": [{
                     "amount": "[16,32]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "minecraft:rotten_flesh"
                 },
                 {
                     "amount": "[24,40]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {
@@ -195,12 +195,12 @@
             ],
             "[1500, 32767]": [{
                     "amount": "[16,32]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "minecraft:rotten_flesh"
                 },
                 {
                     "amount": "[24,40]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {
@@ -223,12 +223,12 @@
             }],
             "[128, 32767]": [{
                     "amount": "[1,2]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "minecraft:bone"
                 },
                 {
                     "amount": "[2,4]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {
@@ -244,12 +244,12 @@
             ],
             "[256, 32767]": [{
                     "amount": "[2,4]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "minecraft:bone"
                 },
                 {
                     "amount": "[4,8]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {
@@ -265,12 +265,12 @@
             ],
             "[384, 32767]": [{
                     "amount": "[3,8]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "minecraft:bone"
                 },
                 {
                     "amount": "[8,16]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {
@@ -296,12 +296,12 @@
             ],
             "[500, 32767]": [{
                     "amount": "[4,16]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "minecraft:bone"
                 },
                 {
                     "amount": "[16,24]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {
@@ -322,12 +322,12 @@
             ],
             "[750, 32767]": [{
                     "amount": "[16,32]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "minecraft:bone"
                 },
                 {
                     "amount": "[24,40]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {
@@ -348,12 +348,12 @@
             ],
             "[1000, 32767]": [{
                     "amount": "[16,32]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "minecraft:bone"
                 },
                 {
                     "amount": "[24,40]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {
@@ -374,12 +374,12 @@
             ],
             "[1250, 32767]": [{
                     "amount": "[16,32]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "minecraft:bone"
                 },
                 {
                     "amount": "[24,40]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {
@@ -390,12 +390,12 @@
             ],
             "[1500, 32767]": [{
                     "amount": "[16,32]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "minecraft:bone"
                 },
                 {
                     "amount": "[24,40]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {
@@ -418,12 +418,12 @@
             }],
             "[128, 32767]": [{
                     "amount": "[1,2]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "minecraft:bone"
                 },
                 {
                     "amount": "[2,4]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {
@@ -439,12 +439,12 @@
             ],
             "[256, 32767]": [{
                     "amount": "[2,4]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "minecraft:bone"
                 },
                 {
                     "amount": "[4,8]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {
@@ -460,12 +460,12 @@
             ],
             "[384, 32767]": [{
                     "amount": "[3,8]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "minecraft:bone"
                 },
                 {
                     "amount": "[8,16]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {
@@ -491,12 +491,12 @@
             ],
             "[500, 32767]": [{
                     "amount": "[4,16]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "minecraft:bone"
                 },
                 {
                     "amount": "[16,24]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {
@@ -517,12 +517,12 @@
             ],
             "[750, 32767]": [{
                     "amount": "[16,32]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "minecraft:bone"
                 },
                 {
                     "amount": "[24,40]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {
@@ -543,12 +543,12 @@
             ],
             "[1000, 32767]": [{
                     "amount": "[16,32]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "minecraft:bone"
                 },
                 {
                     "amount": "[24,40]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {
@@ -569,12 +569,12 @@
             ],
             "[1250, 32767]": [{
                     "amount": "[16,32]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "minecraft:bone"
                 },
                 {
                     "amount": "[24,40]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {
@@ -585,12 +585,12 @@
             ],
             "[1500, 32767]": [{
                     "amount": "[16,32]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "minecraft:bone"
                 },
                 {
                     "amount": "[24,40]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {
@@ -613,12 +613,12 @@
             }],
             "[128, 32767]": [{
                     "amount": "[1,2]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "minecraft:string"
                 },
                 {
                     "amount": "[2,4]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {
@@ -634,12 +634,12 @@
             ],
             "[256, 32767]": [{
                     "amount": "[2,4]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "minecraft:string"
                 },
                 {
                     "amount": "[4,8]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {
@@ -655,12 +655,12 @@
             ],
             "[384, 32767]": [{
                     "amount": "[3,8]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "minecraft:string"
                 },
                 {
                     "amount": "[8,16]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {
@@ -686,12 +686,12 @@
             ],
             "[500, 32767]": [{
                     "amount": "[4,16]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "minecraft:string"
                 },
                 {
                     "amount": "[16,24]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {
@@ -712,12 +712,12 @@
             ],
             "[750, 32767]": [{
                     "amount": "[16,32]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "minecraft:string"
                 },
                 {
                     "amount": "[24,40]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {
@@ -743,12 +743,12 @@
             ],
             "[1000, 32767]": [{
                     "amount": "[16,32]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "minecraft:string"
                 },
                 {
                     "amount": "[24,40]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {
@@ -774,12 +774,12 @@
             ],
             "[1250, 32767]": [{
                     "amount": "[16,32]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "minecraft:string"
                 },
                 {
                     "amount": "[24,40]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {
@@ -795,12 +795,12 @@
             ],
             "[1500, 32767]": [{
                     "amount": "[16,32]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "minecraft:string"
                 },
                 {
                     "amount": "[24,40]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {
@@ -823,12 +823,12 @@
             }],
             "[128, 32767]": [{
                     "amount": "[1,2]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "minecraft:rotten_flesh"
                 },
                 {
                     "amount": "[2,4]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {
@@ -844,12 +844,12 @@
             ],
             "[256, 32767]": [{
                     "amount": "[2,4]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "minecraft:rotten_flesh"
                 },
                 {
                     "amount": "[4,8]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {
@@ -865,12 +865,12 @@
             ],
             "[384, 32767]": [{
                     "amount": "[3,8]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "minecraft:rotten_flesh"
                 },
                 {
                     "amount": "[8,12]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {
@@ -896,12 +896,12 @@
             ],
             "[500, 32767]": [{
                     "amount": "[24,30]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "minecraft:rotten_flesh"
                 },
                 {
                     "amount": "[12,24]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {
@@ -922,12 +922,12 @@
             ],
             "[750, 32767]": [{
                     "amount": "[16,32]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "minecraft:rotten_flesh"
                 },
                 {
                     "amount": "[24,40]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {
@@ -953,12 +953,12 @@
             ],
             "[1000, 32767]": [{
                     "amount": "[16,32]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "minecraft:rotten_flesh"
                 },
                 {
                     "amount": "[24,40]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {
@@ -984,12 +984,12 @@
             ],
             "[1250, 32767]": [{
                     "amount": "[16,32]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "minecraft:rotten_flesh"
                 },
                 {
                     "amount": "[24,40]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {
@@ -1005,12 +1005,12 @@
             ],
             "[1500, 32767]": [{
                     "amount": "[16,32]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "minecraft:rotten_flesh"
                 },
                 {
                     "amount": "[24,40]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {
@@ -1033,12 +1033,12 @@
             }],
             "[128, 32767]": [{
                     "amount": "[1,2]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "minecraft:ender_pearl"
                 },
                 {
                     "amount": "[4,8]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {
@@ -1054,12 +1054,12 @@
             ],
             "[256, 32767]": [{
                     "amount": "[2,4]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "minecraft:ender_pearl"
                 },
                 {
                     "amount": "[8,16]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {
@@ -1075,12 +1075,12 @@
             ],
             "[384, 32767]": [{
                     "amount": "[3,8]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "minecraft:ender_pearl"
                 },
                 {
                     "amount": "[16,32]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {
@@ -1106,12 +1106,12 @@
             ],
             "[500, 32767]": [{
                     "amount": "[4,16]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "minecraft:ender_pearl"
                 },
                 {
                     "amount": "[32,40]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {
@@ -1132,12 +1132,12 @@
             ],
             "[750, 32767]": [{
                     "amount": "[16,32]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "minecraft:ender_pearl"
                 },
                 {
                     "amount": "[40,64]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {
@@ -1163,12 +1163,12 @@
             ],
             "[1000, 32767]": [{
                     "amount": "[16,32]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "minecraft:ender_pearl"
                 },
                 {
                     "amount": "[40,64]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {
@@ -1194,12 +1194,12 @@
             ],
             "[1250, 32767]": [{
                     "amount": "[16,32]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "minecraft:ender_pearl"
                 },
                 {
                     "amount": "[40,64]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {
@@ -1215,12 +1215,12 @@
             ],
             "[1500, 32767]": [{
                     "amount": "[16,32]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "minecraft:ender_pearl"
                 },
                 {
                     "amount": "[40,64]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {
@@ -1243,12 +1243,12 @@
             }],
             "[128, 32767]": [{
                     "amount": "[1,2]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "minecraft:gunpowder"
                 },
                 {
                     "amount": "[2,4]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {
@@ -1264,12 +1264,12 @@
             ],
             "[256, 32767]": [{
                     "amount": "[2,4]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "minecraft:gunpowder"
                 },
                 {
                     "amount": "[4,8]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {
@@ -1285,12 +1285,12 @@
             ],
             "[384, 32767]": [{
                     "amount": "[3,8]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "minecraft:gunpowder"
                 },
                 {
                     "amount": "[8,16]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {
@@ -1316,12 +1316,12 @@
             ],
             "[500, 32767]": [{
                     "amount": "[4,16]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "minecraft:gunpowder"
                 },
                 {
                     "amount": "[16,24]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {
@@ -1342,12 +1342,12 @@
             ],
             "[750, 32767]": [{
                     "amount": "[16,32]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "minecraft:gunpowder"
                 },
                 {
                     "amount": "[24,40]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {
@@ -1373,12 +1373,12 @@
             ],
             "[1000, 32767]": [{
                     "amount": "[16,32]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "minecraft:gunpowder"
                 },
                 {
                     "amount": "[24,40]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {
@@ -1404,12 +1404,12 @@
             ],
             "[1250, 32767]": [{
                     "amount": "[32,64]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "minecraft:gunpowder"
                 },
                 {
                     "amount": "[40,64]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {
@@ -1425,12 +1425,12 @@
             ],
             "[1500, 32767]": [{
                     "amount": "[32,64]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "minecraft:gunpowder"
                 },
                 {
                     "amount": "[40,64]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {
@@ -1453,12 +1453,12 @@
             }],
             "[128, 32767]": [{
                     "amount": "[1,2]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "minecraft:gunpowder"
                 },
                 {
                     "amount": "[2,4]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {
@@ -1474,12 +1474,12 @@
             ],
             "[256, 32767]": [{
                     "amount": "[2,4]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "minecraft:gunpowder"
                 },
                 {
                     "amount": "[4,8]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {
@@ -1495,12 +1495,12 @@
             ],
             "[384, 32767]": [{
                     "amount": "[3,8]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "minecraft:gunpowder"
                 },
                 {
                     "amount": "[8,16]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {
@@ -1526,12 +1526,12 @@
             ],
             "[500, 32767]": [{
                     "amount": "[4,16]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "minecraft:gunpowder"
                 },
                 {
                     "amount": "[16,24]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {
@@ -1552,12 +1552,12 @@
             ],
             "[750, 32767]": [{
                     "amount": "[16,32]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "minecraft:gunpowder"
                 },
                 {
                     "amount": "[24,40]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {
@@ -1583,12 +1583,12 @@
             ],
             "[1000, 32767]": [{
                     "amount": "[16,32]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "minecraft:gunpowder"
                 },
                 {
                     "amount": "[24,40]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {
@@ -1614,12 +1614,12 @@
             ],
             "[1250, 32767]": [{
                     "amount": "[32,64]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "minecraft:gunpowder"
                 },
                 {
                     "amount": "[40,64]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {
@@ -1635,12 +1635,12 @@
             ],
             "[1500, 32767]": [{
                     "amount": "[32,64]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "minecraft:gunpowder"
                 },
                 {
                     "amount": "[40,64]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {
@@ -1658,17 +1658,17 @@
         "minecraft:wither": {
             "[110, 32767]": [{
                 "amount": "[1,1]",
-                "chance": 1,
+                "chance": 1.0,
                 "item": "minecraft:nether_star"
             }],
             "[128, 32767]": [{
                     "amount": "[1,2]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "progressivebosses:nether_star_shard"
                 },
                 {
                     "amount": "[1,2]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "ae2wtlib:infinity_booster_card"
                 },
                 {
@@ -1684,12 +1684,12 @@
             ],
             "[256, 32767]": [{
                     "amount": "[2,4]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "progressivebosses:nether_star_shard"
                 },
                 {
                     "amount": "[2,4]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "ae2wtlib:infinity_booster_card"
                 },
                 {
@@ -1715,12 +1715,12 @@
             ],
             "[384, 32767]": [{
                     "amount": "[4,6]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "progressivebosses:nether_star_shard"
                 },
                 {
                     "amount": "[4,8]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "ae2wtlib:infinity_booster_card"
                 },
                 {
@@ -1741,12 +1741,12 @@
             ],
             "[500, 32767]": [{
                     "amount": "[6,10]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "progressivebosses:nether_star_shard"
                 },
                 {
                     "amount": "[6,10]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "ae2wtlib:infinity_booster_card"
                 },
                 {
@@ -1772,12 +1772,12 @@
             ],
             "[650, 32767]": [{
                     "amount": "[8,14]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "progressivebosses:nether_star_shard"
                 },
                 {
                     "amount": "[8,14]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "ae2wtlib:infinity_booster_card"
                 },
                 {
@@ -1798,12 +1798,12 @@
             ],
             "[800, 32767]": [{
                     "amount": "[1,3]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "minecraft:nether_star"
                 },
                 {
                     "amount": "[14,20]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "ae2wtlib:infinity_booster_card"
                 },
                 {
@@ -1819,12 +1819,12 @@
             ],
             "[900, 32767]": [{
                     "amount": "[3,5]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "minecraft:nether_star"
                 },
                 {
                     "amount": "[20,32]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "ae2wtlib:infinity_booster_card"
                 },
                 {
@@ -1840,12 +1840,12 @@
             ],
             "[1100, 32767]": [{
                     "amount": "[5,10]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "minecraft:nether_star"
                 },
                 {
                     "amount": "[32,40]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "ae2wtlib:infinity_booster_card"
                 },
                 {
@@ -1861,12 +1861,12 @@
             ],
             "[1250, 32767]": [{
                     "amount": "[5,10]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "minecraft:nether_star"
                 },
                 {
                     "amount": "[32,40]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "ae2wtlib:infinity_booster_card"
                 },
                 {
@@ -1882,12 +1882,12 @@
             ],
             "[1400, 32767]": [{
                     "amount": "[5,10]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "minecraft:nether_star"
                 },
                 {
                     "amount": "[32,40]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "ae2wtlib:infinity_booster_card"
                 },
                 {
@@ -1903,12 +1903,12 @@
             ],
             "[1550, 32767]": [{
                     "amount": "[5,10]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "minecraft:nether_star"
                 },
                 {
                     "amount": "[32,40]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "ae2wtlib:infinity_booster_card"
                 },
                 {
@@ -1918,7 +1918,7 @@
                 },
                 {
                     "amount": "[1,1]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "additions:greedycraft-wither_soul"
                 },
                 {
@@ -1989,17 +1989,17 @@
             ],
             "[650, 32767]": [{
                     "amount": "[1,1]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "minecraft:dragon_egg"
                 },
                 {
                     "amount": "[10,20]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "draconicevolution:draconium_dust"
                 },
                 {
                     "amount": "[1,1]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "draconicevolution:dragon_heart"
                 },
                 {
@@ -2015,17 +2015,17 @@
             ],
             "[800, 32767]": [{
                     "amount": "[1,1]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "minecraft:dragon_egg"
                 },
                 {
                     "amount": "[20,30]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "draconicevolution:draconium_dust"
                 },
                 {
                     "amount": "[1,2]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "draconicevolution:dragon_heart"
                 },
                 {
@@ -2041,17 +2041,17 @@
             ],
             "[900, 32767]": [{
                     "amount": "[3,6]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "minecraft:dragon_egg"
                 },
                 {
                     "amount": "[30,40]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "draconicevolution:draconium_dust"
                 },
                 {
                     "amount": "[1,2]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "draconicevolution:dragon_heart"
                 },
                 {
@@ -2067,17 +2067,17 @@
             ],
             "[1100, 32767]": [{
                     "amount": "[1,2]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "minecraft:dragon_egg"
                 },
                 {
                     "amount": "[40,60]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "draconicevolution:draconium_dust"
                 },
                 {
                     "amount": "[1,2]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "draconicevolution:dragon_heart"
                 },
                 {
@@ -2093,17 +2093,17 @@
             ],
             "[1250, 32767]": [{
                     "amount": "[1,2]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "minecraft:dragon_egg"
                 },
                 {
                     "amount": "[60,100]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "draconicevolution:draconium_dust"
                 },
                 {
                     "amount": "[1,2]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "draconicevolution:dragon_heart"
                 },
                 {
@@ -2119,17 +2119,17 @@
             ],
             "[1400, 32767]": [{
                     "amount": "[1,3]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "minecraft:dragon_egg"
                 },
                 {
                     "amount": "[100,200]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "draconicevolution:draconium_dust"
                 },
                 {
                     "amount": "[2,3]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "draconicevolution:dragon_heart"
                 },
                 {
@@ -2145,17 +2145,17 @@
             ],
             "[1550, 32767]": [{
                     "amount": "[1,5]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "minecraft:dragon_egg"
                 },
                 {
                     "amount": "[100,200]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "draconicevolution:draconium_dust"
                 },
                 {
                     "amount": "[3,4]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "draconicevolution:dragon_heart"
                 },
                 {
@@ -2165,7 +2165,7 @@
                 },
                 {
                     "amount": "[1,1]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "additions:greedycraft-dragon_soul"
                 },
                 {
@@ -2194,12 +2194,12 @@
             ],
             "[128, 32767]": [{
                     "amount": "[1,2]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "additions:greedycraft-raw_human_meat"
                 },
                 {
                     "amount": "[2,4]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {
@@ -2220,12 +2220,12 @@
             ],
             "[256, 32767]": [{
                     "amount": "[2,4]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "additions:greedycraft-raw_human_meat"
                 },
                 {
                     "amount": "[4,8]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {
@@ -2246,12 +2246,12 @@
             ],
             "[384, 32767]": [{
                     "amount": "[3,8]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "additions:greedycraft-raw_human_meat"
                 },
                 {
                     "amount": "[8,12]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {
@@ -2282,12 +2282,12 @@
             ],
             "[500, 32767]": [{
                     "amount": "[24,30]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "additions:greedycraft-raw_human_meat"
                 },
                 {
                     "amount": "[12,24]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {
@@ -2313,12 +2313,12 @@
             ],
             "[750, 32767]": [{
                     "amount": "[16,32]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "additions:greedycraft-raw_human_meat"
                 },
                 {
                     "amount": "[24,40]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {
@@ -2344,12 +2344,12 @@
             ],
             "[1000, 32767]": [{
                     "amount": "[16,32]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "additions:greedycraft-raw_human_meat"
                 },
                 {
                     "amount": "[24,40]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {
@@ -2375,12 +2375,12 @@
             ],
             "[1250, 32767]": [{
                     "amount": "[16,32]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "additions:greedycraft-raw_human_meat"
                 },
                 {
                     "amount": "[24,40]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {
@@ -2401,12 +2401,12 @@
             ],
             "[1500, 32767]": [{
                     "amount": "[16,32]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "additions:greedycraft-raw_human_meat"
                 },
                 {
                     "amount": "[24,40]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {
@@ -2435,12 +2435,12 @@
             ],
             "[128, 32767]": [{
                     "amount": "[1,2]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "minecraft:sugar"
                 },
                 {
                     "amount": "[2,4]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {
@@ -2456,12 +2456,12 @@
             ],
             "[256, 32767]": [{
                     "amount": "[2,4]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "minecraft:sugar"
                 },
                 {
                     "amount": "[4,8]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {
@@ -2477,12 +2477,12 @@
             ],
             "[384, 32767]": [{
                     "amount": "[3,8]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "minecraft:sugar"
                 },
                 {
                     "amount": "[8,12]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {
@@ -2508,12 +2508,12 @@
             ],
             "[500, 32767]": [{
                     "amount": "[24,30]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "minecraft:sugar"
                 },
                 {
                     "amount": "[12,24]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {
@@ -2534,12 +2534,12 @@
             ],
             "[750, 32767]": [{
                     "amount": "[16,32]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "minecraft:sugar"
                 },
                 {
                     "amount": "[24,40]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {
@@ -2565,12 +2565,12 @@
             ],
             "[1000, 32767]": [{
                     "amount": "[16,32]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "minecraft:sugar"
                 },
                 {
                     "amount": "[24,40]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {
@@ -2596,12 +2596,12 @@
             ],
             "[1250, 32767]": [{
                     "amount": "[16,32]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "minecraft:sugar"
                 },
                 {
                     "amount": "[24,40]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {
@@ -2622,12 +2622,12 @@
             ],
             "[1500, 32767]": [{
                     "amount": "[16,32]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "minecraft:sugar"
                 },
                 {
                     "amount": "[24,40]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {
@@ -2645,57 +2645,57 @@
         "battletowers:golem": {
             "[0, 32767]": [{
                 "amount": "[1,1]",
-                "chance": 1,
+                "chance": 1.0,
                 "item": "additions:greedycraft-tower_chest_key"
             }]
         },
         "mowziesmobs:barako": {
             "[690, 32767]": [{
                     "amount": "[1,1]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "additions:greedycraft-broken_solarium_star"
                 },
                 {
                     "amount": "[4,12]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "additions:infernium_ingot"
                 },
                 {
                     "amount": "[4,6]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "botania:manaresource:5"
                 }
             ],
             "[790, 32767]": [{
                     "amount": "[4,16]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "additions:infernium_ingot"
                 },
                 {
                     "amount": "[4,6]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "botania:manaresource:5"
                 }
             ],
             "[890, 32767]": [{
                     "amount": "[8,24]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "additions:infernium_ingot"
                 },
                 {
                     "amount": "[4,6]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "botania:manaresource:5"
                 }
             ],
             "[990, 32767]": [{
                     "amount": "[16,32]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "additions:infernium_ingot"
                 },
                 {
                     "amount": "[4,6]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "botania:manaresource:5"
                 }
             ]
@@ -2703,50 +2703,50 @@
         "mowziesmobs:frostmaw": {
             "[0, 32767]": [{
                 "amount": "[1,1]",
-                "chance": 1,
+                "chance": 1.0,
                 "item": "mowziesmobs:ice_crystal"
             }],
             "[590, 32767]": [{
                     "amount": "[6,12]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "additions:cryonium_ingot"
                 },
                 {
                     "amount": "[3,5]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "botania:manaresource:5"
                 }
             ],
             "[690, 32767]": [{
                     "amount": "[6,16]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "additions:cryonium_ingot"
                 },
                 {
                     "amount": "[3,5]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "botania:manaresource:5"
                 }
             ],
             "[790, 32767]": [{
                     "amount": "[12,20]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "additions:cryonium_ingot"
                 },
                 {
                     "amount": "[3,5]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "botania:manaresource:5"
                 }
             ],
             "[890, 32767]": [{
                     "amount": "[24,32]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "additions:cryonium_ingot"
                 },
                 {
                     "amount": "[3,5]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "botania:manaresource:5"
                 }
             ]
@@ -2770,12 +2770,12 @@
             ],
             "[128, 32767]": [{
                     "amount": "[1,2]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "additions:greedycraft-raw_human_meat"
                 },
                 {
                     "amount": "[2,4]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {
@@ -2796,12 +2796,12 @@
             ],
             "[256, 32767]": [{
                     "amount": "[2,4]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "additions:greedycraft-raw_human_meat"
                 },
                 {
                     "amount": "[4,8]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {
@@ -2822,12 +2822,12 @@
             ],
             "[384, 32767]": [{
                     "amount": "[3,8]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "additions:greedycraft-raw_human_meat"
                 },
                 {
                     "amount": "[8,12]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {
@@ -2858,12 +2858,12 @@
             ],
             "[500, 32767]": [{
                     "amount": "[24,30]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "additions:greedycraft-raw_human_meat"
                 },
                 {
                     "amount": "[12,24]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {
@@ -2889,12 +2889,12 @@
             ],
             "[750, 32767]": [{
                     "amount": "[16,32]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "additions:greedycraft-raw_human_meat"
                 },
                 {
                     "amount": "[24,40]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {
@@ -2920,12 +2920,12 @@
             ],
             "[1000, 32767]": [{
                     "amount": "[16,32]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "additions:greedycraft-raw_human_meat"
                 },
                 {
                     "amount": "[24,40]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {
@@ -2951,12 +2951,12 @@
             ],
             "[1250, 32767]": [{
                     "amount": "[16,32]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "additions:greedycraft-raw_human_meat"
                 },
                 {
                     "amount": "[24,40]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {
@@ -2977,12 +2977,12 @@
             ],
             "[1500, 32767]": [{
                     "amount": "[16,32]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "additions:greedycraft-raw_human_meat"
                 },
                 {
                     "amount": "[24,40]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {
@@ -3016,12 +3016,12 @@
             ],
             "[128, 32767]": [{
                     "amount": "[1,2]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "additions:greedycraft-raw_human_meat"
                 },
                 {
                     "amount": "[2,4]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {
@@ -3042,12 +3042,12 @@
             ],
             "[256, 32767]": [{
                     "amount": "[2,4]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "additions:greedycraft-raw_human_meat"
                 },
                 {
                     "amount": "[4,8]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {
@@ -3068,12 +3068,12 @@
             ],
             "[384, 32767]": [{
                     "amount": "[3,8]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "additions:greedycraft-raw_human_meat"
                 },
                 {
                     "amount": "[8,12]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {
@@ -3104,12 +3104,12 @@
             ],
             "[500, 32767]": [{
                     "amount": "[24,30]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "additions:greedycraft-raw_human_meat"
                 },
                 {
                     "amount": "[12,24]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {
@@ -3135,12 +3135,12 @@
             ],
             "[750, 32767]": [{
                     "amount": "[16,32]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "additions:greedycraft-raw_human_meat"
                 },
                 {
                     "amount": "[24,40]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {
@@ -3166,12 +3166,12 @@
             ],
             "[1000, 32767]": [{
                     "amount": "[16,32]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "additions:greedycraft-raw_human_meat"
                 },
                 {
                     "amount": "[24,40]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {
@@ -3197,12 +3197,12 @@
             ],
             "[1250, 32767]": [{
                     "amount": "[16,32]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "additions:greedycraft-raw_human_meat"
                 },
                 {
                     "amount": "[24,40]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {
@@ -3223,12 +3223,12 @@
             ],
             "[1500, 32767]": [{
                     "amount": "[16,32]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "additions:greedycraft-raw_human_meat"
                 },
                 {
                     "amount": "[24,40]",
-                    "chance": 1,
+                    "chance": 1.0,
                     "item": "mysticalagriculture:crafting"
                 },
                 {

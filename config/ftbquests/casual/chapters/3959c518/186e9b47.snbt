@@ -1,8 +1,9 @@
+
 {
-	title: "§c终点就在前方",
+	title: "{greedycraft.quest.186e9b47.title}",
 	x: 0.0d,
 	y: -4.0d,
-	description: "获得贪婪奖章",
+	description: "{greedycraft.quest.186e9b47.desc}",
 	dependencies: [
 		"0eb7bb0b"
 	],

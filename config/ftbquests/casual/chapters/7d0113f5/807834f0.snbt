@@ -1,8 +1,9 @@
+
 {
-	title: "§b还有更好的冶炼厂？？",
+	title: "{greedycraft.quest.807834f0.title}",
 	x: 8.5d,
 	y: -0.5d,
-	description: "获得秘银源质冶炼厂",
+	description: "{greedycraft.quest.807834f0.desc}",
 	dependencies: [
 		"74048d38",
 		"0a299e8c"

@@ -1,8 +1,8 @@
 {
-	title: "§b扭转乾坤",
+	title: "{greedycraft.quest.79cf1500.title}",
 	x: 9.0d,
 	y: 2.0d,
-	description: "获得传送核心",
+	description: "{greedycraft.quest.79cf1500.desc}",
 	dependencies: [
 		"800217e4"
 	],

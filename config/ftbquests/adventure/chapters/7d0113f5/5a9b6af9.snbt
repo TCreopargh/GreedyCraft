@@ -1,8 +1,8 @@
 {
-	title: "§5屈服于黑暗",
+	title: "{greedycraft.quest.5a9b6af9.title}",
 	x: 4.5d,
 	y: -0.5d,
-	description: "获得虚空金属",
+	description: "{greedycraft.quest.5a9b6af9.desc}",
 	text: [
 		"深入研究邪术学的前置为发现神秘学和血腥仪式，血腥仪式的前置为血腥崇拜，需要扫描血腥教徒解锁。"
 	],

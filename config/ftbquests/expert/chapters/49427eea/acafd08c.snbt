@@ -1,8 +1,9 @@
+
 {
-	title: "§9二次升级",
+	title: "{greedycraft.quest.acafd08c.title}",
 	x: -2.0d,
 	y: 7.0d,
-	description: "获得强化机器框架",
+	description: "{greedycraft.quest.acafd08c.desc}",
 	dependencies: [
 		"dd58485d"
 	],

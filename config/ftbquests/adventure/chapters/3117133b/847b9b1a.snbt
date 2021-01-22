@@ -1,9 +1,9 @@
 {
-	title: "§6瓦尔基里",
+	title: "{greedycraft.quest.847b9b1a.title}",
 	icon: "tinkersaether:valkyrie_ingot",
 	x: -1.0d,
 	y: 0.0d,
-	description: "战胜武神女王",
+	description: "{greedycraft.quest.847b9b1a.desc}",
 	dependencies: [
 		"b5350524"
 	],

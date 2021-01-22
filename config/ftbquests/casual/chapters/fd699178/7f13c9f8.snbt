@@ -1,8 +1,9 @@
+
 {
-	title: "§6设备升级",
+	title: "{greedycraft.quest.7f13c9f8.title}",
 	x: 0.5d,
 	y: 2.0d,
-	description: "获得高级压印器",
+	description: "{greedycraft.quest.7f13c9f8.desc}",
 	dependencies: [
 		"9d90bb25"
 	],

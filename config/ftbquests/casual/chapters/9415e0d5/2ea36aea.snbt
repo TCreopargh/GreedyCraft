@@ -1,9 +1,10 @@
+
 {
-	title: "§c五§6颜§e六§a色§b的§9世§d界",
+	title: "{greedycraft.quest.2ea36aea.title}",
 	icon: "extrautils2:decorativesolid 1 8",
 	x: 8.0d,
 	y: 1.5d,
-	description: "获得所有种类的染料",
+	description: "{greedycraft.quest.2ea36aea.desc}",
 	tasks: [{
 		uid: "f1923c4e",
 		type: "item",

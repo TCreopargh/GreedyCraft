@@ -1,8 +1,9 @@
+
 {
-	title: "§6派大星我们来抓§m水母§6蜜蜂吧！",
+	title: "{greedycraft.quest.5f88aa7f.title}",
 	x: -11.0d,
 	y: 0.0d,
-	description: "获得一个捕虫网",
+	description: "{greedycraft.quest.5f88aa7f.desc}",
 	tasks: [{
 		uid: "25769362",
 		type: "item",

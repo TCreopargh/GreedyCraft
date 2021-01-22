@@ -1,8 +1,8 @@
 {
-	title: "§3小行星坠落",
+	title: "{greedycraft.quest.bef89d76.title}",
 	x: -2.0d,
 	y: -3.0d,
-	description: "找到一块陨石",
+	description: "{greedycraft.quest.bef89d76.desc}",
 	tasks: [{
 		uid: "6e4de3ea",
 		type: "item",

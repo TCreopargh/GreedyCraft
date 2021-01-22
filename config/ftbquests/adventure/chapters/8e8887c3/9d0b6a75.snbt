@@ -1,10 +1,10 @@
 {
-	title: "§d屠龙勇士",
+	title: "{greedycraft.quest.9d0b6a75.title}",
 	icon: "minecraft:skull 1 5",
 	x: 10.0d,
 	y: -2.0d,
 	shape: "rsquare",
-	description: "§5杀死末影龙",
+	description: "{greedycraft.quest.9d0b6a75.desc}",
 	text: [
 		"注意：首次杀死末影龙将会调整你的世界难度。"
 	],

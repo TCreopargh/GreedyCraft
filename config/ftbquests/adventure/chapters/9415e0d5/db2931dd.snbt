@@ -1,9 +1,9 @@
 {
-	title: "§6挑战者VIII",
+	title: "{greedycraft.quest.db2931dd.title}",
 	icon: "inventorypets:petachieveitemall",
 	x: 12.0d,
 	y: 13.5d,
-	description: "完成所有挑战任务",
+	description: "{greedycraft.quest.db2931dd.desc}",
 	hide_dependency_lines: true,
 	dependencies: [
 		"331dd91f",

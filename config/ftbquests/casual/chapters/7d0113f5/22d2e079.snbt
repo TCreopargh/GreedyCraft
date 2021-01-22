@@ -1,8 +1,9 @@
+
 {
-	title: "§b洞察真理",
+	title: "{greedycraft.quest.22d2e079.title}",
 	x: -3.5d,
 	y: 1.5d,
-	description: "获得魔导透镜",
+	description: "{greedycraft.quest.22d2e079.desc}",
 	dependencies: [
 		"e42bd6a4"
 	],

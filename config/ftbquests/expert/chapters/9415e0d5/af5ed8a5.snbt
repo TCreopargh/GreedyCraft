@@ -1,8 +1,9 @@
+
 {
-	title: "§e快速耕耘",
+	title: "{greedycraft.quest.af5ed8a5.title}",
 	x: 2.0d,
 	y: 15.5d,
-	description: "获得生长加速器，放在耕地下面即可给耕地加速，可以叠加",
+	description: "{greedycraft.quest.af5ed8a5.desc}",
 	tasks: [{
 		uid: "b60d2701",
 		type: "item",

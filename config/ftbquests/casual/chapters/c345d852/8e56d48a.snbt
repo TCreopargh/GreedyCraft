@@ -1,8 +1,9 @@
+
 {
-	title: "§2装瓶机",
+	title: "{greedycraft.quest.8e56d48a.title}",
 	x: 6.5d,
 	y: -2.5d,
-	description: "获得装瓶机",
+	description: "{greedycraft.quest.8e56d48a.desc}",
 	dependencies: [
 		"99f6417a"
 	],

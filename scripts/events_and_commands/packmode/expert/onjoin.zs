@@ -6,6 +6,8 @@
 #priority 120
 #packmode expert
 
+import mods.zenutils.I18n;
+
 events.onPlayerLoggedIn(function (event as crafttweaker.event.PlayerLoggedInEvent) {
     if(event.player.hasGameStage("adventure") || event.player.hasGameStage("casual")) {
         event.player.sendChat(game.localize("greedycraft.event.packmode_changed.chat"));

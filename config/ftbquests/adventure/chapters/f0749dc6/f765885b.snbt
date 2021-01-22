@@ -1,11 +1,11 @@
 {
-	title: "§d怪物猎人IV",
+	title: "{greedycraft.quest.f765885b.title}",
 	icon: {
 		id: "minecraft:golden_sword"
 	},
 	x: -3.0d,
 	y: 3.0d,
-	description: "击杀指定数量的生物",
+	description: "{greedycraft.quest.f765885b.desc}",
 	dependencies: [
 		"653fa7f3"
 	],

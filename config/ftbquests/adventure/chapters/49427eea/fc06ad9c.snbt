@@ -1,8 +1,8 @@
 {
-	title: "§9产自非洲的下界石英",
+	title: "{greedycraft.quest.fc06ad9c.title}",
 	x: 16.0d,
 	y: -6.5d,
-	description: "获得焦黑石英",
+	description: "{greedycraft.quest.fc06ad9c.desc}",
 	tasks: [{
 		uid: "2ac2391a",
 		type: "item",

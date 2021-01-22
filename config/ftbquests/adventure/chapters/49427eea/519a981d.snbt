@@ -1,8 +1,8 @@
 {
-	title: "§e存储气体",
+	title: "{greedycraft.quest.519a981d.title}",
 	x: -4.5d,
 	y: 1.5d,
-	description: "获得一个气体储罐",
+	description: "{greedycraft.quest.519a981d.desc}",
 	tasks: [{
 		uid: "0408eb81",
 		type: "item",

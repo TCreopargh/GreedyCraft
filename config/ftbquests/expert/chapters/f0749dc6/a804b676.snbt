@@ -1,11 +1,12 @@
+
 {
-	title: "旅行者I",
+	title: "{greedycraft.quest.a804b676.title}",
 	icon: {
 		id: "minecraft:leather_boots"
 	},
 	x: -0.5d,
 	y: -3.0d,
-	description: "行走指定的距离",
+	description: "{greedycraft.quest.a804b676.desc}",
 	tasks: [{
 		uid: "31969db1",
 		type: "stat",

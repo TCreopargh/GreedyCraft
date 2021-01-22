@@ -6,6 +6,8 @@
 #priority 80
 #packmode casual
 
+import mods.zenutils.I18n;
+
 events.onPlayerLoggedIn(function (event as crafttweaker.event.PlayerLoggedInEvent) {
     var player = event.player;
     server.commandManager.executeCommand(server, "/scoreboard objectives remove title");    

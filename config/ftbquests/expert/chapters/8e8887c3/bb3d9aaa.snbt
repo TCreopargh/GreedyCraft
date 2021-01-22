@@ -1,10 +1,11 @@
+
 {
-	title: "熟悉的金属",
+	title: "{greedycraft.quest.bb3d9aaa.title}",
 	icon: "minecraft:iron_ore",
 	x: -2.0d,
 	y: -2.0d,
 	shape: "rsquare",
-	description: "获得一个铁矿",
+	description: "{greedycraft.quest.bb3d9aaa.desc}",
 	dependencies: [
 		"77689ab0"
 	],

@@ -1,8 +1,8 @@
 {
-	title: "§b一站式农贸市场",
+	title: "{greedycraft.quest.31065a66.title}",
 	x: 2.0d,
 	y: 7.5d,
-	description: "获得小市场，能够购买各种树苗和种子",
+	description: "{greedycraft.quest.31065a66.desc}",
 	tasks: [{
 		uid: "c877b127",
 		type: "item",

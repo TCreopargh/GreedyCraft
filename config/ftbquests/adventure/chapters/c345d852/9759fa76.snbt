@@ -1,8 +1,8 @@
 {
-	title: "§6基因压印",
+	title: "{greedycraft.quest.9759fa76.title}",
 	x: 6.5d,
 	y: 0.0d,
-	description: "获得基因压印机",
+	description: "{greedycraft.quest.9759fa76.desc}",
 	dependencies: [
 		"b1243a42"
 	],

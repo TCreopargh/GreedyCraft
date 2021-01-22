@@ -1,9 +1,9 @@
 {
-	title: "工匠入门",
+	title: "{greedycraft.quest.851cec5e.title}",
 	x: -4.0d,
 	y: -4.0d,
 	shape: "diamond",
-	description: "制作一个空白模具",
+	description: "{greedycraft.quest.851cec5e.desc}",
 	dependencies: [
 		"d8730528"
 	],

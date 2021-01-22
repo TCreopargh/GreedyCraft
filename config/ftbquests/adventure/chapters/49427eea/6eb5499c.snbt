@@ -1,8 +1,8 @@
 {
-	title: "反应堆燃料棒",
+	title: "{greedycraft.quest.6eb5499c.title}",
 	x: 22.0d,
 	y: 4.5d,
-	description: "获得反应堆燃料棒",
+	description: "{greedycraft.quest.6eb5499c.desc}",
 	dependencies: [
 		"6c9352b5"
 	],

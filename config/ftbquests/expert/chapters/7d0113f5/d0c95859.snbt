@@ -1,8 +1,9 @@
+
 {
-	title: "§6黏糊糊",
+	title: "{greedycraft.quest.d0c95859.title}",
 	x: -3.5d,
 	y: -2.5d,
-	description: "获得魔力油脂",
+	description: "{greedycraft.quest.d0c95859.desc}",
 	dependencies: [
 		"e42bd6a4"
 	],

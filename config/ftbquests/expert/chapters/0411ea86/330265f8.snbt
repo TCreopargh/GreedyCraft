@@ -1,9 +1,10 @@
+
 {
-	title: "§c看起来很好吃",
+	title: "{greedycraft.quest.330265f8.title}",
 	icon: "twilightforest:trophy 1 6",
 	x: 1.5d,
 	y: -3.0d,
-	description: "击败米诺菇",
+	description: "{greedycraft.quest.330265f8.desc}",
 	dependencies: [
 		"11643307"
 	],

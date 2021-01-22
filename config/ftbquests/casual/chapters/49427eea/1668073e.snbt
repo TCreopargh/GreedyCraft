@@ -1,8 +1,9 @@
+
 {
-	title: "§e恒星电容",
+	title: "{greedycraft.quest.1668073e.title}",
 	x: 0.5d,
 	y: 13.0d,
-	description: "获得恒星合金电容",
+	description: "{greedycraft.quest.1668073e.desc}",
 	dependencies: [
 		"b1c8ec3a"
 	],

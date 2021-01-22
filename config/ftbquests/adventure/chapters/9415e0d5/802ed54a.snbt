@@ -1,8 +1,8 @@
 {
-	title: "§a万能工具",
+	title: "{greedycraft.quest.802ed54a.title}",
 	x: 4.0d,
 	y: 3.5d,
-	description: "获得一个变形工具",
+	description: "{greedycraft.quest.802ed54a.desc}",
 	text: [
 		"使用方法类似阿卡什手册，将万能工具和任意扳手合成即可操纵对应mod的机器"
 	],

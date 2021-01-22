@@ -1,9 +1,9 @@
 {
-	title: "新的旅途",
+	title: "{greedycraft.quest.f0fd8c17.title}",
 	icon: "twilightforest:miniature_structure",
 	x: -6.0d,
 	y: -1.0d,
-	description: "进入暮色森林",
+	description: "{greedycraft.quest.f0fd8c17.desc}",
 	dependencies: [
 		"16f0c4d7"
 	],

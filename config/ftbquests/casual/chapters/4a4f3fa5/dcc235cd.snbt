@@ -1,8 +1,9 @@
+
 {
-	title: "§d守护者的珍宝",
+	title: "{greedycraft.quest.dcc235cd.title}",
 	x: 5.5d,
 	y: 2.0d,
-	description: "获得盖亚魂锭",
+	description: "{greedycraft.quest.dcc235cd.desc}",
 	dependencies: [
 		"df8638f2"
 	],

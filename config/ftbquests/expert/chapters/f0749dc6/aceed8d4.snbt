@@ -1,11 +1,12 @@
+
 {
-	title: "§d旅行者IV",
+	title: "{greedycraft.quest.aceed8d4.title}",
 	icon: {
 		id: "minecraft:golden_boots"
 	},
 	x: -0.5d,
 	y: 3.0d,
-	description: "行走指定的距离",
+	description: "{greedycraft.quest.aceed8d4.desc}",
 	dependencies: [
 		"975130a6"
 	],

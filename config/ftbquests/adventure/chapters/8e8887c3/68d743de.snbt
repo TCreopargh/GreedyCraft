@@ -1,9 +1,9 @@
 {
-	title: "§b急性子",
+	title: "{greedycraft.quest.68d743de.title}",
 	x: 0.0d,
 	y: -6.0d,
 	shape: "diamond",
-	description: "获得冶炼炉加速器，将它放在冶炼炉控制器上面即可加快冶炼速度",
+	description: "{greedycraft.quest.68d743de.desc}",
 	dependencies: [
 		"6b08fde1"
 	],

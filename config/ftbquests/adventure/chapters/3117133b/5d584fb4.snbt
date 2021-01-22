@@ -1,8 +1,8 @@
 {
-	title: "§e神的水晶",
+	title: "{greedycraft.quest.5d584fb4.title}",
 	x: 4.0d,
 	y: 0.0d,
-	description: "获得神能晶片",
+	description: "{greedycraft.quest.5d584fb4.desc}",
 	dependencies: [
 		"b5350524"
 	],

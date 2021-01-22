@@ -1,9 +1,10 @@
+
 {
-	title: "§b游戏指南",
+	title: "{greedycraft.quest.931caec1.title}",
 	x: -10.0d,
 	y: 0.0d,
 	shape: "rsquare",
-	description: "打开并仔细阅读放置在你物品栏中的整合包指导手册",
+	description: "{greedycraft.quest.931caec1.desc}",
 	text: [
 		"请打开并仔细阅读放置在你物品栏中的整合包指导手册。",
 		"它将为你进行游戏提供很大的帮助。",

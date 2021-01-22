@@ -1,8 +1,9 @@
+
 {
-	title: "§e闪耀之光",
+	title: "{greedycraft.quest.469b1d74.title}",
 	x: -1.5d,
 	y: 0.5d,
-	description: "使用坩埚制取黄色闪耀之光",
+	description: "{greedycraft.quest.469b1d74.desc}",
 	dependencies: [
 		"e42bd6a4"
 	],

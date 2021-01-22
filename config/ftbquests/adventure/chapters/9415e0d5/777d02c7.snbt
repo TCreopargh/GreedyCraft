@@ -1,9 +1,9 @@
 {
-	title: "§2Deep Dark Fantasy",
+	title: "{greedycraft.quest.777d02c7.title}",
 	icon: "extrautils2:teleporter 1 1",
 	x: -10.0d,
 	y: 11.5d,
-	description: "制作漆黑之门，进入漆黑维度",
+	description: "{greedycraft.quest.777d02c7.desc}",
 	tasks: [{
 		uid: "f4dc3598",
 		type: "dimension",

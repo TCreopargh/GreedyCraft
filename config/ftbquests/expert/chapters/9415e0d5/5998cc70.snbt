@@ -1,8 +1,9 @@
+
 {
-	title: "§6城市保卫者",
+	title: "{greedycraft.quest.5998cc70.title}",
 	x: -4.0d,
 	y: 11.5d,
-	description: "获得城市保卫者勋章，点击以查看说明",
+	description: "{greedycraft.quest.5998cc70.desc}",
 	text: [
 		"城市保卫者勋章偶尔会从未辨认实体身上掉落，难度越高，掉率越高。",
 		"如果你是以默认世界设置创建地图的，则建议进入失落的城市维度",

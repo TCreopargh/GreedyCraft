@@ -1,5 +1,5 @@
 {
-	title: "§a暮色森林",
+	title: "{greedycraft.quest.chapter.twilightforest}",
 	icon: "twilightforest:miniature_structure",
 	always_invisible: false,
 	group: 0,

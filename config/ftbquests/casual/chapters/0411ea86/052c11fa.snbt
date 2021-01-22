@@ -1,9 +1,10 @@
+
 {
-	title: "§3九头蛇万岁",
+	title: "{greedycraft.quest.052c11fa.title}",
 	icon: "twilightforest:trophy 1 2",
 	x: 4.0d,
 	y: -3.0d,
-	description: "击败九头蛇",
+	description: "{greedycraft.quest.052c11fa.desc}",
 	dependencies: [
 		"330265f8"
 	],

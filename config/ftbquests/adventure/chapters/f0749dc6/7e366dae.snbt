@@ -1,11 +1,11 @@
 {
-	title: "§6怪物猎人V",
+	title: "{greedycraft.quest.7e366dae.title}",
 	icon: {
 		id: "minecraft:diamond_sword"
 	},
 	x: -3.0d,
 	y: 5.0d,
-	description: "击杀指定数量的生物",
+	description: "{greedycraft.quest.7e366dae.desc}",
 	dependencies: [
 		"f765885b"
 	],

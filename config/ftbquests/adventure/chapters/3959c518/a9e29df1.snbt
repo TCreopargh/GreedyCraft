@@ -1,5 +1,5 @@
 {
-	title: "§c§o§4§ka§r §c§o真正的终点 §r§4§ka§r",
+	title: "{greedycraft.quest.a9e29df1.title}",
 	icon: {
 		id: "ftbquests:custom_icon",
 		tag: {
@@ -8,7 +8,7 @@
 	},
 	x: 0.0d,
 	y: 0.0d,
-	description: "§3去吧，证明你自己。",
+	description: "{greedycraft.quest.a9e29df1.desc}",
 	text: [
 		"我想，这就是旅途的终点了。",
 		"只有极度贪婪，渴望得到一切，也最终得到一切的人，",

@@ -1,8 +1,8 @@
 {
-	title: "§c黑洞核心",
+	title: "{greedycraft.quest.4fc576c4.title}",
 	x: 18.0d,
 	y: -6.0d,
-	description: "获得永恒奇点",
+	description: "{greedycraft.quest.4fc576c4.desc}",
 	dependencies: [
 		"d0e61e36"
 	],

@@ -1,8 +1,8 @@
 {
-	title: "§c鲜血交易",
+	title: "{greedycraft.quest.319abe6d.title}",
 	x: -2.0d,
 	y: -0.5d,
-	description: "制作控制血月的物品",
+	description: "{greedycraft.quest.319abe6d.desc}",
 	tasks: [{
 		uid: "5e45407c",
 		type: "item",

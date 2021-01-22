@@ -1,8 +1,9 @@
+
 {
-	title: "§d难度主宰者",
+	title: "{greedycraft.quest.349f41aa.title}",
 	x: 0.0d,
 	y: 11.5d,
-	description: "获得难度调节器",
+	description: "{greedycraft.quest.349f41aa.desc}",
 	tasks: [{
 		uid: "d59e936a",
 		type: "item",

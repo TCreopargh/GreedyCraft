@@ -1,8 +1,9 @@
+
 {
-	title: "§c彩§6虹§e发§a电§b机§d!",
+	title: "{greedycraft.quest.0f2fbf29.title}",
 	x: 16.0d,
 	y: 8.5d,
-	description: "获得彩虹发电机",
+	description: "{greedycraft.quest.0f2fbf29.desc}",
 	tasks: [{
 		uid: "6e2924b4",
 		type: "item",

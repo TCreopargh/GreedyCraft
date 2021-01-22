@@ -1,9 +1,9 @@
 {
-	title: "§b稀有矿物",
+	title: "{greedycraft.quest.376e4986.title}",
 	x: 0.5d,
 	y: 5.5d,
 	shape: "gear",
-	description: "获得一个铂矿石",
+	description: "{greedycraft.quest.376e4986.desc}",
 	dependencies: [
 		"acafd08c"
 	],

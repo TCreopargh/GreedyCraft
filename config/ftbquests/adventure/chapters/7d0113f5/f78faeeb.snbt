@@ -1,8 +1,8 @@
 {
-	title: "§d理论魔法学",
+	title: "{greedycraft.quest.f78faeeb.title}",
 	x: -5.5d,
 	y: -1.5d,
-	description: "获得书桌",
+	description: "{greedycraft.quest.f78faeeb.desc}",
 	dependencies: [
 		"e42bd6a4"
 	],

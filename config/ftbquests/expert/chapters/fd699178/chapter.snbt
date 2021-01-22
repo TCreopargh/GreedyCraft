@@ -1,5 +1,5 @@
 {
-	title: "§b先进存储",
+	title: "{greedycraft.quest.chapter.appeng}",
 	icon: "appliedenergistics2:chest",
 	always_invisible: false,
 	group: 0,

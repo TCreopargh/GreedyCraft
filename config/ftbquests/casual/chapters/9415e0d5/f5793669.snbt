@@ -1,9 +1,10 @@
+
 {
-	title: "世界原点",
+	title: "{greedycraft.quest.f5793669.title}",
 	icon: "minecraft:compass",
 	x: -2.0d,
 	y: 1.5d,
-	description: "到达坐标(0,0)",
+	description: "{greedycraft.quest.f5793669.desc}",
 	tasks: [{
 		uid: "b156f9a8",
 		type: "location",

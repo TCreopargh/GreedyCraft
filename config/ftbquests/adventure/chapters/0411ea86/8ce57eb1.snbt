@@ -1,9 +1,9 @@
 {
-	title: "§b你想搭一个雪人吗",
+	title: "{greedycraft.quest.8ce57eb1.title}",
 	icon: "twilightforest:trophy 1 5",
 	x: 4.0d,
 	y: 1.0d,
-	description: "击败冰雪女王",
+	description: "{greedycraft.quest.8ce57eb1.desc}",
 	dependencies: [
 		"41218ac1"
 	],

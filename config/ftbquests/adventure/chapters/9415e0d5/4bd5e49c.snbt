@@ -1,8 +1,8 @@
 {
-	title: "§c更好的红石",
+	title: "{greedycraft.quest.4bd5e49c.title}",
 	x: 4.0d,
 	y: 7.5d,
-	description: "获得粘性红石",
+	description: "{greedycraft.quest.4bd5e49c.desc}",
 	tasks: [{
 		uid: "27afb96c",
 		type: "item",

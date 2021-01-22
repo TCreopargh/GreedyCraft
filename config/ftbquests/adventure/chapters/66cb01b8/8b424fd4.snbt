@@ -1,8 +1,8 @@
 {
-	title: "§e窥视灵魂",
+	title: "{greedycraft.quest.8b424fd4.title}",
 	x: 6.0d,
 	y: 3.0d,
-	description: "获得占卜印记",
+	description: "{greedycraft.quest.8b424fd4.desc}",
 	dependencies: [
 		"cdc1deb9"
 	],

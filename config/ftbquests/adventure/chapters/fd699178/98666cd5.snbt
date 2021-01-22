@@ -1,8 +1,8 @@
 {
-	title: "高级传输",
+	title: "{greedycraft.quest.98666cd5.title}",
 	x: 8.0d,
 	y: -1.5d,
-	description: "制作一个ME接口",
+	description: "{greedycraft.quest.98666cd5.desc}",
 	dependencies: [
 		"6e46a027"
 	],

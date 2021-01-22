@@ -1,8 +1,8 @@
 {
-	title: "§b星星指引我的方向",
+	title: "{greedycraft.quest.4f8c9539.title}",
 	x: -1.0d,
 	y: 0.0d,
-	description: "获得共鸣星杖，它能够在地表探测到地下深处埋藏的数量稀少的水晶石矿",
+	description: "{greedycraft.quest.4f8c9539.desc}",
 	dependencies: [
 		"daeb8a38",
 		"5cc3003c"

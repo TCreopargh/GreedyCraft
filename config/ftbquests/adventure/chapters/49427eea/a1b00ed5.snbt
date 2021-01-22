@@ -1,8 +1,8 @@
 {
-	title: "§b冶金灌注",
+	title: "{greedycraft.quest.a1b00ed5.title}",
 	x: -9.5d,
 	y: 3.5d,
-	description: "获得冶金灌注机",
+	description: "{greedycraft.quest.a1b00ed5.desc}",
 	dependencies: [
 		"81ece8f9",
 		"fe27afe8"

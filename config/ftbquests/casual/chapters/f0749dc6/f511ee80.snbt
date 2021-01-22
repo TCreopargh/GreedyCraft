@@ -1,9 +1,10 @@
+
 {
-	title: "§a凋灵杀手II",
+	title: "{greedycraft.quest.f511ee80.title}",
 	icon: "netherex:wither_bone",
 	x: 4.5d,
 	y: -1.0d,
-	description: "击杀指定数量的凋灵",
+	description: "{greedycraft.quest.f511ee80.desc}",
 	dependencies: [
 		"68c0cf56"
 	],

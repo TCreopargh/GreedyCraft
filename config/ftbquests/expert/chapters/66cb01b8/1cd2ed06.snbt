@@ -1,8 +1,9 @@
+
 {
-	title: "§4束缚灵魂",
+	title: "{greedycraft.quest.1cd2ed06.title}",
 	x: 9.0d,
 	y: 0.0d,
-	description: "获得束缚锭",
+	description: "{greedycraft.quest.1cd2ed06.desc}",
 	dependencies: [
 		"759b5ce5",
 		"45197bcf"

@@ -1,8 +1,8 @@
 {
-	title: "§3凝视深渊",
+	title: "{greedycraft.quest.b24d91eb.title}",
 	x: 6.0d,
 	y: -1.5d,
-	description: "击败堕落者阿索拉并获得深渊之眼",
+	description: "{greedycraft.quest.b24d91eb.desc}",
 	dependencies: [
 		"48323d8b"
 	],

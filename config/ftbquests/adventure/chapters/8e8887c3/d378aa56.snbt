@@ -1,9 +1,9 @@
 {
-	title: "§b龙之芯",
+	title: "{greedycraft.quest.d378aa56.title}",
 	x: 4.0d,
 	y: 0.0d,
 	shape: "square",
-	description: "获得龙芯",
+	description: "{greedycraft.quest.d378aa56.desc}",
 	dependencies: [
 		"68ef7c06"
 	],

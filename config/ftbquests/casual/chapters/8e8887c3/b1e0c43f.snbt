@@ -1,9 +1,10 @@
+
 {
-	title: "§5混沌之力",
+	title: "{greedycraft.quest.b1e0c43f.title}",
 	x: 14.0d,
 	y: 2.0d,
 	shape: "square",
-	description: "获得混沌核心",
+	description: "{greedycraft.quest.b1e0c43f.desc}",
 	dependencies: [
 		"f136f4b7",
 		"b4991d6f"

@@ -1,8 +1,8 @@
 {
-	title: "§4战胜恐惧",
+	title: "{greedycraft.quest.3dcbfcd8.title}",
 	x: 14.0d,
 	y: 0.0d,
-	description: "打败查加洛特获得它的钥匙，奥利给！",
+	description: "{greedycraft.quest.3dcbfcd8.desc}",
 	dependencies: [
 		"a9a0ce2d",
 		"58c101a2"

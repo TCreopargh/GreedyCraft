@@ -1,8 +1,9 @@
+
 {
-	title: "§5掌控宇宙",
+	title: "{greedycraft.quest.2af31271.title}",
 	x: 0.0d,
 	y: 15.5d,
-	description: "将最强的几种金属融合，获得寰宇锭",
+	description: "{greedycraft.quest.2af31271.desc}",
 	tasks: [{
 		uid: "adcf4908",
 		type: "item",

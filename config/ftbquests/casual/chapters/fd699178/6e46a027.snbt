@@ -1,8 +1,9 @@
+
 {
-	title: "§c超级存储",
+	title: "{greedycraft.quest.6e46a027.title}",
 	x: 5.5d,
 	y: -0.5d,
-	description: "制造一个ME驱动器，能够存放10个存储元件",
+	description: "{greedycraft.quest.6e46a027.desc}",
 	dependencies: [
 		"da08dbca"
 	],

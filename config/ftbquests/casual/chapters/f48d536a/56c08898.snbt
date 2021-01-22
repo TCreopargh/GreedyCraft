@@ -1,9 +1,10 @@
+
 {
-	title: "§3我在哪？让我出去！",
+	title: "{greedycraft.quest.56c08898.title}",
 	icon: "abyssalcraft:stone",
 	x: 16.5d,
 	y: 3.5d,
-	description: "从奥穆索掉落，进入黑暗领域",
+	description: "{greedycraft.quest.56c08898.desc}",
 	dependencies: [
 		"18558d0b"
 	],

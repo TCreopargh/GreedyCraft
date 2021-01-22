@@ -1,8 +1,8 @@
 {
-	title: "§6帮你找到家",
+	title: "{greedycraft.quest.2a2e5f4d.title}",
 	x: -8.5d,
 	y: 2.5d,
-	description: "获得栖息地定位仪",
+	description: "{greedycraft.quest.2a2e5f4d.desc}",
 	dependencies: [
 		"48fc4e8c"
 	],

@@ -1,5 +1,5 @@
 {
-	title: "§e里程碑任务",
+	title: "{greedycraft.quest.chapter.milestones}",
 	always_invisible: false,
 	group: 0,
 	default_quest_shape: "hexagon",

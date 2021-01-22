@@ -1,9 +1,10 @@
+
 {
-	title: "§9如影随形",
+	title: "{greedycraft.quest.2c1ad8e1.title}",
 	icon: "twilightforest:trophy 1 4",
 	x: 1.5d,
 	y: -1.0d,
-	description: "击败幻影骑士",
+	description: "{greedycraft.quest.2c1ad8e1.desc}",
 	dependencies: [
 		"11643307"
 	],

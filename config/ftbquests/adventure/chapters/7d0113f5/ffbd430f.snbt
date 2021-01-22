@@ -1,8 +1,8 @@
 {
-	title: "§9炼金入门",
+	title: "{greedycraft.quest.ffbd430f.title}",
 	x: -1.5d,
 	y: -1.5d,
-	description: "将世界盐撒到炼药锅上以制作坩埚",
+	description: "{greedycraft.quest.ffbd430f.desc}",
 	dependencies: [
 		"e42bd6a4"
 	],

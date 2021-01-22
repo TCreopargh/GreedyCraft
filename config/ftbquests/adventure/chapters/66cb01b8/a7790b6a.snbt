@@ -1,8 +1,8 @@
 {
-	title: "§6生命之舞",
+	title: "{greedycraft.quest.a7790b6a.title}",
 	x: 15.0d,
 	y: 0.0d,
-	description: "获得昂贵的注血钻石",
+	description: "{greedycraft.quest.a7790b6a.desc}",
 	dependencies: [
 		"886b7b73"
 	],

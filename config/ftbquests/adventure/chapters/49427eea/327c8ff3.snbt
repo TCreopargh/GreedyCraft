@@ -1,8 +1,8 @@
 {
-	title: "§6多喝热水",
+	title: "{greedycraft.quest.327c8ff3.title}",
 	x: 3.0d,
 	y: -1.5d,
-	description: "获得熔岩炉",
+	description: "{greedycraft.quest.327c8ff3.desc}",
 	tasks: [{
 		uid: "09329b8d",
 		type: "item",

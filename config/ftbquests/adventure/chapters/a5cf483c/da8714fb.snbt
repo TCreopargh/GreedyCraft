@@ -1,8 +1,8 @@
 {
-	title: "§b星能探测",
+	title: "{greedycraft.quest.da8714fb.title}",
 	x: -1.0d,
 	y: 4.0d,
-	description: "获得法斯刻共振器，用它来探测星能场的强度！",
+	description: "{greedycraft.quest.da8714fb.desc}",
 	dependencies: [
 		"5cc3003c",
 		"019a77ed"

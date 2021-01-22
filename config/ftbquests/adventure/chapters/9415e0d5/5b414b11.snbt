@@ -1,9 +1,9 @@
 {
-	title: "§e挑战者II",
+	title: "{greedycraft.quest.5b414b11.title}",
 	icon: "inventorypets:petachieveitem10",
 	x: 12.0d,
 	y: 1.5d,
-	description: "完成10个挑战任务",
+	description: "{greedycraft.quest.5b414b11.desc}",
 	hide_dependency_lines: true,
 	min_required_dependencies: 10,
 	dependencies: [

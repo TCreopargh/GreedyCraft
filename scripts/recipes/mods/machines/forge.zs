@@ -46,17 +46,9 @@ MMUtil.addForgeRecipe("durasteel_forge", MMUtil.getStack(<additions:durasteel_in
         speed: 0.05,
         energy: 0.25
     }, 
-    <minecraft:nether_star> : {
-        speed: 0.3,
-        energy: 0.3
-    }, 
     <botania:manaresource:14> : {
         speed: 0.25,
         energy: 0.25
-    }, 
-    <plustic:mirioningot> : {
-        speed: 0.33,
-        energy: 0.33
     }, 
     <abyssalcraft:dreadiumingot> : {
         speed: 0.25,
@@ -87,10 +79,6 @@ MMUtil.addForgeRecipe("aeonsteel_forge", MMUtil.getStack(<additions:aeonsteel_in
     <additions:greedycraft-catalyst_star> : {
         speed: 0.75,
         energy: 0.75
-    }, 
-    <additions:shadowium_ingot> : {
-        speed: 0.15,
-        energy: 0.15
     }, 
     <additions:astral_metal_ingot> : {
         speed: 0.2,
@@ -124,10 +112,6 @@ MMUtil.addForgeRecipe("aeonsteel_forge", MMUtil.getStack(<additions:aeonsteel_in
         speed: 0.25,
         energy: 0.25
     },
-    <plustic:mirioningot> : {
-        speed: 0.2,
-        energy: 0.2
-    },
     <additions:greedycraft-time_shard> : {
         speed: 0.15,
         energy: 0.0
@@ -137,6 +121,8 @@ MMUtil.addForgeRecipe("aeonsteel_forge", MMUtil.getStack(<additions:aeonsteel_in
 MMUtil.addForgeRecipe("chromasteel_forge", MMUtil.getStack(<additions:chromasteel_ingot>, 6), (42000 * FORGE_COST_MULTIPLIER) as int, (240000000 as long * FORGE_COST_MULTIPLIER as long) as long, [
     <additions:aeonsteel_ingot>,
     <additions:terra_alloy_ingot>,
+    <additions:shadowium_ingot>,
+    <abyssalcraft:ethaxiumingot>,
     <plustic:mirioningot>,
     <biomesoplenty:terrestrial_artifact>,
     <mekanism:atomicalloy>,
@@ -175,14 +161,6 @@ MMUtil.addForgeRecipe("chromasteel_forge", MMUtil.getStack(<additions:chromastee
     <thaumadditions:mithminite_ingot> : {
         speed: 0.2,
         energy: 0.2
-    }, 
-    <appliedenergistics2:material:47> : {
-        speed: 0.3,
-        energy: 0.3
-    }, 
-    <abyssalcraft:ethaxiumingot> : {
-        speed: 0.1,
-        energy: 0.1
     }, 
     <additions:greedycraft-aurora_heart> : {
         speed: 0.4,

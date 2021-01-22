@@ -1,8 +1,8 @@
 {
-	title: "§e建筑废的福音",
+	title: "{greedycraft.quest.3c62a8d9.title}",
 	x: -6.0d,
 	y: -0.5d,
-	description: "制作一个便携式初始小屋",
+	description: "{greedycraft.quest.3c62a8d9.desc}",
 	tasks: [{
 		uid: "cd87bf16",
 		type: "item",

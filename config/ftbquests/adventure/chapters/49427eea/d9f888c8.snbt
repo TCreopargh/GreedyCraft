@@ -1,8 +1,8 @@
 {
-	title: "§d这可不是装饰品",
+	title: "{greedycraft.quest.d9f888c8.title}",
 	x: 18.5d,
 	y: -8.0d,
-	description: "获得物品展示台",
+	description: "{greedycraft.quest.d9f888c8.desc}",
 	dependencies: [
 		"fc06ad9c",
 		"8ffd3686"

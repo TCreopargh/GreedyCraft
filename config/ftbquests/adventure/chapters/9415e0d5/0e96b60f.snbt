@@ -1,8 +1,8 @@
 {
-	title: "§b飞行魔法",
+	title: "{greedycraft.quest.0e96b60f.title}",
 	x: 8.0d,
 	y: 5.5d,
-	description: "获得魔法羽毛，它允许你在信标附近飞行",
+	description: "{greedycraft.quest.0e96b60f.desc}",
 	dependencies: [
 		"7491e3fb"
 	],

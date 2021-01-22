@@ -1,8 +1,8 @@
 {
-	title: "灵魂金属",
+	title: "{greedycraft.quest.7b53bb99.title}",
 	x: -2.0d,
 	y: 11.0d,
-	description: "获得魂金锭",
+	description: "{greedycraft.quest.7b53bb99.desc}",
 	tasks: [{
 		uid: "39bfb6ea",
 		type: "item",

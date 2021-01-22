@@ -1,8 +1,9 @@
+
 {
-	title: "§2贪吃蛇",
+	title: "{greedycraft.quest.555122a8.title}",
 	x: -3.5d,
 	y: -1.0d,
-	description: "击败娜迦",
+	description: "{greedycraft.quest.555122a8.desc}",
 	dependencies: [
 		"f0fd8c17"
 	],

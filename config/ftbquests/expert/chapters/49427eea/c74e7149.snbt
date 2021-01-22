@@ -1,8 +1,9 @@
+
 {
-	title: "§6初级合金",
+	title: "{greedycraft.quest.c74e7149.title}",
 	x: 10.5d,
 	y: -4.0d,
-	description: "获得青铜",
+	description: "{greedycraft.quest.c74e7149.desc}",
 	tasks: [{
 		uid: "c4323925",
 		type: "item",

@@ -1,8 +1,8 @@
 {
-	title: "§9更好看的水晶",
+	title: "{greedycraft.quest.3ee1ac1a.title}",
 	x: 4.0d,
 	y: 0.0d,
-	description: "获得天体水晶",
+	description: "{greedycraft.quest.3ee1ac1a.desc}",
 	dependencies: [
 		"64609cf0",
 		"019a77ed",

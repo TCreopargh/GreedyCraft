@@ -1,8 +1,9 @@
+
 {
-	title: "热力能源",
+	title: "{greedycraft.quest.f4c76c0f.title}",
 	x: -7.0d,
 	y: -1.5d,
-	description: "获得热力能源炉",
+	description: "{greedycraft.quest.f4c76c0f.desc}",
 	dependencies: [
 		"c16fec30"
 	],

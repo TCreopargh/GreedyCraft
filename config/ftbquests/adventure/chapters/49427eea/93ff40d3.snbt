@@ -1,8 +1,8 @@
 {
-	title: "矿物增产",
+	title: "{greedycraft.quest.93ff40d3.title}",
 	x: -9.5d,
 	y: -4.0d,
-	description: "获得磨粉机，它能将矿物磨成双份的粉以增加产量！",
+	description: "{greedycraft.quest.93ff40d3.desc}",
 	dependencies: [
 		"d5340c5b"
 	],

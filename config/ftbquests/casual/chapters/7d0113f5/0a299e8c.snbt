@@ -1,8 +1,9 @@
+
 {
-	title: "§b跟泰拉瑞亚的不一样",
+	title: "{greedycraft.quest.0a299e8c.title}",
 	x: 6.5d,
 	y: 0.5d,
-	description: "获得秘银",
+	description: "{greedycraft.quest.0a299e8c.desc}",
 	dependencies: [
 		"5a9b6af9"
 	],

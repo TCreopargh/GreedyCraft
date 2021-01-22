@@ -1,8 +1,8 @@
 {
-	title: "§2大地守护者",
+	title: "{greedycraft.quest.df8638f2.title}",
 	x: 5.5d,
 	y: 0.0d,
-	description: "击败盖亚",
+	description: "{greedycraft.quest.df8638f2.desc}",
 	dependencies: [
 		"520beeea",
 		"f3cbd6e6"

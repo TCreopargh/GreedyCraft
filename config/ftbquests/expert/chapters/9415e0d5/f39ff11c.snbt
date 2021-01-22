@@ -1,8 +1,9 @@
+
 {
-	title: "§6正道的光",
+	title: "{greedycraft.quest.f39ff11c.title}",
 	x: -2.0d,
 	y: 3.5d,
-	description: "获得巨型火把，可以防止一大片区域刷怪",
+	description: "{greedycraft.quest.f39ff11c.desc}",
 	tasks: [{
 		uid: "c159a7c3",
 		type: "item",

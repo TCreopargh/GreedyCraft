@@ -1,8 +1,8 @@
 {
-	title: "§2熊猫出没",
+	title: "{greedycraft.quest.0b3f372c.title}",
 	x: 8.0d,
 	y: 13.5d,
-	description: "在竹林生物群系获取竹子",
+	description: "{greedycraft.quest.0b3f372c.desc}",
 	tasks: [{
 		uid: "55d226d6",
 		type: "item",

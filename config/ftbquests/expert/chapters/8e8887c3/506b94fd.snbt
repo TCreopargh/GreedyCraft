@@ -1,9 +1,10 @@
+
 {
-	title: "§8最强聚合",
+	title: "{greedycraft.quest.506b94fd.title}",
 	x: 16.0d,
 	y: 2.0d,
 	shape: "square",
-	description: "获得最高级的聚合注入器",
+	description: "{greedycraft.quest.506b94fd.desc}",
 	dependencies: [
 		"b4991d6f",
 		"b1e0c43f"

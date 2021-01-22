@@ -1,8 +1,8 @@
 {
-	title: "§a农业基础",
+	title: "{greedycraft.quest.99f6417a.title}",
 	x: -1.0d,
 	y: -5.5d,
-	description: "获得坚固部件",
+	description: "{greedycraft.quest.99f6417a.desc}",
 	tasks: [{
 		uid: "795f994f",
 		type: "item",

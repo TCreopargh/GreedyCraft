@@ -1,8 +1,9 @@
+
 {
-	title: "§0石油大王",
+	title: "{greedycraft.quest.96c2dd2d.title}",
 	x: -8.5d,
 	y: 0.0d,
-	description: "为能源炉安装专业化升级",
+	description: "{greedycraft.quest.96c2dd2d.desc}",
 	dependencies: [
 		"67135803"
 	],

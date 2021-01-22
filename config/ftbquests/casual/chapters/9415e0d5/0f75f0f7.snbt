@@ -1,8 +1,9 @@
+
 {
-	title: "§6S N A D",
+	title: "{greedycraft.quest.0f75f0f7.title}",
 	x: -8.0d,
 	y: 11.5d,
-	description: "获得子沙，它可以增加上面的甘蔗和仙人掌的生长速度",
+	description: "{greedycraft.quest.0f75f0f7.desc}",
 	tasks: [{
 		uid: "972d0618",
 		type: "item",

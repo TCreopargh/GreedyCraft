@@ -32,7 +32,18 @@ global welcomeQuotes as string[][string] = {
     en_us: [
         '§eThe game is laggy? Press §6R§e to open a menu where you can free up memory!', 
         '§eThank you for playing this modpack! If you encounter problems, make sure to read the modpack guide book.',
-        '§eIf you have questions about mods, you can try to look up in the §6Omnipedia§e!'
+        '§eIf you have questions about mods, you can try to look up in the §6Omnipedia§e!',
+        "§eIF the background music stops for a long time, use - key on numpad to reload it.",
+        "§ePress §6F3 + A§e to reload chunks, §6F3 + S§e to reload sound system, use this if you can't hear any sound.",
+        "§eYou can use §6/hidescoreboard§e to hide the scoreboard until you login for the next time!",
+        "§eMove the saves folder to the new instance if you are going to update the modpack.",
+        "§ePress §6F6§e to switch between 1st and 3rd person mode. It's suggested to use 3rd person mode in adventure and combat!",
+        '["",{"text":"§eJoin our discord channel! "},{"text":"§9Link","clickEvent":{"action":"open_url","value":"https://discord.gg/jpxvghEU2a"}},{"text":""}]' , 
+        "§eHIde random death quotes with command: §6/hidedeathquotes§e, and §6/showdeathquotes§e to show it again!",
+        "§eFeeling very laggy even if you have a decent graphic card? Read the installation guide before you try to turn off shaders, it might be because you didn't set up the game properly.",
+        "§eUse §6/backup§e command to backup the world, you can find a button to restore backups in world selection menu!",
+        "§eYou can change the packmode outside of the game in config/packmodes.cfg, edit what's after packmode= to change the packmode!",
+        "§6If you feel laggy, press R to open a menu and choose §eClean Memory§6, or you can try to decrease the render disance."
         // TODO
     ]
 };

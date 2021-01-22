@@ -1,9 +1,10 @@
+
 {
-	title: "§9§ka§r §d混沌之地 §9§ka",
+	title: "{greedycraft.quest.b4991d6f.title}",
 	x: 14.0d,
 	y: 0.0d,
 	shape: "square",
-	description: "§5击败浑沌守卫并拿到珍贵的混沌碎片",
+	description: "{greedycraft.quest.b4991d6f.desc}",
 	text: [
 		"§e在末地坐标为5000的倍数处找到混沌之地，击败那里的boss并获取混沌碎片",
 		"§b如果打不过，可以试试降低难度。匠魂的混沌抵抗强化会帮上大忙。",

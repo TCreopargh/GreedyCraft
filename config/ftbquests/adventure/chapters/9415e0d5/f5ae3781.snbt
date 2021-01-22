@@ -1,8 +1,8 @@
 {
-	title: "高塔征服者",
+	title: "{greedycraft.quest.f5ae3781.title}",
 	x: -4.0d,
 	y: -0.5d,
-	description: "到达一个战斗高塔的顶端/低端并杀死里面的boss",
+	description: "{greedycraft.quest.f5ae3781.desc}",
 	tasks: [{
 		uid: "24b6d156",
 		type: "kill",

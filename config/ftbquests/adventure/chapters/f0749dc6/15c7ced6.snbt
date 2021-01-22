@@ -1,11 +1,11 @@
 {
-	title: "§9怪物猎人III",
+	title: "{greedycraft.quest.15c7ced6.title}",
 	icon: {
 		id: "minecraft:iron_sword"
 	},
 	x: -3.0d,
 	y: 1.0d,
-	description: "击杀指定数量的生物",
+	description: "{greedycraft.quest.15c7ced6.desc}",
 	dependencies: [
 		"653fa7f3"
 	],

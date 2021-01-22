@@ -1,8 +1,8 @@
 {
-	title: "反应堆控制杆",
+	title: "{greedycraft.quest.485283cc.title}",
 	x: 21.0d,
 	y: 6.0d,
-	description: "获得反应堆控制杆",
+	description: "{greedycraft.quest.485283cc.desc}",
 	dependencies: [
 		"6c9352b5"
 	],

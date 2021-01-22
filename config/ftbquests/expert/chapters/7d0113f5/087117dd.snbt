@@ -1,8 +1,9 @@
+
 {
-	title: "§d神秘金属",
+	title: "{greedycraft.quest.087117dd.title}",
 	x: 2.5d,
 	y: -1.5d,
-	description: "获得神秘锭",
+	description: "{greedycraft.quest.087117dd.desc}",
 	dependencies: [
 		"5b9f8f30"
 	],

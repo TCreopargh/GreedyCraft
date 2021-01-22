@@ -1,8 +1,9 @@
+
 {
-	title: "§4永恒",
+	title: "{greedycraft.quest.bdd82d3d.title}",
 	x: -4.0d,
 	y: 5.5d,
-	description: "获得红物质",
+	description: "{greedycraft.quest.bdd82d3d.desc}",
 	dependencies: [
 		"34525751"
 	],

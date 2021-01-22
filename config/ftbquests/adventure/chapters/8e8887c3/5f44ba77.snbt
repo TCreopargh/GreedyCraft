@@ -1,9 +1,9 @@
 {
-	title: "§6龙之觉醒",
+	title: "{greedycraft.quest.5f44ba77.title}",
 	x: 10.0d,
 	y: 0.0d,
 	shape: "square",
-	description: "通过聚合合成获得觉醒龙块",
+	description: "{greedycraft.quest.5f44ba77.desc}",
 	dependencies: [
 		"9d0b6a75",
 		"41c2ec3d"

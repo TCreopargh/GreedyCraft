@@ -1,8 +1,8 @@
 {
-	title: "§b加湿器",
+	title: "{greedycraft.quest.975d6f63.title}",
 	x: 1.5d,
 	y: -2.5d,
-	description: "获得加湿器",
+	description: "{greedycraft.quest.975d6f63.desc}",
 	dependencies: [
 		"99f6417a"
 	],

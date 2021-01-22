@@ -1,8 +1,8 @@
 {
-	title: "§6赏金猎人",
+	title: "{greedycraft.quest.e0d65c62.title}",
 	x: 4.0d,
 	y: 11.5d,
-	description: "在村庄找到悬赏榜，可以在上面领取悬赏任务，也可以拆下来带回家！",
+	description: "{greedycraft.quest.e0d65c62.desc}",
 	tasks: [{
 		uid: "607116a4",
 		type: "observation",

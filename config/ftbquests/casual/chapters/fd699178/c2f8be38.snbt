@@ -1,8 +1,9 @@
+
 {
-	title: "§5自动化聚合",
+	title: "{greedycraft.quest.c2f8be38.title}",
 	x: -4.5d,
 	y: 2.0d,
-	description: "获得福鲁伊克斯聚合器",
+	description: "{greedycraft.quest.c2f8be38.desc}",
 	dependencies: [
 		"8c4d41da"
 	],

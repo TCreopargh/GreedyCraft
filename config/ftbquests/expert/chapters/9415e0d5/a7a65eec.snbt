@@ -1,8 +1,9 @@
+
 {
-	title: "§e白日梦",
+	title: "{greedycraft.quest.a7a65eec.title}",
 	x: -10.0d,
 	y: 3.5d,
-	description: "用吊床布和两个间距4格的绳与钉搭建一个吊床，它可以让你在白天睡觉",
+	description: "{greedycraft.quest.a7a65eec.desc}",
 	text: [
 		"§c注意：上床的时候需要按住Shift"
 	],

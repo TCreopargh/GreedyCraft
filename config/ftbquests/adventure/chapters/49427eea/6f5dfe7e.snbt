@@ -1,8 +1,8 @@
 {
-	title: "§d焚书坑儒",
+	title: "{greedycraft.quest.6f5dfe7e.title}",
 	x: -2.0d,
 	y: 0.0d,
-	description: "为能源炉安装专业化升级",
+	description: "{greedycraft.quest.6f5dfe7e.desc}",
 	dependencies: [
 		"37a9256b"
 	],

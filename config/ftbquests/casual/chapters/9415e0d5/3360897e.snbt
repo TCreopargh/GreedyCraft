@@ -1,9 +1,10 @@
+
 {
-	title: "§2挑战者IV",
+	title: "{greedycraft.quest.3360897e.title}",
 	icon: "inventorypets:petachieveitem30",
 	x: 12.0d,
 	y: 5.5d,
-	description: "完成30个挑战任务",
+	description: "{greedycraft.quest.3360897e.desc}",
 	hide_dependency_lines: true,
 	min_required_dependencies: 30,
 	dependencies: [

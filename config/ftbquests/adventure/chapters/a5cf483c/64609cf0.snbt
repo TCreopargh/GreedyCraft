@@ -1,8 +1,8 @@
 {
-	title: "§b聚宝盆",
+	title: "{greedycraft.quest.64609cf0.title}",
 	x: 1.5d,
 	y: -2.0d,
-	description: "获得聚星缸，用于制作星能液",
+	description: "{greedycraft.quest.64609cf0.desc}",
 	dependencies: [
 		"4f8c9539",
 		"630fdbee"

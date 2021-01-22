@@ -1,8 +1,9 @@
+
 {
-	title: "§5战斗法师",
+	title: "{greedycraft.quest.58550f77.title}",
 	x: -1.5d,
 	y: 2.5d,
-	description: "获得法杖蓝图",
+	description: "{greedycraft.quest.58550f77.desc}",
 	dependencies: [
 		"a72c38cb"
 	],

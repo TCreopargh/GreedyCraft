@@ -1,9 +1,10 @@
+
 {
-	title: "§5深渊的最底层",
+	title: "{greedycraft.quest.18558d0b.title}",
 	icon: "abyssalcraft:stone 1 6",
 	x: 16.5d,
 	y: 0.0d,
-	description: "嬗变查加洛特的门钥匙，到达奥穆索",
+	description: "{greedycraft.quest.18558d0b.desc}",
 	dependencies: [
 		"3dcbfcd8"
 	],

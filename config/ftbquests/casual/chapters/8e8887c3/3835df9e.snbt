@@ -1,9 +1,10 @@
+
 {
-	title: "§l§c终点。",
+	title: "{greedycraft.quest.3835df9e.title}",
 	x: 22.0d,
 	y: -4.0d,
 	shape: "octagon",
-	description: "§d§o获得无尽之锭",
+	description: "{greedycraft.quest.3835df9e.desc}",
 	dependencies: [
 		"727f6d18"
 	],

@@ -1,8 +1,8 @@
 {
-	title: "§b农场核心",
+	title: "{greedycraft.quest.bff9d296.title}",
 	x: -3.5d,
 	y: 2.5d,
-	description: "获得农场齿轮箱",
+	description: "{greedycraft.quest.bff9d296.desc}",
 	dependencies: [
 		"322f3076"
 	],

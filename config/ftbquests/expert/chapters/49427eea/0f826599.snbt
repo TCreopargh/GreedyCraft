@@ -1,8 +1,9 @@
+
 {
-	title: "流体生产",
+	title: "{greedycraft.quest.0f826599.title}",
 	x: 3.0d,
 	y: 9.0d,
-	description: "获得强化酿液桶",
+	description: "{greedycraft.quest.0f826599.desc}",
 	dependencies: [
 		"acafd08c"
 	],

@@ -1,8 +1,8 @@
 {
-	title: "§d最终气体存储",
+	title: "{greedycraft.quest.700bf756.title}",
 	x: -2.0d,
 	y: 1.5d,
-	description: "获得终极气体储罐",
+	description: "{greedycraft.quest.700bf756.desc}",
 	dependencies: [
 		"519a981d"
 	],

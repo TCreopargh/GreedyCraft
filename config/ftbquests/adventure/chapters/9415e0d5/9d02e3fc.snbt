@@ -1,8 +1,8 @@
 {
-	title: "§a熔天地为一锭",
+	title: "{greedycraft.quest.9d02e3fc.title}",
 	x: -2.0d,
 	y: 15.5d,
-	description: "获得大地合金",
+	description: "{greedycraft.quest.9d02e3fc.desc}",
 	tasks: [{
 		uid: "85fe6875",
 		type: "item",

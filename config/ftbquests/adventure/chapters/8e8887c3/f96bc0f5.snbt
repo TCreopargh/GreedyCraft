@@ -1,9 +1,9 @@
 {
-	title: "聚合合成",
+	title: "{greedycraft.quest.f96bc0f5.title}",
 	x: 6.0d,
 	y: 0.0d,
 	shape: "square",
-	description: "制作一个聚合核心，在周围放上聚合注入器即可进行聚合合成",
+	description: "{greedycraft.quest.f96bc0f5.desc}",
 	dependencies: [
 		"d378aa56"
 	],

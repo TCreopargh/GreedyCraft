@@ -1,8 +1,8 @@
 {
-	title: "§9中子能源",
+	title: "{greedycraft.quest.4ecd282a.title}",
 	x: 8.0d,
 	y: -8.0d,
-	description: "制作指定的太阳能电池板",
+	description: "{greedycraft.quest.4ecd282a.desc}",
 	dependencies: [
 		"5eb9b7b5"
 	],

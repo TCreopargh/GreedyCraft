@@ -1,9 +1,9 @@
 {
-	title: "§d终极储能",
+	title: "{greedycraft.quest.55ed5c73.title}",
 	x: 4.0d,
 	y: 2.0d,
 	shape: "square",
-	description: "制造一个能量核心，用于储存大量能源",
+	description: "{greedycraft.quest.55ed5c73.desc}",
 	dependencies: [
 		"d378aa56"
 	],

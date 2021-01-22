@@ -1,8 +1,9 @@
+
 {
-	title: "§d§o注入灵魂",
+	title: "{greedycraft.quest.948e2b49.title}",
 	x: -2.0d,
 	y: 9.0d,
-	description: "获得灵魂机器框架",
+	description: "{greedycraft.quest.948e2b49.desc}",
 	dependencies: [
 		"dd58485d",
 		"7b53bb99",

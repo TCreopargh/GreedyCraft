@@ -1,8 +1,9 @@
+
 {
-	title: "§2通天锁链",
+	title: "{greedycraft.quest.f179af17.title}",
 	x: 1.5d,
 	y: 1.5d,
-	description: "在深渊荒芜之地的通天锁链上挖掘珊瑚石",
+	description: "{greedycraft.quest.f179af17.desc}",
 	dependencies: [
 		"254d7b2b"
 	],

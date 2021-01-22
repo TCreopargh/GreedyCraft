@@ -1,8 +1,8 @@
 {
-	title: "§e前置任务！",
+	title: "{greedycraft.quest.8ee4845a.title}",
 	x: -9.5d,
 	y: 1.0d,
-	description: "要开始血魔法的发展，你需要首先在星辉魔法任务线取得相应的游戏阶段",
+	description: "{greedycraft.quest.8ee4845a.desc}",
 	tasks: [{
 		uid: "8e97786b",
 		type: "gamestage",

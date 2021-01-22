@@ -1,8 +1,8 @@
 {
-	title: "§b灵魂工匠",
+	title: "{greedycraft.quest.daa88805.title}",
 	x: 0.0d,
 	y: -1.0d,
-	description: "获得狱火熔炉",
+	description: "{greedycraft.quest.daa88805.desc}",
 	dependencies: [
 		"953ab48a"
 	],

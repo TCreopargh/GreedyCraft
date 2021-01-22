@@ -1,10 +1,10 @@
 {
-	title: "这玩意真难挖！",
+	title: "{greedycraft.quest.8e49ae34.title}",
 	icon: "minecraft:obsidian",
 	x: 2.0d,
 	y: -2.0d,
 	shape: "rsquare",
-	description: "获得一个黑曜石",
+	description: "{greedycraft.quest.8e49ae34.desc}",
 	dependencies: [
 		"464fff41"
 	],

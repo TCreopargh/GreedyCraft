@@ -1,8 +1,9 @@
+
 {
-	title: "最好的机器A",
+	title: "{greedycraft.quest.b2977770.title}",
 	x: 0.5d,
 	y: 7.0d,
-	description: "升级合金炉",
+	description: "{greedycraft.quest.b2977770.desc}",
 	dependencies: [
 		"acafd08c"
 	],

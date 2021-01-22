@@ -1,8 +1,9 @@
+
 {
-	title: "§9聚合矩阵",
+	title: "{greedycraft.quest.9a4f0275.title}",
 	x: 12.0d,
 	y: -2.0d,
-	description: "获得聚合矩阵",
+	description: "{greedycraft.quest.9a4f0275.desc}",
 	dependencies: [
 		"9d0b6a75"
 	],

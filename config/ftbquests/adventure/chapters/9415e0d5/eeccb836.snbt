@@ -1,8 +1,8 @@
 {
-	title: "§8枯萎之魂",
+	title: "{greedycraft.quest.eeccb836.title}",
 	x: 2.0d,
 	y: 9.5d,
-	description: "在最高难度下打败凋灵获得枯萎之魂",
+	description: "{greedycraft.quest.eeccb836.desc}",
 	tasks: [{
 		uid: "18ba407e",
 		type: "item",

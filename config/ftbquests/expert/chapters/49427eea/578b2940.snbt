@@ -1,8 +1,9 @@
+
 {
-	title: "热力蒸馏阀门",
+	title: "{greedycraft.quest.578b2940.title}",
 	x: 3.0d,
 	y: 4.5d,
-	description: "获得热力蒸馏阀门",
+	description: "{greedycraft.quest.578b2940.desc}",
 	dependencies: [
 		"4252e75f"
 	],

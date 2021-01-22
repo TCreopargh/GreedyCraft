@@ -1,8 +1,9 @@
+
 {
-	title: "§b远古书卷",
+	title: "{greedycraft.quest.57f83c3a.title}",
 	x: 4.0d,
 	y: 9.5d,
-	description: "在高难度下打怪获得远古书卷",
+	description: "{greedycraft.quest.57f83c3a.desc}",
 	tasks: [{
 		uid: "bde6a491",
 		type: "item",

@@ -1,8 +1,8 @@
 {
-	title: "§5悲伤之人",
+	title: "{greedycraft.quest.4aa25bd1.title}",
 	x: -8.0d,
 	y: 5.5d,
-	description: "击杀悼亡者",
+	description: "{greedycraft.quest.4aa25bd1.desc}",
 	dependencies: [
 		"203ff556"
 	],

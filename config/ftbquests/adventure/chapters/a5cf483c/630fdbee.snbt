@@ -1,8 +1,8 @@
 {
-	title: "珍贵水晶",
+	title: "{greedycraft.quest.630fdbee.title}",
 	x: -1.0d,
 	y: -2.0d,
-	description: "根据共鸣星杖的指引找到水晶石矿",
+	description: "{greedycraft.quest.630fdbee.desc}",
 	dependencies: [
 		"4f8c9539"
 	],

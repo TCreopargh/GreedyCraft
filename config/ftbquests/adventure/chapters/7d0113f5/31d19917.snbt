@@ -1,8 +1,8 @@
 {
-	title: "§d灵丹妙药",
+	title: "{greedycraft.quest.31d19917.title}",
 	x: -3.5d,
 	y: 7.5d,
-	description: "获得净化灵丹",
+	description: "{greedycraft.quest.31d19917.desc}",
 	dependencies: [
 		"3ea75715"
 	],

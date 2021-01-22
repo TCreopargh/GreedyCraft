@@ -1,8 +1,8 @@
 {
-	title: "§5虚空信标",
+	title: "{greedycraft.quest.f3ca9920.title}",
 	x: 6.5d,
 	y: 2.5d,
-	description: "获得虚空信标",
+	description: "{greedycraft.quest.f3ca9920.desc}",
 	dependencies: [
 		"06dba2ad"
 	],

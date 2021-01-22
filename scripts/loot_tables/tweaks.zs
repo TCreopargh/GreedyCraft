@@ -106,6 +106,8 @@ LootTweaker.getTable("enderio:chests/simple_dungeon").getPool("Ender IO").remove
 LootTweaker.getTable("enderio:chests/village_blacksmith").getPool("Ender IO").removeEntry("enderio:item_material:9");
 LootTweaker.getTable("enderio:chests/village_blacksmith").getPool("Ender IO").removeEntry("enderio:item_material:10");
 
+LootTweaker.getTable("minecraft:chests/nether_bridge").getPool("main").addItemEntryHelper(<additions:netherite_scrap>, 5, 1, [Functions.setCount(3, 8)], []);
+
 var dungeonPool2 = dungeon.getPool("pool2"); 
 dungeonPool2.addItemEntryHelper(<additions:greedycraft-reward_ticket_common>, 4, 1, [Functions.setCount(1, 2)], []);
 dungeonPool2.addItemEntryHelper(<additions:greedycraft-reward_ticket_rare>, 1, 1, [Functions.setCount(1, 1)], []);

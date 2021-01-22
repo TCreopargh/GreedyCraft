@@ -1,8 +1,8 @@
 {
-	title: "§a压缩经验",
+	title: "{greedycraft.quest.b6185495.title}",
 	x: -10.0d,
 	y: 7.5d,
-	description: "获得压缩知识精化块",
+	description: "{greedycraft.quest.b6185495.desc}",
 	tasks: [{
 		uid: "451e6844",
 		type: "item",

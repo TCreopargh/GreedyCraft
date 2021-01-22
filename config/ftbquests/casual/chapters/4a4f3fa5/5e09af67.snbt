@@ -1,8 +1,9 @@
+
 {
-	title: "§b魔力缓存器",
+	title: "{greedycraft.quest.5e09af67.title}",
 	x: 3.0d,
 	y: -6.0d,
-	description: "获得魔力缓存器",
+	description: "{greedycraft.quest.5e09af67.desc}",
 	dependencies: [
 		"5a62f505"
 	],

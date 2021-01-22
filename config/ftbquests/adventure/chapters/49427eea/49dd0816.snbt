@@ -1,8 +1,8 @@
 {
-	title: "§5神秘能源",
+	title: "{greedycraft.quest.49dd0816.title}",
 	x: -4.5d,
 	y: -10.0d,
-	description: "制作指定的太阳能电池板",
+	description: "{greedycraft.quest.49dd0816.desc}",
 	dependencies: [
 		"37946158"
 	],

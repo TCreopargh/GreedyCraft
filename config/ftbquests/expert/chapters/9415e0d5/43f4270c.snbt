@@ -1,8 +1,9 @@
+
 {
-	title: "§b极寒金属",
+	title: "{greedycraft.quest.43f4270c.title}",
 	x: -6.0d,
 	y: 15.5d,
-	description: "击败冰霜巨口，获得极寒锭",
+	description: "{greedycraft.quest.43f4270c.desc}",
 	tasks: [{
 		uid: "7c945586",
 		type: "item",

@@ -1,8 +1,9 @@
+
 {
-	title: "§b画地为牢",
+	title: "{greedycraft.quest.0c8e7b2c.title}",
 	x: 3.0d,
 	y: 0.0d,
-	description: "获得奥术粉灰以进行魔法阵合成",
+	description: "{greedycraft.quest.0c8e7b2c.desc}",
 	dependencies: [
 		"daa88805"
 	],

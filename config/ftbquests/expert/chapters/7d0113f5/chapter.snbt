@@ -1,5 +1,5 @@
 {
-	title: "§d神秘时代",
+	title: "{greedycraft.quest.chapter.thaumcraft}",
 	icon: {
 		id: "thaumcraft:thaumonomicon"
 	},

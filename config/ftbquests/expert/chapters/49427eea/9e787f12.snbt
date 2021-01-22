@@ -1,8 +1,9 @@
+
 {
-	title: "热力蒸馏控制器",
+	title: "{greedycraft.quest.9e787f12.title}",
 	x: 3.0d,
 	y: 2.5d,
-	description: "获得热力蒸馏控制器",
+	description: "{greedycraft.quest.9e787f12.desc}",
 	dependencies: [
 		"4252e75f"
 	],

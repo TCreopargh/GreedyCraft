@@ -1,9 +1,9 @@
 {
-	title: "§d物质转换",
+	title: "{greedycraft.quest.1deec501.title}",
 	x: 0.0d,
 	y: 4.0d,
 	shape: "pentagon",
-	description: "获得转化桌",
+	description: "{greedycraft.quest.1deec501.desc}",
 	dependencies: [
 		"086fd2ab"
 	],

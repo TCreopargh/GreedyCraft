@@ -1,8 +1,8 @@
 {
-	title: "能量灌注",
+	title: "{greedycraft.quest.b5e3e8a3.title}",
 	x: -4.5d,
 	y: -3.0d,
-	description: "获得能量灌注机，它的主要作用是给大量的物品充能",
+	description: "{greedycraft.quest.b5e3e8a3.desc}",
 	dependencies: [
 		"c16fec30"
 	],

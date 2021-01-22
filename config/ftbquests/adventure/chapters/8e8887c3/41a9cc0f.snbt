@@ -1,11 +1,11 @@
 {
-	title: "§b深渊之眼",
+	title: "{greedycraft.quest.41a9cc0f.title}",
 	icon: {
 		id: "abyssalcraft:eoa"
 	},
 	x: 8.0d,
 	y: -6.0d,
-	description: "要召唤凋零，你必须击败深渊荒芜之地的守护者阿索拉，打败盖亚并合成出§3觉醒之眼",
+	description: "{greedycraft.quest.41a9cc0f.desc}",
 	tasks: [{
 		uid: "9cca1a83",
 		type: "item",

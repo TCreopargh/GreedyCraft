@@ -1,8 +1,8 @@
 {
-	title: "§3SAN CHECK",
+	title: "{greedycraft.quest.08073f99.title}",
 	x: -3.5d,
 	y: 3.5d,
-	description: "获得神智检测仪",
+	description: "{greedycraft.quest.08073f99.desc}",
 	dependencies: [
 		"22d2e079"
 	],

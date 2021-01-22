@@ -1,8 +1,9 @@
+
 {
-	title: "反应堆控制器",
+	title: "{greedycraft.quest.94a54142.title}",
 	x: 21.0d,
 	y: 3.0d,
-	description: "获得反应堆控制器",
+	description: "{greedycraft.quest.94a54142.desc}",
 	dependencies: [
 		"6c9352b5"
 	],

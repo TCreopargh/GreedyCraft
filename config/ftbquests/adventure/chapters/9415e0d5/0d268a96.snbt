@@ -1,8 +1,8 @@
 {
-	title: "§d§o交出你的灵魂！",
+	title: "{greedycraft.quest.0d268a96.title}",
 	x: 0.0d,
 	y: 3.5d,
-	description: "获得离魂锭",
+	description: "{greedycraft.quest.0d268a96.desc}",
 	tasks: [{
 		uid: "09ea78ba",
 		type: "item",

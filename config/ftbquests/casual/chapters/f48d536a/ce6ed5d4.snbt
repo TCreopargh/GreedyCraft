@@ -1,8 +1,9 @@
+
 {
-	title: "§b给我变",
+	title: "{greedycraft.quest.ce6ed5d4.title}",
 	x: 1.5d,
 	y: 3.5d,
-	description: "获得嬗变器",
+	description: "{greedycraft.quest.ce6ed5d4.desc}",
 	dependencies: [
 		"f179af17"
 	],

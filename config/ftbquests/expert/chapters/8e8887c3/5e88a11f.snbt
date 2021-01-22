@@ -1,9 +1,10 @@
+
 {
-	title: "§5飞龙核心",
+	title: "{greedycraft.quest.5e88a11f.title}",
 	x: 6.0d,
 	y: 2.0d,
 	shape: "square",
-	description: "获得双足飞龙核心",
+	description: "{greedycraft.quest.5e88a11f.desc}",
 	dependencies: [
 		"f96bc0f5"
 	],

@@ -1,8 +1,8 @@
 {
-	title: "§d随时随地",
+	title: "{greedycraft.quest.5dcb3461.title}",
 	x: 5.5d,
 	y: -5.5d,
-	description: "获得无线合成终端",
+	description: "{greedycraft.quest.5dcb3461.desc}",
 	dependencies: [
 		"1b74d74a",
 		"0915d24a"

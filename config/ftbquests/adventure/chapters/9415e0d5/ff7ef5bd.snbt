@@ -1,8 +1,8 @@
 {
-	title: "§6这游戏太简单了",
+	title: "{greedycraft.quest.ff7ef5bd.title}",
 	x: -2.0d,
 	y: 13.5d,
-	description: "获得死亡金币",
+	description: "{greedycraft.quest.ff7ef5bd.desc}",
 	tasks: [{
 		uid: "8eef84fb",
 		type: "item",

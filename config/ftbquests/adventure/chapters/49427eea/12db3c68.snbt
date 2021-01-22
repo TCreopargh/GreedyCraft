@@ -1,8 +1,8 @@
 {
-	title: "§6燃烧吧！基岩",
+	title: "{greedycraft.quest.12db3c68.title}",
 	x: -9.5d,
 	y: 7.0d,
-	description: "点燃基岩获得基岩粉",
+	description: "{greedycraft.quest.12db3c68.desc}",
 	dependencies: [
 		"7eff2782"
 	],

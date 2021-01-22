@@ -1,8 +1,8 @@
 {
-	title: "§a精灵之门",
+	title: "{greedycraft.quest.2a0952b3.title}",
 	x: 0.5d,
 	y: 2.0d,
-	description: "获得精灵门核心",
+	description: "{greedycraft.quest.2a0952b3.desc}",
 	dependencies: [
 		"6ffc6415"
 	],

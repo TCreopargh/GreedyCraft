@@ -1,8 +1,8 @@
 {
-	title: "§5高效冶炼",
+	title: "{greedycraft.quest.74048d38.title}",
 	x: 6.5d,
 	y: -1.5d,
-	description: "获得虚空金属源质冶炼厂",
+	description: "{greedycraft.quest.74048d38.desc}",
 	dependencies: [
 		"5a9b6af9",
 		"ac74928a"

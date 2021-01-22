@@ -1,9 +1,10 @@
+
 {
-	title: "§3海底劫掠者",
+	title: "{greedycraft.quest.5360dd73.title}",
 	icon: "minecraft:prismarine_crystals",
 	x: 8.0d,
 	y: 7.5d,
-	description: "击杀远古守卫者",
+	description: "{greedycraft.quest.5360dd73.desc}",
 	tasks: [{
 		uid: "3d0a44bb",
 		type: "kill",

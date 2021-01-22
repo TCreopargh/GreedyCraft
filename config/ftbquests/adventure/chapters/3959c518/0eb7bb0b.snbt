@@ -1,8 +1,8 @@
 {
-	title: "§d积少成多",
+	title: "{greedycraft.quest.0eb7bb0b.title}",
 	x: 0.0d,
 	y: -5.5d,
-	description: "获得先锋奖章",
+	description: "{greedycraft.quest.0eb7bb0b.desc}",
 	dependencies: [
 		"10ed0c5b"
 	],

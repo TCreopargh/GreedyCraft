@@ -1,9 +1,10 @@
+
 {
-	title: "§6SURPRISE!!!",
+	title: "{greedycraft.quest.6d84a70f.title}",
 	icon: "minecraft:chest",
 	x: 4.0d,
 	y: 2.5d,
-	description: "杀死宝箱怪",
+	description: "{greedycraft.quest.6d84a70f.desc}",
 	dependencies: [
 		"b5350524"
 	],

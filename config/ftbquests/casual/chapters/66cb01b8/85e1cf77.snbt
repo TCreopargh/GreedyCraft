@@ -1,8 +1,9 @@
+
 {
-	title: "§c注血之木",
+	title: "{greedycraft.quest.85e1cf77.title}",
 	x: 3.0d,
 	y: 2.0d,
-	description: "给木头注入鲜血",
+	description: "{greedycraft.quest.85e1cf77.desc}",
 	dependencies: [
 		"ca1e79df"
 	],

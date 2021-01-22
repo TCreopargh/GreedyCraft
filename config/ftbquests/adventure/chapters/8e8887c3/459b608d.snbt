@@ -1,9 +1,9 @@
 {
-	title: "§3砍下你的头",
+	title: "{greedycraft.quest.459b608d.title}",
 	x: 8.0d,
 	y: -4.0d,
 	shape: "rsquare",
-	description: "获得凋灵骷髅头颅",
+	description: "{greedycraft.quest.459b608d.desc}",
 	dependencies: [
 		"d0e042f0",
 		"41a9cc0f"

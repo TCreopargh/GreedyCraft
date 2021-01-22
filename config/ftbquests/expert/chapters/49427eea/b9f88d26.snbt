@@ -1,8 +1,9 @@
+
 {
-	title: "§c无§b尽§d能§e源",
+	title: "{greedycraft.quest.b9f88d26.title}",
 	x: 10.5d,
 	y: -8.0d,
-	description: "制作指定的太阳能电池板",
+	description: "{greedycraft.quest.b9f88d26.desc}",
 	dependencies: [
 		"4ecd282a"
 	],

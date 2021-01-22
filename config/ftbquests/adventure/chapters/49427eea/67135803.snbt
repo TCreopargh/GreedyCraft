@@ -1,8 +1,8 @@
 {
-	title: "压缩能源",
+	title: "{greedycraft.quest.67135803.title}",
 	x: -9.5d,
 	y: -1.5d,
-	description: "获得压缩能源炉",
+	description: "{greedycraft.quest.67135803.desc}",
 	dependencies: [
 		"d5340c5b"
 	],

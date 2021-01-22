@@ -1,8 +1,9 @@
+
 {
-	title: "§6地下宝藏",
+	title: "{greedycraft.quest.471326b1.title}",
 	x: -4.0d,
 	y: 13.5d,
-	description: "发现一个藏宝瓮。小心有蛇！",
+	description: "{greedycraft.quest.471326b1.desc}",
 	tasks: [{
 		uid: "03134442",
 		type: "observation",

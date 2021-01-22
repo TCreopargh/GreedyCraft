@@ -41,6 +41,11 @@ function getHeadBlockPos(player as IPlayer) as IBlockPos {
 }
 
 events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
+
+    if(event.phase != "END" || event.side != "SERVER") {
+        return;
+    }
+
     var player = event.player;
 
     // Prevent Night Vision flash

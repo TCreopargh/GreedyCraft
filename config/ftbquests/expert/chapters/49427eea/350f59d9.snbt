@@ -1,8 +1,9 @@
+
 {
-	title: "制作合金",
+	title: "{greedycraft.quest.350f59d9.title}",
 	x: -7.0d,
 	y: 9.0d,
-	description: "获得简易合金炉",
+	description: "{greedycraft.quest.350f59d9.desc}",
 	dependencies: [
 		"12db3c68"
 	],

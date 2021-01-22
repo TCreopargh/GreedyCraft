@@ -1,8 +1,9 @@
+
 {
-	title: "§c花§6里§e胡§a哨§b的§9魔§d法",
+	title: "{greedycraft.quest.db4dce39.title}",
 	x: 3.0d,
 	y: -2.0d,
-	description: "获得彩虹桥法杖",
+	description: "{greedycraft.quest.db4dce39.desc}",
 	dependencies: [
 		"520beeea"
 	],

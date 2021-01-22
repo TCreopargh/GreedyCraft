@@ -1,8 +1,9 @@
+
 {
-	title: "§d盖亚水晶",
+	title: "{greedycraft.quest.f3cbd6e6.title}",
 	x: 3.0d,
 	y: 2.0d,
-	description: "获得盖亚水晶",
+	description: "{greedycraft.quest.f3cbd6e6.desc}",
 	dependencies: [
 		"520beeea"
 	],

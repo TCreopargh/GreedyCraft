@@ -1,11 +1,11 @@
 {
-	title: "§6坚持不懈V",
+	title: "{greedycraft.quest.f947820f.title}",
 	icon: {
 		id: "minecraft:diamond_helmet"
 	},
 	x: -5.5d,
 	y: 5.0d,
-	description: "达成指定的游戏时间",
+	description: "{greedycraft.quest.f947820f.desc}",
 	dependencies: [
 		"3cad7c90"
 	],

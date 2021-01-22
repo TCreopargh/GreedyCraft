@@ -1,8 +1,8 @@
 {
-	title: "§d花药合成",
+	title: "{greedycraft.quest.da5f76fd.title}",
 	x: -15.5d,
 	y: 0.0d,
-	description: "获得花药台",
+	description: "{greedycraft.quest.da5f76fd.desc}",
 	tasks: [{
 		uid: "6993bd4a",
 		type: "item",

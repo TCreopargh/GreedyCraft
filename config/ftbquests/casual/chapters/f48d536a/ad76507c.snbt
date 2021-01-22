@@ -1,8 +1,9 @@
+
 {
-	title: "§3深入虎穴",
+	title: "{greedycraft.quest.ad76507c.title}",
 	x: -5.0d,
 	y: 0.0d,
-	description: "进入修格斯巢穴并杀死一些小型修格斯",
+	description: "{greedycraft.quest.ad76507c.desc}",
 	tasks: [{
 		uid: "88db2a38",
 		type: "kill",

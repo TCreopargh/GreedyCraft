@@ -1,9 +1,10 @@
+
 {
-	title: "§b高级工具",
+	title: "{greedycraft.quest.40e6ea00.title}",
 	x: -6.0d,
 	y: -6.0d,
 	shape: "diamond",
-	description: "用金属块制作工具锻造台(任意材料)",
+	description: "{greedycraft.quest.40e6ea00.desc}",
 	text: [
 		"启封之板可以用于解除“匠心之作”武器的封印，使用工具装配台安装即可"
 	],

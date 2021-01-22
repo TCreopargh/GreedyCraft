@@ -1,8 +1,8 @@
 {
-	title: "直接的能源",
+	title: "{greedycraft.quest.37a9256b.title}",
 	x: -2.0d,
 	y: -1.5d,
-	description: "获得弱化能源炉",
+	description: "{greedycraft.quest.37a9256b.desc}",
 	dependencies: [
 		"b5e3e8a3"
 	],

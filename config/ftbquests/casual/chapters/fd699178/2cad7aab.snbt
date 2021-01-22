@@ -1,8 +1,9 @@
+
 {
-	title: "§b能源转换",
+	title: "{greedycraft.quest.2cad7aab.title}",
 	x: -2.0d,
 	y: -0.5d,
-	description: "制作一个能源接收器，它可以将多种形式的能源转为AE ",
+	description: "{greedycraft.quest.2cad7aab.desc}",
 	dependencies: [
 		"8c4d41da"
 	],

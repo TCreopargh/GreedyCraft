@@ -1,8 +1,8 @@
 {
-	title: "§b1Up",
+	title: "{greedycraft.quest.4883a5f1.title}",
 	x: -4.0d,
 	y: 1.5d,
-	description: "获得一个心形容器，使用怪物掉落的碎片合成。",
+	description: "{greedycraft.quest.4883a5f1.desc}",
 	tasks: [{
 		uid: "32f2457a",
 		type: "item",

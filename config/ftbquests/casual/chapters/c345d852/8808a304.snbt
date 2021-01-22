@@ -1,8 +1,9 @@
+
 {
-	title: "§5基因提取",
+	title: "{greedycraft.quest.8808a304.title}",
 	x: 1.5d,
 	y: 2.5d,
-	description: "获得基因提取机",
+	description: "{greedycraft.quest.8808a304.desc}",
 	dependencies: [
 		"b1243a42"
 	],

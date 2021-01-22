@@ -1,8 +1,8 @@
 {
-	title: "§6熔岩航行者",
+	title: "{greedycraft.quest.e95e3fe9.title}",
 	x: -6.0d,
 	y: 11.5d,
-	description: "获得黑曜石船",
+	description: "{greedycraft.quest.e95e3fe9.desc}",
 	tasks: [{
 		uid: "ba7cc661",
 		type: "item",

@@ -1,8 +1,8 @@
 {
-	title: "§3工业进化IV",
+	title: "{greedycraft.quest.cc46d470.title}",
 	x: -2.0d,
 	y: -6.0d,
-	description: "获得谐振升级套件",
+	description: "{greedycraft.quest.cc46d470.desc}",
 	dependencies: [
 		"19719288"
 	],

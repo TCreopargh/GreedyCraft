@@ -1,8 +1,9 @@
+
 {
-	title: "§e专业搬家",
+	title: "{greedycraft.quest.4a71e71d.title}",
 	x: -4.0d,
 	y: 9.5d,
-	description: "获得搬箱器",
+	description: "{greedycraft.quest.4a71e71d.desc}",
 	tasks: [{
 		uid: "8898d8fd",
 		type: "item",
