@@ -1,0 +1,26 @@
+{
+  "item_block": {
+    "name": "§bAeroite Ore",
+    "ore_dict": "oreAeroite",
+    "type": "additions:block_simple"
+  },
+  "name": "§bAeroite Ore",
+  "material": "minecraft:snow",
+  "place_sound": "minecraft:block.snow.place",
+  "break_sound": "minecraft:block.snow.break",
+  "hit_sound": "minecraft:block.snow.hit",
+  "step_sound": "minecraft:block.snow.step",
+  "fall_sound": "minecraft:block.snow.fall",
+  "map_color": "minecraft:diamond",
+  "hardness": 1.5,
+  "resistance": 1.0,
+  "harvest_level": 4,
+  "harvest_tool": "shovel",
+  "light_opacity": 2,
+  "light_level": 12,
+  "slipperiness": 0.75,
+  "semi_transparent": true,
+  "same_collision_bounding_box": false,
+  "collision_box_max_y": 0.10000000149011612,
+  "type": "additions:simple"
+}

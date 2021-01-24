@@ -1,0 +1,39 @@
+{
+	title: "{greedycraft.quest.6015794d.title}",
+	x: -10.0d,
+	y: 9.5d,
+	description: "{greedycraft.quest.6015794d.desc}",
+	tasks: [{
+		uid: "c5c4b3f0",
+		type: "item",
+		items: [{
+			item: "bonsaitrees:bonsaipot"
+		}]
+	}],
+	rewards: [{
+		uid: "8dfd8e81",
+		type: "item",
+		item: "bonsaitrees:bonsaipot 1 1"
+	},
+	{
+		uid: "02424768",
+		type: "item",
+		item: "thermalexpansion:augment 1 323"
+	},
+	{
+		uid: "47bb5515",
+		type: "item",
+		item: "minecraft:log",
+		count: 128
+	},
+	{
+		uid: "2e453ed8",
+		type: "xp",
+		xp: 120
+	},
+	{
+		uid: "42853dda",
+		type: "loot",
+		table: 0
+	}]
+}

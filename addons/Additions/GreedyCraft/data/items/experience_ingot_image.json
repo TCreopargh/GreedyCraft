@@ -1,0 +1,8 @@
+{
+  "name": "§aKnowledge Essence Ingot",
+  "tooltip": [
+    "§7Used to store XP",
+    "§aRight click to consume and gain XP"
+  ],
+  "type": "additions:simple"
+}

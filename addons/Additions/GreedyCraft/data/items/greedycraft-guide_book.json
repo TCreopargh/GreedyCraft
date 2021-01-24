@@ -1,0 +1,9 @@
+{
+  "name": "§b§oIntroduction to §cCreedyGraft",
+  "tooltip": [
+    "§6There's only one line of text on it:",
+    "§b\"Give up, before you become bald.\""
+  ],
+  "max_stack": 1,
+  "type": "additions:simple"
+}

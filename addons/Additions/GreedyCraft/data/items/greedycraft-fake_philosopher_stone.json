@@ -1,0 +1,9 @@
+{
+  "name": "§bPhilosopher's Stone §7[§cFake§7]",
+  "tooltip": [
+    "§6This is fake, but can still be used to turn sand into glass without any cost...",
+    "§d§lEXPERT ONLY"
+  ],
+  "max_stack": 1,
+  "type": "additions:simple"
+}

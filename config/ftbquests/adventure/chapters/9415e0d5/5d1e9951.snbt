@@ -1,0 +1,38 @@
+{
+	title: "{greedycraft.quest.5d1e9951.title}",
+	x: 0.0d,
+	y: 7.5d,
+	description: "{greedycraft.quest.5d1e9951.desc}",
+	dependencies: [
+		"4b2e0fa7"
+	],
+	tasks: [{
+		uid: "633fe7c7",
+		type: "item",
+		items: [{
+			item: "demagnetize:demagnetizer"
+		}]
+	}],
+	rewards: [{
+		uid: "0ce1fa01",
+		type: "xp",
+		xp: 500
+	},
+	{
+		uid: "e37f6fb7",
+		type: "item",
+		item: "minecraft:dye 1 4",
+		count: 64
+	},
+	{
+		uid: "3a5f9c08",
+		type: "item",
+		item: "minecraft:book",
+		count: 64
+	},
+	{
+		uid: "1ca83103",
+		type: "loot",
+		table: 1
+	}]
+}

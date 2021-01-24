@@ -1,0 +1,12 @@
+{
+  "weight": 750,
+  "type": "tconevo:tool",
+  "name": "Experienced Sword",
+  "lore": "The sword that has fought countless battles.",
+  "tool": "broadsword",
+  "materials": [
+    "steel",
+    "experience",
+    "bronze"
+  ]
+}

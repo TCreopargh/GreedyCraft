@@ -1,0 +1,13 @@
+{
+    "weight": 80,
+    "type": "tconevo:tool",
+    "name": "Ancient Shovel",
+    "lore": "5000 years old.",
+    "tool": "excavator",
+    "materials": [
+        "steel",
+        "seared",
+        "scorched",
+        "bronze"
+    ]
+}

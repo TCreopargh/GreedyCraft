@@ -1,0 +1,34 @@
+
+{
+	title: "{greedycraft.quest.56c08898.title}",
+	icon: "abyssalcraft:stone",
+	x: 16.5d,
+	y: 3.5d,
+	description: "{greedycraft.quest.56c08898.desc}",
+	dependencies: [
+		"18558d0b"
+	],
+	tasks: [{
+		uid: "381fa846",
+		type: "dimension",
+		dim: 53
+	}],
+	rewards: [{
+		uid: "10c552aa",
+		type: "xp",
+		xp: 8000
+	},
+	{
+		uid: "e532fa3a",
+		type: "item",
+		item: {
+			id: "cyclicmagic:charm_void",
+			tag: {}
+		}
+	},
+	{
+		uid: "f32f198a",
+		type: "loot",
+		table: 2
+	}]
+}

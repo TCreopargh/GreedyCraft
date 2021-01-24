@@ -1,0 +1,23 @@
+{
+  "item_block": {
+    "name": "§6Infernium Block",
+    "burn_time": 810000,
+    "ore_dict": "blockInfernium",
+    "type": "additions:block_simple"
+  },
+  "name": "§6Infernium Block",
+  "material": "minecraft:metal",
+  "place_sound": "minecraft:block.metal.place",
+  "break_sound": "minecraft:block.metal.break",
+  "hit_sound": "minecraft:block.metal.hit",
+  "step_sound": "minecraft:block.metal.step",
+  "fall_sound": "minecraft:block.metal.fall",
+  "map_color": "minecraft:tnt",
+  "hardness": 50.0,
+  "resistance": 5000.0,
+  "harvest_level": 9,
+  "harvest_tool": "pickaxe",
+  "light_level": 13,
+  "is_beacon_base": true,
+  "type": "additions:simple"
+}

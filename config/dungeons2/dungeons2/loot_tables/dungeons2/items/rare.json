@@ -1,0 +1,235 @@
+{
+	"pools": [
+		{
+			"name": "rare_items",
+			"rolls": 1,
+			"entries": [
+				{
+					"entryName": "tnt",
+					"type": "item",
+					"name": "minecraft:tnt",
+					"weight": 35,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 2,
+								"max": 4
+							}
+						}
+					]						
+				},
+				{
+					"entryName": "blaze_powder",
+					"type": "item",
+					"name": "minecraft:blaze_powder",
+					"weight": 25,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 2,
+								"max": 5
+							}
+						}
+					]						
+				},
+				{
+					"entryName": "magma_cream",
+					"type": "item",
+					"name": "minecraft:magma_cream",
+					"weight": 25,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 2,
+								"max": 5
+							}
+						}
+					]						
+				},		
+				{
+					"entryName": "clock",
+					"type": "item",
+					"name": "minecraft:clock",
+					"weight": 25					
+				},
+				{
+					"entryName": "compass",
+					"type": "item",
+					"name": "minecraft:compass",
+					"weight": 25					
+				},				
+				{
+					"entryName": "diamond_block",
+					"type": "item",
+					"name": "minecraft:diamond_block",
+					"weight": 10					
+				},				
+				{
+					"entryName": "glowstone",
+					"type": "item",
+					"name": "minecraft:glowstone",
+					"weight": 25,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 5
+							}
+						}
+					]						
+				},
+				{
+					"entryName": "ender_pearl",
+					"type": "item",
+					"name": "minecraft:ender_pearl",
+					"weight": 35,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 3
+							}
+						}
+					]							
+				},
+				{
+					"entryName": "ender_eye",
+					"type": "item",
+					"name": "minecraft:ender_eye",
+					"weight": 35,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 3
+							}
+						}
+					]							
+				},			
+				{
+					"entryName": "blaze_rod",
+					"type": "item",
+					"name": "minecraft:blaze_rod",
+					"weight": 25,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 3
+							}
+						}
+					]							
+				},
+				{
+					"entryName": "ghast_tear",
+					"type": "item",
+					"name": "minecraft:ghast_tear",
+					"weight": 25,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					]							
+				},
+				{
+					"entryName": "experience_bottle",
+					"type": "item",
+					"name": "minecraft:experience_bottle",
+					"weight": 50,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 3
+							}
+						}
+					]							
+				},
+				{
+					"entryName": "diamond",
+					"type": "item",
+					"name": "minecraft:diamond",
+					"weight": 25,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 3
+							}
+						}
+					]							
+				},
+				{
+					"entryName": "prismarine_crystals",
+					"type": "item",
+					"name": "minecraft:prismarine_crystals",
+					"weight": 20,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 3
+							}
+						}
+					]							
+				},		
+				{
+					"entryName": "prismarine_shard",
+					"type": "item",
+					"name": "minecraft:prismarine_shard",
+					"weight": 20,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 3
+							}
+						}
+					]							
+				},									
+				{
+					"entryName": "sea_lantern",
+					"type": "item",
+					"name": "minecraft:sea_lantern",
+					"weight": 20
+				},
+				{
+					"entryName": "nether_star",
+					"type": "item",
+					"name": "minecraft:nether_star",
+					"weight": 15
+				},
+				{
+					"entryName": "firework_charge",
+					"type": "item",
+					"name": "minecraft:firework_charge",
+					"weight": 35,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 5
+							}
+						}
+					]							
+				}			
+			]
+		}
+	]
+}

@@ -1,0 +1,68 @@
+[
+  {
+    "bowStringMaterialStats": {
+      "modifier": 1.75,
+      "materialType": "bowstring"
+    },
+    "identifier": "fleshfiredragon",
+    "color": 16733525,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "bowStringMaterialStats": {
+      "modifier": 3.0,
+      "materialType": "bowstring"
+    },
+    "identifier": "heartfiredragon",
+    "color": 11141120,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "bowStringMaterialStats": {
+      "modifier": 3.0,
+      "materialType": "bowstring"
+    },
+    "identifier": "hearticedragon",
+    "color": 14809072,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "bowStringMaterialStats": {
+      "modifier": 1.75,
+      "materialType": "bowstring"
+    },
+    "identifier": "fleshicedragon",
+    "color": 5592575,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "bowStringMaterialStats": {
+      "modifier": 2.0,
+      "materialType": "bowstring"
+    },
+    "identifier": "enchantedfabric",
+    "color": 43690,
+    "type": "DEFAULT",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "bowStringMaterialStats": {
+      "modifier": 1.25,
+      "materialType": "bowstring"
+    },
+    "identifier": "silkycloth",
+    "color": 8674606,
+    "type": "DEFAULT",
+    "castable": false,
+    "craftable": true
+  }
+]

@@ -1,0 +1,107 @@
+{
+    "name": "§9模块化机械",
+    "icon": "modularmachinery:blockcontroller",
+    "category": "patchouli:guide_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(9)模块化机械$()是一种由整合包自定义的多方块结构，每种机器都有不同的功能。你可以在JEI中搜索$(5)@modularmachinery$()来获取所有模块化机械的蓝图和部件。每种模块化机械的搭建方法可以通过在JEI里点击对应的$(9)机械蓝图$()看到，在这里不再赘述。你可以点击模块化机械预览界面右下角的按钮来看到每一层都有哪些方块，以便搭建其内部结构。"
+        },
+        {
+            "type": "text",
+            "text": "$(5)如何添加输入/输出$()： 你可以在模块化机械的预览结构上看到一些不断变化的方块，只要这些方块包含输入/输出仓，你就可以把任何输入/输出仓放到这个位置（当然如果你不想在这个位置上有输入/输出接口的话可以用普通的模块化机械外壳代替）。也就是说，你可以在这些位置上任意安排输入/输出接口，只要接口的数量和种类满足机械所用配方的要求。"
+        },
+        {
+            "type": "text",
+            "text": "当你搭建好一个模块化机械时，通常它会$(5)变色$()，这说明你的机器搭建正确。如果没有变色，请仔细检查结构是否完整。注意：模块化机械中需要的水方块和其他流体均为$(2)静止水源$()，流动水是不会被识别的，请着重检查流体部分。$(br)$(c)注意：$()模块化机器$(5)不需要蓝图$()，JEI中的蓝图仅供查询合成配方和多方块结构。$(br)$(1)搭建多方块结构时，请确保你的物品输出仓大的足以容纳所有可能的输出。如果已有物品输入却提示”缺少物品输入”，请尝试增加物品输出仓的数量或升级输出仓。$()"
+        },
+        {
+            "type": "text",
+            "text": "$(c)模块化机械升级：$()你可以将机器上的特定方块替换为另一方块以提升机器性能。具体的替换位置可以在JEI中查看。用于升级的方块主要有机械通风口、燃烧室外壳、机械齿轮箱和机械电路板这几种，这些都可以在JEI中搜索@ModularMachinery看到。"
+        },
+		{
+            "type": "spotlight",
+			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:soymilk_producer\"}",
+			"title": "豆浆机",
+            "text": "$(6)豆浆机$()能够以非常高的效率生产豆浆，只要给它提供大豆和水。"
+        },
+		{
+            "type": "spotlight",
+			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:exp_power_generator\"}",
+			"title": "经验发电机",
+            "text": "$(2)经验发电机$()可以使用液态$(2)知识精华$()发电！如果你有很多经验，不妨试试将它们用来发电。它每tick能产生$(4)2000FE$()的电量，效率非常不错！$(br2)$(2)$(o)“知识就是力量！”"
+        },
+		{
+            "type": "spotlight",
+			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:organic_producer\"}",
+			"title": "有机压榨机",
+            "text": "$(d)有机压榨机$()能够从一些有机物中提取出有机液！你需要给它提供含有有机物的材料和水。$(2)胞嘧$()是提取有机物的最理想的材料。"
+        },
+		{
+            "type": "spotlight",
+			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:organic_infuser\"}",
+			"title": "有机灌注机",
+            "text": "$(5)有机灌注机$()使用有机液来快速种植精华作物。它可以在不需要核心的情况下种植6级作物，但比较缓慢而且需要大量电力。种植1~5级作物时，它绝对是你的最佳选择。同时它还可以种植AE2中的高纯水晶。"
+        },
+		{
+            "type": "spotlight",
+			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:solid_centrifuge\"}",
+			"title": "固体离心机",
+            "text": "$(3)固体离心机$()能够从塞满你箱子的大批没用的方块中提取出有用的物质。你需要给它提供水、电力和需要离心的方块。另外有些方块能够提取出极其稀有但非常宝贵的物品。"
+        },
+		{
+            "type": "spotlight",
+			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:liquid_centrifuge\"}",
+			"title": "液体离心机",
+            "text": "$(9)液体离心机$()可以从一些液体中分离出有用的物品。$(br)$(c)注意：虽然液体离心机看上去可能和固体离心机一模一样，但是内部的搅拌棒使用铂块做的（固体离心机用的是钢块），请留意！"
+        },
+		{
+            "type": "spotlight",
+			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:alloy_decomposer\"}",
+			"title": "合金分解机",
+            "text": "$(8)合金分解机$()可以将一些合金分解为其组成部分。"
+        },
+		{
+            "type": "spotlight",
+			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:liquid_converter\"}",
+			"title": "流体转换机",
+            "text": "$(3)流体转换机$()可以将一些等价的液体互相转换，速度很快而且消耗的能量极少。"
+        },
+		{
+            "type": "spotlight",
+			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:loot_power_generator\"}",
+			"title": "战利品发电机",
+            "text": "$(8)战利品发电机$()可以用你从地牢里找到的乱七八糟的战利品发电，而且发电功率超级大！"
+        },
+		{
+            "type": "spotlight",
+			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:blazing_furnace\"}",
+			"title": "烈焰熔炉",
+            "text": "$(6)烈焰熔炉$()通过烈焰之炽焱和电力来飞速烧制物品，速度快得难以想象！"
+        },
+		{
+            "type": "spotlight",
+			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:durasteel_forge\"}",
+			"title": "耐钢熔炉",
+            "text": "$(9)耐钢熔炉$()用于打造一种极其坚固的金属——耐钢！注意：该机器工作方式也许会有些难懂，在JEI中对着该机器的蓝图按U可查看其所有配方，在最后一页可以看到最简单的配方，这个配方里包含了所有基本的、不可或缺的材料。在第一页可以看到完整的配方，多出来的物品都是“催化剂”，在合成时放入越多的催化剂就能得到越快的合成和越少的能量消耗，不同的催化剂性能不同！"
+        },
+		{
+            "type": "spotlight",
+			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:aeonsteel_forge\"}",
+			"title": "恒钢熔炉",
+            "text": "$(3)恒钢熔炉$()用于打造游戏中期的强力材料——恒钢！该机器的工作方式与耐钢熔炉相同。"
+        },
+		{
+            "type": "spotlight",
+			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:chromasteel_forge\"}",
+			"title": "炫钢熔炉",
+            "text": "$(d)炫钢熔炉$()用于打造游戏中后期的强力材料——炫钢！该机器的工作方式与耐钢熔炉相同。"
+        },
+		{
+            "type": "spotlight",
+			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:cosmic_forge\"}",
+			"title": "寰宇熔炉",
+            "text": "$(5)寰宇熔炉$()是制造游戏后期重要材料——寰宇锭的必备机器！该机器的工作方式与耐钢熔炉相同。"
+        }
+    ]
+}

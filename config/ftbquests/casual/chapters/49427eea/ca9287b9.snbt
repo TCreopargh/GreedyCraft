@@ -1,0 +1,28 @@
+
+{
+	title: "{greedycraft.quest.ca9287b9.title}",
+	x: -4.5d,
+	y: 11.0d,
+	description: "{greedycraft.quest.ca9287b9.desc}",
+	dependencies: [
+		"1fb45ac7"
+	],
+	tasks: [{
+		uid: "114a5512",
+		type: "item",
+		items: [{
+			item: "enderio:item_alloy_endergy_ingot 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "47098025",
+		type: "item",
+		item: "enderio:item_alloy_endergy_ingot 1 1",
+		count: 16
+	},
+	{
+		uid: "eef38186",
+		type: "loot",
+		table: 1
+	}]
+}

@@ -1,0 +1,52 @@
+
+{
+	title: "{greedycraft.quest.3af0fb0a.title}",
+	x: 16.0d,
+	y: 11.0d,
+	description: "{greedycraft.quest.3af0fb0a.desc}",
+	tasks: [{
+		uid: "2148a0a8",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:harvester_block"
+		}]
+	}],
+	rewards: [{
+		uid: "f5cd462c",
+		type: "xp",
+		xp: 500
+	},
+	{
+		uid: "cac1636c",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "80f0567e",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"prefab:structuresconfiguration": {
+					configuration: {
+						wareHouseFacing: "north",
+						structureEnumName: "GreenHouse"
+					}
+				}
+			},
+			id: "prefab:item_basic_structure",
+			tag: {
+				ForgeCaps: {
+					"prefab:structuresconfiguration": {
+						configuration: {
+							wareHouseFacing: "north",
+							structureEnumName: "GreenHouse"
+						}
+					}
+				},
+				id: "prefab:item_basic_structure",
+				Count: 1b,
+				Damage: 0s
+			}
+		}
+	}]
+}

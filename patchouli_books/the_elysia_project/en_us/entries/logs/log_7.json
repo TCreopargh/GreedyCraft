@@ -1,0 +1,16 @@
+{
+    "name": "Log §9#7",
+    "icon": "additions:greedycraft-experiment_note",
+    "category": "patchouli:logs",
+    "advancement": "greedycraft:elysia/log7",
+    "pages": [
+        {
+            "type": "text",
+            "text": "URGENT: THE EPUI POPULATION HAS EXPERIENCED A SHARP DECLINE. We suspect there might be a reality invasion, which means our bodies in the reality are under attack. We are not sure about who did these attacks because our bodies are wrapped by strong casings of the life support system. The security system of EPUI is breached by unknown force and lots of hostile entities and dimensions are generated."
+        },
+        {
+            "type": "text",
+            "text": "Unluckily no one has met the requirement for the executor yet, so there is no way to stop this project. We are broadcasting to everyone to let them enter EPUI and manage to become an executor. This is the only way for us to get saved.$(br2)Sep 23rd, 2044"
+        }
+    ]
+}

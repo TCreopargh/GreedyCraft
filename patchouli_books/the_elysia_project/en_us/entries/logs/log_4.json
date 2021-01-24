@@ -1,0 +1,16 @@
+{
+    "name": "Log §9#4",
+    "icon": "additions:greedycraft-experiment_note",
+    "category": "patchouli:logs",
+    "advancement": "greedycraft:elysia/log4",
+    "pages": [
+        {
+            "type": "text",
+            "text": "The Elysian Project is pretty much a suicide mission, when the project starts, our souls have good dreams, but our bodies will never wake up again. Humanity ends as soon as all life support run out of energy, which will eventually happen. But we will have to answer a question: is there really a need to sustain humanity?"
+        },
+        {
+            "type": "text",
+            "text": "Birth rate has reached the lowest in 400 years, we surely don't want our child to suffer just to get some food. Humanity will end anyways, sooner or later. What's the point of sustaining the humanity? Are we gonna show it to the aliens? Just care about what happens right now. The world is doomed, period. our army is now sweeping out the rebels, our project is getting really close to success."
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+
+{
+	title: "{greedycraft.quest.f196d094.title}",
+	x: -2.0d,
+	y: -4.0d,
+	description: "{greedycraft.quest.f196d094.desc}",
+	dependencies: [
+		"c16fec30"
+	],
+	tasks: [{
+		uid: "556dd978",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					1b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			Damage: 5s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d729cd46",
+		type: "xp",
+		xp: 700
+	},
+	{
+		uid: "d160e099",
+		type: "item",
+		item: "thermalfoundation:material 1 32",
+		count: 64
+	},
+	{
+		uid: "e582a8a0",
+		type: "loot",
+		table: 1
+	}]
+}

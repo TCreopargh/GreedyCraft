@@ -1,0 +1,34 @@
+
+{
+	title: "{greedycraft.quest.61e93ee1.title}",
+	icon: "draconicevolution:chaotic_core",
+	x: 1.0d,
+	y: 0.0d,
+	description: "{greedycraft.quest.61e93ee1.desc}",
+	can_repeat: true,
+	dependencies: [
+		"82d57b54"
+	],
+	tasks: [{
+		uid: "205ea254",
+		type: "kill",
+		entity: "draconicevolution:chaosguardian",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "187f239e",
+		type: "item",
+		item: "draconicevolution:chaos_shard",
+		count: 5
+	},
+	{
+		uid: "02e608a5",
+		type: "xp",
+		xp: 30000
+	},
+	{
+		uid: "5d28bd37",
+		type: "loot",
+		table: 3
+	}]
+}

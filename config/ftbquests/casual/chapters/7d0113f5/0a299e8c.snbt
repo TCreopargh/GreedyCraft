@@ -1,0 +1,27 @@
+
+{
+	title: "{greedycraft.quest.0a299e8c.title}",
+	x: 6.5d,
+	y: 0.5d,
+	description: "{greedycraft.quest.0a299e8c.desc}",
+	dependencies: [
+		"5a9b6af9"
+	],
+	tasks: [{
+		uid: "64c4e324",
+		type: "item",
+		items: [{
+			item: "thaumadditions:mithrillium_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "540c0e6a",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "3c53a20d",
+		type: "xp",
+		xp: 7500
+	}]
+}

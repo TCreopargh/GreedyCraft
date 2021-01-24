@@ -1,0 +1,8 @@
+{
+  "name": "mixed_bricks_3",
+  "blocks": [
+    "minecraft:stonebrick",
+    "minecraft:stonebrick(1)",
+    "minecraft:stonebrick(2)"
+  ]
+} 

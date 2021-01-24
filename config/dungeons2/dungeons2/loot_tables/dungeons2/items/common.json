@@ -1,0 +1,181 @@
+{
+	"pools": [
+		{
+			"name": "common_items",
+			"rolls": 1,
+			"entries": [
+				{
+					"entryName": "bread",
+					"type": "item",
+					"name": "minecraft:bread",
+					"weight": 80,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 2,
+								"max": 5
+							}
+						}
+					]			
+				},
+				{
+					"entryName": "wool",
+					"type": "item",
+					"name": "minecraft:wool",
+					"weight": 25,
+						"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 3
+							}
+						}
+					]				
+				},
+				{
+					"entryName": "torch",
+					"type": "item",
+					"name": "minecraft:torch",
+					"weight": 50,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 5
+							}
+						}
+					]						
+				},
+				{
+					"entryName": "leather",
+					"type": "item",
+					"name": "minecraft:leather",
+					"weight": 20,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 3
+							}
+						}
+					]						
+				},
+				{
+					"entryName": "rabbit_hide",
+					"type": "item",
+					"name": "minecraft:rabbit_hide",
+					"weight": 20,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 3
+							}
+						}
+					]						
+				},
+				{
+					"entryName": "gold_nugget",
+					"type": "item",
+					"name": "minecraft:gold_nugget",
+					"weight": 20,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 3
+							}
+						}
+					]						
+				},
+				{
+					"entryName": "iron_ingot",
+					"type": "item",
+					"name": "minecraft:iron_ingot",
+					"weight": 30,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 5
+							}
+						}
+					]						
+				},
+				{
+					"entryName": "arrow",
+					"type": "item",
+					"name": "minecraft:arrow",
+					"weight": 50,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 5,
+								"max": 10
+							}
+						}
+					]						
+				},
+				{
+					"entryName": "bone",
+					"type": "item",
+					"name": "minecraft:bone",
+					"weight": 50,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 3
+							}
+						}
+					]						
+				},				
+				{
+					"entryName": "spider_eye",
+					"type": "item",
+					"name": "minecraft:spider_eye",
+					"weight": 35,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 3
+							}
+						}
+					]						
+				},
+				{
+					"entryName": "rotten_flesh",
+					"type": "item",
+					"name": "minecraft:rotten_flesh",
+					"weight": 50				
+				},
+				{
+					"entryName": "string",
+					"type": "item",
+					"name": "minecraft:string",
+					"weight": 50,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 3
+							}
+						}
+					]						
+				}		
+			]
+		}
+	]
+}

@@ -1,0 +1,30 @@
+
+{
+	title: "{greedycraft.quest.334e95a9.title}",
+	x: -9.5d,
+	y: 13.0d,
+	description: "{greedycraft.quest.334e95a9.desc}",
+	tasks: [{
+		uid: "7bd1fffa",
+		type: "item",
+		items: [{
+			item: "enderio:item_alloy_ingot 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "ac3854eb",
+		type: "xp",
+		xp: 200
+	},
+	{
+		uid: "7d7e428d",
+		type: "item",
+		item: "enderio:item_alloy_ingot 1 6",
+		count: 5
+	},
+	{
+		uid: "86d54f96",
+		type: "loot",
+		table: 1
+	}]
+}

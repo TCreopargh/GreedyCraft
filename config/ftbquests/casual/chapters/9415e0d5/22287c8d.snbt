@@ -1,0 +1,38 @@
+
+{
+	title: "{greedycraft.quest.22287c8d.title}",
+	x: -2.0d,
+	y: 5.5d,
+	description: "{greedycraft.quest.22287c8d.desc}",
+	text: [
+		"Obtained from punching grass at a low chance"
+	],
+	tasks: [{
+		uid: "23c6907d",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-lucky_clover"
+		}]
+	}],
+	rewards: [{
+		uid: "4e0339ba",
+		type: "xp",
+		xp: 200
+	},
+	{
+		uid: "99ea3ab3",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "910ffe1d",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "8e7dc60b",
+		type: "item",
+		item: "additions:greedycraft-lucky_clover",
+		count: 3
+	}]
+}

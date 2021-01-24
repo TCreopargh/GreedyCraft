@@ -1,0 +1,32 @@
+{
+	title: "{greedycraft.quest.847b9b1a.title}",
+	icon: "tinkersaether:valkyrie_ingot",
+	x: -1.0d,
+	y: 0.0d,
+	description: "{greedycraft.quest.847b9b1a.desc}",
+	dependencies: [
+		"b5350524"
+	],
+	tasks: [{
+		uid: "e1bcd81e",
+		type: "kill",
+		entity: "aether_legacy:valkyrie_queen",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "1bd24031",
+		type: "item",
+		item: "tinkersaether:valkyrie_block",
+		count: 2
+	},
+	{
+		uid: "e46b2512",
+		type: "xp",
+		xp: 3000
+	},
+	{
+		uid: "1c713624",
+		type: "loot",
+		table: 1
+	}]
+}

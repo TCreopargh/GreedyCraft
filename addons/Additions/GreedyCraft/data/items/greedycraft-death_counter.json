@@ -1,0 +1,6 @@
+{
+  "name": "§bDeath Counter",
+  "shines": false,
+  "tooltip": "§7§oRight click to show the death leaderboard.",
+  "type": "additions:simple"
+}

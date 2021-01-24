@@ -1,0 +1,47 @@
+
+{
+	title: "{greedycraft.quest.469b1d74.title}",
+	x: -1.5d,
+	y: 0.5d,
+	description: "{greedycraft.quest.469b1d74.desc}",
+	dependencies: [
+		"e42bd6a4"
+	],
+	tasks: [{
+		uid: "d7a4e992",
+		type: "item",
+		items: [{
+			item: "thaumcraft:nitor_yellow"
+		}]
+	}],
+	rewards: [{
+		uid: "d81cfd85",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "883bc1dc",
+		type: "item",
+		item: "thaumcraft:nitor_yellow",
+		count: 4
+	},
+	{
+		uid: "f476adb5",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "71fde7e1",
+		type: "item",
+		item: {
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "aer"
+				}]
+			}
+		},
+		count: 32
+	}]
+}

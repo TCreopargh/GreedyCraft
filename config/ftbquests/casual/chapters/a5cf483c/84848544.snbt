@@ -1,0 +1,35 @@
+
+{
+	title: "{greedycraft.quest.84848544.title}",
+	x: -3.5d,
+	y: 4.0d,
+	description: "{greedycraft.quest.84848544.desc}",
+	dependencies: [
+		"5cc3003c"
+	],
+	tasks: [{
+		uid: "e58ebf9f",
+		type: "item",
+		items: [{
+			id: "astralsorcery:itemlinkingtool"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7fd41d1d",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "1ef53234",
+		type: "xp",
+		xp: 555
+	},
+	{
+		uid: "bb8763a7",
+		type: "item",
+		item: "astralsorcery:blockmarble 1 5",
+		count: 16
+	}]
+}

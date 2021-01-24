@@ -1,0 +1,16 @@
+{
+    "name": "Log §9#5",
+    "icon": "additions:greedycraft-experiment_note",
+    "category": "patchouli:logs",
+    "advancement": "greedycraft:elysia/log5",
+    "pages": [
+        {
+            "type": "text",
+            "text": "So we know that the Elysian Project is an one-way ticket and there's no going back at this point. What to do if something bad happens? Here's the solution: we elect the most able person to decide the fate of this project, which is, the executor. The executor is the only one who has permission to terminate the entire project, but we elect the executor in a very harsh way."
+        },
+        {
+            "type": "text",
+            "text": "To represent the majority, The executor must be very 'human', which is what the machines describe, greedy. We have set up complited missions for everyone to complete, and only the greediest man can get to the top. The first person to complete the last mission will be assigned as the executor, who will decide the fate of humanity.$(br2)Aug 19th, 2044"
+        }
+    ]
+}

@@ -1,0 +1,694 @@
+
+{
+	title: "Loot Crate §a[COMMON]",
+	loot_size: 1,
+	hide_tooltip: true,
+	use_title: true,
+	rewards: [{
+		item: "minecraft:sponge",
+		random_bonus: 2
+	},
+	{
+		item: "minecraft:sea_lantern",
+		random_bonus: 6
+	},
+	{
+		item: "minecraft:gold_block"
+	},
+	{
+		item: "minecraft:diamond_block"
+	},
+	{
+		item: "minecraft:emerald_block"
+	},
+	{
+		item: "minecraft:diamond",
+		count: 3,
+		random_bonus: 3
+	},
+	{
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 3s,
+					id: 92
+				}]
+			}
+		},
+		random_bonus: 1
+	},
+	{
+		item: "abyssalcraft:abyingot",
+		random_bonus: 2
+	},
+	{
+		item: "scalinghealth:crystalshard",
+		count: 2,
+		random_bonus: 2
+	},
+	{
+		item: {
+			id: "lootbags:itemlootbag",
+			Damage: 1s
+		}
+	},
+	{
+		item: {
+			id: "lootbags:itemlootbag",
+			Damage: 2s
+		}
+	},
+	{
+		item: {
+			id: "lootbags:itemlootbag",
+			Damage: 3s
+		}
+	},
+	{
+		item: {
+			id: "lootbags:itemlootbag",
+			Damage: 4s
+		}
+	},
+	{
+		item: {
+			id: "lootbags:itemlootbag",
+			Damage: 5s
+		}
+	},
+	{
+		item: {
+			id: "lootbags:itemlootbag",
+			Damage: 11s
+		}
+	},
+	{
+		item: "oeintegration:excavatemodifier",
+		count: 2,
+		random_bonus: 2
+	},
+	{
+		item: "waystones:warp_scroll",
+		random_bonus: 2
+	},
+	{
+		item: "waystones:return_scroll",
+		random_bonus: 2
+	},
+	{
+		item: "bountifulbaubles:spectralsilt"
+	},
+	{
+		item: "bountifulbaubles:flare_red",
+		count: 4
+	},
+	{
+		item: {
+			id: "bountifulbaubles:disintegrationtablet"
+		}
+	},
+	{
+		item: "bountifulbaubles:potionrecall"
+	},
+	{
+		item: {
+			id: "bountifulbaubles:trinketvitamins"
+		}
+	},
+	{
+		item: "abyssalcraft:shadowgem",
+		random_bonus: 2
+	},
+	{
+		item: "abyssalcraft:stone 1 7",
+		count: 16,
+		random_bonus: 16
+	},
+	{
+		item: "abyssalcraft:statue"
+	},
+	{
+		item: "minecraft:pumpkin",
+		count: 8
+	},
+	{
+		item: "minecraft:bookshelf",
+		count: 8
+	},
+	{
+		item: {
+			id: "minecraft:cobblestone",
+			tag: {
+				display: {
+					Lore: [
+						"§eYou can make it your pet"
+					],
+					Name: "§bA Precious Stone"
+				}
+			}
+		}
+	},
+	{
+		item: "progressivebosses:nether_star_shard",
+		count: 2,
+		random_bonus: 2
+	},
+	{
+		item: "thermalexpansion:frame",
+		random_bonus: 3
+	},
+	{
+		item: {
+			id: "thermalexpansion:reservoir",
+			tag: {}
+		}
+	},
+	{
+		item: {
+			id: "tinymobfarm:lasso",
+			tag: {}
+		},
+		random_bonus: 4
+	},
+	{
+		item: "tinymobfarm:iron_farm"
+	},
+	{
+		item: "tinymobfarm:stone_farm"
+	},
+	{
+		item: "tofucraft:blocktofukinu",
+		count: 4,
+		random_bonus: 4
+	},
+	{
+		item: "minecraft:quartz_block",
+		count: 4,
+		random_bonus: 4
+	},
+	{
+		item: "minecraft:golden_apple 1 1"
+	},
+	{
+		item: "abyssalcraft:coralium",
+		count: 8
+	},
+	{
+		item: "solarflux:solar_panel_1",
+		count: 4,
+		random_bonus: 8
+	},
+	{
+		item: "chancecubes:chance_cube",
+		random_bonus: 2
+	},
+	{
+		item: "thermalexpansion:morb",
+		count: 4
+	},
+	{
+		item: "abyssalcraft:mre",
+		count: 3,
+		random_bonus: 3
+	},
+	{
+		item: "appliedenergistics2:material 1 35",
+		count: 8,
+		random_bonus: 8
+	},
+	{
+		item: "ae2wtlib:infinity_booster_card",
+		count: 3,
+		random_bonus: 4
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_2"
+			}
+		}
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_1"
+			}
+		},
+		random_bonus: 1
+	},
+	{
+		item: "minecraft:glowstone_dust",
+		count: 32,
+		random_bonus: 64
+	},
+	{
+		item: {
+			id: "minecraft:deadbush",
+			tag: {
+				display: {
+					Lore: [
+						"§d§oYou mean George Bush?"
+					],
+					Name: "§bDed Bush"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:torch",
+			tag: {
+				display: {
+					Lore: [
+						"§6Put it near machines or crops",
+						"§6to speed them up by 1000 times!",
+						"§0All of above are bullshit, lol"
+					],
+					Name: "§b10x Compressed Torcherino"
+				}
+			}
+		}
+	},
+	{
+		item: "scalinghealth:crystalshard",
+		random_bonus: 4
+	},
+	{
+		item: "minecraft:cake",
+		random_bonus: 1
+	},
+	{
+		item: "birdsfoods:t_bacon_cheeseburger",
+		random_bonus: 2
+	},
+	{
+		item: "actuallyadditions:item_solidified_experience",
+		random_bonus: 64
+	},
+	{
+		item: "minecraft:wheat",
+		count: 16,
+		random_bonus: 16
+	},
+	{
+		item: "minecraft:dye 1 15",
+		count: 32,
+		random_bonus: 32
+	},
+	{
+		item: "minecraft:golden_carrot",
+		random_bonus: 9
+	},
+	{
+		item: "minecraft:golden_apple",
+		random_bonus: 3
+	},
+	{
+		item: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "liquidantimatter",
+				Amount: 1000
+			}
+		}
+	},
+	{
+		item: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "organic_fluid",
+				Amount: 1000
+			}
+		},
+		random_bonus: 3
+	},
+	{
+		item: "minecraft:redstone_torch",
+		count: 16,
+		random_bonus: 32
+	},
+	{
+		item: "minecraft:dye 1 4",
+		count: 8,
+		random_bonus: 12
+	},
+	{
+		item: "minecraft:redstone",
+		count: 16,
+		random_bonus: 32
+	},
+	{
+		item: "mysticalagriculture:crafting 1 16",
+		random_bonus: 8
+	},
+	{
+		item: "mysticalagriculture:crafting 1 17",
+		random_bonus: 7
+	},
+	{
+		item: "mysticalagriculture:crafting 1 5",
+		random_bonus: 10
+	},
+	{
+		item: "mysticalagriculture:crafting 1 33",
+		random_bonus: 7
+	},
+	{
+		item: "mysticalagriculture:crafting",
+		count: 16,
+		random_bonus: 32
+	},
+	{
+		item: "mysticalagriculture:crafting 1 34",
+		random_bonus: 6
+	},
+	{
+		item: "mysticalagriculture:crafting 1 1",
+		count: 10,
+		random_bonus: 20
+	},
+	{
+		item: "prefab:item_start_house"
+	},
+	{
+		item: {
+			id: "prefab:item_villager_houses"
+		}
+	},
+	{
+		item: "cookingforblockheads:fridge",
+		count: 2,
+		random_bonus: 4
+	},
+	{
+		item: "thermalexpansion:morb 1 1",
+		random_bonus: 2
+	},
+	{
+		item: "mekanism:ingot 1 1",
+		random_bonus: 4
+	},
+	{
+		item: "additions:greedycraft-bloody_sacrifice",
+		random_bonus: 2
+	},
+	{
+		item: "additions:greedycraft-poop",
+		random_bonus: 2
+	},
+	{
+		item: "additions:greedycraft-lucky_clover",
+		random_bonus: 4
+	},
+	{
+		item: {
+			id: "inventorypets:double_chest_pet"
+		}
+	},
+	{
+		item: {
+			id: "inventorypets:meta_pet"
+		},
+		weight: 2
+	},
+	{
+		item: "inventorypets:start_button"
+	},
+	{
+		item: "additions:greedycraft-medkit_small",
+		random_bonus: 3
+	},
+	{
+		item: "openmodularturrets:potato_cannon_turret",
+		random_bonus: 4
+	},
+	{
+		item: "openmodularturrets:machine_gun_turret"
+	},
+	{
+		item: "openmodularturrets:turret_base 1 1",
+		random_bonus: 5
+	},
+	{
+		item: "openmodularturrets:turret_base 1 2",
+		random_bonus: 3
+	},
+	{
+		item: "tinymobfarm:iron_farm"
+	},
+	{
+		item: "tconstruct:materials 1 14",
+		random_bonus: 16
+	},
+	{
+		item: "conarm:resist_mat",
+		random_bonus: 6
+	},
+	{
+		item: "extrautils2:klein"
+	},
+	{
+		item: "thermalfoundation:material 1 130",
+		random_bonus: 32
+	},
+	{
+		item: {
+			id: "openblocks:generic_unstackable"
+		}
+	},
+	{
+		item: "thermalfoundation:material 1 771",
+		count: 10,
+		random_bonus: 10
+	},
+	{
+		item: {
+			id: "comforts:hammock"
+		},
+		random_bonus: 2
+	},
+	{
+		item: "minecraft:wool",
+		random_bonus: 10
+	},
+	{
+		item: "additions:greedycraft-experiment_note"
+	},
+	{
+		item: {
+			id: "minecraft:skull",
+			tag: {
+				SkullOwner: {
+					Id: "2d06868c-6d9b-433a-a356-1a7993b62b8d",
+					Properties: {
+						textures: [{
+							Signature: "O0XiCmq/OoNtTpR6LkV2ktMJ0Ao1Y8hReDuOjUeol4fPgOo4+nwDdlcRn/+yammpzHwZRHGLxVbBWhY7cMfXQtAh3jTQ8WLl+6HGzGZsx2SFi0wc8PTrETwkb9Ax/MrHK1rqe/dcA1P0OHBl+khHce0dnhELMb2ZPo321UUlt+wvkGR+sTxJuplu5BUVyD9iX7tuylecg0JYg7M2RIKQ0F2cQppgs/bXc5kGim88pb577qKVnHeOPNi2is59/izYf2emJngfmpU5WR1qyTLAvwSdngEKGgczCj3+NMLERicJKA3Mmo7aJVmkIk+GJHxZIt3V4p6x9nhcYCDxQP2Mghb+OdtjNZrgIVwa9bAY/uODSPxB58IbtExttnfwfCn/K+x2kLX0vjuTYexLiqDEW3ryU9dV0MxCAXdTBWtuZiPgfQmhMTtqnmwFaJhL2DU+QUTtWUxkpn/F+dzO0qzA5Gxfy2+vysHjWdBVrBAA2APvIAGrTOwk/tFdxVZMDh6De5BoyK7JEClYGiD+7m7nAcnf5NsZQx86tZIxB+pZcK8uqs0ZhMApwsGd1ZIZ2aEDvk+Cv2X2M6YtzYeWMTqh7Z6KzZBvo67lYHRGv7LzkzXQISHBoxhtXNGh0qS3/7P0UbyBT7ZQQXJSchCXuA9IYFnbQeO16HsvMeI9gJQlCD8=",
+							Value: "ewogICJ0aW1lc3RhbXAiIDogMTU5NzkyODU1Njg0MywKICAicHJvZmlsZUlkIiA6ICIyZDA2ODY4YzZkOWI0MzNhYTM1NjFhNzk5M2I2MmI4ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJUQ3Jlb3BhcmdoIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzE5Zjc4MTI1OTc4NTQ2NzZlYjljOGNkYjBkNjAzZjY4MDgxM2E0ZjQ1MGIyZWMyODE3OGE2ZWE4ZWI2YjE4MDYiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+						}]
+					},
+					Name: "TCreopargh"
+				}
+			},
+			Damage: 3s
+		}
+	},
+	{
+		item: {
+			id: "minecraft:diamond_sword",
+			tag: {
+				ench: [{
+					lvl: 1,
+					id: 255
+				}],
+				display: {
+					Lore: [
+						"§9+2147483647 Melee Damage",
+						"§7Sharpness 32767",
+						"§7Unbreaking 32767",
+						"§7Looting 32767",
+						"§7Fire Aspect 32767",
+						"§7Knockback 32767",
+						"§7Smite 32767",
+						"§7Bane of Arthropods 32767",
+						"§bUnbreakable",
+						"§dDrop chance is 0.000042069% from loot crates",
+						"§0§oAll of above are bullshit§r"
+					],
+					Name: "§4§lS§c§lw§6§lo§e§lr§2§ld§a§l §b§lo§3§lf§1§l §9§lt§d§lh§4§le§c§l §6§lR§e§lN§2§lG§a§l §b§lG§3§lo§9§ld"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "prefab:item_structure_part"
+		}
+	},
+	{
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				display: {
+					Name: "§eTCreopargh§b's spawning egg"
+				},
+				EntityTag: {
+					Username: "TCreopargh",
+					id: "headcrumbs:human"
+				}
+			}
+		}
+	},
+	{
+		item: "minecraft:egg",
+		random_bonus: 32
+	},
+	{
+		item: "extrabotany:material 1 2"
+	},
+	{
+		item: {
+			id: "botania:specialflower",
+			tag: {
+				type: "sunbless"
+			}
+		},
+		random_bonus: 4
+	},
+	{
+		item: {
+			id: "botania:specialflower",
+			tag: {
+				type: "endoflame"
+			}
+		},
+		random_bonus: 3
+	},
+	{
+		item: {
+			id: "cyclicmagic:charm_boat",
+			tag: {}
+		}
+	},
+	{
+		item: {
+			id: "cyclicmagic:charm_speed",
+			tag: {}
+		}
+	},
+	{
+		item: "additions:tcsponsors-sponsor_chest_fragment",
+		weight: 2
+	},
+	{
+		item: {
+			id: "minecraft:quartz",
+			tag: {
+				display: {
+					Lore: [
+						"§5§lEPIC"
+					],
+					Name: "§5Overflux Capacitor"
+				}
+			}
+		}
+	},
+	{
+		item: "minecraft:name_tag",
+		random_bonus: 4
+	},
+	{
+		item: {
+			id: "cyclicmagic:emerald_sword",
+			tag: {
+				display: {
+					Lore: [
+						"§4§oThis sword will disobey the wills of its master."
+					],
+					Name: "§cTraitor's Sword"
+				}
+			}
+		}
+	},
+	{
+		item: "actuallyadditions:item_worm",
+		random_bonus: 16
+	},
+	{
+		item: {
+			id: "hooked:hook",
+			Damage: 1s
+		}
+	},
+	{
+		item: "additions:greedycraft-raw_human_meat",
+		random_bonus: 16
+	},
+	{
+		item: "additions:tower_chest",
+		random_bonus: 1
+	},
+	{
+		item: "storagedrawers:upgrade_storage 1 2",
+		random_bonus: 2
+	},
+	{
+		item: "tcomplement:edibles 1 30",
+		count: 16,
+		random_bonus: 8
+	},
+	{
+		item: "thaumcraft:curio 1 1",
+		random_bonus: 4
+	},
+	{
+		item: "additions:greedycraft-loli_lolipop"
+	},
+	{
+		item: "additions:greedycraft-purifying_dust",
+		count: 5,
+		random_bonus: 15
+	},
+	{
+		item: "additions:nylon_string",
+		random_bonus: 2
+	},
+	{
+		item: "additions:greedycraft-food_bag"
+	},
+	{
+		item: "additions:greedycraft-time_fragment",
+		count: 2,
+		random_bonus: 8
+	},
+	{
+		item: {
+			id: "touhou_little_maid:gashapon",
+			Damage: 1s
+		},
+		random_bonus: 4
+	},
+	{
+		item: {
+			id: "touhou_little_maid:gashapon",
+			Damage: 2s
+		},
+		random_bonus: 3
+	},
+	{
+		item: "additions:greedycraft-delivery_order",
+		weight: 2
+	}],
+	loot_crate: {
+		string_id: "loot_level_1",
+		item_name: "Loot Crate §a[COMMON]",
+		color: 5635925,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

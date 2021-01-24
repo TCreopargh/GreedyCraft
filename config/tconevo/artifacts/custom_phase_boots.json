@@ -1,0 +1,28 @@
+{
+  "weight": 240,
+  "type": "tconevo:armour",
+  "name": "Phase Boots",
+  "lore": "Makes you walk on wind.",
+  "armour": "boots",
+  "materials": [
+    "tofumetal",
+    "aeroite",
+    "prismarine"
+  ],
+  "free_mods": 7,
+  "mods": [
+    {
+      "id": "speedy_armor",
+      "level": 100
+    },
+    {
+      "id": "shulkerweight_armor",
+      "level": 20
+    },
+    "high_stride_armor",
+    {
+      "id": "reinforced_armor",
+      "level": 3
+    }
+  ]
+}

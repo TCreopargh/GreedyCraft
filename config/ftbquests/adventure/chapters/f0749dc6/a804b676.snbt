@@ -1,0 +1,36 @@
+{
+	title: "{greedycraft.quest.a804b676.title}",
+	icon: {
+		id: "minecraft:leather_boots"
+	},
+	x: -0.5d,
+	y: -3.0d,
+	description: "{greedycraft.quest.a804b676.desc}",
+	tasks: [{
+		uid: "31969db1",
+		type: "stat",
+		icon: {
+			id: "minecraft:iron_boots"
+		},
+		stat: "stat.walkOneCm",
+		value: 250000
+	}],
+	rewards: [{
+		uid: "518a3c6e",
+		type: "item",
+		item: {
+			id: "naturescompass:naturescompass",
+			tag: {}
+		}
+	},
+	{
+		uid: "7366a1b5",
+		type: "xp",
+		xp: 250
+	},
+	{
+		uid: "3ee7ade8",
+		type: "loot",
+		table: 0
+	}]
+}

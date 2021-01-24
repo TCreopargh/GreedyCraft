@@ -1,0 +1,34 @@
+
+{
+	title: "{greedycraft.quest.d0e61e36.title}",
+	x: 18.0d,
+	y: -4.0d,
+	shape: "octagon",
+	description: "{greedycraft.quest.d0e61e36.desc}",
+	dependencies: [
+		"a7d5292c"
+	],
+	tasks: [{
+		uid: "f9ac7d04",
+		type: "item",
+		items: [{
+			item: "avaritia:neutronium_compressor"
+		}]
+	}],
+	rewards: [{
+		uid: "69c403d2",
+		type: "xp",
+		xp: 125000
+	},
+	{
+		uid: "111bb819",
+		type: "item",
+		item: "avaritia:resource 1 4",
+		count: 5
+	},
+	{
+		uid: "0024a67c",
+		type: "loot",
+		table: 3
+	}]
+}

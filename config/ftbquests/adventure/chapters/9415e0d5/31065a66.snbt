@@ -1,0 +1,29 @@
+{
+	title: "{greedycraft.quest.31065a66.title}",
+	x: 2.0d,
+	y: 7.5d,
+	description: "{greedycraft.quest.31065a66.desc}",
+	tasks: [{
+		uid: "c877b127",
+		type: "item",
+		items: [{
+			item: "farmingforblockheads:market"
+		}]
+	}],
+	rewards: [{
+		uid: "286d761e",
+		type: "xp",
+		xp: 400
+	},
+	{
+		uid: "5475ecf5",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "e7a92b03",
+		type: "item",
+		item: "minecraft:emerald",
+		count: 8
+	}]
+}

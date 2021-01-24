@@ -1,0 +1,27 @@
+
+{
+	title: "{greedycraft.quest.fb7d745d.title}",
+	x: 9.0d,
+	y: -2.5d,
+	description: "{greedycraft.quest.fb7d745d.desc}",
+	dependencies: [
+		"99f6417a"
+	],
+	tasks: [{
+		uid: "6a5f2274",
+		type: "item",
+		items: [{
+			item: "forestry:fermenter"
+		}]
+	}],
+	rewards: [{
+		uid: "fb5c7068",
+		type: "xp",
+		xp: 250
+	},
+	{
+		uid: "809f358f",
+		type: "loot",
+		table: 0
+	}]
+}

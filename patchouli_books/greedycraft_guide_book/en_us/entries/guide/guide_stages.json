@@ -1,0 +1,125 @@
+{
+    "name": "§5Pre-hardmode route",
+    "icon": "additions:greedycraft-twilight_gem",
+    "category": "patchouli:guide_category",
+    "pages": [{
+            "type": "text",
+            "text": "$(2)This entry is about pre-hardmode walkthrough. $(d)If you are in casual mode, you don't need this guide because casual mode has no limit of game stages. $()$(li)First, get a diamond and begin to set up your botania stuff to make a $(3)Mana Diamond$(), which can be further made into a $(d)Twilight Gem$(). Throw the twilight gem into a Twilight Forest portal to go into the Twilight Forest."
+        },
+        {
+            "type": "multiblock",
+            "text": "Throw a $(d)Twilight Gem$() into the water to activate the portal. Poppy can be replaced with any flower, sapling or tall grass.",
+            "symmertrical": true,
+            "multiblock": {
+                "mapping": {
+                    "F": "minecraft:red_flower",
+                    "G": "minecraft:grass",
+                    "D": "minecraft:dirt",
+                    "W": "minecraft:water"
+                },
+                "pattern": [
+                    [
+                        " FF ",
+                        "F  F",
+                        "F 0F",
+                        " FF "
+                    ],
+                    [
+                        " GG ",
+                        "GWWG",
+                        "GWWG",
+                        " GG "
+                    ],
+                    [
+                        "    ",
+                        " DD ",
+                        " DD ",
+                        "    "
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "text": "Next, follow the Twilight Forest walkthrough and defeat every boss possible, until you craft a $(d)Twilight Shield$(). With it, you can go into $(5)The Nether$(). $(c)Note: crafting recipes below might vary depending on your packmode.$()"
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:auto_gen_-226107769",
+            "recipe2": "crafttweaker:auto_gen_-1473452503"
+        },
+        {
+            "type": "multiblock",
+            "text": "Imagine not knowing how to build this in 2021.",
+            "multiblock": {
+                "mapping": {
+                    "P": "minecraft:portal[axis=z]",
+                    "O": "minecraft:obsidian",
+                    "0": "minecraft:portal[axis=z]"
+                },
+                "pattern": [
+                    [
+                        " OO "
+                    ],
+                    [
+                        "OPPO"
+                    ],
+                    [
+                        "OP0O"
+                    ],
+                    [
+                        "OPPO"
+                    ],
+                    [
+                        " OO "
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "text": "Next, follow the $(3)Abyssalcraft$() walkthrough until you defeat $(4)Asorah, The Fallen$() and obtain $(3)Eye of the Abyss$(). Then keep progressing on Botania until you defeat Gaia. After crafting a $(3)Awakened Eye$(), you can summon the Wither and slay it. $(br)About more detailed guide on Abyssalcraft, read $(2)Necronomicon$() which can be found in your Omnipedia. Note: The T-shaped soul sand structure may not contain other blocks in the down left and down right corners."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:awakened_eye"
+        },
+        {
+            "type": "text",
+            "text": "Next you're gonna go into $(6)The Aether$() and defeat $(6)Valkyrie$(), craft a $(6)Bravery Certificate$() to go into $(4)Dreadlands$() and obtain $(4)Dreadium Ingots$(). After completing both routes, you can then craft a $(3)Ender Charm$() and enter The End. $(8)(If you selected a map preset that does not contain structures, like space spheres or floating islands, you can craft end portal frames)$(), See the '$(c)Hardmode$()' entry for what to do after defeating Ender Dragon."
+        },
+        {
+            "type": "multiblock",
+            "text": "Build the frame and pour water in it! (Must be vanilla water bucket)",
+            "multiblock": {
+                "mapping": {
+                    "P": "aether_legacy:aether_portal[axis=z]",
+                    "O": "minecraft:glowstone",
+                    "0": "aether_legacy:aether_portal[axis=z]"
+                },
+                "pattern": [
+                    [
+                        " OO "
+                    ],
+                    [
+                        "OPPO"
+                    ],
+                    [
+                        "OP0O"
+                    ],
+                    [
+                        "OPPO"
+                    ],
+                    [
+                        " OO "
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "crafting",
+            "recipe2": "crafttweaker:auto_gen_-1501549292",
+            "recipe": "crafttweaker:auto_gen_-696385933"
+        }
+    ]
+}

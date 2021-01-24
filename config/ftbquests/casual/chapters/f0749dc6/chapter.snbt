@@ -1,0 +1,17 @@
+{
+	title: "{greedycraft.quest.chapter.milestones}",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "hexagon",
+	images: [{
+		x: -0.5d,
+		y: -6.0d,
+		width: 8.0d,
+		height: 4.0d,
+		rotation: 0.0d,
+		image: "greedycraft:quests/milestones.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

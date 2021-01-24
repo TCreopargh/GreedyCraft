@@ -1,0 +1,17 @@
+{
+  "item_block": {
+    "name": "§5Astral Metal Block",
+    "ore_dict": "blockAstralMetal",
+    "type": "additions:block_simple"
+  },
+  "name": "§5Astral Metal Block",
+  "material": "minecraft:metal",
+  "map_color": "minecraft:magenta",
+  "hardness": 5.0,
+  "resistance": 500.0,
+  "harvest_level": 5,
+  "harvest_tool": "pickaxe",
+  "light_level": 10,
+  "is_beacon_base": true,
+  "type": "additions:simple"
+}

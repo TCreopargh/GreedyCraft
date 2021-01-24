@@ -1,0 +1,9 @@
+{
+  "name": "§aKnowledge Essence Ingot",
+  "tooltip": [
+    "§7Used to store XP",
+    "§aRight click to consume and gain XP"
+  ],
+  "ore_dict": "ingotExperience",
+  "type": "additions:simple"
+}

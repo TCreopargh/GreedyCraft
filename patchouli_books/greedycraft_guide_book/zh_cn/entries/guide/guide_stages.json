@@ -1,0 +1,125 @@
+{
+    "name": "§5阶段流程",
+    "icon": "additions:greedycraft-twilight_gem",
+    "category": "patchouli:guide_category",
+    "pages": [{
+            "type": "text",
+            "text": "$(2)本章介绍困难模式之前的大体流程。$(d)如果您处于休闲模式，则无需参照本流程。$()$(li)首先你要挖到钻石并在植物魔法章节取得初步进展做出$(3)魔力钻石$()，使用魔力钻石做出$(d)暮光宝石$()。然后，搭建右图中的结构，把暮光宝石扔到中间的水里激活传送门，进入暮色森林。"
+        },
+        {
+            "type": "multiblock",
+            "text": "往水中扔入$(d)暮光宝石$()以激活传送门。虞美人可以换成任意花、高草或树苗。",
+            "symmertrical": true,
+            "multiblock": {
+                "mapping": {
+                    "F": "minecraft:red_flower",
+                    "G": "minecraft:grass",
+                    "D": "minecraft:dirt",
+                    "W": "minecraft:water"
+                },
+                "pattern": [
+                    [
+                        " FF ",
+                        "F  F",
+                        "F 0F",
+                        " FF "
+                    ],
+                    [
+                        " GG ",
+                        "GWWG",
+                        "GWWG",
+                        " GG "
+                    ],
+                    [
+                        "    ",
+                        " DD ",
+                        " DD ",
+                        "    "
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "text": "下一步就是跟随暮色森林的任务线，击败boss，直到取得$(d)暮色之庇护$()。使用暮色之庇护，即可进入$(5)下界$()。$(c)注意：如果您处于专家模式，则以下合成配方可能和其他模式的不同。$()"
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:auto_gen_-226107769",
+            "recipe2": "crafttweaker:auto_gen_-1473452503"
+        },
+        {
+            "type": "multiblock",
+            "text": "如果连这个都不会做就可以告别MC了。",
+            "multiblock": {
+                "mapping": {
+                    "P": "minecraft:portal[axis=z]",
+                    "O": "minecraft:obsidian",
+                    "0": "minecraft:portal[axis=z]"
+                },
+                "pattern": [
+                    [
+                        " OO "
+                    ],
+                    [
+                        "OPPO"
+                    ],
+                    [
+                        "OP0O"
+                    ],
+                    [
+                        "OPPO"
+                    ],
+                    [
+                        " OO "
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "text": "下一步，你需要跟随$(3)深渊国度$()的任务线，直到打败$(4)堕落者阿索拉$()并取得$(3)深渊之眼$()。然后，你还要继续发展植物魔法，直到击败盖亚。之后，只要你做出了$(3)觉醒之眼$()，就可以迎战凋灵了。$(br)关于深渊国度的详细流程，请参照任务线和百科全书中的$(2)死灵之书$()。注意摆放凋灵时，T字形灵魂沙结构的左下角和右下角不能有方块。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:awakened_eye"
+        },
+        {
+            "type": "text",
+            "text": "之后则是进入$(6)天境$()，击败$(6)女武神$()，然后用$(6)勇气之证$()进入$(4)恐惧之地$()，获得$(4)恐惧锭$()。两条路线都走完之后，便可以合成$(3)末影护符$()，进入末地了。$(8)（在太空球等不会生成结构的地图中可以使用$(9)prefab$(8)的$(9)末地门蓝图$(8)来制造末地门）$()，击败末影龙之后的游戏流程，请参阅\"$(c)困难模式$()\"一节。"
+        },
+        {
+            "type": "multiblock",
+            "text": "搭好框架，然后向里面浇一桶水！（必须用原版的水桶）",
+            "multiblock": {
+                "mapping": {
+                    "P": "aether_legacy:aether_portal[axis=z]",
+                    "O": "minecraft:glowstone",
+                    "0": "aether_legacy:aether_portal[axis=z]"
+                },
+                "pattern": [
+                    [
+                        " OO "
+                    ],
+                    [
+                        "OPPO"
+                    ],
+                    [
+                        "OP0O"
+                    ],
+                    [
+                        "OPPO"
+                    ],
+                    [
+                        " OO "
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "crafting",
+            "recipe2": "crafttweaker:auto_gen_-1501549292",
+            "recipe": "crafttweaker:auto_gen_-696385933"
+        }
+    ]
+}

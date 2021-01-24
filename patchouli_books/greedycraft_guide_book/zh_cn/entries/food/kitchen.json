@@ -1,0 +1,25 @@
+{
+    "name": "多方块厨房",
+    "icon": "cookingforblockheads:fridge",
+    "category": "patchouli:food_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "§3多方块厨房§r是一种多方块结构，能够便捷地制作不同种类的食物。本整合包有2000种左右的食物，并且吃不同种类的食物能够提升最大生命值，就让它来开启你的舌尖之旅吧！$(br)你可以在JEI中搜索§5@cookingforblockheads§r来查看多方块厨房的全部内容。$(br2)多方块厨房的使用非常简单，只要将所有方块简单地连接在一起即可。"
+        },
+		{
+            "type": "text",
+            "text": "§3冰箱§r用于存储食材，你应该将你获得的所有食材都放在这里。§3烹饪桌§r是多方块厨房的核心组件，用于将食材制成食物或高级食材。§3烤箱§r用于烤熟生的食物，§3水槽§r可提供无限水，§3厨具架§r用于放置厨具，即：在食物配方中需要但不消耗的物品。§3牛奶罐§r用于存储牛奶。在牛奶罐上放一只牛并想方法用铁砧砸死牛就可以获得§3罐中奶牛§r，可以随时间而不断产生牛奶！还有其他的一些装饰方块，你可以自己研究。"
+        }, 
+		{
+            "type": "crafting",
+            "recipe": "cookingforblockheads:fridge",
+			"recipe2": "cookingforblockheads:oven"
+        },
+		{
+            "type": "crafting",
+            "recipe": "cookingforblockheads:cooking_table",
+			"recipe2": "cookingforblockheads:tool_rack"
+        }
+    ]
+}

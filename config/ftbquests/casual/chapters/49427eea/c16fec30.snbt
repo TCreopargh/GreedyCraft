@@ -1,0 +1,49 @@
+
+{
+	title: "{greedycraft.quest.c16fec30.title}",
+	x: -7.0d,
+	y: -4.0d,
+	description: "{greedycraft.quest.c16fec30.desc}",
+	dependencies: [
+		"93ff40d3"
+	],
+	tasks: [{
+		uid: "cd2ab2b1",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					3b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			Damage: 3s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "bc6dc8fc",
+		type: "xp",
+		xp: 500
+	},
+	{
+		uid: "d9d74a6d",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "f09c3f2a",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "novice_engineer"
+	}]
+}

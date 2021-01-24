@@ -1,0 +1,14 @@
+{
+  "name": "§6Battle Tower Chest Key",
+  "tooltip": "§eUnlock Tower Chests by putting them in crafting table!",
+  "max_stack": 1,
+  "durability": 3,
+  "harvest_level": 0,
+  "harvest_radius_width": 0,
+  "harvest_depth": 0,
+  "efficiency": 0.0,
+  "enchantability": 0,
+  "repair_stacks": {},
+  "tool_classes": [],
+  "type": "additions:multitool"
+}

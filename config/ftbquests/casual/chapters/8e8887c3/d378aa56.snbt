@@ -1,0 +1,47 @@
+
+{
+	title: "{greedycraft.quest.d378aa56.title}",
+	x: 4.0d,
+	y: 0.0d,
+	shape: "square",
+	description: "{greedycraft.quest.d378aa56.desc}",
+	dependencies: [
+		"68ef7c06"
+	],
+	tasks: [{
+		uid: "58be60d8",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconic_core"
+		}]
+	}],
+	rewards: [{
+		uid: "e24244bd",
+		type: "item",
+		item: "draconicevolution:draconic_core",
+		count: 8
+	},
+	{
+		uid: "0182507e",
+		type: "item",
+		item: "minecraft:redstone_block",
+		count: 32
+	},
+	{
+		uid: "1b09ccb3",
+		type: "item",
+		item: {
+			id: "waystones:warp_stone"
+		}
+	},
+	{
+		uid: "654ca021",
+		type: "xp",
+		xp: 1200
+	},
+	{
+		uid: "cdce2116",
+		type: "loot",
+		table: 1
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	title: "{greedycraft.quest.23497e2f.title}",
+	x: 0.5d,
+	y: 0.0d,
+	description: "{greedycraft.quest.23497e2f.desc}",
+	dependencies: [
+		"38bdb0e4"
+	],
+	tasks: [{
+		uid: "76f72136",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:augment 1 720"
+		}]
+	}],
+	rewards: [{
+		uid: "c471ddae",
+		type: "xp",
+		xp: 600
+	},
+	{
+		uid: "b66274f1",
+		type: "item",
+		item: "minecraft:emerald",
+		count: 16
+	},
+	{
+		uid: "7d4cf2a4",
+		type: "loot",
+		table: 1
+	}]
+}

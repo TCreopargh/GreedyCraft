@@ -1,0 +1,41 @@
+
+{
+	title: "{greedycraft.quest.37a9256b.title}",
+	x: -2.0d,
+	y: -1.5d,
+	description: "{greedycraft.quest.37a9256b.desc}",
+	dependencies: [
+		"b5e3e8a3"
+	],
+	tasks: [{
+		uid: "607540c3",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:dynamo",
+			tag: {
+				RSControl: 0b,
+				Facing: 1b,
+				Energy: 0,
+				Level: 0b
+			},
+			Damage: 4s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4ff594a3",
+		type: "item",
+		item: "minecraft:redstone_block",
+		count: 16
+	},
+	{
+		uid: "f59ce2bf",
+		type: "xp",
+		xp: 600
+	},
+	{
+		uid: "213103cf",
+		type: "loot",
+		table: 1
+	}]
+}

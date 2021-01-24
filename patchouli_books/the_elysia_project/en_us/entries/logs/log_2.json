@@ -1,0 +1,24 @@
+{
+    "name": "Log §9#2",
+    "icon": "additions:greedycraft-experiment_note",
+    "category": "patchouli:logs",
+    "advancement": "greedycraft:elysia/log2",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Today Beyond Reality released a new generation of VR set: Elysium X, it is designed entirely for the Elysian Project. This VR set consumes a very low amount of energy, its battery can last a decade with the Life Support system. At the same time, Elysian User Interface is in heavy development. there will be two separate interfaces: one is 'Personal Interface', "
+        },
+        {
+            "type": "text",
+            "text": "where the user can imagine anything with their mind and put themselves in it, much like a dreammaker. There will be two separate interfaces: one is 'Personal Interface', where the user can imagine anything with their mind and put themselves in it, much like a dreammaker. Another interface is the 'Elysian Public User Interface' (EPUI), which is the only way that people can communicate, these two interfaces are just like singleplayer and multiplayer games."
+        },
+        {
+            "type": "text",
+            "text": "The Elysian Project is set up to keep running as long as possible. We can't supply everyone's life support forever, that's why we need to lower the energy consumption. We can't simulate a real world due to performance, so we split the world in cubes that is one meter in length, width and height, and use these cubes as basic units to calculate things. We use cubes to generate realistic terrain and buildings. All players and animals are stored as 'Entities', and we simplify their model into cubes to lower the energy consumption even more."
+        },
+        {
+            "type": "text",
+            "text": "$(9)$(o)When you can't get what you want, just sleep. You will get them in your dream.$() $(br2)Jul 17th, 2044"
+        }
+    ]
+}

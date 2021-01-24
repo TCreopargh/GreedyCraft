@@ -1,0 +1,16 @@
+{
+    "name": "§6奖章",
+    "icon": "additions:greedycraft-ordinary_medal",
+    "category": "patchouli:misc_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(6)奖章$()唯一的作用就是解锁最终的任务，你可以从奖励箱或某些任务奖励中得到$(6)平凡奖章$()。更高级的奖章则需要套娃合成。"
+        }, 
+ 	{
+            "type": "crafting",
+            "recipe2": "crafttweaker:auto_gen_-1484361380",
+	    "recipe": "crafttweaker:auto_gen_-2096872370"
+        }
+    ]
+}

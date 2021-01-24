@@ -1,0 +1,33 @@
+
+{
+	title: "{greedycraft.quest.6ffc6415.title}",
+	x: 0.5d,
+	y: 0.0d,
+	description: "{greedycraft.quest.6ffc6415.desc}",
+	dependencies: [
+		"7bdd6fd4"
+	],
+	tasks: [{
+		uid: "86580522",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "77e0f9f8",
+		type: "xp",
+		xp: 1600
+	},
+	{
+		uid: "a5c71683",
+		type: "item",
+		item: "botania:manaresource 1 4",
+		count: 5
+	},
+	{
+		uid: "bd0f1a85",
+		type: "loot",
+		table: 1
+	}]
+}

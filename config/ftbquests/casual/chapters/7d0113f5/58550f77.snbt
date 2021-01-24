@@ -1,0 +1,27 @@
+
+{
+	title: "{greedycraft.quest.58550f77.title}",
+	x: -1.5d,
+	y: 2.5d,
+	description: "{greedycraft.quest.58550f77.desc}",
+	dependencies: [
+		"a72c38cb"
+	],
+	tasks: [{
+		uid: "27fa66df",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-blueprint_wand"
+		}]
+	}],
+	rewards: [{
+		uid: "fe5e3924",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "ce1e0bc3",
+		type: "xp",
+		xp: 3000
+	}]
+}

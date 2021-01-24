@@ -1,0 +1,33 @@
+
+{
+	title: "{greedycraft.quest.485283cc.title}",
+	x: 21.0d,
+	y: 6.0d,
+	description: "{greedycraft.quest.485283cc.desc}",
+	dependencies: [
+		"6c9352b5"
+	],
+	tasks: [{
+		uid: "d5696110",
+		type: "item",
+		items: [{
+			item: "bigreactors:reactorcontrolrod"
+		}]
+	}],
+	rewards: [{
+		uid: "d240c3ae",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "75479be2",
+		type: "xp",
+		xp: 800
+	},
+	{
+		uid: "cd8680cf",
+		type: "item",
+		item: "bigreactors:reactorcasing",
+		count: 10
+	}]
+}

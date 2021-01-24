@@ -1,0 +1,28 @@
+
+{
+	title: "{greedycraft.quest.519a981d.title}",
+	x: -4.5d,
+	y: 1.5d,
+	description: "{greedycraft.quest.519a981d.desc}",
+	tasks: [{
+		uid: "0408eb81",
+		type: "item",
+		items: [{
+			id: "mekanism:gastank",
+			tag: {
+				tier: 0
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6206ccde",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "a66d8ff3",
+		type: "xp",
+		xp: 350
+	}]
+}

@@ -1,0 +1,31 @@
+{
+  "item_block": {
+    "name": "§cBlock §eof §aBlock §bof §dInfinity",
+    "shines": true,
+    "tooltip": [
+      "§d§oSeriously?",
+      "§7Can be used as beacon base (if you want)"
+    ],
+    "ore_dict": "blockCompressedInfinity",
+    "type": "additions:block_simple"
+  },
+  "name": "§cBlock §eof §aBlock §bof §dInfinity",
+  "material": "minecraft:stone",
+  "place_sound": "minecraft:block.metal.place",
+  "break_sound": "minecraft:block.stone.break",
+  "step_sound": "minecraft:block.stone.step",
+  "fall_sound": "minecraft:block.stone.fall",
+  "map_color": "minecraft:magenta",
+  "hardness": 50.0,
+  "resistance": 6000000.0,
+  "harvest_level": 8,
+  "harvest_tool": "pickaxe",
+  "light_level": 15,
+  "beacon_color_multiplier": {
+    "red": 1.0,
+    "green": 1.0,
+    "blue": 1.0
+  },
+  "is_beacon_base": true,
+  "type": "additions:simple"
+}

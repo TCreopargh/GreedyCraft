@@ -1,0 +1,35 @@
+{
+	title: "{greedycraft.quest.811621da.title}",
+	x: -8.0d,
+	y: 9.5d,
+	description: "{greedycraft.quest.811621da.desc}",
+	tasks: [{
+		uid: "77e04dc6",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-medkit_super"
+		}]
+	}],
+	rewards: [{
+		uid: "3771357e",
+		type: "item",
+		item: "scalinghealth:heartcontainer",
+		count: 3
+	},
+	{
+		uid: "0d2245fc",
+		type: "item",
+		item: "additions:greedycraft-medkit_super",
+		count: 2
+	},
+	{
+		uid: "06b02a3a",
+		type: "xp",
+		xp: 3000
+	},
+	{
+		uid: "e1dfad7d",
+		type: "loot",
+		table: 1
+	}]
+}

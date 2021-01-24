@@ -1,0 +1,17 @@
+{
+  "cause": {
+    "item": {
+      "item": "additions:greedycraft-item_purger",
+      "damage": "any"
+    },
+    "type": "additions:item_right_click"
+  },
+  "effects": [
+    {
+      "command": "/kill @e[type\u003dItem]",
+      "command_sender_name": "",
+      "hide_feedback": false,
+      "type": "additions:command"
+    }
+  ]
+}

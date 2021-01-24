@@ -1,0 +1,29 @@
+{
+	title: "{greedycraft.quest.12f04d49.title}",
+	x: 22.0d,
+	y: 3.5d,
+	description: "{greedycraft.quest.12f04d49.desc}",
+	tasks: [{
+		uid: "656a3f2d",
+		type: "item",
+		items: [{
+			item: "bigreactors:reactoraccessport"
+		}]
+	}],
+	rewards: [{
+		uid: "56d5ea98",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "e7a1a0e4",
+		type: "xp",
+		xp: 800
+	},
+	{
+		uid: "cf5fa719",
+		type: "item",
+		item: "bigreactors:reactorcasing",
+		count: 10
+	}]
+}

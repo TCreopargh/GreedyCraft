@@ -1,0 +1,49 @@
+{
+	title: "{greedycraft.quest.48323d8b.title}",
+	x: 4.0d,
+	y: -1.5d,
+	description: "{greedycraft.quest.48323d8b.desc}",
+	dependencies: [
+		"254d7b2b"
+	],
+	tasks: [{
+		uid: "339304d7",
+		type: "item",
+		items: [{
+			id: "abyssalcraft:necronomicon_cor",
+			tag: {
+				PotEnergy: 0.0f
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "998458ad",
+		type: "item",
+		item: "abyssalcraft:skin",
+		count: 8
+	},
+	{
+		uid: "afb01b88",
+		type: "item",
+		item: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "liquidantimatter",
+				Amount: 1000
+			}
+		},
+		count: 4
+	},
+	{
+		uid: "c7458f33",
+		type: "xp",
+		xp: 3000
+	},
+	{
+		uid: "f91b9cf3",
+		type: "loot",
+		table: 1
+	}]
+}

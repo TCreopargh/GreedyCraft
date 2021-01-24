@@ -1,0 +1,32 @@
+{
+	title: "{greedycraft.quest.bdd82d3d.title}",
+	x: -4.0d,
+	y: 5.5d,
+	description: "{greedycraft.quest.bdd82d3d.desc}",
+	dependencies: [
+		"34525751"
+	],
+	tasks: [{
+		uid: "ee94021a",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_matter 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "472a5c10",
+		type: "item",
+		item: "projecte:item.pe_matter 1 1",
+		count: 2
+	},
+	{
+		uid: "36c02b08",
+		type: "xp",
+		xp: 3500
+	},
+	{
+		uid: "f6b65cd5",
+		type: "loot",
+		table: 2
+	}]
+}

@@ -1,0 +1,16 @@
+{
+    "name": "消磁器",
+    "icon": "demagnetize:demagnetizer",
+    "category": "patchouli:misc_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(9)消磁器$()可以在一定范围内防止你使用磁铁等增加拾取范围的物品，这在进行一些需要掉落物参与的合成时非常有用。消磁器还可以被升级以支持更大的范围。$(br2)$(c)注意：不一定与所有增加拾取范围的物品都兼容。$()"
+        }, 
+		{
+            "type": "crafting",
+            "recipe": "crafttweaker:demagnetizer",
+            "recipe2": "crafttweaker:demagnetizer_advanced"
+        }
+    ]
+}

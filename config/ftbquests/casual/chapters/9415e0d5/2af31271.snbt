@@ -1,0 +1,37 @@
+
+{
+	title: "{greedycraft.quest.2af31271.title}",
+	x: 0.0d,
+	y: 15.5d,
+	description: "{greedycraft.quest.2af31271.desc}",
+	tasks: [{
+		uid: "adcf4908",
+		type: "item",
+		items: [{
+			item: "additions:cosmilite_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "b1046c70",
+		type: "loot",
+		table: 3
+	},
+	{
+		uid: "2bcf2a36",
+		type: "xp",
+		xp: 80000
+	},
+	{
+		uid: "01e267e8",
+		type: "item",
+		item: "additions:cosmilite_ingot",
+		count: 2
+	},
+	{
+		uid: "5db12e72",
+		type: "item",
+		item: "additions:greedycraft-reward_ticket_legendary",
+		count: 3,
+		random_bonus: 5
+	}]
+}

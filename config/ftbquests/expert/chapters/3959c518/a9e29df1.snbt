@@ -1,0 +1,199 @@
+
+{
+	title: "{greedycraft.quest.a9e29df1.title}",
+	icon: {
+		id: "ftbquests:custom_icon",
+		tag: {
+			icon: "greedycraft:icons/infinity.png"
+		}
+	},
+	x: 0.0d,
+	y: 0.0d,
+	description: "{greedycraft.quest.a9e29df1.desc}",
+	text: [
+		"I think this is the end of the journey.",
+		"Only the most greedy man who desires to get everything and did so,",
+		"Can stand here and decide the fate of the Elysian Project.",
+		"You should know what to do now.",
+		" ---- Beyond Reality Co. Ltd."
+	],
+	can_repeat: true,
+	dependencies: [
+		"45e2da00",
+		"81682e0c",
+		"c0e657a2",
+		"cf664880",
+		"15bc2a7b",
+		"186e9b47",
+		"a02176ac",
+		"f7ddf492",
+		"ea112a40",
+		"8c574fe3",
+		"dac56733",
+		"652f7b38",
+		"f49da124",
+		"b37b0241",
+		"e5d19b4d"
+	],
+	size: 3.0d,
+	tasks: [{
+		uid: "cf821092",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-greedy_medal"
+		}],
+		count: 7L
+	}],
+	rewards: [{
+		uid: "567422aa",
+		type: "item",
+		item: "tconstruct:materials 1 50",
+		count: 320
+	},
+	{
+		uid: "fbbfcfcf",
+		type: "item",
+		item: "additions:greedycraft-executor_terminal",
+		count: 1
+	},
+	{
+		uid: "f41fbfc8",
+		type: "item",
+		item: "thermalfoundation:upgrade 1 256",
+		count: 320
+	},
+	{
+		uid: "5978bfba",
+		type: "item",
+		item: {
+			id: "thermalexpansion:reservoir",
+			tag: {},
+			Damage: 32000s
+		}
+	},
+	{
+		uid: "95acb8c6",
+		type: "item",
+		item: "extrautils2:creativeenergy",
+		count: 64
+	},
+	{
+		uid: "5ff2a1df",
+		type: "item",
+		item: "mysticalagradditions:stuff 1 69",
+		count: 320
+	},
+	{
+		uid: "2a455d6b",
+		type: "item",
+		item: {
+			id: "appliedenergistics2:creative_storage_cell",
+			tag: {}
+		},
+		count: 4
+	},
+	{
+		uid: "f56b9f27",
+		type: "item",
+		item: {
+			id: "thermalexpansion:capacitor",
+			tag: {
+				Energy: 25000000
+			},
+			Damage: 32000s
+		},
+		count: 4
+	},
+	{
+		uid: "dbf52b5d",
+		type: "xp",
+		xp: 2147483647
+	},
+	{
+		uid: "2cb8df56",
+		type: "item",
+		item: "extrautils2:passivegenerator 1 6",
+		count: 64
+	},
+	{
+		uid: "0dbcbee0",
+		type: "item",
+		item: "enderio:block_creative_spawner",
+		count: 64
+	},
+	{
+		uid: "e36d1332",
+		type: "item",
+		item: "avaritia:resource 1 5",
+		count: 128
+	},
+	{
+		uid: "13a1f03c",
+		type: "item",
+		item: {
+			id: "projectex:final_star"
+		},
+		count: 64
+	},
+	{
+		uid: "b51135dd",
+		type: "item",
+		item: "additions:greedycraft-infinity_block_block_block",
+		count: 320
+	},
+	{
+		uid: "ce3dbdc5",
+		type: "item",
+		item: {
+			id: "additions:greedycraft-creative_controller"
+		}
+	},
+	{
+		uid: "0ea5ad1b",
+		type: "item",
+		item: "additions:greedycraft-reward_ticket_legendary",
+		count: 320
+	},
+	{
+		uid: "91a28ca3",
+		type: "item",
+		item: "avaritia:block_resource",
+		count: 64
+	},
+	{
+		uid: "5f7a1615",
+		type: "item",
+		item: "additions:greedycraft-greedy_medal",
+		count: 14
+	},
+	{
+		uid: "a5876807",
+		type: "item",
+		item: "additions:greedycraft-creative_soul",
+		count: 320
+	},
+	{
+		uid: "d933c52f",
+		type: "item",
+		item: "projectex:power_flower 1 15",
+		count: 64
+	},
+	{
+		uid: "0e932b56",
+		type: "item",
+		item: "botania:pool 1 1",
+		count: 64
+	},
+	{
+		uid: "727d3c39",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "graduated"
+	},
+	{
+		uid: "23336666",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "truehero"
+	}]
+}

@@ -1,0 +1,22 @@
+
+{
+	title: "{greedycraft.quest.cf124b65.title}",
+	x: -4.5d,
+	y: -5.0d,
+	description: "{greedycraft.quest.cf124b65.desc}",
+	dependencies: [
+		"c16fec30"
+	],
+	tasks: [{
+		uid: "b53b63fd",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:glass 1 3"
+		}]
+	}],
+	rewards: [{
+		uid: "4e4d2d61",
+		type: "loot",
+		table: 1
+	}]
+}

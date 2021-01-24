@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "additions:items/greedycraft-crude_hatchet-layer0"
+  }
+}

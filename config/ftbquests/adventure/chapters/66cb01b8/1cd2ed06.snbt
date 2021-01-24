@@ -1,0 +1,39 @@
+{
+	title: "{greedycraft.quest.1cd2ed06.title}",
+	x: 9.0d,
+	y: 0.0d,
+	description: "{greedycraft.quest.1cd2ed06.desc}",
+	dependencies: [
+		"759b5ce5",
+		"45197bcf"
+	],
+	tasks: [{
+		uid: "72267b17",
+		type: "item",
+		items: [{
+			item: "tconevo:metal 1 25"
+		}]
+	}],
+	rewards: [{
+		uid: "ebef3b27",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "7e54cfaf",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "skilled_wizard"
+	},
+	{
+		uid: "0c722e91",
+		type: "item",
+		item: "tconevo:metal 1 25",
+		count: 3
+	},
+	{
+		uid: "a25a72d2",
+		type: "xp",
+		xp: 1600
+	}]
+}

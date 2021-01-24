@@ -1,0 +1,26 @@
+{
+	title: "{greedycraft.quest.e421a210.title}",
+	x: 10.5d,
+	y: 2.5d,
+	description: "{greedycraft.quest.e421a210.desc}",
+	dependencies: [
+		"5f8ba210"
+	],
+	tasks: [{
+		uid: "de104839",
+		type: "item",
+		items: [{
+			item: "thaumadditions:mithminite_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "d91fa66d",
+		type: "xp",
+		xp: 12000
+	},
+	{
+		uid: "f3945bec",
+		type: "loot",
+		table: 3
+	}]
+}

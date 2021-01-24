@@ -1,0 +1,46 @@
+{
+	title: "{greedycraft.quest.2a5c1d85.title}",
+	icon: {
+		id: "minecraft:chainmail_helmet"
+	},
+	x: -5.5d,
+	y: -1.0d,
+	description: "{greedycraft.quest.2a5c1d85.desc}",
+	dependencies: [
+		"e8a03830"
+	],
+	tasks: [{
+		uid: "bef407d4",
+		type: "stat",
+		stat: "stat.playOneMinute",
+		value: 345600
+	}],
+	rewards: [{
+		uid: "bf56053e",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "e9b3d13e",
+		type: "item",
+		item: "thermalexpansion:augment 1 513",
+		count: 5
+	},
+	{
+		uid: "6047835e",
+		type: "item",
+		item: "thermalexpansion:augment 1 128",
+		count: 10
+	},
+	{
+		uid: "fdef8635",
+		type: "item",
+		item: "snad:snad",
+		count: 100
+	},
+	{
+		uid: "17a6b0d0",
+		type: "loot",
+		table: 0
+	}]
+}

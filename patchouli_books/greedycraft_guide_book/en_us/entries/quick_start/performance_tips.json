@@ -1,0 +1,13 @@
+{
+	"name": "Performance",
+	"icon": "rftools:computer_module",
+	"category": "patchouli:quick_start_category",
+	"pages": [{
+		"type": "text",
+		"text": "$(#ffaa00)$(l)These methods might help for performance, only use this when you're lagging hard because disabling these can also negatively affect your game experience.$()$(br2)$(li)Turning off shaders or switch to low-spec shaders$(li)Reduce render distance$(li)If you play on laptop, make sure you're using the dedicated GPU, not integrated ones."
+	},
+	{
+		"type": "text",
+		"text": " For Nvidia: Right click on desktop - Nvidia control panel - 3D settings - set GPU to Nvidia $(li)Press F11 to quit fullscreen mode$(li)Turn off all particle effects and set the quality to 'Fast'$(li)Type $(9)/purge$() to clear dropped items$(li)Use R-button menu to clean memory$(li)Press $(9)F3 + A$() to reload chunks$(li)If you think the font is too small, find Smooth Font in mod settings to adjust the font.$(li)If it's still laggy, maybe just play for a while and the framerate will magically go up."
+	}]
+}

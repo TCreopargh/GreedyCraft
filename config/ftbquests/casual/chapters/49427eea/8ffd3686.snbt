@@ -1,0 +1,31 @@
+
+{
+	title: "{greedycraft.quest.8ffd3686.title}",
+	x: 16.0d,
+	y: -8.0d,
+	description: "{greedycraft.quest.8ffd3686.desc}",
+	tasks: [{
+		uid: "e89cb7d6",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_atomic_reconstructor"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "046aff30",
+		type: "item",
+		item: "actuallyadditions:item_crystal",
+		count: 16
+	},
+	{
+		uid: "31635ac8",
+		type: "xp",
+		xp: 200
+	},
+	{
+		uid: "b65f07a8",
+		type: "loot",
+		table: 0
+	}]
+}

@@ -1,0 +1,29 @@
+
+{
+	title: "{greedycraft.quest.cdc1deb9.title}",
+	x: 3.0d,
+	y: 4.0d,
+	description: "{greedycraft.quest.cdc1deb9.desc}",
+	dependencies: [
+		"6bac986a"
+	],
+	tasks: [{
+		uid: "a74b6382",
+		type: "item",
+		items: [{
+			item: "bloodmagic:blood_rune"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a203c084",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "d4439b1f",
+		type: "xp",
+		xp: 1000
+	}]
+}

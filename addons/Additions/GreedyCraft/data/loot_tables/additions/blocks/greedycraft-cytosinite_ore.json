@@ -1,0 +1,16 @@
+{
+  "preset_block": "additions:greedycraft-cytosinite_ore",
+  "pools": [
+    {
+      "name": "block_itself_pool",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "additions:greedycraft-cytosinite_ore"
+        }
+      ]
+    }
+  ],
+  "preset_type": "additions:block_itself"
+}

@@ -1,0 +1,30 @@
+
+{
+	title: "{greedycraft.quest.322f3076.title}",
+	x: -3.5d,
+	y: 0.0d,
+	description: "{greedycraft.quest.322f3076.desc}",
+	dependencies: [
+		"2034cbe8"
+	],
+	tasks: [{
+		uid: "739e1c82",
+		type: "item",
+		items: [{
+			id: "forestry:ffarm",
+			tag: {
+				FarmBlock: 0
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "4e1f8afc",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "a2b862fd",
+		type: "xp",
+		xp: 600
+	}]
+}

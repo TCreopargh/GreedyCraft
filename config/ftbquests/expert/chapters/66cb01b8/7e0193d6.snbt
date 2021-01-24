@@ -1,0 +1,33 @@
+
+{
+	title: "{greedycraft.quest.7e0193d6.title}",
+	x: -6.0d,
+	y: 1.0d,
+	description: "{greedycraft.quest.7e0193d6.desc}",
+	dependencies: [
+		"8ee4845a"
+	],
+	tasks: [{
+		uid: "975a02f2",
+		type: "item",
+		items: [{
+			item: "bloodmagic:soul_snare"
+		}]
+	}],
+	rewards: [{
+		uid: "5a67a893",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "d3b81686",
+		type: "item",
+		item: "bloodmagic:soul_snare",
+		count: 16
+	},
+	{
+		uid: "0b06367e",
+		type: "xp",
+		xp: 500
+	}]
+}

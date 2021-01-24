@@ -1,0 +1,44 @@
+
+{
+	title: "{greedycraft.quest.224f8b52.title}",
+	x: -7.0d,
+	y: 1.5d,
+	description: "{greedycraft.quest.224f8b52.desc}",
+	dependencies: [
+		"b2b1d53a"
+	],
+	tasks: [{
+		uid: "9cb3e8bd",
+		type: "item",
+		items: [{
+			item: "botania:pool"
+		}]
+	}],
+	rewards: [{
+		uid: "62d1c096",
+		type: "xp",
+		xp: 200
+	},
+	{
+		uid: "8360880e",
+		type: "item",
+		item: {
+			id: "botania:specialflower",
+			tag: {
+				type: "endoflame"
+			}
+		},
+		count: 4
+	},
+	{
+		uid: "7c8e15c1",
+		type: "item",
+		item: "botania:blacklotus",
+		count: 2
+	},
+	{
+		uid: "82154761",
+		type: "loot",
+		table: 0
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	title: "{greedycraft.quest.9d02e3fc.title}",
+	x: -2.0d,
+	y: 15.5d,
+	description: "{greedycraft.quest.9d02e3fc.desc}",
+	tasks: [{
+		uid: "85fe6875",
+		type: "item",
+		items: [{
+			item: "additions:terra_alloy_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "e3c75c59",
+		type: "loot",
+		table: 3
+	},
+	{
+		uid: "5f0d39fc",
+		type: "xp",
+		xp: 25000
+	},
+	{
+		uid: "766bd3c9",
+		type: "item",
+		item: "additions:terra_alloy_ingot",
+		count: 3
+	}]
+}

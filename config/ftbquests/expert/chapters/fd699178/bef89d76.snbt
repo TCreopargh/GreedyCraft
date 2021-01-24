@@ -1,0 +1,44 @@
+
+{
+	title: "{greedycraft.quest.bef89d76.title}",
+	x: -2.0d,
+	y: -3.0d,
+	description: "{greedycraft.quest.bef89d76.desc}",
+	tasks: [{
+		uid: "6e4de3ea",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:sky_stone_block"
+		}]
+	}],
+	rewards: [{
+		uid: "20f498e4",
+		type: "item",
+		item: "appliedenergistics2:material 1 13"
+	},
+	{
+		uid: "f4eb3613",
+		type: "item",
+		item: "appliedenergistics2:material 1 14"
+	},
+	{
+		uid: "1a3a9768",
+		type: "item",
+		item: "appliedenergistics2:material 1 15"
+	},
+	{
+		uid: "a849ef38",
+		type: "item",
+		item: "appliedenergistics2:material 1 19"
+	},
+	{
+		uid: "5f244019",
+		type: "xp",
+		xp: 200
+	},
+	{
+		uid: "9471a49e",
+		type: "loot",
+		table: 0
+	}]
+}

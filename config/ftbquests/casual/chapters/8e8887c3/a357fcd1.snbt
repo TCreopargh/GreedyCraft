@@ -1,0 +1,75 @@
+
+{
+	title: "{greedycraft.quest.a357fcd1.title}",
+	icon: "minecraft:skull 1 1",
+	disable_toast: true,
+	x: 10.0d,
+	y: -4.0d,
+	shape: "rsquare",
+	description: "{greedycraft.quest.a357fcd1.desc}",
+	text: [
+		"This will increase your game difficulty even further.",
+		"§c凋灵只会在主世界难度为120以上且被玩家杀死时掉落下界之星"
+	],
+	dependencies: [
+		"459b608d"
+	],
+	tasks: [{
+		uid: "d7d9fcf7",
+		type: "kill",
+		entity: "minecraft:wither",
+		value: 1L
+	},
+	{
+		uid: "d24b67a3",
+		type: "item",
+		items: [{
+			item: "minecraft:nether_star"
+		}]
+	}],
+	rewards: [{
+		uid: "f8547033",
+		type: "item",
+		item: "mysticalagriculture:wither_skeleton_seeds",
+		count: 3
+	},
+	{
+		uid: "6392ebe1",
+		type: "item",
+		item: "minecraft:nether_star"
+	},
+	{
+		uid: "3b0306eb",
+		type: "xp",
+		xp: 7500
+	},
+	{
+		uid: "13352c37",
+		type: "command",
+		title: "§5Another notification",
+		auto: "enabled",
+		command: "/tellraw @p {\"text\":\"§4§oThe withered soul of the Wither is about to bring death and evil to your world.\"}"
+	},
+	{
+		uid: "977e1b58",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "6996336c",
+		type: "item",
+		item: "additions:tcsponsors-sponsors_chest"
+	},
+	{
+		uid: "b36b4227",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "wither_slayer"
+	},
+	{
+		uid: "9d3c8d9b",
+		type: "command",
+		auto: "no_toast",
+		command: "/scalinghealth difficulty set 256 @p"
+	}]
+}

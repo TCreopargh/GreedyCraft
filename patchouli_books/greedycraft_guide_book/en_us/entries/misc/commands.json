@@ -1,0 +1,22 @@
+{
+    "name": "Commands",
+    "icon": "minecraft:command_block",
+    "category": "patchouli:misc_category",
+    "pages": [{
+            "type": "text",
+            "text": "$(2)Here are some useful commands added by this modpack or other mods. $(5)They can be used in every packmode without cheats enabled, if not specified.$()$(li)$(2)/purge$(): Clears all dropped items, might boost performance.$(li)$(2)/hidescoreboard$(): Hide the scoreboard until next join$(li)$(2)/sampler gc$(): (Server side) Force Java to do a garbage collection to reduce RAM usage and boost performance. (Suggested in singleplayer)"
+        },
+        {
+            "type": "text",
+            "text": "$(li)$(2)/cleanmemory$(): (Client side) Force garbage collect (Shortcut in R-button menu) $(li)$(2)/forge tps$(): View server TPS (Tick per second), lower than 20 means server is laggy$(li)$(2)/backupsmod backup$(): Manually initiate a world backup$(li)$(2)/mca$(): A bunch of Minecraft: comes alive commands$(li)$(2)/deathcounter$(): Shows death leaderboard, you can also do this by right clicking with a death counter."
+        },
+        {
+            "type": "text",
+            "text": "$(li)$(2)/suicide$(): Kills yourself, use when you're stuck $(li)$(2)/trash_can$(): Opens a big trashcan, when closing the interface all items inside will vanish.$(li)$(2)//$$(2)$(k)wussmode$(): Enter cheat mode and allows usage of commands.$(4) Needs OP permission and can't be undone$() $(li)$(2)/hidedeathquotes$(): Turn off random death quotes. $(li)$(2)/showdeathquotes$(): Turn on random death quotes."
+        },
+        {
+            "type": "text",
+            "text": "$(li)$(2)/unlockallstages$(): Unlocks all game stages. $(4)Needs OP perms and cheat mode enabled$(li)$(2)/lockallstages$(): Lock all game stages again$(4)Needs OP perms and cheat mode enabled"
+        }
+    ]
+}

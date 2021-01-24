@@ -1,0 +1,29 @@
+
+{
+	title: "{greedycraft.quest.852cdf55.title}",
+	x: 0.5d,
+	y: 1.5d,
+	description: "{greedycraft.quest.852cdf55.desc}",
+	dependencies: [
+		"4252e75f"
+	],
+	tasks: [{
+		uid: "c50a4a6f",
+		type: "item",
+		items: [{
+			id: "mekanismgenerators:generator",
+			Damage: 5s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "81e225bd",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "a1bae086",
+		type: "xp",
+		xp: 600
+	}]
+}

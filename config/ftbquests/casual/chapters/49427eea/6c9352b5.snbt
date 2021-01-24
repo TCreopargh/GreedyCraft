@@ -1,0 +1,34 @@
+
+{
+	title: "{greedycraft.quest.6c9352b5.title}",
+	x: 18.5d,
+	y: 4.5d,
+	description: "{greedycraft.quest.6c9352b5.desc}",
+	dependencies: [
+		"a47d1237",
+		"02db1549"
+	],
+	tasks: [{
+		uid: "2af8b604",
+		type: "item",
+		items: [{
+			item: "bigreactors:reactorcasing"
+		}]
+	}],
+	rewards: [{
+		uid: "bfa47d9f",
+		type: "item",
+		item: "bigreactors:reactorcasing",
+		count: 16
+	},
+	{
+		uid: "eea83c77",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "97e9252d",
+		type: "xp",
+		xp: 800
+	}]
+}

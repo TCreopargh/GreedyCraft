@@ -1,0 +1,32 @@
+{
+	title: "{greedycraft.quest.ec46a50d.title}",
+	x: -7.0d,
+	y: -0.5d,
+	description: "{greedycraft.quest.ec46a50d.desc}",
+	dependencies: [
+		"09f3e2c7",
+		"06264bbf"
+	],
+	tasks: [{
+		uid: "cc0107d1",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 7"
+		}]
+	}],
+	rewards: [{
+		uid: "287a5830",
+		type: "xp",
+		xp: 50
+	},
+	{
+		uid: "69dcad4d",
+		type: "item",
+		item: "appliedenergistics2:grindstone"
+	},
+	{
+		uid: "2afa0725",
+		type: "loot",
+		table: 0
+	}]
+}

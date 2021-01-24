@@ -1,0 +1,9 @@
+{
+  "name": "§bBounty Hunter Medal §7[§aEmerald§7]",
+  "tooltip": [
+    "§bThis medal looks very special!",
+    "§eRight click to turn nearby villagers into Bounty Merchants.",
+    "§7Has a chance to be rewarded by bounties."
+  ],
+  "type": "additions:simple"
+}

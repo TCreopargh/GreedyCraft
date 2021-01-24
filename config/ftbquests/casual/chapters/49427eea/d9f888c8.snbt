@@ -1,0 +1,34 @@
+
+{
+	title: "{greedycraft.quest.d9f888c8.title}",
+	x: 18.5d,
+	y: -8.0d,
+	description: "{greedycraft.quest.d9f888c8.desc}",
+	dependencies: [
+		"fc06ad9c",
+		"8ffd3686"
+	],
+	tasks: [{
+		uid: "22c866bb",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_display_stand"
+		}]
+	}],
+	rewards: [{
+		uid: "b5b1b1fd",
+		type: "item",
+		item: "minecraft:clay",
+		count: 32
+	},
+	{
+		uid: "432a70d3",
+		type: "xp",
+		xp: 300
+	},
+	{
+		uid: "56c1b08b",
+		type: "loot",
+		table: 1
+	}]
+}

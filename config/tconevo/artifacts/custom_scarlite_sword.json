@@ -1,0 +1,12 @@
+{
+    "weight": 60,
+    "type": "tconevo:tool",
+    "name": "Sword of the unnamed hero",
+    "lore": "All brilliant epics come with sacrifices.",
+    "tool": "longbow",
+    "materials": [
+        "emerald_plustic",
+        "scarlite",
+        "bone"
+    ]
+}

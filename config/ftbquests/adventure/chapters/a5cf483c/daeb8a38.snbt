@@ -1,0 +1,36 @@
+{
+	title: "{greedycraft.quest.daeb8a38.title}",
+	x: -3.5d,
+	y: -2.0d,
+	description: "{greedycraft.quest.daeb8a38.desc}",
+	tasks: [{
+		uid: "37392953",
+		type: "item",
+		title: "Anything that matches this ore dictionary: §b<stoneMarble>",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "stoneMarble",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	}],
+	rewards: [{
+		uid: "f1a944a0",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "944e0f0e",
+		type: "xp",
+		xp: 160
+	},
+	{
+		uid: "478b00a8",
+		type: "item",
+		item: "astralsorcery:blockmarble",
+		count: 24
+	}]
+}

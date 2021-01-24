@@ -1,0 +1,22 @@
+{
+	title: "§6Switch to: §6§nAdventure Mode",
+	icon: {
+		id: "minecraft:diamond_sword"
+	},
+	x: 5.5d,
+	y: -0.625d,
+	can_repeat: true,
+	size: 2.5d,
+	tasks: [{
+		uid: "666dc188",
+		type: "checkmark",
+		title: "§6Click this button to switch to Adventure Mode"
+	}],
+	rewards: [{
+		uid: "2a015ae7",
+		type: "command",
+		auto: "no_toast",
+		command: "/packmode adventure",
+		player_command: true
+	}]
+}

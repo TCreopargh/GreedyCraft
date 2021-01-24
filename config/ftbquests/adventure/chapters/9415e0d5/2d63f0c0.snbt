@@ -1,0 +1,24 @@
+{
+	title: "{greedycraft.quest.2d63f0c0.title}",
+	x: -6.0d,
+	y: 13.5d,
+	description: "{greedycraft.quest.2d63f0c0.desc}",
+	tasks: [{
+		uid: "27202258",
+		type: "item",
+		items: [{
+			id: "jecalculation:item_calculator"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6dec4dfb",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "07cbd35c",
+		type: "xp",
+		xp: 250
+	}]
+}

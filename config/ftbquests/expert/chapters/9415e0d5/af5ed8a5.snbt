@@ -1,0 +1,32 @@
+
+{
+	title: "{greedycraft.quest.af5ed8a5.title}",
+	x: 2.0d,
+	y: 15.5d,
+	description: "{greedycraft.quest.af5ed8a5.desc}",
+	tasks: [{
+		uid: "b60d2701",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:growth_accelerator"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7aa91b14",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "25d3bd29",
+		type: "xp",
+		xp: 750
+	},
+	{
+		uid: "ad89c515",
+		type: "item",
+		item: "mysticalagriculture:growth_accelerator",
+		count: 4,
+		random_bonus: 4
+	}]
+}

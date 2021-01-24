@@ -1,0 +1,27 @@
+{
+	title: "{greedycraft.quest.f4ac20e1.title}",
+	x: -8.0d,
+	y: 15.5d,
+	description: "{greedycraft.quest.f4ac20e1.desc}",
+	dependencies: [
+		"dfdf1d06"
+	],
+	tasks: [{
+		uid: "d62efc49",
+		type: "item",
+		items: [{
+			item: "fluxnetworks:fluxcontroller"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e3765788",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "72511a42",
+		type: "xp",
+		xp: 1200
+	}]
+}

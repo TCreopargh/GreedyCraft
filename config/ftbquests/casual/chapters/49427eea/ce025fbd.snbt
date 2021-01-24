@@ -1,0 +1,35 @@
+
+{
+	title: "{greedycraft.quest.ce025fbd.title}",
+	x: -7.0d,
+	y: 7.0d,
+	description: "{greedycraft.quest.ce025fbd.desc}",
+	dependencies: [
+		"12db3c68"
+	],
+	tasks: [{
+		uid: "bccd49bd",
+		type: "item",
+		items: [{
+			item: "enderio:block_simple_sag_mill"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8c62319b",
+		type: "xp",
+		xp: 400
+	},
+	{
+		uid: "d7886362",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "e0d8171c",
+		type: "item",
+		item: "thermalfoundation:material 1 1",
+		count: 16
+	}]
+}

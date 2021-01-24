@@ -1,0 +1,62 @@
+{
+	title: "{greedycraft.quest.464fff41.title}",
+	icon: "minecraft:diamond",
+	x: 0.0d,
+	y: -2.0d,
+	shape: "rsquare",
+	description: "{greedycraft.quest.464fff41.desc}",
+	text: [
+		"§e§eFor how to use a /dank/null see the modpack guide book"
+	],
+	dependencies: [
+		"bb3d9aaa"
+	],
+	tasks: [{
+		uid: "1662845c",
+		type: "item",
+		title: "Any gemDiamond",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "gemDiamond",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	}],
+	rewards: [{
+		uid: "90a6ab84",
+		type: "xp",
+		xp: 250
+	},
+	{
+		uid: "53e6b1b7",
+		type: "item",
+		item: "minecraft:bread",
+		count: 10
+	},
+	{
+		uid: "b7d5745d",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "5d244c49",
+		type: "item",
+		item: {
+			id: "danknull:dank_null_2"
+		}
+	},
+	{
+		uid: "0051cc2e",
+		type: "item",
+		item: "additions:greedycraft-medkit_small",
+		count: 2
+	},
+	{
+		uid: "18a3b977",
+		type: "item",
+		item: "prefab:item_start_house"
+	}]
+}

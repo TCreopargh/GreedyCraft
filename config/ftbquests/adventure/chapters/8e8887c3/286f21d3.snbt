@@ -1,0 +1,31 @@
+{
+	title: "{greedycraft.quest.286f21d3.title}",
+	icon: {
+		id: "ftbquests:custom_icon",
+		tag: {
+			icon: "greedycraft:mainmenu/logo.png"
+		}
+	},
+	x: -10.0d,
+	y: -2.0d,
+	shape: "rsquare",
+	description: "{greedycraft.quest.286f21d3.desc}",
+	text: [
+		"How to use the Omnipedia: right click to turn it into one of the books, left click air with it to turn it back. Press / on numpad when sneaking to throw the current book out of the Omnipedia."
+	],
+	tasks: [{
+		uid: "818939bc",
+		type: "dimension",
+		icon: "minecraft:grass",
+		dim: 0
+	}],
+	rewards: [{
+		uid: "6fb9a7b7",
+		type: "command",
+		title: "§eClick to claim your §dOmnipedia§e!",
+		icon: {
+			id: "akashictome:tome"
+		},
+		command: "/giveomnipedia @p"
+	}]
+}

@@ -1,0 +1,11 @@
+{
+	title: "{greedycraft.quest.8ee4845a.title}",
+	x: -9.5d,
+	y: 1.0d,
+	description: "{greedycraft.quest.8ee4845a.desc}",
+	tasks: [{
+		uid: "8e97786b",
+		type: "gamestage",
+		stage: "novice_wizard"
+	}]
+}

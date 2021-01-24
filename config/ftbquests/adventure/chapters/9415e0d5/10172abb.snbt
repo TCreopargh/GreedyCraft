@@ -1,0 +1,31 @@
+{
+	title: "{greedycraft.quest.10172abb.title}",
+	x: -2.0d,
+	y: 9.5d,
+	description: "{greedycraft.quest.10172abb.desc}",
+	tasks: [{
+		uid: "edecb989",
+		type: "item",
+		items: [{
+			id: "bountifulbaubles:trinketankhcharm"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "47ecea00",
+		type: "item",
+		item: "bountifulbaubles:spectralsilt",
+		count: 10
+	},
+	{
+		uid: "839c76d6",
+		type: "xp",
+		xp: 5000
+	},
+	{
+		uid: "5d98ab7e",
+		type: "loot",
+		table: 2
+	}]
+}

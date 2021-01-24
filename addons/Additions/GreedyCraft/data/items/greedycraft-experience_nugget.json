@@ -1,0 +1,9 @@
+{
+  "name": "§aKnowledge Essence Nugget",
+  "tooltip": [
+    "§7Used to store XP",
+    "§aRight click to consume and gain XP"
+  ],
+  "ore_dict": "nuggetExperience",
+  "type": "additions:simple"
+}

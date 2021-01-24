@@ -1,0 +1,15 @@
+{
+	"name": "Sunken Ship 3",
+	"description": "",
+	"author": "mason",
+	"archetypes": ["submerged"],
+	"type": "ruin",
+	"rarities": ["common"],
+	"biomeWhiteList": ["ocean", "deep_ocean"],
+	"biomeBlackList": [],
+	"offset": {
+		"x": 0,
+		"y": -4,
+		"z": 0
+	}
+}

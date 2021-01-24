@@ -1,0 +1,27 @@
+
+{
+	title: "{greedycraft.quest.8808a304.title}",
+	x: 1.5d,
+	y: 2.5d,
+	description: "{greedycraft.quest.8808a304.desc}",
+	dependencies: [
+		"b1243a42"
+	],
+	tasks: [{
+		uid: "42926f8e",
+		type: "item",
+		items: [{
+			item: "gendustry:extractor"
+		}]
+	}],
+	rewards: [{
+		uid: "832c09fa",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "adc831ff",
+		type: "xp",
+		xp: 800
+	}]
+}

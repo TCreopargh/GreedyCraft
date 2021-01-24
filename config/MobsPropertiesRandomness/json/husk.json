@@ -1,0 +1,12 @@
+{
+    "mob_id": "minecraft:husk",
+    "attributes": [
+        {
+            "id": "generic.maxHealth",
+            "modifier": {
+                "min": 25
+            },
+            "isflat": false
+        }
+    ]
+}

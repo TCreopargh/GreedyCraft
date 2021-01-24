@@ -1,0 +1,33 @@
+
+{
+	title: "{greedycraft.quest.85e1cf77.title}",
+	x: 3.0d,
+	y: 2.0d,
+	description: "{greedycraft.quest.85e1cf77.desc}",
+	dependencies: [
+		"ca1e79df"
+	],
+	tasks: [{
+		uid: "8d9078b5",
+		type: "item",
+		items: [{
+			item: "bloodarsenal:blood_infused_wooden_log"
+		}]
+	}],
+	rewards: [{
+		uid: "031121b3",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "1b6a8aa3",
+		type: "item",
+		item: "bloodarsenal:blood_infused_wooden_log",
+		count: 8
+	},
+	{
+		uid: "b6b8e285",
+		type: "xp",
+		xp: 1000
+	}]
+}

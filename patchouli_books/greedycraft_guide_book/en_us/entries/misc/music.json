@@ -1,0 +1,19 @@
+{
+    "name": "Music",
+    "icon": "ambience:soundnizer",
+    "category": "patchouli:misc_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "In this modpack some background music will be played during many events, like boss battles, in underground, in villages, etc. It's recommended to wear headphones. If the music stops playing for some reason (a forge bug), use - key on the numpad to reload it."
+        },
+        {
+            "type": "text",
+            "text": "If you want to listen to music at your base, you can make a $(9)Soundnizer$() (recipe below), select an area with a right click and a left click, and right click air to select the music you want to be played."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:auto_gen_1438924738"
+        }
+    ]
+}

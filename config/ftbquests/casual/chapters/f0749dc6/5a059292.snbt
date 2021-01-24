@@ -1,0 +1,49 @@
+
+{
+	title: "{greedycraft.quest.5a059292.title}",
+	icon: "minecraft:skull 1 1",
+	x: 4.5d,
+	y: 5.0d,
+	description: "{greedycraft.quest.5a059292.desc}",
+	dependencies: [
+		"989440de"
+	],
+	tasks: [{
+		uid: "8d1a40f5",
+		type: "kill",
+		entity: "minecraft:wither",
+		value: 64L
+	}],
+	rewards: [{
+		uid: "3b9c9f9d",
+		type: "xp",
+		xp: 150000
+	},
+	{
+		uid: "a7c0f65a",
+		type: "item",
+		item: "draconicevolution:awakened_core",
+		count: 32
+	},
+	{
+		uid: "260a90cd",
+		type: "item",
+		item: "minecraft:nether_star",
+		count: 128
+	},
+	{
+		uid: "caef33a8",
+		type: "item",
+		item: "tconstruct:materials 1 50"
+	},
+	{
+		uid: "e14287ea",
+		type: "item",
+		item: "additions:greedycraft-ordinary_medal"
+	},
+	{
+		uid: "795e4191",
+		type: "loot",
+		table: 3
+	}]
+}

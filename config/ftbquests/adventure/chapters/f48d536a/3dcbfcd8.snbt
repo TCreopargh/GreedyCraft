@@ -1,0 +1,27 @@
+{
+	title: "{greedycraft.quest.3dcbfcd8.title}",
+	x: 14.0d,
+	y: 0.0d,
+	description: "{greedycraft.quest.3dcbfcd8.desc}",
+	dependencies: [
+		"a9a0ce2d",
+		"58c101a2"
+	],
+	tasks: [{
+		uid: "3550651b",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:dreadkey"
+		}]
+	}],
+	rewards: [{
+		uid: "127aea96",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "945a269e",
+		type: "xp",
+		xp: 4000
+	}]
+}

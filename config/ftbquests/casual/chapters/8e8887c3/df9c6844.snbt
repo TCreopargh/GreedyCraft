@@ -1,0 +1,37 @@
+
+{
+	title: "{greedycraft.quest.df9c6844.title}",
+	x: 0.0d,
+	y: 0.0d,
+	shape: "pentagon",
+	description: "{greedycraft.quest.df9c6844.desc}",
+	dependencies: [
+		"464fff41"
+	],
+	tasks: [{
+		uid: "27dc9407",
+		type: "item",
+		items: [{
+			id: "projecte:item.pe_philosophers_stone",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c9f16be8",
+		type: "xp",
+		xp: 400
+	},
+	{
+		uid: "37351c76",
+		type: "item",
+		item: "minecraft:glowstone_dust",
+		count: 64
+	},
+	{
+		uid: "38c0bb2e",
+		type: "loot",
+		table: 1
+	}]
+}

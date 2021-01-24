@@ -1,0 +1,29 @@
+
+{
+	title: "{greedycraft.quest.7f13c9f8.title}",
+	x: 0.5d,
+	y: 2.0d,
+	description: "{greedycraft.quest.7f13c9f8.desc}",
+	dependencies: [
+		"9d90bb25"
+	],
+	tasks: [{
+		uid: "e91867e7",
+		type: "item",
+		items: [{
+			item: "ae2stuff:inscriber"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9acdb7a2",
+		type: "item",
+		item: "ae2stuff:inscriber",
+		count: 4
+	},
+	{
+		uid: "88dc9818",
+		type: "loot",
+		table: 1
+	}]
+}

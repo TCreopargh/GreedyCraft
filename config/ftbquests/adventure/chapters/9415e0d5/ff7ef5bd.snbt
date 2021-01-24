@@ -1,0 +1,23 @@
+{
+	title: "{greedycraft.quest.ff7ef5bd.title}",
+	x: -2.0d,
+	y: 13.5d,
+	description: "{greedycraft.quest.ff7ef5bd.desc}",
+	tasks: [{
+		uid: "8eef84fb",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-death_coin"
+		}]
+	}],
+	rewards: [{
+		uid: "10d602e4",
+		type: "xp",
+		xp: 10000
+	},
+	{
+		uid: "6291667e",
+		type: "loot",
+		table: 3
+	}]
+}

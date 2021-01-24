@@ -1,0 +1,19 @@
+{
+    "name": "Deaths",
+    "icon": "additions:greedycraft-death_counter",
+    "category": "patchouli:quick_start_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "In this modpack, death punishment vary depending on your packmode. $(br)In $(2)Casual$() and $(6)Adventure$() modes, you only lose $(4)75% of your EXP$(), going back to your death location can get some of your lost EXP back. EXP is very important so try not to die.$(br)In $(c)Expert$() mode, you lose $(4)50% of your items$() randomly upon death. "
+        },
+        {
+            "type": "text",
+            "text": "In expert mode a grave will spawn at your death location and if you walk on it while sneaking you can get all items back. The lost items list can help you find your grave. You can use an $(2)XP Block$() to store experience so that they won't be lost. Right click an XP block to withdraw XP and shift-right-click it to deposit XP. A $(5)Soul Bound$() modifier on your Tinkers' tools can prevent it from being lost upon death."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:xp_block"
+        }
+    ]
+}

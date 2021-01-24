@@ -1,0 +1,9 @@
+{
+  "name": "§aLucky Clover",
+  "tooltip": [
+    "§bThe symbol of luck.",
+    "§2§oIn real life it has a 1/5000 chance to be found in clovers.",
+    "§7Can be obtained by punching tall grass. (Low chance!)"
+  ],
+  "type": "additions:simple"
+}

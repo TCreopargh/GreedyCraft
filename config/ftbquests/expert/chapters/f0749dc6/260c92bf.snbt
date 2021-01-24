@@ -1,0 +1,38 @@
+
+{
+	title: "{greedycraft.quest.260c92bf.title}",
+	icon: {
+		id: "minecraft:wooden_sword"
+	},
+	x: -3.0d,
+	y: -3.0d,
+	description: "{greedycraft.quest.260c92bf.desc}",
+	tasks: [{
+		uid: "60d4757a",
+		type: "stat",
+		stat: "stat.mobKills",
+		value: 100
+	}],
+	rewards: [{
+		uid: "59c807d1",
+		type: "item",
+		item: "tinymobfarm:wood_farm"
+	},
+	{
+		uid: "9ebc87d6",
+		type: "xp",
+		xp: 250
+	},
+	{
+		uid: "5471ac95",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "405633b4",
+		type: "item",
+		item: {
+			id: "thermalfoundation:tool.sword_bronze"
+		}
+	}]
+}

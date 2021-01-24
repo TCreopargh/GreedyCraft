@@ -1,0 +1,18 @@
+{
+    "name": "§3Side Quests",
+    "icon": "thaumcraft:curio",
+    "category": "patchouli:guide_category",
+    "pages": [{
+            "type": "text",
+            "text": "$(2)Apart from the main questline which is based on adventure, there are two separate routes: tech and magic. $()Making progress in side quests is very helpful for the main questline and main questline also affects how far you can progress in side quests. You should do these side routes as soon as you can to make survival more easy. Here's the order to unlock them."
+        },
+        {
+            "type": "text",
+            "text": "$(9)$(l)Tech$()$(br2)Tech route: $(9)Thermal Series$() ->$(3)Ender IO$() -> $(2)Mekanism$() -> rest of the Tech route."
+        },
+        {
+            "type": "text",
+            "text": "$(5)$(l)Magic$()$(br2)$(5)Aspect Crystals$() -> $(d)Salis Mundus$() -> $(5)Beginning of Astral Sorcery$() -> $(c)novice_wizard stage$() -> $(c)Blood Magic$() -> $(c)skilled_wizard stage$() -> $(5)Rest of Astral Sorcery$() -> $(c)master_wizard stage$() -> rest of the Magic route."
+        }
+    ]
+}

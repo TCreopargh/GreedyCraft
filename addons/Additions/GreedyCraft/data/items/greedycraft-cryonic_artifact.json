@@ -1,0 +1,10 @@
+{
+  "name": "§bCryonic Artifact",
+  "shines": true,
+  "tooltip": [
+    "§3It is cold enough to freeze the sun.",
+    "§3Right click to consume and nerf all nearby Sun Spirits to 1HP."
+  ],
+  "max_stack": 1,
+  "type": "additions:simple"
+}

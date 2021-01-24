@@ -1,0 +1,8 @@
+{
+  "name": "§d§oInfinity Stone",
+  "shines": true,
+  "tooltip": "§5For the worthy...",
+  "max_stack": 1,
+  "ore_dict": "itemInfinityStone",
+  "type": "additions:simple"
+}

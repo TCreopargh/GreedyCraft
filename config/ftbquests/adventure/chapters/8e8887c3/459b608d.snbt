@@ -1,0 +1,33 @@
+{
+	title: "{greedycraft.quest.459b608d.title}",
+	x: 8.0d,
+	y: -4.0d,
+	shape: "rsquare",
+	description: "{greedycraft.quest.459b608d.desc}",
+	dependencies: [
+		"d0e042f0",
+		"41a9cc0f"
+	],
+	tasks: [{
+		uid: "5ec75d08",
+		type: "item",
+		items: [{
+			item: "minecraft:skull 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "d91f58cc",
+		type: "item",
+		item: "minecraft:skull 1 1"
+	},
+	{
+		uid: "290d470f",
+		type: "xp",
+		xp: 1500
+	},
+	{
+		uid: "15ed1cd9",
+		type: "loot",
+		table: 1
+	}]
+}

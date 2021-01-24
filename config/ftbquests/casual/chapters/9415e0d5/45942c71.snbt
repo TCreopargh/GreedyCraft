@@ -1,0 +1,30 @@
+
+{
+	title: "{greedycraft.quest.45942c71.title}",
+	x: 6.0d,
+	y: 15.5d,
+	description: "{greedycraft.quest.45942c71.desc}",
+	tasks: [{
+		uid: "4ae7e5b1",
+		type: "item",
+		items: [{
+			item: "enderstorage:ender_storage"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7730a7d1",
+		type: "item",
+		item: "enderstorage:ender_storage"
+	},
+	{
+		uid: "fa72d2d0",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "e9515041",
+		type: "xp",
+		xp: 600
+	}]
+}

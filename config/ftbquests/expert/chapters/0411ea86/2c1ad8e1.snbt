@@ -1,0 +1,41 @@
+
+{
+	title: "{greedycraft.quest.2c1ad8e1.title}",
+	icon: "twilightforest:trophy 1 4",
+	x: 1.5d,
+	y: -1.0d,
+	description: "{greedycraft.quest.2c1ad8e1.desc}",
+	dependencies: [
+		"11643307"
+	],
+	tasks: [{
+		uid: "8ff1ed9f",
+		type: "item",
+		items: [{
+			item: "twilightforest:trophy 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "0b07e991",
+		type: "item",
+		item: "twilightforest:knightmetal_ingot",
+		count: 16
+	},
+	{
+		uid: "205b8f19",
+		type: "xp",
+		xp: 600
+	},
+	{
+		uid: "a3d8b0cb",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "7ae1c57b",
+		type: "advancement",
+		auto: "no_toast",
+		advancement: "twilightforest:progress_knights",
+		criterion: ""
+	}]
+}

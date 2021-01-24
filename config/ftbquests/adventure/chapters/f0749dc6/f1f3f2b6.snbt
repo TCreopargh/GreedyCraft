@@ -1,0 +1,49 @@
+{
+	title: "{greedycraft.quest.f1f3f2b6.title}",
+	icon: {
+		id: "minecraft:diamond_boots"
+	},
+	x: -0.5d,
+	y: 5.0d,
+	description: "{greedycraft.quest.f1f3f2b6.desc}",
+	dependencies: [
+		"aceed8d4"
+	],
+	tasks: [{
+		uid: "30fe9de3",
+		type: "stat",
+		icon: {
+			id: "minecraft:iron_boots"
+		},
+		stat: "stat.walkOneCm",
+		value: 100000000
+	}],
+	rewards: [{
+		uid: "fa388e60",
+		type: "xp",
+		xp: 100000
+	},
+	{
+		uid: "287180f9",
+		type: "item",
+		item: "tconstruct:materials 1 50"
+	},
+	{
+		uid: "d3f5c8ed",
+		type: "item",
+		item: "additions:greedycraft-ordinary_medal"
+	},
+	{
+		uid: "2fd74d91",
+		type: "loot",
+		table: 3
+	},
+	{
+		uid: "b726ae6a",
+		type: "item",
+		item: {
+			id: "extrautils2:angelring",
+			Damage: 2s
+		}
+	}]
+}

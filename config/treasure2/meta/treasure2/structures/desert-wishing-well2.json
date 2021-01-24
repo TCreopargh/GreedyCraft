@@ -1,0 +1,17 @@
+{
+	"name": "desert-wishing-well2",
+	"description": "",
+	"author": "gottsch",
+	"archetypes": ["surface"],
+	"type": "well",
+	"rarities": ["common"],
+	"biomeWhiteList": ["desert"],
+	"biomeBlackList": [],
+	"includeFog": false,
+	"verticalOffset": -6,
+	"offset": {
+		"x": 0,
+		"y": -6,
+		"z": 0
+		}
+}

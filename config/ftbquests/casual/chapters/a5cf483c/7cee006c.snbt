@@ -1,0 +1,43 @@
+
+{
+	x: 11.5d,
+	y: -2.0d,
+	dependencies: [
+		"7ba94111"
+	],
+	tasks: [{
+		uid: "47889804",
+		type: "item",
+		items: [{
+			id: "astralsorcery:blockprism",
+			tag: {
+				astralsorcery: {
+					crystalProperties: {
+						collectiveCapability: 100,
+						size: 900,
+						fract: 0,
+						purity: 100,
+						sizeOverride: -1
+					}
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2e61ffef",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "60ce2b72",
+		type: "xp",
+		xp: 2400
+	},
+	{
+		uid: "af91dcb1",
+		type: "item",
+		item: "astralsorcery:itemcraftingcomponent 1 4",
+		count: 4
+	}]
+}

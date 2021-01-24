@@ -1,0 +1,35 @@
+
+{
+	title: "{greedycraft.quest.4f3a644d.title}",
+	x: 6.5d,
+	y: 2.0d,
+	description: "{greedycraft.quest.4f3a644d.desc}",
+	dependencies: [
+		"019a77ed"
+	],
+	tasks: [{
+		uid: "5148999b",
+		type: "item",
+		items: [{
+			id: "astralsorcery:blockaltar",
+			Damage: 2s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0a018121",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "ccbe4378",
+		type: "xp",
+		xp: 1200
+	},
+	{
+		uid: "da94ad8e",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "novice_wizard"
+	}]
+}

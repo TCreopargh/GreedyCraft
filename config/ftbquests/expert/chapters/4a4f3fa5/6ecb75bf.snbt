@@ -1,0 +1,32 @@
+
+{
+	title: "{greedycraft.quest.6ecb75bf.title}",
+	x: 0.5d,
+	y: -2.0d,
+	description: "{greedycraft.quest.6ecb75bf.desc}",
+	dependencies: [
+		"6ffc6415"
+	],
+	tasks: [{
+		uid: "417b8035",
+		type: "item",
+		items: [{
+			item: "botania:pylon 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "16844da9",
+		type: "item",
+		item: "mysticalagriculture:terrasteel_seeds"
+	},
+	{
+		uid: "82e691fc",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "7a01fee2",
+		type: "xp",
+		xp: 1000
+	}]
+}

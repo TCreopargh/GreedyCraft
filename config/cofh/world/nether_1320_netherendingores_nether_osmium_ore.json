@@ -1,0 +1,29 @@
+{
+	"dependencies": "netherendingores",
+	"populate": {
+		"nether-osmium": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "netherendingores:ore_nether_modded_1",
+					"properties": {
+						"blocks": "osmium_ore"
+					}
+				},
+				"material": "minecraft:netherrack",
+				"cluster-size": 7
+			},
+			"cluster-count": 8,
+			"min-height": 10,
+			"max-height": 118,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-1
+				]
+			}
+		}
+	}
+}

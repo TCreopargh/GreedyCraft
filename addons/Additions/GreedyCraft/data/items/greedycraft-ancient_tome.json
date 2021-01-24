@@ -1,0 +1,10 @@
+{
+  "name": "§bAncient Tome",
+  "shines": true,
+  "tooltip": [
+    "§eYou have finally restored the artifact of the ancients.",
+    "§eIt's all written in a strange language you don't understand.",
+    "§eBut you still think this is gonna be very useful."
+  ],
+  "type": "additions:simple"
+}

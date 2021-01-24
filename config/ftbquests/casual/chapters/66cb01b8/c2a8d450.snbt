@@ -1,0 +1,42 @@
+
+{
+	title: "{greedycraft.quest.c2a8d450.title}",
+	x: 12.0d,
+	y: 3.0d,
+	description: "{greedycraft.quest.c2a8d450.desc}",
+	dependencies: [
+		"800217e4"
+	],
+	tasks: [{
+		uid: "0d914284",
+		type: "item",
+		items: [{
+			item: "bloodmagic:slate 1 3"
+		}]
+	}],
+	rewards: [{
+		uid: "22139d58",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "afffb6c3",
+		type: "xp",
+		xp: 2000
+	},
+	{
+		uid: "99ff9d28",
+		type: "item",
+		item: "bloodmagic:blood_rune 1 3"
+	},
+	{
+		uid: "019628e1",
+		type: "item",
+		item: "bloodmagic:blood_rune 1 9"
+	},
+	{
+		uid: "ff6a5878",
+		type: "item",
+		item: "bloodmagic:blood_rune 1 5"
+	}]
+}

@@ -1,0 +1,28 @@
+
+{
+	title: "{greedycraft.quest.74048d38.title}",
+	x: 6.5d,
+	y: -1.5d,
+	description: "{greedycraft.quest.74048d38.desc}",
+	dependencies: [
+		"5a9b6af9",
+		"ac74928a"
+	],
+	tasks: [{
+		uid: "570fbda4",
+		type: "item",
+		items: [{
+			item: "thaumcraft:smelter_void"
+		}]
+	}],
+	rewards: [{
+		uid: "fd930af7",
+		type: "xp",
+		xp: 8000
+	},
+	{
+		uid: "d255c21c",
+		type: "loot",
+		table: 2
+	}]
+}

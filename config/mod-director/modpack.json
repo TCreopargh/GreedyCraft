@@ -1,0 +1,8 @@
+{
+    "packName": "GreedyCraft",
+    "icon": {
+        "path": "resources/greedycraft/icons/logo.png",
+        "width": 128,
+        "height": 128
+    }
+}

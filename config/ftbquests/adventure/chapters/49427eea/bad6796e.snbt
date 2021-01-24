@@ -1,0 +1,26 @@
+{
+	title: "{greedycraft.quest.bad6796e.title}",
+	x: -12.5d,
+	y: 0.0d,
+	description: "{greedycraft.quest.bad6796e.desc}",
+	dependencies: [
+		"e074db01"
+	],
+	tasks: [{
+		uid: "47bfad27",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:augment 1 576"
+		}]
+	}],
+	rewards: [{
+		uid: "dd04d61b",
+		type: "xp",
+		xp: 600
+	},
+	{
+		uid: "33cba2f1",
+		type: "loot",
+		table: 1
+	}]
+}

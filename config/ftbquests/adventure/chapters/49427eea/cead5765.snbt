@@ -1,0 +1,32 @@
+{
+	title: "{greedycraft.quest.cead5765.title}",
+	x: 20.0d,
+	y: -6.0d,
+	description: "{greedycraft.quest.cead5765.desc}",
+	dependencies: [
+		"a504bbd8"
+	],
+	tasks: [{
+		uid: "b4b0dae5",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_crystal_empowered"
+		}]
+	}],
+	rewards: [{
+		uid: "6c8c55c8",
+		type: "item",
+		item: "actuallyadditions:block_crystal_empowered",
+		count: 4
+	},
+	{
+		uid: "8c438b50",
+		type: "xp",
+		xp: 700
+	},
+	{
+		uid: "867ed2b0",
+		type: "loot",
+		table: 1
+	}]
+}

@@ -1,0 +1,33 @@
+
+{
+	title: "{greedycraft.quest.9e787f12.title}",
+	x: 3.0d,
+	y: 2.5d,
+	description: "{greedycraft.quest.9e787f12.desc}",
+	dependencies: [
+		"4252e75f"
+	],
+	tasks: [{
+		uid: "86c4c585",
+		type: "item",
+		items: [{
+			item: "mekanism:basicblock 1 14"
+		}]
+	}],
+	rewards: [{
+		uid: "6aef0313",
+		type: "item",
+		item: "mekanism:basicblock2",
+		count: 20
+	},
+	{
+		uid: "580e386c",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "37d37575",
+		type: "xp",
+		xp: 1500
+	}]
+}

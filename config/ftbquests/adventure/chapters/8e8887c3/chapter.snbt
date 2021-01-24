@@ -1,0 +1,128 @@
+{
+	title: "{greedycraft.quest.chapter.main}",
+	icon: "minecraft:grass",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "",
+	images: [{
+		x: -5.0d,
+		y: -9.0d,
+		width: 8.0d,
+		height: 4.0d,
+		rotation: 0.0d,
+		image: "greedycraft:quests/main.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -6.0d,
+		y: -4.0d,
+		width: 1.0d,
+		height: 1.0d,
+		rotation: -15.0d,
+		image: "minecraft:textures/items/iron_pickaxe.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -4.5d,
+		y: -1.0d,
+		width: 1.0d,
+		height: 1.0d,
+		rotation: 30.0d,
+		image: "minecraft:textures/items/gold_ingot.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -1.0d,
+		y: 0.5d,
+		width: 1.0d,
+		height: 1.0d,
+		rotation: -45.0d,
+		image: "minecraft:textures/items/diamond.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 1.0d,
+		y: 3.0d,
+		width: 1.0d,
+		height: 1.0d,
+		rotation: -100.0d,
+		image: "minecraft:textures/items/emerald.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 5.5d,
+		y: -5.0d,
+		width: 1.0d,
+		height: 1.0d,
+		rotation: 15.0d,
+		image: "minecraft:textures/items/blaze_powder.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 6.5d,
+		y: -5.0d,
+		width: 1.0d,
+		height: 1.0d,
+		rotation: 0.0d,
+		image: "minecraft:textures/items/ghast_tear.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 8.5d,
+		y: -3.0d,
+		width: 1.0d,
+		height: 1.0d,
+		rotation: 24.0d,
+		image: "minecraft:textures/items/ender_eye.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 8.5d,
+		y: -10.0d,
+		width: 18.8d,
+		height: 6.4d,
+		rotation: 0.0d,
+		image: "greedycraft:mainmenu/banner.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -12.0d,
+		y: -2.5d,
+		width: 2.0d,
+		height: 2.0d,
+		rotation: 0.0d,
+		image: "greedycraft:quests/start.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -5.0d,
+		y: 2.5d,
+		width: 8.0d,
+		height: 4.0d,
+		rotation: 0.0d,
+		image: "greedycraft:quests/read_this.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

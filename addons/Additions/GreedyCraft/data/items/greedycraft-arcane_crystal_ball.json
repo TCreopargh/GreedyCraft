@@ -1,0 +1,9 @@
+{
+  "name": "§dArcane Crystal Ball",
+  "shines": true,
+  "tooltip": [
+    "§5You only made this to prove your magical skills.",
+    "§eRight click to unlock game stage: §6master_wizard"
+  ],
+  "type": "additions:simple"
+}

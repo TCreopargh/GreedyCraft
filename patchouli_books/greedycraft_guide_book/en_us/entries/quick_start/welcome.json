@@ -1,0 +1,18 @@
+{
+    "name": "§5Welcome",
+    "icon": "minecraft:grass",
+    "category": "patchouli:quick_start_category",
+    "priority": "true",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Welcome to play the $(#ff80ab)GreedyCraft Modpack$(3)$(o) by TCreopargh$()! This book is about some basic guides and documentations on the modpack."
+        },
+	{
+            "type": "link",
+            "text": "$(#f4511e)Click this link for our modpack's official site:",
+	    "url": "http://greedycraft.tcreopargh.xyz",
+            "link_text": "Official Site"
+        }
+    ]
+}

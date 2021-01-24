@@ -1,0 +1,36 @@
+
+{
+	title: "{greedycraft.quest.5998cc70.title}",
+	x: -4.0d,
+	y: 11.5d,
+	description: "{greedycraft.quest.5998cc70.desc}",
+	text: [
+		"This medal sometimes drop from unidentified entities, the chances are higher at higher difficulties.",
+		"If you didn't create the world as a Lost City profile, it's recommended to go into the Lost Cities dimension",
+		"For how to get there, view the modpack guide book.",
+		"Unidentified entities are more likely to spawn and more likely to drop these medals in Lost Cities dimension."
+	],
+	tasks: [{
+		uid: "8435f251",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-city_defender_medal"
+		}]
+	}],
+	rewards: [{
+		uid: "b7133f17",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "eba4971b",
+		type: "xp",
+		xp: 600
+	},
+	{
+		uid: "14ccbc26",
+		type: "item",
+		item: "additions:greedycraft-experience_ingot",
+		count: 30
+	}]
+}

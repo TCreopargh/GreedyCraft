@@ -1,0 +1,9 @@
+{
+  "name": "§aStrange Matter",
+  "tooltip": [
+    "§2The most dangerous substance in the universe and is stored in a magnetic field constraint device.",
+    "§7Can only be used to exchange for EMC"
+  ],
+  "ore_dict": "itemStrangeMatter",
+  "type": "additions:simple"
+}

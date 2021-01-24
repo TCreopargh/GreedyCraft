@@ -1,0 +1,27 @@
+
+{
+	title: "{greedycraft.quest.2034cbe8.title}",
+	x: -3.5d,
+	y: -2.5d,
+	description: "{greedycraft.quest.2034cbe8.desc}",
+	dependencies: [
+		"99f6417a"
+	],
+	tasks: [{
+		uid: "81d6c1dd",
+		type: "item",
+		items: [{
+			item: "forestry:fabricator"
+		}]
+	}],
+	rewards: [{
+		uid: "358dd757",
+		type: "xp",
+		xp: 250
+	},
+	{
+		uid: "08fab55c",
+		type: "loot",
+		table: 0
+	}]
+}

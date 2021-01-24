@@ -1,0 +1,23 @@
+{
+  "cause": {
+    "item": {
+      "item": "cyclicmagic:emerald_sword",
+      "damage": "any",
+      "tag": "{display:{Lore:[\"§4§oThis sword will of its owner.\"],Name:\"§cTraitor's Sword\"}}"
+    },
+    "target_self": true,
+    "type": "additions:item_attack"
+  },
+  "effects": [
+    {
+      "potion": {
+        "name": "minecraft:instant_damage",
+        "duration": 1,
+        "amplifier": 3,
+        "ambient": false,
+        "show_particles": true
+      },
+      "type": "additions:potion"
+    }
+  ]
+}

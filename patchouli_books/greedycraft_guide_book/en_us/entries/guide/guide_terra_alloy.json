@@ -1,0 +1,36 @@
+{
+    "name": "§3Terra Alloy",
+    "icon": "additions:terra_alloy_ingot",
+    "category": "patchouli:guide_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(2)Terra Alloy$() is a very powerful tonstruct material after wyvern core and before defeating Chaotic Guardian. This entry is about how to get this. $(br2)Terra alloy is made by $(a)Cytosinite$(), $(3)Cryonium$(), $(6)Infernium$() and $(8)Titanium$(), here's how to get them:"
+        },
+        {
+            "type": "spotlight",
+			"item": "additions:cytosinite_ingot",
+            "text": "This metal shows some similiar features as plants, and is able to photosynthesize. It only grows in the mud, and is found underground in swamp and jungle-like biomes. You need a $(5)shovel$() with more than 6 mining level to mine them."
+        },
+        {
+            "type": "spotlight",
+			"item": "additions:cryonium_ingot",
+            "text": "This metal's surface is extremely cold under all temperatures. It is said to be found underground in snowy biomes. To mine them you need to defeat the guardian on this land. $(br)Requires a wyvern metal pickaxe or better to mine them, but you can get your first Cryonium Ingot by defeating $(3)Frostmaw$()."
+        }, 
+		{
+            "type": "spotlight",
+			"item": "additions:infernium_ingot",
+            "text": "This metal keeps giving out heat. It seems to only generate in basalt in the nether. You will need to defeat $(6)Barako, the Sun Chief$() first. Barako also drops some Infernium Ingots."
+        },
+		{
+            "type": "spotlight",
+			"item": "additions:titanium_ingot",
+            "text": "Super strong metal that builds amazingly durable tools. You can find them in The End, albeit extremely rare. It gives out a faint light which might help you a bit. You will need a pickaxe with tier 10 or higher mining level."
+        },
+		{
+            "type": "spotlight",
+			"item": "additions:terra_alloy_ingot",
+            "text": "The alloy that possesses all powerful aspects of the nature. Alloyed with all above metals at 1:1:1:1 ratio."
+        }
+    ]
+}

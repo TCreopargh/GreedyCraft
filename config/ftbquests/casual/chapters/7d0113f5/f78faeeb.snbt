@@ -1,0 +1,54 @@
+
+{
+	title: "{greedycraft.quest.f78faeeb.title}",
+	x: -5.5d,
+	y: -1.5d,
+	description: "{greedycraft.quest.f78faeeb.desc}",
+	dependencies: [
+		"e42bd6a4"
+	],
+	tasks: [{
+		uid: "44a47905",
+		type: "item",
+		items: [{
+			item: "thaumcraft:table_wood"
+		}]
+	}],
+	rewards: [{
+		uid: "a53e8e27",
+		type: "item",
+		item: {
+			id: "thaumcraft:scribing_tools"
+		}
+	},
+	{
+		uid: "126a67fb",
+		type: "item",
+		item: "minecraft:paper",
+		count: 32
+	},
+	{
+		uid: "174cd4e9",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "e5f092fb",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "432b152f",
+		type: "item",
+		item: {
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "aqua"
+				}]
+			}
+		},
+		count: 32
+	}]
+}

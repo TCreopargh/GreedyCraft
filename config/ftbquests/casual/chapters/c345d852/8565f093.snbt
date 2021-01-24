@@ -1,0 +1,27 @@
+
+{
+	title: "{greedycraft.quest.8565f093.title}",
+	x: 4.0d,
+	y: -2.5d,
+	description: "{greedycraft.quest.8565f093.desc}",
+	dependencies: [
+		"99f6417a"
+	],
+	tasks: [{
+		uid: "34773e32",
+		type: "item",
+		items: [{
+			item: "forestry:centrifuge"
+		}]
+	}],
+	rewards: [{
+		uid: "5837c634",
+		type: "xp",
+		xp: 250
+	},
+	{
+		uid: "e6c910d3",
+		type: "loot",
+		table: 0
+	}]
+}

@@ -1,0 +1,28 @@
+
+{
+	title: "{greedycraft.quest.2cad7aab.title}",
+	x: -2.0d,
+	y: -0.5d,
+	description: "{greedycraft.quest.2cad7aab.desc}",
+	dependencies: [
+		"8c4d41da"
+	],
+	tasks: [{
+		uid: "4316a49c",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:energy_acceptor"
+		}]
+	}],
+	rewards: [{
+		uid: "08ca269b",
+		type: "item",
+		item: "appliedenergistics2:part 1 56",
+		count: 32
+	},
+	{
+		uid: "38fd3299",
+		type: "loot",
+		table: 1
+	}]
+}

@@ -1,0 +1,35 @@
+{
+	title: "{greedycraft.quest.05a583e8.title}",
+	x: 22.0d,
+	y: 5.5d,
+	description: "{greedycraft.quest.05a583e8.desc}",
+	tasks: [{
+		uid: "41e32160",
+		type: "item",
+		items: [{
+			item: "bigreactors:reactorcoolantport"
+		},
+		{
+			item: "bigreactors:reactorpowertaprf"
+		},
+		{
+			item: "bigreactors:reactorpowertaptesla"
+		}]
+	}],
+	rewards: [{
+		uid: "7362e2a1",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "28f43a5a",
+		type: "xp",
+		xp: 800
+	},
+	{
+		uid: "00a68edc",
+		type: "item",
+		item: "bigreactors:reactorcasing",
+		count: 10
+	}]
+}

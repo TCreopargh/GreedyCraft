@@ -1,0 +1,50 @@
+
+{
+	title: "{greedycraft.quest.5dcb3461.title}",
+	x: 5.5d,
+	y: -5.5d,
+	description: "{greedycraft.quest.5dcb3461.desc}",
+	dependencies: [
+		"1b74d74a",
+		"0915d24a"
+	],
+	tasks: [{
+		uid: "9910ae62",
+		type: "item",
+		items: [{
+			id: "wct:wct",
+			tag: {
+				InfinityEnergy: 2147483647,
+				internalCurrentPower: 1600000.0d
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d97e5676",
+		type: "xp",
+		xp: 1500
+	},
+	{
+		uid: "eb116f39",
+		type: "item",
+		item: {
+			id: "wct:magnet_card",
+			tag: {
+				MagnetMode: 0
+			}
+		}
+	},
+	{
+		uid: "bd21a167",
+		type: "item",
+		item: "ae2wtlib:infinity_booster_card",
+		count: 8
+	},
+	{
+		uid: "1c6db827",
+		type: "random",
+		table: 2
+	}]
+}

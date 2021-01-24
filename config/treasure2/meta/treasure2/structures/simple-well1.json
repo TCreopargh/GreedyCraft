@@ -1,0 +1,17 @@
+{
+	"name": "simple-well1",
+	"description": "",
+	"author": "gottsch",
+	"archetypes": ["surface"],
+	"type": "well",
+	"rarities": ["common"],
+	"biomeWhiteList": [],
+	"biomeBlackList": ["ocean", "deep_ocean", "desert"],
+	"includeFog": false,
+	"verticalOffset": -6,
+	"offset": {
+		"x": 0,
+		"y": -6,
+		"z": 0
+		}
+}

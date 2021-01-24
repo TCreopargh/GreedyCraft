@@ -1,0 +1,54 @@
+
+{
+	title: "{greedycraft.quest.50fa4126.title}",
+	icon: {
+		id: "abyssalcraft:gatewaykeydl"
+	},
+	x: 7.5d,
+	y: 0.0d,
+	description: "{greedycraft.quest.50fa4126.desc}",
+	dependencies: [
+		"0d455b65",
+		"6c104851",
+		"b24d91eb"
+	],
+	tasks: [{
+		uid: "d7670dbe",
+		type: "dimension",
+		dim: 51
+	}],
+	rewards: [{
+		uid: "e591480a",
+		type: "xp",
+		xp: 7500
+	},
+	{
+		uid: "e5073f9d",
+		type: "item",
+		item: {
+			id: "minecraft:splash_potion",
+			tag: {
+				Potion: "abyssalcraft:dplague_long"
+			}
+		},
+		count: 16
+	},
+	{
+		uid: "fb3a7ac4",
+		type: "item",
+		item: "cyclicmagic:water_candle",
+		count: 8
+	},
+	{
+		uid: "4582b461",
+		type: "item",
+		item: {
+			id: "abyssalcraft:gatewaykey"
+		}
+	},
+	{
+		uid: "5edf291c",
+		type: "loot",
+		table: 1
+	}]
+}

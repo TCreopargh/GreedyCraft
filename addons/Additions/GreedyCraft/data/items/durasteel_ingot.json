@@ -1,0 +1,6 @@
+{
+  "name": "§9Durasteel Ingot",
+  "is_beacon_payment": true,
+  "ore_dict": "ingotDurasteel",
+  "type": "additions:simple"
+}

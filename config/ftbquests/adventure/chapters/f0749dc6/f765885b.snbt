@@ -1,0 +1,33 @@
+{
+	title: "{greedycraft.quest.f765885b.title}",
+	icon: {
+		id: "minecraft:golden_sword"
+	},
+	x: -3.0d,
+	y: 3.0d,
+	description: "{greedycraft.quest.f765885b.desc}",
+	dependencies: [
+		"653fa7f3"
+	],
+	tasks: [{
+		uid: "098fe41a",
+		type: "stat",
+		stat: "stat.mobKills",
+		value: 10000
+	}],
+	rewards: [{
+		uid: "1d33b74e",
+		type: "item",
+		item: "tinymobfarm:inferno_farm"
+	},
+	{
+		uid: "1de2eaf1",
+		type: "xp",
+		xp: 25000
+	},
+	{
+		uid: "a7ccd541",
+		type: "loot",
+		table: 2
+	}]
+}

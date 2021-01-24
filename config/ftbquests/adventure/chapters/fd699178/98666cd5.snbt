@@ -1,0 +1,38 @@
+{
+	title: "{greedycraft.quest.98666cd5.title}",
+	x: 8.0d,
+	y: -1.5d,
+	description: "{greedycraft.quest.98666cd5.desc}",
+	dependencies: [
+		"6e46a027"
+	],
+	tasks: [{
+		uid: "e3530acf",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:interface"
+		}]
+	}],
+	rewards: [{
+		uid: "6d1e0bd2",
+		type: "item",
+		item: "cyclicmagic:item_pipe",
+		count: 64
+	},
+	{
+		uid: "b9a81a98",
+		type: "item",
+		item: "cyclicmagic:item_pump",
+		count: 32
+	},
+	{
+		uid: "f5dadbd3",
+		type: "xp",
+		xp: 600
+	},
+	{
+		uid: "98bb7de8",
+		type: "loot",
+		table: 1
+	}]
+}

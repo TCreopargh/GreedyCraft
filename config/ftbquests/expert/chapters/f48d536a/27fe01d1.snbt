@@ -1,0 +1,45 @@
+
+{
+	title: "{greedycraft.quest.27fe01d1.title}",
+	x: 0.0d,
+	y: 0.0d,
+	description: "{greedycraft.quest.27fe01d1.desc}",
+	dependencies: [
+		"2369efed"
+	],
+	tasks: [{
+		uid: "beb1c95c",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:oc"
+		}]
+	}],
+	rewards: [{
+		uid: "12b44ac4",
+		type: "xp",
+		xp: 1800
+	},
+	{
+		uid: "bbd96cca",
+		type: "item",
+		item: "abyssalcraft:oblivionshard",
+		count: 2
+	},
+	{
+		uid: "ec4007bf",
+		type: "item",
+		item: "abyssalcraft:statue 1 1"
+	},
+	{
+		uid: "94adfd06",
+		type: "item",
+		item: {
+			id: "abyssalcraft:drainstaff"
+		}
+	},
+	{
+		uid: "5ce71099",
+		type: "loot",
+		table: 1
+	}]
+}

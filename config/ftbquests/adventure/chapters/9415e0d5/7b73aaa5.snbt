@@ -1,0 +1,31 @@
+{
+	title: "{greedycraft.quest.7b73aaa5.title}",
+	x: 4.0d,
+	y: 15.5d,
+	description: "{greedycraft.quest.7b73aaa5.desc}",
+	tasks: [{
+		uid: "2ff659d1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -6677120288058627187L,
+					AS_Amulet_HolderMost: 3244428519259456314L
+				}
+			},
+			id: "toolprogression:magic_mushroom"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e928824e",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "070dd44e",
+		type: "xp",
+		xp: 6000
+	}]
+}

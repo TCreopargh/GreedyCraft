@@ -1,0 +1,36 @@
+
+{
+	title: "{greedycraft.quest.fc06ad9c.title}",
+	x: 16.0d,
+	y: -6.5d,
+	description: "{greedycraft.quest.fc06ad9c.desc}",
+	tasks: [{
+		uid: "2ac2391a",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_misc 1 3"
+		}]
+	}],
+	rewards: [{
+		uid: "9f01b3b3",
+		type: "item",
+		item: "actuallyadditions:block_misc 1 3",
+		count: 10
+	},
+	{
+		uid: "62f0ff89",
+		type: "item",
+		item: "actuallyadditions:item_crystal",
+		count: 12
+	},
+	{
+		uid: "f918a352",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "a52549f8",
+		type: "xp",
+		xp: 60
+	}]
+}

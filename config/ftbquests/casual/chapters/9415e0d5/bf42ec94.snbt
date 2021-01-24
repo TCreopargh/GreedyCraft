@@ -1,0 +1,30 @@
+
+{
+	title: "{greedycraft.quest.bf42ec94.title}",
+	x: -4.0d,
+	y: 15.5d,
+	description: "{greedycraft.quest.bf42ec94.desc}",
+	tasks: [{
+		uid: "294727b4",
+		type: "item",
+		items: [{
+			item: "additions:infernium_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "4274012f",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "6d371cd1",
+		type: "xp",
+		xp: 12000
+	},
+	{
+		uid: "f1fde5bf",
+		type: "item",
+		item: "additions:infernium_ingot",
+		count: 3
+	}]
+}

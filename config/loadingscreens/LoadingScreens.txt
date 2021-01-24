@@ -1,0 +1,2 @@
+background = addStretchedTexture("top_left", "greedycraft:gui/loadscreen.png")
+background.setRelRender(1, 1)

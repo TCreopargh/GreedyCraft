@@ -1,0 +1,257 @@
+{
+	title: "{greedycraft.quest.2ea36aea.title}",
+	icon: "extrautils2:decorativesolid 1 8",
+	x: 8.0d,
+	y: 1.5d,
+	description: "{greedycraft.quest.2ea36aea.desc}",
+	tasks: [{
+		uid: "f1923c4e",
+		type: "item",
+		title: "Any dyePurple",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "dyePurple",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	},
+	{
+		uid: "89a152a8",
+		type: "item",
+		title: "Any dyeCyan",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "dyeCyan",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	},
+	{
+		uid: "9ed6a63a",
+		type: "item",
+		title: "Any dyeLightGray",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "dyeLightGray",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	},
+	{
+		uid: "7e92c900",
+		type: "item",
+		title: "Any dyeGray",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "dyeGray",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	},
+	{
+		uid: "7984bf82",
+		type: "item",
+		title: "Any dyePink",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "dyePink",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	},
+	{
+		uid: "704a6972",
+		type: "item",
+		title: "Any dyeLime",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "dyeLime",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	},
+	{
+		uid: "69dddbfc",
+		type: "item",
+		title: "Any dyeLightBlue",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "dyeLightBlue",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	},
+	{
+		uid: "2d6fffc2",
+		type: "item",
+		title: "Any dyeMagenta",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "dyeMagenta",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	},
+	{
+		uid: "85d2e785",
+		type: "item",
+		title: "Any dyeOrange",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "dyeOrange",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	},
+	{
+		uid: "8bf3284d",
+		type: "item",
+		title: "Any dyeBlue",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "dyeBlue",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	},
+	{
+		uid: "96d5f8c7",
+		type: "item",
+		title: "Any dyeBlack",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "dyeBlack",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	},
+	{
+		uid: "6837227d",
+		type: "item",
+		title: "Any dyeBrown",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "dyeBrown",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	},
+	{
+		uid: "819a982b",
+		type: "item",
+		title: "Any dyeGreen",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "dyeGreen",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	},
+	{
+		uid: "bcef1b4b",
+		type: "item",
+		title: "Any dyeRed",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "dyeRed",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	},
+	{
+		uid: "5d475046",
+		type: "item",
+		title: "Any dyeYellow",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "dyeYellow",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	},
+	{
+		uid: "1f6a02db",
+		type: "item",
+		title: "Any dyeWhite",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "dyeWhite",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	}],
+	rewards: [{
+		uid: "d4b86768",
+		type: "item",
+		item: {
+			id: "botania:specialflower",
+			tag: {
+				type: "puredaisy"
+			}
+		},
+		count: 10
+	},
+	{
+		uid: "3d4e14a5",
+		type: "xp",
+		xp: 230
+	},
+	{
+		uid: "fea54ce4",
+		type: "item",
+		item: "twilightforest:twilight_sapling 1 9"
+	},
+	{
+		uid: "00682687",
+		type: "loot",
+		table: 1
+	}]
+}

@@ -1,0 +1,33 @@
+
+{
+	title: "{greedycraft.quest.9a4f0275.title}",
+	x: 12.0d,
+	y: -2.0d,
+	description: "{greedycraft.quest.9a4f0275.desc}",
+	dependencies: [
+		"9d0b6a75"
+	],
+	tasks: [{
+		uid: "5db59089",
+		type: "item",
+		items: [{
+			item: "tconevo:material"
+		}]
+	}],
+	rewards: [{
+		uid: "3c4f5f73",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "fusion_matrix"
+	},
+	{
+		uid: "a916c6d4",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "6e5c9c0e",
+		type: "xp",
+		xp: 12500
+	}]
+}

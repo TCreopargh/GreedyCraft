@@ -1,0 +1,23 @@
+{
+	title: "{greedycraft.quest.chapter.abyssalcraft}",
+	icon: {
+		id: "abyssalcraft:necronomicon",
+		tag: {
+			PotEnergy: 0.0f
+		}
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "rsquare",
+	images: [{
+		x: -2.0d,
+		y: -4.0d,
+		width: 8.0d,
+		height: 4.0d,
+		rotation: 0.0d,
+		image: "greedycraft:quests/abyssalcraft.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

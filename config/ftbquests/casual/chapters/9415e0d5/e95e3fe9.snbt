@@ -1,0 +1,45 @@
+
+{
+	title: "{greedycraft.quest.e95e3fe9.title}",
+	x: -6.0d,
+	y: 11.5d,
+	description: "{greedycraft.quest.e95e3fe9.desc}",
+	tasks: [{
+		uid: "ba7cc661",
+		type: "item",
+		items: [{
+			id: "netherex:obsidian_boat"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b402c0c3",
+		type: "item",
+		item: "minecraft:obsidian",
+		count: 32
+	},
+	{
+		uid: "bc0d21f7",
+		type: "xp",
+		xp: 300
+	},
+	{
+		uid: "66a9cf6b",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "c92f3440",
+		type: "item",
+		item: {
+			id: "thermalexpansion:reservoir",
+			tag: {
+				Fluid: {
+					FluidName: "lava",
+					Amount: 10000
+				}
+			}
+		}
+	}]
+}

@@ -1,0 +1,11 @@
+{
+  "weight": 150,
+  "type": "tconevo:tool",
+  "name": "Miniature Outdoor Billboard",
+  "lore": "Why is this even a thing?",
+  "tool": "battlesign",
+  "materials": [
+    "iron",
+    "alumite"
+  ]
+}

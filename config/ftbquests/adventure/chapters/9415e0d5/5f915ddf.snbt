@@ -1,0 +1,23 @@
+{
+	title: "{greedycraft.quest.5f915ddf.title}",
+	x: 6.0d,
+	y: 3.5d,
+	description: "{greedycraft.quest.5f915ddf.desc}",
+	tasks: [{
+		uid: "f6a34ff5",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:water_candle"
+		}]
+	}],
+	rewards: [{
+		uid: "ed2e3222",
+		type: "xp",
+		xp: 300
+	},
+	{
+		uid: "c84cb2ba",
+		type: "loot",
+		table: 0
+	}]
+}

@@ -1,0 +1,13 @@
+{
+  "weight": 750,
+  "type": "tconevo:tool",
+  "name": "Crystal Sceptre",
+  "lore": "Infused with freezing power!",
+  "tool": "tconevo.sceptre",
+  "materials": [
+    "constantan",
+    "platinum",
+    "certus_quartz",
+    "lumium"
+  ]
+}

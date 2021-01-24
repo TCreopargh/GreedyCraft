@@ -1,0 +1,27 @@
+
+{
+	title: "{greedycraft.quest.43d2152b.title}",
+	x: 4.0d,
+	y: 0.0d,
+	description: "{greedycraft.quest.43d2152b.desc}",
+	dependencies: [
+		"b1243a42"
+	],
+	tasks: [{
+		uid: "4ab5355c",
+		type: "item",
+		items: [{
+			item: "gendustry:mutagen_producer"
+		}]
+	}],
+	rewards: [{
+		uid: "9cf7c2cd",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "a49ff541",
+		type: "xp",
+		xp: 800
+	}]
+}

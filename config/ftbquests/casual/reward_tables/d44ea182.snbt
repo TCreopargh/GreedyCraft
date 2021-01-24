@@ -1,0 +1,565 @@
+
+{
+	title: "Loot Crate §6[LEGENDARY]",
+	loot_size: 1,
+	hide_tooltip: true,
+	use_title: true,
+	rewards: [{
+		item: "avaritia:singularity 1 1"
+	},
+	{
+		item: "avaritia:singularity"
+	},
+	{
+		item: "avaritia:singularity 1 2"
+	},
+	{
+		item: "avaritia:singularity 1 13"
+	},
+	{
+		item: "avaritia:singularity 1 6"
+	},
+	{
+		item: "avaritia:singularity 1 7"
+	},
+	{
+		item: "avaritia:singularity 1 9"
+	},
+	{
+		item: "tconstruct:materials 1 50"
+	},
+	{
+		item: "solarflux:solar_panel_draconic"
+	},
+	{
+		item: "solarflux:solar_panel_wyvern",
+		count: 4
+	},
+	{
+		item: "tinymobfarm:ultimate_farm"
+	},
+	{
+		item: "additions:greedycraft-ordinary_medal",
+		weight: 4
+	},
+	{
+		item: "additions:greedycraft-creative_shard",
+		weight: 4
+	},
+	{
+		item: "avaritiatweaks:infinitato"
+	},
+	{
+		item: "avaritia:resource 1 4",
+		count: 8
+	},
+	{
+		item: "avaritia:ultimate_stew",
+		count: 4
+	},
+	{
+		item: "avaritia:cosmic_meatballs",
+		count: 4
+	},
+	{
+		item: "avaritia:endest_pearl",
+		count: 2
+	},
+	{
+		item: "enderio:item_capacitor_totemic",
+		count: 4
+	},
+	{
+		item: "enderio:item_capacitor_melodic",
+		count: 2
+	},
+	{
+		item: {
+			id: "draconicevolution:draconium_capacitor",
+			tag: {
+				DEUpgrades: {
+					rfCap: 3b
+				},
+				Energy: 160000000
+			}
+		}
+	},
+	{
+		item: {
+			id: "draconicevolution:draconium_capacitor",
+			tag: {
+				DEUpgrades: {
+					rfCap: 4b
+				},
+				Energy: 768000000
+			},
+			Damage: 1s
+		}
+	},
+	{
+		item: "projectex:matter 1 2"
+	},
+	{
+		item: "projectex:matter 1 3"
+	},
+	{
+		item: {
+			id: "minecraft:elytra"
+		}
+	},
+	{
+		item: "minecraft:dragon_egg",
+		count: 8
+	},
+	{
+		item: "minecraft:nether_star",
+		count: 32
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_3"
+			}
+		},
+		random_bonus: 8
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_2"
+			}
+		},
+		random_bonus: 75
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_1"
+			}
+		},
+		random_bonus: 640
+	},
+	{
+		item: "draconicevolution:awakened_core",
+		random_bonus: 6
+	},
+	{
+		item: {
+			id: "globalxp:xp_block",
+			tag: {
+				BlockEntityTag: {
+					stored_xp: 149999,
+					x: -70,
+					y: 74,
+					ForgeCaps: {
+						"abyssalcraft:itemtransfer": {
+							isRunning: 0b,
+							configurations: []
+						}
+					},
+					z: 177,
+					id: "globalxp:xp_block"
+				}
+			}
+		}
+	},
+	{
+		item: "tconstruct:materials 1 50"
+	},
+	{
+		item: "projecte:item.pe_matter 1 1",
+		count: 2,
+		random_bonus: 16
+	},
+	{
+		item: "mysticalagriculture:crafting 1 4",
+		random_bonus: 20
+	},
+	{
+		item: "mysticalagradditions:insanium",
+		random_bonus: 4
+	},
+	{
+		item: "mysticalagriculture:crafting 1 37",
+		random_bonus: 12
+	},
+	{
+		item: "tinymobfarm:inferno_farm"
+	},
+	{
+		item: "tinymobfarm:ultimate_farm"
+	},
+	{
+		item: "extrautils2:compressedcobblestone 1 7",
+		random_bonus: 1
+	},
+	{
+		item: "jaopca:item_singularityabyssalnite"
+	},
+	{
+		item: "additions:greedycraft-poop",
+		count: 16,
+		random_bonus: 48
+	},
+	{
+		item: "additions:greedycraft-medkit_super",
+		count: 3,
+		random_bonus: 6
+	},
+	{
+		item: {
+			id: "projecte:item.pe_klein_star",
+			tag: {},
+			Damage: 5s
+		},
+		random_bonus: 5
+	},
+	{
+		item: {
+			id: "projectex:magnum_star_ein",
+			tag: {}
+		},
+		random_bonus: 3
+	},
+	{
+		item: "tconstruct:ingots 1 2",
+		count: 32,
+		random_bonus: 64
+	},
+	{
+		item: "extrautils2:compressedcobblestone 1 4",
+		random_bonus: 12
+	},
+	{
+		item: "additions:greedycraft-ancient_tome_page",
+		random_bonus: 1
+	},
+	{
+		item: "additions:greedycraft-compressed_experience_block",
+		count: 64,
+		random_bonus: 128
+	},
+	{
+		item: "additions:greedycraft-pearl_of_knowledge",
+		random_bonus: 1
+	},
+	{
+		item: "draconicevolution:fusion_crafting_core",
+		random_bonus: 2
+	},
+	{
+		item: "minecraft:bedrock"
+	},
+	{
+		item: "avaritia:resource 1 1",
+		count: 5,
+		random_bonus: 20
+	},
+	{
+		item: "botania_tweaks:compressed_tiny_potato_8"
+	},
+	{
+		item: "extrautils2:rainbowgenerator 1 2"
+	},
+	{
+		item: "extrautils2:rainbowgenerator 1 1"
+	},
+	{
+		item: "minecraft:barrier"
+	},
+	{
+		item: "projectex:collector 1 3"
+	},
+	{
+		item: "additions:tcsponsors-sponsors_chest",
+		random_bonus: 4,
+		weight: 2
+	},
+	{
+		item: {
+			id: "minecraft:orange_shulker_box",
+			tag: {
+				BlockEntityTag: {
+					Items: [{
+						id: "minecraft:orange_shulker_box",
+						Count: 1b,
+						tag: {
+							BlockEntityTag: {
+								Items: [{
+									Slot: 0,
+									id: "orange_shulker_box",
+									Count: 1,
+									tag: {
+										BlockEntityTag: {
+											Items: [{
+												Slot: 0,
+												id: "orange_shulker_box",
+												Count: 1,
+												tag: {
+													BlockEntityTag: {
+														Items: [{
+															Slot: 0,
+															id: "orange_shulker_box",
+															Count: 1,
+															tag: {
+																BlockEntityTag: {
+																	Items: [{
+																		Slot: 0,
+																		id: "orange_shulker_box",
+																		Count: 1,
+																		tag: {
+																			BlockEntityTag: {
+																				Items: [{
+																					Slot: 0,
+																					id: "orange_shulker_box",
+																					Count: 1,
+																					tag: {
+																						BlockEntityTag: {
+																							Items: [{
+																								Slot: 0,
+																								id: "orange_shulker_box",
+																								Count: 1,
+																								tag: {
+																									BlockEntityTag: {
+																										Items: [{
+																											Slot: 0,
+																											id: "orange_shulker_box",
+																											Count: 1,
+																											tag: {
+																												BlockEntityTag: {
+																													Items: [{
+																														Slot: 0,
+																														id: "orange_shulker_box",
+																														Count: 1,
+																														tag: {
+																															BlockEntityTag: {
+																																Items: [{
+																																	Slot: 0,
+																																	id: "orange_shulker_box",
+																																	Count: 1,
+																																	tag: {
+																																		BlockEntityTag: {
+																																			Items: [{
+																																				Slot: 0,
+																																				id: "orange_shulker_box",
+																																				Count: 1,
+																																				tag: {
+																																					BlockEntityTag: {
+																																						Items: [{
+																																							Slot: 0,
+																																							id: "orange_shulker_box",
+																																							Count: 1,
+																																							tag: {
+																																								BlockEntityTag: {
+																																									Items: [{
+																																										Slot: 0,
+																																										id: "orange_shulker_box",
+																																										Count: 1,
+																																										tag: {
+																																											BlockEntityTag: {
+																																												Items: [{
+																																													Slot: 0,
+																																													id: "orange_shulker_box",
+																																													Count: 1,
+																																													tag: {
+																																														BlockEntityTag: {
+																																															Items: [{
+																																																Slot: 0,
+																																																id: "orange_shulker_box",
+																																																Count: 1,
+																																																tag: {
+																																																	BlockEntityTag: {
+																																																		Items: [{
+																																																			Slot: 0,
+																																																			id: "orange_shulker_box",
+																																																			Count: 1,
+																																																			tag: {
+																																																				BlockEntityTag: {
+																																																					Items: [{
+																																																						Slot: 0,
+																																																						id: "additions:greedycraft-black_hole_remnant",
+																																																						Count: 1
+																																																					}]
+																																																				},
+																																																				display: {
+																																																					Lore: [
+																																																						"§b§oLooks like you've reached an end."
+																																																					],
+																																																					Name: "§d§oThe Last Box"
+																																																				}
+																																																			}
+																																																		}]
+																																																	},
+																																																	display: {
+																																																		Lore: [
+																																																			"§bjava.lang.StackOverflowError"
+																																																		],
+																																																		Name: "§cBox of Recursion"
+																																																	}
+																																																}
+																																															}]
+																																														},
+																																														display: {
+																																															Lore: [
+																																																"§bjava.lang.StackOverflowError"
+																																															],
+																																															Name: "§cBox of Recursion"
+																																														}
+																																													}
+																																												}]
+																																											},
+																																											display: {
+																																												Lore: [
+																																													"§bjava.lang.StackOverflowError"
+																																												],
+																																												Name: "§cBox of Recursion"
+																																											}
+																																										}
+																																									}]
+																																								},
+																																								display: {
+																																									Lore: [
+																																										"§bjava.lang.StackOverflowError"
+																																									],
+																																									Name: "§cBox of Recursion"
+																																								}
+																																							}
+																																						}]
+																																					},
+																																					display: {
+																																						Lore: [
+																																							"§bjava.lang.StackOverflowError"
+																																						],
+																																						Name: "§cBox of Recursion"
+																																					}
+																																				}
+																																			}]
+																																		},
+																																		display: {
+																																			Lore: [
+																																				"§bjava.lang.StackOverflowError"
+																																			],
+																																			Name: "§cBox of Recursion"
+																																		}
+																																	}
+																																}]
+																															},
+																															display: {
+																																Lore: [
+																																	"§bjava.lang.StackOverflowError"
+																																],
+																																Name: "§cBox of Recursion"
+																															}
+																														}
+																													}]
+																												},
+																												display: {
+																													Lore: [
+																														"§bjava.lang.StackOverflowError"
+																													],
+																													Name: "§cBox of Recursion"
+																												}
+																											}
+																										}]
+																									},
+																									display: {
+																										Lore: [
+																											"§bjava.lang.StackOverflowError"
+																										],
+																										Name: "§cBox of Recursion"
+																									}
+																								}
+																							}]
+																						},
+																						display: {
+																							Lore: [
+																								"§bjava.lang.StackOverflowError"
+																							],
+																							Name: "§cBox of Recursion"
+																						}
+																					}
+																				}]
+																			},
+																			display: {
+																				Lore: [
+																					"§bjava.lang.StackOverflowError"
+																				],
+																				Name: "§cBox of Recursion"
+																			}
+																		}
+																	}]
+																},
+																display: {
+																	Lore: [
+																		"§bjava.lang.StackOverflowError"
+																	],
+																	Name: "§cBox of Recursion"
+																}
+															}
+														}]
+													},
+													display: {
+														Lore: [
+															"§bjava.lang.StackOverflowError"
+														],
+														Name: "§cBox of Recursion"
+													}
+												}
+											}]
+										},
+										display: {
+											Lore: [
+												"§bjava.lang.StackOverflowError"
+											],
+											Name: "§cBox of Recursion"
+										}
+									}
+								}]
+							},
+							display: {
+								Lore: [
+									"§bjava.lang.StackOverflowError"
+								],
+								Name: "§cBox of Recursion"
+							}
+						},
+						Damage: 0s
+					}]
+				},
+				display: {
+					Lore: [
+						"§bjava.lang.StackOverflowError"
+					],
+					Name: "§cBox of Recursion"
+				}
+			}
+		}
+	},
+	{
+		item: "additions:greedycraft-purifying_pill"
+	},
+	{
+		item: "additions:infernium_ingot",
+		count: 5,
+		random_bonus: 20
+	},
+	{
+		item: "taiga:adamant_ingot",
+		count: 3,
+		random_bonus: 10
+	}],
+	loot_crate: {
+		string_id: "loot_level_4",
+		item_name: "Loot Crate §6[LEGENDARY]",
+		color: 16755200,
+		glow: true,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

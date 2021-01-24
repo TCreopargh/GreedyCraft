@@ -1,0 +1,12 @@
+{
+  "weight": 250,
+  "type": "tconevo:tool",
+  "name": "Annihilator",
+  "lore": "Destroys everything you see.",
+  "tool": "pickaxe",
+  "materials": [
+	"diamond",
+    "ravaging",
+    "nickel"
+  ]
+}

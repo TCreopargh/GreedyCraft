@@ -1,0 +1,44 @@
+
+{
+	title: "{greedycraft.quest.254d7b2b.title}",
+	icon: "abyssalcraft:stone 1 1",
+	x: 2.5d,
+	y: 0.0d,
+	description: "{greedycraft.quest.254d7b2b.desc}",
+	dependencies: [
+		"27fe01d1"
+	],
+	tasks: [{
+		uid: "7b6f113b",
+		type: "dimension",
+		dim: 50
+	}],
+	rewards: [{
+		uid: "193d3302",
+		type: "xp",
+		xp: 3000
+	},
+	{
+		uid: "abedacbe",
+		type: "item",
+		item: "abyssalcraft:powerstonetracker",
+		count: 16
+	},
+	{
+		uid: "55a31880",
+		type: "item",
+		item: "abyssalcraft:abyingot",
+		count: 16
+	},
+	{
+		uid: "737c4c1e",
+		type: "item",
+		item: "abyssalcraft:statue 1 2",
+		count: 3
+	},
+	{
+		uid: "7de22188",
+		type: "loot",
+		table: 1
+	}]
+}

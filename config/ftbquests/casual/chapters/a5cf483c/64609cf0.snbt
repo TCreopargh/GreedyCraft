@@ -1,0 +1,34 @@
+
+{
+	title: "{greedycraft.quest.64609cf0.title}",
+	x: 1.5d,
+	y: -2.0d,
+	description: "{greedycraft.quest.64609cf0.desc}",
+	dependencies: [
+		"4f8c9539",
+		"630fdbee"
+	],
+	tasks: [{
+		uid: "331f89d8",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockwell"
+		}]
+	}],
+	rewards: [{
+		uid: "26d9f41e",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "e5324507",
+		type: "xp",
+		xp: 420
+	},
+	{
+		uid: "f9fe266b",
+		type: "item",
+		item: "astralsorcery:itemcraftingcomponent",
+		count: 8
+	}]
+}

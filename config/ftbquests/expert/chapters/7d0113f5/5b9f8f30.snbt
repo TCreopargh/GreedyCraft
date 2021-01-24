@@ -1,0 +1,33 @@
+
+{
+	title: "{greedycraft.quest.5b9f8f30.title}",
+	x: 0.5d,
+	y: -2.5d,
+	description: "{greedycraft.quest.5b9f8f30.desc}",
+	dependencies: [
+		"ffbd430f"
+	],
+	tasks: [{
+		uid: "12e76c6e",
+		type: "item",
+		items: [{
+			item: "thaumcraft:ingot 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "d78c4597",
+		type: "xp",
+		xp: 400
+	},
+	{
+		uid: "18479cba",
+		type: "item",
+		item: "thaumcraft:ingot 1 2",
+		count: 6
+	},
+	{
+		uid: "60a428ff",
+		type: "loot",
+		table: 0
+	}]
+}

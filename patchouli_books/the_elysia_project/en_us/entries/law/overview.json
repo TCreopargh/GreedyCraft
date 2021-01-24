@@ -1,0 +1,27 @@
+{
+    "name": "§5Overview",
+    "icon": "minecraft:book",
+    "category": "patchouli:law",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(br)$(2)Article 1.$() All rights reserved to Beyond Reality co.$(br)$(2)Article 2.$() Creation any hostile entity in the Elysian Public User Interface (EPUI) Must be approved by the Elysian government.$(br)$(2)Article 3.$() Starting a PvP is forbidden unless the opponent explicitly agrees with it.$(br)"
+        },
+        {
+            "type": "text",
+            "text": "$(2)Article 4.$() Modification of other people's spawn point is disallowed. Putting trap under other people's spawn point is forbidden.$(br)$(2)Article 5.$() No going into creative mode by acquireing permissions in illegal ways.$(br)$(2)Article 6.$() No entering other people's territory without their permission. When this happens the owner of the territory may kill the intruder."
+        },
+        {
+            "type": "text",
+            "text": "$(br)$(2)Article 7.$() Any activity against the Elysian government is forbidden.$(br)$(2)Article 8.$() No trying to terminate or escape the simulation.$(br)$(2)Article 9.$() No activity that puts stress on Elysian servers allowed. For example: high frequency redstone clocks.$(br)$(2)Article 10.$() No inappropriate content allowed in chat.$(br)$(2)Article 11.$() No NSFW content of any form allowed."
+        },
+        {
+            "type": "text",
+            "text": "$(br)$(2)███$() █████████████████████████████████ $(br)$(2)███$() ██████████████$(br)$(2)███$() ██████████████$(br)$(2)███$() ████████████████████████████████████████$(br)$(2)███$() █████████████████████████████████"
+        },
+        {
+            "type": "text",
+            "text": "$(br)$(2)███$() ████████████████████████ $(br)$(2)███$() ████████████████████████$(br)$(2)███$() ████████████████████████$(br)$(2)███$() ███████████$(br)$(2)███$() ███████████████████$(br)$(2)███$() ███████████████"
+        }
+    ]
+}

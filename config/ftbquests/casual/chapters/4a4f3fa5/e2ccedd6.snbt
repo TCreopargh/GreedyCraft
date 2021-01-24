@@ -1,0 +1,46 @@
+
+{
+	title: "{greedycraft.quest.e2ccedd6.title}",
+	x: -4.5d,
+	y: 0.0d,
+	description: "{greedycraft.quest.e2ccedd6.desc}",
+	dependencies: [
+		"dabc1ce4",
+		"224f8b52"
+	],
+	tasks: [{
+		uid: "f2b3e359",
+		type: "item",
+		items: [{
+			item: "botania:runealtar"
+		}]
+	}],
+	rewards: [{
+		uid: "9282a657",
+		type: "xp",
+		xp: 300
+	},
+	{
+		uid: "363ed376",
+		type: "item",
+		item: "botania:livingrock",
+		count: 32
+	},
+	{
+		uid: "4f56f7ee",
+		type: "item",
+		item: "botania:livingwood",
+		count: 32
+	},
+	{
+		uid: "f22a90b8",
+		type: "item",
+		item: "botania:manaresource 1 1",
+		count: 6
+	},
+	{
+		uid: "1bda82fc",
+		type: "loot",
+		table: 1
+	}]
+}

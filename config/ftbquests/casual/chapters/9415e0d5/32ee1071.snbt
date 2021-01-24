@@ -1,0 +1,36 @@
+
+{
+	title: "{greedycraft.quest.32ee1071.title}",
+	x: 4.0d,
+	y: 5.5d,
+	description: "{greedycraft.quest.32ee1071.desc}",
+	dependencies: [
+		"521ad3b8"
+	],
+	tasks: [{
+		uid: "c42363e5",
+		type: "item",
+		items: [{
+			id: "tofucraft:tofuforce_core"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a74e0b06",
+		type: "xp",
+		xp: 3000
+	},
+	{
+		uid: "a754e760",
+		type: "item",
+		item: {
+			id: "tofucraft:tofuforce_core"
+		}
+	},
+	{
+		uid: "89dd4866",
+		type: "loot",
+		table: 2
+	}]
+}

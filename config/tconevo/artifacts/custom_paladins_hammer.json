@@ -1,0 +1,13 @@
+{
+    "weight": 75,
+    "type": "tconevo:tool",
+    "name": "Paladin's Hammer",
+    "lore": "Honor is written all over it.",
+    "tool": "hammer",
+    "materials": [
+        "silver",
+        "platinum",
+        "electrum",
+        "knightmetal"
+    ]
+}

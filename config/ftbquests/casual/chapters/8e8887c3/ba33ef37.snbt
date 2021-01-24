@@ -1,0 +1,23 @@
+
+{
+	title: "{greedycraft.quest.ba33ef37.title}",
+	icon: {
+		id: "additions:greedycraft-difficulty_changer"
+	},
+	x: -10.0d,
+	y: -4.0d,
+	description: "{greedycraft.quest.ba33ef37.desc}",
+	can_repeat: true,
+	tasks: [{
+		uid: "639df03e",
+		type: "checkmark",
+		title: "点击领取!"
+	}],
+	rewards: [{
+		uid: "89119289",
+		type: "item",
+		item: {
+			id: "additions:greedycraft-difficulty_changer"
+		}
+	}]
+}

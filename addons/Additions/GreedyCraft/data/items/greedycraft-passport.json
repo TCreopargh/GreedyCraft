@@ -1,0 +1,9 @@
+{
+  "name": "§6Passport",
+  "tooltip": [
+    "§6Right click to unlock all game stages",
+    "§6Left click to lock all game stages",
+    "§bCreative mode only"
+  ],
+  "type": "additions:simple"
+}

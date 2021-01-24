@@ -1,0 +1,25 @@
+{
+	title: "{greedycraft.quest.16e053a5.title}",
+	x: 8.0d,
+	y: 3.5d,
+	description: "{greedycraft.quest.16e053a5.desc}",
+	tasks: [{
+		uid: "9780cd77",
+		type: "item",
+		items: [{
+			id: "chisel:chisel_iron"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "68248525",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "ce5fbb89",
+		type: "xp",
+		xp: 100
+	}]
+}

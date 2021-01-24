@@ -1,0 +1,16 @@
+{
+    "name": "§c§nIntroduction to Difficulty System",
+    "icon": "mysticalagradditions:stuff:1",
+    "category": "patchouli:difficulty_category",
+    "priority": "true",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Difficulty system affects the mobs' health and the damage you take. Also champion mobs will spawn with more stars and more often at higher difficulty. Difficulty will change according to your game stage.$(br)In $(c)The Nether $()or$(5) The End $()and some modded dimensions, an extra amount will be added to your difficulty. The effect will not last when you leave these dimensions."
+        }, 
+ 	{
+            "type": "text",
+            "text": "Difficulty affects mobs' health and the damage you take, and $(6)greatly$() affects mob loot. At higher difficulties, mobs and bosses drop a very large extra amount of loot and experience. View the next entry for how difficulty is affected by game stage."
+        }
+    ]
+}

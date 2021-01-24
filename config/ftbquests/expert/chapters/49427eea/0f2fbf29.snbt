@@ -1,0 +1,30 @@
+
+{
+	title: "{greedycraft.quest.0f2fbf29.title}",
+	x: 16.0d,
+	y: 8.5d,
+	description: "{greedycraft.quest.0f2fbf29.desc}",
+	tasks: [{
+		uid: "6e2924b4",
+		type: "item",
+		items: [{
+			item: "extrautils2:rainbowgenerator"
+		}]
+	}],
+	rewards: [{
+		uid: "bf782c7e",
+		type: "loot",
+		table: 3
+	},
+	{
+		uid: "16604988",
+		type: "xp",
+		xp: 40000
+	},
+	{
+		uid: "b96cab0a",
+		type: "item",
+		item: "extrautils2:decorativesolid 1 8",
+		count: 64
+	}]
+}

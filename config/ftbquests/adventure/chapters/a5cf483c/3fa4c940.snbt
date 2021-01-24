@@ -1,0 +1,32 @@
+{
+	title: "{greedycraft.quest.3fa4c940.title}",
+	x: 4.0d,
+	y: -4.0d,
+	description: "{greedycraft.quest.3fa4c940.desc}",
+	dependencies: [
+		"64609cf0"
+	],
+	tasks: [{
+		uid: "62c5db5b",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockinfusedwood"
+		}]
+	}],
+	rewards: [{
+		uid: "f0b8778b",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "4eeacce0",
+		type: "xp",
+		xp: 520
+	},
+	{
+		uid: "bc500c8e",
+		type: "item",
+		item: "astralsorcery:blockinfusedwood 1 4",
+		count: 20
+	}]
+}

@@ -1,0 +1,48 @@
+
+{
+	title: "{greedycraft.quest.948e2b49.title}",
+	x: -2.0d,
+	y: 9.0d,
+	description: "{greedycraft.quest.948e2b49.desc}",
+	dependencies: [
+		"dd58485d",
+		"7b53bb99",
+		"1fb45ac7"
+	],
+	tasks: [{
+		uid: "210d8e75",
+		type: "item",
+		items: [{
+			item: "enderio:item_material 1 53"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "15ae7320",
+		type: "item",
+		item: "minecraft:skull",
+		count: 4
+	},
+	{
+		uid: "d39ee7f7",
+		type: "item",
+		item: "minecraft:skull 1 2",
+		count: 4
+	},
+	{
+		uid: "910c28f7",
+		type: "item",
+		item: "minecraft:skull 1 4",
+		count: 4
+	},
+	{
+		uid: "96d8a88e",
+		type: "xp",
+		xp: 750
+	},
+	{
+		uid: "0ba1ea19",
+		type: "loot",
+		table: 1
+	}]
+}

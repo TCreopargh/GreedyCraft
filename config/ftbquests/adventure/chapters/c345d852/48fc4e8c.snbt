@@ -1,0 +1,21 @@
+{
+	title: "{greedycraft.quest.48fc4e8c.title}",
+	x: -8.5d,
+	y: 0.0d,
+	description: "{greedycraft.quest.48fc4e8c.desc}",
+	dependencies: [
+		"5f88aa7f"
+	],
+	tasks: [{
+		uid: "a40c5206",
+		type: "item",
+		items: [{
+			item: "forestry:bee_house"
+		}]
+	}],
+	rewards: [{
+		uid: "becafef7",
+		type: "loot",
+		table: 0
+	}]
+}

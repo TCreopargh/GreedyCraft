@@ -1,0 +1,21 @@
+setIcon(<additions:greedycraft-experiment_note>)
+
+setTranslatedTitle("greedycraft.advancement.log5.title")
+
+setTranslatedDescription("greedycraft.advancement.log5.desc")
+
+addParent("greedycraft:elysia/log4")
+
+setPos(120,100)
+
+alwaysVisible()
+
+drawDirectLines(true)
+
+setShowToast(false)
+
+setAnnounceToChat(false)
+
+criteriaLog5 = addCriteria("gc_stage_hardmode", "triumph:gamestage")
+
+criteriaLog5.setStage("hardmode")

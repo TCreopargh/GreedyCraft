@@ -1,0 +1,42 @@
+
+{
+	title: "{greedycraft.quest.41c2ec3d.title}",
+	x: 8.0d,
+	y: 0.0d,
+	shape: "square",
+	description: "{greedycraft.quest.41c2ec3d.desc}",
+	dependencies: [
+		"f96bc0f5",
+		"a357fcd1"
+	],
+	tasks: [{
+		uid: "e4c9ae60",
+		type: "item",
+		items: [{
+			item: "draconicevolution:crafting_injector 1 1"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4c9b6c3a",
+		type: "item",
+		item: "draconicevolution:crafting_injector 1 1",
+		count: 4
+	},
+	{
+		uid: "1240915c",
+		type: "xp",
+		xp: 3000
+	},
+	{
+		uid: "54d65f21",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "b9c69790",
+		type: "item",
+		item: "minecraft:gold_ingot",
+		count: 256
+	}]
+}

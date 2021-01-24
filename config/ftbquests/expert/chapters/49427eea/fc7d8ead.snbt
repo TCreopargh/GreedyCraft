@@ -1,0 +1,37 @@
+
+{
+	title: "{greedycraft.quest.fc7d8ead.title}",
+	x: 18.5d,
+	y: -4.0d,
+	description: "{greedycraft.quest.fc7d8ead.desc}",
+	tasks: [{
+		uid: "57bf306c",
+		type: "item",
+		items: [{
+			item: "xnet:controller"
+		}]
+	}],
+	rewards: [{
+		uid: "4fc97757",
+		type: "item",
+		item: {
+			id: "xnet:advanced_connector",
+			tag: {
+				display: {
+					LocName: "tile.xnet.advanced_connector_blue.name"
+				}
+			}
+		},
+		count: 4
+	},
+	{
+		uid: "ee434f32",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "3c9fbee8",
+		type: "xp",
+		xp: 1000
+	}]
+}

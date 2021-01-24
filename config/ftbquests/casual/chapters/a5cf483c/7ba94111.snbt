@@ -1,0 +1,28 @@
+
+{
+	title: "{greedycraft.quest.7ba94111.title}",
+	x: 9.0d,
+	y: 0.0d,
+	description: "{greedycraft.quest.7ba94111.desc}",
+	dependencies: [
+		"e8404979",
+		"4f3a644d"
+	],
+	tasks: [{
+		uid: "1b895c9a",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockstarlightinfuser"
+		}]
+	}],
+	rewards: [{
+		uid: "08aa8869",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "fcb5afcf",
+		type: "xp",
+		xp: 2400
+	}]
+}

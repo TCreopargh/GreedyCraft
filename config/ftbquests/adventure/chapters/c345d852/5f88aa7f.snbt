@@ -1,0 +1,32 @@
+{
+	title: "{greedycraft.quest.5f88aa7f.title}",
+	x: -11.0d,
+	y: 0.0d,
+	description: "{greedycraft.quest.5f88aa7f.desc}",
+	tasks: [{
+		uid: "25769362",
+		type: "item",
+		items: [{
+			id: "forestry:scoop"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4c771515",
+		type: "item",
+		item: {
+			id: "forestry:smoker"
+		}
+	},
+	{
+		uid: "7dea9443",
+		type: "xp",
+		xp: 50
+	},
+	{
+		uid: "1f06ccb2",
+		type: "loot",
+		table: 0
+	}]
+}

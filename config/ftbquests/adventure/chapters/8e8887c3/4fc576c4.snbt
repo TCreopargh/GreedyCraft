@@ -1,0 +1,31 @@
+{
+	title: "{greedycraft.quest.4fc576c4.title}",
+	x: 18.0d,
+	y: -6.0d,
+	description: "{greedycraft.quest.4fc576c4.desc}",
+	dependencies: [
+		"d0e61e36"
+	],
+	tasks: [{
+		uid: "b0d99abd",
+		type: "item",
+		items: [{
+			item: "eternalsingularity:eternal_singularity"
+		}]
+	}],
+	rewards: [{
+		uid: "f847bfa4",
+		type: "item",
+		item: "eternalsingularity:eternal_singularity"
+	},
+	{
+		uid: "65fa5c3d",
+		type: "xp",
+		xp: 99999
+	},
+	{
+		uid: "846af21c",
+		type: "loot",
+		table: 3
+	}]
+}

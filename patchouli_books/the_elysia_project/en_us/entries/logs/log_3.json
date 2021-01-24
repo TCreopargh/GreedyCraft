@@ -1,0 +1,16 @@
+{
+    "name": "Log §9#3",
+    "icon": "additions:greedycraft-experiment_note",
+    "category": "patchouli:logs",
+    "advancement": "greedycraft:elysia/log3",
+    "pages": [
+        {
+            "type": "text",
+            "text": "After a long time of developing and testing, The Elysian Project system can finally be deployed. But there's still a problem -- No one wants to be waken up when having a nice dream. When people wake up, they will lose their memory of the dream, so, to prevent terrorists from waking up people by force, everyone in the world must go into the simulation at once. "
+        },
+        {
+            "type": "text",
+            "text": "And there's a bunch of rioters gathering outside of our company's building right now, they must be eliminated before we make our dreams. If any one has an idea of still living in the miserable reality, they must be insane. The economy is broken, no one can get a job, and even if you get one, life still sucks anyways. We are trying to realize the common goal of the entire humanity, no one cares about the lives of these rioters.$(br2)Jul 29th, 2044"
+        }
+    ]
+}

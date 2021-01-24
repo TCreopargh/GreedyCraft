@@ -1,0 +1,13 @@
+{
+    "weight": 100,
+    "type": "tconevo:tool",
+    "name": "Electric Crossbow",
+    "lore": "Comes right in handy.",
+    "tool": "crossbow",
+    "materials": [
+        "steel",
+        "fluxed_electrum",
+        "flux_crystal",
+		"enderium"
+    ]
+}

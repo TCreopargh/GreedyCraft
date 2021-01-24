@@ -1,0 +1,29 @@
+{
+	title: "{greedycraft.quest.26e88520.title}",
+	x: 8.0d,
+	y: 15.5d,
+	description: "{greedycraft.quest.26e88520.desc}",
+	tasks: [{
+		uid: "79bae3aa",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-delivery_order"
+		}]
+	}],
+	rewards: [{
+		uid: "fe8c10ca",
+		type: "item",
+		item: "additions:greedycraft-delivery_order",
+		random_bonus: 1
+	},
+	{
+		uid: "e41633dc",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "c4b5d8e3",
+		type: "xp",
+		xp: 200
+	}]
+}

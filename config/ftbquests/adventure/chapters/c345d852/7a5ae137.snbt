@@ -1,0 +1,26 @@
+{
+	title: "{greedycraft.quest.7a5ae137.title}",
+	x: 6.5d,
+	y: 2.5d,
+	description: "{greedycraft.quest.7a5ae137.desc}",
+	dependencies: [
+		"b1243a42"
+	],
+	tasks: [{
+		uid: "601e0031",
+		type: "item",
+		items: [{
+			item: "gendustry:replicator"
+		}]
+	}],
+	rewards: [{
+		uid: "7deb6077",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "12822fcb",
+		type: "xp",
+		xp: 800
+	}]
+}

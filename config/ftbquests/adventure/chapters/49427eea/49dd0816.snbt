@@ -1,0 +1,33 @@
+{
+	title: "{greedycraft.quest.49dd0816.title}",
+	x: -4.5d,
+	y: -10.0d,
+	description: "{greedycraft.quest.49dd0816.desc}",
+	dependencies: [
+		"37946158"
+	],
+	tasks: [{
+		uid: "03dea6cf",
+		type: "item",
+		items: [{
+			item: "solarflux:solar_panel_thaumium"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "59b4ba9a",
+		type: "item",
+		item: "solarflux:solar_panel_thaumium",
+		count: 3
+	},
+	{
+		uid: "45f6ac51",
+		type: "xp",
+		xp: 3000
+	},
+	{
+		uid: "5ccfd222",
+		type: "loot",
+		table: 1
+	}]
+}

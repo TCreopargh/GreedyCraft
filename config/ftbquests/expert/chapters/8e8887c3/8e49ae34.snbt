@@ -1,0 +1,48 @@
+
+{
+	title: "{greedycraft.quest.8e49ae34.title}",
+	icon: "minecraft:obsidian",
+	x: 2.0d,
+	y: -2.0d,
+	shape: "rsquare",
+	description: "{greedycraft.quest.8e49ae34.desc}",
+	dependencies: [
+		"464fff41"
+	],
+	tasks: [{
+		uid: "2d377843",
+		type: "item",
+		items: [{
+			item: "minecraft:obsidian"
+		}]
+	}],
+	rewards: [{
+		uid: "ab7f0ecf",
+		type: "item",
+		item: "minecraft:diamond",
+		count: 3
+	},
+	{
+		uid: "e7fff2eb",
+		type: "xp",
+		xp: 400
+	},
+	{
+		uid: "fcc7c6d1",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "22f1a265",
+		type: "item",
+		item: "minecraft:obsidian",
+		count: 18
+	},
+	{
+		uid: "f4c047c2",
+		type: "item",
+		item: {
+			id: "minecraft:flint_and_steel"
+		}
+	}]
+}

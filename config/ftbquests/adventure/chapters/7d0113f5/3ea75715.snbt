@@ -1,0 +1,32 @@
+{
+	title: "{greedycraft.quest.3ea75715.title}",
+	x: -3.5d,
+	y: 5.5d,
+	description: "{greedycraft.quest.3ea75715.desc}",
+	dependencies: [
+		"08073f99"
+	],
+	tasks: [{
+		uid: "99746313",
+		type: "item",
+		items: [{
+			item: "thaumcraft:bath_salts"
+		}]
+	}],
+	rewards: [{
+		uid: "f510a377",
+		type: "xp",
+		xp: 600
+	},
+	{
+		uid: "71591ec4",
+		type: "item",
+		item: "thaumcraft:sanity_soap",
+		count: 3
+	},
+	{
+		uid: "7a0395c7",
+		type: "loot",
+		table: 1
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	"dependencies": "netherendingores",
+	"populate": {
+		"end-iridium": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "netherendingores:ore_end_modded_1",
+					"properties": {
+						"blocks": "iridium_ore"
+					}
+				},
+				"material": "minecraft:end_stone",
+				"cluster-size": 3
+			},
+			"cluster-count": 1,
+			"min-height": 10,
+			"max-height": 55,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					1
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,29 @@
+{
+	title: "{greedycraft.quest.ad76507c.title}",
+	x: -5.0d,
+	y: 0.0d,
+	description: "{greedycraft.quest.ad76507c.desc}",
+	tasks: [{
+		uid: "88db2a38",
+		type: "kill",
+		icon: "abyssalcraft:statue",
+		entity: "abyssalcraft:lessershoggoth",
+		value: 5L
+	}],
+	rewards: [{
+		uid: "3f25b87d",
+		type: "item",
+		item: "abyssalcraft:statue"
+	},
+	{
+		uid: "e76bc234",
+		type: "item",
+		item: "abyssalcraft:stone 1 7",
+		count: 64
+	},
+	{
+		uid: "887d474d",
+		type: "loot",
+		table: 0
+	}]
+}

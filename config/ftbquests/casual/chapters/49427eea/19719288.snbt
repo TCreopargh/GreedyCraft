@@ -1,0 +1,34 @@
+
+{
+	title: "{greedycraft.quest.19719288.title}",
+	x: -4.5d,
+	y: -6.0d,
+	description: "{greedycraft.quest.19719288.desc}",
+	dependencies: [
+		"686135b7"
+	],
+	tasks: [{
+		uid: "0d61deec",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:upgrade 1 2"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0825608f",
+		type: "item",
+		item: "thermalfoundation:material 1 165",
+		count: 16
+	},
+	{
+		uid: "d578eb37",
+		type: "xp",
+		xp: 1250
+	},
+	{
+		uid: "b2d3d07d",
+		type: "loot",
+		table: 1
+	}]
+}

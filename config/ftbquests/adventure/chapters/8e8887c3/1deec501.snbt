@@ -1,0 +1,44 @@
+{
+	title: "{greedycraft.quest.1deec501.title}",
+	x: 0.0d,
+	y: 4.0d,
+	shape: "pentagon",
+	description: "{greedycraft.quest.1deec501.desc}",
+	dependencies: [
+		"086fd2ab"
+	],
+	tasks: [{
+		uid: "8ea56632",
+		type: "item",
+		items: [{
+			item: "projecte:transmutation_table"
+		}]
+	}],
+	rewards: [{
+		uid: "2163c3b6",
+		type: "xp",
+		xp: 50000
+	},
+	{
+		uid: "499dfee6",
+		type: "item",
+		item: "projecte:item.pe_matter 1 1",
+		count: 20
+	},
+	{
+		uid: "37211945",
+		type: "loot",
+		table: 3
+	},
+	{
+		uid: "a2e0a177",
+		type: "item",
+		item: "avaritia:extreme_crafting_table"
+	},
+	{
+		uid: "e21ed069",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "transmutation_table"
+	}]
+}

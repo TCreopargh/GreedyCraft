@@ -1,0 +1,50 @@
+
+{
+	title: "{greedycraft.quest.d5340c5b.title}",
+	x: -12.0d,
+	y: -4.0d,
+	description: "{greedycraft.quest.d5340c5b.desc}",
+	tasks: [{
+		uid: "5726d1fb",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:device",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					0b,
+					1b,
+					0b,
+					0b,
+					0b,
+					0b
+				]
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7b112155",
+		type: "item",
+		item: "minecraft:water_bucket",
+		count: 2
+	},
+	{
+		uid: "298e9e2f",
+		type: "xp",
+		xp: 200
+	},
+	{
+		uid: "10a49e95",
+		type: "item",
+		item: "thermalexpansion:frame",
+		count: 5
+	},
+	{
+		uid: "b421d703",
+		type: "loot",
+		table: 0
+	}]
+}

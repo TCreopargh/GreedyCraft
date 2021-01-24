@@ -1,0 +1,34 @@
+
+{
+	title: "{greedycraft.quest.69d23675.title}",
+	icon: "minecraft:end_portal_frame",
+	x: 8.0d,
+	y: -2.0d,
+	shape: "rsquare",
+	description: "{greedycraft.quest.69d23675.desc}",
+	dependencies: [
+		"d0e042f0",
+		"a01ff995"
+	],
+	tasks: [{
+		uid: "f6c5ea5a",
+		type: "dimension",
+		dim: 1
+	}],
+	rewards: [{
+		uid: "c0d40acf",
+		type: "xp",
+		xp: 2000
+	},
+	{
+		uid: "9e0339e0",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "1cae5b3b",
+		type: "item",
+		item: "minecraft:ender_eye",
+		count: 16
+	}]
+}

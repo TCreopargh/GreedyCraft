@@ -1,0 +1,29 @@
+
+{
+	title: "{greedycraft.quest.521ad3b8.title}",
+	icon: "tofucraft:tofustick",
+	x: 2.0d,
+	y: 5.5d,
+	description: "{greedycraft.quest.521ad3b8.desc}",
+	tasks: [{
+		uid: "11da539b",
+		type: "dimension",
+		dim: 56
+	}],
+	rewards: [{
+		uid: "9307fde7",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "8a7a6204",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "378f00ed",
+		type: "item",
+		item: "tofucraft:blocktofudiamond",
+		count: 2
+	}]
+}

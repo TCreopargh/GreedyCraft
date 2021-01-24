@@ -1,0 +1,6 @@
+{
+  "name": "§6Infernium Nugget",
+  "burn_time": 10000,
+  "ore_dict": "nuggetInfernium",
+  "type": "additions:simple"
+}

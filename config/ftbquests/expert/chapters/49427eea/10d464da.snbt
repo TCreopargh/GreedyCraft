@@ -1,0 +1,12 @@
+
+{
+	title: "§eMake progress in Ender IO",
+	x: 18.5d,
+	y: 3.0d,
+	shape: "diamond",
+	tasks: [{
+		uid: "d9b1b21f",
+		type: "gamestage",
+		stage: "skilled_engineer"
+	}]
+}

@@ -1,0 +1,49 @@
+{
+	title: "{greedycraft.quest.555122a8.title}",
+	x: -3.5d,
+	y: -1.0d,
+	description: "{greedycraft.quest.555122a8.desc}",
+	dependencies: [
+		"f0fd8c17"
+	],
+	tasks: [{
+		uid: "6ea0b441",
+		type: "item",
+		items: [{
+			item: "twilightforest:trophy"
+		}]
+	}],
+	rewards: [{
+		uid: "a913376b",
+		type: "xp",
+		xp: 250
+	},
+	{
+		uid: "9f304e8f",
+		type: "item",
+		item: {
+			id: "minecraft:splash_potion",
+			tag: {
+				Potion: "minecraft:strong_healing"
+			}
+		},
+		count: 12
+	},
+	{
+		uid: "8cb62c46",
+		type: "item",
+		item: "twilightforest:naga_scale",
+		count: 16
+	},
+	{
+		uid: "8710086c",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "7d524d2e",
+		type: "advancement",
+		advancement: "twilightforest:progress_naga",
+		criterion: ""
+	}]
+}

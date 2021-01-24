@@ -1,0 +1,58 @@
+
+{
+	title: "{greedycraft.quest.b4991d6f.title}",
+	x: 14.0d,
+	y: 0.0d,
+	shape: "square",
+	description: "{greedycraft.quest.b4991d6f.desc}",
+	text: [
+		"§eFind chaotic islands at coordinates where x and y can be divided by 5000, kill the boss there and get chaos shards",
+		"§bMake sure to put Chaos Resistance modifier before fighting, it will help you a very great deal.",
+		"§6It's strongly recommended that you attempt to fight it after having full Draconic armor.",
+		"§cChaos Crystals don't regenerate but they may still respawn if they are out of your render distance. Set your render distance higher before this battle."
+	],
+	dependencies: [
+		"82d57b54"
+	],
+	tasks: [{
+		uid: "a79992f1",
+		type: "item",
+		items: [{
+			item: "draconicevolution:chaos_shard"
+		}]
+	}],
+	rewards: [{
+		uid: "0519ad90",
+		type: "xp",
+		xp: 150000
+	},
+	{
+		uid: "caa84247",
+		type: "item",
+		item: "draconicevolution:chaos_shard",
+		count: 7
+	},
+	{
+		uid: "31953bd2",
+		type: "item",
+		item: "draconicevolution:awakened_core",
+		count: 16
+	},
+	{
+		uid: "55bcbb84",
+		type: "item",
+		item: "minecraft:nether_star",
+		count: 64
+	},
+	{
+		uid: "53fbe718",
+		type: "loot",
+		table: 3
+	},
+	{
+		uid: "ece80b97",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "chaotic_dominator"
+	}]
+}

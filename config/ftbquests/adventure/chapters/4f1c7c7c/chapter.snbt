@@ -1,0 +1,62 @@
+{
+	title: "{greedycraft.quest.chapter.packmodes}",
+	icon: "minecraft:golden_apple 1 1",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "",
+	images: [{
+		x: 5.5d,
+		y: 0.0d,
+		width: 7.4d,
+		height: 10.0d,
+		rotation: 0.0d,
+		image: "greedycraft:quests/adventure.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -2.0d,
+		y: 0.0d,
+		width: 7.4d,
+		height: 10.0d,
+		rotation: 0.0d,
+		image: "greedycraft:quests/casual.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 13.0d,
+		y: 0.0d,
+		width: 7.4d,
+		height: 10.0d,
+		rotation: 0.0d,
+		image: "greedycraft:quests/expert.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 2.0d,
+		y: -9.0d,
+		width: 18.94d,
+		height: 9.86d,
+		rotation: 0.0d,
+		image: "greedycraft:quests/packmodes.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 13.5d,
+		y: -6.5d,
+		width: 6.0d,
+		height: 3.3d,
+		rotation: 0.0d,
+		image: "greedycraft:quests/adventure_mode.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

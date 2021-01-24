@@ -1,0 +1,22 @@
+{
+    "name": "§dTouhou Little Maid",
+    "icon": "touhou_little_maid:garage_kit{EntityId:\"touhou_little_maid:entity.passive.maid\",ModelId:\"touhou_little_maid:hakurei_reimu\"}",
+    "category": "patchouli:guide_category",
+    "pages": [{
+            "type": "text",
+            "text": "$(2)This chapter is about the $(5)Touhou Little Maid$() mod. To start working on this mod, you need the game stage $(c)nether$() (i.e ever been to the nether). The mod's content and mobs will not unlock until then."
+        },
+        {
+            "type": "text",
+            "text": "For elaborate content and guides, view the $(5)$(o)Memorizable Gensokyo$() book in your Omnipedia.$(7)(Put your omnipedia in crafting table to keep it up to date)$(). Different from the mod's original way, in this modpack you use $(d)Loli™ lolipop$() $(7)(No spelling mistake here)$() to tame and lure little maids. Due to the fact that maid's health is fixed at 20 in the original mod, you can eat the loli lolipop near a maid to set her health to 4 times of your health. This lolipop can be crafted with time shards."
+        },
+        {
+            "type": "text",
+            "text": "$(5)$(l)How to look up Alter crafting recipes:$()$(br2) First, randomly look up an item's recipe in JEI, and click the crafting workplace tag on the middle top (i.e If you are looking for a crafting table recipe, click on the 'Crafting' label). Then use the arrows on the topmost to switch between categories until you find a Japanese Torii that reads 'Alter Craft', click on that to see all alter crafting recipes.$(br)."
+        },
+        {
+            "type": "text",
+            "text": "$(2)Note: In this modpack, maid summoning and maid revival recipes are changed, use the above method to find the correct recipe."
+        }
+    ]
+}

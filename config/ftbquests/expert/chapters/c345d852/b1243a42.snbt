@@ -1,0 +1,27 @@
+
+{
+	title: "{greedycraft.quest.b1243a42.title}",
+	x: -1.0d,
+	y: -2.5d,
+	description: "{greedycraft.quest.b1243a42.desc}",
+	dependencies: [
+		"99f6417a"
+	],
+	tasks: [{
+		uid: "feaf5e89",
+		type: "item",
+		items: [{
+			item: "gendustry:genetics_processor"
+		}]
+	}],
+	rewards: [{
+		uid: "082875bf",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "74d667fd",
+		type: "xp",
+		xp: 600
+	}]
+}

@@ -1,0 +1,68 @@
+{
+	title: "{greedycraft.quest.chapter.industrial}",
+	icon: {
+		id: "thermalexpansion:machine",
+		tag: {
+			RSControl: 0b,
+			Facing: 3b,
+			Energy: 0,
+			SideCache: [B;
+				3b,
+				1b,
+				2b,
+				2b,
+				2b,
+				2b
+			],
+			Level: 0b
+		},
+		Damage: 1s
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "gear",
+	images: [{
+		x: 10.5d,
+		y: 0.0d,
+		width: 8.0d,
+		height: 4.0d,
+		rotation: 0.0d,
+		image: "greedycraft:quests/industrial.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -7.5d,
+		y: -4.5d,
+		width: 1.0d,
+		height: 1.0d,
+		rotation: 0.0d,
+		image: "greedycraft:quests/important.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -2.5d,
+		y: 6.5d,
+		width: 1.0d,
+		height: 1.0d,
+		rotation: 0.0d,
+		image: "greedycraft:quests/important.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 6.0d,
+		y: 3.0d,
+		width: 1.0d,
+		height: 1.0d,
+		rotation: 0.0d,
+		image: "greedycraft:quests/important.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

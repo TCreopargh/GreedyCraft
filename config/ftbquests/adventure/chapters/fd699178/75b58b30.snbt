@@ -1,0 +1,29 @@
+{
+	title: "{greedycraft.quest.75b58b30.title}",
+	x: -11.5d,
+	y: 1.0d,
+	description: "{greedycraft.quest.75b58b30.desc}",
+	tasks: [{
+		uid: "6f96d7de",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material"
+		}]
+	}],
+	rewards: [{
+		uid: "98824722",
+		type: "xp",
+		xp: 50
+	},
+	{
+		uid: "1e98ace9",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "51fe7c2d",
+		type: "item",
+		item: "minecraft:quartz",
+		count: 16
+	}]
+}

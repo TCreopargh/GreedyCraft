@@ -1,0 +1,30 @@
+
+{
+	title: "{greedycraft.quest.80c19c7f.title}",
+	x: -8.0d,
+	y: 13.5d,
+	description: "{greedycraft.quest.80c19c7f.desc}",
+	tasks: [{
+		uid: "e6e64015",
+		type: "item",
+		items: [{
+			item: "storagedrawers:upgrade_creative"
+		}]
+	}],
+	rewards: [{
+		uid: "0e70556d",
+		type: "xp",
+		xp: 2000
+	},
+	{
+		uid: "20123083",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "7f91af1b",
+		type: "item",
+		item: "storagedrawers:upgrade_creative",
+		count: 4
+	}]
+}

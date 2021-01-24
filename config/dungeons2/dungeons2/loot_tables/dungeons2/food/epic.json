@@ -1,0 +1,22 @@
+{
+	"pools": [
+		{
+			"name": "epic_food",
+			"rolls": 1,
+			"entries": [
+					{
+					"entryName": "golden_apple",
+					"type": "item",
+					"name": "minecraft:golden_apple",
+					"weight": 50
+				},
+				{
+					"entryName": "golden_carrot",
+					"type": "item",
+					"name": "minecraft:golden_carrot",
+					"weight": 50
+				}
+			]
+		}
+	]
+}

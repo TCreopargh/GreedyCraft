@@ -1,0 +1,28 @@
+{
+	title: "{greedycraft.quest.48a55f8e.title}",
+	icon: "twilightforest:trollsteinn",
+	x: 6.5d,
+	y: -1.0d,
+	description: "{greedycraft.quest.48a55f8e.desc}",
+	dependencies: [
+		"8ea08f88",
+		"8ce57eb1",
+		"052c11fa"
+	],
+	rewards: [{
+		uid: "3ca3e6b9",
+		type: "xp",
+		xp: 500
+	},
+	{
+		uid: "9cb28778",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "579f3ea0",
+		type: "advancement",
+		advancement: "twilightforest:progress_merge",
+		criterion: ""
+	}]
+}

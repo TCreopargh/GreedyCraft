@@ -1,0 +1,5 @@
+{
+    "name": "§cBloody Sacrifice",
+    "tooltip": ["§eSkip a blood moon to the next morning.", "§7Consumed on use"],
+    "type": "additions:simple"
+}

@@ -1,0 +1,32 @@
+{
+	title: "{greedycraft.quest.81ece8f9.title}",
+	x: -12.0d,
+	y: 3.5d,
+	description: "{greedycraft.quest.81ece8f9.desc}",
+	dependencies: [
+		"fe27afe8"
+	],
+	tasks: [{
+		uid: "f0fbd4c5",
+		type: "item",
+		items: [{
+			item: "mekanism:oreblock"
+		}]
+	}],
+	rewards: [{
+		uid: "44d9d6aa",
+		type: "item",
+		item: "mekanism:oreblock",
+		count: 6
+	},
+	{
+		uid: "e5cc23ce",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "7ae4f98e",
+		type: "loot",
+		table: 0
+	}]
+}

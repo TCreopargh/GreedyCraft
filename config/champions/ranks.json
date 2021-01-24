@@ -1,0 +1,82 @@
+[
+  {
+    "tier": 1,
+    "color": 16772696,
+    "affixes": 1,
+    "growthFactor": 2,
+    "chance": 0.05,
+    "potions": []
+  },
+  {
+    "tier": 2,
+    "color": 4367861,
+    "affixes": 2,
+    "growthFactor": 4,
+    "chance": 0.1,
+    "potions": []
+  },
+  {
+    "tier": 3,
+    "color": 15368444,
+    "affixes": 3,
+    "growthFactor": 7,
+    "chance": 0.1,
+    "potions": []
+  },
+  {
+    "tier": 4,
+    "color": 15483002,
+    "affixes": 4,
+    "growthFactor": 11,
+    "chance": 0.1,
+    "potions": []
+  },
+  {
+    "tier": 5,
+    "color": 16750592,
+    "affixes": 5,
+    "growthFactor": 16,
+    "chance": 0.1,
+    "potions": ["minecraft:regeneration;1"]
+  },
+ {
+    "tier": 6,
+    "color": 16733986,
+    "affixes": 6,
+    "growthFactor": 22,
+    "chance": 0.1,
+    "potions": ["minecraft:fire_resistance;1","minecraft:regeneration;1"]
+  },
+ {
+    "tier": 7,
+    "color": 16732754,
+    "affixes": 7,
+    "growthFactor": 28,
+    "chance": 0.1,
+    "potions": ["minecraft:fire_resistance;1","minecraft:regeneration;2"]
+  },
+ {
+    "tier": 8,
+    "color": 12986408,
+    "affixes": 8,
+    "growthFactor": 36,
+    "chance": 0.1,
+    "potions": ["minecraft:fire_resistance;1","minecraft:regeneration;2"]
+  },
+ {
+    "tier": 9,
+    "color": 6953882,
+    "affixes": 10,
+    "growthFactor": 46,
+    "chance": 0.1,
+    "potions": ["minecraft:fire_resistance;1","minecraft:regeneration;3","minecraft:resistance;1"]
+  },
+ {
+    "tier": 10,
+    "color": 2171169,
+    "affixes": 12,
+    "growthFactor": 60,
+    "chance": 0.1,
+    "potions": ["minecraft:fire_resistance;1","minecraft:regeneration;4","minecraft:resistance;2"]
+  }
+]

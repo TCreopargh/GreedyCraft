@@ -1,0 +1,28 @@
+{
+	title: "{greedycraft.quest.93895f75.title}",
+	x: 3.0d,
+	y: 13.0d,
+	description: "{greedycraft.quest.93895f75.desc}",
+	tasks: [{
+		uid: "e00ed500",
+		type: "item",
+		items: [{
+			item: "enderio:item_capacitor_totemic"
+		}]
+	}],
+	rewards: [{
+		uid: "184d453a",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "d916600f",
+		type: "xp",
+		xp: 6666
+	},
+	{
+		uid: "c0c0e3c8",
+		type: "item",
+		item: "enderio:item_capacitor_totemic"
+	}]
+}

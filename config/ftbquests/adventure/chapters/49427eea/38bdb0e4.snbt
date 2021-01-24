@@ -1,0 +1,46 @@
+{
+	title: "{greedycraft.quest.38bdb0e4.title}",
+	x: 0.5d,
+	y: -1.5d,
+	description: "{greedycraft.quest.38bdb0e4.desc}",
+	dependencies: [
+		"f196d094"
+	],
+	tasks: [{
+		uid: "48593fe8",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:dynamo",
+			tag: {
+				RSControl: 0b,
+				Facing: 1b,
+				Energy: 0,
+				Level: 0b
+			},
+			Damage: 5s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9de56671",
+		type: "item",
+		item: "thermalfoundation:coin 1 1",
+		count: 128
+	},
+	{
+		uid: "61fd889d",
+		type: "item",
+		item: "minecraft:emerald",
+		count: 16
+	},
+	{
+		uid: "08d70752",
+		type: "xp",
+		xp: 500
+	},
+	{
+		uid: "921b5e08",
+		type: "loot",
+		table: 1
+	}]
+}

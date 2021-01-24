@@ -1,0 +1,16 @@
+{
+  "name": "§cEmergency Button",
+  "tooltip": [
+    "§4THIS SHOULD ONLY BE USED FOR EMERGENCY, DO NOT USE WHEN NOTHING GOES WRONG",
+    "§cRight click to clear §6all entities§c besides players in the server.",
+    "§cLeft click to clear all §6hostile entities§c in the server.",
+    "§cCleared entities drop nothing and don't count as player kills.",
+    "§cAlso clears all potion effects on the user.",
+    "§cONLY USE THIS WHEN YOU HAVE TO.",
+    "§cConsumed on use.",
+    "§5BACKUP YOUR WORLD BEFORE USING!",
+    "§bTo get this, you need to wait for the countdown in the 'Emergency Item' in FTBQuests menu."
+  ],
+  "max_stack": 1,
+  "type": "additions:simple"
+}

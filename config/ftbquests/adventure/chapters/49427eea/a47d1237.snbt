@@ -1,0 +1,29 @@
+{
+	title: "{greedycraft.quest.a47d1237.title}",
+	x: 16.0d,
+	y: 3.0d,
+	description: "{greedycraft.quest.a47d1237.desc}",
+	tasks: [{
+		uid: "bd204458",
+		type: "item",
+		items: [{
+			item: "bigreactors:oreyellorite"
+		}]
+	}],
+	rewards: [{
+		uid: "ac988a07",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "9454539a",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "d8659bc2",
+		type: "item",
+		item: "bigreactors:oreyellorite",
+		count: 6
+	}]
+}

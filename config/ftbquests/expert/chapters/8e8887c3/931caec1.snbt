@@ -1,0 +1,39 @@
+
+{
+	title: "{greedycraft.quest.931caec1.title}",
+	x: -10.0d,
+	y: 0.0d,
+	shape: "rsquare",
+	description: "{greedycraft.quest.931caec1.desc}",
+	text: [
+		"Please read the modpack guide book in your hotbar carefully.",
+		"It provides a lot of help for how to progress in this game",
+		"If you somehow lost it, you can make another one with 3 wooden sticks."
+	],
+	dependencies: [
+		"286f21d3"
+	],
+	tasks: [{
+		uid: "6f2bc3fa",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -6677120288058627187L,
+					AS_Amulet_HolderMost: 3244428519259456314L
+				}
+			},
+			id: "patchouli:guide_book",
+			tag: {
+				"patchouli:book": "patchouli:greedycraft_guide_book"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3f949772",
+		type: "xp",
+		xp: 25
+	}]
+}

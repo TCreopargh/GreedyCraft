@@ -1,0 +1,29 @@
+
+{
+	title: "{greedycraft.quest.d933b90a.title}",
+	x: 14.0d,
+	y: 4.0d,
+	description: "{greedycraft.quest.d933b90a.desc}",
+	dependencies: [
+		"470b67b1"
+	],
+	tasks: [{
+		uid: "8a34e4ed",
+		type: "item",
+		items: [{
+			item: "additions:astral_metal_ingot"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0f60ff37",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "916f31da",
+		type: "xp",
+		xp: 5200
+	}]
+}

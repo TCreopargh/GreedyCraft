@@ -1,0 +1,158 @@
+[
+  {
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": true,
+      "enableBow": true,
+      "enableBowString": true,
+      "enableShaft": true,
+      "enableFletching": true,
+      "enableProjectile": true
+    },
+    "name": "fleshfiredragon",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    }
+  },
+  {
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": true,
+      "enableBow": true,
+      "enableBowString": true,
+      "enableShaft": true,
+      "enableFletching": true,
+      "enableProjectile": true
+    },
+    "name": "heartfiredragon",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    }
+  },
+  {
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": true,
+      "enableBow": true,
+      "enableBowString": true,
+      "enableShaft": true,
+      "enableFletching": true,
+      "enableProjectile": true
+    },
+    "name": "hearticedragon",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    }
+  },
+  {
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": true,
+      "enableBow": true,
+      "enableBowString": true,
+      "enableShaft": true,
+      "enableFletching": true,
+      "enableProjectile": true
+    },
+    "name": "fleshicedragon",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    }
+  },
+  {
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": true,
+      "enableBow": true,
+      "enableBowString": true,
+      "enableShaft": true,
+      "enableFletching": true,
+      "enableProjectile": true
+    },
+    "name": "enchantedfabric",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    }
+  },
+  {
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": true,
+      "enableBow": true,
+      "enableBowString": true,
+      "enableShaft": true,
+      "enableFletching": true,
+      "enableProjectile": true
+    },
+    "name": "silkycloth",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    }
+  }
+]

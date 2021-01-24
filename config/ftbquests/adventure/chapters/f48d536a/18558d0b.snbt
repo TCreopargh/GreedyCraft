@@ -1,0 +1,31 @@
+{
+	title: "{greedycraft.quest.18558d0b.title}",
+	icon: "abyssalcraft:stone 1 6",
+	x: 16.5d,
+	y: 0.0d,
+	description: "{greedycraft.quest.18558d0b.desc}",
+	dependencies: [
+		"3dcbfcd8"
+	],
+	tasks: [{
+		uid: "a7627ccb",
+		type: "dimension",
+		dim: 52
+	}],
+	rewards: [{
+		uid: "589f94de",
+		type: "xp",
+		xp: 8000
+	},
+	{
+		uid: "aac5f1e6",
+		type: "item",
+		item: "waystones:waystone",
+		count: 4
+	},
+	{
+		uid: "4077a4cb",
+		type: "loot",
+		table: 2
+	}]
+}

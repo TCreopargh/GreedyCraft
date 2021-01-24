@@ -1,0 +1,60 @@
+[
+    {
+        "dimension": 111,
+        "mobs": [
+            {
+                "mob": "headcrumbs:human",
+                "weight": 5,
+                "groupcountmin": 1,
+                "groupcountmax": 3
+            }
+        ]
+    },
+	 {
+        "dimension": 0,
+		"biome": [
+			"abyssalcraft:darklands",
+			"abyssalcraft:darklands_forest",
+			"abyssalcraft:darklands_mountain",
+			"abyssalcraft:darklands_hills",
+			"abyssalcraft:darklands_plains"
+		],
+        "mobs": [
+            {
+                "mob": "abyssalcraft:shadowmonster",
+                "weight": 5,
+                "groupcountmin": 1,
+                "groupcountmax": 2
+            }
+        ]
+    },
+	 {
+        "dimension": 0,
+		"biometype": [
+			"OCEAN"
+		],
+        "mobs": [
+            {
+                "mob": "minecraft:guardian",
+                "weight": 4,
+                "groupcountmin": 1,
+                "groupcountmax": 3
+            }
+        ]
+    },
+    {
+       "dimension": 0,
+       "biometype": [
+           "OCEAN"
+       ],
+       "gamestage": "hardmode",
+       "mobs": [
+           {
+               "mob": "enderiozoo:epicsquid",
+               "weight": 1,
+               "groupcountmin": 1,
+               "groupcountmax": 2
+           }
+       ]
+   }
+]

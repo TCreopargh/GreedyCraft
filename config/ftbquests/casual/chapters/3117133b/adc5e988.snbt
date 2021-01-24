@@ -1,0 +1,33 @@
+
+{
+	title: "{greedycraft.quest.adc5e988.title}",
+	x: 1.5d,
+	y: -2.5d,
+	description: "{greedycraft.quest.adc5e988.desc}",
+	dependencies: [
+		"b5350524"
+	],
+	tasks: [{
+		uid: "cd06ba91",
+		type: "item",
+		items: [{
+			item: "aether_legacy:gravitite_ore"
+		}]
+	}],
+	rewards: [{
+		uid: "3750b363",
+		type: "xp",
+		xp: 600
+	},
+	{
+		uid: "4a59832c",
+		type: "item",
+		item: "aether_legacy:gravitite_ore",
+		count: 6
+	},
+	{
+		uid: "8bb792b9",
+		type: "loot",
+		table: 1
+	}]
+}

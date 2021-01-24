@@ -1,0 +1,3 @@
+C:\Minecraft\.minecraft\versions\GreedyCraft-1.12.2\addons\Additions\TCreopargh的赞助者模组\data\loot_tables\additions\tcsponsors-sponsor_loot_table.json
+- Expected name to be an item, was unknown string 'additions:koishis_hat'
+

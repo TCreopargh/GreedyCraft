@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_column",
+  "textures": {
+    "end": "additions:blocks/greedycraft-ancient_debris_top",
+    "side": "additions:blocks/greedycraft-ancient_debris"
+  }
+}

@@ -1,0 +1,39 @@
+{
+	title: "{greedycraft.quest.975130a6.title}",
+	icon: {
+		id: "minecraft:iron_boots"
+	},
+	x: -0.5d,
+	y: 1.0d,
+	description: "{greedycraft.quest.975130a6.desc}",
+	dependencies: [
+		"20cfe99d"
+	],
+	tasks: [{
+		uid: "b0a12653",
+		type: "stat",
+		icon: {
+			id: "minecraft:iron_boots"
+		},
+		stat: "stat.walkOneCm",
+		value: 5000000
+	}],
+	rewards: [{
+		uid: "bf9ce021",
+		type: "item",
+		item: {
+			id: "cyclicmagic:charm_wing",
+			tag: {}
+		}
+	},
+	{
+		uid: "ce53b422",
+		type: "xp",
+		xp: 5000
+	},
+	{
+		uid: "30d58d30",
+		type: "loot",
+		table: 1
+	}]
+}

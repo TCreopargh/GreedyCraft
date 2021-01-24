@@ -1,0 +1,10 @@
+{
+  "name": "§6Plate of Honor",
+  "tooltip": [
+    "§eCombine with tools or armors with tool forge / armor forge",
+    "§eto apply a modifier that increases damage or defense as the tool levels up.",
+    "§bMax level is 3 on tools and 1 on armor."
+  ],
+  "ore_dict": "plateHonor",
+  "type": "additions:simple"
+}

@@ -1,0 +1,75 @@
+
+{
+	title: "{greedycraft.quest.330265f8.title}",
+	icon: "twilightforest:trophy 1 6",
+	x: 1.5d,
+	y: -3.0d,
+	description: "{greedycraft.quest.330265f8.desc}",
+	dependencies: [
+		"11643307"
+	],
+	tasks: [{
+		uid: "89128fba",
+		type: "item",
+		items: [{
+			item: "twilightforest:trophy 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "dc0be368",
+		type: "item",
+		item: {
+			id: "twilightforest:mazebreaker_pickaxe",
+			tag: {
+				ench: [{
+					lvl: 4s,
+					id: 32
+				},
+				{
+					lvl: 3s,
+					id: 34
+				},
+				{
+					lvl: 2s,
+					id: 35
+				}]
+			}
+		}
+	},
+	{
+		uid: "e92567ba",
+		type: "xp",
+		xp: 600
+	},
+	{
+		uid: "8ee50eaa",
+		type: "item",
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:mooshroom"
+				}
+			}
+		},
+		count: 2
+	},
+	{
+		uid: "be5a507d",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "82c36e1f",
+		type: "advancement",
+		auto: "no_toast",
+		advancement: "twilightforest:progress_labyrinth",
+		criterion: ""
+	},
+	{
+		uid: "8405cc5d",
+		type: "advancement",
+		advancement: "twilightforest:mazebreaker",
+		criterion: ""
+	}]
+}

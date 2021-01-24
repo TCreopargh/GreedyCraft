@@ -1,0 +1,27 @@
+{
+	title: "{greedycraft.quest.1e23e1e8.title}",
+	x: 3.0d,
+	y: 7.0d,
+	description: "{greedycraft.quest.1e23e1e8.desc}",
+	dependencies: [
+		"acafd08c"
+	],
+	tasks: [{
+		uid: "54c75a55",
+		type: "item",
+		items: [{
+			item: "enderio:block_enhanced_wired_charger"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "263525c3",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "bb002573",
+		type: "xp",
+		xp: 1250
+	}]
+}

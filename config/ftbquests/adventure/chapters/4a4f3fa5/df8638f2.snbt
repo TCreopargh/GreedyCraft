@@ -1,0 +1,33 @@
+{
+	title: "{greedycraft.quest.df8638f2.title}",
+	x: 5.5d,
+	y: 0.0d,
+	description: "{greedycraft.quest.df8638f2.desc}",
+	dependencies: [
+		"520beeea",
+		"f3cbd6e6"
+	],
+	tasks: [{
+		uid: "b3fe35c8",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "3e53f126",
+		type: "xp",
+		xp: 7500
+	},
+	{
+		uid: "df381b79",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "aad45003",
+		type: "item",
+		item: "botania:blacklotus",
+		count: 10
+	}]
+}

@@ -1,0 +1,47 @@
+/ == SPECIAL EFFECTS ==
+
+/ Arrow Cluster
+type=entity,ID=Arrow,pos=#bowPos,NBTTag=(Motion=#bowMotion(1.0,5.0)),amount=20@luck=2
+
+/ Arrow Stream
+type=entity,ID=Arrow,pos=#bowPos,NBTTag=(Motion=#bowMotion),amount=30,delay=#rand(0.0,3.0)@luck=2
+
+/ Sword
+type=entity,ID=lucky:LuckyProjectile,pos=#bowPos,NBTTag=(Motion=#bowMotion,item=(id=iron_sword),damage=10.0)@luck=2
+
+/ Egg
+type=entity,ID=lucky:LuckyProjectile,pos=#bowPos,NBTTag=(Motion=#bowMotion,item=(id=egg),damage=1.0,impact=["type=entity,ID=chicken"])@luck=-1
+
+/ Meteorite
+type=entity,ID=lucky:LuckyProjectile,pos=#bowPos,NBTTag=(Motion=#bowMotion,item=(id=stone),trail=(frequency=0.1,drops=["type=block,ID=stone,delay=0.4","type=block,ID=stone,meta=1,delay=0.4@chance=0.3"]),impact=["group(type=explosion,damage=4,fire=true;type=structure,ID=meteor,delay=0.4)"])@chance=0.5@luck=2
+
+/ TNT
+type=entity,ID=lucky:LuckyProjectile,pos=#bowPos,NBTTag=(Motion=#bowMotion,item=(id=tnt),trail=(frequency=0.2,drops=["type=particle,ID=smoke)"]),impact=["group(type=difficulty,ID=hard;type=explosion,damage=4)"])@luck=2
+
+/ Pickaxe Hole
+type=entity,ID=lucky:LuckyProjectile,pos=#bowPos,NBTTag=(Motion=#bowMotion,item=(id=iron_pickaxe),trail=(frequency=0.5,drops=["type=particle,ID=blockcrack_3"]),impact=["group(type=structure,ID=drill_hole,posY=#bPosY-1;type=particle,ID=blockcrack_3,posY=#bExactPosY-7,size=(2.0,3.0,2.0),particleAmount=2000;type=sound,ID=block.gravel.break,volume=2.0)"])@luck=2
+
+/ Water/Lava Buckets
+group:1:(type=entity,ID=lucky:LuckyProjectile,pos=#bowPos,NBTTag=(Motion=#bowMotion,item=(id=water_bucket),trail=(frequency=0.5,drops=["type=particle,ID=splash"]),impact=["type=block,ID=flowing_water"]);type=entity,ID=lucky:LuckyProjectile,pos=#bowPos,NBTTag=(Motion=#bowMotion,item=(id=lava_bucket),trail=(frequency=0.5,drops=["type=particle,ID=smoke"]),impact=["type=block,ID=flowing_lava"]))@luck=2
+
+/ Lightening Creeper
+type=entity,ID=lucky:LuckyProjectile,pos=#bowPos,NBTTag=(Motion=#bowMotion,item=(id=skull,Damage=4),impact=["group(type=difficulty,ID=hard;type=entity,ID=Creeper;type=entity,ID=LightningBolt)"])@luck=2
+
+/ Knockback
+type=entity,ID=lucky:LuckyProjectile,pos=#bowPos,NBTTag=(Motion=#bowMotion,item=(id=feather),impact=["group(type=effect,ID=special_knockback,power=2.5,range=4,delay=0.1;type=particle,ID=explode,size=(1.5,1.0,1.5),particleAmount=500)"])@luck=2
+
+/ Monsters
+type=entity,ID=lucky:LuckyProjectile,pos=#bowPos,NBTTag=(Motion=#bowMotion(1.0,2.0),item=(id=spawn_egg,tag=(EntityTag=(id=#randList("Zombie","Skeleton","Spider")))),impact=["group(type=difficulty,ID=hard;type=entity,ID=#randList(Zombie,Skeleton,Spider),posOffset=#circleOffset(0,2))"]),amount=#rand(7,10)@luck=2
+
+/ Potions
+type=entity,ID=lucky:LuckyProjectile,pos=#bowPos,NBTTag=(Motion=#bowMotion(1.0,2.0),item=(id=splash_potion,tag=(Potion=#randList("poison","weakness","slowness","harming"))),impact=["group(type=effect,ID=#randList(19,18,2,7),range=4,amplifier=#rand(0,2),duration=30;type=particle,ID=splashpotion,potion=#randList("poison","weakness","slowness","harming"))"]),amount=#rand(7,10)@luck=2
+
+/ Fire
+type=entity,ID=lucky:LuckyProjectile,pos=#bowPos,NBTTag=(Motion=#bowMotion,item=(id=fire_charge),trail=(frequency=0.5,drops=["type=particle,ID=lava"]),impact=["group(type=block,ID=fire,posOffset=#circleOffset(0,3),amount=50;type=block,ID=flowing_lava)"])@luck=2
+
+/ Spider Web
+type=entity,ID=lucky:LuckyProjectile,pos=#bowPos,NBTTag=(Motion=#bowMotion,item=(id=web),impact=["type=fill,ID=web,size=(3,2,3),posOffset=(-1,0,-1)"])@luck=2
+
+/ == NORMAL ARROW ==
+
+type=entity,ID=Arrow,pos=#bowPos,NBTTag=(Motion=#bowMotion)@chance=20

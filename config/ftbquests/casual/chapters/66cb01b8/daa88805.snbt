@@ -1,0 +1,28 @@
+
+{
+	title: "{greedycraft.quest.daa88805.title}",
+	x: 0.0d,
+	y: -1.0d,
+	description: "{greedycraft.quest.daa88805.desc}",
+	dependencies: [
+		"953ab48a"
+	],
+	tasks: [{
+		uid: "8c9c0ba7",
+		type: "item",
+		items: [{
+			item: "bloodmagic:soul_forge"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5cfb30c8",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "fcc02adb",
+		type: "xp",
+		xp: 600
+	}]
+}

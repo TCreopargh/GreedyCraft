@@ -1,0 +1,68 @@
+{
+	"version": "1.0",
+	"pools": [
+		{
+			"name": "rare_food",
+			"rolls": 1,
+			"entries": [
+				{
+					"entryName": "rabbit_foot",
+					"type": "item",
+					"name": "minecraft:rabbit_foot",
+					"weight": 25
+				},
+				{
+					"entryName": "potato",
+					"type": "item",
+					"name": "minecraft:potato",
+					"weight": 35,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 3
+							}
+						}
+					]	
+				},
+				{
+					"entryName": "speckled_melon",
+					"type": "item",
+					"name": "minecraft:speckled_melon",
+					"weight": 15
+				},
+				{
+					"entryName": "beetroot",
+					"type": "item",
+					"name": "minecraft:beetroot",
+					"weight": 50,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 5
+							}
+						}
+					]	
+				},
+				{
+					"entryName": "beetroot_seed",
+					"type": "item",
+					"name": "minecraft:beetroot_seeds",
+					"weight": 50,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 3
+							}
+						}
+					]	
+				}
+			]
+		}
+	]
+}

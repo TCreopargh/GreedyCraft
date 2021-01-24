@@ -1,0 +1,7 @@
+{
+  "name": "§5Shadowium Ingot",
+  "is_beacon_payment": true,
+  "tooltip": "§7This metal absorbs nearly all light.",
+  "ore_dict": "ingotShadowium",
+  "type": "additions:simple"
+}

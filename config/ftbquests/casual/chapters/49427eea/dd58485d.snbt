@@ -1,0 +1,35 @@
+
+{
+	title: "{greedycraft.quest.dd58485d.title}",
+	x: -4.5d,
+	y: 7.0d,
+	description: "{greedycraft.quest.dd58485d.desc}",
+	dependencies: [
+		"ce025fbd"
+	],
+	tasks: [{
+		uid: "58e81fac",
+		type: "item",
+		items: [{
+			item: "enderio:block_sag_mill"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8cbfc13a",
+		type: "xp",
+		xp: 800
+	},
+	{
+		uid: "1093e46c",
+		type: "item",
+		item: "enderio:item_alloy_ingot",
+		count: 32
+	},
+	{
+		uid: "8376ab1f",
+		type: "loot",
+		table: 1
+	}]
+}

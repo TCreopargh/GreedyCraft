@@ -1,0 +1,29 @@
+{
+	title: "{greedycraft.quest.a7c9c1e7.title}",
+	x: -6.0d,
+	y: 7.5d,
+	description: "{greedycraft.quest.a7c9c1e7.desc}",
+	tasks: [{
+		uid: "c48bd5b6",
+		type: "item",
+		items: [{
+			item: "ironchest:iron_chest 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "d06881ab",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "ae389345",
+		type: "item",
+		item: "ironchest:iron_chest 1 2",
+		count: 3
+	},
+	{
+		uid: "13ac3e88",
+		type: "loot",
+		table: 0
+	}]
+}

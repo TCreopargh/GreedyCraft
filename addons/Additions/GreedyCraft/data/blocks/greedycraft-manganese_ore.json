@@ -1,0 +1,15 @@
+{
+  "item_block": {
+    "name": "§3Manganese Nodules",
+    "ore_dict": "oreManganese",
+    "type": "additions:block_simple"
+  },
+  "name": "§3Manganese Nodules",
+  "material": "minecraft:stone",
+  "map_color": "minecraft:cyan",
+  "hardness": 4.5,
+  "resistance": 200.0,
+  "harvest_level": 3,
+  "harvest_tool": "pickaxe",
+  "type": "additions:simple"
+}

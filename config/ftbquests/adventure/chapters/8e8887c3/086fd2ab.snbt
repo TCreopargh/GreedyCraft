@@ -1,0 +1,33 @@
+{
+	title: "{greedycraft.quest.086fd2ab.title}",
+	x: 0.0d,
+	y: 2.0d,
+	shape: "pentagon",
+	description: "{greedycraft.quest.086fd2ab.desc}",
+	dependencies: [
+		"df9c6844"
+	],
+	tasks: [{
+		uid: "510a0241",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-energy_matter_core"
+		}]
+	}],
+	rewards: [{
+		uid: "b843b035",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "energy_matter_core"
+	},
+	{
+		uid: "c5cf3b1d",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "cf04a9f0",
+		type: "xp",
+		xp: 3000
+	}]
+}

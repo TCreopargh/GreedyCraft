@@ -1,0 +1,38 @@
+
+{
+	title: "{greedycraft.quest.5fdcedd9.title}",
+	x: 10.0d,
+	y: 4.0d,
+	description: "{greedycraft.quest.5fdcedd9.desc}",
+	dependencies: [
+		"f136f4b7"
+	],
+	tasks: [{
+		uid: "58345562",
+		type: "item",
+		items: [{
+			item: "tconevo:metal 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "be59b093",
+		type: "item",
+		item: "draconicevolution:awakened_core",
+		count: 4
+	},
+	{
+		uid: "a358ecae",
+		type: "xp",
+		xp: 10000
+	},
+	{
+		uid: "eb888367",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "76a964fd",
+		type: "loot",
+		table: 3
+	}]
+}

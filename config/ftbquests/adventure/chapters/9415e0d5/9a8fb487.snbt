@@ -1,0 +1,36 @@
+{
+	title: "{greedycraft.quest.9a8fb487.title}",
+	icon: "candymod:teleporter",
+	x: 6.0d,
+	y: 1.5d,
+	description: "{greedycraft.quest.9a8fb487.desc}",
+	tasks: [{
+		uid: "c526b9fb",
+		type: "dimension",
+		title: "§eEnter Candy World by eating a Magic Piece of Candy",
+		icon: "candymod:teleporter",
+		dim: 23
+	}],
+	rewards: [{
+		uid: "45ee3de7",
+		type: "xp",
+		xp: 1200
+	},
+	{
+		uid: "addb9bfa",
+		type: "item",
+		item: "candymod:teleporter",
+		count: 3
+	},
+	{
+		uid: "b1d15aa8",
+		type: "item",
+		item: "minecraft:sugar",
+		count: 64
+	},
+	{
+		uid: "e9e940a8",
+		type: "loot",
+		table: 2
+	}]
+}

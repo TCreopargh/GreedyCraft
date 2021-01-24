@@ -1,0 +1,80 @@
+{
+	title: "{greedycraft.quest.3835df9e.title}",
+	x: 22.0d,
+	y: -4.0d,
+	shape: "octagon",
+	description: "{greedycraft.quest.3835df9e.desc}",
+	dependencies: [
+		"727f6d18"
+	],
+	tasks: [{
+		uid: "acf9bb76",
+		type: "item",
+		items: [{
+			item: "avaritia:resource 1 6"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0c632071",
+		type: "xp",
+		xp: 1919810
+	},
+	{
+		uid: "f45c1153",
+		type: "item",
+		item: {
+			id: "avaritia:infinity_pickaxe",
+			tag: {
+				ench: [{
+					lvl: 10s,
+					id: 35
+				}]
+			}
+		}
+	},
+	{
+		uid: "58a1abe6",
+		type: "item",
+		item: {
+			id: "avaritia:infinity_axe"
+		}
+	},
+	{
+		uid: "5ccbb97a",
+		type: "item",
+		item: {
+			id: "avaritia:infinity_hoe"
+		}
+	},
+	{
+		uid: "9716129c",
+		type: "item",
+		item: {
+			id: "avaritia:infinity_shovel"
+		}
+	},
+	{
+		uid: "29ef0d79",
+		type: "item",
+		item: "tconstruct:materials 1 50",
+		count: 3
+	},
+	{
+		uid: "2c00958a",
+		type: "loot",
+		table: 3
+	},
+	{
+		uid: "f37824b1",
+		type: "item",
+		item: "avaritia:resource 1 6",
+		count: 3
+	},
+	{
+		uid: "c44414c2",
+		type: "item",
+		item: "projectex:collector 1 7",
+		count: 2
+	}]
+}

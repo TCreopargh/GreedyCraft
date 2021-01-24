@@ -1,0 +1,33 @@
+{
+	title: "{greedycraft.quest.4f91267b.title}",
+	x: 0.5d,
+	y: -0.5d,
+	description: "{greedycraft.quest.4f91267b.desc}",
+	dependencies: [
+		"087117dd",
+		"a72c38cb"
+	],
+	tasks: [{
+		uid: "27995188",
+		type: "item",
+		items: [{
+			item: "thaumadditions:crystal_bore"
+		}]
+	}],
+	rewards: [{
+		uid: "6adc17c8",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "0e79d0d8",
+		type: "xp",
+		xp: 1200
+	},
+	{
+		uid: "7aabb357",
+		type: "item",
+		item: "minecraft:quartz",
+		count: 256
+	}]
+}

@@ -1,0 +1,41 @@
+
+{
+	title: "{greedycraft.quest.67135803.title}",
+	x: -9.5d,
+	y: -1.5d,
+	description: "{greedycraft.quest.67135803.desc}",
+	dependencies: [
+		"d5340c5b"
+	],
+	tasks: [{
+		uid: "c9f729d7",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:dynamo",
+			tag: {
+				RSControl: 0b,
+				Facing: 1b,
+				Energy: 0,
+				Level: 0b
+			},
+			Damage: 2s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "647f3e9c",
+		type: "item",
+		item: "minecraft:wheat_seeds",
+		count: 64
+	},
+	{
+		uid: "81657499",
+		type: "xp",
+		xp: 400
+	},
+	{
+		uid: "527d0fe8",
+		type: "loot",
+		table: 1
+	}]
+}

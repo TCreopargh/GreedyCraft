@@ -1,0 +1,43 @@
+{
+	title: "{greedycraft.quest.082d5fbe.title}",
+	x: -8.0d,
+	y: 3.5d,
+	description: "{greedycraft.quest.082d5fbe.desc}",
+	tasks: [{
+		uid: "6fb44d13",
+		type: "item",
+		items: [{
+			item: "bountifulbaubles:reforger"
+		}]
+	}],
+	rewards: [{
+		uid: "dbb93550",
+		type: "item",
+		item: {
+			id: "bountifulbaubles:disintegrationtablet"
+		}
+	},
+	{
+		uid: "e531b165",
+		type: "item",
+		item: {
+			id: "bountifulbaubles:phantomprism"
+		}
+	},
+	{
+		uid: "30b80b3a",
+		type: "item",
+		item: "bountifulbaubles:spectralsilt",
+		count: 5
+	},
+	{
+		uid: "09805a34",
+		type: "xp",
+		xp: 230
+	},
+	{
+		uid: "908f5482",
+		type: "loot",
+		table: 1
+	}]
+}

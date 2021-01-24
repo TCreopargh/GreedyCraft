@@ -1,0 +1,32 @@
+{
+	title: "{greedycraft.quest.06264bbf.title}",
+	x: -9.0d,
+	y: 1.0d,
+	description: "{greedycraft.quest.06264bbf.desc}",
+	dependencies: [
+		"75b58b30"
+	],
+	tasks: [{
+		uid: "0f9d7e2e",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "aae7afc0",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "2d944834",
+		type: "item",
+		item: "minecraft:redstone_block",
+		count: 32
+	},
+	{
+		uid: "26dfb5eb",
+		type: "loot",
+		table: 0
+	}]
+}

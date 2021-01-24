@@ -1,0 +1,34 @@
+{
+	title: "{greedycraft.quest.cb23fa95.title}",
+	x: 12.5d,
+	y: 1.5d,
+	description: "{greedycraft.quest.cb23fa95.desc}",
+	dependencies: [
+		"567d8101",
+		"e421a210"
+	],
+	tasks: [{
+		uid: "1a0f76ae",
+		type: "item",
+		items: [{
+			item: "thaumadditions:mithminite_smelter"
+		}]
+	}],
+	rewards: [{
+		uid: "c0dfc97b",
+		type: "xp",
+		xp: 12000
+	},
+	{
+		uid: "790d9d87",
+		type: "loot",
+		table: 3
+	},
+	{
+		uid: "acacffc1",
+		type: "command",
+		title: "Fix a bug that caused some research to be impossible to complete",
+		auto: "no_toast",
+		command: "/thaumcraft research @p TAR_MITHMINITE_SMELTER"
+	}]
+}

@@ -1,0 +1,45 @@
+
+{
+	title: "{greedycraft.quest.acafd08c.title}",
+	x: -2.0d,
+	y: 7.0d,
+	description: "{greedycraft.quest.acafd08c.desc}",
+	dependencies: [
+		"dd58485d"
+	],
+	tasks: [{
+		uid: "8d0826a3",
+		type: "item",
+		items: [{
+			item: "enderio:item_material 1 54"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "695b8669",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "bc33c3d4",
+		type: "xp",
+		xp: 3000
+	},
+	{
+		uid: "2ecdb486",
+		type: "item",
+		item: "enderio:item_material 1 54"
+	},
+	{
+		uid: "984bcc63",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "skilled_engineer"
+	},
+	{
+		uid: "fd53f973",
+		type: "command",
+		title: "Ore Spawn Notification",
+		command: "/tellraw @p {\"text\":\"§bYour world has been blessed with new rare metals.\"}"
+	}]
+}

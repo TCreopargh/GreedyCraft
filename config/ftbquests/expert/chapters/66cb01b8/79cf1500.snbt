@@ -1,0 +1,34 @@
+
+{
+	title: "{greedycraft.quest.79cf1500.title}",
+	x: 9.0d,
+	y: 2.0d,
+	description: "{greedycraft.quest.79cf1500.desc}",
+	dependencies: [
+		"800217e4"
+	],
+	tasks: [{
+		uid: "5cd50d1e",
+		type: "item",
+		items: [{
+			id: "bloodmagic:teleposition_focus"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ee1f7600",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "83fd4779",
+		type: "xp",
+		xp: 1600
+	},
+	{
+		uid: "00dd255b",
+		type: "item",
+		item: "minecraft:ender_pearl",
+		count: 16
+	}]
+}

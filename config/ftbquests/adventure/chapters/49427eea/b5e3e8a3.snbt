@@ -1,0 +1,59 @@
+{
+	title: "{greedycraft.quest.b5e3e8a3.title}",
+	x: -4.5d,
+	y: -3.0d,
+	description: "{greedycraft.quest.b5e3e8a3.desc}",
+	dependencies: [
+		"c16fec30"
+	],
+	tasks: [{
+		uid: "437533e9",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					1b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			Damage: 9s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3ea58534",
+		type: "item",
+		item: "appliedenergistics2:material",
+		count: 64
+	},
+	{
+		uid: "fa502259",
+		type: "item",
+		item: {
+			id: "thermalexpansion:capacitor",
+			tag: {
+				Energy: 9000000
+			},
+			Damage: 2s
+		}
+	},
+	{
+		uid: "6ce43934",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "b0fcb7fe",
+		type: "xp",
+		xp: 1000
+	}]
+}

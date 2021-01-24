@@ -1,0 +1,26 @@
+{
+	title: "{greedycraft.quest.fd7ee13f.title}",
+	x: 4.0d,
+	y: 4.0d,
+	description: "{greedycraft.quest.fd7ee13f.desc}",
+	dependencies: [
+		"019a77ed"
+	],
+	tasks: [{
+		uid: "39642e34",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockattunementaltar"
+		}]
+	}],
+	rewards: [{
+		uid: "5b9da332",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "1fe205e1",
+		type: "xp",
+		xp: 1200
+	}]
+}

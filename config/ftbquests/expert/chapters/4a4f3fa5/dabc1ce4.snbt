@@ -1,0 +1,27 @@
+
+{
+	title: "{greedycraft.quest.dabc1ce4.title}",
+	x: -7.0d,
+	y: -1.5d,
+	description: "{greedycraft.quest.dabc1ce4.desc}",
+	dependencies: [
+		"08804ef2"
+	],
+	tasks: [{
+		uid: "ed93a7fd",
+		type: "item",
+		items: [{
+			item: "botania:spreader"
+		}]
+	}],
+	rewards: [{
+		uid: "a8106cc7",
+		type: "xp",
+		xp: 200
+	},
+	{
+		uid: "2272365a",
+		type: "loot",
+		table: 0
+	}]
+}

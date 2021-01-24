@@ -1,0 +1,20 @@
+
+{
+	x: -7.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "38fcbe6b",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-anti_entropy_matter"
+		}],
+		count: 8L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "149162bc",
+		type: "item",
+		item: "additions:greedycraft-reward_ticket_legendary",
+		count: 10
+	}]
+}

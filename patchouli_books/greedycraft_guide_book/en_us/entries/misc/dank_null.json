@@ -1,0 +1,15 @@
+{
+    "name": "§2/dank/null",
+    "icon": "danknull:dank_null_5",
+    "category": "patchouli:misc_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(2)/dank/null$() is basically a gigantic backpack that can surpass the stacking limit of Minecraft. Each type of item can be stacked to a high amount and if you pick up items that exist in the /dank/null, it will be automatically put into it.$(br)/dank/null has many tiers and you get more slots and higher stack limits by upgrading. An iron /dank/null will be given to you after getting your first diamond."
+        }, 
+		{
+           "type": "text",
+           "text": "$(9)$(l)Usages of /dank/null include:$()$(br)$(li)Shift-right-click with /dank/null in hand to open its GUI.$(li)Ctrl-click any item in it to change its extraction mode.$(li)Alt-click any item in it to select it, which can be placed by right clicking with a /dank/null if it is a placable block."
+        }
+    ]
+}

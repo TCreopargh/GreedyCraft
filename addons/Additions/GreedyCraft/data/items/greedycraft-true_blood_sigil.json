@@ -1,0 +1,11 @@
+{
+  "name": "§4True Blood Sigil",
+  "shines": true,
+  "tooltip": [
+    "§eRight click to summon a blood moon",
+    "§eLeft click to skip a blood moon",
+    "§bDoes not consume when used"
+  ],
+  "max_stack": 1,
+  "type": "additions:simple"
+}

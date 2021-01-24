@@ -1,0 +1,44 @@
+{
+	title: "{greedycraft.quest.630fdbee.title}",
+	x: -1.0d,
+	y: -2.0d,
+	description: "{greedycraft.quest.630fdbee.desc}",
+	dependencies: [
+		"4f8c9539"
+	],
+	tasks: [{
+		uid: "1ef4613e",
+		type: "item",
+		items: [{
+			id: "astralsorcery:itemrockcrystalsimple",
+			tag: {
+				astralsorcery: {
+					crystalProperties: {
+						collectiveCapability: 100,
+						size: 400,
+						fract: 0,
+						purity: 100,
+						sizeOverride: -1
+					}
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e90d01d8",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "63e500cf",
+		type: "xp",
+		xp: 420
+	},
+	{
+		uid: "0af57ad6",
+		type: "item",
+		item: "astralsorcery:blockcustomore",
+		count: 4
+	}]
+}

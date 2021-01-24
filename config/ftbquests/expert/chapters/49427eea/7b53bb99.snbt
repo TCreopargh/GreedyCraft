@@ -1,0 +1,36 @@
+
+{
+	title: "{greedycraft.quest.7b53bb99.title}",
+	x: -2.0d,
+	y: 11.0d,
+	description: "{greedycraft.quest.7b53bb99.desc}",
+	tasks: [{
+		uid: "39bfb6ea",
+		type: "item",
+		items: [{
+			item: "enderio:item_alloy_ingot 1 7"
+		}]
+	}],
+	rewards: [{
+		uid: "17c25733",
+		type: "item",
+		item: "minecraft:soul_sand",
+		count: 64
+	},
+	{
+		uid: "60d2b1ba",
+		type: "item",
+		item: "mysticalagriculture:crafting 1 38",
+		count: 20
+	},
+	{
+		uid: "25b6aedc",
+		type: "xp",
+		xp: 500
+	},
+	{
+		uid: "27ebd0bc",
+		type: "loot",
+		table: 1
+	}]
+}

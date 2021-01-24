@@ -1,0 +1,46 @@
+{
+	title: "{greedycraft.quest.ae732102.title}",
+	icon: {
+		id: "minecraft:golden_chestplate"
+	},
+	x: 2.0d,
+	y: 3.0d,
+	description: "{greedycraft.quest.ae732102.desc}",
+	dependencies: [
+		"5f83f749"
+	],
+	tasks: [{
+		uid: "50164de0",
+		type: "stat",
+		icon: {
+			id: "minecraft:iron_chestplate"
+		},
+		stat: "stat.damageTaken",
+		value: 1000000
+	}],
+	rewards: [{
+		uid: "0bb360a0",
+		type: "xp",
+		xp: 25000
+	},
+	{
+		uid: "c51bdcc3",
+		type: "item",
+		item: "cyclicmagic:heart_food"
+	},
+	{
+		uid: "8399fb22",
+		type: "item",
+		item: {
+			id: "bountifulbaubles:shieldcobalt",
+			tag: {
+				HideFlags: 2
+			}
+		}
+	},
+	{
+		uid: "ee23698b",
+		type: "loot",
+		table: 2
+	}]
+}

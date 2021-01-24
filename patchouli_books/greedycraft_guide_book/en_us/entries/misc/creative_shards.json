@@ -1,0 +1,21 @@
+{
+    "name": "§5Creative Soul",
+    "icon": "additions:greedycraft-creative_soul",
+    "category": "patchouli:misc_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(5)Creative Shards$() can be used to make some creative mode specific items. It's more advanced form is $(d)Creative Soul$(). Creative Shards can be obtained from loot crates and some quests.$(br)Crafting a creative soul requires fusion crafting. View its recipe in JEI."
+        },
+		{
+            "type": "spotlight",
+			"item": "additions:greedycraft-creative_shard",
+            "text": "Used for crafting Creative Soul."
+        },
+		{
+            "type": "spotlight",
+			"item": "additions:greedycraft-creative_soul",
+            "text": "Just a tiny bit of the infinite power of Creative God."
+        }
+    ]
+}

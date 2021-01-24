@@ -1,0 +1,10 @@
+{
+  "name": "§2Perfectly Generic Item",
+  "is_beacon_payment": true,
+  "tooltip": "§aIt's a perfectly generic item, perhaps a bit too perfect.",
+  "ore_dict": [
+    "dungeonLootTier3",
+    "itemPerfect"
+  ],
+  "type": "additions:simple"
+}

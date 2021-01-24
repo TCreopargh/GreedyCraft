@@ -1,0 +1,19 @@
+{
+	title: "{greedycraft.quest.0d455b65.title}",
+	icon: "additions:greedycraft-bravery_certificate",
+	x: 7.5d,
+	y: 2.5d,
+	description: "{greedycraft.quest.0d455b65.desc}",
+	tasks: [{
+		uid: "b6910a92",
+		type: "gamestage",
+		stage: "fearless_man"
+	},
+	{
+		uid: "f08ce938",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-bravery_certificate"
+		}]
+	}]
+}

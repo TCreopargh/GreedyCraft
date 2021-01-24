@@ -1,0 +1,33 @@
+{
+	title: "{greedycraft.quest.78f588c7.title}",
+	x: -9.5d,
+	y: -10.0d,
+	description: "{greedycraft.quest.78f588c7.desc}",
+	dependencies: [
+		"989411ec"
+	],
+	tasks: [{
+		uid: "562df4a8",
+		type: "item",
+		items: [{
+			item: "solarflux:solar_panel_alchemical"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3b5e7bcb",
+		type: "item",
+		item: "solarflux:solar_panel_alchemical",
+		count: 3
+	},
+	{
+		uid: "1310d6c2",
+		type: "xp",
+		xp: 250
+	},
+	{
+		uid: "387db125",
+		type: "loot",
+		table: 0
+	}]
+}

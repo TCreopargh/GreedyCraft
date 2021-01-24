@@ -1,0 +1,26 @@
+{
+	title: "{greedycraft.quest.975d6f63.title}",
+	x: 1.5d,
+	y: -2.5d,
+	description: "{greedycraft.quest.975d6f63.desc}",
+	dependencies: [
+		"99f6417a"
+	],
+	tasks: [{
+		uid: "db685450",
+		type: "item",
+		items: [{
+			item: "forestry:moistener"
+		}]
+	}],
+	rewards: [{
+		uid: "b4413180",
+		type: "xp",
+		xp: 250
+	},
+	{
+		uid: "5b369ed9",
+		type: "loot",
+		table: 0
+	}]
+}

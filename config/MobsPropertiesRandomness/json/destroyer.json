@@ -1,0 +1,12 @@
+{
+    "mob_id": "defiledlands:the_destroyer",
+    "attributes": [
+        {
+            "id": "generic.maxHealth",
+            "modifier": {
+                "min": 2400.0
+            },
+            "isflat": true
+        }
+    ]
+}

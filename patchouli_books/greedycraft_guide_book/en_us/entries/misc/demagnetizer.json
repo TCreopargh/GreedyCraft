@@ -1,0 +1,16 @@
+{
+    "name": "Demagnetizer",
+    "icon": "demagnetize:demagnetizer",
+    "category": "patchouli:misc_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(9)Demagnetizer$() deactives items that increase pickup range in its radius. It's useful when you need to do some craftings that is done with dropped items. Demagnetizers can also be upgraded for a bigger radius. $(br2)$(c)Note: Not all items that increase pickup range are compatible with it.$()"
+        }, 
+		{
+            "type": "crafting",
+            "recipe": "crafttweaker:demagnetizer",
+            "recipe2": "crafttweaker:demagnetizer_advanced"
+        }
+    ]
+}

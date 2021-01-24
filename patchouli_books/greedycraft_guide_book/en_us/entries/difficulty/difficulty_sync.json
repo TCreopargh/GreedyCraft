@@ -1,0 +1,16 @@
+{
+    "name": "§dSynchorizing Difficulty",
+    "icon": "additions:greedycraft-difficulty_syncer",
+    "category": "patchouli:difficulty_category",
+    "priority": "true",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Although your difficulty value is usually normally associated to your game stage, somethimes you may have your difficulty reset when updating modpack / encountering a bug. If that happens, use the command $(c)/syncdifficulty$() to synchorize your difficulty and set it to the normal value. Also $(5)Difficulty Sync Orb$() does that too if you're too lazy to remember the command."
+        }, 
+		{
+            "type": "crafting",
+            "recipe": "crafttweaker:difficulty_syncer"
+        }
+    ]
+}

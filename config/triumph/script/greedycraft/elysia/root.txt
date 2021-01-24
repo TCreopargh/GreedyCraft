@@ -1,0 +1,19 @@
+setIcon(<patchouli:guide_book, meta:0, count:1, nbt:{"patchouli:book":"patchouli:the_elysia_project"}>)
+
+setTranslatedTitle("greedycraft.advancement.root.title")
+
+setTranslatedDescription("greedycraft.advancement.root.desc")
+
+setBackground("minecraft:textures/gui/advancements/backgrounds/adventure.png")
+
+alwaysVisible()
+
+drawDirectLines(true)
+
+setShowToast(false)
+
+setAnnounceToChat(false)
+
+setPos(-80,100)
+
+addCriteria("gc_location", "minecraft:location")

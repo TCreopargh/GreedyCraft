@@ -1,0 +1,35 @@
+
+{
+	title: "{greedycraft.quest.4b2e0fa7.title}",
+	x: -2.0d,
+	y: 7.5d,
+	description: "{greedycraft.quest.4b2e0fa7.desc}",
+	tasks: [{
+		uid: "04706ce3",
+		type: "item",
+		items: [{
+			item: "minecraft:enchanting_table"
+		}]
+	}],
+	rewards: [{
+		uid: "972b77bc",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "406be0fd",
+		type: "item",
+		item: "actuallyadditions:item_solidified_experience",
+		count: 32
+	},
+	{
+		uid: "8283857e",
+		type: "item",
+		item: "minecraft:anvil"
+	},
+	{
+		uid: "ccb15e28",
+		type: "loot",
+		table: 0
+	}]
+}

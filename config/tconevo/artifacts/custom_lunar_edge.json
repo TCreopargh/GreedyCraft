@@ -1,0 +1,12 @@
+{
+  "weight": 750,
+  "type": "tconevo:tool",
+  "name": "Lunar Edge",
+  "lore": "The power of the moon!",
+  "tool": "broadsword",
+  "materials": [
+    "gold",
+    "fluix_steel",
+    "certus_quartz"
+  ]
+}

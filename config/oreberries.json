@@ -1,0 +1,67 @@
+{
+  "Iron": {
+    "color": "#FFC7A3",
+    "tooltip": "Sweet Irony",
+    "smeltingResult": "minecraft:iron_nugget"
+  },
+  "Gold": {
+    "color": "#FFCC33",
+    "tooltip": "Pure Luster",
+    "smeltingResult": "minecraft:gold_nugget",
+    "rarity": 9,
+    "maxHeight": 32,
+    "sizeChance": 6
+  },
+  "Copper": {
+    "color": "#FF8833",
+    "tooltip": "Tastes like metal",
+    "smeltingResult": {
+      "color": "#FF6600"
+    },
+    "rarity": 4,
+    "density": 2,
+    "minHeight": 20,
+    "maxHeight": 60
+  },
+  "Tin": {
+    "color": "#BB4422",
+    "tooltip": "Tin Man",
+    "smeltingResult": {
+      "color": "#FFBA80"
+    },
+    "rarity": 4,
+    "density": 2,
+    "maxHeight": 40
+  },
+  "Aluminum": {
+    "color": "#EEFFFF",
+    "tooltip": "White Chocolate",
+    "oredictNames": [
+      "nuggetAluminum",
+      "nuggetAluminium"
+    ],
+    "smeltingResult": {
+      "ingotNames": [
+        "ingotAluminum",
+        "ingotAluminium"
+      ]
+    },
+    "rarity": 3,
+    "density": 2,
+    "maxHeight": 60,
+    "sizeChance": 14
+  },
+  "Essence": {
+    "bushName": "Essence Berry Bush",
+    "berryName": "Concentrated Essence Berry",
+    "tooltip": "Tastes like Creeper",
+    "oredictNames": [],
+    "smeltingResult": null,
+    "special": "essence",
+    "growsInLight": true,
+    "tradeable": false,
+    "preferredHeight": 48,
+    "maxHeight": 32,
+    "sizeChance": 8
+  }
+}

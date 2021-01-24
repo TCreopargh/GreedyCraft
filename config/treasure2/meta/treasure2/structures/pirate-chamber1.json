@@ -1,0 +1,10 @@
+{
+	"name": "pirate-chamber1",
+	"description": "",
+	"author": "gottsch",
+	"archetypes": ["subterranean"],
+	"type": "room",
+	"rarities": ["common"],
+	"biomeWhiteList": [],
+	"biomeBlackList": ["ocean", "deep_ocean"]
+}

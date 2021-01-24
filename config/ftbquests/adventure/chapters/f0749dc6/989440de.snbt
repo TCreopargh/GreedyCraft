@@ -1,0 +1,49 @@
+{
+	title: "{greedycraft.quest.989440de.title}",
+	icon: "mysticalagradditions:stuff 1 1",
+	x: 4.5d,
+	y: 3.0d,
+	description: "{greedycraft.quest.989440de.desc}",
+	dependencies: [
+		"699b8400"
+	],
+	tasks: [{
+		uid: "9dbd1afd",
+		type: "kill",
+		entity: "minecraft:wither",
+		value: 32L
+	}],
+	rewards: [{
+		uid: "a5aeca45",
+		type: "xp",
+		xp: 40000
+	},
+	{
+		uid: "cd8e4f26",
+		type: "item",
+		item: "mysticalagradditions:special",
+		count: 8
+	},
+	{
+		uid: "73d0d576",
+		type: "item",
+		item: "mysticalagradditions:nether_star_seeds",
+		count: 8
+	},
+	{
+		uid: "6fc4e097",
+		type: "item",
+		item: "avaritia:singularity 1 4"
+	},
+	{
+		uid: "4a1a22ec",
+		type: "item",
+		item: "minecraft:nether_star",
+		count: 40
+	},
+	{
+		uid: "663e74fb",
+		type: "loot",
+		table: 2
+	}]
+}

@@ -1,0 +1,46 @@
+{
+  "name": "§2Advanced Medkit",
+  "tooltip": [
+    "§7Increases max health by 20 which lasts for 40s.",
+    "§7Gains 40s of regen III.",
+    "§7Restores 32 health."
+  ],
+  "hunger": 0,
+  "saturation": 0.0,
+  "always_edible": true,
+  "eat_time": 60,
+  "is_drink": true,
+  "eaten_effects": [
+    {
+      "potion": {
+        "name": "minecraft:instant_health",
+        "duration": 1,
+        "amplifier": 2,
+        "ambient": false,
+        "show_particles": true
+      },
+      "type": "additions:potion"
+    },
+    {
+      "potion": {
+        "name": "minecraft:regeneration",
+        "duration": 800,
+        "amplifier": 1,
+        "ambient": false,
+        "show_particles": true
+      },
+      "type": "additions:potion"
+    },
+    {
+      "potion": {
+        "name": "minecraft:health_boost",
+        "duration": 800,
+        "amplifier": 4,
+        "ambient": false,
+        "show_particles": true
+      },
+      "type": "additions:potion"
+    }
+  ],
+  "type": "additions:food"
+}

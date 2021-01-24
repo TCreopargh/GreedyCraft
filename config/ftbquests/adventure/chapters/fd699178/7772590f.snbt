@@ -1,0 +1,41 @@
+{
+	title: "{greedycraft.quest.7772590f.title}",
+	x: -4.5d,
+	y: -3.0d,
+	description: "{greedycraft.quest.7772590f.desc}",
+	dependencies: [
+		"8c4d41da"
+	],
+	tasks: [{
+		uid: "4d8521ce",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 10"
+		}]
+	},
+	{
+		uid: "3b690c37",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 12"
+		}]
+	},
+	{
+		uid: "3b5f3f0d",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 11"
+		}]
+	}],
+	rewards: [{
+		uid: "1a946e71",
+		type: "item",
+		item: "minecraft:quartz_block",
+		count: 64
+	},
+	{
+		uid: "bc704236",
+		type: "loot",
+		table: 0
+	}]
+}

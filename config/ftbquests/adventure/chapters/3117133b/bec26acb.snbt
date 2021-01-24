@@ -1,0 +1,29 @@
+{
+	title: "{greedycraft.quest.bec26acb.title}",
+	icon: "minecraft:blaze_powder",
+	x: 1.5d,
+	y: 2.5d,
+	description: "{greedycraft.quest.bec26acb.desc}",
+	dependencies: [
+		"b5350524"
+	],
+	tasks: [{
+		uid: "aadcfdd8",
+		type: "item",
+		items: [{
+			id: "additions:greedycraft-cryonic_artifact"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b24906f8",
+		type: "xp",
+		xp: 10000
+	},
+	{
+		uid: "1776a5a8",
+		type: "loot",
+		table: 2
+	}]
+}

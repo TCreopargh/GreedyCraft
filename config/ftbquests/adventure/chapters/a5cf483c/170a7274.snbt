@@ -1,0 +1,26 @@
+{
+	title: "{greedycraft.quest.170a7274.title}",
+	x: 1.5d,
+	y: -6.0d,
+	description: "{greedycraft.quest.170a7274.desc}",
+	dependencies: [
+		"20d93dfc"
+	],
+	tasks: [{
+		uid: "148acb96",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockmachine"
+		}]
+	}],
+	rewards: [{
+		uid: "0e60e2e4",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "243471d2",
+		type: "xp",
+		xp: 420
+	}]
+}

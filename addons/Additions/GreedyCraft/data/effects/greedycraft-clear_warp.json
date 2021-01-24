@@ -1,0 +1,34 @@
+{
+  "cause": {
+    "item": {
+      "item": "additions:greedycraft-purifying_pill",
+      "damage": "any"
+    },
+    "type": "additions:item_right_click"
+  },
+  "effects": [
+    {
+      "type": "additions:consume_item"
+    },
+    {
+      "command": "/thaumcraft warp @p set 0 PERM",
+      "command_sender_name": "",
+      "type": "additions:command"
+    },
+    {
+      "command": "/thaumcraft warp @p set 0 TEMP",
+      "command_sender_name": "",
+      "type": "additions:command"
+    },
+    {
+      "command": "/thaumcraft warp @p set 0",
+      "command_sender_name": "",
+      "type": "additions:command"
+    },
+    {
+      "command": "/particle enchantmenttable ~ ~ ~ 1 1 1 2 1000 force",
+      "command_sender_name": "",
+      "type": "additions:command"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+
+{
+	title: "{greedycraft.quest.7bdd6fd4.title}",
+	x: -2.0d,
+	y: 0.0d,
+	description: "{greedycraft.quest.7bdd6fd4.desc}",
+	dependencies: [
+		"e2ccedd6"
+	],
+	tasks: [{
+		uid: "604232d5",
+		type: "item",
+		items: [{
+			item: "botania:terraplate"
+		}]
+	}],
+	rewards: [{
+		uid: "d578d03e",
+		type: "item",
+		item: "botania:blacklotus",
+		count: 8
+	},
+	{
+		uid: "ee205a36",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "bb43290d",
+		type: "item",
+		item: "botania:manaresource 1 23",
+		count: 10
+	},
+	{
+		uid: "df34f86f",
+		type: "item",
+		item: "botania:manaresource 1 2",
+		count: 10
+	},
+	{
+		uid: "f229e633",
+		type: "loot",
+		table: 1
+	}]
+}

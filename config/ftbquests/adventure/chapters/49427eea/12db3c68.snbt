@@ -1,0 +1,33 @@
+{
+	title: "{greedycraft.quest.12db3c68.title}",
+	x: -9.5d,
+	y: 7.0d,
+	description: "{greedycraft.quest.12db3c68.desc}",
+	dependencies: [
+		"7eff2782"
+	],
+	tasks: [{
+		uid: "a3326a44",
+		type: "item",
+		items: [{
+			item: "enderio:item_material 1 20"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7ff5cc6c",
+		type: "item",
+		item: "enderio:item_material 1 20",
+		count: 8
+	},
+	{
+		uid: "cb210ef3",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "6a733f61",
+		type: "loot",
+		table: 0
+	}]
+}

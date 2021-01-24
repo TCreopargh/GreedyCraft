@@ -1,0 +1,25 @@
+
+{
+	title: "{greedycraft.quest.5f306a91.title}",
+	x: 6.0d,
+	y: 13.5d,
+	description: "{greedycraft.quest.5f306a91.desc}",
+	tasks: [{
+		uid: "724109e2",
+		type: "item",
+		items: [{
+			item: "packagedauto:packager"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "63babac0",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "651dde44",
+		type: "xp",
+		xp: 400
+	}]
+}

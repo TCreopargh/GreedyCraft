@@ -1,0 +1,10 @@
+{
+	"name": "§bThe Elysian Project™",
+	"subtitle": "© Beyond Reality Tech Co. Ltd.",
+	"advancement_namespaces": [ "greedycraft" ],
+	"landing_text": "This book is about technical guidelines and recordings of the Elysian Project.$(c)ONLY ACCESSIBLE TO AUTHORIZED PERSONNEL.$()$(br2)  © Beyond Reality Tech Co. Ltd.",
+	"version": 1337,
+	"pause_game": true,
+	"book_texture": "patchouli:textures/gui/book_cyan.png",
+	"model": "additions:greedycraft-elysia_project_lore"
+}

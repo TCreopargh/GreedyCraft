@@ -1,0 +1,35 @@
+{
+	title: "{greedycraft.quest.b2543c05.title}",
+	x: 12.0d,
+	y: 1.0d,
+	description: "{greedycraft.quest.b2543c05.desc}",
+	dependencies: [
+		"c2a8d450",
+		"79cf1500"
+	],
+	tasks: [{
+		uid: "a743d942",
+		type: "item",
+		items: [{
+			id: "bloodmagic:teleposition_focus",
+			Damage: 3s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c3b64898",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "a2975936",
+		type: "xp",
+		xp: 2000
+	},
+	{
+		uid: "45e5cb85",
+		type: "item",
+		item: "minecraft:ender_eye",
+		count: 16
+	}]
+}

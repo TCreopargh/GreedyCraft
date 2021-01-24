@@ -1,0 +1,25 @@
+{
+    "name": "Multiblock Kitchen",
+    "icon": "cookingforblockheads:fridge",
+    "category": "patchouli:food_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "§3Multiblock Kitchen§r is a multiblock structure used to cook all kinds of food at ease. There are more than 2,000 kinds of food in this modpack, so why not make a kitchen for this? $(br)You can search §5@cookingforblockheads§r in JEI to view all content of the multiblock kitchen.$(br)Building the kitchen is pretty simple, just simply connect all blocks together and you're good to go."
+        },
+		{
+            "type": "text",
+            "text": "§3Fridge§r is used for storing ingredients, you should put all food ingredients you get in it. §3Cooking Table§r is the core component of the kitchen and is used to make ingredients into prepared food. §3Oven§r is used for cooking raw food. §3Sink§r supplies an infinite amount of water, §3Tool Rack§r is used for storing cooking tools, §3Milk Jar§r is used for storing milk. Try to smash a cow into the jar with an anvil to make a §3Cow in a Jar§r, wich produces milk automatically! Also there are some other blocks you can play with."
+        }, 
+		{
+            "type": "crafting",
+            "recipe": "cookingforblockheads:fridge",
+			"recipe2": "cookingforblockheads:oven"
+        },
+		{
+            "type": "crafting",
+            "recipe": "cookingforblockheads:cooking_table",
+			"recipe2": "cookingforblockheads:tool_rack"
+        }
+    ]
+}

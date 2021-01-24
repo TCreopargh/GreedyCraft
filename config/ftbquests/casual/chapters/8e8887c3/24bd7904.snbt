@@ -1,0 +1,51 @@
+
+{
+	title: "{greedycraft.quest.24bd7904.title}",
+	x: 12.0d,
+	y: 4.0d,
+	shape: "square",
+	description: "{greedycraft.quest.24bd7904.desc}",
+	dependencies: [
+		"5fdcedd9"
+	],
+	tasks: [{
+		uid: "005b829f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					Size: 27,
+					Items: []
+				}
+			},
+			id: "draconicevolution:draconic_staff_of_power",
+			tag: {
+				Energy: 48000000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "fc132c24",
+		type: "loot",
+		table: 3
+	},
+	{
+		uid: "4d26fd0c",
+		type: "xp",
+		xp: 400000
+	},
+	{
+		uid: "299695df",
+		type: "item",
+		item: "tconevo:metal 1 5",
+		count: 10
+	},
+	{
+		uid: "445c6740",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "staff_wielder"
+	}]
+}

@@ -1,0 +1,39 @@
+
+{
+	title: "{greedycraft.quest.c9e4e432.title}",
+	x: 13.0d,
+	y: 0.0d,
+	description: "{greedycraft.quest.c9e4e432.desc}",
+	dependencies: [
+		"72d515bd"
+	],
+	tasks: [{
+		uid: "cac0f298",
+		type: "item",
+		items: [{
+			id: "extrabotany:treasurebox"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e601f557",
+		type: "xp",
+		xp: 25000
+	},
+	{
+		uid: "fde27ad8",
+		type: "loot",
+		table: 3
+	},
+	{
+		uid: "eb25681e",
+		type: "loot",
+		table: 3
+	},
+	{
+		uid: "2cbe8de0",
+		type: "item",
+		item: "extrabotany:material 1 6"
+	}]
+}

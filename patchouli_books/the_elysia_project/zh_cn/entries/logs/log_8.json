@@ -1,0 +1,16 @@
+{
+    "name": "日志 §9#8",
+    "icon": "additions:greedycraft-experiment_note",
+    "category": "patchouli:logs",
+    "advancement": "greedycraft:elysia/log8",
+    "pages": [
+        {
+            "type": "text",
+            "text": "埃拉西亚在线人数已经急剧降至数千人，在实施计划之前，我们从来没考虑过以后会发生的情况，只想着在虚无中满足自己的欲望。"
+        },
+        {
+            "type": "text",
+            "text": "也许人类终将为贪婪付出代价，即使没有埃拉西亚计划，这一天也会到来。不过，我们仍在盼望着奇迹，盼望着裁决者能够在幸存者中诞生，并将我们拯救。$(br2)2044年9月27日"
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+
+{
+	title: "{greedycraft.quest.bbdb0b62.title}",
+	x: 6.0d,
+	y: -0.5d,
+	description: "{greedycraft.quest.bbdb0b62.desc}",
+	tasks: [{
+		uid: "296678e3",
+		type: "item",
+		items: [{
+			id: "hooked:hook",
+			tag: {
+				baubleModifier: "wild",
+				inhibited: 1b
+			},
+			Damage: 2s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "84e8b704",
+		type: "xp",
+		xp: 300
+	},
+	{
+		uid: "841946a0",
+		type: "loot",
+		table: 1
+	}]
+}

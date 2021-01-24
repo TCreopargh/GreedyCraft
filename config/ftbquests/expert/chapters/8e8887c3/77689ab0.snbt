@@ -1,0 +1,61 @@
+
+{
+	title: "{greedycraft.quest.77689ab0.title}",
+	icon: "minecraft:cobblestone",
+	x: -4.0d,
+	y: -2.0d,
+	shape: "rsquare",
+	description: "{greedycraft.quest.77689ab0.desc}",
+	dependencies: [
+		"d8730528"
+	],
+	tasks: [{
+		uid: "61972684",
+		type: "item",
+		title: "Any Cobble",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "cobblestone",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d8268dac",
+		type: "item",
+		item: "minecraft:cobblestone",
+		count: 32
+	},
+	{
+		uid: "e4cd0794",
+		type: "xp",
+		xp: 35
+	},
+	{
+		uid: "99736eec",
+		type: "item",
+		item: "minecraft:furnace"
+	},
+	{
+		uid: "871b3558",
+		type: "item",
+		item: {
+			id: "minecraft:stone_pickaxe"
+		}
+	},
+	{
+		uid: "b82f339f",
+		type: "item",
+		item: "minecraft:torch",
+		count: 16
+	},
+	{
+		uid: "331c880a",
+		type: "item",
+		item: "additions:greedycraft-death_counter"
+	}]
+}

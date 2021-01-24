@@ -1,0 +1,37 @@
+{
+	title: "{greedycraft.quest.4ecd282a.title}",
+	x: 8.0d,
+	y: -8.0d,
+	description: "{greedycraft.quest.4ecd282a.desc}",
+	dependencies: [
+		"5eb9b7b5"
+	],
+	tasks: [{
+		uid: "4e3bb1c7",
+		type: "item",
+		items: [{
+			item: "solarflux:solar_panel_neutronium"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e55bf4fb",
+		type: "item",
+		item: "solarflux:solar_panel_neutronium"
+	},
+	{
+		uid: "c3370cb0",
+		type: "xp",
+		xp: 250000
+	},
+	{
+		uid: "804032da",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "44968f75",
+		type: "loot",
+		table: 3
+	}]
+}

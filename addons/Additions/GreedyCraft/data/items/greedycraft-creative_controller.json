@@ -1,0 +1,9 @@
+{
+  "name": "§dCreative Mode Controller",
+  "tooltip": [
+    "§bRight click to switch to creative mode and left click to switch back.",
+    "§6You are unstoppable now."
+  ],
+  "max_stack": 1,
+  "type": "additions:simple"
+}

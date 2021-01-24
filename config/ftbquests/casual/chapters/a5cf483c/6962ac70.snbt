@@ -1,0 +1,50 @@
+
+{
+	title: "{greedycraft.quest.6962ac70.title}",
+	x: -3.5d,
+	y: -6.0d,
+	description: "{greedycraft.quest.6962ac70.desc}",
+	tasks: [{
+		uid: "a4cc377a",
+		type: "observation",
+		icon: {
+			id: "astralsorcery:blockcollectorcrystal",
+			tag: {
+				astralsorcery: {
+					constellationName: "astralsorcery.constellation.discidia",
+					crystalProperties: {
+						collectiveCapability: 100,
+						size: 400,
+						fract: 0,
+						purity: 100,
+						sizeOverride: -1
+					},
+					collectorType: 0
+				}
+			}
+		},
+		match_type: "block_id",
+		match: "astralsorcery:blockcollectorcrystal",
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "6d0a2e86",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "d130f49e",
+		type: "xp",
+		xp: 160
+	},
+	{
+		uid: "6f88eb44",
+		type: "item",
+		item: "minecraft:crafting_table"
+	},
+	{
+		uid: "1735a48e",
+		type: "item",
+		item: "waystones:waystone"
+	}]
+}

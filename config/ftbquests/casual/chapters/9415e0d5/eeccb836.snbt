@@ -1,0 +1,25 @@
+
+{
+	title: "{greedycraft.quest.eeccb836.title}",
+	x: 2.0d,
+	y: 9.5d,
+	description: "{greedycraft.quest.eeccb836.desc}",
+	tasks: [{
+		uid: "18ba407e",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-wither_soul"
+		}]
+	}],
+	rewards: [{
+		uid: "15a376c0",
+		type: "item",
+		item: "additions:greedycraft-reward_ticket_legendary",
+		count: 5
+	},
+	{
+		uid: "6e4baad5",
+		type: "xp",
+		xp: 200000
+	}]
+}

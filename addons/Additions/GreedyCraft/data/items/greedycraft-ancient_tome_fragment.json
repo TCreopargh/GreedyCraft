@@ -1,0 +1,10 @@
+{
+  "name": "§bAncient Tome Fragment",
+  "tooltip": [
+    "§7A tiny fragment from an ancient artifact.",
+    "§7The words on it can barely be seen.",
+    "§eDropped from mobs at high difficulties, the higher difficulty the more likely it will be dropped."
+  ],
+  "max_stack": 63,
+  "type": "additions:simple"
+}

@@ -1,0 +1,22 @@
+{
+	title: "{greedycraft.quest.b5350524.title}",
+	icon: "minecraft:glowstone",
+	x: 1.5d,
+	y: 0.0d,
+	description: "{greedycraft.quest.b5350524.desc}",
+	tasks: [{
+		uid: "b6d30593",
+		type: "dimension",
+		dim: 4
+	}],
+	rewards: [{
+		uid: "b557516c",
+		type: "xp",
+		xp: 400
+	},
+	{
+		uid: "261d1581",
+		type: "loot",
+		table: 1
+	}]
+}

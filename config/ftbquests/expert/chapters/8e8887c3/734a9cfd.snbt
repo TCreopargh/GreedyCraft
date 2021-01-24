@@ -1,0 +1,54 @@
+
+{
+	title: "{greedycraft.quest.734a9cfd.title}",
+	icon: "minecraft:gold_ore",
+	x: -4.0d,
+	y: 0.0d,
+	shape: "rsquare",
+	description: "{greedycraft.quest.734a9cfd.desc}",
+	dependencies: [
+		"bb3d9aaa"
+	],
+	tasks: [{
+		uid: "0c62d7f4",
+		type: "item",
+		title: "Any Gold Ore",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "oreGold",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a2f470ea",
+		type: "item",
+		item: "minecraft:golden_apple",
+		count: 2
+	},
+	{
+		uid: "40379af2",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "dedc4131",
+		type: "item",
+		item: "minecraft:gold_ore",
+		count: 4
+	},
+	{
+		uid: "a2af2f67",
+		type: "xp",
+		xp: 150
+	},
+	{
+		uid: "3451339b",
+		type: "item",
+		item: "minecraft:clock"
+	}]
+}

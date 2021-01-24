@@ -1,0 +1,46 @@
+{
+    "preset_type": "additions:empty",
+    "pools": [
+        {
+            "name": "main",
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "additions:greedycraft-shield_gum",
+                    "weight": 1
+                },
+				{
+                    "type": "item",
+                    "name": "additions:greedycraft-delivery_order",
+                    "weight": 1
+                },
+				{
+                    "type": "item",
+                    "name": "additions:tcsponsors-sponsors_chest",
+                    "weight": 1
+                },
+				{
+                    "type": "item",
+                    "name": "additions:greedycraft-undead_medkit",
+                    "weight": 1
+                },
+				{
+                    "type": "item",
+                    "name": "additions:greedycraft-adrenaline",
+                    "weight": 1
+                },
+				{
+                    "type": "item",
+                    "name": "additions:greedycraft-fake_philosopher_stone",
+                    "weight": 1
+                },
+				{
+                    "type": "item",
+                    "name": "additions:greedycraft-strange_lolipop",
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}

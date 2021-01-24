@@ -1,0 +1,131 @@
+{
+	title: "{greedycraft.quest.d3bc6986.title}",
+	x: -4.5d,
+	y: -2.5d,
+	description: "{greedycraft.quest.d3bc6986.desc}",
+	dependencies: [
+		"e2ccedd6"
+	],
+	tasks: [{
+		uid: "928d0766",
+		type: "item",
+		items: [{
+			item: "botania:rune"
+		}]
+	},
+	{
+		uid: "4a689095",
+		type: "item",
+		items: [{
+			item: "botania:rune 1 1"
+		}]
+	},
+	{
+		uid: "0dba6794",
+		type: "item",
+		items: [{
+			item: "botania:rune 1 2"
+		}]
+	},
+	{
+		uid: "b26b37bc",
+		type: "item",
+		items: [{
+			item: "botania:rune 1 3"
+		}]
+	},
+	{
+		uid: "eb3f473b",
+		type: "item",
+		items: [{
+			item: "botania:rune 1 4"
+		}]
+	},
+	{
+		uid: "a34ecec1",
+		type: "item",
+		items: [{
+			item: "botania:rune 1 5"
+		}]
+	},
+	{
+		uid: "f3d96de8",
+		type: "item",
+		items: [{
+			item: "botania:rune 1 6"
+		}]
+	},
+	{
+		uid: "850cd854",
+		type: "item",
+		items: [{
+			item: "botania:rune 1 7"
+		}]
+	},
+	{
+		uid: "760866ca",
+		type: "item",
+		items: [{
+			item: "botania:rune 1 8"
+		}]
+	},
+	{
+		uid: "89643aad",
+		type: "item",
+		items: [{
+			item: "botania:rune 1 9"
+		}]
+	},
+	{
+		uid: "dc24be65",
+		type: "item",
+		items: [{
+			item: "botania:rune 1 10"
+		}]
+	},
+	{
+		uid: "c7c28d47",
+		type: "item",
+		items: [{
+			item: "botania:rune 1 11"
+		}]
+	},
+	{
+		uid: "0b7d79f2",
+		type: "item",
+		items: [{
+			item: "botania:rune 1 12"
+		}]
+	},
+	{
+		uid: "c2ba2fda",
+		type: "item",
+		items: [{
+			item: "botania:rune 1 13"
+		}]
+	},
+	{
+		uid: "1723a567",
+		type: "item",
+		items: [{
+			item: "botania:rune 1 14"
+		}]
+	},
+	{
+		uid: "e47376fa",
+		type: "item",
+		items: [{
+			item: "botania:rune 1 15"
+		}]
+	}],
+	rewards: [{
+		uid: "36dff073",
+		type: "xp",
+		xp: 8000
+	},
+	{
+		uid: "7cb36949",
+		type: "loot",
+		table: 1
+	}]
+}

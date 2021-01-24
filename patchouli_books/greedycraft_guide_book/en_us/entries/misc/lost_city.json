@@ -1,0 +1,36 @@
+{
+    "name": "§9Lost City",
+    "icon": "additions:greedycraft-city_defender_medal",
+    "category": "patchouli:misc_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(2)Lost City$() is a dimension made of deserted cities and the fastest way to obtain a $(6)City Defender Medal$(). Here's how you can go into it.$(br2)$(c)If you created a world with one of the Lost City presets, you can't go there because you are already in it.$()$(br2)$(5)Please make sure you take enough items to build another portal because a return portal will not be generated.$()"
+        }, 
+		{
+           "type": "multiblock",
+           "text": "Right click the bed to enter Lost City! Skeleton skull can be replaced with any skull and the glass can be replaced with any block.$(8)(Sorry I can't get this multiblock to display in the right way)",
+            "multiblock": {
+                "mapping": {
+                    "D": "minecraft:diamond_block",
+                    "S": "minecraft:skull[facing=up]",
+					"B": "minecraft:bed[facing=west,occupied=false,part=head]",
+					"0": "minecraft:bed[facing=west,occupied=false,part=foot]",
+					"G": "minecraft:glass"
+                },
+                "pattern": [
+                   [
+					" SS ",
+					"SB0S",
+					" SS "
+				   ],
+				   [
+					" GG ",
+					"GDDG",
+					" GG "
+				   ]
+                ]
+            }
+        }
+    ]
+}

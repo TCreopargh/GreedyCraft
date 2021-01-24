@@ -1,0 +1,25 @@
+{
+  "recipe": {
+    "type": "forge:ore_shaped",
+    "result": {
+      "item": "additions:tcsponsors-sponsors_chest"
+    },
+    "key": {
+      "0": {
+        "stack_list": [
+          {
+            "item": "additions:tcsponsors-sponsor_chest_fragment",
+            "damage": "any"
+          }
+        ],
+        "type": "additions:ingredient_ore_nbt"
+      }
+    },
+    "pattern": [
+      "000",
+      "000",
+      "000"
+    ]
+  },
+  "type": "additions:crafting_shaped"
+}

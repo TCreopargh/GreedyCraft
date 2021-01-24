@@ -1,0 +1,12 @@
+
+{
+	title: "§eMake progress in Thermal Series",
+	x: -12.0d,
+	y: 7.0d,
+	shape: "diamond",
+	tasks: [{
+		uid: "c6ba04b4",
+		type: "gamestage",
+		stage: "novice_engineer"
+	}]
+}

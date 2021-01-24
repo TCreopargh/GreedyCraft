@@ -1,0 +1,22 @@
+{
+    "name": "指令",
+    "icon": "minecraft:command_block",
+    "category": "patchouli:misc_category",
+    "pages": [{
+            "type": "text",
+            "text": "$(2)以下是一些本整合包添加的或其他mod中的实用指令。$(5)如无特殊说明，以下所有指令都可在任意模式使用。$()$(li)$(2)/purge$(): 清理所有掉落物品，可能会提升性能$(li)$(2)/hidescoreboard$(): 暂时隐藏计分板$(li)$(2)/sampler gc$(): （服务端）强制GC，可以清理内存并提高性能（单人游戏建议使用这个，而非客户端指令）"
+        },
+        {
+            "type": "text",
+            "text": "$(li)$(2)/cleanmemory$(): （客户端）强制GC，可以清理内存并提高性能（R键菜单中有快捷键）$(li)$(2)/forge tps$(): 查看TPS（每秒Tick数，20为正常，低于20可被认为是卡顿）$(li)$(2)/backupsmod backup$(): 手动创建存档备份，无论是手动还是自动创建的备份都可在世界选择菜单中恢复$(li)$(2)/mca$(): 一大堆凡家物语mod的指令$(li)$(2)/deathcounter$(): 显示死亡排行榜，除指令外也可以手持死亡计数器右键"
+        },
+        {
+            "type": "text",
+            "text": "$(li)$(2)/suicide$(): 自杀，用于快速回家或者卡住的时候使用 $(li)$(2)/trash_can$(): 打开一个大垃圾桶，放在里面的东西会在关闭界面时被销毁$(li)$(2)//$$(2)$(k)wussmode$(): 开启作弊模式，可以在非休闲模式中使用作弊指令。$(4)需要作弊权限，一旦开启就无法关闭$() $(li)$(2)/hidedeathquotes$(): 关闭死亡时的随机信息显示 $(li)$(2)/showdeathquotes$(): 打开死亡时的随机信息显示"
+        },
+        {
+            "type": "text",
+            "text": "$(li)$(2)/unlockallstages$(): 解锁所有游戏阶段。$(4)需要OP及作弊权限$(li)$(2)/lockallstages$(): 重新上锁所有游戏阶段。$(4)需要OP及作弊权限"
+        }
+    ]
+}

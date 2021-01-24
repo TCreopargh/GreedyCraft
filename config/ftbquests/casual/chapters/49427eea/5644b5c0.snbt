@@ -1,0 +1,33 @@
+
+{
+	title: "{greedycraft.quest.5644b5c0.title}",
+	x: 8.0d,
+	y: -10.0d,
+	description: "{greedycraft.quest.5644b5c0.desc}",
+	dependencies: [
+		"5eb9b7b5"
+	],
+	tasks: [{
+		uid: "b5a0c85d",
+		type: "item",
+		items: [{
+			item: "solarflux:solar_panel_wyvern"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9abc5272",
+		type: "xp",
+		xp: 20000
+	},
+	{
+		uid: "77f72295",
+		type: "item",
+		item: "solarflux:solar_panel_wyvern"
+	},
+	{
+		uid: "9341d486",
+		type: "loot",
+		table: 2
+	}]
+}

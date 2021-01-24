@@ -1,0 +1,13 @@
+{
+    "weight": 60,
+    "type": "tconevo:tool",
+    "name": "Stellar Burster",
+    "lore": "With powers beyond your understanding",
+    "tool": "longbow",
+    "materials": [
+        "meteor",
+        "stainless_steel",
+        "modularium",
+        "nylon_string"
+    ]
+}

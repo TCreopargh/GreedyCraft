@@ -1,0 +1,27 @@
+{
+	title: "{greedycraft.quest.a79a5097.title}",
+	x: -3.0d,
+	y: 2.0d,
+	description: "{greedycraft.quest.a79a5097.desc}",
+	dependencies: [
+		"7e0193d6"
+	],
+	tasks: [{
+		uid: "d8310faa",
+		type: "item",
+		items: [{
+			item: "bloodmagic:altar"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "11cf2416",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "3adb3d81",
+		type: "xp",
+		xp: 600
+	}]
+}

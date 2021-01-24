@@ -1,0 +1,70 @@
+When a mod has criteria which are not directly supported by Triumph, they can still 
+
+be used in script advancements by calling script methods to add JSON conditions. 
+
+Simply add the criteria with its Resource Location as usual, then call one of the 
+
+methods listed below to add conditions to the criteria.
+
+
+
+
+
+
+
+addCondition:
+
+    Arguments:
+
+        String
+
+    Usage:
+
+        condition JSON
+
+    Notes:
+
+        Adds a single JSON condition to the criteria.
+
+
+
+addConditions:
+
+    Arguments:
+
+        String
+
+    Usage:
+
+        condition JSON
+
+    Notes:
+
+        Adds multiple JSON conditions to the criteria at once.
+
+
+
+setCount:
+
+    Arguments:
+
+        int
+
+    Usage:
+
+        count
+
+    Notes:
+
+        Sets the number of times this criteria must be completed before it counts towards advancement progress.
+
+
+
+getPlayerData:
+
+    Notes:
+
+        Gets the PlayerData for the criteria. Can set many things to test against the player themselves.
+
+
+

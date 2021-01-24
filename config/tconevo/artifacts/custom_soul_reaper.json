@@ -1,0 +1,13 @@
+{
+  "weight": 1080,
+  "type": "tconevo:tool",
+  "name": "Soul Reaper",
+  "lore": "Your soul is now mine.",
+  "tool": "scythe",
+  "materials": [
+    "ma.soulium",
+    "sentient_metal",
+    "soularium",
+    "blood_infused_wood"
+  ]
+}

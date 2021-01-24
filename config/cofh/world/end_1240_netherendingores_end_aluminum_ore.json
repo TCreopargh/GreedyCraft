@@ -1,0 +1,29 @@
+{
+	"dependencies": "netherendingores",
+	"populate": {
+		"end-aluminum": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "netherendingores:ore_end_modded_1",
+					"properties": {
+						"blocks": "aluminum_ore"
+					}
+				},
+				"material": "minecraft:end_stone",
+				"cluster-size": 4
+			},
+			"cluster-count": 2,
+			"min-height": 10,
+			"max-height": 55,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					1
+				]
+			}
+		}
+	}
+}

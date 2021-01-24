@@ -1,0 +1,41 @@
+
+{
+	title: "{greedycraft.quest.3c62a8d9.title}",
+	x: -6.0d,
+	y: -0.5d,
+	description: "{greedycraft.quest.3c62a8d9.desc}",
+	tasks: [{
+		uid: "cd87bf16",
+		type: "item",
+		items: [{
+			item: "prefab:item_start_house"
+		}]
+	}],
+	rewards: [{
+		uid: "d4a73e49",
+		type: "item",
+		item: "minecraft:bed"
+	},
+	{
+		uid: "78d79d8a",
+		type: "item",
+		item: "prefab:item_moderate_house"
+	},
+	{
+		uid: "09decb2c",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "62d17d2a",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "0d3266bc",
+		type: "item",
+		item: {
+			id: "prefab:item_structure_part"
+		}
+	}]
+}

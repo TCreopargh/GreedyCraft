@@ -1,0 +1,33 @@
+
+{
+	title: "{greedycraft.quest.2e7614df.title}",
+	x: -4.5d,
+	y: 13.0d,
+	description: "{greedycraft.quest.2e7614df.desc}",
+	dependencies: [
+		"5f9118a0"
+	],
+	tasks: [{
+		uid: "514a4c84",
+		type: "item",
+		items: [{
+			item: "enderio:item_alloy_endergy_ingot 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "1f3d6176",
+		type: "item",
+		item: "enderio:item_alloy_endergy_ingot 1 2",
+		count: 5
+	},
+	{
+		uid: "4a82b8f2",
+		type: "xp",
+		xp: 3000
+	},
+	{
+		uid: "145c5769",
+		type: "loot",
+		table: 2
+	}]
+}

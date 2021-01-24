@@ -1,0 +1,32 @@
+
+{
+	title: "{greedycraft.quest.a7790b6a.title}",
+	x: 15.0d,
+	y: 0.0d,
+	description: "{greedycraft.quest.a7790b6a.desc}",
+	dependencies: [
+		"886b7b73"
+	],
+	tasks: [{
+		uid: "63741615",
+		type: "item",
+		items: [{
+			item: "bloodarsenal:blood_diamond 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "e4d97d9b",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "6eded4ea",
+		type: "xp",
+		xp: 2500
+	},
+	{
+		uid: "10e245a0",
+		type: "item",
+		item: "bloodarsenal:blood_diamond 1 2"
+	}]
+}

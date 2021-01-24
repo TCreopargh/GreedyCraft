@@ -1,0 +1,37 @@
+{
+	title: "{greedycraft.quest.d361e765.title}",
+	x: 13.0d,
+	y: -10.0d,
+	description: "{greedycraft.quest.d361e765.desc}",
+	dependencies: [
+		"d4f0d2de"
+	],
+	tasks: [{
+		uid: "c8908e23",
+		type: "item",
+		items: [{
+			item: "solarflux:solar_panel_chaotic"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "524de86a",
+		type: "xp",
+		xp: 800000
+	},
+	{
+		uid: "5695fe55",
+		type: "item",
+		item: "solarflux:solar_panel_chaotic"
+	},
+	{
+		uid: "ec2e9bfe",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "7343f267",
+		type: "loot",
+		table: 3
+	}]
+}

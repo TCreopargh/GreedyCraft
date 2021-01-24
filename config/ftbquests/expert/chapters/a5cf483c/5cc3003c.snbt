@@ -1,0 +1,30 @@
+
+{
+	title: "{greedycraft.quest.5cc3003c.title}",
+	x: -3.5d,
+	y: 2.0d,
+	description: "{greedycraft.quest.5cc3003c.desc}",
+	tasks: [{
+		uid: "7644b80f",
+		type: "item",
+		items: [{
+			item: "astralsorcery:itemcraftingcomponent"
+		}]
+	}],
+	rewards: [{
+		uid: "0969ae39",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "39fc21c3",
+		type: "xp",
+		xp: 160
+	},
+	{
+		uid: "4ac305ff",
+		type: "item",
+		item: "minecraft:glass",
+		count: 320
+	}]
+}

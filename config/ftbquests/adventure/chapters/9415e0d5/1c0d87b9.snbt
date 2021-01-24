@@ -1,0 +1,24 @@
+{
+	title: "{greedycraft.quest.1c0d87b9.title}",
+	x: 0.0d,
+	y: 9.5d,
+	description: "{greedycraft.quest.1c0d87b9.desc}",
+	tasks: [{
+		uid: "dd371412",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-dragon_soul"
+		}]
+	}],
+	rewards: [{
+		uid: "8a989459",
+		type: "item",
+		item: "additions:greedycraft-reward_ticket_legendary",
+		count: 5
+	},
+	{
+		uid: "068da8d2",
+		type: "xp",
+		xp: 200000
+	}]
+}

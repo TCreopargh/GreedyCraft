@@ -1,0 +1,38 @@
+{
+	title: "{greedycraft.quest.3ed4aeae.title}",
+	x: 10.0d,
+	y: 0.0d,
+	description: "{greedycraft.quest.3ed4aeae.desc}",
+	dependencies: [
+		"50fa4126"
+	],
+	tasks: [{
+		uid: "63239cee",
+		type: "item",
+		items: [{
+			id: "abyssalcraft:necronomicon_dre",
+			tag: {
+				PotEnergy: 0.0f
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3ed1b36e",
+		type: "item",
+		item: {
+			id: "abyssalcraft:gatewaykeydl"
+		}
+	},
+	{
+		uid: "31444252",
+		type: "xp",
+		xp: 8000
+	},
+	{
+		uid: "7d5ecd7a",
+		type: "loot",
+		table: 1
+	}]
+}

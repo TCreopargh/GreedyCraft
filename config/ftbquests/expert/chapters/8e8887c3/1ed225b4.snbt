@@ -1,0 +1,34 @@
+
+{
+	title: "{greedycraft.quest.1ed225b4.title}",
+	x: 14.0d,
+	y: -4.0d,
+	shape: "octagon",
+	description: "{greedycraft.quest.1ed225b4.desc}",
+	dependencies: [
+		"0d5820d3"
+	],
+	tasks: [{
+		uid: "58e95ddf",
+		type: "item",
+		items: [{
+			item: "avaritia:extreme_crafting_table"
+		}]
+	}],
+	rewards: [{
+		uid: "32a53944",
+		type: "item",
+		item: "avaritia:resource 1 1",
+		count: 8
+	},
+	{
+		uid: "7bc3edad",
+		type: "xp",
+		xp: 10000
+	},
+	{
+		uid: "d12e5ef4",
+		type: "loot",
+		table: 2
+	}]
+}

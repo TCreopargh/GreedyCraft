@@ -1,0 +1,50 @@
+
+{
+	title: "{greedycraft.quest.75c1bb20.title}",
+	x: 0.0d,
+	y: 1.5d,
+	description: "{greedycraft.quest.75c1bb20.desc}",
+	tasks: [{
+		uid: "1b5b9527",
+		type: "item",
+		items: [{
+			id: "spiceoflife:lunchbox"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6a9aeb22",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "554c17d8",
+		type: "item",
+		item: "minecraft:cooked_chicken",
+		count: 16
+	},
+	{
+		uid: "a6b2f7f0",
+		type: "item",
+		item: "minecraft:cooked_rabbit",
+		count: 16
+	},
+	{
+		uid: "27c079d8",
+		type: "item",
+		item: "minecraft:cooked_beef",
+		count: 16
+	},
+	{
+		uid: "d49945e4",
+		type: "item",
+		item: "minecraft:cooked_porkchop",
+		count: 16
+	},
+	{
+		uid: "94fdf203",
+		type: "loot",
+		table: 0
+	}]
+}

@@ -1,0 +1,51 @@
+
+{
+	title: "{greedycraft.quest.22d2e079.title}",
+	x: -3.5d,
+	y: 1.5d,
+	description: "{greedycraft.quest.22d2e079.desc}",
+	dependencies: [
+		"e42bd6a4"
+	],
+	tasks: [{
+		uid: "4e793c89",
+		type: "item",
+		items: [{
+			id: "thaumcraft:thaumometer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "270c0126",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "8ed858ee",
+		type: "item",
+		item: {
+			id: "thaumcraft:thaumometer"
+		},
+		count: 3
+	},
+	{
+		uid: "c29d7d45",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "a8df84a5",
+		type: "item",
+		item: {
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "terra"
+				}]
+			}
+		},
+		count: 32
+	}]
+}

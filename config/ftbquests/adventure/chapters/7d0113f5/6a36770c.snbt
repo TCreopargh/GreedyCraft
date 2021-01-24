@@ -1,0 +1,35 @@
+{
+	title: "{greedycraft.quest.6a36770c.title}",
+	x: 2.5d,
+	y: 0.5d,
+	description: "{greedycraft.quest.6a36770c.desc}",
+	dependencies: [
+		"5a9b6af9",
+		"a72c38cb"
+	],
+	tasks: [{
+		uid: "7654d2f7",
+		type: "item",
+		items: [{
+			id: "thaumadditions:void_thaumometer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a19c5c0b",
+		type: "item",
+		item: "thaumcraft:ingot 1 1",
+		count: 3
+	},
+	{
+		uid: "2976a108",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "fc1e4f48",
+		type: "xp",
+		xp: 6000
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	title: "{greedycraft.quest.1668073e.title}",
+	x: 0.5d,
+	y: 13.0d,
+	description: "{greedycraft.quest.1668073e.desc}",
+	dependencies: [
+		"b1c8ec3a"
+	],
+	tasks: [{
+		uid: "d3f241df",
+		type: "item",
+		items: [{
+			item: "enderio:item_capacitor_stellar"
+		}]
+	}],
+	rewards: [{
+		uid: "be6974c1",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "106de60a",
+		type: "xp",
+		xp: 8000
+	},
+	{
+		uid: "7a67125c",
+		type: "item",
+		item: "enderio:item_capacitor_stellar"
+	}]
+}

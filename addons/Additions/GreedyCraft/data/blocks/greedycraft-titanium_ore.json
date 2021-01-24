@@ -1,0 +1,21 @@
+{
+  "item_block": {
+    "name": "§eTitanium Ore",
+    "ore_dict": "oreTitanium",
+    "type": "additions:block_simple"
+  },
+  "name": "§eTitanium Ore",
+  "material": "minecraft:stone",
+  "place_sound": "minecraft:block.stone.place",
+  "break_sound": "minecraft:block.stone.break",
+  "hit_sound": "minecraft:block.stone.hit",
+  "step_sound": "minecraft:block.stone.step",
+  "fall_sound": "minecraft:block.stone.fall",
+  "map_color": "minecraft:light_gray",
+  "hardness": 40.0,
+  "resistance": 1200.0,
+  "harvest_level": 10,
+  "harvest_tool": "pickaxe",
+  "light_level": 5,
+  "type": "additions:simple"
+}

@@ -1,0 +1,29 @@
+{
+	title: "{greedycraft.quest.7f54c74e.title}",
+	x: 10.5d,
+	y: -6.0d,
+	description: "{greedycraft.quest.7f54c74e.desc}",
+	tasks: [{
+		uid: "9f8167c9",
+		type: "item",
+		items: [{
+			item: "thermaldynamics:duct_0 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "58a2e5b4",
+		type: "item",
+		item: "thermaldynamics:duct_0 1 5",
+		count: 16
+	},
+	{
+		uid: "3a57649f",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "3caeb394",
+		type: "xp",
+		xp: 2800
+	}]
+}

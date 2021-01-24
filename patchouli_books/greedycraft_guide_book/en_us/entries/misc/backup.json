@@ -1,0 +1,15 @@
+{
+    "name": "§9Backups",
+    "icon": "minecraft:record_13",
+    "category": "patchouli:misc_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "The game starts an automatic backup after a set interval, which is $(9)30 mins$() by default. When it happens it will hint you with a chat message. The system automatically deletes outdated backups and only keeps some recent ones."
+        },
+        {
+            "type": "text",
+            "text": "You can find $(9)aroma1997/aromabackup.cfg$() in your config folder to adjust backup settings. To restore a backup, click on the 'Backup' button in world selection menu. Use $(9)/aromabackup$() command to initiate a manual backup."
+        }
+    ]
+}

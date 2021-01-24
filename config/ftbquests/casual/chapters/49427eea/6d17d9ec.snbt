@@ -1,0 +1,29 @@
+
+{
+	title: "{greedycraft.quest.6d17d9ec.title}",
+	x: -7.0d,
+	y: 5.5d,
+	description: "{greedycraft.quest.6d17d9ec.desc}",
+	dependencies: [
+		"4cc58917"
+	],
+	tasks: [{
+		uid: "3fdb3414",
+		type: "item",
+		items: [{
+			id: "mekanism:machineblock2",
+			Damage: 2s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d7788827",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "9435cf65",
+		type: "xp",
+		xp: 800
+	}]
+}

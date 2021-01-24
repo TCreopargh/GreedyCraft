@@ -1,0 +1,46 @@
+{
+	title: "{greedycraft.quest.ae69c46b.title}",
+	x: 5.5d,
+	y: 2.0d,
+	description: "{greedycraft.quest.ae69c46b.desc}",
+	dependencies: [
+		"6e46a027"
+	],
+	tasks: [{
+		uid: "fdaff796",
+		type: "item",
+		items: [{
+			id: "extracells:storage.physical",
+			tag: {
+				upgrades: {},
+				config: {},
+				fuzzyMode: "IGNORE_ALL"
+			},
+			Damage: 3s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "835f73fa",
+		type: "item",
+		item: {
+			id: "extracells:storage.physical",
+			tag: {
+				upgrades: {},
+				config: {},
+				fuzzyMode: "IGNORE_ALL"
+			},
+			Damage: 3s
+		}
+	},
+	{
+		uid: "353b4f70",
+		type: "xp",
+		xp: 2000
+	},
+	{
+		uid: "17f7c011",
+		type: "random",
+		table: 2
+	}]
+}

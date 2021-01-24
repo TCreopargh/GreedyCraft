@@ -1,0 +1,39 @@
+
+{
+	title: "{greedycraft.quest.14a2398c.title}",
+	x: 18.0d,
+	y: 1.0d,
+	description: "{greedycraft.quest.14a2398c.desc}",
+	dependencies: [
+		"886b7b73",
+		"a7790b6a"
+	],
+	tasks: [{
+		uid: "dc662fab",
+		type: "item",
+		items: [{
+			item: "additions:crimsonite_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "a602d0bd",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "a10d542f",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "76db7891",
+		type: "item",
+		item: "additions:crimsonite_ingot",
+		count: 3
+	},
+	{
+		uid: "dff36e31",
+		type: "xp",
+		xp: 3000
+	}]
+}

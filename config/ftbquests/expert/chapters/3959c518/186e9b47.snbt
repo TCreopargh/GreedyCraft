@@ -1,0 +1,28 @@
+
+{
+	title: "{greedycraft.quest.186e9b47.title}",
+	x: 0.0d,
+	y: -4.0d,
+	description: "{greedycraft.quest.186e9b47.desc}",
+	dependencies: [
+		"0eb7bb0b"
+	],
+	tasks: [{
+		uid: "8acd224e",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-greedy_medal"
+		}]
+	}],
+	rewards: [{
+		uid: "fb62df89",
+		type: "item",
+		item: "additions:greedycraft-reward_ticket_legendary",
+		count: 10
+	},
+	{
+		uid: "99f1b7ec",
+		type: "xp",
+		xp: 500000
+	}]
+}

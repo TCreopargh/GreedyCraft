@@ -1,0 +1,29 @@
+{
+	title: "{greedycraft.quest.5360dd73.title}",
+	icon: "minecraft:prismarine_crystals",
+	x: 8.0d,
+	y: 7.5d,
+	description: "{greedycraft.quest.5360dd73.desc}",
+	tasks: [{
+		uid: "3d0a44bb",
+		type: "kill",
+		entity: "minecraft:elder_guardian",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "00e60480",
+		type: "xp",
+		xp: 7500
+	},
+	{
+		uid: "559fcafe",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "7ec43329",
+		type: "item",
+		item: "minecraft:sea_lantern",
+		count: 64
+	}]
+}

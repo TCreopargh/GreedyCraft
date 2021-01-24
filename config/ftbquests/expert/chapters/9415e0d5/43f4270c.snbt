@@ -1,0 +1,30 @@
+
+{
+	title: "{greedycraft.quest.43f4270c.title}",
+	x: -6.0d,
+	y: 15.5d,
+	description: "{greedycraft.quest.43f4270c.desc}",
+	tasks: [{
+		uid: "7c945586",
+		type: "item",
+		items: [{
+			item: "additions:cryonium_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "20d07f4a",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "55a6c2ff",
+		type: "xp",
+		xp: 7000
+	},
+	{
+		uid: "544c8773",
+		type: "item",
+		item: "additions:cryonium_ingot",
+		count: 3
+	}]
+}

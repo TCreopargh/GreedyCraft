@@ -1,0 +1,21 @@
+{
+	title: "§cSwitch to: §c§nExpert Mode",
+	icon: "minecraft:fire_charge",
+	x: 13.0d,
+	y: -0.62d,
+	shape: "circle",
+	can_repeat: true,
+	size: 2.5d,
+	tasks: [{
+		uid: "0dcc7905",
+		type: "checkmark",
+		title: "§cClick this button to switch to Expert Mode"
+	}],
+	rewards: [{
+		uid: "0011e7e7",
+		type: "command",
+		auto: "no_toast",
+		command: "/packmode expert",
+		player_command: true
+	}]
+}

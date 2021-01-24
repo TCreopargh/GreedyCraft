@@ -1,0 +1,14 @@
+{
+  "name": "§aExperience Transporter Orb",
+  "shines": true,
+  "tooltip": [
+    "§ePut this at the middle column of the crafting table,",
+    "§eThe tool that receives EXP on its left, the tool that gives EXP on its right,",
+    "§eThen it will transport levels from the tool on the right to the tool on the left.",
+    "§6Both tools must be at full durability, and also applies to armors.",
+    "§6You might need to add a modifier to the new tool to refresh its modifier slot count.",
+    "§cNote: The tool on the right will vanish after crafting."
+  ],
+  "max_stack": 1,
+  "type": "additions:simple"
+}

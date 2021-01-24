@@ -1,0 +1,30 @@
+{
+	title: "{greedycraft.quest.864212ba.title}",
+	icon: "nyx:meteor_ingot 1 0",
+	x: -10.0d,
+	y: 1.5d,
+	description: "{greedycraft.quest.864212ba.desc}",
+	tasks: [{
+		uid: "a22be335",
+		type: "item",
+		items: [{
+			item: "nyx:meteor_ingot 1 0"
+		}]
+	}],
+	rewards: [{
+		uid: "49124846",
+		type: "item",
+		item: "cyclicmagic:water_candle",
+		count: 2
+	},
+	{
+		uid: "df363cab",
+		type: "xp",
+		xp: 150
+	},
+	{
+		uid: "fc9ec393",
+		type: "loot",
+		table: 1
+	}]
+}

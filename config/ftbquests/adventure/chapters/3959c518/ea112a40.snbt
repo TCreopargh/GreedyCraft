@@ -1,0 +1,18 @@
+{
+	x: 7.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "bbada8ad",
+		type: "item",
+		items: [{
+			id: "twilightforest:lamp_of_cinders"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3eea1314",
+		type: "loot",
+		table: 2
+	}]
+}

@@ -1,0 +1,12 @@
+{
+  "weight": 150,
+  "type": "tconevo:armour",
+  "name": "Guardian Angel",
+  "lore": "Saves its wearer from Death.",
+  "armour": "chestplate",
+  "materials": [
+    "cytosinite",
+    "terrestrial",
+    "asgardium"
+  ]
+}

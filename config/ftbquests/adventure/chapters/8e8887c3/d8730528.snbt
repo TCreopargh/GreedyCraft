@@ -1,0 +1,77 @@
+{
+	title: "{greedycraft.quest.d8730528.title}",
+	icon: "minecraft:log",
+	x: -6.0d,
+	y: -2.0d,
+	shape: "rsquare",
+	description: "{greedycraft.quest.d8730528.desc}",
+	dependencies: [
+		"11aa672a",
+		"560cad71"
+	],
+	tasks: [{
+		uid: "613dde2d",
+		type: "item",
+		title: "Any kind of log",
+		icon: "minecraft:log",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "logWood",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7fc9ba3d",
+		type: "item",
+		icon: "minecraft:log",
+		auto: "enabled",
+		item: "minecraft:log",
+		count: 16
+	},
+	{
+		uid: "ac8c8a5d",
+		type: "item",
+		item: "minecraft:apple",
+		count: 5
+	},
+	{
+		uid: "3ab0e2c5",
+		type: "xp",
+		xp: 50
+	},
+	{
+		uid: "4aea32a6",
+		type: "item",
+		auto: "enabled",
+		item: {
+			id: "minecraft:paper",
+			tag: {
+				display: {
+					Lore: [
+						"§6It reads:",
+						"§eI've been waiting for you for ages, claim your quest rewards by pressing E and clicking 'Quests' at the top left RIGHT NOW!!"
+					],
+					Name: "§bA Sticky Note"
+				}
+			}
+		}
+	},
+	{
+		uid: "d1fc70e4",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "getting_started"
+	},
+	{
+		uid: "fd834fcf",
+		type: "item",
+		item: {
+			id: "pouchofunknown:pouch"
+		}
+	}]
+}

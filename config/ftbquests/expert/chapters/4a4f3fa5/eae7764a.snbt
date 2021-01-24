@@ -1,0 +1,29 @@
+
+{
+	title: "{greedycraft.quest.eae7764a.title}",
+	x: 8.0d,
+	y: 0.0d,
+	description: "{greedycraft.quest.eae7764a.desc}",
+	dependencies: [
+		"df8638f2"
+	],
+	tasks: [{
+		uid: "ec268e79",
+		type: "item",
+		items: [{
+			id: "botania:dice"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c9d4514b",
+		type: "xp",
+		xp: 10000
+	},
+	{
+		uid: "9bbaf664",
+		type: "loot",
+		table: 2
+	}]
+}

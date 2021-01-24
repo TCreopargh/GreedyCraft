@@ -1,0 +1,16 @@
+{
+    "name": "§6Medals",
+    "icon": "additions:greedycraft-ordinary_medal",
+    "category": "patchouli:misc_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(6)Medals$() are only used to unlock the final quest. You can get $(6)Ordinary Medals$() from loot crates or quests, which can be made into more advanced medals."
+        }, 
+ 	{
+            "type": "crafting",
+            "recipe2": "crafttweaker:auto_gen_-1484361380",
+	    "recipe": "crafttweaker:auto_gen_-2096872370"
+        }
+    ]
+}

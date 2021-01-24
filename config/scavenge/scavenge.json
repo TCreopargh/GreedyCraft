@@ -1,0 +1,425 @@
+{
+    "block_pools": [{
+            "name": "stone",
+            "type": {
+                "type": "block_list",
+                "blocks": [{
+                        "name": "pvj:stone_rocks"
+                    },
+                    {
+                        "name": "pvj:cobblestone_rocks"
+                    },
+                    {
+                        "name": "pvj:mossy_cobblestone_rocks"
+                    },
+                    {
+                        "name": "pvj:andesite_rocks"
+                    },
+                    {
+                        "name": "pvj:granite_rocks"
+                    },
+                    {
+                        "name": "pvj:diorite_rocks"
+                    },
+                    {
+                        "name": "pvj:sandstone_rocks"
+                    },
+                    {
+                        "name": "pvj:red_sandstone_rocks"
+                    }
+                ]
+            },
+            "properties": [{
+                    "type": "require_empty_hand"
+                },
+                {
+                    "type": "consume_block"
+                },
+                {
+                    "type": "play_sound",
+                    "category": "block",
+                    "name": "minecraft:block.stone.break"
+                }
+            ],
+            "clicktype": "rightclick",
+            "drops": [{
+                "name": "additions:greedycraft-pebble"
+            }],
+            "messages": [{
+                "id": "require_empty_hand",
+                "message": "§eYou can only pick it up with an empty hand."
+            }]
+        },
+        {
+            "name": "pinecone",
+            "type": {
+                "type": "block_list",
+                "blocks": [{
+                    "name": "pvj:pinecones"
+                }]
+            },
+            "properties": [{
+                    "type": "require_empty_hand"
+                },
+                {
+                    "type": "consume_block"
+                },
+                {
+                    "type": "play_sound",
+                    "category": "block",
+                    "name": "minecraft:block.stone.break"
+                }
+            ],
+            "clicktype": "rightclick",
+            "drops": [{
+                "name": "additions:greedycraft-pinecone"
+            }],
+            "messages": [{
+                "id": "require_empty_hand",
+                "message": "§eYou can only pick it up with an empty hand."
+            }]
+        },
+        {
+            "name": "grass",
+            "type": {
+                "type": "block_list",
+                "blocks": [{
+                        "name": "minecraft:tallgrass"
+                    },
+                    {
+                        "name": "minecraft:double_plant"
+                    },
+                    {
+                        "name": "minecraft:vine"
+                    },
+                    {
+                        "name": "pvj:short_grass"
+                    },
+                    {
+                        "name": "biomesoplenty:plant_0"
+                    },
+                    {
+                        "name": "biomesoplenty:plant_1"
+                    },
+                    {
+                        "name": "pvj:chickweed"
+                    },
+                    {
+                        "name": "pvj:clovers"
+                    },
+                    {
+                        "name": "pvj:crabgrass"
+                    },
+                    {
+                        "name": "pvj:silverleaf"
+                    },
+                    {
+                        "name": "biomesoplenty:willow_vine"
+                    },
+                    {
+                        "name": "xlfoodmod:grass"
+                    }
+                ]
+            },
+            "clicktype": "rightclick",
+            "properties": [{
+                    "type": "require_empty_hand"
+                },
+                {
+                    "type": "consume_block"
+                },
+                {
+                    "type": "play_sound",
+                    "category": "block",
+                    "name": "minecraft:block.grass.break"
+                }
+            ],
+            "drops": [{
+                "name": "additions:greedycraft-plant_fibre",
+                "chance": 10
+            }]
+        },
+        {
+            "name": "leaves",
+            "type": {
+                "type": "ore",
+                "name": "treeLeaves"
+            },
+            "clicktype": "break",
+            "drops": [{
+                "name": "minecraft:stick",
+                "chance": 25
+            }]
+        },
+        {
+            "name": "clam",
+            "type": {
+                "type": "block_list",
+                "blocks": [{
+                    "name": "pvj:seashells"
+                }]
+            },
+            "clicktype": "rightclick",
+            "properties": [{
+                    "type": "require_empty_hand"
+                },
+                {
+                    "type": "consume_block"
+                },
+                {
+                    "type": "play_sound",
+                    "category": "block",
+                    "name": "minecraft:block.stone.break"
+                }
+            ],
+            "drops": [{
+                "name": "pvj:clam",
+                "chance": 100
+            }],
+            "messages": [{
+                "id": "require_empty_hand",
+                "message": "§eYou can only pick it up with an empty hand."
+            }]
+        },
+        {
+            "name": "bones",
+            "type": {
+                "type": "block_list",
+                "blocks": [{
+                    "name": "pvj:bones"
+                }]
+            },
+            "clicktype": "rightclick",
+            "properties": [{
+                    "type": "require_empty_hand"
+                },
+                {
+                    "type": "consume_block"
+                },
+                {
+                    "type": "play_sound",
+                    "category": "block",
+                    "name": "minecraft:block.stone.break"
+                }
+            ],
+            "drops": [{
+                "name": "minecraft:bone",
+                "amount": 6,
+                "chance": 100
+            }],
+            "messages": [{
+                "id": "require_empty_hand",
+                "message": "§eYou can only pick it up with an empty hand."
+            }]
+        },
+        {
+            "name": "flower_patch",
+            "type": {
+                "type": "block_list",
+                "blocks": [{
+                    "name": "pvj:flower_patch"
+                }, {
+                    "name": "biomesoplenty:flower_0"
+                }]
+            },
+            "clicktype": "rightclick",
+            "properties": [{
+                    "type": "require_empty_hand"
+                },
+                {
+                    "type": "consume_block"
+                },
+                {
+                    "type": "play_sound",
+                    "category": "block",
+                    "name": "minecraft:block.grass.break"
+                }
+            ],
+            "drops": [{
+                    "name": "botania:dye",
+                    "meta": 0,
+                    "weight": 1
+                },
+                {
+                    "name": "botania:dye",
+                    "meta": 1,
+                    "weight": 1
+                },
+                {
+                    "name": "botania:dye",
+                    "meta": 2,
+                    "weight": 1
+                },
+                {
+                    "name": "botania:dye",
+                    "meta": 3,
+                    "weight": 1
+                },
+                {
+                    "name": "botania:dye",
+                    "meta": 4,
+                    "weight": 1
+                },
+                {
+                    "name": "botania:dye",
+                    "meta": 5,
+                    "weight": 1
+                },
+                {
+                    "name": "botania:dye",
+                    "meta": 6,
+                    "weight": 1
+                },
+                {
+                    "name": "botania:dye",
+                    "meta": 7,
+                    "weight": 1
+                },
+                {
+                    "name": "botania:dye",
+                    "meta": 8,
+                    "weight": 1
+                },
+                {
+                    "name": "botania:dye",
+                    "meta": 9,
+                    "weight": 1
+                },
+                {
+                    "name": "botania:dye",
+                    "meta": 10,
+                    "weight": 1
+                },
+                {
+                    "name": "botania:dye",
+                    "meta": 11,
+                    "weight": 1
+                },
+                {
+                    "name": "botania:dye",
+                    "meta": 12,
+                    "weight": 1
+                },
+                {
+                    "name": "botania:dye",
+                    "meta": 13,
+                    "weight": 1
+                },
+                {
+                    "name": "botania:dye",
+                    "meta": 14,
+                    "weight": 1
+                },
+                {
+                    "name": "botania:dye",
+                    "meta": 15,
+                    "weight": 1
+                }
+            ],
+            "messages": [{
+                "id": "require_empty_hand",
+                "message": "§eYou can only pick it up with an empty hand."
+            }]
+        },
+        {
+            "name": "log",
+            "type": {
+                "type": "ore",
+                "name": "logWood"
+            },
+            "properties": [{
+                "type": "require_empty_hand"
+            }],
+            "clicktype": "break",
+            "messages": [{
+                "id": "success",
+                "message": "§eYou can't punch trees with bare hands! For how to get wood, see the modpack guide book which is placed in your hotbar on first join."
+            }],
+            "drops": [{
+                "name": "thermalfoundation:material",
+                "meta": 800,
+                "chance": 5
+            }]
+        },
+        {
+            "name": "twigs",
+            "type": {
+                "type": "ore",
+                "name": "twigs"
+            },
+            "properties": [{
+                    "type": "require_empty_hand"
+                },
+                {
+                    "type": "consume_block"
+                },
+                {
+                    "type": "play_sound",
+                    "category": "block",
+                    "name": "minecraft:block.stone.break"
+                }
+            ],
+            "clicktype": "rightclick",
+            "drops": [{
+                "name": "minecraft:stick",
+                "chance": 100
+            }],
+            "messages": [{
+                "id": "require_empty_hand",
+                "message": "§eYou can only pick it up with an empty hand."
+            }]
+        },
+        {
+            "name": "plank",
+            "type": {
+                "type": "ore",
+                "name": "plankWood"
+            },
+            "properties": [{
+                "type": "require_empty_hand"
+            }],
+            "clicktype": "break",
+            "messages": [{
+                "id": "success",
+                "message": "§eYou can't punch trees with bare hands! For how to get wood, see the modpack guide book which is placed in your hotbar on first join."
+            }],
+            "drops": [{
+                "name": "thermalfoundation:material",
+                "meta": 800,
+                "chance": 5
+            }]
+        },
+        {
+            "name": "oat",
+            "type": {
+                "type": "block_list",
+                "blocks": [{
+                        "name": "biomesoplenty:double_plant",
+                        "meta": 3
+                    },
+                    {
+                        "name": "biomesoplenty:double_plant",
+                        "meta": 11
+                    },
+                    {
+                        "name": "pvj:sea_oats"
+                    }
+                ]
+            },
+            "properties": [{
+                    "type": "consume_block"
+                },
+                {
+                    "type": "play_sound",
+                    "category": "block",
+                    "name": "minecraft:block.grass.break"
+                }
+            ],
+            "clicktype": "break",
+            "drops": [{
+                "name": "harvestcraft:oatsitem",
+                "chance": 50
+            }]
+        }
+    ]
+}

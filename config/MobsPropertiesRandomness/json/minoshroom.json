@@ -1,0 +1,12 @@
+{
+    "mob_id": "twilightforest:minoshroom",
+    "attributes": [
+        {
+            "id": "generic.maxHealth",
+            "modifier": {
+                "min": 250
+            },
+            "isflat": false
+        }
+    ]
+}

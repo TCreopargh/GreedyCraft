@@ -1,0 +1,25 @@
+{
+  "onScreenNotifications": [
+    {
+      "id": "darkosto",
+      "soundlocation": "minecraft:entity.player.levelup",
+      "bgColor": "#808080",
+      "borderColor": "#000000",
+      "lines": [
+        "§9§nHappy Birthday!!!",
+        "§2Happy Birthday to you!",
+        "§2Happy Birthday to you!",
+        "§5Happy Birthday Darkosto!",
+        "§2Happy Birthday to you!"
+      ]
+    },
+    {
+      "id": "example",
+      "soundlocation": "minecraft:entity.creeper.primed",
+      "lines": [
+        "§c§nBoom!!!",
+        "§eDid I scare you?"
+      ]
+    }
+  ]
+}

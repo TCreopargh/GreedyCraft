@@ -1,0 +1,40 @@
+{
+	title: "{greedycraft.quest.700bf756.title}",
+	x: -2.0d,
+	y: 1.5d,
+	description: "{greedycraft.quest.700bf756.desc}",
+	dependencies: [
+		"519a981d"
+	],
+	tasks: [{
+		uid: "c46b75d4",
+		type: "item",
+		items: [{
+			id: "mekanism:gastank",
+			tag: {
+				tier: 3
+			}
+		}],
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "ab551185",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "42edf66a",
+		type: "item",
+		item: {
+			id: "mekanism:gastank",
+			tag: {
+				tier: 3
+			}
+		}
+	},
+	{
+		uid: "bbc39f86",
+		type: "xp",
+		xp: 4000
+	}]
+}

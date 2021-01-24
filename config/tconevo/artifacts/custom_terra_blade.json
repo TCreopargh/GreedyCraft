@@ -1,0 +1,12 @@
+{
+    "weight": 60,
+    "type": "tconevo:tool",
+    "name": "Terra Blade",
+    "lore": "Did I just go into the wrong game?",
+    "tool": "broadsword",
+    "materials": [
+        "diamond",
+        "terrasteel",
+        "elementium"
+    ]
+}

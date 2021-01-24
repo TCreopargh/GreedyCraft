@@ -1,0 +1,12 @@
+{
+  "weight": 650,
+  "type": "tconevo:tool",
+  "name": "Storm Bow",
+  "lore": "A bow that darkens the skies with floods of arrows.",
+  "tool": "shortbow",
+  "materials": [
+    "nickel",
+    "signalum",
+    "fluxed_string"
+  ]
+}

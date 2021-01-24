@@ -1,0 +1,8 @@
+{
+  "name": "§bAncient Tome Page",
+  "tooltip": [
+    "§7A page of an ancient artifact.",
+    "§7It's partly repaired, but still not understandable."
+  ],
+  "type": "additions:simple"
+}

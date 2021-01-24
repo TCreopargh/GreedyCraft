@@ -1,0 +1,6 @@
+{
+  "name": "§bDust of Purifying",
+  "tooltip": "§2When used, converts nearby blocks like a pure daisy.",
+  "ore_dict": "dustPurifying",
+  "type": "additions:simple"
+}

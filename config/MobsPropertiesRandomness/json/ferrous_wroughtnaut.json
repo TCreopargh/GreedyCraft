@@ -1,0 +1,12 @@
+{
+    "mob_id": "mowziesmobs:ferrous_wroughtnaut",
+    "attributes": [
+        {
+            "id": "generic.maxHealth",
+            "modifier": {
+                "min": 400
+            },
+            "isflat": true
+        }
+    ]
+}

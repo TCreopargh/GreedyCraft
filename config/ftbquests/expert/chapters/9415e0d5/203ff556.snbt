@@ -1,0 +1,36 @@
+
+{
+	title: "{greedycraft.quest.203ff556.title}",
+	x: -10.0d,
+	y: 5.5d,
+	description: "{greedycraft.quest.203ff556.desc}",
+	tasks: [{
+		uid: "85b78e1d",
+		type: "item",
+		items: [{
+			item: "defiledlands:essence_destroyer"
+		}]
+	}],
+	rewards: [{
+		uid: "e3925213",
+		type: "item",
+		item: "defiledlands:umbrium_ingot",
+		count: 20
+	},
+	{
+		uid: "62f6bd43",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "38356459",
+		type: "item",
+		item: "defiledlands:scarlite_block",
+		count: 2
+	},
+	{
+		uid: "d1a9c348",
+		type: "random",
+		table: 1
+	}]
+}

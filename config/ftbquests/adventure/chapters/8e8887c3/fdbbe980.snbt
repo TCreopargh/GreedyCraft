@@ -1,0 +1,32 @@
+{
+	title: "{greedycraft.quest.fdbbe980.title}",
+	x: 4.0d,
+	y: -4.0d,
+	description: "{greedycraft.quest.fdbbe980.desc}",
+	dependencies: [
+		"b01be720"
+	],
+	tasks: [{
+		uid: "d851be31",
+		type: "item",
+		items: [{
+			item: "tconstruct:ingots 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "17292c82",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "1186fb39",
+		type: "item",
+		item: "tconstruct:ingots 1 2",
+		count: 10
+	},
+	{
+		uid: "4c98bd23",
+		type: "xp",
+		xp: 1200
+	}]
+}

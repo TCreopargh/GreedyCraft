@@ -1,0 +1,53 @@
+{
+	title: "{greedycraft.quest.68c0cf56.title}",
+	icon: "quark:black_ash",
+	x: 4.5d,
+	y: -3.0d,
+	description: "{greedycraft.quest.68c0cf56.desc}",
+	dependencies: [
+		"a357fcd1"
+	],
+	tasks: [{
+		uid: "ca47898f",
+		type: "kill",
+		entity: "minecraft:wither",
+		value: 2L
+	}],
+	rewards: [{
+		uid: "d5635527",
+		type: "xp",
+		xp: 3000
+	},
+	{
+		uid: "c99d0582",
+		type: "item",
+		item: "minecraft:skull 1 1",
+		count: 15
+	},
+	{
+		uid: "32089a7f",
+		type: "item",
+		item: "mysticalagriculture:wither_skeleton_seeds",
+		count: 3
+	},
+	{
+		uid: "3139bda2",
+		type: "item",
+		item: "minecraft:beacon"
+	},
+	{
+		uid: "dd7501b7",
+		type: "item",
+		item: {
+			id: "minecraft:potion",
+			tag: {
+				Potion: "potioncore:purity"
+			}
+		}
+	},
+	{
+		uid: "106ad70d",
+		type: "loot",
+		table: 0
+	}]
+}

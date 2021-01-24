@@ -1,0 +1,54 @@
+
+{
+	title: "{greedycraft.quest.93ff40d3.title}",
+	x: -9.5d,
+	y: -4.0d,
+	description: "{greedycraft.quest.93ff40d3.desc}",
+	dependencies: [
+		"d5340c5b"
+	],
+	tasks: [{
+		uid: "7d540d47",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					3b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "acbad9e8",
+		type: "item",
+		item: "minecraft:gold_ore",
+		count: 16
+	},
+	{
+		uid: "97251866",
+		type: "xp",
+		xp: 250
+	},
+	{
+		uid: "d664f19b",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "10e12182",
+		type: "loot",
+		table: 1
+	}]
+}

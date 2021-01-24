@@ -1,0 +1,8 @@
+{
+  "name": "§bWarp Delivery Order",
+  "tooltip": [
+    "§bWarps a load of goods to you with future technology!",
+    "§6Right click to use"
+  ],
+  "type": "additions:simple"
+}

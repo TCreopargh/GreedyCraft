@@ -1,0 +1,19 @@
+{
+    "name": "§dPouch of Unknown",
+    "icon": "pouchofunknown:pouch",
+    "category": "patchouli:gamestages_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(d)Pouch of Unknown$() is a bag that can be used to temporarily hold your Unknown Items. Without it, you can't pick up any Unknown Item, when you have it in your inventory, all picked up Unknwon Item goes into the pouch.$(br)It doesn't have a GUI, you can't pick up items inside if you don't have their required game stage unlocked yet. "
+        },
+        {
+            "type": "text",
+            "text": "Right click with it in your hand to pick up all items that can be picked up.$(5)（It's recommended to do this on a hopper because if you pick up too many items they might disappear before you move them into chests）$()If you lose the pouch, you can craft another one, the recipe is pretty easy."
+        },
+        {
+            "type": "crafting",
+            "recipe": "pouchofunknown:pouch"
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "§cBlood Sigil",
+  "tooltip": [
+    "§eSummons blood moon when used",
+    "§eBloodmoon will occur at the next possible night",
+    "§7Consumed on use"
+  ],
+  "type": "additions:simple"
+}

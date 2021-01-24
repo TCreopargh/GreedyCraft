@@ -1,0 +1,18 @@
+{
+	title: "{greedycraft.quest.chapter.appeng}",
+	icon: "appliedenergistics2:chest",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "",
+	images: [{
+		x: -8.5d,
+		y: -6.0d,
+		width: 8.0d,
+		height: 4.0d,
+		rotation: 0.0d,
+		image: "greedycraft:quests/storages.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

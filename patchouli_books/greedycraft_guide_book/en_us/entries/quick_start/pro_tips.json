@@ -1,0 +1,43 @@
+{
+    "name": "§9Pro Tips §8and §6Notes",
+    "icon": "minecraft:torch",
+    "category": "patchouli:quick_start_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(#ff80ab)$(l)These are some important tips and notes for this game that can be very helpful. More tips can be seen on the loading screen.$()$(br2)$(li)$(c)Tinker's Construct$() weapons and armors are your best choice, view $(6)Material And You$() and $(9)Material And You - Armor Addendum$() for material specs.$(li)Experience is very important, a lot of things require lots of XP, try not to lose XP!"
+        },
+        {
+            "type": "text",
+            "text": "$(li)JEI search tip: search $(2)@$(3)[mod id]$() to see all items in a mod!$(li)Press Y when hovering over an item in JEI to search this item in nearby chests!$(li)Be prepared before fighting the Wither and the Ender Dragon because difficulty will increase after defeating them! $(li) You can just click a pure daisy with blocks in your hand to place blocks around it.$(li)Rightclick a fully grown crop to harvest and replant it.$(li)You can't fly before getting the $(6)awakened$() gamestage."
+        },
+        {
+            "type": "text",
+            "text": "$(li) Champion mobs can get 10 stars, the more stars it have the better loot it drops. Average stars for champion mobs increase as you gain more difficulty. $(li)Don't rush the main questline, try some side quests when you feel it's difficult!$(li)You can use color codes and format codes everywhere! $(li)Clicking a bed at day sets spawn too.$(li)You can choose whether to set the spawn point or not when you sleep at night."
+        },
+        {
+            "type": "text",
+            "text": "$(li)Ores will be unified to the mostly used item in the same ore dictionary when mined. $(li) There's a low chance for normal mobs to drop Heart Crystal shards. $(li) Wire from different mods can usually interconnect. $(li) The transmutation rate of ProjectE is $(2)1/8$(), i.e. sell value is 8 times lower than buy value. $(li) You can find waystones in every village, make sure to activate them."
+        },
+        {
+            "type": "text",
+            "text": "$(li) When viewing recipes in JEI, Shift-click '+' button to move all required items in your inv to crafting table.$(li) You can claim all quest rewards at once by clicking the button on the top right of quest menu.$(li) $(6)Bauble slots$() are opened through the button on your avatar in inventory. Some baubles automatically place torches!$(li) You can cast milk to cheese with an empty casting table.$(li) Smelt zombie pigmen in tinkers' smeltry to get gold!."
+        },
+        {
+            "type": "text",
+            "text": "$(li) It's recommended to use 'Internal' than 'off' if you're gonna turn off shaders$(li) Use medkits to regenerate health in battles!$(li) Real first player toggle can be found in R-button menu.$(li) Draconic Evolution's tools and armors are disabled, use Tinkers' material instead.$(li) Push a cow into your smeltry to get milk!$(li) You can craft any player's skull by combining any mob head with a named name tag."
+        },
+        {
+            "type": "text",
+            "text": "$(li) You can craft human spawn eggs for any player by combining a player head or name tag with an egg. $(li) Don't trust anyone or anything in this game... $(li)Congrats! You found an Easter egg!$(9)$(l:https://www.youtube.com/watch?v=dQw4w9WgXcQ)§nClick Here$(/l)$() to claim 10000 infinity blocks!$(li) You can sail on lava with an obsidian boat!$(li)Vanilla weapons and armors are nerfed, use Tinkers' tools and armors instead!$(li)Shift-click an claimed chunk in FTB chunks to keep it loaded."
+        },
+        {
+            "type": "text",
+            "text": "$(li) Baubles can have prefixes which boosts your stats, you can change its prefix in a Reforging Station. $(li) It's suggested to make a $(2)XP Block$() as soon as possible to deposit experience.$(li) Spawners will disable itself after spawning a set amount of mobs. Disabled spawners give out smokes.$(li)Most loot in battle towers are locked, the Tower Golem has the key."
+        },
+        {
+            "type": "text",
+            "text": "$(li) Most ground decorations (twigs, pinecones, etc) can be picked up, Shift rightclick them to pick up their block form instead of their item."
+        }
+    ]
+}

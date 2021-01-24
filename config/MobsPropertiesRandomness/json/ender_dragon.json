@@ -1,0 +1,12 @@
+{
+    "mob_id": "minecraft:ender_dragon",
+    "attributes": [
+        {
+            "id": "generic.maxHealth",
+            "modifier": {
+                "min": 7000
+            },
+            "isflat": true
+        }
+    ]
+}

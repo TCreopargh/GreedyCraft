@@ -1,0 +1,33 @@
+
+{
+	title: "{greedycraft.quest.58c101a2.title}",
+	x: 12.0d,
+	y: -1.5d,
+	description: "{greedycraft.quest.58c101a2.desc}",
+	dependencies: [
+		"3ed4aeae"
+	],
+	tasks: [{
+		uid: "e7c20ffd",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:dreadaltartop"
+		}]
+	}],
+	rewards: [{
+		uid: "37551e0a",
+		type: "xp",
+		xp: 6000
+	},
+	{
+		uid: "71b12202",
+		type: "item",
+		item: "abyssalcraft:dreadiumingot",
+		count: 16
+	},
+	{
+		uid: "e0029309",
+		type: "loot",
+		table: 1
+	}]
+}

@@ -1,0 +1,101 @@
+{
+	title: "{greedycraft.quest.bb3d9aaa.title}",
+	icon: "minecraft:iron_ore",
+	x: -2.0d,
+	y: -2.0d,
+	shape: "rsquare",
+	description: "{greedycraft.quest.bb3d9aaa.desc}",
+	dependencies: [
+		"77689ab0"
+	],
+	tasks: [{
+		uid: "717fb62e",
+		type: "item",
+		title: "Any Iron Ore",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "oreIron",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "26af7707",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "0508966f",
+		type: "item",
+		item: {
+			id: "minecraft:iron_pickaxe"
+		}
+	},
+	{
+		uid: "fbab228b",
+		type: "item",
+		item: "minecraft:baked_potato",
+		count: 10
+	},
+	{
+		uid: "d48b932a",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "0707437b",
+		type: "item",
+		item: {
+			id: "minecraft:leather_helmet",
+			tag: {
+				display: {
+					color: 16744619,
+					Name: "§dFairy Hat"
+				}
+			}
+		}
+	},
+	{
+		uid: "03dbc7ec",
+		type: "item",
+		item: {
+			id: "minecraft:leather_chestplate",
+			tag: {
+				display: {
+					color: 16744619,
+					Name: "§dFairy Shirt"
+				}
+			}
+		}
+	},
+	{
+		uid: "771cecc8",
+		type: "item",
+		item: {
+			id: "minecraft:leather_leggings",
+			tag: {
+				display: {
+					color: 16744619,
+					Name: "§dFairy Pants"
+				}
+			}
+		}
+	},
+	{
+		uid: "b8e1c268",
+		type: "item",
+		item: {
+			id: "minecraft:leather_boots",
+			tag: {
+				display: {
+					color: 16744619,
+					Name: "§dFairy Shoes"
+				}
+			}
+		}
+	}]
+}

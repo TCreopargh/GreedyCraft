@@ -1,0 +1,57 @@
+
+{
+	title: "{greedycraft.quest.6c104851.title}",
+	x: 5.0d,
+	y: 1.5d,
+	description: "{greedycraft.quest.6c104851.desc}",
+	dependencies: [
+		"254d7b2b"
+	],
+	tasks: [{
+		uid: "767d839d",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:psdl"
+		}]
+	}],
+	rewards: [{
+		uid: "d068b056",
+		type: "item",
+		item: {
+			id: "abyssalcraft:transmutationgem"
+		},
+		count: 2
+	},
+	{
+		uid: "c2ba85ff",
+		type: "item",
+		item: "minecraft:gold_ingot",
+		count: 4
+	},
+	{
+		uid: "0638f684",
+		type: "item",
+		item: "minecraft:enchanting_table"
+	},
+	{
+		uid: "c530e108",
+		type: "item",
+		item: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "liquidcoralium",
+				Amount: 1000
+			}
+		}
+	},
+	{
+		uid: "dbc1d1c6",
+		type: "xp",
+		xp: 4500
+	},
+	{
+		uid: "6f44f27e",
+		type: "loot",
+		table: 1
+	}]
+}

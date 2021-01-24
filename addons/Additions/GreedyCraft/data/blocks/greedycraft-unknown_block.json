@@ -1,0 +1,21 @@
+{
+  "item_block": {
+    "name": "§5§ka§r §dBlock of Unknown §5§ka§r",
+    "tooltip": [
+      "§d§oYou have insufficient knowledge to understand its presence.",
+      "§7(THIS IS NOT A LUCKY BLOCK)"
+    ],
+    "ore_dict": "blockUnknown",
+    "type": "additions:block_simple"
+  },
+  "name": "§5§ka§r §dBlock of Unknown §5§ka§r",
+  "material": "minecraft:stone",
+  "place_sound": "minecraft:block.metal.place",
+  "break_sound": "minecraft:block.metal.break",
+  "step_sound": "minecraft:block.stone.step",
+  "map_color": "minecraft:pink",
+  "hardness": 25.0,
+  "resistance": 50000.0,
+  "can_pistons_push": false,
+  "type": "additions:simple"
+}

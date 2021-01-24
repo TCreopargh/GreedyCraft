@@ -1,0 +1,21 @@
+setIcon(<patchouli:guide_book, meta:0, count:1, nbt:{"patchouli:book":"patchouli:the_elysia_project"}>)
+
+setTranslatedTitle("greedycraft.advancement.book.title")
+
+setTranslatedDescription("greedycraft.advancement.book.desc")
+
+addParent("greedycraft:elysia/root")
+
+setPos(-80,140)
+
+alwaysVisible()
+
+drawDirectLines(true)
+
+setShowToast(false)
+
+setAnnounceToChat(false)
+
+criteriaBook = addCriteria("gc_get_elysia_book", "minecraft:inventory_changed")
+
+criteriaBook.addItem(<patchouli:guide_book, meta:0, count:1, nbt:{"patchouli:book":"patchouli:the_elysia_project"}>)

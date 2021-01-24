@@ -1,0 +1,48 @@
+{
+	title: "{greedycraft.quest.4f8c9539.title}",
+	x: -1.0d,
+	y: 0.0d,
+	description: "{greedycraft.quest.4f8c9539.desc}",
+	dependencies: [
+		"daeb8a38",
+		"5cc3003c"
+	],
+	tasks: [{
+		uid: "722038ad",
+		type: "item",
+		items: [{
+			id: "astralsorcery:itemwand",
+			tag: {
+				astralsorcery: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "182266d0",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "bcadca84",
+		type: "xp",
+		xp: 420
+	},
+	{
+		uid: "b78187b1",
+		type: "item",
+		item: "minecraft:ender_pearl",
+		count: 16
+	},
+	{
+		uid: "ff1cefa7",
+		type: "item",
+		item: {
+			id: "astralsorcery:itemsextant",
+			tag: {
+				astralsorcery: {}
+			}
+		}
+	}]
+}

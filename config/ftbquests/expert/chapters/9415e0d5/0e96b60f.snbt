@@ -1,0 +1,36 @@
+
+{
+	title: "{greedycraft.quest.0e96b60f.title}",
+	x: 8.0d,
+	y: 5.5d,
+	description: "{greedycraft.quest.0e96b60f.desc}",
+	dependencies: [
+		"7491e3fb"
+	],
+	tasks: [{
+		uid: "b63c3044",
+		type: "item",
+		items: [{
+			id: "magicfeather:magicfeather"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0573206c",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "f1f007fc",
+		type: "xp",
+		xp: 4000
+	},
+	{
+		uid: "a0170b16",
+		type: "item",
+		item: {
+			id: "minecraft:elytra"
+		}
+	}]
+}

@@ -1,0 +1,29 @@
+
+{
+	title: "{greedycraft.quest.f39ff11c.title}",
+	x: -2.0d,
+	y: 3.5d,
+	description: "{greedycraft.quest.f39ff11c.desc}",
+	tasks: [{
+		uid: "c159a7c3",
+		type: "item",
+		items: [{
+			item: "torchmaster:mega_torch"
+		}]
+	}],
+	rewards: [{
+		uid: "fc0f647a",
+		type: "item",
+		item: "torchmaster:terrain_lighter"
+	},
+	{
+		uid: "79b2dfa0",
+		type: "xp",
+		xp: 300
+	},
+	{
+		uid: "10f7433c",
+		type: "loot",
+		table: 0
+	}]
+}

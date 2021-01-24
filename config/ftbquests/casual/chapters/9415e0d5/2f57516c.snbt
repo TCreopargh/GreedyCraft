@@ -1,0 +1,47 @@
+
+{
+	title: "{greedycraft.quest.2f57516c.title}",
+	icon: "minecraft:iron_block",
+	x: -8.0d,
+	y: 1.5d,
+	description: "{greedycraft.quest.2f57516c.desc}",
+	tasks: [{
+		uid: "28fe4693",
+		type: "kill",
+		entity: "minecraft:villager_golem",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "49dceab0",
+		type: "item",
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:villager"
+				}
+			}
+		}
+	},
+	{
+		uid: "d04bcf2f",
+		type: "item",
+		item: "cyclicmagic:apple_emerald",
+		count: 2
+	},
+	{
+		uid: "786ca544",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "35c34014",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "f14d26d0",
+		type: "item",
+		item: "bountiful:bountyboarditem"
+	}]
+}

@@ -1,0 +1,39 @@
+{
+	title: "{greedycraft.quest.e074db01.title}",
+	x: -12.0d,
+	y: -1.5d,
+	description: "{greedycraft.quest.e074db01.desc}",
+	dependencies: [
+		"d5340c5b"
+	],
+	tasks: [{
+		uid: "586ebdab",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:dynamo",
+			tag: {
+				RSControl: 0b,
+				Facing: 1b,
+				Energy: 0,
+				Level: 0b
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3e19fcc9",
+		type: "xp",
+		xp: 200
+	},
+	{
+		uid: "06deda44",
+		type: "item",
+		item: "minecraft:coal",
+		count: 64
+	},
+	{
+		uid: "88007f9d",
+		type: "loot",
+		table: 1
+	}]
+}

@@ -1,0 +1,41 @@
+
+{
+	title: "{greedycraft.quest.a7a65eec.title}",
+	x: -10.0d,
+	y: 3.5d,
+	description: "{greedycraft.quest.a7a65eec.desc}",
+	text: [
+		"§cNote: Try to hold shift if you can't get on a hammock"
+	],
+	tasks: [{
+		uid: "b4f09193",
+		type: "item",
+		items: [{
+			id: "comforts:hammock"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "68154479",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "0b8e8606",
+		type: "item",
+		item: "minecraft:bed"
+	},
+	{
+		uid: "60eac9fb",
+		type: "item",
+		item: {
+			id: "prefab:item_villager_houses"
+		}
+	},
+	{
+		uid: "97bc0db6",
+		type: "loot",
+		table: 0
+	}]
+}

@@ -1,0 +1,30 @@
+
+{
+	title: "{greedycraft.quest.09f3e2c7.title}",
+	x: -9.0d,
+	y: -2.0d,
+	description: "{greedycraft.quest.09f3e2c7.desc}",
+	tasks: [{
+		uid: "6c8bcd1e",
+		type: "item",
+		items: [{
+			item: "minecraft:quartz"
+		}]
+	}],
+	rewards: [{
+		uid: "eb704d48",
+		type: "xp",
+		xp: 50
+	},
+	{
+		uid: "01f719e5",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "9c001f45",
+		type: "item",
+		item: "minecraft:quartz",
+		count: 16
+	}]
+}

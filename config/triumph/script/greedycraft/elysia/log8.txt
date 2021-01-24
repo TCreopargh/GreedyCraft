@@ -1,0 +1,21 @@
+setIcon(<additions:greedycraft-experiment_note>)
+
+setTranslatedTitle("greedycraft.advancement.log8.title")
+
+setTranslatedDescription("greedycraft.advancement.log8.desc")
+
+addParent("greedycraft:elysia/log7")
+
+setPos(240,100)
+
+alwaysVisible()
+
+drawDirectLines(true)
+
+setShowToast(false)
+
+setAnnounceToChat(false)
+
+criteriaLog8 = addCriteria("gc_stage_chaotic", "triumph:gamestage")
+
+criteriaLog8.setStage("chaotic")

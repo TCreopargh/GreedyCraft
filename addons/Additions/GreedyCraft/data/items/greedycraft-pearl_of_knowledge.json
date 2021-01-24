@@ -1,0 +1,9 @@
+{
+  "name": "§aPearl of Knowledge",
+  "shines": true,
+  "tooltip": [
+    "§eStores a lot of XP.",
+    "§aRight click to use."
+  ],
+  "type": "additions:simple"
+}

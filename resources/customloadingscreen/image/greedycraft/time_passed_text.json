@@ -1,0 +1,14 @@
+{
+    "parent": "builtin/text",
+    "image": "customloadingscreen:font/ascii.png",
+    "position_type": "CENTER",
+    "offset_pos": "CENTER",
+    "text": "'The game has been loading for ' + floor(time / 60) + 'm ' + floor((time % 60) / 10) + floor(time % 60 % 10) + 's.'",
+    "position": {
+        "x": "0",
+        "y": "screen_height * 0.5 - 10",
+        "width": "0",
+        "height": "0"
+    },
+    "colour": "0xFFFFFFFF"
+}

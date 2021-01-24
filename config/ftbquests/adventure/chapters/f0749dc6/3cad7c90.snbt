@@ -1,0 +1,28 @@
+{
+	title: "{greedycraft.quest.3cad7c90.title}",
+	icon: {
+		id: "minecraft:golden_helmet"
+	},
+	x: -5.5d,
+	y: 3.0d,
+	description: "{greedycraft.quest.3cad7c90.desc}",
+	dependencies: [
+		"2959343a"
+	],
+	tasks: [{
+		uid: "345fcdd0",
+		type: "stat",
+		stat: "stat.playOneMinute",
+		value: 8640000
+	}],
+	rewards: [{
+		uid: "233b78ff",
+		type: "xp",
+		xp: 25000
+	},
+	{
+		uid: "57ccc3da",
+		type: "loot",
+		table: 2
+	}]
+}

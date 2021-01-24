@@ -1,0 +1,24 @@
+
+{
+	title: "{greedycraft.quest.85c365a4.title}",
+	x: -6.0d,
+	y: 3.5d,
+	description: "{greedycraft.quest.85c365a4.desc}",
+	tasks: [{
+		uid: "f03bab4d",
+		type: "item",
+		items: [{
+			item: "ftbquests:screen"
+		}]
+	}],
+	rewards: [{
+		uid: "e379364e",
+		type: "xp",
+		xp: 450
+	},
+	{
+		uid: "65c67f6b",
+		type: "loot",
+		table: 1
+	}]
+}

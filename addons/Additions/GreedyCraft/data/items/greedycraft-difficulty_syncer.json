@@ -1,0 +1,12 @@
+{
+  "name": "§dDifficulty Synchorizing Orb",
+  "shines": true,
+  "tooltip": [
+    "§dWhen used, set your difficulty to the supposed difficulty at your game stage.",
+    "§6Used to fix some bugs",
+    "§eDoes not consume",
+    "§7§m/syncdifficulty does this too but this is for people who can't remember commands."
+  ],
+  "max_stack": 1,
+  "type": "additions:simple"
+}

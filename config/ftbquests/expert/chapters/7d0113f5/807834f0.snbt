@@ -1,0 +1,35 @@
+
+{
+	title: "{greedycraft.quest.807834f0.title}",
+	x: 8.5d,
+	y: -0.5d,
+	description: "{greedycraft.quest.807834f0.desc}",
+	dependencies: [
+		"74048d38",
+		"0a299e8c"
+	],
+	tasks: [{
+		uid: "bc903fc8",
+		type: "item",
+		items: [{
+			item: "thaumadditions:mithrillium_smelter"
+		}]
+	}],
+	rewards: [{
+		uid: "fe6439a4",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "7c7fee99",
+		type: "xp",
+		xp: 7500
+	},
+	{
+		uid: "acacffc2",
+		type: "command",
+		title: "Fix a bug that caused some research to be impossible to complete",
+		auto: "no_toast",
+		command: "/thaumcraft research @p TAR_MITHRILLIUM_SMELTER"
+	}]
+}

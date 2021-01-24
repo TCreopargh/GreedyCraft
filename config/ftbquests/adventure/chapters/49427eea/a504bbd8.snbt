@@ -1,0 +1,32 @@
+{
+	title: "{greedycraft.quest.a504bbd8.title}",
+	x: 21.0d,
+	y: -8.0d,
+	description: "{greedycraft.quest.a504bbd8.desc}",
+	dependencies: [
+		"d9f888c8"
+	],
+	tasks: [{
+		uid: "a40a8568",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_empowerer"
+		}]
+	}],
+	rewards: [{
+		uid: "1975977d",
+		type: "xp",
+		xp: 700
+	},
+	{
+		uid: "c32ebe30",
+		type: "item",
+		item: "actuallyadditions:block_display_stand",
+		count: 3
+	},
+	{
+		uid: "04cf2ec5",
+		type: "loot",
+		table: 1
+	}]
+}

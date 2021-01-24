@@ -1,0 +1,17 @@
+{
+  "cause": {
+    "item": {
+      "item": "additions:greedycraft-death_counter",
+      "damage": "any"
+    },
+    "type": "additions:item_right_click"
+  },
+  "effects": [
+    {
+      "command": "/deathcounter leaderboard all",
+      "command_sender_name": "@p",
+      "hide_feedback": false,
+      "type": "additions:command"
+    }
+  ]
+}

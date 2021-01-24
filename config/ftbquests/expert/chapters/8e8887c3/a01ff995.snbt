@@ -1,0 +1,31 @@
+
+{
+	title: "{greedycraft.quest.a01ff995.title}",
+	icon: "additions:greedycraft-ender_charm",
+	x: 6.0d,
+	y: -2.0d,
+	description: "{greedycraft.quest.a01ff995.desc}",
+	tasks: [{
+		uid: "f3563fa5",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-ender_charm"
+		}]
+	},
+	{
+		uid: "eb7f832b",
+		type: "gamestage",
+		stage: "ender_charm"
+	}],
+	rewards: [{
+		uid: "cc3d1a2f",
+		type: "xp",
+		xp: 1500
+	},
+	{
+		uid: "279bb280",
+		type: "command",
+		auto: "no_toast",
+		command: "/scalinghealth difficulty set 480 @p"
+	}]
+}

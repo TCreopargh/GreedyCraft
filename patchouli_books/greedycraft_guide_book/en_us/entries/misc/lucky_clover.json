@@ -1,0 +1,16 @@
+{
+    "name": "§2Lucky Clover",
+    "icon": "additions:greedycraft-lucky_clover",
+    "category": "patchouli:misc_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(2)Lucky Clover$() is an ingredient for Chance Cubes. It has a small chance to be dropped from punching tall grass."
+        }, 
+		{
+            "type": "crafting",
+			"recipe2": "crafttweaker:auto_gen_1862248730",
+			"recipe": "crafttweaker:auto_gen_-1533033400"
+        }
+    ]
+}

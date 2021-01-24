@@ -1,0 +1,41 @@
+{
+	title: "{greedycraft.quest.3271ff29.title}",
+	x: -6.0d,
+	y: 9.5d,
+	description: "{greedycraft.quest.3271ff29.desc}",
+	tasks: [{
+		uid: "8ab2495b",
+		type: "item",
+		items: [{
+			item: "minecraft:emerald"
+		}]
+	}],
+	rewards: [{
+		uid: "3c562f12",
+		type: "item",
+		item: "minecraft:emerald",
+		count: 3
+	},
+	{
+		uid: "3a6dc0ff",
+		type: "xp",
+		xp: 300
+	},
+	{
+		uid: "5a48615d",
+		type: "item",
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:villager"
+				}
+			}
+		}
+	},
+	{
+		uid: "28267317",
+		type: "loot",
+		table: 0
+	}]
+}

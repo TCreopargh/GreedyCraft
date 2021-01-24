@@ -1,0 +1,24 @@
+
+{
+	title: "{greedycraft.quest.0b3f372c.title}",
+	x: 8.0d,
+	y: 13.5d,
+	description: "{greedycraft.quest.0b3f372c.desc}",
+	tasks: [{
+		uid: "55d226d6",
+		type: "item",
+		items: [{
+			item: "sakura:bamboo"
+		}]
+	}],
+	rewards: [{
+		uid: "c185bab9",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "cd6e6e4d",
+		type: "xp",
+		xp: 200
+	}]
+}

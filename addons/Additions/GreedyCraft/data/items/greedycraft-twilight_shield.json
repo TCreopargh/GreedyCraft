@@ -1,0 +1,9 @@
+{
+  "name": "§bTwilight Shield",
+  "shines": true,
+  "tooltip": [
+    "§6Can resist the heat from hell.",
+    "§eRight click to unlock game stage: §6twilight_shield"
+  ],
+  "type": "additions:simple"
+}

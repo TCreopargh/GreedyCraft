@@ -1,0 +1,22 @@
+{
+  "item_block": {
+    "name": "§eBlock of Titanium",
+    "ore_dict": "blockTitanium",
+    "type": "additions:block_simple"
+  },
+  "name": "§eBlock of Titanium",
+  "material": "minecraft:metal",
+  "place_sound": "minecraft:block.metal.place",
+  "break_sound": "minecraft:block.metal.break",
+  "hit_sound": "chisel:metal_hit",
+  "step_sound": "minecraft:block.metal.step",
+  "fall_sound": "minecraft:block.metal.fall",
+  "map_color": "minecraft:light_gray",
+  "hardness": 45.0,
+  "resistance": 4000.0,
+  "harvest_level": 10,
+  "harvest_tool": "pickaxe",
+  "light_level": 5,
+  "is_beacon_base": true,
+  "type": "additions:simple"
+}

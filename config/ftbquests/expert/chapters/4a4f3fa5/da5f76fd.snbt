@@ -1,0 +1,30 @@
+
+{
+	title: "{greedycraft.quest.da5f76fd.title}",
+	x: -15.5d,
+	y: 0.0d,
+	description: "{greedycraft.quest.da5f76fd.desc}",
+	tasks: [{
+		uid: "6993bd4a",
+		type: "item",
+		items: [{
+			item: "botania:altar"
+		}]
+	}],
+	rewards: [{
+		uid: "df53953b",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "e7724a2b",
+		type: "item",
+		item: "botania:fertilizer",
+		count: 16
+	},
+	{
+		uid: "bd912846",
+		type: "loot",
+		table: 0
+	}]
+}

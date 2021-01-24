@@ -1,0 +1,40 @@
+{
+	title: "{greedycraft.quest.18313de2.title}",
+	x: 9.0d,
+	y: -2.0d,
+	description: "{greedycraft.quest.18313de2.desc}",
+	dependencies: [
+		"9d817781"
+	],
+	tasks: [{
+		uid: "c1aaba3d",
+		type: "item",
+		items: [{
+			id: "bloodmagic:soul_gem",
+			tag: {},
+			Damage: 2s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e3a89716",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "42770c22",
+		type: "xp",
+		xp: 1600
+	},
+	{
+		uid: "508a73d2",
+		type: "item",
+		item: {
+			id: "bloodmagic:soul_gem",
+			tag: {
+				souls: 256.0d
+			},
+			Damage: 1s
+		}
+	}]
+}

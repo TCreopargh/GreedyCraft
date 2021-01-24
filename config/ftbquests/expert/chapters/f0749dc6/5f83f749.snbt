@@ -1,0 +1,67 @@
+
+{
+	title: "{greedycraft.quest.5f83f749.title}",
+	icon: {
+		id: "minecraft:iron_chestplate"
+	},
+	x: 2.0d,
+	y: 1.0d,
+	description: "{greedycraft.quest.5f83f749.desc}",
+	dependencies: [
+		"ce837387"
+	],
+	tasks: [{
+		uid: "2981a84b",
+		type: "stat",
+		icon: {
+			id: "minecraft:iron_chestplate"
+		},
+		stat: "stat.damageTaken",
+		value: 250000
+	}],
+	rewards: [{
+		uid: "7e128f0e",
+		type: "xp",
+		xp: 5000
+	},
+	{
+		uid: "ec7101de",
+		type: "item",
+		item: {
+			id: "bountifulbaubles:amuletsinpride"
+		}
+	},
+	{
+		uid: "eea5925e",
+		type: "item",
+		item: {
+			id: "bountifulbaubles:amuletsinwrath"
+		}
+	},
+	{
+		uid: "153e686d",
+		type: "item",
+		item: {
+			id: "bountifulbaubles:amuletsinempty"
+		}
+	},
+	{
+		uid: "d4a2166d",
+		type: "item",
+		item: {
+			id: "bountifulbaubles:amuletsingluttony"
+		}
+	},
+	{
+		uid: "e39479a5",
+		type: "item",
+		item: {
+			id: "minecraft:totem_of_undying"
+		}
+	},
+	{
+		uid: "ade5326c",
+		type: "loot",
+		table: 1
+	}]
+}

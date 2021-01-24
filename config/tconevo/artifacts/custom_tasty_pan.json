@@ -1,0 +1,11 @@
+{
+  "weight": 250,
+  "type": "tconevo:tool",
+  "name": "Foodie's pan",
+  "lore": "Hope you don't eat this when using this to cook.",
+  "tool": "frypan",
+  "materials": [
+    "pigiron",
+    "chocolate"
+  ]
+}

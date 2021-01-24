@@ -1,0 +1,48 @@
+
+{
+	title: "{greedycraft.quest.f5793669.title}",
+	icon: "minecraft:compass",
+	x: -2.0d,
+	y: 1.5d,
+	description: "{greedycraft.quest.f5793669.desc}",
+	tasks: [{
+		uid: "b156f9a8",
+		type: "location",
+		location: [I;
+			0,
+			0,
+			0,
+			0,
+			2,
+			255,
+			2
+		]
+	}],
+	rewards: [{
+		uid: "f29c014a",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "9c72b1e3",
+		type: "item",
+		item: "waystones:waystone"
+	},
+	{
+		uid: "dc15457f",
+		type: "item",
+		item: "waystones:warp_scroll",
+		count: 5
+	},
+	{
+		uid: "b14cdf8a",
+		type: "item",
+		item: "minecraft:ender_pearl",
+		count: 16
+	},
+	{
+		uid: "fb085885",
+		type: "loot",
+		table: 0
+	}]
+}

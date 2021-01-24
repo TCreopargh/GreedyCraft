@@ -1,0 +1,35 @@
+
+{
+	title: "{greedycraft.quest.331dd91f.title}",
+	x: 8.0d,
+	y: -0.5d,
+	description: "{greedycraft.quest.331dd91f.desc}",
+	tasks: [{
+		uid: "1799beb4",
+		type: "item",
+		items: [{
+			id: "mca:baby_boy"
+		},
+		{
+			id: "mca:baby_girl"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "83e82d85",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "881d63e3",
+		type: "item",
+		item: "minecraft:emerald",
+		count: 9
+	},
+	{
+		uid: "43bc195d",
+		type: "loot",
+		table: 1
+	}]
+}

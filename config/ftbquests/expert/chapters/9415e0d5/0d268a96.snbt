@@ -1,0 +1,48 @@
+
+{
+	title: "{greedycraft.quest.0d268a96.title}",
+	x: 0.0d,
+	y: 3.5d,
+	description: "{greedycraft.quest.0d268a96.desc}",
+	tasks: [{
+		uid: "09ea78ba",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:crafting 1 38"
+		}]
+	}],
+	rewards: [{
+		uid: "6f04409a",
+		type: "item",
+		item: "mysticalagriculture:crafting 1 38",
+		count: 9
+	},
+	{
+		uid: "9616a084",
+		type: "xp",
+		xp: 600
+	},
+	{
+		uid: "8ab897bd",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "6d92b0a0",
+		type: "item",
+		item: "mysticalagriculture:chunk 1 21",
+		count: 4
+	},
+	{
+		uid: "537a74e6",
+		type: "item",
+		item: "mysticalagriculture:chunk 1 20",
+		count: 4
+	},
+	{
+		uid: "4fe8a717",
+		type: "item",
+		item: "mysticalagriculture:chunk 1 18",
+		count: 4
+	}]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "§dPurifying Pill",
+  "shines": true,
+  "tooltip": [
+    "§eThe best mental medicine.",
+    "§dCleans all warp when used."
+  ],
+  "type": "additions:simple"
+}

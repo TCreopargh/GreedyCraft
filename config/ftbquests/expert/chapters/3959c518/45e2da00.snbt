@@ -1,0 +1,17 @@
+
+{
+	x: -1.5d,
+	y: 2.0d,
+	tasks: [{
+		uid: "f1f97836",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-creative_soul"
+		}]
+	}],
+	rewards: [{
+		uid: "0325693c",
+		type: "loot",
+		table: 3
+	}]
+}

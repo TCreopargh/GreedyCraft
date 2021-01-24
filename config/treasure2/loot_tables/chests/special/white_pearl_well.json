@@ -1,0 +1,102 @@
+{
+	"version": "1.0",
+	"category":"general",
+	"rarity": "rare",
+	"pools": [
+		{
+			"name": "treasure",
+			"rolls": {
+				"min": 2,
+				"max": 3
+			},
+			"entries": [
+                {
+                    "type": "loot_table",
+                    "name": "treasure2:pools/treasure/rare",
+                    "weight": 1
+                }
+			]
+		},
+		{
+			"name": "charms",
+			"rolls": 1,
+			"entries": [
+                {
+                    "type": "loot_table",
+                    "name": "treasure2:pools/treasure/rare_charms",
+                    "weight": 1
+                }
+			]
+		},
+		{
+			"name": "items",
+			"rolls": {
+				"min": 2,
+				"max": 3
+			},
+			"entries": [
+                {
+                    "type": "loot_table",
+                    "name": "treasure2:pools/items/rare",
+                    "weight": 1
+                }
+			]
+		},
+		{
+			"name": "armor",
+			"rolls": {
+				"min": 1,
+				"max": 2
+			},
+			"entries": [
+	                {
+                    "type": "loot_table",
+                    "name": "treasure2:pools/armor/rare",
+                    "weight": 1
+                }
+			]
+		},
+		{
+			"name": "food",
+			"rolls": {
+				"min": 1,
+				"max": 2
+			},
+			"entries": [
+	                {
+                    "type": "loot_table",
+                    "name": "treasure2:pools/food/rare",
+                    "weight": 1
+                }
+			]
+		},
+		{
+			"name": "tools",
+			"rolls": {
+				"min": 1,
+				"max": 2
+			},
+			"entries": [
+	            {
+                    "type": "loot_table",
+                    "name": "treasure2:pools/tools/rare",
+                    "weight": 1
+                }
+			]
+		},
+		{
+			"name": "potions",
+			"rolls": {
+				"min": 1,
+				"max": 2
+			},
+			"entries": [
+		            {
+                    "type": "loot_table",
+                    "name": "treasure2:pools/potions/rare",
+                    "weight": 1
+                }
+			]
+		}
+	]
+}

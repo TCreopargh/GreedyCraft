@@ -1,0 +1,30 @@
+
+{
+	title: "{greedycraft.quest.996344a7.title}",
+	x: 2.5d,
+	y: 4.5d,
+	description: "{greedycraft.quest.996344a7.desc}",
+	text: [
+		"To unlock this research, try to get hit by consequences of a failed infusion."
+	],
+	dependencies: [
+		"5ac3d548"
+	],
+	tasks: [{
+		uid: "355ed33d",
+		type: "item",
+		items: [{
+			item: "thaumcraft:stabilizer"
+		}]
+	}],
+	rewards: [{
+		uid: "b94f193c",
+		type: "xp",
+		xp: 2500
+	},
+	{
+		uid: "4c043c86",
+		type: "loot",
+		table: 1
+	}]
+}

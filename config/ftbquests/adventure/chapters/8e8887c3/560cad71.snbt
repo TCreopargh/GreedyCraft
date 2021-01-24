@@ -1,0 +1,22 @@
+{
+	title: "{greedycraft.quest.560cad71.title}",
+	x: -8.0d,
+	y: -1.0d,
+	shape: "rsquare",
+	description: "{greedycraft.quest.560cad71.desc}",
+	dependencies: [
+		"286f21d3"
+	],
+	tasks: [{
+		uid: "81387b75",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-plant_fibre"
+		}]
+	}],
+	rewards: [{
+		uid: "b3796d8b",
+		type: "xp",
+		xp: 15
+	}]
+}

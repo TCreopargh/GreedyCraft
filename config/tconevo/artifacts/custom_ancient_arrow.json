@@ -1,0 +1,12 @@
+{
+    "weight": 100,
+    "type": "tconevo:tool",
+    "name": "Slimey Sword",
+    "lore": "It's said to be once wielded by the Slime Knight Leader in Slime Kingdom.",
+    "tool": "broadsword",
+    "materials": [
+        "magmaslime",
+        "knightslime",
+        "blueslime"
+    ]
+}

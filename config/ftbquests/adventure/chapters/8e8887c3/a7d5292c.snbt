@@ -1,0 +1,33 @@
+{
+	title: "{greedycraft.quest.a7d5292c.title}",
+	x: 16.0d,
+	y: -4.0d,
+	shape: "octagon",
+	description: "{greedycraft.quest.a7d5292c.desc}",
+	dependencies: [
+		"1ed225b4"
+	],
+	tasks: [{
+		uid: "07815eed",
+		type: "item",
+		items: [{
+			item: "avaritia:neutron_collector"
+		}]
+	}],
+	rewards: [{
+		uid: "1614b52d",
+		type: "item",
+		item: "avaritia:resource 1 4",
+		count: 2
+	},
+	{
+		uid: "957c01fd",
+		type: "xp",
+		xp: 40000
+	},
+	{
+		uid: "b662e986",
+		type: "loot",
+		table: 2
+	}]
+}

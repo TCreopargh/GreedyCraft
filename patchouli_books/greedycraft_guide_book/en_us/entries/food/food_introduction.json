@@ -1,0 +1,25 @@
+{
+    "name": "§2§nFood Introduction",
+    "icon": "minecraft:bread",
+    "category": "patchouli:food_category",
+    "priority": "true",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(3)This modpack made a lot of changes to the food and hunger system: $()$(br)Eating different kinds of food increases your §cHealth§r. Hover your mouse over a food to see if it has been eaten yet. To get more health you should try every food, $(7)including rotten flesh or similiar food that doesn't look very edible$()."
+        },
+        {
+            "type": "text",
+            "text": "The lower your hunger is, the slower it is consumed.$(br)Getting hungry will deal 2 damage every second and it increases with difficulty.$(br)The first time you eat a kind of food in a while will serve additional hunger values. But $(4)if you eat one kind of food repeatedly, it will serve decreasingly low hunger valuse$(), and it takes more time to eat it. The length of your food history is $(3)32$(), which means you need to eat 32 different food before a food's hunger value is reset."
+        },
+        {
+            "type": "text",
+            "text": "For easy food storage and consumption, you should make a $(l:food/food_introduction#lunchbox)§9§nLunch Box§r$(/l). After opening it, use it to randomly eat a food inside."
+        },
+        {
+            "type": "crafting",
+            "anchor": "lunchbox",
+            "recipe": "spiceoflife:lunchbox"
+        }
+    ]
+}

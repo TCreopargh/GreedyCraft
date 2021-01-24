@@ -1,0 +1,36 @@
+{
+	title: "{greedycraft.quest.f5ae3781.title}",
+	x: -4.0d,
+	y: -0.5d,
+	description: "{greedycraft.quest.f5ae3781.desc}",
+	tasks: [{
+		uid: "24b6d156",
+		type: "kill",
+		entity: "battletowers:golem",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "ea2f3639",
+		type: "item",
+		item: {
+			id: "lootbags:itemlootbag",
+			Damage: 4s
+		},
+		count: 3
+	},
+	{
+		uid: "3c24d3f7",
+		type: "xp",
+		xp: 250
+	},
+	{
+		uid: "84eb4974",
+		type: "item",
+		item: "lootbags:loot_opener"
+	},
+	{
+		uid: "e4957d61",
+		type: "loot",
+		table: 0
+	}]
+}

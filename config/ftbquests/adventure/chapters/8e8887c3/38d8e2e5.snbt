@@ -1,0 +1,35 @@
+{
+	title: "{greedycraft.quest.38d8e2e5.title}",
+	x: 2.0d,
+	y: 4.0d,
+	shape: "pentagon",
+	description: "{greedycraft.quest.38d8e2e5.desc}",
+	dependencies: [
+		"1deec501"
+	],
+	tasks: [{
+		uid: "0cc4a376",
+		type: "item",
+		items: [{
+			id: "projecte:item.pe_transmutation_tablet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ab819e96",
+		type: "xp",
+		xp: 80000
+	},
+	{
+		uid: "a4868ee3",
+		type: "loot",
+		table: 3
+	},
+	{
+		uid: "859e34d5",
+		type: "item",
+		item: "projectex:matter 1 3",
+		count: 2
+	}]
+}

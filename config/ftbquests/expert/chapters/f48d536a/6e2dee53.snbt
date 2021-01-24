@@ -1,0 +1,29 @@
+
+{
+	title: "{greedycraft.quest.6e2dee53.title}",
+	x: 25.5d,
+	y: 0.0d,
+	description: "{greedycraft.quest.6e2dee53.desc}",
+	dependencies: [
+		"fd0167a2"
+	],
+	tasks: [{
+		uid: "cd5fcdf5",
+		type: "item",
+		items: [{
+			id: "abyssalcraft:soulreaper"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e44b6f90",
+		type: "xp",
+		xp: 40000
+	},
+	{
+		uid: "591c257f",
+		type: "loot",
+		table: 3
+	}]
+}

@@ -1,0 +1,44 @@
+
+{
+	title: "{greedycraft.quest.7e366dae.title}",
+	icon: {
+		id: "minecraft:diamond_sword"
+	},
+	x: -3.0d,
+	y: 5.0d,
+	description: "{greedycraft.quest.7e366dae.desc}",
+	dependencies: [
+		"f765885b"
+	],
+	tasks: [{
+		uid: "309adc73",
+		type: "stat",
+		stat: "stat.mobKills",
+		value: 50000
+	}],
+	rewards: [{
+		uid: "4a944718",
+		type: "item",
+		item: "tinymobfarm:ultimate_farm"
+	},
+	{
+		uid: "caab3661",
+		type: "xp",
+		xp: 100000
+	},
+	{
+		uid: "475795a9",
+		type: "item",
+		item: "tconstruct:materials 1 50"
+	},
+	{
+		uid: "0e1c6457",
+		type: "item",
+		item: "additions:greedycraft-ordinary_medal"
+	},
+	{
+		uid: "226f7401",
+		type: "loot",
+		table: 3
+	}]
+}

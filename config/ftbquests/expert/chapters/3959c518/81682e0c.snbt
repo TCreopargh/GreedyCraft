@@ -1,0 +1,17 @@
+
+{
+	x: 4.0d,
+	y: 3.5d,
+	tasks: [{
+		uid: "fd32bea8",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-wither_soul"
+		}]
+	}],
+	rewards: [{
+		uid: "e4e6d59f",
+		type: "loot",
+		table: 3
+	}]
+}

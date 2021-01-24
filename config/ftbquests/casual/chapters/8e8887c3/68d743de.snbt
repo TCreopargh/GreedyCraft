@@ -1,0 +1,51 @@
+
+{
+	title: "{greedycraft.quest.68d743de.title}",
+	x: 0.0d,
+	y: -6.0d,
+	shape: "diamond",
+	description: "{greedycraft.quest.68d743de.desc}",
+	dependencies: [
+		"6b08fde1"
+	],
+	tasks: [{
+		uid: "ab2d3e68",
+		type: "item",
+		items: [{
+			item: "simplesmelteryaccelerator:smeltery_accelerator"
+		}]
+	}],
+	rewards: [{
+		uid: "dbbc16b3",
+		type: "item",
+		item: "tconstruct:cast",
+		count: 8
+	},
+	{
+		uid: "4ef5ccdb",
+		type: "xp",
+		xp: 4000
+	},
+	{
+		uid: "0f18a314",
+		type: "item",
+		item: "tconevo:material 1 2"
+	},
+	{
+		uid: "60dbd9ba",
+		type: "item",
+		item: "tconstruct:materials 1 14",
+		count: 16
+	},
+	{
+		uid: "abcd6f0a",
+		type: "item",
+		item: "conarm:resist_mat",
+		count: 16
+	},
+	{
+		uid: "760b1cd2",
+		type: "loot",
+		table: 1
+	}]
+}

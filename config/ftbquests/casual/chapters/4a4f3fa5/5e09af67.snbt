@@ -1,0 +1,39 @@
+
+{
+	title: "{greedycraft.quest.5e09af67.title}",
+	x: 3.0d,
+	y: -6.0d,
+	description: "{greedycraft.quest.5e09af67.desc}",
+	dependencies: [
+		"5a62f505"
+	],
+	tasks: [{
+		uid: "938e6ccd",
+		type: "item",
+		items: [{
+			item: "extrabotany:manabarrel"
+		}]
+	}],
+	rewards: [{
+		uid: "b4cb0857",
+		type: "item",
+		item: "botania:blacklotus",
+		count: 32
+	},
+	{
+		uid: "f67dc688",
+		type: "item",
+		item: "botania:pool",
+		count: 20
+	},
+	{
+		uid: "65562fc4",
+		type: "xp",
+		xp: 2500
+	},
+	{
+		uid: "45e77ae3",
+		type: "loot",
+		table: 2
+	}]
+}

@@ -1,0 +1,33 @@
+
+{
+	title: "{greedycraft.quest.019a77ed.title}",
+	x: 1.5d,
+	y: 2.0d,
+	description: "{greedycraft.quest.019a77ed.desc}",
+	dependencies: [
+		"5cc3003c"
+	],
+	tasks: [{
+		uid: "e85b17bc",
+		type: "item",
+		items: [{
+			item: "astralsorcery:itemcraftingcomponent 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "f7fc337b",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "2a962b52",
+		type: "xp",
+		xp: 1200
+	},
+	{
+		uid: "14cfff7a",
+		type: "item",
+		item: "astralsorcery:itemcraftingcomponent 1 1",
+		count: 5
+	}]
+}

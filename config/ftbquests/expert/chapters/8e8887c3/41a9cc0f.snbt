@@ -1,0 +1,35 @@
+
+{
+	title: "{greedycraft.quest.41a9cc0f.title}",
+	icon: {
+		id: "abyssalcraft:eoa"
+	},
+	x: 8.0d,
+	y: -6.0d,
+	description: "{greedycraft.quest.41a9cc0f.desc}",
+	tasks: [{
+		uid: "9cca1a83",
+		type: "item",
+		items: [{
+			id: "abyssalcraft:eoa"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0d6e8b28",
+		type: "gamestage",
+		stage: "abyssal_conquerer"
+	}],
+	rewards: [{
+		uid: "45510853",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "6cb2a4a1",
+		type: "command",
+		auto: "no_toast",
+		command: "/scalinghealth difficulty set 225 @p"
+	}]
+}

@@ -1,0 +1,33 @@
+{
+	title: "{greedycraft.quest.14e36bb3.title}",
+	x: 8.0d,
+	y: 2.0d,
+	description: "{greedycraft.quest.14e36bb3.desc}",
+	dependencies: [
+		"41c2ec3d",
+		"5e88a11f"
+	],
+	tasks: [{
+		uid: "c22bdf4b",
+		type: "item",
+		items: [{
+			item: "tconevo:metal"
+		}]
+	}],
+	rewards: [{
+		uid: "e283f9e4",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "37f28c8c",
+		type: "item",
+		item: "draconicevolution:wyvern_core",
+		count: 8
+	},
+	{
+		uid: "3881b205",
+		type: "xp",
+		xp: 4000
+	}]
+}

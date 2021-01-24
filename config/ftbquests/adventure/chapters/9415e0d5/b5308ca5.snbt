@@ -1,0 +1,63 @@
+{
+	title: "{greedycraft.quest.b5308ca5.title}",
+	x: -10.0d,
+	y: -0.5d,
+	description: "{greedycraft.quest.b5308ca5.desc}",
+	tasks: [{
+		uid: "29a47cea",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:cooking_table"
+		}]
+	}],
+	rewards: [{
+		uid: "20eac7b2",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "bd25cc54",
+		type: "item",
+		item: "minecraft:apple",
+		count: 16
+	},
+	{
+		uid: "0ce0fb35",
+		type: "item",
+		item: "cookingforblockheads:fridge",
+		count: 2
+	},
+	{
+		uid: "943898be",
+		type: "item",
+		item: "cookingforblockheads:sink"
+	},
+	{
+		uid: "ce436b90",
+		type: "item",
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:cow"
+				}
+			}
+		}
+	},
+	{
+		uid: "2ded6f35",
+		type: "item",
+		item: "cookingforblockheads:tool_rack",
+		count: 10
+	},
+	{
+		uid: "5dc13872",
+		type: "item",
+		item: "cookingforblockheads:milk_jar"
+	},
+	{
+		uid: "07ce464d",
+		type: "loot",
+		table: 0
+	}]
+}

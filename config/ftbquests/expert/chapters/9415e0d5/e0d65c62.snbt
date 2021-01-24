@@ -1,0 +1,31 @@
+
+{
+	title: "{greedycraft.quest.e0d65c62.title}",
+	x: 4.0d,
+	y: 11.5d,
+	description: "{greedycraft.quest.e0d65c62.desc}",
+	tasks: [{
+		uid: "607116a4",
+		type: "observation",
+		title: "Observe a bounty board",
+		icon: "bountiful:bountyboarditem",
+		match_type: "block_id",
+		match: "bountiful:bountyboard",
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "4a1458c0",
+		type: "xp",
+		xp: 200
+	},
+	{
+		uid: "8a62e461",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "5af6bd36",
+		type: "item",
+		item: "bountiful:bountyboarditem"
+	}]
+}

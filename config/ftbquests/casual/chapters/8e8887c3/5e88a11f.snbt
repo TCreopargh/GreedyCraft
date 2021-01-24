@@ -1,0 +1,40 @@
+
+{
+	title: "{greedycraft.quest.5e88a11f.title}",
+	x: 6.0d,
+	y: 2.0d,
+	shape: "square",
+	description: "{greedycraft.quest.5e88a11f.desc}",
+	dependencies: [
+		"f96bc0f5"
+	],
+	tasks: [{
+		uid: "50edf5cf",
+		type: "item",
+		items: [{
+			item: "draconicevolution:wyvern_core"
+		}]
+	}],
+	rewards: [{
+		uid: "ee3e98fb",
+		type: "xp",
+		xp: 3600
+	},
+	{
+		uid: "8b8f6408",
+		type: "item",
+		item: "draconicevolution:wyvern_core",
+		count: 2
+	},
+	{
+		uid: "1bf6b9c6",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "568106dc",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "wyvern"
+	}]
+}

@@ -1,0 +1,13 @@
+{
+  "weight": 240,
+  "type": "tconevo:tool",
+  "name": "Madd's Wand",
+  "lore": "Once wielded by Madd the Archmage.",
+  "tool": "tconevo.sceptre",
+  "materials": [
+    "diamantine_crystal",
+    "thaumium",
+    "fluix",
+    "amber"
+  ]
+}

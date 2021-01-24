@@ -1,0 +1,26 @@
+{
+	title: "{greedycraft.quest.8e56d48a.title}",
+	x: 6.5d,
+	y: -2.5d,
+	description: "{greedycraft.quest.8e56d48a.desc}",
+	dependencies: [
+		"99f6417a"
+	],
+	tasks: [{
+		uid: "d65dc3cc",
+		type: "item",
+		items: [{
+			item: "forestry:bottler"
+		}]
+	}],
+	rewards: [{
+		uid: "0fece55f",
+		type: "xp",
+		xp: 250
+	},
+	{
+		uid: "36ba93d8",
+		type: "loot",
+		table: 0
+	}]
+}

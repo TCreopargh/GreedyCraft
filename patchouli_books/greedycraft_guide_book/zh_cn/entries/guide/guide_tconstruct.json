@@ -1,0 +1,25 @@
+{
+    "name": "§6匠魂指南",
+    "icon": "tconstruct:book",
+    "category": "patchouli:guide_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(2)匠魂$()是本整合包的核心玩法之一，整合包同时也含有大量的自定义材质和匠魂特性。为了发展匠魂，请先合成一个$(2)空白模具$()，然后任务就会赠送大量的匠魂相关物品。匠魂的入门教程和冶炼炉的搭建方法等请参见百科全书中的$(9)匠魂宝典$()，在此不再赘述。"
+        },
+		{
+			"type": "crafting",
+			"recipe": "tconstruct:tools/pattern"
+		},
+		{
+            "type": "text",
+			"text": "$(c)$(l)注意事项$()$(br2)$(li)匠魂的焦黑砖和高炉砖的配方均有修改，请勿尝试原版的方法或制作水泥。$(li)请使用$(9)磨制工具$()和$(2)抛光工具$()来分别修理工具和盔甲，请勿使用金属锭直接修复。$(li)钢锭只能通过用高炉炼钢取得，具体方法请在JEI中查询熔融钢。$(li)如果工具合成时提示“Further progression is needed，表明你现在缺少制作这把武器所需的进度，一些武器类型只有使用了对应的蓝图才会解锁，请在JEI中搜索蓝图。"
+		},
+        {
+			"type": "smelting",
+			"recipe": "minecraft:brick",
+			"recipe2": "tconstruct:materials",
+            "text": "新的焦黑砖和高炉砖配方。"
+		}
+    ]
+}

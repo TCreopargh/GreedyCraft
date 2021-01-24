@@ -1,0 +1,682 @@
+{
+    "registryname": "cosmic_forge",
+    "localizedname": "Cosmic Forge",
+    "color": "424242",
+    "modifiers": [
+        {
+            "elements": "modularmachinery:blockcasing@1",
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "description": "Replace the block right under the controller into any of the machine upgraders to boost machine speed!",
+            "modifier": {
+                "io": "output",
+                "target": "duration",
+                "operation": 1,
+                "multiplier": 0.75
+            }
+        },
+        {
+            "elements": "modularmachinery:blockcasing@2",
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "description": "Replace the block right under the controller into any of the machine upgraders to boost machine speed!",
+            "modifier": {
+                "io": "output",
+                "target": "duration",
+                "operation": 1,
+                "multiplier": 0.66
+            }
+        },
+        {
+            "elements": "modularmachinery:blockcasing@3",
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "description": "Replace the block right under the controller into any of the machine upgraders to boost machine speed!",
+            "modifier": {
+                "io": "output",
+                "target": "duration",
+                "operation": 1,
+                "multiplier": 0.5
+            }
+        },
+        {
+            "elements": "modularmachinery:blockcasing@5",
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "description": "Replace the block right under the controller into any of the machine upgraders to boost machine speed!",
+            "modifier": {
+                "io": "output",
+                "target": "duration",
+                "operation": 1,
+                "multiplier": 0.33
+            }
+        }
+    ],
+    "parts": [{
+            "x": -2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "additions:greedycraft-chromasteel_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "additions:greedycraft-infernium_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": "casings_all"
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "additions:greedycraft-infernium_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "draconicevolution:infused_obsidian"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": "casings_all"
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "additions:greedycraft-infernium_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "draconicevolution:infused_obsidian"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 4,
+            "elements": "casings_all"
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "additions:greedycraft-chromasteel_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "additions:greedycraft-chromasteel_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 4,
+            "elements": "casings_all"
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "draconicevolution:infused_obsidian"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 0,
+            "elements": ["modularmachinery:blockcasing@4"]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": ["modularmachinery:blockcasing@4"]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "draconicevolution:infused_obsidian"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "draconicevolution:infused_obsidian"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "draconicevolution:infused_obsidian"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 0,
+            "elements": ["modularmachinery:blockcasing@4"]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "draconicevolution:infused_obsidian"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 1,
+            "elements": ["modularmachinery:blockcasing@4"]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "draconicevolution:infused_obsidian"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "draconicevolution:infused_obsidian"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "tconevo:metal_block@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 1,
+            "elements": ["modularmachinery:blockcasing@4"]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 1,
+            "elements": ["modularmachinery:blockcasing@4"]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 3,
+            "elements": ["modularmachinery:blockcasing@4"]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "draconicevolution:infused_obsidian"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "draconicevolution:infused_obsidian"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "draconicevolution:infused_obsidian"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "draconicevolution:infused_obsidian"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 1,
+            "elements": ["modularmachinery:blockcasing@4"]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 3,
+            "elements": ["modularmachinery:blockcasing@4"]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 3,
+            "elements": ["modularmachinery:blockcasing@4"]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "draconicevolution:infused_obsidian"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 1,
+            "elements": ["modularmachinery:blockcasing@4"]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 3,
+            "elements": ["modularmachinery:blockcasing@4"]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 3,
+            "elements": ["modularmachinery:blockcasing@4"]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "additions:greedycraft-titanium_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "draconicevolution:infused_obsidian"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "additions:greedycraft-titanium_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "additions:greedycraft-titanium_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 0,
+            "elements": "iron_bars"
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 2,
+            "elements": "iron_bars"
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "additions:greedycraft-titanium_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 1,
+            "elements": "casings_all"
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "additions:greedycraft-titanium_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "draconicevolution:infused_obsidian"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "additions:greedycraft-titanium_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "additions:greedycraft-infernium_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 3,
+            "elements": "casings_all"
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "draconicevolution:infused_obsidian"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 4,
+            "elements": "iron_bars"
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 2,
+            "elements": "iron_bars"
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "additions:greedycraft-infernium_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "additions:greedycraft-infernium_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 1,
+            "elements": "casings_all"
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "draconicevolution:infused_obsidian"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "additions:greedycraft-infernium_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 3,
+            "elements": "casings_all"
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "draconicevolution:infused_obsidian"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "draconicevolution:draconic_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "draconicevolution:draconic_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "draconicevolution:infused_obsidian"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "draconicevolution:infused_obsidian"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "draconicevolution:infused_obsidian"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "draconicevolution:infused_obsidian"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 2,
+            "elements": ["modularmachinery:blockcasing@4"]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "draconicevolution:draconic_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "draconicevolution:draconic_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "draconicevolution:infused_obsidian"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "draconicevolution:infused_obsidian"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 2,
+            "elements": ["modularmachinery:blockcasing@4"]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 2,
+            "elements": ["modularmachinery:blockcasing@4"]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "draconicevolution:infused_obsidian"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 2,
+            "elements": ["modularmachinery:blockcasing@4"]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 4,
+            "elements": ["modularmachinery:blockcasing@4"]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 4,
+            "elements": ["modularmachinery:blockcasing@4"]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 2,
+            "elements": ["modularmachinery:blockcasing@4"]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 4,
+            "elements": ["modularmachinery:blockcasing@4"]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "draconicevolution:infused_obsidian"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "additions:greedycraft-titanium_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "additions:greedycraft-infernium_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "additions:greedycraft-cryonium_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "additions:greedycraft-titanium_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "draconicevolution:infused_obsidian"
+            ]
+        }
+    ]
+}

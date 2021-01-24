@@ -1,0 +1,67 @@
+
+{
+	title: "{greedycraft.quest.9d0b6a75.title}",
+	icon: "minecraft:skull 1 5",
+	x: 10.0d,
+	y: -2.0d,
+	shape: "rsquare",
+	description: "{greedycraft.quest.9d0b6a75.desc}",
+	text: [
+		""
+	],
+	dependencies: [
+		"a357fcd1",
+		"69d23675"
+	],
+	tasks: [{
+		uid: "74ffe1a5",
+		type: "kill",
+		entity: "minecraft:ender_dragon",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "53cc7ffa",
+		type: "item",
+		item: "minecraft:dragon_egg"
+	},
+	{
+		uid: "c4ec70ed",
+		type: "item",
+		item: "minecraft:dragon_breath",
+		count: 32
+	},
+	{
+		uid: "8f949d78",
+		type: "item",
+		item: "draconicevolution:draconium_ingot",
+		count: 64
+	},
+	{
+		uid: "59fe435a",
+		type: "xp",
+		xp: 10000
+	},
+	{
+		uid: "bc57a5dc",
+		type: "command",
+		title: "§5A notification",
+		auto: "enabled",
+		command: "/tellraw @p {\"text\":\"§5§oThe evil spirit within the ancient dragon has been unleashed.\"}"
+	},
+	{
+		uid: "ad8ae4f4",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "b522b1e6",
+		type: "item",
+		item: "additions:tcsponsors-sponsors_chest"
+	},
+	{
+		uid: "f18afc71",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "hardmode"
+	}]
+}

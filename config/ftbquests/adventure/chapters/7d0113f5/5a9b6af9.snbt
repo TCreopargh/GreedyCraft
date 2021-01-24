@@ -1,0 +1,35 @@
+{
+	title: "{greedycraft.quest.5a9b6af9.title}",
+	x: 4.5d,
+	y: -0.5d,
+	description: "{greedycraft.quest.5a9b6af9.desc}",
+	text: [
+		"To begin research on Eldritch, scan one of the Crimson Cultists."
+	],
+	dependencies: [
+		"087117dd"
+	],
+	tasks: [{
+		uid: "665349fd",
+		type: "item",
+		items: [{
+			item: "thaumcraft:ingot 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "2140bf66",
+		type: "item",
+		item: "thaumcraft:ingot 1 1",
+		count: 5
+	},
+	{
+		uid: "b392306a",
+		type: "xp",
+		xp: 6000
+	},
+	{
+		uid: "f22de838",
+		type: "loot",
+		table: 2
+	}]
+}

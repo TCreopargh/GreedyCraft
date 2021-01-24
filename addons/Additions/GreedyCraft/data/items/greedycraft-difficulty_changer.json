@@ -1,0 +1,9 @@
+{
+  "name": "§bDifficulty Changer",
+  "tooltip": [
+    "§eLeft click to lower difficulty and right click to raise difficulty.",
+    "§a§oDoes not consume"
+  ],
+  "max_stack": 1,
+  "type": "additions:simple"
+}

@@ -1,0 +1,580 @@
+{
+  "name": "§dGreedyCraft",
+  "tab_item": {
+    "item": "additions:greedycraft-passport"
+  },
+  "items": [
+    {
+      "item": "additions:greedycraft-ordinary_medal"
+    },
+    {
+      "item": "additions:greedycraft-pioneer_medal"
+    },
+    {
+      "item": "additions:greedycraft-greedy_medal"
+    },
+    {
+      "item": "additions:greedycraft-item_purger"
+    },
+    {
+      "item": "additions:greedycraft-plant_fibre"
+    },
+    {
+      "item": "additions:greedycraft-grass_string"
+    },
+    {
+      "item": "additions:greedycraft-pebble"
+    },
+    {
+      "item": "additions:greedycraft-crude_hatchet"
+    },
+    {
+      "item": "additions:greedycraft-difficulty_changer"
+    },
+    {
+      "item": "additions:greedycraft-infinity_block_block"
+    },
+    {
+      "item": "additions:greedycraft-infinity_block_block_block"
+    },
+    {
+      "item": "additions:greedycraft-cryonic_artifact"
+    },
+    {
+      "item": "additions:greedycraft-infinity_stone"
+    },
+    {
+      "item": "additions:greedycraft-creative_shard"
+    },
+    {
+      "item": "additions:greedycraft-creative_soul"
+    },
+    {
+      "item": "additions:greedycraft-creative_controller"
+    },
+    {
+      "item": "additions:greedycraft-passport"
+    },
+    {
+      "item": "additions:greedycraft-experience_nugget"
+    },
+    {
+      "item": "additions:greedycraft-experience_ingot"
+    },
+    {
+      "item": "additions:greedycraft-experience_block"
+    },
+    {
+      "item": "additions:greedycraft-compressed_experience_block"
+    },
+    {
+      "item": "additions:greedycraft-experience_ore"
+    },
+    {
+      "item": "additions:greedycraft-cryonium_ore"
+    },
+    {
+      "item": "additions:cryonium_ingot"
+    },
+    {
+      "item": "additions:greedycraft-cryonium_block"
+    },
+    {
+      "item": "additions:greedycraft-asgardium_ore"
+    },
+    {
+      "item": "additions:asgardium_ingot"
+    },
+    {
+      "item": "additions:greedycraft-aeroite_ore"
+    },
+    {
+      "item": "additions:aeroite_ingot"
+    },
+    {
+      "item": "additions:greedycraft-shadowium_ore"
+    },
+    {
+      "item": "additions:shadowium_ingot"
+    },
+    {
+      "item": "additions:greedycraft-ancient_debris"
+    },
+    {
+      "item": "additions:netherite_scrap"
+    },
+    {
+      "item": "additions:netherite_ingot"
+    },
+    {
+      "item": "additions:greedycraft-netherite_block"
+    },
+    {
+      "item": "additions:greedycraft-broken_solarium_star"
+    },
+    {
+      "item": "additions:greedycraft-solar_seed"
+    },
+    {
+      "item": "additions:greedycraft-solarium_star"
+    },
+    {
+      "item": "additions:greedycraft-sun_totem"
+    },
+    {
+      "item": "additions:greedycraft-beast_hand"
+    },
+    {
+      "item": "additions:greedycraft-infernium_nugget"
+    },
+    {
+      "item": "additions:infernium_ingot"
+    },
+    {
+      "item": "additions:greedycraft-infernium_block"
+    },
+    {
+      "item": "additions:greedycraft-infernium_ore"
+    },
+    {
+      "item": "additions:greedycraft-titanium_nugget"
+    },
+    {
+      "item": "additions:titanium_ingot"
+    },
+    {
+      "item": "additions:greedycraft-titanium_block"
+    },
+    {
+      "item": "additions:greedycraft-titanium_ore"
+    },
+    {
+      "item": "additions:cytosinite_ingot"
+    },
+    {
+      "item": "additions:greedycraft-cytosinite_block"
+    },
+    {
+      "item": "additions:greedycraft-cytosinite_ore"
+    },
+    {
+      "item": "additions:terra_alloy_ingot"
+    },
+    {
+      "item": "additions:greedycraft-terra_alloy_block"
+    },
+    {
+      "item": "additions:astral_metal_ingot"
+    },
+    {
+      "item": "additions:greedycraft-astral_metal_block"
+    },
+    {
+      "item": "additions:cosmilite_ingot"
+    },
+    {
+      "item": "additions:greedycraft-cosmilite_block"
+    },
+    {
+      "item": "additions:chromium_ingot"
+    },
+    {
+      "item": "additions:greedycraft-chromium_ore"
+    },
+    {
+      "item": "additions:stainless_steel_ingot"
+    },
+    {
+      "item": "additions:greedycraft-stainless_steel_block"
+    },
+    {
+      "item": "additions:greedycraft-stainless_steel_ball"
+    },
+    {
+      "item": "additions:protonium_ingot"
+    },
+    {
+      "item": "additions:greedycraft-protonium_block"
+    },
+    {
+      "item": "additions:electronium_ingot"
+    },
+    {
+      "item": "additions:greedycraft-electronium_block"
+    },
+    {
+      "item": "additions:crimsonite_ingot"
+    },
+    {
+      "item": "additions:greedycraft-crimsonite_block"
+    },
+    {
+      "item": "additions:greedycraft-aqualite_ore"
+    },
+    {
+      "item": "additions:aqualite_ingot"
+    },
+    {
+      "item": "additions:greedycraft-aqualite_block"
+    },
+    {
+      "item": "additions:greedycraft-manganese_ore"
+    },
+    {
+      "item": "additions:manganese_ingot"
+    },
+    {
+      "item": "additions:manganese_steel_ingot"
+    },
+    {
+      "item": "additions:durasteel_ingot"
+    },
+    {
+      "item": "additions:greedycraft-durasteel_block"
+    },
+    {
+      "item": "additions:aeonsteel_ingot"
+    },
+    {
+      "item": "additions:greedycraft-aeonsteel_block"
+    },
+    {
+      "item": "additions:chromasteel_ingot"
+    },
+    {
+      "item": "additions:greedycraft-chromasteel_block"
+    },
+    {
+      "item": "additions:greedycraft-catalyst_star"
+    },
+    {
+      "item": "additions:greedycraft-manganese_steel_block"
+    },
+    {
+      "item": "additions:greedycraft-hardened_stone"
+    },
+    {
+      "item": "additions:greedycraft-strange_matter"
+    },
+    {
+      "item": "additions:greedycraft-loli_lolipop"
+    },
+    {
+      "item": "additions:greedycraft-one_punch",
+      "tag": "{ench:[{lvl:33s,id:19}]}"
+    },
+    {
+      "item": "additions:greedycraft-black_hole_remnant"
+    },
+    {
+      "item": "additions:greedycraft-sand_of_time"
+    },
+    {
+      "item": "additions:greedycraft-food_bag"
+    },
+    {
+      "item": "additions:greedycraft-furniture_crate"
+    },
+    {
+      "item": "additions:greedycraft-respawn_anchor"
+    },
+    {
+      "item": "additions:greedycraft-pearl_of_knowledge"
+    },
+    {
+      "item": "additions:greedycraft-reward_ticket_common"
+    },
+    {
+      "item": "additions:greedycraft-reward_ticket_rare"
+    },
+    {
+      "item": "additions:greedycraft-reward_ticket_epic"
+    },
+    {
+      "item": "additions:greedycraft-reward_ticket_legendary"
+    },
+    {
+      "item": "additions:greedycraft-death_coin"
+    },
+    {
+      "item": "additions:greedycraft-blueprint"
+    },
+    {
+      "item": "additions:greedycraft-blueprint_tactic"
+    },
+    {
+      "item": "additions:greedycraft-blueprint_wand"
+    },
+    {
+      "item": "additions:greedycraft-blueprint_shuriken"
+    },
+    {
+      "item": "additions:greedycraft-blueprint_yoyo"
+    },
+    {
+      "item": "additions:tower_chest"
+    },
+    {
+      "item": "additions:greedycraft-tower_chest_unlocked"
+    },
+    {
+      "item": "additions:greedycraft-tower_chest_key"
+    },
+    {
+      "item": "additions:greedycraft-delivery_order"
+    },
+    {
+      "item": "additions:greedycraft-true_eye_of_ender"
+    },
+    {
+      "item": "additions:greedycraft-huaji"
+    },
+    {
+      "item": "additions:greedycraft-forbidden_bible"
+    },
+    {
+      "item": "additions:greedycraft-time_fragment"
+    },
+    {
+      "item": "additions:greedycraft-time_shard"
+    },
+    {
+      "item": "additions:greedycraft-experience_transporter"
+    },
+    {
+      "item": "additions:greedycraft-plate_of_honor"
+    },
+    {
+      "item": "additions:nylon_string"
+    },
+    {
+      "item": "additions:nylon_cloth"
+    },
+    {
+      "item": "additions:rubber_band"
+    },
+    {
+      "item": "additions:greedycraft-slime_crown"
+    },
+    {
+      "item": "additions:greedycraft-royal_gel"
+    },
+    {
+      "item": "additions:greedycraft-purifying_dust"
+    },
+    {
+      "item": "ftbquests:lootcrate",
+      "tag": "{type:\"loot_level_1\"}"
+    },
+    {
+      "item": "ftbquests:lootcrate",
+      "tag": "{type:\"loot_level_2\"}"
+    },
+    {
+      "item": "ftbquests:lootcrate",
+      "tag": "{type:\"loot_level_3\"}"
+    },
+    {
+      "item": "ftbquests:lootcrate",
+      "tag": "{type:\"loot_level_4\"}"
+    },
+    {
+      "item": "minecraft:splash_potion",
+      "tag": "{CustomPotionEffects:[{ShowParticles:0b,Duration:1200,Id:25,Amplifier:126}],CustomPotionColor:16722379,display:{Lore:[\"§bWhy don't you fly?\"],Name:\"§6Potion to the Heaven\"}}"
+    },
+    {
+      "item": "minecraft:splash_potion",
+      "tag": "{CustomPotionEffects:[{ShowParticles:0b,Duration:6000,Id:27,Amplifier:126}],CustomPotionColor:0,display:{Lore:[\"§9Reaaally nice RNG today!\"],Name:\"§8RNG God Potion\"}}"
+    },
+    {
+      "item": "minecraft:splash_potion",
+      "tag": "{CustomPotionEffects:[{ShowParticles:0b,Duration:2400,Id:1,Amplifier:126},{ShowParticles:0b,Duration:2400,Id:8,Amplifier:126}],CustomPotionColor:720859,display:{Lore:[\"§aFeel the speed!\"],Name:\"§b§oDeja Vu\"}}"
+    },
+    {
+      "item": "minecraft:splash_potion",
+      "tag": "{CustomPotionEffects:[{Duration:2400,Id:1,Amplifier:49},{Duration:2400,Id:3,Amplifier:49},{Duration:2400,Id:5,Amplifier:49},{Id:6,Amplifier:28},{Duration:2400,Id:8,Amplifier:49},{Duration:2400,Id:10,Amplifier:31},{Duration:2400,Id:11,Amplifier:4},{Duration:2400,Id:12},{Duration:2400,Id:13},{Duration:2400,Id:14},{Duration:2400,Id:16},{Duration:2400,Id:21,Amplifier:49},{Duration:2400,Id:22,Amplifier:49},{Id:23,Amplifier:119},{Duration:2400,Id:26,Amplifier:49},{Duration:2400,Id:28}],CustomPotionColor:16648959,display:{Lore:[\"§dPotion that contains immeasurable power.\"],Name:\"§5§lDraconic Potion\"}}"
+    },
+    {
+      "item": "minecraft:splash_potion",
+      "tag": "{CustomPotionEffects:[{Duration:2400,Id:2,Amplifier:49},{Duration:2400,Id:4,Amplifier:49},{Id:7,Amplifier:28},{Duration:2400,Id:9},{Duration:2400,Id:15},{Duration:2400,Id:17,Amplifier:49},{Duration:2400,Id:18,Amplifier:49},{Duration:2400,Id:19,Amplifier:4},{Duration:2400,Id:20,Amplifier:2},{Duration:2400,Id:24},{Duration:2400,Id:25,Amplifier:49},{Duration:2400,Id:27,Amplifier:49}],CustomPotionColor:0,display:{Lore:[\"§dPotion that destroys everything.\"],Name:\"§8§lWithering Potion\"}}"
+    },
+    {
+      "item": "minecraft:stick",
+      "tag": "{ench:[{lvl:10,id:19}],display:{Lore:[\"§d§oSTAY THE FRICK AWAY FROM ME!!\"],Name:\"§bStick of Knockback\"}}"
+    },
+    {
+      "item": "additions:greedycraft-lucky_clover"
+    },
+    {
+      "item": "additions:greedycraft-ancient_tome_fragment"
+    },
+    {
+      "item": "additions:greedycraft-ancient_tome_page"
+    },
+    {
+      "item": "additions:greedycraft-ancient_tome"
+    },
+    {
+      "item": "additions:greedycraft-death_counter"
+    },
+    {
+      "item": "additions:greedycraft-blood_sigil"
+    },
+    {
+      "item": "additions:greedycraft-true_blood_sigil"
+    },
+    {
+      "item": "additions:greedycraft-bloody_sacrifice"
+    },
+    {
+      "item": "additions:greedycraft-shining_star"
+    },
+    {
+      "item": "additions:greedycraft-pinecone"
+    },
+    {
+      "item": "additions:greedycraft-poop"
+    },
+    {
+      "item": "additions:greedycraft-poopburger"
+    },
+    {
+      "item": "additions:greedycraft-medkit_small"
+    },
+    {
+      "item": "additions:greedycraft-medkit_big"
+    },
+    {
+      "item": "additions:greedycraft-medkit_super"
+    },
+    {
+      "item": "additions:greedycraft-sunny_doll"
+    },
+    {
+      "item": "additions:greedycraft-skill_reset_scroll"
+    },
+    {
+      "item": "additions:greedycraft-guide_book"
+    },
+    {
+      "item": "additions:greedycraft-experiment_note"
+    },
+    {
+      "item": "additions:greedycraft-bag_of_dyes"
+    },
+    {
+      "item": "additions:greedycraft-aurora_heart"
+    },
+    {
+      "item": "additions:greedycraft-wither_soul"
+    },
+    {
+      "item": "additions:greedycraft-dragon_soul"
+    },
+    {
+      "item": "additions:greedycraft-raw_human_meat"
+    },
+    {
+      "item": "additions:greedycraft-cooked_human_meat"
+    },
+    {
+      "item": "additions:greedycraft-purifying_pill"
+    },
+    {
+      "item": "additions:greedycraft-twilight_gem"
+    },
+    {
+      "item": "additions:greedycraft-twilight_shield"
+    },
+    {
+      "item": "additions:greedycraft-awakened_eye"
+    },
+    {
+      "item": "additions:greedycraft-bravery_certificate"
+    },
+    {
+      "item": "additions:greedycraft-ender_charm"
+    },
+    {
+      "item": "additions:greedycraft-energy_matter_core"
+    },
+    {
+      "item": "additions:greedycraft-unknown_block"
+    },
+    {
+      "item": "additions:greedycraft-city_defender_medal"
+    },
+    {
+      "item": "additions:greedycraft-bounty_hunter_medal_bronze"
+    },
+    {
+      "item": "additions:greedycraft-bounty_hunter_medal_silver"
+    },
+    {
+      "item": "additions:greedycraft-bounty_hunter_medal"
+    },
+    {
+      "item": "additions:greedycraft-bounty_hunter_medal_emerald"
+    },
+    {
+      "item": "additions:greedycraft-experience_singularity"
+    },
+    {
+      "item": "additions:greedycraft-flux_singularity"
+    },
+    {
+      "item": "additions:greedycraft-mana_singularity"
+    },
+    {
+      "item": "additions:greedycraft-matter_singularity"
+    },
+    {
+      "item": "additions:greedycraft-anti_entropy_matter"
+    },
+    {
+      "item": "additions:greedycraft-emergency_button"
+    },
+    {
+      "item": "additions:greedycraft-matter_block"
+    },
+    {
+      "item": "additions:perfectly_generic_item"
+    },
+    {
+      "item": "additions:greedycraft-executor_terminal"
+    },
+    {
+      "item": "additions:greedycraft-gift"
+    },
+    {
+      "item": "patchouli:guide_book",
+      "tag": "{\"patchouli:book\":\"patchouli:greedycraft_guide_book\"}"
+    },
+    {
+      "item": "patchouli:guide_book",
+      "tag": "{\"patchouli:book\":\"patchouli:the_elysia_project\"}"
+    },
+    {
+      "item": "akashictome:tome",
+      "tag": "{\"akashictome:is_morphing\":1b,display:{Lore:[\"§6Edition #13\",\"§a§oOmnipedia, the free encyclopedia.\"],Name:\"§d§ka§r §bThe Omnipedia §d§ka§r\"},\"akashictome:data\":{tconstruct:{id:\"tconstruct:book\",Count:1b,tag:{\"akashictome:definedMod\":\"tconstruct\"},Damage:0s},bloodarsenal:{id:\"guideapi:bloodarsenal-guide\",Count:1b,tag:{\"akashictome:definedMod\":\"bloodarsenal\"},Damage:0s},theoneprobe:{id:\"theoneprobe:probenote\",Count:1b,tag:{\"akashictome:definedMod\":\"theoneprobe\"},Damage:0s},astralsorcery:{id:\"astralsorcery:itemjournal\",Count:1b,tag:{\"akashictome:definedMod\":\"astralsorcery\"},Damage:0s},ftbquests:{id:\"ftbquests:book\",Count:1b,tag:{\"akashictome:definedMod\":\"ftbquests\"},Damage:0s},rftools:{id:\"rftools:rftools_shape_manual\",Count:1b,tag:{\"akashictome:definedMod\":\"rftools\"},Damage:0s},patchouli1:{id:\"patchouli:guide_book\",Count:1b,tag:{\"akashictome:definedMod\":\"patchouli1\",\"patchouli:book\":\"patchouli:greedycraft_guide_book\"},Damage:0s},botania:{id:\"botania:lexicon\",Count:1b,tag:{\"akashictome:definedMod\":\"botania\"},Damage:0s},rustic:{id:\"rustic:book\",Count:1b,tag:{\"akashictome:definedMod\":\"rustic\"},Damage:0s},draconicevolution:{id:\"draconicevolution:info_tablet\",Count:1b,tag:{\"akashictome:definedMod\":\"draconicevolution\"},Damage:0s},bloodmagic1:{id:\"guideapi:bloodmagic-guide\",Count:1b,tag:{\"akashictome:definedMod\":\"bloodmagic1\"},Damage:0s},bibliocraft2:{id:\"bibliocraft:atlasbook\",Count:1b,tag:{\"akashictome:definedMod\":\"bibliocraft2\",atlasID:1422948728},Damage:33s},bibliocraft1:{id:\"bibliocraft:slottedbook\",Count:1b,tag:{\"akashictome:definedMod\":\"bibliocraft1\",authorName:\"by Sir Hidington\"},Damage:0s},projecte:{id:\"projecte:item.pe_manual\",Count:1b,tag:{\"akashictome:definedMod\":\"projecte\"},Damage:0s},mekanism:{id:\"mekanism:dictionary\",Count:1b,tag:{\"akashictome:definedMod\":\"mekanism\"},Damage:0s},extrautils2:{id:\"extrautils2:book\",Count:1b,tag:{\"akashictome:definedMod\":\"extrautils2\"},Damage:0s},thermalfoundation:{id:\"thermalfoundation:tome_lexicon\",Count:1b,tag:{\"akashictome:definedMod\":\"thermalfoundation\"},Damage:0s},bibliocraft4:{id:\"bibliocraft:testeritem\",Count:1b,tag:{\"akashictome:definedMod\":\"bibliocraft4\",containerUpdate:0b,Inventory:[]},Damage:0s},actuallyadditions:{id:\"actuallyadditions:item_booklet\",Count:1b,tag:{\"akashictome:definedMod\":\"actuallyadditions\"},Damage:0s},bibliocraft3:{id:\"bibliocraft:biblioredbook\",Count:1b,tag:{\"akashictome:definedMod\":\"bibliocraft3\",redstonebook:\"by James Maxwell\"},Damage:0s},touhou_little_maid:{id:\"patchouli:guide_book\",Count:1b,tag:{\"akashictome:definedMod\":\"touhou_little_maid\",\"patchouli:book\":\"touhou_little_maid:memorizable_gensokyo\"},Damage:0s},patchouli:{id:\"patchouli:guide_book\",Count:1b,tag:{\"akashictome:definedMod\":\"patchouli\",\"patchouli:book\":\"patchouli:the_elysia_project\"},Damage:0s},abyssalcraft:{id:\"abyssalcraft:necronomicon\",Count:1b,tag:{\"akashictome:definedMod\":\"abyssalcraft\",PotEnergy:0.0f},Damage:0s},yoyos:{id:\"yoyos:book\",Count:1b,tag:{\"akashictome:definedMod\":\"yoyos\"},Damage:0s},forestry1:{id:\"forestry:catalogue\",Count:1b,tag:{\"akashictome:definedMod\":\"forestry1\"},Damage:0s},hammercore:{id:\"hammercore:manual\",Count:1b,tag:{\"akashictome:definedMod\":\"hammercore\"},Damage:0s},cookingforblockheads:{id:\"cookingforblockheads:recipe_book\",Count:1b,tag:{\"akashictome:definedMod\":\"cookingforblockheads\"},Damage:0s},xnet:{id:\"xnet:xnet_manual\",Count:1b,tag:{\"akashictome:definedMod\":\"xnet\"},Damage:0s},rftoolscontrol:{id:\"rftoolscontrol:rftoolscontrol_manual\",Count:1b,tag:{\"akashictome:definedMod\":\"rftoolscontrol\"},Damage:0s},cyclicmagic1:{id:\"cyclicmagic:tool_trade\",Count:1b,tag:{\"akashictome:definedMod\":\"cyclicmagic1\"},Damage:0s},sakura:{id:\"patchouli:guide_book\",Count:1b,tag:{\"akashictome:definedMod\":\"sakura\",\"patchouli:book\":\"sakura:sakura_guide\"},Damage:0s},compactmachines3:{id:\"compactmachines3:psd\",Count:1b,tag:{\"akashictome:definedMod\":\"compactmachines3\"},Damage:0s},conarm:{id:\"conarm:book\",Count:1b,tag:{\"akashictome:definedMod\":\"conarm\"},Damage:0s},cfm:{id:\"cfm:item_recipe_book\",Count:1b,tag:{\"akashictome:definedMod\":\"cfm\"},Damage:0s},cookingforblockheads1:{id:\"cookingforblockheads:recipe_book\",Count:1b,tag:{\"akashictome:definedMod\":\"cookingforblockheads1\"},Damage:1s},cookingforblockheads2:{id:\"cookingforblockheads:recipe_book\",Count:1b,tag:{\"akashictome:definedMod\":\"cookingforblockheads2\"},Damage:2s},solcarrot:{id:\"solcarrot:food_book\",Count:1b,tag:{\"akashictome:definedMod\":\"solcarrot\"},Damage:0s},rftools2:{id:\"rftools:rftools_manual\",Count:1b,tag:{\"akashictome:definedMod\":\"rftools2\"},Damage:0s},aether_legacy:{id:\"aether_legacy:lore_book\",Count:1b,tag:{\"akashictome:definedMod\":\"aether_legacy\"},Damage:0s},spiceoflife:{id:\"spiceoflife:bookfoodjournal\",Count:1b,tag:{\"akashictome:definedMod\":\"spiceoflife\"},Damage:0s},thaumcraft:{id:\"thaumcraft:thaumonomicon\",Count:1b,tag:{\"akashictome:definedMod\":\"thaumcraft\"},Damage:0s},logisticspipes:{id:\"logisticspipes:guide_book\",Count:1b,tag:{\"akashictome:definedMod\":\"logisticspipes\"},Damage:0s},bloodmagic:{id:\"bloodmagic:sanguine_book\",Count:1b,tag:{\"akashictome:definedMod\":\"bloodmagic\"},Damage:0s},twilightforest:{id:\"patchouli:guide_book\",Count:1b,tag:{\"akashictome:definedMod\":\"twilightforest\",\"patchouli:book\":\"twilightforest:guide\"},Damage:0s},cyclicmagic:{id:\"guideapi:cyclicmagic-guide\",Count:1b,tag:{\"akashictome:definedMod\":\"cyclicmagic\"},Damage:0s},openblocks:{id:\"openblocks:info_book\",Count:1b,tag:{\"akashictome:definedMod\":\"openblocks\"},Damage:0s},forestry:{id:\"forestry:book_forester\",Count:1b,tag:{\"akashictome:definedMod\":\"forestry\"},Damage:0s}}}"
+    },
+    {
+      "item": "additions:greedycraft-goodie_bag"
+    },
+    {
+      "item": "additions:greedycraft-shield_gum"
+    },
+    {
+      "item": "additions:greedycraft-fake_philosopher_stone"
+    },
+    {
+      "item": "additions:greedycraft-adrenaline"
+    },
+    {
+      "item": "additions:greedycraft-strange_lolipop"
+    },
+    {
+      "item": "additions:greedycraft-undead_medkit"
+    }
+  ]
+}

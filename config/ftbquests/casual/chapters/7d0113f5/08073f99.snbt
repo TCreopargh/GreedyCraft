@@ -1,0 +1,35 @@
+
+{
+	title: "{greedycraft.quest.08073f99.title}",
+	x: -3.5d,
+	y: 3.5d,
+	description: "{greedycraft.quest.08073f99.desc}",
+	dependencies: [
+		"22d2e079"
+	],
+	tasks: [{
+		uid: "178bd604",
+		type: "item",
+		items: [{
+			id: "thaumcraft:sanity_checker"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5b07eeb1",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "fc37f5d8",
+		type: "item",
+		item: "thaumcraft:sanity_soap",
+		count: 2
+	},
+	{
+		uid: "a7965858",
+		type: "loot",
+		table: 0
+	}]
+}

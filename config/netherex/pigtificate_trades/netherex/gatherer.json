@@ -1,0 +1,125 @@
+{
+	"profession": "netherex:forager",
+	"career": "netherex:gatherer",
+	"trades": [
+		{
+			"output": {
+				"item": "netherex:congealed_magma_cream",
+				"meta": 0,
+				"minCount": 2,
+				"maxCount": 2
+			},
+			"minTradeCount": 1,
+			"maxTradeCount": 8,
+			"inputOne": {
+				"item": "netherex:amethyst_crystal",
+				"meta": 0,
+				"minCount": 1,
+				"maxCount": 1
+			},
+			"tradeLevel": 1
+		}, 
+		{
+			"output": {
+				"minCount": 2,
+				"maxCount": 4,
+				"itemBlock": "netherex:brown_elder_mushroom",
+				"properties": {}
+			},
+			"minTradeCount": 2,
+			"maxTradeCount": 8,
+			"inputOne": {
+				"item": "netherex:amethyst_crystal",
+				"meta": 0,
+				"minCount": 1,
+				"maxCount": 3
+			},
+			"tradeLevel": 1
+		}, 
+		{
+			"output": {
+				"minCount": 2,
+				"maxCount": 4,
+				"itemBlock": "netherex:red_elder_mushroom",
+				"properties": {}
+			},
+			"minTradeCount": 2,
+			"maxTradeCount": 8,
+			"inputOne": {
+				"item": "netherex:amethyst_crystal",
+				"meta": 0,
+				"minCount": 1,
+				"maxCount": 3
+			},
+			"tradeLevel": 1
+		}, 
+		{
+			"output": {
+				"item": "netherex:amethyst_crystal",
+				"meta": 0,
+				"minCount": 1,
+				"maxCount": 1
+			},
+			"minTradeCount": 1,
+			"maxTradeCount": 4,
+			"inputOne": {
+				"item": "netherex:wither_bone",
+				"meta": 0,
+				"minCount": 32,
+				"maxCount": 64
+			},
+			"tradeLevel": 1
+		}, 
+		{
+			"output": {
+				"item": "netherex:enoki_mushroom",
+				"meta": 0,
+				"minCount": 3,
+				"maxCount": 3
+			},
+			"minTradeCount": 2,
+			"maxTradeCount": 8,
+			"inputOne": {
+				"item": "netherex:amethyst_crystal",
+				"meta": 0,
+				"minCount": 2,
+				"maxCount": 4
+			},
+			"tradeLevel": 2
+		}, 
+		{
+			"output": {
+				"item": "netherex:amethyst_crystal",
+				"meta": 0,
+				"minCount": 3,
+				"maxCount": 3
+			},
+			"minTradeCount": 1,
+			"maxTradeCount": 3,
+			"inputOne": {
+				"item": "minecraft:quartz",
+				"meta": 0,
+				"minCount": 12,
+				"maxCount": 16
+			},
+			"tradeLevel": 2
+		}, 
+		{
+			"output": {
+				"item": "minecraft:nether_wart",
+				"meta": 0,
+				"minCount": 3,
+				"maxCount": 5
+			},
+			"minTradeCount": 2,
+			"maxTradeCount": 6,
+			"inputOne": {
+				"item": "netherex:amethyst_crystal",
+				"meta": 0,
+				"minCount": 3,
+				"maxCount": 4
+			},
+			"tradeLevel": 3
+		}
+	]
+}

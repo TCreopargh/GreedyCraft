@@ -1,0 +1,36 @@
+{
+	title: "{greedycraft.quest.0c8e7b2c.title}",
+	x: 3.0d,
+	y: 0.0d,
+	description: "{greedycraft.quest.0c8e7b2c.desc}",
+	dependencies: [
+		"daa88805"
+	],
+	tasks: [{
+		uid: "e59947df",
+		type: "item",
+		items: [{
+			id: "bloodmagic:arcane_ashes"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "777360e1",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "fe23218e",
+		type: "item",
+		item: {
+			id: "bloodmagic:arcane_ashes"
+		},
+		count: 3
+	},
+	{
+		uid: "02ce12d9",
+		type: "xp",
+		xp: 1000
+	}]
+}

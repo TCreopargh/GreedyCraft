@@ -1,0 +1,16 @@
+{
+    "name": "Log §9#6",
+    "icon": "additions:greedycraft-experiment_note",
+    "category": "patchouli:logs",
+    "advancement": "greedycraft:elysia/log6",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Today is a memorable day when the Elysian Project obtained victory. The entire humanity enters the simulation at the same time successfully, they are curious about everything and the EPUI is full of people celebrating this great moment."
+        },
+        {
+            "type": "text",
+            "text": "We appreciate the army that destroyed the rebels. Humans have finally entered a new era.$(br2)Sep 19th, 2044"
+        }
+    ]
+}

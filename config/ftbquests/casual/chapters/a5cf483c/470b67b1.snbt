@@ -1,0 +1,35 @@
+
+{
+	title: "{greedycraft.quest.470b67b1.title}",
+	x: 11.5d,
+	y: 2.0d,
+	description: "{greedycraft.quest.470b67b1.desc}",
+	dependencies: [
+		"7ba94111"
+	],
+	tasks: [{
+		uid: "b4098c6e",
+		type: "item",
+		items: [{
+			id: "astralsorcery:blockaltar",
+			Damage: 3s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4db2be6c",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "460fe432",
+		type: "xp",
+		xp: 4000
+	},
+	{
+		uid: "fcf99cb2",
+		type: "item",
+		item: "astralsorcery:itemcraftingcomponent 1 4",
+		count: 8
+	}]
+}

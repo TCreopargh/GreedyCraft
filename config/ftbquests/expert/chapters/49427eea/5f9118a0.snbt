@@ -1,0 +1,34 @@
+
+{
+	title: "{greedycraft.quest.5f9118a0.title}",
+	x: -7.0d,
+	y: 13.0d,
+	description: "{greedycraft.quest.5f9118a0.desc}",
+	dependencies: [
+		"350f59d9",
+		"334e95a9"
+	],
+	tasks: [{
+		uid: "c2e853e6",
+		type: "item",
+		items: [{
+			item: "enderio:item_alloy_ingot 1 8"
+		}]
+	}],
+	rewards: [{
+		uid: "4927d169",
+		type: "xp",
+		xp: 800
+	},
+	{
+		uid: "434bb977",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "dfd62635",
+		type: "item",
+		item: "enderio:item_alloy_ingot 1 8",
+		count: 5
+	}]
+}

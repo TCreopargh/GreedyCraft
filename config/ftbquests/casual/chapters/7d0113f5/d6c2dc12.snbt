@@ -1,0 +1,44 @@
+
+{
+	title: "{greedycraft.quest.d6c2dc12.title}",
+	x: -7.5d,
+	y: -3.5d,
+	description: "{greedycraft.quest.d6c2dc12.desc}",
+	tasks: [{
+		uid: "5f98c696",
+		type: "item",
+		items: [{
+			item: "thaumcraft:curio 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "1b322699",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "d2481f6b",
+		type: "xp",
+		xp: 75
+	},
+	{
+		uid: "c9fc2d2b",
+		type: "item",
+		item: "thaumcraft:curio 1 1",
+		count: 4
+	},
+	{
+		uid: "d7fc1536",
+		type: "item",
+		item: {
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "perditio"
+				}]
+			}
+		},
+		count: 32
+	}]
+}

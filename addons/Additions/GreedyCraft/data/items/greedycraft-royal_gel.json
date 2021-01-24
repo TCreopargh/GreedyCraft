@@ -1,0 +1,7 @@
+{
+  "name": "§9Royal Gel",
+  "burn_time": 4000,
+  "tooltip": "§eBoth tasty and flammable!",
+  "ore_dict": "gel",
+  "type": "additions:simple"
+}

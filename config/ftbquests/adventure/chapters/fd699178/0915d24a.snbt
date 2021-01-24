@@ -1,0 +1,38 @@
+{
+	title: "{greedycraft.quest.0915d24a.title}",
+	x: 4.5d,
+	y: -3.0d,
+	description: "{greedycraft.quest.0915d24a.desc}",
+	dependencies: [
+		"6e46a027",
+		"889b1268"
+	],
+	tasks: [{
+		uid: "0d48b4d2",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:security_station"
+		}]
+	}],
+	rewards: [{
+		uid: "b81e9f51",
+		type: "item",
+		item: "appliedenergistics2:material 1 9",
+		count: 4
+	},
+	{
+		uid: "14bcd6ec",
+		type: "xp",
+		xp: 500
+	},
+	{
+		uid: "95aebd71",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "990bcc75",
+		type: "loot",
+		table: 1
+	}]
+}

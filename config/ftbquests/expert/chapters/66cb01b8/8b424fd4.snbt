@@ -1,0 +1,35 @@
+
+{
+	title: "{greedycraft.quest.8b424fd4.title}",
+	x: 6.0d,
+	y: 3.0d,
+	description: "{greedycraft.quest.8b424fd4.desc}",
+	dependencies: [
+		"cdc1deb9"
+	],
+	tasks: [{
+		uid: "354d552a",
+		type: "item",
+		items: [{
+			id: "bloodmagic:sigil_divination"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "37bf5c32",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "78d862dc",
+		type: "xp",
+		xp: 1250
+	},
+	{
+		uid: "f32d17bc",
+		type: "item",
+		item: "bloodmagic:blood_rune 1 2",
+		count: 2
+	}]
+}

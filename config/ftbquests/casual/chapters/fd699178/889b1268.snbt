@@ -1,0 +1,33 @@
+
+{
+	title: "{greedycraft.quest.889b1268.title}",
+	x: 3.0d,
+	y: -3.0d,
+	description: "{greedycraft.quest.889b1268.desc}",
+	dependencies: [
+		"da08dbca"
+	],
+	tasks: [{
+		uid: "e38b8da8",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:chest"
+		}]
+	}],
+	rewards: [{
+		uid: "d42cbba5",
+		type: "xp",
+		xp: 200
+	},
+	{
+		uid: "fa8474af",
+		type: "item",
+		item: "thermaldynamics:duct_32 1 6",
+		count: 128
+	},
+	{
+		uid: "ae02b787",
+		type: "loot",
+		table: 1
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	"dependencies": "netherendingores",
+	"populate": {
+		"nether-redstone": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "netherendingores:ore_nether_vanilla",
+					"properties": {
+						"blocks": "redstone_ore"
+					}
+				},
+				"material": "minecraft:netherrack",
+				"cluster-size": 8
+			},
+			"cluster-count": 6,
+			"min-height": 10,
+			"max-height": 118,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-1
+				]
+			}
+		}
+	}
+}

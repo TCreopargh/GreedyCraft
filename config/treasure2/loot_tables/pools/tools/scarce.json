@@ -1,0 +1,67 @@
+{
+	"version": "1.0",
+	"pools": [
+		{
+			"name": "scarce_tools",
+			"rolls": 1,
+			"entries": [
+				{
+					"entryName": "iron_sword",
+					"type": "item",
+					"name": "minecraft:iron_sword",
+					"weight": 25,
+					"functions": [
+						{
+							"function": "enchant_randomly"
+						}
+					]					
+				},
+				{
+					"entryName": "bow",
+					"type": "item",
+					"name": "minecraft:bow",
+					"weight": 20,
+					"functions": [
+						{
+							"function": "enchant_randomly"
+						}
+					]					
+				},				
+				{
+					"entryName": "iron_pickaxe",
+					"type": "item",
+					"name": "minecraft:iron_pickaxe",
+					"weight": 13,
+					"functions": [
+						{
+							"function": "enchant_randomly"
+						}
+					]	
+				},
+				{
+					"entryName": "iron_axe",
+					"type": "item",
+					"name": "minecraft:iron_axe",
+					"weight": 25,
+					"functions": [
+						{
+							"function": "enchant_randomly"
+						}
+					]	
+				},
+				{
+					"entryName": "diamond_sword",
+					"type": "item",
+					"name": "minecraft:diamond_sword",
+					"weight": 10
+				},
+				{
+					"entryName": "diamond_pickaxe",
+					"type": "item",
+					"name": "minecraft:diamond_pickaxe",
+					"weight": 15
+				}
+			]
+		}
+	]
+}

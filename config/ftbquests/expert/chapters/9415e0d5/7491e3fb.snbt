@@ -1,0 +1,30 @@
+
+{
+	title: "{greedycraft.quest.7491e3fb.title}",
+	x: 6.0d,
+	y: 5.5d,
+	description: "{greedycraft.quest.7491e3fb.desc}",
+	tasks: [{
+		uid: "a13288a0",
+		type: "item",
+		items: [{
+			item: "minecraft:beacon"
+		}]
+	}],
+	rewards: [{
+		uid: "9b437813",
+		type: "item",
+		item: "minecraft:gold_block",
+		count: 9
+	},
+	{
+		uid: "91297ca7",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "03561835",
+		type: "xp",
+		xp: 2000
+	}]
+}

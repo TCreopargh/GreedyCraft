@@ -1,0 +1,45 @@
+
+{
+	title: "{greedycraft.quest.20d93dfc.title}",
+	x: -1.0d,
+	y: -4.0d,
+	description: "{greedycraft.quest.20d93dfc.desc}",
+	dependencies: [
+		"98407c40",
+		"64609cf0",
+		"630fdbee",
+		"6962ac70",
+		"daeb8a38"
+	],
+	tasks: [{
+		uid: "ec017103",
+		type: "item",
+		items: [{
+			id: "astralsorcery:blockaltar",
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e68f2bb",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "c6a0aa59",
+		type: "xp",
+		xp: 420
+	},
+	{
+		uid: "cc04dd41",
+		type: "item",
+		item: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "astralsorcery.liquidstarlight",
+				Amount: 1000
+			}
+		},
+		count: 3
+	}]
+}

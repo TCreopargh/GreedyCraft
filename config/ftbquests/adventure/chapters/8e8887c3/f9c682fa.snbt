@@ -1,0 +1,33 @@
+{
+	title: "{greedycraft.quest.f9c682fa.title}",
+	x: -2.0d,
+	y: -6.0d,
+	shape: "diamond",
+	description: "{greedycraft.quest.f9c682fa.desc}",
+	dependencies: [
+		"6b08fde1"
+	],
+	tasks: [{
+		uid: "acdd3216",
+		type: "item",
+		items: [{
+			item: "tinker_io:smart_output"
+		}]
+	}],
+	rewards: [{
+		uid: "f14ea78e",
+		type: "item",
+		item: "tconstruct:materials",
+		count: 1280
+	},
+	{
+		uid: "51d4ddb6",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "c9c70f53",
+		type: "xp",
+		xp: 1000
+	}]
+}

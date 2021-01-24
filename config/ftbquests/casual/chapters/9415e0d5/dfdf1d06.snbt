@@ -1,0 +1,31 @@
+
+{
+	title: "{greedycraft.quest.dfdf1d06.title}",
+	x: -10.0d,
+	y: 15.5d,
+	description: "{greedycraft.quest.dfdf1d06.desc}",
+	tasks: [{
+		uid: "cd8e6ad5",
+		type: "item",
+		items: [{
+			item: "fluxnetworks:flux"
+		}]
+	}],
+	rewards: [{
+		uid: "ce7fc240",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "2ed7773d",
+		type: "xp",
+		xp: 200
+	},
+	{
+		uid: "6d601243",
+		type: "item",
+		item: "fluxnetworks:flux",
+		count: 32,
+		random_bonus: 32
+	}]
+}

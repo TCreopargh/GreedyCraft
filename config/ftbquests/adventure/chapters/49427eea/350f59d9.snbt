@@ -1,0 +1,38 @@
+{
+	title: "{greedycraft.quest.350f59d9.title}",
+	x: -7.0d,
+	y: 9.0d,
+	description: "{greedycraft.quest.350f59d9.desc}",
+	dependencies: [
+		"12db3c68"
+	],
+	tasks: [{
+		uid: "714248cc",
+		type: "item",
+		items: [{
+			item: "enderio:block_simple_alloy_smelter"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "72e8983a",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 32
+	},
+	{
+		uid: "d826c6d4",
+		type: "xp",
+		xp: 400
+	},
+	{
+		uid: "665c37f5",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "c6284501",
+		type: "loot",
+		table: 1
+	}]
+}

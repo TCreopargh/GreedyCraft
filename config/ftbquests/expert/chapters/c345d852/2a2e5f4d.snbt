@@ -1,0 +1,29 @@
+
+{
+	title: "{greedycraft.quest.2a2e5f4d.title}",
+	x: -8.5d,
+	y: 2.5d,
+	description: "{greedycraft.quest.2a2e5f4d.desc}",
+	dependencies: [
+		"48fc4e8c"
+	],
+	tasks: [{
+		uid: "9de40edf",
+		type: "item",
+		items: [{
+			id: "forestry:habitat_locator"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "fd44baba",
+		type: "xp",
+		xp: 250
+	},
+	{
+		uid: "9330e8f7",
+		type: "loot",
+		table: 0
+	}]
+}

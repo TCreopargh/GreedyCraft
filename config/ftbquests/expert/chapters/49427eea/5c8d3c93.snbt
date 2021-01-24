@@ -1,0 +1,11 @@
+
+{
+	title: "§eMake progress in Mekanism",
+	x: 5.5d,
+	y: -10.0d,
+	tasks: [{
+		uid: "147faf4f",
+		type: "gamestage",
+		stage: "master_engineer"
+	}]
+}

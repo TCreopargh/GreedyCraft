@@ -1,0 +1,34 @@
+{
+	title: "{greedycraft.quest.db4dce39.title}",
+	x: 3.0d,
+	y: -2.0d,
+	description: "{greedycraft.quest.db4dce39.desc}",
+	dependencies: [
+		"520beeea"
+	],
+	tasks: [{
+		uid: "083655be",
+		type: "item",
+		items: [{
+			id: "botania:rainbowrod"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "dedb732f",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "29edb8a4",
+		type: "item",
+		item: "twilightforest:twilight_sapling 1 9",
+		count: 64
+	},
+	{
+		uid: "581e8280",
+		type: "xp",
+		xp: 3000
+	}]
+}

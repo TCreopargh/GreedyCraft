@@ -1,0 +1,31 @@
+{
+  "cause": {
+    "item": {
+      "item": "additions:greedycraft-true_blood_sigil",
+      "damage": "any"
+    },
+    "type": "additions:item_left_click"
+  },
+  "effects": [
+    {
+      "command": "/nyxforce clear",
+      "command_sender_name": "",
+      "type": "additions:command"
+    },
+    {
+      "command": "/time set day",
+      "command_sender_name": "",
+      "type": "additions:command"
+    },
+    {
+      "command": "/particle enchantmenttable ~ ~ ~ 1 1 1 2 1000 force",
+      "command_sender_name": "",
+      "type": "additions:command"
+    },
+    {
+      "command": "/tellraw @a {\"text\": \"§bThe moon has returned to peace.\"}",
+      "command_sender_name": "",
+      "type": "additions:command"
+    }
+  ]
+}

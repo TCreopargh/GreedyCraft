@@ -1,0 +1,41 @@
+
+{
+	title: "{greedycraft.quest.28707c6f.title}",
+	x: 18.5d,
+	y: 1.5d,
+	description: "{greedycraft.quest.28707c6f.desc}",
+	dependencies: [
+		"18558d0b"
+	],
+	tasks: [{
+		uid: "90da1df6",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:gatekeeperessence"
+		}]
+	}],
+	rewards: [{
+		uid: "a538224d",
+		type: "xp",
+		xp: 10000
+	},
+	{
+		uid: "5fcaff1d",
+		type: "item",
+		item: {
+			id: "abyssalcraft:drainstaff",
+			Damage: 3s
+		}
+	},
+	{
+		uid: "bdf9627f",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "2582bef0",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "lunatic_cultist"
+	}]
+}

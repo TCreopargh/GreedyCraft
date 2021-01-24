@@ -1,0 +1,27 @@
+
+{
+	title: "{greedycraft.quest.31d19917.title}",
+	x: -3.5d,
+	y: 7.5d,
+	description: "{greedycraft.quest.31d19917.desc}",
+	dependencies: [
+		"3ea75715"
+	],
+	tasks: [{
+		uid: "f7f2e765",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-purifying_pill"
+		}]
+	}],
+	rewards: [{
+		uid: "7eac5328",
+		type: "loot",
+		table: 3
+	},
+	{
+		uid: "0492bd44",
+		type: "xp",
+		xp: 20000
+	}]
+}

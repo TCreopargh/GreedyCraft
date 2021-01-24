@@ -1,0 +1,12 @@
+{
+  "weight": 10,
+  "type": "tconevo:tool",
+  "name": "Firehappy",
+  "lore": "Probably the opposite of Icemourne but I just want to say wtf",
+  "tool": "broadsword",
+  "materials": [
+    "fusion_matrix",
+    "infernium",
+    "asgardium"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+	title: "{greedycraft.quest.ce837387.title}",
+	icon: {
+		id: "minecraft:chainmail_chestplate"
+	},
+	x: 2.0d,
+	y: -1.0d,
+	description: "{greedycraft.quest.ce837387.desc}",
+	dependencies: [
+		"74684c10"
+	],
+	tasks: [{
+		uid: "e8a4ebbc",
+		type: "stat",
+		icon: {
+			id: "minecraft:iron_chestplate"
+		},
+		stat: "stat.damageTaken",
+		value: 50000
+	}],
+	rewards: [{
+		uid: "c3392521",
+		type: "item",
+		item: "tconstruct:materials 1 14",
+		count: 16
+	},
+	{
+		uid: "db407665",
+		type: "item",
+		item: "conarm:resist_mat",
+		count: 16
+	},
+	{
+		uid: "ebdbb234",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "8823d8b8",
+		type: "loot",
+		table: 0
+	}]
+}

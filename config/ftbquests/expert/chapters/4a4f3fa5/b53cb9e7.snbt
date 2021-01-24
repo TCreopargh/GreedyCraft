@@ -1,0 +1,35 @@
+
+{
+	title: "{greedycraft.quest.b53cb9e7.title}",
+	x: -12.5d,
+	y: 0.0d,
+	description: "{greedycraft.quest.b53cb9e7.desc}",
+	dependencies: [
+		"da5f76fd"
+	],
+	tasks: [{
+		uid: "ed8ccdfe",
+		type: "item",
+		items: [{
+			item: "botania:flower"
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "256abf62",
+		type: "item",
+		item: {
+			id: "botania:flowerbag"
+		}
+	},
+	{
+		uid: "3fbe6b97",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "c65275a1",
+		type: "loot",
+		table: 0
+	}]
+}

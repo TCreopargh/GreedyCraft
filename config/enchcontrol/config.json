@@ -1,0 +1,32 @@
+{
+  "version": "1.1.5:beta:0",
+  "main": {
+    "external_config": false,
+    "debug_mode": true,
+    "custom_localization": false
+  },
+  "tweaks": {
+    "hide_curses": false,
+    "notify_cursed": true,
+    "roman_numerals": true,
+    "enchantment_table_level_cap": 3,
+    "anvil_level_cap": 5,
+    "merchant_deals_level_cap": 3,
+    "dungeon_loot_level_cap": 4,
+    "creative_tab_level_cap": 10
+  },
+  "description": {
+    "enabled": true,
+    "show_hint": true,
+    "location": 0,
+    "separator": "---",
+    "for_books": true,
+    "for_items": true,
+    "show_domain": true
+  },
+  "mod_support": {
+    "load_enchantment_descriptions_desc": true,
+    "upload_desc_to_enchantment_descriptions": false,
+    "thermal_expansion": true
+  }
+}

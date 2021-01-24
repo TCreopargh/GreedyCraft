@@ -1,0 +1,883 @@
+{
+	title: "Loot Crate §d[EPIC]",
+	loot_size: 1,
+	hide_tooltip: true,
+	use_title: true,
+	rewards: [{
+		item: "minecraft:ender_pearl",
+		count: 32
+	},
+	{
+		item: {
+			id: "minecraft:totem_of_undying"
+		}
+	},
+	{
+		item: "projecte:item.pe_matter 1 1"
+	},
+	{
+		item: "mysticalagriculture:crafting 1 4",
+		count: 4,
+		random_bonus: 4
+	},
+	{
+		item: "thermalfoundation:material 1 135",
+		count: 2,
+		random_bonus: 2
+	},
+	{
+		item: "thermalfoundation:material 1 865",
+		count: 32,
+		random_bonus: 32
+	},
+	{
+		item: "thermalfoundation:material 1 1024",
+		count: 16,
+		random_bonus: 16
+	},
+	{
+		item: "thermalfoundation:material 1 1025",
+		count: 16,
+		random_bonus: 16
+	},
+	{
+		item: "thermalfoundation:material 1 1026",
+		count: 16,
+		random_bonus: 16
+	},
+	{
+		item: "thermalfoundation:material 1 1027",
+		count: 16,
+		random_bonus: 16
+	},
+	{
+		item: {
+			id: "thermalexpansion:capacitor",
+			tag: {
+				Energy: 25000000
+			},
+			Damage: 4s
+		}
+	},
+	{
+		item: "scalinghealth:heartcontainer",
+		count: 3,
+		random_bonus: 2
+	},
+	{
+		item: "avaritia:resource 1 1",
+		random_bonus: 1
+	},
+	{
+		item: "avaritia:resource 1 4"
+	},
+	{
+		item: "waystones:waystone",
+		count: 16,
+		random_bonus: 16
+	},
+	{
+		item: {
+			id: "danknull:dank_null_5"
+		}
+	},
+	{
+		item: "mysticalagriculture:enderium_seeds",
+		count: 4,
+		random_bonus: 4
+	},
+	{
+		item: "tconstruct:ingots 1 2",
+		count: 8,
+		random_bonus: 8
+	},
+	{
+		item: "mysticalagriculture:wither_skeleton_seeds",
+		count: 4,
+		random_bonus: 4
+	},
+	{
+		item: "prefab:item_advanced_warehouse",
+		random_bonus: 1
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"prefab:structuresconfiguration": {
+					configuration: {
+						wareHouseFacing: "north",
+						structureEnumName: "EnderGateway"
+					}
+				}
+			},
+			id: "prefab:item_basic_structure",
+			tag: {
+				ForgeCaps: {
+					"prefab:structuresconfiguration": {
+						configuration: {
+							wareHouseFacing: "north",
+							structureEnumName: "EnderGateway"
+						}
+					}
+				},
+				id: "prefab:item_basic_structure",
+				Count: 1b,
+				Damage: 0s
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"prefab:structuresconfiguration": {
+					configuration: {
+						wareHouseFacing: "north",
+						structureEnumName: "AdvancedCoop"
+					}
+				}
+			},
+			id: "prefab:item_basic_structure",
+			tag: {
+				ForgeCaps: {
+					"prefab:structuresconfiguration": {
+						configuration: {
+							wareHouseFacing: "north",
+							structureEnumName: "AdvancedCoop"
+						}
+					}
+				},
+				id: "prefab:item_basic_structure",
+				Count: 1b,
+				Damage: 0s
+			}
+		},
+		random_bonus: 1
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"prefab:structuresconfiguration": {
+					configuration: {
+						wareHouseFacing: "north",
+						structureEnumName: "AdvancedHorseStable"
+					}
+				}
+			},
+			id: "prefab:item_basic_structure",
+			tag: {
+				ForgeCaps: {
+					"prefab:structuresconfiguration": {
+						configuration: {
+							wareHouseFacing: "north",
+							structureEnumName: "AdvancedHorseStable"
+						}
+					}
+				},
+				id: "prefab:item_basic_structure",
+				Count: 1b,
+				Damage: 0s
+			}
+		},
+		random_bonus: 1
+	},
+	{
+		item: "prefab:item_produce_farm",
+		count: 2
+	},
+	{
+		item: "progressivebosses:nether_star_shard",
+		count: 32,
+		random_bonus: 32
+	},
+	{
+		item: "thermalfoundation:upgrade 1 35",
+		count: 2,
+		random_bonus: 2
+	},
+	{
+		item: "thermalfoundation:fertilizer 1 2",
+		count: 32,
+		random_bonus: 32
+	},
+	{
+		item: "harvestcraft:netherstartoastitem",
+		random_bonus: 1
+	},
+	{
+		item: "cyclicmagic:glowing_chorus",
+		count: 24,
+		random_bonus: 12
+	},
+	{
+		item: {
+			id: "cyclicmagic:ender_eye_orb"
+		}
+	},
+	{
+		item: "chancecubes:compact_giant_chance_cube"
+	},
+	{
+		item: {
+			id: "ironbackpacks:backpack",
+			tag: {
+				packInfo: {
+					upgrade: [],
+					type: "ironbackpacks:diamond",
+					spec: "STORAGE"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "chisel:chisel_hitech",
+			tag: {
+				chiseldata: {}
+			}
+		}
+	},
+	{
+		item: "conarm:resist_mat",
+		count: 4,
+		random_bonus: 4
+	},
+	{
+		item: "tconstruct:materials 1 14",
+		count: 8,
+		random_bonus: 8
+	},
+	{
+		item: {
+			id: "extracells:storage.physical",
+			tag: {
+				upgrades: {},
+				config: {},
+				fuzzyMode: "IGNORE_ALL"
+			}
+		}
+	},
+	{
+		item: {
+			id: "extracells:storage.physical",
+			tag: {
+				upgrades: {},
+				config: {},
+				fuzzyMode: "IGNORE_ALL"
+			},
+			Damage: 1s
+		}
+	},
+	{
+		item: "enderio:item_basic_capacitor 1 2",
+		count: 2,
+		random_bonus: 2
+	},
+	{
+		item: "enderio:item_capacitor_crystalline",
+		count: 2,
+		random_bonus: 1
+	},
+	{
+		item: {
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_pink"
+			}
+		}
+	},
+	{
+		item: {
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_ender"
+			}
+		}
+	},
+	{
+		item: "thaumcraft:sanity_soap",
+		count: 2,
+		random_bonus: 2
+	},
+	{
+		item: "mysticalagradditions:tier6_inferium_seeds",
+		count: 8,
+		random_bonus: 8
+	},
+	{
+		item: "tinymobfarm:diamond_farm",
+		count: 2,
+		random_bonus: 1
+	},
+	{
+		item: "solarflux:solar_panel_7",
+		count: 2,
+		random_bonus: 1
+	},
+	{
+		item: "solarflux:solar_panel_6",
+		count: 6,
+		random_bonus: 5
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_2"
+			}
+		},
+		random_bonus: 8
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_1"
+			}
+		},
+		random_bonus: 75
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_4"
+			}
+		}
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_3"
+			}
+		},
+		random_bonus: 1
+	},
+	{
+		item: {
+			id: "minecraft:magenta_shulker_box",
+			tag: {
+				BlockEntityTag: {
+					Items: [{
+						Slot: 0,
+						id: "magenta_shulker_box",
+						Count: 1,
+						tag: {
+							BlockEntityTag: {
+								Items: [{
+									Slot: 0,
+									id: "magenta_shulker_box",
+									Count: 1,
+									tag: {
+										BlockEntityTag: {
+											Items: [{
+												Slot: 0,
+												id: "magenta_shulker_box",
+												Count: 1,
+												tag: {
+													BlockEntityTag: {
+														Items: [{
+															Slot: 0,
+															id: "magenta_shulker_box",
+															Count: 1,
+															tag: {
+																BlockEntityTag: {
+																	Items: [{
+																		Slot: 0,
+																		id: "magenta_shulker_box",
+																		Count: 1,
+																		tag: {
+																			BlockEntityTag: {
+																				Items: [{
+																					Slot: 0,
+																					id: "magenta_shulker_box",
+																					Count: 1,
+																					tag: {
+																						BlockEntityTag: {
+																							Items: [{
+																								Slot: 0,
+																								id: "magenta_shulker_box",
+																								Count: 1,
+																								tag: {
+																									BlockEntityTag: {
+																										Items: [{
+																											Slot: 0,
+																											id: "magenta_shulker_box",
+																											Count: 1,
+																											tag: {
+																												BlockEntityTag: {
+																													Items: [{
+																														Slot: 0,
+																														id: "magenta_shulker_box",
+																														Count: 1,
+																														tag: {
+																															BlockEntityTag: {
+																																Items: [{
+																																	Slot: 0,
+																																	id: "magenta_shulker_box",
+																																	Count: 1,
+																																	tag: {
+																																		BlockEntityTag: {
+																																			Items: [{
+																																				Slot: 0,
+																																				id: "magenta_shulker_box",
+																																				Count: 1,
+																																				tag: {
+																																					BlockEntityTag: {
+																																						Items: [{
+																																							Slot: 0,
+																																							id: "magenta_shulker_box",
+																																							Count: 1,
+																																							tag: {
+																																								BlockEntityTag: {
+																																									Items: [{
+																																										Slot: 0,
+																																										id: "magenta_shulker_box",
+																																										Count: 1,
+																																										tag: {
+																																											BlockEntityTag: {
+																																												Items: [{
+																																													Slot: 0,
+																																													id: "magenta_shulker_box",
+																																													Count: 1,
+																																													tag: {
+																																														BlockEntityTag: {
+																																															Items: [{
+																																																Slot: 0,
+																																																id: "magenta_shulker_box",
+																																																Count: 1,
+																																																tag: {
+																																																	BlockEntityTag: {
+																																																		Items: [{
+																																																			Slot: 0,
+																																																			id: "nether_star",
+																																																			Count: 64
+																																																		},
+																																																		{
+																																																			Slot: 1,
+																																																			id: "draconicevolution:draconic_core",
+																																																			Count: 64
+																																																		}]
+																																																	},
+																																																	display: {
+																																																		Lore: [
+																																																			"§b§oLooks like you've reached an end."
+																																																		],
+																																																		Name: "§d§oThe Last Box"
+																																																	}
+																																																}
+																																															}]
+																																														},
+																																														display: {
+																																															Lore: [
+																																																"§bjava.lang.StackOverflowError"
+																																															],
+																																															Name: "§cBox of Recursion"
+																																														}
+																																													}
+																																												}]
+																																											},
+																																											display: {
+																																												Lore: [
+																																													"§bjava.lang.StackOverflowError"
+																																												],
+																																												Name: "§cBox of Recursion"
+																																											}
+																																										}
+																																									}]
+																																								},
+																																								display: {
+																																									Lore: [
+																																										"§bjava.lang.StackOverflowError"
+																																									],
+																																									Name: "§cBox of Recursion"
+																																								}
+																																							}
+																																						}]
+																																					},
+																																					display: {
+																																						Lore: [
+																																							"§bjava.lang.StackOverflowError"
+																																						],
+																																						Name: "§cBox of Recursion"
+																																					}
+																																				}
+																																			}]
+																																		},
+																																		display: {
+																																			Lore: [
+																																				"§bjava.lang.StackOverflowError"
+																																			],
+																																			Name: "§cBox of Recursion"
+																																		}
+																																	}
+																																}]
+																															},
+																															display: {
+																																Lore: [
+																																	"§bjava.lang.StackOverflowError"
+																																],
+																																Name: "§cBox of Recursion"
+																															}
+																														}
+																													}]
+																												},
+																												display: {
+																													Lore: [
+																														"§bjava.lang.StackOverflowError"
+																													],
+																													Name: "§cBox of Recursion"
+																												}
+																											}
+																										}]
+																									},
+																									display: {
+																										Lore: [
+																											"§bjava.lang.StackOverflowError"
+																										],
+																										Name: "§cBox of Recursion"
+																									}
+																								}
+																							}]
+																						},
+																						display: {
+																							Lore: [
+																								"§bjava.lang.StackOverflowError"
+																							],
+																							Name: "§cBox of Recursion"
+																						}
+																					}
+																				}]
+																			},
+																			display: {
+																				Lore: [
+																					"§bjava.lang.StackOverflowError"
+																				],
+																				Name: "§cBox of Recursion"
+																			}
+																		}
+																	}]
+																},
+																display: {
+																	Lore: [
+																		"§bjava.lang.StackOverflowError"
+																	],
+																	Name: "§cBox of Recursion"
+																}
+															}
+														}]
+													},
+													display: {
+														Lore: [
+															"§bjava.lang.StackOverflowError"
+														],
+														Name: "§cBox of Recursion"
+													}
+												}
+											}]
+										},
+										display: {
+											Lore: [
+												"§bjava.lang.StackOverflowError"
+											],
+											Name: "§cBox of Recursion"
+										}
+									}
+								}]
+							},
+							display: {
+								Lore: [
+									"§bjava.lang.StackOverflowError"
+								],
+								Name: "§cBox of Recursion"
+							}
+						}
+					}]
+				},
+				display: {
+					Lore: [
+						"§bjava.lang.StackOverflowError"
+					],
+					Name: "§cBox of Recursion"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "thermalexpansion:reservoir",
+			tag: {},
+			Damage: 4s
+		}
+	},
+	{
+		item: "mysticalagradditions:special"
+	},
+	{
+		item: "mysticalagradditions:special 1 4"
+	},
+	{
+		item: {
+			id: "globalxp:xp_block",
+			tag: {
+				BlockEntityTag: {
+					stored_xp: 14999,
+					x: -70,
+					y: 74,
+					ForgeCaps: {
+						"abyssalcraft:itemtransfer": {
+							isRunning: 0b,
+							configurations: []
+						}
+					},
+					z: 176,
+					id: "globalxp:xp_block"
+				}
+			}
+		}
+	},
+	{
+		item: "mysticalagriculture:crafting 1 36",
+		random_bonus: 12
+	},
+	{
+		item: "mysticalagriculture:crafting 1 37",
+		random_bonus: 5
+	},
+	{
+		item: "tinymobfarm:emerald_farm"
+	},
+	{
+		item: "abyssalcraft:dreadshard",
+		random_bonus: 7
+	},
+	{
+		item: {
+			id: "abyssalcraft:antidote"
+		},
+		random_bonus: 6
+	},
+	{
+		item: {
+			id: "abyssalcraft:antidote",
+			Damage: 1s
+		},
+		random_bonus: 4
+	},
+	{
+		item: "extrautils2:compresseddirt 1 3",
+		random_bonus: 3
+	},
+	{
+		item: "thermalfoundation:upgrade 1 35"
+	},
+	{
+		item: "thermalfoundation:upgrade 1 34"
+	},
+	{
+		item: "minecraft:beacon",
+		random_bonus: 3
+	},
+	{
+		item: "thermalfoundation:storage 1 7",
+		random_bonus: 1
+	},
+	{
+		item: "mysticalagriculture:iridium_seeds",
+		random_bonus: 3
+	},
+	{
+		item: "additions:greedycraft-poop",
+		count: 7,
+		random_bonus: 12
+	},
+	{
+		item: {
+			id: "inventorypets:slime_pet",
+			tag: {
+				GiveItems: 1b
+			}
+		}
+	},
+	{
+		item: {
+			id: "inventorypets:pufferfish_pet"
+		}
+	},
+	{
+		item: {
+			id: "inventorypets:black_hole_pet",
+			tag: {
+				AttractItems: 1b
+			}
+		}
+	},
+	{
+		item: "additions:greedycraft-medkit_super",
+		random_bonus: 1
+	},
+	{
+		item: {
+			id: "projecte:item.pe_klein_star",
+			tag: {},
+			Damage: 5s
+		},
+		random_bonus: 1
+	},
+	{
+		item: "openmodularturrets:turret_base 1 4",
+		random_bonus: 2
+	},
+	{
+		item: "openmodularturrets:rail_gun_turret",
+		random_bonus: 1
+	},
+	{
+		item: "openmodularturrets:ammo_meta 1 2",
+		random_bonus: 640
+	},
+	{
+		item: {
+			id: "inventorypets:meta_pet"
+		},
+		random_bonus: 3
+	},
+	{
+		item: "mysticalagriculture:growth_accelerator",
+		random_bonus: 5
+	},
+	{
+		item: "additions:greedycraft-compressed_experience_block",
+		random_bonus: 18
+	},
+	{
+		item: "minecraft:skull 1 1",
+		count: 15,
+		random_bonus: 30
+	},
+	{
+		item: "minecraft:diamond_block",
+		count: 10,
+		random_bonus: 30
+	},
+	{
+		item: {
+			id: "minecraft:written_book",
+			tag: {
+				pages: [
+					"{\"text\":\"§cExperiment Log §6#-2147483647\\n\\n§k//// HELP US!\\n§d§k//// OOUR SPECIES IS IN GREAT DANGER\\n§k§4§c§k//// HALF OF OUR PEOPLE WERE ERASED IN THE PAST FEW HOURS\\n§2§k//// SEEK FOR COMMUNICATION WITH THE INTRUDER IMMEDIATELY\\n\\n§k§4§k - UNITED GOVERNMENT\\n§k§9§k§9§k- OPERATOR\"}"
+				],
+				author: "J",
+				title: "§b§kEMERGENCY!§6",
+				resolved: 1b
+			}
+		}
+	},
+	{
+		item: {
+			id: "mekanismgenerators:generator",
+			Damage: 6s
+		},
+		random_bonus: 3
+	},
+	{
+		item: {
+			id: "additions:greedycraft-true_blood_sigil"
+		}
+	},
+	{
+		item: "projectex:collector 1 2"
+	},
+	{
+		item: {
+			id: "inventorypets:cloud_pet"
+		}
+	},
+	{
+		item: "additions:tcsponsors-sponsors_chest",
+		weight: 2
+	},
+	{
+		item: {
+			id: "avaritia:skullfire_sword"
+		}
+	},
+	{
+		item: {
+			id: "bountifulbaubles:wormholemirror"
+		}
+	},
+	{
+		item: "additions:greedycraft-delivery_order",
+		random_bonus: 4,
+		weight: 2
+	},
+	{
+		item: {
+			id: "chancecubes:silk_touch_pendant"
+		}
+	},
+	{
+		item: {
+			id: "additions:greedycraft-one_punch",
+			tag: {
+				ench: [{
+					lvl: 33s,
+					id: 19
+				}]
+			}
+		}
+	},
+	{
+		item: "additions:greedycraft-blueprint_yoyo"
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -6677120288058627187L,
+					AS_Amulet_HolderMost: 3244428519259456314L
+				}
+			},
+			id: "touhou_little_maid:gashapon",
+			Damage: 5s
+		},
+		random_bonus: 1
+	},
+	{
+		item: "additions:greedycraft-food_bag",
+		random_bonus: 4
+	},
+	{
+		item: "touhou_little_maid:gashapon_coin",
+		count: 7,
+		random_bonus: 15
+	},
+	{
+		item: "minecraft:emerald_block",
+		count: 16,
+		random_bonus: 12
+	},
+	{
+		item: "taiga:adamant_ingot",
+		random_bonus: 2
+	},
+	{
+		item: "additions:greedycraft-plate_of_honor"
+	},
+	{
+		item: {
+			id: "additions:greedycraft-true_eye_of_ender"
+		}
+	}],
+	loot_crate: {
+		string_id: "loot_level_3",
+		item_name: "Loot Crate §d[EPIC]",
+		color: 16733695,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

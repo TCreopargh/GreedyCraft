@@ -1,0 +1,32 @@
+
+{
+	title: "{greedycraft.quest.4aa25bd1.title}",
+	x: -8.0d,
+	y: 5.5d,
+	description: "{greedycraft.quest.4aa25bd1.desc}",
+	dependencies: [
+		"203ff556"
+	],
+	tasks: [{
+		uid: "62e8c205",
+		type: "kill",
+		entity: "defiledlands:the_mourner",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "3dddf316",
+		type: "xp",
+		xp: 2300
+	},
+	{
+		uid: "7d176631",
+		type: "item",
+		item: "defiledlands:ravaging_ingot",
+		count: 10
+	},
+	{
+		uid: "ffcf41e8",
+		type: "random",
+		table: 2
+	}]
+}

@@ -1,0 +1,12 @@
+{
+  "weight": 15,
+  "type": "tconevo:tool",
+  "name": "Icemourne",
+  "lore": "Great powers come with great costs.",
+  "tool": "broadsword",
+  "materials": [
+    "cytosinite",
+	"cryonium",
+    "asgardium"
+  ]
+}

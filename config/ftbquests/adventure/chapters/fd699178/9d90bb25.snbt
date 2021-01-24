@@ -1,0 +1,42 @@
+{
+	title: "{greedycraft.quest.9d90bb25.title}",
+	x: 0.5d,
+	y: -0.5d,
+	description: "{greedycraft.quest.9d90bb25.desc}",
+	dependencies: [
+		"2cad7aab",
+		"bef89d76"
+	],
+	tasks: [{
+		uid: "bd2911da",
+		type: "observation",
+		title: "§9Put a Inscriber on the ground and look at it!",
+		icon: "appliedenergistics2:inscriber",
+		match_type: "block_id",
+		match: "appliedenergistics2:inscriber",
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "d212332a",
+		type: "item",
+		item: "appliedenergistics2:inscriber",
+		count: 3
+	},
+	{
+		uid: "473046b7",
+		type: "item",
+		item: "minecraft:hopper",
+		count: 20
+	},
+	{
+		uid: "fd69bb0e",
+		type: "item",
+		item: "ironchest:iron_chest",
+		count: 20
+	},
+	{
+		uid: "0729a01a",
+		type: "loot",
+		table: 1
+	}]
+}

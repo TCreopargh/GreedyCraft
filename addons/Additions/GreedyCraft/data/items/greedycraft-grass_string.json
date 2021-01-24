@@ -1,0 +1,6 @@
+{
+  "name": "§2Grass String",
+  "tooltip": "§a100% Natural, jsut too easy to break.",
+  "ore_dict": "string",
+  "type": "additions:simple"
+}

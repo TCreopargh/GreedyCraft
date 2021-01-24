@@ -1,0 +1,22 @@
+
+{
+	title: "{greedycraft.quest.d0a698b8.title}",
+	icon: "botania:pool",
+	x: -2.5d,
+	y: 0.0d,
+	description: "{greedycraft.quest.d0a698b8.desc}",
+	can_repeat: true,
+	dependencies: [
+		"b1e0c43f"
+	],
+	tasks: [{
+		uid: "2b7c40a2",
+		type: "botania_mana",
+		value: 10000000L
+	}],
+	rewards: [{
+		uid: "5a37a70b",
+		type: "item",
+		item: "additions:greedycraft-mana_singularity"
+	}]
+}

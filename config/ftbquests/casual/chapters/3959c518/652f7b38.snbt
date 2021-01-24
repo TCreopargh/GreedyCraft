@@ -1,0 +1,17 @@
+
+{
+	x: -4.0d,
+	y: 3.5d,
+	tasks: [{
+		uid: "59f308b0",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-dragon_soul"
+		}]
+	}],
+	rewards: [{
+		uid: "4f7d7123",
+		type: "loot",
+		table: 3
+	}]
+}

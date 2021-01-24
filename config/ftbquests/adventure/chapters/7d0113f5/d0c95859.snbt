@@ -1,0 +1,53 @@
+{
+	title: "{greedycraft.quest.d0c95859.title}",
+	x: -3.5d,
+	y: -2.5d,
+	description: "{greedycraft.quest.d0c95859.desc}",
+	dependencies: [
+		"e42bd6a4"
+	],
+	tasks: [{
+		uid: "702bd0d5",
+		type: "item",
+		items: [{
+			item: "thaumcraft:tallow"
+		}]
+	}],
+	rewards: [{
+		uid: "e0d648a3",
+		type: "xp",
+		xp: 150
+	},
+	{
+		uid: "98423090",
+		type: "item",
+		item: "thaumcraft:tallow",
+		count: 10
+	},
+	{
+		uid: "a346834d",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "4f2b068c",
+		type: "command",
+		title: "§cThis command is to fix a problem that caused some research to be impossible to complete",
+		auto: "enabled",
+		command: "/thaumcraft research @p HEDGEALCHEMY"
+	},
+	{
+		uid: "8566691c",
+		type: "item",
+		item: {
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "ignis"
+				}]
+			}
+		},
+		count: 32
+	}]
+}

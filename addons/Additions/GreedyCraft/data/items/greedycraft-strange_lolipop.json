@@ -1,0 +1,35 @@
+{
+  "name": "§6Strange Lollipop",
+  "shines": true,
+  "tooltip": [
+    "§eMakes you move super slow",
+    "§eBut grants a huge boost to damage.",
+    "§d§lEXPERT ONLY"
+  ],
+  "hunger": 10,
+  "saturation": 0.5,
+  "always_edible": true,
+  "eaten_effects": [
+    {
+      "potion": {
+        "name": "minecraft:slowness",
+        "duration": 300,
+        "amplifier": 4,
+        "ambient": false,
+        "show_particles": true
+      },
+      "type": "additions:potion"
+    },
+    {
+      "potion": {
+        "name": "minecraft:strength",
+        "duration": 300,
+        "amplifier": 5,
+        "ambient": false,
+        "show_particles": true
+      },
+      "type": "additions:potion"
+    }
+  ],
+  "type": "additions:food"
+}

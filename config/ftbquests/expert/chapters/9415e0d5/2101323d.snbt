@@ -1,0 +1,26 @@
+
+{
+	title: "{greedycraft.quest.2101323d.title}",
+	x: 4.0d,
+	y: 1.5d,
+	description: "{greedycraft.quest.2101323d.desc}",
+	tasks: [{
+		uid: "f301622c",
+		type: "item",
+		items: [{
+			id: "lavawaderbauble:lavawaderbauble"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "896ac32d",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "6878285e",
+		type: "xp",
+		xp: 2500
+	}]
+}

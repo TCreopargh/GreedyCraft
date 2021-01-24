@@ -1,0 +1,22 @@
+{
+	title: "{greedycraft.quest.ac4697b8.title}",
+	icon: "minecraft:experience_bottle",
+	x: 8.0d,
+	y: 0.0d,
+	description: "{greedycraft.quest.ac4697b8.desc}",
+	can_repeat: true,
+	dependencies: [
+		"b1e0c43f"
+	],
+	tasks: [{
+		uid: "69ffa6a3",
+		type: "xp",
+		value: 1000000L,
+		points: true
+	}],
+	rewards: [{
+		uid: "ab285f97",
+		type: "item",
+		item: "additions:greedycraft-experience_singularity"
+	}]
+}

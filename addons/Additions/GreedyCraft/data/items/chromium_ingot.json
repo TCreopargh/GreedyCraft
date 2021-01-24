@@ -1,0 +1,6 @@
+{
+  "name": "§3Chromium Ingot",
+  "is_beacon_payment": true,
+  "ore_dict": "ingotChromium",
+  "type": "additions:simple"
+}

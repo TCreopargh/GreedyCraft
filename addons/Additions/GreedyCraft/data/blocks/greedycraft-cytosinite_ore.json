@@ -1,0 +1,16 @@
+{
+  "item_block": {
+    "name": "§aCytosinite Ore",
+    "ore_dict": "oreCytosinite",
+    "type": "additions:block_simple"
+  },
+  "name": "§aCytosinite Ore",
+  "material": "minecraft:dirt",
+  "map_color": "minecraft:lime",
+  "hardness": 3.0,
+  "resistance": 15.0,
+  "harvest_level": 6,
+  "harvest_tool": "shovel",
+  "light_level": 4,
+  "type": "additions:simple"
+}

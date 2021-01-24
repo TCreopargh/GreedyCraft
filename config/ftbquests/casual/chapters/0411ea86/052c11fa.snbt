@@ -1,0 +1,62 @@
+
+{
+	title: "{greedycraft.quest.052c11fa.title}",
+	icon: "twilightforest:trophy 1 2",
+	x: 4.0d,
+	y: -3.0d,
+	description: "{greedycraft.quest.052c11fa.desc}",
+	dependencies: [
+		"330265f8"
+	],
+	tasks: [{
+		uid: "fbdfcf08",
+		type: "item",
+		items: [{
+			item: "twilightforest:trophy 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "dd456421",
+		type: "item",
+		item: "twilightforest:fiery_ingot",
+		count: 12
+	},
+	{
+		uid: "57b93891",
+		type: "xp",
+		xp: 2500
+	},
+	{
+		uid: "80818d64",
+		type: "item",
+		item: "twilightforest:twilight_sapling 1 5"
+	},
+	{
+		uid: "2771a751",
+		type: "item",
+		item: "twilightforest:twilight_sapling 1 6"
+	},
+	{
+		uid: "a7937a5c",
+		type: "item",
+		item: "twilightforest:hydra_chop",
+		count: 12
+	},
+	{
+		uid: "92ec23be",
+		type: "item",
+		item: "thermalfoundation:material 1 1024",
+		count: 32
+	},
+	{
+		uid: "cf9dfc80",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "486cae56",
+		type: "advancement",
+		advancement: "twilightforest:progress_hydra",
+		criterion: ""
+	}]
+}

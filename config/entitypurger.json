@@ -1,0 +1,38 @@
+{
+    "version": "1.2.3",
+    "logging": false,
+    "whitelist": [],
+    "blacklist": ["mca.entity.*", "de.ellpeck.actuallyadditions.mod.entity.EntityWorm", "net.minecraft.entity.item.EntityItemFrame", "net.minecraft.entity.item.EntityPainting"],
+    "defaultThreshold": 15,
+    "checkTimeSeconds": 10,
+    "purgeTamedEntities": false,
+    "blacklistedChunksNearPlayer": 3,
+    "claimedChunksAreBlacklisted": true,
+    "entitySettings": [{
+        "entityId": "net.minecraft.entity.item.*",
+        "threshold": 64,
+        "lifetime": 30,
+        "overrideClaimedChunk": false,
+        "overridePlayerChunk": false
+    }, {
+        "entityId": "net.minecraft.entity.passive.*",
+        "threshold": 25,
+        "overrideClaimedChunk": false,
+        "overridePlayerChunk": false
+    }, {
+        "entityId": "ZombieAwareness.EntityScent",
+        "threshold": 20,
+        "overrideClaimedChunk": true,
+        "overridePlayerChunk": false
+    }, {
+        "entityId": "com.github.tartaricacid.touhoulittlemaid.entity.passive.EntityMaid",
+        "threshold": 100,
+        "overrideClaimedChunk": false,
+        "overridePlayerChunk": false
+    }, {
+        "entityId": "vibrantjourneys.entities.passive.EntityBeachStarfish",
+        "threshold": 6,
+        "overrideClaimedChunk": false,
+        "overridePlayerChunk": false
+    }]
+}

@@ -1,0 +1,58 @@
+
+{
+	title: "{greedycraft.quest.68ef7c06.title}",
+	x: 2.0d,
+	y: 0.0d,
+	shape: "square",
+	description: "{greedycraft.quest.68ef7c06.desc}",
+	dependencies: [
+		"464fff41"
+	],
+	tasks: [{
+		uid: "36dcfa16",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconium_dust"
+		}]
+	}],
+	rewards: [{
+		uid: "7ec52e17",
+		type: "item",
+		item: "minecraft:diamond",
+		count: 6
+	},
+	{
+		uid: "3c363174",
+		type: "xp",
+		xp: 500
+	},
+	{
+		uid: "5a2da47a",
+		type: "item",
+		item: {
+			id: "minecraft:diamond_pickaxe",
+			tag: {
+				ench: [{
+					lvl: 5s,
+					id: 32
+				},
+				{
+					lvl: 3s,
+					id: 34
+				}]
+			}
+		}
+	},
+	{
+		uid: "8262fe46",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "8c33da73",
+		type: "item",
+		item: {
+			id: "inventorypets:meta_pet"
+		}
+	}]
+}

@@ -1,0 +1,34 @@
+{
+	title: "{greedycraft.quest.b24d91eb.title}",
+	x: 6.0d,
+	y: -1.5d,
+	description: "{greedycraft.quest.b24d91eb.desc}",
+	dependencies: [
+		"48323d8b"
+	],
+	tasks: [{
+		uid: "8f9ae330",
+		type: "item",
+		items: [{
+			id: "abyssalcraft:eoa"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8e4e1f0e",
+		type: "item",
+		item: "abyssalcraft:cingot",
+		count: 16
+	},
+	{
+		uid: "f5432bba",
+		type: "xp",
+		xp: 4500
+	},
+	{
+		uid: "ebf05b0b",
+		type: "loot",
+		table: 1
+	}]
+}

@@ -1,0 +1,113 @@
+{
+	"version": "1.0",
+	"pools": [
+		{
+			"name": "scarce_items",
+			"rolls": 1,
+			"entries": [
+				{
+					"entryName": "arrow",
+					"type": "item",
+					"name": "minecraft:arrow",
+					"weight": 50,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 10,
+								"max": 20
+							}
+						}
+					]						
+				},			
+				{
+					"entryName": "tnt",
+					"type": "item",
+					"name": "minecraft:tnt",
+					"weight": 35,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					]						
+				},
+				{
+					"entryName": "blaze_powder",
+					"type": "item",
+					"name": "minecraft:blaze_powder",
+					"weight": 25,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 4
+							}
+						}
+					]						
+				},
+				{
+					"entryName": "diamond",
+					"type": "item",
+					"name": "minecraft:diamond",
+					"weight": 15,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					]						
+				},				
+				{
+					"entryName": "iron_ingot",
+					"type": "item",
+					"name": "minecraft:iron_ingot",
+					"weight": 20,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 8,
+								"max": 12
+							}
+						}
+					]						
+				},
+				{
+					"entryName": "iron_block",
+					"type": "item",
+					"name": "minecraft:iron_block",
+					"weight": 15,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					]							
+				},
+				{
+					"entryName": "ender_pearl",
+					"type": "item",
+					"name": "minecraft:ender_pearl",
+					"weight": 15				
+				},
+				{
+					"entryName": "gunpowder",
+					"type": "item",
+					"name": "minecraft:gunpowder",
+					"weight": 20
+				}				
+			]
+		}
+	]
+}

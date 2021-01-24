@@ -1,0 +1,57 @@
+{
+	title: "{greedycraft.quest.70b02e2f.title}",
+	icon: "draconicevolution:reactor_core",
+	x: 16.0d,
+	y: 0.0d,
+	shape: "square",
+	description: "{greedycraft.quest.70b02e2f.desc}",
+	dependencies: [
+		"b4991d6f",
+		"506b94fd"
+	],
+	tasks: [{
+		uid: "0de0267d",
+		type: "item",
+		items: [{
+			item: "draconicevolution:reactor_core"
+		}]
+	},
+	{
+		uid: "372e9860",
+		type: "item",
+		items: [{
+			item: "draconicevolution:reactor_component"
+		}]
+	},
+	{
+		uid: "d7a54cb1",
+		type: "item",
+		items: [{
+			item: "draconicevolution:reactor_component 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "2a5e95c2",
+		type: "xp",
+		xp: 1000000
+	},
+	{
+		uid: "d84a03e0",
+		type: "item",
+		item: {
+			id: "draconicevolution:draconium_capacitor",
+			tag: {
+				DEUpgrades: {
+					rfCap: 4b
+				},
+				Energy: 768000000
+			},
+			Damage: 1s
+		}
+	},
+	{
+		uid: "a1a3acc7",
+		type: "loot",
+		table: 3
+	}]
+}

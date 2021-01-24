@@ -1,0 +1,18 @@
+{
+    "version": "1.1",
+    "pools": [
+        {
+            "name": "epic_charms",
+            "rolls": 1,
+            "entries": [
+                {
+                    "entryName": "simple_dungeon_inject",
+                    "weight": 1,
+                    "quality": 0,
+                    "type": "loot_table",
+                    "name": "minecraft:chests/simple_dungeon"
+                }
+            ]
+        }
+    ]
+}

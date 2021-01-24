@@ -1,0 +1,25 @@
+
+{
+	x: -8.5d,
+	y: -2.5d,
+	dependencies: [
+		"99f6417a"
+	],
+	tasks: [{
+		uid: "01035e8b",
+		type: "item",
+		items: [{
+			item: "forestry:carpenter"
+		}]
+	}],
+	rewards: [{
+		uid: "709bd0a6",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "d6770a60",
+		type: "xp",
+		xp: 250
+	}]
+}

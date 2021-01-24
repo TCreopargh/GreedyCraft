@@ -1,0 +1,39 @@
+
+{
+	title: "{greedycraft.quest.1b74d74a.title}",
+	x: 6.5d,
+	y: -3.0d,
+	description: "{greedycraft.quest.1b74d74a.desc}",
+	dependencies: [
+		"6e46a027"
+	],
+	tasks: [{
+		uid: "24f36077",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:wireless_access_point"
+		}]
+	}],
+	rewards: [{
+		uid: "8695eb84",
+		type: "item",
+		item: "appliedenergistics2:material 1 8",
+		count: 64
+	},
+	{
+		uid: "b21a192d",
+		type: "xp",
+		xp: 700
+	},
+	{
+		uid: "064b4e18",
+		type: "item",
+		item: "appliedenergistics2:material 1 42",
+		count: 16
+	},
+	{
+		uid: "57064065",
+		type: "loot",
+		table: 1
+	}]
+}

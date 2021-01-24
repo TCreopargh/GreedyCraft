@@ -1,0 +1,6 @@
+{
+	"name": "§3Logs",
+	"description": "Logs shall be written on a regular basis to record the latest progress of the Elysian Project. $(br)$(4)Note: Some logs are only available to permitted staff. Locked logs will unlock as you progress in the game, you can view advancements for details.",
+	"icon": "additions:greedycraft-experiment_note",
+	"sortnum": 3
+}

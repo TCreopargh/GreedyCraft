@@ -1,0 +1,27 @@
+{
+    "name": "§2§nFirst day's survival",
+    "icon": "additions:greedycraft-crude_hatchet",
+    "category": "patchouli:guide_category",
+	"priority": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(2)When you first step into this world you might notice that some stuff doesn't match your vanilla Minecraft experience.$()For example, you can't chop trees with bare hands. To make a crafting table, you need to do these stuff:$(li)$(9)Right click$() tall grass on the ground with empty hand to get $(2)Plant Fiber$(7) (There's a chance to drop)$();"
+        },
+        {
+            "type": "text",
+            "text": "$(li)$(9)Right click$() tiny rocks scattered around the surface with enpty hands to get $(5)Pebbles$();$(li)Break tree leaves with $(9)bare hands$() to get $(6)wooden sticks$();$(li)Use everything you get so far to make a $(9)Crude Hatchet$(), then you can chop trees with it!"
+        },
+		{
+            "type": "spotlight",
+			"title": "§2Scattered rocks look like this!",
+			"item": "pvj:stone_rocks",
+            "text": "$(br)$(2)Note: if you can't find rocks, try to find it near cave entrances, where there will usually be a lot.$()$(br)Rocks have many variants like Granite Rocks, Diorite Rocks, etc and they all give you pebble.$()$(br)The next page lists crafting recipes you will need. $(5)Note: these are shapeless recipes and just put all of the ingredients in the 2*2 crafting grid in your inventory.$()"
+        },
+		{
+			"type": "crafting",
+			"recipe": "crafttweaker:auto_gen_-1599197603",
+			"recipe2": "crafttweaker:auto_gen_-689226972"
+		}
+    ]
+}

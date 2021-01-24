@@ -1,0 +1,16 @@
+{
+    "name": "Log §9#8",
+    "icon": "additions:greedycraft-experiment_note",
+    "category": "patchouli:logs",
+    "advancement": "greedycraft:elysia/log8",
+    "pages": [
+        {
+            "type": "text",
+            "text": "The population of EPUI has decreased to thousands. We gave no predictions for the outcome of the project and now we realize we are all wrong."
+        },
+        {
+            "type": "text",
+            "text": "Maybe human will eventury pay for their greediness, even if the Elysian Project never existed. But we are still hoping a miracle to happen, hoping for an executor to arise and save humanity from the wrong path.$(br2)Sep 27th, 2044"
+        }
+    ]
+}

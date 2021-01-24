@@ -1,0 +1,38 @@
+{
+	title: "{greedycraft.quest.ce6ed5d4.title}",
+	x: 1.5d,
+	y: 3.5d,
+	description: "{greedycraft.quest.ce6ed5d4.desc}",
+	dependencies: [
+		"f179af17"
+	],
+	tasks: [{
+		uid: "91658905",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:transmutator"
+		}]
+	}],
+	rewards: [{
+		uid: "257be65b",
+		type: "item",
+		item: "abyssalcraft:cbrick",
+		count: 64
+	},
+	{
+		uid: "4a9f5f18",
+		type: "item",
+		item: "abyssalcraft:cingot",
+		count: 16
+	},
+	{
+		uid: "8e2539a9",
+		type: "xp",
+		xp: 6000
+	},
+	{
+		uid: "80ecb736",
+		type: "loot",
+		table: 1
+	}]
+}

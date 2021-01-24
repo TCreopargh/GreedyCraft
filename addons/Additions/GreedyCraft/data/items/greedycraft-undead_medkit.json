@@ -1,0 +1,25 @@
+{
+  "name": "§2Medkit (Undead only)",
+  "tooltip": [
+    "§6A medkit designed for the undead!",
+    "§2UNDEAD ONLY. USE AT YOUR OWN RISK.",
+    "§d§lEXPERT ONLY"
+  ],
+  "hunger": 0,
+  "saturation": 0.0,
+  "always_edible": true,
+  "eat_time": 10,
+  "eaten_effects": [
+    {
+      "potion": {
+        "name": "minecraft:instant_damage",
+        "duration": 1,
+        "amplifier": 3,
+        "ambient": false,
+        "show_particles": true
+      },
+      "type": "additions:potion"
+    }
+  ],
+  "type": "additions:food"
+}

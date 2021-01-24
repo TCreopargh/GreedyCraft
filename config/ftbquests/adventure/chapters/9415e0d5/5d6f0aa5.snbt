@@ -1,0 +1,43 @@
+{
+	title: "{greedycraft.quest.5d6f0aa5.title}",
+	x: -4.0d,
+	y: 3.5d,
+	description: "{greedycraft.quest.5d6f0aa5.desc}",
+	tasks: [{
+		uid: "f67deeda",
+		type: "item",
+		items: [{
+			item: "sereneseasons:season_clock"
+		}]
+	}],
+	rewards: [{
+		uid: "98891ab1",
+		type: "item",
+		item: "sereneseasons:season_sensor_spring"
+	},
+	{
+		uid: "b931716f",
+		type: "item",
+		item: "sereneseasons:season_sensor_summer"
+	},
+	{
+		uid: "0f65ecfb",
+		type: "item",
+		item: "sereneseasons:season_sensor_autumn"
+	},
+	{
+		uid: "da1a724d",
+		type: "item",
+		item: "sereneseasons:season_sensor_winter"
+	},
+	{
+		uid: "7fdc49ed",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "a385d63f",
+		type: "loot",
+		table: 0
+	}]
+}

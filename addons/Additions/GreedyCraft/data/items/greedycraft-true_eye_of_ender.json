@@ -1,0 +1,7 @@
+{
+  "name": "§6True Eye of Ender",
+  "shines": true,
+  "tooltip": "§ePut it in inventory to prevent yourself from being teleported by endermen and endermites.",
+  "max_stack": 1,
+  "type": "additions:simple"
+}

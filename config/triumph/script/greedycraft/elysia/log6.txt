@@ -1,0 +1,21 @@
+setIcon(<additions:greedycraft-experiment_note>)
+
+setTranslatedTitle("greedycraft.advancement.log6.title")
+
+setTranslatedDescription("greedycraft.advancement.log6.desc")
+
+addParent("greedycraft:elysia/log5")
+
+setPos(160,100)
+
+alwaysVisible()
+
+drawDirectLines(true)
+
+setShowToast(false)
+
+setAnnounceToChat(false)
+
+criteriaLog6 = addCriteria("gc_stage_wyvern", "triumph:gamestage")
+
+criteriaLog6.setStage("wyvern")

@@ -1,0 +1,195 @@
+{
+	"biome": "netherex:arctic_abyss",
+	"generationWeight": 2,
+	"useDefaultDecorations": true,
+	"isSubBiome": false,
+	"blocks": {
+		"surface": {
+			"block": "netherex:frostburn_ice"
+		},
+		"liquid": {
+			"block": "minecraft:magma"
+		},
+		"subsurface": {
+			"block": "netherex:icy_netherrack"
+		}
+	},
+	"entities": [
+		{
+			"spawnWeight": 10,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 3,
+			"entity": "netherex:frost"
+		}, 
+		{
+			"spawnWeight": 35,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 4,
+			"entity": "netherex:coolmar_spider"
+		}, 
+		{
+			"spawnWeight": 100,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 4,
+			"entity": "netherex:wight"
+		}, 
+		{
+			"spawnWeight": 15,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1,
+			"entity": "netherex:brute"
+		}, 
+		{
+			"spawnWeight": 15,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 3,
+			"entity": "abyssalcraft:demonpig"
+		}, 
+		{
+			"spawnWeight": 15,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 3,
+			"entity": "abyssalcraft:demoncow"
+		}, 
+		{
+			"spawnWeight": 15,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 3,
+			"entity": "abyssalcraft:demonchicken"
+		}, 
+		{
+			"spawnWeight": 15,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 3,
+			"entity": "abyssalcraft:demonsheep"
+		}, 
+		{
+			"spawnWeight": 10,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 2,
+			"entity": "thaumcraft:firebat"
+		}, 
+		{
+			"spawnWeight": 5,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1,
+			"entity": "thaumcraft:wisp"
+		}, 
+		{
+			"spawnWeight": 8,
+			"minimumGroupCount": 4,
+			"maximumGroupCount": 6,
+			"entity": "natura:nitrocreeper"
+		}, 
+		{
+			"spawnWeight": 2,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1,
+			"entity": "mowziesmobs:grottol"
+		}, 
+		{
+			"spawnWeight": 10,
+			"minimumGroupCount": 8,
+			"maximumGroupCount": 12,
+			"entity": "natura:imp"
+		}
+	],
+	"traits": [
+		{
+			"generationAttempts": 2,
+			"generationStage": "terrain_alteration",
+			"generationProbability": 0.125,
+			"minimumGenerationHeight": 36,
+			"blockToSpawn": {
+				"block": "netherex:ichor"
+			},
+			"randomizeGenerationAttempts": false,
+			"trait": "libraryex:pool",
+			"maximumGenerationHeight": 108,
+			"blockToSurround": {
+				"block": "netherex:frostburn_ice"
+			}
+		}, 
+		{
+			"generationAttempts": 5,
+			"generationStage": "decoration",
+			"generationProbability": 1.0,
+			"minimumGenerationHeight": 4,
+			"blockToSpawn": {
+				"block": "netherex:blue_fire"
+			},
+			"blockToTarget": {
+				"block": "netherex:frostburn_ice"
+			},
+			"randomizeGenerationAttempts": true,
+			"trait": "libraryex:scatter",
+			"maximumGenerationHeight": 124,
+			"placement": "on_ground"
+		}, 
+		{
+			"generationAttempts": 10,
+			"generationStage": "decoration",
+			"generationProbability": 1.0,
+			"minimumGenerationHeight": 4,
+			"blockToSpawn": {
+				"block": "minecraft:glowstone"
+			},
+			"randomizeGenerationAttempts": true,
+			"trait": "libraryex:cluster",
+			"maximumGenerationHeight": 124,
+			"blockToAttachTo": {
+				"block": "netherex:icy_netherrack"
+			},
+			"direction": "down"
+		}, 
+		{
+			"generationAttempts": 10,
+			"generationStage": "decoration",
+			"generationProbability": 1.0,
+			"minimumGenerationHeight": 1,
+			"blockToSpawn": {
+				"block": "minecraft:glowstone"
+			},
+			"randomizeGenerationAttempts": false,
+			"trait": "libraryex:cluster",
+			"maximumGenerationHeight": 128,
+			"blockToAttachTo": {
+				"block": "netherex:icy_netherrack"
+			},
+			"direction": "down"
+		}, 
+		{
+			"generationAttempts": 16,
+			"generationStage": "ore",
+			"generationProbability": 1.0,
+			"minimumGenerationHeight": 10,
+			"veinSize": 14,
+			"blockToSpawn": {
+				"block": "netherex:quartz_ore"
+			},
+			"randomizeGenerationAttempts": false,
+			"blockToReplace": {
+				"block": "netherex:icy_netherrack"
+			},
+			"trait": "libraryex:ore",
+			"maximumGenerationHeight": 108
+		}, 
+		{
+			"generationAttempts": 16,
+			"generationStage": "ore",
+			"generationProbability": 1.0,
+			"minimumGenerationHeight": 10,
+			"veinSize": 7,
+			"blockToSpawn": {
+				"block": "netherex:rime_ore"
+			},
+			"randomizeGenerationAttempts": false,
+			"blockToReplace": {
+				"block": "netherex:icy_netherrack"
+			},
+			"trait": "libraryex:ore",
+			"maximumGenerationHeight": 108
+		}
+	],
+	"subBiomes": []
+}

@@ -1,0 +1,12 @@
+{
+    "mob_id": "minecraft:slime",
+    "attributes": [
+        {
+            "id": "generic.movementSpeed",
+            "modifier": {
+                "min": 50
+            },
+            "isflat": false
+        }
+    ]
+}

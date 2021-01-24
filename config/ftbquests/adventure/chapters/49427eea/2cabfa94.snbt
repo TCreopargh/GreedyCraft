@@ -1,0 +1,34 @@
+{
+	title: "{greedycraft.quest.2cabfa94.title}",
+	x: 0.5d,
+	y: 11.0d,
+	description: "{greedycraft.quest.2cabfa94.desc}",
+	dependencies: [
+		"948e2b49"
+	],
+	tasks: [{
+		uid: "6f5c44df",
+		type: "item",
+		items: [{
+			item: "enderio:block_soul_binder"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "36dfb9b3",
+		type: "item",
+		item: "enderio:block_enderman_skull",
+		count: 3
+	},
+	{
+		uid: "6deda46b",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "06eed440",
+		type: "loot",
+		table: 1
+	}]
+}

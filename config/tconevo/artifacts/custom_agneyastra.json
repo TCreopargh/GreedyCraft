@@ -1,0 +1,20 @@
+{
+  "weight": 400,
+  "type": "tconevo:tool",
+  "name": "Agneyastra",
+  "lore": "The Ultimate burning weapon of an ancient fire god.",
+  "tool": "scythe",
+  "materials": [
+    "emerald_plustic",
+    "fierymetal",
+    "sakura_diamond",
+    "netherrack"
+  ],
+  "free_mods": 3,
+  "mods": [
+    {
+      "id": "fiery",
+      "level": 75
+    }
+  ]
+}

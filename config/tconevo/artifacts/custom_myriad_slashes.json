@@ -1,0 +1,23 @@
+{
+  "weight": 250,
+  "type": "tconevo:tool",
+  "name": "Myriad Slashes",
+  "lore": "Feared by even the strongest opponent.",
+  "tool": "rapier",
+  "materials": [
+    "pladium",
+    "dark_matter",
+    "starmetal"
+  ],
+  "free_mods": 5,
+  "mods": [
+    {
+      "id": "tconevo.primordial",
+      "level": 3
+    },
+    {
+      "id": "reinforced",
+      "level": 2
+    }
+  ]
+}

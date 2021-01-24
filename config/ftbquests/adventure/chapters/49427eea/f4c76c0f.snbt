@@ -1,0 +1,52 @@
+{
+	title: "{greedycraft.quest.f4c76c0f.title}",
+	x: -7.0d,
+	y: -1.5d,
+	description: "{greedycraft.quest.f4c76c0f.desc}",
+	dependencies: [
+		"c16fec30"
+	],
+	tasks: [{
+		uid: "017aba8e",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:dynamo",
+			tag: {
+				RSControl: 0b,
+				Facing: 1b,
+				Energy: 0,
+				Level: 0b
+			},
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "26e6fbf4",
+		type: "item",
+		item: "minecraft:magma",
+		count: 32
+	},
+	{
+		uid: "d7f83415",
+		type: "xp",
+		xp: 300
+	},
+	{
+		uid: "8a3c5a56",
+		type: "item",
+		item: {
+			id: "thermalexpansion:florb",
+			tag: {
+				Fluid: "lava"
+			},
+			Damage: 1s
+		},
+		count: 8
+	},
+	{
+		uid: "2df89d63",
+		type: "loot",
+		table: 1
+	}]
+}

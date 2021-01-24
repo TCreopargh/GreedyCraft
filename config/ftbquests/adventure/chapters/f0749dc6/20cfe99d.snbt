@@ -1,0 +1,39 @@
+{
+	title: "{greedycraft.quest.20cfe99d.title}",
+	icon: {
+		id: "minecraft:chainmail_boots"
+	},
+	x: -0.5d,
+	y: -1.0d,
+	description: "{greedycraft.quest.20cfe99d.desc}",
+	dependencies: [
+		"a804b676"
+	],
+	tasks: [{
+		uid: "e3ba311e",
+		type: "stat",
+		icon: {
+			id: "minecraft:iron_boots"
+		},
+		stat: "stat.walkOneCm",
+		value: 1000000
+	}],
+	rewards: [{
+		uid: "8c8837e0",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "a46488c3",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "229036d6",
+		type: "item",
+		item: {
+			id: "hooked:hook",
+			Damage: 3s
+		}
+	}]
+}

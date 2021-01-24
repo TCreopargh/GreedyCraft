@@ -1,0 +1,31 @@
+{
+	title: "{greedycraft.quest.6d9d38e5.title}",
+	x: 6.0d,
+	y: 7.5d,
+	description: "{greedycraft.quest.6d9d38e5.desc}",
+	tasks: [{
+		uid: "a68b4eaf",
+		type: "item",
+		items: [{
+			id: "minecraft:totem_of_undying"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "cf378805",
+		type: "xp",
+		xp: 7500
+	},
+	{
+		uid: "ea722cfe",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "267fb433",
+		type: "item",
+		item: "minecraft:emerald",
+		count: 64
+	}]
+}

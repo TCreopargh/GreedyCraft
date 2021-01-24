@@ -1,0 +1,13 @@
+{
+	"name": "§6§nGame Stages Introduction",
+	"icon": "additions:greedycraft-passport",
+	"category": "patchouli:gamestages_category",
+	"priority": true,
+	"pages": [{
+		"type": "text",
+		"text": "$(6)Game Stages$() system indicates the walkthrough of the game and makes your target more clear. As you go on your journey, you will probably find some \"$(d)Unknown Items$()\". They can't be picked up or used until you have the corresponding game stage unlocked. Apart from items, some blocks, mobs, recipes, tinkers' materials and tinkers' tools are also locked behind stages. "
+	}, {
+		"type": "text",
+		"text": "If you want to unlock all stages in creative mode, you can grab a $(6)Passport$() in JEI.$(br2)$(2)For elaborate info about game stages, please see other entries in this chapter."
+	}]
+}

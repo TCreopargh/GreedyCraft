@@ -1,0 +1,29 @@
+{
+	"dependencies": "netherendingores",
+	"populate": {
+		"end-gold": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "netherendingores:ore_end_vanilla",
+					"properties": {
+						"blocks": "gold_ore"
+					}
+				},
+				"material": "minecraft:end_stone",
+				"cluster-size": 4
+			},
+			"cluster-count": 5,
+			"min-height": 10,
+			"max-height": 55,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					1
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,33 @@
+{
+	title: "{greedycraft.quest.1f441bee.title}",
+	x: -9.5d,
+	y: 9.0d,
+	description: "{greedycraft.quest.1f441bee.desc}",
+	dependencies: [
+		"12db3c68"
+	],
+	tasks: [{
+		uid: "5acfe59d",
+		type: "item",
+		items: [{
+			item: "enderio:block_simple_stirling_generator"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "09c20f48",
+		type: "item",
+		item: "mysticalagriculture:grains_of_infinity_seeds",
+		count: 4
+	},
+	{
+		uid: "e6b765cb",
+		type: "xp",
+		xp: 200
+	},
+	{
+		uid: "18e8c9e6",
+		type: "loot",
+		table: 0
+	}]
+}

@@ -1,0 +1,19 @@
+
+{
+	x: -6.0d,
+	y: 2.0d,
+	tasks: [{
+		uid: "45ea15f0",
+		type: "item",
+		items: [{
+			id: "extrabotany:treasurebox"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a339ef74",
+		type: "loot",
+		table: 3
+	}]
+}

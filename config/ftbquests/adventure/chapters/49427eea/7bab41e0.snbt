@@ -1,0 +1,29 @@
+{
+	title: "{greedycraft.quest.7bab41e0.title}",
+	x: 0.5d,
+	y: -6.0d,
+	description: "{greedycraft.quest.7bab41e0.desc}",
+	tasks: [{
+		uid: "6c5b86ab",
+		type: "item",
+		items: [{
+			item: "redstonearsenal:material 1 32"
+		}]
+	}],
+	rewards: [{
+		uid: "4d60e9c9",
+		type: "item",
+		item: "redstonearsenal:material 1 32",
+		count: 6
+	},
+	{
+		uid: "ac823031",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "69c26c64",
+		type: "xp",
+		xp: 750
+	}]
+}

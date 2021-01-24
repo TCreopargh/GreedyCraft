@@ -1,0 +1,21 @@
+setIcon(<additions:greedycraft-experiment_note>)
+
+setTranslatedTitle("greedycraft.advancement.log2.title")
+
+setTranslatedDescription("greedycraft.advancement.log2.desc")
+
+addParent("greedycraft:elysia/log1")
+
+setPos(0,100)
+
+alwaysVisible()
+
+drawDirectLines(true)
+
+setShowToast(false)
+
+setAnnounceToChat(false)
+
+criteriaLog2 = addCriteria("gc_entered_the_nether", "minecraft:changed_dimension")
+
+criteriaLog2.setDimensionDestination("the_nether")

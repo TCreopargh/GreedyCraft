@@ -1,0 +1,45 @@
+{
+	title: "{greedycraft.quest.aceed8d4.title}",
+	icon: {
+		id: "minecraft:golden_boots"
+	},
+	x: -0.5d,
+	y: 3.0d,
+	description: "{greedycraft.quest.aceed8d4.desc}",
+	dependencies: [
+		"975130a6"
+	],
+	tasks: [{
+		uid: "bf9aeaf1",
+		type: "stat",
+		icon: {
+			id: "minecraft:iron_boots"
+		},
+		stat: "stat.walkOneCm",
+		value: 25000000
+	}],
+	rewards: [{
+		uid: "602fd180",
+		type: "item",
+		item: {
+			id: "minecraft:elytra"
+		}
+	},
+	{
+		uid: "7d65e594",
+		type: "item",
+		item: {
+			id: "magicfeather:magicfeather"
+		}
+	},
+	{
+		uid: "b624f224",
+		type: "xp",
+		xp: 25000
+	},
+	{
+		uid: "9e659444",
+		type: "loot",
+		table: 2
+	}]
+}

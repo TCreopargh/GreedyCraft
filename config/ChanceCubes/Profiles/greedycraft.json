@@ -1,0 +1,19 @@
+{
+    "greedycraft": {
+        "name": "GreedyCraft ChanceCubes",
+        "description": "Remove annoying rewards",
+		"rewards_to_disable": 
+		[ 
+			"chancecubes:inventory_bomb",
+			"thermalexpansion:florbs",
+			"chancecubes:mixed_fluid_sphere",
+			"chancecubes:clear_inventory",
+			"chancecubes:divine_sword",
+			"chancecubes:divine_helmet",
+			"chancecubes:divine_chestplate",
+			"chancecubes:divine_leggings",
+			"chancecubes:divine_boots",
+			"chancecubes:item_of_destiny"
+		] 
+	}
+}

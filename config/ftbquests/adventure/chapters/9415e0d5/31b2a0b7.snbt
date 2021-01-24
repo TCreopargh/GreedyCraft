@@ -1,0 +1,37 @@
+{
+	title: "{greedycraft.quest.31b2a0b7.title}",
+	x: 2.0d,
+	y: 11.5d,
+	description: "{greedycraft.quest.31b2a0b7.desc}",
+	tasks: [{
+		uid: "1a3c87c2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -6677120288058627187L,
+					AS_Amulet_HolderMost: 3244428519259456314L
+				}
+			},
+			id: "bountifulbaubles:wormholemirror"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "77e321d4",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "882af3e1",
+		type: "xp",
+		xp: 2500
+	},
+	{
+		uid: "47cf7a54",
+		type: "item",
+		item: "waystones:waystone",
+		count: 10
+	}]
+}

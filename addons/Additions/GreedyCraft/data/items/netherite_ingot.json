@@ -1,0 +1,6 @@
+{
+  "name": "§eNetherite Ingot",
+  "is_beacon_payment": true,
+  "ore_dict": "ingotNetherite",
+  "type": "additions:simple"
+}

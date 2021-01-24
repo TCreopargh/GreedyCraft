@@ -1,0 +1,33 @@
+
+{
+	title: "{greedycraft.quest.25253c84.title}",
+	x: 8.0d,
+	y: 11.5d,
+	description: "{greedycraft.quest.25253c84.desc}",
+	dependencies: [
+		"05062cc8"
+	],
+	tasks: [{
+		uid: "0bf1a689",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-bounty_hunter_medal_emerald"
+		}]
+	}],
+	rewards: [{
+		uid: "55943a83",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "7ac82b35",
+		type: "item",
+		item: "additions:greedycraft-bounty_hunter_medal_silver",
+		count: 3
+	},
+	{
+		uid: "741b8cd4",
+		type: "xp",
+		xp: 5000
+	}]
+}

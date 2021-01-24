@@ -1,0 +1,8 @@
+{
+  "name": "§6Rubber Band",
+  "tooltip": "§eElastic.",
+  "ore_dict": [
+    "stringRubber"
+  ],
+  "type": "additions:simple"
+}

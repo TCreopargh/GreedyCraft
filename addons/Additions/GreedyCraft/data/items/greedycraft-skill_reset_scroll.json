@@ -1,0 +1,10 @@
+{
+  "name": "§6Skill Reset Scroll",
+  "shines": true,
+  "tooltip": [
+    "§6Resets all your skills.",
+    "§cNo XP will be given back."
+  ],
+  "max_stack": 1,
+  "type": "additions:simple"
+}

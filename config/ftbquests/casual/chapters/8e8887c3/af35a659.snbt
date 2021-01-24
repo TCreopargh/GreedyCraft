@@ -1,0 +1,55 @@
+
+{
+	title: "{greedycraft.quest.af35a659.title}",
+	icon: "minecraft:bedrock",
+	x: -2.0d,
+	y: 0.0d,
+	shape: "rsquare",
+	description: "{greedycraft.quest.af35a659.desc}",
+	dependencies: [
+		"bb3d9aaa"
+	],
+	tasks: [{
+		uid: "61616b8a",
+		type: "observation",
+		title: "§9Simply look at a bedrock",
+		icon: "minecraft:bedrock",
+		match_type: "block_id",
+		match: "minecraft:bedrock",
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "1de0691b",
+		type: "item",
+		item: {
+			id: "minecraft:flint_and_steel"
+		}
+	},
+	{
+		uid: "5d60b3c1",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "35ff9012",
+		type: "xp",
+		xp: 150
+	},
+	{
+		uid: "1394e41c",
+		type: "item",
+		item: {
+			id: "minecraft:iron_pickaxe"
+		}
+	},
+	{
+		uid: "7512c42e",
+		type: "item",
+		item: {
+			id: "minecraft:potion",
+			tag: {
+				Potion: "quark:long_haste"
+			}
+		}
+	}]
+}

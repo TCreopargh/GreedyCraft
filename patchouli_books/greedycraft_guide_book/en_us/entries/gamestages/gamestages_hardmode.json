@@ -1,0 +1,19 @@
+{
+    "name": "§cHardmode",
+    "icon": "additions:greedycraft-death_coin",
+    "category": "patchouli:gamestages_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "The player enters $(4)Hardmode$() once they kill the Ender Dragon for the first time. Hardmode causes the game difficulty to increase drastically, new types of mobs begin to spawn and new ores can be found across the world. A lot of content get unlocked, including Draconic Evolution and Avaritia stuff. It's very challenging to survive in Hardmode once you enter it."
+        },
+		{
+            "type": "text",
+            "text": "To make progress in early-hardmode, First thing to do is to $(9)mine new ores$(). The TAIGA chapter in $(6)Materials and You$() will give you a guide on where the ores spawn. You need to collect as much new ore as possible and dump them into your smeltry, where new alloy is formed. $(d)Adamant$() is the most advanced alloy in TAIGA and is essential to do the next step, $(5)Coalescence Matrix$() (sometimes abbreviated to Fusion Matrix), which has enough mining level to mine draconic ore, and can be further made into $(5)Wyvern Metal$(). "
+        },
+        {
+            "type": "text",
+            "text": "Now that you can continue on researching Draconic Evolution and Avaritia, Also, $(5)Transmutation Table$() and $(6)Digital Miner$() will help you a lot. For hardmode bosses, view this chapter: $(9)$(n)$(l:guide/guide_hardmode_bosses)Hardmode Bosses$(/l)$()."
+        }
+    ]
+}

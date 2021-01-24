@@ -1,0 +1,38 @@
+
+{
+	title: "{greedycraft.quest.bb8c2dd0.title}",
+	x: 16.0d,
+	y: 4.0d,
+	description: "{greedycraft.quest.bb8c2dd0.desc}",
+	dependencies: [
+		"506b94fd"
+	],
+	tasks: [{
+		uid: "4c8899bd",
+		type: "item",
+		items: [{
+			item: "tconevo:metal 1 10"
+		}]
+	}],
+	rewards: [{
+		uid: "84222ecd",
+		type: "loot",
+		table: 3
+	},
+	{
+		uid: "24467883",
+		type: "loot",
+		table: 3
+	},
+	{
+		uid: "3fdc2613",
+		type: "item",
+		item: "draconicevolution:chaotic_core",
+		count: 5
+	},
+	{
+		uid: "67edddb6",
+		type: "xp",
+		xp: 150000
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	title: "{greedycraft.quest.754739e1.title}",
+	icon: "additions:greedycraft-twilight_shield",
+	x: 2.0d,
+	y: -4.0d,
+	description: "{greedycraft.quest.754739e1.desc}",
+	tasks: [{
+		uid: "87436bb4",
+		type: "gamestage",
+		stage: "twilight_shield"
+	},
+	{
+		uid: "45bfeeee",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-twilight_shield"
+		}]
+	}],
+	rewards: [{
+		uid: "554df8d6",
+		type: "xp",
+		xp: 500
+	},
+	{
+		uid: "e347f1a7",
+		type: "loot",
+		table: 1
+	}]
+}

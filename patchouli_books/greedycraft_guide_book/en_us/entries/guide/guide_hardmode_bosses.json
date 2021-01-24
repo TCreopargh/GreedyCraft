@@ -1,0 +1,120 @@
+{
+    "name": "§cHardmode Bosses",
+    "icon": "additions:greedycraft-sun_totem",
+    "category": "patchouli:guide_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(c)To make progress in hardmode, defeating some bosses are necessary.$(2) Here's the bosses you will encounter in hardmode.$(br2)$(4)Note: all bosses restore to full health when a player dies and some bosses just disappear instead.$(br)$(c)Note 2: Due to the season system, not all snowing places are actually \"Coid\".$()"
+        },
+        {
+            "type": "entity",
+            "entity": "mowziesmobs:frostmaw",
+            "scale": 0.6,
+			"offset": 1,
+            "text": "$(5)The giant beast rests in the snow that waits for its prey to come by.$()"
+        },
+        {
+            "type": "text",
+            "text": "$(9)Frostmaw$() is summoned by Shift-right-clicking a $(5)Summoning Altar$() with a $(9)Beast Hand$(8) in your hand.$() (Crafting recipes can be found later in this book). $(c)Note: a $(2)15 * 15$()$(c) area of empty space is required near the altar. No other blocks are allowed in this area, and the surface must be flat, without holes.$(3) Frostmaw can only be summoned in a $(3cold$() biome when it's snowing.$() Frostmaw is the only way to get your first piece of $(d)Cryonic Ingot$() in expert and adventure modes."
+        },
+        {
+            "type": "text",
+            "text": " Defeating it above $(5)600 difficulty$() will get you a random amount of Cryonic Ingots. Then you can mine cryonic ore generated in coold biomes with a wyvern metal tool.$(br) Note: If the packmode is not casual mode, Frostmaw will disappear if any of the players in the server die. Please be prepared."
+        },
+        {
+            "type": "crafting",
+            "recipe2": "crafttweaker:auto_gen_100207823",
+			"recipe": "crafttweaker:auto_gen_-14951606"
+        },
+		 {
+            "type": "multiblock",
+			"text": "A example of a valid boss arena. The block in the center is a Summoning Altar. $(3)You don't need to clear snow layers on the arena.$()",
+			"symmertrical": true,
+            "multiblock": {
+                "mapping": {
+                    "0": "zensummoning:altar",
+					"S": "minecraft:stone"
+                },
+                "pattern": [
+                   [
+					"               ",
+					"               ",
+					"               ",
+					"               ",
+					"               ",
+					"               ",
+					"               ",
+					"       0       ",
+					"               ",
+					"               ",
+					"               ",
+					"               ",
+					"               ",
+					"               ",
+					"               "
+				   ],
+				   [
+					"SSSSSSSSSSSSSSS",
+					"SSSSSSSSSSSSSSS",
+					"SSSSSSSSSSSSSSS",
+					"SSSSSSSSSSSSSSS",
+					"SSSSSSSSSSSSSSS",
+					"SSSSSSSSSSSSSSS",
+					"SSSSSSSSSSSSSSS",
+					"SSSSSSSSSSSSSSS",
+					"SSSSSSSSSSSSSSS",
+					"SSSSSSSSSSSSSSS",
+					"SSSSSSSSSSSSSSS",
+					"SSSSSSSSSSSSSSS",
+					"SSSSSSSSSSSSSSS",
+					"SSSSSSSSSSSSSSS",
+					"SSSSSSSSSSSSSSS"
+				   ]
+                ]
+            }
+        },
+        {
+            "type": "entity",
+            "entity": "mowziesmobs:barako",
+            "scale": 0.8,
+            "text": "$(6)The servant of the sun.$()"
+        },
+        {
+            "type": "text",
+            "text": "$(5)Barako, the Sun Chief$() is summoned by right-clicking $(5)Summoning Altar$() with a $(9)Sun Totem$(8) in your hand. (Crafting recipe can be found later in this book) The summoning method is basically the same with Forstmaw, excepe you can only summon at day when it's sunny. In adventure and expert modes, Barako must be defeated before you can obtain $(6)Infernium Ingot$() to make Draconic Ingot. "
+        },
+        {
+            "type": "text",
+            "text": "Defeating a summoned Barako (not the naturally spawned ones) above $(2)700 difficulty$() will get you a $(6)Broken Solarium Star$() and a $(6)Seed of the Sun$(), use them to make a $(5)Solarium Star$() to unlock $(c)Infernium Ingot$(). $(br)Note: Barako will also disappear when a player dies."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:auto_gen_1913024224",
+            "recipe2": "crafttweaker:solarium_star"
+        },
+        {
+            "type": "entity",
+            "entity": "draconicevolution:chaosguardian",
+            "scale": 1.5,
+			"offset": -6,
+            "text": "$(5)The dominator of entropy and chaos.$()"
+        },
+        {
+            "type": "text",
+            "text": "$(5)Chaos Guardian$() is the last boss you'll need to fight. It spawns in the center of chaos islands, which are located where the coords can be divided by 5000. $(8)(For instance, Chaos Guardian will spawn at (-5000,5000), (5000,0), (0,5000), (5000,-10000), but not (0,0) because that's the main End island.)$()"
+        },
+        {
+            "type": "text",
+            "text": "$() Although you can fight it at any times, you only stand a chance to win after having full sets of draconic armor (or better ones) because Chaos Guardian can easily insta-kill anyone who has no protection against Chaotic Damage. Also chaotic shards can't be used before obtaining the awakened core. Also you need something that enables creative flight (like draconic metal armor plate)."
+        },
+        {
+            "type": "text",
+            "text": "To survive in the rains of bullets during this battle, $(6)Chaos Resistance Modifier$() is a must-have. Put this modifier on your tconstruct armor to give yourself chaotic damage protection, when you max up this modifier to level 5 on all armors you can challenge the Chaos Guardian. You need to destroy all $(c)Chaotic Crystals$() before dealing damage to the dragon. $(5) Chaos Crystals will not respawn normally, but will respawn if it's chunk is unloaded, so please increase your render distance (to around 12) to prevent crystals from respawning."
+        },
+        {
+            "type": "text",
+            "text": "After defeating the Chaos Guardian, the difficulty will increase and you can dig down from the center of the chaos island to get $(5)Chaotic Shards$(), a important ingredient for Chaotic Cores. Next, you will prepare for the Infinity Catalyst amd continue to expand your base."
+        }
+    ]
+}

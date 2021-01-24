@@ -1,0 +1,32 @@
+{
+	title: "{greedycraft.quest.7d7bba7f.title}",
+	x: -8.0d,
+	y: -0.5d,
+	description: "{greedycraft.quest.7d7bba7f.desc}",
+	text: [
+		"Shift right click to deposit XP, right click to retrieve XP"
+	],
+	tasks: [{
+		uid: "f6d864a3",
+		type: "item",
+		items: [{
+			item: "globalxp:xp_block"
+		}]
+	}],
+	rewards: [{
+		uid: "cd9473a8",
+		type: "xp",
+		xp: 200
+	},
+	{
+		uid: "55f2e767",
+		type: "item",
+		item: "actuallyadditions:item_solidified_experience",
+		count: 16
+	},
+	{
+		uid: "011609cc",
+		type: "loot",
+		table: 0
+	}]
+}

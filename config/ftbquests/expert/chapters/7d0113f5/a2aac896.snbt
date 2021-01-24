@@ -1,0 +1,33 @@
+
+{
+	title: "{greedycraft.quest.a2aac896.title}",
+	x: 4.5d,
+	y: 5.5d,
+	description: "{greedycraft.quest.a2aac896.desc}",
+	dependencies: [
+		"06dba2ad"
+	],
+	tasks: [{
+		uid: "39e98e67",
+		type: "item",
+		items: [{
+			item: "tconevo:metal 1 20"
+		}]
+	}],
+	rewards: [{
+		uid: "f71d75d2",
+		type: "xp",
+		xp: 7000
+	},
+	{
+		uid: "7bd76739",
+		type: "item",
+		item: "tconevo:metal 1 20",
+		count: 5
+	},
+	{
+		uid: "fecc9f97",
+		type: "loot",
+		table: 2
+	}]
+}

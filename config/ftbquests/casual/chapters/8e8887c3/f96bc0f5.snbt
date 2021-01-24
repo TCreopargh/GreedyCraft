@@ -1,0 +1,48 @@
+
+{
+	title: "{greedycraft.quest.f96bc0f5.title}",
+	x: 6.0d,
+	y: 0.0d,
+	shape: "square",
+	description: "{greedycraft.quest.f96bc0f5.desc}",
+	dependencies: [
+		"d378aa56"
+	],
+	tasks: [{
+		uid: "1b77697e",
+		type: "item",
+		items: [{
+			item: "draconicevolution:fusion_crafting_core"
+		}]
+	},
+	{
+		uid: "3e4415cd",
+		type: "item",
+		items: [{
+			item: "draconicevolution:crafting_injector"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "756e7155",
+		type: "xp",
+		xp: 4500
+	},
+	{
+		uid: "b5e7ac2f",
+		type: "item",
+		item: "draconicevolution:draconic_core",
+		count: 5
+	},
+	{
+		uid: "63924c67",
+		type: "item",
+		item: "draconicevolution:draconium_dust",
+		count: 640
+	},
+	{
+		uid: "0690ab0d",
+		type: "loot",
+		table: 1
+	}]
+}

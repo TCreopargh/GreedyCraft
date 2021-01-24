@@ -1,0 +1,33 @@
+
+{
+	title: "{greedycraft.quest.5d16dea3.title}",
+	x: 26.0d,
+	y: -8.0d,
+	description: "{greedycraft.quest.5d16dea3.desc}",
+	dependencies: [
+		"1d80a83d"
+	],
+	tasks: [{
+		uid: "0b0b9264",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_xp_solidifier"
+		}]
+	}],
+	rewards: [{
+		uid: "c6b6ae3f",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "6a73f957",
+		type: "item",
+		item: "actuallyadditions:item_solidified_experience",
+		count: 320
+	},
+	{
+		uid: "b3957456",
+		type: "xp",
+		xp: 3500
+	}]
+}

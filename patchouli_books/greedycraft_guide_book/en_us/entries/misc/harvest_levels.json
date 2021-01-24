@@ -1,0 +1,19 @@
+{
+    "name": "Harvest levels",
+    "icon": "minecraft:iron_pickaxe",
+    "category": "patchouli:misc_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(9)Harvest levels$() are the minimum tool level required to mine a block and get its drop. This modpack alters harvest level names to make them more clear. Here's a list o f their original names.$(br2)$(9)Format: $() $(9)Level$() - $(5)Original Name$() - $(2)Altered Name$()"
+        },
+        {
+            "type": "text",
+            "text": "$(li)$(9)0$() - $(5)Stone$() - $(2)Fragile$()$(li)$(9)1$() - $(5)Iron$() - $(2)Rookie$()$(li)$(9)2$() - $(5)Diamond$() - $(2)Strong$()$(li)$(9)3$() - $(5)Obsidian$() - $(2)Apprentice$()$(li)$(9)4$() - $(5)Cobalet$() - $(2)Artisan$()$(li)$(9)5$() - $(5)Duranite$() - $(2)Expert$()$(li)$(9)6$() - $(5)Valyrium$() - $(2)Master$()$(li)$(9)7$() - $(5)Vibranium$() - $(2)Extraordinary$()$(li)$(9)8$() - $(5)None$() - $(2)Heavenly$()$(li)$(9)9$() - $(5)None$() - $(2)Legendary$()$(li)$(9)10$() - $(5)None$() - $(2)Mythical$()$(li)$(9)11$() - $(5)None$() - $(2)Godly$()$(li)$(9)12$() - $(5)None$() - $(2)Supreme$()$(li)$(9)13$() - $(5)None$() - $(2)Ultimate$()$(li)$(9)127$() - $(5)None$() - $(2)Infinity$()"
+        },
+        {
+            "type": "text",
+            "text": "Also some blocks are not mined with pickaxe. The mining tool required will be displayed on the top when you look at a block."
+        }
+    ]
+}

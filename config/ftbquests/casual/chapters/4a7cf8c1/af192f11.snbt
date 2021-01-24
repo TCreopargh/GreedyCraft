@@ -1,0 +1,25 @@
+
+{
+	title: "{greedycraft.quest.af192f11.title}",
+	icon: "thermalexpansion:frame 1 148",
+	x: 4.5d,
+	y: 0.0d,
+	description: "{greedycraft.quest.af192f11.desc}",
+	text: [
+		"Submit FE by connecting a Task Screen with conductor"
+	],
+	can_repeat: true,
+	dependencies: [
+		"b1e0c43f"
+	],
+	tasks: [{
+		uid: "d43b8cff",
+		type: "forge_energy",
+		value: 10000000000L
+	}],
+	rewards: [{
+		uid: "237b2919",
+		type: "item",
+		item: "additions:greedycraft-flux_singularity"
+	}]
+}

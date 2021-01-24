@@ -1,0 +1,49 @@
+{
+	title: "{greedycraft.quest.688a97db.title}",
+	x: -6.0d,
+	y: 1.5d,
+	description: "{greedycraft.quest.688a97db.desc}",
+	tasks: [{
+		uid: "ca5cfaef",
+		type: "xp",
+		value: 31600L,
+		points: true
+	}],
+	rewards: [{
+		uid: "2b6fc850",
+		type: "xp",
+		xp: 5000
+	},
+	{
+		uid: "8f2cf62f",
+		type: "item",
+		item: {
+			id: "thermalexpansion:device",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					1b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				]
+			},
+			Damage: 8s
+		}
+	},
+	{
+		uid: "15ec6569",
+		type: "item",
+		item: "minecraft:emerald_block",
+		count: 4
+	},
+	{
+		uid: "758bbf3b",
+		type: "loot",
+		table: 1
+	}]
+}

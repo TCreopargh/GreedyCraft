@@ -1,0 +1,45 @@
+
+{
+	title: "{greedycraft.quest.1a619bf1.title}",
+	x: 10.0d,
+	y: 1.5d,
+	description: "{greedycraft.quest.1a619bf1.desc}",
+	dependencies: [
+		"3ed4aeae"
+	],
+	tasks: [{
+		uid: "f58baf73",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:crystallizer"
+		}]
+	}],
+	rewards: [{
+		uid: "d6f19c43",
+		type: "xp",
+		xp: 7500
+	},
+	{
+		uid: "335d23bc",
+		type: "item",
+		item: "abyssalcraft:crystal",
+		count: 16
+	},
+	{
+		uid: "79296454",
+		type: "item",
+		item: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "liquidcoralium",
+				Amount: 1000
+			}
+		},
+		count: 8
+	},
+	{
+		uid: "938ded51",
+		type: "loot",
+		table: 1
+	}]
+}

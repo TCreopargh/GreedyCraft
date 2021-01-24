@@ -1,0 +1,8 @@
+{
+  "name": "§6Shining Star",
+  "tooltip": [
+    "§bRight click to summon a meteor on top of you",
+    "§cDo not use this at your base"
+  ],
+  "type": "additions:simple"
+}

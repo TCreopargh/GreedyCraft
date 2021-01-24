@@ -1,0 +1,45 @@
+{
+	title: "{greedycraft.quest.ffbd430f.title}",
+	x: -1.5d,
+	y: -1.5d,
+	description: "{greedycraft.quest.ffbd430f.desc}",
+	dependencies: [
+		"e42bd6a4"
+	],
+	tasks: [{
+		uid: "871bef6c",
+		type: "observation",
+		title: "Observe a Crucible",
+		icon: "thaumcraft:crucible",
+		match_type: "block_id",
+		match: "thaumcraft:crucible",
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "ab8ab388",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "4d7f1c5e",
+		type: "xp",
+		xp: 200
+	},
+	{
+		uid: "7a362219",
+		type: "item",
+		item: "thaumcraft:salis_mundus",
+		count: 8
+	},
+	{
+		uid: "3193d1cf",
+		type: "item",
+		item: "minecraft:water_bucket",
+		count: 10
+	},
+	{
+		uid: "2d719d74",
+		type: "item",
+		item: "minecraft:lava_bucket"
+	}]
+}

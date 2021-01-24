@@ -1,0 +1,36 @@
+
+{
+	title: "{greedycraft.quest.fd0167a2.title}",
+	x: 23.0d,
+	y: 0.0d,
+	description: "{greedycraft.quest.fd0167a2.desc}",
+	dependencies: [
+		"a31de947"
+	],
+	tasks: [{
+		uid: "04339785",
+		type: "item",
+		items: [{
+			id: "abyssalcraft:staff",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c7d7dcb5",
+		type: "xp",
+		xp: 20000
+	},
+	{
+		uid: "6cdd6dcf",
+		type: "loot",
+		table: 3
+	},
+	{
+		uid: "f8244890",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "lunatic_cultist"
+	}]
+}

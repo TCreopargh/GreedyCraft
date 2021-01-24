@@ -1,0 +1,9 @@
+{
+  "name": "§6Item Purger",
+  "tooltip": [
+    "§bRight click to clear all ground items.",
+    "§bUsed for increasing performance."
+  ],
+  "max_stack": 1,
+  "type": "additions:simple"
+}

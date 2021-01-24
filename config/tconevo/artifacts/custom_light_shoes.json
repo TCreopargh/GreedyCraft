@@ -1,0 +1,12 @@
+{
+    "weight": 200,
+    "type": "tconevo:armour",
+    "name": "Lightwing Shoes",
+    "lore": "Decorated with pentagons.",
+    "armour": "boots",
+    "materials": [
+        "lumium",
+        "vibrant_alloy",
+        "diamond"
+    ]
+}

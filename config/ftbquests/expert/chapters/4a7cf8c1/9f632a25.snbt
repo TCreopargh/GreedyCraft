@@ -1,0 +1,22 @@
+
+{
+	title: "{greedycraft.quest.9f632a25.title}",
+	icon: "projecte:transmutation_table",
+	x: 11.5d,
+	y: 0.0d,
+	description: "{greedycraft.quest.9f632a25.desc}",
+	can_repeat: true,
+	dependencies: [
+		"b1e0c43f"
+	],
+	tasks: [{
+		uid: "5a66ebfc",
+		type: "emc",
+		value: 80000000L
+	}],
+	rewards: [{
+		uid: "609198e6",
+		type: "item",
+		item: "additions:greedycraft-matter_singularity"
+	}]
+}

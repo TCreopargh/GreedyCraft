@@ -1,0 +1,239 @@
+[
+	{
+		"block": "biomesoplenty:gem_ore:7",
+		"distrib": {
+			"type": "square",
+			"value": "12,1,4,32"
+		},
+		"silktouch": true,
+		"dropsList": [
+			{
+				"itemStack": "biomesoplenty:gem:7",
+				"fortunes": {
+					"0": 1.0
+				}
+			}
+		],
+		"dim": "overworld",
+		"biomes": [
+			27,
+			47,
+			52,
+			4,
+			60,
+			80,
+			29,
+			82,
+			83,
+			88,
+			93
+		]
+	},
+	{
+		"block": "biomesoplenty:gem_ore:0",
+		"distrib": {
+			"type": "square",
+			"value": "24,1,4,32"
+		},
+		"silktouch": true,
+		"dropsList": [
+			{
+				"itemStack": "biomesoplenty:gem:0",
+				"fortunes": {
+					"0": 1.0
+				}
+			}
+		],
+		"dim": "the_end",
+		"biomes": []
+	},
+	{
+		"block": "biomesoplenty:biome_block:0",
+		"distrib": {
+			"type": "square",
+			"value": "24,1,4,32"
+		},
+		"silktouch": true,
+		"dropsList": [
+			{
+				"itemStack": "biomesoplenty:biome_essence:0",
+				"fortunes": {
+					"0": 1.0
+				}
+			}
+		],
+		"dim": "the_end",
+		"biomes": []
+	},
+	{
+		"block": "biomesoplenty:gem_ore:5",
+		"distrib": {
+			"type": "square",
+			"value": "12,1,4,32"
+		},
+		"silktouch": true,
+		"dropsList": [
+			{
+				"itemStack": "biomesoplenty:gem:5",
+				"fortunes": {
+					"0": 1.0
+				}
+			}
+		],
+		"dim": "overworld",
+		"biomes": [
+			45,
+			46,
+			55,
+			57,
+			62,
+			65,
+			68,
+			70,
+			73,
+			78,
+			6,
+			92
+		]
+	},
+	{
+		"block": "biomesoplenty:gem_ore:2",
+		"distrib": {
+			"type": "square",
+			"value": "12,1,4,32"
+		},
+		"silktouch": true,
+		"dropsList": [
+			{
+				"itemStack": "biomesoplenty:gem:2",
+				"fortunes": {
+					"0": 1.0
+				}
+			}
+		],
+		"dim": "overworld",
+		"biomes": [
+			49,
+			58,
+			59,
+			63,
+			69,
+			74,
+			1,
+			77,
+			84
+		]
+	},
+	{
+		"block": "biomesoplenty:gem_ore:1",
+		"distrib": {
+			"type": "square",
+			"value": "12,1,4,32"
+		},
+		"silktouch": true,
+		"dropsList": [
+			{
+				"itemStack": "biomesoplenty:gem:1",
+				"fortunes": {
+					"0": 1.0
+				}
+			}
+		],
+		"dim": "overworld",
+		"biomes": [
+			48,
+			2,
+			64,
+			37,
+			100,
+			75,
+			35,
+			87,
+			106,
+			91,
+			94
+		]
+	},
+	{
+		"block": "biomesoplenty:gem_ore:6",
+		"distrib": {
+			"type": "square",
+			"value": "12,1,4,32"
+		},
+		"silktouch": true,
+		"dropsList": [
+			{
+				"itemStack": "biomesoplenty:gem:6",
+				"fortunes": {
+					"0": 1.0
+				}
+			}
+		],
+		"dim": "overworld",
+		"biomes": [
+			102,
+			103,
+			66,
+			14,
+			0
+		]
+	},
+	{
+		"block": "biomesoplenty:gem_ore:4",
+		"distrib": {
+			"type": "square",
+			"value": "12,1,4,32"
+		},
+		"silktouch": true,
+		"dropsList": [
+			{
+				"itemStack": "biomesoplenty:gem:4",
+				"fortunes": {
+					"0": 1.0
+				}
+			}
+		],
+		"dim": "overworld",
+		"biomes": [
+			51,
+			30,
+			54,
+			99,
+			12,
+			67,
+			85,
+			86,
+			5,
+			90
+		]
+	},
+	{
+		"block": "biomesoplenty:gem_ore:3",
+		"distrib": {
+			"type": "square",
+			"value": "12,1,4,32"
+		},
+		"silktouch": true,
+		"dropsList": [
+			{
+				"itemStack": "biomesoplenty:gem:3",
+				"fortunes": {
+					"0": 1.0
+				}
+			}
+		],
+		"dim": "overworld",
+		"biomes": [
+			44,
+			50,
+			56,
+			107,
+			21,
+			72,
+			79,
+			81,
+			105,
+			89
+		]
+	}
+]

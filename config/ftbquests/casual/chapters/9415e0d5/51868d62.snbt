@@ -1,0 +1,36 @@
+
+{
+	title: "{greedycraft.quest.51868d62.title}",
+	x: 8.0d,
+	y: 9.5d,
+	description: "{greedycraft.quest.51868d62.desc}",
+	tasks: [{
+		uid: "66987272",
+		type: "item",
+		items: [{
+			item: "openmodularturrets:turret_base 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "4e166c17",
+		type: "xp",
+		xp: 3000
+	},
+	{
+		uid: "869477e7",
+		type: "item",
+		item: "openmodularturrets:machine_gun_turret",
+		count: 2
+	},
+	{
+		uid: "9d5de8a4",
+		type: "item",
+		item: "openmodularturrets:ammo_meta 1 1",
+		count: 1280
+	},
+	{
+		uid: "2ce705b1",
+		type: "loot",
+		table: 1
+	}]
+}

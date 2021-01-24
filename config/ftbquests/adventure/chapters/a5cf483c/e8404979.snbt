@@ -1,0 +1,52 @@
+{
+	title: "{greedycraft.quest.e8404979.title}",
+	x: 6.5d,
+	y: -2.0d,
+	description: "{greedycraft.quest.e8404979.desc}",
+	dependencies: [
+		"3fa4c940",
+		"3ee1ac1a"
+	],
+	tasks: [{
+		uid: "b7efee2a",
+		type: "item",
+		items: [{
+			id: "astralsorcery:blocklens",
+			tag: {
+				astralsorcery: {
+					crystalProperties: {
+						collectiveCapability: 100,
+						size: 900,
+						fract: 0,
+						purity: 100,
+						sizeOverride: -1
+					}
+				}
+			}
+		}],
+		ignore_nbt: 1b,
+		only_from_crafting: false
+	}],
+	rewards: [{
+		uid: "9618fe54",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "dcc72e43",
+		type: "xp",
+		xp: 1200
+	},
+	{
+		uid: "b8249b16",
+		type: "item",
+		item: "minecraft:glass",
+		count: 640
+	},
+	{
+		uid: "88fc5903",
+		type: "item",
+		item: "astralsorcery:itemcraftingcomponent 1 3",
+		count: 16
+	}]
+}

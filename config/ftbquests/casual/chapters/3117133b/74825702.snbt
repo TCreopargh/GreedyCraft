@@ -1,0 +1,34 @@
+
+{
+	title: "{greedycraft.quest.74825702.title}",
+	x: 4.0d,
+	y: -2.5d,
+	description: "{greedycraft.quest.74825702.desc}",
+	dependencies: [
+		"5d584fb4",
+		"adc5e988"
+	],
+	tasks: [{
+		uid: "c6ac8fe0",
+		type: "item",
+		items: [{
+			item: "aether_legacy:enchanted_gravitite"
+		}]
+	}],
+	rewards: [{
+		uid: "cf3b1d36",
+		type: "xp",
+		xp: 800
+	},
+	{
+		uid: "ada663a1",
+		type: "item",
+		item: "aether_legacy:enchanted_gravitite",
+		count: 6
+	},
+	{
+		uid: "78bc4cc0",
+		type: "loot",
+		table: 1
+	}]
+}

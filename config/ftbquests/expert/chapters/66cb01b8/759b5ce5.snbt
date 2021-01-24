@@ -1,0 +1,33 @@
+
+{
+	title: "{greedycraft.quest.759b5ce5.title}",
+	x: 6.0d,
+	y: 1.0d,
+	description: "{greedycraft.quest.759b5ce5.desc}",
+	dependencies: [
+		"85e1cf77"
+	],
+	tasks: [{
+		uid: "0f2bc1e8",
+		type: "item",
+		items: [{
+			item: "bloodarsenal:base_item 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "2267311d",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "380af085",
+		type: "item",
+		item: "bloodarsenal:base_item 1 4",
+		count: 3
+	},
+	{
+		uid: "eaa50154",
+		type: "xp",
+		xp: 1250
+	}]
+}

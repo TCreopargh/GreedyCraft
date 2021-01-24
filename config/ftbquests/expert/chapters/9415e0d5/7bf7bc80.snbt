@@ -1,0 +1,40 @@
+
+{
+	title: "{greedycraft.quest.7bf7bc80.title}",
+	x: 4.0d,
+	y: -0.5d,
+	description: "{greedycraft.quest.7bf7bc80.desc}",
+	tasks: [{
+		uid: "f0a0c9c5",
+		type: "item",
+		items: [{
+			id: "ironbackpacks:backpack",
+			tag: {
+				packInfo: {
+					upgrade: [],
+					type: "ironbackpacks:basic",
+					spec: "NONE"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "57de7dd5",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "0177efb0",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "cd38dea8",
+		type: "item",
+		item: {
+			id: "minecraft:purple_shulker_box"
+		},
+		count: 3
+	}]
+}

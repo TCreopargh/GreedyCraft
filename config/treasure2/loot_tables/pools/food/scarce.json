@@ -1,0 +1,23 @@
+{
+	"version": "1.0",
+	"pools": [
+		{
+			"name": "scarce_food",
+			"rolls": 1,
+			"entries": [
+					{
+					"entryName": "cake",
+					"type": "item",
+					"name": "minecraft:cake",
+					"weight": 50
+				},
+				{
+					"entryName": "pumpkin_pie",
+					"type": "item",
+					"name": "minecraft:pumpkin_pie",
+					"weight": 50
+				}
+			]
+		}
+	]
+}

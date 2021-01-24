@@ -1,0 +1,29 @@
+{
+	title: "{greedycraft.quest.02db1549.title}",
+	x: 16.0d,
+	y: 6.0d,
+	description: "{greedycraft.quest.02db1549.desc}",
+	tasks: [{
+		uid: "4b3a1dfc",
+		type: "item",
+		items: [{
+			item: "bigreactors:ingotgraphite"
+		}]
+	}],
+	rewards: [{
+		uid: "50902599",
+		type: "item",
+		item: "bigreactors:ingotgraphite",
+		count: 10
+	},
+	{
+		uid: "abf7643a",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "96f7f0f6",
+		type: "xp",
+		xp: 100
+	}]
+}

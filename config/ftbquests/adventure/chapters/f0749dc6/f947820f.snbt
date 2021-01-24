@@ -1,0 +1,50 @@
+{
+	title: "{greedycraft.quest.f947820f.title}",
+	icon: {
+		id: "minecraft:diamond_helmet"
+	},
+	x: -5.5d,
+	y: 5.0d,
+	description: "{greedycraft.quest.f947820f.desc}",
+	dependencies: [
+		"3cad7c90"
+	],
+	tasks: [{
+		uid: "ab0f8027",
+		type: "stat",
+		stat: "stat.playOneMinute",
+		value: 43200000
+	}],
+	rewards: [{
+		uid: "391df355",
+		type: "xp",
+		xp: 100000
+	},
+	{
+		uid: "8bdf2596",
+		type: "item",
+		item: "avaritia:neutron_collector",
+		count: 16
+	},
+	{
+		uid: "e15df3ef",
+		type: "item",
+		item: "avaritia:resource 1 4",
+		count: 4
+	},
+	{
+		uid: "4fef6c3c",
+		type: "item",
+		item: "tconstruct:materials 1 50"
+	},
+	{
+		uid: "103806be",
+		type: "item",
+		item: "additions:greedycraft-ordinary_medal"
+	},
+	{
+		uid: "1da6e54d",
+		type: "loot",
+		table: 3
+	}]
+}

@@ -1,0 +1,38 @@
+
+{
+	title: "{greedycraft.quest.c62747a9.title}",
+	x: -10.0d,
+	y: -4.0d,
+	description: "{greedycraft.quest.c62747a9.desc}",
+	dependencies: [
+		"08804ef2"
+	],
+	tasks: [{
+		uid: "9133cfc8",
+		type: "item",
+		items: [{
+			id: "botania:twigwand",
+			tag: {
+				color1: 0,
+				color2: 0
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "04d9d19a",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "f6eb0552",
+		type: "xp",
+		xp: 200
+	},
+	{
+		uid: "c3eaa5e6",
+		type: "item",
+		item: "botania:livingwood",
+		count: 10
+	}]
+}

@@ -1,0 +1,21 @@
+setIcon(<additions:greedycraft-experiment_note>)
+
+setTranslatedTitle("greedycraft.advancement.log7.title")
+
+setTranslatedDescription("greedycraft.advancement.log7.desc")
+
+addParent("greedycraft:elysia/log6")
+
+setPos(200,100)
+
+alwaysVisible()
+
+drawDirectLines(true)
+
+setShowToast(false)
+
+setAnnounceToChat(false)
+
+criteriaLog7 = addCriteria("gc_stage_awakened", "triumph:gamestage")
+
+criteriaLog7.setStage("awakened")

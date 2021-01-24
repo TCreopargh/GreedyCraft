@@ -1,0 +1,35 @@
+
+{
+	title: "{greedycraft.quest.b4a4f0c3.title}",
+	x: 3.0d,
+	y: 2.0d,
+	description: "{greedycraft.quest.b4a4f0c3.desc}",
+	dependencies: [
+		"da08dbca"
+	],
+	tasks: [{
+		uid: "258c8266",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 360"
+		}]
+	}],
+	rewards: [{
+		uid: "4ab06afe",
+		type: "item",
+		item: {
+			id: "appliedenergistics2:portable_cell",
+			tag: {}
+		}
+	},
+	{
+		uid: "c13cabb1",
+		type: "xp",
+		xp: 400
+	},
+	{
+		uid: "fa0363dc",
+		type: "loot",
+		table: 1
+	}]
+}

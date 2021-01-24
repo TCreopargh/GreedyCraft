@@ -1,0 +1,26 @@
+{
+	title: "{greedycraft.quest.9759fa76.title}",
+	x: 6.5d,
+	y: 0.0d,
+	description: "{greedycraft.quest.9759fa76.desc}",
+	dependencies: [
+		"b1243a42"
+	],
+	tasks: [{
+		uid: "30d925cb",
+		type: "item",
+		items: [{
+			item: "gendustry:imprinter"
+		}]
+	}],
+	rewards: [{
+		uid: "9b9e71d5",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "0f1721bf",
+		type: "xp",
+		xp: 800
+	}]
+}

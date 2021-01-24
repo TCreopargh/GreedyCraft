@@ -1,0 +1,12 @@
+{
+    "mob_id": "betterslimes:quazar",
+    "attributes": [
+        {
+            "id": "generic.maxHealth",
+            "modifier": {
+                "min": 3600.0
+            },
+            "isflat": true
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+
+{
+	title: "{greedycraft.quest.41218ac1.title}",
+	icon: "twilightforest:alpha_fur",
+	x: 1.5d,
+	y: 1.0d,
+	description: "{greedycraft.quest.41218ac1.desc}",
+	dependencies: [
+		"11643307"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "64db1d82",
+		type: "item",
+		items: [{
+			item: "twilightforest:alpha_fur"
+		}]
+	}],
+	rewards: [{
+		uid: "49fcb916",
+		type: "item",
+		item: "twilightforest:alpha_fur",
+		count: 10
+	},
+	{
+		uid: "b7a58d4b",
+		type: "xp",
+		xp: 600
+	},
+	{
+		uid: "0a71daeb",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "0c794514",
+		type: "advancement",
+		advancement: "twilightforest:progress_yeti",
+		criterion: ""
+	}]
+}

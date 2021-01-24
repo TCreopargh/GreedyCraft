@@ -1,0 +1,11 @@
+{
+  "name": "§bTime Fragment",
+  "shines": true,
+  "tooltip": [
+    "§bSeems to be a piece of debris from another dimension.",
+    "§eObtained from crushing some dungeon loot."
+  ],
+  "max_stack": 63,
+  "ore_dict": "fragmentTime",
+  "type": "additions:simple"
+}

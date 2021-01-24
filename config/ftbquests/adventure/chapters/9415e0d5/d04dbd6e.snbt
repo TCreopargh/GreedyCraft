@@ -1,0 +1,59 @@
+{
+	title: "{greedycraft.quest.d04dbd6e.title}",
+	x: 0.0d,
+	y: -0.5d,
+	description: "{greedycraft.quest.d04dbd6e.desc}",
+	tasks: [{
+		uid: "7cd80ca9",
+		type: "item",
+		items: [{
+			item: "mysticalagradditions:insanium"
+		}]
+	}],
+	rewards: [{
+		uid: "7d4ecc70",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "8769799b",
+		type: "item",
+		item: "mysticalagriculture:crafting 1 16",
+		count: 4
+	},
+	{
+		uid: "f6d75331",
+		type: "item",
+		item: "mysticalagriculture:crafting 1 17",
+		count: 4
+	},
+	{
+		uid: "3366c198",
+		type: "item",
+		item: "mysticalagriculture:crafting 1 18",
+		count: 4
+	},
+	{
+		uid: "49751877",
+		type: "item",
+		item: "mysticalagriculture:crafting 1 19",
+		count: 4
+	},
+	{
+		uid: "e66b0f08",
+		type: "item",
+		item: "mysticalagriculture:crafting 1 20",
+		count: 4
+	},
+	{
+		uid: "53c28a65",
+		type: "item",
+		item: "mysticalagriculture:crafting 1 21",
+		count: 4
+	},
+	{
+		uid: "b544a321",
+		type: "loot",
+		table: 2
+	}]
+}

@@ -1,0 +1,42 @@
+{
+	title: "{greedycraft.quest.319abe6d.title}",
+	x: -2.0d,
+	y: -0.5d,
+	description: "{greedycraft.quest.319abe6d.desc}",
+	tasks: [{
+		uid: "5e45407c",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-blood_sigil"
+		}]
+	},
+	{
+		uid: "feb3b337",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-bloody_sacrifice"
+		}]
+	}],
+	rewards: [{
+		uid: "b0adea4d",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "1f5c1557",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "1baaf9d1",
+		type: "item",
+		item: "tconstruct:materials",
+		count: 256
+	},
+	{
+		uid: "4e0da31b",
+		type: "item",
+		item: "additions:greedycraft-raw_human_meat",
+		count: 24
+	}]
+}

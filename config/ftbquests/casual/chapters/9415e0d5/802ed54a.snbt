@@ -1,0 +1,92 @@
+
+{
+	title: "{greedycraft.quest.802ed54a.title}",
+	x: 4.0d,
+	y: 3.5d,
+	description: "{greedycraft.quest.802ed54a.desc}",
+	text: [
+		"Usage is similiar to Akashic Tome, combine it with any wrench to manipulate the machines from that mod"
+	],
+	tasks: [{
+		uid: "a8885d67",
+		type: "item",
+		items: [{
+			id: "morphtool:tool"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ff06e2e3",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "c6201d43",
+		type: "item",
+		item: {
+			id: "teslacorelib:wrench"
+		}
+	},
+	{
+		uid: "975ada41",
+		type: "item",
+		item: {
+			id: "enderio:item_yeta_wrench"
+		}
+	},
+	{
+		uid: "8354ec5e",
+		type: "item",
+		item: {
+			id: "actuallyadditions:item_laser_wrench"
+		}
+	},
+	{
+		uid: "29747d2f",
+		type: "item",
+		item: {
+			id: "appliedenergistics2:certus_quartz_wrench"
+		}
+	},
+	{
+		uid: "7b604397",
+		type: "item",
+		item: "forestry:wrench"
+	},
+	{
+		uid: "d6b95b20",
+		type: "item",
+		item: {
+			id: "botania:twigwand",
+			tag: {
+				color1: 0,
+				color2: 0
+			}
+		}
+	},
+	{
+		uid: "944e7c7f",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "bef643d9",
+		type: "item",
+		item: {
+			id: "extrabitmanipulation:bit_wrench"
+		}
+	},
+	{
+		uid: "cf079923",
+		type: "item",
+		item: "draconicevolution:crystal_binder"
+	},
+	{
+		uid: "b22470bb",
+		type: "item",
+		item: {
+			id: "bigreactors:wrench"
+		}
+	}]
+}

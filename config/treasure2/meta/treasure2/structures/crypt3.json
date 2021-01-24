@@ -1,0 +1,12 @@
+{
+	"name": "crypt3",
+	"description": "",
+	"author": "gottsch",
+	"archetypes": ["surface"],
+	"type": "marker",
+	"themes": ["dungeon"],
+	"rarities": ["common"],
+	"biomeWhiteList": [],
+	"biomeBlackList": ["ocean", "deep_ocean"],
+	"includeFog": true
+}

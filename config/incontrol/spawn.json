@@ -1,0 +1,205 @@
+[
+    {
+        "hostile": true,
+        "minlight": 7,
+        "result": "deny"
+    },
+    {
+        "mob": ["minecraft:guardian"],
+        "mincount": {
+            "amount": 16,
+            "perplayer": true
+        },
+        "result": "deny"
+    },
+    {
+        "mob": ["minecraft:squid", "enderiozoo:epicsquid"],
+        "mincount": {
+            "amount": 12,
+            "perplayer": true
+        },
+        "result": "deny"
+    },
+    {
+        "mob": ["pvj:pvj_starfish"],
+        "mincount": {
+            "amount": 6,
+            "perplayer": false
+        },
+        "result": "deny"
+    },
+    {
+        "mob": [
+            "minecraft:guardian",
+            "minecraft:squid",
+            "enderiozoo:epicsquid"
+        ],
+        "maxcount": {
+            "amount": 10,
+            "perplayer": true
+        },
+        "block": "minecraft:water",
+        "maxheight": 39,
+        "result": "allow"
+    },
+    {
+        "dimension": -1,
+        "mob": ["minecraft:squid"],
+        "result": "deny"
+    },
+    {
+        "mob": [
+            "minecraft:guardian",
+            "minecraft:squid",
+            "enderiozoo:epicsquid"
+        ],
+        "result": "deny"
+    },
+    {
+        "onjoin": true,
+        "mob": ["pvj:pvj_goon", "pvj:pvj_clam"],
+        "result": "deny"
+    },
+    {
+        "dimension": 0,
+        "minheight": 50,
+        "hostile": true,
+        "result": "default",
+        "multxp": 0.5,
+        "healthmultiply": 0.75,
+        "damagemultiply": 0.75,
+        "speedmultiply": 0.75
+    },
+    {
+        "dimension": 0,
+        "maxheight": 50,
+        "hostile": true,
+        "result": "default",
+        "healthmultiply": 1.2,
+        "damagemultiply": 1.2,
+        "speedmultiply": 1.2
+    },
+    {
+        "hostile": true,
+        "mincount": {
+            "hostile": true,
+            "amount": 45,
+            "perplayer": true
+        },
+        "result": "deny"
+    },
+    {
+        "mincount": {
+            "passive": true,
+            "amount": 50,
+            "perplayer": true
+        },
+        "result": "deny"
+    },
+    {
+        "dimension": 0,
+        "hostile": true,
+        "seesky": true,
+        "mintime": 0,
+        "maxtime": 12000,
+        "result": "deny"
+    },
+    {
+        "dimension": 0,
+        "hostile": true,
+        "seesky": true,
+        "mintime": 0,
+        "maxtime": 12000,
+        "random": 0.95,
+        "result": "deny"
+    },
+    {
+        "mob": ["minecraft:zombie_horse", "minecraft:skeleton_horse"],
+        "mincount": {
+            "amount": 16,
+            "mod": "minecraft",
+            "perplayer": true
+        },
+        "result": "deny"
+    },
+    {
+        "mob": ["minecraft:bat"],
+        "mincount": {
+            "amount": 6,
+            "perplayer": true
+        },
+        "result": "deny"
+    },
+    {
+        "mob": ["minecraft:wolf"],
+        "mincount": {
+            "amount": 20,
+            "perplayer": true
+        },
+        "onjoin": true,
+        "result": "deny"
+    },
+    {
+        "dimension": 111,
+        "mob": "headcrumbs:human",
+        "mincount": {
+            "amount": 28,
+            "hostile": true,
+            "perplayer": true
+        },
+        "result": "deny"
+    },
+    {
+        "mod": "abyssalcraft",
+        "hostile": true,
+        "result": "default",
+        "healthmultiply": 0.5,
+        "damagemultiply": 0.5,
+        "speedmultiply": 0.75
+    },
+    {
+        "dimension": 0,
+        "mob": "thermalfoundation:basalz",
+        "mincount": {
+            "amount": 8,
+            "hostile": true,
+            "perplayer": true
+        },
+        "result": "deny"
+    },
+    {
+        "dimension": 51,
+        "mod": "abyssalcraft",
+        "mincount": {
+            "amount": 24,
+            "hostile": true,
+            "perplayer": true
+        },
+        "result": "deny"
+    },
+    {
+        "dimension": 0,
+        "mob": "abyssalcraft:shadowmonster",
+        "mincount": {
+            "amount": 18,
+            "hostile": true,
+            "perplayer": true
+        },
+        "result": "deny"
+    },
+    {
+        "dimension": 52,
+        "mob": "abyssalcraft:omotholghoul",
+        "mincount": {
+            "amount": 24,
+            "hostile": true,
+            "perplayer": true
+        },
+        "result": "deny"
+    },
+    {
+        "hostile": true,
+        "minlight": 7,
+        "result": "deny"
+    }
+]

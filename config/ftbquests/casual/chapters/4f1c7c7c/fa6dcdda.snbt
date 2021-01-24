@@ -1,0 +1,23 @@
+
+{
+	title: "§aSwitch to §a§nCasual Mode",
+	icon: {
+		id: "minecraft:iron_hoe"
+	},
+	x: -2.125d,
+	y: -0.625d,
+	can_repeat: true,
+	size: 2.5d,
+	tasks: [{
+		uid: "b6245f0a",
+		type: "checkmark",
+		title: "§aClick this button to switch to Casual Mode"
+	}],
+	rewards: [{
+		uid: "01015074",
+		type: "command",
+		auto: "no_toast",
+		command: "/packmode casual",
+		player_command: true
+	}]
+}

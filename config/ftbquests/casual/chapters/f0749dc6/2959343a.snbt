@@ -1,0 +1,35 @@
+
+{
+	title: "{greedycraft.quest.2959343a.title}",
+	icon: {
+		id: "minecraft:iron_helmet"
+	},
+	x: -5.5d,
+	y: 1.0d,
+	description: "{greedycraft.quest.2959343a.desc}",
+	dependencies: [
+		"2a5c1d85"
+	],
+	tasks: [{
+		uid: "9aca416a",
+		type: "stat",
+		stat: "stat.playOneMinute",
+		value: 1728000
+	}],
+	rewards: [{
+		uid: "c8eafe92",
+		type: "xp",
+		xp: 5000
+	},
+	{
+		uid: "6941d410",
+		type: "item",
+		item: "mysticalagriculture:growth_accelerator",
+		count: 32
+	},
+	{
+		uid: "5e549ac6",
+		type: "loot",
+		table: 1
+	}]
+}

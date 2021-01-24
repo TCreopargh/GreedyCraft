@@ -1,0 +1,10 @@
+{
+  "enchantability": 2,
+  "harvest_level": 0,
+  "base_tool_durability": 6,
+  "efficiency": 0.6,
+  "base_attack_damage": 0.0,
+  "repair_item": "minecraft:cobblestone",
+  "repair_meta": 32767,
+  "type": "tool"
+}

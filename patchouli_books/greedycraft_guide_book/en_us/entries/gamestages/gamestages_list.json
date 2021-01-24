@@ -1,0 +1,31 @@
+{
+    "name": "§2Game Stages List",
+    "icon": "additions:greedycraft-blueprint",
+    "category": "patchouli:gamestages_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(2)Here's how to get some important game stages and what they do. Note: currently not all game stages serve a purpose, some are reserved for future use.$(br)$(li)$(c)getting_started $(): Unlocked by getting any log$(li)$(c)novice_engineer $(): Unlocked by crafting the Induction Smelter"
+        },
+        {
+            "type": "text",
+            "text": "$(li)$(c)skilled_engineer $(): Unlocked by crafting Enhanced Machine Chassis, unlocks Mekanism stuff.$(li)$(c)master_engineer $(): Unlocked by making progress in Mekanism quests, unlocks more Mekanism stuff.$(li)$(c)novice_wizard $(): Unlocked by a quest that requires Celestial Altar, unlocks infusion crafting and blood magic.$(li)$(c)skilled_wizard $(): Unlocked by completing the Bound Metal quest, unlocks more Astral Sorcery stuff."
+        },
+        {
+            "type": "text",
+            "text": "$(li)$(c)master_wizard $(): Unlocked upon using a $(d)Arcane Crystal Ball$(), unlocks some advanced Thaumcraft stuff.$(li)$(c)twilight_shield $(): Unlocked upon using a $(d)Twilight Shield$(), you can only go to The Nether after unlocking this stage.$(li)$(c)ender_charm $(): nlocked upon using a $(3)Ender Charm$(), allows the player into The End.$(li)$(c)hardmode $(): $(c)Hardmode$() is so important that there's an entry in this chapter that elaborates on it.$(li)$(c)wither_slayer $(): Unlocks by killing the Wither for the 1st time."
+        },
+        {
+            "type": "text",
+            "text": ".$(li)$(c)wielder_of_infinity $(): Unlocks by completing the Infinity Catalyst quest.$(li)$(c)challenger_a/b/c/d/e/f/g/all $(): Unlocks by completing a set amount of challenge quests. Unlocks Mystical Agriculture content and mini mob farms.$(li)$(c)nether $(): Unlocks by going into the Nether for the first time.$(li)$(c)energy_matter_core $(): Unlocks by crafting a $(3)Energy-Matter Conversion Core$(), You can only see EMC values after unlocking this.$(li)$(c)abyssal_conquerer $(): Unlocks upon using a $(3)Awakened Eye$()."
+        },
+        {
+            "type": "text",
+            "text": "$(li)$(c)wyvern $(): Unlocks by making a Wyvern Core.$(li)$(c)awakened $(): Unlocks by making an Awakened Core. You can only use creative flight items after unlocking this stage.$(li)$(c)chaotic $(): Unlocks by making a Chaotic Core.$(li)$(c)chaotic_dominator $(): Unlocks by defeating a Chaos Guardian.$(li)$(c)wand/tactic/shuriken/yoyo_blueprint $(): Unlocks upon using their corresponding weapon bluepriont, unlocks some TConstruct weapons."
+        },
+        {
+            "type": "text",
+            "text": "$(li)$(c)fearless_man $(): Unlocked upon using a $(6)Bravery Certificate$(), allows the player into The Dreadlands.$(li)$(c)fusion_matrix $(): Unlocks by crafting a Coalescence Matrix.$(li)$(c)descendant_of_the_sun $(): Unlocks by defeating Barako, the Sun Chief. View 'Hardmode Bosses' entry for more info.$(li)$(c)graduated $(): This means you have beaten the game, congrats.$(li)$(c)disabled $(): This is where disabled items belong to, you can't get this stage normally.$(li)$(c)$(k)qualified_ocd $(): $(k)You are now a qualified OCD patient."
+        }
+    ]
+}

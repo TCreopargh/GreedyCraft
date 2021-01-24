@@ -1,0 +1,27 @@
+{
+  "preset_block": "additions:greedycraft-ancient_debris",
+  "preset_dropStack": {
+    "item": "minecraft:emerald"
+  },
+  "preset_dropMin": 2,
+  "pools": [
+    {
+      "name": "item_pool",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "additions:netherite_scrap",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 2
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "preset_type": "additions:block_item_drop"
+}

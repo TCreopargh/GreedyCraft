@@ -1,0 +1,9 @@
+{
+  "name": "§dTwilight Gem",
+  "shines": true,
+  "tooltip": [
+    "§bA gem that gives out a mystical glow.",
+    "§6Used to activate the Twilight Forest portal."
+  ],
+  "type": "additions:simple"
+}

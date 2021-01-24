@@ -1,0 +1,13 @@
+{
+  "chancecubes:ticket_common_zh_cn": {
+    "chance": 15,
+    "Item": [
+      {
+        "item": {
+          "id": "additions:greedycraft-reward_ticket_common",
+          "Count": 1
+        }
+      }
+    ]
+  }
+}

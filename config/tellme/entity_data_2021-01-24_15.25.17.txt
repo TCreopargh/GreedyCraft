@@ -1,0 +1,672 @@
+Entity: ¡ì9The Slime God¡ìr [registry name: betterslimes:quazar] (entityId: 317)
+Entity class: com.mic.betterslimes.entity.slimes.Quazar
+
+
+TAG_Compound (10) ('')
+{
+    TAG_Int (3) ('HurtByTimestamp'): 3601
+    TAG_Compound (10) ('ForgeData')
+    {
+        TAG_String (8) ('LastDamageSource'): "Took '¡ìrplayer¡ìr' damage from immediate source '¡ìrminecraft:player¡ìr' and true source '¡ìrminecraft:player¡ìr'¡ìr"
+        TAG_Byte (1) ('mpr:checked'): 1
+        TAG_Byte (1) ('roughmobsrevamped:attributesApplied'): 1
+        TAG_Byte (1) ('roughmobsrevamped:featuresApplied'): 1
+        TAG_Byte (1) ('ezModsApp'): 1
+        TAG_Float (5) ('Potion Core - Health Fix'): 2997.0
+        TAG_Int (3) ('healthFixed'): 1
+        TAG_Byte (1) ('Potion Core - Jump Boost Updated'): 1
+    }
+    TAG_Int (3) ('Size'): 8
+    TAG_List (9) ('RelativeAABB') (6 entries of TAG_Double (6))
+    {
+        TAG_Double (6) (''): -2.295000314712503
+        TAG_Double (6) (''): 0.0
+        TAG_Double (6) (''): -2.295000314712752
+        TAG_Double (6) (''): 2.295000314712503
+        TAG_Double (6) (''): 4.590000629425049
+        TAG_Double (6) (''): 2.295000314712752
+    }
+    TAG_List (9) ('Attributes') (15 entries of TAG_Compound (10))
+    {
+        TAG_Compound (10) ('')
+        {
+            TAG_Double (6) ('Base'): 1.0
+            TAG_String (8) ('Name'): "potioncore.projectileDamage"
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Double (6) ('Base'): 1.0
+            TAG_String (8) ('Name'): "potioncore.magicDamage"
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Double (6) ('Base'): 1.0
+            TAG_String (8) ('Name'): "potioncore.jumpHeight"
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Double (6) ('Base'): 1.0
+            TAG_String (8) ('Name'): "potioncore.damageResistance"
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Double (6) ('Base'): 0.0
+            TAG_String (8) ('Name'): "potioncore.magicShielding"
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Double (6) ('Base'): 0.05
+            TAG_String (8) ('Name'): "tconevo.flightSpeed"
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Double (6) ('Base'): 1.0
+            TAG_String (8) ('Name'): "tconevo.damageTaken"
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Double (6) ('Base'): 1.0
+            TAG_String (8) ('Name'): "tconevo.evasionChance"
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Double (6) ('Base'): 81.0
+            TAG_List (9) ('Modifiers') (1 entries of TAG_Compound (10))
+            {
+                TAG_Compound (10) ('')
+                {
+                    TAG_Long (4) ('UUIDMost'): 3212507044966780201
+                    TAG_Long (4) ('UUIDLeast'): -6370496720088638900
+                    TAG_Double (6) ('Amount'): 36.0
+                    TAG_Int (3) ('Operation'): 1
+                    TAG_String (8) ('Name'): "mpr:generic.maxHealth"
+                }
+            }
+            TAG_String (8) ('Name'): "generic.maxHealth"
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Double (6) ('Base'): 0.0
+            TAG_String (8) ('Name'): "generic.knockbackResistance"
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Double (6) ('Base'): 0.8
+            TAG_String (8) ('Name'): "generic.movementSpeed"
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Double (6) ('Base'): 0.0
+            TAG_String (8) ('Name'): "generic.armor"
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Double (6) ('Base'): 0.0
+            TAG_String (8) ('Name'): "generic.armorToughness"
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Double (6) ('Base'): 1.0
+            TAG_String (8) ('Name'): "forge.swimSpeed"
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Double (6) ('Base'): 64.0
+            TAG_String (8) ('Name'): "generic.followRange"
+        }
+    }
+    TAG_Byte (1) ('Invulnerable'): 0
+    TAG_Byte (1) ('FallFlying'): 0
+    TAG_Int (3) ('PortalCooldown'): 0
+    TAG_Float (5) ('AbsorptionAmount'): 0.0
+    TAG_Int (3) ('leapCooldown'): 160
+    TAG_Float (5) ('FallDistance'): 0.0
+    TAG_Short (2) ('DeathTime'): 0
+    TAG_Compound (10) ('ForgeCaps')
+    {
+        TAG_Int (3) ('bettercombatmod:ioffhandattack'): 0
+        TAG_Compound (10) ('betterhurttimer:hurt')
+        {
+            TAG_Int (3) ('ticksToShieldDamage'): 0
+            TAG_Int (3) ('ticksToArmorDamage'): 0
+        }
+        TAG_List (9) ('tinkertoolleveling:entityxp') (1 entries of TAG_Compound (10))
+        {
+            TAG_Compound (10) ('')
+            {
+                TAG_Long (4) ('player_uuidMost'): 3244428519259456314
+                TAG_Long (4) ('player_uuidLeast'): -6677120288058627187
+                TAG_List (9) ('damage_data') (4 entries of TAG_Compound (10))
+                {
+                    TAG_Compound (10) ('')
+                    {
+                        TAG_Float (5) ('damage'): 361.10767
+                        TAG_Compound (10) ('item')
+                        {
+                            TAG_Compound (10) ('ForgeCaps')
+                            {
+                                TAG_Compound (10) ('astralsorcery:cap_item_amulet_holder')
+                                {
+                                    TAG_Long (4) ('AS_Amulet_HolderLeast'): -6677120288058627187
+                                    TAG_Long (4) ('AS_Amulet_HolderMost'): 3244428519259456314
+                                }
+                            }
+                            TAG_String (8) ('id'): "tconstruct:broadsword"
+                            TAG_Byte (1) ('Count'): 1
+                            TAG_Compound (10) ('tag')
+                            {
+                                TAG_Compound (10) ('StatsOriginal')
+                                {
+                                    TAG_Float (5) ('AttackSpeedMultiplier'): 1.0
+                                    TAG_Float (5) ('MiningSpeed'): 16.25
+                                    TAG_Int (3) ('FreeModifiers'): 3
+                                    TAG_Int (3) ('Durability'): 21083
+                                    TAG_Int (3) ('HarvestLevel'): 7
+                                    TAG_Float (5) ('Attack'): 17.0
+                                }
+                                TAG_Compound (10) ('Stats')
+                                {
+                                    TAG_Float (5) ('AttackSpeedMultiplier'): 1.0
+                                    TAG_Float (5) ('MiningSpeed'): 16.25
+                                    TAG_Int (3) ('FreeModifiers'): 5
+                                    TAG_Int (3) ('Durability'): 21083
+                                    TAG_Int (3) ('HarvestLevel'): 7
+                                    TAG_Float (5) ('Attack'): 17.0
+                                }
+                                TAG_Compound (10) ('Special')
+                                {
+                                    TAG_List (9) ('Categories') (2 entries of TAG_String (8))
+                                    {
+                                        TAG_String (8) (''): "tool"
+                                        TAG_String (8) (''): "weapon"
+                                    }
+                                }
+                                TAG_Compound (10) ('TinkerData')
+                                {
+                                    TAG_List (9) ('Materials') (3 entries of TAG_String (8))
+                                    {
+                                        TAG_String (8) (''): "neutronium"
+                                        TAG_String (8) (''): "neutronium"
+                                        TAG_String (8) (''): "neutronium"
+                                    }
+                                    TAG_List (9) ('Modifiers') (1 entries of TAG_String (8))
+                                    {
+                                        TAG_String (8) (''): "toolleveling"
+                                    }
+                                }
+                                TAG_List (9) ('Modifiers') (4 entries of TAG_Compound (10))
+                                {
+                                    TAG_Compound (10) ('')
+                                    {
+                                        TAG_String (8) ('identifier'): "heavy"
+                                        TAG_Int (3) ('color'): -12895429
+                                        TAG_Int (3) ('level'): 1
+                                    }
+                                    TAG_Compound (10) ('')
+                                    {
+                                        TAG_String (8) ('identifier'): "dense"
+                                        TAG_Int (3) ('color'): -12895429
+                                        TAG_Int (3) ('level'): 1
+                                    }
+                                    TAG_Compound (10) ('')
+                                    {
+                                        TAG_String (8) ('identifier'): "tconevo.condensing"
+                                        TAG_Int (3) ('color'): -12895429
+                                        TAG_Int (3) ('level'): 1
+                                    }
+                                    TAG_Compound (10) ('')
+                                    {
+                                        TAG_String (8) ('identifier'): "toolleveling"
+                                        TAG_Int (3) ('color'): 16777215
+                                        TAG_Int (3) ('level'): 1
+                                    }
+                                }
+                                TAG_List (9) ('Traits') (4 entries of TAG_String (8))
+                                {
+                                    TAG_String (8) (''): "heavy"
+                                    TAG_String (8) (''): "dense"
+                                    TAG_String (8) (''): "tconevo.condensing1"
+                                    TAG_String (8) (''): "toolleveling"
+                                }
+                            }
+                            TAG_Short (2) ('Damage'): 0
+                        }
+                    }
+                    TAG_Compound (10) ('')
+                    {
+                        TAG_Float (5) ('damage'): 371.7661
+                        TAG_Compound (10) ('item')
+                        {
+                            TAG_Compound (10) ('ForgeCaps')
+                            {
+                                TAG_Compound (10) ('astralsorcery:cap_item_amulet_holder')
+                                {
+                                }
+                            }
+                            TAG_String (8) ('id'): "tconstruct:broadsword"
+                            TAG_Byte (1) ('Count'): 1
+                            TAG_Compound (10) ('tag')
+                            {
+                                TAG_Compound (10) ('StatsOriginal')
+                                {
+                                    TAG_Float (5) ('AttackSpeedMultiplier'): 1.0
+                                    TAG_Float (5) ('MiningSpeed'): 16.25
+                                    TAG_Int (3) ('FreeModifiers'): 3
+                                    TAG_Int (3) ('Durability'): 21083
+                                    TAG_Int (3) ('HarvestLevel'): 7
+                                    TAG_Float (5) ('Attack'): 17.0
+                                }
+                                TAG_Compound (10) ('Stats')
+                                {
+                                    TAG_Float (5) ('AttackSpeedMultiplier'): 1.0
+                                    TAG_Float (5) ('MiningSpeed'): 16.25
+                                    TAG_Int (3) ('FreeModifiers'): 5
+                                    TAG_Int (3) ('Durability'): 21083
+                                    TAG_Int (3) ('HarvestLevel'): 7
+                                    TAG_Float (5) ('Attack'): 17.0
+                                }
+                                TAG_Compound (10) ('Special')
+                                {
+                                    TAG_List (9) ('Categories') (2 entries of TAG_String (8))
+                                    {
+                                        TAG_String (8) (''): "tool"
+                                        TAG_String (8) (''): "weapon"
+                                    }
+                                }
+                                TAG_Compound (10) ('TinkerData')
+                                {
+                                    TAG_List (9) ('Materials') (3 entries of TAG_String (8))
+                                    {
+                                        TAG_String (8) (''): "neutronium"
+                                        TAG_String (8) (''): "neutronium"
+                                        TAG_String (8) (''): "neutronium"
+                                    }
+                                    TAG_List (9) ('Modifiers') (1 entries of TAG_String (8))
+                                    {
+                                        TAG_String (8) (''): "toolleveling"
+                                    }
+                                }
+                                TAG_List (9) ('Modifiers') (4 entries of TAG_Compound (10))
+                                {
+                                    TAG_Compound (10) ('')
+                                    {
+                                        TAG_String (8) ('identifier'): "heavy"
+                                        TAG_Int (3) ('color'): -12895429
+                                        TAG_Int (3) ('level'): 1
+                                    }
+                                    TAG_Compound (10) ('')
+                                    {
+                                        TAG_String (8) ('identifier'): "dense"
+                                        TAG_Int (3) ('color'): -12895429
+                                        TAG_Int (3) ('level'): 1
+                                    }
+                                    TAG_Compound (10) ('')
+                                    {
+                                        TAG_String (8) ('identifier'): "tconevo.condensing"
+                                        TAG_Int (3) ('color'): -12895429
+                                        TAG_Int (3) ('level'): 1
+                                    }
+                                    TAG_Compound (10) ('')
+                                    {
+                                        TAG_String (8) ('identifier'): "toolleveling"
+                                        TAG_Int (3) ('color'): 16777215
+                                        TAG_Int (3) ('level'): 1
+                                    }
+                                }
+                                TAG_List (9) ('Traits') (4 entries of TAG_String (8))
+                                {
+                                    TAG_String (8) (''): "heavy"
+                                    TAG_String (8) (''): "dense"
+                                    TAG_String (8) (''): "tconevo.condensing1"
+                                    TAG_String (8) (''): "toolleveling"
+                                }
+                            }
+                            TAG_Short (2) ('Damage'): 0
+                        }
+                    }
+                    TAG_Compound (10) ('')
+                    {
+                        TAG_Float (5) ('damage'): 342.70776
+                        TAG_Compound (10) ('item')
+                        {
+                            TAG_Compound (10) ('ForgeCaps')
+                            {
+                                TAG_Compound (10) ('astralsorcery:cap_item_amulet_holder')
+                                {
+                                    TAG_Long (4) ('AS_Amulet_HolderLeast'): -6677120288058627187
+                                    TAG_Long (4) ('AS_Amulet_HolderMost'): 3244428519259456314
+                                }
+                            }
+                            TAG_String (8) ('id'): "tconstruct:broadsword"
+                            TAG_Byte (1) ('Count'): 1
+                            TAG_Compound (10) ('tag')
+                            {
+                                TAG_Compound (10) ('StatsOriginal')
+                                {
+                                    TAG_Float (5) ('AttackSpeedMultiplier'): 1.0
+                                    TAG_Float (5) ('MiningSpeed'): 16.25
+                                    TAG_Int (3) ('FreeModifiers'): 3
+                                    TAG_Int (3) ('Durability'): 21083
+                                    TAG_Int (3) ('HarvestLevel'): 7
+                                    TAG_Float (5) ('Attack'): 17.0
+                                }
+                                TAG_Compound (10) ('Stats')
+                                {
+                                    TAG_Float (5) ('AttackSpeedMultiplier'): 1.0
+                                    TAG_Float (5) ('MiningSpeed'): 16.25
+                                    TAG_Int (3) ('FreeModifiers'): 5
+                                    TAG_Int (3) ('Durability'): 21083
+                                    TAG_Int (3) ('HarvestLevel'): 7
+                                    TAG_Float (5) ('Attack'): 17.0
+                                }
+                                TAG_Compound (10) ('Special')
+                                {
+                                    TAG_List (9) ('Categories') (2 entries of TAG_String (8))
+                                    {
+                                        TAG_String (8) (''): "tool"
+                                        TAG_String (8) (''): "weapon"
+                                    }
+                                }
+                                TAG_Compound (10) ('TinkerData')
+                                {
+                                    TAG_List (9) ('Materials') (3 entries of TAG_String (8))
+                                    {
+                                        TAG_String (8) (''): "neutronium"
+                                        TAG_String (8) (''): "neutronium"
+                                        TAG_String (8) (''): "neutronium"
+                                    }
+                                    TAG_List (9) ('Modifiers') (1 entries of TAG_String (8))
+                                    {
+                                        TAG_String (8) (''): "toolleveling"
+                                    }
+                                }
+                                TAG_List (9) ('Modifiers') (4 entries of TAG_Compound (10))
+                                {
+                                    TAG_Compound (10) ('')
+                                    {
+                                        TAG_String (8) ('identifier'): "heavy"
+                                        TAG_Int (3) ('color'): -12895429
+                                        TAG_Int (3) ('level'): 1
+                                    }
+                                    TAG_Compound (10) ('')
+                                    {
+                                        TAG_String (8) ('identifier'): "dense"
+                                        TAG_Int (3) ('color'): -12895429
+                                        TAG_Int (3) ('level'): 1
+                                    }
+                                    TAG_Compound (10) ('')
+                                    {
+                                        TAG_String (8) ('identifier'): "tconevo.condensing"
+                                        TAG_Int (3) ('color'): -12895429
+                                        TAG_Int (3) ('level'): 1
+                                    }
+                                    TAG_Compound (10) ('')
+                                    {
+                                        TAG_String (8) ('identifier'): "toolleveling"
+                                        TAG_Int (3) ('color'): 16777215
+                                        TAG_Int (3) ('level'): 1
+                                    }
+                                }
+                                TAG_List (9) ('Traits') (4 entries of TAG_String (8))
+                                {
+                                    TAG_String (8) (''): "heavy"
+                                    TAG_String (8) (''): "dense"
+                                    TAG_String (8) (''): "tconevo.condensing1"
+                                    TAG_String (8) (''): "toolleveling"
+                                }
+                            }
+                            TAG_Short (2) ('Damage'): 0
+                        }
+                    }
+                    TAG_Compound (10) ('')
+                    {
+                        TAG_Float (5) ('damage'): 432.0952
+                        TAG_Compound (10) ('item')
+                        {
+                            TAG_Compound (10) ('ForgeCaps')
+                            {
+                                TAG_Compound (10) ('astralsorcery:cap_item_amulet_holder')
+                                {
+                                    TAG_Long (4) ('AS_Amulet_HolderLeast'): -6677120288058627187
+                                    TAG_Long (4) ('AS_Amulet_HolderMost'): 3244428519259456314
+                                }
+                            }
+                            TAG_String (8) ('id'): "tconstruct:broadsword"
+                            TAG_Byte (1) ('Count'): 1
+                            TAG_Compound (10) ('tag')
+                            {
+                                TAG_Compound (10) ('StatsOriginal')
+                                {
+                                    TAG_Float (5) ('AttackSpeedMultiplier'): 1.0
+                                    TAG_Float (5) ('MiningSpeed'): 16.25
+                                    TAG_Int (3) ('FreeModifiers'): 3
+                                    TAG_Int (3) ('Durability'): 21083
+                                    TAG_Int (3) ('HarvestLevel'): 7
+                                    TAG_Float (5) ('Attack'): 17.0
+                                }
+                                TAG_Compound (10) ('Stats')
+                                {
+                                    TAG_Float (5) ('AttackSpeedMultiplier'): 1.0
+                                    TAG_Float (5) ('MiningSpeed'): 16.25
+                                    TAG_Int (3) ('FreeModifiers'): 5
+                                    TAG_Int (3) ('Durability'): 21083
+                                    TAG_Int (3) ('HarvestLevel'): 7
+                                    TAG_Float (5) ('Attack'): 17.0
+                                }
+                                TAG_Compound (10) ('Special')
+                                {
+                                    TAG_List (9) ('Categories') (2 entries of TAG_String (8))
+                                    {
+                                        TAG_String (8) (''): "tool"
+                                        TAG_String (8) (''): "weapon"
+                                    }
+                                }
+                                TAG_Compound (10) ('TinkerData')
+                                {
+                                    TAG_List (9) ('Materials') (3 entries of TAG_String (8))
+                                    {
+                                        TAG_String (8) (''): "neutronium"
+                                        TAG_String (8) (''): "neutronium"
+                                        TAG_String (8) (''): "neutronium"
+                                    }
+                                    TAG_List (9) ('Modifiers') (1 entries of TAG_String (8))
+                                    {
+                                        TAG_String (8) (''): "toolleveling"
+                                    }
+                                }
+                                TAG_List (9) ('Modifiers') (4 entries of TAG_Compound (10))
+                                {
+                                    TAG_Compound (10) ('')
+                                    {
+                                        TAG_String (8) ('identifier'): "heavy"
+                                        TAG_Int (3) ('color'): -12895429
+                                        TAG_Int (3) ('level'): 1
+                                    }
+                                    TAG_Compound (10) ('')
+                                    {
+                                        TAG_String (8) ('identifier'): "dense"
+                                        TAG_Int (3) ('color'): -12895429
+                                        TAG_Int (3) ('level'): 1
+                                    }
+                                    TAG_Compound (10) ('')
+                                    {
+                                        TAG_String (8) ('identifier'): "tconevo.condensing"
+                                        TAG_Int (3) ('color'): -12895429
+                                        TAG_Int (3) ('level'): 1
+                                    }
+                                    TAG_Compound (10) ('')
+                                    {
+                                        TAG_String (8) ('identifier'): "toolleveling"
+                                        TAG_Int (3) ('color'): 16777215
+                                        TAG_Int (3) ('level'): 1
+                                    }
+                                }
+                                TAG_List (9) ('Traits') (4 entries of TAG_String (8))
+                                {
+                                    TAG_String (8) (''): "heavy"
+                                    TAG_String (8) (''): "dense"
+                                    TAG_String (8) (''): "tconevo.condensing1"
+                                    TAG_String (8) (''): "toolleveling"
+                                }
+                            }
+                            TAG_Short (2) ('Damage'): 0
+                        }
+                    }
+                }
+            }
+        }
+        TAG_Compound (10) ('dsurround:data')
+        {
+            TAG_Byte (1) ('a'): 0
+            TAG_Byte (1) ('f'): 0
+        }
+        TAG_Compound (10) ('llibrary:extendedentitydatacapability')
+        {
+            TAG_Compound (10) ('mm:living')
+            {
+                TAG_Float (5) ('frozenYaw'): 0.0
+                TAG_Float (5) ('freezeProgress'): 0.0
+                TAG_Float (5) ('frozenPitch'): 0.0
+                TAG_Byte (1) ('prevHasAI'): 0
+                TAG_Int (3) ('freezeDecayDelay'): 0
+                TAG_Float (5) ('frozenYawHead'): 0.0
+                TAG_Float (5) ('frozenLimbSwingAmount'): 0.0
+                TAG_Float (5) ('frozenRenderYawOffset'): 0.0
+                TAG_Float (5) ('frozenSwingProgress'): 0.0
+            }
+        }
+        TAG_Compound (10) ('rotm:summonspawn')
+        {
+            TAG_List (9) ('SummonSpawns') (3 entries of TAG_Compound (10))
+            {
+                TAG_Compound (10) ('')
+                {
+                    TAG_Int (3) ('IntID'): 0
+                    TAG_String (8) ('StringID'): "betterslimes:knight_slime"
+                    TAG_Compound (10) ('SummonData')
+                    {
+                        TAG_Long (4) ('NextSpawnTime'): 98483
+                        TAG_List (9) ('SummonedList') (0 entries of TAG_End (0))
+                        {
+                        }
+                        TAG_Int (3) ('TotalSpawned'): 0
+                    }
+                }
+                TAG_Compound (10) ('')
+                {
+                    TAG_Int (3) ('IntID'): 0
+                    TAG_String (8) ('StringID'): "betterslimes:haunted_slime"
+                    TAG_Compound (10) ('SummonData')
+                    {
+                        TAG_Long (4) ('NextSpawnTime'): 98483
+                        TAG_List (9) ('SummonedList') (0 entries of TAG_End (0))
+                        {
+                        }
+                        TAG_Int (3) ('TotalSpawned'): 0
+                    }
+                }
+                TAG_Compound (10) ('')
+                {
+                    TAG_Int (3) ('IntID'): 0
+                    TAG_String (8) ('StringID'): "betterslimes:spectral_slime"
+                    TAG_Compound (10) ('SummonData')
+                    {
+                        TAG_Long (4) ('NextSpawnTime'): 98483
+                        TAG_List (9) ('SummonedList') (0 entries of TAG_End (0))
+                        {
+                        }
+                        TAG_Int (3) ('TotalSpawned'): 0
+                    }
+                }
+            }
+        }
+        TAG_Int (3) ('bettercombatmod:isecondhurttimer'): 0
+        TAG_List (9) ('cqrepoured:item_cooldown_handler') (0 entries of TAG_End (0))
+        {
+        }
+        TAG_Compound (10) ('twilightforest:cap_shield')
+        {
+            TAG_Int (3) ('permshields'): 0
+            TAG_Int (3) ('tempshields'): 0
+        }
+        TAG_Compound (10) ('thaumicaugmentation:portal_state')
+        {
+            TAG_Byte (1) ('inPortal'): 0
+        }
+    }
+    TAG_List (9) ('HandDropChances') (2 entries of TAG_Float (5))
+    {
+        TAG_Float (5) (''): 0.085
+        TAG_Float (5) (''): 0.085
+    }
+    TAG_Byte (1) ('PersistenceRequired'): 0
+    TAG_String (8) ('id'): "betterslimes:quazar"
+    TAG_Int (3) ('Spawn'): 65
+    TAG_List (9) ('Motion') (3 entries of TAG_Double (6))
+    {
+        TAG_Double (6) (''): 0.0
+        TAG_Double (6) (''): 0.33319999363422365
+        TAG_Double (6) (''): 0.0
+    }
+    TAG_Byte (1) ('wasOnGround'): 0
+    TAG_Byte (1) ('Leashed'): 0
+    TAG_Long (4) ('UUIDLeast'): -8611520685636737881
+    TAG_Float (5) ('Health'): 2997.0
+    TAG_Byte (1) ('LeftHanded'): 0
+    TAG_Short (2) ('Air'): 300
+    TAG_Byte (1) ('OnGround'): 0
+    TAG_Int (3) ('Dimension'): 0
+    TAG_Float (5) ('leapVelocityMultiplierY'): 1.0
+    TAG_List (9) ('Rotation') (2 entries of TAG_Float (5))
+    {
+        TAG_Float (5) (''): 19.0
+        TAG_Float (5) (''): 0.0
+    }
+    TAG_Byte (1) ('UpdateBlocked'): 0
+    TAG_Byte (1) ('spawnMinions'): 0
+    TAG_List (9) ('HandItems') (2 entries of TAG_Compound (10))
+    {
+        TAG_Compound (10) ('')
+        {
+        }
+        TAG_Compound (10) ('')
+        {
+        }
+    }
+    TAG_List (9) ('ArmorDropChances') (4 entries of TAG_Float (5))
+    {
+        TAG_Float (5) (''): 0.085
+        TAG_Float (5) (''): 0.085
+        TAG_Float (5) (''): 0.085
+        TAG_Float (5) (''): 0.085
+    }
+    TAG_Int (3) ('leapWarning'): 40
+    TAG_Float (5) ('leapVelocityMultiplierXZ'): 1.0
+    TAG_Long (4) ('UUIDMost'): 6550760834501004863
+    TAG_List (9) ('Pos') (3 entries of TAG_Double (6))
+    {
+        TAG_Double (6) (''): -42.7049996852875
+        TAG_Double (6) (''): 79.41999998688698
+        TAG_Double (6) (''): 541.7049996852872
+    }
+    TAG_Short (2) ('Fire'): -1
+    TAG_List (9) ('ArmorItems') (4 entries of TAG_Compound (10))
+    {
+        TAG_Compound (10) ('')
+        {
+        }
+        TAG_Compound (10) ('')
+        {
+        }
+        TAG_Compound (10) ('')
+        {
+        }
+        TAG_Compound (10) ('')
+        {
+        }
+    }
+    TAG_Byte (1) ('CanPickUpLoot'): 0
+    TAG_Int (3) ('explodeRange'): 12
+    TAG_Float (5) ('explodeDamage'): 12.0
+    TAG_Short (2) ('HurtTime'): 0
+}

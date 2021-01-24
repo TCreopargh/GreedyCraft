@@ -1,0 +1,21 @@
+{
+  "item_block": {
+    "name": "§fHardened Stone",
+    "tooltip": "§eVery hard to break.",
+    "ore_dict": "stone",
+    "type": "additions:block_simple"
+  },
+  "name": "§fHardened Stone",
+  "material": "minecraft:stone",
+  "place_sound": "minecraft:block.stone.place",
+  "break_sound": "minecraft:block.stone.break",
+  "hit_sound": "minecraft:block.stone.hit",
+  "step_sound": "minecraft:block.stone.step",
+  "fall_sound": "minecraft:block.stone.fall",
+  "map_color": "minecraft:gray",
+  "hardness": 125.0,
+  "resistance": 1000.0,
+  "harvest_level": 3,
+  "harvest_tool": "pickaxe",
+  "type": "additions:simple"
+}

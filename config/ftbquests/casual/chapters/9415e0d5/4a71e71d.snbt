@@ -1,0 +1,40 @@
+
+{
+	title: "{greedycraft.quest.4a71e71d.title}",
+	x: -4.0d,
+	y: 9.5d,
+	description: "{greedycraft.quest.4a71e71d.desc}",
+	tasks: [{
+		uid: "8898d8fd",
+		type: "item",
+		items: [{
+			id: "chesttransporter:chesttransporter"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b2b60fd9",
+		type: "item",
+		item: "minecraft:leather",
+		count: 10
+	},
+	{
+		uid: "7c5b48b4",
+		type: "item",
+		item: {
+			id: "chesttransporter:chesttransporter_obsidian"
+		},
+		count: 4
+	},
+	{
+		uid: "60abb604",
+		type: "xp",
+		xp: 70
+	},
+	{
+		uid: "bfc461fb",
+		type: "loot",
+		table: 0
+	}]
+}

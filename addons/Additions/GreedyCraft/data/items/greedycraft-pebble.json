@@ -1,0 +1,13 @@
+{
+  "name": "Pebble",
+  "tooltip": [
+    "§7White and smooth.",
+    "§7Can be shot with sling from Cyclic"
+  ],
+  "ore_dict": [
+    "stonePebble",
+    "pebble",
+    "rock"
+  ],
+  "type": "additions:simple"
+}

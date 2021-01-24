@@ -1,0 +1,38 @@
+{
+	title: "{greedycraft.quest.73ac3790.title}",
+	x: 8.0d,
+	y: 0.5d,
+	description: "{greedycraft.quest.73ac3790.desc}",
+	dependencies: [
+		"6e46a027"
+	],
+	tasks: [{
+		uid: "7b61c164",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:controller"
+		}]
+	}],
+	rewards: [{
+		uid: "97150174",
+		type: "item",
+		item: "appliedenergistics2:part 1 76",
+		count: 32
+	},
+	{
+		uid: "469f9b65",
+		type: "item",
+		item: "appliedenergistics2:part 1 380",
+		count: 4
+	},
+	{
+		uid: "93d1ac7a",
+		type: "xp",
+		xp: 500
+	},
+	{
+		uid: "6e23e191",
+		type: "loot",
+		table: 1
+	}]
+}

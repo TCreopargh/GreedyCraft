@@ -1,0 +1,32 @@
+
+{
+	title: "{greedycraft.quest.349f41aa.title}",
+	x: 0.0d,
+	y: 11.5d,
+	description: "{greedycraft.quest.349f41aa.desc}",
+	tasks: [{
+		uid: "d59e936a",
+		type: "item",
+		items: [{
+			id: "additions:greedycraft-difficulty_changer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9a0567f7",
+		type: "xp",
+		xp: 8000
+	},
+	{
+		uid: "11a390e9",
+		type: "loot",
+		table: 3
+	},
+	{
+		uid: "352cf0ca",
+		type: "item",
+		item: "scalinghealth:heartcontainer",
+		count: 4
+	}]
+}

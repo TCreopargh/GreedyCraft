@@ -1,0 +1,46 @@
+{
+	title: "{greedycraft.quest.5f44ba77.title}",
+	x: 10.0d,
+	y: 0.0d,
+	shape: "square",
+	description: "{greedycraft.quest.5f44ba77.desc}",
+	dependencies: [
+		"9d0b6a75",
+		"41c2ec3d"
+	],
+	tasks: [{
+		uid: "270d1e75",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconic_block"
+		}]
+	}],
+	rewards: [{
+		uid: "217726b0",
+		type: "item",
+		item: "draconicevolution:draconic_block",
+		count: 4
+	},
+	{
+		uid: "f45982cd",
+		type: "xp",
+		xp: 5250
+	},
+	{
+		uid: "d46a7d75",
+		type: "item",
+		item: "minecraft:end_crystal",
+		count: 8
+	},
+	{
+		uid: "356a7cea",
+		type: "item",
+		item: "draconicevolution:dragon_heart",
+		count: 2
+	},
+	{
+		uid: "a481b07b",
+		type: "loot",
+		table: 2
+	}]
+}

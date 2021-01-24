@@ -1,0 +1,21 @@
+setIcon(<additions:greedycraft-experiment_note>)
+
+setTranslatedTitle("greedycraft.advancement.log3.title")
+
+setTranslatedDescription("greedycraft.advancement.log3.desc")
+
+addParent("greedycraft:elysia/log2")
+
+setPos(40,100)
+
+alwaysVisible()
+
+drawDirectLines(true)
+
+setShowToast(false)
+
+setAnnounceToChat(false)
+
+criteriaLog3 = addCriteria("gc_killed_wither", "minecraft:player_killed_entity")
+
+criteriaLog3.setEntityType("wither")

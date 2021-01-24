@@ -1,0 +1,50 @@
+
+{
+	title: "{greedycraft.quest.727f6d18.title}",
+	x: 20.0d,
+	y: -4.0d,
+	shape: "octagon",
+	description: "{greedycraft.quest.727f6d18.desc}",
+	dependencies: [
+		"d0e61e36"
+	],
+	tasks: [{
+		uid: "e9a80ce9",
+		type: "item",
+		items: [{
+			item: "avaritia:resource 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "ef7519e3",
+		type: "item",
+		item: "avaritia:resource 1 5"
+	},
+	{
+		uid: "984b7c92",
+		type: "xp",
+		xp: 160000
+	},
+	{
+		uid: "4e5ee08d",
+		type: "loot",
+		table: 3
+	},
+	{
+		uid: "50e5454e",
+		type: "item",
+		item: "avaritia:neutronium_compressor"
+	},
+	{
+		uid: "f8d76749",
+		type: "item",
+		item: "avaritia:neutron_collector",
+		count: 3
+	},
+	{
+		uid: "bcac8753",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "wielder_of_infinity"
+	}]
+}

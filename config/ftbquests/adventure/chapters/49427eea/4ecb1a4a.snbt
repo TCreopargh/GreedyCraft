@@ -1,0 +1,36 @@
+{
+	title: "{greedycraft.quest.4ecb1a4a.title}",
+	x: 5.5d,
+	y: 3.5d,
+	description: "{greedycraft.quest.4ecb1a4a.desc}",
+	dependencies: [
+		"33bb8983",
+		"9e787f12",
+		"578b2940"
+	],
+	tasks: [{
+		uid: "4a6bb3f8",
+		type: "item",
+		items: [{
+			id: "mekanism:machineblock2",
+			Damage: 3s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "781bff5a",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "4f85629f",
+		type: "xp",
+		xp: 2500
+	},
+	{
+		uid: "60197d70",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "master_engineer"
+	}]
+}

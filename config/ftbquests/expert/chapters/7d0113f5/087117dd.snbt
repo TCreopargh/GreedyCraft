@@ -1,0 +1,33 @@
+
+{
+	title: "{greedycraft.quest.087117dd.title}",
+	x: 2.5d,
+	y: -1.5d,
+	description: "{greedycraft.quest.087117dd.desc}",
+	dependencies: [
+		"5b9f8f30"
+	],
+	tasks: [{
+		uid: "bfe44b42",
+		type: "item",
+		items: [{
+			item: "thaumcraft:ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "b92177ed",
+		type: "item",
+		item: "thaumcraft:ingot",
+		count: 5
+	},
+	{
+		uid: "1e6cdab7",
+		type: "xp",
+		xp: 750
+	},
+	{
+		uid: "87635bb5",
+		type: "loot",
+		table: 1
+	}]
+}

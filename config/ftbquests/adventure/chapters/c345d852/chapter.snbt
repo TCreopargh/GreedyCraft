@@ -1,0 +1,159 @@
+{
+	title: "{greedycraft.quest.chapter.forestry}",
+	icon: {
+		id: "forestry:bee_drone_ge",
+		tag: {
+			MaxH: 40,
+			Mate: {
+				Chromosomes: [{
+					UID1: "forestry.speciesSteadfast",
+					UID0: "forestry.speciesSteadfast",
+					Slot: 0b
+				},
+				{
+					UID1: "forestry.speedSlower",
+					UID0: "forestry.speedSlower",
+					Slot: 1b
+				},
+				{
+					UID1: "forestry.lifespanNormal",
+					UID0: "forestry.lifespanNormal",
+					Slot: 2b
+				},
+				{
+					UID1: "forestry.fertilityNormal",
+					UID0: "forestry.fertilityNormal",
+					Slot: 3b
+				},
+				{
+					UID1: "forestry.toleranceNone",
+					UID0: "forestry.toleranceNone",
+					Slot: 4b
+				},
+				{
+					UID1: "forestry.boolTrue",
+					UID0: "forestry.boolTrue",
+					Slot: 5b
+				},
+				{
+					UID1: "forestry.toleranceNone",
+					UID0: "forestry.toleranceNone",
+					Slot: 6b
+				},
+				{
+					UID1: "forestry.boolFalse",
+					UID0: "forestry.boolFalse",
+					Slot: 7b
+				},
+				{
+					UID1: "forestry.boolTrue",
+					UID0: "forestry.boolTrue",
+					Slot: 8b
+				},
+				{
+					UID1: "forestry.flowersVanilla",
+					UID0: "forestry.flowersVanilla",
+					Slot: 9b
+				},
+				{
+					UID1: "forestry.floweringSlowest",
+					UID0: "forestry.floweringSlowest",
+					Slot: 10b
+				},
+				{
+					UID1: "forestry.territoryAverage",
+					UID0: "forestry.territoryAverage",
+					Slot: 11b
+				},
+				{
+					UID1: "forestry.effectNone",
+					UID0: "forestry.effectNone",
+					Slot: 12b
+				}]
+			},
+			Health: 40,
+			IsAnalyzed: 0b,
+			Genome: {
+				Chromosomes: [{
+					UID1: "forestry.speciesSteadfast",
+					UID0: "forestry.speciesSteadfast",
+					Slot: 0b
+				},
+				{
+					UID1: "forestry.speedSlower",
+					UID0: "forestry.speedSlower",
+					Slot: 1b
+				},
+				{
+					UID1: "forestry.lifespanNormal",
+					UID0: "forestry.lifespanNormal",
+					Slot: 2b
+				},
+				{
+					UID1: "forestry.fertilityNormal",
+					UID0: "forestry.fertilityNormal",
+					Slot: 3b
+				},
+				{
+					UID1: "forestry.toleranceNone",
+					UID0: "forestry.toleranceNone",
+					Slot: 4b
+				},
+				{
+					UID1: "forestry.boolTrue",
+					UID0: "forestry.boolTrue",
+					Slot: 5b
+				},
+				{
+					UID1: "forestry.toleranceNone",
+					UID0: "forestry.toleranceNone",
+					Slot: 6b
+				},
+				{
+					UID1: "forestry.boolFalse",
+					UID0: "forestry.boolFalse",
+					Slot: 7b
+				},
+				{
+					UID1: "forestry.boolTrue",
+					UID0: "forestry.boolTrue",
+					Slot: 8b
+				},
+				{
+					UID1: "forestry.flowersVanilla",
+					UID0: "forestry.flowersVanilla",
+					Slot: 9b
+				},
+				{
+					UID1: "forestry.floweringSlowest",
+					UID0: "forestry.floweringSlowest",
+					Slot: 10b
+				},
+				{
+					UID1: "forestry.territoryAverage",
+					UID0: "forestry.territoryAverage",
+					Slot: 11b
+				},
+				{
+					UID1: "forestry.effectNone",
+					UID0: "forestry.effectNone",
+					Slot: 12b
+				}]
+			}
+		}
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "",
+	images: [{
+		x: 12.0d,
+		y: 1.0d,
+		width: 8.0d,
+		height: 4.0d,
+		rotation: 0.0d,
+		image: "greedycraft:quests/forestry.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

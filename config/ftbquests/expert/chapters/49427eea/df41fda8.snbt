@@ -1,0 +1,41 @@
+
+{
+	title: "{greedycraft.quest.df41fda8.title}",
+	x: -4.5d,
+	y: -1.5d,
+	description: "{greedycraft.quest.df41fda8.desc}",
+	dependencies: [
+		"c16fec30"
+	],
+	tasks: [{
+		uid: "e20af6dc",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:dynamo",
+			tag: {
+				RSControl: 0b,
+				Facing: 1b,
+				Energy: 0,
+				Level: 0b
+			},
+			Damage: 3s
+		}]
+	}],
+	rewards: [{
+		uid: "a55d038e",
+		type: "item",
+		item: "thermalfoundation:material 1 1025",
+		count: 16
+	},
+	{
+		uid: "171e7748",
+		type: "item",
+		item: "thermalfoundation:material 1 1024",
+		count: 16
+	},
+	{
+		uid: "b44985a1",
+		type: "loot",
+		table: 1
+	}]
+}

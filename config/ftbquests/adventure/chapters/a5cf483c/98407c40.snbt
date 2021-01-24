@@ -1,0 +1,40 @@
+{
+	title: "{greedycraft.quest.98407c40.title}",
+	x: -3.5d,
+	y: -4.0d,
+	description: "{greedycraft.quest.98407c40.desc}",
+	dependencies: [
+		"6962ac70",
+		"daeb8a38"
+	],
+	tasks: [{
+		uid: "7a2654e0",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -6677120288058627187L,
+					AS_Amulet_HolderMost: 3244428519259456314L
+				}
+			},
+			id: "astralsorcery:blockaltar"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "45d11d85",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "60cebf78",
+		type: "xp",
+		xp: 320
+	},
+	{
+		uid: "edf6d641",
+		type: "item",
+		item: "astralsorcery:blockmarble 1 6",
+		count: 32
+	}]
+}

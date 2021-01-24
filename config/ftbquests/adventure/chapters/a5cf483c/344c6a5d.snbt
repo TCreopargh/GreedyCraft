@@ -1,0 +1,34 @@
+{
+	title: "{greedycraft.quest.344c6a5d.title}",
+	x: 14.0d,
+	y: 0.0d,
+	description: "{greedycraft.quest.344c6a5d.desc}",
+	dependencies: [
+		"7cee006c",
+		"470b67b1"
+	],
+	tasks: [{
+		uid: "1ce832ae",
+		type: "item",
+		items: [{
+			id: "astralsorcery:itemshiftingstar",
+			tag: {
+				astralsorcery: {
+					starAttunement: "astralsorcery.constellation.discidia"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "82ba6f34",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "1574e14c",
+		type: "xp",
+		xp: 1800
+	}]
+}

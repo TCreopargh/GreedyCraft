@@ -1,0 +1,11 @@
+{
+  "name": "§bOCD Certificate",
+  "tooltip": [
+    "§bNow you are a qualified OCD patient now.",
+    "§aWhat? You are expecting some bigger reward?",
+    "§dYou have done everything and there must be some more important things to do.",
+    "§6Now take a break. You have already wasted too much time.",
+    "§8Try to right click?"
+  ],
+  "type": "additions:simple"
+}

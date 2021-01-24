@@ -1,0 +1,10 @@
+{
+	"name": "Ancient Ruins",
+	"description": "",
+	"author": "gottsch",
+	"archetypes": ["submerged"],
+	"type": "ruin",
+	"rarities": ["common"],
+	"biomeWhiteList": ["ocean", "deep_ocean"],
+	"biomeBlackList": []
+}

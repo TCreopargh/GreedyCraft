@@ -1,0 +1,21 @@
+setIcon(<additions:greedycraft-experiment_note>)
+
+setTranslatedTitle("greedycraft.advancement.log1.title")
+
+setTranslatedDescription("greedycraft.advancement.log1.desc")
+
+addParent("greedycraft:elysia/root")
+
+setPos(-40,100)
+
+alwaysVisible()
+
+drawDirectLines(true)
+
+setShowToast(false)
+
+setAnnounceToChat(false)
+
+criteriaLog1 = addCriteria("gc_entered_twilight_forest", "minecraft:changed_dimension")
+
+criteriaLog1.setDimensionDestination("twilight_forest")

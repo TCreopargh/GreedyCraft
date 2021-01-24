@@ -1,0 +1,34 @@
+{
+	title: "{greedycraft.quest.chapter.epilogue}",
+	icon: {
+		id: "ftbquests:custom_icon",
+		tag: {
+			icon: "greedycraft:icons/infinity.png"
+		}
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "circle",
+	images: [{
+		x: -5.0d,
+		y: -7.0d,
+		width: 8.0d,
+		height: 4.0d,
+		rotation: 0.0d,
+		image: "greedycraft:quests/graduation.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 0.0d,
+		y: 8.0d,
+		width: 1.0d,
+		height: 1.0d,
+		rotation: -45.0d,
+		image: "greedycraft:icons/tcreopargh.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

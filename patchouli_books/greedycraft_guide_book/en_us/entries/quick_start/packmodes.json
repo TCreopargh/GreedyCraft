@@ -1,0 +1,15 @@
+{
+    "name": "Packmodes",
+    "icon": "minecraft:fire_charge",
+    "category": "patchouli:quick_start_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "There are three modpack gamemodes in this modpack, called packmodes: $(2)Casual, $(6)Adventure$() and $(c)Expert$(). You can choose packmode from the first chapter in quests or in pause menu - Options. The default packmode is Adventure, when you update the modpack the packmode will be reset to default."
+        },
+        {
+            "type": "text",
+            "text": " You can change packmode before entering the game by finding the $(2)config/packmode.cfg$() file in your modpack folder and change the text after $(5)S:packMode=$() to your desired packmode. Note that you set the packmode for the modpack and not for your save file. Changing packmode via commands or quest buttons require OP permission, you can create a new world with cheats enabled and change packmode in it. Do not enter a world with different packmode than your last play, because it might be considered as cheating."
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+
+{
+	title: "{greedycraft.quest.e42bd6a4.title}",
+	x: -3.5d,
+	y: -0.5d,
+	description: "{greedycraft.quest.e42bd6a4.desc}",
+	tasks: [{
+		uid: "de0a213f",
+		type: "item",
+		items: [{
+			item: "thaumcraft:salis_mundus"
+		}]
+	}],
+	rewards: [{
+		uid: "70daccfe",
+		type: "item",
+		item: "thaumcraft:salis_mundus",
+		count: 8
+	},
+	{
+		uid: "dc63fdc7",
+		type: "item",
+		item: "thaumcraft:arcane_workbench"
+	},
+	{
+		uid: "cb66d54e",
+		type: "xp",
+		xp: 50
+	},
+	{
+		uid: "12be5b62",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "a63ee2c6",
+		type: "command",
+		title: "Grants the first step research",
+		auto: "no_toast",
+		command: "/thaumcraft research @p FIRSTSTEPS"
+	}]
+}

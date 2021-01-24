@@ -1,0 +1,28 @@
+
+{
+	title: "{greedycraft.quest.0f826599.title}",
+	x: 3.0d,
+	y: 9.0d,
+	description: "{greedycraft.quest.0f826599.desc}",
+	dependencies: [
+		"acafd08c"
+	],
+	tasks: [{
+		uid: "5f8598c2",
+		type: "item",
+		items: [{
+			item: "enderio:block_enhanced_vat"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "bc5e435d",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "b5ae98ec",
+		type: "xp",
+		xp: 1250
+	}]
+}

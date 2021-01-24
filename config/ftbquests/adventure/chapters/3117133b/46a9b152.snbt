@@ -1,0 +1,32 @@
+{
+	title: "{greedycraft.quest.46a9b152.title}",
+	x: -1.0d,
+	y: -2.5d,
+	description: "{greedycraft.quest.46a9b152.desc}",
+	dependencies: [
+		"b5350524"
+	],
+	tasks: [{
+		uid: "91273a73",
+		type: "item",
+		items: [{
+			item: "aether_legacy:freezer"
+		}]
+	}],
+	rewards: [{
+		uid: "c8e20f6b",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "b62a1910",
+		type: "xp",
+		xp: 600
+	},
+	{
+		uid: "56669651",
+		type: "item",
+		item: "minecraft:ice",
+		count: 64
+	}]
+}

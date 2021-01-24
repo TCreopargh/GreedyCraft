@@ -1,0 +1,127 @@
+
+{
+	title: "{greedycraft.quest.4f88b9b2.title}",
+	icon: {
+		id: "twilightforest:giant_pickaxe"
+	},
+	x: 9.0d,
+	y: -1.0d,
+	description: "{greedycraft.quest.4f88b9b2.desc}",
+	dependencies: [
+		"48a55f8e"
+	],
+	tasks: [{
+		uid: "6ec44536",
+		type: "item",
+		items: [{
+			id: "twilightforest:giant_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "47cd2f2b",
+		type: "item",
+		items: [{
+			id: "twilightforest:giant_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6c8d9221",
+		type: "item",
+		items: [{
+			id: "twilightforest:lamp_of_cinders"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "09dcb0e5",
+		type: "xp",
+		xp: 3000
+	},
+	{
+		uid: "ccdece28",
+		type: "item",
+		item: "tconstruct:materials 1 12",
+		count: 8
+	},
+	{
+		uid: "7ea63060",
+		type: "item",
+		item: "tconstruct:materials 1 13",
+		count: 8
+	},
+	{
+		uid: "c66db1ba",
+		type: "item",
+		item: {
+			id: "thermalinnovation:magnet",
+			tag: {
+				Energy: 600000
+			},
+			Damage: 4s
+		}
+	},
+	{
+		uid: "59420aa9",
+		type: "item",
+		item: {
+			id: "thermalinnovation:saw",
+			tag: {
+				Energy: 600000,
+				Mode: 4
+			},
+			Damage: 4s
+		}
+	},
+	{
+		uid: "ca443f22",
+		type: "item",
+		item: {
+			id: "thermalinnovation:drill",
+			tag: {
+				Energy: 600000,
+				Mode: 4
+			},
+			Damage: 4s
+		}
+	},
+	{
+		uid: "84239c3e",
+		type: "item",
+		item: {
+			id: "thermalexpansion:capacitor",
+			tag: {
+				Energy: 25000000
+			},
+			Damage: 4s
+		},
+		count: 3
+	},
+	{
+		uid: "61df218b",
+		type: "item",
+		item: "thermalfoundation:material 1 1027",
+		count: 64
+	},
+	{
+		uid: "6c17e6b9",
+		type: "item",
+		item: "cyclicmagic:glowing_chorus",
+		count: 32
+	},
+	{
+		uid: "8741abde",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "9652e091",
+		type: "advancement",
+		advancement: "twilightforest:progress_troll",
+		criterion: ""
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	title: "{greedycraft.quest.158a9205.title}",
+	x: -1.0d,
+	y: 0.0d,
+	description: "{greedycraft.quest.158a9205.desc}",
+	dependencies: [
+		"b1243a42"
+	],
+	tasks: [{
+		uid: "36c2aea0",
+		type: "item",
+		items: [{
+			item: "gendustry:mutatron"
+		}]
+	}],
+	rewards: [{
+		uid: "3a4eaf98",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "00902b69",
+		type: "xp",
+		xp: 800
+	}]
+}

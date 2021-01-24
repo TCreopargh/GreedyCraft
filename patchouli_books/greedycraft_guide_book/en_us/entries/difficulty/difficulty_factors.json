@@ -1,0 +1,11 @@
+{
+    "name": "§5Factors that affect difficulty",
+    "icon": "minecraft:bed:14",
+    "category": "patchouli:difficulty_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(2)$(l)These events will have influence on your difficulty: $()$(li)Entering the Twilight Forest$(li)Entering the Nether$(li)Killing Wither for the first time$(li)Using Ender Charm$(li)Entering$(c) Hardmode$()$(li)Obtaining Wyvern Core$(li)Obtaining Awakened Core$(li)Killing Chaos Guardian for the first time$(li)Obtaining Chaotic Core$(li)Using $(6)Death Coin$()$(li)Obtaining Infinity Catalyst"
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+  "cause": {
+    "item": {
+      "item": "additions:greedycraft-gift",
+      "damage": "any"
+    },
+    "type": "additions:item_right_click"
+  },
+  "effects": [
+    {
+      "type": "additions:consume_item"
+    },
+    {
+      "loot_table": "loottweaker:gift_loot_table",
+      "type": "additions:loot_table_at"
+    }
+  ]
+}

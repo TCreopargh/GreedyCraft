@@ -1,0 +1,32 @@
+
+{
+	title: "{greedycraft.quest.8f5c4950.title}",
+	x: -8.0d,
+	y: 7.5d,
+	description: "{greedycraft.quest.8f5c4950.desc}",
+	dependencies: [
+		"b6185495"
+	],
+	tasks: [{
+		uid: "5b098628",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-pearl_of_knowledge"
+		}]
+	}],
+	rewards: [{
+		uid: "ce44dc8c",
+		type: "item",
+		item: "additions:greedycraft-pearl_of_knowledge"
+	},
+	{
+		uid: "ff976eee",
+		type: "xp",
+		xp: 6000
+	},
+	{
+		uid: "503307ee",
+		type: "loot",
+		table: 2
+	}]
+}

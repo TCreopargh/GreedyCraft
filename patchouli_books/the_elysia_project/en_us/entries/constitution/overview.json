@@ -1,0 +1,15 @@
+{
+    "name": "§5Overview",
+    "icon": "astralsorcery:itemconstellationpaper",
+    "category": "patchouli:constitution",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(5)$(l)    //  $(3)The Elysian Project$(5)  Overview  // $(br2)$()    Only unreality can save reality. Saving our souls, is saving the entire humanity.$(br)    Our goal is to save humanity from the eternal tragedy of reality, and create a new world that makes everyone's dream come true.$(br)    The world is already ruined, we can only save ourselves if we unite together.$(br)"
+        },
+        {
+            "type": "text",
+            "text": "    The Elysian Project is the last hope for humanity, anyone that get in its way should be destroyed.$(br)    $(3)Beyond Reality Co. Ltd.$() will dedicate on putting this project into effort and supply with technical support. As the largest VR company in the world, we are ambitious and confident.$(br2)Sep 19th, 2044"
+        }
+    ]
+}

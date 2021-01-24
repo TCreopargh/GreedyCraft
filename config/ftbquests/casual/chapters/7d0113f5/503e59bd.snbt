@@ -1,0 +1,35 @@
+
+{
+	title: "{greedycraft.quest.503e59bd.title}",
+	x: 8.5d,
+	y: 3.5d,
+	description: "{greedycraft.quest.503e59bd.desc}",
+	dependencies: [
+		"f3ca9920"
+	],
+	tasks: [{
+		uid: "1e8c26ff",
+		type: "item",
+		items: [{
+			item: "thaumicwonders:coalescence_matrix_precursor"
+		}]
+	}],
+	rewards: [{
+		uid: "f82d468c",
+		type: "loot",
+		table: 3
+	},
+	{
+		uid: "e99f7374",
+		type: "xp",
+		xp: 12000
+	},
+	{
+		uid: "319b1dd9",
+		type: "item",
+		item: {
+			id: "thaumcraft:primordial_pearl"
+		},
+		count: 4
+	}]
+}

@@ -1,0 +1,1634 @@
+## Potion Type IDs                                                        ##
+############################################################################
+## In the form:                                                           ##
+## <potion type name>                                                     ##
+##    - Effects: <List of potion effects>                                 ##
+##        <name> - <duration> - <amplifier> - <ambient> - <showParticles> ##
+##        etc...                                                          ##
+############################################################################
+minecraft:empty
+   - Effects: 
+
+
+minecraft:water
+   - Effects: 
+
+
+minecraft:mundane
+   - Effects: 
+
+
+minecraft:thick
+   - Effects: 
+
+
+minecraft:awkward
+   - Effects: 
+
+
+minecraft:night_vision
+   - Effects: 
+       minecraft:night_vision - 3600 - 0 - false - true
+
+
+minecraft:long_night_vision
+   - Effects: 
+       minecraft:night_vision - 9600 - 0 - false - true
+
+
+minecraft:invisibility
+   - Effects: 
+       minecraft:invisibility - 3600 - 0 - false - true
+
+
+minecraft:long_invisibility
+   - Effects: 
+       minecraft:invisibility - 9600 - 0 - false - true
+
+
+minecraft:leaping
+   - Effects: 
+       minecraft:jump_boost - 3600 - 0 - false - true
+
+
+minecraft:long_leaping
+   - Effects: 
+       minecraft:jump_boost - 9600 - 0 - false - true
+
+
+minecraft:strong_leaping
+   - Effects: 
+       minecraft:jump_boost - 1800 - 1 - false - true
+
+
+minecraft:fire_resistance
+   - Effects: 
+       minecraft:fire_resistance - 3600 - 0 - false - true
+
+
+minecraft:long_fire_resistance
+   - Effects: 
+       minecraft:fire_resistance - 9600 - 0 - false - true
+
+
+minecraft:swiftness
+   - Effects: 
+       minecraft:speed - 3600 - 0 - false - true
+
+
+minecraft:long_swiftness
+   - Effects: 
+       minecraft:speed - 9600 - 0 - false - true
+
+
+minecraft:strong_swiftness
+   - Effects: 
+       minecraft:speed - 1800 - 1 - false - true
+
+
+minecraft:slowness
+   - Effects: 
+       minecraft:slowness - 1800 - 0 - false - true
+
+
+minecraft:long_slowness
+   - Effects: 
+       minecraft:slowness - 4800 - 0 - false - true
+
+
+minecraft:water_breathing
+   - Effects: 
+       minecraft:water_breathing - 3600 - 0 - false - true
+
+
+minecraft:long_water_breathing
+   - Effects: 
+       minecraft:water_breathing - 9600 - 0 - false - true
+
+
+minecraft:healing
+   - Effects: 
+       minecraft:instant_health - 1 - 0 - false - true
+
+
+minecraft:strong_healing
+   - Effects: 
+       minecraft:instant_health - 1 - 1 - false - true
+
+
+minecraft:harming
+   - Effects: 
+       minecraft:instant_damage - 1 - 0 - false - true
+
+
+minecraft:strong_harming
+   - Effects: 
+       minecraft:instant_damage - 1 - 1 - false - true
+
+
+minecraft:poison
+   - Effects: 
+       minecraft:poison - 900 - 0 - false - true
+
+
+minecraft:long_poison
+   - Effects: 
+       minecraft:poison - 1800 - 0 - false - true
+
+
+minecraft:strong_poison
+   - Effects: 
+       minecraft:poison - 432 - 1 - false - true
+
+
+minecraft:regeneration
+   - Effects: 
+       minecraft:regeneration - 900 - 0 - false - true
+
+
+minecraft:long_regeneration
+   - Effects: 
+       minecraft:regeneration - 1800 - 0 - false - true
+
+
+minecraft:strong_regeneration
+   - Effects: 
+       minecraft:regeneration - 450 - 1 - false - true
+
+
+minecraft:strength
+   - Effects: 
+       minecraft:strength - 3600 - 0 - false - true
+
+
+minecraft:long_strength
+   - Effects: 
+       minecraft:strength - 9600 - 0 - false - true
+
+
+minecraft:strong_strength
+   - Effects: 
+       minecraft:strength - 1800 - 1 - false - true
+
+
+minecraft:weakness
+   - Effects: 
+       minecraft:weakness - 1800 - 0 - false - true
+
+
+minecraft:long_weakness
+   - Effects: 
+       minecraft:weakness - 4800 - 0 - false - true
+
+
+minecraft:luck
+   - Effects: 
+       minecraft:luck - 6000 - 0 - false - true
+
+
+randomthings:collapse
+   - Effects: 
+       randomthings:collapse - 450 - 0 - false - true
+
+
+randomthings:long_collapse
+   - Effects: 
+       randomthings:collapse - 900 - 0 - false - true
+
+
+randomthings:strong_collapse
+   - Effects: 
+       randomthings:collapse - 300 - 1 - false - true
+
+
+enderio:confusion
+   - Effects: 
+       minecraft:nausea - 900 - 0 - false - true
+
+
+enderio:long_confusion
+   - Effects: 
+       minecraft:nausea - 2400 - 0 - false - true
+
+
+enderio:floating
+   - Effects: 
+       minecraft:levitation - 140 - 0 - false - true
+
+
+enderio:strong_floating
+   - Effects: 
+       minecraft:levitation - 140 - 2 - false - true
+
+
+enderio:long_floating
+   - Effects: 
+       minecraft:levitation - 560 - 0 - false - true
+
+
+enderio:withering
+   - Effects: 
+       minecraft:wither - 900 - 0 - false - true
+
+
+enderio:long_withering
+   - Effects: 
+       minecraft:wither - 2400 - 0 - false - true
+
+
+quark:haste
+   - Effects: 
+       minecraft:haste - 3600 - 0 - false - true
+
+
+quark:long_haste
+   - Effects: 
+       minecraft:haste - 9600 - 0 - false - true
+
+
+quark:strong_haste
+   - Effects: 
+       minecraft:haste - 1800 - 1 - false - true
+
+
+quark:mining_fatigue
+   - Effects: 
+       minecraft:mining_fatigue - 3600 - 0 - false - true
+
+
+quark:long_mining_fatigue
+   - Effects: 
+       minecraft:mining_fatigue - 9600 - 0 - false - true
+
+
+quark:strong_mining_fatigue
+   - Effects: 
+       minecraft:mining_fatigue - 1800 - 1 - false - true
+
+
+quark:resistance
+   - Effects: 
+       minecraft:resistance - 3600 - 0 - false - true
+
+
+quark:long_resistance
+   - Effects: 
+       minecraft:resistance - 9600 - 0 - false - true
+
+
+quark:strong_resistance
+   - Effects: 
+       minecraft:resistance - 1800 - 1 - false - true
+
+
+quark:danger_sight
+   - Effects: 
+       quark:danger_sight - 3600 - 0 - false - true
+
+
+quark:long_danger_sight
+   - Effects: 
+       quark:danger_sight - 9600 - 0 - false - true
+
+
+quark:resilience
+   - Effects: 
+       quark:resilience - 3600 - 0 - false - true
+
+
+quark:long_resilience
+   - Effects: 
+       quark:resilience - 9600 - 0 - false - true
+
+
+quark:strong_resilience
+   - Effects: 
+       quark:resilience - 1800 - 1 - false - true
+
+
+potioncore:saturation
+   - Effects: 
+       minecraft:saturation - 1 - 3 - false - true
+
+
+potioncore:strong_saturation
+   - Effects: 
+       minecraft:saturation - 1 - 7 - false - true
+
+
+potioncore:wither
+   - Effects: 
+       minecraft:wither - 900 - 0 - false - true
+
+
+potioncore:strong_wither
+   - Effects: 
+       minecraft:wither - 450 - 1 - false - true
+
+
+potioncore:long_wither
+   - Effects: 
+       minecraft:wither - 1800 - 0 - false - true
+
+
+potioncore:hunger
+   - Effects: 
+       minecraft:hunger - 900 - 0 - false - true
+
+
+potioncore:strong_hunger
+   - Effects: 
+       minecraft:hunger - 450 - 1 - false - true
+
+
+potioncore:long_hunger
+   - Effects: 
+       minecraft:hunger - 1800 - 0 - false - true
+
+
+potioncore:blindness
+   - Effects: 
+       minecraft:blindness - 900 - 0 - false - true
+
+
+potioncore:strong_blindness
+   - Effects: 
+       minecraft:blindness - 450 - 1 - false - true
+
+
+potioncore:long_blindness
+   - Effects: 
+       minecraft:blindness - 1800 - 0 - false - true
+
+
+potioncore:nausea
+   - Effects: 
+       minecraft:nausea - 900 - 0 - false - true
+
+
+potioncore:long_nausea
+   - Effects: 
+       minecraft:nausea - 1800 - 0 - false - true
+
+
+potioncore:levitation
+   - Effects: 
+       minecraft:levitation - 600 - 0 - false - true
+
+
+potioncore:strong_levitation
+   - Effects: 
+       minecraft:levitation - 300 - 1 - false - true
+
+
+potioncore:long_levitation
+   - Effects: 
+       minecraft:levitation - 1200 - 0 - false - true
+
+
+potioncore:absorption
+   - Effects: 
+       minecraft:absorption - 3600 - 0 - false - true
+
+
+potioncore:strong_absorption
+   - Effects: 
+       minecraft:absorption - 1800 - 1 - false - true
+
+
+potioncore:long_absorption
+   - Effects: 
+       minecraft:absorption - 9600 - 0 - false - true
+
+
+potioncore:glowing
+   - Effects: 
+       minecraft:glowing - 3600 - 0 - false - true
+
+
+potioncore:long_glowing
+   - Effects: 
+       minecraft:glowing - 9600 - 0 - false - true
+
+
+potioncore:haste
+   - Effects: 
+       minecraft:haste - 3600 - 0 - false - true
+
+
+potioncore:strong_haste
+   - Effects: 
+       minecraft:haste - 1800 - 1 - false - true
+
+
+potioncore:long_haste
+   - Effects: 
+       minecraft:haste - 9600 - 0 - false - true
+
+
+potioncore:mining_fatigue
+   - Effects: 
+       minecraft:mining_fatigue - 3600 - 0 - false - true
+
+
+potioncore:strong_mining_fatigue
+   - Effects: 
+       minecraft:mining_fatigue - 1800 - 1 - false - true
+
+
+potioncore:long_mining_fatigue
+   - Effects: 
+       minecraft:mining_fatigue - 9600 - 0 - false - true
+
+
+potioncore:health_boost
+   - Effects: 
+       minecraft:health_boost - 3600 - 0 - false - true
+
+
+potioncore:strong_health_boost
+   - Effects: 
+       minecraft:health_boost - 1800 - 1 - false - true
+
+
+potioncore:long_health_boost
+   - Effects: 
+       minecraft:health_boost - 9600 - 0 - false - true
+
+
+potioncore:resistance
+   - Effects: 
+       minecraft:resistance - 3600 - 0 - false - true
+
+
+potioncore:strong_resistance
+   - Effects: 
+       minecraft:resistance - 1800 - 1 - false - true
+
+
+potioncore:long_resistance
+   - Effects: 
+       minecraft:resistance - 9600 - 0 - false - true
+
+
+potioncore:unluck
+   - Effects: 
+       minecraft:unluck - 6000 - 0 - false - true
+
+
+potioncore:love
+   - Effects: 
+       potioncore:love - 1 - 0 - false - true
+
+
+potioncore:repair
+   - Effects: 
+       potioncore:repair - 3600 - 0 - false - true
+
+
+potioncore:strong_repair
+   - Effects: 
+       potioncore:repair - 1800 - 1 - false - true
+
+
+potioncore:long_repair
+   - Effects: 
+       potioncore:repair - 9600 - 0 - false - true
+
+
+potioncore:flight
+   - Effects: 
+       potioncore:flight - 3600 - 0 - false - true
+
+
+potioncore:long_flight
+   - Effects: 
+       potioncore:flight - 9600 - 0 - false - true
+
+
+potioncore:extension
+   - Effects: 
+       potioncore:extension - 3600 - 0 - false - true
+
+
+potioncore:strong_extension
+   - Effects: 
+       potioncore:extension - 1800 - 1 - false - true
+
+
+potioncore:long_extension
+   - Effects: 
+       potioncore:extension - 9600 - 0 - false - true
+
+
+potioncore:recoil
+   - Effects: 
+       potioncore:recoil - 3600 - 0 - false - true
+
+
+potioncore:strong_recoil
+   - Effects: 
+       potioncore:recoil - 1800 - 1 - false - true
+
+
+potioncore:long_recoil
+   - Effects: 
+       potioncore:recoil - 9600 - 0 - false - true
+
+
+potioncore:broken_magic_shield
+   - Effects: 
+       potioncore:broken_magic_shield - 900 - 0 - false - true
+
+
+potioncore:strong_broken_magic_shield
+   - Effects: 
+       potioncore:broken_magic_shield - 450 - 1 - false - true
+
+
+potioncore:long_broken_magic_shield
+   - Effects: 
+       potioncore:broken_magic_shield - 1800 - 0 - false - true
+
+
+potioncore:iron_skin
+   - Effects: 
+       potioncore:iron_skin - 3600 - 0 - false - true
+
+
+potioncore:strong_iron_skin
+   - Effects: 
+       potioncore:iron_skin - 1800 - 1 - false - true
+
+
+potioncore:long_iron_skin
+   - Effects: 
+       potioncore:iron_skin - 9600 - 0 - false - true
+
+
+potioncore:purity
+   - Effects: 
+       potioncore:purity - 3600 - 0 - false - true
+
+
+potioncore:long_purity
+   - Effects: 
+       potioncore:purity - 9600 - 0 - false - true
+
+
+potioncore:reach
+   - Effects: 
+       potioncore:reach - 3600 - 0 - false - true
+
+
+potioncore:strong_reach
+   - Effects: 
+       potioncore:reach - 1800 - 1 - false - true
+
+
+potioncore:long_reach
+   - Effects: 
+       potioncore:reach - 9600 - 0 - false - true
+
+
+potioncore:diamond_skin
+   - Effects: 
+       potioncore:diamond_skin - 3600 - 0 - false - true
+
+
+potioncore:strong_diamond_skin
+   - Effects: 
+       potioncore:diamond_skin - 1800 - 1 - false - true
+
+
+potioncore:long_diamond_skin
+   - Effects: 
+       potioncore:diamond_skin - 9600 - 0 - false - true
+
+
+potioncore:teleport
+   - Effects: 
+       potioncore:teleport - 1 - 0 - false - true
+
+
+potioncore:strong_teleport
+   - Effects: 
+       potioncore:teleport - 1 - 1 - false - true
+
+
+potioncore:teleport_surface
+   - Effects: 
+       potioncore:teleport_surface - 1 - 0 - false - true
+
+
+potioncore:magic_focus
+   - Effects: 
+       potioncore:magic_focus - 3600 - 0 - false - true
+
+
+potioncore:strong_magic_focus
+   - Effects: 
+       potioncore:magic_focus - 1800 - 1 - false - true
+
+
+potioncore:long_magic_focus
+   - Effects: 
+       potioncore:magic_focus - 9600 - 0 - false - true
+
+
+potioncore:cure
+   - Effects: 
+       potioncore:cure - 1 - 0 - false - true
+
+
+potioncore:step_up
+   - Effects: 
+       potioncore:step_up - 3600 - 0 - false - true
+
+
+potioncore:strong_step_up
+   - Effects: 
+       potioncore:step_up - 1800 - 1 - false - true
+
+
+potioncore:long_step_up
+   - Effects: 
+       potioncore:step_up - 9600 - 0 - false - true
+
+
+potioncore:drown
+   - Effects: 
+       potioncore:drown - 3600 - 0 - false - true
+
+
+potioncore:long_drown
+   - Effects: 
+       potioncore:drown - 9600 - 0 - false - true
+
+
+potioncore:teleport_spawn
+   - Effects: 
+       potioncore:teleport_spawn - 600 - 0 - false - true
+
+
+potioncore:disorganization
+   - Effects: 
+       potioncore:disorganization - 1 - 0 - false - true
+
+
+potioncore:climb
+   - Effects: 
+       potioncore:climb - 3600 - 0 - false - true
+
+
+potioncore:long_climb
+   - Effects: 
+       potioncore:climb - 9600 - 0 - false - true
+
+
+potioncore:perplexity
+   - Effects: 
+       potioncore:perplexity - 3600 - 0 - false - true
+
+
+potioncore:long_perplexity
+   - Effects: 
+       potioncore:perplexity - 9600 - 0 - false - true
+
+
+potioncore:rust
+   - Effects: 
+       potioncore:rust - 3600 - 0 - false - true
+
+
+potioncore:strong_rust
+   - Effects: 
+       potioncore:rust - 1800 - 1 - false - true
+
+
+potioncore:long_rust
+   - Effects: 
+       potioncore:rust - 9600 - 0 - false - true
+
+
+potioncore:vulnerable
+   - Effects: 
+       potioncore:vulnerable - 3600 - 0 - false - true
+
+
+potioncore:strong_vulnerable
+   - Effects: 
+       potioncore:vulnerable - 1800 - 1 - false - true
+
+
+potioncore:long_vulnerable
+   - Effects: 
+       potioncore:vulnerable - 9600 - 0 - false - true
+
+
+potioncore:explode
+   - Effects: 
+       potioncore:explode - 1 - 0 - false - true
+
+
+potioncore:strong_explode
+   - Effects: 
+       potioncore:explode - 1 - 1 - false - true
+
+
+potioncore:solid_core
+   - Effects: 
+       potioncore:solid_core - 3600 - 0 - false - true
+
+
+potioncore:long_solid_core
+   - Effects: 
+       potioncore:solid_core - 9600 - 0 - false - true
+
+
+potioncore:fire
+   - Effects: 
+       potioncore:fire - 1 - 0 - false - true
+
+
+potioncore:strong_fire
+   - Effects: 
+       potioncore:fire - 1 - 1 - false - true
+
+
+potioncore:lightning
+   - Effects: 
+       potioncore:lightning - 1 - 0 - false - true
+
+
+potioncore:magic_inhibition
+   - Effects: 
+       potioncore:magic_inhibition - 3600 - 0 - false - true
+
+
+potioncore:strong_magic_inhibition
+   - Effects: 
+       potioncore:magic_inhibition - 1800 - 1 - false - true
+
+
+potioncore:long_magic_inhibition
+   - Effects: 
+       potioncore:magic_inhibition - 9600 - 0 - false - true
+
+
+potioncore:chance
+   - Effects: 
+       potioncore:chance - 1 - 0 - false - true
+
+
+potioncore:strong_chance
+   - Effects: 
+       potioncore:chance - 1 - 1 - false - true
+
+
+potioncore:invert
+   - Effects: 
+       potioncore:invert - 1 - 0 - false - true
+
+
+potioncore:weight
+   - Effects: 
+       potioncore:weight - 3600 - 0 - false - true
+
+
+potioncore:strong_weight
+   - Effects: 
+       potioncore:weight - 1800 - 1 - false - true
+
+
+potioncore:long_weight
+   - Effects: 
+       potioncore:weight - 9600 - 0 - false - true
+
+
+potioncore:launch
+   - Effects: 
+       potioncore:launch - 1 - 0 - false - true
+
+
+potioncore:strong_launch
+   - Effects: 
+       potioncore:launch - 1 - 1 - false - true
+
+
+potioncore:dispel
+   - Effects: 
+       potioncore:dispel - 1 - 0 - false - true
+
+
+potioncore:revival
+   - Effects: 
+       potioncore:revival - 3600 - 0 - false - true
+
+
+potioncore:strong_revival
+   - Effects: 
+       potioncore:revival - 1800 - 1 - false - true
+
+
+potioncore:long_revival
+   - Effects: 
+       potioncore:revival - 9600 - 0 - false - true
+
+
+potioncore:klutz
+   - Effects: 
+       potioncore:klutz - 3600 - 0 - false - true
+
+
+potioncore:strong_klutz
+   - Effects: 
+       potioncore:klutz - 1800 - 1 - false - true
+
+
+potioncore:long_klutz
+   - Effects: 
+       potioncore:klutz - 9600 - 0 - false - true
+
+
+potioncore:bless
+   - Effects: 
+       potioncore:bless - 1 - 0 - false - true
+
+
+potioncore:strong_bless
+   - Effects: 
+       potioncore:bless - 1 - 1 - false - true
+
+
+potioncore:broken_armor
+   - Effects: 
+       potioncore:broken_armor - 900 - 0 - false - true
+
+
+potioncore:strong_broken_armor
+   - Effects: 
+       potioncore:broken_armor - 450 - 1 - false - true
+
+
+potioncore:long_broken_armor
+   - Effects: 
+       potioncore:broken_armor - 1800 - 0 - false - true
+
+
+potioncore:magic_shield
+   - Effects: 
+       potioncore:magic_shield - 3600 - 0 - false - true
+
+
+potioncore:strong_magic_shield
+   - Effects: 
+       potioncore:magic_shield - 1800 - 1 - false - true
+
+
+potioncore:long_magic_shield
+   - Effects: 
+       potioncore:magic_shield - 9600 - 0 - false - true
+
+
+potioncore:slow_fall
+   - Effects: 
+       potioncore:slow_fall - 3600 - 0 - false - true
+
+
+potioncore:strong_slow_fall
+   - Effects: 
+       potioncore:slow_fall - 1800 - 1 - false - true
+
+
+potioncore:long_slow_fall
+   - Effects: 
+       potioncore:slow_fall - 9600 - 0 - false - true
+
+
+potioncore:antidote
+   - Effects: 
+       potioncore:antidote - 3600 - 0 - false - true
+
+
+potioncore:long_antidote
+   - Effects: 
+       potioncore:antidote - 9600 - 0 - false - true
+
+
+potioncore:spin
+   - Effects: 
+       potioncore:spin - 900 - 0 - false - true
+
+
+potioncore:strong_spin
+   - Effects: 
+       potioncore:spin - 450 - 1 - false - true
+
+
+potioncore:long_spin
+   - Effects: 
+       potioncore:spin - 1800 - 0 - false - true
+
+
+potioncore:curse
+   - Effects: 
+       potioncore:curse - 1 - 0 - false - true
+
+
+potioncore:strong_curse
+   - Effects: 
+       potioncore:curse - 1 - 1 - false - true
+
+
+potioncore:burst
+   - Effects: 
+       potioncore:burst - 1 - 0 - false - true
+
+
+potioncore:strong_burst
+   - Effects: 
+       potioncore:burst - 1 - 1 - false - true
+
+
+potioncore:archery
+   - Effects: 
+       potioncore:archery - 3600 - 0 - false - true
+
+
+potioncore:strong_archery
+   - Effects: 
+       potioncore:archery - 1800 - 1 - false - true
+
+
+potioncore:long_archery
+   - Effects: 
+       potioncore:archery - 9600 - 0 - false - true
+
+
+mowziesmobs:poison_resist
+   - Effects: 
+       mowziesmobs:poison_resist - 3600 - 0 - false - true
+
+
+mowziesmobs:long_poison_resist
+   - Effects: 
+       mowziesmobs:poison_resist - 9600 - 0 - false - true
+
+
+netherex:freezing
+   - Effects: 
+       netherex:frozen - 600 - 0 - false - true
+
+
+netherex:frigid_health
+   - Effects: 
+       netherex:frostbitten - 600 - 0 - false - true
+
+
+netherex:dispersal
+   - Effects: 
+       netherex:infested - 600 - 0 - false - true
+
+
+netherex:sorrow
+   - Effects: 
+       netherex:crying - 600 - 0 - false - true
+
+
+treasure2:extra_strong_healing
+   - Effects: 
+       minecraft:instant_health - 1 - 2 - false - true
+
+
+treasure2:extra_strong_leaping
+   - Effects: 
+       minecraft:jump_boost - 1800 - 2 - false - true
+
+
+treasure2:extra_strong_poison
+   - Effects: 
+       minecraft:poison - 432 - 2 - false - true
+
+
+treasure2:extra_strong_regeneration
+   - Effects: 
+       minecraft:regeneration - 450 - 2 - false - true
+
+
+treasure2:extra_strong_strength
+   - Effects: 
+       minecraft:strength - 1800 - 2 - false - true
+
+
+treasure2:extra_strong_swiftness
+   - Effects: 
+       minecraft:speed - 1800 - 2 - false - true
+
+
+variegated:boon
+   - Effects: 
+       variegated:fishermans_friend - 4800 - 0 - false - true
+
+
+variegated:boon2
+   - Effects: 
+       variegated:fishermans_friend - 4800 - 1 - false - true
+
+
+variegated:boon3
+   - Effects: 
+       variegated:fishermans_friend - 4800 - 2 - false - true
+
+
+variegated:attraction
+   - Effects: 
+       variegated:attraction - 200 - 0 - false - true
+
+
+abyssalcraft:cplague
+   - Effects: 
+       abyssalcraft:cplague - 3600 - 0 - false - true
+
+
+abyssalcraft:cplague_long
+   - Effects: 
+       abyssalcraft:cplague - 9600 - 0 - false - true
+
+
+abyssalcraft:dplague
+   - Effects: 
+       abyssalcraft:dplague - 3600 - 0 - false - true
+
+
+abyssalcraft:dplague_long
+   - Effects: 
+       abyssalcraft:dplague - 9600 - 0 - false - true
+
+
+abyssalcraft:dplague_strong
+   - Effects: 
+       abyssalcraft:dplague - 432 - 1 - false - true
+
+
+abyssalcraft:antimatter
+   - Effects: 
+       abyssalcraft:antimatter - 3600 - 0 - false - true
+
+
+abyssalcraft:antimatter_long
+   - Effects: 
+       abyssalcraft:antimatter - 9600 - 0 - false - true
+
+
+cofhcore:haste
+   - Effects: 
+       minecraft:haste - 3600 - 0 - false - true
+
+
+cofhcore:haste+
+   - Effects: 
+       minecraft:haste - 9600 - 0 - false - true
+
+
+cofhcore:haste2
+   - Effects: 
+       minecraft:haste - 1800 - 1 - false - true
+
+
+cofhcore:resistance
+   - Effects: 
+       minecraft:resistance - 3600 - 0 - false - true
+
+
+cofhcore:resistance+
+   - Effects: 
+       minecraft:resistance - 9600 - 0 - false - true
+
+
+cofhcore:resistance2
+   - Effects: 
+       minecraft:resistance - 1800 - 1 - false - true
+
+
+cofhcore:levitation
+   - Effects: 
+       minecraft:levitation - 3600 - 0 - false - true
+
+
+cofhcore:levitation+
+   - Effects: 
+       minecraft:levitation - 9600 - 0 - false - true
+
+
+cofhcore:absorption
+   - Effects: 
+       minecraft:absorption - 3600 - 0 - false - true
+
+
+cofhcore:absorption+
+   - Effects: 
+       minecraft:absorption - 9600 - 0 - false - true
+
+
+cofhcore:absorption2
+   - Effects: 
+       minecraft:absorption - 1800 - 1 - false - true
+
+
+cofhcore:luck
+   - Effects: 
+       minecraft:luck - 3600 - 0 - false - true
+
+
+cofhcore:luck+
+   - Effects: 
+       minecraft:luck - 9600 - 0 - false - true
+
+
+cofhcore:luck2
+   - Effects: 
+       minecraft:luck - 1800 - 1 - false - true
+
+
+cofhcore:unluck
+   - Effects: 
+       minecraft:unluck - 1800 - 0 - false - true
+
+
+cofhcore:unluck+
+   - Effects: 
+       minecraft:unluck - 4800 - 0 - false - true
+
+
+cofhcore:unluck2
+   - Effects: 
+       minecraft:unluck - 900 - 1 - false - true
+
+
+cofhcore:wither
+   - Effects: 
+       minecraft:wither - 900 - 0 - false - true
+
+
+cofhcore:wither+
+   - Effects: 
+       minecraft:wither - 1800 - 0 - false - true
+
+
+cofhcore:wither2
+   - Effects: 
+       minecraft:wither - 450 - 1 - false - true
+
+
+cofhcore:leaping3
+   - Effects: 
+       minecraft:jump_boost - 900 - 2 - false - true
+
+
+cofhcore:leaping4
+   - Effects: 
+       minecraft:jump_boost - 720 - 3 - false - true
+
+
+cofhcore:swiftness3
+   - Effects: 
+       minecraft:speed - 900 - 2 - false - true
+
+
+cofhcore:swiftness4
+   - Effects: 
+       minecraft:speed - 720 - 3 - false - true
+
+
+cofhcore:healing3
+   - Effects: 
+       minecraft:instant_health - 1 - 2 - false - true
+
+
+cofhcore:healing4
+   - Effects: 
+       minecraft:instant_health - 1 - 3 - false - true
+
+
+cofhcore:harming3
+   - Effects: 
+       minecraft:instant_damage - 1 - 2 - false - true
+
+
+cofhcore:harming4
+   - Effects: 
+       minecraft:instant_damage - 1 - 3 - false - true
+
+
+cofhcore:poison3
+   - Effects: 
+       minecraft:poison - 225 - 2 - false - true
+
+
+cofhcore:poison4
+   - Effects: 
+       minecraft:poison - 180 - 3 - false - true
+
+
+cofhcore:regeneration3
+   - Effects: 
+       minecraft:regeneration - 225 - 2 - false - true
+
+
+cofhcore:regeneration4
+   - Effects: 
+       minecraft:regeneration - 180 - 3 - false - true
+
+
+cofhcore:strength3
+   - Effects: 
+       minecraft:strength - 900 - 2 - false - true
+
+
+cofhcore:strength4
+   - Effects: 
+       minecraft:strength - 720 - 3 - false - true
+
+
+cofhcore:haste3
+   - Effects: 
+       minecraft:haste - 900 - 2 - false - true
+
+
+cofhcore:haste4
+   - Effects: 
+       minecraft:haste - 720 - 3 - false - true
+
+
+cofhcore:resistance3
+   - Effects: 
+       minecraft:resistance - 900 - 2 - false - true
+
+
+cofhcore:resistance4
+   - Effects: 
+       minecraft:resistance - 720 - 3 - false - true
+
+
+cofhcore:absorption3
+   - Effects: 
+       minecraft:absorption - 900 - 2 - false - true
+
+
+cofhcore:absorption4
+   - Effects: 
+       minecraft:absorption - 720 - 3 - false - true
+
+
+cofhcore:luck3
+   - Effects: 
+       minecraft:luck - 900 - 2 - false - true
+
+
+cofhcore:luck4
+   - Effects: 
+       minecraft:luck - 720 - 3 - false - true
+
+
+cofhcore:unluck3
+   - Effects: 
+       minecraft:unluck - 450 - 2 - false - true
+
+
+cofhcore:unluck4
+   - Effects: 
+       minecraft:unluck - 360 - 3 - false - true
+
+
+cofhcore:wither3
+   - Effects: 
+       minecraft:wither - 225 - 2 - false - true
+
+
+cofhcore:wither4
+   - Effects: 
+       minecraft:wither - 180 - 3 - false - true
+
+
+cofhcore:leaping2+
+   - Effects: 
+       minecraft:jump_boost - 3200 - 1 - false - true
+
+
+cofhcore:leaping3+
+   - Effects: 
+       minecraft:jump_boost - 2400 - 2 - false - true
+
+
+cofhcore:swiftness2+
+   - Effects: 
+       minecraft:speed - 3200 - 1 - false - true
+
+
+cofhcore:swiftness3+
+   - Effects: 
+       minecraft:speed - 2400 - 2 - false - true
+
+
+cofhcore:poison2+
+   - Effects: 
+       minecraft:poison - 600 - 1 - false - true
+
+
+cofhcore:poison3+
+   - Effects: 
+       minecraft:poison - 450 - 2 - false - true
+
+
+cofhcore:regeneration2+
+   - Effects: 
+       minecraft:regeneration - 600 - 1 - false - true
+
+
+cofhcore:regeneration3+
+   - Effects: 
+       minecraft:regeneration - 450 - 2 - false - true
+
+
+cofhcore:strength2+
+   - Effects: 
+       minecraft:strength - 3200 - 1 - false - true
+
+
+cofhcore:strength3+
+   - Effects: 
+       minecraft:strength - 2400 - 2 - false - true
+
+
+cofhcore:haste2+
+   - Effects: 
+       minecraft:haste - 3200 - 1 - false - true
+
+
+cofhcore:haste3+
+   - Effects: 
+       minecraft:haste - 2400 - 2 - false - true
+
+
+cofhcore:resistance2+
+   - Effects: 
+       minecraft:resistance - 3200 - 1 - false - true
+
+
+cofhcore:resistance3+
+   - Effects: 
+       minecraft:resistance - 2400 - 2 - false - true
+
+
+cofhcore:absorption2+
+   - Effects: 
+       minecraft:absorption - 3200 - 1 - false - true
+
+
+cofhcore:absorption3+
+   - Effects: 
+       minecraft:absorption - 2400 - 2 - false - true
+
+
+cofhcore:luck2+
+   - Effects: 
+       minecraft:luck - 3200 - 1 - false - true
+
+
+cofhcore:luck3+
+   - Effects: 
+       minecraft:luck - 2400 - 2 - false - true
+
+
+cofhcore:unluck2+
+   - Effects: 
+       minecraft:unluck - 1600 - 1 - false - true
+
+
+cofhcore:unluck3+
+   - Effects: 
+       minecraft:unluck - 1200 - 2 - false - true
+
+
+cofhcore:wither2+
+   - Effects: 
+       minecraft:wither - 600 - 1 - false - true
+
+
+cofhcore:wither3+
+   - Effects: 
+       minecraft:wither - 450 - 2 - false - true
+
+
+cyclicmagic:ender
+   - Effects: 
+       cyclicmagic:potion.ender - 3600 - 0 - false - true
+
+
+cyclicmagic:snow
+   - Effects: 
+       cyclicmagic:potion.snow - 3600 - 0 - false - true
+
+
+cyclicmagic:butter
+   - Effects: 
+       cyclicmagic:potion.butter - 3600 - 0 - false - true
+
+
+cyclicmagic:butter2
+   - Effects: 
+       cyclicmagic:potion.butter - 1800 - 1 - false - true
+
+
+cyclicmagic:slowfall
+   - Effects: 
+       cyclicmagic:potion.slowfall - 3600 - 0 - false - true
+
+
+cyclicmagic:waterwalk
+   - Effects: 
+       cyclicmagic:potion.waterwalk - 3600 - 0 - false - true
+
+
+cyclicmagic:swim
+   - Effects: 
+       cyclicmagic:potion.swimspeed - 3600 - 0 - false - true
+
+
+cyclicmagic:swim2
+   - Effects: 
+       cyclicmagic:potion.swimspeed - 1800 - 1 - false - true
+
+
+cyclicmagic:bounce
+   - Effects: 
+       cyclicmagic:potion.bounce - 3600 - 0 - false - true
+
+
+cyclicmagic:frostwalker
+   - Effects: 
+       cyclicmagic:potion.frostwalker - 3600 - 0 - false - true
+
+
+cyclicmagic:magnet
+   - Effects: 
+       cyclicmagic:potion.magnet - 3600 - 0 - false - true
+
+
+cyclicmagic:levitation
+   - Effects: 
+       minecraft:levitation - 3600 - 0 - false - true
+
+
+cyclicmagic:haste
+   - Effects: 
+       minecraft:haste - 3600 - 0 - false - true
+
+
+cyclicmagic:haste2
+   - Effects: 
+       minecraft:haste - 1800 - 1 - false - true
+
+
+cyclicmagic:resistance
+   - Effects: 
+       minecraft:resistance - 3600 - 0 - false - true
+
+
+cyclicmagic:resistance2
+   - Effects: 
+       minecraft:resistance - 1800 - 1 - false - true
+
+
+cyclicmagic:healthboost
+   - Effects: 
+       minecraft:health_boost - 3600 - 4 - false - true
+
+
+cyclicmagic:luck
+   - Effects: 
+       minecraft:luck - 3600 - 0 - false - true
+
+
+cyclicmagic:wither
+   - Effects: 
+       minecraft:wither - 3600 - 0 - false - true
+
+
+cyclicmagic:blindness
+   - Effects: 
+       minecraft:blindness - 3600 - 0 - false - true
+
+
+cyclicmagic:saturation
+   - Effects: 
+       cyclicmagic:potion.saturation - 3600 - 0 - false - true
+
+
+cyclicmagic:hunger
+   - Effects: 
+       minecraft:hunger - 3600 - 0 - false - true
+
+
+charm:coffee
+   - Effects: 
+       minecraft:speed - 200 - 0 - false - true
+       minecraft:haste - 200 - 0 - false - true
+       minecraft:strength - 200 - 0 - false - true
+
+
+charm:decay
+   - Effects: 
+       minecraft:wither - 100 - 2 - false - true
+
+
+charm:ender_sight
+   - Effects: 
+       charm:ender_sight - 200 - 0 - false - true
+
+
+enderzoo:withering
+   - Effects: 
+       minecraft:wither - 900 - 0 - false - true
+
+
+enderzoo:witheringlong
+   - Effects: 
+       minecraft:wither - 2400 - 0 - false - true
+
+
+enderzoo:confusion
+   - Effects: 
+       minecraft:nausea - 900 - 0 - false - true
+
+
+enderzoo:confusionlong
+   - Effects: 
+       minecraft:nausea - 2400 - 0 - false - true
+
+
+enderzoo:floating
+   - Effects: 
+       enderzoo:enderzoo.floatingpotion - 70 - 0 - false - true
+
+
+enderzoo:floatingtwo
+   - Effects: 
+       enderzoo:enderzoo.floatingpotion - 120 - 0 - false - true
+
+
+enderzoo:floatinglong
+   - Effects: 
+       enderzoo:enderzoo.floatingpotion - 12 - 1 - false - true
+
+
+extrautils2:xu2.doom
+   - Effects: 
+       extrautils2:effect.xu2.doom - 1200 - 0 - false - true
+
+
+extrautils2:xu2.gravity
+   - Effects: 
+       extrautils2:effect.xu2.gravity - 1200 - 0 - false - true
+
+
+extrautils2:xu2.gravity.long
+   - Effects: 
+       extrautils2:effect.xu2.gravity - 9600 - 0 - false - true
+
+
+extrautils2:xu2.second.chance
+   - Effects: 
+       extrautils2:effect.xu2.second.chance - 2400 - 0 - false - true
+
+
+extrautils2:xu2.greek.fire
+   - Effects: 
+       extrautils2:effect.xu2.greek.fire - 2400 - 0 - false - true
+
+
+extrautils2:oily
+   - Effects: 
+
+
+extrautils2:xu2.fizzy.lifting
+   - Effects: 
+       extrautils2:effect.xu2.fizzy.lifting - 600 - 0 - false - true
+
+
+extrautils2:xu2.relapse
+   - Effects: 
+       extrautils2:effect.xu2.relapse - 9600 - 0 - false - true
+
+
+extrautils2:xu2.love
+   - Effects: 
+       extrautils2:effect.xu2.love - 200 - 0 - false - true
+
+
+extrautils2:xu2.purging
+   - Effects: 
+       extrautils2:effect.xu2.purging - 0 - 0 - false - true
+
+

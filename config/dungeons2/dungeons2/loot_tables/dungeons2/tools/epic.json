@@ -1,0 +1,47 @@
+{
+	"pools": [
+		{
+			"name": "epic_tools",
+			"rolls": 1,
+			"entries": [
+				{
+					"entryName": "iron_sword",
+					"type": "item",
+					"name": "minecraft:iron_sword",
+					"weight": 35	,
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 30,
+							"treasure": true
+						},
+						{
+							"function": "enchant_with_levels",
+							"levels": 20,
+							"treasure": true
+						},	
+						{
+							"function": "enchant_randomly"
+						}
+					]					
+				},
+				{
+					"entryName": "diamond_sword",
+					"type": "item",
+					"name": "minecraft:diamond_sword",
+					"weight": 50,
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 30,
+							"treasure": true
+						},					
+						{
+							"function": "enchant_randomly"
+						}					
+					]					
+				}			
+			]
+		}
+	]
+}

@@ -1,0 +1,60 @@
+
+{
+	title: "{greedycraft.quest.8ce57eb1.title}",
+	icon: "twilightforest:trophy 1 5",
+	x: 4.0d,
+	y: 1.0d,
+	description: "{greedycraft.quest.8ce57eb1.desc}",
+	dependencies: [
+		"41218ac1"
+	],
+	tasks: [{
+		uid: "7505647a",
+		type: "item",
+		items: [{
+			item: "twilightforest:trophy 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "62ae92b3",
+		type: "item",
+		item: {
+			id: "twilightforest:ice_bow"
+		}
+	},
+	{
+		uid: "509384b6",
+		type: "item",
+		item: {
+			id: "twilightforest:ice_sword"
+		}
+	},
+	{
+		uid: "17802b7a",
+		type: "item",
+		item: "thermalfoundation:material 1 1025",
+		count: 32
+	},
+	{
+		uid: "b7cda8b6",
+		type: "xp",
+		xp: 2500
+	},
+	{
+		uid: "93236648",
+		type: "item",
+		item: "twilightforest:twilight_sapling 1 7"
+	},
+	{
+		uid: "2b1eee3b",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "f30ed2d9",
+		type: "advancement",
+		auto: "no_toast",
+		advancement: "twilightforest:progress_glacier",
+		criterion: ""
+	}]
+}

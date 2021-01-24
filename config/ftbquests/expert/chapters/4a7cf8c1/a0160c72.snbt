@@ -1,0 +1,74 @@
+
+{
+	title: "{greedycraft.quest.a0160c72.title}",
+	x: 4.5d,
+	y: 4.0d,
+	description: "{greedycraft.quest.a0160c72.desc}",
+	can_repeat: true,
+	dependencies: [
+		"b1e0c43f"
+	],
+	dependency_requirement: "all_started",
+	tasks: [{
+		uid: "a24deab7",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-flux_singularity"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8576273d",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-mana_singularity"
+		}]
+	},
+	{
+		uid: "79551568",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-matter_singularity"
+		}]
+	},
+	{
+		uid: "ce2b416b",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-experience_singularity"
+		}]
+	},
+	{
+		uid: "2cf9bb35",
+		type: "item",
+		items: [{
+			item: "draconicevolution:chaos_shard"
+		}]
+	}],
+	rewards: [{
+		uid: "7b6ae8c4",
+		type: "item",
+		item: "additions:greedycraft-creative_shard",
+		count: 3,
+		random_bonus: 1
+	},
+	{
+		uid: "edcd7081",
+		type: "item",
+		item: "additions:greedycraft-ordinary_medal",
+		count: 3,
+		random_bonus: 1
+	},
+	{
+		uid: "dae23bb3",
+		type: "item",
+		item: "additions:greedycraft-reward_ticket_legendary",
+		count: 2,
+		random_bonus: 3
+	},
+	{
+		uid: "972c51a4",
+		type: "item",
+		item: "additions:greedycraft-anti_entropy_matter"
+	}]
+}

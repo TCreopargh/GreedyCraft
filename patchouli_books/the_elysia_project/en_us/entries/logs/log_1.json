@@ -1,0 +1,16 @@
+{
+    "name": "Log §9#1",
+    "icon": "additions:greedycraft-experiment_note",
+    "category": "patchouli:logs",
+    "advancement": "greedycraft:elysia/log1",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Today is a great day when the Elysian Project is founded. Our ambitious plan spread across the world and encouraged countless people that are desperate and millions are volunteering to join the project. We don't save the world, instead, we save ourselves. In the past few decades we have suffered too much. Wars, pandemics, tsunamis, earthquakes, economical crisises... "
+        },
+        {
+            "type": "text",
+            "text": "the Earth is just too miserable to live on. This project is the last hope of humanity. In the end, we will break the chains of reality and flesh, and seek for a unreal peaceful paradise for our tortured souls.$(br2)Jul 3rd, 2044"
+        }
+    ]
+}

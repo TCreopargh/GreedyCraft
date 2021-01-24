@@ -1,0 +1,204 @@
+{
+	"version": "1.0",
+	"pools": [
+		{
+			"name": "epic_keys",
+			"rolls": 1,
+			"entries": [
+				{
+					"entryName": "jewelled_key",
+					"type": "item",
+					"name": "treasure2:jewelled_key",
+					"weight": 10
+				},
+				{
+					"entryName": "ruby_key",
+					"type": "item",
+					"name": "treasure2:ruby_key",
+					"weight": 25,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 0,
+								"max": 2
+							}
+						}
+					]
+				},
+				{
+					"entryName": "sapphire_key",
+					"type": "item",
+					"name": "treasure2:sapphire_key",
+					"weight": 25,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 0,
+								"max": 2
+							}
+						}
+					]
+				},
+				{
+					"entryName": "diamond_key",
+					"type": "item",
+					"name": "treasure2:diamond_key",
+					"weight": 15,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					]
+				},
+				{
+					"entryName": "emerald_key",
+					"type": "item",
+					"name": "treasure2:emerald_key",
+					"weight": 15,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					]
+				},
+				{
+					"entryName": "metallurgists_key",
+					"type": "item",
+					"name": "treasure2:metallurgists_key",
+					"weight": 20
+				},
+				{
+					"entryName": "skeleton_key",
+					"type": "item",
+					"name": "treasure2:skeleton_key",
+					"weight": 12
+				}
+			]
+		},
+		{
+			"name": "epic_treasure",
+			"rolls": 1,
+			"entries": [
+				{
+					"entryName": "silver_coin",
+					"type": "item",
+					"name": "treasure2:silver_coin",
+					"weight": 25,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 3,
+								"max": 10
+							}
+						}
+					]
+				},
+				{
+					"entryName": "gold_coin",
+					"type": "item",
+					"name": "treasure2:gold_coin",
+					"weight": 20,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 2,
+								"max": 5
+							}
+						}
+					]
+				},
+				{
+					"entryName": "skull_sword",
+					"type": "item",
+					"name": "treasure2:skull_sword",
+					"weight": 10,
+					"conditions": [
+						{
+							"condition": "random_chance",
+							"chance": 0.5
+						}
+					]
+				},
+				{
+					"entryName": "sapphire",
+					"type": "item",
+					"name": "treasure2:sapphire",
+					"weight": 10
+				},
+				{
+					"entryName": "ruby",
+					"type": "item",
+					"name": "treasure2:ruby",
+					"weight": 10
+				},
+				{
+					"entryName": "white_pearl",
+					"type": "item",
+					"name": "treasure2:white_pearl",
+					"weight": 10
+				},
+				{
+					"entryName": "black_pearl",
+					"type": "item",
+					"name": "treasure2:white_pearl",
+					"weight": 8
+				},
+				{
+					"entryName": "eye_patch",
+					"type": "item",
+					"name": "treasure2:eye_patch",
+					"weight": 10,
+					"conditions": [
+						{
+							"condition": "random_chance",
+							"chance": 0.50
+						}
+					]
+				},
+				{
+					"entryName": "painting_blocks_bricks",
+					"type": "item",
+					"name": "treasure2:painting_blocks_bricks",
+					"weight": 10,
+					"conditions": [
+						{
+							"condition": "random_chance",
+							"chance": 0.25
+						}
+					]
+				},
+				{
+					"entryName": "painting_blocks_lava",
+					"type": "item",
+					"name": "treasure2:painting_blocks_lava",
+					"weight": 10,
+					"conditions": [
+						{
+							"condition": "random_chance",
+							"chance": 0.25
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "epic_charms",
+			"rolls": 1,
+			"entries": [
+
+			]
+		}
+	]
+}

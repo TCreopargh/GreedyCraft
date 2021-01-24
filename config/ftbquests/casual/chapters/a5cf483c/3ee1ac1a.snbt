@@ -1,0 +1,47 @@
+
+{
+	title: "{greedycraft.quest.3ee1ac1a.title}",
+	x: 4.0d,
+	y: 0.0d,
+	description: "{greedycraft.quest.3ee1ac1a.desc}",
+	dependencies: [
+		"64609cf0",
+		"019a77ed",
+		"4f3a644d"
+	],
+	tasks: [{
+		uid: "ac292f70",
+		type: "item",
+		items: [{
+			id: "astralsorcery:itemcelestialcrystal",
+			tag: {
+				astralsorcery: {
+					crystalProperties: {
+						collectiveCapability: 100,
+						size: 900,
+						fract: 0,
+						purity: 100,
+						sizeOverride: -1
+					}
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "18361313",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "680f18db",
+		type: "xp",
+		xp: 1200
+	},
+	{
+		uid: "6baecdff",
+		type: "item",
+		item: "astralsorcery:itemcraftingcomponent 1 2",
+		count: 8
+	}]
+}

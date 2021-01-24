@@ -1,0 +1,44 @@
+
+{
+	title: "{greedycraft.quest.55ed5c73.title}",
+	x: 4.0d,
+	y: 2.0d,
+	shape: "square",
+	description: "{greedycraft.quest.55ed5c73.desc}",
+	dependencies: [
+		"d378aa56"
+	],
+	tasks: [{
+		uid: "ed3d9105",
+		type: "item",
+		items: [{
+			item: "draconicevolution:energy_storage_core"
+		}]
+	}],
+	rewards: [{
+		uid: "492af30d",
+		type: "item",
+		item: {
+			id: "draconicevolution:draconium_capacitor",
+			tag: {
+				Energy: 64000000
+			}
+		}
+	},
+	{
+		uid: "895c823f",
+		type: "xp",
+		xp: 2000
+	},
+	{
+		uid: "1eed7ec4",
+		type: "item",
+		item: "draconicevolution:particle_generator 1 2",
+		count: 4
+	},
+	{
+		uid: "e5e9f7e7",
+		type: "loot",
+		table: 2
+	}]
+}

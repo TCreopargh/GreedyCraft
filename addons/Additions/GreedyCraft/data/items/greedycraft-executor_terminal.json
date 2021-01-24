@@ -1,0 +1,8 @@
+{
+  "name": "§cExecutor Terminal",
+  "tooltip": [
+    "§4§oIt's up to you to decide the fate of this world.",
+    "§c§oRight click to terminate the Elysian Project and the current simulation。§lTHIS CANNOT BE UNDONE."
+  ],
+  "type": "additions:simple"
+}

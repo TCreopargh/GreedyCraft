@@ -1,0 +1,11 @@
+{
+    "weight": 60,
+    "type": "tconevo:tool",
+    "name": "Mighty Frypan",
+    "lore": "PONG!",
+    "tool": "frypan",
+    "materials": [
+        "stainless_steel",
+        "meteor"
+    ]
+}

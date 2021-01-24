@@ -1,0 +1,21 @@
+{
+  "item_block": {
+    "name": "§aCompressed Block of Knowledge",
+    "tooltip": [
+      "§7Used to store XP",
+      "§aLeft click air to consume and gain XP",
+      "§eCounts as 16 bookshelves when placed near a enchanting table"
+    ],
+    "ore_dict": "blockCompressedExperience",
+    "type": "additions:block_simple"
+  },
+  "name": "§aCompressed Block of Knowledge",
+  "material": "minecraft:metal",
+  "map_color": "minecraft:lime",
+  "hardness": 4.0,
+  "resistance": 10.0,
+  "harvest_level": 2,
+  "harvest_tool": "pickaxe",
+  "bookshelf_strength": 16,
+  "type": "additions:simple"
+}

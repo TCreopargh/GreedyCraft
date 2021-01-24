@@ -1,0 +1,33 @@
+
+{
+	title: "{greedycraft.quest.b733b7fb.title}",
+	x: 2.5d,
+	y: -3.5d,
+	description: "{greedycraft.quest.b733b7fb.desc}",
+	dependencies: [
+		"5b9f8f30"
+	],
+	tasks: [{
+		uid: "0c10e836",
+		type: "item",
+		items: [{
+			item: "thaumcraft:smelter_basic"
+		}]
+	}],
+	rewards: [{
+		uid: "f1811dd7",
+		type: "xp",
+		xp: 2000
+	},
+	{
+		uid: "150d629f",
+		type: "item",
+		item: "thaumcraft:alembic",
+		count: 2
+	},
+	{
+		uid: "4126b75b",
+		type: "loot",
+		table: 1
+	}]
+}

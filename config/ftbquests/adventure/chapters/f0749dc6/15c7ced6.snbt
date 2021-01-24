@@ -1,0 +1,33 @@
+{
+	title: "{greedycraft.quest.15c7ced6.title}",
+	icon: {
+		id: "minecraft:iron_sword"
+	},
+	x: -3.0d,
+	y: 1.0d,
+	description: "{greedycraft.quest.15c7ced6.desc}",
+	dependencies: [
+		"653fa7f3"
+	],
+	tasks: [{
+		uid: "5433bbb3",
+		type: "stat",
+		stat: "stat.mobKills",
+		value: 2500
+	}],
+	rewards: [{
+		uid: "39ed5777",
+		type: "item",
+		item: "tinymobfarm:diamond_farm"
+	},
+	{
+		uid: "7806cdea",
+		type: "xp",
+		xp: 5000
+	},
+	{
+		uid: "6f341cdd",
+		type: "loot",
+		table: 1
+	}]
+}

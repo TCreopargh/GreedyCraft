@@ -1,0 +1,55 @@
+
+{
+	title: "{greedycraft.quest.11643307.title}",
+	x: -1.0d,
+	y: -1.0d,
+	description: "{greedycraft.quest.11643307.desc}",
+	dependencies: [
+		"555122a8"
+	],
+	tasks: [{
+		uid: "b4b9eacb",
+		type: "item",
+		items: [{
+			item: "twilightforest:trophy 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "878b7756",
+		type: "item",
+		item: "twilightforest:ironwood_raw",
+		count: 20
+	},
+	{
+		uid: "6d0dcf86",
+		type: "item",
+		item: "twilightforest:steeleaf_ingot",
+		count: 16
+	},
+	{
+		uid: "5e739523",
+		type: "xp",
+		xp: 400
+	},
+	{
+		uid: "971c686a",
+		type: "item",
+		item: {
+			id: "thermalinnovation:injector",
+			tag: {},
+			Damage: 2s
+		}
+	},
+	{
+		uid: "374790ab",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "9aea09b2",
+		type: "advancement",
+		auto: "no_toast",
+		advancement: "twilightforest:progress_lich",
+		criterion: ""
+	}]
+}

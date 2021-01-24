@@ -1,0 +1,32 @@
+{
+	title: "{greedycraft.quest.a72c38cb.title}",
+	x: 0.5d,
+	y: 1.5d,
+	description: "{greedycraft.quest.a72c38cb.desc}",
+	dependencies: [
+		"469b1d74"
+	],
+	tasks: [{
+		uid: "5d49b016",
+		type: "item",
+		items: [{
+			item: "thaumcraft:infusion_matrix"
+		}]
+	}],
+	rewards: [{
+		uid: "433dcb5d",
+		type: "item",
+		item: "thaumcraft:stone_arcane",
+		count: 64
+	},
+	{
+		uid: "39fc4092",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "a05fe25b",
+		type: "loot",
+		table: 0
+	}]
+}

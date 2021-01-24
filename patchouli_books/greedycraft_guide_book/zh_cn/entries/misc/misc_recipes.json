@@ -1,0 +1,170 @@
+{
+	"name": "§3合成配方",
+	"icon": "minecraft:crafting_table",
+	"category": "patchouli:misc_category",
+	"pages": [{
+			"type": "text",
+			"text": "$(9)以下是一些乱七八糟的合成配方，可能有用，也可能没用。"
+		},
+		{
+			"type": "crafting",
+			"recipe2": "extrautils2:shortcut_stick",
+			"recipe": "extrautils2:shortcut_chest"
+		},
+		{
+			"type": "crafting",
+			"recipe2": "crafttweaker:auto_gen_684700803",
+			"recipe": "crafttweaker:auto_gen_-2104803001"
+		},
+		{
+			"type": "crafting",
+			"recipe2": "crafttweaker:auto_gen_6394519",
+			"recipe": "crafttweaker:auto_gen_-1874338203"
+		},
+		{
+			"type": "crafting",
+			"recipe2": "crafttweaker:auto_gen_-2042519398",
+			"recipe": "crafttweaker:auto_gen_-1352061026"
+		},
+		{
+			"type": "crafting",
+			"recipe2": "crafttweaker:auto_gen_-295393253",
+			"recipe": "crafttweaker:auto_gen_-1694793471"
+		},
+		{
+			"type": "crafting",
+			"recipe2": "crafttweaker:auto_gen_-865558598",
+			"recipe": "crafttweaker:rotleather"
+		},
+		{
+			"type": "crafting",
+			"recipe2": "crafttweaker:tofustick",
+			"recipe": "crafttweaker:dragonegg"
+		},
+		{
+			"type": "crafting",
+			"recipe2": "crafttweaker:totundying",
+			"recipe": "crafttweaker:elytra"
+		},
+		{
+			"type": "crafting",
+			"recipe2": "crafttweaker:auto_gen_-1453796942",
+			"recipe": "crafttweaker:auto_gen_421398898"
+		},
+		{
+			"type": "crafting",
+			"recipe2": "crafttweaker:auto_gen_2051907122",
+			"recipe": "crafttweaker:auto_gen_-497967694"
+		},
+		{
+			"type": "crafting",
+			"recipe2": "crafttweaker:auto_gen_-1181238140",
+			"recipe": "crafttweaker:auto_gen_-402635342"
+		},
+		{
+			"type": "crafting",
+			"recipe2": "crafttweaker:auto_gen_1289690205",
+			"recipe": "crafttweaker:auto_gen_-1223296379"
+		},
+		{
+			"type": "crafting",
+			"recipe2": "crafttweaker:auto_gen_558684333",
+			"recipe": "crafttweaker:auto_gen_1805774062"
+		},
+		{
+			"type": "crafting",
+			"recipe2": "crafttweaker:auto_gen_826338285",
+			"recipe": "crafttweaker:auto_gen_-503951361"
+		},
+		{
+			"type": "crafting",
+			"recipe2": "crafttweaker:auto_gen_244244256",
+			"recipe": "crafttweaker:auto_gen_1124990531"
+		},
+		{
+			"type": "crafting",
+			"recipe2": "crafttweaker:auto_gen_747705352",
+			"recipe": "crafttweaker:auto_gen_1647035237"
+		},
+		{
+			"type": "crafting",
+			"recipe2": "crafttweaker:auto_gen_104947165",
+			"recipe": "crafttweaker:auto_gen_-1478408197"
+		},
+		{
+			"type": "crafting",
+			"recipe2": "crafttweaker:auto_gen_695668416",
+			"recipe": "crafttweaker:auto_gen_288981592"
+		},
+		{
+			"type": "crafting",
+			"recipe2": "crafttweaker:auto_gen_-162477942",
+			"recipe": "crafttweaker:auto_gen_-1175705809"
+		},
+		{
+			"type": "crafting",
+			"recipe2": "crafttweaker:auto_gen_-1873046907",
+			"recipe": "crafttweaker:wood_to_charcoal"
+		},
+		{
+			"type": "crafting",
+			"recipe2": "crafttweaker:auto_gen_-1799280324",
+			"recipe": "crafttweaker:auto_gen_284734971"
+		},
+		{
+			"type": "crafting",
+			"recipe2": "crafttweaker:auto_gen_-1702953212",
+			"recipe": "crafttweaker:auto_gen_1921390605"
+		},
+		{
+			"type": "crafting",
+			"recipe2": "crafttweaker:auto_gen_21729634",
+			"recipe": "crafttweaker:auto_gen_1318457067"
+		},
+		{
+			"type": "crafting",
+			"recipe2": "crafttweaker:shadow_egg",
+			"recipe": "crafttweaker:cattail"
+		},
+		{
+			"type": "crafting",
+			"recipe2": "crafttweaker:sapling",
+			"recipe": "crafttweaker:auto_gen_-1848316431"
+		},
+		{
+			"type": "crafting",
+			"recipe2": "crafttweaker:shroom2",
+			"recipe": "crafttweaker:shroom1"
+		},
+		{
+			"type": "crafting",
+			"recipe2": "crafttweaker:sea_oat2",
+			"recipe": "crafttweaker:sea_oat1"
+		},
+		{
+			"type": "crafting",
+			"recipe2": "crafttweaker:rose_gold_dust",
+			"recipe": "crafttweaker:clam"
+		},
+		{
+			"type": "crafting",
+			"recipe2": "crafttweaker:auto_gen_-1342866062",
+			"recipe": "crafttweaker:auto_gen_1131299393"
+		},
+		{
+			"type": "crafting",
+			"recipe2": "crafttweaker:auto_gen_1397188541",
+			"recipe": "crafttweaker:auto_gen_1077378325"
+		},
+		{
+			"type": "crafting",
+			"recipe2": "crafttweaker:auto_gen_1268894182",
+			"recipe": "crafttweaker:auto_gen_1834508295"
+		},
+		{
+			"type": "crafting",
+			"recipe2": "crafttweaker:auto_gen_1478856706",
+			"recipe": "crafttweaker:auto_gen_-637448521"
+		}
+	]
+}

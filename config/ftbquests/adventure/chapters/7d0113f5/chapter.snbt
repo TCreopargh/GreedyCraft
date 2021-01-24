@@ -1,0 +1,20 @@
+{
+	title: "{greedycraft.quest.chapter.thaumcraft}",
+	icon: {
+		id: "thaumcraft:thaumonomicon"
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "",
+	images: [{
+		x: -8.5d,
+		y: 3.5d,
+		width: 8.0d,
+		height: 4.0d,
+		rotation: 0.0d,
+		image: "greedycraft:quests/thaumcraft.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

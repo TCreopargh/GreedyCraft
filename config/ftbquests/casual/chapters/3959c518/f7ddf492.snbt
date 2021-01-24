@@ -1,0 +1,19 @@
+
+{
+	x: 1.5d,
+	y: -2.0d,
+	tasks: [{
+		uid: "e45e564c",
+		type: "item",
+		items: [{
+			id: "avaritia:infinity_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "09ec6bea",
+		type: "loot",
+		table: 3
+	}]
+}

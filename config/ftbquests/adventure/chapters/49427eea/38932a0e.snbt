@@ -1,0 +1,27 @@
+{
+	title: "{greedycraft.quest.38932a0e.title}",
+	x: 0.5d,
+	y: 9.0d,
+	description: "{greedycraft.quest.38932a0e.desc}",
+	dependencies: [
+		"acafd08c"
+	],
+	tasks: [{
+		uid: "a0b33fa0",
+		type: "item",
+		items: [{
+			item: "enderio:block_enhanced_sag_mill"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ef160120",
+		type: "xp",
+		xp: 4000
+	},
+	{
+		uid: "44912d63",
+		type: "loot",
+		table: 2
+	}]
+}

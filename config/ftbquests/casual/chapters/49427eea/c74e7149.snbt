@@ -1,0 +1,30 @@
+
+{
+	title: "{greedycraft.quest.c74e7149.title}",
+	x: 10.5d,
+	y: -4.0d,
+	description: "{greedycraft.quest.c74e7149.desc}",
+	tasks: [{
+		uid: "c4323925",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 163"
+		}]
+	}],
+	rewards: [{
+		uid: "75af7818",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "d35ec710",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "b0e55e43",
+		type: "item",
+		item: "thermalfoundation:material 1 163",
+		count: 8
+	}]
+}

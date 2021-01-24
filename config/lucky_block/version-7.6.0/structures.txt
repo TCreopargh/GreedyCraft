@@ -1,0 +1,36 @@
+/ traps
+ID=anvil_trap,file=traps/anvil_trap.schematic,centerY=1,centerZ=2
+ID=lava_trap,file=traps/lava_trap.schematic,centerY=1
+ID=water_trap,file=traps/water_trap.schematic,centerY=1
+ID=pit_trap,file=traps/pit_trap.schematic,centerY=19
+
+/ lucky
+ID=lucky_fort,file=lucky/lucky_fort.schematic,overlayStruct=lucky_fort_inner,centerY=1
+ID=lucky_fort_inner,file=lucky/lucky_fort_inner.luckystruct,blockMode=overlay
+ID=lucky_temple,file=lucky/lucky_temple.schematic,overlayStruct=lucky_temple_inner,centerY=1
+ID=lucky_temple_inner,file=lucky/lucky_temple_inner.luckystruct,blockMode=overlay
+
+/ other
+ID=bedrock_problem,file=other/bedrock_problem.schematic
+ID=lucky_choice_left,file=other/lucky_choice_left.luckystruct
+ID=lucky_choice_right,file=other/lucky_choice_right.luckystruct
+ID=wishing_well,file=other/wishing_well.schematic,centerY=2
+ID=bouncing_castle,file=other/bouncing_castle.schematic,centerY=1
+ID=drill_hole,file=other/drill_hole.schematic,blockMode=air,centerY=7
+
+/ giant blocks
+ID=giant_block_break_stage_1,file=giant_blocks/break_stage_1.schematic,blockMode=overlay,centerZ=7
+ID=giant_block_break_stage_2,file=giant_blocks/break_stage_2.schematic,blockMode=overlay,centerZ=7
+ID=giant_block_break_stage_3,file=giant_blocks/break_stage_3.schematic,blockMode=overlay,centerZ=7
+ID=giant_block_break_stage_4,file=giant_blocks/break_stage_4.schematic,blockMode=overlay,centerZ=7
+ID=giant_block_break_stage_5,file=giant_blocks/break_stage_5.schematic,blockMode=overlay,centerZ=7
+ID=giant_lucky_block_good,file=giant_blocks/giant_lucky_block.schematic,centerZ=7,overlayStruct=giant_lucky_block_inner_good
+ID=giant_lucky_block_inner_good,file=giant_blocks/giant_lucky_block_inner_good.luckystruct,blockMode=overlay,centerZ=7
+ID=giant_lucky_block_bad,file=giant_blocks/giant_lucky_block.schematic,centerZ=7,overlayStruct=giant_lucky_block_inner_bad
+ID=giant_lucky_block_inner_bad,file=giant_blocks/giant_lucky_block_inner_bad.luckystruct,blockMode=overlay,centerZ=7
+
+/ natural gen
+ID=gen_good,file=gen/gen_good.schematic
+
+/ bow
+ID=meteor,file=bow/meteor.schematic,centerY=3,blockMode=overlay

@@ -1,0 +1,21 @@
+{
+  "item_block": {
+    "name": "§bCryonium Ore",
+    "ore_dict": "oreCryonium",
+    "type": "additions:block_simple"
+  },
+  "name": "§bCryonium Ore",
+  "material": "minecraft:stone",
+  "place_sound": "minecraft:block.stone.place",
+  "break_sound": "minecraft:block.stone.break",
+  "hit_sound": "minecraft:block.stone.hit",
+  "step_sound": "minecraft:block.stone.step",
+  "fall_sound": "minecraft:block.stone.fall",
+  "map_color": "minecraft:diamond",
+  "hardness": 6.0,
+  "resistance": 500.0,
+  "harvest_level": 9,
+  "harvest_tool": "pickaxe",
+  "light_level": 7,
+  "type": "additions:simple"
+}

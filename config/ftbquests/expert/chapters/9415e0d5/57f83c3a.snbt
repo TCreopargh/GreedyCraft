@@ -1,0 +1,29 @@
+
+{
+	title: "{greedycraft.quest.57f83c3a.title}",
+	x: 4.0d,
+	y: 9.5d,
+	description: "{greedycraft.quest.57f83c3a.desc}",
+	tasks: [{
+		uid: "bde6a491",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-ancient_tome"
+		}]
+	}],
+	rewards: [{
+		uid: "f4963074",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "ed5006e2",
+		type: "loot",
+		table: 3
+	},
+	{
+		uid: "112737ff",
+		type: "xp",
+		xp: 10000
+	}]
+}

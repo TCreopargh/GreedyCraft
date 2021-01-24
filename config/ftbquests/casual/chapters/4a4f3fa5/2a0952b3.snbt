@@ -1,0 +1,32 @@
+
+{
+	title: "{greedycraft.quest.2a0952b3.title}",
+	x: 0.5d,
+	y: 2.0d,
+	description: "{greedycraft.quest.2a0952b3.desc}",
+	dependencies: [
+		"6ffc6415"
+	],
+	tasks: [{
+		uid: "f0a7295e",
+		type: "item",
+		items: [{
+			item: "botania:alfheimportal"
+		}]
+	}],
+	rewards: [{
+		uid: "28c95a92",
+		type: "item",
+		item: "mysticalagriculture:terrasteel_seeds"
+	},
+	{
+		uid: "13c41c9f",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "0a34b5e0",
+		type: "xp",
+		xp: 1000
+	}]
+}

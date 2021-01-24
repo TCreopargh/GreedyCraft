@@ -1,0 +1,21 @@
+setIcon(<additions:greedycraft-experiment_note>)
+
+setTranslatedTitle("greedycraft.advancement.log4.title")
+
+setTranslatedDescription("greedycraft.advancement.log4.desc")
+
+addParent("greedycraft:elysia/log3")
+
+setPos(80,100)
+
+alwaysVisible()
+
+drawDirectLines(true)
+
+setShowToast(false)
+
+setAnnounceToChat(false)
+
+criteriaLog4 = addCriteria("gc_stage_ender_charm", "triumph:gamestage")
+
+criteriaLog4.setStage("ender_charm")

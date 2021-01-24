@@ -1,0 +1,38 @@
+{
+	title: "{greedycraft.quest.653fa7f3.title}",
+	icon: {
+		id: "minecraft:stone_sword"
+	},
+	x: -3.0d,
+	y: -1.0d,
+	description: "{greedycraft.quest.653fa7f3.desc}",
+	dependencies: [
+		"260c92bf"
+	],
+	tasks: [{
+		uid: "95f4e8ac",
+		type: "stat",
+		stat: "stat.mobKills",
+		value: 500
+	}],
+	rewards: [{
+		uid: "05898e6a",
+		type: "item",
+		item: "tinymobfarm:iron_farm"
+	},
+	{
+		uid: "fee27c42",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "f7348a43",
+		type: "item",
+		item: "testdummy:dummy"
+	},
+	{
+		uid: "abdf5edd",
+		type: "loot",
+		table: 0
+	}]
+}

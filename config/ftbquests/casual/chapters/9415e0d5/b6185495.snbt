@@ -1,0 +1,30 @@
+
+{
+	title: "{greedycraft.quest.b6185495.title}",
+	x: -10.0d,
+	y: 7.5d,
+	description: "{greedycraft.quest.b6185495.desc}",
+	tasks: [{
+		uid: "451e6844",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-compressed_experience_block"
+		}]
+	}],
+	rewards: [{
+		uid: "e3b3cd85",
+		type: "xp",
+		xp: 300
+	},
+	{
+		uid: "e947b7a3",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "bfdbd49e",
+		type: "item",
+		item: "additions:greedycraft-compressed_experience_block",
+		count: 3
+	}]
+}

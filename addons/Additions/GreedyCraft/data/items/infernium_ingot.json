@@ -1,0 +1,7 @@
+{
+  "name": "§6Infernium Ingot",
+  "burn_time": 90000,
+  "is_beacon_payment": true,
+  "ore_dict": "ingotInfernium",
+  "type": "additions:simple"
+}

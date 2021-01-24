@@ -1,0 +1,385 @@
+{
+    "registryname": "organic_producer",
+    "localizedname": "Organic Producer",
+    "color": "ec407a",
+    "modifiers": [
+        {
+            "elements": "modularmachinery:blockcasing@1",
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "description": "Replace the block right on top of the controller into any of the machine upgraders to increase organic fluid output!",
+            "modifier": {
+                "io": "output",
+                "target": "fluid",
+                "operation": 1,
+                "multiplier": 1.25
+            }
+        },
+        {
+            "elements": "modularmachinery:blockcasing@2",
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "description": "Replace the block right on top of the controller into any of the machine upgraders to increase organic fluid output!",
+            "modifier": {
+                "io": "output",
+                "target": "fluid",
+                "operation": 1,
+                "multiplier": 1.5
+            }
+        },
+        {
+            "elements": "modularmachinery:blockcasing@3",
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "description": "Replace the block right on top of the controller into any of the machine upgraders to increase organic fluid output!",
+            "modifier": {
+                "io": "output",
+                "target": "fluid",
+                "operation": 1,
+                "multiplier": 2.0
+            }
+        },
+        {
+            "elements": "modularmachinery:blockcasing@5",
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "description": "Replace the block right on top of the controller into any of the machine upgraders to increase organic fluid output!",
+            "modifier": {
+                "io": "output",
+                "target": "fluid",
+                "operation": 1,
+                "multiplier": 2.5
+            }
+        }
+    ],
+    "parts": [
+        {
+            "x": [1, 0, -1],
+            "y": -1,
+            "z": [3, 2, 1],
+            "elements": "contenttweaker:organic_fluid"
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 2,
+            "elements": "iron_bars"
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": "casings_all"
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 1,
+            "elements": ["minecraft:glass@0"]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 3,
+            "elements": ["minecraft:glass@0"]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": "casings_all"
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 3,
+            "elements": ["minecraft:glass@0"]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 1,
+            "elements": ["modularmachinery:blockcasing@0"]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 3,
+            "elements": ["minecraft:glass@0"]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 1,
+            "elements": ["modularmachinery:blockcasing@0"]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 4,
+            "elements": "casings_all"
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 1,
+            "elements": ["modularmachinery:blockcasing@0"]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 3,
+            "elements": ["modularmachinery:blockcasing@0"]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 4,
+            "elements": "iron_bars"
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 2,
+            "elements": "iron_bars"
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 3,
+            "elements": ["modularmachinery:blockcasing@0"]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 4,
+            "elements": "casings_all"
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 3,
+            "elements": ["modularmachinery:blockcasing@0"]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 0,
+            "elements": ["modularmachinery:blockcasing@4"]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+            "elements": ["modularmachinery:blockcasing@4"]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": ["mysticalagriculture:storage@3"]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 2,
+            "elements": ["mysticalagriculture:storage@3"]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": ["mysticalagriculture:storage@3"]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 0,
+            "elements": ["modularmachinery:blockcasing@4"]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            "elements": ["modularmachinery:blockcasing@4"]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 1,
+            "elements": ["modularmachinery:blockcasing@4"]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 4,
+            "elements": ["modularmachinery:blockcasing@4"]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 3,
+            "elements": ["modularmachinery:blockcasing@4"]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 4,
+            "elements": ["mysticalagriculture:storage@3"]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 2,
+            "elements": ["mysticalagriculture:storage@3"]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 4,
+            "elements": ["modularmachinery:blockcasing@4"]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 1,
+            "elements": ["modularmachinery:blockcasing@4"]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 3,
+            "elements": ["modularmachinery:blockcasing@4"]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 1,
+            "elements": "casings_all"
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 2,
+            "elements": ["minecraft:glass@0"]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 2,
+            "elements": ["minecraft:glass@0"]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 3,
+            "elements": "casings_all"
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 2,
+            "elements": ["minecraft:glass@0"]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 2,
+            "elements": ["modularmachinery:blockcasing@0"]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 1,
+            "elements": "casings_all"
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 2,
+            "elements": ["modularmachinery:blockcasing@0"]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 2,
+            "elements": ["modularmachinery:blockcasing@0"]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 3,
+            "elements": "casings_all"
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 1,
+            "elements": ["modularmachinery:blockcasing@4"]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 3,
+            "elements": ["modularmachinery:blockcasing@4"]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 2,
+            "elements": ["mysticalagriculture:storage@3"]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 1,
+            "elements": ["modularmachinery:blockcasing@4"]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 3,
+            "elements": ["modularmachinery:blockcasing@4"]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 4,
+            "elements": ["modularmachinery:blockcasing@4"]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 2,
+            "elements": ["mysticalagriculture:storage@3"]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 4,
+            "elements": ["mysticalagriculture:storage@3"]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 4,
+            "elements": ["modularmachinery:blockcasing@4"]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 1,
+            "elements": ["minecraft:glass@0"]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 1,
+            "elements": ["minecraft:glass@0"]
+        }
+    ]
+}

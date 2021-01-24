@@ -1,0 +1,43 @@
+
+{
+	title: "{greedycraft.quest.9c5f6e99.title}",
+	x: 6.5d,
+	y: 4.5d,
+	description: "{greedycraft.quest.9c5f6e99.desc}",
+	dependencies: [
+		"06dba2ad"
+	],
+	tasks: [{
+		uid: "49d37098",
+		type: "item",
+		items: [{
+			id: "thaumcraft:voidseer_charm"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e57ce9fc",
+		type: "item",
+		item: "thaumcraft:void_seed",
+		count: 3
+	},
+	{
+		uid: "16ff36a6",
+		type: "item",
+		item: {
+			id: "thaumcraft:primordial_pearl"
+		},
+		count: 3
+	},
+	{
+		uid: "ada3dcc1",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "8f1bbb72",
+		type: "xp",
+		xp: 5000
+	}]
+}

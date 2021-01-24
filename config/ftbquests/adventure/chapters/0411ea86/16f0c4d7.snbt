@@ -1,0 +1,29 @@
+{
+	title: "{greedycraft.quest.16f0c4d7.title}",
+	x: -8.5d,
+	y: -1.0d,
+	description: "{greedycraft.quest.16f0c4d7.desc}",
+	tasks: [{
+		uid: "2aacd7c9",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-twilight_gem"
+		}]
+	}],
+	rewards: [{
+		uid: "1cc54d9e",
+		type: "xp",
+		xp: 250
+	},
+	{
+		uid: "0b719aef",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "0e367af6",
+		type: "item",
+		item: "minecraft:red_flower",
+		count: 12
+	}]
+}

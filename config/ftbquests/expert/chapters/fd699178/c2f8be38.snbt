@@ -1,0 +1,39 @@
+
+{
+	title: "{greedycraft.quest.c2f8be38.title}",
+	x: -4.5d,
+	y: 2.0d,
+	description: "{greedycraft.quest.c2f8be38.desc}",
+	dependencies: [
+		"8c4d41da"
+	],
+	tasks: [{
+		uid: "98c19f8d",
+		type: "item",
+		items: [{
+			item: "threng:machine"
+		}]
+	}],
+	rewards: [{
+		uid: "541016a9",
+		type: "item",
+		item: "appliedenergistics2:material 1 7",
+		count: 32
+	},
+	{
+		uid: "c23f288c",
+		type: "item",
+		item: "threng:material",
+		count: 16
+	},
+	{
+		uid: "16ad0b1b",
+		type: "xp",
+		xp: 400
+	},
+	{
+		uid: "fb48c32d",
+		type: "loot",
+		table: 1
+	}]
+}

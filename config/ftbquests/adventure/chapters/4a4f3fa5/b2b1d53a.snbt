@@ -1,0 +1,31 @@
+{
+	title: "{greedycraft.quest.b2b1d53a.title}",
+	x: -10.0d,
+	y: 1.5d,
+	description: "{greedycraft.quest.b2b1d53a.desc}",
+	dependencies: [
+		"b53cb9e7"
+	],
+	tasks: [{
+		uid: "eff9da98",
+		type: "item",
+		items: [{
+			item: "botania:livingrock"
+		}]
+	}],
+	rewards: [{
+		uid: "c64724d7",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "56275971",
+		type: "item",
+		item: "botania:rune"
+	},
+	{
+		uid: "ffe5789c",
+		type: "loot",
+		table: 0
+	}]
+}

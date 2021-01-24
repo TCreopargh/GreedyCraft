@@ -1,0 +1,12 @@
+{
+    "weight": 65,
+    "type": "tconevo:tool",
+    "name": "Excalibur",
+    "lore": "No need to elaborate on this legendary weapon.",
+    "tool": "broadsword",
+    "materials": [
+        "silver",
+        "asgardium",
+        "alubrass"
+    ]
+}

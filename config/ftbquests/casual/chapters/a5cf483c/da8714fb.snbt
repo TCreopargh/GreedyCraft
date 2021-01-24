@@ -1,0 +1,35 @@
+
+{
+	title: "{greedycraft.quest.da8714fb.title}",
+	x: -1.0d,
+	y: 4.0d,
+	description: "{greedycraft.quest.da8714fb.desc}",
+	dependencies: [
+		"5cc3003c",
+		"019a77ed"
+	],
+	tasks: [{
+		uid: "3a5fe54b",
+		type: "item",
+		items: [{
+			id: "astralsorcery:itemskyresonator"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2c459617",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "be03ecdf",
+		type: "xp",
+		xp: 420
+	},
+	{
+		uid: "cdac9a05",
+		type: "item",
+		item: "astralsorcery:itemusabledust",
+		count: 16
+	}]
+}

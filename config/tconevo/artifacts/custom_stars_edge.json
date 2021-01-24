@@ -1,0 +1,12 @@
+{
+  "weight": 750,
+  "type": "tconevo:tool",
+  "name": "Star's Edge",
+  "lore": "This sword resonates with the stars.",
+  "tool": "broadsword",
+  "materials": [
+    "meteor",
+    "starmetal",
+    "fluix_steel"
+  ]
+}

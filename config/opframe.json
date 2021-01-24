@@ -1,0 +1,33 @@
+{
+  "sizeLimitation": 1000,
+  "onlyOps": false,
+  "disableAdventure": true,
+  "onlyCreative": false,
+  "whitelistEnabled": false,
+  "whitelist": [
+    "imgur.com",
+    "gyazo.com",
+    "prntscr.com",
+    "tinypic.com",
+    "puu.sh",
+    "pinimg.com",
+    "photobucket.com",
+    "staticflickr.com",
+    "flic.kr",
+    "tenor.co",
+    "gfycat.com",
+    "giphy.com",
+    "gph.is",
+    "gifbin.com",
+    "i.redd.it",
+    "media.tumblr.com",
+    "twimg.com",
+    "discordapp.com",
+    "images.discordapp.net",
+    "githubusercontent.com",
+    "googleusercontent.com",
+    "googleapis.com",
+    "wikimedia.org",
+    "ytimg.com"
+  ]
+}

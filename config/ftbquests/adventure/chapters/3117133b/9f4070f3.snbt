@@ -1,0 +1,32 @@
+{
+	title: "{greedycraft.quest.9f4070f3.title}",
+	x: 6.5d,
+	y: 0.0d,
+	description: "{greedycraft.quest.9f4070f3.desc}",
+	dependencies: [
+		"5d584fb4"
+	],
+	tasks: [{
+		uid: "c11d1b7f",
+		type: "item",
+		items: [{
+			item: "aether_legacy:ambrosium_torch"
+		}]
+	}],
+	rewards: [{
+		uid: "c87c0cf6",
+		type: "xp",
+		xp: 500
+	},
+	{
+		uid: "95ce8e88",
+		type: "item",
+		item: "aether_legacy:ambrosium_torch",
+		count: 32
+	},
+	{
+		uid: "41eee292",
+		type: "loot",
+		table: 1
+	}]
+}

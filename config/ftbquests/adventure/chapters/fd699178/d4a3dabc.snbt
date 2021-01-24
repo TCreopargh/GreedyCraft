@@ -1,0 +1,25 @@
+{
+	title: "{greedycraft.quest.d4a3dabc.title}",
+	x: 8.0d,
+	y: 2.0d,
+	description: "{greedycraft.quest.d4a3dabc.desc}",
+	tasks: [{
+		uid: "5c769d56",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:network_tool"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f877aea3",
+		type: "xp",
+		xp: 500
+	},
+	{
+		uid: "548f5f0c",
+		type: "loot",
+		table: 1
+	}]
+}

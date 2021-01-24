@@ -1,0 +1,36 @@
+
+{
+	title: "{greedycraft.quest.5ac3d548.title}",
+	x: 0.5d,
+	y: 3.5d,
+	description: "{greedycraft.quest.5ac3d548.desc}",
+	dependencies: [
+		"a72c38cb"
+	],
+	tasks: [{
+		uid: "9fd8b332",
+		type: "item",
+		items: [{
+			item: "thaumcraft:matrix_speed"
+		},
+		{
+			item: "thaumcraft:matrix_cost"
+		}]
+	}],
+	rewards: [{
+		uid: "265047ae",
+		type: "xp",
+		xp: 1300
+	},
+	{
+		uid: "9d80fc3b",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "fdc849a9",
+		type: "item",
+		item: "thaumcraft:alumentum",
+		count: 4
+	}]
+}

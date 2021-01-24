@@ -1,0 +1,23 @@
+{
+	title: "{greedycraft.quest.34525751.title}",
+	x: -6.0d,
+	y: 5.5d,
+	description: "{greedycraft.quest.34525751.desc}",
+	tasks: [{
+		uid: "bb71aebd",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_matter"
+		}]
+	}],
+	rewards: [{
+		uid: "42d2b5b2",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "b5b1385c",
+		type: "xp",
+		xp: 800
+	}]
+}

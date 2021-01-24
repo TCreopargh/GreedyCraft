@@ -1,0 +1,643 @@
+{
+    "registryname": "aeonsteel_forge",
+    "localizedname": "Aeonsteel Forge",
+    "color": "283593",
+    "modifiers": [
+        {
+            "elements": "modularmachinery:blockcasing@1",
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "description": "Replace the block on top of the controller into any of the machine upgraders to boost machine speed!",
+            "modifier": {
+                "io": "output",
+                "target": "duration",
+                "operation": 1,
+                "multiplier": 0.75
+            }
+        },
+        {
+            "elements": "modularmachinery:blockcasing@2",
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "description": "Replace the block on top of the controller into any of the machine upgraders to boost machine speed!",
+            "modifier": {
+                "io": "output",
+                "target": "duration",
+                "operation": 1,
+                "multiplier": 0.66
+            }
+        },
+        {
+            "elements": "modularmachinery:blockcasing@3",
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "description": "Replace the block on top of the controller into any of the machine upgraders to boost machine speed!",
+            "modifier": {
+                "io": "output",
+                "target": "duration",
+                "operation": 1,
+                "multiplier": 0.5
+            }
+        },
+        {
+            "elements": "modularmachinery:blockcasing@5",
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "description": "Replace the block on top of the controller into any of the machine upgraders to boost machine speed!",
+            "modifier": {
+                "io": "output",
+                "target": "duration",
+                "operation": 1,
+                "multiplier": 0.33
+            }
+        }
+    ],
+    "parts": [
+        {
+            "x": [-2, -1, 0, 1, 2],
+            "y": 0,
+            "z": [1, 2],
+            "elements": ["modularmachinery:blockcasing@4"]
+        },
+        {
+            "x": [-2, -1, 0, 1, 2],
+            "y": [1, 2, 3],
+            "z": [1, 2],
+            "elements": ["minecraft:lava"]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 3,
+            "elements": ["thermalfoundation:glass_alloy@7"]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": ["modularmachinery:blockcasing@4"]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 2,
+            "elements": ["minecraft:obsidian@0"]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 0,
+            "elements": ["modularmachinery:blockcasing@4"]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 3,
+            "elements": ["thermalfoundation:glass_alloy@7"]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 2,
+            "elements": ["minecraft:obsidian@0"]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": ["modularmachinery:blockcasing@4"]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 1,
+            "elements": "casings_all"
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 0,
+            "elements": ["modularmachinery:blockcasing@4"]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 0,
+            "elements": ["additions:greedycraft-durasteel_block@0"]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 3,
+            "elements": ["thermalfoundation:glass_alloy@7"]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 3,
+            "elements": ["thermalfoundation:glass_alloy@7"]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 0,
+            "elements": ["additions:greedycraft-durasteel_block@0"]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 3,
+            "elements": "casings_all"
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 2,
+            "elements": ["modularmachinery:blockcasing@4"]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 1,
+            "elements": "casings_all"
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 0,
+            "elements": "casings_all"
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 0,
+            "elements": ["thermalfoundation:glass_alloy@7"]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 3,
+            "elements": ["additions:greedycraft-durasteel_block@0"]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+            "elements": ["thermalfoundation:glass_alloy@7"]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 2,
+            "elements": "casings_all"
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 3,
+            "elements": ["thermalfoundation:glass_alloy@7"]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": ["thermalfoundation:glass_alloy@7"]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 3,
+            "elements": ["thermalfoundation:glass_alloy@7"]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 3,
+            "elements": ["thermalfoundation:glass_alloy@7"]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            "elements": ["thermalfoundation:glass_alloy@7"]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 3,
+            "elements": ["thermalfoundation:glass_alloy@7"]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 1,
+            "elements": "casings_all"
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 0,
+            "elements": ["thermalfoundation:glass_alloy@7"]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 3,
+            "elements": ["thermalfoundation:glass_alloy@7"]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 0,
+            "elements": "casings_all"
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 3,
+            "elements": ["additions:greedycraft-durasteel_block@0"]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 2,
+            "elements": "casings_all"
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 1,
+            "elements": ["minecraft:obsidian@0"]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 0,
+            "elements": "casings_all"
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 1,
+            "elements": ["minecraft:obsidian@0"]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 0,
+            "elements": ["thermalfoundation:glass_alloy@7"]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 1,
+            "elements": ["minecraft:obsidian@0"]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 0,
+            "elements": ["thermalfoundation:glass_alloy@7"]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 2,
+            "elements": "casings_all"
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 3,
+            "elements": ["minecraft:glowstone@0"]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 1,
+            "elements": "iron_bars"
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 1,
+            "elements": ["minecraft:obsidian@0"]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 0,
+            "elements": ["thermalfoundation:glass_alloy@7"]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 1,
+            "elements": ["modularmachinery:blockcasing@4"]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 3,
+            "elements": ["minecraft:obsidian@0"]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 3,
+            "elements": ["minecraft:obsidian@0"]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 1,
+            "elements": ["minecraft:obsidian@0"]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 0,
+            "elements": ["thermalfoundation:glass_alloy@7"]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 3,
+            "elements": ["minecraft:obsidian@0"]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 1,
+            "elements": ["minecraft:obsidian@0"]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 0,
+            "elements": ["thermalfoundation:glass_alloy@7"]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 3,
+            "elements": ["additions:greedycraft-durasteel_block@0"]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 0,
+            "elements": "casings_all"
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 3,
+            "elements": ["modularmachinery:blockcasing@4"]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 3,
+            "elements": ["minecraft:glowstone@0"]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 3,
+            "elements": ["modularmachinery:blockcasing@4"]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 3,
+            "elements": ["modularmachinery:blockcasing@4"]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 2,
+            "elements": "casings_all"
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 3,
+            "elements": ["modularmachinery:blockcasing@4"]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 1,
+            "elements": ["modularmachinery:blockcasing@4"]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 3,
+            "elements": ["modularmachinery:blockcasing@4"]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 3,
+            "elements": ["additions:greedycraft-durasteel_block@0"]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 0,
+            "elements": ["additions:greedycraft-durasteel_block@0"]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 0,
+            "elements": ["thermalfoundation:glass_alloy@7"]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 0,
+            "elements": ["thermalfoundation:glass_alloy@7"]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 2,
+            "elements": "casings_all"
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 1,
+            "elements": "casings_all"
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 0,
+            "elements": ["thermalfoundation:glass_alloy@7"]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 0,
+            "elements": ["thermalfoundation:glass_alloy@7"]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 3,
+            "elements": "casings_all"
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 0,
+            "elements": ["thermalfoundation:glass_alloy@7"]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 0,
+            "elements": ["additions:greedycraft-durasteel_block@0"]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 3,
+            "elements": ["thermalfoundation:glass_alloy@7"]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 3,
+            "elements": ["thermalfoundation:glass_alloy@7"]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 3,
+            "elements": ["thermalfoundation:glass_alloy@7"]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 2,
+            "elements": "casings_all"
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 3,
+            "elements": ["thermalfoundation:glass_alloy@7"]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 1,
+            "elements": "casings_all"
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 3,
+            "elements": ["thermalfoundation:glass_alloy@7"]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 3,
+            "elements": "casings_all"
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 0,
+            "elements": ["minecraft:glowstone@0"]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 0,
+            "elements": ["minecraft:obsidian@0"]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 2,
+            "elements": ["minecraft:obsidian@0"]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 1,
+            "elements": "casings_all"
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 2,
+            "elements": ["minecraft:obsidian@0"]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 0,
+            "elements": ["minecraft:obsidian@0"]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 0,
+            "elements": ["minecraft:obsidian@0"]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 2,
+            "elements": ["minecraft:obsidian@0"]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 3,
+            "elements": "casings_all"
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 2,
+            "elements": "iron_bars"
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 0,
+            "elements": ["minecraft:glowstone@0"]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 2,
+            "elements": ["minecraft:obsidian@0"]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 2,
+            "elements": ["modularmachinery:blockcasing@4"]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 3,
+            "elements": ["thermalfoundation:glass_alloy@7"]
+        }
+    ]
+}

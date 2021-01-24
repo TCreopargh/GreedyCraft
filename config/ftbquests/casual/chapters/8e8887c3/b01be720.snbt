@@ -1,0 +1,60 @@
+
+{
+	title: "{greedycraft.quest.b01be720.title}",
+	x: 4.0d,
+	y: -2.0d,
+	shape: "rsquare",
+	description: "{greedycraft.quest.b01be720.desc}",
+	text: [
+		"§cYou need to complete the 'Twilight Shield' quest before you can go to the Nether",
+		"§6Otherwise you won't be teleported no matter how long you stay in the portal"
+	],
+	dependencies: [
+		"8e49ae34"
+	],
+	tasks: [{
+		uid: "932534c9",
+		type: "dimension",
+		dim: -1
+	}],
+	rewards: [{
+		uid: "4f30d2b3",
+		type: "item",
+		item: "minecraft:obsidian",
+		count: 32
+	},
+	{
+		uid: "58ca42dc",
+		type: "xp",
+		xp: 800
+	},
+	{
+		uid: "385ec5fc",
+		type: "item",
+		item: "bountifulbaubles:potionrecall",
+		count: 16
+	},
+	{
+		uid: "05dd2034",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "0aff2ebd",
+		type: "item",
+		item: "minecraft:reeds",
+		count: 32
+	},
+	{
+		uid: "daabf2a1",
+		type: "item",
+		item: "bountifulbaubles:potionwormhole",
+		count: 16
+	},
+	{
+		uid: "7e3bb6b6",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "nether"
+	}]
+}

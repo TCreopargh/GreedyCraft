@@ -1,0 +1,40 @@
+{
+	title: "{greedycraft.quest.376e4986.title}",
+	x: 0.5d,
+	y: 5.5d,
+	shape: "gear",
+	description: "{greedycraft.quest.376e4986.desc}",
+	dependencies: [
+		"acafd08c"
+	],
+	tasks: [{
+		uid: "02c786a9",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:ore 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "077be1e1",
+		type: "item",
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 3s,
+					id: 35
+				}]
+			}
+		}
+	},
+	{
+		uid: "9aa80146",
+		type: "xp",
+		xp: 600
+	},
+	{
+		uid: "22357418",
+		type: "loot",
+		table: 0
+	}]
+}

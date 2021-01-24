@@ -1,0 +1,32 @@
+
+{
+	title: "{greedycraft.quest.11aa672a.title}",
+	x: -8.0d,
+	y: -3.0d,
+	shape: "rsquare",
+	description: "{greedycraft.quest.11aa672a.desc}",
+	dependencies: [
+		"286f21d3"
+	],
+	tasks: [{
+		uid: "f930c3c9",
+		type: "item",
+		title: "Pebble or flint",
+		icon: "additions:greedycraft-pebble",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "pebble",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7f643183",
+		type: "xp",
+		xp: 15
+	}]
+}

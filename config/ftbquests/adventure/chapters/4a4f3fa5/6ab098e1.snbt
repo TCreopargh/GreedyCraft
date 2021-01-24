@@ -1,0 +1,34 @@
+{
+	title: "{greedycraft.quest.6ab098e1.title}",
+	x: -4.5d,
+	y: 3.0d,
+	description: "{greedycraft.quest.6ab098e1.desc}",
+	dependencies: [
+		"224f8b52"
+	],
+	tasks: [{
+		uid: "dbb9833d",
+		type: "item",
+		items: [{
+			id: "botania:autocraftinghalo"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "05e8a468",
+		type: "item",
+		item: "botania:manaresource 1 1",
+		count: 5
+	},
+	{
+		uid: "f5a66291",
+		type: "xp",
+		xp: 500
+	},
+	{
+		uid: "40c6893c",
+		type: "loot",
+		table: 1
+	}]
+}

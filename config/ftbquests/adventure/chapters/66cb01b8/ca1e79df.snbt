@@ -1,0 +1,34 @@
+{
+	title: "{greedycraft.quest.ca1e79df.title}",
+	x: 0.0d,
+	y: 1.0d,
+	description: "{greedycraft.quest.ca1e79df.desc}",
+	dependencies: [
+		"a79a5097"
+	],
+	tasks: [{
+		uid: "42b94bdc",
+		type: "item",
+		items: [{
+			id: "bloodmagic:sacrificial_dagger",
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "cef3d9e1",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "889de9e5",
+		type: "item",
+		item: "tconstruct:edible 1 3",
+		count: 10
+	},
+	{
+		uid: "74dd9612",
+		type: "xp",
+		xp: 600
+	}]
+}

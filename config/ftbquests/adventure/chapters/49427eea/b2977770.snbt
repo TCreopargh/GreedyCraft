@@ -1,0 +1,27 @@
+{
+	title: "{greedycraft.quest.b2977770.title}",
+	x: 0.5d,
+	y: 7.0d,
+	description: "{greedycraft.quest.b2977770.desc}",
+	dependencies: [
+		"acafd08c"
+	],
+	tasks: [{
+		uid: "2f9c02b2",
+		type: "item",
+		items: [{
+			item: "enderio:block_enhanced_alloy_smelter"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "03b24b18",
+		type: "xp",
+		xp: 4000
+	},
+	{
+		uid: "3242de75",
+		type: "loot",
+		table: 2
+	}]
+}

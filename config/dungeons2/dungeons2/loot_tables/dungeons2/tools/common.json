@@ -1,0 +1,46 @@
+{
+	"pools": [
+		{
+			"name": "common_tools",
+			"rolls": 1,
+			"entries": [
+				{
+					"entryName": "stone_sword",
+					"type": "item",
+					"name": "minecraft:stone_sword",
+					"weight": 25	
+				},
+				{
+					"entryName": "stone_pickaxe",
+					"type": "item",
+					"name": "minecraft:stone_pickaxe",
+					"weight": 25
+				},
+				{
+					"entryName": "stone_axe",
+					"type": "item",
+					"name": "minecraft:stone_axe",
+					"weight": 25
+				},
+				{
+					"entryName": "golden_sword",
+					"type": "item",
+					"name": "minecraft:golden_sword",
+					"weight": 15
+				},
+				{
+					"entryName": "golden_pickaxe",
+					"type": "item",
+					"name": "minecraft:golden_pickaxe",
+					"weight": 15
+				},
+				{
+					"entryName": "golden_axe",
+					"type": "item",
+					"name": "minecraft:golden_axe",
+					"weight": 15
+				}
+			]
+		}
+	]
+}

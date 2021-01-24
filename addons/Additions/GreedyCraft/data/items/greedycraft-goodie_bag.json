@@ -1,0 +1,9 @@
+{
+  "name": "§6Goodie Bag",
+  "shines": true,
+  "tooltip": [
+    "§6Might contain expert mode exclusive items!",
+    "§d§lEXPERT ONLY"
+  ],
+  "type": "additions:simple"
+}

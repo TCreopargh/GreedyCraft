@@ -1,0 +1,37 @@
+{
+	title: "{greedycraft.quest.9e7c83e4.title}",
+	x: 3.0d,
+	y: -6.0d,
+	description: "{greedycraft.quest.9e7c83e4.desc}",
+	tasks: [{
+		uid: "8c445a02",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:device",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					0b,
+					1b,
+					1b,
+					1b,
+					1b,
+					1b
+				]
+			},
+			Damage: 2s
+		}]
+	}],
+	rewards: [{
+		uid: "4621f34a",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "c74a3645",
+		type: "xp",
+		xp: 750
+	}]
+}

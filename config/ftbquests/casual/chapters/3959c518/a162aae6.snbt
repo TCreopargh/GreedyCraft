@@ -1,0 +1,54 @@
+
+{
+	title: "{greedycraft.quest.a162aae6.title}",
+	icon: {
+		id: "ftbquests:custom_icon",
+		tag: {
+			icon: "greedycraft:icons/TCreopargh.png"
+		}
+	},
+	x: 0.0d,
+	y: 6.0d,
+	description: "{greedycraft.quest.a162aae6.desc}",
+	dependencies: [
+		"9415e0d5",
+		"f48d536a",
+		"49427eea",
+		"4a4f3fa5",
+		"8e8887c3",
+		"3117133b",
+		"fd699178",
+		"f0749dc6",
+		"a9e29df1",
+		"a5cf483c",
+		"7d0113f5",
+		"0411ea86",
+		"c345d852",
+		"66cb01b8"
+	],
+	dependency_requirement: "all_started",
+	size: 2.0d,
+	tasks: [{
+		uid: "f4c9afe3",
+		type: "checkmark",
+		title: "§bClick this if you think you've got everything ready."
+	}],
+	rewards: [{
+		uid: "14a35e57",
+		type: "item",
+		title: "§b§kqpzxkz",
+		icon: {
+			id: "extrabotany:cosmetic",
+			tag: {},
+			Damage: 7s
+		},
+		item: "additions:greedycraft-ocd_certificate"
+	},
+	{
+		uid: "fca3e95a",
+		type: "gamestage",
+		title: "§d§kqualified_ocd",
+		auto: "no_toast",
+		stage: "qualified_ocd"
+	}]
+}

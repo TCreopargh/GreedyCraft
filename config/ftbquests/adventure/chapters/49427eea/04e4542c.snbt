@@ -1,0 +1,28 @@
+{
+	title: "{greedycraft.quest.04e4542c.title}",
+	x: 5.5d,
+	y: 13.0d,
+	description: "{greedycraft.quest.04e4542c.desc}",
+	tasks: [{
+		uid: "75898e27",
+		type: "item",
+		items: [{
+			item: "avaritiaio:infinitecapacitor"
+		}]
+	}],
+	rewards: [{
+		uid: "97287391",
+		type: "loot",
+		table: 3
+	},
+	{
+		uid: "7abeeb09",
+		type: "item",
+		item: "avaritiaio:infinitecapacitor"
+	},
+	{
+		uid: "dfbfbe3f",
+		type: "xp",
+		xp: 666666
+	}]
+}

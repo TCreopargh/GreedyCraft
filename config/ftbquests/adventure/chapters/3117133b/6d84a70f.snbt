@@ -1,0 +1,38 @@
+{
+	title: "{greedycraft.quest.6d84a70f.title}",
+	icon: "minecraft:chest",
+	x: 4.0d,
+	y: 2.5d,
+	description: "{greedycraft.quest.6d84a70f.desc}",
+	dependencies: [
+		"b5350524"
+	],
+	tasks: [{
+		uid: "1a20294a",
+		type: "kill",
+		entity: "aether_legacy:mimic",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "99cca452",
+		type: "xp",
+		xp: 400
+	},
+	{
+		uid: "c2f54ba3",
+		type: "item",
+		item: "ironchest:iron_chest",
+		count: 10
+	},
+	{
+		uid: "c939c74d",
+		type: "item",
+		item: "minecraft:hopper",
+		count: 10
+	},
+	{
+		uid: "cbc2190a",
+		type: "loot",
+		table: 1
+	}]
+}

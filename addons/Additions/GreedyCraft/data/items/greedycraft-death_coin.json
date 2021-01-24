@@ -1,0 +1,8 @@
+{
+  "name": "§6Coin of Death",
+  "tooltip": [
+    "§bRight click to make a contract with the devil and enter §cSuper Hardmode§b, gaining max difficulty.",
+    "§bLeft click air to get out of §cSuper Hardmode§b"
+  ],
+  "type": "additions:simple"
+}

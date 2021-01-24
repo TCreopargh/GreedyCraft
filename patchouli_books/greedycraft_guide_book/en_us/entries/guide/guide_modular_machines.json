@@ -1,0 +1,107 @@
+{
+    "name": "§9Modular Machinery",
+    "icon": "modularmachinery:blockcontroller",
+    "category": "patchouli:guide_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(9)Modular Machinery$() is a type of multiblock machines defined by the modpack author. Different machines serve different purposes. You can search for $(5)@modularmachinery$() for all modular machinery's blueprints and components. The layout of these multiblock structures can be found by clicking the corresponding $(9)Machine Blueprint$() in JEI. "
+        },
+        {
+            "type": "text",
+            "text": "View the details and inner blocks by clicking the buttons in the bottom right when viewing machine layouts. $(5)How to add input / outputs: $(): When previewing a machine, some blocks keep changing, this means any of these block fit within that spot. If it includes input / output hatches, you can put any input / output hatch into that spot. (Of course you can also use basic casings instead). It's up to you to arrange IO hatches on the machine, as long as you have enough hatches to satisfy the needs of all recipes of that machine."
+        },
+        {
+            "type": "text",
+            "text": "When you finish building a modular machine, it will usually $(5)change its color$(), this means that the structure gets recognized. If it didn't, check if the structure is correct. Note: all water in the structure must be $(2)Water Source block$(), flowing water does not count. (So is lava, etc.) $(br)$(c)Note: $()Blueprint is $(5)not required$() to run the machine, it's only used for JEI lookups. $(br)$(1)When building a multiblock machine, your item output hatchet must be large enough to contain all possible recipe outputs.$()"
+        },
+        {
+            "type": "text",
+            "text": " If it hints 'No Item Input', try to upgrade item output hatch or put more output hatches. $(br)$(c)Modular Machinery Upgrades: $()You can upgrade a machine by changing a specific block into another. The block that needs to be replaced can be found on machine preview in JEI. All tiered machine upgrade blocks can be found in JEI by searching @ModularMachinery."
+        },
+		{
+            "type": "spotlight",
+			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:soymilk_producer\"}",
+			"title": "Soy Milk Machine",
+            "text": "$(6)Soy Milk Machine$() produces soy milk super fast, as long as soy bean and water are supplied."
+        },
+		{
+            "type": "spotlight",
+			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:exp_power_generator\"}",
+			"title": "Experience Power Generator",
+            "text": "$(2)Experience Power Generator$() generates power with liquid $(2)Essence of Knowledge$()! If you have a lot of exp, try to use them to generate power. It produces $(4)2000FE$() each tick which is very efficient! $(br2)$(2)$(o)Knowledge is Power!"
+        },
+		{
+            "type": "spotlight",
+			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:organic_producer\"}",
+			"title": "Organic Producer",
+            "text": "$(d)Organic Producer$() extracts organic fluid from organic matters! You need to supply it with enough organic stuff and water. $(2)Cytosinite$() is a perfect material to produce organic fluid."
+        },
+		{
+            "type": "spotlight",
+			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:organic_infuser\"}",
+			"title": "Organic Infuser",
+            "text": "$(5)Organic Infuser$() can grow seeds very fast with organic fluid. It can also grow tier 6 crops without the need of a crux, but slowly and consumes a lot of energy. It's your best choice to grow tier 1~5 crops. Also it can grow pure crystals in AE2."
+        },
+		{
+            "type": "spotlight",
+			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:solid_centrifuge\"}",
+			"title": "Solid Centrifuge",
+            "text": "$(3)Solid Centrifuge$() extracts useful materials from useless blocks. You just need to supply it with enough water and energy. Some blocks have a chance to be turned into precious valuables."
+        },
+		{
+            "type": "spotlight",
+			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:liquid_centrifuge\"}",
+			"title": "Liquid Centrifuge",
+            "text": "$(9)Liquid Centrifuge$() extracts useful materials from liquids. $(br)$(c)Note: although it might look the same as solid centrifuge, the stick in the middle is made by platinum (while in solid centrifuge it's made of steel), be aware!"
+        },
+		{
+            "type": "spotlight",
+			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:alloy_decomposer\"}",
+			"title": "Alloy Decomposer",
+            "text": "$(8)Alloy Decomposer$() decomposes some alloys into their components."
+        },
+		{
+            "type": "spotlight",
+			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:liquid_converter\"}",
+			"title": "Liquid Converter",
+            "text": "$(3)Liquid Converter$() converts between equivalent liquids with a tiny amount of energy."
+        },
+		{
+            "type": "spotlight",
+			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:loot_power_generator\"}",
+			"title": "Loot Power Generator",
+            "text": "$(8)Loot Power Generator$() generates energy from dungeon loot, with very high efficiency!"
+        },
+		{
+            "type": "spotlight",
+			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:blazing_furnace\"}",
+			"title": "Blazing Furnace",
+            "text": "$(6)Blazing Furnace$() smelts stuff at tremendous speed! You need blazing pyrotheum to supply it with the heat."
+        },
+		{
+            "type": "spotlight",
+			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:durasteel_forge\"}",
+			"title": "Durasteel Forge",
+            "text": "$(9)Durasteel Forge$() is used to forge a very strong metal - Durasteel. Note: Press U on its blueprint in JEI to view all possible recipes, some ingredients are optional that reduces the time and energy consumption. First page of the recipes is the full list and the last page is the most simple one."
+        },
+		{
+            "type": "spotlight",
+			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:aeonsteel_forge\"}",
+			"title": "Aeonsteel Forge",
+            "text": "$(3)Aeonsteel Forge$() is used to forge another very strong mid-game metal - Aeonsteel. It works in the same way as durasteel forge."
+        },
+		{
+            "type": "spotlight",
+			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:chromasteel_forge\"}",
+			"title": "Chromasteel Forge",
+            "text": "$(d)Aeonsteel Forge$() is used to forge another very strong late-game metal - Chromasteel. It works in the same way as durasteel forge."
+        },
+		{
+            "type": "spotlight",
+			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:cosmic_forge\"}",
+			"title": "Cosmic Forge",
+            "text": "$(5)Aeonsteel Forge$() is used to forge a super strong endgame metal - Cosmilite. It works in the same way as durasteel forge."
+        }
+    ]
+}

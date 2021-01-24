@@ -1,0 +1,175 @@
+{
+	"version": "1.0",
+	"pools": [
+		{
+			"name": "treasure",
+			"rolls": 1,
+			"entries": [
+				{
+					"entryName": "iron_key",
+					"type": "item",
+					"name": "treasure2:iron_key",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					]
+				},
+				{
+					"entryName": "gold_key",
+					"type": "item",
+					"name": "treasure2:gold_key",
+					"weight": 20,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					]
+				},
+				{
+					"entryName": "spider_key",
+					"type": "item",
+					"name": "treasure2:spider_key",
+					"weight": 15
+				},
+				{
+					"entryName": "diamond_key",
+					"type": "item",
+					"name": "treasure2:diamond_key",
+					"weight": 15
+				},
+				{
+					"entryName": "emerald_key",
+					"type": "item",
+					"name": "treasure2:emerald_key",
+					"weight": 15
+				},
+				{
+					"entryName": "sapphire_key",
+					"type": "item",
+					"name": "treasure2:sapphire_key",
+					"weight": 20
+				},
+				{
+					"entryName": "ruby_key",
+					"type": "item",
+					"name": "treasure2:ruby_key",
+					"weight": 20
+				},				
+				{
+					"entryName": "silver_coin",
+					"type": "item",
+					"name": "treasure2:silver_coin",
+					"weight": 30,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					]
+				},
+				{
+					"entryName": "gold_coin",
+					"type": "item",
+					"name": "treasure2:gold_coin",
+					"weight": 50,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 4
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "charms",
+			"rolls": 1,
+			"entries": [
+                {
+                    "type": "loot_table",
+                    "name": "treasure2:loot_tables/treasure2/treasure/rare_charms",
+                    "weight": 1
+                }
+			]
+		},				
+		{
+			"name": "items",
+			"rolls": 4,
+			"entries": [
+				{
+					"entryName": "ender_pearl",
+					"type": "item",
+					"name": "minecraft:ender_pearl",
+					"weight": 15
+				},
+				{
+					"entryName": "blaze_powder",
+					"type": "item",
+					"name": "minecraft:blaze_powder",
+					"weight": 25,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 4
+							}
+						}
+					]
+				},
+				{
+					"entryName": "diamond",
+					"type": "item",
+					"name": "minecraft:diamond",
+					"weight": 35,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 2,
+								"max": 4
+							}
+						}
+					]
+				},
+				{
+					"entryName": "emerald",
+					"type": "item",
+					"name": "minecraft:emerald",
+					"weight": 35,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					]					
+				},
+				{
+					"entryName": "sapphire",
+					"type": "item",
+					"name": "treasure2:sapphire",
+					"weight": 15				
+				}				
+			]
+		}
+	]
+}

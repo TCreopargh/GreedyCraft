@@ -1,0 +1,13 @@
+{
+  "chancecubes:ticket_epic_zh_cn": {
+    "chance": 75,
+    "Item": [
+      {
+        "item": {
+          "id": "additions:greedycraft-reward_ticket_epic",
+          "Count": 1
+        }
+      }
+    ]
+  }
+}

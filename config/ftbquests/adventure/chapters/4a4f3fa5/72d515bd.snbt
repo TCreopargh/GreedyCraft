@@ -1,0 +1,39 @@
+{
+	title: "{greedycraft.quest.72d515bd.title}",
+	x: 10.5d,
+	y: 0.0d,
+	description: "{greedycraft.quest.72d515bd.desc}",
+	dependencies: [
+		"eae7764a"
+	],
+	tasks: [{
+		uid: "aeca3c4a",
+		type: "item",
+		items: [{
+			item: "extrabotany:material 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "b37db2d1",
+		type: "xp",
+		xp: 9000
+	},
+	{
+		uid: "0c111ecd",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "78b2d470",
+		type: "item",
+		item: "botania:manaresource 1 14",
+		count: 5
+	},
+	{
+		uid: "8a783dd8",
+		type: "command",
+		title: "§cCRASH WARNING",
+		auto: "enabled",
+		command: "/tellraw @a {\"text\":\"§cWARNING: After this fight your client will inevitably crash (but you can still pick up loot when you rejoin), be prepared.\"}"
+	}]
+}

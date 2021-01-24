@@ -1,0 +1,60 @@
+{
+	title: "{greedycraft.quest.06dba2ad.title}",
+	x: 4.5d,
+	y: 3.5d,
+	description: "{greedycraft.quest.06dba2ad.desc}",
+	text: [
+		"You can only get the initial Primordial Pearl by destroying rifts with Casuality Collapser with a highest chance of 17%"
+	],
+	dependencies: [
+		"996344a7"
+	],
+	tasks: [{
+		uid: "12e845ed",
+		type: "item",
+		items: [{
+			id: "thaumcraft:primordial_pearl"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5ad7437b",
+		type: "loot",
+		table: 3
+	},
+	{
+		uid: "aea43080",
+		type: "item",
+		item: {
+			id: "thaumcraft:primordial_pearl"
+		},
+		count: 4
+	},
+	{
+		uid: "6b2a9dfe",
+		type: "xp",
+		xp: 5000
+	},
+	{
+		uid: "91661d78",
+		type: "command",
+		title: "§cTo fix a Bug",
+		auto: "enabled",
+		command: "/thaumcraft research @p TCONEVO_BASE"
+	},
+	{
+		uid: "8bbcc70e",
+		type: "command",
+		title: "Fix a bug",
+		auto: "enabled",
+		command: "/thaumcraft research @p TCONEVO_TCONINFUSIONENCH"
+	},
+	{
+		uid: "019ac9ab",
+		type: "command",
+		title: "Fix a bug",
+		auto: "enabled",
+		command: "/thaumcraft research @p TCONEVO_PRIMALMETAL"
+	}]
+}

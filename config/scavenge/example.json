@@ -1,0 +1,28 @@
+{
+    "block_pools": [
+        {
+            "name": "Netherrack",
+            "type": {
+                "type": "block",
+                "name": "minecraft:nether_brick"
+            },
+            "clicktype": "both",
+            "properties": [
+                {
+                    "type": "require_sneak"
+                }
+            ],
+            "drops": [
+                {
+                    "name": "minecraft:iron_ingot"
+                }
+            ],
+            "messages": [
+                {
+                    "id": "require_sneak",
+                    "message": "Player requires to sneak"
+                }
+            ]
+        }
+    ]
+}

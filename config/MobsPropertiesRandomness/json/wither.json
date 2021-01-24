@@ -1,0 +1,12 @@
+{
+    "mob_id": "minecraft:wither",
+    "attributes": [
+        {
+            "id": "generic.maxHealth",
+            "modifier": {
+                "min": 7700
+            },
+            "isflat": true
+        }
+    ]
+}

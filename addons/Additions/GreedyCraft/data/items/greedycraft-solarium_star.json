@@ -1,0 +1,10 @@
+{
+  "name": "§6Solarium Star",
+  "shines": true,
+  "tooltip": [
+    "§eRight click to unlock game stage: §6descendant_of_the_sun",
+    "§6A new ore will spawn in the Nether"
+  ],
+  "ore_dict": "gemSolariumStar",
+  "type": "additions:simple"
+}

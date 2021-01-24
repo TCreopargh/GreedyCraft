@@ -1,0 +1,9 @@
+{
+	"name": "§cGreedyCraft §b§oModpack Guide",
+	"subtitle": "A detailed guide on the modpack you are playing.",
+	"landing_text": "$(2)Welcome, $(5)$(playername)$()$(br2)This book is a guide for the $(#ff80ab)GreedyCraft$() modpack.\nClick on one of the entries on the right to begin.",
+	"version": 37,
+	"pause_game": true,
+	"book_texture": "patchouli:textures/gui/book_red.png",
+	"model": "additions:greedycraft-guide_book"
+}

@@ -1,0 +1,27 @@
+
+{
+	title: "{greedycraft.quest.f3ca9920.title}",
+	x: 6.5d,
+	y: 2.5d,
+	description: "{greedycraft.quest.f3ca9920.desc}",
+	dependencies: [
+		"06dba2ad"
+	],
+	tasks: [{
+		uid: "ec1ad436",
+		type: "item",
+		items: [{
+			item: "thaumicwonders:void_beacon"
+		}]
+	}],
+	rewards: [{
+		uid: "6f704bc2",
+		type: "loot",
+		table: 3
+	},
+	{
+		uid: "0fea2cee",
+		type: "xp",
+		xp: 8000
+	}]
+}

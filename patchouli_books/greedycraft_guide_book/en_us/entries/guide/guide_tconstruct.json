@@ -1,0 +1,25 @@
+{
+    "name": "§6Tinker's Construct Guide",
+    "icon": "tconstruct:book",
+    "category": "patchouli:guide_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(2)Tinkers' Construct$() is one of the core mods in this modpack, and there's tons of custom materials and traits. To make progress in TConstruct, make a $(2)Blank Cast$() first, and the quest will reward you with enough stuff to begin with. For more details, view $(9)Material and You$() in your Omnipedia."
+        },
+		{
+			"type": "crafting",
+			"recipe": "tconstruct:tools/pattern"
+		},
+		{
+            "type": "text",
+			"text": "$(c)$(l)Notes: $()$(br2)$(li)Don't try to make cement as both of Seared Brick and Scorched Brick's recipes have been changed.$(li) Use $(9)Sharpening Kits $()and $(2)Polishing Kits$() to repair tools and armors, do not repair with ingots. $(li)Steel can only be obtained from high oven, please look for molten steel in JEI for recipe. $(li)Some tool types are locked behind game stages and will prompt the player to get more progression. Search for blueprint in JEI for how to unlock these tools."
+		},
+        {
+			"type": "smelting",
+			"recipe": "minecraft:brick",
+			"recipe2": "tconstruct:materials",
+            "text": "New recipes for seared and scorched bricks."
+		}
+    ]
+}

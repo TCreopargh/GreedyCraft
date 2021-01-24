@@ -1,0 +1,26 @@
+{
+  "name": "§dShield® Gum",
+  "shines": true,
+  "tooltip": [
+    "§eGains 80% damage reduction that lasts for 10s!",
+    "§6But chewing it takes a long time...",
+    "§d§lEXPERT ONLY"
+  ],
+  "hunger": 8,
+  "saturation": 0.625,
+  "always_edible": true,
+  "eat_time": 60,
+  "eaten_effects": [
+    {
+      "potion": {
+        "name": "minecraft:resistance",
+        "duration": 200,
+        "amplifier": 3,
+        "ambient": false,
+        "show_particles": true
+      },
+      "type": "additions:potion"
+    }
+  ],
+  "type": "additions:food"
+}

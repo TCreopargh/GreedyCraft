@@ -1,0 +1,30 @@
+{
+	title: "{greedycraft.quest.ef636433.title}",
+	x: 0.0d,
+	y: 13.5d,
+	description: "{greedycraft.quest.ef636433.desc}",
+	tasks: [{
+		uid: "fca53e22",
+		type: "item",
+		items: [{
+			item: "harvestcraft:netherstartoastitem"
+		}]
+	}],
+	rewards: [{
+		uid: "73750038",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "a7ed3a4c",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "5ee85756",
+		type: "item",
+		item: "harvestcraft:netherstartoastitem",
+		count: 3,
+		random_bonus: 2
+	}]
+}

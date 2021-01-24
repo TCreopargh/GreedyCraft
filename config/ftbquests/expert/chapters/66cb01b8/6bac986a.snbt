@@ -1,0 +1,32 @@
+
+{
+	title: "{greedycraft.quest.6bac986a.title}",
+	x: 0.0d,
+	y: 3.0d,
+	description: "{greedycraft.quest.6bac986a.desc}",
+	dependencies: [
+		"a79a5097"
+	],
+	tasks: [{
+		uid: "ca02be8e",
+		type: "item",
+		items: [{
+			item: "bloodmagic:slate"
+		}]
+	}],
+	rewards: [{
+		uid: "47fcaeaf",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "a2b159fa",
+		type: "item",
+		item: "prefab:block_compressed_stone 1 2"
+	},
+	{
+		uid: "3e3a40a4",
+		type: "xp",
+		xp: 600
+	}]
+}

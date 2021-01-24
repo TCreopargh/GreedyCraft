@@ -1,0 +1,32 @@
+
+{
+	title: "{greedycraft.quest.5f8ba210.title}",
+	x: 8.5d,
+	y: 1.5d,
+	description: "{greedycraft.quest.5f8ba210.desc}",
+	dependencies: [
+		"0a299e8c"
+	],
+	tasks: [{
+		uid: "65bac15e",
+		type: "item",
+		items: [{
+			item: "thaumadditions:adaminite_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "c3adf6b9",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "1527d13d",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "dbf15d87",
+		type: "xp",
+		xp: 9000
+	}]
+}

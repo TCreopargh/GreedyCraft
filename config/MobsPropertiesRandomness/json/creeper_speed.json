@@ -1,0 +1,12 @@
+{
+    "mob_id": "minecraft:creeper",
+    "attributes": [
+        {
+            "id": "generic.movementSpeed",
+            "modifier": {
+                "min": 25
+            },
+            "isflat": false
+        }
+    ]
+}

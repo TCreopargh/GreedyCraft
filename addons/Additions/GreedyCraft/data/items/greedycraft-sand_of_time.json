@@ -1,0 +1,7 @@
+{
+  "name": "§bSand of Time",
+  "shines": true,
+  "tooltip": "§bThese sand flows upwards when in a hourglass.",
+  "ore_dict": "dustTime",
+  "type": "additions:simple"
+}

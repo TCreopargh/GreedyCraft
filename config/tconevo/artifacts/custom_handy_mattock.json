@@ -1,0 +1,15 @@
+{
+    "weight": 125,
+    "type": "tconevo:tool",
+    "name": "Super Comfortable Mattock",
+    "lore": [
+		"For some reason, at the moment you pick it up,",
+		"You think you can't wield a more comfortable tool than this in your life."
+	],
+    "tool": "mattock",
+    "materials": [
+        "nickel",
+        "modularium",
+        "invar"
+    ]
+}

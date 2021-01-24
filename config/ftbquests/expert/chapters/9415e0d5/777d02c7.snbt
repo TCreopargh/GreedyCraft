@@ -1,0 +1,34 @@
+
+{
+	title: "{greedycraft.quest.777d02c7.title}",
+	icon: "extrautils2:teleporter 1 1",
+	x: -10.0d,
+	y: 11.5d,
+	description: "{greedycraft.quest.777d02c7.desc}",
+	tasks: [{
+		uid: "f4dc3598",
+		type: "dimension",
+		dim: -11325
+	}],
+	rewards: [{
+		uid: "22a23313",
+		type: "item",
+		item: "extrautils2:compressedcobblestone 1 4"
+	},
+	{
+		uid: "e3b373f7",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "e64f7f63",
+		type: "xp",
+		xp: 300
+	},
+	{
+		uid: "443dcb6e",
+		type: "item",
+		item: "prefab:block_compressed_stone 1 2",
+		count: 3
+	}]
+}

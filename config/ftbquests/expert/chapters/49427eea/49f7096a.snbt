@@ -1,0 +1,24 @@
+
+{
+	title: "{greedycraft.quest.49f7096a.title}",
+	x: 18.5d,
+	y: 11.0d,
+	description: "{greedycraft.quest.49f7096a.desc}",
+	tasks: [{
+		uid: "c74cd8fd",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:inventory_food"
+		}]
+	}],
+	rewards: [{
+		uid: "2a8774d7",
+		type: "xp",
+		xp: 500
+	},
+	{
+		uid: "19c5f318",
+		type: "loot",
+		table: 1
+	}]
+}

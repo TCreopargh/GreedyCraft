@@ -1,0 +1,44 @@
+
+{
+	title: "{greedycraft.quest.b9f88d26.title}",
+	x: 10.5d,
+	y: -8.0d,
+	description: "{greedycraft.quest.b9f88d26.desc}",
+	dependencies: [
+		"4ecd282a"
+	],
+	tasks: [{
+		uid: "c64ee05e",
+		type: "item",
+		items: [{
+			item: "solarflux:solar_panel_infinity"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ae973580",
+		type: "item",
+		item: "solarflux:solar_panel_infinity"
+	},
+	{
+		uid: "1a7e32d7",
+		type: "xp",
+		xp: 1048576
+	},
+	{
+		uid: "a43db712",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "0a16221d",
+		type: "loot",
+		table: 3
+	},
+	{
+		uid: "abe081b0",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "infinite_solar_energy"
+	}]
+}

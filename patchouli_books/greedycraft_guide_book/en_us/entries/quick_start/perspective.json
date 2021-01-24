@@ -1,0 +1,15 @@
+{
+    "name": "Perspective",
+    "icon": "botania:thirdeye",
+    "category": "patchouli:quick_start_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "The modpack uses $(2)Shoulder Surfing 3rd person mode$() by default, and you can use directional keys to adjust the cam position. 3rd person mode is recommended because it gives you a different game experience and makes battles much more pleasing, although you might feel slightly unconfortable at the very beginning. If you still don't like it, press $(5)F6$() to switch to 1st person mode. "
+        },
+        {
+            "type": "text",
+            "text": "The 1st person mode is replaced with a realistic one which renders player's body. Press F7 to switch to vanilla 1st person mode. The 3rd person mode is excellent for adventure, mining and battles but might be unsuitable for building or bridging. You can switch between these modes when needed. Press F5 to move the cam to another shoulder."
+        }
+    ]
+}

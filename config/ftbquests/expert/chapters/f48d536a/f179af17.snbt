@@ -1,0 +1,22 @@
+
+{
+	title: "{greedycraft.quest.f179af17.title}",
+	x: 1.5d,
+	y: 1.5d,
+	description: "{greedycraft.quest.f179af17.desc}",
+	dependencies: [
+		"254d7b2b"
+	],
+	tasks: [{
+		uid: "022c8b5a",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:stone 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "52e92f8a",
+		type: "loot",
+		table: 1
+	}]
+}

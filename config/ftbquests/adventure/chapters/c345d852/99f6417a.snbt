@@ -1,0 +1,23 @@
+{
+	title: "{greedycraft.quest.99f6417a.title}",
+	x: -1.0d,
+	y: -5.5d,
+	description: "{greedycraft.quest.99f6417a.desc}",
+	tasks: [{
+		uid: "795f994f",
+		type: "item",
+		items: [{
+			item: "forestry:sturdy_machine"
+		}]
+	}],
+	rewards: [{
+		uid: "9ef9f334",
+		type: "xp",
+		xp: 250
+	},
+	{
+		uid: "beea8764",
+		type: "loot",
+		table: 0
+	}]
+}

@@ -1,0 +1,41 @@
+
+{
+	title: "{greedycraft.quest.4883a5f1.title}",
+	x: -4.0d,
+	y: 1.5d,
+	description: "{greedycraft.quest.4883a5f1.desc}",
+	tasks: [{
+		uid: "32f2457a",
+		type: "item",
+		items: [{
+			item: "scalinghealth:heartcontainer"
+		}]
+	}],
+	rewards: [{
+		uid: "9a81b3bb",
+		type: "item",
+		item: "minecraft:golden_apple",
+		count: 5
+	},
+	{
+		uid: "f3fb4b53",
+		type: "item",
+		item: "minecraft:golden_apple 1 1"
+	},
+	{
+		uid: "2fe78011",
+		type: "item",
+		item: "scalinghealth:healingitem",
+		count: 5
+	},
+	{
+		uid: "3540e51f",
+		type: "xp",
+		xp: 250
+	},
+	{
+		uid: "9ea095e0",
+		type: "loot",
+		table: 1
+	}]
+}

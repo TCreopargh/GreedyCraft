@@ -1,0 +1,83 @@
+{
+	title: "{greedycraft.quest.851cec5e.title}",
+	x: -4.0d,
+	y: -4.0d,
+	shape: "diamond",
+	description: "{greedycraft.quest.851cec5e.desc}",
+	dependencies: [
+		"d8730528"
+	],
+	tasks: [{
+		uid: "addda5cb",
+		type: "item",
+		items: [{
+			item: "tconstruct:pattern"
+		}]
+	}],
+	rewards: [{
+		uid: "e0191e38",
+		type: "item",
+		item: {
+			id: "tconstruct:tooltables",
+			tag: {
+				textureBlock: {
+					id: "minecraft:planks",
+					Count: 1b,
+					Damage: 0s
+				}
+			},
+			Damage: 1s
+		}
+	},
+	{
+		uid: "95add881",
+		type: "item",
+		item: "tconstruct:tooltables 1 5"
+	},
+	{
+		uid: "8127e917",
+		type: "item",
+		item: "tconstruct:tooltables 1 3"
+	},
+	{
+		uid: "9bf589a8",
+		type: "item",
+		item: "tconstruct:tooltables"
+	},
+	{
+		uid: "661943bd",
+		type: "item",
+		item: "conarm:armorstation"
+	},
+	{
+		uid: "f83bf7d5",
+		type: "item",
+		item: "tconstruct:tooltables 1 4"
+	},
+	{
+		uid: "d17a8aa1",
+		type: "xp",
+		xp: 50
+	},
+	{
+		uid: "cc4ea332",
+		type: "item",
+		item: {
+			id: "tconstruct:tooltables",
+			tag: {
+				textureBlock: {
+					id: "minecraft:log",
+					Count: 1b,
+					Damage: 0s
+				}
+			},
+			Damage: 2s
+		}
+	},
+	{
+		uid: "5a8772f9",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "novice_tinker"
+	}]
+}

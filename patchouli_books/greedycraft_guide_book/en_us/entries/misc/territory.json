@@ -1,0 +1,15 @@
+{
+    "name": "Territory and Chunk Loading",
+    "icon": "minecraft:map",
+    "category": "patchouli:misc_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "You can find a $(6)Claimed Chunks$() button next to your quests button. You can claim chunks as your territory with it. Claimed chunks will not be griefed by meteorites, and prevents other people from modifying your base in multiplayer. Hold $(c)Shift$() to click an $(2)already claimed chunk$() to keep the chunk loaded, even if you're far away from it."
+        },
+        {
+            "type": "text",
+            "text": "$(c)Note: keeping chunks loaded has major impact on the performance. Please only load chunks that are absolutely needed.$()"
+        }
+    ]
+}

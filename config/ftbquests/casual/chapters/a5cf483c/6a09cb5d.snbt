@@ -1,0 +1,31 @@
+
+{
+	icon: "additions:greedycraft-arcane_crystal_ball",
+	x: 9.0d,
+	y: 4.0d,
+	dependencies: [
+		"470b67b1"
+	],
+	tasks: [{
+		uid: "9fe5fca1",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-arcane_crystal_ball"
+		}]
+	},
+	{
+		uid: "b622f672",
+		type: "gamestage",
+		stage: "master_wizard"
+	}],
+	rewards: [{
+		uid: "fcaa522b",
+		type: "loot",
+		table: 3
+	},
+	{
+		uid: "8ab8b969",
+		type: "xp",
+		xp: 8000
+	}]
+}

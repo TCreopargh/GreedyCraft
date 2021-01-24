@@ -1,0 +1,20 @@
+{
+    "name": "Ore Excavation",
+    "icon": "oeintegration:excavatemodifier",
+    "category": "patchouli:quick_start_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "By default you can excavate a lot of blocks at once when holding the §c~§r key, but you can't do this in the beginning. To excavate, your tool must have $(d)Excavation$() enchantment, or $(6)Excavation Modifier$() for tinkers' tools. Just apply the modifier to a tool with a Tool Forge. Both of the enchantment and the modifier have 5 levels, with fewer levels you can only excavate fewer blocks."
+        },
+        {
+            "type": "text",
+            "text": "No matter what level the modifier is, it only takes up one modifier slot. Recipes can be found below. $(c)Note: $(4)$(l)Excavation consumes a lot of hunger$()$(c), it's suggested to explore caves to find ores rather than excavation stones."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:oemod1",
+            "recipe2": "crafttweaker:oebook"
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+	"name": "basic4",
+	"description": "",
+	"author": "gottsch",
+	"archetypes": ["subterranean"],
+	"type": "room",
+	"themes": ["dungeon"],
+	"rarities": ["common"],
+	"biomeWhiteList": [],
+	"biomeBlackList": ["ocean", "deep_ocean"]
+}

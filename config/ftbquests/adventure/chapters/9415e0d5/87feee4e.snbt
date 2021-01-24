@@ -1,0 +1,35 @@
+{
+	title: "{greedycraft.quest.87feee4e.title}",
+	x: -10.0d,
+	y: 13.5d,
+	description: "{greedycraft.quest.87feee4e.desc}",
+	tasks: [{
+		uid: "d93c9349",
+		type: "item",
+		items: [{
+			item: "storagedrawers:controller"
+		}]
+	}],
+	rewards: [{
+		uid: "8d7e4dc9",
+		type: "item",
+		item: "storagedrawers:compdrawers",
+		count: 4
+	},
+	{
+		uid: "e8a73296",
+		type: "item",
+		item: "storagedrawers:upgrade_storage 1 4",
+		count: 4
+	},
+	{
+		uid: "43437ba5",
+		type: "xp",
+		xp: 250
+	},
+	{
+		uid: "cc5dcc76",
+		type: "loot",
+		table: 0
+	}]
+}

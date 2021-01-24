@@ -1,0 +1,35 @@
+
+{
+	title: "{greedycraft.quest.520beeea.title}",
+	x: 3.0d,
+	y: 0.0d,
+	description: "{greedycraft.quest.520beeea.desc}",
+	dependencies: [
+		"6ecb75bf",
+		"6ffc6415",
+		"2a0952b3"
+	],
+	tasks: [{
+		uid: "432110b4",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 7"
+		}]
+	}],
+	rewards: [{
+		uid: "72299289",
+		type: "item",
+		item: "botania:manaresource 1 7",
+		count: 6
+	},
+	{
+		uid: "8518988e",
+		type: "xp",
+		xp: 4000
+	},
+	{
+		uid: "8e3b2d1b",
+		type: "loot",
+		table: 1
+	}]
+}

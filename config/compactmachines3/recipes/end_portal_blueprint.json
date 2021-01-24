@@ -1,0 +1,131 @@
+{
+    "name": "compactmachines3:end_portal_blueprint",
+    "target-item": "prefab:item_basic_structure",
+    "target-meta": 0,
+    "target-count": 1,
+    "target-nbt": "{ForgeCaps:{\"prefab:structuresconfiguration\":{configuration:{wareHouseFacing:\"north\",structureEnumName:\"EnderGateway\"}}},id:\"prefab:item_basic_structure\",Count:1b,Damage:0s}",
+    "duration": 560,
+    "catalyst": "minecraft:ender_eye",
+    "input-types": {
+        "a": {
+            "id": "minecraft:end_portal_frame",
+            "item": {
+                "id": "minecraft:end_portal_frame",
+                "meta": 0,
+                "count": 1
+            },
+            "meta": 0
+        },
+        "b": {
+            "id": "minecraft:prismarine",
+            "meta": 0
+        },
+        "c": {
+            "id": "minecraft:obsidian",
+            "meta": 0
+        },
+        "d": {
+            "id": "minecraft:end_portal_frame",
+            "item": {
+                "id": "minecraft:end_portal_frame",
+                "meta": 0,
+                "count": 1
+            },
+            "meta": 1
+        },
+        "e": {
+            "id": "minecraft:end_portal_frame",
+            "item": {
+                "id": "minecraft:end_portal_frame",
+                "meta": 0,
+                "count": 1
+            },
+            "meta": 3
+        },
+        "f": {
+            "id": "minecraft:end_portal_frame",
+            "item": {
+                "id": "minecraft:end_portal_frame",
+                "meta": 0,
+                "count": 1
+            },
+            "meta": 2
+        }
+    },
+    "shape": [
+        [
+            [
+                "_",
+                "f",
+                "f",
+                "f",
+                "_"
+            ],
+            [
+                "d",
+                "_",
+                "_",
+                "_",
+                "e"
+            ],
+            [
+                "d",
+                "_",
+                "_",
+                "_",
+                "e"
+            ],
+            [
+                "d",
+                "_",
+                "_",
+                "_",
+                "e"
+            ],
+            [
+                "_",
+                "a",
+                "a",
+                "a",
+                "_"
+            ]
+        ],
+        [
+            [
+                "b",
+                "c",
+                "c",
+                "c",
+                "b"
+            ],
+            [
+                "c",
+                "c",
+                "c",
+                "c",
+                "c"
+            ],
+            [
+                "c",
+                "c",
+                "c",
+                "c",
+                "c"
+            ],
+            [
+                "c",
+                "c",
+                "c",
+                "c",
+                "c"
+            ],
+            [
+                "b",
+                "c",
+                "c",
+                "c",
+                "b"
+            ]
+        ]
+    ]
+}

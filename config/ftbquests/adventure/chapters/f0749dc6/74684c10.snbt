@@ -1,0 +1,28 @@
+{
+	title: "{greedycraft.quest.74684c10.title}",
+	icon: {
+		id: "minecraft:leather_chestplate"
+	},
+	x: 2.0d,
+	y: -3.0d,
+	description: "{greedycraft.quest.74684c10.desc}",
+	tasks: [{
+		uid: "c3eb0524",
+		type: "stat",
+		icon: {
+			id: "minecraft:iron_chestplate"
+		},
+		stat: "stat.damageTaken",
+		value: 10000
+	}],
+	rewards: [{
+		uid: "a70bbfeb",
+		type: "xp",
+		xp: 250
+	},
+	{
+		uid: "27fa0bae",
+		type: "loot",
+		table: 0
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	title: "{greedycraft.quest.68a1eee3.title}",
+	x: 2.0d,
+	y: 13.5d,
+	description: "{greedycraft.quest.68a1eee3.desc}",
+	tasks: [{
+		uid: "51d4e9ee",
+		type: "item",
+		items: [{
+			item: "nyx:fallen_star"
+		}]
+	}],
+	rewards: [{
+		uid: "e45a799b",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "cb255f5c",
+		type: "xp",
+		xp: 200
+	},
+	{
+		uid: "4188e151",
+		type: "item",
+		item: "nyx:fallen_star",
+		random_bonus: 1
+	}]
+}

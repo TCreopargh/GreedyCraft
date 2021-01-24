@@ -1,0 +1,29 @@
+{
+	"dependencies": "netherendingores",
+	"populate": {
+		"end-cobalt": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "netherendingores:ore_other_1",
+					"properties": {
+						"blocks": "end_cobalt_ore"
+					}
+				},
+				"material": "minecraft:end_stone",
+				"cluster-size": 1
+			},
+			"cluster-count": 7,
+			"min-height": 10,
+			"max-height": 55,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					1
+				]
+			}
+		}
+	}
+}

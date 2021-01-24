@@ -1,0 +1,282 @@
+{
+	title: "{greedycraft.quest.d0e042f0.title}",
+	x: 6.0d,
+	y: -4.0d,
+	shape: "rsquare",
+	description: "{greedycraft.quest.d0e042f0.desc}",
+	dependencies: [
+		"b01be720"
+	],
+	tasks: [{
+		uid: "a773c1bd",
+		type: "item",
+		items: [{
+			item: "minecraft:blaze_rod"
+		}]
+	}],
+	rewards: [{
+		uid: "d24becb3",
+		type: "item",
+		item: {
+			id: "tinymobfarm:lasso",
+			tag: {
+				capturedMob: {
+					mobName: "Enderman",
+					mobHostile: 1b,
+					mobMaxHealth: 177.52914428710938d,
+					mobLootTableLocation: "minecraft:entities/enderman",
+					mobData: {
+						HurtByTimestamp: 0,
+						ForgeData: {
+							"scalinghealth:difficulty": 200s,
+							"Potion Core - Health Fix": 177.52914f,
+							thebetweenlands.has_no_equipment: 1b,
+							"Potion Core - Jump Boost Updated": 1b
+						},
+						RelativeAABB: [
+							-0.30000001192092896d,
+							0.0d,
+							-0.30000001192092896d,
+							0.30000001192092896d,
+							2.9000000953674316d,
+							0.30000001192092896d
+						],
+						Attributes: [{
+							Base: -2.0d,
+							Modifiers: [{
+								UUIDMost: 2189974539282499591L,
+								UUIDLeast: -6477178668949725305L,
+								Amount: 1.0d,
+								Operation: 0,
+								Name: "normal"
+							}],
+							Name: "tc.mobmod"
+						},
+						{
+							Base: 0.0d,
+							Name: "tc.mobmodtaint"
+						},
+						{
+							Base: 1.0d,
+							Name: "potioncore.projectileDamage"
+						},
+						{
+							Base: 1.0d,
+							Name: "potioncore.magicDamage"
+						},
+						{
+							Base: 1.0d,
+							Name: "potioncore.jumpHeight"
+						},
+						{
+							Base: 1.0d,
+							Name: "potioncore.damageResistance"
+						},
+						{
+							Base: 0.0d,
+							Name: "potioncore.magicShielding"
+						},
+						{
+							Base: 1.0d,
+							Name: "xat.entityRace"
+						},
+						{
+							Base: 40.0d,
+							Modifiers: [{
+								UUIDMost: -4557935957806527035L,
+								UUIDLeast: -4950522221421205810L,
+								Amount: 3.4382286071777344d,
+								Operation: 1,
+								Name: "ScalingHealth.HealthModifier"
+							}],
+							Name: "generic.maxHealth"
+						},
+						{
+							Base: 0.0d,
+							Name: "generic.knockbackResistance"
+						},
+						{
+							Base: 0.30000001192092896d,
+							Modifiers: [{
+								UUIDMost: -7949229004988660584L,
+								UUIDLeast: -7828611303000832459L,
+								Amount: 0.20000000298023224d,
+								Operation: 2,
+								Name: "effect.moveSpeed 0"
+							}],
+							Name: "generic.movementSpeed"
+						},
+						{
+							Base: 0.0d,
+							Name: "generic.armor"
+						},
+						{
+							Base: 0.0d,
+							Name: "generic.armorToughness"
+						},
+						{
+							Base: 1.0d,
+							Name: "forge.swimSpeed"
+						},
+						{
+							Base: 64.0d,
+							Modifiers: [{
+								UUIDMost: 8221059435545709891L,
+								UUIDLeast: -8394297424606589506L,
+								Amount: -0.05909744628544672d,
+								Operation: 1,
+								Name: "Random spawn bonus"
+							}],
+							Name: "generic.followRange"
+						},
+						{
+							Base: 7.0d,
+							Modifiers: [{
+								UUIDMost: -3218372695593237220L,
+								UUIDLeast: -8743736172551149415L,
+								Amount: 15.66901683807373d,
+								Operation: 0,
+								Name: "ScalingHealth.DamageModifier"
+							}],
+							Name: "generic.attackDamage"
+						}],
+						Invulnerable: 0b,
+						FallFlying: 0b,
+						PortalCooldown: 0,
+						AbsorptionAmount: 0.0f,
+						FallDistance: 0.0f,
+						DeathTime: 0s,
+						ForgeCaps: {
+							"dsurround:data": {
+								a: 0b,
+								f: 0b
+							},
+							"xat:race": {
+								default_height: 0.0f,
+								default_width: 0.0f,
+								race: "Human",
+								bonus_mana: 0,
+								prev_race: "Human",
+								login: 1b,
+								first_login: 0b,
+								target: 100,
+								size: 100,
+								mana: 100.0f,
+								width: 0.0f,
+								transformed: 0b,
+								fake: 0b,
+								height: 0.0f,
+								affinity: 1.0f
+							},
+							"thebetweenlands:custom_step_sound": {},
+							"kathairis:wasinkathairis": {
+								wasInKathairis: 0b
+							},
+							"thebetweenlands:puppet": {
+								ticks: 0,
+								guard: 0b,
+								recruitmentCost: 0,
+								stay: 0b
+							},
+							"twilightforest:cap_shield": {
+								permshields: 0,
+								tempshields: 0
+							},
+							"everlastingabilities:org.cyclops.everlastingabilities.api.capability.imutableabilitystore": [],
+							"bettercombatmod:ioffhandattack": 0,
+							"tinkertoolleveling:entityxp": [],
+							"thebetweenlands:entity_gems": {
+								gems: []
+							},
+							"bettercombatmod:isecondhurttimer": 0,
+							"champions:championship": {
+								tier: 0
+							},
+							"thebetweenlands:equipment": {
+								amuletSlots: 1
+							},
+							"thaumicaugmentation:portal_state": {
+								inPortal: 0b
+							}
+						},
+						HandDropChances: [
+							0.085f,
+							0.085f
+						],
+						PersistenceRequired: 0b,
+						id: "minecraft:enderman",
+						Motion: [
+							0.002078838150302115d,
+							-0.0784000015258789d,
+							0.0d
+						],
+						Leashed: 0b,
+						UUIDLeast: -8769700281786106865L,
+						Health: 177.52914f,
+						LeftHanded: 0b,
+						Air: 300s,
+						OnGround: 1b,
+						Dimension: 0,
+						UpdateBlocked: 0b,
+						HandItems: [{},
+						{}],
+						ArmorDropChances: [
+							0.085f,
+							0.085f,
+							0.085f,
+							0.085f
+						],
+						UUIDMost: 7081603684159276965L,
+						Pos: [
+							237.96199462550422d,
+							71.0d,
+							-92.91974573795696d
+						],
+						Fire: -1s,
+						ArmorItems: [{},
+						{},
+						{},
+						{}],
+						CanPickUpLoot: 0b,
+						HurtTime: 0s,
+						ActiveEffects: [{
+							Ambient: 0b,
+							CurativeItems: [{
+								id: "minecraft:milk_bucket",
+								Count: 1b,
+								Damage: 0s
+							}],
+							ShowParticles: 1b,
+							Duration: 11985,
+							Id: 1,
+							Amplifier: 0b
+						}]
+					},
+					mobHealth: 177.5d
+				}
+			}
+		}
+	},
+	{
+		uid: "a2b892be",
+		type: "item",
+		item: "minecraft:bookshelf",
+		count: 15
+	},
+	{
+		uid: "cf77ebfb",
+		type: "xp",
+		xp: 1200
+	},
+	{
+		uid: "0d6b200f",
+		type: "item",
+		item: "netherex:ghast_meat_cooked",
+		count: 16
+	},
+	{
+		uid: "bf61ff4c",
+		type: "loot",
+		table: 1
+	}]
+}

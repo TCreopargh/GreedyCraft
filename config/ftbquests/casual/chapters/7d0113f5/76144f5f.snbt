@@ -1,0 +1,36 @@
+
+{
+	title: "{greedycraft.quest.76144f5f.title}",
+	x: 2.5d,
+	y: 2.5d,
+	description: "{greedycraft.quest.76144f5f.desc}",
+	dependencies: [
+		"06dba2ad",
+		"a72c38cb"
+	],
+	tasks: [{
+		uid: "74d0db19",
+		type: "item",
+		items: [{
+			item: "thaumicwonders:meaty_orb"
+		}]
+	}],
+	rewards: [{
+		uid: "d6ceaa9a",
+		type: "item",
+		item: {
+			id: "thaumcraft:primordial_pearl"
+		},
+		count: 3
+	},
+	{
+		uid: "1926acbb",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "217df4d7",
+		type: "xp",
+		xp: 8000
+	}]
+}
