@@ -77,7 +77,11 @@ val materialStages as string[string] = {
     "remorseful": "nether",
     "magmaslime": "nether",
     "ender_biotite": "hardmode",
-    "aqualite": "nether"
+    "aqualite": "nether",
+    "adamant": "hardmode",
+    "aeonsteel": "hardmode",
+    "chromasteel": "awakened",
+    "durasteel": "nether"
 } as string[string];
 
 val toolTypeStages as string[string] = {

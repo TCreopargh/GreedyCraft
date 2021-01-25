@@ -1,5 +1,5 @@
 #Fri Jan 22 18:52:11 GMT 2021
-shaderPack=¡ì9(Ä¬ÈÏ, ¡ìeBSLÐÞ¸Ä°æ¡ì9)¡ìe ComplementaryShaders_3.11_dev4.zip
+shaderPack=ComplementaryShaders_3.11_dev4.zip
 antialiasingLevel=0
 normalMapEnabled=true
 specularMapEnabled=true

@@ -9,7 +9,7 @@
 	description: "{greedycraft.quest.a357fcd1.desc}",
 	text: [
 		"This will increase your game difficulty even further.",
-		"§c凋灵只会在主世界难度为120以上且被玩家杀死时掉落下界之星"
+		"§cWither will only drop nether star when killed at above 120 difficulty"
 	],
 	dependencies: [
 		"459b608d"

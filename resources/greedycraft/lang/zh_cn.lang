@@ -1616,8 +1616,9 @@ greedycraft.tips.143=你可以将各种稀奇古怪的石头放进固体离心�
 greedycraft.menu.modlist=模组列表
 greedycraft.menu.official_site=前往官网
 greedycraft.menu.refresh=§b刷新主菜单界面
-greedycraft.menu.sponsor=§d请作者喝杯咖啡！\\n§5点击以前往作者的爱发电
+greedycraft.menu.sponsor=§d请作者喝杯咖啡！ §5点击以前往作者的爱发电
 greedycraft.menu.github=§9GitHub§7项目地址
+greedycraft.menu.discord=§7加入我们的 §9Discord §7频道！
 greedycraft.menu.folder=§7打开§e整合包目录§7文件夹
 
 greedycraft.advancement.book.title=埃拉西亚记录手册

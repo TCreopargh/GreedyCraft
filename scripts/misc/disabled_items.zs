@@ -290,7 +290,10 @@ val disabledRecipeRegex as string[] = [
 
 val outputBlacklist as IItemStack[] = [
     <twilightforest:giant_pickaxe>,
-    <twilightforest:giant_sword>
+    <twilightforest:giant_sword>,
+    <abyssalcraft:dspplate>,
+    <abyssalcraft:dltpplate>,
+    <abyssalcraft:dirtyplate>
 ];
 
 for ingredient in disabledItems {

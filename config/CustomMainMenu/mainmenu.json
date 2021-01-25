@@ -145,17 +145,34 @@
 			"clickSound": "block.lever.click",
 			"imageWidth": 383,
 			"imageHeight": 383,
-			"texture": "greedycraft:mainmenu/sponsor.png",
+			"texture": "greedycraft:mainmenu/patreon.png",
 			"tooltip": "greedycraft.menu.sponsor",
 			"action": {
 				"type": "openLink",
-				"link": "http://donate.tcreopargh.xyz/"
+				"link": "http://patreon.tcreopargh.xyz/"
 			}
 		},
+        "discord": {
+            "text": " ",
+            "posX": -25,
+            "posY": 80,
+            "width": 20,
+            "height": 20,
+            "alignment": "top_right",
+            "clickSound": "block.lever.click",
+            "imageWidth": 383,
+            "imageHeight": 383,
+            "texture": "greedycraft:mainmenu/discord.png",
+            "tooltip": "greedycraft.menu.discord",
+            "action": {
+                "type": "openLink",
+                "link": "https://discord.gg/jpwncsDN"
+            }
+        },
 		"github": {
 			"text": " ",
 			"posX": -25,
-			"posY": 80,
+			"posY": 105,
 			"width": 20,
 			"height": 20,
 			"alignment": "top_right",
@@ -172,7 +189,7 @@
 		"open_folder": {
 			"text": " ",
 			"posX": -25,
-			"posY": 105,
+			"posY": 130,
 			"width": 20,
 			"height": 20,
 			"alignment": "top_right",
@@ -243,8 +260,8 @@
 		},
 		"packinfo": {
 			"alignment": "bottom_left",
-			"text": "¡ìe¡ï ¡ìb¡ìlGreedyCraft ¡ìe¡ï ¡ìr¡ìdby TCreopargh",
-			"hoverText": "¡ì5¡ï ¡ìc¡ìlGreedyCraft ¡ì5¡ï ¡ìr¡ìaby TCreopargh",
+			"text": "¡ìe¡ì ¡ìb¡ìlGreedyCraft ¡ìe¡ì ¡ìr¡ìdby TCreopargh",
+			"hoverText": "¡ì5¡ì ¡ìc¡ìlGreedyCraft ¡ì5¡ì ¡ìr¡ìaby TCreopargh",
 			"action": {
 				"type": "openLink",
 				"link": "https://greedycraft.tcreopargh.xyz/"

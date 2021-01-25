@@ -1,0 +1,7 @@
+#PARSE_ESCAPES
+packmodemenu.options.pack_mode=整合包模式
+packmodemenu.options.save=保存
+packmodemenu.options.cancel=取消
+packmodemenu.options.current=当前整合包模式
+packmodemenu.options.warning.restart.line1=你必须在保存后重新启动游戏
+packmodemenu.options.warning.restart.line2=才能应用更改。

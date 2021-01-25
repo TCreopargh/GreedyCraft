@@ -1,0 +1,13 @@
+block.minecraft.bed.obstructed=这个床被阻挡了
+block.minecraft.bed.no_sleep.short_message=你只能在%s睡觉
+block.minecraft.bed.no_sleep.long_message=你只能在%s和%s睡觉
+block.minecraft.bed.no_sleep.night=晚上
+block.minecraft.bed.no_sleep.time=%s至%s
+block.minecraft.bed.no_sleep.thunder=雷暴中
+block.minecraft.bed.no_sleep.rain=下雨时
+block.minecraft.bed.no_sleep.bad_weather=天气不好时
+block.minecraft.bed.spawn_set=重生点已设置
+multiplayer.spawn.button=设置重生点
+multiplayer.spawn.message=设置重生点: %s
+multiplayer.spawn.confirm=[确定]
+multiplayer.spawn.tooltip=点击以确定

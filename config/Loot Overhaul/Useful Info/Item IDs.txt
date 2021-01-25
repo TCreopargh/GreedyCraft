@@ -12416,15 +12416,6 @@ charm:rune_portal_frame - 16098
 charm:moonstone - 16099
 charm:totem_of_returning - 16100
 charm:totem_of_shielding - 16101
-enderzoo:enderzooicon - 16102
-enderzoo:witheringdust - 16103
-enderzoo:confusingdust - 16104
-enderzoo:enderfragment - 16105
-enderzoo:guardiansbow - 16106
-enderzoo:owlegg - 16107
-enderzoo:blockconfusingcharge - 16108
-enderzoo:blockendercharge - 16109
-enderzoo:blockconcussioncharge - 16110
 extrabitmanipulation:diamond_nugget - 16111
 extrabitmanipulation:bit_wrench - 16112
 extrabitmanipulation:sculpting_loop - 16113
@@ -14269,8 +14260,3 @@ jaopca:fluid_moltenmithril - 17951
 jaopca:fluid_moltenshadowium - 17952
 jaopca:fluid_moltentitanium - 17953
 jaopca:fluid_moltenuranium - 17954
-plustic:plustic.molten_osmium - 17955
-plustic:invarblock - 17956
-plustic:invarnugget - 17957
-forestry:fluid.biomass - 17958
-plustic:invaringot - 17959

@@ -1,0 +1,14 @@
+#".before" comes before the Item/Crop name
+# Example: You created a new seed called "Cake"
+# So the name will be: item.mysticalcreations.seeds.name.before Cake item.mysticalcreations.seeds.name
+# With "item.mysticalcreations.seeds.name.before" & "item.mysticalcreations.seeds.name" being replaced with the names in this config file
+item.mysticalcreations.seeds.name.before=
+item.mysticalcreations.seeds.name=种子
+item.mysticalcreations.essence.name.before=
+item.mysticalcreations.essence.name=精华
+item.mysticalcreations.chunk.name.before=
+item.mysticalcreations.chunk.name=灵魂碎片
+tile.mysticalcreations.crop.name.before=
+tile.mysticalcreations.crop.name=作物
+
+jei.crux_crop=需要核心的作物

@@ -752,19 +752,3 @@ charm:magnetic
    - Max Level: 1
 
 
-enderzoo:witherarrow
-   - Id: 93
-   - Rarity: UNCOMMON
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 1
-
-
-enderzoo:witherweapon
-   - Id: 94
-   - Rarity: UNCOMMON
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 1
-
-

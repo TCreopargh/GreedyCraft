@@ -1,8 +1,8 @@
 {
-  "name": "§6赞助者之箱",
+  "name": "§6Sponsor's Chest",
   "tooltip": [
-    "§b感谢您对游戏的支持！",
-    "§7拿在手上时右键打开"
+    "§bThank you for supporting this modpack!",
+    "§7Right click to open"
   ],
   "type": "additions:simple"
 }

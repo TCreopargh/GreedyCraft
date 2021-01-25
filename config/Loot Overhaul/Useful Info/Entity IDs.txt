@@ -266,8 +266,6 @@ charm:charged_emerald - 263
 charm:endermite_powder - 264
 darkutils:fake_tnt - 265
 draconicadditions:plug - 266
-enderzoo:entityowlegg - 267
-enderzoo:entityprimedcharge - 268
 extrabitmanipulation:entity_bit - 269
 extrautils2:boomerang - 270
 extrautils2:chunkdata - 271
@@ -689,15 +687,6 @@ treasure2:pirate_mimic - 686
 treasure2:bound_soul - 687
 waddles:adelie_penguin - 688
 snowrealmagic:snow - 689
-enderzoo:enderminy - 690
-enderzoo:concussioncreeper - 691
-enderzoo:fallenknight - 692
-enderzoo:fallenmount - 693
-enderzoo:witherwitch - 694
-enderzoo:withercat - 695
-enderzoo:direwolf - 696
-enderzoo:direslime - 697
-enderzoo:owl - 698
 pvj:pvj_snail - 699
 pvj:pvj_fly - 700
 pvj:pvj_firefly - 701

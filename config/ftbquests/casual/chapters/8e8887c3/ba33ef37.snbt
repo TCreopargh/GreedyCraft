@@ -11,7 +11,7 @@
 	tasks: [{
 		uid: "639df03e",
 		type: "checkmark",
-		title: "点击领取!"
+		title: "Click to claim!"
 	}],
 	rewards: [{
 		uid: "89119289",

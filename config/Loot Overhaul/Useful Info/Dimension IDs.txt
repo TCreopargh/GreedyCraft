@@ -36,42 +36,6 @@ the_end
 	- Terrain Scale: 1.0
 
 
-Tofu World
-	- Id: 56
-	- Height: 256
-	- Has Sky? true
-	- Cloud Height: 128.0
-	- Can Respawn Here? true
-	- Terrain Scale: 1.0
-
-
-emptiness
-	- Id: 14676
-	- Height: 256
-	- Has Sky? false
-	- Cloud Height: 128.0
-	- Can Respawn Here? false
-	- Terrain Scale: 16.0
-
-
-lostcities
-	- Id: 111
-	- Height: 256
-	- Has Sky? true
-	- Cloud Height: 128.0
-	- Can Respawn Here? true
-	- Terrain Scale: 1.0
-
-
-CompactMachines
-	- Id: 144
-	- Height: 256
-	- Has Sky? true
-	- Cloud Height: -5.0
-	- Can Respawn Here? true
-	- Terrain Scale: 1.0
-
-
 The Abyssal Wasteland
 	- Id: 50
 	- Height: 256
@@ -108,11 +72,56 @@ The Dark Realm
 	- Terrain Scale: 1.0
 
 
+Tofu World
+	- Id: 56
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 128.0
+	- Can Respawn Here? true
+	- Terrain Scale: 1.0
+
+
+CompactMachines
+	- Id: 144
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: -5.0
+	- Can Respawn Here? true
+	- Terrain Scale: 1.0
+
+
+lostcities
+	- Id: 111
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 128.0
+	- Can Respawn Here? true
+	- Terrain Scale: 1.0
+
+
+emptiness
+	- Id: 14676
+	- Height: 256
+	- Has Sky? false
+	- Cloud Height: 128.0
+	- Can Respawn Here? false
+	- Terrain Scale: 16.0
+
+
 candymod
 	- Id: 23
 	- Height: 256
 	- Has Sky? true
 	- Cloud Height: 128.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+AetherI
+	- Id: 4
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: -5.0
 	- Can Respawn Here? false
 	- Terrain Scale: 1.0
 
@@ -131,15 +140,6 @@ ExtraUtils2_Quarry_Dim
 	- Height: 128
 	- Has Sky? true
 	- Cloud Height: 128.0
-	- Can Respawn Here? false
-	- Terrain Scale: 1.0
-
-
-AetherI
-	- Id: 4
-	- Height: 256
-	- Has Sky? true
-	- Cloud Height: -5.0
 	- Can Respawn Here? false
 	- Terrain Scale: 1.0
 

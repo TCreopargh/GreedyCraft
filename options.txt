@@ -15,7 +15,7 @@ difficulty:3
 fancyGraphics:true
 ao:1
 renderClouds:false
-resourcePacks:["Default+Improved+PBR+1.12.zip","Default+Improved+PBR+1.12+-+Biomes+O\u0027+Plenty.zip","Default+Improved+PBR+1.12+-+Quark.zip","Dark+Mode.zip","Dark+Modern+GUIs+-+1.0.2.zip","Default+Improved+PBR+1.12+Base+Metals_thermalfoundation.zip","Default+Improved+1.12+-+Storage+Drawers+Addon.zip","Default+Improved+1.12+-+Storage+Drawers+Extras+Addon.zip","Journeymap+Mob+Icons.zip","1616lb.zip","Draconic_Evolution_16x.zip","AudioCraftV1.6.zip","Tinker\u0027s+Tables.zip","Minecraft-Mod-Language-Package.zip","chocolate_quest_lang.zip","MuteGhasts.zip","VanillaTweaks_r994246.zip","GreedyPack.zip","greedy_Localization_pack.zip","greedy_music_tweaks.zip","hardcoreitemstages_tweaks.zip","greedy_Localization_pack.zip","GreedyColors.zip","shiny_player_model.zip"]
+resourcePacks:["Default Improved 1.12 - Storage Drawers Addon.zip","Default Improved 1.12 - Storage Drawers Extras Addon.zip","Default Improved PBR 1.12 - Biomes+O\u0027 Plenty.zip","Default Improved PBR 1.12 - Quark.zip","Default Improved PBR 1.12.zip","Dark Mode.zip","Dark Modern GUIs - 1.0.2.zip","1616lb.zip","AudioCraftV1.6.zip","de16x - 1.11.2-1.4.zip","Tinker\u0027s Tables.zip","VanillaTweaks_r994246.zip","GreedyColors.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
@@ -94,9 +94,9 @@ key_key.configurator_mode.desc:0
 key_key.configurator_filter.desc:0
 key_key.configurator_path.desc:0
 key_keybind.baublesinventory:18:ALT
+key_quark.keybind.toggleAutojump:0
 key_quark.keybind.dropoff:0
 key_quark.keybind.changeHotbar:184
-key_quark.keybind.toggleAutojump:0
 key_quark.emote.no:0
 key_quark.emote.yes:0
 key_quark.emote.wave:0
@@ -303,7 +303,6 @@ key_jecalculation.key.gui_math:47:ALT
 key_key.taiga.alt_action:16:ALT
 key_Mo' Bends Menu:74
 key_Refresh Animations:0
-key_Quick Commands:83
 key_key.plustic_release_entity.desc:0
 key_key.plustic_toggle_gui.desc:52:ALT
 key_key.plustic_set_portal.desc:210
@@ -311,9 +310,6 @@ key_key.plustic_brown_magic.desc:199
 key_key.plustic_toggle_tool.desc:0
 key_key.plustic_fruit_salad.desc:12:ALT
 key_key.plustic_mots.desc:13:ALT
-key_pi.key.open_pi:23
-key_pi.key.et_gui:23
-key_pi.key.et_world:23:CONTROL
 key_key.arms.desc:0
 key_key.mod.desc:65
 key_key.head.desc:0
@@ -348,7 +344,7 @@ key_gui.xaero_open_settings:0
 key_gui.xaero_map_zoom_in:13
 key_gui.xaero_map_zoom_out:12
 key_gui.xaero_quick_confirm:54
-key_Open Skill GUI:21
+key_Open Skill GUI:37
 key_oeshapeselector.key:41:ALT
 key_enderio.keybind.inventory:0
 key_enderio.keybind.dsu:0

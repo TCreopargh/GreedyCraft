@@ -1548,41 +1548,6 @@ charm:ender_sight
        charm:ender_sight - 200 - 0 - false - true
 
 
-enderzoo:withering
-   - Effects: 
-       minecraft:wither - 900 - 0 - false - true
-
-
-enderzoo:witheringlong
-   - Effects: 
-       minecraft:wither - 2400 - 0 - false - true
-
-
-enderzoo:confusion
-   - Effects: 
-       minecraft:nausea - 900 - 0 - false - true
-
-
-enderzoo:confusionlong
-   - Effects: 
-       minecraft:nausea - 2400 - 0 - false - true
-
-
-enderzoo:floating
-   - Effects: 
-       enderzoo:enderzoo.floatingpotion - 70 - 0 - false - true
-
-
-enderzoo:floatingtwo
-   - Effects: 
-       enderzoo:enderzoo.floatingpotion - 120 - 0 - false - true
-
-
-enderzoo:floatinglong
-   - Effects: 
-       enderzoo:enderzoo.floatingpotion - 12 - 1 - false - true
-
-
 extrautils2:xu2.doom
    - Effects: 
        extrautils2:effect.xu2.doom - 1200 - 0 - false - true

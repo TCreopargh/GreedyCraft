@@ -25,7 +25,7 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
     <ore:ingotFusionMatrix> : [<tconevo:material>],
     <ore:ingotCoalescenceMatrix> : [<tconevo:material>],
     <ore:blockCoalescenceMatrix> : [<ore:blockFusionMatrix>],
-    <ore:logWood> : [<treasure2:wither_log>],
+    <ore:logWood> : [<treasure2:wither_log>, <sakura:ume_log>],
     <ore:plankWood> : [<treasure2:wither_planks>],
     <ore:blockBasalt> : [<pvj:basalt>],
     <ore:blockBasalt> : [<netherex:basalt>],

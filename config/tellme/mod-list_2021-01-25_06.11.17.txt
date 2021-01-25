@@ -1,0 +1,550 @@
++-----------------------------------+--------------------------------------------------------+
+| ModID                             | Mod name                                               |
++-----------------------------------+--------------------------------------------------------+
+| ColorUtility                      | ColorUtility                                           |
+| FML                               | Forge Mod Loader                                       |
+| abyssalcraft                      | AbyssalCraft                                           |
+| acintegration                     | AbyssalCraft Integration                               |
+| actuallyadditions                 | Actually Additions                                     |
+| actuallybaubles                   | Actually Baubles                                       |
+| additionalstructures              | Rex's Additional Structures                            |
+| additions                         | Additions                                              |
+| adlods                            | Large Ore Deposits                                     |
+| advanced-fishing                  | Advanced Fishing                                       |
+| ae2fc                             | AE2 Fluid Crafting                                     |
+| ae2stuff                          | AE2 Stuff                                              |
+| ae2wtlib                          | AE2 Wireless Terminals (AE2WTLib)                      |
+| aeble                             | AEble                                                  |
+| aether_legacy                     | The Aether                                             |
+| aether_legacy_addon               | Aether Continuation                                    |
+| aiimprovements                    | AI Improvements                                        |
+| akashictome                       | Akashic Tome                                           |
+| ambience                          | Ambience Mod - Extras                                  |
+| ambientsounds                     | AmbientSounds                                          |
+| animus                            | Animus                                                 |
+| anvilpatch                        | Anvil Patch - Lawful                                   |
+| applecore                         | AppleCore                                              |
+| appleskin                         | AppleSkin                                              |
+| appliedenergistics2               | Applied Energistics 2                                  |
+| aquaacrobatics                    | Aqua Acrobatics                                        |
+| armorcurve                        | Armor Curve                                            |
+| armoreablemobs                    | ArmoreableMobs                                         |
+| armoryexpansion                   | Armory Expansion                                       |
+| armoryexpansion-conarm            | Armory Expansion - Construct's Armory                  |
+| armoryexpansion-custommaterials   | Armory Expansion - Custom Materials                    |
+| armoryexpansion-iceandfire        | Armory Expansion - Ice and Fire                        |
+| armoryexpansion-matteroverdrive   | Armory Expansion - MatterOverdrive                     |
+| aroma1997core                     | Aroma1997Core                                          |
+| aromabackup                       | AromaBackup                                            |
+| aromabackuprecovery               | AromaBackuprecovery                                    |
+| astralsorcery                     | Astral Sorcery                                         |
+| athenaeum                         | Athenaeum                                              |
+| attributefix                      | Attribute Fix                                          |
+| attributes                        | Attributes                                             |
+| autoplant                         | AutoPlant                                              |
+| autoreglib                        | AutoRegLib                                             |
+| avaritia                          | Avaritia                                               |
+| avaritiaio                        | Avaritia IO                                            |
+| avaritiatweaks                    | Avaritia Tweaks                                        |
+| bacodifficulty                    | bacodifficulty                                         |
+| badwithernocookiereloaded         | Bad Wither No Cookie! Reloaded                         |
+| base                              | B.A.S.E                                                |
+| battletowers                      | Battle Towers                                          |
+| baubles                           | Baubles                                                |
+| bdlib                             | BD Lib                                                 |
+| betteradvancements                | Better Advancements                                    |
+| betterburning                     | Better Burning                                         |
+| bettercaves                       | YUNG's Better Caves                                    |
+| bettercombatmod                   | Better Combat Rebirth                                  |
+| betterfoliage                     | Better Foliage                                         |
+| betterhurttimer                   | Better Hurt Timer                                      |
+| bettermineshafts                  | YUNG's Better Mineshafts                               |
+| bettermobgriefinggamerule         | Better mobGriefing GameRule                            |
+| betternether                      | Better Nether                                          |
+| betterplacement                   | Better Placement                                       |
+| bettersigns                       | Better Signs                                           |
+| betterslimes                      | Better Slimes Mod                                      |
+| bibliocraft                       | BiblioCraft                                            |
+| biggerchathistory                 | BiggerChatHistory                                      |
+| biggerpacketsplz                  | Bigger Packets, please !                               |
+| bigreactors                       | Extreme Reactors                                       |
+| binniecore                        | Binnie Core                                            |
+| binniedesign                      | Binnie's Design                                        |
+| biomesoplenty                     | Biomes O' Plenty                                       |
+| birdsfoods                        | Bird's Foods                                           |
+| bloodarsenal                      | Blood Arsenal                                          |
+| bloodmagic                        | Blood Magic: Alchemical Wizardry                       |
+| bmtr                              | Bring me the rings!                                    |
+| bnbgamingcore                     | BnBGamingCore                                          |
+| bnbgaminglib                      | BNBGamingLib                                           |
+| bonsaitrees                       | Bonsai Trees                                           |
+| bookshelf                         | Bookshelf                                              |
+| botania                           | Botania                                                |
+| botania_tweaks                    | Botania Tweaks                                         |
+| botania_tweaks_core               | Botania Tweaks Core                                    |
+| botanianeedsit                    | Botania Needs These Things!                            |
+| botanicbonsai                     | Botanic Bonsai                                         |
+| botany                            | Binnie's Botany                                        |
+| bouncy_creepers                   | bouncy_creepers                                        |
+| bountiful                         | Bountiful                                              |
+| bountifulbaubles                  | Bountiful Baubles                                      |
+| brandonscore                      | Brandon's Core                                         |
+| brewcraft                         | Pam's BrewCraft                                        |
+| buildinggadgets                   | Building Gadgets                                       |
+| calmdownzombieguy                 | Calm Down Zombie Guy                                   |
+| candymod                          | Candy World                                            |
+| ceramics                          | Ceramics                                               |
+| cfm                               | MrCrayfish's Furniture Mod                             |
+| chameleon                         | Chameleon                                              |
+| champions                         | Champions                                              |
+| chancecubes                       | Chance Cubes                                           |
+| charm                             | Charm                                                  |
+| chatflow                          | ChatFlow                                               |
+| chesttransporter                  | Chest Transporter                                      |
+| chisel                            | Chisel                                                 |
+| chiseledadditions                 | ChiseledAdditions                                      |
+| chiselsandbits                    | Chisels & Bits                                         |
+| chunkgenlimit                     | Chunk Generation Limiter                               |
+| chunkpregenerator                 | Chunk Pregenerator                                     |
+| classicbar                        | Classic Bar                                            |
+| clearwater                        | Clear Water                                            |
+| clienttweaks                      | Client Tweaks                                          |
+| codechickenlib                    | CodeChicken Lib                                        |
+| cofhcore                          | CoFH Core                                              |
+| cofhworld                         | CoFH World                                             |
+| colouredtooltips                  | Coloured Tooltips                                      |
+| colytra                           | Colytra                                                |
+| comforts                          | Comforts                                               |
+| compactdrawers                    | Compact Drawers                                        |
+| compactmachines3                  | Compact Machines 3                                     |
+| compatskills                      | CompatSkills                                           |
+| compot                            | Combined Potions                                       |
+| conarm                            | Construct's Armory                                     |
+| concheckrmd                       | Modpack Config Checker                                 |
+| configmod                         | Extended Mod Config                                    |
+| contenttweaker                    | ContentTweaker                                         |
+| controlling                       | Controlling                                            |
+| cookiecore                        | CookieCore                                             |
+| cookingforblockheads              | Cooking for Blockheads                                 |
+| coroutil                          | CoroUtil Library                                       |
+| corpsecomplex                     | Corpse Complex                                         |
+| cqrepoured                        | Chocolate Quest Repoured Mod                           |
+| craftingtweaks                    | Crafting Tweaks                                        |
+| crafttweaker                      | CraftTweaker2                                          |
+| crafttweakerjei                   | CraftTweaker JEI Support                               |
+| crafttweakerutils                 | CraftTweaker Utils                                     |
+| creativecore                      | CreativeCore                                           |
+| creativecoredummy                 | CreativeCoreDummy                                      |
+| csb_ench_table                    | Lapis Stays in the Enchanting Table                    |
+| ctgui                             | CT-GUI                                                 |
+| ctintegration                     | CraftTweaker Integration                               |
+| ctm                               | CTM                                                    |
+| cucumber                          | Cucumber Library                                       |
+| custombackgrounds                 | Custom Backgrounds                                     |
+| customloadingscreen               | Custom Loading Screen                                  |
+| custommainmenu                    | Custom Main Menu                                       |
+| customskinloader                  | CustomSkinLoader                                       |
+| customstartinggear                | Custom Starting Gear                                   |
+| cyclicmagic                       | Cyclic                                                 |
+| cyclopscore                       | Cyclops Core                                           |
+| danknull                          | /dank/null                                             |
+| darkutils                         | Dark Utilities                                         |
+| deathcounter                      | DeathCounter                                           |
+| defaultworldgenerator-port        | Default World Generator                                |
+| defiledlands                      | Defiled Lands                                          |
+| demagnetize                       | Demagnetize                                            |
+| deuf                              | Duplicate Entity UUID Fix (DEUF)                       |
+| diethopper                        | Diet Hopper                                            |
+| dimstages                         | Dimension Stages                                       |
+| dldungeonsjbg                     | Doomlike Dungeons                                      |
+| draconicadditions                 | Draconic Additions                                     |
+| draconicevolution                 | Draconic Evolution                                     |
+| dropt                             | Dropt                                                  |
+| dshuds                            | ¡ì3Dynamic Surroundings: HUDs                           |
+| dsurround                         | ¡ì3Dynamic Surroundings                                 |
+| dungeons2                         | Dungeons2!                                             |
+| dupefixproject                    | DupeFix Project                                        |
+| dynamistics                       | Dynamistics                                            |
+| dyndyn                            | Dynamic Dynamos                                        |
+| dynview                           | Dynamic View Mod                                       |
+| eiorteis                          | EIORecipesTEInductionSmelter                           |
+| enchcontrol                       | Enchantments Control                                   |
+| enchdesc                          | Enchantment Descriptions                               |
+| endercore                         | EnderCore                                              |
+| enderio                           | Ender IO                                               |
+| enderiobase                       | Ender IO Base                                          |
+| enderioconduits                   | Ender IO Conduits                                      |
+| enderioconduitsappliedenergistics | Ender IO Applied Energistics Conduits                  |
+| enderioconduitsopencomputers      | Ender IO Open Computers Conduits                       |
+| enderioconduitsrefinedstorage     | Ender IO Refined Storage Conduits                      |
+| enderioendergy                    | Ender IO endergy                                       |
+| enderiointegrationforestry        | Ender IO Integration with Forestry                     |
+| enderiointegrationtic             | Ender IO Integration with Tinkers' Construct           |
+| enderiointegrationticlate         | Ender IO Integration with Tinkers' Construct           |
+| enderioinvpanel                   | Ender IO Inventory Panel                               |
+| enderiomachines                   | Ender IO Machines                                      |
+| enderiopowertools                 | Ender IO Powertools                                    |
+| enderiozoo                        | Ender IO Zoo                                           |
+| enderstorage                      | EnderStorage                                           |
+| endertweaker                      | EnderTweaker                                           |
+| enderzoo                          | Ender Zoo                                              |
+| entity_culling                    | Entity Culling                                         |
+| entitypurger                      | Entity Purger                                          |
+| environmentalcreepers             | Environmental Creepers                                 |
+| equivalentintegrations            | Equivalent Integrations                                |
+| eternalsingularity                | Eternal Singularity                                    |
+| expequiv                          | Expanded Equivalence                                   |
+| extendedrenderer                  | Extended Renderer                                      |
+| extrabees                         | Binnie's Extra Bees                                    |
+| extrabitmanipulation              | Extra Bit Manipulation                                 |
+| extrabotany                       | ExtraBotany                                            |
+| extracells                        | Extra Cells 2                                          |
+| extratrees                        | Binnie's Extra Trees                                   |
+| extrautils2                       | Extra Utilities 2                                      |
+| farmingforblockheads              | Farming for Blockheads                                 |
+| fastbench                         | FastWorkbench                                          |
+| fastflyblockbreaking              | FastFlyBlockBreaking                                   |
+| fastfurnace                       | FastFurnace                                            |
+| fastleafdecay                     | Fast Leaf Decay                                        |
+| fencejumper                       | Fence Jumper                                           |
+| findme                            | FindMe                                                 |
+| fluiddrawers                      | Fluid Drawers                                          |
+| fluidict                          | Fluid Dictionary                                       |
+| fluxnetworks                      | Flux Networks                                          |
+| foamfix                           | FoamFix                                                |
+| foamfixcore                       | FoamFixCore                                            |
+| foodexpansion                     | Food Expansion                                         |
+| forestry                          | Forestry                                               |
+| forge                             | Minecraft Forge                                        |
+| forgeendertech                    | Forge Endertech                                        |
+| forgelin                          | Shadowfacts' Forgelin                                  |
+| fpsreducer                        | FPS Reducer                                            |
+| ftbguides                         | FTB Guides                                             |
+| ftblib                            | FTB Library                                            |
+| ftbquests                         | FTB Quests                                             |
+| ftbutilities                      | FTB Utilities                                          |
+| fw                                | Fullscreen Windowed                                    |
+| gamestages                        | Game Stages                                            |
+| gasconduits                       | GasConduits                                            |
+| gendustry                         | GenDustry                                              |
+| gendustryjei                      | Gendustry JEI Addon                                    |
+| genetics                          | Binnie's Genetics                                      |
+| getalltheseeds                    | Pam's Get all the Seeds!                               |
+| globalgamerules                   | Global GameRules                                       |
+| globalxp                          | Global XP                                              |
+| gottschcore                       | GottschCore                                            |
+| guideapi                          | Guide-API                                              |
+| gunpowderlib                      | GunpowderLib                                           |
+| hammercore                        | Hammer Core                                            |
+| hardcoreitemstages                | Hardcore Item Stages                                   |
+| harvestcraft                      | Pam's HarvestCraft                                     |
+| headcrumbs                        | Headcrumbs                                             |
+| hiddenarmor                       | Hidden Armor Mod                                       |
+| homingexporbs                     | HomingExpOrbs                                          |
+| hooked                            | Hooked                                                 |
+| hungertweaker                     | HungerTweaker                                          |
+| ias                               | In-Game Account Switcher                               |
+| iblis_headshots                   | Iblis Headshots                                        |
+| ichunutil                         | iChunUtil                                              |
+| igisereneseasons                  | InGame Info XML Addon - Serene Seasons                 |
+| igi|bloodmagicintegration         | InGameInfoXML Blood Magic Integration                  |
+| igi|thaumcraft                    | InGameInfoXML Thaumcraft Integration                   |
+| incontrol                         | InControl                                              |
+| ingameinfoxml                     | InGame Info XML                                        |
+| inventoryhud                      | Inventory HUD+                                         |
+| inventorypets                     | Inventory Pets                                         |
+| inventorytweaks                   | Inventory Tweaks                                       |
+| invmove                           | InvMove                                                |
+| ironbackpacks                     | Iron Backpacks                                         |
+| ironchest                         | Iron Chest                                             |
+| itemfilters                       | Item Filters                                           |
+| itemphysic                        | ItemPhysic                                             |
+| itemstages                        | Item Stages                                            |
+| itlt                              | It's the little things                                 |
+| ivtoolkit                         | IvToolkit                                              |
+| jaopca                            | JAOPCA                                                 |
+| jaopcaadditions                   | Just A Ore Processing Compatibility Attempt: Additions |
+| jaopcaagriculture                 | JAOPCAAgriculture                                      |
+| jaopcasingularities               | JAOPCASingularities                                    |
+| jebc                              | Just Enough BrewCraft                                  |
+| jecalculation                     | Just Enough Calculation                                |
+| jee                               | Just Enough Energistics                                |
+| jehc                              | Just Enough HarvestCraft                               |
+| jei                               | Just Enough Items                                      |
+| jeibees                           | JEI Bees                                               |
+| jeid                              | JustEnoughIDs                                          |
+| jeiintegration                    | JEI Integration                                        |
+| jeivillagers                      | Jeivillagers                                           |
+| jepb                              | Just Enough Pattern Banners                            |
+| jeresources                       | Just Enough Resources                                  |
+| jeroreintegration                 | JER Ore Integration                                    |
+| jetif                             | Just Enough Throwing In Fluids                         |
+| justenoughreactors                | Just Enough Reactors                                   |
+| justsleep                         | Just Sleep                                             |
+| kleeslabs                         | KleeSlabs                                              |
+| lavawaderbauble                   | Lava Waders Bauble                                     |
+| letsencryptcraft                  | Let's Encrypt Craft                                    |
+| libnine                           | libnine                                                |
+| librarianlib                      | LibrarianLib                                           |
+| librarianliblate                  | LibrarianLib Stage 2                                   |
+| libraryex                         | LibraryEx                                              |
+| limitedenchanting                 | Limited Enchanting                                     |
+| llibrary                          | LLibrary                                               |
+| loadingscreens                    | Loading Screens                                        |
+| logisticsbridge                   | Logistics Bridge                                       |
+| logisticspipes                    | Logistics Pipes                                        |
+| lootbags                          | Loot Bags                                              |
+| lootcapacitortooltips             | Loot Capacitor Tooltips                                |
+| lootoverhaul                      | Loot Overhaul                                          |
+| loottweaker                       | LootTweaker                                            |
+| lostcities                        | The Lost Cities                                        |
+| lunatriuscore                     | LunatriusCore                                          |
+| mage                              | MAGE                                                   |
+| magicbees                         | MagicBees                                              |
+| magicfeather                      | Magic Feather                                          |
+| mainmenuscale                     | Main Menu Scale                                        |
+| mantle                            | Mantle                                                 |
+| materialchanger                   | Material Changer                                       |
+| mca                               | Minecraft Comes Alive                                  |
+| mcjtylib_ng                       | McJtyLib                                               |
+| mcp                               | Minecraft Coder Pack                                   |
+| mekanism                          | Mekanism                                               |
+| mekanismgenerators                | Mekanism: Generators                                   |
+| mekores                           | MekanismOres                                           |
+| memorycleaner                     | Memory Cleaner                                         |
+| menumobs                          | Menu Mobs                                              |
+| mikesmodslib                      | Mike's Mods Lib                                        |
+| minecraft                         | Minecraft                                              |
+| minemenu                          | MineMenu                                               |
+| mm_lib                            | Mysterious Mountain Lib                                |
+| mobdismemberment                  | MobDismemberment                                       |
+| mobends                           | Mo' Bends                                              |
+| mobstages                         | Mob Stages                                             |
+| modnametooltip                    | Mod Name Tooltip                                       |
+| modtweaker                        | Mod Tweaker                                            |
+| modularmachinery                  | Modular Machinery                                      |
+| morebees                          | More Bees                                              |
+| moreloottables                    | More Loot Tables                                       |
+| moretweaker                       | MoreTweaker                                            |
+| morpheus                          | Morpheus                                               |
+| morphtool                         | Morph-o-Tool                                           |
+| mousetweaks                       | Mouse Tweaks                                           |
+| mowziesmobs                       | Mowzie's Mobs                                          |
+| mpbasic                           | ModPack Basic Tools                                    |
+| mpr                               | Mob Properties Randomness                              |
+| mputils                           | ModPack Utilities                                      |
+| mtlib                             | MTLib                                                  |
+| multithreadednoise                | Multithreaded Noise                                    |
+| mysticalagradditions              | Mystical Agradditions                                  |
+| mysticalagriculture               | Mystical Agriculture                                   |
+| mysticalcreations                 | Mystical Creations                                     |
+| nanfix                            | NaN Entity Health Fix                                  |
+| natura                            | Natura                                                 |
+| naturescompass                    | Nature's Compass                                       |
+| net.blacklab.lib                  | EBLib                                                  |
+| netherendingores                  | Netherending Ores                                      |
+| netherex                          | NetherEx                                               |
+| netherportalfix                   | NetherPortalFix                                        |
+| nmsot                             | No Mob Spawning on Trees                               |
+| norecipebook                      | No Recipe Book                                         |
+| nyx                               | Nyx                                                    |
+| oeintegration                     | OreExcavation Integration                              |
+| oeshapeselector                   | oeshapeselector                                        |
+| oldjava                           | Old Java Warning                                       |
+| omlib                             | OMLib                                                  |
+| ompd                              | Open Modular Passive Defense                           |
+| openblocks                        | OpenBlocks                                             |
+| openmods                          | OpenModsLib                                            |
+| openmodscore                      | OpenModsLib Core                                       |
+| openmodularturrets                | Open Modular Turrets                                   |
+| orechidendium                     | OrechidEndium                                          |
+| oredictinit                       | OreDictInit                                            |
+| oreexcavation                     | OreExcavation                                          |
+| orelib                            | ¡ì3OreLib Support Library                               |
+| orestages                         | Ore Stages                                             |
+| p455w0rdslib                      | p455w0rd's Library                                     |
+| packagedauto                      | PackagedAuto                                           |
+| packagedavaritia                  | PackagedAvaritia                                       |
+| packmode                          | PackMode                                               |
+| packmodemenu                      | PackModeMenu                                           |
+| pamscookables                     | Pam's Cookables                                        |
+| particleculling                   | Particle Culling                                       |
+| passableleaves                    | PassableLeaves                                         |
+| passableleavescore                | PassableLeavesCore                                     |
+| patchouli                         | Patchouli                                              |
+| pdp                               | Proportional Destruction Particles                     |
+| performant                        | performant Mod                                         |
+| phosphor-lighting                 | Phosphor Lighting Engine                               |
+| placebo                           | Placebo                                                |
+| planefix                          | PlaneFix                                               |
+| plummet                           | Plummet                                                |
+| plustic                           | PlusTiC                                                |
+| potioncore                        | Potion Core                                            |
+| potiondescriptions                | Potion Descriptions                                    |
+| pouchofunknown                    | Pouch Of Unknown                                       |
+| prefab                            | Prefab                                                 |
+| prettybeaches                     | Pretty Beaches                                         |
+| progressivebosses                 | Progressive Bosses                                     |
+| projecte                          | ProjectE                                               |
+| projectex                         | Project EX                                             |
+| projectintelligence               | Project Intelligence                                   |
+| pvj                               | Project: Vibrant Journeys                              |
+| pyramidplunder                    | Pyramid Plunder                                        |
+| quark                             | Quark                                                  |
+| randompatches                     | RandomPatches                                          |
+| randomthings                      | Random Things                                          |
+| randomtweaks                      | RandomTweaks                                           |
+| reborncore                        | Reborn Core                                            |
+| reccomplex                        | Recurrent Complex                                      |
+| recipehandler                     | NoMoreRecipeConflict                                   |
+| recipestages                      | RecipeStages                                           |
+| redstonearsenal                   | Redstone Arsenal                                       |
+| redstoneflux                      | Redstone Flux                                          |
+| redstonepaste                     | Redstone Paste                                         |
+| redstonerepository                | Redstone Repository                                    |
+| reskillable                       | Reskillable                                            |
+| resourceloader                    | Resource Loader                                        |
+| rf-capability-adapter             | Capability Adapter                                     |
+| rfa                               | Recipes For All                                        |
+| rfp2                              | Real First Person 2                                    |
+| rftools                           | RFTools                                                |
+| rftoolscontrol                    | RFTools Control                                        |
+| rftoolspower                      | RFToolsPower                                           |
+| roguelike                         | Roguelike Dungeons                                     |
+| rotm                              | Rebirth of the Mobs                                    |
+| roughmobsrevamped                 | Rough Mobs Revamped                                    |
+| ruins                             | Ruins Mod                                              |
+| rustic                            | Rustic                                                 |
+| rusticbopwoods                    | Rustic BOP Woods                                       |
+| rusticthaumaturgy                 | Rustic Thaumaturgy                                     |
+| sakura                            | Sakura                                                 |
+| salwayseat                        | Always Eat Mod                                         |
+| sampler                           | Sampling Performance Profiler                          |
+| sasit                             | Stuff A Sock In It                                     |
+| savemystronghold                  | Save My Stronghold!                                    |
+| scalingguis                       | ScalingGUIs                                            |
+| scalinghealth                     | Scaling Health                                         |
+| scalingwealth                     | Scaling Wealth                                         |
+| scavenge                          | Scavenge                                               |
+| screenshotclipboard               | Screenshot to Clipboard                                |
+| sereneseasons                     | Serene Seasons                                         |
+| serenetweaks                      | Serene Tweaks                                          |
+| shouldersurfing                   | Shoulder Surfing                                       |
+| shutupmodelloader                 | Shut Up, Model Loader                                  |
+| silentlib                         | Silent Lib                                             |
+| simplesmelteryaccelerator         | Simple Smeltery Accelerator                            |
+| smoothfont                        | Smooth Font                                            |
+| smoothfontcore                    | Smooth Font Core                                       |
+| snad                              | Snad                                                   |
+| snowrealmagic                     | Snow! Real Magic!                                      |
+| solarflux                         | Solar Flux Reborn                                      |
+| solcarrot                         | Spice of Life: Carrot Edition                          |
+| soundphysics                      | Sound Physics                                          |
+| soundsystemreloader               | Sound System Reloader                                  |
+| spatialservermod                  | Spatial Server Mod                                     |
+| spawnercontrol                    | SpawnerControl                                         |
+| spiceoflife                       | The Spice of Life                                      |
+| splan                             | Server Properties for LAN                              |
+| stackie                           | Stackie                                                |
+| stacksize                         | Stacksize Mod                                          |
+| stellarfluidconduits              | Stellar Fluid Conduits                                 |
+| stg                               | SwingThroughGrass                                      |
+| storagedrawers                    | Storage Drawers                                        |
+| storagedrawersextra               | Storage Drawers Extras                                 |
+| stygian                           | Stygian End                                            |
+| surge                             | Surge                                                  |
+| taiga                             | Tinkers Alloying Addon                                 |
+| tc6aspects4jei                    | TC6 Aspects for JEI                                    |
+| tcinventoryscan                   | Thaumcrafft Inventory Scanning                         |
+| tcomplement                       | Tinkers' Complement                                    |
+| tconevo                           | Tinkers' Evolution                                     |
+| tconmodmod                        | Tinkers' Modifier Modifier                             |
+| tconstruct                        | Tinkers' Construct                                     |
+| tellme                            | Tell Me                                                |
+| tesla                             | TESLA                                                  |
+| teslacorelib                      | Tesla Core Lib                                         |
+| teslacorelib_registries           | Tesla Core Lib Registries                              |
+| testdummy                         | MmmMmmMmmMmm                                           |
+| thaumadditions                    | Thaumic Additions: Reconstructed                       |
+| thaumcraft                        | Thaumcraft                                             |
+| thaumicaugmentation               | Thaumic Augmentation                                   |
+| thaumicenergistics                | Thaumic Energistics                                    |
+| thaumicequivalence                | Thaumic Equivalence                                    |
+| thaumicjei                        | ThaumicJEI                                             |
+| thaumicspeedup                    | Thaumic Speedup                                        |
+| thaumictinkerer                   | Thaumic Tinkerer                                       |
+| thaumicwonders                    | Thaumic Wonders                                        |
+| theoneprobe                       | The One Probe                                          |
+| thermalcultivation                | Thermal Cultivation                                    |
+| thermaldynamics                   | Thermal Dynamics                                       |
+| thermalexpansion                  | Thermal Expansion                                      |
+| thermalfoundation                 | Thermal Foundation                                     |
+| thermalinnovation                 | Thermal Innovation                                     |
+| thermallogistics                  | Thermal Logistics                                      |
+| thermaltinkering                  | Thermal Tinkering                                      |
+| threng                            | Lazy AE2                                               |
+| tieredtooltips                    | Tiered Tooltips                                        |
+| tinker_io                         | Tinker I/O                                             |
+| tinkersaether                     | Tinkers' Aether                                        |
+| tinkersjei                        | Tinker's JEI                                           |
+| tinkerstages                      | Tinker Stages                                          |
+| tinkertoolleveling                | Tinkers Tool Leveling                                  |
+| tinymobfarm                       | Tiny Mob Farm                                          |
+| tips                              | Tips                                                   |
+| toastcontrol                      | Toast Control                                          |
+| tofucraft                         | TofuCraftReload                                        |
+| tombmanygraves                    | Tomb Many Graves                                       |
+| tombmanygraves2api                | TombManyGraves2 API                                    |
+| tombmanypluginsinventorypets      | TombManyPlugins Inventory Pets                         |
+| toolprogression                   | Tool Progression                                       |
+| topaddons                         | TOP Addons                                             |
+| torchmaster                       | TorchMaster                                            |
+| torchslabmod                      | Torch Slab Mod                                         |
+| torohud                           | ToroHUD Damage Indicators                              |
+| touhou_little_maid                | Touhou Little Maid                                     |
+| trashslot                         | TrashSlot                                              |
+| treasure2                         | Treasure2!                                             |
+| triumph                           | Triumph                                                |
+| tumbleweed                        | Tumbleweed                                             |
+| tweakersconstruct                 | Tweakers Construct                                     |
+| tweakersconstructpostload         | Tweakers Construct Post Load                           |
+| twilightforest                    | The Twilight Forest                                    |
+| unforgivingvoid                   | Unforgiving Void                                       |
+| unidict                           | UniDict                                                |
+| unifier                           | Unifier                                                |
+| unifine                           | Unifine                                                |
+| unloader                          | Unloader                                               |
+| vanillafix                        | VanillaFix                                             |
+| variegated                        | Variegated                                             |
+| vials                             | Vials                                                  |
+| villagenames                      | ¡ì6Village Names                                        |
+| w2w                               | Waystones2Waypoints                                    |
+| waddles                           | Waddles                                                |
+| wanionlib                         | WanionLib                                              |
+| waystones                         | Waystones                                              |
+| wct                               | Wireless Crafting Terminal 2                           |
+| weeeflowers                       | Pam's Weee! Flowers                                    |
+| wft                               | Wireless Fluid Terminal                                |
+| what                              | WHAT                                                   |
+| whoops                            | Whoops                                                 |
+| wit                               | Wireless Interface Terminal                            |
+| worldselectionadvanced            | Advanced World Selection                               |
+| wpt                               | Wireless Pattern Terminal                              |
+| wrapup                            | WrapUp                                                 |
+| xaerominimap                      | Xaero's Minimap                                        |
+| xaerominimap_core                 | XaeroMinimapCore                                       |
+| xaeroworldmap                     | Xaero's World Map                                      |
+| xaeroworldmap_core                | XaeroWorldMapCore                                      |
+| xlfoodmod                         | XL Food Mod                                            |
+| xnet                              | XNet                                                   |
+| ynot                              | YNot                                                   |
+| yoyos                             | Yoyos                                                  |
+| yungslaw                          | YUNG's Law                                             |
+| zenstages                         | ZenStages                                              |
+| zensummoning                      | Zen Summoning                                          |
+| zenutils                          | ZenUtils                                               |
+| zerocore                          | Zero CORE                                              |
+| zombieawareness                   | Zombie Awareness                                       |
++-----------------------------------+--------------------------------------------------------+
+| ModID                             | Mod name                                               |
++-----------------------------------+--------------------------------------------------------+

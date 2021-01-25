@@ -1,0 +1,11 @@
+# FORMATS
+
+## Traits
+reskillable.unlock.attributes.damagebuff=被动攻击伤害
+reskillable.unlock.attributes.damagebuff.desc=根据攻击技能等级提升攻击伤害。
+reskillable.unlock.attributes.resistancebuff=被动防御
+reskillable.unlock.attributes.resistancebuff.desc=根据防御技能等级提升防御。
+reskillable.unlock.attributes.miningbuff=被动挖掘速度
+reskillable.unlock.attributes.miningbuff.desc=根据挖矿技能等级提升挖掘速度。
+reskillable.unlock.attributes.adaptation=适性
+reskillable.unlock.attributes.adaptation.desc=每次攻击都能吸取怪物的精华！

@@ -4,9 +4,9 @@
         {
             "id": "generic.maxHealth",
             "modifier": {
-                "min": 250
+                "min": 800
             },
-            "isflat": false
+            "isflat": true
         }
     ]
 }

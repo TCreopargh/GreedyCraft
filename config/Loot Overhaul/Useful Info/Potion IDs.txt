@@ -1568,14 +1568,6 @@ charm:ender_sight
 	- Is Beneficial: false
 
 
-enderzoo:enderzoo.floatingpotion
-   - Id: 195
-   - Color: 31744
-   - Is Instant: false
-   - Is Bad: false
-	- Is Beneficial: false
-
-
 tconevo:immortality
    - Id: 196
    - Color: 15450243
