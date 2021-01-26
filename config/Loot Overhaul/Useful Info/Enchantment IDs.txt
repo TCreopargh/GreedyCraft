@@ -248,9 +248,9 @@ enderio:repellent
    - Max Level: 4
 
 
-enderio:soulbound
+enderio:witherarrow
    - Id: 30
-   - Rarity: VERY_RARE
+   - Rarity: UNCOMMON
    - Treasure: false
    - Min Level: 1
    - Max Level: 1
@@ -296,9 +296,9 @@ minecraft:fortune
    - Max Level: 3
 
 
-enderio:witherarrow
+enderio:soulbound
    - Id: 36
-   - Rarity: UNCOMMON
+   - Rarity: VERY_RARE
    - Treasure: false
    - Min Level: 1
    - Max Level: 1
