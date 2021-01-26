@@ -110,7 +110,7 @@
         },
         {
             "type": "text",
-            "text": "To survive in the rains of bullets during this battle, $(6)Entropic Modifier$() is a must-have. Put this modifier on your tconstruct armor to give yourself chaotic damage protection, when you max up this modifier to level 5 on all armors you can challenge the Chaos Guardian. You need to destroy all $(c)Chaotic Crystals$() before dealing damage to the dragon. $(5) Chaos Crystals will not respawn normally, but will respawn if it's chunk is unloaded, so please increase your render distance (to around 12) to prevent crystals from respawning."
+            "text": "To survive in the rains of bullets during this battle, $(6)Chaos Resistance Modifier$() is a must-have. Put this modifier on your tconstruct armor to give yourself chaotic damage protection, when you max up this modifier to level 5 on all armors you can challenge the Chaos Guardian. You need to destroy all $(c)Chaotic Crystals$() before dealing damage to the dragon. $(5) Chaos Crystals will not respawn normally, but will respawn if it's chunk is unloaded, so please increase your render distance (to around 12) to prevent crystals from respawning."
         },
         {
             "type": "text",

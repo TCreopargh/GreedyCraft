@@ -68,11 +68,11 @@ global greetingMessage as string[string] = {
         "§e Welcome, user §6%PLAYERNAME%§e.\n"+
         "§a Now showing the latest unread announcement.\n"+
         "§b ====================================================\n"+
-        "§c //////////WARNING//////////FATAL SYSTEM FAILURE//////////\n"+
+        "§c ////////WARNING////////FATAL SYSTEM FAILURE////////\n"+
         "§e Player count is drastically decreasing in the virtual network and some has turned into hostile entities.\n"+
         "§e The reality is probably under attack.\n"+
         "§e Illusion defense system is failed and plenty of hostile entities has been detected in the public interface.\n"+
-        "§e If you can see this announcement, please try to escape the Elysian project, which is the only way to figure out what happened.\n"+
-        "§e ONLY YOU CAN SAVE HUMANS FROM THE WRONG PATH!\n"+
+        "§e If you can see this announcement, please try to escape the Elysian Simulation, which is the only way to figure out what happened.\n"+
+        "§e ONLY YOU CAN SAVE HUMANITY FROM THE WRONG PATH!\n"+
         "§b ====================================================\n",
 };

@@ -1,0 +1,4 @@
+Credits for non-original content in this folder:
+
+assets/draconicevolution: https://www.curseforge.com/minecraft/texture-packs/draconic-evolution-16x16-redux
+assets/thermalfoundation: https://www.curseforge.com/minecraft/texture-packs/default-improved/files/2639578

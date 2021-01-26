@@ -1,8 +1,8 @@
 setIcon(<patchouli:guide_book, meta:0, count:1, nbt:{"patchouli:book":"patchouli:the_elysia_project"}>)
 
-setTitle("埃拉西亚的故事")
+setTranslatedTitle("greedycraft.advancement.root.title")
 
-setDescription("继续你的游戏，解锁背后的剧情故事。")
+setTranslatedDescription("greedycraft.advancement.root.desc")
 
 setBackground("minecraft:textures/gui/advancements/backgrounds/adventure.png")
 

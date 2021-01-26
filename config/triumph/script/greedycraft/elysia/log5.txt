@@ -1,8 +1,8 @@
 setIcon(<additions:greedycraft-experiment_note>)
 
-setTitle("埃拉西亚日志#5")
+setTranslatedTitle("greedycraft.advancement.log5.title")
 
-setDescription("要解锁该日志，你需要击败末影龙")
+setTranslatedDescription("greedycraft.advancement.log5.desc")
 
 addParent("greedycraft:elysia/log4")
 

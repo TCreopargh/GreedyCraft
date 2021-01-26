@@ -102,6 +102,76 @@
         "show_particles": true
       },
       "type": "additions:potion"
+    },
+    {
+      "potion": {
+        "name": "thaumcraft:fluxtaint",
+        "duration": 1000,
+        "amplifier": 0,
+        "ambient": false,
+        "show_particles": true
+      },
+      "type": "additions:potion"
+    },
+    {
+      "potion": {
+        "name": "abyssalcraft:antimatter",
+        "duration": 1000,
+        "amplifier": 0,
+        "ambient": false,
+        "show_particles": true
+      },
+      "type": "additions:potion"
+    },
+    {
+      "potion": {
+        "name": "abyssalcraft:cplague",
+        "duration": 1000,
+        "amplifier": 9,
+        "ambient": false,
+        "show_particles": true
+      },
+      "type": "additions:potion"
+    },
+    {
+      "potion": {
+        "name": "abyssalcraft:dplague",
+        "duration": 1000,
+        "amplifier": 9,
+        "ambient": false,
+        "show_particles": true
+      },
+      "type": "additions:potion"
+    },
+    {
+      "potion": {
+        "name": "defiledlands:grounded",
+        "duration": 1000,
+        "amplifier": 9,
+        "ambient": false,
+        "show_particles": true
+      },
+      "type": "additions:potion"
+    },
+    {
+      "potion": {
+        "name": "defiledlands:vulnerability",
+        "duration": 1000,
+        "amplifier": 9,
+        "ambient": false,
+        "show_particles": true
+      },
+      "type": "additions:potion"
+    },
+    {
+      "potion": {
+        "name": "defiledlands:bleeding",
+        "duration": 1000,
+        "amplifier": 9,
+        "ambient": false,
+        "show_particles": true
+      },
+      "type": "additions:potion"
     }
   ]
 }

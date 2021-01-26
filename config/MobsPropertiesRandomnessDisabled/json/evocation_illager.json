@@ -1,0 +1,12 @@
+{
+    "mob_id": "minecraft:evocation_illager",
+    "attributes": [
+        {
+            "id": "generic.maxHealth",
+            "modifier": {
+                "min": 100
+            },
+            "isflat": false
+        }
+    ]
+}

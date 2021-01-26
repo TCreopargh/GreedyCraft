@@ -17,6 +17,7 @@ import crafttweaker.block.IBlockState;
 import crafttweaker.entity.IEntity;
 import crafttweaker.entity.IEntityLivingBase;
 import crafttweaker.entity.AttributeInstance;
+import crafttweaker.entity.AttributeModifier;
 
 import mods.ctutils.utils.Math;
 import mods.ctutils.world.IGameRules;
@@ -357,19 +358,19 @@ setMaidHealthCommand.execute = function(command, server, sender, args) {
                 entityBase.addPotionEffect(<potion:potioncore:love>.makePotionEffect(1, 0, true, true));
                 var potionLevel as int = Math.floor(maidHealth as float / 4.0 as float) as int;
 
+                /*
                 entityBase.addPotionEffect(<potion:minecraft:health_boost>.makePotionEffect(2147483647, potionLevel, false, false));
                 entityBase.addPotionEffect(<potion:minecraft:instant_health>.makePotionEffect(1, potionLevel * 4, false, false));
                 entityBase.addPotionEffect(<potion:minecraft:regeneration>.makePotionEffect(2147483647, 1, false, false));
                 entityBase.addPotionEffect(<potion:minecraft:resistance>.makePotionEffect(2147483647, 1, false, false));
-                
-                /* This sonehow just doesn't work
-                var data = {"Health": maidHealth as float, "Attributes":[{"Name":"generic.maxHealth", "Base": maidHealth as float}]} as IData;
-                entityBase.update(data);
-                var attribute as AttributeInstance = entityBase.getAttribute("generic.maxHealth") as AttributeInstance;
-                attribute.removeAllModifiers();
-                attribute.setBaseValue(maidHealth as double);
-                entityBase.health = maidHealth as float;
                 */
+                var attribute as AttributeInstance = entityBase.getAttribute("generic.maxHealth") as AttributeInstance;
+                var uuid as string = "6051805e-0fb6-460d-b226-60fee7965ae5";
+                if(isNull(attribute.getModifier(uuid))) {
+                    var modifier as AttributeModifier = AttributeModifier.createModifier("lolipop_health_boost", maidHealth as double, 0, uuid);
+                    attribute.applyModifier(modifier);
+                    entityBase.health = (entityBase.health + maidHealth) as float;
+                }
             }
         }
         player.sendChat(I18n.format("greedycraft.command.setMaidHealthCommand.chat", "" + entities.length));

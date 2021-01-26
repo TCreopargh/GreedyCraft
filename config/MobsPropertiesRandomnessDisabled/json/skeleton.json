@@ -1,0 +1,12 @@
+{
+    "mob_id": "minecraft:skeleton",
+    "attributes": [
+        {
+            "id": "generic.maxHealth",
+            "modifier": {
+                "min": 20
+            },
+            "isflat": false
+        }
+    ]
+}

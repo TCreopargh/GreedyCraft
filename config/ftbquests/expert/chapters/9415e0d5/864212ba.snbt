@@ -1,18 +1,14 @@
-
 {
 	title: "{greedycraft.quest.864212ba.title}",
-	icon: "extrautils2:ingredients 1 10",
+	icon: "nyx:meteor_ingot 1 0",
 	x: -10.0d,
 	y: 1.5d,
 	description: "{greedycraft.quest.864212ba.desc}",
-	text: [
-		"在泥土上使用能使土变为诅咒之土，能够快速刷怪"
-	],
 	tasks: [{
 		uid: "a22be335",
 		type: "item",
 		items: [{
-			item: "extrautils2:ingredients 1 10"
+			item: "nyx:meteor_ingot 1 0"
 		}]
 	}],
 	rewards: [{

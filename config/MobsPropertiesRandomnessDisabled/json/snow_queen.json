@@ -1,0 +1,12 @@
+{
+    "mob_id": "twilightforest:snow_queen",
+    "attributes": [
+        {
+            "id": "generic.maxHealth",
+            "modifier": {
+                "min": 200
+            },
+            "isflat": false
+        }
+    ]
+}

@@ -1,291 +1,308 @@
 {
-	"images": {
-		"title": {
-			"image": "greedycraft:mainmenu/banner.png",
-			"posX": -125,
-			"posY": 15,
-			"width": 252,
-			"height": 86,
-			"alignment": "top_center"
-		}
-	},
-	"buttons": {
-		"singleplayer": {
-			"text": "menu.singleplayer",
-			"posX": -100,
-			"posY": 58,
-			"width": 200,
-			"height": 20,
-			"imageWidth": 1198,
-			"imageHeight": 124,
-			"hoverTextColor": 65484,
-			"clickSound": "block.lever.click",
-			"texture": "greedycraft:mainmenu/longbuttonhd.png",
-			"action": {
-				"type": "openGui",
-				"gui": "singleplayer"
-			}
-		},
-		"multiplayer": {
-			"text": "menu.multiplayer",
-			"posX": -100,
-			"posY": 82,
-			"width": 200,
-			"height": 20,
-			"hoverTextColor": 65484,
-			"clickSound": "block.lever.click",
-			"imageWidth": 1198,
-			"imageHeight": 124,
-			"texture": "greedycraft:mainmenu/longbuttonhd.png",
-			"action": {
-				"type": "openGui",
-				"gui": "multiplayer"
-			}
-		},
-		"mods": {
-			"text": "Ä£×éÁÐ±í",
-			"posX": -100,
-			"posY": 118,
-			"width": 98,
-			"height": 20,
-			"hoverTextColor": 65484,
-			"clickSound": "block.lever.click",
-			"imageWidth": 607,
-			"imageHeight": 124,
-			"texture": "greedycraft:mainmenu/shortbuttonhd.png",
-			"action": {
-				"type": "openGui",
-				"gui": "mods"
-			}
-		},
-		"official_site": {
-			"text": "Ç°Íù¹ÙÍø",
-			"posX": 2,
-			"posY": 118,
-			"width": 98,
-			"height": 20,
-			"hoverTextColor": 65484,
-			"clickSound": "block.lever.click",
-			"imageWidth": 607,
-			"imageHeight": 124,
-			"texture": "greedycraft:mainmenu/shortbuttonhd.png",
-			"action": {
-				"type": "openLink",
-				"link": "http://greedycraft.tcreopargh.xyz/"
-			}
-		},
-		"options": {
-			"text": "menu.options",
-			"posX": -100,
-			"posY": 142,
-			"width": 98,
-			"height": 20,
-			"hoverTextColor": 65484,
-			"clickSound": "block.lever.click",
-			"imageWidth": 607,
-			"imageHeight": 124,
-			"texture": "greedycraft:mainmenu/shortbuttonhd.png",
-			"action": {
-				"type": "openGui",
-				"gui": "options"
-			}
-		},
-		"quit": {
-			"text": "menu.quit",
-			"posX": 2,
-			"posY": 142,
-			"width": 98,
-			"height": 20,
-			"hoverTextColor": 65484,
-			"clickSound": "block.lever.click",
-			"imageWidth": 607,
-			"imageHeight": 124,
-			"texture": "greedycraft:mainmenu/shortbuttonhd.png",
-			"action": {
-				"type": "quit"
-			}
-		},
-		"refresh": {
-			"text": " ",
-			"posX": -25,
-			"posY": 5,
-			"width": 20,
-			"height": 20,
-			"alignment": "top_right",
-			"clickSound": "block.lever.click",
-			"imageWidth": 498,
-			"imageHeight": 498,
-			"texture": "greedycraft:mainmenu/refreshdouble.png",
-			"tooltip": "¡ìbË¢ÐÂÖ÷²Ëµ¥½çÃæ",
-			"action": {
-				"type": "refresh"
-			}
-		},
-		"accounts": {
-			"text": " ",
-			"posX": -25,
-			"posY": 55,
-			"width": 20,
-			"height": 20,
-			"alignment": "top_right",
-			"clickSound": "block.lever.click",
-			"imageWidth": 383,
-			"imageHeight": 383,
-			"wrappedButton": 20,
-			"texture": "greedycraft:mainmenu/account.png",
-			"tooltip": "¡ì7ÄúÄ¿Ç°µÇÂ¼µÄÓÃ»§ÃûÊÇ¡ìe#username#\n¡ìaµã»÷ÒÔÇÐ»»ÕË»§£¡"
-		},
-		"sponsor": {
-			"text": " ",
-			"posX": -25,
-			"posY": 30,
-			"width": 20,
-			"height": 20,
-			"alignment": "top_right",
-			"clickSound": "block.lever.click",
-			"imageWidth": 383,
-			"imageHeight": 383,
-			"texture": "greedycraft:mainmenu/sponsor.png",
-			"tooltip": "¡ìdÇë×÷ÕßºÈ±­¿§·È£¡\n¡ì5µã»÷ÒÔÇ°Íù×÷ÕßµÄ°®·¢µç",
-			"action": {
-				"type": "openLink",
-				"link": "http://donate.tcreopargh.xyz/"
-			}
-		},
-		"github": {
-			"text": " ",
-			"posX": -25,
-			"posY": 80,
-			"width": 20,
-			"height": 20,
-			"alignment": "top_right",
-			"clickSound": "block.lever.click",
-			"imageWidth": 383,
-			"imageHeight": 383,
-			"texture": "greedycraft:mainmenu/github.png",
-			"tooltip": "¡ì9GitHub¡ì7ÏîÄ¿µØÖ·",
-			"action": {
-				"type": "openLink",
-				"link": "https://github.com/TCreopargh/GreedyCraft"
-			}
-		},
-		"open_folder": {
-			"text": " ",
-			"posX": -25,
-			"posY": 105,
-			"width": 20,
-			"height": 20,
-			"alignment": "top_right",
-			"clickSound": "block.lever.click",
-			"imageWidth": 383,
-			"imageHeight": 383,
-			"texture": "greedycraft:mainmenu/folder.png",
-			"tooltip": "¡ì7´ò¿ª¡ìeÕûºÏ°üÄ¿Â¼¡ì7ÎÄ¼þ¼Ð",
-			"action": {
-				"type": "openFolder",
-				"folderName": "/"
-			}
-		}
-	},
-	"labels": {
-		"mojang": {
-			"text": "Copyright Mojang AB. Do not distribute!",
-			"hoverText": "¡ì7¡ìnµã»÷²é¿´Minecraft¿ª·¢ÈËÔ±ÁÐ±í",
-			"color": -1,
-			"alignment": "bottom_right",
-			"posX": -2,
-			"posY": -12,
-			"anchor": "end",
-			"action": {
-				"type": "openGui",
-				"gui": "credits"
-			}
-		},
-		"minecraft_version": {
-			"text": "¡ìaMinecraft ¡ì2#mcversion#",
-			"hoverText": "¡ìaMinecraft Coder Pack ¡ì2#mcpversion#",
-			"color": -1,
-			"posX": 2,
-			"posY": -52,
-			"alignment": "bottom_left"
-		},
-		"latest_version": {
-			"text": {
-				"type": "web",
-				"url": "http://json.tcreopargh.xyz/greedycraft-version.txt",
-				"color": -1,
-				"refreshInterval": 600
-			},
-			"action": {
-				"type": "openLink",
-				"link": "https://greedycraft.tcreopargh.xyz/"
-			},
-			"hoverText": "¡ìe¡ìnµã»÷ÒÔÇ°ÍùÐÂ°æ±¾ÏÂÔØÒ³Ãæ",
-			"posX": 2,
-			"posY": -12,
-			"alignment": "bottom_left"
-		},
-		"current_version": {
-			"alignment": "bottom_left",
-			"text": "file:greedycraft:version.txt",
-			"hoverText": "¡ì2°æ±¾±àºÅÔ½´ó£¬°æ±¾Ô½ÐÂ£¬ÇëÈ·±£ÄãÓÎÍæµÄ°æ±¾ÊÇ×îÐÂµÄ£¡",
-			"color": -1,
-			"posX": 2,
-			"posY": -22
-		},
-		"modinfo": {
-			"alignment": "bottom_left",
-			"text": "¡ì9Forge°æ±¾: ¡ìb#forgeversion#  ¡ìeÒÑ¼ÓÔØ¡ì6#modsloaded#¡ìe¸öÄ£×é",
-			"hoverText": "¡ìaFML°æ±¾: ¡ì2#fmlversion#  ¡ìdÒÑÆôÓÃ¡ì5#modsactive#¡ìd¸öÄ£×é",
-			"color": -1,
-			"posX": 2,
-			"posY": -32
-		},
-		"packinfo": {
-			"alignment": "bottom_left",
-			"text": " ¡ìe¡ï ¡ìb¡ìlÌ°À·ÕûºÏ°ü ¡ìe¡ï ¡ìr¡ìdby TCreopargh",
-			"hoverText": " ¡ì5¡ï ¡ìc¡ìlÌ°À·ÕûºÏ°ü ¡ì5¡ï ¡ìr¡ìaby TCreopargh",
-			"action": {
-				"type": "openLink",
-				"link": "https://greedycraft.tcreopargh.xyz/"
-			},
-			"color": -1,
-			"posX": 2,
-			"posY": -42
-		},
-		"time": {
-			"text": "¡ì9ÄãºÃ£¬¡ìe#username#¡ì9£¡¡ì6ÏÖÔÚÊÇ£º¡ìb#time#",
-			"hoverText": "¡ì9ÄãºÃ£¬¡ìe#username#¡ì9£¡¡ì6ÏÖÔÚÊÇ£º¡ìd#date# ¡ìb#time#",
-			"posX": 2,
-			"posY": 12,
-			"color": -1,
-			"alignment": "top_left"
-		},
-		"announcements": {
-			"text": "web:http://json.tcreopargh.xyz/greedycraft-announcements.txt",
-			"action": {
-				"type": "openLink",
-				"link": "https://greedycraft.tcreopargh.xyz/"
-			},
-			"posX": 2,
-			"posY": 22,
-			"color": -1,
-			"alignment": "top_left"
-		}
-	},
-	"other": {
-		"splash-text": {
-			"posX": 105,
-			"posY": 105,
-			"color": -256,
-			"alignment": "top_center",
-			"texts": "file:greedycraft:mainmenu/splashes.txt"
-		},
-		"background": {
-			"image": "",
-			"mode": "fill",
-			"slideshow": {
-				"images": [
+    "images": {
+        "title": {
+            "image": "greedycraft:mainmenu/banner.png",
+            "posX": -125,
+            "posY": 15,
+            "width": 252,
+            "height": 86,
+            "alignment": "top_center"
+        }
+    },
+    "buttons": {
+        "singleplayer": {
+            "text": "menu.singleplayer",
+            "posX": -100,
+            "posY": 58,
+            "width": 200,
+            "height": 20,
+            "imageWidth": 1198,
+            "imageHeight": 124,
+            "hoverTextColor": 65484,
+            "clickSound": "block.lever.click",
+            "texture": "greedycraft:mainmenu/longbuttonhd.png",
+            "action": {
+                "type": "openGui",
+                "gui": "singleplayer"
+            }
+        },
+        "multiplayer": {
+            "text": "menu.multiplayer",
+            "posX": -100,
+            "posY": 82,
+            "width": 200,
+            "height": 20,
+            "hoverTextColor": 65484,
+            "clickSound": "block.lever.click",
+            "imageWidth": 1198,
+            "imageHeight": 124,
+            "texture": "greedycraft:mainmenu/longbuttonhd.png",
+            "action": {
+                "type": "openGui",
+                "gui": "multiplayer"
+            }
+        },
+        "mods": {
+            "text": "greedycraft.menu.modlist",
+            "posX": -100,
+            "posY": 118,
+            "width": 98,
+            "height": 20,
+            "hoverTextColor": 65484,
+            "clickSound": "block.lever.click",
+            "imageWidth": 607,
+            "imageHeight": 124,
+            "texture": "greedycraft:mainmenu/shortbuttonhd.png",
+            "action": {
+                "type": "openGui",
+                "gui": "mods"
+            }
+        },
+        "official_site": {
+            "text": "greedycraft.menu.official_site",
+            "posX": 2,
+            "posY": 118,
+            "width": 98,
+            "height": 20,
+            "hoverTextColor": 65484,
+            "clickSound": "block.lever.click",
+            "imageWidth": 607,
+            "imageHeight": 124,
+            "texture": "greedycraft:mainmenu/shortbuttonhd.png",
+            "action": {
+                "type": "openLink",
+                "link": "http://greedycraft.tcreopargh.xyz/"
+            }
+        },
+        "options": {
+            "text": "menu.options",
+            "posX": -100,
+            "posY": 142,
+            "width": 98,
+            "height": 20,
+            "hoverTextColor": 65484,
+            "clickSound": "block.lever.click",
+            "imageWidth": 607,
+            "imageHeight": 124,
+            "texture": "greedycraft:mainmenu/shortbuttonhd.png",
+            "action": {
+                "type": "openGui",
+                "gui": "options"
+            }
+        },
+        "quit": {
+            "text": "menu.quit",
+            "posX": 2,
+            "posY": 142,
+            "width": 98,
+            "height": 20,
+            "hoverTextColor": 65484,
+            "clickSound": "block.lever.click",
+            "imageWidth": 607,
+            "imageHeight": 124,
+            "texture": "greedycraft:mainmenu/shortbuttonhd.png",
+            "action": {
+                "type": "quit"
+            }
+        },
+        "refresh": {
+            "text": " ",
+            "posX": -25,
+            "posY": 5,
+            "width": 20,
+            "height": 20,
+            "alignment": "top_right",
+            "clickSound": "block.lever.click",
+            "imageWidth": 498,
+            "imageHeight": 498,
+            "texture": "greedycraft:mainmenu/refreshdouble.png",
+            "tooltip": "greedycraft.menu.refresh",
+            "action": {
+                "type": "refresh"
+            }
+        },
+        "accounts": {
+            "text": " ",
+            "posX": -25,
+            "posY": 55,
+            "width": 20,
+            "height": 20,
+            "alignment": "top_right",
+            "clickSound": "block.lever.click",
+            "imageWidth": 383,
+            "imageHeight": 383,
+            "wrappedButton": 20,
+            "texture": "greedycraft:mainmenu/account.png",
+            "tooltip": "ï¿½ï¿½7ï¿½ï¿½Ä¿Ç°ï¿½ï¿½Â¼ï¿½ï¿½ï¿½Ã»ï¿½ï¿½ï¿½ï¿½Ç¡ï¿½e#username#\nï¿½ï¿½aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð»ï¿½ï¿½Ë»ï¿½ï¿½ï¿½"
+        },
+        "sponsor": {
+            "text": " ",
+            "posX": -25,
+            "posY": 30,
+            "width": 20,
+            "height": 20,
+            "alignment": "top_right",
+            "clickSound": "block.lever.click",
+            "imageWidth": 383,
+            "imageHeight": 383,
+            "texture": "greedycraft:mainmenu/sponsor.png",
+            "tooltip": "greedycraft.menu.sponsor",
+            "action": {
+                "type": "openLink",
+                "link": "http://donate.tcreopargh.xyz/"
+            }
+        },
+        "discord": {
+            "text": " ",
+            "posX": -25,
+            "posY": 80,
+            "width": 20,
+            "height": 20,
+            "alignment": "top_right",
+            "clickSound": "block.lever.click",
+            "imageWidth": 383,
+            "imageHeight": 383,
+            "texture": "greedycraft:mainmenu/discord.png",
+            "tooltip": "greedycraft.menu.discord",
+            "action": {
+                "type": "openLink",
+                "link": "https://discord.gg/jpwncsDN"
+            }
+        },
+        "github": {
+            "text": " ",
+            "posX": -25,
+            "posY": 105,
+            "width": 20,
+            "height": 20,
+            "alignment": "top_right",
+            "clickSound": "block.lever.click",
+            "imageWidth": 383,
+            "imageHeight": 383,
+            "texture": "greedycraft:mainmenu/github.png",
+            "tooltip": "greedycraft.menu.github",
+            "action": {
+                "type": "openLink",
+                "link": "https://github.com/TCreopargh/GreedyCraft"
+            }
+        },
+        "open_folder": {
+            "text": " ",
+            "posX": -25,
+            "posY": 130,
+            "width": 20,
+            "height": 20,
+            "alignment": "top_right",
+            "clickSound": "block.lever.click",
+            "imageWidth": 383,
+            "imageHeight": 383,
+            "texture": "greedycraft:mainmenu/folder.png",
+            "tooltip": "greedycraft.menu.folder",
+            "action": {
+                "type": "openFolder",
+                "folderName": "/"
+            }
+        }
+    },
+    "labels": {
+        "mojang": {
+            "text": "Copyright Mojang AB. Do not distribute!",
+            "hoverText": "ï¿½ï¿½7ï¿½ï¿½nï¿½ï¿½ï¿½ï¿½é¿´Minecraftï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô±ï¿½Ð±ï¿½",
+            "color": -1,
+            "alignment": "bottom_right",
+            "posX": -2,
+            "posY": -12,
+            "anchor": "end",
+            "action": {
+                "type": "openGui",
+                "gui": "credits"
+            }
+        },
+        "minecraft_version": {
+            "text": "ï¿½ï¿½aMinecraft ï¿½ï¿½2#mcversion#",
+            "hoverText": "ï¿½ï¿½aMinecraft Coder Pack ï¿½ï¿½2#mcpversion#",
+            "color": -1,
+            "posX": 2,
+            "posY": -52,
+            "alignment": "bottom_left"
+        },
+        "latest_version": {
+            "text": {
+                "type": "web",
+                "url": "http://json.tcreopargh.xyz/greedycraft-version.txt",
+                "color": -1,
+                "refreshInterval": 600
+            },
+            "action": {
+                "type": "openLink",
+                "link": "https://greedycraft.tcreopargh.xyz/"
+            },
+            "hoverText": "ï¿½ï¿½eï¿½ï¿½nï¿½ï¿½ï¿½ï¿½ï¿½Ç°ï¿½ï¿½ï¿½Â°æ±¾ï¿½ï¿½ï¿½ï¿½Ò³ï¿½ï¿½",
+            "posX": 2,
+            "posY": -12,
+            "alignment": "bottom_left"
+        },
+        "current_version": {
+            "alignment": "bottom_left",
+            "text": "file:greedycraft:version.txt",
+            "hoverText": "ï¿½ï¿½2ï¿½æ±¾ï¿½ï¿½ï¿½Ô½ï¿½ó£¬°æ±¾Ô½ï¿½Â£ï¿½ï¿½ï¿½È·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä°æ±¾ï¿½ï¿½ï¿½ï¿½ï¿½ÂµÄ£ï¿½",
+            "color": -1,
+            "posX": 2,
+            "posY": -22
+        },
+        "modinfo": {
+            "alignment": "bottom_left",
+            "text": "ï¿½ï¿½9Forgeï¿½æ±¾: ï¿½ï¿½b#forgeversion#  ï¿½ï¿½eï¿½Ñ¼ï¿½ï¿½Ø¡ï¿½6#modsloaded#ï¿½ï¿½eï¿½ï¿½Ä£ï¿½ï¿½",
+            "hoverText": "ï¿½ï¿½aFMLï¿½æ±¾: ï¿½ï¿½2#fmlversion#  ï¿½ï¿½dï¿½ï¿½ï¿½ï¿½ï¿½Ã¡ï¿½5#modsactive#ï¿½ï¿½dï¿½ï¿½Ä£ï¿½ï¿½",
+            "color": -1,
+            "posX": 2,
+            "posY": -32
+        },
+        "packinfo": {
+            "alignment": "bottom_left",
+            "text": "ï¿½ï¿½eï¿½ï¿½ ï¿½ï¿½bï¿½ï¿½lÌ°ï¿½ï¿½ï¿½ï¿½ï¿½Ï°ï¿½ ï¿½ï¿½eï¿½ï¿½ ï¿½ï¿½rï¿½ï¿½dby TCreopargh",
+            "hoverText": "ï¿½ï¿½5ï¿½ï¿½ ï¿½ï¿½cï¿½ï¿½lÌ°ï¿½ï¿½ï¿½ï¿½ï¿½Ï°ï¿½ ï¿½ï¿½5ï¿½ï¿½ ï¿½ï¿½rï¿½ï¿½aby TCreopargh",
+            "action": {
+                "type": "openLink",
+                "link": "https://greedycraft.tcreopargh.xyz/"
+            },
+            "color": -1,
+            "posX": 2,
+            "posY": -42
+        },
+        "time": {
+            "text": "ï¿½ï¿½9ï¿½ï¿½Ã£ï¿½ï¿½ï¿½e#username#ï¿½ï¿½9ï¿½ï¿½ï¿½ï¿½6ï¿½ï¿½ï¿½ï¿½ï¿½Ç£ï¿½ï¿½ï¿½b#time#",
+            "hoverText": "ï¿½ï¿½9ï¿½ï¿½Ã£ï¿½ï¿½ï¿½e#username#ï¿½ï¿½9ï¿½ï¿½ï¿½ï¿½6ï¿½ï¿½ï¿½ï¿½ï¿½Ç£ï¿½ï¿½ï¿½d#date# ï¿½ï¿½b#time#",
+            "posX": 2,
+            "posY": 12,
+            "color": -1,
+            "alignment": "top_left"
+        },
+        "announcements": {
+            "text": "web:http://json.tcreopargh.xyz/greedycraft-announcements.txt",
+            "action": {
+                "type": "openLink",
+                "link": "https://greedycraft.tcreopargh.xyz/"
+            },
+            "posX": 2,
+            "posY": 22,
+            "color": -1,
+            "alignment": "top_left"
+        }
+    },
+    "other": {
+        "splash-text": {
+            "posX": 105,
+            "posY": 105,
+            "color": -256,
+            "alignment": "top_center",
+            "texts": "file:greedycraft:mainmenu/splashes.txt"
+        },
+        "background": {
+            "image": "",
+            "mode": "fill",
+            "slideshow": {
+                "images": [
                     "greedycraft:backgrounds/01.png",
                     "greedycraft:backgrounds/02.png",
                     "greedycraft:backgrounds/03.png",
@@ -336,12 +353,12 @@
                     "greedycraft:backgrounds/48.png",
                     "greedycraft:backgrounds/49.png",
                     "greedycraft:backgrounds/50.png"
-				],
-				"shuffle": true,
-				"displayDuration": 90,
-				"fadeDuration": 40,
-				"sync": true
-			}
-		}
-	}
+                ],
+                "shuffle": true,
+                "displayDuration": 90,
+                "fadeDuration": 40,
+                "sync": true
+            }
+        }
+    }
 }

@@ -1,0 +1,12 @@
+{
+    "mob_id": "minecraft:zombie",
+    "attributes": [
+        {
+            "id": "generic.maxHealth",
+            "modifier": {
+                "min": 25
+            },
+            "isflat": false
+        }
+    ]
+}

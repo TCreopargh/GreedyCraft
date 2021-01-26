@@ -70,7 +70,7 @@ FusionCrafting.add(<projectex:arcane_tablet>, <projecte:item.pe_transmutation_ta
     <draconicevolution:chaotic_core>,
     <draconicevolution:chaotic_core>,
     <additions:greedycraft-ancient_tome>,
-    <projectex:magnum_star_ein>
+    <projectex:matter:2>
 ]);
 FusionCrafting.add(<projecte:condenser_mk2>, <projecte:condenser_mk1>, 1, 640000000, [ 
     <projecte:matter_block:1>,

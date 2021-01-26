@@ -1,0 +1,12 @@
+{
+    "mob_id": "battletowers:golem",
+    "attributes": [
+        {
+            "id": "generic.maxHealth",
+            "modifier": {
+                "min": 500.0
+            },
+            "isflat": true
+        }
+    ]
+}

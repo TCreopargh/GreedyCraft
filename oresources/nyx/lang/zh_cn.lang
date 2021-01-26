@@ -1,0 +1,57 @@
+itemGroup.nyx=Nyx
+
+enchantment.nyx.lunar_edge=月刃
+enchantment.nyx.lunar_edge.desc=更强的“锋利”，其强度受当前月相的影响
+enchantment.nyx.lunar_shield=月盾
+enchantment.nyx.lunar_shield.desc=更强的“保护”，其强度受当前月相的影响
+
+info.nyx.day_enchanting=外面太亮了，不能附魔
+info.nyx.harvest_moon=丰收之月正在升起
+info.nyx.star_shower=天空中开始下流星雨...
+info.nyx.full_moon=满月正在升起...
+info.nyx.blood_moon=血月正在升起...
+info.nyx.blood_moon_sleeping=睡觉的念头会让你心烦意乱。
+info.nyx.meteor=一个陨石已在你附近落地！
+
+tile.nxy.lunar_water.name=月露
+tile.nyx.lunar_water_cauldron.name=月露炼药锅
+tile.nyx.star_block.name=流星块
+tile.nyx.chiseled_star_block.name=錾制流星块
+tile.nyx.cracked_star_block.name=破裂流星块
+tile.nyx.star_stairs.name=流星块楼梯
+tile.nyx.star_slab.name=流星块台阶
+tile.nyx.star_slab_double.name=流星块台阶
+tile.nyx.gleaning_meteor_rock.name=纯净陨石块
+tile.nyx.crystal.name=纯净水晶
+tile.nyx.meteor_block.name=陨星块
+tile.nyx.meteor_glass.name=陨星玻璃
+tile.nyx.meteor_rock.name=陨星石
+
+fluid.nyx.lunar_water=月露
+
+item.nyx.lunar_water_bottle.name=瓶装月露
+item.nyx.meteor_shard.name=陨星碎片
+item.nyx.fallen_star.name=落星
+item.nyx.meteor_dust.name=陨星尘
+item.nyx.meteor_finder.name=陨星定位器
+item.nyx.unrefined_crystal.name=未精炼的纯净水晶
+item.nyx.scythe.name=收集之镰
+item.nyx.meteor_ingot.name=陨星锭
+item.nyx.meteor_bow.name=陨星加强弓
+item.nyx.meteor_pickaxe.name=陨星镐
+item.nyx.meteor_axe.name=陨星斧
+item.nyx.meteor_shovel.name=陨星铲
+item.nyx.meteor_hoe.name=陨星锄
+item.nyx.meteor_sword.name=陨星剑
+item.nyx.meteor_helm.name=陨星头盔
+item.nyx.meteor_chest.name=陨星胸甲
+item.nyx.meteor_pants.name=陨星护腿
+item.nyx.meteor_boots.name=陨星靴子
+item.nyx.meteor_hammer.name=陨星锤
+
+command.nyx.force.usage=/nyxforce <event> 强制开始一个月亮事件
+command.nyx.force.invalid=没有名为 %s 的月亮事件
+command.nyx.force.success=%s 会在下一个晚上发生
+command.nyx.force.clear=Forced event was cleared
+command.nyx.meteor.usage=/nyxmeteor [x z] [size] [homing] 生成一个陨石
+command.nyx.meteor.success=已在 %s, %s, %s 生成陨石

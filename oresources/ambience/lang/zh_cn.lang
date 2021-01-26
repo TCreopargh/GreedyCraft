@@ -1,0 +1,95 @@
+
+
+GUI.ConfirmButton=确定
+GUI.DeleteButton=删除区域
+GUI.SaveButton=保存区域
+GUI.ShowArea=显示区域
+GUI.AreaNameLbl=区域名称：
+GUI.AreaNameField=名称
+GUI.InstantPlayChk=立即播放？
+GUI.SelectSoundLbl=选择音效：
+GUI.anoite=在晚上播放？
+
+Soundnizer.Position=位置
+Soundnizer.Alert=你必须处于选定的区域内才能创建！
+Soundnizer.Desc=选定一个区域播放音效。
+item.soundnizer.name=播音器
+
+item.horn.name=众神号角
+Horn.Desc=这个强大的物品能够使你的敌人感到害怕，并鼓舞你的盟友。
+
+item.ocarina.name=陶笛
+Ocarina.Desc=一个穿着绿色衣服的人把这个陶笛忘到了这个世界。
+
+Speaker.Desc=当被红石激活时播放音效
+SongSwitcher.Desc=使用红石连接该区域，音乐会根据红石信号强度而变化
+Alarm.Desc=当被红石激活时播放音效并闪烁
+Bell.Desc=水羊理事会的神圣之钟
+
+tile.alarm.name=闹钟
+tile.alarm_white.name=白色闹钟
+tile.alarm_red.name=红色闹钟
+tile.alarm_orange.name=橙色闹钟
+tile.alarm_yellow.name=黄色闹钟
+tile.alarm_lime.name=青绿色闹钟
+tile.alarm_green.name=绿色闹钟
+tile.alarm_lightblue.name=淡蓝色闹钟
+tile.alarm_cyan.name=靛蓝色闹钟
+tile.alarm_blue.name=蓝色闹钟
+tile.alarm_purple.name=紫色闹钟
+tile.alarm_magenta.name=品红色闹钟
+tile.alarm_pink.name=粉色闹钟
+tile.alarm_brown.name=棕色闹钟
+
+tile.alarm_lit.name=点亮的闹钟
+tile.alarm_lit_red.name=点亮的红色闹钟
+tile.alarm_lit_orange.name=点亮的橙色闹钟
+tile.alarm_lit_yellow.name=点亮的黄色闹钟
+tile.alarm_lit_lime.name=点亮的青绿色闹钟
+tile.alarm_lit_green.name=点亮的绿色闹钟
+tile.alarm_lit_lightblue.name=点亮的淡蓝色闹钟
+tile.alarm_lit_cyan.name=点亮的靛蓝色闹钟
+tile.alarm_lit_blue.name=点亮的蓝色闹钟
+tile.alarm_lit_purple.name=点亮的紫色闹钟
+tile.alarm_lit_magenta.name=点亮的品红色闹钟
+tile.alarm_lit_pink.name=点亮的粉色闹钟
+tile.alarm_lit_brown.name=点亮的棕色闹钟
+
+tile.speaker.name=扬声器
+tile.songswitcher.name=切歌器
+tile.bell.name=水羊理事会之钟
+
+Options.Shortcut1=播放音乐快捷方式0
+Options.Shortcut2=播放音乐快捷方式1
+Options.Shortcut3=播放音乐快捷方式2
+Options.Shortcut4=播放音乐快捷方式3
+Options.Shortcut5=播放音乐快捷方式4
+	
+Options.Ocarina1=陶笛按键1
+Options.Ocarina2=陶笛按键2
+Options.Ocarina3=陶笛按键3
+Options.Ocarina4=陶笛按键4
+Options.Ocarina5=陶笛按键5
+Ocarina.Played=你播放了
+	
+Ocarina.sunssong=Sun's Song
+Ocarina.songofstorms=Song of Storms
+Ocarina.bolerooffire=Bolero of Fire
+Ocarina.horsesong=Horse's Song
+Ocarina.serenadeofwater=Serenade of Water
+Ocarina.preludeoflight=Prelude of Light
+Ocarina.minuetofforest=Minuet of Forest
+
+Options.Reload=重载动态音乐配置
+
+Ambience.ReloadTitle=动态音乐设置
+Ambience.Reload=配置重载成功！
+Ambience.Force=正在尝试重载动态音乐。
+ForcePlay.Playing=正在播放：
+	
+ambience.configgui.sunsongenabled=启用或禁用下列曲目： Sun's Song
+ambience.configgui.songofstorms_enabled=启用或禁用下列曲目： Song of Storms
+ambience.configgui.bolerooffire_enabled=启用或禁用下列曲目： Bolero of Fire
+ambience.configgui.horsesong_enabled=启用或禁用下列曲目： Horse's Song
+
+itemGroup.AmbienceTab=动态音乐

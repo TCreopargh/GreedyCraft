@@ -1,5 +1,5 @@
 {
-	title: "§a切换为 §a§n休闲模式",
+	title: "§a切换为: §a§n休闲模式",
 	icon: {
 		id: "minecraft:iron_hoe"
 	},

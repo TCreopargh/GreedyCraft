@@ -245,7 +245,21 @@ val disabledItems as IIngredient[] = [
     <treasure2:adephagias_bounty>,
     <treasure2:charmed_silver_coin>,
     <extrautils2:spike_gold>,
-    <cqrepoured:spiderhook>
+    <cqrepoured:spiderhook>,
+    <forge:bucketfilled>.withTag({FluidName: "hot_spring_water", Amount: 1000}),
+    <forge:bucketfilled>.withTag({FluidName: "sakura.hot_spring_water", Amount: 1000}),
+    <thermalexpansion:florb>.withTag({Fluid: "hot_spring_water"}),
+    <thermalexpansion:florb>.withTag({Fluid: "sakura.hot_spring_water"}),
+    <forestry:can:*>.withTag({Fluid: {FluidName: "hot_spring_water", Amount: 1000}}),
+    <forestry:can:*>.withTag({Fluid: {FluidName: "sakura.hot_spring_water", Amount: 1000}}),
+    <forestry:capsule:*>.withTag({Fluid: {FluidName: "hot_spring_water", Amount: 1000}}),
+    <forestry:capsule:*>.withTag({Fluid: {FluidName: "sakura.hot_spring_water", Amount: 1000}}),
+    <ceramics:clay_bucket>.withTag({fluids: {FluidName: "hot_spring_water", Amount: 1000}}),
+    <ceramics:clay_bucket>.withTag({fluids: {FluidName: "sakura.hot_spring_water", Amount: 1000}}),
+    <forestry:refractory:1>.withTag({Fluid: {FluidName: "hot_spring_water", Amount: 1000}}),
+    <forestry:refractory:1>.withTag({Fluid: {FluidName: "sakura.hot_spring_water", Amount: 1000}}),
+    <liquid:hot_spring_water>,
+    <liquid:sakura.hot_spring_water>
 ] as IIngredient[];
 
 val disabledRecipeRegex as string[] = [
@@ -276,7 +290,10 @@ val disabledRecipeRegex as string[] = [
 
 val outputBlacklist as IItemStack[] = [
     <twilightforest:giant_pickaxe>,
-    <twilightforest:giant_sword>
+    <twilightforest:giant_sword>,
+    <abyssalcraft:dspplate>,
+    <abyssalcraft:dltpplate>,
+    <abyssalcraft:dirtyplate>
 ];
 
 for ingredient in disabledItems {

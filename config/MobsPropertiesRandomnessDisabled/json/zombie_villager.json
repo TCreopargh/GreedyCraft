@@ -1,0 +1,12 @@
+{
+    "mob_id": "minecraft:zombie_villager",
+    "attributes": [
+        {
+            "id": "generic.maxHealth",
+            "modifier": {
+                "min": 50
+            },
+            "isflat": false
+        }
+    ]
+}

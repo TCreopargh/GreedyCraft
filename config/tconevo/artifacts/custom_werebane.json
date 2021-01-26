@@ -5,8 +5,8 @@
   "lore": "由一个驱逐了邪恶的王子持有。",
   "tool": "rapier",
   "materials": [
-    "livingwood",
     "platinum",
+    "adamant",
     "lumium"
   ],
   "free_mods": 1,

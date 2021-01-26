@@ -1,0 +1,12 @@
+{
+    "mob_id": "defiledlands:the_mourner",
+    "attributes": [
+        {
+            "id": "generic.maxHealth",
+            "modifier": {
+                "min": 4000.0
+            },
+            "isflat": true
+        }
+    ]
+}

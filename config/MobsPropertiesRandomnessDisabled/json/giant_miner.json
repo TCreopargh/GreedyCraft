@@ -1,0 +1,12 @@
+{
+    "mob_id": "twilightforest:giant_miner",
+    "attributes": [
+        {
+            "id": "generic.maxHealth",
+            "modifier": {
+                "min": 800
+            },
+            "isflat": false
+        }
+    ]
+}

@@ -83,6 +83,13 @@ events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
             server.commandManager.executeCommand(server, "/title " + player.name + " actionbar [\"\",{\"text\":\"" + game.localize("greedycraft.event.end.reject.message") + "\",\"color\":\"dark_purple\"}]");
         }
     }
+  
+    // Hot spring water is banned
+    if(player.world.getWorldTime() as long % 10 == 0) {
+        if(player.world.getBlock(player.position).definition.id == "biomesoplenty:hot_spring_water" || player.world.getBlock(player.position).definition.id == "sakura:hot_spring_water" || player.world.getBlock(player.position.getOffset(IFacing.up(), 1)).definition.id == "biomesoplenty:hot_spring_water" || player.world.getBlock(player.position.getOffset(IFacing.up(), 1)).definition.id == "sakura:hot_spring_water") {
+            player.attackEntityFrom(IDamageSource.GENERIC(), 10.0);
+        }
+    }
 
     // Prevent breathing in ocean with a door
     if(!player.creative && (player.world.getBiome(player.position).name.contains("Ocean") || player.world.getBiome(player.position).name.contains("Coral Reef") || player.world.getBiome(player.position).name.contains("Kelp Forest")) && player.y < 40.0) {

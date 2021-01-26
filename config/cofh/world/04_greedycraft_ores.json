@@ -302,7 +302,7 @@
                 "material": "aether_legacy:holystone",
                 "cluster-size": 4
             },
-            "cluster-count": 2,
+            "cluster-count": 5,
             "min-height": 15,
             "max-height": 90,
             "retrogen": "true",
@@ -531,7 +531,7 @@
                 "material": "air",
                 "cluster-size": 400
             },
-            "chunk-chance": 240,
+            "chunk-chance": 480,
             "cluster-count": 1,
             "center-height": 175,
             "spread": 50,
@@ -598,7 +598,7 @@
                 "material": "air",
                 "cluster-size": 500
             },
-            "chunk-chance": 160,
+            "chunk-chance": 320,
             "cluster-count": 1,
             "center-height": 175,
             "spread": 50,

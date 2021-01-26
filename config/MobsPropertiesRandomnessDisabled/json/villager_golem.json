@@ -1,0 +1,12 @@
+{
+    "mob_id": "minecraft:villager_golem",
+    "attributes": [
+        {
+            "id": "generic.maxHealth",
+            "modifier": {
+                "min": 1000
+            },
+            "isflat": false
+        }
+    ]
+}

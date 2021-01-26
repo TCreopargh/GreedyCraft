@@ -1,0 +1,12 @@
+{
+    "mob_id": "botania:doppleganger",
+    "attributes": [
+        {
+            "id": "generic.maxHealth",
+            "modifier": {
+                "min": 100
+            },
+            "isflat": false
+        }
+    ]
+}

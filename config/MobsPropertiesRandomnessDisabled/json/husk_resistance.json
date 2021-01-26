@@ -1,0 +1,12 @@
+{
+    "mob_id": "minecraft:husk",
+    "attributes": [
+        {
+            "id": "generic.knockbackResistance",
+            "modifier": {
+                "min": 50
+            },
+            "isflat": true
+        }
+    ]
+}

@@ -31,7 +31,7 @@
 		uid: "405633b4",
 		type: "item",
 		item: {
-			id: "thermalfoundation:tool.sword_bronze"
+			id: "minecraft:diamond_sword"
 		}
 	}]
 }
