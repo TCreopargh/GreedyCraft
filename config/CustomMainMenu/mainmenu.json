@@ -133,7 +133,7 @@
             "imageHeight": 383,
             "wrappedButton": 20,
             "texture": "greedycraft:mainmenu/account.png",
-            "tooltip": "ï¿½ï¿½7ï¿½ï¿½Ä¿Ç°ï¿½ï¿½Â¼ï¿½ï¿½ï¿½Ã»ï¿½ï¿½ï¿½ï¿½Ç¡ï¿½e#username#\nï¿½ï¿½aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð»ï¿½ï¿½Ë»ï¿½ï¿½ï¿½"
+            "tooltip": "¡ì7ÄúÄ¿Ç°µÇÂ¼µÄÓÃ»§ÃûÊÇ¡ìe#username#\n¡ìaµã»÷ÒÔÇÐ»»ÕË»§£¡"
         },
         "sponsor": {
             "text": " ",
@@ -207,7 +207,7 @@
     "labels": {
         "mojang": {
             "text": "Copyright Mojang AB. Do not distribute!",
-            "hoverText": "ï¿½ï¿½7ï¿½ï¿½nï¿½ï¿½ï¿½ï¿½é¿´Minecraftï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô±ï¿½Ð±ï¿½",
+            "hoverText": "¡ì7¡ìnµã»÷²é¿´Minecraft¿ª·¢ÈËÔ±ÁÐ±í",
             "color": -1,
             "alignment": "bottom_right",
             "posX": -2,
@@ -219,8 +219,8 @@
             }
         },
         "minecraft_version": {
-            "text": "ï¿½ï¿½aMinecraft ï¿½ï¿½2#mcversion#",
-            "hoverText": "ï¿½ï¿½aMinecraft Coder Pack ï¿½ï¿½2#mcpversion#",
+			"text": "¡ìaMinecraft ¡ì2#mcversion#",
+			"hoverText": "¡ìaMinecraft Coder Pack ¡ì2#mcpversion#",
             "color": -1,
             "posX": 2,
             "posY": -52,
@@ -237,7 +237,7 @@
                 "type": "openLink",
                 "link": "https://greedycraft.tcreopargh.xyz/"
             },
-            "hoverText": "ï¿½ï¿½eï¿½ï¿½nï¿½ï¿½ï¿½ï¿½ï¿½Ç°ï¿½ï¿½ï¿½Â°æ±¾ï¿½ï¿½ï¿½ï¿½Ò³ï¿½ï¿½",
+			"hoverText": "¡ìe¡ìnµã»÷ÒÔÇ°ÍùÐÂ°æ±¾ÏÂÔØÒ³Ãæ",
             "posX": 2,
             "posY": -12,
             "alignment": "bottom_left"
@@ -245,23 +245,23 @@
         "current_version": {
             "alignment": "bottom_left",
             "text": "file:greedycraft:version.txt",
-            "hoverText": "ï¿½ï¿½2ï¿½æ±¾ï¿½ï¿½ï¿½Ô½ï¿½ó£¬°æ±¾Ô½ï¿½Â£ï¿½ï¿½ï¿½È·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä°æ±¾ï¿½ï¿½ï¿½ï¿½ï¿½ÂµÄ£ï¿½",
+			"hoverText": "¡ì2°æ±¾±àºÅÔ½´ó£¬°æ±¾Ô½ÐÂ£¬ÇëÈ·±£ÄãÓÎÍæµÄ°æ±¾ÊÇ×îÐÂµÄ£¡",
             "color": -1,
             "posX": 2,
             "posY": -22
         },
         "modinfo": {
             "alignment": "bottom_left",
-            "text": "ï¿½ï¿½9Forgeï¿½æ±¾: ï¿½ï¿½b#forgeversion#  ï¿½ï¿½eï¿½Ñ¼ï¿½ï¿½Ø¡ï¿½6#modsloaded#ï¿½ï¿½eï¿½ï¿½Ä£ï¿½ï¿½",
-            "hoverText": "ï¿½ï¿½aFMLï¿½æ±¾: ï¿½ï¿½2#fmlversion#  ï¿½ï¿½dï¿½ï¿½ï¿½ï¿½ï¿½Ã¡ï¿½5#modsactive#ï¿½ï¿½dï¿½ï¿½Ä£ï¿½ï¿½",
+			"text": "¡ì9Forge°æ±¾: ¡ìb#forgeversion#  ¡ìeÒÑ¼ÓÔØ¡ì6#modsloaded#¡ìe¸öÄ£×é",
+			"hoverText": "¡ìaFML°æ±¾: ¡ì2#fmlversion#  ¡ìdÒÑÆôÓÃ¡ì5#modsactive#¡ìd¸öÄ£×é",
             "color": -1,
             "posX": 2,
             "posY": -32
         },
         "packinfo": {
             "alignment": "bottom_left",
-            "text": "ï¿½ï¿½eï¿½ï¿½ ï¿½ï¿½bï¿½ï¿½lÌ°ï¿½ï¿½ï¿½ï¿½ï¿½Ï°ï¿½ ï¿½ï¿½eï¿½ï¿½ ï¿½ï¿½rï¿½ï¿½dby TCreopargh",
-            "hoverText": "ï¿½ï¿½5ï¿½ï¿½ ï¿½ï¿½cï¿½ï¿½lÌ°ï¿½ï¿½ï¿½ï¿½ï¿½Ï°ï¿½ ï¿½ï¿½5ï¿½ï¿½ ï¿½ï¿½rï¿½ï¿½aby TCreopargh",
+			"text": " ¡ìe¡ï ¡ìb¡ìlÌ°À·ÕûºÏ°ü ¡ìe¡ï ¡ìr¡ìdby TCreopargh",
+			"hoverText": " ¡ì5¡ï ¡ìc¡ìlÌ°À·ÕûºÏ°ü ¡ì5¡ï ¡ìr¡ìaby TCreopargh",
             "action": {
                 "type": "openLink",
                 "link": "https://greedycraft.tcreopargh.xyz/"
@@ -271,8 +271,8 @@
             "posY": -42
         },
         "time": {
-            "text": "ï¿½ï¿½9ï¿½ï¿½Ã£ï¿½ï¿½ï¿½e#username#ï¿½ï¿½9ï¿½ï¿½ï¿½ï¿½6ï¿½ï¿½ï¿½ï¿½ï¿½Ç£ï¿½ï¿½ï¿½b#time#",
-            "hoverText": "ï¿½ï¿½9ï¿½ï¿½Ã£ï¿½ï¿½ï¿½e#username#ï¿½ï¿½9ï¿½ï¿½ï¿½ï¿½6ï¿½ï¿½ï¿½ï¿½ï¿½Ç£ï¿½ï¿½ï¿½d#date# ï¿½ï¿½b#time#",
+			"text": "¡ì9ÄãºÃ£¬¡ìe#username#¡ì9£¡¡ì6ÏÖÔÚÊÇ£º¡ìb#time#",
+			"hoverText": "¡ì9ÄãºÃ£¬¡ìe#username#¡ì9£¡¡ì6ÏÖÔÚÊÇ£º¡ìd#date# ¡ìb#time#",
             "posX": 2,
             "posY": 12,
             "color": -1,

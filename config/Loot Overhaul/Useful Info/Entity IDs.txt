@@ -749,7 +749,6 @@ aether_legacy:parachute - 747
 aether_legacy:whirlwind - 748
 aether_legacy:tipped_phoenix_arrow - 749
 coroutil:bat_smart - 750
-creativecore:sit - 751
 zombieawareness:entityscent - 752
 extrabotany:flower_weapon - 753
 extrabotany:gaiaiii - 754

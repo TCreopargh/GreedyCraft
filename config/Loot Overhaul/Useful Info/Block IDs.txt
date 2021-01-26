@@ -7622,3 +7622,8 @@ midnight:viridshroom_trapdoor - 7619
 logisticsbridge:lb.bridge - 7620
 logisticsbridge:lb.crafting_managerae - 7621
 thermallogistics:terminal_item_active - 7622
+rustic:candle_lever - 7623
+rustic:candle_lever_silver - 7624
+thaumadditions:chiseled_greatwood - 7625
+rustic:candle_lever_gold - 7626
+thaumadditions:vis_crop/tempus - 7627

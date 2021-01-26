@@ -5,22 +5,29 @@
 
 #priority 80
 #packmode adventure
-import mods.hungertweaker.Starvation;
-import mods.hungertweaker.Exhaustion;
-import mods.hungertweaker.events.HungerEvents;
+
 import crafttweaker.player.IFoodStats;
 import crafttweaker.event.PlayerLoggedInEvent;
 import crafttweaker.player.IPlayer;
 import crafttweaker.event.IPlayerEvent;
-import mods.ctutils.utils.Math;
 import crafttweaker.server.IServer;
 
-Starvation.setDamage(2);
+import mods.ctutils.utils.Math;
+import mods.hungertweaker.SaturatedRegen;
+import mods.hungertweaker.Starvation;
+import mods.hungertweaker.Exhaustion;
+import mods.hungertweaker.events.HungerEvents;
+import mods.hungertweaker.Regen;
+import mods.hungertweaker.Hunger;
+
+Regen.setInterval("x*1.2");
+SaturatedRegen.setInterval("x*1.2");
+Starvation.setDamage(3);
 Exhaustion.setMaxExhaustionLevel("x*0.6");
 
 // Decreasing hunger consumption at lower hunger values
 HungerEvents.onExhausted(function(event as mods.hungertweaker.events.ExhaustedEvent) {
-    if((Math.random()*10000)<((20-event.player.foodStats.foodLevel)*400)) {
+    if((Math.random() * 10000) < ((20 - event.player.foodStats.foodLevel) * 400)) {
         event.deltaHunger = 0;
         event.deltaSaturation = 0;
         

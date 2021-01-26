@@ -21,11 +21,11 @@
         },
         {
             "type": "text",
-            "text": "$(li) When viewing recipes in JEI, Shift-click '+' button to move all required items in your inv to crafting table.$(li) You can claim all quest rewards at once by clicking the button on the top right of quest menu.$(li) $(6)Bauble slots$() are opened through the button on your avatar in inventory. Some baubles automatically place torches!$(li) You can cast milk to cheese with an empty casting table.$(li) Smelt zombie pigmen in tinkers' smeltry to get gold!."
+            "text": "$(li) When viewing recipes in JEI, Shift-click '+' button to move all required items in your inv to crafting table.$(li) You can claim all quest rewards at once by clicking the button on the top right of quest menu.$(li) $(6)Bauble slots$() are opened through the button on your avatar in inventory. Some baubles automatically place torches!$(li) You can cast milk to cheese with an empty casting table.$(li) Smelt zombie pigmen in tinkers' smeltery to get gold!."
         },
         {
             "type": "text",
-            "text": "$(li) It's recommended to use 'Internal' than 'off' if you're gonna turn off shaders$(li) Use medkits to regenerate health in battles!$(li) Real first player toggle can be found in R-button menu.$(li) Draconic Evolution's tools and armors are disabled, use Tinkers' material instead.$(li) Push a cow into your smeltry to get milk!$(li) You can craft any player's skull by combining any mob head with a named name tag."
+            "text": "$(li) It's recommended to use 'Internal' than 'off' if you're gonna turn off shaders$(li) Use medkits to regenerate health in battles!$(li) Real first player toggle can be found in R-button menu.$(li) Draconic Evolution's tools and armors are disabled, use Tinkers' material instead.$(li) Push a cow into your smeltery to get milk!$(li) You can craft any player's skull by combining any mob head with a named name tag."
         },
         {
             "type": "text",

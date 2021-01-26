@@ -17,6 +17,10 @@ import mods.jei.JEI;
 import scripts.util.recipes as RecipeUtil;
 
 val disabledItems as IIngredient[] = [
+    <betternether:stalagnate_bowl>,
+    <betternether:stalagnate_bowl_apple>,
+    <betternether:stalagnate_bowl_mushroom>,
+    <betternether:stalagnate_bowl_wart>,
     <botania:blackholetalisman>,
     <extrautils2:wateringcan:*>,
     <bountifulbaubles:trinketbrokenheart:*>,
