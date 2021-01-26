@@ -9,8 +9,8 @@ assignees: ''
 
 **Before reporting, make sure your problem isn't caused by the game running out of RAM and you have read the installation guide carefully.**
 If the game crashes to your desktop without showing a crash screen it's a RAM issue. Don't submit this kind of issue. Please view the installation guide for how to solve this issue. 
-If this is not the case check the checkbox below.
- - [] Yes, I'm sure this problem isn't because my game ran out of RAM.
+If this is not the case check the checkbox below by replacing the space between brackets with an 'x'.
+ - [ ] Yes, I'm sure this problem isn't because my game ran out of RAM.
 
 **Describe the bug**
 A clear and concise description of what the bug is.
