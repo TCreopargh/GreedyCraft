@@ -21,7 +21,7 @@ Alloy.addRecipe(<liquid:emerald> * 2, [<liquid:experience> * 3, <liquid:redstone
 Alloy.addRecipe(<liquid:end_steel> * (VOLUME_INGOT * 2), [<liquid:obsidian> * (VOLUME_INGOT * 2), <liquid:dark_steel> * (VOLUME_INGOT * 2), <liquid:ender> * 250]);
 Alloy.addRecipe(<liquid:experience> * 16, [<liquid:blood> * 8, <liquid:emerald> * 1, <liquid:gold> * 1]);
 Alloy.addRecipe(<liquid:fierymetal> * 2, [<liquid:iron> * 2, <liquid:pyrotheum> * 1, <liquid:lava> * 1]);
-Alloy.addRecipe(<liquid:fluxed_electrum> * (VOLUME_INGOT * 2), [<liquid:gold> * VOLUME_INGOT, <liquid:silver> * VOLUME_INGOT, <liquid:redstone> * 100]);
+Alloy.addRecipe(<liquid:fluxed_electrum> * (VOLUME_INGOT * 2), [<liquid:electrum> * (VOLUME_INGOT * 2), <liquid:redstone> * 100]);
 Alloy.addRecipe(<liquid:fusion_matrix> * 2, [<liquid:manyullyn> * 2, <liquid:adamant_fluid> * 1, <liquid:enderium> * 2]);
 Alloy.addRecipe(<liquid:liquid_chocolate> * 2, [<liquid:chocolate_liquor> * 1, <liquid:milk> * 1]);
 Alloy.addRecipe(<liquid:modularium> * (VOLUME_INGOT * 2), [<liquid:conductive_iron> * VOLUME_INGOT, <liquid:bronze> * VOLUME_INGOT]);

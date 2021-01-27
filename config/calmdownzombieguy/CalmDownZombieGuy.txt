@@ -1,0 +1,28 @@
+
+//Configs are read on server load.
+
+
+//How often each entity attempts to start new AI tasks, in ticks. Vanilla is 3.
+setNewTaskTickRate(3)
+
+
+//Sets the 1/chance for all entities to start their wander ai task. Vanilla is mostly 120.
+setEntityWanderChance(120)
+
+
+//Multiplies the chance for AI tasks to acquire new attack targets to run per tick. Lower will increase frequency. Vanilla is 1.
+setEntityAttackTargetMultiplier(1)
+
+
+//Sets the chance/100 chance for an AI task and its children to tick.
+//Makes the wander task only tick 25% of the time. Uncomment to enable.
+//setTickChanceForTask("net.minecraft.entity.ai.EntityAIWander", 25)
+
+
+//If a tick takes more than the set number of milliseconds, cancels all EntityLiving updates afterwards. At 20tps, a tick is 50ms long.
+//Updates are sorted based on distance from any player, so entities nearby a player are updated first.
+//Entities attacking a player or being ridden by a player as well as withers and dragons will never have their updates cancelled.
+//This should mean that primarily only unimportant entities will have their updates skipped, while leaving important ones untouched.
+//Only effects entities in dimension 0.
+//Entities in other dimensions and tile entities are still updated afterwards, so some excess time should be left open.
+setMaxTickTimeBeforeCancellingEntityUpdates(30)
