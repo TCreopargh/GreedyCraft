@@ -44,7 +44,8 @@ global welcomeQuotes as string[][string] = {
         "§eUse §6/backup§e command to backup the world, you can find a button to restore backups in world selection menu!",
         "§eYou can change the packmode outside of the game in config/packmodes.cfg, edit what's after packmode= to change the packmode!",
         "§6If you feel laggy, press R to open a menu and choose §eClean Memory§6, or you can try to decrease the render disance.", 
-        '["",{"text":"§eIf you like this modpack please consider supporting its author!"},{"text":"§d§nPatreon Site","clickEvent":{"action":"open_url","value":"http://patreon.tcreopargh.xyz/"}}]"'
+        '["",{"text":"§eIf you like this modpack please consider supporting its author! "},{"text":"§d§nPatreon Site","clickEvent":{"action":"open_url","value":"http://patreon.tcreopargh.xyz/"}}]"',
+        '["",{"text":"§eFound a bug? Please report it at "},{"text":"§9§n"GitHub Issues","clickEvent":{"action":"open_url","value":"https://github.com/TCreopargh/GreedyCraft/issues"}},{"text":"§e!"}]'
         // TODO
     ]
 };
