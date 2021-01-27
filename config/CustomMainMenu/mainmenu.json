@@ -253,15 +253,15 @@
 		"modinfo": {
 			"alignment": "bottom_left",
 			"text": "¡ì9Forge Version: ¡ìb#forgeversion# ¡ì7| ¡ìe¡ì6#modsloaded#¡ìe mods loaded",
-			"hoverText": "¡ìaFML Version: ¡ì2#fmlversion# ¡ì7| ¡ìd¡ì5#modsactive#¡ìd mods loaded",
+			"hoverText": "¡ìaFML Version: ¡ì2#fmlversion# ¡ì7| ¡ìd¡ì5#modsactive#¡ìd mods active",
 			"color": -1,
 			"posX": 2,
 			"posY": -32
 		},
 		"packinfo": {
 			"alignment": "bottom_left",
-			"text": "¡ìe¡ì ¡ìb¡ìlGreedyCraft ¡ìe¡ì ¡ìr¡ìdby TCreopargh",
-			"hoverText": "¡ì5¡ì ¡ìc¡ìlGreedyCraft ¡ì5¡ì ¡ìr¡ìaby TCreopargh",
+			"text": "¡ìe¡ï ¡ìb¡ìlGreedyCraft ¡ìe¡ï ¡ìr¡ìdby TCreopargh",
+			"hoverText": "¡ì5¡ï ¡ìc¡ìlGreedyCraft ¡ì5¡ï ¡ìr¡ìaby TCreopargh",
 			"action": {
 				"type": "openLink",
 				"link": "https://greedycraft.tcreopargh.xyz/"

@@ -27,7 +27,7 @@ val alloyRecipes as ILiquidStack[][ILiquidStack] = {
     <liquid:liquid_chocolate> * 2 : [<liquid:chocolate_liquor> * 1, <liquid:milk> * 1],
     <liquid:terra_alloy> * 2 : [<liquid:cytosinite> * 1, <liquid:cryonium> * 1, <liquid:infernium> * 1, <liquid:titanium> * 1],
     <liquid:adamant_fluid> * 3 : [<liquid:nihilite_fluid> * 1, <liquid:iox_fluid> * 3],
-    <liquid:fluxed_electrum> * 288 : [<liquid:gold> * 144, <liquid:silver> * 144, <liquid:redstone> * 100],
+    <liquid:fluxed_electrum> * 288 : [<liquid:electrum> * 288, <liquid:redstone> * 100],
     <liquid:fusion_matrix> * 2 : [<liquid:manyullyn> * 2, <liquid:adamant_fluid> * 1, <liquid:enderium> * 2],
     <liquid:experience> * 16 : [<liquid:blood> * 8, <liquid:emerald> * 1, <liquid:gold> * 1],
     <liquid:fierymetal> * 2 : [<liquid:iron> * 2, <liquid:pyrotheum> * 1, <liquid:lava> * 1],

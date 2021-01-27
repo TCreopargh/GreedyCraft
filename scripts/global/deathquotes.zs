@@ -145,7 +145,7 @@ global deathQuotes as string[][string] = {
         "§eYou were §c[REDACTED]§e by §c[REDACTED]§e.",
         "§aBlame Mojang for this.",
         "§bI'm an experienced player, really.",
-        "§6§o%playername%§c§r§o's seek for death finally got answered.",
+        "§6§o%playername%§c§r§5§o's seek for death finally got answered.",
         "§cD§6I§aE §eI§bN §dC§9O§6L§bO§2R§5S",
         "§a%playername% has met his end.",
         "§9§lI think this is where it ends.",

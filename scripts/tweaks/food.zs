@@ -9,7 +9,16 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.data.IData;
 import crafttweaker.item.IIngredient;
 
-(<twilightforest:meef_stroganoff> as IIngredient).foodValues.hunger = 0;
-(<twilightforest:meef_stroganoff> as IIngredient).foodValues.saturationModifier = 0;
+static buggedFoods as IItemStack[] = [
+    <betternether:stalagnate_bowl_apple>,
+    <betternether:stalagnate_bowl_mushroom>,
+    <betternether:stalagnate_bowl_wart>,
+    <twilightforest:meef_stroganoff>
+];
+
+for food in buggedFoods {
+    (food as IIngredient).foodValues.hunger = 0;
+    (food as IIngredient).foodValues.saturationModifier = 0;
+}
 
 (<abyssalcraft:mre> as IIngredient).foodValues.hunger = 10;

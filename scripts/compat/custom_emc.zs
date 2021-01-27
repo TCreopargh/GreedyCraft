@@ -190,7 +190,6 @@ val emcMapping as long[IIngredient] = {
     <additions:cytosinite_ingot:0> : 20000 as long,
     <additions:terra_alloy_ingot:0> : 200000 as long,
     <thaumadditions:mithminite_ingot:0> : 262144 as long,
-    <appliedenergistics2:material:47> : 0 as long,
     <nyx:fallen_star:0> : 8000 as long,
     <additions:shadowium_ingot:0> : 12000 as long,
     <additions:aeroite_ingot:0> : 2500 as long,
@@ -246,7 +245,11 @@ val emcMapping as long[IIngredient] = {
     <openmodularturrets:rocket_turret:0> : 0 as long,
     <openmodularturrets:teleporter_turret:0> : 0 as long,
     <projectex:stone_table> : 0 as long,
-    <projecte:transmutation_table> : 0 as long
+    <projecte:transmutation_table> : 0 as long,
+    <projectex:energy_link:*> : 0 as long,
+    <appliedenergistics2:material:47> : 0 as long,
+    <appliedenergistics2:material:48> : 0 as long,
+    <projectex:personal_link> : 0 as long
 };
 
 for ingredient, value in emcMapping {
