@@ -1,5 +1,0 @@
-C:\Minecraft\.minecraft\versions\GreedyCraft\addons\Additions\GreedyCraft\data\loot_tables\additions\blocks\greedycraft-chromium_ore.json
-- Expected preset_block to be a block, was unknown string 'additions:greedycraft-chromium_ore'
-- Expected preset_block to be a block, was unknown string 'additions:greedycraft-chromium_ore'
-- Expected preset_block to be a block, was unknown string 'additions:greedycraft-chromium_ore'
-

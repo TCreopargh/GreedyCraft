@@ -1,3 +1,0 @@
-C:\Minecraft\.minecraft\versions\GreedyCraft-1.12.2\addons\Additions\GreedyCraft\data\creative_tabs\greedycraft-greedycraft.json
-- Expected item to be an item, was unknown string 'grapplemod:grapplinghook'
-

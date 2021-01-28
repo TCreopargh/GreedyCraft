@@ -1,5 +1,5 @@
 #Sat Jan 23 18:33:13 CST 2021
-shaderPack=§9(默认, §eBSL修改版§9)§e ComplementaryShaders_3.11_dev4.zip
+shaderPack=§9(默认, §eBSL修改版§9)§e ComplementaryShaders_3.11_dev5.zip
 antialiasingLevel=0
 normalMapEnabled=true
 specularMapEnabled=true
