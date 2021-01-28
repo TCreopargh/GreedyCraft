@@ -1,3 +1,0 @@
-C:\Minecraft\.minecraft\versions\GreedyCraft-1.12.2\addons\Additions\TCreopargh_Sponsors_mod\data\creative_tabs\tcsponsors-sponsors_content.json
-- Expected item to be an item, was unknown string 'additions:tcsponsors-snake_rune'
-

@@ -1121,19 +1121,12 @@
 	{
 		item: {
 			id: "hooked:hook",
-			tag: {
-				baubleModifier: "wild",
-				inhibited: 1b
-			},
 			Damage: 2s
 		}
 	},
 	{
 		item: {
 			id: "hooked:hook",
-			tag: {
-				baubleModifier: "angry"
-			},
 			Damage: 4s
 		}
 	},

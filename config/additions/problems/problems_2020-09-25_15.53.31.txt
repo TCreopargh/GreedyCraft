@@ -1,5 +1,0 @@
-C:\Minecraft\.minecraft\versions\GreedyCraft-1.12.2\addons\Additions\GreedyCraft\data\loot_tables\additions\blocks\greedycraft-cryonium_block.json
-- Expected preset_block to be a block, was unknown string 'additions:greedycraft-cryonium_block'
-- Expected preset_block to be a block, was unknown string 'additions:greedycraft-cryonium_block'
-- Expected preset_block to be a block, was unknown string 'additions:greedycraft-cryonium_block'
-
