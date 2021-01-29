@@ -29,13 +29,6 @@
 		item: "tconstruct:materials 1 50"
 	},
 	{
-		item: "solarflux:solar_panel_draconic"
-	},
-	{
-		item: "solarflux:solar_panel_wyvern",
-		count: 4
-	},
-	{
 		item: "tinymobfarm:ultimate_farm"
 	},
 	{

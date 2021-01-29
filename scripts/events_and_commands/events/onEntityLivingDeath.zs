@@ -20,6 +20,7 @@ import crafttweaker.block.IBlockState;
 import crafttweaker.potions.IPotionEffect;
 import crafttweaker.world.IFacing;
 import crafttweaker.command.ICommandSender;
+import crafttweaker.event.EntityLivingDeathEvent;
 
 import mods.ctutils.utils.Math;
 import mods.ctutils.world.IGameRules;
@@ -27,7 +28,7 @@ import mods.ctutils.world.IGameRules;
 import scripts.util.patreons as PatreonUtil;
 import scripts.util.lang as LangUtil;
 
-events.onEntityLivingDeath(function (event as crafttweaker.event.EntityLivingDeathEvent) {
+events.onEntityLivingDeath(function (event as EntityLivingDeathEvent) {
     if(event.entityLivingBase instanceof IPlayer) {
         var player as IPlayer = event.entityLivingBase;
         var damageSource as IDamageSource = event.damageSource;

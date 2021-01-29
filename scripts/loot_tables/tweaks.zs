@@ -23,6 +23,7 @@ var dungeonPool1 = dungeon.getPool("pool1");
 LootTweaker.getTable("minecraft:chests/simple_dungeon").getPool("pool1").setRolls(1.0, 1.0);
 LootTweaker.getTable("minecraft:chests/simple_dungeon").getPool("pool2").setRolls(1.0, 2.0);
 LootTweaker.getTable("minecraft:chests/simple_dungeon").getPool("main").setRolls(2.0, 4.0);
+LootTweaker.getTable("minecraft:chests/simple_dungeon").getPool("main").setBonusRolls(0.0, 1.0);
 LootTweaker.getTable("minecraft:chests/simple_dungeon").getPool("Ender IO").addConditionsHelper([Conditions.randomChance(0.3)]);
 LootTweaker.getTable("minecraft:chests/simple_dungeon").getPool("pool1").addConditionsHelper([Conditions.randomChance(0.5)]);
 LootTweaker.getTable("minecraft:chests/simple_dungeon").getPool("pool2").addConditionsHelper([Conditions.randomChance(0.25)]);
@@ -69,12 +70,24 @@ LootTweaker.getTable("minecraft:chests/abandoned_mineshaft").getPool("forestry_f
 LootTweaker.getTable("minecraft:chests/abandoned_mineshaft").getPool("forestry_factory_items").removeEntry("forestry:broken_bronze_pickaxe");
 LootTweaker.getTable("minecraft:chests/stronghold_corridor").getPool("main").removeEntry("abyssalcraft:copper_ingot");
 LootTweaker.getTable("minecraft:chests/stronghold_corridor").getPool("main").removeEntry("abyssalcraft:tin_ingot");
+
 LootTweaker.getTable("minecraft:chests/stronghold_corridor").getPool("main").removeEntry("cyclicmagic:item.cyclic_wand_build");
+LootTweaker.getTable("minecraft:chests/stronghold_crossing").getPool("main").removeEntry("cyclicmagic:item.cyclic_wand_build");
 LootTweaker.getTable("minecraft:chests/abandoned_mineshaft").getPool("main").removeEntry("cyclicmagic:item.cyclic_wand_build");
 LootTweaker.getTable("minecraft:chests/jungle_temple").getPool("main").removeEntry("cyclicmagic:item.cyclic_wand_build");
 LootTweaker.getTable("minecraft:chests/end_city_treasure").getPool("main").removeEntry("cyclicmagic:item.cyclic_wand_build");
 LootTweaker.getTable("minecraft:chests/nether_bridge").getPool("main").removeEntry("cyclicmagic:item.cyclic_wand_build");
 LootTweaker.getTable("minecraft:chests/desert_pyramid").getPool("main").removeEntry("cyclicmagic:item.cyclic_wand_build");
+LootTweaker.getTable("minecraft:chests/village_blacksmith").getPool("main").removeEntry("cyclicmagic:item.cyclic_wand_build");
+
+LootTweaker.getTable("minecraft:chests/stronghold_corridor").getPool("main").removeEntry("cyclicmagic:item.tool_push");
+LootTweaker.getTable("minecraft:chests/stronghold_crossing").getPool("main").removeEntry("cyclicmagic:item.tool_push");
+LootTweaker.getTable("minecraft:chests/abandoned_mineshaft").getPool("main").removeEntry("cyclicmagic:item.tool_push");
+LootTweaker.getTable("minecraft:chests/jungle_temple").getPool("main").removeEntry("cyclicmagic:item.tool_push");
+LootTweaker.getTable("minecraft:chests/nether_bridge").getPool("main").removeEntry("cyclicmagic:item.tool_push");
+LootTweaker.getTable("minecraft:chests/desert_pyramid").getPool("main").removeEntry("cyclicmagic:item.tool_push");
+LootTweaker.getTable("minecraft:chests/village_blacksmith").getPool("main").removeEntry("cyclicmagic:item.tool_push");
+LootTweaker.getTable("minecraft:chests/simple_dungeon").getPool("main").removeEntry("cyclicmagic:item.tool_push");
 
 LootTweaker.getTable("minecraft:chests/simple_dungeon").getPool("main").removeEntry("cyclicmagic:item.heart_food");
 LootTweaker.getTable("minecraft:chests/abandoned_mineshaft").getPool("main").removeEntry("cyclicmagic:item.heart_food");

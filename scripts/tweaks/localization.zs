@@ -158,7 +158,15 @@ val localizationMap as string[string][string] = {
         "dc.message.deathAndRank": "死亡次数: %1$s排名: %2$s",
         "dc.command.leaderboard": "§a========== §e死亡排行榜 §a==========",
         "ac.ritual.abyssalite": "渊素转化",
-        "ac.ritual.abyssalite.desc": "使用阴影宝石将铁矿石变成渊素矿石！"
+        "ac.ritual.abyssalite.desc": "使用阴影宝石将铁矿石变成渊素矿石！",
+        "reskillable.skill.reskillable.mining": "挖掘 §7[§2+攻速§7]§r",
+        "reskillable.skill.reskillable.gathering": "采集 §7[§2+幸运§7]§r",
+        "reskillable.skill.reskillable.attack": "攻击 §7[§2+伤害§7]§r",
+        "reskillable.skill.reskillable.defense": "防御 §7[§2+盔甲§7]§r",
+        "reskillable.skill.reskillable.building": "建造 §7[§2+韧性§7]§r",
+        "reskillable.skill.reskillable.farming": "农耕 §7[§2+生命§7]§r",
+        "reskillable.skill.reskillable.agility": "敏捷 §7[§2+移速§7]§r",
+        "reskillable.skill.reskillable.magic": "魔法 §7[§2+击退抗性§7]§r"
     }, 
     en_us: {
         "modifier.mutate.name": "Mutating",
@@ -221,7 +229,15 @@ val localizationMap as string[string][string] = {
         "dc.message.deathAndRank": "Deaths: %1$s Rank: %2$s",
         "dc.command.leaderboard": "§a========== §eDeath Leaderboard §a==========",
         "ac.ritual.abyssalite": "Abyssalite Conversion",
-        "ac.ritual.abyssalite.desc": "Turn iron ores into abyssalite ores with these gems!"
+        "ac.ritual.abyssalite.desc": "Turn iron ores into abyssalite ores with these gems!",
+        "reskillable.skill.reskillable.mining": "Mining §7[§2+ATKSpeed§7]§r",
+        "reskillable.skill.reskillable.gathering": "Gathering §7[§2+Luck§7]§r",
+        "reskillable.skill.reskillable.attack": "Attack §7[§2+Damage§7]§r",
+        "reskillable.skill.reskillable.defense": "Defense §7[§2+Armor§7]§r",
+        "reskillable.skill.reskillable.building": "Building §7[§2+Toughness§7]§r",
+        "reskillable.skill.reskillable.farming": "Farming §7[§2+Health§7]§r",
+        "reskillable.skill.reskillable.agility": "Agility §7[§2+Speed§7]§r",
+        "reskillable.skill.reskillable.magic": "Magic §7[§2+KBRes§7]§r"
     }
 };
 

@@ -310,13 +310,13 @@
 	},
 	{
 		item: "solarflux:solar_panel_7",
-		count: 2,
-		random_bonus: 1
+		count: 1,
+		random_bonus: 0
 	},
 	{
 		item: "solarflux:solar_panel_6",
-		count: 6,
-		random_bonus: 5
+		count: 1,
+		random_bonus: 1
 	},
 	{
 		item: {

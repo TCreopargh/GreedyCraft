@@ -196,8 +196,8 @@
 	},
 	{
 		item: "solarflux:solar_panel_1",
-		count: 4,
-		random_bonus: 8
+		count: 1,
+		random_bonus: 2
 	},
 	{
 		item: "chancecubes:chance_cube",

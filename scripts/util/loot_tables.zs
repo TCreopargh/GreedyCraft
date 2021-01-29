@@ -48,32 +48,32 @@ static pools as LootPool[] = [
 ];
 
 static hardmodePools as LootPool[] = [
-    LootTweaker.getTable("minecraft:gameplay/fishing/treasure").addPool("hardmode", 3, 5, 0, 1),
-    LootTweaker.getTable("minecraft:chests/simple_dungeon").addPool("hardmode", 3, 5, 0, 1),
-    LootTweaker.getTable("minecraft:chests/abandoned_mineshaft").addPool("hardmode", 3, 5, 0, 1),
-    LootTweaker.getTable("minecraft:chests/end_city_treasure").addPool("hardmode", 3, 5, 0, 1),
-    LootTweaker.getTable("minecraft:chests/igloo_chest").addPool("hardmode", 3, 5, 0, 1),
-    LootTweaker.getTable("minecraft:chests/jungle_temple").addPool("hardmode", 3, 5, 0, 1),
-    LootTweaker.getTable("minecraft:chests/nether_bridge").addPool("hardmode", 3, 5, 0, 1),
-    LootTweaker.getTable("minecraft:chests/stronghold_corridor").addPool("hardmode", 3, 5, 0, 1),
-    LootTweaker.getTable("minecraft:chests/desert_pyramid").addPool("hardmode", 3, 5, 0, 1),
-    LootTweaker.getTable("minecraft:chests/woodland_mansion").addPool("hardmode", 3, 5, 0, 1),
-    LootTweaker.getTable("minecraft:chests/stronghold_library").addPool("hardmode", 3, 5, 0, 1),
-    LootTweaker.getTable("minecraft:chests/stronghold_crossing").addPool("hardmode", 3, 5, 0, 1),
-    LootTweaker.getTable("minecraft:chests/village_blacksmith").addPool("hardmode", 3, 5, 0, 1),
-    LootTweaker.getTable("aether_legacy:chests/bronze_dungeon_chest").addPool("hardmode", 3, 5, 0, 1),
-    LootTweaker.getTable("aether_legacy:chests/silver_dungeon_chest").addPool("hardmode", 3, 5, 0, 1),
-    LootTweaker.getTable("abyssalcraft:chests/omothol/library").addPool("hardmode", 3, 5, 0, 1),
-    LootTweaker.getTable("abyssalcraft:chests/omothol/storage_treasure").addPool("hardmode", 3, 5, 0, 1),
-    LootTweaker.getTable("abyssalcraft:chests/omothol/blacksmith").addPool("hardmode", 3, 5, 0, 1),
-    LootTweaker.getTable("abyssalcraft:chests/stronghold_corridor").addPool("hardmode", 3, 5, 0, 1),
-    LootTweaker.getTable("abyssalcraft:chests/stronghold_crossing").addPool("hardmode", 3, 5, 0, 1),
-    LootTweaker.getTable("cqrepoured:chests/treasure").addPool("hardmode", 3, 5, 0, 1),
-    LootTweaker.getTable("cqrepoured:chests/material").addPool("hardmode", 3, 5, 0, 1),
-    LootTweaker.getTable("defiledlands:chests/dungeon_defiled").addPool("hardmode", 3, 5, 0, 1),
-    LootTweaker.getTable("lostcities:chests/lostcitychest").addPool("hardmode", 3, 5, 0, 1),
-    LootTweaker.getTable("lostcities:chests/raildungeonchest").addPool("hardmode", 3, 5, 0, 1),
-    LootTweaker.getTable("quark:chests/pirate_chest").addPool("hardmode", 3, 5, 0, 1)
+    LootTweaker.getTable("minecraft:gameplay/fishing/treasure").addPool("hardmode", HARDMODE_MIN_ROLLS, HARDMODE_MAX_ROLLS, 0, 1),
+    LootTweaker.getTable("minecraft:chests/simple_dungeon").addPool("hardmode", HARDMODE_MIN_ROLLS, HARDMODE_MAX_ROLLS, 0, 1),
+    LootTweaker.getTable("minecraft:chests/abandoned_mineshaft").addPool("hardmode", HARDMODE_MIN_ROLLS, HARDMODE_MAX_ROLLS, 0, 1),
+    LootTweaker.getTable("minecraft:chests/end_city_treasure").addPool("hardmode", HARDMODE_MIN_ROLLS, HARDMODE_MAX_ROLLS, 0, 1),
+    LootTweaker.getTable("minecraft:chests/igloo_chest").addPool("hardmode", HARDMODE_MIN_ROLLS, HARDMODE_MAX_ROLLS, 0, 1),
+    LootTweaker.getTable("minecraft:chests/jungle_temple").addPool("hardmode", HARDMODE_MIN_ROLLS, HARDMODE_MAX_ROLLS, 0, 1),
+    LootTweaker.getTable("minecraft:chests/nether_bridge").addPool("hardmode", HARDMODE_MIN_ROLLS, HARDMODE_MAX_ROLLS, 0, 1),
+    LootTweaker.getTable("minecraft:chests/stronghold_corridor").addPool("hardmode", HARDMODE_MIN_ROLLS, HARDMODE_MAX_ROLLS, 0, 1),
+    LootTweaker.getTable("minecraft:chests/desert_pyramid").addPool("hardmode", HARDMODE_MIN_ROLLS, HARDMODE_MAX_ROLLS, 0, 1),
+    LootTweaker.getTable("minecraft:chests/woodland_mansion").addPool("hardmode", HARDMODE_MIN_ROLLS, HARDMODE_MAX_ROLLS, 0, 1),
+    LootTweaker.getTable("minecraft:chests/stronghold_library").addPool("hardmode", HARDMODE_MIN_ROLLS, HARDMODE_MAX_ROLLS, 0, 1),
+    LootTweaker.getTable("minecraft:chests/stronghold_crossing").addPool("hardmode", HARDMODE_MIN_ROLLS, HARDMODE_MAX_ROLLS, 0, 1),
+    LootTweaker.getTable("minecraft:chests/village_blacksmith").addPool("hardmode", HARDMODE_MIN_ROLLS, HARDMODE_MAX_ROLLS, 0, 1),
+    LootTweaker.getTable("aether_legacy:chests/bronze_dungeon_chest").addPool("hardmode", HARDMODE_MIN_ROLLS, HARDMODE_MAX_ROLLS, 0, 1),
+    LootTweaker.getTable("aether_legacy:chests/silver_dungeon_chest").addPool("hardmode", HARDMODE_MIN_ROLLS, HARDMODE_MAX_ROLLS, 0, 1),
+    LootTweaker.getTable("abyssalcraft:chests/omothol/library").addPool("hardmode", HARDMODE_MIN_ROLLS, HARDMODE_MAX_ROLLS, 0, 1),
+    LootTweaker.getTable("abyssalcraft:chests/omothol/storage_treasure").addPool("hardmode", HARDMODE_MIN_ROLLS, HARDMODE_MAX_ROLLS, 0, 1),
+    LootTweaker.getTable("abyssalcraft:chests/omothol/blacksmith").addPool("hardmode", HARDMODE_MIN_ROLLS, HARDMODE_MAX_ROLLS, 0, 1),
+    LootTweaker.getTable("abyssalcraft:chests/stronghold_corridor").addPool("hardmode", HARDMODE_MIN_ROLLS, HARDMODE_MAX_ROLLS, 0, 1),
+    LootTweaker.getTable("abyssalcraft:chests/stronghold_crossing").addPool("hardmode", HARDMODE_MIN_ROLLS, HARDMODE_MAX_ROLLS, 0, 1),
+    LootTweaker.getTable("cqrepoured:chests/treasure").addPool("hardmode", HARDMODE_MIN_ROLLS, HARDMODE_MAX_ROLLS, 0, 1),
+    LootTweaker.getTable("cqrepoured:chests/material").addPool("hardmode", HARDMODE_MIN_ROLLS, HARDMODE_MAX_ROLLS, 0, 1),
+    LootTweaker.getTable("defiledlands:chests/dungeon_defiled").addPool("hardmode", HARDMODE_MIN_ROLLS, HARDMODE_MAX_ROLLS, 0, 1),
+    LootTweaker.getTable("lostcities:chests/lostcitychest").addPool("hardmode", HARDMODE_MIN_ROLLS, HARDMODE_MAX_ROLLS, 0, 1),
+    LootTweaker.getTable("lostcities:chests/raildungeonchest").addPool("hardmode", HARDMODE_MIN_ROLLS, HARDMODE_MAX_ROLLS, 0, 1),
+    LootTweaker.getTable("quark:chests/pirate_chest").addPool("hardmode", HARDMODE_MIN_ROLLS, HARDMODE_MAX_ROLLS, 0, 1)
 ];
 
 for pool in hardmodePools {
@@ -82,7 +82,7 @@ for pool in hardmodePools {
 		"stage_name": "hardmode"
 	}, {
         "condition": "minecraft:random_chance",
-        "chance": 0.6
+        "chance": 0.5
     }]);
 }
 
