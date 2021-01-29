@@ -249,7 +249,11 @@ val emcMapping as long[IIngredient] = {
     <projectex:energy_link:*> : 0 as long,
     <appliedenergistics2:material:47> : 0 as long,
     <appliedenergistics2:material:48> : 0 as long,
-    <projectex:personal_link> : 0 as long
+    <projectex:personal_link> : 0 as long,
+    <additions:cosmilite_ingot:0> : 0 as long,
+    <additions:aeonsteel_ingot:0> : 0 as long,
+    <additions:durasteel_ingot:0> : 0 as long,
+    <additions:netherite_ingot:0> : 160000 as long
 };
 
 for ingredient, value in emcMapping {

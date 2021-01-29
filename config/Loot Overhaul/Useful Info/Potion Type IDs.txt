@@ -236,34 +236,19 @@ enderio:long_floating
        minecraft:levitation - 560 - 0 - false - true
 
 
-mowziesmobs:poison_resist
+quark:resilience
    - Effects: 
-       mowziesmobs:poison_resist - 3600 - 0 - false - true
+       quark:resilience - 3600 - 0 - false - true
 
 
-mowziesmobs:long_poison_resist
+quark:long_resilience
    - Effects: 
-       mowziesmobs:poison_resist - 9600 - 0 - false - true
+       quark:resilience - 9600 - 0 - false - true
 
 
-netherex:freezing
+quark:strong_resilience
    - Effects: 
-       netherex:frozen - 600 - 0 - false - true
-
-
-netherex:frigid_health
-   - Effects: 
-       netherex:frostbitten - 600 - 0 - false - true
-
-
-netherex:dispersal
-   - Effects: 
-       netherex:infested - 600 - 0 - false - true
-
-
-netherex:sorrow
-   - Effects: 
-       netherex:crying - 600 - 0 - false - true
+       quark:resilience - 1800 - 1 - false - true
 
 
 quark:haste
@@ -319,21 +304,6 @@ quark:danger_sight
 quark:long_danger_sight
    - Effects: 
        quark:danger_sight - 9600 - 0 - false - true
-
-
-quark:resilience
-   - Effects: 
-       quark:resilience - 3600 - 0 - false - true
-
-
-quark:long_resilience
-   - Effects: 
-       quark:resilience - 9600 - 0 - false - true
-
-
-quark:strong_resilience
-   - Effects: 
-       quark:resilience - 1800 - 1 - false - true
 
 
 potioncore:saturation
@@ -996,6 +966,36 @@ potioncore:long_archery
        potioncore:archery - 9600 - 0 - false - true
 
 
+mowziesmobs:poison_resist
+   - Effects: 
+       mowziesmobs:poison_resist - 3600 - 0 - false - true
+
+
+mowziesmobs:long_poison_resist
+   - Effects: 
+       mowziesmobs:poison_resist - 9600 - 0 - false - true
+
+
+netherex:freezing
+   - Effects: 
+       netherex:frozen - 600 - 0 - false - true
+
+
+netherex:frigid_health
+   - Effects: 
+       netherex:frostbitten - 600 - 0 - false - true
+
+
+netherex:dispersal
+   - Effects: 
+       netherex:infested - 600 - 0 - false - true
+
+
+netherex:sorrow
+   - Effects: 
+       netherex:crying - 600 - 0 - false - true
+
+
 treasure2:extra_strong_healing
    - Effects: 
        minecraft:instant_health - 1 - 2 - false - true
@@ -1044,6 +1044,41 @@ variegated:boon3
 variegated:attraction
    - Effects: 
        variegated:attraction - 200 - 0 - false - true
+
+
+abyssalcraft:cplague
+   - Effects: 
+       abyssalcraft:cplague - 3600 - 0 - false - true
+
+
+abyssalcraft:cplague_long
+   - Effects: 
+       abyssalcraft:cplague - 9600 - 0 - false - true
+
+
+abyssalcraft:dplague
+   - Effects: 
+       abyssalcraft:dplague - 3600 - 0 - false - true
+
+
+abyssalcraft:dplague_long
+   - Effects: 
+       abyssalcraft:dplague - 9600 - 0 - false - true
+
+
+abyssalcraft:dplague_strong
+   - Effects: 
+       abyssalcraft:dplague - 432 - 1 - false - true
+
+
+abyssalcraft:antimatter
+   - Effects: 
+       abyssalcraft:antimatter - 3600 - 0 - false - true
+
+
+abyssalcraft:antimatter_long
+   - Effects: 
+       abyssalcraft:antimatter - 9600 - 0 - false - true
 
 
 cofhcore:haste
@@ -1511,41 +1546,6 @@ charm:decay
 charm:ender_sight
    - Effects: 
        charm:ender_sight - 200 - 0 - false - true
-
-
-abyssalcraft:cplague
-   - Effects: 
-       abyssalcraft:cplague - 3600 - 0 - false - true
-
-
-abyssalcraft:cplague_long
-   - Effects: 
-       abyssalcraft:cplague - 9600 - 0 - false - true
-
-
-abyssalcraft:dplague
-   - Effects: 
-       abyssalcraft:dplague - 3600 - 0 - false - true
-
-
-abyssalcraft:dplague_long
-   - Effects: 
-       abyssalcraft:dplague - 9600 - 0 - false - true
-
-
-abyssalcraft:dplague_strong
-   - Effects: 
-       abyssalcraft:dplague - 432 - 1 - false - true
-
-
-abyssalcraft:antimatter
-   - Effects: 
-       abyssalcraft:antimatter - 3600 - 0 - false - true
-
-
-abyssalcraft:antimatter_long
-   - Effects: 
-       abyssalcraft:antimatter - 9600 - 0 - false - true
 
 
 extrautils2:xu2.doom

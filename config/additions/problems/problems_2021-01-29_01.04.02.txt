@@ -1,0 +1,6 @@
+D:\Minecraft\.minecraft\versions\GreedyCraft\addons\Additions\TCreopargh_Sponsors_mod\data\effects\tcsponsors-drug_bell_equip.json
+- Missing type, expected to find a string
+
+D:\Minecraft\.minecraft\versions\GreedyCraft\addons\Additions\TCreopargh_Sponsors_mod\data\effects\tcsponsors-drug_bell_use.json
+- Missing type, expected to find a string
+

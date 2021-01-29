@@ -1,0 +1,339 @@
+Entity: Î×Ñý [registry name: cqrepoured:lich] (entityId: 7699)
+Entity class: team.cqr.cqrepoured.objects.entity.boss.EntityCQRLich
+
+
+TAG_Compound (10) ('')
+{
+    TAG_Byte (1) ('holdingPotion'): 0
+    TAG_Int (3) ('HurtByTimestamp'): 193
+    TAG_Compound (10) ('ForgeData')
+    {
+        TAG_String (8) ('LastDamageSource'): "Took '¡ìrplayer¡ìr' damage from immediate source '¡ìrminecraft:player¡ìr' and true source '¡ìrminecraft:player¡ìr'¡ìr"
+        TAG_Byte (1) ('roughmobsrevamped:attributesApplied'): 1
+        TAG_Byte (1) ('roughmobsrevamped:featuresApplied'): 1
+        TAG_Short (2) ('scalinghealth:difficulty'): 0
+        TAG_Float (5) ('Potion Core - Health Fix'): 600.0
+        TAG_Byte (1) ('Potion Core - Jump Boost Updated'): 1
+    }
+    TAG_List (9) ('RelativeAABB') (6 entries of TAG_Double (6))
+    {
+        TAG_Double (6) (''): -0.30000001192092896
+        TAG_Double (6) (''): 0.0
+        TAG_Double (6) (''): -0.30000001192092896
+        TAG_Double (6) (''): 0.30000001192092896
+        TAG_Double (6) (''): 1.4625000953674316
+        TAG_Double (6) (''): 0.30000001192092896
+    }
+    TAG_List (9) ('Attributes') (19 entries of TAG_Compound (10))
+    {
+        TAG_Compound (10) ('')
+        {
+            TAG_Double (6) ('Base'): -2.0
+            TAG_String (8) ('Name'): "tc.mobmod"
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Double (6) ('Base'): 0.0
+            TAG_String (8) ('Name'): "tc.mobmodtaint"
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Double (6) ('Base'): 1.0
+            TAG_String (8) ('Name'): "potioncore.projectileDamage"
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Double (6) ('Base'): 1.0
+            TAG_String (8) ('Name'): "potioncore.magicDamage"
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Double (6) ('Base'): 1.0
+            TAG_String (8) ('Name'): "potioncore.jumpHeight"
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Double (6) ('Base'): 1.0
+            TAG_String (8) ('Name'): "potioncore.damageResistance"
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Double (6) ('Base'): 0.0
+            TAG_String (8) ('Name'): "potioncore.magicShielding"
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Double (6) ('Base'): 0.05
+            TAG_String (8) ('Name'): "tconevo.flightSpeed"
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Double (6) ('Base'): 1.0
+            TAG_String (8) ('Name'): "tconevo.damageTaken"
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Double (6) ('Base'): 1.0
+            TAG_String (8) ('Name'): "tconevo.evasionChance"
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Double (6) ('Base'): 600.0
+            TAG_List (9) ('Modifiers') (1 entries of TAG_Compound (10))
+            {
+                TAG_Compound (10) ('')
+                {
+                    TAG_Long (4) ('UUIDMost'): -4557935957806527035
+                    TAG_Long (4) ('UUIDLeast'): -4950522221421205810
+                    TAG_Double (6) ('Amount'): 0.0
+                    TAG_Int (3) ('Operation'): 1
+                    TAG_String (8) ('Name'): "ScalingHealth.HealthModifier"
+                }
+            }
+            TAG_String (8) ('Name'): "generic.maxHealth"
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Double (6) ('Base'): 0.0
+            TAG_String (8) ('Name'): "generic.knockbackResistance"
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Double (6) ('Base'): 0.25
+            TAG_String (8) ('Name'): "generic.movementSpeed"
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Double (6) ('Base'): 0.0
+            TAG_String (8) ('Name'): "generic.armor"
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Double (6) ('Base'): 0.0
+            TAG_String (8) ('Name'): "generic.armorToughness"
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Double (6) ('Base'): 1.0
+            TAG_String (8) ('Name'): "forge.swimSpeed"
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Double (6) ('Base'): 16.0
+            TAG_String (8) ('Name'): "generic.followRange"
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Double (6) ('Base'): 2.0
+            TAG_List (9) ('Modifiers') (1 entries of TAG_Compound (10))
+            {
+                TAG_Compound (10) ('')
+                {
+                    TAG_Long (4) ('UUIDMost'): -3218372695593237220
+                    TAG_Long (4) ('UUIDLeast'): -8743736172551149415
+                    TAG_Double (6) ('Amount'): 0.0
+                    TAG_Int (3) ('Operation'): 0
+                    TAG_String (8) ('Name'): "ScalingHealth.DamageModifier"
+                }
+            }
+            TAG_String (8) ('Name'): "generic.attackDamage"
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Double (6) ('Base'): 4.0
+            TAG_String (8) ('Name'): "generic.attackSpeed"
+        }
+    }
+    TAG_Byte (1) ('Invulnerable'): 0
+    TAG_Byte (1) ('FallFlying'): 0
+    TAG_Int (3) ('PortalCooldown'): 0
+    TAG_Float (5) ('AbsorptionAmount'): 0.0
+    TAG_Byte (1) ('identityHidden'): 0
+    TAG_Float (5) ('FallDistance'): 0.0
+    TAG_Double (6) ('healthScale'): 1.0
+    TAG_Short (2) ('DeathTime'): 0
+    TAG_Byte (1) ('hasBossBar'): 1
+    TAG_Compound (10) ('ForgeCaps')
+    {
+        TAG_Int (3) ('bettercombatmod:ioffhandattack'): 0
+        TAG_Compound (10) ('betterhurttimer:hurt')
+        {
+            TAG_Int (3) ('ticksToShieldDamage'): 0
+            TAG_Int (3) ('ticksToArmorDamage'): 0
+        }
+        TAG_List (9) ('tinkertoolleveling:entityxp') (0 entries of TAG_End (0))
+        {
+        }
+        TAG_Compound (10) ('dsurround:data')
+        {
+            TAG_Byte (1) ('a'): 0
+            TAG_Byte (1) ('f'): 0
+        }
+        TAG_Compound (10) ('llibrary:extendedentitydatacapability')
+        {
+            TAG_Compound (10) ('mm:living')
+            {
+                TAG_Float (5) ('frozenYaw'): 0.0
+                TAG_Float (5) ('freezeProgress'): 0.0
+                TAG_Float (5) ('frozenPitch'): 0.0
+                TAG_Byte (1) ('prevHasAI'): 0
+                TAG_Int (3) ('freezeDecayDelay'): 0
+                TAG_Float (5) ('frozenYawHead'): 0.0
+                TAG_Float (5) ('frozenLimbSwingAmount'): 0.0
+                TAG_Float (5) ('frozenRenderYawOffset'): 0.0
+                TAG_Float (5) ('frozenSwingProgress'): 0.0
+            }
+        }
+        TAG_Int (3) ('bettercombatmod:isecondhurttimer'): 0
+        TAG_Compound (10) ('champions:championship')
+        {
+            TAG_Int (3) ('tier'): 0
+        }
+        TAG_List (9) ('cqrepoured:extra_item_slot') (2 entries of TAG_Compound (10))
+        {
+            TAG_Compound (10) ('')
+            {
+                TAG_Int (3) ('Slot'): 0
+                TAG_String (8) ('id'): "cqrepoured:potion_healing"
+                TAG_Byte (1) ('Count'): 1
+                TAG_Short (2) ('Damage'): 0
+            }
+            TAG_Compound (10) ('')
+            {
+                TAG_Int (3) ('Slot'): 1
+                TAG_Compound (10) ('ForgeCaps')
+                {
+                    TAG_List (9) ('Parent') (0 entries of TAG_End (0))
+                    {
+                    }
+                    TAG_Compound (10) ('astralsorcery:cap_item_amulet_holder')
+                    {
+                    }
+                }
+                TAG_String (8) ('id'): "cqrepoured:badge"
+                TAG_Byte (1) ('Count'): 1
+                TAG_Compound (10) ('tag')
+                {
+                    TAG_Compound (10) ('cqrepoured:item_stack_handler')
+                    {
+                        TAG_Int (3) ('Size'): 9
+                        TAG_List (9) ('Items') (0 entries of TAG_End (0))
+                        {
+                        }
+                    }
+                }
+                TAG_Short (2) ('Damage'): 0
+            }
+        }
+        TAG_List (9) ('cqrepoured:item_cooldown_handler') (0 entries of TAG_End (0))
+        {
+        }
+        TAG_Compound (10) ('twilightforest:cap_shield')
+        {
+            TAG_Int (3) ('permshields'): 0
+            TAG_Int (3) ('tempshields'): 0
+        }
+        TAG_Compound (10) ('thaumicaugmentation:portal_state')
+        {
+            TAG_Byte (1) ('inPortal'): 0
+        }
+    }
+    TAG_List (9) ('HandDropChances') (2 entries of TAG_Float (5))
+    {
+        TAG_Float (5) (''): 0.04
+        TAG_Float (5) (''): 0.04
+    }
+    TAG_Byte (1) ('PersistenceRequired'): 0
+    TAG_String (8) ('id'): "cqrepoured:lich"
+    TAG_Int (3) ('textureIndex'): 0
+    TAG_List (9) ('Motion') (3 entries of TAG_Double (6))
+    {
+        TAG_Double (6) (''): 0.0
+        TAG_Double (6) (''): -0.0784000015258789
+        TAG_Double (6) (''): 0.0
+    }
+    TAG_Byte (1) ('isSitting'): 1
+    TAG_Byte (1) ('Leashed'): 0
+    TAG_Long (4) ('UUIDLeast'): -7637321022603393149
+    TAG_Float (5) ('Health'): 600.0
+    TAG_Compound (10) ('pathTag')
+    {
+        TAG_Compound (10) ('path')
+        {
+            TAG_List (9) ('nodes') (0 entries of TAG_End (0))
+            {
+            }
+            TAG_String (8) ('version'): "1.0.0"
+        }
+        TAG_Int (3) ('currentPathTargetPoint'): -1
+        TAG_Int (3) ('prevPathTargetPoint'): -1
+    }
+    TAG_Byte (1) ('usedHealingPotions'): 0
+    TAG_Compound (10) ('trades')
+    {
+        TAG_List (9) ('trades') (0 entries of TAG_End (0))
+        {
+        }
+    }
+    TAG_Byte (1) ('LeftHanded'): 0
+    TAG_Short (2) ('Air'): 300
+    TAG_Byte (1) ('OnGround'): 1
+    TAG_Int (3) ('Dimension'): 0
+    TAG_Float (5) ('sizeScaling'): 1.0
+    TAG_List (9) ('Rotation') (2 entries of TAG_Float (5))
+    {
+        TAG_Float (5) (''): 0.0
+        TAG_Float (5) (''): 0.0
+    }
+    TAG_Byte (1) ('UpdateBlocked'): 0
+    TAG_List (9) ('HandItems') (2 entries of TAG_Compound (10))
+    {
+        TAG_Compound (10) ('')
+        {
+            TAG_Compound (10) ('ForgeCaps')
+            {
+                TAG_Compound (10) ('astralsorcery:cap_item_amulet_holder')
+                {
+                }
+            }
+            TAG_String (8) ('id'): "cqrepoured:staff_vampiric"
+            TAG_Byte (1) ('Count'): 1
+            TAG_Short (2) ('Damage'): 0
+        }
+        TAG_Compound (10) ('')
+        {
+        }
+    }
+    TAG_List (9) ('ArmorDropChances') (4 entries of TAG_Float (5))
+    {
+        TAG_Float (5) (''): 0.04
+        TAG_Float (5) (''): 0.04
+        TAG_Float (5) (''): 0.04
+        TAG_Float (5) (''): 0.04
+    }
+    TAG_Long (4) ('UUIDMost'): 8633832066752530450
+    TAG_List (9) ('Pos') (3 entries of TAG_Double (6))
+    {
+        TAG_Double (6) (''): -421.06269039825804
+        TAG_Double (6) (''): 69.0
+        TAG_Double (6) (''): -581.4868107948545
+    }
+    TAG_Short (2) ('Fire'): -1
+    TAG_List (9) ('ArmorItems') (4 entries of TAG_Compound (10))
+    {
+        TAG_Compound (10) ('')
+        {
+        }
+        TAG_Compound (10) ('')
+        {
+        }
+        TAG_Compound (10) ('')
+        {
+        }
+        TAG_Compound (10) ('')
+        {
+        }
+    }
+    TAG_Byte (1) ('CanPickUpLoot'): 0
+    TAG_Short (2) ('HurtTime'): 0
+}

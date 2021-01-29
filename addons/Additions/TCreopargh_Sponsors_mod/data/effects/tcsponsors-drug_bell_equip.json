@@ -1,0 +1,44 @@
+{
+    "cause": {
+        "item": {
+            "item": "additions:tcsponsors-drug_bell",
+            "damage": "any"
+        },
+        "type": "additions:item_in_inventory"
+    },
+    "effects": [
+        {
+            "type": "additions:damage_item"
+        },
+        {
+            "potion": {
+                "name": "minecraft:regeneration",
+                "duration": 50,
+                "amplifier": 1,
+                "ambient": false,
+                "show_particles": true
+            },
+            "type": "additions:potion"
+        },
+        {
+            "potion": {
+                "name": "minecraft:resistance",
+                "duration": 50,
+                "amplifier": 1,
+                "ambient": false,
+                "show_particles": true
+            },
+            "type": "additions:potion"
+        },
+        {
+            "potion": {
+                "name": "minecraft:absorption",
+                "duration": 50,
+                "amplifier": 1,
+                "ambient": false,
+                "show_particles": true
+            },
+            "type": "additions:potion"
+        }
+    ]
+}

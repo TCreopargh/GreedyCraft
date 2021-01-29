@@ -1,0 +1,6 @@
+²Ý·½¿é (minecraft:grass - 2:0) no TileEntity
+Full block state: minecraft:grass[snowy=false]
+Hardness: 0.6000, Explosion resistance: 0.6000, Material: GRASS
+Block class: net.minecraft.block.BlockGrass
+IBlockState properties, including getActualState():
+PropertyBool{name=snowy, clazz=class java.lang.Boolean, values=[true, false]}: false

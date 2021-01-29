@@ -23,7 +23,7 @@
     {
         "mob": ["pvj:pvj_starfish"],
         "mincount": {
-            "amount": 6,
+            "amount": 5,
             "perplayer": false
         },
         "result": "deny"
@@ -57,7 +57,7 @@
     },
     {
         "onjoin": true,
-        "mob": ["pvj:pvj_goon", "pvj:pvj_clam"],
+        "mob": ["pvj:pvj_goon", "pvj:pvj_clam", "pvj:pvj_small_spider"],
         "result": "deny"
     },
     {
