@@ -82,7 +82,8 @@ GameStagesUtil.stageFusionMatrix.addIngredients([
     <ore:dustDraconium>,
     <ore:blockDraconium>,
     <ore:ingotElectronium>,
-    <ore:blockElectronium>
+    <ore:blockElectronium>,
+    <mysticalcreations:fusion_matrix_essence>
 ], true);
 
 GameStagesUtil.stageWyvern.addIngredients([
@@ -327,9 +328,6 @@ GameStagesUtil.stageChaotic.addIngredients([
 ], true);
 
 GameStagesUtil.stageNoviceEngineer.addIngredients([
-    <openblocks:block_placer>,
-    <cyclicmagic:placer_block>,
-    <actuallyadditions:block_placer>,
     <actuallyadditions:block_battery_box>,
     <actuallyadditions:block_item_viewer_hopping>,
     <actuallyadditions:block_bio_reactor>,

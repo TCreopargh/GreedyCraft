@@ -236,21 +236,6 @@ enderio:long_floating
        minecraft:levitation - 560 - 0 - false - true
 
 
-quark:resilience
-   - Effects: 
-       quark:resilience - 3600 - 0 - false - true
-
-
-quark:long_resilience
-   - Effects: 
-       quark:resilience - 9600 - 0 - false - true
-
-
-quark:strong_resilience
-   - Effects: 
-       quark:resilience - 1800 - 1 - false - true
-
-
 quark:haste
    - Effects: 
        minecraft:haste - 3600 - 0 - false - true
@@ -304,6 +289,21 @@ quark:danger_sight
 quark:long_danger_sight
    - Effects: 
        quark:danger_sight - 9600 - 0 - false - true
+
+
+quark:resilience
+   - Effects: 
+       quark:resilience - 3600 - 0 - false - true
+
+
+quark:long_resilience
+   - Effects: 
+       quark:resilience - 9600 - 0 - false - true
+
+
+quark:strong_resilience
+   - Effects: 
+       quark:resilience - 1800 - 1 - false - true
 
 
 potioncore:saturation

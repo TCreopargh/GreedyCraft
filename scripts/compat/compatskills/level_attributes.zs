@@ -23,6 +23,7 @@ import crafttweaker.entity.AttributeInstance;
 import crafttweaker.entity.Attribute;
 import crafttweaker.event.PlayerTickEvent;
 import crafttweaker.event.EntityLivingDeathEvent;
+import crafttweaker.event.PlayerPickupXpEvent;
 
 import mods.compatskills.Skill;
 import mods.ctutils.utils.Math;
@@ -54,6 +55,13 @@ static uuidMap as string[string] = {
     "mining": "55db8e3b-905a-4802-a6b4-bbe2bc403da7"
 };
 
+function getLevel(level as int) as int {
+    if(level == 50) {
+        return 50;
+    }
+    return level - 1;
+}
+
 events.onPlayerTick(function(event as PlayerTickEvent) {
 
     var player as IPlayer = event.player;
@@ -79,7 +87,7 @@ events.onPlayerTick(function(event as PlayerTickEvent) {
                 var uuid as string = uuidMap[skillName];
                 if (skillName == "agility") {
                     var attribute as AttributeInstance = player.getAttribute("generic.movementSpeed");
-                    var amount as double = 0.02 * (level - 1);
+                    var amount as double = 0.01 * getLevel(level);
                     var modifier as AttributeModifier = AttributeModifier.createModifier("reskillable_skill_boost_" + skillName, amount, 1, uuid);
                     if(!isNull(attribute.getModifier(uuid))) {
                         attribute.removeModifier(uuid);
@@ -87,15 +95,15 @@ events.onPlayerTick(function(event as PlayerTickEvent) {
                     attribute.applyModifier(modifier);
                 } else if (skillName == "attack") {
                     var attribute as AttributeInstance = player.getAttribute("generic.attackDamage");
-                    var amount as double = 0.5 * (level - 1);
-                    var modifier as AttributeModifier = AttributeModifier.createModifier("reskillable_skill_boost_" + skillName, amount, 0, uuid);
+                    var amount as double = 0.01 * getLevel(level);
+                    var modifier as AttributeModifier = AttributeModifier.createModifier("reskillable_skill_boost_" + skillName, amount, 1, uuid);
                     if(!isNull(attribute.getModifier(uuid))) {
                         attribute.removeModifier(uuid);
                     }
                     attribute.applyModifier(modifier);
                 } else if (skillName == "building") {
                     var attribute as AttributeInstance = player.getAttribute("generic.armorToughness");
-                    var amount as double = 0.2 * (level - 1);
+                    var amount as double = 0.2 * getLevel(level);
                     var modifier as AttributeModifier = AttributeModifier.createModifier("reskillable_skill_boost_" + skillName, amount, 0, uuid);
                     if(!isNull(attribute.getModifier(uuid))) {
                         attribute.removeModifier(uuid);
@@ -103,7 +111,7 @@ events.onPlayerTick(function(event as PlayerTickEvent) {
                     attribute.applyModifier(modifier);
                 } else if (skillName == "defense") {
                     var attribute as AttributeInstance = player.getAttribute("generic.armor");
-                    var amount as double = 0.5 * (level - 1);
+                    var amount as double = 0.5 * getLevel(level);
                     var modifier as AttributeModifier = AttributeModifier.createModifier("reskillable_skill_boost_" + skillName, amount, 0, uuid);
                     if(!isNull(attribute.getModifier(uuid))) {
                         attribute.removeModifier(uuid);
@@ -111,7 +119,7 @@ events.onPlayerTick(function(event as PlayerTickEvent) {
                     attribute.applyModifier(modifier);
                 } else if (skillName == "farming") {
                     var attribute as AttributeInstance = player.getAttribute("generic.maxHealth");
-                    var amount as double = 1.0 * (level - 1);
+                    var amount as double = 1.0 * getLevel(level);
                     var modifier as AttributeModifier = AttributeModifier.createModifier("reskillable_skill_boost_" + skillName, amount, 0, uuid);
                     if(!isNull(attribute.getModifier(uuid))) {
                         attribute.removeModifier(uuid);
@@ -120,19 +128,11 @@ events.onPlayerTick(function(event as PlayerTickEvent) {
                     if(oldLevel != 0) {
                         player.health = player.health + (1.0 * (level - oldLevel)) as float;
                     } else {
-                        player.health = player.health + (1.0 * (level - 1)) as float;
+                        player.health = player.health + (1.0 * getLevel(level)) as float;
                     }
                 } else if (skillName == "gathering") {
                     var attribute as AttributeInstance = player.getAttribute("generic.luck");
-                    var amount as double = 0.05 * (level - 1);
-                    var modifier as AttributeModifier = AttributeModifier.createModifier("reskillable_skill_boost_" + skillName, amount, 0, uuid);
-                    if(!isNull(attribute.getModifier(uuid))) {
-                        attribute.removeModifier(uuid);
-                    }
-                    attribute.applyModifier(modifier);
-                } else if (skillName == "magic") {
-                    var attribute as AttributeInstance = player.getAttribute("generic.knockbackResistance");
-                    var amount as double = 0.02 * (level - 1);
+                    var amount as double = 0.05 * getLevel(level);
                     var modifier as AttributeModifier = AttributeModifier.createModifier("reskillable_skill_boost_" + skillName, amount, 0, uuid);
                     if(!isNull(attribute.getModifier(uuid))) {
                         attribute.removeModifier(uuid);
@@ -140,7 +140,7 @@ events.onPlayerTick(function(event as PlayerTickEvent) {
                     attribute.applyModifier(modifier);
                 } else if (skillName == "mining") {
                     var attribute as AttributeInstance = player.getAttribute("generic.attackSpeed");
-                    var amount as double = 0.03 * (level - 1);
+                    var amount as double = 0.03 * getLevel(level);
                     var modifier as AttributeModifier = AttributeModifier.createModifier("reskillable_skill_boost_" + skillName, amount, 0, uuid);
                     if(!isNull(attribute.getModifier(uuid))) {
                         attribute.removeModifier(uuid);
@@ -157,6 +157,13 @@ events.onPlayerTick(function(event as PlayerTickEvent) {
         }
         storedSkills[player.uuid] = newSkills as int[string];
     }
+});
+
+events.onPlayerPickupXp(function (event as PlayerPickupXpEvent) {
+    var player as IPlayer = event.player;
+    var level as int = getLevel(player.skillData.getSkillInfo(<skill:reskillable:magic>).getLevel() as int);
+    var addedAmount as int = Math.ceil((event.xp as double * (0.02 * level as double) as double)) as int;
+    player.addExperience(addedAmount);
 });
 
 events.onPlayerRespawn(function (event as PlayerRespawnEvent) {

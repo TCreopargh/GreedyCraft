@@ -40,6 +40,11 @@ function getHeadBlockPos(player as IPlayer) as IBlockPos {
     return pos.getOffset(IFacing.up(), 1) as IBlockPos;
 }
 
+function getBottomBlockPos(player as IPlayer) as IBlockPos {
+    var pos as IBlockPos = player.position as IBlockPos;
+    return pos.getOffset(IFacing.down(), 1) as IBlockPos;
+}
+
 events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
 
     if(event.phase != "END" || event.side != "SERVER") {
@@ -88,6 +93,14 @@ events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
     if(player.world.getWorldTime() as long % 10 == 0) {
         if(player.world.getBlock(player.position).definition.id == "biomesoplenty:hot_spring_water" || player.world.getBlock(player.position).definition.id == "sakura:hot_spring_water" || player.world.getBlock(player.position.getOffset(IFacing.up(), 1)).definition.id == "biomesoplenty:hot_spring_water" || player.world.getBlock(player.position.getOffset(IFacing.up(), 1)).definition.id == "sakura:hot_spring_water") {
             player.attackEntityFrom(IDamageSource.GENERIC(), 10.0);
+        }
+    }
+
+    // Prevent walking on dark wood leaves in twilight forest
+    if(!player.creative && player.world.getWorldTime() as long % 20 == 0) {
+        var pos as IBlockPos = player.position as IBlockPos;
+        if(player.world.getBlock(getBottomBlockPos(player)).definition.id == "twilightforest:dark_leaves") {
+            player.attackEntityFrom(IDamageSource.HOT_FLOOR(), 2.0);
         }
     }
 

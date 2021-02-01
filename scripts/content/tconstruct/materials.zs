@@ -361,7 +361,7 @@ cosmilite.representativeItem = <item:additions:cosmilite_ingot>;
 cosmilite.liquid = <liquid:cosmilite>;
 cosmilite.addItem(<ore:ingotCosmilite>);
 cosmilite.localizedName = game.localize("greedycraft.tconstruct.material.cosmilite.name");
-cosmilite.addHeadMaterialStats(12800, 34.6, 85, 12);
+cosmilite.addHeadMaterialStats(12800, 40.0, 128, 12);
 cosmilite.addHandleMaterialStats(3, 2048);
 cosmilite.addExtraMaterialStats(2048);cosmilite.addBowMaterialStats(getDrawSpeed(0.32) as float, 3, 38.0);
 cosmilite.addProjectileMaterialStats();

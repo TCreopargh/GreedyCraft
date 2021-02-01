@@ -52,7 +52,8 @@ GameStagesUtil.restageItems("wielder_of_infinity", [
     <avaritia:infinity_pants>,
     <avaritia:infinity_boots>,
     <ore:ingotInfinity>,
-    <ore:blockInfinity>
+    <ore:blockInfinity>,
+    <mekanism:machineblock2:14>
 ]);
 
 GameStagesUtil.restageItem("awakened", <draconicevolution:chaos_shard>);

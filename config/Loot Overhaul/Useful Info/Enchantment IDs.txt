@@ -232,20 +232,20 @@ endercore:xpboost
    - Max Level: 3
 
 
-enderio:shimmer
-   - Id: 28
-   - Rarity: VERY_RARE
-   - Treasure: true
-   - Min Level: 1
-   - Max Level: 1
-
-
 enderio:repellent
-   - Id: 29
+   - Id: 28
    - Rarity: VERY_RARE
    - Treasure: false
    - Min Level: 1
    - Max Level: 4
+
+
+enderio:witherweapon
+   - Id: 29
+   - Rarity: UNCOMMON
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 1
 
 
 enderio:witherarrow
@@ -256,10 +256,10 @@ enderio:witherarrow
    - Max Level: 1
 
 
-enderio:witherweapon
+enderio:shimmer
    - Id: 31
-   - Rarity: UNCOMMON
-   - Treasure: false
+   - Rarity: VERY_RARE
+   - Treasure: true
    - Min Level: 1
    - Max Level: 1
 

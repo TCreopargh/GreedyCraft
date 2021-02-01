@@ -17,6 +17,9 @@ import mods.jei.JEI;
 import scripts.util.recipes as RecipeUtil;
 
 val disabledItems as IIngredient[] = [
+    <openblocks:block_placer>,
+    <cyclicmagic:placer_block>,
+    <actuallyadditions:block_placer>,
     <betternether:stalagnate_bowl>,
     <betternether:stalagnate_bowl_apple>,
     <betternether:stalagnate_bowl_mushroom>,
@@ -324,7 +327,7 @@ for recipe in recipes.all {
             if(!isBlacklisted) {
                 RecipeUtil.remove(recipe.output);
                 JEI.removeAndHide(recipe.output);
-                recipe.output.addTooltip(game.localize("greedycraft.stage.disabled_item.tooltip"));
+                recipe.output.addTooltip(game.localize("greedycraft.stage.uncraftable_item.tooltip"));
                 // Disabled this to fix the problem of zombies holding question marks
                 // ItemStages.removeItemStage(recipe.output);
                 // ItemStages.addItemStage("disabled", recipe.output);

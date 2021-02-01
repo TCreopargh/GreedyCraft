@@ -26,7 +26,7 @@ SummoningDirector.addSummonInfo(
             .setCount(1)
             .setOffset(0,4,0)
             .setSpread(1,1,1)
-            .setData({HandItems: [{id: "avaritia:infinity_sword", Count: 1 as byte, Damage: 0 as short}, {id: "additions:greedycraft-huaji", Count: 64 as byte, Damage: 0 as short}], HandDropChances: [0 as float, 1 as float], CustomName: game.localize("greedycraft.zensummoning.tcreopargh.name"), Username: "TCreopargh", Health: 1919810, Attributes:[{"Name":"generic.maxHealth","Base": 114514}]})
+            .setData({HandItems: [{id: "avaritia:infinity_sword", Count: 1 as byte, Damage: 0 as short}, {id: "additions:greedycraft-huaji", Count: 64 as byte, Damage: 0 as short}], HandDropChances: [-10000 as float, 1 as float], CustomName: game.localize("greedycraft.zensummoning.tcreopargh.name"), Username: "TCreopargh", Health: 1919810, Attributes:[{"Name":"generic.maxHealth","Base": 114514}]})
         )
         .addMob(MobInfo.create()
             .setMob("headcrumbs:human")
