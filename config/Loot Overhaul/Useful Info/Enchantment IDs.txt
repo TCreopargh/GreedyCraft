@@ -232,15 +232,15 @@ endercore:xpboost
    - Max Level: 3
 
 
-enderio:witherarrow
+enderio:shimmer
    - Id: 28
-   - Rarity: UNCOMMON
-   - Treasure: false
+   - Rarity: VERY_RARE
+   - Treasure: true
    - Min Level: 1
    - Max Level: 1
 
 
-enderio:witherweapon
+enderio:witherarrow
    - Id: 29
    - Rarity: UNCOMMON
    - Treasure: false
@@ -248,12 +248,12 @@ enderio:witherweapon
    - Max Level: 1
 
 
-enderio:shimmer
+enderio:repellent
    - Id: 30
    - Rarity: VERY_RARE
-   - Treasure: true
+   - Treasure: false
    - Min Level: 1
-   - Max Level: 1
+   - Max Level: 4
 
 
 enderio:soulbound
@@ -296,12 +296,12 @@ minecraft:fortune
    - Max Level: 3
 
 
-enderio:repellent
+enderio:witherweapon
    - Id: 36
-   - Rarity: VERY_RARE
+   - Rarity: UNCOMMON
    - Treasure: false
    - Min Level: 1
-   - Max Level: 4
+   - Max Level: 1
 
 
 tofucraft:ench_drain

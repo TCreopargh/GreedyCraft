@@ -52,13 +52,17 @@ GameStagesUtil.restageItems("wielder_of_infinity", [
     <avaritia:infinity_pants>,
     <avaritia:infinity_boots>,
     <ore:ingotInfinity>,
-    <ore:blockInfinity>
+    <ore:blockInfinity>,
+    <mekanism:machineblock2:14>
 ]);
 
 GameStagesUtil.restageItem("awakened", <draconicevolution:chaos_shard>);
 GameStagesUtil.restageItem("chaotic_dominator", <draconicevolution:chaotic_core>);
 GameStagesUtil.restageItem("descendant_of_the_sun", <draconicevolution:awakened_core>);
-GameStagesUtil.restageItem("chaotic", <avaritia:resource:5>);
+GameStagesUtil.restageItems("chaotic", [
+    <avaritia:resource:5>,
+    <draconicevolution:reactor_component>
+]);
 GameStagesUtil.restageItems("master_engineer", [
     <enderio:block_killer_joe>,
     <cyclicmagic:block_user>,

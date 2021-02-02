@@ -6,7 +6,7 @@
     "pages": [
         {
             "type": "text",
-            "text": "Leveling up skills give you different boosts to your $(6)Attributes$(). Different skills affect different types of attributes:  $(li)$(2)Agility$(): $(5)Movement Speed$() $(li)$(2)Attack$(): $(5)Attack Damage$() $(li)$(2)Building$(): $(5)Armor Toughness$() $(li)$(2)Defense$(): $(5)Armor Points$() $(li)$(2)Farming$(): $(5)Max Health$()$(li) $(2)Gathering$(): $(5)Luck$()$(li)$(2)Magic$(): $(5)Knockback Resistance$() $(li)$(2)Mining$(): $(5)Attack Speed$()"
+            "text": "Leveling up skills give you different boosts to your $(6)Attributes$(). Different skills affect different types of attributes:  $(li)$(2)Agility$(): $(5)Movement Speed$() $(li)$(2)Attack$(): $(5)Attack Damage$() $(li)$(2)Building$(): $(5)Armor Toughness$() $(li)$(2)Defense$(): $(5)Armor Points$() $(li)$(2)Farming$(): $(5)Max Health$()$(li) $(2)Gathering$(): $(5)Luck$()$(li)$(2)Magic$(): $(5)Gain more EXP when picking up XP orbs$() $(li)$(2)Mining$(): $(5)Attack Speed$()"
         }
     ]
 }

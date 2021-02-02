@@ -1,8 +1,8 @@
 {
   "weight": 1000,
   "type": "tconevo:tool",
-  "name": "机动之斧",
-  "lore": "这把斧子极大的利用了电力。",
+  "name": "乱流",
+  "lore": "驾驭雷电力量的器械。",
   "tool": "hatchet",
   "materials": [
     "invar",

@@ -28,8 +28,12 @@
             <entity name="twilightforest:knight_phantom" disabled="true" soulvial="false"/>
             <entity name="twilightforest:minoshroom" disabled="true" soulvial="false"/>
             <entity name="twilightforest:yeti_alpha" disabled="true" soulvial="false"/>
+            <entity name="twilightforest:snow_queen" disabled="true" soulvial="false"/>
             <entity name="botania:doppleganger" disabled="true" soulvial="false"/>
-            <entity name="mowziesmobs:barakoaya" disabled="true" soulvial="false"/>
+            <entity name="abyssalcraft:chagaroth" disabled="true" soulvial="false"/>
+		    <entity name="abyssalcraft:jzahar" disabled="true" soulvial="false"/>
+		    <entity name="abyssalcraft:dragonboss" disabled="true" soulvial="false"/>
+		    <entity name="abyssalcraft:shadowboss" disabled="true" soulvial="false"/>
         </spawning>
     </recipe>
     <grindingball name="Flint" grinding="1.1" chance="1.15" power="0.85" durability="24000">

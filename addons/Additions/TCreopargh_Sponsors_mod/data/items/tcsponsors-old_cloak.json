@@ -1,0 +1,12 @@
+{
+  "name": "§c破旧的袈裟",
+  "shines": true,
+  "tooltip": [
+    "§e一件和尚所穿的袈裟",
+    "§e凝目瞧去，只见袈裟之上隐隐似写满了无数小字：",
+    "§6武林称雄，挥剑自宫...",
+    "§b§o赞助者物品 by poisonousHg"
+  ],
+  "max_stack": 1,
+  "type": "additions:simple"
+}

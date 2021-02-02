@@ -18,6 +18,7 @@ import crafttweaker.data.IData;
 import crafttweaker.item.IIngredient;
 import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.game.IGame;
+import crafttweaker.world.IBlockPos;
 
 import mods.ctutils.utils.Math;
 import mods.contenttweaker.tconstruct.Material;
@@ -198,8 +199,8 @@ thunderingTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait
 thunderingTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.thunderingTrait.desc");
 thunderingTrait.afterHit = function(trait, tool, attacker, target, damageDealt, wasCritical, wasHit) {
     if(attacker instanceof IPlayer && wasHit && target instanceof IEntityMob) {
-        if(!(Math.random() as double > 0.05)) {
-            server.commandManager.executeCommand(server, "/summon lightning_bolt " + target.x + " " + target.y + " " + target.z);
+        if(!(Math.random() as double > 0.04)) {
+            target.world.addWeatherEffect(target.world.createLightningBolt(target.x, target.y, target.z, false));
         }
     }
 };
@@ -363,14 +364,8 @@ matterTrait1.localizedName = game.localize("greedycraft.tconstruct.tool_trait.ma
 matterTrait1.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.matterTrait1.desc");
 matterTrait1.afterHit = function(trait, tool, attacker, target, damageDealt, wasCritical, wasHit) {
     if(attacker instanceof IPlayer && target instanceof IEntityMob) {
-        var chance as double = (damageDealt as double / 120000.0 as double);
-        if(chance > 0.025) {
-            chance = 0.025;
-        }
-        if(!(Math.random() as double > chance)) {
-            var player as IPlayer = attacker;
-            server.commandManager.executeCommand(server, "/give " + player.name + " additions:greedycraft-strange_matter");
-        }
+        var player as IPlayer = attacker;
+        player.personalEMC = (player.personalEMC as long + (Math.floor(damageDealt * 0.1) as long)) as long;
     }
 };
 matterTrait1.register();
@@ -381,14 +376,8 @@ matterTrait2.localizedName = game.localize("greedycraft.tconstruct.tool_trait.ma
 matterTrait2.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.matterTrait2.desc");
 matterTrait2.afterHit = function(trait, tool, attacker, target, damageDealt, wasCritical, wasHit) {
     if(attacker instanceof IPlayer && target instanceof IEntityMob) {
-        var chance as double = (damageDealt as double / 50000.0 as double);
-        if(chance > 0.05) {
-            chance = 0.05;
-        }
-        if(!(Math.random() as double > chance)) {
-            var player as IPlayer = attacker;
-            server.commandManager.executeCommand(server, "/give " + player.name + " additions:greedycraft-strange_matter");
-        }
+        var player as IPlayer = attacker;
+        player.personalEMC = (player.personalEMC as long + (Math.floor(damageDealt * 0.25) as long)) as long;
     }
 };
 matterTrait2.register();
@@ -519,3 +508,17 @@ thronyTrait.onBlock = function(trait, tool, player, event) {
     }
 };
 thronyTrait.register();
+
+val nightBaneTrait = TraitBuilder.create("bane_of_night");
+nightBaneTrait.color = Color.fromHex("fff176").getIntColor(); 
+nightBaneTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.nightBaneTrait.name");
+nightBaneTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.nightBaneTrait.desc");
+nightBaneTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+    var lightLevel as int = attacker.world.getBlockLight(attacker.position3f as IBlockPos);
+    lightLevel -= 7;
+    if(lightLevel < 0) {
+        lightLevel = 0;
+    }
+    return newDamage * (1.0f + 0.025f * lightLevel) as float;
+};
+nightBaneTrait.register();

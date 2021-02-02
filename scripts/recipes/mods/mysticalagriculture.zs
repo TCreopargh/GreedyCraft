@@ -3,7 +3,7 @@
  * You may NOT use this script in any other publicly distributed modpack without my permission.
  */
 
-#priority 1000
+#priority 10000
 
 import crafttweaker.item.IItemStack;
 import crafttweaker.data.IData;

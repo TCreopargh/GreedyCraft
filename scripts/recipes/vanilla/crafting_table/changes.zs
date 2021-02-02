@@ -24,3 +24,8 @@ RecipeUtil.removeAndAdd("bonsai_pot", <bonsaitrees:bonsaipot>, [
     [<ore:ingotBrick>, <ore:shardTime>, <ore:ingotBrick>], 
     [<ore:ingotBrick>, <ore:ingotBrick>, <ore:ingotBrick>]
 ]);
+RecipeUtil.removeAndAdd("laser_amplifier", <mekanism:machineblock2:14>, [
+    [<ore:ingotOsmium>, <ore:gemDiamond>, <ore:ingotOsmium>],
+    [<ore:shardCreative>, <mekanism:energycube>, <ore:shardCreative>], 
+    [<ore:ingotOsmium>, <ore:shardCreative>, <ore:ingotOsmium>]
+]);
