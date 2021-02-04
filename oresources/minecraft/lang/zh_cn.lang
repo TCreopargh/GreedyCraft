@@ -1,0 +1,3 @@
+options.renderDistance=渲染距离 §7[§c非常影响性能！§7]
+options.viewBobbing=视角摇晃 §7[§2如使用第一人称请打开§7]
+options.graphics=图像品质 §7[§c不建议调整§7]

@@ -1,0 +1,134 @@
+{
+  "main": {
+    "0": {
+      "title": "¡ì5View current difficulty ¡ì9¡ìoScalingHealth",
+      "icon": {
+        "name": "headcrumbs:skull",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "Difficulty Meter - Show",
+          "toggle": false
+        }
+      }
+    },
+    "1": {
+      "title": "¡ì6Open extended inventory ¡ì7(if unlocked) ¡ì9¡ìoCyclic",
+      "icon": {
+        "name": "forestry:apiarist_bag",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "key.keyExtraInvo",
+          "toggle": true
+        }
+      }
+    },
+    "2": {
+      "title": "¡ì6Open quick crafting table ¡ì7(if unlocked) ¡ì9¡ìoCyclic",
+      "icon": {
+        "name": "minecraft:crafting_table",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "key.keyExtraCraftin",
+          "toggle": true
+        }
+      }
+    },
+    "3": {
+      "title": "¡ì5Unleash entity ¡ì9¡ìoPlusTiC",
+      "icon": {
+        "name": "minecraft:spawn_egg",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "key.plustic_release_entity.desc",
+          "toggle": false
+        }
+      }
+    },
+    "4": {
+      "title": "¡ì3Open /dank/null ¡ì9¡ìo/dank/null",
+      "icon": {
+        "name": "minecraft:chest",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "key.open_danknull.desc",
+          "toggle": false
+        }
+      }
+    },
+    "5": {
+      "title": "¡ìbOpen backpack ¡ì9¡ìoIronBackpacks",
+      "icon": {
+        "name": "thermalexpansion:satchel",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "key.ironbackpacks.open",
+          "toggle": true
+        }
+      }
+    },
+    "6": {
+      "title": "¡ì6Open wireless crafting terminal ¡ì7(if equipped) ¡ì9¡ìoWCT2",
+      "icon": {
+        "name": "wct:wct",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "key.open_wct.desc",
+          "toggle": false
+        }
+      }
+    },
+    "7": {
+      "title": "¡ìaSwitch real first person mode¡ìr¡ì9¡ìo RealFirstPerson2",
+      "icon": {
+        "name": "minecraft:skull",
+        "damage": 3
+      },
+      "action": {
+        "key": {
+          "key": "key.mod.desc",
+          "toggle": false
+        }
+      }
+    },
+    "8": {
+      "title": "¡ì6Clean memory ¡ì9¡ìoFor Performance",
+      "icon": {
+        "name": "additions:greedycraft-item_purger",
+        "damage": 0
+      },
+      "action": {
+        "command": {
+          "command": "/cleanmemory",
+          "clipboard": false
+        }
+      }
+    },
+    "9": {
+      "title": "¡ìaSwitch magnetic card mode ¡ì9¡ìoWCT2",
+      "icon": {
+        "name": "wct:magnet_card",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "key.cycle_magnet_mode.desc",
+          "toggle": false
+        }
+      }
+    }
+  }
+}

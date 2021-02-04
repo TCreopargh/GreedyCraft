@@ -245,7 +245,7 @@
 		"current_version": {
 			"alignment": "bottom_left",
 			"text": "file:greedycraft:version.txt",
-			"hoverText": "¡ì2Greater version code means newer versions, make sure you are playing the latest version of the modpack!",
+			"hoverText": "¡ì2Version format: (Primary ver).(Secondary ver).(Patch ver).(Version serial number).(Version group number)",
 			"color": -1,
 			"posX": 2,
 			"posY": -22

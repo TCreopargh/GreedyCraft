@@ -54,7 +54,7 @@ events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
     var player = event.player;
 
     // Prevent Night Vision flash
-    if(player.isPotionActive(<potion:minecraft:night_vision>) && player.getActivePotionEffect(<potion:minecraft:night_vision>).duration <= 200 && player.getActivePotionEffect(<potion:minecraft:night_vision>).duration > 0) {
+    if(player.isPotionActive(<potion:minecraft:night_vision>) && player.getActivePotionEffect(<potion:minecraft:night_vision>).duration <= 200) {
         player.removePotionEffect(<potion:minecraft:night_vision>);
     }
 

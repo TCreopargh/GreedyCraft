@@ -1,0 +1,15 @@
+{
+    "name": "§d组队",
+    "icon": "minecraft:skull:3",
+    "category": "patchouli:misc_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(5)$(o)团结就是力量。$() $(br2)如果你想和朋友一起合作通关，你们可以组成一个队伍！$(br2)$(6)FTB 队伍$() FTB队伍能够同步任务进度并且共享领地。要组建或加入一个FTB队伍，请点击物品栏界面左上角的“我的组。” "
+        },
+        {
+            "type": "text",
+            "text": "$(2)TogetherForever队伍$() TogetherForever的组队系统允许你和队友同步游戏阶段和成就进度。使用$(5)/togetherforever$()指令来管理这种组队系统。$(2)/togetherforever invite$()可以邀请玩家加入队伍，$(2)/togetherforever leave$()可以离开队伍。$(2)/togetherforever accept$()可以接受一个组队邀请，$(2)/togetherforever forcesync$()可以强制同步队伍进度。"
+        }
+    ]
+}

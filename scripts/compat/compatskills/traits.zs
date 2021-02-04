@@ -17,7 +17,7 @@ bloodlust.description = game.localize("greedycraft.compatskills.traits.bloodlust
 bloodlust.changeIcon("greedycraft:skills/bloodlust.png");
 bloodlust.setEnabled(true);
 bloodlust.onKillMob = function(event as crafttweaker.event.EntityLivingDeathEvent) {
-    if(Math.random() as double < 0.3) {
+    if(Math.random() as double < 0.2) {
         var damageSource as IDamageSource = event.damageSource;
         if(damageSource.getTrueSource() instanceof IPlayer) {
             var player as IPlayer = damageSource.getTrueSource();
@@ -33,7 +33,7 @@ fortified.changeIcon("greedycraft:skills/fortified.png");
 fortified.setEnabled(true);
 fortified.onHurt = function(event as crafttweaker.event.EntityLivingHurtEvent) {
     if(event.entityLivingBase instanceof IPlayer && event.amount >= (3.0 as float)) {
-        if(Math.random() as double < 0.2) {
+        if(Math.random() as double < 0.1) {
             var player as IPlayer = event.entityLivingBase;
             player.addPotionEffect(<potion:minecraft:resistance>.makePotionEffect(50, 1, false, false));
         }

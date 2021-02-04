@@ -14260,3 +14260,4 @@ jaopca:fluid_moltenmithril - 17942
 jaopca:fluid_moltenshadowium - 17943
 jaopca:fluid_moltentitanium - 17944
 jaopca:fluid_moltenuranium - 17945
+additions:greedycraft-red_packet - 17946

@@ -7,6 +7,7 @@
 
 import mods.ctutils.utils.Math;
 
+// For calculating power of int values 
 function pow(base as int, exp as int) as long {
     var ret as long = 1 as long;
     for i in 0 to exp {

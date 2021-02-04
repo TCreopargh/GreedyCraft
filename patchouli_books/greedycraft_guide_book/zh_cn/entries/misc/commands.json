@@ -16,7 +16,7 @@
         },
         {
             "type": "text",
-            "text": "$(li)$(2)/unlockallstages$(): 解锁所有游戏阶段。$(4)需要OP及作弊权限$(li)$(2)/lockallstages$(): 重新上锁所有游戏阶段。$(4)需要OP及作弊权限"
+            "text": "$(li)$(2)/unlockallstages$(): 解锁所有游戏阶段。$(4)需要OP及作弊权限$(li)$(2)/lockallstages$(): 重新上锁所有游戏阶段。$(4)需要OP及作弊权限$(2)/stagelist$(): 列出你拥有和没有的所有游戏阶段"
         }
     ]
 }

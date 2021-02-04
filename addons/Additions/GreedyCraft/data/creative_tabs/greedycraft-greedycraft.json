@@ -547,6 +547,9 @@
       "item": "additions:greedycraft-gift"
     },
     {
+      "item": "additions:greedycraft-red_packet"
+    },
+    {
       "item": "patchouli:guide_book",
       "tag": "{\"patchouli:book\":\"patchouli:greedycraft_guide_book\"}"
     },

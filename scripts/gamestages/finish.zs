@@ -5,14 +5,6 @@
 
 #priority 800
 
-import crafttweaker.item.IItemStack;
-import crafttweaker.data.IData;
-import crafttweaker.item.IIngredient;
-
 import mods.zenstages.ZenStager;
-import mods.zenstages.Stage;
-import mods.ItemStages;
-
-import scripts.util.gamestages as GameStagesUtil;
 
 ZenStager.buildAll();

@@ -524,3 +524,74 @@ sendFirstJoinMessageCommand.execute = function(command, server, sender, args) {
     }
 };
 sendFirstJoinMessageCommand.register();
+
+val redPacketCommand as ZenCommand = ZenCommand.create("redpacket");
+redPacketCommand.getCommandUsage = function(sender) {
+    return game.localize("greedycraft.command.redPacketCommand.usage");
+};
+redPacketCommand.requiredPermissionLevel = 2;
+redPacketCommand.tabCompletionGetters = [IGetTabCompletion.player()];
+redPacketCommand.execute = function(command, server, sender, args) {
+    var players as IPlayer[] = [] as IPlayer[];
+    if (args.length == 0) {
+        players += CommandUtils.getCommandSenderAsPlayer(sender) as IPlayer;
+    } else if (args.length == 1) {
+        players = CommandUtils.getPlayers(server, sender, args[0]) as IPlayer[];
+    } else {
+        CommandUtils.notifyWrongUsage(command, sender);
+        return;
+    }
+    for player in players {
+        if(!isNull(player)) {
+            var xp as int = Math.floor((50.0 + Math.random() * 300.0 + Math.random() * 0.75 * (pow(player.difficulty, 1.5)))) as int;
+            player.addExperience(xp);
+            player.sendChat(I18n.format("greedycraft.command.red_packet", "" + xp));
+        }
+    }
+};
+redPacketCommand.register();
+
+val listStagesCommand as ZenCommand = ZenCommand.create("stagelist");
+listStagesCommand.getCommandUsage = function(sender) {
+    return game.localize("greedycraft.command.listStagesCommand.usage");
+};
+listStagesCommand.requiredPermissionLevel = 0;
+listStagesCommand.tabCompletionGetters = [];
+listStagesCommand.execute = function(command, server, sender, args) {
+    var players as IPlayer[] = [] as IPlayer[];
+    if (args.length == 0) {
+        players += CommandUtils.getCommandSenderAsPlayer(sender) as IPlayer;
+    }
+    for player in players {
+        if(!isNull(player)) {
+            var have as string[] = [];
+            var haveNot as string[] = [];
+            for stage in listStages {
+                if(player.hasGameStage(stage)) {
+                    have += stage;
+                } else {
+                    haveNot += stage;
+                }
+            }
+            var haveStr as string = "";
+            var haveNotStr as string = "";
+            for stage in have {
+                haveStr += "§a" + stage + "§7, ";
+            }
+            if(haveStr.length() > 4) {
+                haveStr = haveStr.substring(0, haveStr.length() - 4);
+            }
+            for stage in haveNot {
+                haveNotStr += "§c" + stage + "§7, ";
+            }
+            if(haveNotStr.length() > 4) {
+                haveNotStr = haveNotStr.substring(0, haveNotStr.length() - 4);
+            }
+            player.sendChat(I18n.format("greedycraft.command.list_stages.have"));
+            player.sendChat(haveStr);
+            player.sendChat(I18n.format("greedycraft.command.list_stages.have_not"));
+            player.sendChat(haveNotStr);
+        }
+    }
+};
+listStagesCommand.register();

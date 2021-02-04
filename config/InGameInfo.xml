@@ -480,7 +480,7 @@
                             <var>potiondurationticks0</var>
                             <num>30000</num>
                         </greater>
-                        <str>§b∞</str>
+                        <str>$b∞</str>
                         <var>potionduration0</var>
                     </if>
                     <str>$f</str>
@@ -523,7 +523,7 @@
                             <var>potiondurationticks1</var>
                             <num>30000</num>
                         </greater>
-                        <str>§b∞</str>
+                        <str>$b∞</str>
                         <var>potionduration1</var>
                     </if>
                     <str>$f</str>
@@ -566,7 +566,7 @@
                             <var>potiondurationticks2</var>
                             <num>30000</num>
                         </greater>
-                        <str>§b∞</str>
+                        <str>$b∞</str>
                         <var>potionduration2</var>
                     </if>
                     <str>$f</str>
@@ -609,7 +609,7 @@
                             <var>potiondurationticks3</var>
                             <num>30000</num>
                         </greater>
-                        <str>§b∞</str>
+                        <str>$b∞</str>
                         <var>potionduration3</var>
                     </if>
                     <str>$f</str>
@@ -652,7 +652,7 @@
                             <var>potiondurationticks4</var>
                             <num>30000</num>
                         </greater>
-                        <str>§b∞</str>
+                        <str>$b∞</str>
                         <var>potionduration4</var>
                     </if>
                     <str>$f</str>
@@ -695,7 +695,7 @@
                             <var>potiondurationticks5</var>
                             <num>30000</num>
                         </greater>
-                        <str>§b∞</str>
+                        <str>$b∞</str>
                         <var>potionduration5</var>
                     </if>
                     <str>$f</str>
@@ -738,7 +738,7 @@
                             <var>potiondurationticks6</var>
                             <num>30000</num>
                         </greater>
-                        <str>§b∞</str>
+                        <str>$b∞</str>
                         <var>potionduration6</var>
                     </if>
                     <str>$f</str>
@@ -781,7 +781,7 @@
                             <var>potiondurationticks7</var>
                             <num>30000</num>
                         </greater>
-                        <str>§b∞</str>
+                        <str>$b∞</str>
                         <var>potionduration7</var>
                     </if>
                     <str>$f</str>
@@ -824,7 +824,7 @@
                             <var>potiondurationticks8</var>
                             <num>30000</num>
                         </greater>
-                        <str>§b∞</str>
+                        <str>$b∞</str>
                         <var>potionduration8</var>
                     </if>
                     <str>$f</str>
@@ -867,7 +867,7 @@
                             <var>potiondurationticks9</var>
                             <num>30000</num>
                         </greater>
-                        <str>§b∞</str>
+                        <str>$b∞</str>
                         <var>potionduration9</var>
                     </if>
                     <str>$f</str>
@@ -910,7 +910,7 @@
                             <var>potiondurationticks10</var>
                             <num>30000</num>
                         </greater>
-                        <str>§b∞</str>
+                        <str>$b∞</str>
                         <var>potionduration10</var>
                     </if>
                     <str>$f</str>
@@ -953,7 +953,7 @@
                             <var>potiondurationticks11</var>
                             <num>30000</num>
                         </greater>
-                        <str>§b∞</str>
+                        <str>$b∞</str>
                         <var>potionduration11</var>
                     </if>
                     <str>$f</str>
@@ -996,7 +996,7 @@
                             <var>potiondurationticks12</var>
                             <num>30000</num>
                         </greater>
-                        <str>§b∞</str>
+                        <str>$b∞</str>
                         <var>potionduration12</var>
                     </if>
                     <str>$f</str>

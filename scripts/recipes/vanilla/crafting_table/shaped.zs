@@ -33,8 +33,8 @@ RecipeUtil.addShaped("dragonegg", <minecraft:dragon_egg>, [
     [<ore:scaleDragonEnder>, <ore:scaleDragonEnder>, <ore:scaleDragonEnder>]
 ]);
 RecipeUtil.addShaped("creativehead", <tconstruct:materials:50>, [
-    [null, <draconicevolution:awakened_core>, null],
-    [null, <minecraft:skull:3>.anyDamage(), null],
+    [null, <ore:blockDraconicMetal>, null],
+    [<draconicevolution:awakened_core>, <minecraft:skull:3>.anyDamage(), <draconicevolution:awakened_core>],
     [null, <avaritia:singularity:1>, null]
 ]);
 RecipeUtil.addShaped("witherskull", <minecraft:skull:1>, [
@@ -1193,6 +1193,16 @@ RecipeUtil.addShaped("valkyrie_belt", <aeble:valkyrie_belt>, [
     [<ore:ingotValkyrie>, <ore:ingotAsgardium>, <ore:ingotValkyrie>],
     [<ore:ingotAsgardium>, null, <ore:ingotAsgardium>],
     [<ore:ingotValkyrie>, <ore:ingotAsgardium>, <ore:ingotValkyrie>]
+]);
+RecipeUtil.addShaped("lucky_belt", <aeble:luck_belt>, [
+    [<additions:greedycraft-lucky_clover>, <ore:ingotAsgardium>, <additions:greedycraft-lucky_clover>],
+    [<ore:ingotAsgardium>, null, <ore:ingotAsgardium>],
+    [<additions:greedycraft-lucky_clover>, <ore:ingotAsgardium>, <additions:greedycraft-lucky_clover>]
+]);
+RecipeUtil.addShaped("repulsion_belt", <aeble:repulsion_belt>, [
+    [<ore:pearlEnderEye>, <ore:ingotAsgardium>, <ore:pearlEnderEye>],
+    [<ore:ingotAsgardium>, null, <ore:ingotAsgardium>],
+    [<ore:pearlEnderEye>, <ore:ingotAsgardium>, <ore:pearlEnderEye>]
 ]);
 RecipeUtil.addShaped("coregod", <extrabotany:coregod>.withTag({}), [
     [<ore:quartzSunny>, <ore:quartzSunny>, <ore:quartzSunny>],

@@ -429,6 +429,12 @@ greedycraft.event.stage.lore.title=§b§lGAME STAGE UNLOCKED!
 greedycraft.event.stage.lore.unlocked=§6UNLOCKED FEATURES:
 greedycraft.event.stage.lore.difficulty=§dDIFFICULTY CHANGED!
 greedycraft.stage.uncraftable_item.tooltip=§cNot Craftable
+greedycraft.event.require_optifine=§cWARNING: Optifine is not installed! This may cause low performance and loss of features. Please follow the installation guide to install optifine.
+greedycraft.command.redPacketCommand.usage=/redpacket [Player]
+greedycraft.command.red_packet=§cYou found §6%s exp §cin the red envelope!
+greedycraft.command.listStagesCommand.usage=/stagelist
+greedycraft.command.list_stages.have=§2Game stages that you have:
+greedycraft.command.list_stages.have_not=§6Game stages that you have not:
 
 greedycraft.quest.ba33ef37.title=§bFree§d Difficulty Changer!
 greedycraft.quest.11643307.title=§eThe Lich
