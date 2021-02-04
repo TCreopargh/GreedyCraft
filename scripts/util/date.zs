@@ -3,7 +3,7 @@
  * You may NOT use this script in any other publicly distributed modpack without my permission. 
  */ 
 
-#priority 30020
+#priority 32010
 
 import mods.ctintegration.util.DateUtil;
 import mods.ctintegration.date.IDate;   

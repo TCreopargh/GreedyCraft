@@ -37,7 +37,7 @@ import mods.zenutils.I18n;
 events.onPlayerLoggedIn(function (event as PlayerLoggedInEvent) {
 
     var player as IPlayer = event.player;
-
+    
     if(player.hasGameStage("truehero") && !player.hasGameStage("iswuss")) {
         player.sendChat(I18n.format("greedycraft.event.true_hero.join", player.name));
     } else if(player.hasGameStage("iswuss")) {

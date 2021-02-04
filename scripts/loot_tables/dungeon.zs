@@ -288,5 +288,9 @@ LootUtil.addHardmodeItem(<minecraft:dye:4>, 10, 1, 32, 64);
 LootUtil.addHardmodeItem(<minecraft:book>, 12, 1, 3, 32);
 
 if(CalendarUtil.isChristmas()) {
-    LootUtil.addItem(<additions:greedycraft-gift>, 20, 1, 1, 2);
+    LootUtil.addItem(<additions:greedycraft-gift>, 15, 1, 1, 2);
+}
+
+if(CalendarUtil.isLunarNewYear()) {
+    LootUtil.addItem(<additions:greedycraft-red_packet>, 15, 1, 1, 2);
 }

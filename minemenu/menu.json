@@ -1,0 +1,134 @@
+{
+  "main": {
+    "0": {
+      "title": "§5显示当前难度 §9§oScalingHealth",
+      "icon": {
+        "name": "headcrumbs:skull",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "Difficulty Meter - Show",
+          "toggle": false
+        }
+      }
+    },
+    "1": {
+      "title": "§6打开扩展式物品栏§7(如果已解锁) §9§oCyclic",
+      "icon": {
+        "name": "forestry:apiarist_bag",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "key.keyExtraInvo",
+          "toggle": true
+        }
+      }
+    },
+    "2": {
+      "title": "§6打开便携式工作台§7(如果已解锁) §9§oCyclic",
+      "icon": {
+        "name": "minecraft:crafting_table",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "key.keyExtraCraftin",
+          "toggle": true
+        }
+      }
+    },
+    "3": {
+      "title": "§5释放实体 §9§oPlusTiC",
+      "icon": {
+        "name": "minecraft:spawn_egg",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "key.plustic_release_entity.desc",
+          "toggle": false
+        }
+      }
+    },
+    "4": {
+      "title": "§3打开/dank/null §9§o/dank/null",
+      "icon": {
+        "name": "minecraft:chest",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "key.open_danknull.desc",
+          "toggle": false
+        }
+      }
+    },
+    "5": {
+      "title": "§b打开背包 §9§oIronBackpacks",
+      "icon": {
+        "name": "thermalexpansion:satchel",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "key.ironbackpacks.open",
+          "toggle": true
+        }
+      }
+    },
+    "6": {
+      "title": "§6打开无限合成终端§7(如果已装备) §9§oWCT2",
+      "icon": {
+        "name": "wct:wct",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "key.open_wct.desc",
+          "toggle": false
+        }
+      }
+    },
+    "7": {
+      "title": "§a切换第一人称模式§r§9§o RealFirstPerson2",
+      "icon": {
+        "name": "minecraft:skull",
+        "damage": 3
+      },
+      "action": {
+        "key": {
+          "key": "key.mod.desc",
+          "toggle": false
+        }
+      }
+    },
+    "8": {
+      "title": "§6清理内存 §9§o供提升性能用",
+      "icon": {
+        "name": "additions:greedycraft-item_purger",
+        "damage": 0
+      },
+      "action": {
+        "command": {
+          "command": "/cleanmemory",
+          "clipboard": false
+        }
+      }
+    },
+    "9": {
+      "title": "§a切换磁卡模式 §9§oWCT2",
+      "icon": {
+        "name": "wct:magnet_card",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "key.cycle_magnet_mode.desc",
+          "toggle": false
+        }
+      }
+    }
+  }
+}

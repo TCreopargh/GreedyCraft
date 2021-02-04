@@ -59,5 +59,6 @@ global whitelistedCommands as string[] = [
     "sendfirstjoinmessage",
     "tf",
     "together",
-    "togetherforever"
+    "togetherforever",
+    "stagelist"
 ];

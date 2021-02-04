@@ -348,6 +348,7 @@ GameStagesUtil.stageNoviceEngineer.addIngredients([
 ], true);
 
 GameStagesUtil.stageHardmode.addIngredients([
+    <ore:essenceTier6>,
     <minecraft:chorus_fruit_popped>,
     <tconstruct:materials:19>,
     <tconstruct:materials:18>,
@@ -485,8 +486,7 @@ GameStagesUtil.stageGraduated.addIngredients([
     <randomthings:spectrecoil_genesis>,
     <additions:greedycraft-ocd_certificate>,
     <ae2wtlib:wut_creative>,
-    <ae2wtlib:wut_creative>.withTag({StoredTerminals: [{ForgeCaps: {"astralsorcery:cap_item_amulet_holder": {}}, id: "wct:wct_creative", Count: 1 as byte, Damage: 0 as short}, {ForgeCaps: {"astralsorcery:cap_item_amulet_holder": {}}, id: "wit:wct_creative", Count: 1 as byte, Damage: 0 as short}, {ForgeCaps: {"astralsorcery:cap_item_amulet_holder": {}}, id: "wit:wit_creative", Count: 1 as byte, Damage: 0 as short}, {ForgeCaps: {"astralsorcery:cap_item_amulet_holder": {}}, id: "wft:wft_creative", Count: 1 as byte, Damage: 0 as short}], IsInRange: 0 as byte, SelectedTerminal: 0, internalCurrentPower: 1600000.0}),
-    <bloodmagic:sacrificial_dagger:1>
+    <ae2wtlib:wut_creative>.withTag({StoredTerminals: [{ForgeCaps: {"astralsorcery:cap_item_amulet_holder": {}}, id: "wct:wct_creative", Count: 1 as byte, Damage: 0 as short}, {ForgeCaps: {"astralsorcery:cap_item_amulet_holder": {}}, id: "wit:wct_creative", Count: 1 as byte, Damage: 0 as short}, {ForgeCaps: {"astralsorcery:cap_item_amulet_holder": {}}, id: "wit:wit_creative", Count: 1 as byte, Damage: 0 as short}, {ForgeCaps: {"astralsorcery:cap_item_amulet_holder": {}}, id: "wft:wft_creative", Count: 1 as byte, Damage: 0 as short}], IsInRange: 0 as byte, SelectedTerminal: 0, internalCurrentPower: 1600000.0})
 ]);
 
 GameStagesUtil.stageAbyssalConquerer.addIngredients([
@@ -708,13 +708,13 @@ GameStagesUtil.stageChallenger5.addIngredients([
 ], true);
 
 GameStagesUtil.stageChallenger6.addIngredients([
-    <ore:seedsTier6>,
     <ore:essenceInsanium>,
     <ore:ingotInsanium>,
     <tinymobfarm:inferno_farm>
 ], true);
 
 GameStagesUtil.stageChallenger7.addIngredients([
+    <ore:seedsTier6>,
     <tinymobfarm:ultimate_farm>
 ], true);
 

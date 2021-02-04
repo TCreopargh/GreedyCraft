@@ -1,74 +1,74 @@
 {
-    "cause": {
-        "item": {
-            "item": "additions:tcsponsors-old_cloak",
-            "damage": "any"
-        },
-        "type": "additions:item_right_click"
+  "cause": {
+    "item": {
+      "item": "additions:tcsponsors-old_cloak",
+      "damage": "any"
     },
-    "effects": [
-        {
-            "type": "additions:consume_item"
-        },
-        {
-            "potion": {
-                "name": "minecraft:instant_damage",
-                "duration": 1,
-                "amplifier": 15,
-                "ambient": false,
-                "show_particles": true
-            },
-            "type": "additions:potion"
-        },
-        {
-            "potion": {
-                "name": "minecraft:blindness",
-                "duration": 40,
-                "amplifier": 0,
-                "ambient": false,
-                "show_particles": true
-            },
-            "type": "additions:potion"
-        },
-        {
-            "potion": {
-                "name": "minecraft:strength",
-                "duration": 1200,
-                "amplifier": 2,
-                "ambient": false,
-                "show_particles": true
-            },
-            "type": "additions:potion"
-        },
-        {
-            "potion": {
-                "name": "minecraft:jump_boost",
-                "duration": 1200,
-                "amplifier": 2,
-                "ambient": false,
-                "show_particles": true
-            },
-            "type": "additions:potion"
-        },
-        {
-            "potion": {
-                "name": "minecraft:speed",
-                "duration": 1200,
-                "amplifier": 2,
-                "ambient": false,
-                "show_particles": true
-            },
-            "type": "additions:potion"
-        },
-        {
-            "potion": {
-                "name": "minecraft:haste",
-                "duration": 1200,
-                "amplifier": 2,
-                "ambient": false,
-                "show_particles": true
-            },
-            "type": "additions:potion"
-        }
-    ]
+    "type": "additions:item_right_click"
+  },
+  "effects": [
+    {
+      "type": "additions:consume_item"
+    },
+    {
+      "potion": {
+        "name": "minecraft:instant_damage",
+        "duration": 1,
+        "amplifier": 4,
+        "ambient": false,
+        "show_particles": true
+      },
+      "type": "additions:potion"
+    },
+    {
+      "potion": {
+        "name": "minecraft:blindness",
+        "duration": 40,
+        "amplifier": 0,
+        "ambient": false,
+        "show_particles": true
+      },
+      "type": "additions:potion"
+    },
+    {
+      "potion": {
+        "name": "minecraft:strength",
+        "duration": 1200,
+        "amplifier": 2,
+        "ambient": false,
+        "show_particles": true
+      },
+      "type": "additions:potion"
+    },
+    {
+      "potion": {
+        "name": "minecraft:jump_boost",
+        "duration": 1200,
+        "amplifier": 2,
+        "ambient": false,
+        "show_particles": true
+      },
+      "type": "additions:potion"
+    },
+    {
+      "potion": {
+        "name": "minecraft:speed",
+        "duration": 1200,
+        "amplifier": 2,
+        "ambient": false,
+        "show_particles": true
+      },
+      "type": "additions:potion"
+    },
+    {
+      "potion": {
+        "name": "minecraft:haste",
+        "duration": 1200,
+        "amplifier": 2,
+        "ambient": false,
+        "show_particles": true
+      },
+      "type": "additions:potion"
+    }
+  ]
 }

@@ -1,0 +1,197 @@
+{
+  "version": 2,
+  "inventoryGeneratorID": "airship-armories",
+  "items": [
+    {
+      "weight": 11.482789039611816,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:iron_sword",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 11.482789039611816,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:iron_sword",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 11.482789039611816,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:iron_sword",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 11.482789039611816,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:iron_sword",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 11.482789039611816,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:diamond_sword",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 11.482789039611816,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:diamond_sword",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 11.482789039611816,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:bow",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 11.482789039611816,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:bow",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 11.482789039611816,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:bow",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 11.482789039611816,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:bow",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 11.482789039611816,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:bow",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 11.482789039611816,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:bow",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 11.482789039611816,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:shield",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 11.482789039611816,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:shield",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 11.482789039611816,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:shield",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 11.482789039611816,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:shield",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 11.482789039611816,
+      "min": 1,
+      "max": 41,
+      "item": {
+        "id": "minecraft:arrow",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.03422137722373009,
+      "min": 1,
+      "max": 20,
+      "item": {
+        "id": "quark:arrow_explosive",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 8.315798913827166E-5,
+      "min": 1,
+      "max": 10,
+      "item": {
+        "id": "quark:arrow_ender",
+        "damage": 0,
+        "count": 1
+      }
+    }
+  ],
+  "dependencyExpression": ""
+}

@@ -245,7 +245,7 @@
         "current_version": {
             "alignment": "bottom_left",
             "text": "file:greedycraft:version.txt",
-			"hoverText": "§2版本编号越大，版本越新，请确保你游玩的版本是最新的！",
+			"hoverText": "§2版本格式：(主版本号).(副版本号).(补丁号).(版本总序列号).(版本组号)",
             "color": -1,
             "posX": 2,
             "posY": -22

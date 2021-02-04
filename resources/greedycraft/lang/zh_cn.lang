@@ -429,6 +429,12 @@ greedycraft.event.stage.lore.title=§b§l游戏阶段已解锁！
 greedycraft.event.stage.lore.unlocked=§6以下物品或功能已解锁：
 greedycraft.event.stage.lore.difficulty=§d难度已更改！
 greedycraft.stage.uncraftable_item.tooltip=§c无法合成
+greedycraft.event.require_optifine=§c警告：Optifine没有安装，这会导致性能降低且会缺失功能。请按照安装教程安装Optifine。
+greedycraft.command.redPacketCommand.usage=/redpacket [玩家]
+greedycraft.command.red_packet=§c恭喜发财！你从红包里获得了§6%s 经验§c！
+greedycraft.command.listStagesCommand.usage=/stagelist
+greedycraft.command.list_stages.have=§2你拥有的游戏阶段：
+greedycraft.command.list_stages.have_not=§6你没有的游戏阶段：
 
 greedycraft.quest.ba33ef37.title=§b免费的§d难度调节器§b！
 greedycraft.quest.11643307.title=§e污妖王

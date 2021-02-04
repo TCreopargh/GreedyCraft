@@ -4,3 +4,5 @@
 Mega hybrid Minecraft modpack with over 520 loaded mods.
 
 Official Site: https://greedycraft.tcreopargh.xyz/
+
+Note: This branch is the original Chinese localized version. For curseforge edition, click on the branch button.

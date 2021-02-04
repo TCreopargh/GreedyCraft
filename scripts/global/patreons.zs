@@ -127,6 +127,7 @@ global patreonList as string[][string] = {
         "DARK429",
         "Calendula_YU",
         "poisonousHg",
-        "Rescue_Expert"
+        "Rescue_Expert",
+        "yu_ze_fish"
     ]
 };

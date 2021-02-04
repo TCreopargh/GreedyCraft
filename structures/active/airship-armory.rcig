@@ -1,0 +1,267 @@
+{
+  "version": 2,
+  "inventoryGeneratorID": "airship-armories",
+  "items": [
+    {
+      "weight": 11.482789039611816,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "warhammermod:musket",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 11.482789039611816,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "warhammermod:musket",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 11.482789039611816,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "warhammermod:musket",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 11.482789039611816,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "warhammermod:musket",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 11.482789039611816,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "warhammermod:warplock jezzail",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 11.482789039611816,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "warhammermod:warplock jezzail",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 11.482789039611816,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "warhammermod:musket",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 11.482789039611816,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "warhammermod:musket",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 11.482789039611816,
+      "min": 15,
+      "max": 64,
+      "item": {
+        "id": "warhammermod:cartridge",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 11.482789039611816,
+      "min": 15,
+      "max": 64,
+      "item": {
+        "id": "warhammermod:shotgun shells",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 11.482789039611816,
+      "min": 1,
+      "max": 15,
+      "item": {
+        "id": "warhammermod:grenade",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 11.482789039611816,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "warhammermod:grenade launcher",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 11.482789039611816,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "warhammermod:grenade launcher",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 11.482789039611816,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "warhammermod:blunderbuss",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 11.482789039611816,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "warhammermod:blunderbuss",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 11.482789039611816,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "warhammermod:blunderbuss",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 11.482789039611816,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "warhammermod:flintlock pistol",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 11.482789039611816,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "warhammermod:flintlock pistol",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 11.482789039611816,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "warhammermod:flintlock pistol",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 11.482789039611816,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "warhammermod:flintlock pistol",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 11.482789039611816,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "warhammermod:flintlock pistol",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 11.482789039611816,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "warhammermod:flintlock pistol",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 11.482789039611816,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "warhammermod:flintlock pistol",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 11.482789039611816,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "warhammermod:flintlock pistol",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 11.482789039611816,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "warhammermod:musket",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.0976562350988388,
+      "min": 1,
+      "max": 64,
+      "item": {
+        "id": "quark:arrow_explosive",
+        "damage": 0,
+        "count": 1
+      }
+    }
+  ],
+  "dependencyExpression": "$warhammermod"
+}

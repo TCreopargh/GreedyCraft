@@ -42,7 +42,7 @@ RecipeUtil.addShapeless("auto_gen_747705352", <thermalfoundation:material:199>, 
 RecipeUtil.addShapeless("auto_gen_1647035237", <thermalfoundation:material:133>, [<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <projecte:item.pe_philosophers_stone>.transformReplace(<projecte:item.pe_philosophers_stone>)]);
 RecipeUtil.addShapeless("auto_gen_104947165", <thermalfoundation:material:134>, [<projecte:item.pe_philosophers_stone>.transformReplace(<projecte:item.pe_philosophers_stone>), <ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>]);
 RecipeUtil.addShapeless("auto_gen_695668416", <minecraft:tallgrass:1>, [<pvj:short_grass>]);
-RecipeUtil.addShapeless("auto_gen_1862248730", <minecraft:potion>.withTag({Potion:"cofhcore:luck3+"}), [<minecraft:glass_bottle>, <additions:greedycraft-lucky_clover>]);
+RecipeUtil.addShapeless("auto_gen_1862248730", <minecraft:potion>.withTag({Potion: "minecraft:luck"}), [<minecraft:glass_bottle>, <additions:greedycraft-lucky_clover>]);
 RecipeUtil.addShapeless("auto_gen_288981592", <minecraft:crafting_table> * 4, [<ore:logWood>, <ore:logWood>, <ore:logWood>, <ore:logWood>]);
 RecipeUtil.addShapeless("auto_gen_-1694793471", <minecraft:potion>.withTag({Potion: "minecraft:water"}), [<minecraft:glass_bottle>, <minecraft:water_bucket>.transformReplace(<minecraft:water_bucket>)]);
 RecipeUtil.addShapeless("auto_gen_-865558598", <minecraft:dragon_breath>, [<minecraft:glass_bottle>, <ore:skullEnderDragon>.transformReplace(<minecraft:skull:5>)]);

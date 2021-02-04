@@ -53,7 +53,9 @@ GameStagesUtil.restageItems("wielder_of_infinity", [
     <avaritia:infinity_boots>,
     <ore:ingotInfinity>,
     <ore:blockInfinity>,
-    <mekanism:machineblock2:14>
+    <mekanism:machineblock2:14>,
+    <bloodmagic:sacrificial_dagger:1>,
+    <thermalcultivation:watering_can:32000>
 ]);
 
 GameStagesUtil.restageItem("awakened", <draconicevolution:chaos_shard>);
@@ -85,7 +87,15 @@ GameStagesUtil.restageItems("fusion_matrix", [
     <ore:ingotDraconium>,
     <ore:oreDraconium>,
     <ore:dustDraconium>,
-    <ore:blockDraconium>
+    <ore:blockDraconium>,
+    <ore:ingotDraconiumAwakened>,
+    <ore:blockDraconiumAwakened>,
+    <ore:nuggetDraconiumAwakened>,
+    <mysticalagradditions:awakened_draconium_essence>,
+    <mysticalagradditions:special:4>,
+    <ore:nuggetDraconium>,
+    <draconicevolution:draconium_chest>,
+    <mysticalagriculture:draconium_essence>
 ]);
 GameStagesUtil.restageItems("wyvern", [
     <avaritia:neutron_collector>, 
@@ -100,7 +110,9 @@ GameStagesUtil.restageItem("fusion_matrix", <cyclicmagic:ender_lightning>);
 GameStagesUtil.restageItems("graduated", [
     <cyclicmagic:battery_infinite>,
     <projecte:item.pe_harvest_god>,
-    <draconicevolution:draconium_capacitor:2>
+    <draconicevolution:draconium_capacitor:2>,
+    <projectex:final_star>,
+    <draconicevolution:creative_exchanger>
 ]);
 GameStagesUtil.restageItem("skilled_engineer", <cyclicmagic:harvester_block>);
 GameStagesUtil.restageItems("energy_matter_core", [

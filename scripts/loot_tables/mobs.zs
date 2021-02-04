@@ -88,6 +88,15 @@ if(CalendarUtil.isChristmas()) {
     }
 }
 
+if(CalendarUtil.isLunarNewYear()) {
+    for mob in mobList {
+        var table as LootTable = LootTweaker.getTable("minecraft:entities/" + mob);
+        var pool as LootPool = table.addPool("red_envelope", 1, 1, 0, 0);
+        pool.addItemEntryHelper(<additions:greedycraft-red_packet>, 1, 1, [Functions.setCount(1, 1)], []);
+        pool.addConditionsHelper([Conditions.randomChanceWithLooting(0.00, 0.005), Conditions.killedByPlayer()]);
+    }
+}
+
 for table in slimeTables {
     var table as LootTable = LootTweaker.getTable(table);
     var pool as LootPool = table.addPool("slime_crown", 1, 1, 0, 0); 

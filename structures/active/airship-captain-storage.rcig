@@ -1,0 +1,310 @@
+{
+  "version": 2,
+  "inventoryGeneratorID": "airship-captain-storage",
+  "items": [
+    {
+      "weight": 4.065970420837402,
+      "min": 1,
+      "max": 3,
+      "item": {
+        "id": "minecraft:saddle",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 13.39267349243164,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:elytra",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 6.624965190887451,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "grapplemod:grapplinghook",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "doublehook": {
+              "nbtType": "byte",
+              "nbt": 0
+            },
+            "motor": {
+              "nbtType": "byte",
+              "nbt": 0
+            },
+            "phaserope": {
+              "nbtType": "byte",
+              "nbt": 0
+            },
+            "attract": {
+              "nbtType": "byte",
+              "nbt": 0
+            },
+            "hookgravity": {
+              "nbtType": "double",
+              "nbt": 1.0
+            },
+            "repelforce": {
+              "nbtType": "double",
+              "nbt": 1.0
+            },
+            "attractradius": {
+              "nbtType": "double",
+              "nbt": 3.0
+            },
+            "pullbackwards": {
+              "nbtType": "byte",
+              "nbt": 1
+            },
+            "smartmotor": {
+              "nbtType": "byte",
+              "nbt": 0
+            },
+            "angle": {
+              "nbtType": "double",
+              "nbt": 20.0
+            },
+            "motorwhencrouching": {
+              "nbtType": "byte",
+              "nbt": 1
+            },
+            "motorwhennotcrouching": {
+              "nbtType": "byte",
+              "nbt": 1
+            },
+            "motordampener": {
+              "nbtType": "byte",
+              "nbt": 0
+            },
+            "throwspeed": {
+              "nbtType": "double",
+              "nbt": 2.0
+            },
+            "motoracceleration": {
+              "nbtType": "double",
+              "nbt": 0.2
+            },
+            "enderstaff": {
+              "nbtType": "byte",
+              "nbt": 0
+            },
+            "oneropepull": {
+              "nbtType": "byte",
+              "nbt": 0
+            },
+            "sneakingverticalthrowangle": {
+              "nbtType": "double",
+              "nbt": 0.0
+            },
+            "smartdoublemotor": {
+              "nbtType": "byte",
+              "nbt": 1
+            },
+            "repel": {
+              "nbtType": "byte",
+              "nbt": 0
+            },
+            "sneakingangle": {
+              "nbtType": "double",
+              "nbt": 10.0
+            },
+            "motormaxspeed": {
+              "nbtType": "double",
+              "nbt": 4.0
+            },
+            "playermovementmult": {
+              "nbtType": "double",
+              "nbt": 1.5
+            },
+            "reelin": {
+              "nbtType": "byte",
+              "nbt": 1
+            },
+            "verticalthrowangle": {
+              "nbtType": "double",
+              "nbt": 0.0
+            },
+            "maxlen": {
+              "nbtType": "double",
+              "nbt": 50.8
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 4.910394668579102,
+      "min": 1,
+      "max": 15,
+      "item": {
+        "id": "minecraft:fireworks",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Fireworks": {
+              "nbtType": "compound",
+              "nbt": {
+                "Flight": {
+                  "nbtType": "byte",
+                  "nbt": 1
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 7.019199371337891,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:diamond_sword",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 11.482789039611816,
+      "min": 1,
+      "max": 18,
+      "item": {
+        "id": "minecraft:bread",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 9.281763076782227,
+      "min": 1,
+      "max": 22,
+      "item": {
+        "id": "minecraft:mushroom_stew",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 24.8188419342041,
+      "min": 1,
+      "max": 16,
+      "item": {
+        "id": "minecraft:potato",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 10.335477828979492,
+      "min": 1,
+      "max": 6,
+      "item": {
+        "id": "minecraft:cooked_beef",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 5.547300815582275,
+      "min": 1,
+      "max": 7,
+      "item": {
+        "id": "warhammermod:beer",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 7.431984901428223,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "warhammermod:musket",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.5889394283294678,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "warhammermod:iron gunsword",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 22.68061065673828,
+      "min": 1,
+      "max": 13,
+      "item": {
+        "id": "warhammermod:cartridge",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.0019995670299977064,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "warhammermod:ratling gun",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.0019995670299977064,
+      "min": 1,
+      "max": 10,
+      "item": {
+        "id": "warhammermod:warpstone",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.0639861449599266,
+      "min": 1,
+      "max": 20,
+      "item": {
+        "id": "quark:arrow_explosive",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 20.692365646362305,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:bow",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 7.574109476990998E-4,
+      "min": 1,
+      "max": 5,
+      "item": {
+        "id": "quark:arrow_ender",
+        "damage": 0,
+        "count": 1
+      }
+    }
+  ],
+  "dependencyExpression": ""
+}

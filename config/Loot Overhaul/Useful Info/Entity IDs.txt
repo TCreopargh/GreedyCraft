@@ -790,3 +790,4 @@ rfp2:playerdummy - 787
 tumbleweed:tumbleweed - 788
 zombieawareness:entityscent - 789
 additions:projectile - 790
+cqrepoured:projectile_thrown_block - 791

@@ -16,7 +16,7 @@
         },
         {
             "type": "text",
-            "text": "$(li)$(2)/unlockallstages$(): Unlocks all game stages. $(4)Needs OP perms and cheat mode enabled$(li)$(2)/lockallstages$(): Lock all game stages again$(4)Needs OP perms and cheat mode enabled"
+            "text": "$(li)$(2)/unlockallstages$(): Unlocks all game stages. $(4)Needs OP perms and cheat mode enabled$(li)$(2)/lockallstages$(): Lock all game stages again$(4)Needs OP perms and cheat mode enabled$(2)/stagelist$(): Lists all game stages that you have or have not"
         }
     ]
 }
