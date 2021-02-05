@@ -166,7 +166,8 @@ val localizationMap as string[string][string] = {
         "reskillable.skill.reskillable.building": "建造 §7[§2+韧性§7]§r",
         "reskillable.skill.reskillable.farming": "农耕 §7[§2+生命§7]§r",
         "reskillable.skill.reskillable.agility": "敏捷 §7[§2+移速§7]§r",
-        "reskillable.skill.reskillable.magic": "魔法 §7[§2+经验§7]§r"
+        "reskillable.skill.reskillable.magic": "魔法 §7[§2+经验§7]§r",
+        "message.died": "§e%s §7逝世于 %s §9(破坏坟墓以取回物品)"
     }, 
     en_us: {
         "modifier.mutate.name": "Mutating",
@@ -237,7 +238,8 @@ val localizationMap as string[string][string] = {
         "reskillable.skill.reskillable.building": "Building §7[§2+Toughness§7]§r",
         "reskillable.skill.reskillable.farming": "Farming §7[§2+Health§7]§r",
         "reskillable.skill.reskillable.agility": "Agility §7[§2+Speed§7]§r",
-        "reskillable.skill.reskillable.magic": "Magic §7[§2+XPGain§7]§r"
+        "reskillable.skill.reskillable.magic": "Magic §7[§2+XPGain§7]§r",
+        "message.died": "§e%s §7Died on §a%s §9(Break the grave to retrieve items)"
     }
 };
 

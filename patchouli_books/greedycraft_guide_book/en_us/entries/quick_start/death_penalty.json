@@ -9,7 +9,7 @@
         },
         {
             "type": "text",
-            "text": "In expert mode a grave will spawn at your death location and if you walk on it while sneaking you can get all items back. The lost items list can help you find your grave. You can use an $(2)XP Block$() to store experience so that they won't be lost. Right click an XP block to withdraw XP and shift-right-click it to deposit XP. A $(5)Soul Bound$() modifier on your Tinkers' tools can prevent it from being lost upon death."
+            "text": "In expert mode a grave will spawn at your death location and if you break it while sneaking you can get all items back. The death info can help you find your grave. You can use an $(2)XP Block$() to store experience so that they won't be lost. Right click an XP block to withdraw XP and shift-right-click it to deposit XP. A $(5)Soul Bound$() modifier on your Tinkers' tools can prevent it from being lost upon death."
         },
         {
             "type": "crafting",

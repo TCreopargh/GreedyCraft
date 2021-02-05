@@ -12,6 +12,14 @@ import crafttweaker.item.IIngredient;
 
 import mods.modularmachinery.RecipeBuilder;
 
+import scripts.util.mystical_agriculture.regName;
+import scripts.util.mystical_agriculture.energy;
+import scripts.util.mystical_agriculture.time;
+import scripts.util.mystical_agriculture.fluid;
+import scripts.util.mystical_agriculture.timeCarpenter;
+import scripts.util.mystical_agriculture.fluidCarpenter;
+import scripts.util.mystical_agriculture.seedChance;
+
 val regName = "organic_infuser";
 val speed = 200;
 
@@ -168,9 +176,6 @@ val crops as IItemStack[][] = [
     [<appliedenergistics2:crystal_seed:1200>, <appliedenergistics2:material:12>]
 ];
 
-var energy = [50, 75, 100, 200, 400, 800, 2500] as int[];
-var time = [60, 100, 120, 160, 200, 320, 2400] as int[];
-var fluid = [500, 550, 600, 650, 700, 800, 3200] as int[];
 var recipeId = 0;
 
 for row in crops {
@@ -199,7 +204,7 @@ for row in crops {
     .addFluidInput(<liquid:organic_fluid> * fluid[tier])
     .addItemOutput(seed)
     .addItemOutput(seed)
-    .setChance(0.05 as float)
+    .setChance(seedChance[tier] as float)
     .addItemOutput(essence)
     .addItemOutput(essence)
     .setChance(0.25 as float)

@@ -29,4 +29,9 @@ RecipeUtil.removeAndAdd("laser_amplifier", <mekanism:machineblock2:14>, [
     [<ore:shardCreative>, <mekanism:energycube>, <ore:shardCreative>], 
     [<ore:ingotOsmium>, <ore:shardCreative>, <ore:ingotOsmium>]
 ]);
+RecipeUtil.removeAndAdd("xu_overclocked_generator", <extrautils2:machine>.withTag({Type: "extrautils2:generator_overclock"}), [
+    [<actuallyadditions:item_crystal_empowered:1>, <ore:ingotAeonsteel>, <actuallyadditions:item_crystal_empowered:1>],
+    [<ore:ingotDurasteel>, <extrautils2:machine>.withTag({Type: "extrautils2:generator"}), <ore:ingotDurasteel>], 
+    [<actuallyadditions:item_crystal_empowered:1>, <ore:ingotAeonsteel>, <actuallyadditions:item_crystal_empowered:1>]
+]);
 
