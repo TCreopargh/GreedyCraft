@@ -266,7 +266,8 @@ val disabledItems as IIngredient[] = [
     <forestry:refractory:1>.withTag({Fluid: {FluidName: "hot_spring_water", Amount: 1000}}),
     <forestry:refractory:1>.withTag({Fluid: {FluidName: "sakura.hot_spring_water", Amount: 1000}}),
     <liquid:hot_spring_water>,
-    <liquid:sakura.hot_spring_water>
+    <liquid:sakura.hot_spring_water>,
+    <mekanism:cardboardbox>
 ] as IIngredient[];
 
 val disabledRecipeRegex as string[] = [

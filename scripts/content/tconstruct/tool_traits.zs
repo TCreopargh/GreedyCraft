@@ -65,7 +65,11 @@ cotlifestealTrait.localizedDescription = game.localize("greedycraft.tconstruct.t
 cotlifestealTrait.afterHit = function(trait, tool, attacker, target, damageDealt, wasCritical, wasHit) {
     if(attacker instanceof IPlayer && wasHit && target instanceof IEntityMob && !target.isUndead) {
         if(!(Math.random() as double > 0.33)) {
-            attacker.heal(Math.ceil(Math.random() * 5.0 as double));
+            var heal as float = damageDealt * 0.1f;
+            if(heal > 5.0f) {
+                heal = 5.0f;
+            }
+            attacker.heal(heal);
         }
     }
 };

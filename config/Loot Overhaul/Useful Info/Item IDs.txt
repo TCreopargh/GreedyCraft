@@ -3744,7 +3744,7 @@ thermalinnovation:saw - 7426
 thermalinnovation:magnet - 7427
 thermalinnovation:injector - 7428
 thermalinnovation:quiver - 7429
-tombmanygraves:death_list - 7430
+gravestone:gravestone - 7430
 villagenames:codex - 7431
 villagenames:villagebook - 7432
 villagenames:mineshaftbook - 7433
@@ -14306,3 +14306,10 @@ jaopca:fluid_moltenshadowium - 17988
 jaopca:fluid_moltentitanium - 17989
 jaopca:fluid_moltenuranium - 17990
 additions:greedycraft-red_packet - 17991
+mysticalagriculture:intermedium_reprocessor - 17992
+mysticalagriculture:inferium_reprocessor - 17993
+mysticalagriculture:supremium_reprocessor - 17994
+mysticalagriculture:superium_reprocessor - 17995
+mysticalagriculture:seed_reprocessor - 17996
+mysticalagriculture:prudentium_reprocessor - 17997
+gravestone:death_info - 18016

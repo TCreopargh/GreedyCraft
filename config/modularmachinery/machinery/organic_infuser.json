@@ -13,7 +13,7 @@
                 "io": "output",
                 "target": "item",
                 "operation": 1,
-                "multiplier": 1.5,
+                "multiplier": 1.25,
                 "affectChance": true
             }
         },
@@ -27,7 +27,7 @@
                 "io": "output",
                 "target": "item",
                 "operation": 1,
-                "multiplier": 2,
+                "multiplier": 1.5,
                 "affectChance": true
             }
         },
@@ -41,7 +41,7 @@
                 "io": "output",
                 "target": "item",
                 "operation": 1,
-                "multiplier": 2.5,
+                "multiplier": 1.75,
                 "affectChance": true
             }
         },
@@ -55,7 +55,7 @@
                 "io": "output",
                 "target": "item",
                 "operation": 1,
-                "multiplier": 3,
+                "multiplier": 2,
                 "affectChance": true
             }
         }

@@ -197,7 +197,8 @@ val emcMapping as long[IIngredient] = {
     <thermalfoundation:material:160> : 3200 as long,
     <nyx:meteor_ingot:0> : 3200 as long,
     <botania:manaresource:4> : 7200 as long,
-    <additions:chromium_ingot:0> : 2200 as long,
+    <additions:chromium_ingot:0> : 8000 as long,
+    <additions:stainless_steel_ingot:0> : 7200 as long,
     <additions:protonium_ingot:0> : 42000000 as long,
     <additions:electronium_ingot:0> : 250000 as long,
     <additions:greedycraft-strange_matter:0> : 800000 as long,
@@ -213,8 +214,8 @@ val emcMapping as long[IIngredient] = {
     <tconevo:metal:25> : 6666 as long,
     <mysticalagriculture:fertilized_essence:0> : 0 as long,
     <tinkersaether:valkyrie_ingot:0> : 6666 as long,
-    <additions:manganese_ingot:0> : 1500 as long,
-    <additions:manganese_steel_ingot:0> : 2500 as long,
+    <additions:manganese_ingot:0> : 3200 as long,
+    <additions:manganese_steel_ingot:0> : 4800 as long,
     <thermalfoundation:material:136> : 3000 as long,
     <jaopca:item_essencescarlite:0> : 0 as long,
     <jaopca:item_essenceaeroite:0> : 0 as long,
@@ -253,6 +254,7 @@ val emcMapping as long[IIngredient] = {
     <additions:cosmilite_ingot:0> : 0 as long,
     <additions:aeonsteel_ingot:0> : 0 as long,
     <additions:durasteel_ingot:0> : 0 as long,
+    <additions:chromasteel_ingot:0> : 0 as long,
     <additions:netherite_ingot:0> : 160000 as long
 };
 

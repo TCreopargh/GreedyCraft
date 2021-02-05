@@ -160,7 +160,6 @@ val tooltipMap as string[][IIngredient] = {
 	<modularmachinery:blockcasing:5> : [game.localize("greedycraft.tooltip.modularmachinery.blockcasing.5"), machinery_upgrade_guide],
 	<enderio:item_material:9> : [game.localize("greedycraft.tooltip.enderio.item_material.1")],
 	<enderio:item_material:10> : [game.localize("greedycraft.tooltip.enderio.item_material.1")],
-    <tombmanygraves:death_list> : [game.localize("greedycraft.tooltip.tombmanygraves.death_list.1"), game.localize("greedycraft.tooltip.tombmanygraves.death_list.2")],
     <thaumadditions:vis_scribing_tools:*> : [game.localize("greedycraft.tooltip.thaumadditions.vis_scribing_tools.1")],
     <torchmaster:feral_flare_lantern> : [game.localize("greedycraft.tooltip.torchmaster.feral_flare_lantern.1"), game.localize("greedycraft.tooltip.torchmaster.feral_flare_lantern.2")],
     <snad:snad:*> : [game.localize("greedycraft.tooltip.snad.snad.1")],

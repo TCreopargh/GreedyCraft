@@ -791,3 +791,4 @@ tumbleweed:tumbleweed - 788
 zombieawareness:entityscent - 789
 additions:projectile - 790
 cqrepoured:projectile_thrown_block - 791
+gravestone:player_ghost - 792
