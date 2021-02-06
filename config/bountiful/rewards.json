@@ -23,7 +23,7 @@
         "content": "minecraft:iron_sword",
         "unitWorth": 750,
         "weight": 5,
-        "nbt_data": "{display:{Lore:[\"看上去刚刚打磨过。\"]},ench:[{id:16,lvl:1}]}",
+        "nbt_data": "{display:{Lore:[\"Looks like it's sharpened just now.\"]},ench:[{id:16,lvl:1}]}",
         "amount": {
             "min": 1,
             "max": 1
