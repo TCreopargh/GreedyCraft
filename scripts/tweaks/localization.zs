@@ -239,12 +239,28 @@ val localizationMap as string[string][string] = {
         "reskillable.skill.reskillable.farming": "Farming §7[§2+Health§7]§r",
         "reskillable.skill.reskillable.agility": "Agility §7[§2+Speed§7]§r",
         "reskillable.skill.reskillable.magic": "Magic §7[§2+XPGain§7]§r",
-        "message.died": "§e%s §7Died on §a%s §9(Break the grave to retrieve items)"
+        "message.died": "§e%s §7Died on §a%s §9(Break the grave to retrieve items)",
+        "pouchofunknown.destroy_message": "The %s you have just picked up has been destroyed. %sTo hold this item either acquire the required game stage or keep a §dPouch of Unknown§e in your inventory to hold it."
     }
 };
+
+val blueprintDesc as string[] = [
+    "item.tconstruct.longsword.desc",
+    "item.tconstruct.rapier.desc",
+    "item.tconstruct.cleaver.desc",
+    "item.tconstruct.shuriken.desc",
+    "item.tconevo:tool_sceptre.desc",
+    "item.katana.desc",
+    "item.laser_gun.desc",
+    "item.yoyos.yoyo.desc"
+];
 
 for lang, entries in localizationMap {
     for k, v in entries {
         game.setLocalization(lang, k, v);
     }
+}
+
+for key in blueprintDesc {
+    game.setLocalization(key, game.localize(key) + "\n" + game.localize("greedycraft.tooltip.constant.blueprint_required"));
 }

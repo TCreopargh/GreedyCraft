@@ -47,6 +47,7 @@ global gameStagesLore as string[][string][string][string] = {
                 "怪物现在会拥有更强力的盔甲和武器",
                 "可以进入天境",
                 "可以召唤女仆协助你生存",
+                "僵尸和骷髅可能会变成Boss"
             ]
         },
         abyssal_conquerer: {
@@ -447,6 +448,7 @@ global gameStagesLore as string[][string][string][string] = {
                 "Mobs now wear stronger armors and hold stronger weapons",
                 "Access to the Aether",
                 "Allows summoning of little maids who can aid you in many ways",
+                "Zombies and skeletons may become tough bosses"
             ]
         },
         abyssal_conquerer: {

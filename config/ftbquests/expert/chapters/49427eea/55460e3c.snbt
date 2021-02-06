@@ -19,7 +19,7 @@
 		uid: "a6b75fed",
 		type: "item",
 		item: "solarflux:solar_panel_3",
-		count: 3
+		count: 1
 	},
 	{
 		uid: "dfadbb33",

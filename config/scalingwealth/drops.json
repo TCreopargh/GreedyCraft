@@ -220,7 +220,7 @@
                 },
                 {
                     "amount": "[1,1]",
-                    "chance": 0.1,
+                    "chance": 0.16,
                     "item": "additions:greedycraft-ancient_tome_fragment"
                 }
             ]
@@ -388,6 +388,11 @@
                     "amount": "[1,1]",
                     "chance": 0.02,
                     "item": "scalinghealth:crystalshard"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.05,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
                 }
             ],
             "[1250, 32767]": [
@@ -425,7 +430,7 @@
                 },
                 {
                     "amount": "[1,1]",
-                    "chance": 0.1,
+                    "chance": 0.16,
                     "item": "additions:greedycraft-ancient_tome_fragment"
                 }
             ]
@@ -610,6 +615,11 @@
                     "amount": "[1,1]",
                     "chance": 0.016,
                     "item": "additions:greedycraft-reward_ticket_epic"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.05,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
                 }
             ],
             "[1500, 32767]": [
@@ -630,7 +640,7 @@
                 },
                 {
                     "amount": "[1,1]",
-                    "chance": 0.1,
+                    "chance": 0.16,
                     "item": "additions:greedycraft-ancient_tome_fragment"
                 }
             ]
@@ -850,7 +860,7 @@
                 },
                 {
                     "amount": "[1,1]",
-                    "chance": 0.1,
+                    "chance": 0.16,
                     "item": "additions:greedycraft-ancient_tome_fragment"
                 }
             ]
@@ -1070,7 +1080,7 @@
                 },
                 {
                     "amount": "[1,1]",
-                    "chance": 0.1,
+                    "chance": 0.16,
                     "item": "additions:greedycraft-ancient_tome_fragment"
                 }
             ]
@@ -1290,7 +1300,7 @@
                 },
                 {
                     "amount": "[1,1]",
-                    "chance": 0.1,
+                    "chance": 0.16,
                     "item": "additions:greedycraft-ancient_tome_fragment"
                 }
             ]
@@ -1510,7 +1520,7 @@
                 },
                 {
                     "amount": "[1,1]",
-                    "chance": 0.1,
+                    "chance": 0.16,
                     "item": "additions:greedycraft-ancient_tome_fragment"
                 }
             ]
@@ -1730,7 +1740,7 @@
                 },
                 {
                     "amount": "[1,1]",
-                    "chance": 0.1,
+                    "chance": 0.16,
                     "item": "additions:greedycraft-ancient_tome_fragment"
                 }
             ]
@@ -1989,7 +1999,7 @@
                 },
                 {
                     "amount": "[1,8]",
-                    "chance": 0.28,
+                    "chance": 0.4,
                     "item": "additions:greedycraft-ancient_tome_fragment"
                 }
             ],
@@ -2016,7 +2026,7 @@
                 },
                 {
                     "amount": "[1,8]",
-                    "chance": 0.32,
+                    "chance": 0.8,
                     "item": "additions:greedycraft-ancient_tome_fragment"
                 }
             ]
@@ -2243,7 +2253,7 @@
                 },
                 {
                     "amount": "[1,8]",
-                    "chance": 0.256,
+                    "chance": 0.4,
                     "item": "additions:greedycraft-ancient_tome_fragment"
                 }
             ],
@@ -2275,7 +2285,7 @@
                 },
                 {
                     "amount": "[1,6]",
-                    "chance": 0.512,
+                    "chance": 0.8,
                     "item": "additions:greedycraft-ancient_tome_fragment"
                 }
             ]
@@ -2530,7 +2540,7 @@
                 },
                 {
                     "amount": "[1,1]",
-                    "chance": 0.1,
+                    "chance": 0.16,
                     "item": "additions:greedycraft-ancient_tome_fragment"
                 }
             ]
@@ -2760,7 +2770,7 @@
                 },
                 {
                     "amount": "[1,1]",
-                    "chance": 0.1,
+                    "chance": 0.16,
                     "item": "additions:greedycraft-ancient_tome_fragment"
                 }
             ]
@@ -3136,7 +3146,7 @@
                 },
                 {
                     "amount": "[1,1]",
-                    "chance": 0.1,
+                    "chance": 0.16,
                     "item": "additions:greedycraft-ancient_tome_fragment"
                 }
             ]
@@ -3391,7 +3401,7 @@
                 },
                 {
                     "amount": "[1,1]",
-                    "chance": 0.1,
+                    "chance": 0.16,
                     "item": "additions:greedycraft-ancient_tome_fragment"
                 }
             ]

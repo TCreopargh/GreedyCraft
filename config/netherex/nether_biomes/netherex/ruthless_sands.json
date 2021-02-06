@@ -1,6 +1,6 @@
 {
 	"biome": "netherex:ruthless_sands",
-	"generationWeight": 4,
+	"generationWeight": 2,
 	"useDefaultDecorations": true,
 	"isSubBiome": false,
 	"blocks": {

@@ -268,7 +268,8 @@ val disabledItems as IIngredient[] = [
     <liquid:hot_spring_water>,
     <liquid:sakura.hot_spring_water>,
     <mekanism:cardboardbox>,
-    <cyclicmagic:block_fishing>
+    <cyclicmagic:block_fishing>,
+    <thermalexpansion:augment>
 ] as IIngredient[];
 
 val disabledRecipeRegex as string[] = [

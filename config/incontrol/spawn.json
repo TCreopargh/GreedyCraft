@@ -1,10 +1,5 @@
 [
     {
-        "hostile": true,
-        "minlight": 7,
-        "result": "deny"
-    },
-    {
         "mob": ["minecraft:guardian"],
         "mincount": {
             "amount": 16,
@@ -23,7 +18,7 @@
     {
         "mob": ["pvj:pvj_starfish"],
         "mincount": {
-            "amount": 6,
+            "amount": 5,
             "perplayer": false
         },
         "result": "deny"
@@ -83,7 +78,7 @@
         "hostile": true,
         "mincount": {
             "hostile": true,
-            "amount": 45,
+            "amount": 64,
             "perplayer": true
         },
         "result": "deny"
@@ -91,7 +86,7 @@
     {
         "mincount": {
             "passive": true,
-            "amount": 50,
+            "amount": 80,
             "perplayer": true
         },
         "result": "deny"
@@ -195,11 +190,6 @@
             "hostile": true,
             "perplayer": true
         },
-        "result": "deny"
-    },
-    {
-        "hostile": true,
-        "minlight": 7,
         "result": "deny"
     }
 ]

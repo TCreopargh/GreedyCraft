@@ -23,7 +23,7 @@
         "content": "minecraft:iron_sword",
         "unitWorth": 750,
         "weight": 5,
-        "nbt_data": "{display:{Lore:[\"Looks like it's sharpened just now.\"]},ench:[{id:16,lvl:1}]}",
+        "nbt_data": "{display:{Lore:[\"看上去刚刚打磨过。\"]},ench:[{id:16,lvl:1}]}",
         "amount": {
             "min": 1,
             "max": 1
@@ -206,17 +206,17 @@
     },
     {
         "content": "additions:greedycraft-bounty_hunter_medal_bronze",
-        "unitWorth": 2400,
+        "unitWorth": 1600,
         "weight": 400
     },
     {
         "content": "additions:greedycraft-bounty_hunter_medal_bronze",
-        "unitWorth": 1600,
+        "unitWorth": 800,
         "weight": 200
     },
     {
         "content": "additions:greedycraft-bounty_hunter_medal_silver",
-        "unitWorth": 30000,
+        "unitWorth": 20000,
         "weight": 100
     },
     {

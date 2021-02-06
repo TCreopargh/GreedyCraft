@@ -93,6 +93,7 @@ val tooltipMap as string[][IIngredient] = {
     <tconstruct:longsword> : [blueprint_required],
     <tconstruct:shuriken> : [blueprint_required],
     <tconstruct:rapier> : [blueprint_required],
+    <plustic:laser_gun> : [blueprint_required],
     <tconevo:tool_sceptre> : [blueprint_required],
     <thermaldynamics:duct_32:*> : [game.localize("greedycraft.tooltip.thermaldynamics.duct_32.1")],
     <tconstruct:materials> : [game.localize("greedycraft.tooltip.tconstruct.materials.1")],
@@ -163,7 +164,9 @@ val tooltipMap as string[][IIngredient] = {
     <thaumadditions:vis_scribing_tools:*> : [game.localize("greedycraft.tooltip.thaumadditions.vis_scribing_tools.1")],
     <torchmaster:feral_flare_lantern> : [game.localize("greedycraft.tooltip.torchmaster.feral_flare_lantern.1"), game.localize("greedycraft.tooltip.torchmaster.feral_flare_lantern.2")],
     <snad:snad:*> : [game.localize("greedycraft.tooltip.snad.snad.1")],
-    <inventorypets:cloud_pet> : [game.localize("greedycraft.tooltip.inventorypets.cloud_pet.1")]
+    <inventorypets:cloud_pet> : [game.localize("greedycraft.tooltip.inventorypets.cloud_pet.1")],
+    <gravestone:death_info>: [game.localize("greedycraft.tooltip.gravestone.death_info.1"), game.localize("greedycraft.tooltip.gravestone.death_info.2"), game.localize("greedycraft.tooltip.gravestone.death_info.3")],
+    <defiledlands:conjuring_altar> : [game.localize("greedycraft.tooltip.defiledlands.conjuring_altar.1")]
 } as string[][IIngredient];
 
 for ingredient in tooltipMap {

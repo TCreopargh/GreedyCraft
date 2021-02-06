@@ -237,9 +237,9 @@ RecipeUtil.addShaped("auto_gen_-1873046907", <additions:greedycraft-medkit_super
     [<scalinghealth:heartcontainer>, <additions:greedycraft-medkit_big>, <scalinghealth:heartcontainer>],
     [null, <scalinghealth:heartcontainer>, null]
 ]);
-RecipeUtil.addShaped("auto_gen_1179581625", <mysticalagriculture:growth_accelerator> * 4, [
+RecipeUtil.addShaped("auto_gen_1179581625", <mysticalagriculture:growth_accelerator> * 2, [
     [<mysticalagriculture:storage:3>, <mysticalagriculture:storage:4>, <mysticalagriculture:storage:3>],
-    [<mysticalagriculture:storage:4>, <minecraft:diamond_block>, <mysticalagriculture:storage:4>],
+    [<mysticalagriculture:storage:4>, <ore:blockCytosinite>, <mysticalagriculture:storage:4>],
     [<mysticalagriculture:storage:3>, <mysticalagriculture:storage:4>, <mysticalagriculture:storage:3>]
 ]);
 RecipeUtil.addShaped("auto_gen_-1186141268", <mekanismgenerators:generator:12>, [
@@ -1062,8 +1062,8 @@ RecipeUtil.addShaped("chunk_analyzer", <randomthings:chunkanalyzer>, [
 ]);
 RecipeUtil.addShaped("harvester", <cyclicmagic:harvester_block>, [
     [null, <cyclicmagic:tool_harvest_crops>, null],
-    [<ore:ingotDurasteel>, <minecraft:dispenser>, <ore:ingotDurasteel>],
-    [<ore:circuitElite>, <ore:ingotDurasteel>, <ore:circuitElite>]
+    [<ore:ingotAeonsteel>, <minecraft:dispenser>, <ore:ingotAeonsteel>],
+    [<ore:circuitUltimate>, <ore:ingotAeonsteel>, <ore:circuitUltimate>]
 ]);
 RecipeUtil.addShaped("ma_mystical_fertilizer", <mysticalagriculture:mystical_fertilizer> * 2, [
     [<mysticalagriculture:fertilized_essence>, <thermalfoundation:fertilizer:2>, <mysticalagriculture:fertilized_essence>],
@@ -1356,6 +1356,11 @@ RecipeUtil.addShaped("openblocks_elevator", <openblocks:elevator>, [
     [<ore:dustRedstone>, <ore:gemDiamond>, <ore:dustRedstone>],
     [<ore:ingotIron>, <ore:enderpearl>, <ore:ingotIron>],
     [<ore:ingotInvar>, <ore:ingotInvar>, <ore:ingotInvar>]
+]);
+RecipeUtil.addShaped("conjuring_altar", <defiledlands:conjuring_altar>, [
+    [null, null, null],
+    [<ore:ingotUmbrium>, <ore:blockScarlite>, <ore:ingotUmbrium>],
+    [<ore:ingotUmbrium>, <ore:ingotUmbrium>, <ore:ingotUmbrium>]
 ]);
 
 /* Templates
