@@ -4,6 +4,7 @@ updateNotification:true
 settingsButton:false
 allowWrongWorldTeleportation:false
 differentiateByServerAddress:true
+debugEntityIcons:false
 #INGAME SETTINGS (DO NOT EDIT!)
 minimap:true
 caveMaps:1
@@ -44,7 +45,8 @@ waypointsClampDepth:0.0
 antiAliasing:false
 blockColours:0
 lighting:true
-dotsScale:1.0
+dotsSize:2
+dotsStyle:0
 headsScale:1.0
 dotNameScale:1.0
 compassOverWaypoints:false
@@ -54,7 +56,7 @@ showFlowers:true
 keepWaypointNames:false
 waypointsDistance:0.0
 waypointsDistanceMin:0.0
-waypointTp:tp
+waypointTPCommand:/tp
 arrowScale:1.2
 arrowColour:5
 smoothDots:true

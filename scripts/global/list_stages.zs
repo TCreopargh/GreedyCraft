@@ -63,7 +63,8 @@ global commonStages as string[] = [
     "thaumaturge",
     "storage_maniac",
     "descendant_of_the_sun",
-    "first_join_message_shown"
+    "first_join_message_shown",
+    "roughmobsboss"
 ];
 
 global listStages as string[] = [
@@ -129,5 +130,6 @@ global listStages as string[] = [
     "super_hardmode",
     "graduated",
     "qualified_ocd",
-    "disabled"
+    "disabled",
+    "roughmobsboss"
 ];

@@ -63,9 +63,9 @@
                     <var>memused</var>
                     <var>memtotal</var>
                 </pct>
-                <num>80</num>
+                <num>92</num>
                 <num>0</num>
-                <str>$c 请及时清理内存</str>
+                <str>$c 请清理内存</str>
                 <str />
             </op>
             <str>$7 |$r  </str>

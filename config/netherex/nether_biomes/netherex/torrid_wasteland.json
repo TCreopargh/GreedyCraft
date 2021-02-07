@@ -1,6 +1,6 @@
 {
 	"biome": "netherex:torrid_wasteland",
-	"generationWeight": 6,
+	"generationWeight": 2,
 	"useDefaultDecorations": true,
 	"isSubBiome": false,
 	"blocks": {
@@ -22,7 +22,7 @@
 			"entity": "minecraft:magma_cube"
 		}, 
 		{
-			"spawnWeight": 25,
+			"spawnWeight": 0,
 			"minimumGroupCount": 1,
 			"maximumGroupCount": 3,
 			"entity": "netherex:ember"

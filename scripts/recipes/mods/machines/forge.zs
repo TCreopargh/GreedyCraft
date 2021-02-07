@@ -54,10 +54,6 @@ MMUtil.addForgeRecipe("durasteel_forge", MMUtil.getStack(<additions:durasteel_in
         speed: 0.25,
         energy: 0.25
     },
-    <threng:material> : {
-        speed: 0.25,
-        energy: 0.25
-    }, 
     <tconevo:metal:30> : {
         speed: 0.2,
         energy: 0.2
@@ -107,10 +103,6 @@ MMUtil.addForgeRecipe("aeonsteel_forge", MMUtil.getStack(<additions:aeonsteel_in
     <mekanism:controlcircuit:3> : {
         speed: 0.35,
         energy: 0.35
-    }, 
-    <projecte:item.pe_matter> : {
-        speed: 0.25,
-        energy: 0.25
     },
     <additions:greedycraft-time_shard> : {
         speed: 0.15,
@@ -165,10 +157,6 @@ MMUtil.addForgeRecipe("chromasteel_forge", MMUtil.getStack(<additions:chromastee
     <additions:greedycraft-aurora_heart> : {
         speed: 0.4,
         energy: 0.4
-    }, 
-    <projecte:item.pe_matter:1> : {
-        speed: 0.3,
-        energy: 0.3
     },
     <additions:greedycraft-sand_of_time> : {
         speed: 0.4,

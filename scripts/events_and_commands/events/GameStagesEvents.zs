@@ -66,6 +66,10 @@ events.onGameStageAdd(function(event as GameStageAddEvent) {
         msg += delimiter;
         player.sendChat(msg);
         server.commandManager.executeCommand(server, "/playsound ui.toast.challenge_complete player " + player.name + " " + player.x + " " + player.y + " " + player.z + " 100 1");
+        
+        if(event.gameStage == "nether") {
+            player.addGameStage("roughmobsboss");
+        }
     }
 });
 
