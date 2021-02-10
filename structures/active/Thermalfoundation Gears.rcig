@@ -1,0 +1,187 @@
+{
+  "version": 2,
+  "inventoryGeneratorID": "industrial",
+  "items": [
+    {
+      "weight": 2.540874481201172,
+      "min": 1,
+      "max": 16,
+      "item": {
+        "id": "thermalfoundation:material",
+        "damage": 22,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.5121370553970337,
+      "min": 1,
+      "max": 12,
+      "item": {
+        "id": "thermalfoundation:material",
+        "damage": 23,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.39763605594635,
+      "min": 1,
+      "max": 6,
+      "item": {
+        "id": "thermalfoundation:material",
+        "damage": 256,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.1894346475601196,
+      "min": 1,
+      "max": 6,
+      "item": {
+        "id": "thermalfoundation:material",
+        "damage": 257,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.1894346475601196,
+      "min": 1,
+      "max": 4,
+      "item": {
+        "id": "thermalfoundation:material",
+        "damage": 291,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 4,
+      "item": {
+        "id": "thermalfoundation:material",
+        "damage": 24,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.7755888104438782,
+      "min": 1,
+      "max": 3,
+      "item": {
+        "id": "thermalfoundation:material",
+        "damage": 259,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.7087690830230713,
+      "min": 1,
+      "max": 3,
+      "item": {
+        "id": "thermalfoundation:material",
+        "damage": 260,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.646636426448822,
+      "min": 1,
+      "max": 3,
+      "item": {
+        "id": "thermalfoundation:material",
+        "damage": 292,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.5354365706443787,
+      "min": 1,
+      "max": 3,
+      "item": {
+        "id": "thermalfoundation:material",
+        "damage": 290,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.32298368215560913,
+      "min": 1,
+      "max": 2,
+      "item": {
+        "id": "thermalfoundation:material",
+        "damage": 25,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.35883715748786926,
+      "min": 1,
+      "max": 2,
+      "item": {
+        "id": "thermalfoundation:material",
+        "damage": 258,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.35883715748786926,
+      "min": 1,
+      "max": 2,
+      "item": {
+        "id": "thermalfoundation:material",
+        "damage": 289,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.25986868143081665,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "thermalfoundation:material",
+        "damage": 26,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.2900550961494446,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "thermalfoundation:material",
+        "damage": 261,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.0976562350988388,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "thermalfoundation:material",
+        "damage": 27,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.11158588528633118,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "thermalfoundation:material",
+        "damage": 288,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.03422137722373009,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "thermalexpansion:augment",
+        "damage": 337,
+        "count": 1
+      }
+    }
+  ],
+  "dependencyExpression": ""
+}

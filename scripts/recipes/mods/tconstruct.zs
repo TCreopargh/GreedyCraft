@@ -4,6 +4,7 @@
  */
 
 #priority 1000
+#no_fix_recipe_book
 
 import mods.tconstruct.Melting;
 import mods.tconstruct.Casting;

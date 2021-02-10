@@ -1,0 +1,257 @@
+[
+  {
+    "page_uri": "enderio:travel_auth",
+    "translation": "旅行凭据",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "enderio:aversion_obelisk",
+    "translation": "生物排除方尖碑",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "enderio:impulse_hopper",
+    "translation": "脉冲漏斗",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "enderio:basic_item_filter_advanced",
+    "translation": "高级物品过滤器",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "enderio:enchanter",
+    "translation": "附魔器",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "enderio:buffer",
+    "translation": "缓存器",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "enderio:farm_station",
+    "translation": "种植站",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "enderio:dialing_device_no_telepad",
+    "translation": "（问题）无传送台",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "enderio:machines/capacitors",
+    "translation": "电容",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "enderio:basic_item_filter_big",
+    "translation": "大型物品过滤器",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "enderio:",
+    "translation": "末影接口",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "enderio:crafter",
+    "translation": "合成器",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "enderio:power_monitor",
+    "translation": "能量监视器",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "enderio:slice_and_splice",
+    "translation": "头颅装配机",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "enderio:basic_item_filter",
+    "translation": "基础物品过滤器",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "enderio:fluid_filter",
+    "translation": "流体过滤器",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "enderio:sag_mill",
+    "translation": "SAG磨粉机",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "enderio:transceiver",
+    "translation": "空间传送器",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "enderio:combustion_generator",
+    "translation": "流体发电机",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "enderio:killer_joe",
+    "translation": "杀手乔",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "enderio:wired_charger",
+    "translation": "有线冲能器",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "enderio:relocator_obelisk",
+    "translation": "重定向方尖碑",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "enderio:x_p_vacuum",
+    "translation": "虚空经验箱子",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "enderio:tele_pad",
+    "translation": "传送台",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "enderio:vacuum_chest",
+    "translation": "虚空箱子",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "enderio:redstone_signal_logic",
+    "translation": "红石过滤器",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "enderio:experience_obelisk",
+    "translation": "经验交换方尖碑",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "enderio:basic_item_filter_advanced_limited",
+    "translation": "限制物品过滤器",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "enderio:inhibitor_obelisk",
+    "translation": "传送抑制方尖碑",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "enderio:cap_bank",
+    "translation": "电容库",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "enderio:power_item_filter",
+    "translation": "充能物品过滤器",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "enderio:weather_obelisk",
+    "translation": "气象方尖碑",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "enderio:vat",
+    "translation": "酿液桶",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "enderio:alloy_smelter",
+    "translation": "合金炉",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "enderio:lava_generator",
+    "translation": "熔岩热交换器",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "enderio:soul_binder",
+    "translation": "灵魂绑定器",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "enderio:zombie_generator",
+    "translation": "僵尸发电机",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "enderio:dialing_device",
+    "translation": "坐标记录仪",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "enderio:tank",
+    "translation": "流体容器",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "enderio:powered_spawner",
+    "translation": "电动刷怪箱",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "enderio:soul_filter",
+    "translation": "（大型）灵魂过滤器",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "enderio:external_connection",
+    "translation": "管道",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "enderio:enchantment_filter",
+    "translation": "（大型）附魔过滤器",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "enderio:stirling_generator",
+    "translation": "斯特林发电机",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "enderio:furnace",
+    "translation": "简易电炉",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "enderio:mod_item_filter",
+    "translation": "模组物品过滤器",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "enderio:basic_item_filter_advanced_big",
+    "translation": "高级大型物品过滤器",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "enderio:attractor_obelisk",
+    "translation": "生物诱引方尖碑",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "enderio:machines",
+    "translation": "机器",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "enderio:painter",
+    "translation": "喷涂机",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "enderio:travel_accessable",
+    "translation": "旅行锚",
+    "page_rev": 0
+  }
+]

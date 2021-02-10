@@ -4,6 +4,7 @@
  */
 
 #priority 90
+#no_fix_recipe_book
 
 import loottweaker.vanilla.loot.LootTables;
 import loottweaker.vanilla.loot.LootTable;
@@ -288,7 +289,7 @@ LootUtil.addHardmodeItem(<minecraft:dye:4>, 10, 1, 32, 64);
 LootUtil.addHardmodeItem(<minecraft:book>, 12, 1, 3, 32);
 
 if(CalendarUtil.isChristmas()) {
-    LootUtil.addItem(<additions:greedycraft-gift>, 20, 1, 1, 2);
+    LootUtil.addItem(<additions:greedycraft-gift>, 15, 1, 1, 2);
 }
 
 if(CalendarUtil.isLunarNewYear()) {

@@ -1,0 +1,80 @@
+{
+  "mod_id": "projectintelligence",
+  "base_files": [
+    {
+      "file_path": "structure/lang/en_us.json",
+      "url": "http://pi.brandon3055.com/objects/23/233a602198a5927dcb397ccf06b4825f6b6b438d",
+      "sha1": "233a602198a5927dcb397ccf06b4825f6b6b438d"
+    },
+    {
+      "file_path": "structure/lang/zh_cn.json",
+      "url": "http://pi.brandon3055.com/objects/a9/a936af18a35c3592578427df16648077194b0ae9",
+      "sha1": "a936af18a35c3592578427df16648077194b0ae9"
+    },
+    {
+      "file_path": "structure/structure.json",
+      "url": "http://pi.brandon3055.com/objects/97/97f02c1238eb6c3951e0fe06c511740a3fc9e34d",
+      "sha1": "97f02c1238eb6c3951e0fe06c511740a3fc9e34d"
+    },
+    {
+      "file_path": "structure/zh_cn/projectintelligence_88e33.md",
+      "url": "http://pi.brandon3055.com/objects/90/909f47509ea5beacd627476ee44a59a40b7300db",
+      "sha1": "909f47509ea5beacd627476ee44a59a40b7300db"
+    },
+    {
+      "file_path": "structure/en_us/projectintelligence_88e33.md",
+      "url": "http://pi.brandon3055.com/objects/bc/bc787292c813ab88b0fcdf3e56f7d8f3885c1a71",
+      "sha1": "bc787292c813ab88b0fcdf3e56f7d8f3885c1a71"
+    }
+  ],
+  "lang_files": [
+    {
+      "file_path": "zh_cn/people/brandon3055_69258.md",
+      "url": "http://pi.brandon3055.com/objects/1c/1c87ba67380b72936cec1f5975b68ba2ae8ab513",
+      "sha1": "1c87ba67380b72936cec1f5975b68ba2ae8ab513",
+      "lang": "zh_cn"
+    },
+    {
+      "file_path": "zh_cn/people/covers1624_b8f4c.md",
+      "url": "http://pi.brandon3055.com/objects/f0/f032cab71fc58d9137679b67e1de0517cb125519",
+      "sha1": "f032cab71fc58d9137679b67e1de0517cb125519",
+      "lang": "zh_cn"
+    },
+    {
+      "file_path": "zh_cn/contribute_e554c.md",
+      "url": "http://pi.brandon3055.com/objects/67/6740624a047b940afcf2a42b78c0fcfd61a09713",
+      "sha1": "6740624a047b940afcf2a42b78c0fcfd61a09713",
+      "lang": "zh_cn"
+    },
+    {
+      "file_path": "zh_cn/people_8485a.md",
+      "url": "http://pi.brandon3055.com/objects/52/52600136c5130acaadcdde4f1ee219b6a68c80be",
+      "sha1": "52600136c5130acaadcdde4f1ee219b6a68c80be",
+      "lang": "zh_cn"
+    },
+    {
+      "file_path": "en_us/people/brandon3055_69258.md",
+      "url": "http://pi.brandon3055.com/objects/b1/b1275aa3a234f5dc8e08b87af2cde1baf21b1537",
+      "sha1": "b1275aa3a234f5dc8e08b87af2cde1baf21b1537",
+      "lang": "en_us"
+    },
+    {
+      "file_path": "en_us/people/covers1624_b8f4c.md",
+      "url": "http://pi.brandon3055.com/objects/d0/d04e1284ab2feaebc1b5d629b752bde31716023f",
+      "sha1": "d04e1284ab2feaebc1b5d629b752bde31716023f",
+      "lang": "en_us"
+    },
+    {
+      "file_path": "en_us/contribute_e554c.md",
+      "url": "http://pi.brandon3055.com/objects/33/337ac05e1d75a1ae649b52153df12f5c520b463c",
+      "sha1": "337ac05e1d75a1ae649b52153df12f5c520b463c",
+      "lang": "en_us"
+    },
+    {
+      "file_path": "en_us/people_8485a.md",
+      "url": "http://pi.brandon3055.com/objects/3e/3ed7d38bf1e59df54cbe2f8b7d7492e21461971d",
+      "sha1": "3ed7d38bf1e59df54cbe2f8b7d7492e21461971d",
+      "lang": "en_us"
+    }
+  ]
+}

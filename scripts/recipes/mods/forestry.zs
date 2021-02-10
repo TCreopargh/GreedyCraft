@@ -4,6 +4,7 @@
  */
 
 #priority 800
+#no_fix_recipe_book
 // Powered by TCreopargh
 
 import crafttweaker.item.IItemStack;

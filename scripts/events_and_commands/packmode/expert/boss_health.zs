@@ -6,6 +6,7 @@
 #packmode expert
 
 #priority 90
+#no_fix_recipe_book
 
 import crafttweaker.event.PlayerLoggedInEvent;
 import crafttweaker.event.IPlayerEvent;

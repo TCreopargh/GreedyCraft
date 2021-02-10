@@ -9,6 +9,7 @@
 #modloaded conarm
 
 #priority 2601
+#no_fix_recipe_book
 
 import crafttweaker.player.IPlayer;
 import crafttweaker.entity.IEntityLivingBase;

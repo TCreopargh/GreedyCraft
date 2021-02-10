@@ -1,0 +1,422 @@
+[
+  {
+    "page_uri": "draconicevolution:dislocation/dislocator",
+    "translation": "传送符咒",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "draconicevolution:cores/awakened_core",
+    "translation": "觉醒核心",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "draconicevolution:cores/draconic_energy_core",
+    "translation": "神龙能量核心",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "draconicevolution:disenchanter",
+    "translation": "祛魔台",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "draconicevolution:rain_sensor",
+    "translation": "雨水传感器",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "draconicevolution:energy_network",
+    "translation": "能量网络",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "draconicevolution:draconic_tools/draconic_hoe",
+    "translation": "神龙锄",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "draconicevolution:contributors",
+    "translation": "贡献者",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "draconicevolution:draconic_armor/draconic_boots",
+    "translation": "神龙靴",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "draconicevolution:draconic_tools/draconic_bow",
+    "translation": "神龙弓",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "draconicevolution:draconic_tools/draconic_flux_capacitor",
+    "translation": "神龙通量容器",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "draconicevolution:draconic_armor/draconic_chestplate",
+    "translation": "神龙胸甲",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "draconicevolution:mob_soul",
+    "translation": "生物灵魂",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "draconicevolution:fusion_crafting/fusion_crafting_injectors",
+    "translation": "注入合成装置",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "draconicevolution:celestial_manipulator",
+    "translation": "苍穹变换器",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "draconicevolution:mob_grinder",
+    "translation": "怪物磨床",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "draconicevolution:energy_storage_core",
+    "translation": "能量核心",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "draconicevolution:draconic_armor",
+    "translation": "神龙盔甲",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "draconicevolution:draconic_armor/draconic_helmet",
+    "translation": "神龙头盔",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "draconicevolution:draconic_tools/draconic_shovel",
+    "translation": "神龙铲",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "draconicevolution:cores/wyvern_core",
+    "translation": "双足飞龙核心",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "draconicevolution:wyvern_tools/wyvern_bow",
+    "translation": "双足飞龙弓",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "draconicevolution:potentiometer",
+    "translation": "电位计",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "draconicevolution:draconic_reactor/regulation_and_safety",
+    "translation": "规划及安全系统",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "draconicevolution:flow_gates",
+    "translation": "阀门",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "draconicevolution:draconic_armor/draconic_leggings",
+    "translation": "神龙护腿",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "draconicevolution:wyvern_armor/wyvern_chestplate",
+    "translation": "双足飞龙胸甲",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "draconicevolution:entity_detector",
+    "translation": "实体探测器",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "draconicevolution:wyvern_tools/wyvern_flux_capacitor",
+    "translation": "飞龙通量容器",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "draconicevolution:test_page",
+    "translation": "测试页",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "draconicevolution:draconium",
+    "translation": "基础",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "draconicevolution:wyvern_tools/wyvern_shovel",
+    "translation": "双足飞龙铲",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "draconicevolution:fusion_crafting/fusion_crafting_setup",
+    "translation": "步骤",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "draconicevolution:draconic_tools/draconic_staff_of_power",
+    "translation": "神龙之力权杖",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "draconicevolution:wyvern_tools/wyvern_sword",
+    "translation": "双足飞龙剑",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "draconicevolution:draconic_reactor/basic_operation",
+    "translation": "龙堆的基本操作",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "draconicevolution:cores/chaotic_core",
+    "translation": "混沌核心",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "draconicevolution:draconic_energy_shield",
+    "translation": "护盾",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "draconicevolution:wyvern_tools/wyvern_pickaxe",
+    "translation": "双足飞龙镐",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "draconicevolution:",
+    "translation": "龙之进化",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "draconicevolution:energy_storage_core/energy_core_setup",
+    "translation": "能量核心搭建指导",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "draconicevolution:dislocation/dislocator_pedestal",
+    "translation": "传送符咒基座",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "draconicevolution:draconium/draconium_block",
+    "translation": "龙块",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "draconicevolution:energy_storage_core/energy_core_stabilizer",
+    "translation": "能量核心稳定器",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "draconicevolution:wyvern_tools",
+    "translation": "双足飞龙工具",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "draconicevolution:draconium/draconium_dust",
+    "translation": "龙尘",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "draconicevolution:wyvern_armor/wyvern_helmet",
+    "translation": "双足飞龙头盔",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "draconicevolution:ender_energy_manipulator",
+    "translation": "末影操纵者",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "draconicevolution:generator",
+    "translation": "发电机",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "draconicevolution:cores",
+    "translation": "核心",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "draconicevolution:wyvern_armor/wyvern_boots",
+    "translation": "双足飞龙靴",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "draconicevolution:draconic_reactor",
+    "translation": "神龙反应堆",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "draconicevolution:cores/draconic_core",
+    "translation": "龙芯",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "draconicevolution:energy_network/wireless_crystals",
+    "translation": "无线能量水晶",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "draconicevolution:dislocation/advanced_dislocator",
+    "translation": "高级传送符咒",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "draconicevolution:dislocation/awakened_item_dislocator",
+    "translation": "觉醒物品传送符咒",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "draconicevolution:spotlights",
+    "translation": "视频",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "draconicevolution:draconic_tools/draconic_axe",
+    "translation": "神龙斧",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "draconicevolution:dislocation/item_dislocator",
+    "translation": "物品传送符咒",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "draconicevolution:draconic_tools/draconic_sword",
+    "translation": "神龙剑",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "draconicevolution:cores/wyvern_energy_core",
+    "translation": "飞龙能量核心",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "draconicevolution:draconium/draconium_ore",
+    "translation": "龙矿",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "draconicevolution:stabilized_spawner",
+    "translation": "稳定刷怪笼",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "draconicevolution:upgrade_system",
+    "translation": "升级系统",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "draconicevolution:dislocation/dislocator_receptacle",
+    "translation": "移位收纳容器",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "draconicevolution:wyvern_armor/wyvern_leggings",
+    "translation": "双足飞龙护腿",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "draconicevolution:awakened_draconium/dragon_heart",
+    "translation": "龙之心",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "draconicevolution:draconium_chest",
+    "translation": "龙箱",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "draconicevolution:energy_network/the_basics",
+    "translation": "基础",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "draconicevolution:energy_storage_core/energy_pylon",
+    "translation": "能量塔",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "draconicevolution:wyvern_tools/wyvern_axe",
+    "translation": "双足飞龙斧",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "draconicevolution:energy_infuser",
+    "translation": "能量注入器",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "draconicevolution:draconic_tools/draconic_pickaxe",
+    "translation": "神龙镐",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "draconicevolution:dislocation",
+    "translation": "传送",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "draconicevolution:energy_network/relay_crystals",
+    "translation": "能量中继水晶",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "draconicevolution:draconic_tools",
+    "translation": "神龙工具",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "draconicevolution:chaos_guardian",
+    "translation": "混沌守护者",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "draconicevolution:wyvern_armor",
+    "translation": "双足飞龙盔甲",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "draconicevolution:fusion_crafting",
+    "translation": "融合",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "draconicevolution:energy_network/energy_io_crystals",
+    "translation": "能量端口水晶",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "draconicevolution:dislocation/bound_dislocators",
+    "translation": "绑定传送符咒",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "draconicevolution:awakened_draconium",
+    "translation": "觉醒",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "draconicevolution:draconic_reactor/reactor_explosion",
+    "translation": "BOOM！",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "draconicevolution:dislocation/dislocation_blocker",
+    "translation": "消磁器",
+    "page_rev": 0
+  }
+]

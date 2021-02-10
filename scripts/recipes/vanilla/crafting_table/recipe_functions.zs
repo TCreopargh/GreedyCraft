@@ -4,6 +4,7 @@
  */ 
 
 #priority 4000
+#no_fix_recipe_book
 
 //Powered by TCreopargh
 

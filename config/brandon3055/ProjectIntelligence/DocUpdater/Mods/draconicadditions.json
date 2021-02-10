@@ -1,0 +1,55 @@
+{
+  "mod_id": "draconicadditions",
+  "0": {
+    "file": "http://pi.brandon3055.com/objects/a1/a161ad9acceeb4d1d1993049bc5bafe147cb42d7",
+    "mod_version": "1.5.0"
+  },
+  "1": {
+    "file": "http://pi.brandon3055.com/objects/32/321b853de00e8a81344de617b7ec6226f5bf5a91",
+    "mod_version": "1.5.0"
+  },
+  "2": {
+    "file": "http://pi.brandon3055.com/objects/53/53eb396d770e83ead3b6a2ca0e0e6320c8885948",
+    "mod_version": "1.7.0"
+  },
+  "3": {
+    "file": "http://pi.brandon3055.com/objects/d3/d36fd5b2f1c25001b4594101afbd5bb9797a600d",
+    "mod_version": "1.5.0"
+  },
+  "4": {
+    "file": "http://pi.brandon3055.com/objects/87/87253839697a43f194a684b07f27e225585fa9e9",
+    "mod_version": "1.10.0"
+  },
+  "5": {
+    "file": "http://pi.brandon3055.com/objects/4e/4e5e1c6e6bf3e7afd75d1e0d7d8abfb0af1910bd",
+    "mod_version": "1.7.0"
+  },
+  "6": {
+    "file": "http://pi.brandon3055.com/objects/d0/d0e959e36e1130e0d44a5c479f17acdffee0dbe8",
+    "mod_version": "1.8.0"
+  },
+  "7": {
+    "file": "http://pi.brandon3055.com/objects/ef/ef6bc73d0223e4b09aa90c5be8c9068141e32cd4",
+    "mod_version": "1.9.0"
+  },
+  "8": {
+    "file": "http://pi.brandon3055.com/objects/cd/cd32eec63896610e98f246c5fa83245ebcb6474e",
+    "mod_version": "1.10.0"
+  },
+  "9": {
+    "file": "http://pi.brandon3055.com/objects/ea/eaf0de92aa2ef07f2d6f693607291a7fa088c512",
+    "mod_version": "1.7.0"
+  },
+  "10": {
+    "file": "http://pi.brandon3055.com/objects/20/20492c7265721efc1f31440ec7758e59f0080bf0",
+    "mod_version": "1.8.0"
+  },
+  "11": {
+    "file": "http://pi.brandon3055.com/objects/71/7111858e5cd333840cabc6ff5490890e8087f577",
+    "mod_version": "1.9.0"
+  },
+  "12": {
+    "file": "http://pi.brandon3055.com/objects/bf/bff8518cceee13a6ce03fa8f57c3250cbe5e6ea7",
+    "mod_version": "1.15.0"
+  }
+}

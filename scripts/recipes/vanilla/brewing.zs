@@ -4,6 +4,7 @@
  */
 
 #priority 1000
+#no_fix_recipe_book
 
 brewing.addBrew(<minecraft:potion>.withTag({Potion: "minecraft:awkward"}), [<minecraft:dye:0>], <minecraft:potion>.withTag({Potion: "potioncore:blindness"}));
 brewing.addBrew(<minecraft:potion>.withTag({Potion: "potioncore:blindness"}), [<ore:dustGlowstone>], <minecraft:potion>.withTag({Potion: "potioncore:strong_blindness"}));

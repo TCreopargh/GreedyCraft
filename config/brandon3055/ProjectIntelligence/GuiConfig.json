@@ -1,6 +1,6 @@
 {
-  "downloadsAllowed": false,
-  "tutorialDisplayed": false,
+  "downloadsAllowed": true,
+  "tutorialDisplayed": true,
   "editMode": false,
   "etCheckFluid": true,
   "editingRepoLoc": "",

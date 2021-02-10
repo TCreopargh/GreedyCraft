@@ -4,6 +4,7 @@
  */
 
 #priority 760
+#no_fix_recipe_book
 
 import crafttweaker.item.IItemStack;
 import crafttweaker.data.IData;
@@ -14,11 +15,12 @@ import mods.zenstages.Stage;
 import mods.ItemStages;
 
 import scripts.util.gamestages as GameStagesUtil;
+import scripts.util.lang as LangUtil;
 
 for mod in loadedMods {
     for item in mod.items {
-        ItemStages.setUnfamiliarName(game.localize("greedycraft.stage.unfamiliar.name"), item);
+        ItemStages.setUnfamiliarName(LangUtil.translate("greedycraft.stage.unfamiliar.name"), item);
     }
 }
 
-ItemStages.setUnfamiliarName(game.localize("greedycraft.stage.wither_skull.name"), <ore:skullWitherSkeleton>);
+ItemStages.setUnfamiliarName(LangUtil.translate("greedycraft.stage.wither_skull.name"), <ore:skullWitherSkeleton>);

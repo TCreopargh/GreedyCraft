@@ -4,6 +4,7 @@
  */
 
 #priority 50
+#no_fix_recipe_book
 
 <item:minecraft:bedrock>.asBlock().definition.hardness = 500.0 as float;
 <item:minecraft:bedrock>.asBlock().definition.setHarvestLevel("pickaxe", 10);

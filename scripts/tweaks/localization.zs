@@ -4,6 +4,7 @@
  */
 
 #priority 800
+#no_fix_recipe_book
 
 import crafttweaker.game.IGame;
 

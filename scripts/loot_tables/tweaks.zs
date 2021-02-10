@@ -4,6 +4,7 @@
  */
 
 #priority 80
+#no_fix_recipe_book
 
 import loottweaker.vanilla.loot.LootTables;
 import loottweaker.vanilla.loot.LootTable;

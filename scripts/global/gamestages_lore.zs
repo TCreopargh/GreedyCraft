@@ -4,6 +4,7 @@
  */ 
 
 #priority 32765
+#no_fix_recipe_book
 
 global gameStagesLore as string[][string][string][string] = {
     zh_cn: {

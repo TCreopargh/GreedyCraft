@@ -4,6 +4,7 @@
  */ 
 
 #priority 50
+#no_fix_recipe_book
 
 import crafttweaker.event.CommandEvent;
 import crafttweaker.event.PlayerRespawnEvent;
@@ -18,6 +19,8 @@ import crafttweaker.entity.IEntity;
 import crafttweaker.entity.IEntityLivingBase;
 import crafttweaker.entity.AttributeInstance;
 import crafttweaker.entity.AttributeModifier;
+import crafttweaker.text.ITextComponent;
+import crafttweaker.world.IWorld;
 
 import mods.ctutils.utils.Math;
 import mods.ctutils.world.IGameRules;
@@ -47,7 +50,7 @@ purgeCommand.execute = function(command, server, sender, args) {
     server.commandManager.executeCommand(server, "/kill @e[type=Item]");
     var player as IPlayer = CommandUtils.getCommandSenderAsPlayer(sender) as IPlayer;
     if(!isNull(player)) {
-        player.sendChat(game.localize("greedycraft.command.purgeCommand.chat"));
+        player.sendRichTextMessage(ITextComponent.fromTranslation("greedycraft.command.purgeCommand.chat"));
     }
 };
 purgeCommand.register();
@@ -59,12 +62,27 @@ hideScoreboardCommand.getCommandUsage = function(sender) {
 hideScoreboardCommand.requiredPermissionLevel = 2; 
 hideScoreboardCommand.execute = function(command, server, sender, args) {
     server.commandManager.executeCommand(server, "/scoreboard objectives remove title");
+    IWorld.getFromID(0).updateCustomWorldData({showScoreboard: false} as IData);
     var player as IPlayer = CommandUtils.getCommandSenderAsPlayer(sender) as IPlayer;
     if(!isNull(player)) {
-        player.sendChat(game.localize("greedycraft.command.hideScoreboardCommand.chat"));
+        player.sendRichTextMessage(ITextComponent.fromTranslation("greedycraft.command.hideScoreboardCommand.chat"));
     }
 };
 hideScoreboardCommand.register();
+
+val showScoreboardCommand as ZenCommand = ZenCommand.create("showscoreboard");
+showScoreboardCommand.getCommandUsage = function(sender) {
+    return game.localize("greedycraft.command.showScoreboardCommand.usage");
+};
+showScoreboardCommand.requiredPermissionLevel = 2; 
+showScoreboardCommand.execute = function(command, server, sender, args) {
+    IWorld.getFromID(0).updateCustomWorldData({showScoreboard: true});
+    var player as IPlayer = CommandUtils.getCommandSenderAsPlayer(sender) as IPlayer;
+    if(!isNull(player)) {
+        player.sendRichTextMessage(ITextComponent.fromTranslation("greedycraft.command.showScoreboardCommand.chat"));
+    }
+};
+showScoreboardCommand.register();
 
 val syncDifficultyCommand as ZenCommand = ZenCommand.create("syncdifficulty");
 syncDifficultyCommand.getCommandUsage = function(sender) {
@@ -93,7 +111,7 @@ syncDifficultyCommand.execute = function(command, server, sender, args) {
             }
             player.difficulty = maxDifficulty;
             sender.sendMessage(I18n.format("greedycraft.command.syncDifficultyCommand.chat1", [player.name, "" + maxDifficulty] as string[]));
-            player.sendChat(I18n.format("greedycraft.command.syncDifficultyCommand.chat2", "" + maxDifficulty));
+            player.sendRichTextMessage(ITextComponent.fromTranslation("greedycraft.command.syncDifficultyCommand.chat2", "" + maxDifficulty));
         }
     }
 };
@@ -136,7 +154,7 @@ infinityStoneCommand.execute = function(command, server, sender, args) {
             server.commandManager.executeCommand(server, "/replaceitem entity " + player.name + " slot.armor.feet additions:greedycraft-infinity_stone");
             server.commandManager.executeCommand(server, "/give " + player.name + " additions:greedycraft-infinity_stone 1 0");
             server.commandManager.executeCommand(server, "/kill " + player.name);
-            player.sendChat(game.localize("greedycraft.command.infinityStoneCommand.not_worth"));
+            player.sendRichTextMessage(ITextComponent.fromTranslation("greedycraft.command.infinityStoneCommand.not_worth"));
         }
     }
 };
@@ -164,7 +182,7 @@ unlockAllCommand.execute = function(command, server, sender, args) {
                 player.addGameStage(stage);
             }
             sender.sendMessage(I18n.format("greedycraft.command.unlockAllCommand.chat1", [player.name, "" + listStages.length] as string[]));
-            player.sendChat(I18n.format("greedycraft.command.unlockAllCommand.chat2", "" + listStages.length));
+            player.sendRichTextMessage(ITextComponent.fromTranslation("greedycraft.command.unlockAllCommand.chat2", "" + listStages.length));
         }
     }
 };
@@ -192,7 +210,7 @@ lockAllCommand.execute = function(command, server, sender, args) {
                 player.removeGameStage(stage);
             }
             sender.sendMessage(I18n.format("greedycraft.command.lockAllCommand.chat1", [player.name, "" + listStages.length] as string[]));
-            player.sendChat(I18n.format("greedycraft.command.lockAllCommand.chat2", "" + listStages.length));
+            player.sendRichTextMessage(ITextComponent.fromTranslation("greedycraft.command.lockAllCommand.chat2", "" + listStages.length));
         }
     }
 };
@@ -298,7 +316,7 @@ showDeathQuotesCommand.execute = function(command, server, sender, args) {
     for player in players {
         if(!isNull(player)) {
             player.removeGameStage("hide_death_quotes");
-            player.sendChat(game.localize("greedycraft.command.showDeathQuotesCommand.chat"));
+            player.sendRichTextMessage(ITextComponent.fromTranslation("greedycraft.command.showDeathQuotesCommand.chat"));
         }
     }
 };
@@ -323,7 +341,7 @@ hideDeathQuotesCommand.execute = function(command, server, sender, args) {
     for player in players {
         if(!isNull(player)) {
             player.addGameStage("hide_death_quotes");
-            player.sendChat(game.localize("greedycraft.command.hideDeathQuotesCommand.chat"));
+            player.sendRichTextMessage(ITextComponent.fromTranslation("greedycraft.command.hideDeathQuotesCommand.chat"));
         }
     }
 };
@@ -373,7 +391,7 @@ setMaidHealthCommand.execute = function(command, server, sender, args) {
                 }
             }
         }
-        player.sendChat(I18n.format("greedycraft.command.setMaidHealthCommand.chat", "" + entities.length));
+        player.sendRichTextMessage(ITextComponent.fromTranslation("greedycraft.command.setMaidHealthCommand.chat", "" + entities.length));
     }
 };
 setMaidHealthCommand.register();
@@ -493,10 +511,10 @@ executorCommand.execute = function(command, server, sender, args) {
             permission = true;
         }
         if(!permission) {
-            player.sendChat(game.localize("greedycraft.command.executorCommand.deny"));
+            player.sendRichTextMessage(ITextComponent.fromTranslation("greedycraft.command.executorCommand.deny"));
             continue;
         }
-        player.sendChat(game.localize("greedycraft.command.executorCommand.message"));
+        player.sendRichTextMessage(ITextComponent.fromTranslation("greedycraft.command.executorCommand.message"));
     }
 };
 executorCommand.register();
@@ -545,7 +563,7 @@ redPacketCommand.execute = function(command, server, sender, args) {
         if(!isNull(player)) {
             var xp as int = Math.floor((50.0 + Math.random() * 300.0 + Math.random() * 0.75 * (pow(player.difficulty, 1.5)))) as int;
             player.addExperience(xp);
-            player.sendChat(I18n.format("greedycraft.command.red_packet", "" + xp));
+            player.sendRichTextMessage(ITextComponent.fromTranslation("greedycraft.command.red_packet", "" + xp));
         }
     }
 };
@@ -587,9 +605,9 @@ listStagesCommand.execute = function(command, server, sender, args) {
             if(haveNotStr.length() > 4) {
                 haveNotStr = haveNotStr.substring(0, haveNotStr.length() - 4);
             }
-            player.sendChat(I18n.format("greedycraft.command.list_stages.have"));
+            player.sendRichTextMessage(ITextComponent.fromTranslation("greedycraft.command.list_stages.have"));
             player.sendChat(haveStr);
-            player.sendChat(I18n.format("greedycraft.command.list_stages.have_not"));
+            player.sendRichTextMessage(ITextComponent.fromTranslation("greedycraft.command.list_stages.have_not"));
             player.sendChat(haveNotStr);
         }
     }

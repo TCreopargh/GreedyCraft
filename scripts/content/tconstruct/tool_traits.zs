@@ -8,6 +8,7 @@
 #modloaded tconstruct
 
 #priority 2602
+#no_fix_recipe_book
 
 import crafttweaker.player.IPlayer;
 import crafttweaker.entity.IEntityLivingBase;

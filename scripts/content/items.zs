@@ -5,6 +5,7 @@
 
 #loader contenttweaker 
 #priority 2200
+#no_fix_recipe_book
 
 #norun
 

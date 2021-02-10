@@ -4,6 +4,7 @@
  */
 
 #priority 1050
+#no_fix_recipe_book
 
 import mods.bloodmagic.TartaricForge;
 import mods.bloodmagic.BloodAltar;

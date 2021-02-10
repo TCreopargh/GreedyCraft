@@ -4,18 +4,19 @@
  */
 
 #priority 100
+#no_fix_recipe_book
 #packmode casual adventure
 
 events.onWorldTick(function(event as crafttweaker.event.WorldTickEvent) {
     if(event.world.getWorldTime() as long % 100 == 0 && event.phase == "END" && event.side == "SERVER") {
-        server.commandManager.executeCommand(server, "/gamerule keepInventory true");
+        event.world.setOrCreateGameRule("keepInventory", "true");
     }
 });
 
 events.onPlayerRespawn(function(event as crafttweaker.event.PlayerRespawnEvent) {
-    server.commandManager.executeCommand(server, "/gamerule keepInventory true");
+    event.player.world.setOrCreateGameRule("keepInventory", "true");
 });
 
 events.onPlayerLoggedIn(function(event as crafttweaker.event.PlayerLoggedInEvent) {
-    server.commandManager.executeCommand(server, "/gamerule keepInventory true");
+    event.player.world.setOrCreateGameRule("keepInventory", "true");
 });

@@ -4,6 +4,7 @@
  */
 
 #priority 32767
+#no_fix_recipe_book
 
 global deathQuotes as string[][string] = { 
     zh_cn: [
@@ -202,7 +203,7 @@ global deathQuotes as string[][string] = {
         "§eWhy is it always me?",
         "§7How did this happen?",
         "§b§oI didn't say this.  §r§e——Albert Einstein",
-        "§cATTENTION: SCP-173 breached contain.",
+        "§cATTENTION: SCP-173 breached containment.",
         "§c[ADMIN] Hypixel§f: Hello",
         "§b(＃°Д°)",
         "§eNext time get rid of your yee-yee ass haircut.",

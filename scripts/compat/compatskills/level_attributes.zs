@@ -3,6 +3,7 @@
  * You may NOT use this script in any other publicly distributed modpack without my permission.
  */
 #priority 70
+#no_fix_recipe_book
 
 import crafttweaker.event.PlayerLoggedInEvent;
 import crafttweaker.event.IPlayerEvent;

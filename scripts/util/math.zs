@@ -4,6 +4,7 @@
  */
 
 #priority 32020
+#no_fix_recipe_book
 
 import mods.ctutils.utils.Math;
 

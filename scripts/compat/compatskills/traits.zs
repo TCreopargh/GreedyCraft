@@ -4,6 +4,7 @@
  */
 
 #priority 40
+#no_fix_recipe_book
 
 import mods.ctutils.utils.Math;
 import crafttweaker.damage.IDamageSource;

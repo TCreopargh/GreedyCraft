@@ -4,6 +4,7 @@
  */ 
 
 #priority 40
+#no_fix_recipe_book
 #packmode casual adventure
 
 import crafttweaker.item.IItemStack;

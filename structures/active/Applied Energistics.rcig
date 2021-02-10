@@ -1,0 +1,251 @@
+{
+  "version": 2,
+  "inventoryGeneratorID": "appeng",
+  "items": [
+    {
+      "weight": 2.0475566387176514,
+      "min": 1,
+      "max": 14,
+      "item": {
+        "id": "appliedenergistics2:material",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.5889394283294678,
+      "min": 1,
+      "max": 10,
+      "item": {
+        "id": "appliedenergistics2:material",
+        "damage": 1,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.7755888104438782,
+      "min": 1,
+      "max": 8,
+      "item": {
+        "id": "appliedenergistics2:material",
+        "damage": 2,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.11158588528633118,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "appliedenergistics2:energy_cell",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {}
+        }
+      }
+    },
+    {
+      "weight": 0.4400899410247803,
+      "min": 1,
+      "max": 10,
+      "item": {
+        "id": "appliedenergistics2:material",
+        "damage": 8,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.4400899410247803,
+      "min": 1,
+      "max": 10,
+      "item": {
+        "id": "appliedenergistics2:material",
+        "damage": 7,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.290178656578064,
+      "min": 1,
+      "max": 16,
+      "item": {
+        "id": "appliedenergistics2:material",
+        "damage": 3,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.20703016221523285,
+      "min": 1,
+      "max": 8,
+      "item": {
+        "id": "appliedenergistics2:material",
+        "damage": 46,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.0739658921957016,
+      "min": 1,
+      "max": 4,
+      "item": {
+        "id": "appliedenergistics2:material",
+        "damage": 22,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.0472542829811573,
+      "min": 1,
+      "max": 4,
+      "item": {
+        "id": "appliedenergistics2:material",
+        "damage": 24,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.11158588528633118,
+      "min": 1,
+      "max": 4,
+      "item": {
+        "id": "appliedenergistics2:material",
+        "damage": 23,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.35883715748786926,
+      "min": 1,
+      "max": 12,
+      "item": {
+        "id": "appliedenergistics2:material",
+        "damage": 20,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 14,
+      "item": {
+        "id": "appliedenergistics2:material",
+        "damage": 5,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.4858947992324829,
+      "min": 1,
+      "max": 10,
+      "item": {
+        "id": "appliedenergistics2:part",
+        "damage": 16,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.25986868143081665,
+      "min": 1,
+      "max": 10,
+      "item": {
+        "id": "appliedenergistics2:part",
+        "damage": 56,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.39763605594635,
+      "min": 1,
+      "max": 10,
+      "item": {
+        "id": "appliedenergistics2:material",
+        "damage": 35,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.7087690830230713,
+      "min": 1,
+      "max": 3,
+      "item": {
+        "id": "appliedenergistics2:material",
+        "damage": 36,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.2900550961494446,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "appliedenergistics2:material",
+        "damage": 37,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.11158588528633118,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "appliedenergistics2:material",
+        "damage": 38,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.23224952816963196,
+      "min": 1,
+      "max": 3,
+      "item": {
+        "id": "appliedenergistics2:material",
+        "damage": 44,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.23224952816963196,
+      "min": 1,
+      "max": 3,
+      "item": {
+        "id": "appliedenergistics2:material",
+        "damage": 43,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.0339658921957016,
+      "min": 1,
+      "max": 6,
+      "item": {
+        "id": "threng:material",
+        "damage": 1,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.0339658921957016,
+      "min": 1,
+      "max": 6,
+      "item": {
+        "id": "threng:material",
+        "damage": 2,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.0269861449599266,
+      "min": 1,
+      "max": 5,
+      "item": {
+        "id": "threng:material",
+        "damage": 0,
+        "count": 1
+      }
+    }
+  ],
+  "dependencyExpression": ""
+}

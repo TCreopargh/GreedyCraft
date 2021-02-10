@@ -4,6 +4,7 @@
  */ 
 
 #priority 100
+#no_fix_recipe_book
 
 import crafttweaker.item.IItemStack;
 import crafttweaker.data.IData;
@@ -131,7 +132,7 @@ val tooltipMap as string[][IIngredient] = {
     <tofucraft:ore_tofudiamond> : [game.localize("greedycraft.tooltip.tofucraft.ore_tofudiamond.1")],
     <minecraft:enchanting_table> : [game.localize("greedycraft.tooltip.minecraft.enchanting_table.1")],
     <twilightforest:uncrafting_table> : [game.localize("greedycraft.tooltip.twilightforest.uncrafting_table.1")],
-    <oeintegration:excavatemodifier> : [game.localize("greedycraft.tooltip.oeintegration.excavatemodifier.1")],
+    <oeintegration:excavatemodifier> : [game.localize("greedycraft.tooltip.oeintegration.excavatemodifier.1"), game.localize("greedycraft.tooltip.oeintegration.excavatemodifier.2")],
     <bloodmagic:sentient_sword> : [sentient_disabled],
     <bloodmagic:sentient_bow> : [sentient_disabled],
     <bloodmagic:sentient_axe> : [sentient_disabled],
@@ -165,8 +166,30 @@ val tooltipMap as string[][IIngredient] = {
     <torchmaster:feral_flare_lantern> : [game.localize("greedycraft.tooltip.torchmaster.feral_flare_lantern.1"), game.localize("greedycraft.tooltip.torchmaster.feral_flare_lantern.2")],
     <snad:snad:*> : [game.localize("greedycraft.tooltip.snad.snad.1")],
     <inventorypets:cloud_pet> : [game.localize("greedycraft.tooltip.inventorypets.cloud_pet.1")],
-    <gravestone:death_info>: [game.localize("greedycraft.tooltip.gravestone.death_info.1"), game.localize("greedycraft.tooltip.gravestone.death_info.2"), game.localize("greedycraft.tooltip.gravestone.death_info.3")],
-    <defiledlands:conjuring_altar> : [game.localize("greedycraft.tooltip.defiledlands.conjuring_altar.1")]
+    <gravestone:death_info> : [game.localize("greedycraft.tooltip.gravestone.death_info.1"), game.localize("greedycraft.tooltip.gravestone.death_info.2"), game.localize("greedycraft.tooltip.gravestone.death_info.3")],
+    <defiledlands:conjuring_altar> : [game.localize("greedycraft.tooltip.defiledlands.conjuring_altar.1")],
+    <ironbackpacks:backpack> : [ae_lag],
+    <forestry:forester_bag_t2> : [ae_lag],
+    <cyclicmagic:storage_bag> : [ae_lag],
+    <forestry:apiarist_bag> : [ae_lag],
+    <botany:botanist_bag> : [ae_lag],
+    <forestry:lepidopterist_bag> : [ae_lag],
+    <forestry:miner_bag> : [ae_lag],
+    <forestry:miner_bag_t2> : [ae_lag],
+    <forestry:digger_bag> : [ae_lag],
+    <forestry:forester_bag> : [ae_lag],
+    <forestry:digger_bag_t2> : [ae_lag],
+    <magicbees:backpack_thaumaturge_t1> : [ae_lag],
+    <forestry:adventurer_bag> : [ae_lag],
+    <forestry:builder_bag> : [ae_lag],
+    <forestry:hunter_bag> : [ae_lag],
+    <extrautils2:bagofholding> : [ae_lag],
+    <extrabotany:masterhandbag> : [ae_lag],
+    <magicbees:backpack_thaumaturge_t2> : [ae_lag],
+    <forestry:adventurer_bag_t2> : [ae_lag],
+    <forestry:builder_bag_t2> : [ae_lag],
+    <forestry:hunter_bag_t2> : [ae_lag],
+    <pouchofunknown:pouch> : [ae_lag]
 } as string[][IIngredient];
 
 for ingredient in tooltipMap {

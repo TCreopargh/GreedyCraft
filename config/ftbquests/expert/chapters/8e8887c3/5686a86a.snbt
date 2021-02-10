@@ -39,12 +39,6 @@
 		count: 4
 	},
 	{
-		uid: "1c0d71f0",
-		type: "item",
-		item: "oeintegration:excavatemodifier",
-		count: 2
-	},
-	{
 		uid: "d50dc7f0",
 		type: "loot",
 		table: 0

@@ -4,8 +4,11 @@
  */
 
 #priority 40
+#no_fix_recipe_book
 
 import mods.dropt.Dropt;
+
+vanilla.seeds.addSeed(<additions:greedycraft-plant_fibre> % 2);
 
 Dropt.list("bedrock")
     .add(Dropt.rule()

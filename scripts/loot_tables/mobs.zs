@@ -4,6 +4,7 @@
  */ 
 
 #priority 120
+#no_fix_recipe_book
 // Powered by TCreopargh
 
 import loottweaker.vanilla.loot.LootTables;

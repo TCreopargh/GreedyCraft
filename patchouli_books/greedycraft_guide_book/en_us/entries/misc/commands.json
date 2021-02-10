@@ -4,7 +4,7 @@
     "category": "patchouli:misc_category",
     "pages": [{
             "type": "text",
-            "text": "$(2)Here are some useful commands added by this modpack or other mods. $(5)They can be used in every packmode without cheats enabled, if not specified.$()$(li)$(2)/purge$(): Clears all dropped items, might boost performance.$(li)$(2)/hidescoreboard$(): Hide the scoreboard until next join$(li)$(2)/sampler gc$(): (Server side) Force Java to do a garbage collection to reduce RAM usage and boost performance. (Suggested in singleplayer)"
+            "text": "$(2)Here are some useful commands added by this modpack or other mods. $(5)They can be used in every packmode without cheats enabled, if not specified.$()$(li)$(2)/purge$(): Clears all dropped items, might boost performance.$(li)$(2)/sampler gc$(): (Server side) Force Java to do a garbage collection to reduce RAM usage and boost performance. (Suggested in singleplayer)"
         },
         {
             "type": "text",
@@ -16,7 +16,7 @@
         },
         {
             "type": "text",
-            "text": "$(li)$(2)/unlockallstages$(): Unlocks all game stages. $(4)Needs OP perms and cheat mode enabled$(li)$(2)/lockallstages$(): Lock all game stages again$(4)Needs OP perms and cheat mode enabled$(2)/stagelist$(): Lists all game stages that you have or have not"
+            "text": "$(li)$(2)/unlockallstages$(): Unlocks all game stages. $(4)Needs OP perms and cheat mode enabled$(li)$(2)/lockallstages$(): Lock all game stages again$(4)Needs OP perms and cheat mode enabled$(2)/stagelist$(): Lists all game stages that you have or have not$(li)$(2)/hidescoreboard$(): Hide the scoreboard (aka sidebar) $(li)$(2)/showscoreboard$(): Show the scoreboard"
         }
     ]
 }

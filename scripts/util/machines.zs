@@ -4,6 +4,7 @@
  */
 
 #priority 32000
+#no_fix_recipe_book
 
 import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.item.IItemStack;

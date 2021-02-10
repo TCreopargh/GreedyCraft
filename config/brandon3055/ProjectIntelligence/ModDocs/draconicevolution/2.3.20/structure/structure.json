@@ -1,0 +1,1909 @@
+{
+  "mod_id": "draconicevolution",
+  "mod_version": "2.3.20",
+  "__verified_comment": "Do not change this to true. If you do so your PR will be automatically rejected.",
+  "verified": true,
+  "file": "draconicevolution_dbd2b.md",
+  "cycle_icons": false,
+  "pages": [
+    {
+      "id": "draconium",
+      "file": "draconium_8395a.md",
+      "cycle_icons": false,
+      "hidden": false,
+      "sorting_weight": 10,
+      "relations": [
+        {
+          "type": "STACK",
+          "content": "draconicevolution:draconium_ingot"
+        },
+        {
+          "type": "STACK",
+          "content": "draconicevolution:nugget"
+        }
+      ],
+      "icons": [
+        {
+          "type": "stack",
+          "draw_slot": true,
+          "icon_string": "draconicevolution:draconium_ingot"
+        }
+      ],
+      "pages": [
+        {
+          "id": "draconium_ore",
+          "file": "draconium/draconium_ore_87f4d.md",
+          "cycle_icons": true,
+          "hidden": false,
+          "sorting_weight": 10,
+          "relations": [
+            {
+              "type": "STACK",
+              "content": "draconicevolution:draconium_ore",
+              "ignore_meta": true
+            }
+          ],
+          "icons": [
+            {
+              "type": "stack",
+              "draw_slot": true,
+              "icon_string": "draconicevolution:draconium_ore"
+            },
+            {
+              "type": "stack",
+              "draw_slot": true,
+              "icon_string": "draconicevolution:draconium_ore,1,2"
+            },
+            {
+              "type": "stack",
+              "draw_slot": true,
+              "icon_string": "draconicevolution:draconium_ore,1,1"
+            }
+          ]
+        },
+        {
+          "id": "draconium_dust",
+          "file": "draconium/draconium_dust_a564f.md",
+          "cycle_icons": false,
+          "hidden": false,
+          "sorting_weight": 20,
+          "relations": [
+            {
+              "type": "STACK",
+              "content": "draconicevolution:draconium_dust"
+            }
+          ],
+          "icons": [
+            {
+              "type": "stack",
+              "draw_slot": true,
+              "icon_string": "draconicevolution:draconium_dust"
+            }
+          ]
+        },
+        {
+          "id": "draconium_block",
+          "file": "draconium/draconium_block_4058e.md",
+          "cycle_icons": false,
+          "hidden": false,
+          "sorting_weight": 30,
+          "relations": [
+            {
+              "type": "STACK",
+              "content": "draconicevolution:draconium_block"
+            }
+          ],
+          "icons": [
+            {
+              "type": "stack",
+              "draw_slot": true,
+              "icon_string": "draconicevolution:draconium_block"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "test_page",
+      "file": "test_page_4f9ac.md",
+      "cycle_icons": false,
+      "hidden": true,
+      "sorting_weight": 999
+    },
+    {
+      "id": "spotlights",
+      "file": "spotlights_65054.md",
+      "cycle_icons": false,
+      "hidden": true,
+      "sorting_weight": 999
+    },
+    {
+      "id": "contributors",
+      "file": "contributors_14e32.md",
+      "cycle_icons": false,
+      "hidden": false,
+      "sorting_weight": 999
+    },
+    {
+      "id": "awakened_draconium",
+      "file": "awakened_draconium_5f7da.md",
+      "cycle_icons": false,
+      "hidden": false,
+      "sorting_weight": 20,
+      "relations": [
+        {
+          "type": "STACK",
+          "content": "draconicevolution:draconic_ingot"
+        },
+        {
+          "type": "STACK",
+          "content": "draconicevolution:nugget,1,1"
+        },
+        {
+          "type": "STACK",
+          "content": "draconicevolution:draconic_block"
+        }
+      ],
+      "icons": [
+        {
+          "type": "stack",
+          "draw_slot": true,
+          "icon_string": "draconicevolution:draconic_ingot"
+        }
+      ],
+      "pages": [
+        {
+          "id": "dragon_heart",
+          "file": "awakened_draconium/dragon_heart_2caa6.md",
+          "cycle_icons": false,
+          "hidden": false,
+          "relations": [
+            {
+              "type": "STACK",
+              "content": "draconicevolution:dragon_heart"
+            }
+          ],
+          "icons": [
+            {
+              "type": "stack",
+              "draw_slot": true,
+              "icon_string": "draconicevolution:dragon_heart"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cores",
+      "file": "cores_b46c6.md",
+      "cycle_icons": true,
+      "hidden": false,
+      "sorting_weight": 30,
+      "icons": [
+        {
+          "type": "stack",
+          "draw_slot": true,
+          "icon_string": "draconicevolution:draconic_core"
+        },
+        {
+          "type": "stack",
+          "draw_slot": true,
+          "icon_string": "draconicevolution:wyvern_core"
+        },
+        {
+          "type": "stack",
+          "draw_slot": true,
+          "icon_string": "draconicevolution:awakened_core"
+        },
+        {
+          "type": "stack",
+          "draw_slot": true,
+          "icon_string": "draconicevolution:chaotic_core"
+        },
+        {
+          "type": "stack",
+          "draw_slot": true,
+          "icon_string": "draconicevolution:wyvern_energy_core"
+        },
+        {
+          "type": "stack",
+          "draw_slot": true,
+          "icon_string": "draconicevolution:draconic_energy_core"
+        }
+      ],
+      "pages": [
+        {
+          "id": "draconic_core",
+          "file": "cores/draconic_core_3cc88.md",
+          "cycle_icons": false,
+          "hidden": false,
+          "sorting_weight": 10,
+          "relations": [
+            {
+              "type": "STACK",
+              "content": "draconicevolution:draconic_core"
+            }
+          ],
+          "icons": [
+            {
+              "type": "stack",
+              "draw_slot": true,
+              "icon_string": "draconicevolution:draconic_core"
+            }
+          ]
+        },
+        {
+          "id": "wyvern_core",
+          "file": "cores/wyvern_core_c2c0a.md",
+          "cycle_icons": false,
+          "hidden": false,
+          "sorting_weight": 20,
+          "relations": [
+            {
+              "type": "STACK",
+              "content": "draconicevolution:wyvern_core"
+            }
+          ],
+          "icons": [
+            {
+              "type": "stack",
+              "draw_slot": true,
+              "icon_string": "draconicevolution:wyvern_core"
+            }
+          ]
+        },
+        {
+          "id": "awakened_core",
+          "file": "cores/awakened_core_c847a.md",
+          "cycle_icons": false,
+          "hidden": false,
+          "sorting_weight": 30,
+          "relations": [
+            {
+              "type": "STACK",
+              "content": "draconicevolution:awakened_core"
+            }
+          ],
+          "icons": [
+            {
+              "type": "stack",
+              "draw_slot": true,
+              "icon_string": "draconicevolution:awakened_core"
+            }
+          ]
+        },
+        {
+          "id": "chaotic_core",
+          "file": "cores/chaotic_core_10e66.md",
+          "cycle_icons": false,
+          "hidden": false,
+          "sorting_weight": 40,
+          "relations": [
+            {
+              "type": "STACK",
+              "content": "draconicevolution:chaotic_core"
+            }
+          ],
+          "icons": [
+            {
+              "type": "stack",
+              "draw_slot": true,
+              "icon_string": "draconicevolution:chaotic_core"
+            }
+          ]
+        },
+        {
+          "id": "wyvern_energy_core",
+          "file": "cores/wyvern_energy_core_a2b4d.md",
+          "cycle_icons": false,
+          "hidden": false,
+          "sorting_weight": 50,
+          "relations": [
+            {
+              "type": "STACK",
+              "content": "draconicevolution:wyvern_energy_core"
+            }
+          ],
+          "icons": [
+            {
+              "type": "stack",
+              "draw_slot": true,
+              "icon_string": "draconicevolution:wyvern_energy_core"
+            }
+          ]
+        },
+        {
+          "id": "draconic_energy_core",
+          "file": "cores/draconic_energy_core_4f12f.md",
+          "cycle_icons": false,
+          "hidden": false,
+          "sorting_weight": 60,
+          "relations": [
+            {
+              "type": "STACK",
+              "content": "draconicevolution:draconic_energy_core"
+            }
+          ],
+          "icons": [
+            {
+              "type": "stack",
+              "draw_slot": true,
+              "icon_string": "draconicevolution:draconic_energy_core"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wyvern_tools",
+      "file": "wyvern_tools_26115.md",
+      "cycle_icons": true,
+      "hidden": false,
+      "sorting_weight": 40,
+      "icons": [
+        {
+          "type": "stack",
+          "draw_slot": true,
+          "icon_string": "draconicevolution:wyvern_pick,1,0,{Energy:4000000}"
+        },
+        {
+          "type": "stack",
+          "draw_slot": true,
+          "icon_string": "draconicevolution:wyvern_axe,1,0,{Energy:4000000}"
+        },
+        {
+          "type": "stack",
+          "draw_slot": true,
+          "icon_string": "draconicevolution:wyvern_shovel,1,0,{Energy:4000000}"
+        },
+        {
+          "type": "stack",
+          "draw_slot": true,
+          "icon_string": "draconicevolution:wyvern_sword,1,0,{Energy:4000000}"
+        },
+        {
+          "type": "stack",
+          "draw_slot": true,
+          "icon_string": "draconicevolution:wyvern_bow,1,0,{Energy:4000000}"
+        },
+        {
+          "type": "stack",
+          "draw_slot": true,
+          "icon_string": "draconicevolution:draconium_capacitor,1,0,{Energy:64000000}"
+        }
+      ],
+      "pages": [
+        {
+          "id": "wyvern_pickaxe",
+          "file": "wyvern_tools/wyvern_pickaxe_97459.md",
+          "cycle_icons": false,
+          "hidden": false,
+          "relations": [
+            {
+              "type": "STACK",
+              "content": "draconicevolution:wyvern_pick",
+              "ignore_meta": true
+            }
+          ],
+          "icons": [
+            {
+              "type": "stack",
+              "draw_slot": true,
+              "icon_string": "draconicevolution:wyvern_pick,1,0,{Energy:4000000}"
+            }
+          ]
+        },
+        {
+          "id": "wyvern_axe",
+          "file": "wyvern_tools/wyvern_axe_11dbd.md",
+          "cycle_icons": false,
+          "hidden": false,
+          "relations": [
+            {
+              "type": "STACK",
+              "content": "draconicevolution:wyvern_axe",
+              "ignore_meta": true
+            }
+          ],
+          "icons": [
+            {
+              "type": "stack",
+              "draw_slot": true,
+              "icon_string": "draconicevolution:wyvern_axe,1,0,{Energy:4000000}"
+            }
+          ]
+        },
+        {
+          "id": "wyvern_shovel",
+          "file": "wyvern_tools/wyvern_shovel_9dbf8.md",
+          "cycle_icons": false,
+          "hidden": false,
+          "relations": [
+            {
+              "type": "STACK",
+              "content": "draconicevolution:wyvern_shovel",
+              "ignore_meta": true
+            }
+          ],
+          "icons": [
+            {
+              "type": "stack",
+              "draw_slot": true,
+              "icon_string": "draconicevolution:wyvern_shovel,1,0,{Energy:4000000}"
+            }
+          ]
+        },
+        {
+          "id": "wyvern_sword",
+          "file": "wyvern_tools/wyvern_sword_dc96b.md",
+          "cycle_icons": false,
+          "hidden": false,
+          "relations": [
+            {
+              "type": "STACK",
+              "content": "draconicevolution:wyvern_sword",
+              "ignore_meta": true
+            }
+          ],
+          "icons": [
+            {
+              "type": "stack",
+              "draw_slot": true,
+              "icon_string": "draconicevolution:wyvern_sword,1,0,{Energy:4000000}"
+            }
+          ]
+        },
+        {
+          "id": "wyvern_bow",
+          "file": "wyvern_tools/wyvern_bow_e17dc.md",
+          "cycle_icons": false,
+          "hidden": false,
+          "relations": [
+            {
+              "type": "STACK",
+              "content": "draconicevolution:wyvern_bow",
+              "ignore_meta": true
+            }
+          ],
+          "icons": [
+            {
+              "type": "stack",
+              "draw_slot": true,
+              "icon_string": "draconicevolution:wyvern_bow,1,0,{Energy:4000000}"
+            }
+          ]
+        },
+        {
+          "id": "wyvern_flux_capacitor",
+          "file": "wyvern_tools/wyvern_flux_capacitor_f3f1c.md",
+          "cycle_icons": false,
+          "hidden": false,
+          "relations": [
+            {
+              "type": "STACK",
+              "content": "draconicevolution:draconium_capacitor"
+            }
+          ],
+          "icons": [
+            {
+              "type": "stack",
+              "draw_slot": true,
+              "icon_string": "draconicevolution:draconium_capacitor,1,0,{Energy:64000000}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "draconic_tools",
+      "file": "draconic_tools_ce5a3.md",
+      "cycle_icons": true,
+      "hidden": false,
+      "sorting_weight": 50,
+      "icons": [
+        {
+          "type": "stack",
+          "draw_slot": true,
+          "icon_string": "draconicevolution:draconic_axe,1,0,{Energy:16000000}"
+        },
+        {
+          "type": "stack",
+          "draw_slot": true,
+          "icon_string": "draconicevolution:draconic_bow,1,0,{Energy:16000000}"
+        },
+        {
+          "type": "stack",
+          "draw_slot": true,
+          "icon_string": "draconicevolution:draconic_hoe,1,0,{Energy:16000000}"
+        },
+        {
+          "type": "stack",
+          "draw_slot": true,
+          "icon_string": "draconicevolution:draconic_pick,1,0,{Energy:16000000}"
+        },
+        {
+          "type": "stack",
+          "draw_slot": true,
+          "icon_string": "draconicevolution:draconic_shovel,1,0,{Energy:16000000}"
+        },
+        {
+          "type": "stack",
+          "draw_slot": true,
+          "icon_string": "draconicevolution:draconic_staff_of_power,1,0,{Energy:48000000}"
+        },
+        {
+          "type": "stack",
+          "draw_slot": true,
+          "icon_string": "draconicevolution:draconic_sword,1,0,{Energy:16000000}"
+        }
+      ],
+      "pages": [
+        {
+          "id": "draconic_pickaxe",
+          "file": "draconic_tools/draconic_pickaxe_5380c.md",
+          "cycle_icons": false,
+          "hidden": false,
+          "relations": [
+            {
+              "type": "STACK",
+              "content": "draconicevolution:draconic_pick",
+              "ignore_meta": true
+            }
+          ],
+          "icons": [
+            {
+              "type": "stack",
+              "draw_slot": true,
+              "icon_string": "draconicevolution:draconic_pick,1,0,{Energy:16000000}"
+            }
+          ]
+        },
+        {
+          "id": "draconic_axe",
+          "file": "draconic_tools/draconic_axe_bcd5b.md",
+          "cycle_icons": false,
+          "hidden": false,
+          "relations": [
+            {
+              "type": "STACK",
+              "content": "draconicevolution:draconic_axe",
+              "ignore_meta": true
+            }
+          ],
+          "icons": [
+            {
+              "type": "stack",
+              "draw_slot": true,
+              "icon_string": "draconicevolution:draconic_axe,1,0,{Energy:16000000}"
+            }
+          ]
+        },
+        {
+          "id": "draconic_shovel",
+          "file": "draconic_tools/draconic_shovel_26bf1.md",
+          "cycle_icons": false,
+          "hidden": false,
+          "relations": [
+            {
+              "type": "STACK",
+              "content": "draconicevolution:draconic_shovel",
+              "ignore_meta": true
+            }
+          ],
+          "icons": [
+            {
+              "type": "stack",
+              "draw_slot": true,
+              "icon_string": "draconicevolution:draconic_shovel,1,0,{Energy:16000000}"
+            }
+          ]
+        },
+        {
+          "id": "draconic_hoe",
+          "file": "draconic_tools/draconic_hoe_21b89.md",
+          "cycle_icons": false,
+          "hidden": false,
+          "relations": [
+            {
+              "type": "STACK",
+              "content": "draconicevolution:draconic_hoe",
+              "ignore_meta": true
+            }
+          ],
+          "icons": [
+            {
+              "type": "stack",
+              "draw_slot": true,
+              "icon_string": "draconicevolution:draconic_hoe,1,0,{Energy:16000000}"
+            }
+          ]
+        },
+        {
+          "id": "draconic_sword",
+          "file": "draconic_tools/draconic_sword_f9c8f.md",
+          "cycle_icons": false,
+          "hidden": false,
+          "relations": [
+            {
+              "type": "STACK",
+              "content": "draconicevolution:draconic_sword",
+              "ignore_meta": true
+            }
+          ],
+          "icons": [
+            {
+              "type": "stack",
+              "draw_slot": true,
+              "icon_string": "draconicevolution:draconic_sword,1,0,{Energy:16000000}"
+            }
+          ]
+        },
+        {
+          "id": "draconic_bow",
+          "file": "draconic_tools/draconic_bow_a8440.md",
+          "cycle_icons": false,
+          "hidden": false,
+          "relations": [
+            {
+              "type": "STACK",
+              "content": "draconicevolution:draconic_bow",
+              "ignore_meta": true
+            }
+          ],
+          "icons": [
+            {
+              "type": "stack",
+              "draw_slot": true,
+              "icon_string": "draconicevolution:draconic_bow,1,0,{Energy:16000000}"
+            }
+          ]
+        },
+        {
+          "id": "draconic_staff_of_power",
+          "file": "draconic_tools/draconic_staff_of_power_31983.md",
+          "cycle_icons": false,
+          "hidden": false,
+          "relations": [
+            {
+              "type": "STACK",
+              "content": "draconicevolution:draconic_staff_of_power",
+              "ignore_meta": true
+            }
+          ],
+          "icons": [
+            {
+              "type": "stack",
+              "draw_slot": true,
+              "icon_string": "draconicevolution:draconic_staff_of_power,1,0,{Energy:48000000}"
+            }
+          ]
+        },
+        {
+          "id": "draconic_flux_capacitor",
+          "file": "draconic_tools/draconic_flux_capacitor_5685f.md",
+          "cycle_icons": false,
+          "hidden": false,
+          "relations": [
+            {
+              "type": "STACK",
+              "content": "draconicevolution:draconium_capacitor,1,1"
+            }
+          ],
+          "icons": [
+            {
+              "type": "stack",
+              "draw_slot": true,
+              "icon_string": "draconicevolution:draconium_capacitor,1,1,{Energy:256000000}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wyvern_armor",
+      "file": "wyvern_armor_4e10b.md",
+      "cycle_icons": true,
+      "hidden": false,
+      "sorting_weight": 60,
+      "icons": [
+        {
+          "type": "stack",
+          "draw_slot": true,
+          "icon_string": "draconicevolution:wyvern_helm,1,0,{Energy:4000000}"
+        },
+        {
+          "type": "stack",
+          "draw_slot": true,
+          "icon_string": "draconicevolution:wyvern_chest,1,0,{Energy:4000000}"
+        },
+        {
+          "type": "stack",
+          "draw_slot": true,
+          "icon_string": "draconicevolution:wyvern_legs,1,0,{Energy:4000000}"
+        },
+        {
+          "type": "stack",
+          "draw_slot": true,
+          "icon_string": "draconicevolution:wyvern_boots,1,0,{Energy:4000000}"
+        }
+      ],
+      "pages": [
+        {
+          "id": "wyvern_helmet",
+          "file": "wyvern_armor/wyvern_helmet_60559.md",
+          "cycle_icons": false,
+          "hidden": false,
+          "relations": [
+            {
+              "type": "STACK",
+              "content": "draconicevolution:wyvern_helm",
+              "ignore_meta": true
+            }
+          ],
+          "icons": [
+            {
+              "type": "stack",
+              "draw_slot": true,
+              "icon_string": "draconicevolution:wyvern_helm,1,0,{Energy:4000000}"
+            }
+          ]
+        },
+        {
+          "id": "wyvern_chestplate",
+          "file": "wyvern_armor/wyvern_chestplate_472d6.md",
+          "cycle_icons": false,
+          "hidden": false,
+          "relations": [
+            {
+              "type": "STACK",
+              "content": "draconicevolution:wyvern_chest",
+              "ignore_meta": true
+            }
+          ],
+          "icons": [
+            {
+              "type": "stack",
+              "draw_slot": true,
+              "icon_string": "draconicevolution:wyvern_chest,1,0,{Energy:4000000}"
+            }
+          ]
+        },
+        {
+          "id": "wyvern_leggings",
+          "file": "wyvern_armor/wyvern_leggings_2b410.md",
+          "cycle_icons": false,
+          "hidden": false,
+          "relations": [
+            {
+              "type": "STACK",
+              "content": "draconicevolution:wyvern_legs",
+              "ignore_meta": true
+            }
+          ],
+          "icons": [
+            {
+              "type": "stack",
+              "draw_slot": true,
+              "icon_string": "draconicevolution:wyvern_legs,1,0,{Energy:4000000}"
+            }
+          ]
+        },
+        {
+          "id": "wyvern_boots",
+          "file": "wyvern_armor/wyvern_boots_9d888.md",
+          "cycle_icons": false,
+          "hidden": false,
+          "relations": [
+            {
+              "type": "STACK",
+              "content": "draconicevolution:wyvern_boots",
+              "ignore_meta": true
+            }
+          ],
+          "icons": [
+            {
+              "type": "stack",
+              "draw_slot": true,
+              "icon_string": "draconicevolution:wyvern_boots,1,0,{Energy:4000000}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "draconic_armor",
+      "file": "draconic_armor_a7ed0.md",
+      "cycle_icons": true,
+      "hidden": false,
+      "sorting_weight": 70,
+      "icons": [
+        {
+          "type": "stack",
+          "draw_slot": true,
+          "icon_string": "draconicevolution:draconic_helm,1,0,{Energy:16000000}"
+        },
+        {
+          "type": "stack",
+          "draw_slot": true,
+          "icon_string": "draconicevolution:draconic_chest,1,0,{Energy:16000000}"
+        },
+        {
+          "type": "stack",
+          "draw_slot": true,
+          "icon_string": "draconicevolution:draconic_legs,1,0,{Energy:16000000}"
+        },
+        {
+          "type": "stack",
+          "draw_slot": true,
+          "icon_string": "draconicevolution:draconic_boots,1,0,{Energy:16000000}"
+        }
+      ],
+      "pages": [
+        {
+          "id": "draconic_helmet",
+          "file": "draconic_armor/draconic_helmet_54f52.md",
+          "cycle_icons": false,
+          "hidden": false,
+          "relations": [
+            {
+              "type": "STACK",
+              "content": "draconicevolution:draconic_helm",
+              "ignore_meta": true
+            }
+          ],
+          "icons": [
+            {
+              "type": "stack",
+              "draw_slot": true,
+              "icon_string": "draconicevolution:draconic_helm,1,0,{Energy:16000000}"
+            }
+          ]
+        },
+        {
+          "id": "draconic_chestplate",
+          "file": "draconic_armor/draconic_chestplate_e14af.md",
+          "cycle_icons": false,
+          "hidden": false,
+          "relations": [
+            {
+              "type": "STACK",
+              "content": "draconicevolution:draconic_chest",
+              "ignore_meta": true
+            }
+          ],
+          "icons": [
+            {
+              "type": "stack",
+              "draw_slot": true,
+              "icon_string": "draconicevolution:draconic_chest,1,0,{Energy:16000000}"
+            }
+          ]
+        },
+        {
+          "id": "draconic_leggings",
+          "file": "draconic_armor/draconic_leggings_dc633.md",
+          "cycle_icons": false,
+          "hidden": false,
+          "relations": [
+            {
+              "type": "STACK",
+              "content": "draconicevolution:draconic_legs",
+              "ignore_meta": true
+            }
+          ],
+          "icons": [
+            {
+              "type": "stack",
+              "draw_slot": true,
+              "icon_string": "draconicevolution:draconic_legs,1,0,{Energy:16000000}"
+            }
+          ]
+        },
+        {
+          "id": "draconic_boots",
+          "file": "draconic_armor/draconic_boots_53ead.md",
+          "cycle_icons": false,
+          "hidden": false,
+          "relations": [
+            {
+              "type": "STACK",
+              "content": "draconicevolution:draconic_boots",
+              "ignore_meta": true
+            }
+          ],
+          "icons": [
+            {
+              "type": "stack",
+              "draw_slot": true,
+              "icon_string": "draconicevolution:draconic_boots,1,0,{Energy:16000000}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "draconic_energy_shield",
+      "file": "draconic_energy_shield_4ef7c.md",
+      "cycle_icons": false,
+      "hidden": false,
+      "sorting_weight": 80,
+      "relations": [
+        {
+          "type": "STACK",
+          "content": "draconicevolution:wyvern_helm"
+        },
+        {
+          "type": "STACK",
+          "content": "draconicevolution:wyvern_chest"
+        },
+        {
+          "type": "STACK",
+          "content": "draconicevolution:wyvern_legs"
+        },
+        {
+          "type": "STACK",
+          "content": "draconicevolution:wyvern_boots"
+        },
+        {
+          "type": "STACK",
+          "content": "draconicevolution:draconic_helm"
+        },
+        {
+          "type": "STACK",
+          "content": "draconicevolution:draconic_chest"
+        },
+        {
+          "type": "STACK",
+          "content": "draconicevolution:draconic_legs"
+        },
+        {
+          "type": "STACK",
+          "content": "draconicevolution:draconic_boots"
+        }
+      ],
+      "icons": [
+        {
+          "type": "image",
+          "draw_slot": true,
+          "icon_string": "http://ss.brandon3055.com/c45fb"
+        }
+      ]
+    },
+    {
+      "id": "fusion_crafting",
+      "file": "fusion_crafting_93212.md",
+      "cycle_icons": false,
+      "hidden": false,
+      "sorting_weight": 90,
+      "relations": [
+        {
+          "type": "STACK",
+          "content": "draconicevolution:fusion_crafting_core"
+        }
+      ],
+      "icons": [
+        {
+          "type": "stack",
+          "draw_slot": true,
+          "icon_string": "draconicevolution:fusion_crafting_core"
+        }
+      ],
+      "pages": [
+        {
+          "id": "fusion_crafting_injectors",
+          "file": "fusion_crafting/fusion_crafting_injectors_26e3e.md",
+          "cycle_icons": true,
+          "hidden": false,
+          "relations": [
+            {
+              "type": "STACK",
+              "content": "draconicevolution:crafting_injector",
+              "ignore_meta": true
+            }
+          ],
+          "icons": [
+            {
+              "type": "stack",
+              "draw_slot": true,
+              "icon_string": "draconicevolution:crafting_injector"
+            },
+            {
+              "type": "stack",
+              "draw_slot": true,
+              "icon_string": "draconicevolution:crafting_injector,1,1"
+            },
+            {
+              "type": "stack",
+              "draw_slot": true,
+              "icon_string": "draconicevolution:crafting_injector,1,2"
+            },
+            {
+              "type": "stack",
+              "draw_slot": true,
+              "icon_string": "draconicevolution:crafting_injector,1,3"
+            }
+          ]
+        },
+        {
+          "id": "fusion_crafting_setup",
+          "file": "fusion_crafting/fusion_crafting_setup_84af7.md",
+          "cycle_icons": false,
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "id": "draconium_chest",
+      "file": "draconium_chest_1c184.md",
+      "cycle_icons": false,
+      "hidden": false,
+      "sorting_weight": 100,
+      "relations": [
+        {
+          "type": "STACK",
+          "content": "draconicevolution:draconium_chest"
+        }
+      ],
+      "icons": [
+        {
+          "type": "stack",
+          "draw_slot": true,
+          "icon_string": "draconicevolution:draconium_chest"
+        }
+      ]
+    },
+    {
+      "id": "energy_storage_core",
+      "file": "energy_storage_core_7665b.md",
+      "cycle_icons": false,
+      "hidden": false,
+      "sorting_weight": 110,
+      "relations": [
+        {
+          "type": "STACK",
+          "content": "draconicevolution:energy_storage_core"
+        },
+        {
+          "type": "STACK",
+          "content": "draconicevolution:energy_pylon",
+          "ignore_meta": true
+        }
+      ],
+      "icons": [
+        {
+          "type": "stack",
+          "draw_slot": true,
+          "icon_string": "draconicevolution:energy_storage_core"
+        }
+      ],
+      "pages": [
+        {
+          "id": "energy_core_setup",
+          "file": "energy_storage_core/energy_core_setup_7be5c.md",
+          "cycle_icons": false,
+          "hidden": false
+        },
+        {
+          "id": "energy_core_stabilizer",
+          "file": "energy_storage_core/energy_core_stabilizer_dfaaa.md",
+          "cycle_icons": false,
+          "hidden": false,
+          "relations": [
+            {
+              "type": "STACK",
+              "content": "draconicevolution:particle_generator,1,2",
+              "ignore_meta": true
+            }
+          ],
+          "icons": [
+            {
+              "type": "stack",
+              "draw_slot": true,
+              "icon_string": "draconicevolution:particle_generator,1,2"
+            }
+          ]
+        },
+        {
+          "id": "energy_pylon",
+          "file": "energy_storage_core/energy_pylon_e75da.md",
+          "cycle_icons": false,
+          "hidden": false,
+          "relations": [
+            {
+              "type": "STACK",
+              "content": "draconicevolution:energy_pylon",
+              "ignore_meta": true
+            }
+          ],
+          "icons": [
+            {
+              "type": "stack",
+              "draw_slot": true,
+              "icon_string": "draconicevolution:energy_pylon"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "energy_network",
+      "file": "energy_network_cbb72.md",
+      "cycle_icons": true,
+      "hidden": false,
+      "sorting_weight": 120,
+      "relations": [
+        {
+          "type": "STACK",
+          "content": "draconicevolution:crystal_binder"
+        },
+        {
+          "type": "STACK",
+          "content": "draconicevolution:energy_crystal",
+          "ignore_meta": true
+        }
+      ],
+      "icons": [
+        {
+          "type": "stack",
+          "draw_slot": true,
+          "icon_string": "draconicevolution:crystal_binder"
+        },
+        {
+          "type": "stack",
+          "draw_slot": true,
+          "icon_string": "draconicevolution:energy_crystal"
+        },
+        {
+          "type": "stack",
+          "draw_slot": true,
+          "icon_string": "draconicevolution:energy_crystal,1,1"
+        },
+        {
+          "type": "stack",
+          "draw_slot": true,
+          "icon_string": "draconicevolution:energy_crystal,1,2"
+        },
+        {
+          "type": "stack",
+          "draw_slot": true,
+          "icon_string": "draconicevolution:energy_crystal,1,3"
+        },
+        {
+          "type": "stack",
+          "draw_slot": true,
+          "icon_string": "draconicevolution:energy_crystal,1,4"
+        },
+        {
+          "type": "stack",
+          "draw_slot": true,
+          "icon_string": "draconicevolution:energy_crystal,1,5"
+        }
+      ],
+      "pages": [
+        {
+          "id": "the_basics",
+          "file": "energy_network/the_basics_461cd.md",
+          "cycle_icons": false,
+          "hidden": false,
+          "relations": [
+            {
+              "type": "STACK",
+              "content": "draconicevolution:crystal_binder"
+            }
+          ],
+          "icons": [
+            {
+              "type": "stack",
+              "draw_slot": true,
+              "icon_string": "draconicevolution:crystal_binder"
+            }
+          ]
+        },
+        {
+          "id": "energy_io_crystals",
+          "file": "energy_network/energy_io_crystals_5c5b0.md",
+          "cycle_icons": true,
+          "hidden": false,
+          "relations": [
+            {
+              "type": "STACK",
+              "content": "draconicevolution:energy_crystal,1,3"
+            },
+            {
+              "type": "STACK",
+              "content": "draconicevolution:energy_crystal,1,4"
+            },
+            {
+              "type": "STACK",
+              "content": "draconicevolution:energy_crystal,1,5"
+            }
+          ],
+          "icons": [
+            {
+              "type": "stack",
+              "draw_slot": true,
+              "icon_string": "draconicevolution:energy_crystal,1,3"
+            },
+            {
+              "type": "stack",
+              "draw_slot": true,
+              "icon_string": "draconicevolution:energy_crystal,1,4"
+            },
+            {
+              "type": "stack",
+              "draw_slot": true,
+              "icon_string": "draconicevolution:energy_crystal,1,5"
+            }
+          ]
+        },
+        {
+          "id": "relay_crystals",
+          "file": "energy_network/relay_crystals_2bf03.md",
+          "cycle_icons": true,
+          "hidden": false,
+          "relations": [
+            {
+              "type": "STACK",
+              "content": "draconicevolution:energy_crystal"
+            },
+            {
+              "type": "STACK",
+              "content": "draconicevolution:energy_crystal,1,1"
+            },
+            {
+              "type": "STACK",
+              "content": "draconicevolution:energy_crystal,1,2"
+            }
+          ],
+          "icons": [
+            {
+              "type": "stack",
+              "draw_slot": true,
+              "icon_string": "draconicevolution:energy_crystal"
+            },
+            {
+              "type": "stack",
+              "draw_slot": true,
+              "icon_string": "draconicevolution:energy_crystal,1,1"
+            },
+            {
+              "type": "stack",
+              "draw_slot": true,
+              "icon_string": "draconicevolution:energy_crystal,1,2"
+            }
+          ]
+        },
+        {
+          "id": "wireless_crystals",
+          "file": "energy_network/wireless_crystals_29e8b.md",
+          "cycle_icons": true,
+          "hidden": false,
+          "relations": [
+            {
+              "type": "STACK",
+              "content": "draconicevolution:energy_crystal,1,6"
+            },
+            {
+              "type": "STACK",
+              "content": "draconicevolution:energy_crystal,1,7"
+            },
+            {
+              "type": "STACK",
+              "content": "draconicevolution:energy_crystal,1,8"
+            }
+          ],
+          "icons": [
+            {
+              "type": "stack",
+              "draw_slot": true,
+              "icon_string": "draconicevolution:energy_crystal,1,6"
+            },
+            {
+              "type": "stack",
+              "draw_slot": true,
+              "icon_string": "draconicevolution:energy_crystal,1,7"
+            },
+            {
+              "type": "stack",
+              "draw_slot": true,
+              "icon_string": "draconicevolution:energy_crystal,1,8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "upgrade_system",
+      "file": "upgrade_system_a708d.md",
+      "cycle_icons": false,
+      "hidden": false,
+      "sorting_weight": 130,
+      "relations": [
+        {
+          "type": "STACK",
+          "content": "draconicevolution:tool_upgrade",
+          "ignore_meta": true
+        }
+      ],
+      "icons": [
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "draconicevolution:tool_upgrade"
+        }
+      ]
+    },
+    {
+      "id": "disenchanter",
+      "file": "disenchanter_3606d.md",
+      "cycle_icons": false,
+      "hidden": false,
+      "sorting_weight": 140,
+      "relations": [
+        {
+          "type": "STACK",
+          "content": "draconicevolution:diss_enchanter"
+        }
+      ],
+      "icons": [
+        {
+          "type": "stack",
+          "draw_slot": true,
+          "icon_string": "draconicevolution:diss_enchanter"
+        }
+      ]
+    },
+    {
+      "id": "dislocation",
+      "file": "dislocation_6d4cb.md",
+      "cycle_icons": true,
+      "hidden": false,
+      "sorting_weight": 150,
+      "icons": [
+        {
+          "type": "stack",
+          "draw_slot": true,
+          "icon_string": "draconicevolution:dislocator"
+        },
+        {
+          "type": "stack",
+          "draw_slot": true,
+          "icon_string": "draconicevolution:dislocator_advanced,1,0,{}"
+        },
+        {
+          "type": "stack",
+          "draw_slot": true,
+          "icon_string": "draconicevolution:dislocator_bound,1,1"
+        },
+        {
+          "type": "stack",
+          "draw_slot": true,
+          "icon_string": "draconicevolution:magnet"
+        },
+        {
+          "type": "stack",
+          "draw_slot": true,
+          "icon_string": "draconicevolution:magnet,1,1"
+        },
+        {
+          "type": "stack",
+          "draw_slot": true,
+          "icon_string": "draconicevolution:dislocator_pedestal"
+        },
+        {
+          "type": "stack",
+          "draw_slot": true,
+          "icon_string": "draconicevolution:dislocator_receptacle"
+        },
+        {
+          "type": "stack",
+          "draw_slot": true,
+          "icon_string": "draconicevolution:item_dislocation_inhibitor"
+        }
+      ],
+      "pages": [
+        {
+          "id": "dislocator",
+          "file": "dislocation/dislocator_81ef7.md",
+          "cycle_icons": false,
+          "hidden": false,
+          "relations": [
+            {
+              "type": "STACK",
+              "content": "draconicevolution:dislocator"
+            }
+          ],
+          "icons": [
+            {
+              "type": "stack",
+              "draw_slot": true,
+              "icon_string": "draconicevolution:dislocator"
+            }
+          ]
+        },
+        {
+          "id": "advanced_dislocator",
+          "file": "dislocation/advanced_dislocator_aa59f.md",
+          "cycle_icons": false,
+          "hidden": false,
+          "relations": [
+            {
+              "type": "STACK",
+              "content": "draconicevolution:dislocator_advanced"
+            }
+          ],
+          "icons": [
+            {
+              "type": "stack",
+              "draw_slot": true,
+              "icon_string": "draconicevolution:dislocator_advanced,1,0,{}"
+            }
+          ]
+        },
+        {
+          "id": "dislocator_pedestal",
+          "file": "dislocation/dislocator_pedestal_40605.md",
+          "cycle_icons": false,
+          "hidden": false,
+          "relations": [
+            {
+              "type": "STACK",
+              "content": "draconicevolution:dislocator_pedestal"
+            }
+          ],
+          "icons": [
+            {
+              "type": "stack",
+              "draw_slot": true,
+              "icon_string": "draconicevolution:dislocator_pedestal"
+            }
+          ]
+        },
+        {
+          "id": "dislocator_receptacle",
+          "file": "dislocation/dislocator_receptacle_8aad6.md",
+          "cycle_icons": false,
+          "hidden": false,
+          "relations": [
+            {
+              "type": "STACK",
+              "content": "draconicevolution:dislocator_receptacle"
+            }
+          ],
+          "icons": [
+            {
+              "type": "stack",
+              "draw_slot": true,
+              "icon_string": "draconicevolution:dislocator_receptacle"
+            }
+          ]
+        },
+        {
+          "id": "bound_dislocators",
+          "file": "dislocation/bound_dislocators_d4344.md",
+          "cycle_icons": false,
+          "hidden": false,
+          "relations": [
+            {
+              "type": "STACK",
+              "content": "draconicevolution:dislocator_bound,1,1"
+            },
+            {
+              "type": "STACK",
+              "content": "draconicevolution:dislocator_bound,1,2"
+            }
+          ],
+          "icons": [
+            {
+              "type": "stack",
+              "draw_slot": true,
+              "icon_string": "draconicevolution:dislocator_bound,1,1"
+            },
+            {
+              "type": "stack",
+              "draw_slot": true,
+              "icon_string": "draconicevolution:dislocator_bound,1,2"
+            }
+          ]
+        },
+        {
+          "id": "item_dislocator",
+          "file": "dislocation/item_dislocator_a286b.md",
+          "cycle_icons": false,
+          "hidden": false,
+          "relations": [
+            {
+              "type": "STACK",
+              "content": "draconicevolution:magnet"
+            }
+          ],
+          "icons": [
+            {
+              "type": "stack",
+              "draw_slot": true,
+              "icon_string": "draconicevolution:magnet"
+            }
+          ]
+        },
+        {
+          "id": "awakened_item_dislocator",
+          "file": "dislocation/awakened_item_dislocator_81c55.md",
+          "cycle_icons": false,
+          "hidden": false,
+          "relations": [
+            {
+              "type": "STACK",
+              "content": "draconicevolution:magnet,1,1"
+            }
+          ],
+          "icons": [
+            {
+              "type": "stack",
+              "draw_slot": true,
+              "icon_string": "draconicevolution:magnet,1,1"
+            }
+          ]
+        },
+        {
+          "id": "dislocation_blocker",
+          "file": "dislocation/dislocation_blocker_20e01.md",
+          "cycle_icons": false,
+          "hidden": false,
+          "relations": [
+            {
+              "type": "STACK",
+              "content": "draconicevolution:item_dislocation_inhibitor"
+            }
+          ],
+          "icons": [
+            {
+              "type": "stack",
+              "draw_slot": true,
+              "icon_string": "draconicevolution:item_dislocation_inhibitor"
+            }
+          ]
+        },
+        {
+          "id": "power_portals",
+          "file": "dislocation/power_portals_2a601.md",
+          "cycle_icons": false,
+          "hidden": false,
+          "icons": [
+            {
+              "type": "stack",
+              "draw_slot": true,
+              "draw_hover": false,
+              "hover_text": "Link crystals via portals!",
+              "icon_string": "draconicevolution:crystal_binder,1,0,{\"draconicevolution:binder\":[I;-1,69,4]}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "generator",
+      "file": "generator_cc462.md",
+      "cycle_icons": false,
+      "hidden": false,
+      "sorting_weight": 160,
+      "relations": [
+        {
+          "type": "STACK",
+          "content": "draconicevolution:generator"
+        }
+      ],
+      "icons": [
+        {
+          "type": "stack",
+          "draw_slot": true,
+          "icon_string": "draconicevolution:generator"
+        }
+      ]
+    },
+    {
+      "id": "energy_infuser",
+      "file": "energy_infuser_5b44a.md",
+      "cycle_icons": false,
+      "hidden": false,
+      "sorting_weight": 170,
+      "relations": [
+        {
+          "type": "STACK",
+          "content": "draconicevolution:energy_infuser"
+        }
+      ],
+      "icons": [
+        {
+          "type": "stack",
+          "draw_slot": true,
+          "icon_string": "draconicevolution:energy_infuser"
+        }
+      ]
+    },
+    {
+      "id": "mob_grinder",
+      "file": "mob_grinder_c25b0.md",
+      "cycle_icons": false,
+      "hidden": false,
+      "sorting_weight": 180,
+      "relations": [
+        {
+          "type": "STACK",
+          "content": "draconicevolution:grinder"
+        }
+      ],
+      "icons": [
+        {
+          "type": "stack",
+          "draw_slot": true,
+          "icon_string": "draconicevolution:grinder"
+        }
+      ]
+    },
+    {
+      "id": "stabilized_spawner",
+      "file": "stabilized_spawner_4e561.md",
+      "cycle_icons": true,
+      "hidden": false,
+      "sorting_weight": 190,
+      "relations": [
+        {
+          "type": "STACK",
+          "content": "draconicevolution:draconic_spawner",
+          "ignore_meta": true
+        }
+      ],
+      "icons": [
+        {
+          "type": "stack",
+          "draw_slot": true,
+          "icon_string": "draconicevolution:draconic_spawner,1,0,{BCTileData:{BCManagedData:{spawnerTier:0b,mobSoul:{id:\"draconicevolution:mob_soul\",Count:1b,tag:{EntityName:\"minecraft:pig\"},Damage:0s}}}}"
+        },
+        {
+          "type": "stack",
+          "draw_slot": true,
+          "icon_string": "draconicevolution:draconic_spawner,1,0,{BCTileData:{BCManagedData:{spawnerTier:1b,mobSoul:{id:\"draconicevolution:mob_soul\",Count:1b,tag:{EntityName:\"minecraft:creeper\"},Damage:0s}}}}"
+        },
+        {
+          "type": "stack",
+          "draw_slot": true,
+          "icon_string": "draconicevolution:draconic_spawner,1,0,{BCTileData:{BCManagedData:{spawnerTier:2b,mobSoul:{id:\"draconicevolution:mob_soul\",Count:1b,tag:{EntityName:\"minecraft:zombie\"},Damage:0s}}}}"
+        },
+        {
+          "type": "stack",
+          "draw_slot": true,
+          "icon_string": "draconicevolution:draconic_spawner,1,0,{BCTileData:{BCManagedData:{spawnerTier:3b,mobSoul:{id:\"draconicevolution:mob_soul\",Count:1b,tag:{EntityName:\"minecraft:cow\"},Damage:0s}}}}"
+        }
+      ]
+    },
+    {
+      "id": "mob_soul",
+      "file": "mob_soul_749d7.md",
+      "cycle_icons": false,
+      "hidden": false,
+      "sorting_weight": 200,
+      "relations": [
+        {
+          "type": "STACK",
+          "content": "draconicevolution:mob_soul",
+          "ignore_meta": true
+        }
+      ],
+      "icons": [
+        {
+          "type": "stack",
+          "draw_slot": true,
+          "icon_string": "draconicevolution:mob_soul,1,0,{EntityName:\"[Random-Display]\"}"
+        }
+      ]
+    },
+    {
+      "id": "celestial_manipulator",
+      "file": "celestial_manipulator_55724.md",
+      "cycle_icons": false,
+      "hidden": false,
+      "sorting_weight": 210,
+      "relations": [
+        {
+          "type": "STACK",
+          "content": "draconicevolution:celestial_manipulator",
+          "ignore_meta": true
+        }
+      ],
+      "icons": [
+        {
+          "type": "stack",
+          "draw_slot": true,
+          "icon_string": "draconicevolution:celestial_manipulator"
+        }
+      ]
+    },
+    {
+      "id": "entity_detector",
+      "file": "entity_detector_62746.md",
+      "cycle_icons": true,
+      "hidden": false,
+      "sorting_weight": 220,
+      "relations": [
+        {
+          "type": "STACK",
+          "content": "draconicevolution:entity_detector",
+          "ignore_meta": true
+        }
+      ],
+      "icons": [
+        {
+          "type": "stack",
+          "draw_slot": true,
+          "icon_string": "draconicevolution:entity_detector"
+        },
+        {
+          "type": "stack",
+          "draw_slot": true,
+          "icon_string": "draconicevolution:entity_detector,1,1"
+        }
+      ]
+    },
+    {
+      "id": "potentiometer",
+      "file": "potentiometer_7e259.md",
+      "cycle_icons": false,
+      "hidden": false,
+      "sorting_weight": 230,
+      "relations": [
+        {
+          "type": "STACK",
+          "content": "draconicevolution:potentiometer",
+          "ignore_meta": true
+        }
+      ],
+      "icons": [
+        {
+          "type": "stack",
+          "draw_slot": true,
+          "icon_string": "draconicevolution:potentiometer"
+        }
+      ]
+    },
+    {
+      "id": "rain_sensor",
+      "file": "rain_sensor_92dae.md",
+      "cycle_icons": false,
+      "hidden": false,
+      "sorting_weight": 240,
+      "relations": [
+        {
+          "type": "STACK",
+          "content": "draconicevolution:rain_sensor",
+          "ignore_meta": true
+        }
+      ],
+      "icons": [
+        {
+          "type": "stack",
+          "draw_slot": true,
+          "icon_string": "draconicevolution:rain_sensor"
+        }
+      ]
+    },
+    {
+      "id": "ender_energy_manipulator",
+      "file": "ender_energy_manipulator_3811c.md",
+      "cycle_icons": false,
+      "hidden": false,
+      "sorting_weight": 250,
+      "relations": [
+        {
+          "type": "STACK",
+          "content": "draconicevolution:ender_energy_manipulator"
+        }
+      ],
+      "icons": [
+        {
+          "type": "stack",
+          "draw_slot": true,
+          "icon_string": "draconicevolution:ender_energy_manipulator"
+        }
+      ]
+    },
+    {
+      "id": "chaos_guardian",
+      "file": "chaos_guardian_4c4fd.md",
+      "cycle_icons": false,
+      "hidden": false,
+      "sorting_weight": 85,
+      "relations": [
+        {
+          "type": "ENTITY",
+          "content": "draconicevolution:chaosguardian"
+        }
+      ],
+      "icons": [
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "draconicevolution:chaos_shard"
+        }
+      ]
+    },
+    {
+      "id": "draconic_reactor",
+      "file": "draconic_reactor_b98b3.md",
+      "cycle_icons": false,
+      "hidden": false,
+      "sorting_weight": 86,
+      "relations": [
+        {
+          "type": "STACK",
+          "content": "draconicevolution:reactor_core"
+        },
+        {
+          "type": "STACK",
+          "content": "draconicevolution:reactor_part",
+          "ignore_meta": true
+        },
+        {
+          "type": "STACK",
+          "content": "draconicevolution:reactor_component",
+          "ignore_meta": true
+        }
+      ],
+      "icons": [
+        {
+          "type": "stack",
+          "draw_slot": true,
+          "icon_string": "draconicevolution:reactor_core"
+        }
+      ],
+      "pages": [
+        {
+          "id": "basic_operation",
+          "file": "draconic_reactor/basic_operation_909db.md",
+          "cycle_icons": false,
+          "hidden": false
+        },
+        {
+          "id": "regulation_and_safety",
+          "file": "draconic_reactor/regulation_and_safety_24690.md",
+          "cycle_icons": false,
+          "hidden": false
+        },
+        {
+          "id": "reactor_explosion",
+          "file": "draconic_reactor/reactor_explosion_8a46b.md",
+          "cycle_icons": false,
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "id": "flow_gates",
+      "file": "flow_gates_92a90.md",
+      "cycle_icons": true,
+      "hidden": false,
+      "sorting_weight": 125,
+      "relations": [
+        {
+          "type": "STACK",
+          "content": "draconicevolution:flow_gate"
+        },
+        {
+          "type": "STACK",
+          "content": "draconicevolution:flow_gate,1,8"
+        }
+      ],
+      "icons": [
+        {
+          "type": "stack",
+          "draw_slot": true,
+          "icon_string": "draconicevolution:flow_gate"
+        },
+        {
+          "type": "stack",
+          "draw_slot": true,
+          "icon_string": "draconicevolution:flow_gate,1,8"
+        }
+      ]
+    }
+  ]
+}

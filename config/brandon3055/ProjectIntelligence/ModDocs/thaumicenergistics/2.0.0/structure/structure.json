@@ -1,0 +1,226 @@
+{
+  "mod_id": "thaumicenergistics",
+  "mod_version": "2.0.0",
+  "__verified_comment": "Do not change this to true. If you do so your PR will be automatically rejected.",
+  "verified": false,
+  "file": "thaumicenergistics_5ef1f.md",
+  "icons": [
+    {
+      "type": "stack",
+      "icon_string": "thaumicenergistics:arcane_terminal"
+    }
+  ],
+  "cycle_icons": false,
+  "pages": [
+    {
+      "id": "getting_started",
+      "file": "getting_started_52cbf.md",
+      "cycle_icons": false,
+      "hidden": false
+    },
+    {
+      "id": "essentia_cells",
+      "file": "essentia_cells_74614.md",
+      "cycle_icons": true,
+      "hidden": false,
+      "sorting_weight": 1,
+      "relations": [
+        {
+          "type": "STACK",
+          "content": "thaumicenergistics:essentia_cell_1k",
+          "ignore_meta": true
+        },
+        {
+          "type": "STACK",
+          "content": "thaumicenergistics:essentia_cell_4k",
+          "ignore_meta": true
+        },
+        {
+          "type": "STACK",
+          "content": "thaumicenergistics:essentia_cell_16k",
+          "ignore_meta": true
+        },
+        {
+          "type": "STACK",
+          "content": "thaumicenergistics:essentia_cell_64k",
+          "ignore_meta": true
+        }
+      ],
+      "icons": [
+        {
+          "type": "stack",
+          "icon_string": "thaumicenergistics:essentia_cell_1k,1,0,{filter:{}}"
+        },
+        {
+          "type": "stack",
+          "icon_string": "thaumicenergistics:essentia_cell_64k,1,0,{filter:{}}"
+        },
+        {
+          "type": "stack",
+          "icon_string": "thaumicenergistics:essentia_cell_4k,1,0,{filter:{}}"
+        },
+        {
+          "type": "stack",
+          "icon_string": "thaumicenergistics:essentia_cell_16k,1,0,{filter:{}}"
+        }
+      ]
+    },
+    {
+      "id": "essentia_buses",
+      "file": "essentia_buses_fa55b.md",
+      "cycle_icons": true,
+      "hidden": false,
+      "sorting_weight": 2,
+      "relations": [
+        {
+          "type": "STACK",
+          "content": "thaumicenergistics:essentia_import",
+          "ignore_meta": true
+        },
+        {
+          "type": "STACK",
+          "content": "thaumicenergistics:essentia_export",
+          "ignore_meta": true
+        },
+        {
+          "type": "STACK",
+          "content": "thaumicenergistics:essentia_storage",
+          "ignore_meta": true
+        }
+      ],
+      "icons": [
+        {
+          "type": "stack",
+          "icon_string": "thaumicenergistics:essentia_import"
+        },
+        {
+          "type": "stack",
+          "icon_string": "thaumicenergistics:essentia_storage"
+        },
+        {
+          "type": "stack",
+          "icon_string": "thaumicenergistics:essentia_export"
+        }
+      ]
+    },
+    {
+      "id": "infusion_provider",
+      "file": "infusion_provider_e102b.md",
+      "cycle_icons": false,
+      "hidden": false,
+      "sorting_weight": 5,
+      "relations": [
+        {
+          "type": "STACK",
+          "content": "thaumicenergistics:infusion_provider",
+          "ignore_meta": true
+        }
+      ],
+      "icons": [
+        {
+          "type": "stack",
+          "icon_string": "thaumicenergistics:infusion_provider"
+        }
+      ]
+    },
+    {
+      "id": "terminals",
+      "file": "terminals_8961c.md",
+      "cycle_icons": true,
+      "hidden": false,
+      "sorting_weight": 2,
+      "relations": [
+        {
+          "type": "STACK",
+          "content": "thaumicenergistics:essentia_terminal",
+          "ignore_meta": true
+        },
+        {
+          "type": "STACK",
+          "content": "thaumicenergistics:arcane_terminal",
+          "ignore_meta": true
+        },
+        {
+          "type": "STACK",
+          "content": "thaumicenergistics:upgrade_arcane",
+          "ignore_meta": true
+        }
+      ],
+      "icons": [
+        {
+          "type": "stack",
+          "icon_string": "thaumicenergistics:arcane_terminal"
+        },
+        {
+          "type": "stack",
+          "icon_string": "thaumicenergistics:essentia_terminal"
+        }
+      ]
+    },
+    {
+      "id": "contribute",
+      "file": "contribute_82ece.md",
+      "cycle_icons": false,
+      "hidden": false,
+      "sorting_weight": 500
+    },
+    {
+      "id": "components",
+      "file": "components_803c8.md",
+      "cycle_icons": true,
+      "hidden": false,
+      "relations": [
+        {
+          "type": "STACK",
+          "content": "thaumicenergistics:diffusion_core"
+        },
+        {
+          "type": "STACK",
+          "content": "thaumicenergistics:coalescence_core"
+        },
+        {
+          "type": "STACK",
+          "content": "thaumicenergistics:essentia_component_1k"
+        },
+        {
+          "type": "STACK",
+          "content": "thaumicenergistics:essentia_component_4k"
+        },
+        {
+          "type": "STACK",
+          "content": "thaumicenergistics:essentia_component_16k"
+        },
+        {
+          "type": "STACK",
+          "content": "thaumicenergistics:essentia_component_64k"
+        }
+      ],
+      "icons": [
+        {
+          "type": "stack",
+          "icon_string": "thaumicenergistics:diffusion_core"
+        },
+        {
+          "type": "stack",
+          "icon_string": "thaumicenergistics:coalescence_core"
+        },
+        {
+          "type": "stack",
+          "icon_string": "thaumicenergistics:essentia_component_1k"
+        },
+        {
+          "type": "stack",
+          "icon_string": "thaumicenergistics:essentia_component_4k"
+        },
+        {
+          "type": "stack",
+          "icon_string": "thaumicenergistics:essentia_component_16k"
+        },
+        {
+          "type": "stack",
+          "icon_string": "thaumicenergistics:essentia_component_64k"
+        }
+      ]
+    }
+  ]
+}

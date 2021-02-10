@@ -1,0 +1,190 @@
+{
+  "mod_id": "draconicadditions",
+  "base_files": [
+    {
+      "file_path": "structure/structure.json",
+      "url": "http://pi.brandon3055.com/objects/48/48aa67953c3b9c4470222e8edd10a0e6e478c55c",
+      "sha1": "48aa67953c3b9c4470222e8edd10a0e6e478c55c"
+    },
+    {
+      "file_path": "structure/en_us/draconicadditions_722bd.md",
+      "url": "http://pi.brandon3055.com/objects/38/3821da7e19abd8cb8ab8bd6502428a6c22ec7df7",
+      "sha1": "3821da7e19abd8cb8ab8bd6502428a6c22ec7df7"
+    },
+    {
+      "file_path": "structure/lang/en_us.json",
+      "url": "http://pi.brandon3055.com/objects/21/216425a11e7dc9c4abe3c07ddf7ff689d1161894",
+      "sha1": "216425a11e7dc9c4abe3c07ddf7ff689d1161894"
+    }
+  ],
+  "lang_files": [
+    {
+      "file_path": "en_us/chaotic_armor_4e2f6.md",
+      "url": "http://pi.brandon3055.com/objects/7f/7fdc75cc16d7098d26c8df5d3addbc2f0d66360d",
+      "sha1": "7fdc75cc16d7098d26c8df5d3addbc2f0d66360d",
+      "lang": "en_us"
+    },
+    {
+      "file_path": "en_us/infused_potato_armor/infused_potato_helm_745f8.md",
+      "url": "http://pi.brandon3055.com/objects/21/21ba34388ca8839e926c7d032bebdf195d6f9bb4",
+      "sha1": "21ba34388ca8839e926c7d032bebdf195d6f9bb4",
+      "lang": "en_us"
+    },
+    {
+      "file_path": "en_us/infused_potato_armor/infused_potato_boots_31ddc.md",
+      "url": "http://pi.brandon3055.com/objects/5b/5b515427ca4239469ca9273b324813c153564c8d",
+      "sha1": "5b515427ca4239469ca9273b324813c153564c8d",
+      "lang": "en_us"
+    },
+    {
+      "file_path": "en_us/infused_potato_armor/infused_potato_chest_298f4.md",
+      "url": "http://pi.brandon3055.com/objects/2a/2aa76be900d31d1efe8b5b44df8f1f67a9c3f67a",
+      "sha1": "2aa76be900d31d1efe8b5b44df8f1f67a9c3f67a",
+      "lang": "en_us"
+    },
+    {
+      "file_path": "en_us/infused_potato_armor/infused_potato_legs_ba2da.md",
+      "url": "http://pi.brandon3055.com/objects/99/9999ce3e4c7a8d9eca6bd0d39ed1b84a521721ea",
+      "sha1": "9999ce3e4c7a8d9eca6bd0d39ed1b84a521721ea",
+      "lang": "en_us"
+    },
+    {
+      "file_path": "en_us/armor_generator_7415f.md",
+      "url": "http://pi.brandon3055.com/objects/b7/b7d2c5ec705805d60a792aa98435ca966a6bf420",
+      "sha1": "b7d2c5ec705805d60a792aa98435ca966a6bf420",
+      "lang": "en_us"
+    },
+    {
+      "file_path": "en_us/item_drainer_30005.md",
+      "url": "http://pi.brandon3055.com/objects/37/37d43bfe727181df64ce882dd30736f82f5d0c95",
+      "sha1": "37d43bfe727181df64ce882dd30736f82f5d0c95",
+      "lang": "en_us"
+    },
+    {
+      "file_path": "en_us/necklace_of_shielding/basic_shield_necklace_8a3bf.md",
+      "url": "http://pi.brandon3055.com/objects/c4/c4b84e0d2fb2a57209b8bbedfcf381f3596fd86e",
+      "sha1": "c4b84e0d2fb2a57209b8bbedfcf381f3596fd86e",
+      "lang": "en_us"
+    },
+    {
+      "file_path": "en_us/necklace_of_shielding/draconic_shield_necklace_7bdfa.md",
+      "url": "http://pi.brandon3055.com/objects/64/649c29afca17b7439be1dba1fabaf63f0085f066",
+      "sha1": "649c29afca17b7439be1dba1fabaf63f0085f066",
+      "lang": "en_us"
+    },
+    {
+      "file_path": "en_us/necklace_of_shielding/wyvern_shield_necklace_7434c.md",
+      "url": "http://pi.brandon3055.com/objects/66/6687db8885fb5c6d890675d0708c31adff2c6732",
+      "sha1": "6687db8885fb5c6d890675d0708c31adff2c6732",
+      "lang": "en_us"
+    },
+    {
+      "file_path": "en_us/portable_wired_charger_f2f41.md",
+      "url": "http://pi.brandon3055.com/objects/c2/c2c2545fcf0083f6111532769cbc08b78db36808",
+      "sha1": "c2c2545fcf0083f6111532769cbc08b78db36808",
+      "lang": "en_us"
+    },
+    {
+      "file_path": "en_us/potato_armor_6a942.md",
+      "url": "http://pi.brandon3055.com/objects/3e/3e774b2340af225601d9e04b33e1209417372c8f",
+      "sha1": "3e774b2340af225601d9e04b33e1209417372c8f",
+      "lang": "en_us"
+    },
+    {
+      "file_path": "en_us/vampiric_shirt_13ed3.md",
+      "url": "http://pi.brandon3055.com/objects/5e/5e92ff502f4d74d829457d74a6b135ae7d5d3f34",
+      "sha1": "5e92ff502f4d74d829457d74a6b135ae7d5d3f34",
+      "lang": "en_us"
+    },
+    {
+      "file_path": "en_us/infused_potato_armor_5d628.md",
+      "url": "http://pi.brandon3055.com/objects/3b/3bcda6cf382f532b553461ffacf6f5948cc3f59f",
+      "sha1": "3bcda6cf382f532b553461ffacf6f5948cc3f59f",
+      "lang": "en_us"
+    },
+    {
+      "file_path": "en_us/chaotic_armor/chaotic_legs_570c3.md",
+      "url": "http://pi.brandon3055.com/objects/76/76cf7059214573c38f1501235e30b1b3a9d5de7e",
+      "sha1": "76cf7059214573c38f1501235e30b1b3a9d5de7e",
+      "lang": "en_us"
+    },
+    {
+      "file_path": "en_us/chaotic_armor/chaotic_boots_8322c.md",
+      "url": "http://pi.brandon3055.com/objects/4e/4ebee8b87b1ca2b494326e39da549f1b4e5d2793",
+      "sha1": "4ebee8b87b1ca2b494326e39da549f1b4e5d2793",
+      "lang": "en_us"
+    },
+    {
+      "file_path": "en_us/chaotic_armor/chaotic_helm_99928.md",
+      "url": "http://pi.brandon3055.com/objects/17/17aaa43735cfbfb413116adf846f02ea6038943d",
+      "sha1": "17aaa43735cfbfb413116adf846f02ea6038943d",
+      "lang": "en_us"
+    },
+    {
+      "file_path": "en_us/chaotic_armor/chaotic_chest_63dd6.md",
+      "url": "http://pi.brandon3055.com/objects/8d/8d8218b52e39ff72c93c8ed974898784b7b087e0",
+      "sha1": "8d8218b52e39ff72c93c8ed974898784b7b087e0",
+      "lang": "en_us"
+    },
+    {
+      "file_path": "en_us/potato_armor/potato_legs_5ca2a.md",
+      "url": "http://pi.brandon3055.com/objects/47/47baf69af14843060f6e51efd6b2550d40241f99",
+      "sha1": "47baf69af14843060f6e51efd6b2550d40241f99",
+      "lang": "en_us"
+    },
+    {
+      "file_path": "en_us/potato_armor/potato_boots_a90f6.md",
+      "url": "http://pi.brandon3055.com/objects/ad/ad6412d76db07ba222a545d383b20058a6241580",
+      "sha1": "ad6412d76db07ba222a545d383b20058a6241580",
+      "lang": "en_us"
+    },
+    {
+      "file_path": "en_us/potato_armor/potato_helm_72a8e.md",
+      "url": "http://pi.brandon3055.com/objects/f6/f6a788c83870cf35baa647567ccb298bdf5fdc76",
+      "sha1": "f6a788c83870cf35baa647567ccb298bdf5fdc76",
+      "lang": "en_us"
+    },
+    {
+      "file_path": "en_us/potato_armor/potato_chest_5e8ca.md",
+      "url": "http://pi.brandon3055.com/objects/a0/a0da8d79693315e0bdbd423842ef64138c608232",
+      "sha1": "a0da8d79693315e0bdbd423842ef64138c608232",
+      "lang": "en_us"
+    },
+    {
+      "file_path": "en_us/chaotic_staff_of_power_84700.md",
+      "url": "http://pi.brandon3055.com/objects/9d/9d72a29d6cf77288eec168b74af503d40ebc288d",
+      "sha1": "9d72a29d6cf77288eec168b74af503d40ebc288d",
+      "lang": "en_us"
+    },
+    {
+      "file_path": "en_us/necklace_of_shielding_e1569.md",
+      "url": "http://pi.brandon3055.com/objects/a3/a3bbd512dbd80ae855bd51d9646cb11d5ab143a3",
+      "sha1": "a3bbd512dbd80ae855bd51d9646cb11d5ab143a3",
+      "lang": "en_us"
+    },
+    {
+      "file_path": "en_us/overloading_belt_f42e9.md",
+      "url": "http://pi.brandon3055.com/objects/dd/dda86d46b846040fb1f8446832e414791c9ac01c",
+      "sha1": "dda86d46b846040fb1f8446832e414791c9ac01c",
+      "lang": "en_us"
+    },
+    {
+      "file_path": "en_us/inertia_cancellation_ring_c99ef.md",
+      "url": "http://pi.brandon3055.com/objects/19/19b2fd4128fe8729aa12704f8da37e222a86c340",
+      "sha1": "19b2fd4128fe8729aa12704f8da37e222a86c340",
+      "lang": "en_us"
+    },
+    {
+      "file_path": "en_us/chaos_liquifier_7a2a5.md",
+      "url": "http://pi.brandon3055.com/objects/5d/5dec2c0a44da93e9c97fdf847ef3499a6e839bc2",
+      "sha1": "5dec2c0a44da93e9c97fdf847ef3499a6e839bc2",
+      "lang": "en_us"
+    },
+    {
+      "file_path": "en_us/chaos_stabilizer_80dc2.md",
+      "url": "http://pi.brandon3055.com/objects/e3/e389b0260653e260ca3541af82a3d1524c86154d",
+      "sha1": "e389b0260653e260ca3541af82a3d1524c86154d",
+      "lang": "en_us"
+    }
+  ]
+}

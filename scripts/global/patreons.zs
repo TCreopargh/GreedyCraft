@@ -4,6 +4,7 @@
  */ 
 
 #priority 32766
+#no_fix_recipe_book
 
 global patreonList as string[][string] = {
     patreons:[

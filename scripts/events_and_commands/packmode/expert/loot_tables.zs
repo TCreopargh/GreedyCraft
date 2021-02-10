@@ -4,6 +4,7 @@
  */ 
 
 #priority 90
+#no_fix_recipe_book
 #packmode expert
 // Powered by TCreopargh
 

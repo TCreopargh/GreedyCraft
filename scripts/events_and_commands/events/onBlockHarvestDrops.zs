@@ -4,6 +4,7 @@
  */
 
 #priority 90
+#no_fix_recipe_book
 
 import crafttweaker.event.PlayerLoggedInEvent;
 import crafttweaker.event.IPlayerEvent;
@@ -20,11 +21,12 @@ import crafttweaker.block.IBlockState;
 import crafttweaker.potions.IPotionEffect;
 import crafttweaker.world.IFacing;
 import crafttweaker.command.ICommandSender;
+import crafttweaker.event.BlockHarvestDropsEvent;
 
 import mods.ctutils.utils.Math;
 import mods.ctutils.world.IGameRules;
 
-events.onBlockHarvestDrops(function(event as crafttweaker.event.BlockHarvestDropsEvent) {
+events.onBlockHarvestDrops(function(event as BlockHarvestDropsEvent) {
     if(event.isPlayer) {
         var player as IPlayer = event.player;
 

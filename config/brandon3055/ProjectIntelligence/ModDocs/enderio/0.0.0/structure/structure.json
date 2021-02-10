@@ -1,0 +1,864 @@
+{
+  "mod_id": "enderio",
+  "mod_version": "0.0.0",
+  "__verified_comment": "Do not change this to true. If you do so your PR will be automatically rejected.",
+  "verified": true,
+  "file": "enderio_6f297.md",
+  "icons": [
+    {
+      "type": "stack",
+      "draw_hover": false,
+      "icon_string": "enderio:item_enderface"
+    }
+  ],
+  "cycle_icons": false,
+  "pages": [
+    {
+      "id": "lava_generator",
+      "file": "lava_generator_b8a26.md",
+      "cycle_icons": false,
+      "hidden": false,
+      "icons": [
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "enderio:block_lava_generator"
+        }
+      ]
+    },
+    {
+      "id": "machines",
+      "file": "machines_39aa7.md",
+      "cycle_icons": false,
+      "hidden": false,
+      "icons": [
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "enderio:item_material,1,54"
+        }
+      ],
+      "pages": [
+        {
+          "id": "capacitors",
+          "file": "machines/capacitors_d04ab.md",
+          "cycle_icons": false,
+          "hidden": false,
+          "icons": [
+            {
+              "type": "stack",
+              "draw_hover": false,
+              "icon_string": "enderio:item_basic_capacitor"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "basic_item_filter",
+      "file": "basic_item_filter_2d237.md",
+      "cycle_icons": false,
+      "hidden": false,
+      "icons": [
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "enderio:item_basic_item_filter"
+        }
+      ]
+    },
+    {
+      "id": "basic_item_filter_advanced",
+      "file": "basic_item_filter_advanced_fa4ac.md",
+      "cycle_icons": false,
+      "hidden": false,
+      "icons": [
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "enderio:item_advanced_item_filter,1,0,{\"enderio:filter\":{\"enderio:class\":\"crazypants.enderio.base.filter.item.ItemFilter\",\"enderio:matchmeta\":1b,\"enderio:useoredict\":0b,\"enderio:islimited\":0b,\"enderio:matchnbt\":1b,\"enderio:sticky\":0b,\"enderio:isadvanced\":1b,\"enderio:isblacklist\":0b,items:[],\"enderio:damagemode\":0,\"enderio:isbig\":0b}}"
+        }
+      ]
+    },
+    {
+      "id": "basic_item_filter_advanced_limited",
+      "file": "basic_item_filter_advanced_limited_f5754.md",
+      "cycle_icons": false,
+      "hidden": false,
+      "icons": [
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "enderio:item_limited_item_filter"
+        }
+      ]
+    },
+    {
+      "id": "basic_item_filter_big",
+      "file": "basic_item_filter_big_7fc8d.md",
+      "cycle_icons": false,
+      "hidden": false,
+      "icons": [
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "enderio:item_big_item_filter"
+        }
+      ]
+    },
+    {
+      "id": "basic_item_filter_advanced_big",
+      "file": "basic_item_filter_advanced_big_d5396.md",
+      "cycle_icons": false,
+      "hidden": false,
+      "icons": [
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "enderio:item_big_advanced_item_filter"
+        }
+      ]
+    },
+    {
+      "id": "mod_item_filter",
+      "file": "mod_item_filter_e206d.md",
+      "cycle_icons": false,
+      "hidden": false,
+      "icons": [
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "enderio:item_mod_item_filter,1,0,{\"enderio:filter\":{\"enderio:class\":\"crazypants.enderio.base.filter.item.ModItemFilter\",mod2:\"-\",blacklist:0b,mod1:\"enderio\",mod0:\"minecraft\"}}"
+        }
+      ]
+    },
+    {
+      "id": "power_item_filter",
+      "file": "power_item_filter_13e13.md",
+      "cycle_icons": false,
+      "hidden": false,
+      "icons": [
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "enderio:item_power_item_filter"
+        }
+      ]
+    },
+    {
+      "id": "soul_filter",
+      "file": "soul_filter_3b8a8.md",
+      "cycle_icons": true,
+      "hidden": false,
+      "icons": [
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "enderio:item_soul_filter_normal"
+        },
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "enderio:item_soul_filter_big"
+        }
+      ]
+    },
+    {
+      "id": "enchantment_filter",
+      "file": "enchantment_filter_73c8f.md",
+      "cycle_icons": true,
+      "hidden": false,
+      "icons": [
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "enderio:item_enchantment_filter_normal"
+        },
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "enderio:item_enchantment_filter_big"
+        }
+      ]
+    },
+    {
+      "id": "fluid_filter",
+      "file": "fluid_filter_6d14d.md",
+      "cycle_icons": false,
+      "hidden": false,
+      "icons": [
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "enderio:item_fluid_filter"
+        }
+      ]
+    },
+    {
+      "id": "redstone_signal_logic",
+      "file": "redstone_signal_logic_cd361.md",
+      "cycle_icons": true,
+      "hidden": false,
+      "icons": [
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "enderio:item_material,1,60"
+        },
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "enderio:item_redstone_not_filter"
+        },
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "enderio:item_redstone_or_filter"
+        },
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "enderio:item_redstone_and_filter"
+        },
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "enderio:item_redstone_nor_filter"
+        },
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "enderio:item_redstone_nand_filter"
+        },
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "enderio:item_redstone_xor_filter"
+        },
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "enderio:item_redstone_xnor_filter"
+        },
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "enderio:item_redstone_counting_filter"
+        },
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "enderio:item_redstone_timer_filter"
+        },
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "enderio:item_redstone_toggle_filter"
+        }
+      ]
+    },
+    {
+      "id": "external_connection",
+      "file": "external_connection_68afd.md",
+      "cycle_icons": true,
+      "hidden": false,
+      "icons": [
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "enderio:item_item_conduit"
+        },
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "enderio:item_liquid_conduit"
+        },
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "enderio:item_power_conduit"
+        },
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "enderio:item_redstone_conduit"
+        }
+      ]
+    },
+    {
+      "id": "furnace",
+      "file": "furnace_f81dd.md",
+      "cycle_icons": false,
+      "hidden": false,
+      "icons": [
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "enderio:block_simple_furnace"
+        }
+      ]
+    },
+    {
+      "id": "alloy_smelter",
+      "file": "alloy_smelter_52138.md",
+      "cycle_icons": true,
+      "hidden": false,
+      "icons": [
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "enderio:block_simple_alloy_smelter"
+        },
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "enderio:block_alloy_smelter"
+        },
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "enderio:block_enhanced_alloy_smelter"
+        }
+      ]
+    },
+    {
+      "id": "buffer",
+      "file": "buffer_53ade.md",
+      "cycle_icons": true,
+      "hidden": false,
+      "icons": [
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "enderio:block_buffer"
+        },
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "enderio:block_buffer,1,1"
+        },
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "enderio:block_buffer,1,2"
+        },
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "enderio:block_buffer,1,3"
+        }
+      ]
+    },
+    {
+      "id": "enchanter",
+      "file": "enchanter_5dd60.md",
+      "cycle_icons": false,
+      "hidden": false,
+      "icons": [
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "enderio:block_enchanter"
+        }
+      ]
+    },
+    {
+      "id": "farm_station",
+      "file": "farm_station_ada2b.md",
+      "cycle_icons": false,
+      "hidden": false,
+      "icons": [
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "enderio:block_farm_station"
+        }
+      ]
+    },
+    {
+      "id": "combustion_generator",
+      "file": "combustion_generator_de745.md",
+      "cycle_icons": true,
+      "hidden": false,
+      "icons": [
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "enderio:block_combustion_generator"
+        },
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "enderio:block_enhanced_combustion_generator"
+        }
+      ]
+    },
+    {
+      "id": "stirling_generator",
+      "file": "stirling_generator_6df1f.md",
+      "cycle_icons": true,
+      "hidden": false,
+      "icons": [
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "enderio:block_simple_stirling_generator"
+        },
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "enderio:block_stirling_generator"
+        }
+      ]
+    },
+    {
+      "id": "zombie_generator",
+      "file": "zombie_generator_c3bf0.md",
+      "cycle_icons": true,
+      "hidden": false,
+      "icons": [
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "enderio:block_zombie_generator"
+        },
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "enderio:block_franken_zombie_generator"
+        },
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "enderio:block_ender_generator"
+        }
+      ]
+    },
+    {
+      "id": "killer_joe",
+      "file": "killer_joe_e0a1e.md",
+      "cycle_icons": false,
+      "hidden": false,
+      "icons": [
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "enderio:block_killer_joe"
+        }
+      ]
+    },
+    {
+      "id": "attractor_obelisk",
+      "file": "attractor_obelisk_91da7.md",
+      "cycle_icons": false,
+      "hidden": false,
+      "icons": [
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "enderio:block_attractor_obelisk"
+        }
+      ]
+    },
+    {
+      "id": "aversion_obelisk",
+      "file": "aversion_obelisk_8dda3.md",
+      "cycle_icons": false,
+      "hidden": false,
+      "icons": [
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "enderio:block_aversion_obelisk"
+        }
+      ]
+    },
+    {
+      "id": "inhibitor_obelisk",
+      "file": "inhibitor_obelisk_2053d.md",
+      "cycle_icons": false,
+      "hidden": false,
+      "icons": [
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "enderio:block_inhibitor_obelisk"
+        }
+      ]
+    },
+    {
+      "id": "relocator_obelisk",
+      "file": "relocator_obelisk_486de.md",
+      "cycle_icons": false,
+      "hidden": false,
+      "icons": [
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "enderio:block_relocator_obelisk"
+        }
+      ]
+    },
+    {
+      "id": "weather_obelisk",
+      "file": "weather_obelisk_4d38f.md",
+      "cycle_icons": false,
+      "hidden": false,
+      "icons": [
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "enderio:block_weather_obelisk"
+        }
+      ]
+    },
+    {
+      "id": "experience_obelisk",
+      "file": "experience_obelisk_6cd4f.md",
+      "cycle_icons": false,
+      "hidden": false,
+      "icons": [
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "enderio:block_experience_obelisk"
+        }
+      ]
+    },
+    {
+      "id": "painter",
+      "file": "painter_7982f.md",
+      "cycle_icons": false,
+      "hidden": false,
+      "icons": [
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "enderio:block_painter"
+        }
+      ]
+    },
+    {
+      "id": "sag_mill",
+      "file": "sag_mill_77dd2.md",
+      "cycle_icons": true,
+      "hidden": false,
+      "icons": [
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "enderio:block_simple_sag_mill"
+        },
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "enderio:block_sag_mill"
+        },
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "enderio:block_enhanced_sag_mill"
+        }
+      ]
+    },
+    {
+      "id": "slice_and_splice",
+      "file": "slice_and_splice_2f908.md",
+      "cycle_icons": false,
+      "hidden": false,
+      "icons": [
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "enderio:block_slice_and_splice"
+        }
+      ]
+    },
+    {
+      "id": "soul_binder",
+      "file": "soul_binder_67dc0.md",
+      "cycle_icons": false,
+      "hidden": false,
+      "icons": [
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "enderio:block_soul_binder"
+        }
+      ]
+    },
+    {
+      "id": "powered_spawner",
+      "file": "powered_spawner_f2a50.md",
+      "cycle_icons": false,
+      "hidden": false,
+      "icons": [
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "enderio:block_powered_spawner"
+        }
+      ]
+    },
+    {
+      "id": "vat",
+      "file": "vat_4febc.md",
+      "cycle_icons": true,
+      "hidden": false,
+      "icons": [
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "enderio:block_vat"
+        },
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "enderio:block_enhanced_vat"
+        }
+      ]
+    },
+    {
+      "id": "wired_charger",
+      "file": "wired_charger_11dd9.md",
+      "cycle_icons": false,
+      "hidden": false,
+      "icons": [
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "enderio:block_simple_wired_charger"
+        },
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "enderio:block_wired_charger"
+        },
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "enderio:block_enhanced_wired_charger"
+        }
+      ]
+    },
+    {
+      "id": "tank",
+      "file": "tank_b3cb4.md",
+      "cycle_icons": true,
+      "hidden": false,
+      "icons": [
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "enderio:block_tank"
+        },
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "enderio:block_tank,1,1"
+        }
+      ]
+    },
+    {
+      "id": "transceiver",
+      "file": "transceiver_e630a.md",
+      "cycle_icons": false,
+      "hidden": false,
+      "icons": [
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "enderio:block_transceiver"
+        }
+      ]
+    },
+    {
+      "id": "vacuum_chest",
+      "file": "vacuum_chest_4b559.md",
+      "cycle_icons": false,
+      "hidden": false,
+      "icons": [
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "enderio:block_vacuum_chest"
+        }
+      ]
+    },
+    {
+      "id": "x_p_vacuum",
+      "file": "x_p_vacuum_69c92.md",
+      "cycle_icons": false,
+      "hidden": false,
+      "icons": [
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "enderio:block_xp_vacuum"
+        }
+      ]
+    },
+    {
+      "id": "dialing_device",
+      "file": "dialing_device_bfa73.md",
+      "cycle_icons": false,
+      "hidden": false,
+      "icons": [
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "enderio:block_dialing_device"
+        }
+      ]
+    },
+    {
+      "id": "dialing_device_no_telepad",
+      "file": "dialing_device_no_telepad_dc64b.md",
+      "cycle_icons": false,
+      "hidden": false,
+      "icons": [
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "enderio:block_dialing_device"
+        }
+      ]
+    },
+    {
+      "id": "impulse_hopper",
+      "file": "impulse_hopper_3d634.md",
+      "cycle_icons": false,
+      "hidden": false,
+      "icons": [
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "enderio:block_impulse_hopper"
+        }
+      ]
+    },
+    {
+      "id": "crafter",
+      "file": "crafter_504e5.md",
+      "cycle_icons": true,
+      "hidden": false,
+      "icons": [
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "enderio:block_simple_crafter"
+        },
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "enderio:block_crafter"
+        }
+      ]
+    },
+    {
+      "id": "cap_bank",
+      "file": "cap_bank_c785a.md",
+      "cycle_icons": true,
+      "hidden": false,
+      "icons": [
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "enderio:block_cap_bank,1,1"
+        },
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "enderio:block_cap_bank,1,1,{\"enderio:energy\":1000000}"
+        },
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "enderio:block_cap_bank,1,2"
+        },
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "enderio:block_cap_bank,1,2,{\"enderio:energy\":5000000}"
+        },
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "enderio:block_cap_bank,1,3"
+        },
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "enderio:block_cap_bank,1,3,{\"enderio:energy\":25000000}"
+        },
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "enderio:block_cap_bank,1,0,{\"enderio:energy\":50000000}"
+        }
+      ]
+    },
+    {
+      "id": "power_monitor",
+      "file": "power_monitor_64c83.md",
+      "cycle_icons": true,
+      "hidden": false,
+      "icons": [
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "enderio:block_power_monitor"
+        },
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "enderio:block_advanced_power_monitor"
+        }
+      ]
+    },
+    {
+      "id": "tele_pad",
+      "file": "tele_pad_bcbd4.md",
+      "cycle_icons": false,
+      "hidden": false,
+      "icons": [
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "enderio:block_tele_pad"
+        }
+      ]
+    },
+    {
+      "id": "travel_accessable",
+      "file": "travel_accessable_34d5b.md",
+      "cycle_icons": true,
+      "hidden": false,
+      "icons": [
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "enderio:block_travel_anchor"
+        },
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "enderio:block_tele_pad"
+        }
+      ]
+    },
+    {
+      "id": "travel_auth",
+      "file": "travel_auth_aca62.md",
+      "cycle_icons": false,
+      "hidden": false,
+      "icons": [
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "enderio:block_travel_anchor"
+        }
+      ]
+    }
+  ]
+}

@@ -1,4 +1,5 @@
 #priority 32766
+#no_fix_recipe_book
 #packmode adventure
 
 global FROSTMAW_HP as int = 32000;

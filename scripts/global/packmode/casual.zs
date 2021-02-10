@@ -1,4 +1,5 @@
 #priority 32766
+#no_fix_recipe_book
 #packmode casual
 
 global FROSTMAW_HP as int = 16000;

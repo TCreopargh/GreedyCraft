@@ -4,6 +4,7 @@
  */
 
 #priority 50
+#no_fix_recipe_book
 
 <liquid:pyrotheum>.definition.temperature = 7200;
 <liquid:infernium>.definition.temperature = 12800;
