@@ -43,7 +43,7 @@ function compareItemStack(a as IItemStack, b as IItemStack) as bool {
 
 val purgeCommand as ZenCommand = ZenCommand.create("purge");
 purgeCommand.getCommandUsage = function(sender) {
-    return game.localize("greedycraft.command.purgeCommand.usage");
+    return "greedycraft.command.purgeCommand.usage";
 };
 purgeCommand.requiredPermissionLevel = 0; 
 purgeCommand.execute = function(command, server, sender, args) {
@@ -57,7 +57,7 @@ purgeCommand.register();
 
 val hideScoreboardCommand as ZenCommand = ZenCommand.create("hidescoreboard");
 hideScoreboardCommand.getCommandUsage = function(sender) {
-    return game.localize("greedycraft.command.hideScoreboardCommand.usage");
+    return "greedycraft.command.hideScoreboardCommand.usage";
 };
 hideScoreboardCommand.requiredPermissionLevel = 2; 
 hideScoreboardCommand.execute = function(command, server, sender, args) {
@@ -72,7 +72,7 @@ hideScoreboardCommand.register();
 
 val showScoreboardCommand as ZenCommand = ZenCommand.create("showscoreboard");
 showScoreboardCommand.getCommandUsage = function(sender) {
-    return game.localize("greedycraft.command.showScoreboardCommand.usage");
+    return "greedycraft.command.showScoreboardCommand.usage";
 };
 showScoreboardCommand.requiredPermissionLevel = 2; 
 showScoreboardCommand.execute = function(command, server, sender, args) {
@@ -86,7 +86,7 @@ showScoreboardCommand.register();
 
 val syncDifficultyCommand as ZenCommand = ZenCommand.create("syncdifficulty");
 syncDifficultyCommand.getCommandUsage = function(sender) {
-    return game.localize("greedycraft.command.syncDifficultyCommand.usage");
+    return "greedycraft.command.syncDifficultyCommand.usage";
 };
 syncDifficultyCommand.requiredPermissionLevel = 0; 
 syncDifficultyCommand.tabCompletionGetters = [IGetTabCompletion.player()];
@@ -110,8 +110,8 @@ syncDifficultyCommand.execute = function(command, server, sender, args) {
                 }
             }
             player.difficulty = maxDifficulty;
-            sender.sendMessage(I18n.format("greedycraft.command.syncDifficultyCommand.chat1", [player.name, "" + maxDifficulty] as string[]));
-            player.sendRichTextMessage(ITextComponent.fromTranslation("greedycraft.command.syncDifficultyCommand.chat2", "" + maxDifficulty));
+            sender.sendRichTextMessage(ITextComponent.fromTranslation("greedycraft.command.syncDifficultyCommand.chat1", ["§6" + player.name  + "§e", "§6" + maxDifficulty + "§e"] as string[]));
+            player.sendRichTextMessage(ITextComponent.fromTranslation("greedycraft.command.syncDifficultyCommand.chat2", "§6" + maxDifficulty + "§e"));
         }
     }
 };
@@ -119,7 +119,7 @@ syncDifficultyCommand.register();
 
 val infinityStoneCommand as ZenCommand = ZenCommand.create("infinitykill");
 infinityStoneCommand.getCommandUsage = function(sender) {
-    return game.localize("greedycraft.command.infinityStoneCommand.usage");
+    return "greedycraft.command.infinityStoneCommand.usage";
 };
 infinityStoneCommand.requiredPermissionLevel = 2; 
 infinityStoneCommand.tabCompletionGetters = [IGetTabCompletion.player()];
@@ -162,7 +162,7 @@ infinityStoneCommand.register();
 
 val unlockAllCommand as ZenCommand = ZenCommand.create("unlockallstages");
 unlockAllCommand.getCommandUsage = function(sender) {
-    return game.localize("greedycraft.command.unlockAllCommand.usage");
+    return "greedycraft.command.unlockAllCommand.usage";
 };
 unlockAllCommand.requiredPermissionLevel = 2; 
 unlockAllCommand.tabCompletionGetters = [IGetTabCompletion.player()];
@@ -181,8 +181,8 @@ unlockAllCommand.execute = function(command, server, sender, args) {
             for stage in listStages {
                 player.addGameStage(stage);
             }
-            sender.sendMessage(I18n.format("greedycraft.command.unlockAllCommand.chat1", [player.name, "" + listStages.length] as string[]));
-            player.sendRichTextMessage(ITextComponent.fromTranslation("greedycraft.command.unlockAllCommand.chat2", "" + listStages.length));
+            sender.sendRichTextMessage(ITextComponent.fromTranslation("greedycraft.command.unlockAllCommand.chat1", ["§6" + player.name + "§e", "§6" + listStages.length + "§e"] as string[]));
+            player.sendRichTextMessage(ITextComponent.fromTranslation("greedycraft.command.unlockAllCommand.chat2", "§6" + listStages.length + "§e"));
         }
     }
 };
@@ -190,7 +190,7 @@ unlockAllCommand.register();
 
 val lockAllCommand as ZenCommand = ZenCommand.create("lockallstages");
 lockAllCommand.getCommandUsage = function(sender) {
-    return game.localize("greedycraft.command.lockAllCommand.usage");
+    return "greedycraft.command.lockAllCommand.usage";
 };
 lockAllCommand.requiredPermissionLevel = 2; 
 lockAllCommand.tabCompletionGetters = [IGetTabCompletion.player()];
@@ -209,8 +209,8 @@ lockAllCommand.execute = function(command, server, sender, args) {
             for stage in listStages {
                 player.removeGameStage(stage);
             }
-            sender.sendMessage(I18n.format("greedycraft.command.lockAllCommand.chat1", [player.name, "" + listStages.length] as string[]));
-            player.sendRichTextMessage(ITextComponent.fromTranslation("greedycraft.command.lockAllCommand.chat2", "" + listStages.length));
+            sender.sendRichTextMessage(ITextComponent.fromTranslation("greedycraft.command.lockAllCommand.chat1", ["§6" + player.name + "§e",  "§6" + listStages.length + "§e"] as string[]));
+            player.sendRichTextMessage(ITextComponent.fromTranslation("greedycraft.command.lockAllCommand.chat2", "§6" + listStages.length + "§e"));
         }
     }
 };
@@ -218,7 +218,7 @@ lockAllCommand.register();
 
 val pureDaisyCommand as ZenCommand = ZenCommand.create("purifyingdust");
 pureDaisyCommand.getCommandUsage = function(sender) {
-    return game.localize("greedycraft.command.pureDaisyCommand.usage");
+    return "greedycraft.command.pureDaisyCommand.usage";
 };
 pureDaisyCommand.requiredPermissionLevel = 2; 
 pureDaisyCommand.tabCompletionGetters = [IGetTabCompletion.player()];
@@ -299,7 +299,7 @@ pureDaisyCommand.register();
 
 val showDeathQuotesCommand as ZenCommand = ZenCommand.create("showdeathquotes");
 showDeathQuotesCommand.getCommandUsage = function(sender) {
-    return game.localize("greedycraft.command.showDeathQuotesCommand.usage");
+    return "greedycraft.command.showDeathQuotesCommand.usage";
 };
 showDeathQuotesCommand.requiredPermissionLevel = 0; 
 showDeathQuotesCommand.tabCompletionGetters = [IGetTabCompletion.player()];
@@ -324,7 +324,7 @@ showDeathQuotesCommand.register();
 
 val hideDeathQuotesCommand as ZenCommand = ZenCommand.create("hidedeathquotes");
 hideDeathQuotesCommand.getCommandUsage = function(sender) {
-    return game.localize("greedycraft.command.hideDeathQuotesCommand.usage");
+    return "greedycraft.command.hideDeathQuotesCommand.usage";
 };
 hideDeathQuotesCommand.requiredPermissionLevel = 0; 
 hideDeathQuotesCommand.tabCompletionGetters = [IGetTabCompletion.player()];
@@ -349,7 +349,7 @@ hideDeathQuotesCommand.register();
 
 val setMaidHealthCommand as ZenCommand = ZenCommand.create("setmaidhealth");
 setMaidHealthCommand.getCommandUsage = function(sender) {
-    return game.localize("greedycraft.command.setMaidHealthCommand.usage");
+    return "greedycraft.command.setMaidHealthCommand.usage";
 };
 setMaidHealthCommand.requiredPermissionLevel = 2; 
 setMaidHealthCommand.tabCompletionGetters = [IGetTabCompletion.player(), IGetTabCompletion.player()];
@@ -391,14 +391,14 @@ setMaidHealthCommand.execute = function(command, server, sender, args) {
                 }
             }
         }
-        player.sendRichTextMessage(ITextComponent.fromTranslation("greedycraft.command.setMaidHealthCommand.chat", "" + entities.length));
+        player.sendRichTextMessage(ITextComponent.fromTranslation("greedycraft.command.setMaidHealthCommand.chat", "§6" + entities.length + "§d"));
     }
 };
 setMaidHealthCommand.register();
 
 val giveOmnipediaCommand as ZenCommand = ZenCommand.create("giveomnipedia");
 giveOmnipediaCommand.getCommandUsage = function(sender) {
-    return game.localize("greedycraft.command.giveOmnipediaCommand.usage");
+    return "greedycraft.command.giveOmnipediaCommand.usage";
 };
 giveOmnipediaCommand.requiredPermissionLevel = 2; 
 giveOmnipediaCommand.tabCompletionGetters = [IGetTabCompletion.player()];
@@ -422,7 +422,7 @@ giveOmnipediaCommand.register();
 
 val suicideCommand as ZenCommand = ZenCommand.create("suicide");
 suicideCommand.getCommandUsage = function(sender) {
-    return game.localize("greedycraft.command.suicideCommand.usage");
+    return "greedycraft.command.suicideCommand.usage";
 };
 suicideCommand.requiredPermissionLevel = 0;
 suicideCommand.execute = function(command, server, sender, args) {
@@ -436,7 +436,7 @@ suicideCommand.register();
 
 val sendWelcomeQuoteCommand as ZenCommand = ZenCommand.create("sendwelcomequote");
 sendWelcomeQuoteCommand.getCommandUsage = function(sender) {
-    return game.localize("greedycraft.command.sendWelcomeQuoteCommand.usage");
+    return "greedycraft.command.sendWelcomeQuoteCommand.usage";
 };
 sendWelcomeQuoteCommand.requiredPermissionLevel = 2;
 sendWelcomeQuoteCommand.tabCompletionGetters = [IGetTabCompletion.player()];
@@ -472,7 +472,7 @@ sendWelcomeQuoteCommand.register();
 
 val broadcastCommand as ZenCommand = ZenCommand.create("broadcast");
 broadcastCommand.getCommandUsage = function(sender) {
-    return game.localize("greedycraft.command.broadcastCommand.usage");
+    return "greedycraft.command.broadcastCommand.usage";
 };
 broadcastCommand.requiredPermissionLevel = 2;
 broadcastCommand.execute = function(command, server, sender, args) {
@@ -493,7 +493,7 @@ broadcastCommand.register();
 
 val executorCommand as ZenCommand = ZenCommand.create("executor");
 executorCommand.getCommandUsage = function(sender) {
-    return game.localize("greedycraft.command.executorCommand.usage");
+    return "greedycraft.command.executorCommand.usage";
 };
 executorCommand.requiredPermissionLevel = 2;
 executorCommand.tabCompletionGetters = [IGetTabCompletion.player()];
@@ -521,7 +521,7 @@ executorCommand.register();
 
 val sendFirstJoinMessageCommand as ZenCommand = ZenCommand.create("sendfirstjoinmessage");
 sendFirstJoinMessageCommand.getCommandUsage = function(sender) {
-    return game.localize("greedycraft.command.sendFirstJoinMessageCommand.usage");
+    return "greedycraft.command.sendFirstJoinMessageCommand.usage";
 };
 sendFirstJoinMessageCommand.requiredPermissionLevel = 2;
 sendFirstJoinMessageCommand.tabCompletionGetters = [IGetTabCompletion.player()];
@@ -545,7 +545,7 @@ sendFirstJoinMessageCommand.register();
 
 val redPacketCommand as ZenCommand = ZenCommand.create("redpacket");
 redPacketCommand.getCommandUsage = function(sender) {
-    return game.localize("greedycraft.command.redPacketCommand.usage");
+    return "greedycraft.command.redPacketCommand.usage";
 };
 redPacketCommand.requiredPermissionLevel = 2;
 redPacketCommand.tabCompletionGetters = [IGetTabCompletion.player()];
@@ -563,7 +563,7 @@ redPacketCommand.execute = function(command, server, sender, args) {
         if(!isNull(player)) {
             var xp as int = Math.floor((50.0 + Math.random() * 300.0 + Math.random() * 0.75 * (pow(player.difficulty, 1.5)))) as int;
             player.addExperience(xp);
-            player.sendRichTextMessage(ITextComponent.fromTranslation("greedycraft.command.red_packet", "" + xp));
+            player.sendRichTextMessage(ITextComponent.fromTranslation("greedycraft.command.red_packet", "§6" + xp + "§c"));
         }
     }
 };
@@ -571,7 +571,7 @@ redPacketCommand.register();
 
 val listStagesCommand as ZenCommand = ZenCommand.create("stagelist");
 listStagesCommand.getCommandUsage = function(sender) {
-    return game.localize("greedycraft.command.listStagesCommand.usage");
+    return "greedycraft.command.listStagesCommand.usage";
 };
 listStagesCommand.requiredPermissionLevel = 0;
 listStagesCommand.tabCompletionGetters = [];
