@@ -4,6 +4,7 @@
  */ 
 
 #priority 20
+#no_fix_recipe_book
 #packmode expert
 
 import moretweaker.draconicevolution.FusionCrafting;

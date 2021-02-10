@@ -4,6 +4,7 @@
   */
 
 #priority 2000
+#no_fix_recipe_book
 
 import thaumcraft.aspect.CTAspect;
 import thaumcraft.aspect.CTAspectStack;

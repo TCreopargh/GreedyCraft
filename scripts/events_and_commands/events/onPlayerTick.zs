@@ -4,6 +4,7 @@
  */
 
 #priority 90
+#no_fix_recipe_book
 
 import crafttweaker.event.PlayerLoggedInEvent;
 import crafttweaker.event.IPlayerEvent;
@@ -20,6 +21,7 @@ import crafttweaker.block.IBlockState;
 import crafttweaker.potions.IPotionEffect;
 import crafttweaker.world.IFacing;
 import crafttweaker.command.ICommandSender;
+import crafttweaker.text.ITextComponent;
 
 import mods.ctutils.utils.Math;
 import mods.ctutils.world.IGameRules;
@@ -82,10 +84,10 @@ events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
     // Hint while trying to go to disallowed dimensions
     if(player.world.getWorldTime() as long % 20 == 0) {
         if(player.world.getBlock(player.position).definition.id == "minecraft:portal" && !player.hasGameStage("twilight_shield")) {
-            server.commandManager.executeCommand(server, "/title " + player.name + " actionbar [\"\",{\"text\":\"" + game.localize("greedycraft.event.nether.reject.message") + "\",\"color\":\"dark_purple\"}]");
+            player.sendRichTextStatusMessage(ITextComponent.fromData(["",{translate: "greedycraft.event.nether.reject.message", color: "dark_purple"}]), true);
         }
         if(player.world.getBlock(player.position).definition.id == "minecraft:end_portal" && !player.hasGameStage("ender_charm")) {
-            server.commandManager.executeCommand(server, "/title " + player.name + " actionbar [\"\",{\"text\":\"" + game.localize("greedycraft.event.end.reject.message") + "\",\"color\":\"dark_purple\"}]");
+            player.sendRichTextStatusMessage(ITextComponent.fromData(["",{translate: "greedycraft.event.end.reject.message", color: "dark_purple"}]), true);
         }
     }
   
@@ -101,6 +103,16 @@ events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
         var pos as IBlockPos = player.position as IBlockPos;
         if(player.world.getBlock(getBottomBlockPos(player)).definition.id == "twilightforest:dark_leaves") {
             player.attackEntityFrom(IDamageSource.HOT_FLOOR(), 2.0);
+        }
+    }
+
+    // Fix sticky potion effects
+    if(!player.creative && player.world.getWorldTime() as long % 4 == 0) {
+        var effects as IPotionEffect[] = player.getAllPotionEffects();
+        for effect in effects {
+            if(effect.duration < 5 && !effect.isAmbient) {
+                player.removePotionEffect(effect.potion);
+            }
         }
     }
 
@@ -128,7 +140,7 @@ events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
             if(player.world.getWorldTime() as long % 20 == 0) {
                 player.addPotionEffect(<potion:minecraft:blindness>.makePotionEffect(50, 0, false, false));
                 player.attackEntityFrom(IDamageSource.DROWN(), 10.0);
-                server.commandManager.executeCommand(server, "/title " + player.name + " actionbar [\"\",{\"text\":\"" + game.localize("greedycraft.event.deep_sea.warning") + "\",\"color\":\"red\"},{\"text\":\"" + game.localize("greedycraft.event.deep_sea.message") + "\",\"color\":\"yellow\"}]");
+                player.sendRichTextStatusMessage(ITextComponent.fromData(["", {translate: "greedycraft.event.deep_sea.warning", color: "red"}, {"text":" "}, {translate: "greedycraft.event.deep_sea.message", color: "yellow"}]), true);
             }
         }
     }

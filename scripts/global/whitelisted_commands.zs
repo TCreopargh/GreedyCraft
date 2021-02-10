@@ -4,6 +4,7 @@
  */ 
 
 #priority 32767
+#no_fix_recipe_book
 
 global whitelistedCommands as string[] = [
     "me", 
@@ -60,5 +61,6 @@ global whitelistedCommands as string[] = [
     "tf",
     "together",
     "togetherforever",
-    "stagelist"
+    "stagelist",
+    "showscoreboard"
 ];

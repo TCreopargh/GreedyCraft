@@ -4,6 +4,7 @@
  */ 
 
 #priority 32765
+#no_fix_recipe_book
 #packmode casual adventure
 
 import crafttweaker.data.IData;

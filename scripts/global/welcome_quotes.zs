@@ -4,6 +4,7 @@
  */ 
 
 #priority 32767
+#no_fix_recipe_book
 
 global welcomeQuotes as string[][string] = {
     zh_cn: [
@@ -23,7 +24,7 @@ global welcomeQuotes as string[][string] = {
         "§6如果感到卡顿，请尝试按§eR§6打开菜单并点击“§e清理内存§6”按钮。另外也可以试试调整下视距再调回来。",
         "§e你可以按§6F6§e来切换游戏视角，不过并不推荐这样做，因为第三人称视角能给你类似RPG风格的体验。",
         "§e组合键§6F3 + A§e可以重载区块并提高帧率，§6F3 + S§e可以重载声音系统（在没有声音时使用）。",
-        "§e你可以使用§6/hidescoreboard§e指令来暂时关闭右边的计分板！",
+        "§e你可以使用§6/hidescoreboard§e指令来关闭右边的计分板！§6/showscoreboard§e可以重新打开计分板。",
         "§e你可以使用§6/hidedeathquotes§e指令来关闭死亡信息显示，或§6/showdeathquotes§e重新打开死亡信息显示！",
         "§e你可以使用§6/backup§e指令手动备份世界，在世界选择界面可以找到恢复备份的选项！",
         "§e按§6B§e键可以在你的位置新建路径点，在大地图界面按§6B§e可以在鼠标位置新建路径点！",
@@ -35,7 +36,7 @@ global welcomeQuotes as string[][string] = {
         '§eIf you have questions about mods, you can try to look up in the §6Omnipedia§e!',
         "§eIF the background music stops for a long time, use - key on numpad to reload it.",
         "§ePress §6F3 + A§e to reload chunks, §6F3 + S§e to reload sound system, use this if you can't hear any sound.",
-        "§eYou can use §6/hidescoreboard§e to hide the scoreboard until you login for the next time!",
+        "§eYou can use §6/hidescoreboard§e to hide the scoreboard, or §6/showscoreboard§e to make it show up again.",
         "§eMove the saves folder to the new instance if you are going to update the modpack.",
         "§ePress §6F6§e to switch between 1st and 3rd person mode. It's suggested to use 3rd person mode in adventure and combat!",
         '["",{"text":"§eJoin our discord channel! "},{"text":"§9Link","clickEvent":{"action":"open_url","value":"https://discord.gg/jpxvghEU2a"}},{"text":""}]' , 

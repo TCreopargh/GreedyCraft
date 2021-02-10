@@ -4,6 +4,7 @@
  */
 
 #priority 4000
+#no_fix_recipe_book
 
 import crafttweaker.item.IItemStack;
 import crafttweaker.data.IData;
@@ -1361,6 +1362,11 @@ RecipeUtil.addShaped("conjuring_altar", <defiledlands:conjuring_altar>, [
     [null, null, null],
     [<ore:ingotUmbrium>, <ore:blockScarlite>, <ore:ingotUmbrium>],
     [<ore:ingotUmbrium>, <ore:ingotUmbrium>, <ore:ingotUmbrium>]
+]);
+RecipeUtil.addShaped("pet_feed_bag", <inventorypets:feed_bag>, [
+    [null, null, null],
+    [<ore:itemLeather>, <minecraft:golden_apple>, <ore:itemLeather>],
+    [null, <ore:itemLeather>, null]
 ]);
 
 /* Templates

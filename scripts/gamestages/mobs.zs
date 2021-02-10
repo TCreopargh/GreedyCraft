@@ -4,6 +4,7 @@
  */
 
 #priority 1000
+#no_fix_recipe_book
 
 import mods.MobStages;
 
@@ -43,9 +44,9 @@ val mobReplacements as string[string] = {
     "enderiozoo:concussioncreeper": "minecraft:creeper"
 } as string[string];
 
-for mob in mobStages {
-    var stage as string = mobStages[mob] as string;
+for mob, stage in mobStages {
     MobStages.addStage(stage, mob);
+    MobStages.addRange(mob, 256);
 }
 
 for mob in mobReplacements {

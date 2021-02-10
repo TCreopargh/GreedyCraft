@@ -4,6 +4,7 @@
  */
 
 #priority 400
+#no_fix_recipe_book
 
 import mods.touhoulittlemaid.Altar;
 

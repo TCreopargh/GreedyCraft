@@ -4,6 +4,7 @@
  */
 
 #priority 50
+#no_fix_recipe_book
 #packmode adventure expert
 // Powered by TCreopargh
 
@@ -14,6 +15,7 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.event.EntityLivingDeathEvent;
 import crafttweaker.data.IData;
 import crafttweaker.event.PlayerTickEvent;
+import crafttweaker.text.ITextComponent;
 
 import mods.zenutils.command.ZenCommand;
 import mods.zenutils.command.ZenUtilsCommandSender;
@@ -39,7 +41,7 @@ events.onCommand(function (event as CommandEvent) {
         val player as IPlayer = event.commandSender;    
         if(((player.name != "TCreopargh") && !isNull(event.parameters[2]) && (event.parameters[2] == "iswuss" || event.parameters[2] == "truehero")) || ((player.name != "TCreopargh") && !isNull(event.parameters[1]) && (event.parameters[1] == "all"))) {
             event.cancel();
-            player.sendChat(game.localize("greedycraft.event.anticheat.wtf"));
+            player.sendRichTextMessage(ITextComponent.fromTranslation("greedycraft.event.anticheat.wtf"));
         }
     }
 });    
@@ -54,10 +56,10 @@ wussMode.execute = function(command, server, sender, args) {
     if(!isNull(player)) {
         if(!isWuss(player)) {
             server.commandManager.executeCommand(server, "/gamestage add " + player.name + " iswuss");
-            player.sendChat(game.localize("greedycraft.command.wussmode.chat"));
+            player.sendRichTextMessage(ITextComponent.fromTranslation("greedycraft.command.wussmode.chat"));
             server.commandManager.executeCommand(server, "/broadcast " + I18n.format("greedycraft.command.wussmode.broadcast", player.name));
         } else {
-        player.sendChat(game.localize("greedycraft.command.wussmode.again"));
+            player.sendRichTextMessage(ITextComponent.fromTranslation("greedycraft.command.wussmode.again"));
         }
     }
 };
@@ -84,10 +86,10 @@ events.onCommand(function (event as CommandEvent) {
             if(!isWuss(player)) {
                 event.cancel();
                 //player.server.commandManager.executeCommand(player.server, "/kill " + player.name);
-                player.sendChat(game.localize("greedycraft.event.anticheat.general"));
-                player.sendChat(I18n.format("greedycraft.event.anticheat.command", name));
+                player.sendRichTextMessage(ITextComponent.fromTranslation("greedycraft.event.anticheat.general"));
+                player.sendRichTextMessage(ITextComponent.fromTranslation("greedycraft.event.anticheat.command", name));
                 if((name == "kill" && event.parameters.length > 0 && event.parameters[0] == "@p") || (name == "kill" && event.parameters.length == 0)) {
-                    player.sendChat(game.localize("greedycraft.event.anticheat.go_kill_yourself"));
+                    player.sendRichTextMessage(ITextComponent.fromTranslation("greedycraft.event.anticheat.go_kill_yourself"));
                 }
             }  
         }

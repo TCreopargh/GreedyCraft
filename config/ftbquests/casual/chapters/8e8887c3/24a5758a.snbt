@@ -18,9 +18,9 @@
 			id: "conarm:armorforge",
 			tag: {
 				textureBlock: {
-					id: "avaritia:block_resource",
+					id: "minecraft:iron_block",
 					Count: 1b,
-					Damage: 1s
+					Damage: 0s
 				}
 			}
 		}],
@@ -58,7 +58,7 @@
 		uid: "d0dc2ab7",
 		type: "item",
 		item: "oeintegration:excavatemodifier",
-		count: 2
+		count: 1
 	},
 	{
 		uid: "25455b55",

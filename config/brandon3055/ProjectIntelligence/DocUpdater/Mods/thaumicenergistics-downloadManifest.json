@@ -1,0 +1,116 @@
+{
+  "mod_id": "thaumicenergistics",
+  "base_files": [
+    {
+      "file_path": "structure/lang/en_us.json",
+      "url": "http://pi.brandon3055.com/objects/25/253353940d52a92e53e7cff0c984959b8fcc8026",
+      "sha1": "253353940d52a92e53e7cff0c984959b8fcc8026"
+    },
+    {
+      "file_path": "structure/lang/zh_cn.json",
+      "url": "http://pi.brandon3055.com/objects/4b/4b5471086673f727d9529ea11c55d89f7c705432",
+      "sha1": "4b5471086673f727d9529ea11c55d89f7c705432"
+    },
+    {
+      "file_path": "structure/structure.json",
+      "url": "http://pi.brandon3055.com/objects/26/26cd5707ad59b0c368ed7fc7f53d06d1222113e6",
+      "sha1": "26cd5707ad59b0c368ed7fc7f53d06d1222113e6"
+    },
+    {
+      "file_path": "structure/zh_cn/thaumicenergistics_5ef1f.md",
+      "url": "http://pi.brandon3055.com/objects/95/955c948c89154d31e338ac0385f1db63a8c6a6e6",
+      "sha1": "955c948c89154d31e338ac0385f1db63a8c6a6e6"
+    },
+    {
+      "file_path": "structure/en_us/thaumicenergistics_5ef1f.md",
+      "url": "http://pi.brandon3055.com/objects/75/75132433ae8a1cd898fbd691196aa36831abd93d",
+      "sha1": "75132433ae8a1cd898fbd691196aa36831abd93d"
+    }
+  ],
+  "lang_files": [
+    {
+      "file_path": "zh_cn/components_803c8.md",
+      "url": "http://pi.brandon3055.com/objects/9d/9dea8ee65a1a7c84bcc1c1a213cb6703cd79a8c7",
+      "sha1": "9dea8ee65a1a7c84bcc1c1a213cb6703cd79a8c7",
+      "lang": "zh_cn"
+    },
+    {
+      "file_path": "zh_cn/essentia_buses_fa55b.md",
+      "url": "http://pi.brandon3055.com/objects/3b/3bf1e9c160222978b1e34bbe178215cfc0416b8c",
+      "sha1": "3bf1e9c160222978b1e34bbe178215cfc0416b8c",
+      "lang": "zh_cn"
+    },
+    {
+      "file_path": "zh_cn/contribute_82ece.md",
+      "url": "http://pi.brandon3055.com/objects/60/605e7c8e5cf9bdd46fc879d619f2c5437ecfc957",
+      "sha1": "605e7c8e5cf9bdd46fc879d619f2c5437ecfc957",
+      "lang": "zh_cn"
+    },
+    {
+      "file_path": "zh_cn/infusion_provider_e102b.md",
+      "url": "http://pi.brandon3055.com/objects/9a/9a4bf374b61024b1acdf5c0e64c9cfc016dec193",
+      "sha1": "9a4bf374b61024b1acdf5c0e64c9cfc016dec193",
+      "lang": "zh_cn"
+    },
+    {
+      "file_path": "zh_cn/essentia_cells_74614.md",
+      "url": "http://pi.brandon3055.com/objects/9c/9c8691c6063d3cb8712ebc21e8799ff5c812f15b",
+      "sha1": "9c8691c6063d3cb8712ebc21e8799ff5c812f15b",
+      "lang": "zh_cn"
+    },
+    {
+      "file_path": "zh_cn/terminals_8961c.md",
+      "url": "http://pi.brandon3055.com/objects/8a/8abf4d38dc71c40dd4078fc6b3b372bba246bd80",
+      "sha1": "8abf4d38dc71c40dd4078fc6b3b372bba246bd80",
+      "lang": "zh_cn"
+    },
+    {
+      "file_path": "zh_cn/getting_started_52cbf.md",
+      "url": "http://pi.brandon3055.com/objects/cf/cf9855a1213d67eddf6c079c3b3ed0ce875f0e04",
+      "sha1": "cf9855a1213d67eddf6c079c3b3ed0ce875f0e04",
+      "lang": "zh_cn"
+    },
+    {
+      "file_path": "en_us/components_803c8.md",
+      "url": "http://pi.brandon3055.com/objects/55/5530c6880c8b2e401eba1a0c11713d8714109bc9",
+      "sha1": "5530c6880c8b2e401eba1a0c11713d8714109bc9",
+      "lang": "en_us"
+    },
+    {
+      "file_path": "en_us/essentia_buses_fa55b.md",
+      "url": "http://pi.brandon3055.com/objects/a9/a9c82c8ea0b10285969457064e61d0978b232319",
+      "sha1": "a9c82c8ea0b10285969457064e61d0978b232319",
+      "lang": "en_us"
+    },
+    {
+      "file_path": "en_us/contribute_82ece.md",
+      "url": "http://pi.brandon3055.com/objects/c8/c83c7b72ccda4660a1c789fc3dd1fdcacaf8dd18",
+      "sha1": "c83c7b72ccda4660a1c789fc3dd1fdcacaf8dd18",
+      "lang": "en_us"
+    },
+    {
+      "file_path": "en_us/infusion_provider_e102b.md",
+      "url": "http://pi.brandon3055.com/objects/29/299436a15c94c7e2937e13491eaaa7c9ccbc81a6",
+      "sha1": "299436a15c94c7e2937e13491eaaa7c9ccbc81a6",
+      "lang": "en_us"
+    },
+    {
+      "file_path": "en_us/essentia_cells_74614.md",
+      "url": "http://pi.brandon3055.com/objects/8b/8bae49f22040aee95a073d2f7c8ebcd522da663e",
+      "sha1": "8bae49f22040aee95a073d2f7c8ebcd522da663e",
+      "lang": "en_us"
+    },
+    {
+      "file_path": "en_us/terminals_8961c.md",
+      "url": "http://pi.brandon3055.com/objects/e8/e85a8b588378a4cc6d8c704703981d2902fe1736",
+      "sha1": "e85a8b588378a4cc6d8c704703981d2902fe1736",
+      "lang": "en_us"
+    },
+    {
+      "file_path": "en_us/getting_started_52cbf.md",
+      "url": "http://pi.brandon3055.com/objects/9e/9e6489c3db3f145e45f35c242f09294c5714feaa",
+      "sha1": "9e6489c3db3f145e45f35c242f09294c5714feaa",
+      "lang": "en_us"
+    }
+  ]
+}

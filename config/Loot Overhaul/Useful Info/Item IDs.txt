@@ -3528,7 +3528,6 @@ sakura:teishoku_fish_cooked - 7210
 sakura:teishoku_fish_raw - 7211
 sakura:teishoku_yakiniku - 7212
 sakura:teishoku_tamagoyaki - 7213
-sakura:teishoku_fish_salt - 7214
 sakura:teishoku_fried - 7215
 sakura:teishoku_tempura - 7216
 sakura:teishoku_burger - 7217

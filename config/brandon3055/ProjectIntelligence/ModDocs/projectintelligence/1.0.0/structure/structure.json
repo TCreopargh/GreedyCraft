@@ -1,0 +1,50 @@
+{
+  "mod_id": "projectintelligence",
+  "mod_version": "1.0.0",
+  "__verified_comment": "Do not change this to true. If you do so your PR will be automatically rejected.",
+  "verified": true,
+  "file": "projectintelligence_88e33.md",
+  "cycle_icons": false,
+  "pages": [
+    {
+      "id": "people",
+      "file": "people_8485a.md",
+      "cycle_icons": false,
+      "hidden": false,
+      "pages": [
+        {
+          "id": "brandon3055",
+          "file": "people/brandon3055_69258.md",
+          "cycle_icons": false,
+          "hidden": false,
+          "icons": [
+            {
+              "type": "entity",
+              "draw_slot": true,
+              "icon_string": "player:brandon3055"
+            }
+          ]
+        },
+        {
+          "id": "covers1624",
+          "file": "people/covers1624_b8f4c.md",
+          "cycle_icons": false,
+          "hidden": false,
+          "icons": [
+            {
+              "type": "entity",
+              "draw_slot": true,
+              "icon_string": "player:covers1624"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "contribute",
+      "file": "contribute_e554c.md",
+      "cycle_icons": false,
+      "hidden": false
+    }
+  ]
+}

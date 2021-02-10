@@ -4,6 +4,7 @@
  */
 
 #priority 90
+#no_fix_recipe_book
 
 import crafttweaker.event.PlayerLoggedInEvent;
 import crafttweaker.event.IPlayerEvent;
@@ -21,6 +22,7 @@ import crafttweaker.potions.IPotionEffect;
 import crafttweaker.world.IFacing;
 import crafttweaker.command.ICommandSender;
 import crafttweaker.event.EntityLivingDeathEvent;
+import crafttweaker.text.ITextComponent;
 
 import mods.ctutils.utils.Math;
 import mods.ctutils.world.IGameRules;
@@ -59,7 +61,7 @@ events.onEntityLivingDeath(function (event as EntityLivingDeathEvent) {
         // Death quotes
         var deathQuotesArray as string[] = deathQuotes[LangUtil.getLanguage()];
         var index as int = Math.floor(Math.random() * deathQuotesArray.length as float) as int;
-        if(!(index >= deathQuotesArray.length || !(index >= 0)) && !player.hasGameStage("hide_death_quotes")) {
+        if(index < deathQuotesArray.length && index >= 0 && !player.hasGameStage("hide_death_quotes")) {
             var quote as string = deathQuotesArray[index];
             quote = quote.replace("%playername%", player.name);
             player.sendChat(quote);
@@ -69,7 +71,7 @@ events.onEntityLivingDeath(function (event as EntityLivingDeathEvent) {
         if(!(Math.random() > DEATH_HUMAN_SPAWN_CHANCE)) {
             var offset = Math.random() - 0.5 as float;
             server.commandManager.executeCommand(server, "/summon headcrumbs:human " + (player.x + offset) + " " + (player.y + 1) + " "+ (player.z + offset) +" {Username:\"" + player.name + "\"}");
-            player.sendChat(game.localize("greedycraft.event.human.spawn"));
+            player.sendRichTextMessage(ITextComponent.fromTranslation("greedycraft.event.human.spawn"));
         }
     }
 });

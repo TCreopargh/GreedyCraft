@@ -4,6 +4,7 @@
  */
 
 #priority 90
+#no_fix_recipe_book
 
 import crafttweaker.event.PlayerLoggedInEvent;
 import crafttweaker.event.IPlayerEvent;
@@ -20,6 +21,7 @@ import crafttweaker.block.IBlockState;
 import crafttweaker.potions.IPotionEffect;
 import crafttweaker.world.IFacing;
 import crafttweaker.command.ICommandSender;
+import crafttweaker.event.EntityLivingHurtEvent;
 
 import mods.ctutils.utils.Math;
 import mods.ctutils.world.IGameRules;
@@ -39,8 +41,13 @@ static skeletonEntities as string[] = [
     "minecraft:wither_skeleton"
 ];
 
-events.onEntityLivingHurt(function(event as crafttweaker.event.EntityLivingHurtEvent) {
+events.onEntityLivingHurt(function(event as EntityLivingHurtEvent) {
     var entity as IEntityLivingBase = event.entityLivingBase;
+    
+    // Make burning undead mobs burn quicker
+    if(entity.isUndead && entity.isBurning && !entity.isBoss && entity.world.canSeeSky(entity.position) && entity.world.isDayTime() && event.damageSource.isFireDamage()) {
+        event.amount += (entity.maxHealth as float / 20.0f);
+    }
 
     // Reduce throns damage caused by player
     if(!isNull(event.damageSource.getTrueSource()) && event.damageSource.getTrueSource() instanceof IPlayer) {

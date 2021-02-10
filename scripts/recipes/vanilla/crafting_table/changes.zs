@@ -4,6 +4,7 @@
  */
 
 #priority 4000
+#no_fix_recipe_book
 
 import crafttweaker.item.IItemStack;
 import crafttweaker.data.IData;
@@ -33,4 +34,9 @@ RecipeUtil.removeAndAdd("xu_overclocked_generator", <extrautils2:machine>.withTa
     [<actuallyadditions:item_crystal_empowered:1>, <ore:ingotAeonsteel>, <actuallyadditions:item_crystal_empowered:1>],
     [<ore:ingotDurasteel>, <extrautils2:machine>.withTag({Type: "extrautils2:generator"}), <ore:ingotDurasteel>], 
     [<actuallyadditions:item_crystal_empowered:1>, <ore:ingotAeonsteel>, <actuallyadditions:item_crystal_empowered:1>]
+]);
+RecipeUtil.removeAndAdd("fusion_core", <draconicevolution:fusion_crafting_core>, [
+    [<ore:ingotFusionMatrix>, <ore:ingotDurasteel>, <ore:ingotFusionMatrix>],
+    [<ore:ingotDurasteel>, <draconicevolution:draconic_core>, <ore:ingotDurasteel>], 
+    [<ore:ingotFusionMatrix>, <ore:ingotDurasteel>, <ore:ingotFusionMatrix>]
 ]);

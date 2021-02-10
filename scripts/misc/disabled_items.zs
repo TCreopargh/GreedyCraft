@@ -4,6 +4,7 @@
  */
 
 #priority 50
+#no_fix_recipe_book
 
 import crafttweaker.item.IItemStack;
 import crafttweaker.data.IData;
@@ -269,7 +270,8 @@ val disabledItems as IIngredient[] = [
     <liquid:sakura.hot_spring_water>,
     <mekanism:cardboardbox>,
     <cyclicmagic:block_fishing>,
-    <thermalexpansion:augment>
+    <thermalexpansion:augment:304>,
+    <extrautils2:playerchest>
 ] as IIngredient[];
 
 val disabledRecipeRegex as string[] = [

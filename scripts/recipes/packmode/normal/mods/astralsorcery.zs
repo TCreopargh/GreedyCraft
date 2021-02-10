@@ -5,6 +5,7 @@
 
 #packmode casual adventure
 #priority 30
+#no_fix_recipe_book
 
 import mods.astralsorcery.Altar;
 

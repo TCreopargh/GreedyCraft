@@ -17,9 +17,9 @@
 			id: "tconstruct:toolforge",
 			tag: {
 				textureBlock: {
-					id: "avaritia:block_resource",
+					id: "minecraft:iron_block",
 					Count: 1b,
-					Damage: 1s
+					Damage: 0s
 				}
 			}
 		}],
@@ -56,7 +56,7 @@
 		uid: "85fe7b1c",
 		type: "item",
 		item: "oeintegration:excavatemodifier",
-		count: 2
+		count: 1
 	},
 	{
 		uid: "708b0f80",

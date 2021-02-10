@@ -4,6 +4,7 @@
  */ 
 
 #priority 32767
+#no_fix_recipe_book
 
 global MODE_CASUAL as int = 0;
 global MODE_ADVENTURE as int = 1;

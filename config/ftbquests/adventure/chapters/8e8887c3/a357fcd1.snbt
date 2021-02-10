@@ -13,6 +13,11 @@
 		"459b608d"
 	],
 	tasks: [{
+		uid: "8e1131ac",
+		type: "gamestage",
+		stage: "abyssal_conquerer"
+	},
+	{
 		uid: "d7d9fcf7",
 		type: "kill",
 		entity: "minecraft:wither",

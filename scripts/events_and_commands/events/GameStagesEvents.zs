@@ -4,6 +4,7 @@
  */
 
 #priority 90
+#no_fix_recipe_book
 
 import crafttweaker.event.PlayerLoggedInEvent;
 import crafttweaker.event.IPlayerEvent;
@@ -20,6 +21,7 @@ import crafttweaker.block.IBlockState;
 import crafttweaker.potions.IPotionEffect;
 import crafttweaker.world.IFacing;
 import crafttweaker.command.ICommandSender;
+import crafttweaker.text.ITextComponent;
 
 import mods.ctutils.utils.Math;
 import mods.ctutils.world.IGameRules;
@@ -37,20 +39,23 @@ events.onGameStageAdd(function(event as GameStageAddEvent) {
     }
     var stageLore as string[][string] = stages[event.gameStage];
     if(!isNull(stageLore)) {
-        var delimiter as string = "§9==================================================";
-        var msg as string = delimiter + "\n";
-        msg += game.localize("greedycraft.event.stage.lore.title") + "\n";
-        msg += "§e " + event.gameStage + " §7- §r§c§o";
+        var data as IData = [];
+        var delimiter as IData = {text: "==================================================", color: "blue"};
+        data += [delimiter] as IData;
+        data += [{text: "\n"}];
+        data += [{translate: "greedycraft.event.stage.lore.title"}];
+        data += [{text: "\n"}];
+        data += [{text: event.gameStage, color: "yellow"}, {text: " - ", color: "gray"}];
         if(stageLore["alias"].length > 0) { 
-            msg += stageLore["alias"][0];
+            data += [{text: stageLore["alias"][0], color: "red", italic: true}];
         }
-        msg += "\n";
+        data += [{text: "\n"}];
         for line in stageLore["lore"] {
-            msg += "§5§o " + line + "\n";
+            data += [{text: line, color: "dark_purple", italic: true}, {text: "\n"}];
         } 
-        msg += game.localize("greedycraft.event.stage.lore.unlocked") + "\n";
+        data += [{translate: "greedycraft.event.stage.lore.unlocked"}, {text: "\n"}];
         for line in stageLore["unlocks"] {
-            msg += "§2 ✔ §a" + line + "\n";
+            data += [{text: " ✔ ", color: "dark_green"}, {text: line, color: "green"}, {text: "\n"}];
         }
         var maxDifficulty = 0;
         for stage in stageMap {
@@ -60,11 +65,11 @@ events.onGameStageAdd(function(event as GameStageAddEvent) {
             }
         }
         if(player.difficulty != maxDifficulty) {
-            msg += game.localize("greedycraft.event.stage.lore.difficulty") + "   §a" + Math.round(player.difficulty) as int + " §e>> §c" + maxDifficulty as int + "\n";
+            data += [{translate: "greedycraft.event.stage.lore.difficulty"}, {text: "   "}, {text: "" + Math.round(player.difficulty) as int, color: "green"}, {text: " >> ", color: "yellow"}, {text: "" + maxDifficulty as int + "\n", color: "red"}];
             player.difficulty = maxDifficulty;
         }
-        msg += delimiter;
-        player.sendChat(msg);
+        data += [delimiter] as IData;
+        player.sendRichTextMessage(ITextComponent.fromData(data));
         server.commandManager.executeCommand(server, "/playsound ui.toast.challenge_complete player " + player.name + " " + player.x + " " + player.y + " " + player.z + " 100 1");
         
         if(event.gameStage == "nether") {

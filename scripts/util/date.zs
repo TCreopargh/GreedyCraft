@@ -4,6 +4,7 @@
  */ 
 
 #priority 32010
+#no_fix_recipe_book
 
 import mods.ctintegration.util.DateUtil;
 import mods.ctintegration.date.IDate;   

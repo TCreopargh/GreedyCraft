@@ -4,7 +4,8 @@
  */ 
 
 #priority 32767
+#no_fix_recipe_book
 
-global versionName as string = "1.30.1";
-global versionCode as int = 107;
+global versionName as string = "1.31.0";
+global versionCode as int = 109;
 global versionGroup as int = 0;

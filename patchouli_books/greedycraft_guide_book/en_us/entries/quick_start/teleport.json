@@ -6,7 +6,7 @@
     "pages": [
         {
             "type": "text",
-            "text": "It's suggested not to use teleportation via map because it breaks balance. There are already enough teleportation methods in this modpack. You will find a $(d)Waystone$() in every village, make sure to activate it when you travel to a new village. Teleportation between waystones don't const anything. There are much more teleportation methods that you can figure out by yourself."
+            "text": "It's suggested not to use teleportation via map because it breaks balance. There are already enough teleportation methods in this modpack. You will find a $(d)Waystone$() in every village, make sure to activate it when you travel to a new village. Teleportation between waystones don't cost anything. There are much more teleportation methods that you can figure out by yourself."
         },
 		{
             "type": "crafting",

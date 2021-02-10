@@ -4,6 +4,7 @@
  */ 
 
 #priority 50
+#no_fix_recipe_book
 #packmode casual
 // Powered by TCreopargh
 import crafttweaker.event.CommandEvent;
@@ -15,6 +16,7 @@ import mods.ctutils.utils.Math;
 import crafttweaker.data.IData;
 import mods.ctutils.world.IGameRules;
 import mods.zenutils.command.ZenCommand;
+import crafttweaker.text.ITextComponent;
 
 function isWuss(player as IPlayer) as bool {
     return (player.creative || (player.world.getGameRules().hasRule("doWussMode") && player.world.getGameRules().getBoolean("doWussMode")) || player.hasGameStage("iswuss")); 
@@ -32,7 +34,7 @@ events.onCommand(function (event as CommandEvent) {
             val player as IPlayer = event.commandSender;    
                 event.cancel();
                 player.server.commandManager.executeCommand(player.server, "/kill " + player.name);
-                player.sendChat(game.localize("greedycraft.event.anticheat.wtf"));
+                player.sendRichTextMessage(ITextComponent.fromTranslation("greedycraft.event.anticheat.wtf"));
         }
     }
 });    

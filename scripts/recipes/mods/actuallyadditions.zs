@@ -5,6 +5,7 @@
 
 
 #priority 1250
+#no_fix_recipe_book
 #modloaded projecte
 
 import crafttweaker.item.IItemStack;

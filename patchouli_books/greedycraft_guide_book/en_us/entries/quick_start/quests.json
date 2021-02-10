@@ -5,11 +5,11 @@
     "pages": [
         {
             "type": "text",
-            "text": "FTB Quests is used in this modpack, you can find the quests button on the top left corner when opening inventory. $(br)Almost all quests have different kinds of rewards, remember to claim them. $(br)Search $(5)＠FTBQuests$() in JEI for items that are related to the quests system. $(br)Some quests, $(c)(like submitting FE)$() require a $(5)Task Screen$(). To submit FE, put down a Task Screen and right click to configure it, then connect it with wires to input energy."
+            "text": "FTB Quests is used in this modpack, you can find the quests button on the top left corner when opening inventory. $(br)Almost all quests have different kinds of rewards, remember to claim them. $(br)Search $(5)＠FTBQuests$() in JEI for items that are related to the quests system. $(br)Some quests, $(c)(like submitting FE)$() require a $(5)Task Screen$(). "
         },
         {
             "type": "text",
-            "text": "§lThe Omnipedia§r$(br2) The Omnipedia is your first quest reward and can be crafted with a $(6)Akashic Tome$(). In case of a modpack update, put your Omnipedia in crafting table to update it. It contains almost all guide books provided by mods. Right click with Omnipedia to select a book."
+            "text": "To submit FE, put down a Task Screen and right click to configure it, then connect it with wires to input energy.$(br2)§lThe Omnipedia§r$(br2) The Omnipedia is your first quest reward and can be crafted with a $(6)Akashic Tome$(). In case of a modpack update, put your Omnipedia in crafting table to update it. It contains almost all guide books provided by mods. Right click with Omnipedia to select a book."
         },
         {
             "type": "text",

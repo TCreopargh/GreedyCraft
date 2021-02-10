@@ -29,3 +29,5 @@ discord.gg
 hastebin.com
 optifine.net
 api.varden.info
+raw.githubusercontent.com
+github.com

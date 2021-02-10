@@ -4,6 +4,7 @@
  */ 
 
 #priority 32200
+#no_fix_recipe_book
 
 function isPatreon(name as string) as bool {
     if(isNull(patreonList["patreons"])) {

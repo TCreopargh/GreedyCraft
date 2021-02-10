@@ -4,6 +4,7 @@
  */
 
 #priority 90
+#no_fix_recipe_book
 
 #packmode adventure expert
 
@@ -24,6 +25,7 @@ import crafttweaker.potions.IPotionEffect;
 import crafttweaker.util.Position3f;
 import crafttweaker.world.IBlockPos;
 import crafttweaker.world.IFacing;
+import crafttweaker.text.ITextComponent;
 
 import mods.ctutils.utils.Math;
 import mods.ctutils.world.IGameRules;
@@ -73,7 +75,7 @@ for mod in disallowedMods {
 events.onPlayerLoggedIn(function (event as PlayerLoggedInEvent) {
     var player as IPlayer = event.player;
     if(badModLoaded()) {
-        player.sendChat(game.localize("greedycraft.event.anticheat.pls_remove"));
+        player.sendRichTextMessage(ITextComponent.fromTranslation("greedycraft.event.anticheat.pls_remove"));
         for mod in disallowedMods {
             if(loadedMods has mod) {
                 player.sendChat("§b" + loadedMods[mod].name + "  §e" + loadedMods[mod].version);

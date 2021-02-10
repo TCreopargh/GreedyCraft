@@ -6,6 +6,7 @@
 #loader contenttweaker 
 
 #priority 2201
+#no_fix_recipe_book
 
 import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.game.IGame;

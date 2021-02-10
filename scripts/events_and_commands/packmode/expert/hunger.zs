@@ -4,6 +4,7 @@
  */ 
 
 #priority 80
+#no_fix_recipe_book
 #packmode expert
 
 import crafttweaker.player.IFoodStats;
@@ -11,6 +12,7 @@ import crafttweaker.event.PlayerLoggedInEvent;
 import crafttweaker.player.IPlayer;
 import crafttweaker.event.IPlayerEvent;
 import crafttweaker.server.IServer;
+import crafttweaker.text.ITextComponent;
 
 import mods.ctutils.utils.Math;
 import mods.hungertweaker.SaturatedRegen;
@@ -32,7 +34,7 @@ HungerEvents.onExhausted(function(event as mods.hungertweaker.events.ExhaustedEv
         event.deltaSaturation = 0;
         
     }else if(event.player.foodStats.foodLevel <= 6) {
-        event.player.server.commandManager.executeCommand(event.player.server, "/title " + event.player.name + " actionbar [\"\",{\"text\":\"" + game.localize("greedycraft.event.hunger.warning") + "\",\"color\":\"red\"},{\"text\":\": " + game.localize("greedycraft.event.hunger.low") + "\",\"color\":\"yellow\"}]");
+        event.player.sendRichTextStatusMessage(ITextComponent.fromData(["", {translate: "greedycraft.event.hunger.warning", color: "red"}, {"text":": "}, {translate: "greedycraft.event.hunger.low", color: "yellow"}]), true);
     } 
 });
 //Powered by TCreopargh
