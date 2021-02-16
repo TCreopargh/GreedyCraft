@@ -35,12 +35,6 @@
 		stage: "twilight_forest"
 	},
 	{
-		uid: "882d57a5",
-		type: "command",
-		auto: "no_toast",
-		command: "/scalinghealth difficulty set 20 @p"
-	},
-	{
 		uid: "a61eba16",
 		type: "advancement",
 		advancement: "twilightforest:root",

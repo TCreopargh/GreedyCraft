@@ -1,0 +1,10 @@
+{
+  "name": "§c灵梦的御币",
+  "tooltip": [
+    "§e博丽神社代代相传下来的御币，在灵梦手里似乎发生了一些变化，没过一段时间就会生成长长一截，有望在接下来几部作品里成为长枪（bushi），物理驱魔必备",
+    "§b§o赞助者物品 by 院长Nelson"
+  ],
+  "max_stack": 1,
+  "material": "ADDITIONS-TCSPONSORS-DRAGON_ASPECT",
+  "type": "additions:sword"
+}

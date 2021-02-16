@@ -171,6 +171,7 @@ RecipeUtil.addShapeless("clear_rock_crystal_nbt", <astralsorcery:itemrockcrystal
 RecipeUtil.addShapeless("solarium_star", <additions:greedycraft-solarium_star>, [<additions:greedycraft-broken_solarium_star>, <additions:greedycraft-solar_seed>]);
 RecipeUtil.addShapeless("slimeball_convert", <minecraft:slime_ball>, [<ore:slimeball>]);
 RecipeUtil.addShapeless("openblocks_elevator_rotating", <openblocks:elevator_rotating>, [<openblocks:elevator:*>, <minecraft:compass>]);
+RecipeUtil.addShapeless("flax_to_string", <minecraft:string> * 2, [<harvestcraft:flaxitem>, <harvestcraft:flaxitem>, <harvestcraft:flaxitem>]);
 
 /* Template
 

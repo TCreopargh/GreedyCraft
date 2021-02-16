@@ -7,14 +7,7 @@
 		uid: "f0a0c9c5",
 		type: "item",
 		items: [{
-			id: "ironbackpacks:backpack",
-			tag: {
-				packInfo: {
-					upgrade: [],
-					type: "ironbackpacks:basic",
-					spec: "NONE"
-				}
-			}
+			id: "simplybackpacks:epicbackpack"
 		}],
 		ignore_nbt: 1b
 	}],

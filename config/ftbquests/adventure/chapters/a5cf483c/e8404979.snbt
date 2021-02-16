@@ -41,7 +41,7 @@
 		uid: "b8249b16",
 		type: "item",
 		item: "minecraft:glass",
-		count: 640
+		count: 256
 	},
 	{
 		uid: "88fc5903",

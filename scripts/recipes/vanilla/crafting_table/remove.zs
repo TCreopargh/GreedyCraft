@@ -359,7 +359,22 @@ val removedRecipes as IIngredient[] = [
     <actuallyadditions:item_growth_ring>,
     <tconstruct:throwball:1>,
     <openblocks:elevator:*>,
-    <openblocks:elevator_rotating:*>
+    <openblocks:elevator_rotating:*>,
+    <extrautils2:bagofholding>,    
+    <forestry:forester_bag_t2>,
+    <forestry:apiarist_bag>,
+    <forestry:lepidopterist_bag>,
+    <forestry:miner_bag>,
+    <forestry:miner_bag_t2>,
+    <forestry:digger_bag>,
+    <forestry:forester_bag>,
+    <forestry:digger_bag_t2>,
+    <forestry:adventurer_bag>,
+    <forestry:builder_bag>,
+    <forestry:hunter_bag>,
+    <forestry:adventurer_bag_t2>,
+    <forestry:builder_bag_t2>,
+    <forestry:hunter_bag_t2>
 ];
 
 val removedRecipeNames as string[] = [
@@ -382,7 +397,8 @@ val removedRecipeNames as string[] = [
     "botania:flighttiara_7",
     "botania:flighttiara_8",
     "extrabotany:recipe_coregod",
-    "natura:common/string"
+    "natura:common/string",
+    "harvestcraft:string_cropflax"
 ];
 
 for ingredient in removedRecipes {

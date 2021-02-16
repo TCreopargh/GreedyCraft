@@ -22,13 +22,13 @@
 		uid: "a7c0f65a",
 		type: "item",
 		item: "draconicevolution:awakened_core",
-		count: 32
+		count: 6
 	},
 	{
 		uid: "260a90cd",
 		type: "item",
 		item: "minecraft:nether_star",
-		count: 128
+		count: 32
 	},
 	{
 		uid: "caef33a8",

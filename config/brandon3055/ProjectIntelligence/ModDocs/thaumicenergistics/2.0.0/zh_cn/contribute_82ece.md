@@ -1,0 +1,1 @@
+对于想要为Thaumic Energistics做出贡献的人，你可以在 §link[https://github.com/Nividica/ThaumicEnergistics]{alt_text:"Github",colour:0x4444FF,colour_hover:0xFF69B4}上PR，或者你可以补充这个文档，请参阅§link[projectintelligence:contribute]{alt_text:"关于"}。

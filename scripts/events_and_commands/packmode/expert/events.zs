@@ -8,7 +8,7 @@
 #packmode expert
 
 events.onWorldTick(function(event as crafttweaker.event.WorldTickEvent) {
-    if(event.world.getWorldTime() as long % 100 == 0 && event.phase == "END" && event.side == "SERVER") {
+    if (event.world.getWorldTime() as long % 100 == 0 && event.phase == "END" && event.side == "SERVER") {
         event.world.setOrCreateGameRule("keepInventory", "false");
     }
 });

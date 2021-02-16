@@ -94,9 +94,9 @@ static itemBlacklist as IItemStack[] = [
 function isBlacklisted(target as IItemStack) as bool {
 
     for item in itemBlacklist {
-        if(target.definition.id == item.definition.id && target.metadata == item.metadata) {
-            if(!isNull(item.tag)) {
-                if(item.tag as IData == target.tag as IData) {
+        if (target.definition.id == item.definition.id && target.metadata == item.metadata) {
+            if (!isNull(item.tag)) {
+                if (item.tag as IData == target.tag as IData) {
                     return true;
                 }
             } else {

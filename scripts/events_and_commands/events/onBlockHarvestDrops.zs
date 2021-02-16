@@ -22,16 +22,29 @@ import crafttweaker.potions.IPotionEffect;
 import crafttweaker.world.IFacing;
 import crafttweaker.command.ICommandSender;
 import crafttweaker.event.BlockHarvestDropsEvent;
+import crafttweaker.world.IBiome;
+import crafttweaker.world.IBiomeType;
 
 import mods.ctutils.utils.Math;
 import mods.ctutils.world.IGameRules;
 
+function isOcean(biome as IBiome) as bool {
+    //return biome.name.contains("Ocean") || biome.name.contains("Coral Reef") || biome.name.contains("Kelp Forest");
+    //return <biomeTypes:OCEAN>.biomes has biome;
+    for oceanBiome in <biomeTypes:OCEAN>.biomes {
+        if (biome.name == oceanBiome.name) {
+            return true;
+        }
+    }
+    return false;
+}
+
 events.onBlockHarvestDrops(function(event as BlockHarvestDropsEvent) {
-    if(event.isPlayer) {
+    if (event.isPlayer) {
         var player as IPlayer = event.player;
 
         // Broken blocks in ocean are filled with water 
-        if(!isNull(player) && !player.creative && (event.world.getBiome(event.position).name.contains("Ocean") || event.world.getBiome(event.position).name.contains("Coral Reef")) && event.y < 40.0) {
+        if (!isNull(player) && !player.creative && isOcean(event.world.getBiome(event.position)) && event.y < 40.0) {
             var blockState as IBlockState = IBlockState.getBlockState("minecraft:water", [] as string[]);
             event.world.setBlockState(blockState, event.position as IBlockPos);
         }

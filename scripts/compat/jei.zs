@@ -47,7 +47,16 @@ val descriptions as string[][IIngredient] = {
     <defiledlands:essence_destroyer>: [game.localize("greedycraft.jei.defiledlands.essence_destroyer.desc.0")],
     <defiledlands:essence_mourner>: [game.localize("greedycraft.jei.defiledlands.essence_mourner.desc.0")],
     <nyx:meteor_ingot>: [game.localize("greedycraft.jei.nyx.meteor_ingot.desc.0")],
-    <additions:netherite_scrap>: [game.localize("greedycraft.jei.additions.greedycraft_netherite_scrap.desc.0")]
+    <additions:netherite_scrap>: [game.localize("greedycraft.jei.additions.greedycraft_netherite_scrap.desc.0")],
+    <tofucraft:nigari>: [game.localize("greedycraft.jei.tofucraft.nigari.desc.0")],
+    <tofucraft:tofu_food:0>: [game.localize("greedycraft.jei.tofucraft.tofukinu.desc.0")],
+    <tofucraft:tofu_food:1>: [game.localize("greedycraft.jei.tofucraft.tofumomen.desc.0")],
+    <tofucraft:tofu_food:2>: [game.localize("greedycraft.jei.tofucraft.tofuishi.desc.0")],
+    <tofucraft:tofu_material>: [game.localize("greedycraft.jei.tofucraft.tofumetal.desc.0")],
+    <tofucraft:blocktofukinu>: [game.localize("greedycraft.jei.tofucraft.tofukinu.desc.0")],
+    <tofucraft:blocktofumomen>: [game.localize("greedycraft.jei.tofucraft.tofumomen.desc.0")],
+    <tofucraft:blocktofuishi>: [game.localize("greedycraft.jei.tofucraft.tofuishi.desc.0")],
+    <tofucraft:blocktofumetal>: [game.localize("greedycraft.jei.tofucraft.tofumetal.desc.0")]
 };
 
 val hides as IIngredient[] = [

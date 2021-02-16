@@ -256,7 +256,13 @@ val emcMapping as long[IIngredient] = {
     <additions:aeonsteel_ingot:0> : 0 as long,
     <additions:durasteel_ingot:0> : 0 as long,
     <additions:chromasteel_ingot:0> : 0 as long,
-    <additions:netherite_ingot:0> : 160000 as long
+    <additions:netherite_ingot:0> : 160000 as long,
+    <extrautils2:compressedcobblestone:*> : 0 as long,
+    <extrautils2:compresseddirt:*> : 0 as long,
+    <extrautils2:compressedsand:*> : 0 as long,
+    <extrautils2:compressedgravel:*> : 0 as long,
+    <extrautils2:compressednetherrack:*> : 0 as long,
+    <thaumcraft:primordial_pearl:*> : 0 as long
 };
 
 for ingredient, value in emcMapping {

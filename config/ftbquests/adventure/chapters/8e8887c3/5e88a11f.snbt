@@ -23,7 +23,7 @@
 		uid: "8b8f6408",
 		type: "item",
 		item: "draconicevolution:wyvern_core",
-		count: 2
+		count: 1
 	},
 	{
 		uid: "1bf6b9c6",
@@ -35,11 +35,5 @@
 		type: "gamestage",
 		auto: "no_toast",
 		stage: "wyvern"
-	},
-	{
-		uid: "d91080a4",
-		type: "command",
-		auto: "no_toast",
-		command: "/scalinghealth difficulty set 750 @p"
 	}]
 }

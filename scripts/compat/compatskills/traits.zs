@@ -18,9 +18,9 @@ bloodlust.description = game.localize("greedycraft.compatskills.traits.bloodlust
 bloodlust.changeIcon("greedycraft:skills/bloodlust.png");
 bloodlust.setEnabled(true);
 bloodlust.onKillMob = function(event as crafttweaker.event.EntityLivingDeathEvent) {
-    if(Math.random() as double < 0.2) {
+    if (Math.random() as double < 0.2) {
         var damageSource as IDamageSource = event.damageSource;
-        if(damageSource.getTrueSource() instanceof IPlayer) {
+        if (damageSource.getTrueSource() instanceof IPlayer) {
             var player as IPlayer = damageSource.getTrueSource();
             player.addPotionEffect(<potion:minecraft:regeneration>.makePotionEffect(50, 0, false, false));
         }
@@ -33,8 +33,8 @@ fortified.description = game.localize("greedycraft.compatskills.traits.fortified
 fortified.changeIcon("greedycraft:skills/fortified.png");
 fortified.setEnabled(true);
 fortified.onHurt = function(event as crafttweaker.event.EntityLivingHurtEvent) {
-    if(event.entityLivingBase instanceof IPlayer && event.amount >= (3.0 as float)) {
-        if(Math.random() as double < 0.1) {
+    if (event.entityLivingBase instanceof IPlayer && event.amount >= (3.0 as float)) {
+        if (Math.random() as double < 0.1) {
             var player as IPlayer = event.entityLivingBase;
             player.addPotionEffect(<potion:minecraft:resistance>.makePotionEffect(50, 1, false, false));
         }
@@ -47,9 +47,9 @@ experience_grinder.description = game.localize("greedycraft.compatskills.traits.
 experience_grinder.changeIcon("greedycraft:skills/experience_grinder.png");
 experience_grinder.setEnabled(true);
 experience_grinder.onMobDrops = function(event as crafttweaker.event.EntityLivingDeathDropsEvent) {
-    if(Math.random() as double < 0.1) {
+    if (Math.random() as double < 0.1) {
         var damageSource as IDamageSource = event.damageSource;
-        if(damageSource.getTrueSource() instanceof IPlayer) {
+        if (damageSource.getTrueSource() instanceof IPlayer) {
             var amount as int = Math.ceil(Math.random() * 2) as int;
             event.addItem(<additions:greedycraft-experience_ingot> * amount);
         }
@@ -71,9 +71,9 @@ essence_reaper.description = game.localize("greedycraft.compatskills.traits.esse
 essence_reaper.changeIcon("greedycraft:skills/essence_reaper.png");
 essence_reaper.setEnabled(true);
 essence_reaper.onMobDrops = function(event as crafttweaker.event.EntityLivingDeathDropsEvent) {
-    if(Math.random() as double < 0.3) {
+    if (Math.random() as double < 0.3) {
         var damageSource as IDamageSource = event.damageSource;
-        if(damageSource.getTrueSource() instanceof IPlayer) {
+        if (damageSource.getTrueSource() instanceof IPlayer) {
             var amount as int = Math.ceil(Math.random() * 4) as int;
             event.addItem(<mysticalagriculture:crafting> * amount);
         }

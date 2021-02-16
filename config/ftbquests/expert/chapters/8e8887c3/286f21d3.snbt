@@ -26,11 +26,5 @@
 		type: "command",
 		title: "§e点击以领取你的§d百科全书§e！",
 		command: "/giveomnipedia @p"
-	},
-	{
-		uid: "7e16b587",
-		type: "command",
-		auto: "no_toast",
-		command: "/scalinghealth difficulty set 25 @p"
 	}]
 }

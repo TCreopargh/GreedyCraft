@@ -19,7 +19,7 @@
 		uid: "fb924376",
 		type: "item",
 		item: "minecraft:sand",
-		count: 640
+		count: 256
 	},
 	{
 		uid: "7d540c9d",

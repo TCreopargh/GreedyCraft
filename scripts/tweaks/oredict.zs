@@ -339,7 +339,9 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
     <ore:ingotSpectre> : [<randomthings:ingredient:3>],
     <ore:stringSpectre> : [<randomthings:ingredient:12>],
     <ore:prismarine> : [<ore:blockPrismarine>],
-    <ore:blockManaDiamond> : [<botania:storage:3>]
+    <ore:blockManaDiamond> : [<botania:storage:3>],
+    <ore:plantFiber> : [<ore:plantFibre>],
+    <ore:listAllFiber> : [<ore:plantFiber>]
 };
 
 var removeMap as IIngredient[][IOreDictEntry] = {
@@ -357,14 +359,14 @@ for oredict in removeMap {
 }
 
 for item in loadedMods["weeeflowers"].items {
-    if(item.definition.id.replace("weeeflowers", "").contains("flower")) {
+    if (item.definition.id.replace("weeeflowers", "").contains("flower")) {
         OredictUtil.addOredictIngredient(<ore:listAllflower>, item);
     }
 }
 
-if(loadedMods.contains("inventorypets")) {
+if (loadedMods.contains("inventorypets")) {
     for item in loadedMods["inventorypets"].items {
-        if(item.definition.id.endsWith("pet")) {
+        if (item.definition.id.endsWith("pet")) {
             OredictUtil.addOredictIngredient(<ore:inventoryPet>, item);
         }
     }

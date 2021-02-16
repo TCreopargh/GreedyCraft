@@ -28,7 +28,7 @@ val converterRecipes as ILiquidStack[][] = [
 ];
 
 for row in converterRecipes {
-    if(!(row.length >= 2)) {
+    if (!(row.length >= 2)) {
         break;
     }
     var inputStack = row[0] as ILiquidStack;

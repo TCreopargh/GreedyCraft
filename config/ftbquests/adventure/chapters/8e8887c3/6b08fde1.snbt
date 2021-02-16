@@ -23,7 +23,7 @@
 		uid: "46709af2",
 		type: "item",
 		item: "tconstruct:materials",
-		count: 640
+		count: 256
 	},
 	{
 		uid: "509581d3",
@@ -35,12 +35,6 @@
 		uid: "8a516d31",
 		type: "loot",
 		table: 0
-	},
-	{
-		uid: "f2e23f99",
-		type: "item",
-		item: "minecraft:gold_ore",
-		count: 12
 	},
 	{
 		uid: "36f49588",

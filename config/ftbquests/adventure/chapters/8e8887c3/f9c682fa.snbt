@@ -18,7 +18,7 @@
 		uid: "f14ea78e",
 		type: "item",
 		item: "tconstruct:materials",
-		count: 1280
+		count: 256
 	},
 	{
 		uid: "51d4ddb6",
@@ -28,6 +28,6 @@
 	{
 		uid: "c9c70f53",
 		type: "xp",
-		xp: 1000
+		xp: 500
 	}]
 }

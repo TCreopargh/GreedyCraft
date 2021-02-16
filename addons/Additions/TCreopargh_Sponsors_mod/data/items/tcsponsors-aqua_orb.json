@@ -1,0 +1,10 @@
+{
+  "name": "§b避水珠",
+  "shines": true,
+  "tooltip": [
+    "§9拿在手上持续获得水下呼吸效果",
+    "§b§o赞助者物品 by 微光厘尘"
+  ],
+  "max_stack": 1,
+  "type": "additions:simple"
+}

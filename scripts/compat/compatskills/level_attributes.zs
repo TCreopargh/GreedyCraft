@@ -57,7 +57,7 @@ static uuidMap as string[string] = {
 };
 
 function getLevel(level as int) as int {
-    if(level == 50) {
+    if (level == 50) {
         return 50;
     }
     return level - 1;
@@ -90,7 +90,7 @@ events.onPlayerTick(function(event as PlayerTickEvent) {
                     var attribute as AttributeInstance = player.getAttribute("generic.movementSpeed");
                     var amount as double = 0.01 * getLevel(level);
                     var modifier as AttributeModifier = AttributeModifier.createModifier("reskillable_skill_boost_" + skillName, amount, 1, uuid);
-                    if(!isNull(attribute.getModifier(uuid))) {
+                    if (!isNull(attribute.getModifier(uuid))) {
                         attribute.removeModifier(uuid);
                     }
                     attribute.applyModifier(modifier);
@@ -98,7 +98,7 @@ events.onPlayerTick(function(event as PlayerTickEvent) {
                     var attribute as AttributeInstance = player.getAttribute("generic.attackDamage");
                     var amount as double = 0.01 * getLevel(level);
                     var modifier as AttributeModifier = AttributeModifier.createModifier("reskillable_skill_boost_" + skillName, amount, 1, uuid);
-                    if(!isNull(attribute.getModifier(uuid))) {
+                    if (!isNull(attribute.getModifier(uuid))) {
                         attribute.removeModifier(uuid);
                     }
                     attribute.applyModifier(modifier);
@@ -106,7 +106,7 @@ events.onPlayerTick(function(event as PlayerTickEvent) {
                     var attribute as AttributeInstance = player.getAttribute("generic.armorToughness");
                     var amount as double = 0.2 * getLevel(level);
                     var modifier as AttributeModifier = AttributeModifier.createModifier("reskillable_skill_boost_" + skillName, amount, 0, uuid);
-                    if(!isNull(attribute.getModifier(uuid))) {
+                    if (!isNull(attribute.getModifier(uuid))) {
                         attribute.removeModifier(uuid);
                     }
                     attribute.applyModifier(modifier);
@@ -114,7 +114,7 @@ events.onPlayerTick(function(event as PlayerTickEvent) {
                     var attribute as AttributeInstance = player.getAttribute("generic.armor");
                     var amount as double = 0.5 * getLevel(level);
                     var modifier as AttributeModifier = AttributeModifier.createModifier("reskillable_skill_boost_" + skillName, amount, 0, uuid);
-                    if(!isNull(attribute.getModifier(uuid))) {
+                    if (!isNull(attribute.getModifier(uuid))) {
                         attribute.removeModifier(uuid);
                     }
                     attribute.applyModifier(modifier);
@@ -122,11 +122,11 @@ events.onPlayerTick(function(event as PlayerTickEvent) {
                     var attribute as AttributeInstance = player.getAttribute("generic.maxHealth");
                     var amount as double = 1.0 * getLevel(level);
                     var modifier as AttributeModifier = AttributeModifier.createModifier("reskillable_skill_boost_" + skillName, amount, 0, uuid);
-                    if(!isNull(attribute.getModifier(uuid))) {
+                    if (!isNull(attribute.getModifier(uuid))) {
                         attribute.removeModifier(uuid);
                     }
                     attribute.applyModifier(modifier);
-                    if(oldLevel != 0) {
+                    if (oldLevel != 0) {
                         player.health = player.health + (1.0 * (level - oldLevel)) as float;
                     } else {
                         player.health = player.health + (1.0 * getLevel(level)) as float;
@@ -135,7 +135,7 @@ events.onPlayerTick(function(event as PlayerTickEvent) {
                     var attribute as AttributeInstance = player.getAttribute("generic.luck");
                     var amount as double = 0.05 * getLevel(level);
                     var modifier as AttributeModifier = AttributeModifier.createModifier("reskillable_skill_boost_" + skillName, amount, 0, uuid);
-                    if(!isNull(attribute.getModifier(uuid))) {
+                    if (!isNull(attribute.getModifier(uuid))) {
                         attribute.removeModifier(uuid);
                     }
                     attribute.applyModifier(modifier);
@@ -143,7 +143,7 @@ events.onPlayerTick(function(event as PlayerTickEvent) {
                     var attribute as AttributeInstance = player.getAttribute("generic.attackSpeed");
                     var amount as double = 0.03 * getLevel(level);
                     var modifier as AttributeModifier = AttributeModifier.createModifier("reskillable_skill_boost_" + skillName, amount, 0, uuid);
-                    if(!isNull(attribute.getModifier(uuid))) {
+                    if (!isNull(attribute.getModifier(uuid))) {
                         attribute.removeModifier(uuid);
                     }
                     attribute.applyModifier(modifier);

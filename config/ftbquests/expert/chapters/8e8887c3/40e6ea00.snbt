@@ -1,13 +1,9 @@
-
 {
 	title: "{greedycraft.quest.40e6ea00.title}",
 	x: -6.0d,
 	y: -6.0d,
 	shape: "diamond",
 	description: "{greedycraft.quest.40e6ea00.desc}",
-	text: [
-		"启封之板可以用于解除“匠心之作”武器的封印，使用工具装配台安装即可"
-	],
 	dependencies: [
 		"851cec5e"
 	],
@@ -49,11 +45,6 @@
 		count: 2
 	},
 	{
-		uid: "f6578830",
-		type: "item",
-		item: "tconevo:material 1 2"
-	},
-	{
 		uid: "85fe7b1c",
 		type: "item",
 		item: "oeintegration:excavatemodifier",
@@ -63,13 +54,13 @@
 		uid: "708b0f80",
 		type: "item",
 		item: "tconstruct:materials 1 14",
-		count: 16
+		count: 1
 	},
 	{
 		uid: "ebe3412d",
 		type: "item",
 		item: "conarm:resist_mat",
-		count: 16
+		count: 1
 	},
 	{
 		uid: "8e5eedf8",

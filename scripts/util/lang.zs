@@ -20,7 +20,8 @@ static translations as string[string][string] = {
         "greedycraft.scoreboard.mode.expert": "§9Mode§7-§cExpert",
         "greedycraft.scoreboard.author": "§eBy§7-§dTCreopargh",
         "greedycraft.stage.unfamiliar.name": "§5§ka§r §dUnknown Item §5§ka§r",
-        "greedycraft.stage.wither_skull.name": "§cThe Cursed Skull"
+        "greedycraft.stage.wither_skull.name": "§cThe Cursed Skull",
+        "greedycraft.stage.disabled_item.name": "§4Disabled Item"
     }, 
     zh_cn: {
         "greedycraft.scoreboard.creative_mode": "§d§l创造模式",
@@ -32,16 +33,17 @@ static translations as string[string][string] = {
         "greedycraft.scoreboard.mode.expert": "§9游戏模式：§c专家",
         "greedycraft.scoreboard.author": "§eBy：§dTCreopargh",
         "greedycraft.stage.unfamiliar.name": "§5§ka§r §d未知物品 §5§ka§r",
-        "greedycraft.stage.wither_skull.name": "§c无法直视的头颅"
+        "greedycraft.stage.wither_skull.name": "§c无法直视的头颅",
+        "greedycraft.stage.disabled_item.name": "§4已禁用的物品"
     }
 };
 
 function getLanguage() as string {
     var lang as string = game.localize("greedycraft.language");
     var ret as string = "en_us";
-    if(isNull(lang) || lang == "greedycraft.language" || lang == "") {
-        if(DEFAULT_LANGUAGE.trim() == "") {
-            if(versionGroup == 0) {
+    if (isNull(lang) || lang == "greedycraft.language" || lang == "") {
+        if (DEFAULT_LANGUAGE.trim() == "") {
+            if (versionGroup == 0) {
                 ret = "zh_cn";
             } else {
                 ret = "en_us";
@@ -50,13 +52,13 @@ function getLanguage() as string {
             ret = DEFAULT_LANGUAGE.trim();
         }
     } else {
-        if(DEFAULT_LANGUAGE.trim() == "") {
+        if (DEFAULT_LANGUAGE.trim() == "") {
             ret = lang;
         } else {
             ret = DEFAULT_LANGUAGE.trim();
         }
     }
-    if(!(SUPPORTED_LANGUAGES has ret)) {
+    if (!(SUPPORTED_LANGUAGES has ret)) {
         return "en_us";
     }
     return ret;
@@ -64,14 +66,14 @@ function getLanguage() as string {
 
 function translate(key as string) as string {
     var lang = getLanguage();
-    if(translations has lang) {
-        if(translations[lang] has key) {
+    if (translations has lang) {
+        if (translations[lang] has key) {
             return translations[lang][key];
         } else {
             return game.localize(key);
         }
     } else {
-        if(translations["en_us"] has key) {
+        if (translations["en_us"] has key) {
             return translations["en_us"][key];
         } else {
             return game.localize(key);
@@ -81,14 +83,14 @@ function translate(key as string) as string {
 
 function format(key as string, obj as string) as string {
     var lang = getLanguage();
-    if(translations has lang) {
-        if(translations[lang] has key) {
+    if (translations has lang) {
+        if (translations[lang] has key) {
             return translations[lang][key].replace("%s", obj);
         } else {
             return I18n.format(key, obj);
         }
     } else {
-        if(translations["en_us"] has key) {
+        if (translations["en_us"] has key) {
             return translations["en_us"][key].replace("%s", obj);
         } else {
             return I18n.format(key, obj);
@@ -98,8 +100,8 @@ function format(key as string, obj as string) as string {
 
 function formatArray(key as string, objects as string[]) as string {
     var lang = getLanguage();
-    if(translations has lang) {
-        if(translations[lang] has key) {
+    if (translations has lang) {
+        if (translations[lang] has key) {
             var str as string = translations[lang][key];
             for obj in objects {
                 str = str.replaceFirst("%s", obj);
@@ -109,7 +111,7 @@ function formatArray(key as string, objects as string[]) as string {
             return I18n.format(key, objects);
         }
     } else {
-        if(translations["en_us"] has key) {
+        if (translations["en_us"] has key) {
             var str as string = translations["en_us"][key];
             for obj in objects {
                 str = str.replaceFirst("%s", obj);

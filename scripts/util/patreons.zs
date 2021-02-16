@@ -7,7 +7,7 @@
 #no_fix_recipe_book
 
 function isPatreon(name as string) as bool {
-    if(isNull(patreonList["patreons"])) {
+    if (isNull(patreonList["patreons"])) {
         return false;
     } else {
         return (patreonList["patreons"] as string[]) has name;

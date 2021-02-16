@@ -52,7 +52,7 @@ val slimeTables as string[] = [
     "betterslimes:yellow_slime"
 ];
 
-LootTweaker.getTable("minecraft:entities/husk").getPool("bountifulbaubles_husk").removeEntry("bountifulbaubles:apple");
+// LootTweaker.getTable("minecraft:entities/husk").getPool("bountifulbaubles_husk").removeEntry("bountifulbaubles:apple");
 
 LootTweaker.getTable("betterslimes:quazar").getPool("main").setRolls(1.0, 1.0);
 LootTweaker.getTable("betterslimes:quazar").getPool("main").setBonusRolls(0.0, 0.0);
@@ -80,7 +80,7 @@ LootTweaker.getTable("mowziesmobs:entities/ferrous_wroughtnaut").getPool("main")
 LootTweaker.getTable("mowziesmobs:entities/ferrous_wroughtnaut").getPool("main").addItemEntryHelper(<minecraft:iron_ingot>, 1, 1, [Functions.setCount(32, 64)], []);
 LootTweaker.getTable("mowziesmobs:entities/ferrous_wroughtnaut").getPool("main").addLootTableEntryHelper("minecraft:chests/simple_dungeon", 1, 1, [Conditions.killedByPlayer()]);
 
-if(CalendarUtil.isChristmas()) {
+if (CalendarUtil.isChristmas()) {
     for mob in mobList {
         var table as LootTable = LootTweaker.getTable("minecraft:entities/" + mob);
         var pool as LootPool = table.addPool("christmas_gift", 1, 1, 0, 0);
@@ -89,7 +89,7 @@ if(CalendarUtil.isChristmas()) {
     }
 }
 
-if(CalendarUtil.isLunarNewYear()) {
+if (CalendarUtil.isLunarNewYear()) {
     for mob in mobList {
         var table as LootTable = LootTweaker.getTable("minecraft:entities/" + mob);
         var pool as LootPool = table.addPool("red_envelope", 1, 1, 0, 0);

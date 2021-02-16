@@ -1,0 +1,1 @@
+访问§stack[enderio:block_travel_anchor]{size:9,enable_tooltip:false}§link[enderio:travel_accessable]{alt_text:"旅行锚"} 或者 §stack[enderio:block_tele_pad]{size:9,enable_tooltip:false}§link[enderio:tele_pad]{alt_text:"传送台"} 需要提供凭据。

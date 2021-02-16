@@ -1,4 +1,3 @@
-
 {
 	title: "{greedycraft.quest.5686a86a.title}",
 	x: 0.0d,
@@ -19,7 +18,7 @@
 		uid: "930a59c9",
 		type: "item",
 		item: "minecraft:gold_ore",
-		count: 16
+		count: 4
 	},
 	{
 		uid: "f3864c84",
@@ -30,13 +29,13 @@
 		uid: "19fc5102",
 		type: "item",
 		item: "tconstruct:materials",
-		count: 640
+		count: 256
 	},
 	{
 		uid: "75cb0e9c",
 		type: "item",
 		item: "tconstruct:materials 1 14",
-		count: 4
+		count: 1
 	},
 	{
 		uid: "d50dc7f0",

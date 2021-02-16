@@ -40,16 +40,16 @@ events.onPlayerLoggedIn(function (event as PlayerLoggedInEvent) {
 
     var player as IPlayer = event.player;
 
-    if(player.hasGameStage("truehero") && !player.hasGameStage("iswuss")) {
+    if (player.hasGameStage("truehero") && !player.hasGameStage("iswuss")) {
         player.sendRichTextMessage(ITextComponent.fromTranslation("greedycraft.event.true_hero.join", player.name));
-    } else if(player.hasGameStage("iswuss")) {
+    } else if (player.hasGameStage("iswuss")) {
         server.commandManager.executeCommand(server, "/broadcast " + I18n.format("greedycraft.event.in_cheat.broadcast", player.name));
         player.sendRichTextMessage(ITextComponent.fromTranslation("greedycraft.event.in_cheat.chat"));
-        if(player.creative) {
+        if (player.creative) {
             player.addGameStage("creative");
         }
-    } else if(player.creative) {
-        if(!player.hasGameStage("truehero")) {
+    } else if (player.creative) {
+        if (!player.hasGameStage("truehero")) {
             player.addGameStage("creative");
             server.commandManager.executeCommand(server, "/broadcast " + I18n.format("greedycraft.event.in_cheat.broadcast", player.name));
             server.commandManager.executeCommand(server, "/gamestage add " + player.name + " iswuss");
@@ -61,27 +61,27 @@ events.onPlayerLoggedIn(function (event as PlayerLoggedInEvent) {
     server.commandManager.executeCommand(server, "/sendwelcomequote " + player.name);
 
     //Patreon join notification
-    if(player.hasGameStage("truehero")) {
+    if (player.hasGameStage("truehero")) {
         server.commandManager.executeCommand(server, "/broadcast " + I18n.format("greedycraft.event.executor.welcome", player.name));
-    } else if(PatreonUtil.isPatreon(player.name)) {
+    } else if (PatreonUtil.isPatreon(player.name)) {
         server.commandManager.executeCommand(server, "/broadcast " + I18n.format("greedycraft.event.sponsor.welcome", player.name));
     }
 
-    if(!player.hasGameStage("first_join_message_shown")) {
+    if (!player.hasGameStage("first_join_message_shown")) {
         server.commandManager.executeCommand(server, "/sendfirstjoinmessage " + player.name);
         player.addGameStage("first_join_message_shown");
     } else {
         var playerName as ITextComponent = ITextComponent.fromData(["", {text: player.name, color: "yellow"}]);
-        if(PatreonUtil.isPatreon(player.name)) {
+        if (PatreonUtil.isPatreon(player.name)) {
             playerName = ITextComponent.fromData(["", {translate: "greedycraft.event.sponsor.title", color: "green"}, {text: player.name, color: "yellow"}]);
         }
-        if(CalendarUtil.isChristmas()) {
+        if (CalendarUtil.isChristmas()) {
             player.sendRichTextMessage(ITextComponent.fromTranslation("greedycraft.event.welcome.christmas", playerName.formattedText));
-        } else if(CalendarUtil.isHalloween()) {
+        } else if (CalendarUtil.isHalloween()) {
             player.sendRichTextMessage(ITextComponent.fromTranslation("greedycraft.event.welcome.halloween", playerName.formattedText));
-        } else if(CalendarUtil.isNewYear()) {
+        } else if (CalendarUtil.isNewYear()) {
             player.sendRichTextMessage(ITextComponent.fromTranslation("greedycraft.event.welcome.new_year", [DateUtil.now().year, playerName.formattedText] as string[]));
-        } else if(CalendarUtil.isLunarNewYear()) {
+        } else if (CalendarUtil.isLunarNewYear()) {
             player.sendRichTextMessage(ITextComponent.fromTranslation("greedycraft.event.welcome.lunar_new_year", playerName.formattedText));
         } else {
             player.sendRichTextMessage(ITextComponent.fromTranslation("greedycraft.event.welcome.general", playerName.formattedText));

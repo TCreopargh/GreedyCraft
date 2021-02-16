@@ -31,7 +31,7 @@ val names as string[IItemStack] = {
     <mysticalcreations:fusion_matrix_seeds> : "聚合矩阵种子"
 } as string[IItemStack];
 
-if(LangUtil.getLanguage() == "zh_cn") {
+if (LangUtil.getLanguage() == "zh_cn") {
     for item in names {
         var name as string = names[item] as string;
         item.displayName = name;

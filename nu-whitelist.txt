@@ -31,3 +31,4 @@ optifine.net
 api.varden.info
 raw.githubusercontent.com
 github.com
+pi.brandon3055.com

@@ -35,7 +35,7 @@
 		uid: "31953bd2",
 		type: "item",
 		item: "draconicevolution:awakened_core",
-		count: 16
+		count: 4
 	},
 	{
 		uid: "55bcbb84",
@@ -53,11 +53,5 @@
 		type: "gamestage",
 		auto: "no_toast",
 		stage: "chaotic_dominator"
-	},
-	{
-		uid: "539265f4",
-		type: "command",
-		auto: "no_toast",
-		command: "/scalinghealth difficulty set 1200 @p"
 	}]
 }

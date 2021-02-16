@@ -69,11 +69,5 @@
 		title: "另一个提醒",
 		auto: "enabled",
 		command: "/tellraw @p {\"text\":\"§2§o你的世界生成了新的矿石！\"}"
-	},
-	{
-		uid: "c3667798",
-		type: "command",
-		auto: "no_toast",
-		command: "/scalinghealth difficulty set 640 @p"
 	}]
 }

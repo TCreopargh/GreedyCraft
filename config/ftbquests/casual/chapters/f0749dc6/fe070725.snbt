@@ -30,7 +30,7 @@
 		item: {
 			id: "cyclicmagic:soulstone"
 		},
-		count: 32
+		count: 8
 	},
 	{
 		uid: "37f559b3",
@@ -41,12 +41,8 @@
 	{
 		uid: "8c95e777",
 		type: "item",
-		item: {
-			id: "bountifulbaubles:shieldankh",
-			tag: {
-				HideFlags: 2
-			}
-		}
+		item: "torchmaster:mega_torch",
+		count: 20
 	},
 	{
 		uid: "afa7ee85",

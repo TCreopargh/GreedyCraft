@@ -272,6 +272,16 @@
                     "type": "item",
                     "name": "additions:tcsponsors-old_cloak",
                     "weight": 1
+                },
+				{
+                    "type": "item",
+                    "name": "additions:tcsponsors-gohei",
+                    "weight": 1
+                },
+				{
+                    "type": "item",
+                    "name": "additions:tcsponsors-aqua_orb",
+                    "weight": 1
                 }
             ]
         }

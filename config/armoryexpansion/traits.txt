@@ -83,6 +83,7 @@
   "duritos_ranch_armor",
   "tconevo.electric_armor",
   "tconevo.fae_voice_armor",
+  "bloodlust",
   "milky_armor",
   "congenial",
   "launching",

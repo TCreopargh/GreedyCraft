@@ -24,11 +24,5 @@
 		uid: "45510853",
 		type: "xp",
 		xp: 1000
-	},
-	{
-		uid: "6cb2a4a1",
-		type: "command",
-		auto: "no_toast",
-		command: "/scalinghealth difficulty set 128 @p"
 	}]
 }

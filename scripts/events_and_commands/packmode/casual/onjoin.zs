@@ -10,7 +10,7 @@
 import crafttweaker.text.ITextComponent;
 
 events.onPlayerLoggedIn(function (event as crafttweaker.event.PlayerLoggedInEvent) {
-    if(event.player.hasGameStage("expert") || event.player.hasGameStage("adventure")) {
+    if (event.player.hasGameStage("expert") || event.player.hasGameStage("adventure")) {
         event.player.sendRichTextMessage(ITextComponent.fromTranslation("greedycraft.event.packmode_changed.chat"));
         server.commandManager.executeCommand(server, "/title " + event.player.name + " times 40 120 40");
         server.commandManager.executeCommand(server, "/title " + event.player.name + " subtitle  {\"text\":\"" + game.localize("greedycraft.event.packmode_changed.title") + "\"}");

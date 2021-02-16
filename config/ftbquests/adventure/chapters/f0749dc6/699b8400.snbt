@@ -22,7 +22,7 @@
 		uid: "3cc8ff11",
 		type: "item",
 		item: "minecraft:nether_star",
-		count: 15
+		count: 3
 	},
 	{
 		uid: "9bc95b98",

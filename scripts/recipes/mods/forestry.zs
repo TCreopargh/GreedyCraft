@@ -764,7 +764,7 @@ for seed in seedRecipes {
     recipes.remove(seed);
     var baseItemName as string = game.localize("greedycraft.mysticalagriculture.base_item");
     var grid as IIngredient[][] = seedRecipes[seed] as IIngredient[][];
-    if(grid.length > 0 && grid[0].length > 0) {
+    if (grid.length > 0 && grid[0].length > 0) {
         baseItemName = grid[0][0].items[0].displayName;
     }
     seed.addTooltip(I18n.format("greedycraft.mysticalagriculture.seed_tooltip", baseItemName));
@@ -773,17 +773,17 @@ for seed in seedRecipes {
     var fluid = [600, 750, 900, 1200, 1600, 2400, 10000] as int[];
     var fertilizer = [<thermalfoundation:fertilizer>, <thermalfoundation:fertilizer>, <thermalfoundation:fertilizer:1>, <thermalfoundation:fertilizer:1>, <thermalfoundation:fertilizer:2>, <thermalfoundation:fertilizer:2>, <mysticalagriculture:mystical_fertilizer>] as IItemStack[];
     var tier = 0;
-    if(<ore:seedsTier1> has seed) {
+    if (<ore:seedsTier1> has seed) {
         tier = 1;
-    } else if(<ore:seedsTier2> has seed) {
+    } else if (<ore:seedsTier2> has seed) {
         tier = 2;
-    } else if(<ore:seedsTier3> has seed) {
+    } else if (<ore:seedsTier3> has seed) {
         tier = 3;
-    } else if(<ore:seedsTier4> has seed) {
+    } else if (<ore:seedsTier4> has seed) {
         tier = 4;
-    } else if(<ore:seedsTier5> has seed) {
+    } else if (<ore:seedsTier5> has seed) {
         tier = 5;
-    } else if(<ore:seedsTier6> has seed) {
+    } else if (<ore:seedsTier6> has seed) {
         tier = 6;
     }
     mods.forestry.Carpenter.addRecipe(seed, grid, time[tier], <liquid:organic_fluid> * fluid[tier], fertilizer[tier]);

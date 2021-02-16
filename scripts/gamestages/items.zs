@@ -61,7 +61,17 @@ GameStagesUtil.stageGettingStarted.addIngredients([
     <minecraft:golden_axe>,
     <minecraft:iron_axe>,
     <ore:cobblestone>,
-    <minecraft:golden_axe>
+    <minecraft:golden_axe>,
+    <tconstruct:tooltables:*>,
+    <tconstruct:tooltables:2>,
+    <tconstruct:tooltables:2>.withTag({textureBlock: {id: "minecraft:log", Count: 1 as byte, Damage: 0 as short}}),
+    <conarm:armorstation>,
+    <tconstruct:tooltables>,
+    <tconstruct:tooltables:1>,
+    <tconstruct:tooltables:1>.withTag({textureBlock: {id: "minecraft:planks", Count: 1 as byte, Damage: 0 as short}}),
+    <tconstruct:tooltables:5>,
+    <tconstruct:tooltables:3>,
+    <tconstruct:tooltables:4>
 ], true);
 
 GameStagesUtil.stageGettingStarted.addIngredients([
@@ -305,7 +315,8 @@ GameStagesUtil.stageNether.addIngredients([
     <modularmachinery:blockcasing:2>,
     <ore:ingotDurasteel>,
     <ore:blockDurasteel>,
-    <openmodularturrets:turret_base:2>
+    <openmodularturrets:turret_base:2>,
+    <minecraft:quartz>.withTag({display: {Lore: ["§5§lEPIC"],Name: "§5Overflux Capacitor"}})
 ], true);
 
 GameStagesUtil.stageNether.addIngredients([

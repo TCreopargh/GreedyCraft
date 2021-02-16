@@ -36,21 +36,21 @@ static blacklist as string[] = [
 
 events.onEntityJoinWorld(function(event as EntityJoinWorldEvent) {
 
-    if(isNull(event.entity) || !(event.entity instanceof IEntityLivingBase)) {
+    if (isNull(event.entity) || !(event.entity instanceof IEntityLivingBase)) {
         return;
     }
 
     var living as IEntityLivingBase = event.entity;
 
-    if(living instanceof IPlayer || isNull(living) || isNull(living.definition)) {
+    if (living instanceof IPlayer || isNull(living) || isNull(living.definition)) {
         return;
     }
 
-    if(!(blacklist has living.definition.id)) {
-        if(living.isBoss && living.definition.id.toLowerCase().contains("cqrepoured")) {
+    if (!(blacklist has living.definition.id)) {
+        if (living.isBoss && living.definition.id.toLowerCase().contains("cqrepoured")) {
             var uuid as string = "53283e25-869f-48a5-9bef-bb7880387b89";
             var attribute as AttributeInstance = living.getAttribute("generic.maxHealth");
-            if(isNull(attribute.getModifier(uuid))) {
+            if (isNull(attribute.getModifier(uuid))) {
                 var modifier as AttributeModifier = AttributeModifier.createModifier("cqr_boss_health_boost", 1.0, 1, uuid);
                 attribute.applyModifier(modifier);
                 living.health = living.maxHealth;

@@ -57,11 +57,5 @@
 		type: "gamestage",
 		auto: "no_toast",
 		stage: "nether"
-	},
-	{
-		uid: "0f0b1a88",
-		type: "command",
-		auto: "no_toast",
-		command: "/scalinghealth difficulty set 100 @p"
 	}]
 }
