@@ -168,7 +168,8 @@ val localizationMap as string[string][string] = {
         "reskillable.skill.reskillable.farming": "农耕 §7[§2+生命§7]§r",
         "reskillable.skill.reskillable.agility": "敏捷 §7[§2+移速§7]§r",
         "reskillable.skill.reskillable.magic": "魔法 §7[§2+经验§7]§r",
-        "message.died": "§e%s §7逝世于 %s §9(破坏坟墓以取回物品)"
+        "message.died": "§e%s §7逝世于 %s §9(破坏坟墓以取回物品)",
+        "death.attack.outOfWorld": "实体%1$s被从埃拉西亚公共界面移除"
     }, 
     en_us: {
         "modifier.mutate.name": "Mutating",
@@ -241,7 +242,8 @@ val localizationMap as string[string][string] = {
         "reskillable.skill.reskillable.agility": "Agility §7[§2+Speed§7]§r",
         "reskillable.skill.reskillable.magic": "Magic §7[§2+XPGain§7]§r",
         "message.died": "§e%s §7Died on §a%s §9(Break the grave to retrieve items)",
-        "pouchofunknown.destroy_message": "The %s you have just picked up has been destroyed. %sTo hold this item either acquire the required game stage or keep a §dPouch of Unknown§e in your inventory to hold it."
+        "pouchofunknown.destroy_message": "The %s you have just picked up has been destroyed. %sTo hold this item either acquire the required game stage or keep a §dPouch of Unknown§e in your inventory to hold it.",
+        "death.attack.outOfWorld": "Entity %1$s was removed from the Elysian Public Interface"
     }
 };
 

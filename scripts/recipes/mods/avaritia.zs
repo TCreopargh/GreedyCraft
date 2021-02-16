@@ -24,10 +24,10 @@ var counter = 0;
 var row as IIngredient[] = [];
 for i in 0 to 81 {
     var item as IIngredient = null;
-    if(i < catalystRecipe.length) {
+    if (i < catalystRecipe.length) {
         item = catalystRecipe[i];
     }
-    if(counter == 9) {
+    if (counter == 9) {
         counter = 0;
         ingredients += row;
         row = [];

@@ -29,10 +29,21 @@ import mods.ctutils.world.IGameRules;
 events.onEntityLivingUpdate(function(event as EntityLivingUpdateEvent) {
     var entity as IEntityLivingBase = event.entityLivingBase;
 
+    // Fix entities having too much speed
+    if (entity.motionX > 9.0) {
+        entity.motionX = 8.0;
+    }
+    if (entity.motionY > 9.0) {
+        entity.motionY = 8.0;
+    }
+    if (entity.motionZ > 9.0) {
+        entity.motionZ = 8.0;
+    }
+
     // Prevent ur ghast from despawning
-    if(entity.world.getWorldTime() % 20 == 0) {
-        if(entity.isBoss) {
-            if(entity.y > 255.0) {
+    if (entity.world.getWorldTime() % 20 == 0) {
+        if (entity.isBoss) {
+            if (entity.y > 255.0) {
                 entity.posY = 252.0;
             }
         }

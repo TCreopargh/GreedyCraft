@@ -66,14 +66,14 @@
       }
     },
     "5": {
-      "title": "¡ìbOpen backpack ¡ì9¡ìoIronBackpacks",
+      "title": "¡ìbOpen backpack ¡ì9¡ìoSimplyBackpacks",
       "icon": {
-        "name": "thermalexpansion:satchel",
+        "name": "simplybackpacks:commonbackpack",
         "damage": 0
       },
       "action": {
         "key": {
-          "key": "key.ironbackpacks.open",
+          "key": "key_key.simplybackpacks.backpackopen.desc",
           "toggle": true
         }
       }

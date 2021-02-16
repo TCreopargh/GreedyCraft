@@ -19,13 +19,13 @@
 		uid: "8d1e53e2",
 		type: "item",
 		item: "draconicevolution:draconium_ingot",
-		count: 640
+		count: 32
 	},
 	{
 		uid: "a7a89001",
 		type: "item",
 		item: "draconicevolution:awakened_core",
-		count: 3
+		count: 1
 	},
 	{
 		uid: "dd628cf5",
@@ -64,11 +64,5 @@
 		type: "gamestage",
 		auto: "no_toast",
 		stage: "awakened"
-	},
-	{
-		uid: "a8c1fb52",
-		type: "command",
-		auto: "no_toast",
-		command: "/scalinghealth difficulty set 900 @p"
 	}]
 }

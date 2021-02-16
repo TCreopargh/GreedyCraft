@@ -25,12 +25,12 @@ function isWuss(player as IPlayer) as bool {
 events.onCommand(function (event as CommandEvent) {
 
     val command = event.command;
-    if(isNull(command) || (command.name != "gamestage") || (event.parameters.length == 0)) {
+    if (isNull(command) || (command.name != "gamestage") || (event.parameters.length == 0)) {
         return;
     }
     
-    if(event.commandSender instanceof IPlayer) {
-        if(!isNull(event.parameters[2]) && event.parameters[2] == "iswuss") {
+    if (event.commandSender instanceof IPlayer) {
+        if (!isNull(event.parameters[2]) && event.parameters[2] == "iswuss") {
             val player as IPlayer = event.commandSender;    
                 event.cancel();
                 player.server.commandManager.executeCommand(player.server, "/kill " + player.name);

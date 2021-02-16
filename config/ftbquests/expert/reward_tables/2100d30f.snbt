@@ -219,18 +219,6 @@
 	},
 	{
 		item: {
-			id: "ironbackpacks:backpack",
-			tag: {
-				packInfo: {
-					upgrade: [],
-					type: "ironbackpacks:diamond",
-					spec: "STORAGE"
-				}
-			}
-		}
-	},
-	{
-		item: {
 			id: "chisel:chisel_hitech",
 			tag: {
 				chiseldata: {}

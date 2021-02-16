@@ -25,15 +25,15 @@ import mods.hungertweaker.Hunger;
 Regen.setInterval("x*0.8");
 SaturatedRegen.setInterval("x*0.8");
 Starvation.setDamage(2);
-Exhaustion.setMaxExhaustionLevel("x*1.8");
+Exhaustion.setMaxExhaustionLevel("x*2.5");
 
 // Decreasing hunger consumption at lower hunger values
 HungerEvents.onExhausted(function(event as mods.hungertweaker.events.ExhaustedEvent) {
-    if((Math.random() * 10000) < ((20 - event.player.foodStats.foodLevel) * 400)) {
+    if ((Math.random() * 10000) < ((20 - event.player.foodStats.foodLevel) * 400)) {
         event.deltaHunger = 0;
         event.deltaSaturation = 0;
         
-    }else if(event.player.foodStats.foodLevel <= 6) {
+    }else if (event.player.foodStats.foodLevel <= 6) {
         event.player.sendRichTextStatusMessage(ITextComponent.fromData(["", {translate: "greedycraft.event.hunger.warning", color: "red"}, {"text":": "}, {translate: "greedycraft.event.hunger.low", color: "yellow"}]), true);
     } 
 });

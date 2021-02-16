@@ -17,7 +17,7 @@ val speed = 1;
 var num as int = 0;
 
 for recipe in furnace.all {
-    if(isNull(recipe.input) || isNull(recipe.output)) {
+    if (isNull(recipe.input) || isNull(recipe.output)) {
         continue;
     }
     var xpAmount as int = (recipe.xp * 16) as int;

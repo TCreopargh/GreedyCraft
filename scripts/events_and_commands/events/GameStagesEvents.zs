@@ -34,37 +34,34 @@ import scripts.util.lang as LangUtil;
 events.onGameStageAdd(function(event as GameStageAddEvent) {
     var stages as string[][string][string] = gameStagesLore[LangUtil.getLanguage()];
     var player as IPlayer = event.player;
-    if(!(stages has event.gameStage) || player.hasGameStage(event.gameStage) || PACKMODE == MODE_CASUAL || player.creative) {
+    if (!(stages has event.gameStage) || player.hasGameStage(event.gameStage) || PACKMODE == MODE_CASUAL || player.creative) {
         return;
     }
     var stageLore as string[][string] = stages[event.gameStage];
-    if(!isNull(stageLore)) {
+    if (!isNull(stageLore)) {
         var data as IData = [];
         var delimiter as IData = {text: "==================================================", color: "blue"};
-        data += [delimiter] as IData;
-        data += [{text: "\n"}];
-        data += [{translate: "greedycraft.event.stage.lore.title"}];
-        data += [{text: "\n"}];
-        data += [{text: event.gameStage, color: "yellow"}, {text: " - ", color: "gray"}];
-        if(stageLore["alias"].length > 0) { 
+        var newline as IData = {text: "\n"};
+        data += [delimiter, newline, {translate: "greedycraft.event.stage.lore.title"}, newline, {text: event.gameStage, color: "yellow"}, {text: " - ", color: "gray"}] as IData;
+        if (stageLore["alias"].length > 0) { 
             data += [{text: stageLore["alias"][0], color: "red", italic: true}];
         }
-        data += [{text: "\n"}];
+        data += [newline] as IData;
         for line in stageLore["lore"] {
-            data += [{text: line, color: "dark_purple", italic: true}, {text: "\n"}];
+            data += [{text: line, color: "dark_purple", italic: true}, newline];
         } 
-        data += [{translate: "greedycraft.event.stage.lore.unlocked"}, {text: "\n"}];
+        data += [{translate: "greedycraft.event.stage.lore.unlocked"}, newline];
         for line in stageLore["unlocks"] {
-            data += [{text: " ✔ ", color: "dark_green"}, {text: line, color: "green"}, {text: "\n"}];
+            data += [{text: " ✔ ", color: "dark_green"}, {text: line, color: "green"}, newline];
         }
         var maxDifficulty = 0;
         for stage in stageMap {
             var difficulty = stageMap[stage] as int;
-            if((player.hasGameStage(stage) || stage == event.gameStage) && difficulty > maxDifficulty) {
+            if ((player.hasGameStage(stage) || stage == event.gameStage) && difficulty > maxDifficulty) {
                 maxDifficulty = difficulty;
             }
         }
-        if(player.difficulty != maxDifficulty) {
+        if (player.difficulty != maxDifficulty) {
             data += [{translate: "greedycraft.event.stage.lore.difficulty"}, {text: "   "}, {text: "" + Math.round(player.difficulty) as int, color: "green"}, {text: " >> ", color: "yellow"}, {text: "" + maxDifficulty as int + "\n", color: "red"}];
             player.difficulty = maxDifficulty;
         }
@@ -72,14 +69,14 @@ events.onGameStageAdd(function(event as GameStageAddEvent) {
         player.sendRichTextMessage(ITextComponent.fromData(data));
         server.commandManager.executeCommand(server, "/playsound ui.toast.challenge_complete player " + player.name + " " + player.x + " " + player.y + " " + player.z + " 100 1");
         
-        if(event.gameStage == "nether") {
+        if (event.gameStage == "nether") {
             player.addGameStage("roughmobsboss");
         }
     }
 });
 
 events.onGameStageRemove(function(event as GameStageRemoveEvent) {
-    if(event.gameStage == "iswuss" && event.player.name != "TCreopargh") {
+    if (event.gameStage == "iswuss" && event.player.name != "TCreopargh") {
         event.cancel();
     }
 });

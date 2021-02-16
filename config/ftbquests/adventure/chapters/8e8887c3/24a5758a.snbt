@@ -4,9 +4,6 @@
 	y: -6.0d,
 	shape: "diamond",
 	description: "{greedycraft.quest.24a5758a.desc}",
-	text: [
-		"Plate of Unsealing is used to unseal Tinker's artifacts that you get from dungeons and make them modifiable. Simply combine them with an artifact in a tool forge."
-	],
 	dependencies: [
 		"851cec5e"
 	],
@@ -49,11 +46,6 @@
 		count: 2
 	},
 	{
-		uid: "06c26516",
-		type: "item",
-		item: "tconevo:material 1 2"
-	},
-	{
 		uid: "d0dc2ab7",
 		type: "item",
 		item: "oeintegration:excavatemodifier",
@@ -63,13 +55,13 @@
 		uid: "25455b55",
 		type: "item",
 		item: "tconstruct:materials 1 14",
-		count: 16
+		count: 1
 	},
 	{
 		uid: "5fe4fdf9",
 		type: "item",
 		item: "conarm:resist_mat",
-		count: 16
+		count: 1
 	},
 	{
 		uid: "c15f4086",

@@ -25,7 +25,7 @@
 		uid: "6680b669",
 		type: "item",
 		item: "draconicevolution:chaotic_core",
-		count: 3
+		count: 1
 	},
 	{
 		uid: "16d4c4ad",
@@ -43,11 +43,5 @@
 		type: "gamestage",
 		auto: "no_toast",
 		stage: "chaotic"
-	},
-	{
-		uid: "0eb8925b",
-		type: "command",
-		auto: "no_toast",
-		command: "/scalinghealth difficulty set 2000 @p"
 	}]
 }

@@ -12,7 +12,7 @@ import crafttweaker.text.ITextComponent;
 import mods.zenutils.I18n;
 
 events.onPlayerLoggedIn(function (event as crafttweaker.event.PlayerLoggedInEvent) {
-    if(event.player.hasGameStage("adventure") || event.player.hasGameStage("casual")) {
+    if (event.player.hasGameStage("adventure") || event.player.hasGameStage("casual")) {
         event.player.sendRichTextMessage(ITextComponent.fromTranslation("greedycraft.event.packmode_changed.chat"));
         server.commandManager.executeCommand(server, "/title " + event.player.name + " times 40 120 40");
         server.commandManager.executeCommand(server, "/title " + event.player.name + " subtitle  {\"text\":\"" + game.localize("greedycraft.event.packmode_changed.title") + "\"}");

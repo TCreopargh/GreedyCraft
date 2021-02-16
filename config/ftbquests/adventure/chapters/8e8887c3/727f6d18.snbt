@@ -45,11 +45,5 @@
 		type: "gamestage",
 		auto: "no_toast",
 		stage: "wielder_of_infinity"
-	},
-	{
-		uid: "a7722fde",
-		type: "command",
-		auto: "no_toast",
-		command: "/scalinghealth difficulty set 1600 @p"
 	}]
 }

@@ -34,7 +34,7 @@ val killEntities as string[] = [
 ];
 
 events.onPlayerRespawn(function (event as crafttweaker.event.PlayerRespawnEvent) {
-    if(PACKMODE != MODE_CASUAL) {
+    if (PACKMODE != MODE_CASUAL) {
         for entity in killEntities {
             server.commandManager.executeCommand(server, "/ctrlkill " + entity + " 0");
         }

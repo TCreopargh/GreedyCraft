@@ -16,6 +16,7 @@ import mods.ItemStages;
 import mods.jei.JEI;
 
 import scripts.util.recipes as RecipeUtil;
+import scripts.util.lang as LangUtil;
 
 val disabledItems as IIngredient[] = [
     <openblocks:block_placer>,
@@ -271,7 +272,11 @@ val disabledItems as IIngredient[] = [
     <mekanism:cardboardbox>,
     <cyclicmagic:block_fishing>,
     <thermalexpansion:augment:304>,
-    <extrautils2:playerchest>
+    <extrautils2:playerchest>,
+    <harvestcraft:hardenedleatherhelmitem>,
+    <harvestcraft:hardenedleatherchestitem>,
+    <harvestcraft:hardenedleatherleggingsitem>,
+    <harvestcraft:hardenedleatherbootsitem>
 ] as IIngredient[];
 
 val disabledRecipeRegex as string[] = [
@@ -311,7 +316,7 @@ val outputBlacklist as IItemStack[] = [
 for ingredient in disabledItems {
     ItemStages.removeItemStage(ingredient);
     ItemStages.addItemStage("disabled", ingredient);
-    ItemStages.setUnfamiliarName(game.localize("greedycraft.stage.disabled_item.name"), ingredient);
+    ItemStages.setUnfamiliarName(LangUtil.translate("greedycraft.stage.disabled_item.name"), ingredient);
     for item in ingredient.items {
         RecipeUtil.remove(item);
         JEI.removeAndHide(item);
@@ -321,15 +326,15 @@ for ingredient in disabledItems {
 
 for recipe in recipes.all {
     for regex in disabledRecipeRegex {
-        if(recipe.fullResourceDomain.matches(regex)) {
+        if (recipe.fullResourceDomain.matches(regex)) {
             var isBlacklisted as bool = false;
             for item in outputBlacklist {
-                if(recipe.output.definition.id == item.definition.id && recipe.output.metadata == item.metadata) {
+                if (recipe.output.definition.id == item.definition.id && recipe.output.metadata == item.metadata) {
                     isBlacklisted = true;
                     break;
                 }
             }
-            if(!isBlacklisted) {
+            if (!isBlacklisted) {
                 RecipeUtil.remove(recipe.output);
                 JEI.removeAndHide(recipe.output);
                 recipe.output.addTooltip(game.localize("greedycraft.stage.uncraftable_item.tooltip"));

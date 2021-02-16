@@ -27,23 +27,23 @@ function registerSeedRecipe(seed as IItemStack, baseItem as IItemStack, tier as 
     var output = outputStack;
     val essences as IIngredient[] = [null, <ore:essenceInfernium>, <ore:essencePrudentium>, <ore:essenceIntermedium>, <ore:essenceSuperium>, <ore:essenceSupremium>, <ore:essenceInsanium>];
     val bases as IIngredient[] = [null, <mysticalagriculture:crafting:17>, <mysticalagriculture:crafting:18>, <mysticalagriculture:crafting:19>, <mysticalagriculture:crafting:20>, <mysticalagriculture:crafting:21>, <mysticalagradditions:insanium:1>];
-    if(isNull(output)) {
+    if (isNull(output)) {
         output = baseItem;
     }
     
-    if(tier <= 6 && tier > 0) {
+    if (tier <= 6 && tier > 0) {
     
-        if(tier == 1) {
+        if (tier == 1) {
             <ore:seedsTier1>.add(seed);
-        } else if(tier == 2) {
+        } else if (tier == 2) {
             <ore:seedsTier2>.add(seed);
-        } else if(tier == 3) {
+        } else if (tier == 3) {
             <ore:seedsTier3>.add(seed);
-        } else if(tier == 4) {
+        } else if (tier == 4) {
             <ore:seedsTier4>.add(seed);
-        } else if(tier == 5) {
+        } else if (tier == 5) {
             <ore:seedsTier5>.add(seed);
-        } else if(tier == 6) {
+        } else if (tier == 6) {
             <ore:seedsTier6>.add(seed);
         }
         

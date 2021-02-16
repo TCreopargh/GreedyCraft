@@ -75,25 +75,6 @@
     {
       "weight": 0.5,
       "min": 1,
-      "max": 1,
-      "item": {
-        "id": "thermalexpansion:satchel",
-        "damage": 1,
-        "count": 1,
-        "tag": {
-          "nbtType": "compound",
-          "nbt": {
-            "Accessible": {
-              "nbtType": "byte",
-              "nbt": 1
-            }
-          }
-        }
-      }
-    },
-    {
-      "weight": 0.5,
-      "min": 1,
       "max": 4,
       "item": {
         "id": "thermalexpansion:augment",

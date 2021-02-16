@@ -1368,6 +1368,11 @@ RecipeUtil.addShaped("pet_feed_bag", <inventorypets:feed_bag>, [
     [<ore:itemLeather>, <minecraft:golden_apple>, <ore:itemLeather>],
     [null, <ore:itemLeather>, null]
 ]);
+RecipeUtil.addShaped("twilight_gem_alt", <additions:greedycraft-twilight_gem>, [
+    [null, <twilightforest:magic_map_focus>, null],
+    [<ore:ingotSteeleaf>, <ore:gemDiamond>, <twilightforest:naga_scale>],
+    [null, <ore:ingotKnightmetal>, null]
+]);
 
 /* Templates
 

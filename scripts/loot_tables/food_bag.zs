@@ -25,9 +25,9 @@ static itemBlacklist as IItemStack[] = [
 
 function isBlacklisted(target as IItemStack) as bool {
     for item in itemBlacklist {
-        if(target.definition.id == item.definition.id && target.metadata == item.metadata) {
-            if(!isNull(item.tag)) {
-                if(item.tag as IData == target.tag as IData) {
+        if (target.definition.id == item.definition.id && target.metadata == item.metadata) {
+            if (!isNull(item.tag)) {
+                if (item.tag as IData == target.tag as IData) {
                     return true;
                 }
             } else {
@@ -42,8 +42,8 @@ val foodTable = LootTweaker.newTable("loottweaker:food_bag_loot_table");
 var foodTableMainPool = foodTable.addPool("main", 6, 14, 0, 0);
 for ingredient in foodList {
     for item in ingredient.items {
-        if(!LootUtil.isBlacklisted(item)) {
-            if(item.metadata != 32767) {
+        if (!LootUtil.isBlacklisted(item)) {
+            if (item.metadata != 32767) {
                 foodTableMainPool.addItemEntryHelper(item, 1, 1, [Functions.setCount(1, 4)], []);
             }
         }

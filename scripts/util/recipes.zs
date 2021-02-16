@@ -45,7 +45,7 @@ function removeAndAddShapeless(name as string, output as IItemStack, recipe as I
 }
 
 function addModeRecipe(name as string, output as IItemStack, normalRecipe as IIngredient[][], expertRecipe as IIngredient[][]) {
-    if(PACKMODE == MODE_EXPERT) {
+    if (PACKMODE == MODE_EXPERT) {
         addShaped(name, output, expertRecipe);
     } else {
         addShaped(name, output, normalRecipe);
@@ -53,7 +53,7 @@ function addModeRecipe(name as string, output as IItemStack, normalRecipe as IIn
 }
 
 function addModeShapelessRecipe(name as string, output as IItemStack, normalRecipe as IIngredient[], expertRecipe as IIngredient[]) {
-    if(PACKMODE == MODE_EXPERT) {
+    if (PACKMODE == MODE_EXPERT) {
         addShapeless(name, output, expertRecipe);
     } else {
         addShapeless(name, output, normalRecipe);
@@ -61,7 +61,7 @@ function addModeShapelessRecipe(name as string, output as IItemStack, normalReci
 }
 
 function addModeDiffOutputRecipe(name as string, outputNormal as IItemStack, outputExpert as IItemStack, normalRecipe as IIngredient[][], expertRecipe as IIngredient[][]) {
-    if(PACKMODE == MODE_EXPERT) {
+    if (PACKMODE == MODE_EXPERT) {
         addShaped(name, outputExpert, expertRecipe);
     } else {
         addShaped(name, outputNormal, normalRecipe);
@@ -69,7 +69,7 @@ function addModeDiffOutputRecipe(name as string, outputNormal as IItemStack, out
 }
 
 function addModeDiffOutputShapelessRecipe(name as string, outputNormal as IItemStack, outputExpert as IItemStack, normalRecipe as IIngredient[], expertRecipe as IIngredient[]) {
-    if(PACKMODE == MODE_EXPERT) {
+    if (PACKMODE == MODE_EXPERT) {
         addShapeless(name, outputExpert, expertRecipe);
     } else {
         addShapeless(name, outputNormal, normalRecipe);
@@ -77,25 +77,25 @@ function addModeDiffOutputShapelessRecipe(name as string, outputNormal as IItemS
 }
 
 function addExpertRecipe(name as string, outputExpert as IItemStack, expertRecipe as IIngredient[][]) {
-    if(PACKMODE == MODE_EXPERT) {
+    if (PACKMODE == MODE_EXPERT) {
         addShaped(name, outputExpert, expertRecipe);
     }
 }
 
 function addExpertShapelessRecipe(name as string, outputExpert as IItemStack, expertRecipe as IIngredient[]) {
-    if(PACKMODE == MODE_EXPERT) {
+    if (PACKMODE == MODE_EXPERT) {
         addShapeless(name, outputExpert, expertRecipe);
     }
 }
 
 function addNormalRecipe(name as string, outputNormal as IItemStack, normalRecipe as IIngredient[][]) {
-    if(PACKMODE != MODE_EXPERT) {
+    if (PACKMODE != MODE_EXPERT) {
         addShaped(name, outputNormal, normalRecipe);
     }
 }
 
 function addNormalShapelessRecipe(name as string, outputNormal as IItemStack, normalRecipe as IIngredient[]) {
-    if(PACKMODE != MODE_EXPERT) {
+    if (PACKMODE != MODE_EXPERT) {
         addShapeless(name, outputNormal, normalRecipe);
     }
 }
@@ -111,7 +111,7 @@ function addCompressingRecipe(original as IItemStack, compressed as IItemStack) 
 
 function addDyeingRecipe(name as string, input as IIngredient, output as IItemStack, reversedOrder as bool) {
     for i in 0 to 16 {
-        if(reversedOrder) {
+        if (reversedOrder) {
             addShapeless(name + "_" + i, output.withDamage(15 - i), [input, dyeList[i]]);
         } else {
             addShapeless(name + "_" + i, output.withDamage(i), [input, dyeList[i]]);

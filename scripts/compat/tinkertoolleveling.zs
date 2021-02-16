@@ -33,7 +33,7 @@ for i in 0 to 4096 {
         num -= 1;
     }
     var msg as string = "§a你的 §7[§e%s§7]§a 已升至§b" + i + "§a级！";
-    var msgEng as string = "§aYour §7[§e%s§7]§a has reached level §b" + i + "!";
+    var msgEng as string = "§aYour §7[§e%s§7]§a has reached level §b" + i + "§a!";
     game.setLocalization("tooltip.level." + i, str);
     game.setLocalization("zh_cn", "message.levelup." + i, msg);
     game.setLocalization("en_us", "message.levelup." + i, msgEng);

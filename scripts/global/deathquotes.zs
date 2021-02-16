@@ -223,6 +223,10 @@ global deathQuotes as string[][string] = {
         "§9/sudo rm -rf /",
         "§5Object “§d%playername%§5” has been deleted.",
         "<Herobrine> %playername%，I'll keep my eyes on you.",
-        "§eThere are no accidents. --Master Oogway"
+        "§eThere are no accidents. --Master Oogway",
+        "§eF in the chat.",
+        "§eIt's over, %playername%, I have the high ground!",
+        "§eAre you doing all right?",
+        "§c§lW A S T E D"
     ],
 };

@@ -37,7 +37,7 @@ function addForgeRecipe(regName as string, output as IItemStack, baseSpeed as in
             binary += num % 2 != 0;
             num = num / 2;
         }
-        if(i != 0) {
+        if (i != 0) {
             for j in 0 to binary.length {
                 select[catalysts.length - j - 1] = binary[j];
             }
@@ -45,29 +45,29 @@ function addForgeRecipe(regName as string, output as IItemStack, baseSpeed as in
         var speedMultiplier as double = 1.0;
         var energyMultiplier as double = 1.0;
         for j in 0 to catalysts.length {
-            if(select[j]) {
-                if(!isNull(catalysts.entrySet[j].value["speed"])) {
+            if (select[j]) {
+                if (!isNull(catalysts.entrySet[j].value["speed"])) {
                     speedMultiplier *= ( 1.0 - catalysts.entrySet[j].value["speed"] as double);
                 }
-                if(!isNull(catalysts.entrySet[j].value["energy"])) {
+                if (!isNull(catalysts.entrySet[j].value["energy"])) {
                     energyMultiplier *= ( 1.0 - catalysts.entrySet[j].value["energy"] as double);
                 }
             }
         }
         var speed as int = Math.floor(baseSpeed as double * speedMultiplier as double) as int;
-        if(speed <= 0) {
+        if (speed <= 0) {
             speed = 1;
         }
         var energy as long = Math.floor((baseEnergy as double * energyMultiplier as double) / speed as double) as long;
         var builder = RecipeBuilder.newBuilder(regName + "_" + i, regName, speed, (pow(2, catalysts.length) - i) as int);
         builder.addEnergyPerTickInput(energy);
         for ingredient in baseIngradients {
-            if(!isNull(ingredient)) {
+            if (!isNull(ingredient)) {
                 builder.addItemInput(ingredient);
             }
         }
         for j in 0 to catalysts.length {
-            if(select[j] && !isNull(catalysts.entrySet[j].key)) {
+            if (select[j] && !isNull(catalysts.entrySet[j].key)) {
                 builder.addItemInput(catalysts.entrySet[j].key);
             }
         }
@@ -78,7 +78,7 @@ function addForgeRecipe(regName as string, output as IItemStack, baseSpeed as in
 
 function getStack(stack as IItemStack, baseAmount as int) as IItemStack {
     var amount as int = Math.floor(baseAmount as double * FORGE_OUTPUT_MULTIPLIER as double) as int;
-    if(amount <= 0) {
+    if (amount <= 0) {
         amount = 1;
     }
     return (stack * amount) as IItemStack;

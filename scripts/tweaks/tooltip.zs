@@ -168,7 +168,10 @@ val tooltipMap as string[][IIngredient] = {
     <inventorypets:cloud_pet> : [game.localize("greedycraft.tooltip.inventorypets.cloud_pet.1")],
     <gravestone:death_info> : [game.localize("greedycraft.tooltip.gravestone.death_info.1"), game.localize("greedycraft.tooltip.gravestone.death_info.2"), game.localize("greedycraft.tooltip.gravestone.death_info.3")],
     <defiledlands:conjuring_altar> : [game.localize("greedycraft.tooltip.defiledlands.conjuring_altar.1")],
-    <ironbackpacks:backpack> : [ae_lag],
+    <simplybackpacks:commonbackpack> : [dont_put_into_ae],
+    <simplybackpacks:rarebackpack> : [dont_put_into_ae],
+    <simplybackpacks:uncommonbackpack> : [dont_put_into_ae],
+    <simplybackpacks:epicbackpack> : [dont_put_into_ae],
     <forestry:forester_bag_t2> : [ae_lag],
     <cyclicmagic:storage_bag> : [ae_lag],
     <forestry:apiarist_bag> : [ae_lag],
@@ -189,7 +192,9 @@ val tooltipMap as string[][IIngredient] = {
     <forestry:adventurer_bag_t2> : [ae_lag],
     <forestry:builder_bag_t2> : [ae_lag],
     <forestry:hunter_bag_t2> : [ae_lag],
-    <pouchofunknown:pouch> : [ae_lag]
+    <pouchofunknown:pouch> : [ae_lag],
+    <lootbags:itemlootbag:*> : [game.localize("greedycraft.tooltip.lootbags.itemlootbag.1")],
+    <tconevo:material:2> : [game.localize("greedycraft.tooltip.tconevo.plate_of_unsealing.1")]
 } as string[][IIngredient];
 
 for ingredient in tooltipMap {

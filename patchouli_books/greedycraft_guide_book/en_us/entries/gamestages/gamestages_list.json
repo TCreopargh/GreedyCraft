@@ -5,7 +5,7 @@
     "pages": [
         {
             "type": "text",
-            "text": "$(2)Here's how to get some important game stages and what they do. Note: currently not all game stages serve a purpose, some are reserved for future use.$(br)$(li)$(c)getting_started $(): Unlocked by getting any log$(li)$(c)novice_engineer $(): Unlocked by crafting the Induction Smelter"
+            "text": "$(2)Here's how to get some important game stages and what they do. Note: currently not all game stages serve a purpose, some are reserved for future use.$(br)$(li)$(c)getting_started $(): Unlocked by getting any log$(li)$(c)novice_engineer $(): Unlocked by Completing the 'obtain Induction Smelter' quest."
         },
         {
             "type": "text",

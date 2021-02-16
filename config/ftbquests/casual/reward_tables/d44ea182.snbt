@@ -106,7 +106,7 @@
 	},
 	{
 		item: "minecraft:nether_star",
-		count: 32
+		count: 12
 	},
 	{
 		item: {

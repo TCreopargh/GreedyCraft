@@ -3528,6 +3528,7 @@ sakura:teishoku_fish_cooked - 7210
 sakura:teishoku_fish_raw - 7211
 sakura:teishoku_yakiniku - 7212
 sakura:teishoku_tamagoyaki - 7213
+simplybackpacks:commonbackpack - 7214
 sakura:teishoku_fried - 7215
 sakura:teishoku_tempura - 7216
 sakura:teishoku_burger - 7217
@@ -7979,8 +7980,6 @@ gravestone:gravestone - 11662
 gravestone:death_info - 11663
 hooked:hook - 11664
 hooked:microcrafting - 11665
-ironbackpacks:backpack - 11666
-ironbackpacks:upgrade - 11667
 ironchest:iron_chest - 11668
 ironchest:iron_shulker_box_white - 11669
 ironchest:iron_shulker_box_orange - 11670
@@ -14267,3 +14266,6 @@ jaopca:fluid_moltenmithril - 17950
 jaopca:fluid_moltenshadowium - 17951
 jaopca:fluid_moltentitanium - 17952
 jaopca:fluid_moltenuranium - 17953
+simplybackpacks:uncommonbackpack - 17954
+simplybackpacks:rarebackpack - 17955
+simplybackpacks:epicbackpack - 17956

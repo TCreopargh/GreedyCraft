@@ -68,11 +68,5 @@
 		type: "gamestage",
 		auto: "no_toast",
 		stage: "wither_slayer"
-	},
-	{
-		uid: "9d3c8d9b",
-		type: "command",
-		auto: "no_toast",
-		command: "/scalinghealth difficulty set 256 @p"
 	}]
 }

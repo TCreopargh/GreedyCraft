@@ -161,8 +161,6 @@ key_key.fart.desc:78
 key_hiddenarmor.key.disableHiddenArmor:0
 key_key.hooked.fire:16
 key_ingameinfoxml.key.toggle:0
-key_key.ironbackpacks.equip:23:ALT
-key_key.ironbackpacks.open:23
 key_key.open_menu:19
 key_oreexcavation.key.excavate:41
 key_openblocks.keybind.vario_switch:47
@@ -257,7 +255,6 @@ key_key.connected_area:0
 key_key.rotate_mirror:0
 key_key.material_list:50
 key_Reputation GUI:62
-key_Options Gui:66:ALT
 key_key.clienttweaks.disable_step_assist:0
 key_key.clienttweaks.hide_offhand_item:0
 key_key.colytra.toggle.desc:34:CONTROL
@@ -321,6 +318,8 @@ key_key.porterPrevDestination:0
 key_key.debugDumpNBTItem:0
 key_key.debugDumpNBTBlock:0
 key_key.sakura.sheath_in:47
+key_key.simplybackpacks.backpackpickup.desc:81
+key_key.simplybackpacks.backpackopen.desc:23
 key_key.carpet_forward:17
 key_key.carpet_backward:31
 key_key.trashslot.toggle:0

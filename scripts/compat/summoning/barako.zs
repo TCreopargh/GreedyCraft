@@ -46,9 +46,9 @@ SummoningDirector.addSummonInfo(
             for i in (x - 7) to (x + 8) {
                 for j in y to (y + 7) {
                     for k in (z - 7) to (z + 8) {
-                        if(!(i == x && j == y && k == z)) {
+                        if (!(i == x && j == y && k == z)) {
                             var block as IBlock = world.getBlock(i, j, k);
-                            if(block.definition.id != "minecraft:air" && block.definition.id != "minecraft:snow_layer") {
+                            if (block.definition.id != "minecraft:air" && block.definition.id != "minecraft:snow_layer") {
                                 pass1 = false;
                                 break;
                             }
@@ -60,25 +60,25 @@ SummoningDirector.addSummonInfo(
                 for k in (z - 7) to (z + 8) {
                     var j = y - 1;
                     var block as IBlock = world.getBlockState(crafttweaker.util.Position3f.create(i, j, k).asBlockPos()).getBlock();
-                    if(block.definition.id == "minecraft:air" || block.definition.id == "minecraft:water" || block.definition.id == "minecraft:lava") {
+                    if (block.definition.id == "minecraft:air" || block.definition.id == "minecraft:water" || block.definition.id == "minecraft:lava") {
                         pass2 = false;
                         break;
                     }
                 }
             }
-            if(!pass1) {
+            if (!pass1) {
                 attempt.success = false;
                 attempt.message = game.localize("greedycraft.zensummoning.barako.fail.1");
-            } else if(!pass2) {
+            } else if (!pass2) {
                 attempt.success = false;
                 attempt.message = game.localize("greedycraft.zensummoning.barako.fail.2");
-            } else if(attempt.world.isRaining()) {
+            } else if (attempt.world.isRaining()) {
                 attempt.success = false;
                 attempt.message = game.localize("greedycraft.zensummoning.barako.fail.3");
-            } else if(!attempt.world.dayTime) {
+            } else if (!attempt.world.dayTime) {
                 attempt.success = false;
                 attempt.message = game.localize("greedycraft.zensummoning.barako.fail.4");
-            } else if(attempt.world.getProvider().getDimensionID() != 0) {
+            } else if (attempt.world.getProvider().getDimensionID() != 0) {
                 attempt.success = false;
                 attempt.message = game.localize("greedycraft.zensummoning.barako.fail.5");
             } else { 

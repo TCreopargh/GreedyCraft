@@ -29,7 +29,7 @@ import mods.ctutils.world.IGameRules;
 
 events.onCheckSpawn(function(event as EntityLivingExtendedSpawnEvent) {
     var living = event.entityLivingBase;
-    if(living.maxHealth >= 1048576.0f) {
+    if (living.maxHealth >= 1048576.0f) {
         event.deny();
     }
 });

@@ -26,6 +26,8 @@ import mods.ctutils.world.IGameRules;
 
 import mods.zenutils.I18n;
 
+import scripts.util.lang as LangUtil;
+
 function isWuss(player as IPlayer) as bool {
     return (player.creative || player.hasGameStage("iswuss")); 
 }
@@ -33,13 +35,13 @@ function isWuss(player as IPlayer) as bool {
 events.onCommand(function (event as CommandEvent) {
 
     val command = event.command;
-    if(isNull(command) || (command.name != "gamestage") || (event.parameters.length == 0)) {
+    if (isNull(command) || (command.name != "gamestage") || (event.parameters.length == 0)) {
         return;
     }
     
-    if(event.commandSender instanceof IPlayer) {
+    if (event.commandSender instanceof IPlayer) {
         val player as IPlayer = event.commandSender;    
-        if(((player.name != "TCreopargh") && !isNull(event.parameters[2]) && (event.parameters[2] == "iswuss" || event.parameters[2] == "truehero")) || ((player.name != "TCreopargh") && !isNull(event.parameters[1]) && (event.parameters[1] == "all"))) {
+        if (((player.name != "TCreopargh") && !isNull(event.parameters[2]) && (event.parameters[2] == "iswuss" || event.parameters[2] == "truehero")) || ((player.name != "TCreopargh") && !isNull(event.parameters[1]) && (event.parameters[1] == "all"))) {
             event.cancel();
             player.sendRichTextMessage(ITextComponent.fromTranslation("greedycraft.event.anticheat.wtf"));
         }
@@ -53,8 +55,8 @@ wussMode.getCommandUsage = function(sender) {
 wussMode.requiredPermissionLevel = 2;
 wussMode.execute = function(command, server, sender, args) {
     var player as IPlayer = CommandUtils.getCommandSenderAsPlayer(sender);
-    if(!isNull(player)) {
-        if(!isWuss(player)) {
+    if (!isNull(player)) {
+        if (!isWuss(player)) {
             server.commandManager.executeCommand(server, "/gamestage add " + player.name + " iswuss");
             player.sendRichTextMessage(ITextComponent.fromTranslation("greedycraft.command.wussmode.chat"));
             server.commandManager.executeCommand(server, "/broadcast " + I18n.format("greedycraft.command.wussmode.broadcast", player.name));
@@ -66,29 +68,29 @@ wussMode.execute = function(command, server, sender, args) {
 wussMode.register();
 
 events.onCommand(function (event as CommandEvent) {
-    if(event.commandSender.world.remote) {
+    if (event.commandSender.world.remote) {
         return;
     }
     val command = event.command;
     val name = command.name;
-    if(name == "galacticraft" && event.parameters.length > 0 && event.parameters[0] == "help") {
+    if (name == "galacticraft" && event.parameters.length > 0 && event.parameters[0] == "help") {
         return;
     }
     var isBanned = true;
     for command in whitelistedCommands {
-        if(name == command) {
+        if (name == command) {
             isBanned = false;
         }
     }
-    if(isBanned) {
-        if(event.commandSender instanceof IPlayer) {
+    if (isBanned) {
+        if (event.commandSender instanceof IPlayer) {
             val player as IPlayer = event.commandSender;
-            if(!isWuss(player)) {
+            if (!isWuss(player)) {
                 event.cancel();
                 //player.server.commandManager.executeCommand(player.server, "/kill " + player.name);
                 player.sendRichTextMessage(ITextComponent.fromTranslation("greedycraft.event.anticheat.general"));
                 player.sendRichTextMessage(ITextComponent.fromTranslation("greedycraft.event.anticheat.command", name));
-                if((name == "kill" && event.parameters.length > 0 && event.parameters[0] == "@p") || (name == "kill" && event.parameters.length == 0)) {
+                if ((name == "kill" && event.parameters.length > 0 && event.parameters[0] == "@p") || (name == "kill" && event.parameters.length == 0)) {
                     player.sendRichTextMessage(ITextComponent.fromTranslation("greedycraft.event.anticheat.go_kill_yourself"));
                 }
             }  
@@ -98,23 +100,23 @@ events.onCommand(function (event as CommandEvent) {
 
 events.onPlayerTick(function (event as PlayerTickEvent) {
     
-    if((event.player.world.getWorldTime() as long) % 200 != 0 || event.player.world.remote || event.phase != "END" || event.side != "SERVER") {
+    if ((event.player.world.getWorldTime() as long) % 200 != 0 || event.player.world.remote || event.phase != "END" || event.side != "SERVER") {
         return;
     }
     var player as IPlayer = event.player;
-    if(isNull(player)) {
+    if (isNull(player)) {
         return;
     }
-    server.commandManager.executeCommand(server, "/scoreboard players reset " + game.localize("greedycraft.scoreboard.creative_mode"));
-    server.commandManager.executeCommand(server, "/scoreboard players reset " + game.localize("greedycraft.scoreboard.cheat_mode"));
-    server.commandManager.executeCommand(server, "/scoreboard players reset " + I18n.format("greedycraft.scoreboard.true_hero", player.name));
-    if(player.hasGameStage("iswuss")) {
-        if(player.creative) {
-            server.commandManager.executeCommand(server, "/scoreboard players set " + game.localize("greedycraft.scoreboard.creative_mode") + " title 1");
+    server.commandManager.executeCommand(server, "/scoreboard players reset " + LangUtil.translate("greedycraft.scoreboard.creative_mode"));
+    server.commandManager.executeCommand(server, "/scoreboard players reset " + LangUtil.translate("greedycraft.scoreboard.cheat_mode"));
+    server.commandManager.executeCommand(server, "/scoreboard players reset " + LangUtil.format("greedycraft.scoreboard.true_hero", player.name));
+    if (player.hasGameStage("iswuss")) {
+        if (player.creative) {
+            server.commandManager.executeCommand(server, "/scoreboard players set " + LangUtil.translate("greedycraft.scoreboard.creative_mode") + " title 1");
         } else {
-            server.commandManager.executeCommand(server, "/scoreboard players set " + game.localize("greedycraft.scoreboard.cheat_mode") + " title 1");
+            server.commandManager.executeCommand(server, "/scoreboard players set " + LangUtil.translate("greedycraft.scoreboard.cheat_mode") + " title 1");
         }
-    } else if(player.hasGameStage("truehero")) {
-        server.commandManager.executeCommand(server, "/scoreboard players set " + I18n.format("greedycraft.scoreboard.true_hero", player.name) + " title 1");
+    } else if (player.hasGameStage("truehero")) {
+        server.commandManager.executeCommand(server, "/scoreboard players set " + LangUtil.format("greedycraft.scoreboard.true_hero", player.name) + " title 1");
     }
 });

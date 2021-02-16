@@ -32,32 +32,32 @@ import scripts.util.lang as LangUtil;
 
 function getKillCount(block as IBlock) as int {
     var mobSpawned as int = 0;
-    if(!isNull(block.data) && (block.data has "ForgeCaps") && (block.data.memberGet("ForgeCaps") has "spawnercontrol:controllable_spawner_cap") && (block.data.memberGet("ForgeCaps").memberGet("spawnercontrol:controllable_spawner_cap") has "SpawnedMobsCount")) {
+    if (!isNull(block.data) && (block.data has "ForgeCaps") && (block.data.memberGet("ForgeCaps") has "spawnercontrol:controllable_spawner_cap") && (block.data.memberGet("ForgeCaps").memberGet("spawnercontrol:controllable_spawner_cap") has "SpawnedMobsCount")) {
         mobSpawned = block.data.memberGet("ForgeCaps").memberGet("spawnercontrol:controllable_spawner_cap").memberGet("SpawnedMobsCount") as int;
     }
     return mobSpawned;
 }
 
 events.onBlockBreak(function(event as BlockBreakEvent) {
-    if(event.isPlayer && !event.player.creative) {
+    if (event.isPlayer && !event.player.creative) {
         var player as IPlayer = event.player;
         var block as IBlock = event.world.getBlock(event.position);
-        if(event.block.definition.id == "minecraft:mob_spawner") {
+        if (event.block.definition.id == "minecraft:mob_spawner") {
             var mobSpawned as int = getKillCount(block);
             var breakChance as double = 0.2;
-            if(mobSpawned > 0) {
+            if (mobSpawned > 0) {
                 breakChance += 0.1 * mobSpawned;
             }
             var quoteList as string[] = mobSpawnerQuotes[LangUtil.getLanguage()];
             var successQuoteList as string[] = mobSpawnerSuccessQuotes[LangUtil.getLanguage()];
-            if(Math.random() < breakChance) {
+            if (Math.random() < breakChance) {
                 var index as int = Math.floor(Math.random() * successQuoteList.length as float) as int;
-                if(index < successQuoteList.length && index >= 0) {
+                if (index < successQuoteList.length && index >= 0) {
                     var msg as string = successQuoteList[index];
                     player.sendRichTextMessage(ITextComponent.fromData(["", {translate: "greedycraft.event.mob_spawner.name", color: "blue"}, {text: ": ", color: "white"}, {text: msg, color: "green"}]));
                 }
                 var mobEffectiveSpawned as int = mobSpawned;
-                if(mobEffectiveSpawned > 20) {
+                if (mobEffectiveSpawned > 20) {
                     mobEffectiveSpawned = 20;
                 }
                 var bonusXP as int = mobEffectiveSpawned * 2 + (Math.random() as double * (mobEffectiveSpawned * 5) as double) as int;
@@ -68,17 +68,17 @@ events.onBlockBreak(function(event as BlockBreakEvent) {
             } else {
                 event.cancel();
                 var index as int = Math.floor(Math.random() * quoteList.length as float) as int;
-                if(index < quoteList.length && index >= 0) {
+                if (index < quoteList.length && index >= 0) {
                     var msg as string = quoteList[index];
                     player.sendRichTextMessage(ITextComponent.fromData(["", {translate: "greedycraft.event.mob_spawner.name", color: "blue"}, {text: ": ", color: "white"}, {text: msg, color: "white"}]));
                 }
                 player.sendRichTextMessage(ITextComponent.fromData(["", {translate: "greedycraft.event.mob_spawner.kills", color: "red"}, {text: "" + mobSpawned, color: "yellow"}, {text: "    "}, {translate: "greedycraft.event.mob_spawner.chance", color: "green"}, {text: "" + Math.floor(breakChance * 100) as int + "%", color: "yellow"}]));
-                if(!player.isPotionActive(<potion:minecraft:mining_fatigue>)) {
+                if (!player.isPotionActive(<potion:minecraft:mining_fatigue>)) {
                     player.addPotionEffect(<potion:minecraft:mining_fatigue>.makePotionEffect(200, 1, false, false));
                 } else {
                     var level = player.getActivePotionEffect(<potion:minecraft:mining_fatigue>).amplifier;
                     var increment = 0;
-                    if(level < 4) {
+                    if (level < 4) {
                         player.addPotionEffect(<potion:minecraft:mining_fatigue>.makePotionEffect(200, level + 1, false, false));
                     } else {
                         player.addPotionEffect(<potion:minecraft:mining_fatigue>.makePotionEffect(200, 5, false, false));
@@ -90,7 +90,7 @@ events.onBlockBreak(function(event as BlockBreakEvent) {
 });
 
 events.onBlockHarvestDrops(function(event as crafttweaker.event.BlockHarvestDropsEvent) {
-    if(event.block.definition.id == "minecraft:mob_spawner" && event.isPlayer) {
+    if (event.block.definition.id == "minecraft:mob_spawner" && event.isPlayer) {
         event.addItem(<additions:greedycraft-time_fragment>);
         event.addItem(<additions:greedycraft-time_fragment> % 33);
     }
