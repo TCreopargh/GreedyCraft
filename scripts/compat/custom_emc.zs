@@ -69,7 +69,7 @@ val emcMapping as long[IIngredient] = {
     <additions:greedycraft-lucky_clover:0> : 0 as long,
     <pvj:spectral_wrappings:0> : 600 as long,
     <redstonearsenal:material:32> : 1500 as long,
-    <minecraft:dragon_breath:0> : 2 as long,
+    <minecraft:dragon_breath:0> : 0 as long,
     <mysticalagriculture:wither_skeleton_essence:0> : 1600 as long,
     <mysticalagriculture:wither_skeleton_seeds:0> : 4200 as long,
     <mysticalagriculture:diamond_seeds:0> : 3000 as long,
@@ -262,7 +262,8 @@ val emcMapping as long[IIngredient] = {
     <extrautils2:compressedsand:*> : 0 as long,
     <extrautils2:compressedgravel:*> : 0 as long,
     <extrautils2:compressednetherrack:*> : 0 as long,
-    <thaumcraft:primordial_pearl:*> : 0 as long
+    <thaumcraft:primordial_pearl:*> : 0 as long,
+    <minecraft:gunpowder> : 24 as long
 };
 
 for ingredient, value in emcMapping {

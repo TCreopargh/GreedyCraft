@@ -39,9 +39,9 @@ MMUtil.addForgeRecipe("durasteel_forge", MMUtil.getStack(<additions:durasteel_in
         speed: 0.35,
         energy: 0.35
     }, 
-    <defiledlands:ravaging_ingot> : {
-        speed: 0.25,
-        energy: 0.05
+    <botanicadds:gaiasteel_ingot> : {
+        speed: 0.35,
+        energy: 0.35
     }, 
     <defiledlands:remorseful_gem> : {
         speed: 0.05,
@@ -115,6 +115,7 @@ MMUtil.addForgeRecipe("chromasteel_forge", MMUtil.getStack(<additions:chromastee
     <additions:aeonsteel_ingot>,
     <additions:terra_alloy_ingot>,
     <additions:shadowium_ingot>,
+    <botanicadds:gaiasteel_ingot>,
     <abyssalcraft:ethaxiumingot>,
     <plustic:mirioningot>,
     <biomesoplenty:terrestrial_artifact>,

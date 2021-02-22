@@ -59,7 +59,7 @@ wussMode.execute = function(command, server, sender, args) {
         if (!isWuss(player)) {
             server.commandManager.executeCommand(server, "/gamestage add " + player.name + " iswuss");
             player.sendRichTextMessage(ITextComponent.fromTranslation("greedycraft.command.wussmode.chat"));
-            server.commandManager.executeCommand(server, "/broadcast " + I18n.format("greedycraft.command.wussmode.broadcast", player.name));
+            server.broadcastMessage(ITextComponent.fromTranslation("greedycraft.command.wussmode.broadcast", player.name));
         } else {
             player.sendRichTextMessage(ITextComponent.fromTranslation("greedycraft.command.wussmode.again"));
         }
@@ -68,7 +68,7 @@ wussMode.execute = function(command, server, sender, args) {
 wussMode.register();
 
 events.onCommand(function (event as CommandEvent) {
-    if (event.commandSender.world.remote) {
+    if (event.commandSender.world.remote || isServerPack) {
         return;
     }
     val command = event.command;

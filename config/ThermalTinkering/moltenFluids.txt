@@ -83,6 +83,7 @@ durasteel                                         (contenttweaker:durasteel)    
 aeonsteel                                         (contenttweaker:aeonsteel)                                                       = ÈÛÈÚºã¸Ö
 chromasteel                                       (contenttweaker:chromasteel)                                                     = ÈÛÈÚìÅ¸Ö
 spectre                                           (contenttweaker:spectre)                                                         = Áé»êÖ®Èª
+gaiasteel                                         (contenttweaker:gaiasteel)                                                       = ÈÛÈÚ¸ÇÑÇ¸Ö
 molten_blood_infused_iron                         (bloodarsenal:bloodarsenal.molten_blood_infused_iron)                            = ÈÛÈÚ×¢ÑªÌú
 umbrium                                           (defiledlands:molten_umbrium)                                                    = ÈÛÈÚÓ°ËØ
 xu_evil_metal                                     ([no block])                                                                     = ¶ñÄ§¹à×¢Ìú

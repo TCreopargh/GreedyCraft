@@ -150,9 +150,6 @@
             "item": "additions:tcsponsors-capitalism"
         },
         {
-            "item": "additions:tcsponsors-doomshroom"
-        },
-        {
             "item": "additions:tcsponsors-drug_bell"
         },
         {
@@ -163,6 +160,15 @@
         },
         {
             "item": "additions:tcsponsors-aqua_orb"
+        },
+        {
+            "item": "additions:tcsponsors-nan_xun_gift"
+        },
+        {
+            "item": "additions:tcsponsors-kuso_door"
+        },
+        {
+            "item": "additions:tcsponsors-lord_flag"
         }
     ]
 }

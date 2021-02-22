@@ -101,7 +101,7 @@ RecipeUtil.addShapeless("auto_gen_-326012325", <extracells:storage.component>, [
 RecipeUtil.addShapeless("auto_gen_159103536", <extracells:storage.component:1>, [<extracells:storage.component>, <extracells:storage.component>, <extracells:storage.component>, <extracells:storage.component>]);
 RecipeUtil.addShapeless("auto_gen_-981757333", <extracells:storage.component:2>, [<extracells:storage.component:1>, <extracells:storage.component:1>, <extracells:storage.component:1>, <extracells:storage.component:1>]);
 RecipeUtil.addShapeless("auto_gen_1276343630", <extracells:storage.component:3>, [<extracells:storage.component:2>, <extracells:storage.component:2>, <extracells:storage.component:2>, <extracells:storage.component:2>]);
-RecipeUtil.addShapeless("auto_gen_462958864", <projectex:energy_link>, [<projecte:transmutation_table>.transformReplace(<projecte:transmutation_table>), <rftools:machine_frame>]);
+RecipeUtil.addShapeless("auto_gen_462958864", <projectex:energy_link>, [<additions:greedycraft-energy_matter_core>, <rftools:machine_frame>, <ore:ingotProtonium>]);
 RecipeUtil.addShapeless("pack_guide_book", <patchouli:guide_book>.withTag({"patchouli:book":"patchouli:greedycraft_guide_book"}), [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]);
 RecipeUtil.addShapeless("auto_gen_-1966891614", <quark:black_ash>, [<darkutils:material>]);
 RecipeUtil.addShapeless("auto_gen_2033568330", <enderio:item_material:63>, [<quark:black_ash>]);

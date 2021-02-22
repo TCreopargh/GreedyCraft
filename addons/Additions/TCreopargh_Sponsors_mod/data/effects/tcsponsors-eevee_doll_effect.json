@@ -14,7 +14,7 @@
       "potion": {
         "name": "minecraft:regeneration",
         "duration": 50,
-        "amplifier": 1,
+        "amplifier": 0,
         "ambient": false,
         "show_particles": true
       },

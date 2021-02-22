@@ -127,32 +127,56 @@ function(out, ins, cInfo) {
     var modifiersFrom = ins.from.tag.memberGet("Modifiers") as IData;
     var modifiersTo = ins.to.tag.memberGet("Modifiers") as IData;
     var toolLevel = {} as IData;
+    var level = -1 as int;
     if (modifiersFrom.asString().contains("toolleveling")) {
         for i in 0 to modifiersFrom.length {
             var current as IData = modifiersFrom[i];
             if (current.asString().contains("toolleveling")) {
                 toolLevel = current;
+                if(toolLevel has "level") {
+                    level = toolLevel.memberGet("level") as int;
+                }
                 break;
             }
         }
     }
     var newModifier as IData = [];
-    if (!isNull(newModifier)) {
+    if (!isNull(newModifier) && level >= 0) {
         for i in 0 to modifiersTo.length {
             var current as IData = modifiersTo[i];
             if (isNull(current)) { 
                 break;
             }
             if (current.asString().contains("toolleveling")) {
-                newModifier = newModifier.update([current + toolLevel] as IData);
+                newModifier = newModifier.update([current.update({"level": level})] as IData);
                 break;
             } else {
-                newModifier = newModifier.update([current] as IData);
+                if(!current.asString().contains("extratrait")) {
+                    newModifier = newModifier.update([current] as IData);
+                }
             }
         }
     }
+
+
     var outData as IData = ins.to.tag - "Modifiers";
     outData = outData + ({Modifiers: newModifier}) as IData;
+
+    var modifierData as IData = [];
+    var tinkerData as IData = {};
+    if((outData has "TinkerData") && (outData.memberGet("TinkerData") has "Modifiers")) {
+        tinkerData = outData.memberGet("TinkerData");
+        tinkerData = tinkerData - "Modifiers";
+        for i in 0 to outData.memberGet("TinkerData").memberGet("Modifiers").length {
+            var current as IData = modifiersTo[i];
+            if(!(current as string).contains("extratrait")) {
+                modifierData = modifierData.update([current] as IData);
+            }
+        }
+        tinkerData = tinkerData.update({Modifiers: modifierData} as IData);
+        outData = outData - "TinkerData";
+        outData = outData.update({TinkerData: tinkerData} as IData);
+    }
     
     return ins.to.withTag(outData);
 }, null);
@@ -165,32 +189,54 @@ function(out, ins, cInfo) {
     var modifiersFrom = ins.from.tag.memberGet("Modifiers") as IData;
     var modifiersTo = ins.to.tag.memberGet("Modifiers") as IData;
     var toolLevel = {} as IData;
+    var level = -1 as int;
     if (modifiersFrom.asString().contains("leveling_armor")) {
         for i in 0 to modifiersFrom.length {
             var current as IData = modifiersFrom[i];
             if (current.asString().contains("leveling_armor")) {
                 toolLevel = current;
+                if(toolLevel has "level") {
+                    level = toolLevel.memberGet("level") as int;
+                }
                 break;
             }
         }
     }
     var newModifier as IData = [];
-    if (!isNull(newModifier)) {
+    if (!isNull(newModifier) && level >= 0) {
         for i in 0 to modifiersTo.length {
             var current as IData = modifiersTo[i];
             if (isNull(current)) { 
                 break;
             }
             if (current.asString().contains("leveling_armor")) {
-                newModifier = newModifier.update([current + toolLevel] as IData);
+                newModifier = newModifier.update([current.update({"level": level})] as IData);
                 break;
             } else {
-                newModifier = newModifier.update([current] as IData);
+                if(!current.asString().contains("extratrait")) {
+                    newModifier = newModifier.update([current] as IData);
+                }
             }
         }
     }
     var outData as IData = ins.to.tag - "Modifiers";
     outData = outData + ({Modifiers: newModifier}) as IData;
+    
+    var modifierData as IData = [];
+    var tinkerData as IData = {};
+    if((outData has "TinkerData") && (outData.memberGet("TinkerData") has "Modifiers")) {
+        tinkerData = outData.memberGet("TinkerData");
+        tinkerData = tinkerData - "Modifiers";
+        for i in 0 to outData.memberGet("TinkerData").memberGet("Modifiers").length {
+            var current as IData = modifiersTo[i];
+            if(!(current as string).contains("extratrait")) {
+                modifierData = modifierData.update([current] as IData);
+            }
+        }
+        tinkerData = tinkerData.update({Modifiers: modifierData} as IData);
+        outData = outData - "TinkerData";
+        outData = outData.update({TinkerData: tinkerData} as IData);
+    }
     
     return ins.to.withTag(outData);
 }, null);

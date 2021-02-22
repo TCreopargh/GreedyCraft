@@ -67,7 +67,7 @@ events.onGameStageAdd(function(event as GameStageAddEvent) {
         }
         data += [delimiter] as IData;
         player.sendRichTextMessage(ITextComponent.fromData(data));
-        server.commandManager.executeCommand(server, "/playsound ui.toast.challenge_complete player " + player.name + " " + player.x + " " + player.y + " " + player.z + " 100 1");
+        player.sendPlaySoundPacket("ui.toast.challenge_complete", "player", player.position3f, 100.0f, 1.0f);
         
         if (event.gameStage == "nether") {
             player.addGameStage("roughmobsboss");

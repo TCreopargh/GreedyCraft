@@ -22,6 +22,7 @@ import crafttweaker.potions.IPotionEffect;
 import crafttweaker.world.IFacing;
 import crafttweaker.command.ICommandSender;
 import crafttweaker.text.ITextComponent;
+import crafttweaker.chat.IChatMessage;
 
 import mods.ctutils.utils.Math;
 import mods.ctutils.world.IGameRules;
@@ -29,10 +30,9 @@ import mods.ctintegration.data.DataUtil;
 import mods.ctintegration.util.DateUtil;
 import mods.ctintegration.date.IDate;     
 
+import scripts.util.lang as LangUtil;
 import scripts.util.date as CalendarUtil;
 import scripts.util.patreons as PatreonUtil;
-
-import crafttweaker.chat.IChatMessage;
 
 import mods.zenutils.I18n;
 
@@ -43,7 +43,7 @@ events.onPlayerLoggedIn(function (event as PlayerLoggedInEvent) {
     if (player.hasGameStage("truehero") && !player.hasGameStage("iswuss")) {
         player.sendRichTextMessage(ITextComponent.fromTranslation("greedycraft.event.true_hero.join", player.name));
     } else if (player.hasGameStage("iswuss")) {
-        server.commandManager.executeCommand(server, "/broadcast " + I18n.format("greedycraft.event.in_cheat.broadcast", player.name));
+        server.broadcastMessage(ITextComponent.fromTranslation("greedycraft.event.in_cheat.broadcast", player.name));
         player.sendRichTextMessage(ITextComponent.fromTranslation("greedycraft.event.in_cheat.chat"));
         if (player.creative) {
             player.addGameStage("creative");
@@ -51,7 +51,7 @@ events.onPlayerLoggedIn(function (event as PlayerLoggedInEvent) {
     } else if (player.creative) {
         if (!player.hasGameStage("truehero")) {
             player.addGameStage("creative");
-            server.commandManager.executeCommand(server, "/broadcast " + I18n.format("greedycraft.event.in_cheat.broadcast", player.name));
+        server.broadcastMessage(ITextComponent.fromTranslation("greedycraft.event.in_cheat.broadcast", player.name));
             server.commandManager.executeCommand(server, "/gamestage add " + player.name + " iswuss");
             player.sendRichTextMessage(ITextComponent.fromTranslation("greedycraft.event.creative_cheat.chat"));
             server.commandManager.executeCommand(server, "/unlockallstages " + player.name);
@@ -59,22 +59,24 @@ events.onPlayerLoggedIn(function (event as PlayerLoggedInEvent) {
         }
     }
     server.commandManager.executeCommand(server, "/sendwelcomequote " + player.name);
+    
+    var playerName as ITextComponent = ITextComponent.fromData(["", {text: player.name, color: "yellow"}]);
+    var playerNameNormal as ITextComponent = ITextComponent.fromData(["", {text: player.name, color: "yellow"}]);
+    if (PatreonUtil.isPatreon(player.name)) {
+        playerName = ITextComponent.fromData(["", {translate: "greedycraft.event.sponsor.title", color: "green"}, {text: player.name, color: "yellow"}]);
+    }
 
     //Patreon join notification
     if (player.hasGameStage("truehero")) {
-        server.commandManager.executeCommand(server, "/broadcast " + I18n.format("greedycraft.event.executor.welcome", player.name));
+        server.broadcastMessage(ITextComponent.fromTranslation("greedycraft.event.executor.welcome", playerNameNormal.formattedText));
     } else if (PatreonUtil.isPatreon(player.name)) {
-        server.commandManager.executeCommand(server, "/broadcast " + I18n.format("greedycraft.event.sponsor.welcome", player.name));
+        server.broadcastMessage(ITextComponent.fromTranslation("greedycraft.event.sponsor.welcome", playerNameNormal.formattedText));
     }
 
     if (!player.hasGameStage("first_join_message_shown")) {
         server.commandManager.executeCommand(server, "/sendfirstjoinmessage " + player.name);
         player.addGameStage("first_join_message_shown");
     } else {
-        var playerName as ITextComponent = ITextComponent.fromData(["", {text: player.name, color: "yellow"}]);
-        if (PatreonUtil.isPatreon(player.name)) {
-            playerName = ITextComponent.fromData(["", {translate: "greedycraft.event.sponsor.title", color: "green"}, {text: player.name, color: "yellow"}]);
-        }
         if (CalendarUtil.isChristmas()) {
             player.sendRichTextMessage(ITextComponent.fromTranslation("greedycraft.event.welcome.christmas", playerName.formattedText));
         } else if (CalendarUtil.isHalloween()) {
@@ -88,4 +90,6 @@ events.onPlayerLoggedIn(function (event as PlayerLoggedInEvent) {
         }
     }
     server.commandManager.executeCommand(server, "/difficulty hard");
+
+    server.commandManager.executeCommand(server, "/advancement revoke " + player.name + " through greedycraft:elysia/root");
 });

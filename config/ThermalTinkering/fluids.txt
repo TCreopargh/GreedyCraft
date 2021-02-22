@@ -139,6 +139,7 @@ durasteel                                         (contenttweaker:durasteel)    
 aeonsteel                                         (contenttweaker:aeonsteel)                                                       = ÈÛÈÚºã¸Ö
 chromasteel                                       (contenttweaker:chromasteel)                                                     = ÈÛÈÚìÅ¸Ö
 spectre                                           (contenttweaker:spectre)                                                         = Áé»êÖ®Èª
+gaiasteel                                         (contenttweaker:gaiasteel)                                                       = ÈÛÈÚ¸ÇÑÇ¸Ö
 fluidedmana                                       (extrabotany:fluidedmana)                                                        = ÒºÌ¬Ä§Á¦
 bio.ethanol                                       (forestry:fluid.bio.ethanol)                                                     = ÒÒ´¼
 for.honey                                         (forestry:fluid.for.honey)                                                       = ·äÃÛ

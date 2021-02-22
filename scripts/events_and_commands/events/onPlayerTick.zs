@@ -25,6 +25,9 @@ import crafttweaker.text.ITextComponent;
 import crafttweaker.world.IBiome;
 import crafttweaker.world.IBiomeType;
 
+import mods.ctintegration.advancement.AdvancementHelper;
+import mods.ctintegration.advancement.IAdvancement;
+import mods.ctintegration.advancement.IAdvancementProgress;
 import mods.ctutils.utils.Math;
 import mods.ctutils.world.IGameRules;
 
@@ -60,6 +63,17 @@ function getBottomBlockPos(player as IPlayer) as IBlockPos {
     return pos.getOffset(IFacing.down(), 1) as IBlockPos;
 }
 
+function grantAdvancement(player as IPlayer, advancementId as string) {
+    var adv as IAdvancement = AdvancementHelper.getAdvancementById(player.server, advancementId);
+    if(!isNull(adv)) {
+        var progress as IAdvancementProgress = player.getAdvancementProgress(adv);
+        if(!isNull(progress) && !progress.isDone()) {
+            // progress.setCompleted();
+            server.commandManager.executeCommand(server, "/advancement grant " + player.name + " only " + advancementId);
+        }
+    } 
+}
+
 events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
 
     if (event.phase != "END" || event.side != "SERVER") {
@@ -75,15 +89,15 @@ events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
 
     //Check for story advancement
     if (player.world.getWorldTime() as long % 40 == 0) {
-        server.commandManager.executeCommand(server, "/advancement grant " + player.name + " only greedycraft:elysia/root");
+        grantAdvancement(player, "greedycraft:elysia/root");
         for stage in advancementMap {
             if (player.hasGameStage(stage)) {
                 var advancement as string = advancementMap[stage] as string;
-                server.commandManager.executeCommand(server, "/advancement grant " + player.name + " only " + advancement);
+                grantAdvancement(player, advancement);
             }
         }
         if (!isNull(player.currentItem) && player.currentItem.definition.id == "patchouli:guide_book" && !isNull(player.currentItem.tag.memberGet("patchouli:book")) && player.currentItem.tag.memberGet("patchouli:book") == "patchouli:the_elysia_project") {
-            server.commandManager.executeCommand(server, "/advancement grant " + player.name + " only greedycraft:elysia/book");
+            grantAdvancement(player, "greedycraft:elysia/book");
         }
     }
 
@@ -123,7 +137,7 @@ events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
     if (!player.creative && player.world.getWorldTime() as long % 4 == 0) {
         var effects as IPotionEffect[] = player.activePotionEffects as IPotionEffect[];
         for effect in effects {
-            if (effect.duration < 5 && !effect.isAmbient) {
+            if (effect.duration < 5) {
                 player.removePotionEffect(effect.potion);
             }
         }

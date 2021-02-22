@@ -1,0 +1,3 @@
+D:\Minecraft\.minecraft\versions\GreedyCraft\addons\Additions\TCreopargh_Sponsors_mod\data\creative_tabs\tcsponsors-sponsors_content.json
+- Expected item to be an item, was unknown string 'additions:tcsponsors-doomshroom'
+

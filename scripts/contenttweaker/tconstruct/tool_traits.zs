@@ -118,7 +118,7 @@ ragingTrait.calcCrit = function(trait, tool, attacker, target) {
 };
 ragingTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
     if (!isCritical) {
-        return newDamage * 1.3;
+        return newDamage * 1.25;
     }
     return  newDamage * 0.75;
 };
@@ -148,12 +148,9 @@ levelingdamageTrait.extraInfo = function(thisTrait, item, tag) {
     var multiplier = 1.0;
     if (!isNull(toolLevel.memberGet("level"))) {
         var level = toolLevel.memberGet("level").asInt() as int;
-        while(level > 0) {
-            level -= 1;
-            multiplier += 0.05;
-        }
-        if (multiplier > 2.0) {
-            multiplier = 2.0 + (multiplier - 2.0) / 4;
+        multiplier += 0.025f * level as float;
+        if (multiplier > 1.5) {
+            multiplier = 1.5 + (multiplier - 1.5) / 4;
         }
     }
     var data as TraitDataRepresentation = thisTrait.getData(item);

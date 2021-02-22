@@ -14,7 +14,8 @@ static buggedFoods as IItemStack[] = [
     <betternether:stalagnate_bowl_apple>,
     <betternether:stalagnate_bowl_mushroom>,
     <betternether:stalagnate_bowl_wart>,
-    <twilightforest:meef_stroganoff>
+    <twilightforest:meef_stroganoff>,
+    <birdsfoods:potato_soup>
 ];
 
 for food in buggedFoods {

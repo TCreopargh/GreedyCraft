@@ -131,6 +131,10 @@ global patreonList as string[][string] = {
         "Rescue_Expert",
         "yu_ze_fish",
         "HeroLNM",
-        "NNNNNelson"
+        "NNNNNelson",
+        "reuels",
+        "China12580",
+        "OFFLOOP",
+        "sao_nian_CG"
     ]
 };

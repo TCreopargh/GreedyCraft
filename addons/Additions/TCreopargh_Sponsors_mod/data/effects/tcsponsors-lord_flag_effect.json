@@ -1,0 +1,44 @@
+{
+  "cause": {
+    "item": {
+      "item": "additions:tcsponsors-lord_flag",
+      "damage": "any"
+    },
+    "type": "additions:item_in_hand"
+  },
+  "effects": [
+    {
+      "type": "additions:damage_item"
+    },
+    {
+      "potion": {
+        "name": "minecraft:regeneration",
+        "duration": 50,
+        "amplifier": 0,
+        "ambient": false,
+        "show_particles": true
+      },
+      "type": "additions:potion"
+    },
+    {
+      "potion": {
+        "name": "minecraft:fire_resistance",
+        "duration": 50,
+        "amplifier": 0,
+        "ambient": false,
+        "show_particles": true
+      },
+      "type": "additions:potion"
+    },
+    {
+      "potion": {
+        "name": "minecraft:resistance",
+        "duration": 50,
+        "amplifier": 0,
+        "ambient": false,
+        "show_particles": true
+      },
+      "type": "additions:potion"
+    }
+  ]
+}

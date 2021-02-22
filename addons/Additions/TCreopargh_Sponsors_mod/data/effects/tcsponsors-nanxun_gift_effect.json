@@ -1,0 +1,124 @@
+{
+  "cause": {
+    "item": {
+      "item": "additions:tcsponsors-nan_xun_gift",
+      "damage": "any"
+    },
+    "type": "additions:item_in_hand"
+  },
+  "effects": [
+    {
+      "potion": {
+        "name": "minecraft:wither",
+        "duration": 200,
+        "amplifier": 2,
+        "ambient": false,
+        "show_particles": true
+      },
+      "type": "additions:potion"
+    },
+    {
+      "potion": {
+        "name": "minecraft:blindness",
+        "duration": 200,
+        "amplifier": 0,
+        "ambient": false,
+        "show_particles": true
+      },
+      "type": "additions:potion"
+    },
+    {
+      "potion": {
+        "name": "minecraft:mining_fatigue",
+        "duration": 200,
+        "amplifier": 2,
+        "ambient": false,
+        "show_particles": true
+      },
+      "type": "additions:potion"
+    },
+    {
+      "potion": {
+        "name": "minecraft:weakness",
+        "duration": 200,
+        "amplifier": 2,
+        "ambient": false,
+        "show_particles": true
+      },
+      "type": "additions:potion"
+    },
+    {
+      "type": "additions:consume_item"
+    },
+    {
+      "potion": {
+        "name": "minecraft:levitation",
+        "duration": 100,
+        "amplifier": 5,
+        "ambient": false,
+        "show_particles": true
+      },
+      "type": "additions:potion"
+    },
+    {
+      "potion": {
+        "name": "thaumcraft:fluxtaint",
+        "duration": 400,
+        "amplifier": 2,
+        "ambient": false,
+        "show_particles": true
+      },
+      "type": "additions:potion"
+    },
+    {
+      "potion": {
+        "name": "thaumcraft:visexhaust",
+        "duration": 600,
+        "amplifier": 2,
+        "ambient": false,
+        "show_particles": true
+      },
+      "type": "additions:potion"
+    },
+    {
+      "potion": {
+        "name": "thaumcraft:infectiousvisexhaust",
+        "duration": 400,
+        "amplifier": 2,
+        "ambient": false,
+        "show_particles": true
+      },
+      "type": "additions:potion"
+    },
+    {
+      "potion": {
+        "name": "thaumcraft:unnaturalhunger",
+        "duration": 600,
+        "amplifier": 2,
+        "ambient": false,
+        "show_particles": true
+      },
+      "type": "additions:potion"
+    },
+    {
+      "potion": {
+        "name": "thaumcraft:blurredvision",
+        "duration": 400,
+        "amplifier": 2,
+        "ambient": false,
+        "show_particles": true
+      },
+      "type": "additions:potion"
+    },
+    {
+      "potion": {
+        "name": "thaumcraft:sunscorned",
+        "duration": 1000,
+        "amplifier": 2,
+        "ambient": false,
+        "show_particles": true
+      },
+      "type": "additions:potion"
+    }
+  ]
+}

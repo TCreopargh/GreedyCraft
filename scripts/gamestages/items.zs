@@ -138,6 +138,28 @@ GameStagesUtil.stageAwakened.addIngredients([
 ], true);
 
 GameStagesUtil.stageNether.addIngredients([
+    <botanicadds:gaia_plate>,
+    <botanicadds:terra_catalyst>,
+    <botanicadds:gaia_shard>,
+    <threng:material>,
+    <threng:material:1>,
+    <threng:material:2>,
+    <appliedenergistics2:material:42>,
+    <appliedenergistics2:material:43>,
+    <appliedenergistics2:material:44>,
+    <ore:pearlFluix>,
+    <ore:dustFluix>,
+    <appliedenergistics2:part:140>,
+    <ore:gemFluix>,
+    <ore:crystalPureNetherQuartz>,
+    <ore:crystalPureFluix>,
+    <abyssalcraft:eoa>,
+    <abyssalcraft:oc>,
+    <abyssalcraft:powerstonetracker>,
+    <abyssalcraft:gatewaykey>,
+    <defiledlands:idol_sorrow>,
+    <quark:blaze_lantern>,
+    <thermalfoundation:material:1024>,
     <treasure2:skull_sword>,
     <additions:greedycraft-shining_star>,
     <ore:eternalLifeEssence>,
@@ -510,6 +532,8 @@ GameStagesUtil.stageAbyssalConquerer.addIngredients([
 ], true);
 
 GameStagesUtil.stageWitherSlayer.addIngredients([
+    <botanicadds:gaiasteel_ingot>,
+    <botanicadds:gaiasteel_block>,
     <additions:greedycraft-bravery_certificate>,
     <enderio:block_reinforced_obsidian>,
     <mysticalagriculture:witherproof_block>,
@@ -662,6 +686,7 @@ GameStagesUtil.stageSkilledEngineer.addIngredients([
 ], true);
 
 GameStagesUtil.stageMasterEngineer.addIngredients([
+    <actuallyadditions:block_directional_breaker>,
     <extrautils2:quarry>,
     <extrautils2:quarryproxy>,
     <ore:alloyUltimate>,
@@ -669,7 +694,7 @@ GameStagesUtil.stageMasterEngineer.addIngredients([
     <solarflux:solar_panel_8>,
     <enderio:block_killer_joe>,
     <cyclicmagic:block_user>,
-    <extrautils2:user>,
+    <thaumictinkerer:animation_tablet>,
     <actuallyadditions:block_miner>,
     <solarflux:solar_panel_wyvern>,
     <solarflux:solar_panel_draconic>,
@@ -731,6 +756,7 @@ GameStagesUtil.stageChallenger7.addIngredients([
 ], true);
 
 GameStagesUtil.stageFearlessMan.addIngredients([
+    <abyssalcraft:dreadkey>,
     <abyssalcraft:gatewaykeydl>,
     <abyssalcraft:dreadshard>,
     <ore:ingotDreadium>
