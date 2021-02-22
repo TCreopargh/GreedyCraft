@@ -65,7 +65,7 @@ liquid_chocolate                                  (candymod:liquid_chocolate_blo
 aeroite                                           (jaopca:fluid_moltenaeroite)                                                     = Molten Aeroite
 asgardium                                         (jaopca:fluid_moltenasgardium)                                                   = Molten Asgardium
 shadowium                                         (jaopca:fluid_moltenshadowium)                                                   = Molten Shadowium
-netherite                                         (contenttweaker:netherite)                                                       = Molten Nethreite
+netherite                                         (contenttweaker:netherite)                                                       = Molten Netherite
 stone                                             (tconstruct:molten_stone)                                                        = Seared Stone
 scorched                                          (contenttweaker:scorched)                                                        = Molten Scorched Brick
 modularium                                        (contenttweaker:modularium)                                                      = Molten Modularium
@@ -83,6 +83,7 @@ durasteel                                         (contenttweaker:durasteel)    
 aeonsteel                                         (contenttweaker:aeonsteel)                                                       = Molten Aeonsteel
 chromasteel                                       (contenttweaker:chromasteel)                                                     = Molten Chromasteel
 spectre                                           (contenttweaker:spectre)                                                         = Soul Springs
+gaiasteel                                         (contenttweaker:gaiasteel)                                                       = Molten Gaiasteel
 molten_blood_infused_iron                         (bloodarsenal:bloodarsenal.molten_blood_infused_iron)                            = Molten Blood Infused Iron
 umbrium                                           (defiledlands:molten_umbrium)                                                    = Molten Umbrium
 xu_evil_metal                                     ([no block])                                                                     = Evil Infused Iron

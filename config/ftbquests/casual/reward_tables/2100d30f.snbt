@@ -733,7 +733,7 @@
 	},
 	{
 		item: "mysticalagriculture:growth_accelerator",
-		random_bonus: 5
+		random_bonus: 2
 	},
 	{
 		item: "additions:greedycraft-compressed_experience_block",

@@ -19,6 +19,7 @@ import scripts.util.recipes as RecipeUtil;
 import scripts.util.lang as LangUtil;
 
 val disabledItems as IIngredient[] = [
+    <extrautils2:user>,
     <openblocks:block_placer>,
     <cyclicmagic:placer_block>,
     <actuallyadditions:block_placer>,
@@ -276,7 +277,11 @@ val disabledItems as IIngredient[] = [
     <harvestcraft:hardenedleatherhelmitem>,
     <harvestcraft:hardenedleatherchestitem>,
     <harvestcraft:hardenedleatherleggingsitem>,
-    <harvestcraft:hardenedleatherbootsitem>
+    <harvestcraft:hardenedleatherbootsitem>,
+    <projecte:item.pe_void_ring>.withTag({teleportCooldown: 0 as byte}),
+    <projecte:item.pe_void_ring>,
+    <botanicadds:mana_stealer_sword>,
+    <botanicadds:terra_protector>
 ] as IIngredient[];
 
 val disabledRecipeRegex as string[] = [

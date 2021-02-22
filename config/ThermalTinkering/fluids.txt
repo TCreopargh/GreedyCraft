@@ -125,7 +125,7 @@ cosmilite                                         (contenttweaker:cosmilite)    
 astral_metal                                      (contenttweaker:astral_metal)                                                    = Astral Pulse
 orichalcos                                        (contenttweaker:orichalcos)                                                      = Molten Orichalcos
 ancient_debris                                    (contenttweaker:ancient_debris)                                                  = Molten Ancient Debris
-netherite                                         (contenttweaker:netherite)                                                       = Molten Nethreite
+netherite                                         (contenttweaker:netherite)                                                       = Molten Netherite
 scorched                                          (contenttweaker:scorched)                                                        = Molten Scorched Brick
 organic_fluid                                     (contenttweaker:organic_fluid)                                                   = Organic Fluid
 modularium                                        (contenttweaker:modularium)                                                      = Molten Modularium
@@ -139,6 +139,7 @@ durasteel                                         (contenttweaker:durasteel)    
 aeonsteel                                         (contenttweaker:aeonsteel)                                                       = Molten Aeonsteel
 chromasteel                                       (contenttweaker:chromasteel)                                                     = Molten Chromasteel
 spectre                                           (contenttweaker:spectre)                                                         = Soul Springs
+gaiasteel                                         (contenttweaker:gaiasteel)                                                       = Molten Gaiasteel
 fluidedmana                                       (extrabotany:fluidedmana)                                                        = Fluided Mana
 bio.ethanol                                       (forestry:fluid.bio.ethanol)                                                     = Ethanol
 for.honey                                         (forestry:fluid.for.honey)                                                       = Honey

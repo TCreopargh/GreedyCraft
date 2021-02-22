@@ -1,0 +1,70 @@
+If you get stuck at 95% please try setting the priority of Minecraft higher in task manager.
+Loading takes too long? Have a cup of coffee! Or go to sleep...
+Please make sure you followed the installation guide to install this modpack!
+If you encounter lag when cleaning memory, please use the recommended JVM arguments.
+Don't enable VSync. It can break things.
+Can see through some of the blocks? Disable VBOs in video settings.
+Want more FPS? Try decreasing render distance.
+Press F6 to switch between 1st person and 3rd person mode.
+Press F7 to toggle realistic 1st person.
+If you want to use vanilla 1st person mode please enable View Bobbing.
+Read the modpack guide book. It helps a lot.
+Lost your Omnipedia? You can make another one with a blank Akashic Tome!
+Press Alt + Minus (on numpad) to reload background music.
+Armor damage reductions are reworked in this modpack. 
+Don't stick with vanilla tools and armor. Build yourself a Tinker's forge ASAP.
+Try to look for villages on your first day of survival, it can help a lot.
+Eating diversed food is always good. (Yes even rotten flesh can be good)
+Thou shalt not strip mine.
+Game stucks after loading 100%? Try disconnecting from Internet, it can magically fix it!
+10 to 15 minutes of loading time is normal.
+Don't stare at this, you are wasting your time.
+Go to take a shower or something, make use of your time.
+This is not a tip.
+Try to get used to the 3rd person mode, you will love it.
+You have 4 extra bauble slots!
+Always have a pouch of unknown with you!
+Read the Elysian Project book when you have time!
+Memory usage is too high? Try allocating some more virtual memory!
+If your game crashes without a warning, Your game most probably runs out of memory.
+Some special events may happen at specific times of a year!
+If you think you are experienced, try Expert mode. Don't be afraid.
+Use /suicide command to kill yourself, if you want to.
+Team up with your friends using /togetherforever command to sync game stages!
+Claim chunks to avoid grief and destructions!
+Don't have too many chunks keep loading, it lags your game.
+Try not to put backpacks into AE2 system, or you will have a hard time taking it out.
+You can always restore a world backup by clicking on [Backups] in world selection menu.
+Skills are important. Spend your XP on them!
+Press F5 to swap shoulders of 3rd person. Use directional keys to adjust the camera.
+Don't try to add unbalanced mods into the modpack, or bad things will happen.
+You can make an AE2 system in early game! (Yep nether is early game)
+No, you are not supposed to build a mob grinder.
+Use torchmaster to get rid of mob spawning in a large area!
+If you are brave enough you can try to play Expert mode in hardcore mode. It's not that hard.
+Be prepared before you fight the dragon, things may change vastly after this battle!
+Danger lies in the depths of the oceans. Before exploring, brew some water breathing potions!
+You find food more delicious when hungry.
+You can't excavate ores or sprint when at low hunger. 
+Don't believe anything in this game.
+Press U on an item to look up its usage in JEI, press P to look up recipes.
+You can only view recipes of an item when you have the required game stage!
+If you somehow lost your game stages or progression, please restore a backup.
+If you love this modpack, consider becoming a sponsor!
+You can find many useful commands in the modpack guide book!
+Restarting your computer sometimes fixes memory related issues.
+Read the installation guide if you haven't. It's very important.
+Please follow the installation guide to update the modpack.
+You can turn off shaders by editing optionsshaders.txt
+You can switch packmodes when not in the game by editing config/packmode.cfg
+Currently not all game stages serve a purpose.
+Don't try to disturb mob spawners doing their job. You have been warned.
+Make sure you have a good network connection when loading into the game.
+Equivalent Exchange is not equivalent.
+Getting lag when you have just joined a world is normal. Look around to get things loaded.
+Use sharpening kits to repair tinker's tools, and polishing kits to repair armors.
+Be patient when the game is loading. Don't spam clicks.
+Join our discord for discussion and help!
+This modpack is made by TCreopargh.
+Botania is a tech mod.
+Explore dungeons if you find one in your journey, they have bountiful loot!

@@ -15,6 +15,7 @@ import mods.botania.Apothecary;
 import mods.botania.PureDaisy;
 import mods.botania.RuneAltar;
 import mods.botania.ManaInfusion;
+import mods.botanicadds.GaiaPlate;
 
 ElvenTrade.addRecipe([<defiledlands:scarlite>], [<ore:slimeballBlood>, <ore:gemEmerald>, <ore:gemEmerald>]);
 ElvenTrade.addRecipe([<actuallyadditions:item_misc:5>], [<ore:gemQuartz>, <ore:coal>]);
@@ -40,6 +41,9 @@ PureDaisy.removeRecipe(<minecraft:cobblestone>);
 PureDaisy.removeRecipe(<minecraft:sand>);
 PureDaisy.removeRecipe(<minecraft:packed_ice>);
 PureDaisy.removeRecipe(<minecraft:obsidian>);
+
+GaiaPlate.remove(<botanicadds:gaiasteel_ingot>);
+GaiaPlate.add(<botanicadds:gaiasteel_ingot>, 1000000, [<defiledlands:remorseful_gem>, <botania:manaresource:14>, <botania:manaresource:9>, <minecraft:nether_star>]);
 
 ManaInfusion.removeRecipe(<botania:manacookie>);
 

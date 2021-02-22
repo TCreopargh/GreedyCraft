@@ -11,7 +11,8 @@
         "greedycraft/mojang_logo",
         "greedycraft/ram_bar",
         "greedycraft/memory_text_left",
-        "greedycraft/memory_text_right"
+        "greedycraft/memory_text_right",
+        "greedycraft/tips"
     ],
     "variables": {
         "mem_percent": "((floor(memory_used() * 100) + 0.0) / (floor(memory_max() * 100) + 0.0))",

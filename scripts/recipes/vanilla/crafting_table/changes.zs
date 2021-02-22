@@ -40,3 +40,13 @@ RecipeUtil.removeAndAdd("fusion_core", <draconicevolution:fusion_crafting_core>,
     [<ore:ingotDurasteel>, <draconicevolution:draconic_core>, <ore:ingotDurasteel>], 
     [<ore:ingotFusionMatrix>, <ore:ingotDurasteel>, <ore:ingotFusionMatrix>]
 ]);
+RecipeUtil.removeAndAdd("storage_detector", <rftools:storage_scanner>, [
+    [<ore:ingotFluixSteel>, <ore:ingotDurasteel>, <ore:ingotFluixSteel>],
+    [<ore:pearlEnderEye>, <rftools:machine_frame>, <ore:pearlEnderEye>], 
+    [<ore:ingotFluixSteel>, <ore:ingotDurasteel>, <ore:ingotFluixSteel>]
+]);
+RecipeUtil.removeAndAdd("idol_of_sorrow", <defiledlands:idol_sorrow>, [
+    [null, <ore:eternalLifeEssence>, null],
+    [<ore:ingotRavaging>, <ore:blockScarlite>, <ore:ingotRavaging>], 
+    [null, <ore:ingotUmbrium>, null]
+]);

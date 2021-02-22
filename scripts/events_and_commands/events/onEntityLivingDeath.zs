@@ -56,7 +56,7 @@ events.onEntityLivingDeath(function (event as EntityLivingDeathEvent) {
         deathMsg = " §c☠ §7" + deathMsg;
         deathMsg = deathMsg.replace("§r", "§7");
         deathMsg = deathMsg + " §9@ §7(§3" + Math.floor(player.x) as int + "§7, §3" + Math.floor(player.y) as int + "§7, §3" + Math.floor(player.z) as int + "§7)";
-        server.commandManager.executeCommand(server, "/broadcast " + deathMsg);
+        server.broadcastMessage(ITextComponent.fromString(deathMsg));
 
         // Death quotes
         var deathQuotesArray as string[] = deathQuotes[LangUtil.getLanguage()];

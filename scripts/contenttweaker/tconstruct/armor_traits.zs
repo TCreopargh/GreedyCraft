@@ -237,12 +237,9 @@ levelingdefenseTrait.extraInfo = function(thisTrait, item, tag) {
     var multiplier as float = 0.0 as float;
     if (!isNull(armorLevel.memberGet("level"))) {
         var level = armorLevel.memberGet("level").asInt() as int;
-        while(level > 0) {
-            level -= 1;
-            multiplier += 0.05 as float;
-        }
-        if (multiplier > 1.0 as float) {
-            multiplier = 1.0 as float + (multiplier as float - 1.0 as float) / 4.0 as float;
+        multiplier += 0.025f * level as float;
+        if (multiplier > 0.5 as float) {
+            multiplier = 0.5 as float + (multiplier as float - 1.0 as float) / 4.0 as float;
         }
     }
     multiplier *= 0.25 as float;

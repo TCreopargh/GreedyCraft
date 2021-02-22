@@ -6,7 +6,7 @@
     "text": "(floor(percentage * 100)) + '.' + (floor(percentage * 1000) % 10) + '%'",
     "position": {
         "x": "0",
-        "y": "screen_height * 0.3 - 10",
+        "y": "screen_height * 0.3 - 20",
         "width": "0",
         "height": "0"
     },

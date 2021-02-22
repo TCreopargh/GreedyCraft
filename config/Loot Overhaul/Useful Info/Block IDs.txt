@@ -7439,3 +7439,14 @@ jaopca:fluid_moltenmithril - 7436
 jaopca:fluid_moltenshadowium - 7437
 jaopca:fluid_moltentitanium - 7438
 jaopca:fluid_moltenuranium - 7439
+botanicadds:elven_lapis_block - 7440
+botanicadds:elvenwood_log - 7441
+botanicadds:mana_tesseract - 7442
+botanicadds:elven_altar - 7443
+botanicadds:gaiasteel_block - 7444
+botanicadds:mana_lapis_block - 7445
+botanicadds:terra_catalyst - 7446
+botanicadds:gaia_plate - 7447
+botanicadds:pool_dreaming - 7448
+botanicadds:dreamrock - 7449
+contenttweaker:gaiasteel - 7450

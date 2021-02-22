@@ -6,6 +6,9 @@
 #priority 32000
 #no_fix_recipe_book
 
+import crafttweaker.player.IPlayer;
+import crafttweaker.text.ITextComponent;
+
 import mods.zenutils.I18n;
 
 // Server side translation
@@ -37,6 +40,13 @@ static translations as string[string][string] = {
         "greedycraft.stage.disabled_item.name": "§4已禁用的物品"
     }
 };
+
+function broadcast(msg as ITextComponent) {
+    var players as IPlayer[] = server.getPlayers() as IPlayer[];
+    for player in players {
+        player.sendRichTextMessage(msg);
+    }
+}
 
 function getLanguage() as string {
     var lang as string = game.localize("greedycraft.language");
