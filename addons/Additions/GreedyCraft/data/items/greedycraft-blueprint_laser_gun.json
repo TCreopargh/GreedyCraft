@@ -1,0 +1,6 @@
+{
+  "name": "§9Blueprint §7[§3Laser Gun§7]",
+  "tooltip": "§eRight click to unlock tinker's construct tool: §6Laser Gun",
+  "ore_dict": "dungeonLootTier3",
+  "type": "additions:simple"
+}

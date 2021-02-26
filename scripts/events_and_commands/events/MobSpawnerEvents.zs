@@ -39,7 +39,7 @@ function getKillCount(block as IBlock) as int {
 }
 
 events.onBlockBreak(function(event as BlockBreakEvent) {
-    if (event.isPlayer && !event.player.creative) {
+    if (!event.canceled && event.isPlayer && !event.player.creative) {
         var player as IPlayer = event.player;
         var block as IBlock = event.world.getBlock(event.position);
         if (event.block.definition.id == "minecraft:mob_spawner") {

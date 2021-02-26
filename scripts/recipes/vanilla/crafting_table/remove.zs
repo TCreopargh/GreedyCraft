@@ -3,7 +3,7 @@
  * You may NOT use this script in any other publicly distributed modpack without my permission. 
  */
 
-#priority 4001
+#priority 4002
 #no_fix_recipe_book
 
 import crafttweaker.item.IItemStack;

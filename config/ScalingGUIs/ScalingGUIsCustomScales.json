@@ -10,6 +10,30 @@
     "slimeknights.tconstruct.tools.common.client.GuiStencilTable": {
       "scale": 3,
       "name": "Tinker\u0027s cast workbench"
+    },
+    "p455w0rd.danknull.client.gui.GuiDankNull": {
+      "scale": 9,
+      "name": "Dank Null GUI"
+    },
+    "mca.client.gui.GuiInteract": {
+      "scale": 9,
+      "name": "MCA Interaction GUI"
+    },
+    "net.minecraft.client.gui.GuiChat": {
+      "scale": 9,
+      "name": "Chat (Vanilla) "
+    },
+    "net.optifine.gui.GuiChatOF": {
+      "scale": 9,
+      "name": "Chat (Optifine)"
+    },
+    "lumien.custommainmenu.gui.GuiCustom": {
+      "scale": 9,
+      "name": "Custom main menu"
+    },
+    "betteradvancements.gui.GuiScreenBetterAdvancements": {
+      "scale": 9,
+      "name": "Advancements GUI"
     }
   },
   "customGroupGuiScales": {},

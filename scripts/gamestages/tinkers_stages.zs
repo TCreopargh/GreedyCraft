@@ -93,10 +93,9 @@ val toolTypeStages as string[string] = {
     "tconstruct:rapier": "tactic_blueprint",
     "tconstruct:longsword": "tactic_blueprint",
     "plustic:katana": "tactic_blueprint",
-    "plustic:laser_gun": "tactic_blueprint",
+    "plustic:laser_gun": "laser_gun_blueprint",
     "tconstruct:cleaver": "tactic_blueprint",
-    "tconstruct:shuriken": "shuriken_blueprint",
-    "yoyos:yoyo": "yoyo_blueprint"
+    "tconstruct:shuriken": "shuriken_blueprint"
 } as string[string];
 
 TinkerStages.addModifierStage("hardmode", "mending_moss");

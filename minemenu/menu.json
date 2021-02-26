@@ -66,15 +66,15 @@
       }
     },
     "5": {
-      "title": "¡ìbOpen backpack ¡ì9¡ìoSimplyBackpacks",
+      "title": "¡ì6Open Backpack ¡ì9¡ìoSimply Backpacks",
       "icon": {
         "name": "simplybackpacks:commonbackpack",
         "damage": 0
       },
       "action": {
         "key": {
-          "key": "key_key.simplybackpacks.backpackopen.desc",
-          "toggle": true
+          "key": "key.simplybackpacks.backpackopen.desc",
+          "toggle": false
         }
       }
     },
@@ -105,7 +105,7 @@
       }
     },
     "8": {
-      "title": "¡ì6Clean memory ¡ì9¡ìoFor Performance",
+      "title": "¡ì6Clean memory ¡ì9¡ìoMemory Cleaner",
       "icon": {
         "name": "additions:greedycraft-item_purger",
         "damage": 0

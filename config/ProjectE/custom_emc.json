@@ -11,6 +11,46 @@
     {
       "item": "minecraft:dragon_breath|0",
       "emc": 0
+    },
+    {
+      "item": "thaumcraft:primordial_pearl|0",
+      "emc": 92000
+    },
+    {
+      "item": "thaumicwonders:primordial_grain|0",
+      "emc": 60000
+    },
+    {
+      "item": "thaumcraft:primordial_pearl|8",
+      "emc": 60000
+    },
+    {
+      "item": "thaumcraft:primordial_pearl|7",
+      "emc": 64000
+    },
+    {
+      "item": "thaumcraft:primordial_pearl|6",
+      "emc": 68000
+    },
+    {
+      "item": "thaumcraft:primordial_pearl|5",
+      "emc": 72000
+    },
+    {
+      "item": "thaumcraft:primordial_pearl|4",
+      "emc": 76000
+    },
+    {
+      "item": "thaumcraft:primordial_pearl|3",
+      "emc": 80000
+    },
+    {
+      "item": "thaumcraft:primordial_pearl|2",
+      "emc": 84000
+    },
+    {
+      "item": "thaumcraft:primordial_pearl|1",
+      "emc": 88000
     }
   ]
 }

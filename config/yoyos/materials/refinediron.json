@@ -1,0 +1,11 @@
+{
+  "body": {
+    "attack": 9.53,
+    "weight": 3.9,
+    "durability": 450
+  },
+  "axle": {
+    "friction": 0.6,
+    "modifier": 1.23
+  }
+}

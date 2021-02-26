@@ -287,7 +287,7 @@ global gameStagesLore as string[][string][string][string] = {
                 "可以制作并使用匠魂回旋镖"
             ]
         },
-        yoyo_blueprint: {
+        laser_gun_blueprint: {
             alias: ["悠悠球蓝图"],
             lore: [
                 "解锁了悠悠球的制作配方。"
@@ -688,13 +688,13 @@ global gameStagesLore as string[][string][string][string] = {
                 "You can now craft and use Tinker's tool: Shuriken"
             ]
         },
-        yoyo_blueprint: {
-            alias: ["Yoyo Blueprint"],
+        laser_gun_blueprint: {
+            alias: ["Laser Gun Blueprint"],
             lore: [
-                " Unlocked recipe for Yoyos."
+                " Unlocked recipe for Laser Guns."
             ],
             unlocks: [
-                "You can now craft and use Tinker's tool: Yoyo"
+                "You can now craft and use Tinker's tool: Laser Gun"
             ]
         },
         tactic_blueprint: {

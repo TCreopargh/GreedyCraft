@@ -16,6 +16,7 @@ import crafttweaker.event.EntityLivingDeathEvent;
 import crafttweaker.data.IData;
 import crafttweaker.event.PlayerTickEvent;
 import crafttweaker.text.ITextComponent;
+import crafttweaker.world.IWorld;
 
 import mods.zenutils.command.ZenCommand;
 import mods.zenutils.command.ZenUtilsCommandSender;
@@ -100,7 +101,13 @@ events.onCommand(function (event as CommandEvent) {
 
 events.onPlayerTick(function (event as PlayerTickEvent) {
     
-    if ((event.player.world.getWorldTime() as long) % 200 != 0 || event.player.world.remote || event.phase != "END" || event.side != "SERVER") {
+    var showScoreboard as bool = true;
+
+    if (!isNull(IWorld.getFromID(0)) && !isNull(IWorld.getFromID(0).getCustomWorldData()) && (IWorld.getFromID(0).getCustomWorldData() has "showScoreboard") && IWorld.getFromID(0).getCustomWorldData().memberGet("showScoreboard") == false) {
+        showScoreboard = false;
+    }
+
+    if (!showScoreboard || (event.player.world.getWorldTime() as long) % 200 != 0 || event.player.world.remote || event.phase != "END" || event.side != "SERVER") {
         return;
     }
     var player as IPlayer = event.player;

@@ -15,7 +15,7 @@ import mods.zenutils.I18n;
 global omnipedia as IItemStack =<akashictome:tome>.withTag({
 	"akashictome:is_morphing": 1 as byte,
 	display: {
-		Lore: [I18n.format("greedycraft.omnipedia.version", "" + 13), game.localize("greedycraft.omnipedia.tooltip")],
+		Lore: [I18n.format("greedycraft.omnipedia.version", "" + 14), game.localize("greedycraft.omnipedia.tooltip")],
 		Name: game.localize("greedycraft.omnipedia.name")
 	},
 	"akashictome:data": {
@@ -212,14 +212,6 @@ global omnipedia as IItemStack =<akashictome:tome>.withTag({
 			},
 			Damage: 0 as short
 		},
-		yoyos: {
-			id: "yoyos:book",
-			Count: 1 as byte,
-			tag: {
-				"akashictome:definedMod": "yoyos"
-			},
-			Damage: 0 as short
-		},
 		forestry1: {
 			id: "forestry:catalogue",
 			Count: 1 as byte,
@@ -404,6 +396,15 @@ global omnipedia as IItemStack =<akashictome:tome>.withTag({
 			tag: {
 				"akashictome:definedMod": "forestry"
 			},
+			Damage: 0 as short
+		},
+		bigreactors: {
+			id: "patchouli:guide_book", 
+			Count: 1 as byte, 
+			tag: {
+				"akashictome:definedMod": "bigreactors", 
+				"patchouli:book": "bigreactors:erguide"
+			}, 
 			Damage: 0 as short
 		}
 	}
