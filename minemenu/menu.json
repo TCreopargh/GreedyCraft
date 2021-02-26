@@ -1,7 +1,7 @@
 {
   "main": {
     "0": {
-      "title": "§5显示当前难度 §9§oScalingHealth",
+      "title": "§5查看当前难度 §9§oScalingHealth",
       "icon": {
         "name": "headcrumbs:skull",
         "damage": 0
@@ -14,7 +14,7 @@
       }
     },
     "1": {
-      "title": "§6打开扩展式物品栏§7(如果已解锁) §9§oCyclic",
+      "title": "§6打开扩展物品栏 §7(如果已解锁) §9§oCyclic",
       "icon": {
         "name": "forestry:apiarist_bag",
         "damage": 0
@@ -27,7 +27,7 @@
       }
     },
     "2": {
-      "title": "§6打开便携式工作台§7(如果已解锁) §9§oCyclic",
+      "title": "§6打开快速合成台 §7(如果已解锁) §9§oCyclic",
       "icon": {
         "name": "minecraft:crafting_table",
         "damage": 0
@@ -53,7 +53,7 @@
       }
     },
     "4": {
-      "title": "§3打开/dank/null §9§o/dank/null",
+      "title": "§3打开无底之箱 §9§o/dank/null",
       "icon": {
         "name": "minecraft:chest",
         "damage": 0
@@ -66,20 +66,20 @@
       }
     },
     "5": {
-      "title": "§b打开背包 §9§oSimplyBackpacks",
+      "title": "§6打开背包 §9§oSimply Backpacks",
       "icon": {
         "name": "simplybackpacks:commonbackpack",
         "damage": 0
       },
       "action": {
         "key": {
-          "key": "key_key.simplybackpacks.backpackopen.desc",
-          "toggle": true
+          "key": "key.simplybackpacks.backpackopen.desc",
+          "toggle": false
         }
       }
     },
     "6": {
-      "title": "§6打开无限合成终端§7(如果已装备) §9§oWCT2",
+      "title": "§6打开无线合成终端 §7(如果已装备) §9§oWCT2",
       "icon": {
         "name": "wct:wct",
         "damage": 0
@@ -92,7 +92,7 @@
       }
     },
     "7": {
-      "title": "§a切换第一人称模式§r§9§o RealFirstPerson2",
+      "title": "§a切换真实第一人称§r§9§o RealFirstPerson2",
       "icon": {
         "name": "minecraft:skull",
         "damage": 3
@@ -105,7 +105,7 @@
       }
     },
     "8": {
-      "title": "§6清理内存 §9§o供提升性能用",
+      "title": "§6清理内存 §9§oMemory Cleaner",
       "icon": {
         "name": "additions:greedycraft-item_purger",
         "damage": 0

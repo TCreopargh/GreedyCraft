@@ -698,11 +698,6 @@ val seedRecipes as IIngredient[][][IItemStack] = {
         [essence[6], base[6], essence[6]], 
         [<ore:gemAncientDebris>, essence[6], <ore:gemAncientDebris>]
     ],
-    <jaopca:item_mysticalseedsastralstarmetal> : [
-        [<ore:ingotAstralStarmetal>, essence[3], <ore:ingotAstralStarmetal>], 
-        [essence[3], base[3], essence[3]], 
-        [<ore:ingotAstralStarmetal>, essence[3], <ore:ingotAstralStarmetal>]
-    ],
     <jaopca:item_mysticalseedsquartzblack> : [
         [<ore:gemQuartzBlack>, essence[3], <ore:gemQuartzBlack>], 
         [essence[3], base[3], essence[3]], 

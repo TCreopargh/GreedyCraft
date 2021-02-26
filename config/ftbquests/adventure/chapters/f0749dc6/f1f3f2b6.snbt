@@ -1,3 +1,4 @@
+
 {
 	title: "{greedycraft.quest.f1f3f2b6.title}",
 	icon: {
@@ -42,8 +43,8 @@
 		uid: "b726ae6a",
 		type: "item",
 		item: {
-			id: "extrautils2:angelring",
-			Damage: 2s
+			id: "hooked:hook",
+			Damage: 4s
 		}
 	}]
 }

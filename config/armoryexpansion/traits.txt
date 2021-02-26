@@ -199,7 +199,6 @@
   "lucky_armor",
   "heavy_metal",
   "purifying_armor",
-  "sticky",
   "brittle",
   "magnetic1",
   "true_defense_armor",

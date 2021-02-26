@@ -49,20 +49,24 @@ LootTweaker.getTable("minecraft:chests/village_blacksmith").getPool("smart_slab"
 
 LootTweaker.getTable("extrabotany:inject/simple_dungeon").getPool("main").removeEntry("extrabotany:bottledflame");
 
-dungeon.removePool("simpleDungeon");
 dungeon.removePool("spectrecoil_number");
 LootTweaker.getTable("botania:inject/simple_dungeon").getPool("main").removeEntry("botania:lexicon");
 mainPool.removeEntry("cyclicmagic:item.cyclic_wand_build");
 mainPool.removeEntry("abyssalcraft:tin_ingot");
 mainPool.removeEntry("abyssalcraft:copper_ingot");
 dungeon.getPool("bountifulbaubles_dungeon").removeEntry("bountifulbaubles:trinketbrokenheart");
-LootTweaker.getTable("minecraft:chests/jungle_temple").removePool("jungleTemple");
-LootTweaker.getTable("minecraft:chests/abandoned_mineshaft").removePool("abandonedMineshaft");
-LootTweaker.getTable("minecraft:chests/end_city_treasure").removePool("endCity");
-LootTweaker.getTable("minecraft:chests/desert_pyramid").removePool("desertPyramid");
+
+if(!isServerPack) {
+    LootTweaker.getTable("minecraft:chests/jungle_temple").removePool("jungleTemple");
+    LootTweaker.getTable("minecraft:chests/abandoned_mineshaft").removePool("abandonedMineshaft");
+    LootTweaker.getTable("minecraft:chests/end_city_treasure").removePool("endCity");
+    LootTweaker.getTable("minecraft:chests/desert_pyramid").removePool("desertPyramid");
+    LootTweaker.getTable("minecraft:chests/village_blacksmith").removePool("villageBlocksmith");
+    LootTweaker.getTable("minecraft:chests/simple_dungeon").removePool("simpleDungeon");
+}
+
 LootTweaker.getTable("minecraft:chests/abandoned_mineshaft").removePool("spectrecoil_number");
 LootTweaker.getTable("minecraft:chests/end_city_treasure").removePool("spectrecoil_number");
-LootTweaker.getTable("minecraft:chests/village_blacksmith").removePool("villageBlocksmith");
 
 LootTweaker.getTable("minecraft:chests/nether_bridge").getPool("bountifulbaubles_nether_bridge").removeEntry("bountifulbaubles:trinketbrokenheart");
 LootTweaker.getTable("minecraft:chests/abandoned_mineshaft").getPool("main").removeEntry("abyssalcraft:copper_ingot");
@@ -71,6 +75,8 @@ LootTweaker.getTable("minecraft:chests/abandoned_mineshaft").getPool("forestry_f
 LootTweaker.getTable("minecraft:chests/abandoned_mineshaft").getPool("forestry_factory_items").removeEntry("forestry:broken_bronze_pickaxe");
 LootTweaker.getTable("minecraft:chests/stronghold_corridor").getPool("main").removeEntry("abyssalcraft:copper_ingot");
 LootTweaker.getTable("minecraft:chests/stronghold_corridor").getPool("main").removeEntry("abyssalcraft:tin_ingot");
+
+LootTweaker.getTable("minecraft:chests/abandoned_mineshaft").removePool("forestry_factory_items");
 
 LootTweaker.getTable("minecraft:chests/stronghold_corridor").getPool("main").removeEntry("cyclicmagic:item.cyclic_wand_build");
 LootTweaker.getTable("minecraft:chests/stronghold_crossing").getPool("main").removeEntry("cyclicmagic:item.cyclic_wand_build");

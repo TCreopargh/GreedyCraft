@@ -1,0 +1,23 @@
+{
+  "name": "§d可以抱着的猫猫球",
+  "tooltip": [
+    "§e确定这花里胡哨的玩意可以吃？",
+    "§b§o赞助者物品 by RXCKY"
+  ],
+  "hunger": 5,
+  "saturation": 1.0,
+  "always_edible": true,
+  "eaten_effects": [
+    {
+      "potion": {
+        "name": "cyclicmagic:potion.saturation",
+        "duration": 400,
+        "amplifier": 0,
+        "ambient": false,
+        "show_particles": true
+      },
+      "type": "additions:potion"
+    }
+  ],
+  "type": "additions:food"
+}

@@ -21,7 +21,7 @@
         },
         {
             "type": "text",
-            "text": "$(li)$(c)wyvern $(): 做出飞龙核心后解锁，影响游戏难度。$(li)$(c)awakened $(): 做出觉醒核心后解锁，影响游戏难度。也是创造式飞行的解锁条件。$(li)$(c)chaotic $(): 做出混沌核心后解锁，影响游戏难度。$(li)$(c)chaotic_dominator $(): 击败混沌守卫后解锁，影响游戏难度。$(li)$(c)wand/tactic/shuriken/yoyo_blueprint $(): 使用对应的武器蓝图后解锁，能够解锁蓝图对应的匠魂武器。$(li)$(c)fearless_man $(): 使用$(6)勇气之证$()后解锁，允许进入恐惧之地。"
+            "text": "$(li)$(c)wyvern $(): 做出飞龙核心后解锁，影响游戏难度。$(li)$(c)awakened $(): 做出觉醒核心后解锁，影响游戏难度。也是创造式飞行的解锁条件。$(li)$(c)chaotic $(): 做出混沌核心后解锁，影响游戏难度。$(li)$(c)chaotic_dominator $(): 击败混沌守卫后解锁，影响游戏难度。$(li)$(c)wand/tactic/shuriken/laser_gun_blueprint $(): 使用对应的武器蓝图后解锁，能够解锁蓝图对应的匠魂武器。$(li)$(c)fearless_man $(): 使用$(6)勇气之证$()后解锁，允许进入恐惧之地。"
         },
         {
             "type": "text",

@@ -158,7 +158,6 @@ val disabledItems as IIngredient[] = [
     <enderio:item_end_steel_chestplate:*>,
     <enderio:item_end_steel_leggings:*>,
     <enderio:item_end_steel_boots:*>,
-    <enderio:item_dark_steel_sword:*>,
     <candymod:cotton_candy_sword:*>,
     <appliedenergistics2:certus_quartz_sword:*>,
     <appliedenergistics2:nether_quartz_sword:*>,
@@ -203,6 +202,8 @@ val disabledItems as IIngredient[] = [
     <natura:bloodwood_shovel:*>,
     <natura:ghostwood_shovel:*>,
     <forestry:bronze_shovel:*>,
+    <forestry:bronze_pickaxe:*>,
+    <forestry:kit_pickaxe>,
     <appliedenergistics2:certus_quartz_hoe:*>,
     <appliedenergistics2:nether_quartz_hoe:*>,
     <sakura:sakura_hoe:*>,
@@ -281,7 +282,16 @@ val disabledItems as IIngredient[] = [
     <projecte:item.pe_void_ring>.withTag({teleportCooldown: 0 as byte}),
     <projecte:item.pe_void_ring>,
     <botanicadds:mana_stealer_sword>,
-    <botanicadds:terra_protector>
+    <botanicadds:terra_protector>,
+    <jaopca:item_mysticalseedsastralstarmetal>,
+    <mekanism:armoredjetpack>.withTag({mekData: {stored: {amount: 24000, gasName: "hydrogen"}}}),
+    <mekanism:armoredjetpack>,
+    <mekanism:jetpack>.withTag({mekData: {stored: {amount: 24000, gasName: "hydrogen"}}}),
+    <mekanism:jetpack>,
+    <natura:blaze_rail_detector>,
+    <natura:blaze_rail>,
+    <natura:blaze_rail_golden>,
+    <natura:blaze_rail_activator>
 ] as IIngredient[];
 
 val disabledRecipeRegex as string[] = [

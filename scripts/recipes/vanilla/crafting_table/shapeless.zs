@@ -172,6 +172,10 @@ RecipeUtil.addShapeless("solarium_star", <additions:greedycraft-solarium_star>, 
 RecipeUtil.addShapeless("slimeball_convert", <minecraft:slime_ball>, [<ore:slimeball>]);
 RecipeUtil.addShapeless("openblocks_elevator_rotating", <openblocks:elevator_rotating>, [<openblocks:elevator:*>, <minecraft:compass>]);
 RecipeUtil.addShapeless("flax_to_string", <minecraft:string> * 2, [<harvestcraft:flaxitem>, <harvestcraft:flaxitem>, <harvestcraft:flaxitem>]);
+RecipeUtil.addShapeless("obsidian_boots_normal", <randomthings:obsidianwaterwalkingboots>, [<randomthings:waterwalkingboots>, <randomthings:obsidianskull>]);
+RecipeUtil.addShapeless("obsidian_boots_bauble", <lavawaderbauble:obsidianwaterwalkingbootsbauble>, [<lavawaderbauble:waterwalkingbootsbauble>, <randomthings:obsidianskull>]);
+RecipeUtil.addShapeless("lava_wader_normal", <randomthings:lavawader>, [<randomthings:obsidianwaterwalkingboots>, <randomthings:lavacharm>]);
+RecipeUtil.addShapeless("lava_wader_bauble", <lavawaderbauble:lavawaderbauble>, [<lavawaderbauble:obsidianwaterwalkingbootsbauble>, <randomthings:lavacharm>]);
 
 /* Template
 

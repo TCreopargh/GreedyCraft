@@ -610,3 +610,34 @@ listStagesCommand.execute = function(command, server, sender, args) {
     }
 };
 listStagesCommand.register();
+
+val summonSlimeGodCommand as ZenCommand = ZenCommand.create("summonslimegod");
+summonSlimeGodCommand.getCommandUsage = function(sender) {
+    return "greedycraft.command.summonSlimeGodCommand.usage";
+};
+summonSlimeGodCommand.requiredPermissionLevel = 2;
+summonSlimeGodCommand.tabCompletionGetters = [IGetTabCompletion.player()];
+summonSlimeGodCommand.execute = function(command, server, sender, args) {
+    var players as IPlayer[] = [] as IPlayer[];
+    if (args.length == 0) {
+        players += CommandUtils.getCommandSenderAsPlayer(sender) as IPlayer;
+    } else if (args.length == 1) {
+        players = CommandUtils.getPlayers(server, sender, args[0]) as IPlayer[];
+    } else {
+        CommandUtils.notifyWrongUsage(command, sender);
+        return;
+    }
+    for player in players {
+        if (!isNull(player)) {
+            var ent as IEntityLivingBase = <entity:betterslimes:quazar>.createEntity(player.world);
+            ent.setNBT({Size: 16});
+            ent.posX = player.posX;
+            ent.posY = player.posY + 3;
+            ent.posZ = player.posZ;
+            player.world.spawnEntity(ent);
+            server.broadcastMessage(ITextComponent.fromTranslation("greedycraft.command.summonSlimeGodCommand.broadcast"));
+            break;
+        }
+    }
+};
+summonSlimeGodCommand.register();

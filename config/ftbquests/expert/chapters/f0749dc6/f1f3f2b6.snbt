@@ -43,8 +43,8 @@
 		uid: "b726ae6a",
 		type: "item",
 		item: {
-			id: "extrautils2:angelring",
-			Damage: 2s
+			id: "hooked:hook",
+			Damage: 4s
 		}
 	}]
 }

@@ -87,19 +87,12 @@ recipes.addShaped("backpack_func_1", <simplybackpacks:uncommonbackpack>, [
     [<tconstruct:materials:15>, <ore:blockGold>, <tconstruct:materials:15>], 
     [<tconstruct:materials:15>, <simplybackpacks:commonbackpack>.marked("backpack"), <tconstruct:materials:15>]
 ], function(out, ins, cInfo) {
-    //
-    var tag as IData = ins.backpack.tag;
-    var inventoryTag as IData = [] as IData;
-    var filterTag as IData = [] as IData;
-    if ((tag has "inv") && (tag.memberGet("inv") has "Items")) {
-        inventoryTag = tag.memberGet("inv").memberGet("Items") as IData;
+    var stack as IItemStack = out.withTag(ins.backpack.tag);
+    if(!isNull(ins.backpack.capNBT)) {
+        return stack.withCapNBT(ins.backpack.capNBT);
+    } else {
+        return stack;
     }
-    if ((tag has "filter") && (tag.memberGet("filter") has "Items")) {
-        filterTag = tag.memberGet("inv").memberGet("Items") as IData;
-    }
-    return out.updateTag({inv: {Size: 33, Items: inventoryTag as IData}, filter: {Size: 16, Items: filterTag as IData}});
-    //
-    return out.withTag(ins.backpack.tag);
 }, null);
 
 recipes.addShaped("backpack_func_2", <simplybackpacks:rarebackpack>, [
@@ -107,7 +100,12 @@ recipes.addShaped("backpack_func_2", <simplybackpacks:rarebackpack>, [
     [<harvestcraft:hardenedleatheritem>, <ore:blockDiamond>, <harvestcraft:hardenedleatheritem>], 
     [<harvestcraft:hardenedleatheritem>, <simplybackpacks:uncommonbackpack>.marked("backpack"), <harvestcraft:hardenedleatheritem>]
 ], function(out, ins, cInfo) {
-    return out.withTag(ins.backpack.tag);
+    var stack as IItemStack = out.withTag(ins.backpack.tag);
+    if(!isNull(ins.backpack.capNBT)) {
+        return stack.withCapNBT(ins.backpack.capNBT);
+    } else {
+        return stack;
+    }
 }, null);
 
 recipes.addShaped("backpack_func_3", <simplybackpacks:epicbackpack>, [
@@ -115,7 +113,12 @@ recipes.addShaped("backpack_func_3", <simplybackpacks:epicbackpack>, [
     [<ore:clothNylon>, <ore:netherStar>, <ore:clothNylon>], 
     [<ore:clothNylon>, <simplybackpacks:rarebackpack>.marked("backpack"), <ore:clothNylon>]
 ], function(out, ins, cInfo) {
-    return out.withTag(ins.backpack.tag);
+    var stack as IItemStack = out.withTag(ins.backpack.tag);
+    if(!isNull(ins.backpack.capNBT)) {
+        return stack.withCapNBT(ins.backpack.capNBT);
+    } else {
+        return stack;
+    }
 }, null);
 */
 

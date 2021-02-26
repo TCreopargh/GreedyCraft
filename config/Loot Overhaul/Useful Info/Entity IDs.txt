@@ -350,9 +350,6 @@ touhou_little_maid:entity.item.portable_audio - 347
 touhou_little_maid:entity.item.extinguishing_agent - 348
 touhou_little_maid:entity.item.throw_power_point - 349
 touhou_little_maid:entity.item.maid_joy - 350
-yoyos:yoyo - 351
-yoyos:yoyo_sticky - 352
-yoyos:yoyo_chaser - 353
 candymod:cotton_candy_sheep - 354
 candymod:easter_chicken - 355
 candymod:gummy_mouse - 356

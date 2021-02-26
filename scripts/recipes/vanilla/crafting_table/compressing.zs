@@ -87,7 +87,8 @@ val compressingRecipes as IItemStack[IItemStack] = {
     <taiga:adamant_ingot> : <taiga:adamant_block>,
     <taiga:dyonite_ingot> : <taiga:dyonite_block>,
     <taiga:nucleum_ingot> : <taiga:nucleum_block>,
-    <taiga:lumix_ingot> : <taiga:lumix_block>
+    <taiga:lumix_ingot> : <taiga:lumix_block>,
+    <modularmachinery:itemmodularium> : <additions:greedycraft-modularium_block>
 } as IItemStack[IItemStack];
 
 for original in compressingRecipes {

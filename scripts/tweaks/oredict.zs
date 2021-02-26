@@ -67,7 +67,6 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
         <tconstruct:shuriken>,
         <tconstruct:arrow>,
         <tconstruct:bolt>,
-        <yoyos:yoyo>,
         <tconevo:tool_sceptre>
     ],
     <ore:armorTiC> : [

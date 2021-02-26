@@ -12,6 +12,8 @@ import crafttweaker.item.IIngredient;
 
 import mods.jei.JEI;
 
+JEI.removeAndHide(<appliedenergistics2:facade:*>, false);
+
 val descriptions as string[][IIngredient] = {
     <additions:cryonium_ingot> : [game.localize("greedycraft.jei.additions.cryonium_ingot.desc.0")],
     <additions:infernium_ingot> : [game.localize("greedycraft.jei.additions.infernium_ingot.desc.0")],

@@ -1,0 +1,18 @@
+{
+  "item_block": {
+    "name": "§6模块化合金块",
+    "ore_dict": "blockModularium",
+    "type": "additions:block_simple"
+  },
+  "name": "§6模块化合金块",
+  "material": "minecraft:metal",
+  "map_color": "minecraft:tnt",
+  "hardness": 3.0,
+  "resistance": 500.0,
+  "harvest_level": 2,
+  "harvest_tool": "pickaxe",
+  "light_level": 0,
+  "slipperiness": 0.99,
+  "is_beacon_base": true,
+  "type": "additions:simple"
+}

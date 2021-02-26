@@ -170,7 +170,9 @@ val localizationMap as string[string][string] = {
         "reskillable.skill.reskillable.agility": "敏捷 §7[§2+移速§7]§r",
         "reskillable.skill.reskillable.magic": "魔法 §7[§2+经验§7]§r",
         "message.died": "§e%s §7逝世于 %s §9(破坏坟墓以取回物品)",
-        "death.attack.outOfWorld": "实体%1$s被从埃拉西亚公共界面移除"
+        "death.attack.outOfWorld": "实体%1$s被从埃拉西亚公共界面移除",
+        "material.extrabotany:ingotorichalcos.name": "§c[已禁用]",
+        "material.extrabotany:ingotshadowium.name" : "§c[已禁用]"
     }, 
     en_us: {
         "modifier.mutate.name": "Mutating",
@@ -245,7 +247,9 @@ val localizationMap as string[string][string] = {
         "reskillable.skill.reskillable.magic": "Magic §7[§2+XPGain§7]§r",
         "message.died": "§e%s §7Died on §a%s §9(Break the grave to retrieve items)",
         "pouchofunknown.destroy_message": "The %s you have just picked up has been destroyed. %sTo hold this item either acquire the required game stage or keep a §dPouch of Unknown§e in your inventory to hold it.",
-        "death.attack.outOfWorld": "Entity %1$s was removed from the Elysian Public Interface"
+        "death.attack.outOfWorld": "Entity %1$s was removed from the Elysian Public Interface",
+        "material.extrabotany:ingotorichalcos.name": "§c[Disabled]",
+        "material.extrabotany:ingotshadowium.name" : "§c[Disabled]"
     }
 };
 
@@ -256,8 +260,7 @@ val blueprintDesc as string[] = [
     "item.tconstruct.shuriken.desc",
     "item.tconevo:tool_sceptre.desc",
     "item.katana.desc",
-    "item.laser_gun.desc",
-    "item.yoyos.yoyo.desc"
+    "item.laser_gun.desc"
 ];
 
 for lang, entries in localizationMap {

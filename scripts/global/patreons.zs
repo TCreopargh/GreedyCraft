@@ -135,6 +135,12 @@ global patreonList as string[][string] = {
         "reuels",
         "China12580",
         "OFFLOOP",
-        "sao_nian_CG"
+        "sao_nian_CG",
+        "ash_dyf",
+        "lian_heis",
+        "AWTZA",
+        "Lu_mouren",
+        "Blitz_Momo",
+        "Hefang"
     ]
 };

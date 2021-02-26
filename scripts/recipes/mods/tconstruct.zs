@@ -62,6 +62,7 @@ Casting.addBasinRecipe(<additions:greedycraft-durasteel_block>, null, <liquid:du
 Casting.addBasinRecipe(<additions:greedycraft-aeonsteel_block>, null, <liquid:aeonsteel>, VOLUME_BLOCK, false, 300);
 Casting.addBasinRecipe(<additions:greedycraft-chromasteel_block>, null, <liquid:chromasteel>, VOLUME_BLOCK, false, 300);
 Casting.addBasinRecipe(<botanicadds:gaiasteel_block>, null, <liquid:gaiasteel>, VOLUME_BLOCK, false, 300);
+Casting.addBasinRecipe(<additions:greedycraft-modularium_block>, null, <liquid:modularium>, VOLUME_BLOCK, false, 300);
 
 Casting.addTableRecipe(<abyssalcraft:ethaxiumingot>, <tconstruct:cast_custom>, <liquid:ethaxium>, VOLUME_INGOT, false, 200);
 Casting.addTableRecipe(<additions:astral_metal_ingot>, <tconstruct:cast_custom>, <liquid:astral_metal>, VOLUME_INGOT, false, 200);
@@ -196,6 +197,7 @@ Melting.addRecipe(<liquid:chromasteel> * VOLUME_BLOCK, <ore:blockChromasteel>, 1
 Melting.addRecipe(<liquid:spectre> * VOLUME_INGOT, <ore:ingotSpectre>, 1111);
 Melting.addRecipe(<liquid:gaiasteel> * VOLUME_INGOT, <ore:ingotGaiasteel>, 1024);
 Melting.addRecipe(<liquid:gaiasteel> * VOLUME_BLOCK, <ore:blockGaiasteel>, 1024);
+Melting.addRecipe(<liquid:modularium> * VOLUME_BLOCK, <ore:blockModularium>, 900);
 
 Fuel.registerFuel(<liquid:infernium> * 1, 600);
 Fuel.registerFuel(<liquid:cosmilite> * 1, 2400);

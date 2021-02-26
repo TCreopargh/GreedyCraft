@@ -279,34 +279,6 @@
 		"description": []
 	},
 	{
-		"id": "yoyos:collecting",
-		"name": "enchantment.yoyos.collecting",
-		"enabled": false,
-		"hide_on_item": false,
-		"hide_on_book": false,
-		"rarity": "UNCOMMON",
-		"treasure": false,
-		"double_price": true,
-		"curse": false,
-		"allowed_on_books": true,
-		"min_lvl": 1,
-		"max_lvl": 5,
-		"custom_evaluations": false,
-		"min_ench_eval": "1+LVL*10",
-		"max_ench_eval": "MIN+5",
-		"type": "collecting",
-		"equipment_slots": [
-			"MAINHAND",
-			"OFFHAND"
-		],
-		"incompat_mode": 0,
-		"incompatible": [],
-		"applicability_mode": 0,
-		"items_list_mode": 0,
-		"items_list": [],
-		"description": []
-	},
-	{
 		"id": "abyssalcraft:dread",
 		"name": "enchantment.abyssalcraft.dread",
 		"enabled": false,
@@ -1323,7 +1295,7 @@
 	},
 	{
 		"id": "bibliocraft:bibliocraft.deathcompassench",
-		"name": "ÓÀºãÂÞÅÌ",
+		"name": "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½",
 		"enabled": false,
 		"hide_on_item": false,
 		"hide_on_book": false,
@@ -1460,7 +1432,7 @@
 	},
 	{
 		"id": "bibliocraft:bibliocraft.readingench",
-		"name": "¶ÁÈ¡",
+		"name": "ï¿½ï¿½È¡",
 		"enabled": false,
 		"hide_on_item": false,
 		"hide_on_book": false,

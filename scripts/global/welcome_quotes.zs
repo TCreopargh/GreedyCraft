@@ -11,16 +11,16 @@ import crafttweaker.data.IData;
 global welcomeQuotes as IData[][string] = {
     zh_cn: [
         ["", {text: "感到卡顿？请在内存占用较高时使用§6R§e键菜单中的§6释放内存§e按钮手动清理内存！", color: "yellow"}], 
-        ["", {text: "如果你对这个整合包感到满意，可以考虑赞助一下作者！"}, {text: "§d§n赞助通道", clickEvent: {text: "open_url", "value": "http://donate.tcreopargh.xyz/", color: "yellow"}}],
+        ["", {text: "如果你对这个整合包感到满意，可以考虑赞助一下作者！"}, {text: "赞助通道", color: "light_purple", underlined: true, clickEvent: {action: "open_url", "value": "http://donate.tcreopargh.xyz/", color: "yellow"}}],
         ["", {text: "感谢游玩贪婪整合包！如果你在游戏中遇到了问题，请先查阅§6《贪婪整合包——从入门到精通》", color: "yellow"}], 
         ["", {text: "如果你遇到了模组相关的问题，请查阅§6百科全书§e！模组的指导手册都可以在这里找到。", color: "yellow"}], 
-        ["", {text: "在游戏过程中遇到了Bug？请前往", color: "yellow"}, {text: "GitHub Issues", color:"blue", underline: true, clickEvent: {text: "open_url", "value": "https://github.com/TCreopargh/GreedyCraft/issues"}}, {text: "反馈！", color: "yellow"}], 
-        ["", {text: "请记住我们的官网地址：", color: "yellow"}, {text: "§9https://greedycraft.tcreopargh.xyz/", clickEvent: {text: "open_url", "value": "https://greedycraft.tcreopargh.xyz/"}}, {text: "！", color: "yellow"}], 
+        ["", {text: "在游戏过程中遇到了Bug？请前往", color: "yellow"}, {text: "GitHub Issues", color:"blue", underlined: true, clickEvent: {action: "open_url", "value": "https://github.com/TCreopargh/GreedyCraft/issues"}}, {text: "反馈！", color: "yellow"}], 
+        ["", {text: "请记住我们的官网地址：", color: "yellow"}, {text: "https://greedycraft.tcreopargh.xyz/", underlined: true, clickEvent: {action: "open_url", "value": "https://greedycraft.tcreopargh.xyz/"}}, {text: "！", color: "yellow"}], 
         ["", {text: "进入我们的交流群讨论游戏内容吧！交流群的群号可以在官网上找到。", color: "yellow"}] , 
         ["", {text: "有很好的显卡却卡的完全不能玩？别急着关闭光影，这种情况很有可能是你的设置问题。请在整合包附带的安装指南中寻找解决方法。", color: "yellow"}] , 
         ["", {text: "本整合附带了大量的音乐和改进的音效，强烈推荐佩戴耳机游玩！", color: "yellow"}] , 
         ["", {text: "你可以在任务菜单中切换游戏模式！任务菜单可以在物品栏界面的左上角找到。", color: "yellow"}] , 
-        ["", {text: "你知道吗？赞助者可以出现在主菜单，还可以定制物品哦！", color: "light_purple"}, {text: "§d§n赞助通道", clickEvent: {text: "open_url", "value": "http://donate.tcreopargh.xyz/", color: "yellow"}}],
+        ["", {text: "你知道吗？赞助者可以出现在主菜单，还可以定制物品哦！", color: "yellow"}, {text: "赞助通道", color: "light_purple", underlined: true, clickEvent: {action: "open_url", "value": "http://donate.tcreopargh.xyz/"}}],
         ["", {text: "你可以在进入游戏前就调整游戏模式！游戏模式的配置文件位于config/packmodes.cfg，修改packmode=等号后面的内容就可以改变游戏模式！", color: "yellow"}],
         ["", {text: "如果遇到了背景音乐长时间停止播放的问题，你可以按Alt+小键盘上的-来重载动态音乐！", color: "yellow"}],
         ["", {text: "如果感到卡顿，请尝试按§eR§6打开菜单并点击“§6清理内存§e”按钮。另外也可以试试调整下视距再调回来。", color: "yellow"}],
@@ -41,14 +41,14 @@ global welcomeQuotes as IData[][string] = {
         ["", {text: "You can use §6/hidescoreboard§e to hide the scoreboard, or §6/showscoreboard§e to make it show up again.", color: "yellow"}],
         ["", {text: "Move the saves folder to the new instance if you are going to update the modpack.", color: "yellow"}],
         ["", {text: "Press §6F6§e to switch between 1st and 3rd person mode. It's suggested to use 3rd person mode in adventure and combat!", color: "yellow"}],
-        ["", {text: "Join our discord channel! ", color: "blue"}, {text: "§9Link", clickEvent: {text: "open_url", "value": "https://discord.gg/jpxvghEU2a"}}, {text: "", color: "yellow"}], 
+        ["", {text: "Join our discord channel! ", color: "yellow"}, {text: "Link", color: "blue", underlined: true, clickEvent: {action: "open_url", "value": "https://discord.gg/jpxvghEU2a"}}, {text: "", color: "yellow"}], 
         ["", {text: "Hide random death quotes with command: §6/hidedeathquotes§e, and §6/showdeathquotes§e to show it again!", color: "yellow"}],
         ["", {text: "Feeling very laggy even if you have a decent graphic card? Read the installation guide before you try to turn off shaders, it might be because you didn't set up the game properly.", color: "yellow"}],
         ["", {text: "Use §6/backup§e command to backup the world, you can find a button to restore backups in world selection menu!", color: "yellow"}],
         ["", {text: "You can change the packmode outside of the game in config/packmodes.cfg, edit what's after packmode= to change the packmode!", color: "yellow"}],
         ["", {text: "If you feel laggy, press R to open a menu and choose §6Clean Memory§e, or you can try to decrease the render disance.", color: "yellow"}], 
-        ["", {text: "If you like this modpack please consider supporting its author! ", color: "light_purple"}, {text: "§d§nPatreon Site", clickEvent: {text: "open_url", "value": "http://patreon.tcreopargh.xyz/", color: "yellow"}}],
-        ["", {text: "Found a bug? Please report it at ", color: "yellow"}, {text: "GitHub Issues", color:"blue", underline: true, clickEvent: {text: "open_url", "value": "https://github.com/TCreopargh/GreedyCraft/issues"}}, {text: "§e!", color: "yellow"}]
+        ["", {text: "If you like this modpack please consider supporting its author! ", color: "yellow"}, {text: "Patreon Site", color: "light_purple", underlined: true, clickEvent: {action: "open_url", "value": "http://patreon.tcreopargh.xyz/"}}],
+        ["", {text: "Found a bug? Please report it at ", color: "yellow"}, {text: "GitHub Issues", color:"blue", underlined: true, clickEvent: {action: "open_url", "value": "https://github.com/TCreopargh/GreedyCraft/issues"}}, {text: "§e!", color: "yellow"}]
         // TODO
     ]
 };

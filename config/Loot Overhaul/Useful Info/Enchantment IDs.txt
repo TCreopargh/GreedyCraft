@@ -440,14 +440,6 @@ variegated:manabound
    - Max Level: 1
 
 
-yoyos:collecting
-   - Id: 54
-   - Rarity: UNCOMMON
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 5
-
-
 abyssalcraft:coralium
    - Id: 55
    - Rarity: RARE

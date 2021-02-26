@@ -20,7 +20,6 @@ val emcMapping as long[IIngredient] = {
     <abyssalcraft:necronomicon:0> : 0 as long,
     <actuallyadditions:item_booklet:0> : 0 as long,
     <aether_legacy:lore_book:0> : 0 as long,
-    <yoyos:book:0> : 0 as long,
     <xnet:xnet_manual:0> : 0 as long,
     <thermalfoundation:tome_lexicon:0> : 0 as long,
     <rftools:rftools_manual:0> : 0 as long,
