@@ -16,7 +16,7 @@
 			id: "minecraft:iron_chestplate"
 		},
 		stat: "stat.damageTaken",
-		value: 1000000
+		value: 500000
 	}],
 	rewards: [{
 		uid: "0bb360a0",

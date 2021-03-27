@@ -7510,3 +7510,7 @@ jaopca:fluid_moltenmithril - 7507
 jaopca:fluid_moltenshadowium - 7508
 jaopca:fluid_moltentitanium - 7509
 jaopca:fluid_moltenuranium - 7510
+mysticalcreations:meteor_crop - 7511
+energeticsheep:energetic_wool - 7512
+treasure2:amethyst_ore - 7513
+treasure2:onyx_ore - 7514

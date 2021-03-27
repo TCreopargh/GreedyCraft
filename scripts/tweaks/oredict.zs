@@ -340,22 +340,13 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
     <ore:prismarine> : [<ore:blockPrismarine>],
     <ore:blockManaDiamond> : [<botania:storage:3>],
     <ore:plantFiber> : [<ore:plantFibre>],
-    <ore:listAllFiber> : [<ore:plantFiber>]
+    <ore:listAllFiber> : [<ore:plantFiber>],
+    <ore:gemRockCrystal> : [<astralsorcery:itemtunedrockcrystal>, <astralsorcery:itemrockcrystalsimple>]
 };
 
 var removeMap as IIngredient[][IOreDictEntry] = {
     <ore:cobblestone> : [<quark:biome_cobblestone:1>]
 };
-
-for oredict in oredictMap {
-    var ingredients as IIngredient[] = oredictMap[oredict];
-    OredictUtil.addOredictIngredients(oredict, ingredients);
-}
-
-for oredict in removeMap {
-    var ingredients as IIngredient[] = oredictMap[oredict];
-    OredictUtil.removeOredictIngredients(oredict, ingredients);
-}
 
 for item in loadedMods["weeeflowers"].items {
     if (item.definition.id.replace("weeeflowers", "").contains("flower")) {
@@ -369,4 +360,14 @@ if (loadedMods.contains("inventorypets")) {
             OredictUtil.addOredictIngredient(<ore:inventoryPet>, item);
         }
     }
+}
+
+for oredict in oredictMap {
+    var ingredients as IIngredient[] = oredictMap[oredict];
+    OredictUtil.addOredictIngredients(oredict, ingredients);
+}
+
+for oredict in removeMap {
+    var ingredients as IIngredient[] = oredictMap[oredict];
+    OredictUtil.removeOredictIngredients(oredict, ingredients);
 }

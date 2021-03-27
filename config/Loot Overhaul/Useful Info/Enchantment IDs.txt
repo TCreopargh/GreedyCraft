@@ -349,7 +349,7 @@ cqrepoured:spectral
    - Rarity: VERY_RARE
    - Treasure: true
    - Min Level: 1
-   - Max Level: 1
+   - Max Level: 5
 
 
 defiledlands:sharpshooter

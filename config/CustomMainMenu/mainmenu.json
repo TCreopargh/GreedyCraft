@@ -131,7 +131,7 @@
 			"clickSound": "block.lever.click",
 			"imageWidth": 383,
 			"imageHeight": 383,
-			"wrappedButton": 20,
+			"wrappedButton": 17325,
 			"texture": "greedycraft:mainmenu/account.png",
 			"tooltip": "¡ì7Currently logged in user: ¡ìe#username#\n¡ìa Click to switch between accounts! "
 		},
@@ -202,6 +202,23 @@
 				"type": "openFolder",
 				"folderName": "/"
 			}
+		},
+		"bisect": {
+			"text": " ",
+			"posX": -25,
+			"posY": 155,
+			"width": 20,
+			"height": 20,
+			"alignment": "top_right",
+			"clickSound": "block.lever.click",
+			"imageWidth": 383,
+			"imageHeight": 383,
+			"texture": "greedycraft:mainmenu/bisect.png",
+			"tooltip": "¡ì6¡ìlNeed a server?\n¡ìbGreedyCraft ¡ìais sponsored by ¡ì9Bisect Hosting¡ìa!\n¡ìaUse promo code ¡ìdTCreopargh¡ìa to get¡ìb 25%% off¡ìa your first month! \n¡ìeNote: An ¡ì68GB¡ìe server is recommended for this modpack.",
+			"action": {
+				"type": "openLink",
+				"link": "https://bisecthosting.com/TCreopargh"
+			}
 		}
 	},
 	"labels": {
@@ -226,30 +243,6 @@
 			"posY": -52,
 			"alignment": "bottom_left"
 		},
-		"latest_version": {
-			"text": {
-				"type": "web",
-				"url": "http://json.tcreopargh.xyz/greedycraft-version-en.txt",
-				"color": -1,
-				"refreshInterval": 600
-			},
-			"action": {
-				"type": "openLink",
-				"link": "https://greedycraft.tcreopargh.xyz/"
-			},
-			"hoverText": "¡ìe¡ìnClick for modpack download site",
-			"posX": 2,
-			"posY": -12,
-			"alignment": "bottom_left"
-		},
-		"current_version": {
-			"alignment": "bottom_left",
-			"text": "file:greedycraft:version.txt",
-			"hoverText": "¡ì2Version format: (Primary ver).(Secondary ver).(Patch ver).(Version serial number).(Version group number)",
-			"color": -1,
-			"posX": 2,
-			"posY": -22
-		},
 		"modinfo": {
 			"alignment": "bottom_left",
 			"text": "¡ì9Forge Version: ¡ìb#forgeversion# ¡ì7| ¡ìe¡ì6#modsloaded#¡ìe mods loaded",
@@ -264,7 +257,7 @@
 			"hoverText": "¡ì5¡ï ¡ìc¡ìlGreedyCraft ¡ì5¡ï ¡ìr¡ìaby TCreopargh",
 			"action": {
 				"type": "openLink",
-				"link": "https://greedycraft.tcreopargh.xyz/"
+				"link": "https://greedycraft.com/"
 			},
 			"color": -1,
 			"posX": 2,
@@ -282,7 +275,7 @@
 			"text": "web:http://json.tcreopargh.xyz/greedycraft-announcements-en.txt",
 			"action": {
 				"type": "openLink",
-				"link": "https://greedycraft.tcreopargh.xyz/"
+				"link": "https://greedycraft.com/"
 			},
 			"posX": 2,
 			"posY": 22,

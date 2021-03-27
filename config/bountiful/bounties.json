@@ -227,91 +227,100 @@
     {
         "content": "entity:minecraft:zombie",
         "amount": {
-            "min": 8,
-            "max": 45
+            "min": 6,
+            "max": 25
         },
-        "unitWorth": 300,
+        "unitWorth": 500,
         "weight": 300
     },
     {
         "content": "entity:minecraft:wither",
         "amount": {
             "min": 1,
-            "max": 4
+            "max": 2
         },
-        "unitWorth": 18000,
+        "unitWorth": 24000,
         "weight": 50
+    },
+    {
+        "content": "entity:minecraft:ender_dragon",
+        "amount": {
+            "min": 1,
+            "max": 1
+        },
+        "unitWorth": 50000,
+        "weight": 10
     },
     {
         "content": "entity:minecraft:skeleton",
         "amount": {
             "min": 8,
-            "max": 40
+            "max": 20
         },
-        "unitWorth": 400,
+        "unitWorth": 600,
         "weight": 250
     },
     {
         "content": "entity:minecraft:spider",
         "amount": {
-            "min": 12,
-            "max": 40
+            "min": 6,
+            "max": 20
         },
-        "unitWorth": 300,
+        "unitWorth": 500,
         "weight": 250
     },
     {
         "content": "entity:minecraft:cave_spider",
         "amount": {
             "min": 6,
-            "max": 32
+            "max": 16
         },
-        "unitWorth": 500,
+        "unitWorth": 550,
         "weight": 250
     },
     {
         "content": "entity:headcrumbs:human",
         "amount": {
-            "min": 4,
-            "max": 20
+            "min": 3,
+            "max": 14
         },
-        "unitWorth": 500,
+        "unitWorth": 800,
         "weight": 250
     },
     {
         "content": "entity:minecraft:creeper",
         "amount": {
-            "min": 4,
-            "max": 20
+            "min": 3,
+            "max": 12
         },
-        "unitWorth": 350,
+        "unitWorth": 1000,
         "weight": 200
     },
 	{
         "content": "entity:minecraft:enderman",
         "amount": {
             "min": 4,
-            "max": 30
+            "max": 15
         },
-        "unitWorth": 850,
+        "unitWorth": 1650,
         "weight": 300
     },
     {
         "content": "entity:minecraft:zombie_pigman",
         "amount": {
             "min": 4,
-            "max": 24
+            "max": 16
         },
-        "unitWorth": 400,
+        "unitWorth": 700,
         "weight": 200
     },
     {
         "content": "entity:minecraft:wither_skeleton",
         "amount": {
             "min": 2,
-            "max": 12
+            "max": 9
         },
-        "unitWorth": 700,
+        "unitWorth": 1800,
         "weight": 50
     },
     {

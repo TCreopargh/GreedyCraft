@@ -1,5 +1,5 @@
 {
-	"version": "1.1",
+	"version": "2.1",
 	"pools": [
 		{
 			"name": "rare_keys",
@@ -124,6 +124,18 @@
 							"chance": 0.30
 						}
 					]
+				},
+				{
+					"entryName": "amethyst",
+					"type": "item",
+					"name": "treasure2:amethyst",
+					"weight": 15
+				},
+				{
+					"entryName": "onyx",
+					"type": "item",
+					"name": "treasure2:onyx",
+					"weight": 15
 				},
 				{
 					"entryName": "sapphire",

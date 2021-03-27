@@ -13,7 +13,7 @@
 		uid: "345fcdd0",
 		type: "stat",
 		stat: "stat.playOneMinute",
-		value: 8640000
+		value: 3720000
 	}],
 	rewards: [{
 		uid: "233b78ff",

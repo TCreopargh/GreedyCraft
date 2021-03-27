@@ -1,4 +1,3 @@
-
 {
 	title: "{greedycraft.quest.ae732102.title}",
 	icon: {
@@ -17,7 +16,7 @@
 			id: "minecraft:iron_chestplate"
 		},
 		stat: "stat.damageTaken",
-		value: 1000000
+		value: 500000
 	}],
 	rewards: [{
 		uid: "0bb360a0",
@@ -27,8 +26,7 @@
 	{
 		uid: "c51bdcc3",
 		type: "item",
-		item: "cyclicmagic:heart_food",
-		count: 1
+		item: "cyclicmagic:heart_food"
 	},
 	{
 		uid: "8399fb22",

@@ -12,8 +12,15 @@ import crafttweaker.item.IIngredient;
 
 import scripts.util.recipes as RecipeUtil;
 
-RecipeUtil.removeAndAddShapeless("exu_squid_ring", <extrautils2:chickenring:1>, [<extrautils2:chickenring>, <minecraft:dye>]);
-RecipeUtil.removeAndAddShapeless("exu_angel_ring", <extrautils2:angelring>, [<extrautils2:chickenring:1>, <draconicevolution:awakened_core>]);
+RecipeUtil.removeAndAddShapeless("exu_squid_ring", <extrautils2:chickenring:1>, [
+    <extrautils2:chickenring>, <minecraft:dye>
+]);
+RecipeUtil.removeAndAddShapeless("exu_angel_ring", <extrautils2:angelring>, [
+    <extrautils2:chickenring:1>, <draconicevolution:awakened_core>
+]);
+RecipeUtil.removeAndAddShapeless("quark_rainbow_rune", <quark:rune:16> * 16, [
+    <quark:rune>, <quark:rune:1>, <quark:rune:2>, <quark:rune:3>, <quark:rune:4>, <quark:rune:5>, <quark:rune:11>, <quark:rune:14>, <quark:rune:15>
+]);
 
 RecipeUtil.removeAndAdd("iron_chain_ring", <hooked:microcrafting:2>, [
     [null, <ore:nuggetIron>, <ore:nuggetIron>], 
@@ -28,7 +35,7 @@ RecipeUtil.removeAndAdd("bonsai_pot", <bonsaitrees:bonsaipot>, [
 RecipeUtil.removeAndAdd("laser_amplifier", <mekanism:machineblock2:14>, [
     [<ore:ingotOsmium>, <ore:gemDiamond>, <ore:ingotOsmium>],
     [<ore:shardCreative>, <mekanism:energycube>, <ore:shardCreative>], 
-    [<ore:ingotOsmium>, <ore:shardCreative>, <ore:ingotOsmium>]
+    [<ore:ingotOsmium>, <draconicevolution:chaotic_core>, <ore:ingotOsmium>]
 ]);
 RecipeUtil.removeAndAdd("xu_overclocked_generator", <extrautils2:machine>.withTag({Type: "extrautils2:generator_overclock"}), [
     [<actuallyadditions:item_crystal_empowered:1>, <ore:ingotAeonsteel>, <actuallyadditions:item_crystal_empowered:1>],
@@ -49,4 +56,9 @@ RecipeUtil.removeAndAdd("idol_of_sorrow", <defiledlands:idol_sorrow>, [
     [null, <ore:eternalLifeEssence>, null],
     [<ore:ingotRavaging>, <ore:blockScarlite>, <ore:ingotRavaging>], 
     [null, <ore:ingotUmbrium>, null]
+]);
+RecipeUtil.removeAndAdd("birdsfoods_pita", <birdsfoods:pita>, [
+    [null, null, null],
+    [<ore:foodFlour>, null, <ore:foodFlour>], 
+    [<ore:foodFlour>, <ore:foodFlour>, <ore:foodFlour>]
 ]);

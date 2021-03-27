@@ -68,7 +68,10 @@ events.onGameStageAdd(function(event as GameStageAddEvent) {
         data += [delimiter] as IData;
         player.sendRichTextMessage(ITextComponent.fromData(data));
         player.sendPlaySoundPacket("ui.toast.challenge_complete", "player", player.position3f, 100.0f, 1.0f);
-        
+        if(event.gameStage != "super_hardmode") {
+            player.give(<contenttweaker:tablet_of_enlightenment>.withTag({stage: event.gameStage, playerName: player.name, playerUUID: player.uuid}));
+        }
+
         if (event.gameStage == "nether") {
             player.addGameStage("roughmobsboss");
         }

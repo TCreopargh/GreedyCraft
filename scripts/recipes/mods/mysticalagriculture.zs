@@ -27,3 +27,4 @@ registerSeedRecipe(<mysticalcreations:cake_seeds>, <minecraft:cake>, 3, 2, <myst
 registerSeedRecipe(<mysticalcreations:witch_seeds>, <mysticalcreations:witch_chunk>, 4, 1, <mysticalcreations:witch_essence>, null);
 registerSeedRecipe(<mysticalcreations:stainless_steel_seeds>, <additions:stainless_steel_ingot>, 5, 1, <mysticalcreations:stainless_steel_essence>, null);
 registerSeedRecipe(<mysticalcreations:fusion_matrix_seeds>, <tconevo:material>, 6, 1, <mysticalcreations:fusion_matrix_essence>, <tconevo:material>);
+registerSeedRecipe(<mysticalcreations:meteor_seeds>, <nyx:meteor_ingot>, 5, 1, <mysticalcreations:meteor_essence>, <nyx:meteor_ingot>);

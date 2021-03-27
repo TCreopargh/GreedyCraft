@@ -31,6 +31,7 @@ val bound_disabled = game.localize("greedycraft.tooltip.constant.bound_disabled"
 val how_to_repair = game.localize("greedycraft.tooltip.constant.how_to_repair");
 val cant_set_spawn = game.localize("greedycraft.tooltip.constant.cant_set_spawn");
 val machinery_upgrade_guide = game.localize("greedycraft.tooltip.constant.machinery_upgrade_guide");
+val machinery_upgrade_warning = game.localize("greedycraft.tooltip.constant.machinery_upgrade_warning");
 
 val tooltipMap as string[][IIngredient] = {
     <mysticalagriculture:supremium_helmet> : [flight_disabled],
@@ -127,7 +128,7 @@ val tooltipMap as string[][IIngredient] = {
     <thaumadditions:mithminite_plate> : [tc_book_incorrect],
     <thaumadditions:adaminite_plate> : [tc_book_incorrect],
     <thaumadditions:mithrillium_plate> : [tc_book_incorrect],
-    <projectex:collector:5> : [game.localize("greedycraft.tooltip.projectex.collector.1")],
+    <projectex:collector:5> : [game.localize("greedycraft.tooltip.projectex.collector.2")],
     <additions:greedycraft-aeroite_ore> : [game.localize("greedycraft.tooltip.additions.greedycraft-aeroite_ore.1")],
     <tofucraft:ore_tofudiamond> : [game.localize("greedycraft.tooltip.tofucraft.ore_tofudiamond.1")],
     <minecraft:enchanting_table> : [game.localize("greedycraft.tooltip.minecraft.enchanting_table.1")],
@@ -156,10 +157,10 @@ val tooltipMap as string[][IIngredient] = {
     <tconstruct:toolforge> : [how_to_repair],
     <danknull:danknull_dock> : [game.localize("greedycraft.tooltip.danknull.danknull_dock.1")],
 	<extrautils2:snowglobe:*> : [game.localize("greedycraft.tooltip.extrautils2.snowglobe.1")],
-	<modularmachinery:blockcasing:1> : [game.localize("greedycraft.tooltip.modularmachinery.blockcasing.1"), machinery_upgrade_guide],
-	<modularmachinery:blockcasing:2> : [game.localize("greedycraft.tooltip.modularmachinery.blockcasing.2"), machinery_upgrade_guide],
-	<modularmachinery:blockcasing:3> : [game.localize("greedycraft.tooltip.modularmachinery.blockcasing.3"), machinery_upgrade_guide],
-	<modularmachinery:blockcasing:5> : [game.localize("greedycraft.tooltip.modularmachinery.blockcasing.5"), machinery_upgrade_guide],
+	<modularmachinery:blockcasing:1> : [game.localize("greedycraft.tooltip.modularmachinery.blockcasing.1"), machinery_upgrade_guide, machinery_upgrade_warning],
+	<modularmachinery:blockcasing:2> : [game.localize("greedycraft.tooltip.modularmachinery.blockcasing.2"), machinery_upgrade_guide, machinery_upgrade_warning],
+	<modularmachinery:blockcasing:3> : [game.localize("greedycraft.tooltip.modularmachinery.blockcasing.3"), machinery_upgrade_guide, machinery_upgrade_warning],
+	<modularmachinery:blockcasing:5> : [game.localize("greedycraft.tooltip.modularmachinery.blockcasing.5"), machinery_upgrade_guide, machinery_upgrade_warning],
 	<enderio:item_material:9> : [game.localize("greedycraft.tooltip.enderio.item_material.1")],
 	<enderio:item_material:10> : [game.localize("greedycraft.tooltip.enderio.item_material.1")],
     <thaumadditions:vis_scribing_tools:*> : [game.localize("greedycraft.tooltip.thaumadditions.vis_scribing_tools.1")],
@@ -194,7 +195,8 @@ val tooltipMap as string[][IIngredient] = {
     <forestry:hunter_bag_t2> : [ae_lag],
     <pouchofunknown:pouch> : [ae_lag],
     <lootbags:itemlootbag:*> : [game.localize("greedycraft.tooltip.lootbags.itemlootbag.1")],
-    <tconevo:material:2> : [game.localize("greedycraft.tooltip.tconevo.plate_of_unsealing.1")]
+    <tconevo:material:2> : [game.localize("greedycraft.tooltip.tconevo.plate_of_unsealing.1")],
+    <contenttweaker:tablet_of_enlightenment>: [game.localize("greedycraft.tooltip.contenttweaker.tablet_of_enlightenment.1"), game.localize("greedycraft.tooltip.contenttweaker.tablet_of_enlightenment.2"), game.localize("greedycraft.tooltip.contenttweaker.tablet_of_enlightenment.3"), game.localize("greedycraft.tooltip.contenttweaker.tablet_of_enlightenment.4"), game.localize("greedycraft.tooltip.contenttweaker.tablet_of_enlightenment.5")]
 } as string[][IIngredient];
 
 for ingredient in tooltipMap {

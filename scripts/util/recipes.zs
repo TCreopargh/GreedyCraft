@@ -25,7 +25,7 @@ function addShapeless(name as string, output as IItemStack, recipe as IIngredien
 function remove(output as IIngredient) {
     // TODO: Handle removed recipe here
 
-    recipes.remove(output);
+    recipes.remove(output * 1);
 }
 
 function removeByRecipeName(recipeName as string) {

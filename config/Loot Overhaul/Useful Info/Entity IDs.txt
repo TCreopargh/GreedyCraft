@@ -545,7 +545,7 @@ cqrepoured:projectile_spider_hook - 542
 cqrepoured:projectile_bubble - 543
 cqrepoured:projectile_hot_fireball - 544
 cqrepoured:projectile_web - 545
-cqrepoured:projectile_thrown_block - 546
+energeticsheep:energetic_sheep - 546
 cqrepoured:dummy - 547
 cqrepoured:dwarf - 548
 cqrepoured:enderman - 549
@@ -789,3 +789,5 @@ rfp2:playerdummy - 786
 tumbleweed:tumbleweed - 787
 zombieawareness:entityscent - 788
 additions:projectile - 789
+cqrepoured:projectile_thrown_block - 790
+cqrepoured:projectile_homing_ender_eye - 791

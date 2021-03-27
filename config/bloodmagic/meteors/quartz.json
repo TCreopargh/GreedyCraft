@@ -1,0 +1,40 @@
+{
+    "catalystStack": {
+        "registryName": {
+            "domain": "appliedenergistics2",
+            "path": "fluix_block"
+        },
+        "meta": 0
+    },
+    "components": [
+        {
+            "weight": 1000,
+            "oreName": "stone"
+        },
+        {
+            "weight": 440,
+            "oreName": "oreQuartz"
+        },
+        {
+            "weight": 220,
+            "oreName": "oreCertusQuartz"
+        },
+        {
+            "weight": 60,
+            "oreName": "oreChargedCertusQuartz"
+        },
+        {
+            "weight": 140,
+            "oreName": "oreQuartzBlack"
+        },
+        {
+            "weight": 60,
+            "oreName": "blockQuartz"
+        }
+    ],
+    "explosionStrength": 15.0,
+    "radius": 6,
+    "maxWeight": 1080,
+    "version": 3,
+    "cost": 1800000
+}

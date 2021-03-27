@@ -12,9 +12,14 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{display:{Name:\"Sponsor's Gem\",Lore:[\"There is no sponsor item yet, become a sponsor on Patreon to make a sponsor's item!\"]}}"
+                            "tag": "{display:{Name:\"Sponsor's Gem\",Lore:[\"There are so few sponsor items right now! become a sponsor on Patreon to make a sponsor's item which can appear here!\"]}}"
                         }
                     ]
+                },
+                {
+                    "type": "item",
+                    "name": "additions:tcsponsors-mr_pointy",
+                    "weight": 1
                 }
             ]
         }

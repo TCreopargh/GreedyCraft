@@ -130,11 +130,13 @@ function(out, ins, cInfo) {
     var modifiersFrom = ins.from.tag.memberGet("Modifiers") as IData;
     var modifiersTo = ins.to.tag.memberGet("Modifiers") as IData;
     var toolLevel = {} as IData;
+    var toolLevelOld = {} as IData;
     var level = -1 as int;
+    var oldLevel = -1 as int;
     if (modifiersFrom.asString().contains("toolleveling")) {
         for i in 0 to modifiersFrom.length {
             var current as IData = modifiersFrom[i];
-            if (current.asString().contains("toolleveling")) {
+            if ("toolleveling" == current.memberGet("identifier")) {
                 toolLevel = current;
                 if(toolLevel has "level") {
                     level = toolLevel.memberGet("level") as int;
@@ -143,6 +145,20 @@ function(out, ins, cInfo) {
             }
         }
     }
+    
+    if (modifiersTo.asString().contains("toolleveling")) {
+        for i in 0 to modifiersTo.length {
+            var current as IData = modifiersTo[i];
+            if ("toolleveling" == current.memberGet("identifier")) {
+                toolLevelOld = current;
+                if(toolLevelOld has "level") {
+                    oldLevel = toolLevelOld.memberGet("level") as int;
+                }
+                break;
+            }
+        }
+    }
+
     var newModifier as IData = [];
     if (!isNull(newModifier) && level >= 0) {
         for i in 0 to modifiersTo.length {
@@ -151,7 +167,7 @@ function(out, ins, cInfo) {
                 break;
             }
             if (current.asString().contains("toolleveling")) {
-                newModifier = newModifier.update([current.update({"level": level})] as IData);
+                newModifier = newModifier.update([current.update(toolLevel)] as IData);
                 break;
             } else {
                 if(!current.asString().contains("extratrait")) {
@@ -160,7 +176,6 @@ function(out, ins, cInfo) {
             }
         }
     }
-
 
     var outData as IData = ins.to.tag - "Modifiers";
     outData = outData + ({Modifiers: newModifier}) as IData;
@@ -181,6 +196,17 @@ function(out, ins, cInfo) {
         outData = outData.update({TinkerData: tinkerData} as IData);
     }
     
+    var statsTag as IData = outData.memberGet("Stats");
+    var freeModifiers as int = statsTag.memberGet("FreeModifiers").asInt();
+    var modifierDiff as int = level - oldLevel;
+    if(modifierDiff < 0) {
+        modifierDiff = 0;
+    }
+    statsTag = statsTag.update({"FreeModifiers": freeModifiers + modifierDiff});
+    outData = outData.update({"Stats": statsTag});
+
+    logger.logInfo("Experience Transfer Performed." + "\nFreeModifiers: " + freeModifiers + "\nStatsTag: " + statsTag as string + "\nTinkerData: " + tinkerData as string + "\nOldLevel: " + oldLevel + "\nNewLevel: " + level + "\nLevelTagOld: " + toolLevelOld as string + "\nLevelTagNew: " + toolLevel as string);
+
     return ins.to.withTag(outData);
 }, null);
 
@@ -192,11 +218,13 @@ function(out, ins, cInfo) {
     var modifiersFrom = ins.from.tag.memberGet("Modifiers") as IData;
     var modifiersTo = ins.to.tag.memberGet("Modifiers") as IData;
     var toolLevel = {} as IData;
+    var toolLevelOld = {} as IData;
     var level = -1 as int;
+    var oldLevel = -1 as int;
     if (modifiersFrom.asString().contains("leveling_armor")) {
         for i in 0 to modifiersFrom.length {
             var current as IData = modifiersFrom[i];
-            if (current.asString().contains("leveling_armor")) {
+            if ("toolleveling" == current.memberGet("identifier")) {
                 toolLevel = current;
                 if(toolLevel has "level") {
                     level = toolLevel.memberGet("level") as int;
@@ -205,6 +233,20 @@ function(out, ins, cInfo) {
             }
         }
     }
+    
+    if (modifiersTo.asString().contains("toolleveling")) {
+        for i in 0 to modifiersTo.length {
+            var current as IData = modifiersTo[i];
+            if ("toolleveling" == current.memberGet("identifier")) {
+                toolLevelOld = current;
+                if(toolLevelOld has "level") {
+                    oldLevel = toolLevelOld.memberGet("level") as int;
+                }
+                break;
+            }
+        }
+    }
+
     var newModifier as IData = [];
     if (!isNull(newModifier) && level >= 0) {
         for i in 0 to modifiersTo.length {
@@ -213,7 +255,7 @@ function(out, ins, cInfo) {
                 break;
             }
             if (current.asString().contains("leveling_armor")) {
-                newModifier = newModifier.update([current.update({"level": level})] as IData);
+                newModifier = newModifier.update([current.update(toolLevel)] as IData);
                 break;
             } else {
                 if(!current.asString().contains("extratrait")) {
@@ -241,5 +283,23 @@ function(out, ins, cInfo) {
         outData = outData.update({TinkerData: tinkerData} as IData);
     }
     
+    var statsTag as IData = outData.memberGet("Stats");
+    var freeModifiers as int = statsTag.memberGet("FreeModifiers").asInt();
+    var modifierDiff as int = level - oldLevel;
+    if(modifierDiff < 0) {
+        modifierDiff = 0;
+    }
+    statsTag = statsTag.update({"FreeModifiers": freeModifiers + modifierDiff});
+    outData = outData.update({"Stats": statsTag});
+
+    logger.logInfo("Experience Transfer Performed." + "\nFreeModifiers: " + freeModifiers + "\nStatsTag: " + statsTag as string + "\nTinkerData: " + tinkerData as string + "\nOldLevel: " + oldLevel + "\nNewLevel: " + level + "\nLevelTagOld: " + toolLevelOld as string + "\nLevelTagNew: " + toolLevel as string);
+    
     return ins.to.withTag(outData);
 }, null);
+
+recipes.addShapeless("etablet_dupe", <contenttweaker:tablet_of_enlightenment>,
+    [<contenttweaker:tablet_of_enlightenment>.marked("tablet")],
+    function(out, ins, cInfo) {
+        return ins.tablet.updateTag({});
+    }, null
+);

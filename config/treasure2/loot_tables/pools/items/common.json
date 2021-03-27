@@ -1,5 +1,5 @@
 {
-	"version": "1.0",
+	"version": "1.1",
 	"pools": [
 		{
 			"name": "common_items",
@@ -23,7 +23,7 @@
 				{
 					"entryName": "apple",
 					"type": "item",
-					"name": "minecraft:bread",
+					"name": "minecraft:apple",
 					"weight": 60,
 					"functions": [
 						{

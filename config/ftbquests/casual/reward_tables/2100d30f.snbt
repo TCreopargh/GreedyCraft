@@ -439,13 +439,13 @@
 																																																	BlockEntityTag: {
 																																																		Items: [{
 																																																			Slot: 0,
-																																																			id: "nether_star",
+																																																			id: "progressivebosses:nether_star_shard",
 																																																			Count: 64
 																																																		},
 																																																		{
 																																																			Slot: 1,
 																																																			id: "draconicevolution:draconic_core",
-																																																			Count: 64
+																																																			Count: 16
 																																																		}]
 																																																	},
 																																																	display: {

@@ -3,7 +3,7 @@
  * You may NOT use this script in any other publicly distributed modpack without my permission. 
  */
 
-#priority 32767
+#priority 30000
 #no_fix_recipe_book
 
 import crafttweaker.item.IItemStack;
@@ -12,11 +12,13 @@ import crafttweaker.item.IIngredient;
 
 import mods.zenutils.I18n;
 
-global omnipedia as IItemStack =<akashictome:tome>.withTag({
+import scripts.util.lang as LangUtil;
+
+global omnipedia as IItemStack = <akashictome:tome>.withTag({
 	"akashictome:is_morphing": 1 as byte,
 	display: {
-		Lore: [I18n.format("greedycraft.omnipedia.version", "" + 14), game.localize("greedycraft.omnipedia.tooltip")],
-		Name: game.localize("greedycraft.omnipedia.name")
+		Lore: [LangUtil.format("greedycraft.omnipedia.version", "" + 14), LangUtil.translate("greedycraft.omnipedia.tooltip")],
+		Name: LangUtil.translate("greedycraft.omnipedia.name")
 	},
 	"akashictome:data": {
 		tconstruct: {

@@ -1,0 +1,77 @@
+{
+  "cause": {
+    "item": {
+      "item": "additions:tcsponsors-mr_pointy",
+      "damage": "any"
+    },
+    "type": "additions:item_attack"
+  },
+  "effects": [
+    {
+      "potion": {
+        "name": "minecraft:instant_health",
+        "duration": 1,
+        "amplifier": 0,
+        "ambient": false,
+        "show_particles": true
+      },
+      "chance": 0.1,
+      "type": "additions:potion"
+    },
+    {
+      "potion": {
+        "name": "minecraft:speed",
+        "duration": 120,
+        "amplifier": 0,
+        "ambient": false,
+        "show_particles": true
+      },
+      "chance": 0.03,
+      "type": "additions:potion"
+    },
+    {
+      "potion": {
+        "name": "minecraft:luck",
+        "duration": 120,
+        "amplifier": 0,
+        "ambient": false,
+        "show_particles": true
+      },
+      "chance": 0.03,
+      "type": "additions:potion"
+    },
+    {
+      "potion": {
+        "name": "minecraft:strength",
+        "duration": 120,
+        "amplifier": 0,
+        "ambient": false,
+        "show_particles": true
+      },
+      "chance": 0.03,
+      "type": "additions:potion"
+    },
+    {
+      "potion": {
+        "name": "minecraft:jump_boost",
+        "duration": 120,
+        "amplifier": 0,
+        "ambient": false,
+        "show_particles": true
+      },
+      "chance": 0.03,
+      "type": "additions:potion"
+    },
+    {
+      "potion": {
+        "name": "minecraft:resistance",
+        "duration": 120,
+        "amplifier": 0,
+        "ambient": false,
+        "show_particles": true
+      },
+      "chance": 0.03,
+      "type": "additions:potion"
+    }
+  ]
+}

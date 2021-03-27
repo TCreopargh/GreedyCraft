@@ -28,6 +28,7 @@ import mods.ctutils.world.IGameRules;
 import mods.zenutils.I18n;
 
 import scripts.util.lang as LangUtil;
+import scripts.util.versions as VersionUtil;
 
 function isWuss(player as IPlayer) as bool {
     return (player.creative || player.hasGameStage("iswuss")); 
@@ -69,7 +70,10 @@ wussMode.execute = function(command, server, sender, args) {
 wussMode.register();
 
 events.onCommand(function (event as CommandEvent) {
-    if (event.commandSender.world.remote || isServerPack) {
+    if (event.commandSender.world.remote) {
+        return;
+    }
+    if(VersionUtil.isServerPack() as bool) {
         return;
     }
     val command = event.command;

@@ -28,13 +28,12 @@ import mods.ctutils.utils.Math;
 import mods.ctutils.world.IGameRules;
 import mods.ctintegration.data.DataUtil;
 import mods.ctintegration.util.DateUtil;
-import mods.ctintegration.date.IDate;     
+import mods.ctintegration.date.IDate;  
+import mods.zenutils.I18n;   
 
 import scripts.util.lang as LangUtil;
 import scripts.util.date as CalendarUtil;
 import scripts.util.patreons as PatreonUtil;
-
-import mods.zenutils.I18n;
 
 events.onPlayerLoggedIn(function (event as PlayerLoggedInEvent) {
 
@@ -60,17 +59,17 @@ events.onPlayerLoggedIn(function (event as PlayerLoggedInEvent) {
     }
     server.commandManager.executeCommand(server, "/sendwelcomequote " + player.name);
     
-    var playerName as ITextComponent = ITextComponent.fromData(["", {text: player.name, color: "yellow"}]);
-    var playerNameNormal as ITextComponent = ITextComponent.fromData(["", {text: player.name, color: "yellow"}]);
-    if (PatreonUtil.isPatreon(player.name)) {
-        playerName = ITextComponent.fromData(["", {translate: "greedycraft.event.sponsor.title", color: "green"}, {text: player.name, color: "yellow"}]);
+    var playerName as ITextComponent = ITextComponent.fromData(["", {text: player.name, color: PatreonUtil.getPlayerColor(player)}]);
+    var playerNameNormal as ITextComponent = ITextComponent.fromData(["", {text: player.name, color: PatreonUtil.getPlayerColor(player)}]);
+    if (PatreonUtil.isPatreon(player)) {
+        playerName = ITextComponent.fromData(["", {translate: "greedycraft.event.sponsor.title", color: "green"}, {text: player.name, color: PatreonUtil.getPlayerColor(player)}]);
     }
 
     //Patreon join notification
     if (player.hasGameStage("truehero")) {
-        server.broadcastMessage(ITextComponent.fromTranslation("greedycraft.event.executor.welcome", playerNameNormal.formattedText));
-    } else if (PatreonUtil.isPatreon(player.name)) {
-        server.broadcastMessage(ITextComponent.fromTranslation("greedycraft.event.sponsor.welcome", playerNameNormal.formattedText));
+        server.broadcastMessage(ITextComponent.fromData(["", {translate: "greedycraft.event.executor.welcome.0", color: "red"}, {translate: PatreonUtil.getPlayerPrefixKey(player), color: PatreonUtil.getPlayerColor(player)}, {text: " "}, {text: player.name, color: PatreonUtil.getPlayerColor(player)}, {translate: "greedycraft.event.executor.welcome.1", color: "red"}]));
+    } else if (PatreonUtil.isPatreon(player)) {
+        server.broadcastMessage(ITextComponent.fromData(["", {translate: "greedycraft.event.sponsor.welcome.0", color: "yellow"}, {translate: PatreonUtil.getPlayerPrefixKey(player), color: PatreonUtil.getPlayerColor(player)}, {text: " "}, {text: player.name, color: PatreonUtil.getPlayerColor(player)}, {translate: "greedycraft.event.sponsor.welcome.1", color: "yellow"}]));
     }
 
     if (!player.hasGameStage("first_join_message_shown")) {
@@ -78,15 +77,15 @@ events.onPlayerLoggedIn(function (event as PlayerLoggedInEvent) {
         player.addGameStage("first_join_message_shown");
     } else {
         if (CalendarUtil.isChristmas()) {
-            player.sendRichTextMessage(ITextComponent.fromTranslation("greedycraft.event.welcome.christmas", playerName.formattedText));
+            player.sendRichTextMessage(ITextComponent.fromTranslation("greedycraft.event.welcome.christmas0") + playerName + ITextComponent.fromTranslation("greedycraft.event.welcome.christmas1"));
         } else if (CalendarUtil.isHalloween()) {
-            player.sendRichTextMessage(ITextComponent.fromTranslation("greedycraft.event.welcome.halloween", playerName.formattedText));
+            player.sendRichTextMessage(ITextComponent.fromTranslation("greedycraft.event.welcome.halloween0") + playerName + ITextComponent.fromTranslation("greedycraft.event.welcome.halloween1"));
         } else if (CalendarUtil.isNewYear()) {
-            player.sendRichTextMessage(ITextComponent.fromTranslation("greedycraft.event.welcome.new_year", [DateUtil.now().year, playerName.formattedText] as string[]));
+            player.sendRichTextMessage(ITextComponent.fromTranslation("greedycraft.event.welcome.new_year0") + ITextComponent.fromString(DateUtil.now().year) + ITextComponent.fromTranslation("greedycraft.event.welcome.new_year1") + playerName + ITextComponent.fromTranslation("greedycraft.event.welcome.new_year2"));
         } else if (CalendarUtil.isLunarNewYear()) {
-            player.sendRichTextMessage(ITextComponent.fromTranslation("greedycraft.event.welcome.lunar_new_year", playerName.formattedText));
+            player.sendRichTextMessage(ITextComponent.fromTranslation("greedycraft.event.welcome.lunar_new_year0") + playerName + ITextComponent.fromTranslation("greedycraft.event.welcome.lunar_new_year1"));
         } else {
-            player.sendRichTextMessage(ITextComponent.fromTranslation("greedycraft.event.welcome.general", playerName.formattedText));
+            player.sendRichTextMessage(ITextComponent.fromTranslation("greedycraft.event.welcome.general0") + playerName + ITextComponent.fromTranslation("greedycraft.event.welcome.general1"));
         }
     }
     server.commandManager.executeCommand(server, "/difficulty hard");

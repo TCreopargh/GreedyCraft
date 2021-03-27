@@ -1,0 +1,64 @@
+{
+    "catalystStack": {
+        "registryName": {
+            "domain": "draconicevolution",
+            "path": "draconic_block"
+        },
+        "meta": 0
+    },
+    "components": [
+        {
+            "weight": 900,
+            "oreName": "stone"
+        },
+        {
+            "weight": 400,
+            "oreName": "oreDraconium"
+        },
+        {
+            "weight": 320,
+            "oreName": "oreExperience"
+        },
+        {
+            "weight": 60,
+            "oreName": "oreCryonium"
+        },
+        {
+            "weight": 120,
+            "oreName": "oreChromium"
+        },
+        {
+            "weight": 160,
+            "oreName": "oreManganese"
+        },
+        {
+            "weight": 40,
+            "oreName": "oreShadowium"
+        },
+        {
+            "weight": 40,
+            "oreName": "oreAncientDebris"
+        },
+        {
+            "weight": 120,
+            "oreName": "oreStarmetal"
+        },
+        {
+            "weight": 140,
+            "oreName": "oreAbyssalnite"
+        },
+        {
+            "weight": 100,
+            "oreName": "oreNitre"
+        },
+        {
+            "weight": 70,
+            "oreName": "oreCoraliumStone"
+        }
+    ],
+    "explosionStrength": 40.0,
+    "radius": 7,
+    "maxWeight": 1080,
+    "version": 3,
+    "cost": 20000000
+}

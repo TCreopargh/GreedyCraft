@@ -8,6 +8,10 @@
   },
   "components": [
     {
+      "weight": 700,
+      "oreName": "stone"
+    },
+    {
       "weight": 200,
       "oreName": "oreIron"
     },

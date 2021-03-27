@@ -126,6 +126,13 @@
 					]
 				},
 				{
+                    "entryName": "simple_dungeon_inject",
+                    "weight": 25,
+                    "quality": 0,
+                    "type": "loot_table",
+                    "name": "minecraft:chests/simple_dungeon"
+                },
+				{
 					"entryName": "gold_coin",
 					"type": "item",
 					"name": "treasure2:gold_coin",

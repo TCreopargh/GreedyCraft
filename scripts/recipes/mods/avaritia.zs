@@ -12,6 +12,7 @@ import crafttweaker.item.IIngredient;
 
 import mods.avaritia.ExtremeCrafting;
 import mods.avaritia.Compressor;
+import mods.ctintegration.util.RecipePattern;
 
 var catalystRecipe as IIngredient[] = [
     <avaritia:resource:0>, <avaritia:resource:1>, <avaritia:resource:2>, <avaritia:resource:3>, <avaritia:resource:4>, <avaritia:cosmic_meatballs>, <avaritia:ultimate_stew>, <avaritia:endest_pearl>, <avaritia:resource:7>, <additions:greedycraft-pearl_of_knowledge>, <additions:greedycraft-wither_soul>, <additions:greedycraft-dragon_soul>, <additions:greedycraft-city_defender_medal>,<additions:greedycraft-ancient_tome>, <additions:greedycraft-creative_shard>, <additions:greedycraft-poop>, <additions:greedycraft-aurora_heart>, <minecraft:nether_star>, <draconicevolution:dragon_heart>, <draconicevolution:chaotic_core>, <projectex:matter:3>, <additions:greedycraft-cosmilite_block>, <additions:greedycraft-cryonic_artifact>,  <additions:greedycraft-bounty_hunter_medal>, <additions:perfectly_generic_item>, <additions:greedycraft-sand_of_time>, <additions:greedycraft-anti_entropy_matter>, <eternalsingularity:eternal_singularity>
@@ -41,7 +42,7 @@ ExtremeCrafting.addShaped("custom_avaritia_recipe_catalyst_shaped", <avaritia:re
 
 // Eternal Singularity
 ExtremeCrafting.remove(<eternalsingularity:eternal_singularity>);
-ExtremeCrafting.addShapeless("eternal_singularity", <eternalsingularity:eternal_singularity> * 1, [<avaritia:singularity:0>, <avaritia:singularity:1>, <avaritia:singularity:2>, <avaritia:singularity:3>, <avaritia:singularity:4>, <avaritia:singularity:5>, <avaritia:singularity:6>, <avaritia:singularity:7>, <avaritia:singularity:8>, <avaritia:singularity:9>, <avaritia:singularity:10>, <avaritia:singularity:11>, <avaritia:singularity:12>, <avaritia:singularity:13>, <avaritia:singularity:14>, <jaopca:item_singularityabyssalnite>, <jaopca:item_singularityaluminium>, <jaopca:item_singularityardite>, <jaopca:item_singularitycobalt>, <jaopca:item_singularitydraconium>, <jaopca:item_singularityliquifiedcoralium>, <jaopca:item_singularityosmium>, <jaopca:item_singularityumbrium>, <jaopca:item_singularityyellorium>, <jaopca:item_singularityamethyst>, <jaopca:item_singularityapatite>, <jaopca:item_singularitycertusquartz>, <jaopca:item_singularitychargedcertusquartz>, <jaopca:item_singularitycoal>, <jaopca:item_singularitydimensionalshard>, <jaopca:item_singularityenderbiotite>, <jaopca:item_singularityquartzblack>, <jaopca:item_singularityniter>, <jaopca:item_singularityastralstarmetal>, <jaopca:item_singularityinfernium>, <jaopca:item_singularitytitanium>,<jaopca:item_singularitycryonium>, <jaopca:item_singularitycytosinite>, <jaopca:item_singularityasgardium>, <jaopca:item_singularityaeroite>, <jaopca:item_singularitychromium>, <jaopca:item_singularityshadowium>, <jaopca:item_singularityaqualite>, <jaopca:item_singularitymanganese>]);
+ExtremeCrafting.addShapeless("eternal_singularity", <eternalsingularity:eternal_singularity> * 2, [<avaritia:singularity:0>, <avaritia:singularity:1>, <avaritia:singularity:2>, <avaritia:singularity:3>, <avaritia:singularity:4>, <avaritia:singularity:5>, <avaritia:singularity:6>, <avaritia:singularity:7>, <avaritia:singularity:8>, <avaritia:singularity:9>, <avaritia:singularity:10>, <avaritia:singularity:11>, <avaritia:singularity:12>, <avaritia:singularity:13>, <avaritia:singularity:14>, <jaopca:item_singularityabyssalnite>, <jaopca:item_singularityaluminium>, <jaopca:item_singularityardite>, <jaopca:item_singularitycobalt>, <jaopca:item_singularitydraconium>, <jaopca:item_singularityliquifiedcoralium>, <jaopca:item_singularityosmium>, <jaopca:item_singularityumbrium>, <jaopca:item_singularityyellorium>, <jaopca:item_singularityamethyst>, <jaopca:item_singularityapatite>, <jaopca:item_singularitycertusquartz>, <jaopca:item_singularitychargedcertusquartz>, <jaopca:item_singularitycoal>, <jaopca:item_singularitydimensionalshard>, <jaopca:item_singularityenderbiotite>, <jaopca:item_singularityquartzblack>, <jaopca:item_singularityniter>, <jaopca:item_singularityastralstarmetal>, <jaopca:item_singularityinfernium>, <jaopca:item_singularitytitanium>,<jaopca:item_singularitycryonium>, <jaopca:item_singularitycytosinite>, <jaopca:item_singularityasgardium>, <jaopca:item_singularityaeroite>, <jaopca:item_singularitychromium>, <jaopca:item_singularityshadowium>, <jaopca:item_singularityaqualite>, <jaopca:item_singularitymanganese>]);
 
 // 创造转换套件
 recipes.remove(<thermalfoundation:upgrade:256>);
@@ -232,5 +233,53 @@ ExtremeCrafting.addShaped("custom_avaritia_recipe_45", <draconicevolution:creati
 
 // [创造]牺牲匕首
 recipes.remove(<bloodmagic:sacrificial_dagger:1>);
-ExtremeCrafting.addShaped("NAMEPLACEHOLDER", <bloodmagic:sacrificial_dagger:1> * 1, [[null, null, null, null, null, null, null, null, null], [null, null, null, null, null, null, <minecraft:iron_ingot>, <minecraft:iron_ingot>, null],[null, null, null, null, null, <minecraft:iron_ingot>, <thermalfoundation:material:163>, <minecraft:iron_ingot>, null],[null, null, null, null, <minecraft:iron_ingot>, <thermalfoundation:material:163>, <minecraft:iron_ingot>, null, null],[null, null, <minecraft:obsidian>, <minecraft:iron_ingot>, <thermalfoundation:material:163>, <minecraft:iron_ingot>, null, null, null],[null, null, null, <additions:greedycraft-creative_soul>, <minecraft:iron_ingot>, null, null, null, null],[null, null, <astralsorcery:itemcraftingcomponent:1>, null, <minecraft:obsidian>, null, null, null, null],[null, <astralsorcery:itemcraftingcomponent:1>, null, null, null, null, null, null, null],[null, null, null, null, null, null, null, null, null]]);
+ExtremeCrafting.addShaped("custom_avaritia_recipe_46", <bloodmagic:sacrificial_dagger:1> * 1, [[null, null, null, null, null, null, null, null, null], [null, null, null, null, null, null, <minecraft:iron_ingot>, <minecraft:iron_ingot>, null],[null, null, null, null, null, <minecraft:iron_ingot>, <thermalfoundation:material:163>, <minecraft:iron_ingot>, null],[null, null, null, null, <minecraft:iron_ingot>, <thermalfoundation:material:163>, <minecraft:iron_ingot>, null, null],[null, null, <minecraft:obsidian>, <minecraft:iron_ingot>, <thermalfoundation:material:163>, <minecraft:iron_ingot>, null, null, null],[null, null, null, <additions:greedycraft-creative_soul>, <minecraft:iron_ingot>, null, null, null, null],[null, null, <astralsorcery:itemcraftingcomponent:1>, null, <minecraft:obsidian>, null, null, null, null],[null, <astralsorcery:itemcraftingcomponent:1>, null, null, null, null, null, null, null],[null, null, null, null, null, null, null, null, null]]);
 
+ExtremeCrafting.addShaped("custom_avaritia_recipe_47", <thermalexpansion:capacitor:32000>.withTag({Energy: 25000000}), RecipePattern.init([
+    "         ",
+    " CCCCCCC ",    
+    " CcccccC ",
+    " CRCCCRC ",
+    " CiccciC ",
+    " CcicicC ",
+    " CccRccC ",
+    " CCCCCCC ",
+    "         "
+]).map({
+    c: <additions:greedycraft-creative_shard>,
+    C: <additions:greedycraft-creative_soul>,
+    R: <avaritia:singularity:3>,
+    i: <thermalfoundation:storage_alloy:2>
+}).ingredients);
+
+ExtremeCrafting.addShaped("custom_avaritia_recipe_48", <thermalinnovation:drill:32000>.withTag({Energy: 600000, Mode: 4}), RecipePattern.init([
+    "    I    ",
+    "   III   ",    
+    "  IIIII  ",
+    "  CCCCR  ",
+    "  CCCCR  ",
+    "   CCC   ",
+    "   R     ",
+    "  R      ",
+    "         "
+]).map({
+    C: <additions:greedycraft-creative_soul>,
+    R: <avaritia:singularity:3>,
+    I: <thermalfoundation:storage_alloy:2>
+}).ingredients);
+
+ExtremeCrafting.addShaped("custom_avaritia_recipe_49", <thermalinnovation:saw:32000>.withTag({Energy: 600000, Mode: 4}), RecipePattern.init([
+    "         ",
+    "   III   ",    
+    "  IIRII  ",
+    "  CIIIC  ",
+    "  CCCCC  ",
+    "   CCC   ",
+    "   R     ",
+    "  R      ",
+    "         "
+]).map({
+    C: <additions:greedycraft-creative_soul>,
+    R: <avaritia:singularity:3>,
+    I: <thermalfoundation:storage_alloy:2>
+}).ingredients);

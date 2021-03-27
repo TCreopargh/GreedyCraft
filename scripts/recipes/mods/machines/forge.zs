@@ -70,8 +70,7 @@ MMUtil.addForgeRecipe("aeonsteel_forge", MMUtil.getStack(<additions:aeonsteel_in
     <tconevo:material>,
     <draconicevolution:draconium_ingot>,
     <enderio:item_alloy_endergy_ingot:3>,
-    <additions:cytosinite_ingot>,
-    <avaritia:resource:1>
+    <additions:cytosinite_ingot>
 ] as IItemStack[], {
     <additions:greedycraft-catalyst_star> : {
         speed: 0.75,
@@ -122,7 +121,8 @@ MMUtil.addForgeRecipe("chromasteel_forge", MMUtil.getStack(<additions:chromastee
     <mekanism:atomicalloy>,
     <tconevo:metal:20>,
     <tconevo:metal>,
-    <tconevo:metal:5>
+    <tconevo:metal:5>,
+    <avaritia:resource:1>
 ] as IItemStack[], {
     <additions:greedycraft-catalyst_star> : {
         speed: 0.5,

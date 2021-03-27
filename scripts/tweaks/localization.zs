@@ -66,7 +66,7 @@ val localizationMap as string[string][string] = {
         "thaumicaugmentation.text.entered_spire": "你发现了%s。",
         "thaumicaugmentation.text.boss_room_spire": "你发现了尖塔的核心。",
         "death.attack.cinderSpark": "%s被%s的火球烧成了灰烬。",
-        "botania_tweaks.entrodupe.nicetry": "TNT复制机？给爷爬。能不能拿点正常的东西喂我？！",
+        "botania_tweaks.entrodupe.nicetry": "TNT复制机？给爷爪巴。爷不吃这套。",
         "fluid.fusion_matrix": "熔融聚合矩阵",
         "fluid.insanium": "熔融究极精华",
         "jaopca.entry.Infernium": "永燃",
@@ -172,7 +172,8 @@ val localizationMap as string[string][string] = {
         "message.died": "§e%s §7逝世于 %s §9(破坏坟墓以取回物品)",
         "death.attack.outOfWorld": "实体%1$s被从埃拉西亚公共界面移除",
         "material.extrabotany:ingotorichalcos.name": "§c[已禁用]",
-        "material.extrabotany:ingotshadowium.name" : "§c[已禁用]"
+        "material.extrabotany:ingotshadowium.name" : "§c[已禁用]",
+        "memorycleaner.gc.start": "§a[内存清理] §f正在清理内存，可能会导致卡顿！\n§7(如果这造成了较长时间的卡顿，请使用我们GitHub Wiki页面推荐的JVM参数。)"
     }, 
     en_us: {
         "modifier.mutate.name": "Mutating",
@@ -249,7 +250,8 @@ val localizationMap as string[string][string] = {
         "pouchofunknown.destroy_message": "The %s you have just picked up has been destroyed. %sTo hold this item either acquire the required game stage or keep a §dPouch of Unknown§e in your inventory to hold it.",
         "death.attack.outOfWorld": "Entity %1$s was removed from the Elysian Public Interface",
         "material.extrabotany:ingotorichalcos.name": "§c[Disabled]",
-        "material.extrabotany:ingotshadowium.name" : "§c[Disabled]"
+        "material.extrabotany:ingotshadowium.name" : "§c[Disabled]",
+        "memorycleaner.gc.start": "§a[MemoryCleaner] §fCleaning memory, this might cause some lag!\n§7(If your game pauses for a long time when this happens, please use the recommended JVM arguments in the installation guide which can be found on our GitHub wiki.)"
     }
 };
 

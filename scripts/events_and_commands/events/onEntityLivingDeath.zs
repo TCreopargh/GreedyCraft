@@ -36,21 +36,19 @@ events.onEntityLivingDeath(function (event as EntityLivingDeathEvent) {
         var damageSource as IDamageSource = event.damageSource;
 
         // Detailed death message
-        var deathMsg as string = damageSource.getDeathMessage(player);
-        if (PatreonUtil.isPatreon(player.name)) {            
-            deathMsg = deathMsg.replace(player.name, "§d" + player.name + "§7");
-        } else {
-            deathMsg = deathMsg.replace(player.name, "§e" + player.name + "§7");
-        }
+        var deathMsg as string = damageSource.getDeathMessage(player);         
+        deathMsg = deathMsg.replace(player.name, PatreonUtil.getPlayerColorCode(player) + player.name + "§7");
+        
         if (!isNull(damageSource.getTrueSource()) && damageSource.getTrueSource() instanceof IEntityLivingBase) {
             var name as string = damageSource.getTrueSource().displayName;
             if (damageSource.getTrueSource().hasCustomName) {
                 name = damageSource.getTrueSource().customName;
             }
-            if (damageSource.getTrueSource() instanceof IPlayer && PatreonUtil.isPatreon(name)) {
-                deathMsg = deathMsg.replace(name, "§5" + name + "§7");
+            if (damageSource.getTrueSource() instanceof IPlayer) {
+                var patreon as IPlayer = damageSource.getTrueSource();
+                deathMsg = deathMsg.replace(name, PatreonUtil.getPlayerColorCode(patreon) + "☻ §n" + name + "§7");
             } else {
-                deathMsg = deathMsg.replace(name, "§c" + name + "§7");
+                deathMsg = deathMsg.replace(name, "§c§n" + name + "§7");
             }
         }
         deathMsg = " §c☠ §7" + deathMsg;
@@ -68,8 +66,16 @@ events.onEntityLivingDeath(function (event as EntityLivingDeathEvent) {
         }
 
         // Spawn human
-        if (!(Math.random() > DEATH_HUMAN_SPAWN_CHANCE)) {
+        if (!(Math.random() > DEATH_HUMAN_SPAWN_CHANCE) && !player.creative) {
             var offset = Math.random() - 0.5 as float;
+            /*
+            var ent as IEntityLivingBase = <entity:headcrumbs:human>.createEntity(player.world);
+            ent.update({Username: player.name as string});
+            ent.posX = player.posX + offset;
+            ent.posY = player.posY + 1.0 + offset;
+            ent.posZ = player.posZ + offset;
+            player.world.spawnEntity(ent);
+            */
             server.commandManager.executeCommand(server, "/summon headcrumbs:human " + (player.x + offset) + " " + (player.y + 1) + " "+ (player.z + offset) +" {Username:\"" + player.name + "\"}");
             player.sendRichTextMessage(ITextComponent.fromTranslation("greedycraft.event.human.spawn"));
         }

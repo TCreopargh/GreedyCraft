@@ -1,10 +1,16 @@
 {
-	"name": "§9§nIntroduction to Skills",
-	"icon": "minecraft:chainmail_chestplate",
-	"category": "patchouli:skill_category",
-	"priority": true,
-	"pages": [{
-		"type": "text",
-		"text": "$(6)Skill Menu$() can be opened by pressing K. The first menu is a list of all skills and every skill have some traits. Click on the plus button in top right to level up a skill with your xp. Traits can be learned by reaching the required skill levels and consuming a skill point. $(c)Some items in the game require specific skills to be reached to use, e.g. Diamond sword requires attack level 6."
-	}]
+    "name": "§9§nIntroduction to Skills",
+    "icon": "minecraft:chainmail_chestplate",
+    "category": "patchouli:skill_category",
+    "priority": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(6)Skill Menu$() can be opened by pressing K. The first menu is a list of all skills and every skill have some traits. Click on the plus button in top right to level up a skill with your xp. Traits can be learned by reaching the required skill levels and consuming a skill point. $(c)Some items in the game require specific skills to be reached to use, e.g. Diamond sword requires attack level 6."
+        },
+        {
+            "type": "text",
+            "text": "$(5)Upgrading skills require a lot of XP levels. If the '+' button on the top right doesn't show up, get more XP."
+        }
+    ]
 }

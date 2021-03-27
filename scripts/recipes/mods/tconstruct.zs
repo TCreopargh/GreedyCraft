@@ -17,6 +17,9 @@ val VOLUME_INGOT = 144;
 //Alloy.removeRecipe(<liquid:mirion> * 72, [<liquid:terrasteel> * 18, <liquid:manasteel> * 18, <liquid:elementium> * 18, <liquid:cobalt> * 18, <liquid:glass> * 125]);
 //Alloy.removeRecipe(<liquid:mirion>);
 
+Alloy.removeRecipe(<liquid:yrdeen_fluid>);
+
+Alloy.addRecipe(<liquid:yrdeen_fluid> * 3, [<liquid:uru_fluid> * 3, <liquid:valyrium_fluid> * 3, <liquid:signalum>]);
 Alloy.addRecipe(<liquid:adamant_fluid> * 3, [<liquid:nihilite_fluid> * 1, <liquid:iox_fluid> * 3]);
 Alloy.addRecipe(<liquid:emerald> * 2, [<liquid:experience> * 3, <liquid:redstone> * 2, <liquid:glowstone> * 2]);
 Alloy.addRecipe(<liquid:end_steel> * (VOLUME_INGOT * 2), [<liquid:obsidian> * (VOLUME_INGOT * 2), <liquid:dark_steel> * (VOLUME_INGOT * 2), <liquid:ender> * 250]);

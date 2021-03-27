@@ -15,7 +15,7 @@ global welcomeQuotes as IData[][string] = {
         ["", {text: "感谢游玩贪婪整合包！如果你在游戏中遇到了问题，请先查阅§6《贪婪整合包——从入门到精通》", color: "yellow"}], 
         ["", {text: "如果你遇到了模组相关的问题，请查阅§6百科全书§e！模组的指导手册都可以在这里找到。", color: "yellow"}], 
         ["", {text: "在游戏过程中遇到了Bug？请前往", color: "yellow"}, {text: "GitHub Issues", color:"blue", underlined: true, clickEvent: {action: "open_url", "value": "https://github.com/TCreopargh/GreedyCraft/issues"}}, {text: "反馈！", color: "yellow"}], 
-        ["", {text: "请记住我们的官网地址：", color: "yellow"}, {text: "https://greedycraft.tcreopargh.xyz/", underlined: true, clickEvent: {action: "open_url", "value": "https://greedycraft.tcreopargh.xyz/"}}, {text: "！", color: "yellow"}], 
+        ["", {text: "请记住我们的官网地址：", color: "yellow"}, {text: "https://greedycraft.com/", underlined: true, clickEvent: {action: "open_url", "value": "https://greedycraft.com/"}}, {text: "！", color: "yellow"}], 
         ["", {text: "进入我们的交流群讨论游戏内容吧！交流群的群号可以在官网上找到。", color: "yellow"}] , 
         ["", {text: "有很好的显卡却卡的完全不能玩？别急着关闭光影，这种情况很有可能是你的设置问题。请在整合包附带的安装指南中寻找解决方法。", color: "yellow"}] , 
         ["", {text: "本整合附带了大量的音乐和改进的音效，强烈推荐佩戴耳机游玩！", color: "yellow"}] , 

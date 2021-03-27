@@ -1,11 +1,9 @@
 {
-	"version": "2.0",
-	"pools": [
-		{
+	"version": "2.1",
+	"pools": [{
 			"name": "epic_keys",
 			"rolls": 1,
-			"entries": [
-				{
+			"entries": [{
 					"entryName": "jewelled_key",
 					"type": "item",
 					"name": "treasure2:jewelled_key",
@@ -16,60 +14,52 @@
 					"type": "item",
 					"name": "treasure2:ruby_key",
 					"weight": 25,
-					"functions": [
-						{
-							"function": "set_count",
-							"count": {
-								"min": 0,
-								"max": 2
-							}
+					"functions": [{
+						"function": "set_count",
+						"count": {
+							"min": 0,
+							"max": 2
 						}
-					]
+					}]
 				},
 				{
 					"entryName": "sapphire_key",
 					"type": "item",
 					"name": "treasure2:sapphire_key",
 					"weight": 25,
-					"functions": [
-						{
-							"function": "set_count",
-							"count": {
-								"min": 0,
-								"max": 2
-							}
+					"functions": [{
+						"function": "set_count",
+						"count": {
+							"min": 0,
+							"max": 2
 						}
-					]
+					}]
 				},
 				{
 					"entryName": "diamond_key",
 					"type": "item",
 					"name": "treasure2:diamond_key",
 					"weight": 15,
-					"functions": [
-						{
-							"function": "set_count",
-							"count": {
-								"min": 1,
-								"max": 2
-							}
+					"functions": [{
+						"function": "set_count",
+						"count": {
+							"min": 1,
+							"max": 2
 						}
-					]
+					}]
 				},
 				{
 					"entryName": "emerald_key",
 					"type": "item",
 					"name": "treasure2:emerald_key",
 					"weight": 15,
-					"functions": [
-						{
-							"function": "set_count",
-							"count": {
-								"min": 1,
-								"max": 2
-							}
+					"functions": [{
+						"function": "set_count",
+						"count": {
+							"min": 1,
+							"max": 2
 						}
-					]
+					}]
 				},
 				{
 					"entryName": "metallurgists_key",
@@ -88,48 +78,53 @@
 		{
 			"name": "epic_treasure",
 			"rolls": 1,
-			"entries": [
-				{
+			"entries": [{
 					"entryName": "silver_coin",
 					"type": "item",
 					"name": "treasure2:silver_coin",
 					"weight": 25,
-					"functions": [
-						{
-							"function": "set_count",
-							"count": {
-								"min": 3,
-								"max": 10
-							}
+					"functions": [{
+						"function": "set_count",
+						"count": {
+							"min": 3,
+							"max": 10
 						}
-					]
+					}]
 				},
 				{
 					"entryName": "gold_coin",
 					"type": "item",
 					"name": "treasure2:gold_coin",
 					"weight": 20,
-					"functions": [
-						{
-							"function": "set_count",
-							"count": {
-								"min": 2,
-								"max": 5
-							}
+					"functions": [{
+						"function": "set_count",
+						"count": {
+							"min": 2,
+							"max": 5
 						}
-					]
+					}]
 				},
 				{
 					"entryName": "skull_sword",
 					"type": "item",
 					"name": "treasure2:skull_sword",
 					"weight": 10,
-					"conditions": [
-						{
-							"condition": "random_chance",
-							"chance": 0.5
-						}
-					]
+					"conditions": [{
+						"condition": "random_chance",
+						"chance": 0.5
+					}]
+				},
+				{
+					"entryName": "amethyst",
+					"type": "item",
+					"name": "treasure2:amethyst",
+					"weight": 15
+				},
+				{
+					"entryName": "onyx",
+					"type": "item",
+					"name": "treasure2:onyx",
+					"weight": 15
 				},
 				{
 					"entryName": "sapphire",
@@ -160,36 +155,30 @@
 					"type": "item",
 					"name": "treasure2:eye_patch",
 					"weight": 10,
-					"conditions": [
-						{
-							"condition": "random_chance",
-							"chance": 0.50
-						}
-					]
+					"conditions": [{
+						"condition": "random_chance",
+						"chance": 0.50
+					}]
 				},
 				{
 					"entryName": "painting_blocks_bricks",
 					"type": "item",
 					"name": "treasure2:painting_blocks_bricks",
 					"weight": 10,
-					"conditions": [
-						{
-							"condition": "random_chance",
-							"chance": 0.25
-						}
-					]
+					"conditions": [{
+						"condition": "random_chance",
+						"chance": 0.25
+					}]
 				},
 				{
 					"entryName": "painting_blocks_lava",
 					"type": "item",
 					"name": "treasure2:painting_blocks_lava",
 					"weight": 10,
-					"conditions": [
-						{
-							"condition": "random_chance",
-							"chance": 0.25
-						}
-					]
+					"conditions": [{
+						"condition": "random_chance",
+						"chance": 0.25
+					}]
 				}
 			]
 		}

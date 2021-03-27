@@ -1,0 +1,22 @@
+{
+  "cause": {
+    "item": {
+      "item": "additions:tcsponsors-mr_pointy",
+      "damage": "any"
+    },
+    "target_self": true,
+    "type": "additions:item_attack"
+  },
+  "effects": [
+    {
+      "potion": {
+        "name": "minecraft:slowness",
+        "duration": 120,
+        "amplifier": 1,
+        "ambient": false,
+        "show_particles": true
+      },
+      "type": "additions:potion"
+    }
+  ]
+}

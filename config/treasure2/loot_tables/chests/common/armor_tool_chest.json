@@ -1,4 +1,4 @@
-{	"version" : "1.0.0",
+{	"version" : "2.0",
 	"category": "armor",
 	"rarity": "common",
 	"pools": [
@@ -53,6 +53,17 @@
                     "name": "treasure2:pools/tools/common",
                     "weight": 1
                 }
+			]
+		},
+		{
+			"name": "simple_dungeon",
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "loot_table",
+					"name": "minecraft:chests/simple_dungeon",
+					"weight": 1
+				}
 			]
 		}
 	]
