@@ -56,9 +56,9 @@ recipes.addShaped("auto_gen_-33898533", <avaritia:resource>, [
     [<ore:blockDiamond>, null, <ore:blockDiamond>]
 ]);
 recipes.addShaped("auto_gen_-170215974", <avaritia:resource:1>, [
-    [<actuallyadditions:block_crystal_empowered:2>, <avaritia:resource>, <actuallyadditions:block_crystal_empowered:2>],
+    [null, null, null],
     [<avaritia:resource>, <ore:netherStar>, <avaritia:resource>],
-    [<actuallyadditions:block_crystal_empowered:2>, <avaritia:resource>, <actuallyadditions:block_crystal_empowered:2>]
+    [<avaritia:resource>, <ore:netherStar>, <avaritia:resource>]
 ]);
 recipes.addShaped("auto_gen_1277827604", <draconicevolution:energy_storage_core>, [
     [<ore:ingotWyvernMetal>, <ore:gearWyvernMetal>, <ore:ingotWyvernMetal>],

@@ -16,7 +16,7 @@
 			id: "minecraft:iron_boots"
 		},
 		stat: "stat.walkOneCm",
-		value: 25000000
+		value: 15000000
 	}],
 	rewards: [{
 		uid: "602fd180",

@@ -13,6 +13,7 @@ import crafttweaker.data.IData;
 import mods.zenutils.I18n;
 
 import scripts.util.lang as LangUtil;
+import scripts.util.versions as VersionUtil;
 
 events.onPlayerLoggedIn(function(event as crafttweaker.event.PlayerLoggedInEvent) {
 
@@ -30,7 +31,7 @@ events.onPlayerLoggedIn(function(event as crafttweaker.event.PlayerLoggedInEvent
     server.commandManager.executeCommand(server, "/scoreboard objectives remove title");
 
     if (showScoreboard) {
-        server.commandManager.executeCommand(server, "/scoreboard objectives add title dummy " + LangUtil.format("greedycraft.scoreboard.title", versionName));
+        server.commandManager.executeCommand(server, "/scoreboard objectives add title dummy " + LangUtil.format("greedycraft.scoreboard.title", VersionUtil.getVersionName()));
         server.commandManager.executeCommand(server, "/scoreboard players set " + LangUtil.translate("greedycraft.scoreboard.mode.adventure") + " title 2");
         server.commandManager.executeCommand(server, "/scoreboard players set §b title 3");
         server.commandManager.executeCommand(server, "/scoreboard players set " + LangUtil.translate("greedycraft.scoreboard.author") + " title 4");

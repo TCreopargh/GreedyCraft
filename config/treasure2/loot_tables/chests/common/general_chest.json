@@ -1,5 +1,5 @@
 {
-	"version" : "1.0.0",
+	"version" : "2.0",
 	"category": "general",
 	"rarity": "common",
 	"pools": [
@@ -81,6 +81,17 @@
 				{
 					"type": "loot_table",
 					"name": "treasure2:pools/potions/common",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"name": "simple_dungeon",
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "loot_table",
+					"name": "minecraft:chests/simple_dungeon",
 					"weight": 1
 				}
 			]

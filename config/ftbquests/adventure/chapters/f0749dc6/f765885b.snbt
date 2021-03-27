@@ -13,7 +13,7 @@
 		uid: "098fe41a",
 		type: "stat",
 		stat: "stat.mobKills",
-		value: 10000
+		value: 7500
 	}],
 	rewards: [{
 		uid: "1d33b74e",

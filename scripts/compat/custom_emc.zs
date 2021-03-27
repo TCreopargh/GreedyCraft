@@ -49,8 +49,8 @@ val emcMapping as long[IIngredient] = {
     <bibliocraft:bigbook:0> : 0 as long,
     <scalinghealth:crystalshard:0> : 0 as long,
     <additions:greedycraft-infinity_block_block_block:0> : 9223372036854775807 as long,
-    <avaritia:resource:6> : 4000000000 as long,
-    <avaritia:block_resource:1> : 36000000000 as long,
+    <avaritia:resource:6> : 2147483647 as long,
+    <avaritia:block_resource:1> : 19327352823 as long,
     <botania:specialflower:0> : 2500 as long,
     <additions:greedycraft-poop:0> : 114514 as long,
     <enderio:block_exit_rail:0> : 0 as long,
@@ -262,7 +262,10 @@ val emcMapping as long[IIngredient] = {
     <extrautils2:compressedgravel:*> : 0 as long,
     <extrautils2:compressednetherrack:*> : 0 as long,
     <thaumcraft:primordial_pearl:*> : 0 as long,
-    <minecraft:gunpowder> : 24 as long
+    <minecraft:gunpowder> : 24 as long,
+    <draconicevolution:draconium_ingot> : 8192 as long,
+    <draconicevolution:draconium_block> : 73728 as long,
+    <draconicevolution:nugget> : 910 as long
 };
 
 for ingredient, value in emcMapping {

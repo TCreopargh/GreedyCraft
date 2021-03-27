@@ -283,10 +283,10 @@ RecipeUtil.addShaped("auto_gen_-1579945966", <simplesmelteryaccelerator:smeltery
     [<tconstruct:ingots:2>, <minecraft:diamond_block>, <tconstruct:ingots:2>],
     [<tconstruct:materials>, <tconstruct:ingots:2>, <tconstruct:materials>]
 ]);
-RecipeUtil.addShaped("auto_gen_1084804943", <mekanismgenerators:generator:6> * 8, [
-    [null, <mekanism:enrichedalloy>, null],
-    [<mekanism:enrichedalloy>, <ore:shardCreative>, <mekanism:enrichedalloy>],
-    [<mekanism:energytablet>, <mekanism:controlcircuit>, <mekanism:energytablet>]
+RecipeUtil.addShaped("auto_gen_1084804943", <mekanismgenerators:generator:6> * 1, [
+    [null, <ore:alloyUltimate>, null],
+    [<ore:alloyUltimate>, <ore:ingotAeonsteel>, <ore:alloyUltimate>],
+    [<mekanism:energytablet>, <ore:circuitUltimate>, <mekanism:energytablet>]
 ]);
 RecipeUtil.addShaped("auto_gen_685141373", <mekanismgenerators:generator:5>, [
     [<mekanismgenerators:generator:1>, <mekanismgenerators:generator:1>, <mekanismgenerators:generator:1>],
@@ -299,13 +299,13 @@ RecipeUtil.addShaped("auto_gen_1109831349", <mekanismgenerators:generator:1>, [
     [<mekanism:enrichedalloy>, <mekanism:enrichedalloy>, <mekanism:enrichedalloy>]
 ]);
 RecipeUtil.addShaped("auto_gen_-1399323772", <projecte:item.pe_soul_stone>, [
-    [<minecraft:gold_ingot>, <minecraft:gold_ingot>, <minecraft:gold_ingot>],
+    [<minecraft:gold_ingot>, <draconicevolution:awakened_core>, <minecraft:gold_ingot>],
     [<botania:storage:3>, <ore:shardCreative>, <botania:storage:3>],
-    [<minecraft:gold_ingot>, <minecraft:gold_ingot>, <minecraft:gold_ingot>]
+    [<minecraft:gold_ingot>, <draconicevolution:awakened_core>, <minecraft:gold_ingot>]
 ]);
 RecipeUtil.addShaped("auto_gen_-1815095390", <projecte:item.pe_body_stone>, [
     [<minecraft:gold_ingot>, <minecraft:gold_ingot>, <minecraft:gold_ingot>],
-    [<ore:shardCreative>, <minecraft:redstone_block>, <ore:shardCreative>],
+    [<ore:shardCreative>, <draconicevolution:chaotic_core>, <ore:shardCreative>],
     [<minecraft:gold_ingot>, <minecraft:gold_ingot>, <minecraft:gold_ingot>]
 ]);
 RecipeUtil.addShaped("auto_gen_-1600085367", <additions:greedycraft-experience_ingot>, [
@@ -1146,9 +1146,9 @@ RecipeUtil.addShaped("soul_snare", <bloodmagic:soul_snare> * 8, [
     [<ore:ingotThaumium>, null, null]
 ]);
 RecipeUtil.addShaped("blood_apple", <variegated:blood_apple>, [
-    [<ore:ingotCrimsonite>, <ore:ingotCrimsonite>, <ore:ingotCrimsonite>],
-    [<ore:ingotCrimsonite>, <minecraft:golden_apple>, <ore:ingotCrimsonite>],
-    [<ore:ingotCrimsonite>, <ore:ingotCrimsonite>, <ore:ingotCrimsonite>]
+    [<ore:ingotCrimsonite>, <ore:shardCreative>, <ore:ingotCrimsonite>],
+    [<ore:shardCreative>, <minecraft:golden_apple>, <ore:shardCreative>],
+    [<ore:ingotCrimsonite>, <ore:shardCreative>, <ore:ingotCrimsonite>]
 ]);
 RecipeUtil.addShaped("hydra_spawn_egg", <minecraft:spawn_egg>.withTag({EntityTag: {id: "twilightforest:hydra"}}), [
     [<twilightforest:cooked_meef>, <twilightforest:cooked_meef>, <twilightforest:cooked_meef>],
@@ -1372,6 +1372,11 @@ RecipeUtil.addShaped("twilight_gem_alt", <additions:greedycraft-twilight_gem>, [
     [null, <twilightforest:magic_map_focus>, null],
     [<ore:ingotSteeleaf>, <ore:gemDiamond>, <twilightforest:naga_scale>],
     [null, <ore:ingotKnightmetal>, null]
+]);
+RecipeUtil.addShaped("aa_dough_water_bucket", <actuallyadditions:item_misc:4>, [
+    [<ore:foodFlour>, <ore:foodFlour>, <ore:foodFlour>],
+    [<ore:foodFlour>, <minecraft:water_bucket>.transformReplace(<minecraft:bucket>), <ore:foodFlour>], 
+    [<ore:foodFlour>, <ore:foodFlour>, <ore:foodFlour>]
 ]);
 
 /* Templates

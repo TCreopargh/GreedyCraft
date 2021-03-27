@@ -267,7 +267,6 @@ val removedRecipes as IIngredient[] = [
     <mekanism:basicblock:8>,
     <buildinggadgets:buildingtool>,
     <buildinggadgets:exchangertool>,
-    <buildinggadgets:copypastetool>,
     <actuallyadditions:block_misc:8>,
     <demagnetize:demagnetizer>,
     <demagnetize:demagnetizer_advanced>,
@@ -374,7 +373,8 @@ val removedRecipes as IIngredient[] = [
     <forestry:hunter_bag>,
     <forestry:adventurer_bag_t2>,
     <forestry:builder_bag_t2>,
-    <forestry:hunter_bag_t2>
+    <forestry:hunter_bag_t2>,
+    <actuallyadditions:item_misc:4>
 ];
 
 val removedRecipeNames as string[] = [

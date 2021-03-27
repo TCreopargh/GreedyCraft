@@ -184,3 +184,21 @@ FusionCrafting.add(<additions:electronium_ingot>, <tconevo:material>, 0, 1000000
     <redstonearsenal:material:32>,
     <redstonerepository:material:1>
 ]);
+
+FusionCrafting.add(<additions:greedycraft-creative_shard>, <draconicevolution:chaotic_core>, 3, 2147483648, [
+    <ore:ingotCosmilite>,
+    <ore:ingotCosmilite>,
+    <ore:ingotCosmilite>,
+    <ore:ingotCosmilite>,
+    <additions:greedycraft-bounty_hunter_medal>,
+    <additions:greedycraft-sand_of_time>,
+    <additions:greedycraft-ancient_tome_page>,
+    <additions:greedycraft-ancient_tome_page>
+]);
+
+FusionCrafting.add(<thaumcraft:primordial_pearl>, <thaumcraft:void_seed>, 0, 2048000, [
+    <biomesoplenty:terrestrial_artifact>,
+    <biomesoplenty:terrestrial_artifact>,
+    <thaumcraft:ingot>,
+    <thaumcraft:ingot:1>
+]);

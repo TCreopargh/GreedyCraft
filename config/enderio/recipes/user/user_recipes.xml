@@ -30,7 +30,8 @@
             <entity name="twilightforest:yeti_alpha" disabled="true" soulvial="false"/>
             <entity name="twilightforest:snow_queen" disabled="true" soulvial="false"/>
             <entity name="botania:doppleganger" disabled="true" soulvial="false"/>
-            <entity name="abyssalcraft:chagaroth" disabled="true" soulvial="false"/>
+            <entity name="mowziesmobs:barakoaya" disabled="true" soulvial="false"/>
+		    <entity name="abyssalcraft:chagaroth" disabled="true" soulvial="false"/>
 		    <entity name="abyssalcraft:jzahar" disabled="true" soulvial="false"/>
 		    <entity name="abyssalcraft:dragonboss" disabled="true" soulvial="false"/>
 		    <entity name="abyssalcraft:shadowboss" disabled="true" soulvial="false"/>

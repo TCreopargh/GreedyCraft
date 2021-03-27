@@ -24,6 +24,7 @@ import crafttweaker.command.ICommandSender;
 import crafttweaker.text.ITextComponent;
 import crafttweaker.world.IBiome;
 import crafttweaker.world.IBiomeType;
+import crafttweaker.world.IWorld;
 
 import mods.ctintegration.advancement.AdvancementHelper;
 import mods.ctintegration.advancement.IAdvancement;
@@ -42,9 +43,10 @@ val advancementMap as string[string] = {
     chaotic: "greedycraft:elysia/log8"
 } as string[string];
 
-function isOcean(biome as IBiome) as bool {
-    //return biome.name.contains("Ocean") || biome.name.contains("Coral Reef") || biome.name.contains("Kelp Forest");
-    //return <biomeTypes:OCEAN>.biomes has biome;
+function isOcean(biome as IBiome, world as IWorld) as bool {
+    if(world.dimension != 0) {
+        return false;
+    }
     for oceanBiome in <biomeTypes:OCEAN>.biomes {
         if (biome.name == oceanBiome.name) {
             return true;
@@ -144,7 +146,7 @@ events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
     }
 
     // Prevent breathing in ocean with a door
-    if (!player.creative && isOcean(player.world.getBiome(player.position)) && player.y < 40.0) {
+    if (!player.creative && isOcean(player.world.getBiome(player.position), player.world) && player.y < 40.0) {
         var checkPoints as Position3f[] = [player.position, player.position, player.position, player.position] as Position3f[];
         var isInOcean = true;
         checkPoints[0].x = checkPoints[0].x + 5.0;
@@ -152,7 +154,7 @@ events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
         checkPoints[2].x = checkPoints[2].x - 5.0;
         checkPoints[3].z = checkPoints[3].z - 5.0;
         for checkPoint in checkPoints {
-            if (!isOcean(player.world.getBiome(checkPoint))) {
+            if (!isOcean(player.world.getBiome(checkPoint), player.world)) {
                 isInOcean = false;
                 break;
             }

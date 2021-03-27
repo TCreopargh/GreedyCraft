@@ -28,7 +28,9 @@ val names as string[IItemStack] = {
     <mysticalcreations:titanium_essence> : "钛金精华",
     <mysticalcreations:titanium_seeds> : "钛金种子",
     <mysticalcreations:fusion_matrix_essence> : "聚合矩阵精华",
-    <mysticalcreations:fusion_matrix_seeds> : "聚合矩阵种子"
+    <mysticalcreations:fusion_matrix_seeds> : "聚合矩阵种子",
+    <mysticalcreations:meteor_essence> : "陨星精华",
+    <mysticalcreations:meteor_seeds> : "陨星种子"
 } as string[IItemStack];
 
 if (LangUtil.getLanguage() == "zh_cn") {

@@ -291,7 +291,13 @@ val disabledItems as IIngredient[] = [
     <natura:blaze_rail_detector>,
     <natura:blaze_rail>,
     <natura:blaze_rail_golden>,
-    <natura:blaze_rail_activator>
+    <natura:blaze_rail_activator>,
+    <twilightforest:twilight_sapling:5>,
+    <sakura:samurai_helmet>,
+    <sakura:samurai_chest>,
+    <sakura:samurai_pants>,
+    <sakura:samurai_shoes>,
+    <inventorypets:item_petrifier>
 ] as IIngredient[];
 
 val disabledRecipeRegex as string[] = [

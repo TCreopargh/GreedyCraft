@@ -17,6 +17,8 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.data.IData;
 import crafttweaker.item.IIngredient;  
 
+import scripts.util.versions as VersionUtil;
+
 val dungeon = LootTweaker.getTable("minecraft:chests/simple_dungeon");
 var mainPool = dungeon.getPool("main");
 var dungeonPool1 = dungeon.getPool("pool1");  
@@ -56,13 +58,17 @@ mainPool.removeEntry("abyssalcraft:tin_ingot");
 mainPool.removeEntry("abyssalcraft:copper_ingot");
 dungeon.getPool("bountifulbaubles_dungeon").removeEntry("bountifulbaubles:trinketbrokenheart");
 
-if(!isServerPack) {
+if(!VersionUtil.isServerPack()) {
+    print("The modpack decided that it's currently not loading a server pack because resourceloader is found.");
+    print("Some loot table changes will not apply.");
     LootTweaker.getTable("minecraft:chests/jungle_temple").removePool("jungleTemple");
     LootTweaker.getTable("minecraft:chests/abandoned_mineshaft").removePool("abandonedMineshaft");
     LootTweaker.getTable("minecraft:chests/end_city_treasure").removePool("endCity");
     LootTweaker.getTable("minecraft:chests/desert_pyramid").removePool("desertPyramid");
     LootTweaker.getTable("minecraft:chests/village_blacksmith").removePool("villageBlocksmith");
     LootTweaker.getTable("minecraft:chests/simple_dungeon").removePool("simpleDungeon");
+} else {
+    print("The modpack decided that it's currently loading a server pack because resourceloader is not found.");
 }
 
 LootTweaker.getTable("minecraft:chests/abandoned_mineshaft").removePool("spectrecoil_number");

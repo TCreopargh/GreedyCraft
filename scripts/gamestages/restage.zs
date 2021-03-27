@@ -38,7 +38,8 @@ GameStagesUtil.removeItemStages([
     <extrabotany:material>,
     <extrabotany:bottledstar>,
     <extrabotany:bottledpixie>,
-    <extrabotany:rewardbag:*>
+    <extrabotany:rewardbag:*>,
+    <mekanism:basicblock:3>
 ] as IIngredient[]);
 
 GameStagesUtil.restageItems("wielder_of_infinity", [
@@ -54,7 +55,6 @@ GameStagesUtil.restageItems("wielder_of_infinity", [
     <avaritia:infinity_boots>,
     <ore:ingotInfinity>,
     <ore:blockInfinity>,
-    <mekanism:machineblock2:14>,
     <bloodmagic:sacrificial_dagger:1>,
     <thermalcultivation:watering_can:32000>
 ]);
@@ -63,6 +63,7 @@ GameStagesUtil.restageItem("awakened", <draconicevolution:chaos_shard>);
 GameStagesUtil.restageItem("chaotic_dominator", <draconicevolution:chaotic_core>);
 GameStagesUtil.restageItem("descendant_of_the_sun", <draconicevolution:awakened_core>);
 GameStagesUtil.restageItems("chaotic", [
+    <mekanism:machineblock2:14>,
     <avaritia:resource:5>,
     <draconicevolution:reactor_component>
 ]);
@@ -79,7 +80,10 @@ GameStagesUtil.restageItems("wither_slayer", [
 GameStagesUtil.restageItem("awakened", <cyclicmagic:glowing_chorus>);
 GameStagesUtil.restageItems("getting_started", [
     <cyclicmagic:inventory_food>,
-    <cyclicmagic:crafting_food>
+    <cyclicmagic:crafting_food>,
+    <cyclicmagic:sandstone_pickaxe>,
+    <cyclicmagic:sandstone_axe>,
+    <cyclicmagic:sandstone_spade>
 ]);
 GameStagesUtil.restageItems("fusion_matrix", [ 
     <ore:dustDraconium>,

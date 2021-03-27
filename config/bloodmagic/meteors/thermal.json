@@ -1,0 +1,48 @@
+{
+    "catalystStack": {
+        "registryName": {
+            "domain": "thermalfoundation",
+            "path": "storage"
+        },
+        "meta": 6
+    },
+    "components": [
+        {
+            "weight": 500,
+            "oreName": "oreCopper"
+        },
+        {
+            "weight": 420,
+            "oreName": "oreTin"
+        },
+        {
+            "weight": 70,
+            "oreName": "oreSilver"
+        },
+        {
+            "weight": 80,
+            "oreName": "oreLead"
+        },
+        {
+            "weight": 60,
+            "oreName": "oreAluminum"
+        },
+        {
+            "weight": 60,
+            "oreName": "oreNickel"
+        },
+        {
+            "weight": 10,
+            "oreName": "orePlatinum"
+        },
+        {
+            "weight": 5,
+            "oreName": "oreIridium"
+        }
+    ],
+    "explosionStrength": 20.0,
+    "radius": 7,
+    "maxWeight": 1080,
+    "version": 3,
+    "cost": 2500000
+}

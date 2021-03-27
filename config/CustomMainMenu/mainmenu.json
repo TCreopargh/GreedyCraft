@@ -131,7 +131,7 @@
             "clickSound": "block.lever.click",
             "imageWidth": 383,
             "imageHeight": 383,
-            "wrappedButton": 20,
+			"wrappedButton": 17325,
             "texture": "greedycraft:mainmenu/account.png",
             "tooltip": "§7您目前登录的用户名是§e#username#\n§a点击以切换账户！"
         },
@@ -202,7 +202,24 @@
                 "type": "openFolder",
                 "folderName": "/"
             }
-        }
+        },
+		"bisect": {
+			"text": " ",
+			"posX": -25,
+			"posY": 155,
+			"width": 20,
+			"height": 20,
+			"alignment": "top_right",
+			"clickSound": "block.lever.click",
+			"imageWidth": 383,
+			"imageHeight": 383,
+			"texture": "greedycraft:mainmenu/bisect.png",
+			"tooltip": "§6§l§需要服务器吗？\n§b贪婪整合包§a由§9Bisect Hosting§a赞助！\n§a使用优惠码§dTCreopargh§a即可获取首月§b25%%优惠§a！\n§e§（建议服务器内存不少于§68GB§e。）",
+			"action": {
+				"type": "openLink",
+				"link": "https://bisecthosting.com/TCreopargh"
+			}
+		}
     },
     "labels": {
         "mojang": {
@@ -226,30 +243,6 @@
             "posY": -52,
             "alignment": "bottom_left"
         },
-        "latest_version": {
-            "text": {
-                "type": "web",
-                "url": "http://json.tcreopargh.xyz/greedycraft-version.txt",
-                "color": -1,
-                "refreshInterval": 600
-            },
-            "action": {
-                "type": "openLink",
-                "link": "https://greedycraft.tcreopargh.xyz/"
-            },
-			"hoverText": "§e§n点击以前往新版本下载页面",
-            "posX": 2,
-            "posY": -12,
-            "alignment": "bottom_left"
-        },
-        "current_version": {
-            "alignment": "bottom_left",
-            "text": "file:greedycraft:version.txt",
-			"hoverText": "§2版本格式：(主版本号).(副版本号).(补丁号).(版本总序列号).(版本组号)",
-            "color": -1,
-            "posX": 2,
-            "posY": -22
-        },
         "modinfo": {
             "alignment": "bottom_left",
 			"text": "§9Forge版本: §b#forgeversion#  §e已加载§6#modsloaded#§e个模组",
@@ -264,7 +257,7 @@
 			"hoverText": " §5★ §c§l贪婪整合包 §5★ §r§aby TCreopargh",
             "action": {
                 "type": "openLink",
-                "link": "https://greedycraft.tcreopargh.xyz/"
+                "link": "https://greedycraft.com/"
             },
             "color": -1,
             "posX": 2,
@@ -282,7 +275,7 @@
             "text": "web:http://json.tcreopargh.xyz/greedycraft-announcements.txt",
             "action": {
                 "type": "openLink",
-                "link": "https://greedycraft.tcreopargh.xyz/"
+                "link": "https://greedycraft.com/"
             },
             "posX": 2,
             "posY": 22,

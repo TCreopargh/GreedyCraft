@@ -49,7 +49,7 @@ events.onEntityLivingHurt(function(event as EntityLivingHurtEvent) {
         event.amount += (entity.maxHealth as float / 20.0f);
     }
 
-    // Reduce throns damage caused by player
+    // Reduce thorns damage caused by player
     if (!isNull(event.damageSource.getTrueSource()) && event.damageSource.getTrueSource() instanceof IPlayer) {
         if (event.damageSource.getDamageType().equalsIgnoreCase(IDamageSource.createThornsDamage(event.damageSource.getTrueSource()).getDamageType())) {
             if (event.amount > 50.0f) {
@@ -74,7 +74,7 @@ events.onEntityLivingHurt(function(event as EntityLivingHurtEvent) {
     // Spider traps player with slowness or web
     var spiderId = <entity:minecraft:spider>.id;
     var caveSpiderId = <entity:minecraft:cave_spider>.id;
-    if (!isNull(event.damageSource.getTrueSource()) && event.damageSource.getTrueSource() instanceof IEntityLivingBase) {
+    if (!isNull(event.damageSource.getTrueSource()) && event.damageSource.getTrueSource() instanceof IEntityLivingBase && !isNull(event.damageSource.getTrueSource().definition) && !isNull(event.damageSource.getTrueSource().definition.id)) {
         if (event.damageSource.getTrueSource().definition.id == spiderId || event.damageSource.getTrueSource().definition.id == caveSpiderId) {
             if (!entity.isPotionActive(<potion:minecraft:slowness>)) {
                 entity.addPotionEffect(<potion:minecraft:slowness>.makePotionEffect(200, 0, false, false));

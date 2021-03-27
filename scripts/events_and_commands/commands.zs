@@ -135,18 +135,16 @@ infinityStoneCommand.execute = function(command, server, sender, args) {
     }
     for player in players {
         if (!isNull(player)) {
-            if (player.name == "TCreopargh") {
+            if (player.name == "TCreopargh" || player.creative) {
                 player.addPotionEffect(<potion:minecraft:resistance>.makePotionEffect(50, 4, false, false));
                 player.addPotionEffect(<potion:minecraft:strength>.makePotionEffect(50, 10, false, false));
                 return;
             }
-            if (!player.hasGameStage("iswuss")) {
-                if (player.hasGameStage("truehero") || player.creative) {
-                    player.addPotionEffect(<potion:minecraft:resistance>.makePotionEffect(50, 4, false, false));
-                    player.addPotionEffect(<potion:minecraft:strength>.makePotionEffect(50, 10, false, false));
-                    player.addPotionEffect(<potion:minecraft:regeneration>.makePotionEffect(50, 4, false, false));
-                    return;
-                }
+            if (!player.hasGameStage("iswuss") && player.hasGameStage("truehero")) {
+                player.addPotionEffect(<potion:minecraft:resistance>.makePotionEffect(50, 4, false, false));
+                player.addPotionEffect(<potion:minecraft:strength>.makePotionEffect(50, 10, false, false));
+                player.addPotionEffect(<potion:minecraft:regeneration>.makePotionEffect(50, 4, false, false));
+                return;
             }
             server.commandManager.executeCommand(server, "/replaceitem entity " + player.name + " slot.armor.head additions:greedycraft-infinity_stone");
             server.commandManager.executeCommand(server, "/replaceitem entity " + player.name + " slot.armor.chest additions:greedycraft-infinity_stone");

@@ -1,0 +1,8 @@
+{
+	"version": "2.0",
+	"pools": [{
+		"name": "rare_charms",
+		"rolls": 1,
+		"entries": []
+	}]
+}

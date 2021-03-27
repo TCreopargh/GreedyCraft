@@ -43,7 +43,7 @@ PureDaisy.removeRecipe(<minecraft:packed_ice>);
 PureDaisy.removeRecipe(<minecraft:obsidian>);
 
 GaiaPlate.remove(<botanicadds:gaiasteel_ingot>);
-GaiaPlate.add(<botanicadds:gaiasteel_ingot>, 1000000, [<defiledlands:remorseful_gem>, <botania:manaresource:14>, <botania:manaresource:9>, <minecraft:nether_star>]);
+GaiaPlate.add(<botanicadds:gaiasteel_ingot> * 4, 1000000, [<defiledlands:remorseful_gem>, <botania:manaresource:14>, <botania:manaresource:9>, <minecraft:nether_star>]);
 
 ManaInfusion.removeRecipe(<botania:manacookie>);
 

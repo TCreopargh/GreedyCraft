@@ -129,7 +129,6 @@ global listStages as string[] = [
     "thaumaturge",
     "storage_maniac",
     "descendant_of_the_sun",
-    "super_hardmode",
     "graduated",
     "qualified_ocd",
     "disabled",

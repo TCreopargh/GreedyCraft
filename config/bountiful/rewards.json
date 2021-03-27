@@ -161,7 +161,7 @@
     },
 	{
         "content": "additions:greedycraft-delivery_order",
-        "unitWorth": 4500,
+        "unitWorth": 10000,
         "weight": 250
     },
 	{
@@ -186,7 +186,7 @@
     },
 	{
         "content": "additions:greedycraft-pearl_of_knowledge",
-        "unitWorth": 24000,
+        "unitWorth": 32000,
         "weight": 80
     },
 	{
@@ -226,7 +226,7 @@
     },
     {
         "content": "additions:greedycraft-delivery_order",
-        "unitWorth": 8000,
+        "unitWorth": 12000,
         "weight": 80
     },
     {

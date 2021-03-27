@@ -11,6 +11,8 @@ import crafttweaker.text.ITextComponent;
 
 import mods.zenutils.I18n;
 
+import scripts.util.versions as VersionUtil;
+
 // Server side translation
 static translations as string[string][string] = {
     en_us: {
@@ -24,7 +26,10 @@ static translations as string[string][string] = {
         "greedycraft.scoreboard.author": "§eBy§7-§dTCreopargh",
         "greedycraft.stage.unfamiliar.name": "§5§ka§r §dUnknown Item §5§ka§r",
         "greedycraft.stage.wither_skull.name": "§cThe Cursed Skull",
-        "greedycraft.stage.disabled_item.name": "§4Disabled Item"
+        "greedycraft.stage.disabled_item.name": "§4Disabled Item",
+        "greedycraft.omnipedia.name": "§d§ka§r §bThe Omnipedia §d§ka§r",
+        "greedycraft.omnipedia.tooltip": "§a§oOmnipedia, the free encyclopedia.",
+        "greedycraft.omnipedia.version": "§6Edition #%s"
     }, 
     zh_cn: {
         "greedycraft.scoreboard.creative_mode": "§d§l创造模式",
@@ -37,7 +42,10 @@ static translations as string[string][string] = {
         "greedycraft.scoreboard.author": "§eBy：§dTCreopargh",
         "greedycraft.stage.unfamiliar.name": "§5§ka§r §d未知物品 §5§ka§r",
         "greedycraft.stage.wither_skull.name": "§c无法直视的头颅",
-        "greedycraft.stage.disabled_item.name": "§4已禁用的物品"
+        "greedycraft.stage.disabled_item.name": "§4已禁用的物品",
+        "greedycraft.omnipedia.name": "§d§ka§r §b百科全书 §d§ka§r",
+        "greedycraft.omnipedia.tooltip": "§a§o好好看书了吗？",
+        "greedycraft.omnipedia.version": "§6第%s版"
     }
 };
 
@@ -53,7 +61,7 @@ function getLanguage() as string {
     var ret as string = "en_us";
     if (isNull(lang) || lang == "greedycraft.language" || lang == "") {
         if (DEFAULT_LANGUAGE.trim() == "") {
-            if (versionGroup == 0) {
+            if (VersionUtil.getVersionGroup() == 0) {
                 ret = "zh_cn";
             } else {
                 ret = "en_us";
