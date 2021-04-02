@@ -34,19 +34,26 @@ import mods.contenttweaker.conarm.ArmorTraitDataRepresentation;
 import mods.conarm.utils.IArmorModifications;
 import mods.zenutils.I18n;
 
+// Calculates what the effect of one piece of armor should be
+// Many traits are implemented to bethe effect of 4 pieces of armor stacked together; This turns them into what the effect of a single armor piece should be.
+// Special thanks to BDWSSBB
+function calcSingleArmor(reduction as float) as float {
+    return pow(1.0 - reduction as double, 0.25) as float;
+}
+
 val warmTrait = ArmorTraitBuilder.create("warm");
 warmTrait.color = Color.fromHex("2196f3").getIntColor();
 warmTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.warmTrait.name");
 warmTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.warmTrait.desc");
 warmTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
-    var reduction = 0.0 as float;
+    var reduction = 0.0f;
     if (!isNull(player) && player.world.getBiome(player.position).isSnowyBiome) {
-        reduction += 0.05 as float;
+        reduction += 0.05f;
         if (player.world.raining) {
-            reduction += 0.025 as float;
+            reduction += 0.025f;
         }
     }
-    return newDamage * (1.0 as float - reduction as float) as float;
+    return newDamage * (1.0f - reduction as float) as float;
 };
 warmTrait.register();
 
@@ -56,7 +63,7 @@ fortifiedTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait
 fortifiedTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.fortifiedTrait.desc");
 fortifiedTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
     if (source.isProjectile()) {
-        return (newDamage * 0.85 as float) as float;
+        return (newDamage * 0.85f) as float;
     }
     return newDamage;
 };
@@ -97,11 +104,11 @@ knowledgefulTrait.color = Color.fromHex("76ff03").getIntColor();
 knowledgefulTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.knowledgefulTrait.name");
 knowledgefulTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.knowledgefulTrait.desc");
 knowledgefulTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
-    var reduction = 0.0 as float;
+    var reduction = 0.0f;
     if (!isNull(player)) {
-        reduction = (player.xp / 300) as float * 0.36 as float;
+        reduction = (player.xp as float / 300.0f) as float * 0.36f;
     }
-    return newDamage * (1.0 - 0.25 as float * reduction as float) as float;
+    return newDamage * (1.0 - calcSingleArmor(reduction as float)) as float;
 };
 knowledgefulTrait.register();
 
@@ -132,11 +139,11 @@ spartanTrait.color = Color.fromHex("fdd835").getIntColor();
 spartanTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.spartanTrait.name");
 spartanTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.spartanTrait.desc");
 spartanTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
-    var reduction = 0.0 as float;
-    if ((player.health as float / player.maxHealth as float) as float < 0.33 as float) {
-        reduction = 0.3 as float + (1.0 as float - player.health as float / (player.maxHealth as float * 0.33 as float)) * 0.45 as float;
+    var reduction = 0.0f;
+    if ((player.health as float / player.maxHealth as float) as float < 0.33f) {
+        reduction = 0.3f + (1.0f - player.health as float / (player.maxHealth as float * 0.33f)) * 0.45f;
     }
-    return newDamage * (1.0 as float - 0.25 as float * reduction as float) as float;
+    return newDamage * (1.0f - calcSingleArmor(reduction as float)) as float;
 };
 spartanTrait.register();
 
@@ -145,12 +152,12 @@ crystalTrait.color = Color.fromHex("18ffff").getIntColor();
 crystalTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.crystalTrait.name");
 crystalTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.crystalTrait.desc");
 crystalTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
-    var damagePercent as float = 1.0 as float;
+    var damagePercent as float = 1.0f;
     if (armor.maxDamage != 0) {
-        var dmg as float = 0.0 as float + armor.damage as float;
-        var maxDmg as float = 0.0 as float + armor.maxDamage as float;
-        var durabilityPercent as float = 1.0 as float - (dmg as float / maxDmg as float) as float;
-        damagePercent = (1.05 as float - (durabilityPercent as float * 0.12 as float) as float);
+        var dmg as float = 0.0f + armor.damage as float;
+        var maxDmg as float = 0.0f + armor.maxDamage as float;
+        var durabilityPercent as float = 1.0f - (dmg as float / maxDmg as float) as float;
+        damagePercent = (1.05f - (durabilityPercent as float * 0.12f) as float);
     }
     return (newDamage * damagePercent) as float;
 };
@@ -167,7 +174,7 @@ secondLifeTrait.onHurt = function(trait, armor, player, source, damage, newDamag
             player.addPotionEffect(<potion:minecraft:absorption>.makePotionEffect(200, 3, false, false));
             player.addPotionEffect(<potion:minecraft:regeneration>.makePotionEffect(100, 3, false, false));
             player.addPotionEffect(<potion:minecraft:resistance>.makePotionEffect(45, 4, false, false));
-            return 0.0 as float;
+            return 0.0f;
         }
     }
     return newDamage;
@@ -180,7 +187,7 @@ perfectionistTrait.localizedName = game.localize("greedycraft.tconstruct.armor_t
 perfectionistTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.perfectionistTrait.desc");
 perfectionistTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
     if (!isNull(player) && newDamage > 5.0) {
-        return (Math.round(newDamage / 5.0) as float * 5.0 as float) as float;
+        return (Math.round(newDamage / 5.0) as float * 5.0f) as float;
     }
     return newDamage as float;
 };
@@ -192,10 +199,10 @@ gambleTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.ga
 gambleTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.gambleTrait.desc");
 gambleTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
     if (Math.random() < 0.05) {
-        return newDamage * 2.0 as float;
+        return newDamage * 2.0f;
     }
     if (Math.random() < 0.25) {
-        return (newDamage / 2.0 as float) as float;
+        return (newDamage / 2.0f) as float;
     }
     return newDamage;
 };
@@ -206,8 +213,8 @@ firstGuardTrait.color = Color.fromHex("f44336").getIntColor();
 firstGuardTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.firstGuardTrait.name");
 firstGuardTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.firstGuardTrait.desc");
 firstGuardTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
-    if (!isNull(player) && (player.maxHealth - player.health) as float < 1.0 as float) {
-        return (newDamage * 0.84 as float) as float;
+    if (!isNull(player) && (player.maxHealth - player.health) as float < 1.0f) {
+        return (newDamage * 0.84f) as float;
     }
     return newDamage;
 };
@@ -234,16 +241,16 @@ levelingdefenseTrait.extraInfo = function(thisTrait, item, tag) {
             }
         }
     }
-    var multiplier as float = 0.0 as float;
+    var multiplier as float = 0.0f;
     if (!isNull(armorLevel.memberGet("level"))) {
         var level = armorLevel.memberGet("level").asInt() as int;
         multiplier += 0.025f * level as float;
-        if (multiplier > 0.5 as float) {
-            multiplier = 0.5 as float + (multiplier as float - 1.0 as float) / 4.0 as float;
+        if (multiplier > 0.5f) {
+            multiplier = 0.5f + (multiplier as float - 1.0f) / 4.0f;
         }
     }
-    multiplier *= 0.25 as float;
-    var percentage as int = Math.round((1.0 as float - (1.0 as float / (multiplier + 1.0 as float))) * 100.0 as float) as int;
+    multiplier = calcSingleArmor(multiplier);
+    var percentage as int = Math.round((1.0f - (1.0f / (multiplier + 1.0f))) * 100.0f) as int;
     var desc as string[] = [I18n.format("greedycraft.armor_trait.tooltip.damage_reduction", "" + percentage)];
     return desc;
 };
@@ -259,18 +266,18 @@ levelingdefenseTrait.onHurt = function(trait, armor, player, source, damage, new
             }
         }
     }
-    var multiplier as float = 0.0 as float;
+    var multiplier as float = 0.0f;
     if (!isNull(armorLevel.memberGet("level"))) {
         var level = armorLevel.memberGet("level").asInt() as int;
         while(level > 0) {
             level -= 1;
-            multiplier += 0.05 as float;
+            multiplier += 0.05f;
         }
-        if (multiplier > 1.0 as float) {
-            multiplier = 1.0 as float + (multiplier - 1.0 as float) / 4.0 as float;
+        if (multiplier > 1.0f) {
+            multiplier = 1.0f + (multiplier - 1.0f) / 4.0f;
         }
     }
-    multiplier *= 0.25f;
+    multiplier = calcSingleArmor(multiplier);
     return (newDamage / (multiplier + 1.0)) as float;
 };
 levelingdefenseTrait.register();
@@ -329,7 +336,7 @@ trueDefenseTrait.localizedName = game.localize("greedycraft.tconstruct.armor_tra
 trueDefenseTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.trueDefenseTrait.desc");
 trueDefenseTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
     if (!isNull(player) && source.isDamageAbsolute()) {
-        return (newDamage as float * 0.9 as float) as float;
+        return (newDamage as float * 0.9f) as float;
     }
     return newDamage as float;
 };
@@ -341,7 +348,7 @@ holdGroundTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trai
 holdGroundTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.holdGroundTrait.desc");
 holdGroundTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
     if (!isNull(player) && player.isSneaking) {
-        return (newDamage as float * 0.92 as float) as float;
+        return (newDamage as float * 0.92f) as float;
     }
     return newDamage as float;
 };
@@ -358,7 +365,7 @@ motionTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.mo
 motionTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.motionTrait.desc");
 motionTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
     if (!isNull(player) && player.isSprinting) {
-        return (newDamage as float * 0.93 as float) as float;
+        return (newDamage as float * 0.93f) as float;
     }
     return newDamage as float;
 };
@@ -377,14 +384,14 @@ kungfuTrait.onHurt = function(trait, armor, player, source, damage, newDamage, e
     if (!isNull(player) && !isNull(source.getTrueSource()) && source.getTrueSource() instanceof IEntityLivingBase) {
         var attacker as IEntityLivingBase = source.getTrueSource();
         if (attacker.isChild) {
-            return (newDamage * 1.125 as float) as float;
+            return (newDamage * 1.125f) as float;
         }
     }
     if (!isNull(player) && !source.isDamageAbsolute()) {
         if (Math.random() < 0.04) {
             player.addPotionEffect(<potion:minecraft:speed>.makePotionEffect(100, 3, false, false));
             evt.cancel();
-            return 0.0 as float;
+            return 0.0f;
         }
     }
     return newDamage as float;

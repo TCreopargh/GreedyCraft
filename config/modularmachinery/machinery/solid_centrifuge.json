@@ -8,7 +8,7 @@
             "x": 0,
             "y": 1,
             "z": 0,
-            "description": "Replace the block right on top of the controller into any of the machine upgraders to increase production rate!",
+            "description": "Replace the block right on top of the controller into this block to increase production rate by 25%!",
             "modifier": {
                 "io": "output",
                 "target": "item",
@@ -22,7 +22,7 @@
             "x": 0,
             "y": 1,
             "z": 0,
-            "description": "Replace the block right on top of the controller into any of the machine upgraders to increase production rate!",
+            "description": "Replace the block right on top of the controller into this block to increase production rate by 50%!",
             "modifier": {
                 "io": "output",
                 "target": "item",
@@ -36,7 +36,7 @@
             "x": 0,
             "y": 1,
             "z": 0,
-            "description": "Replace the block right on top of the controller into any of the machine upgraders to increase production rate!",
+            "description": "Replace the block right on top of the controller into this block to increase production rate by 100%!",
             "modifier": {
                 "io": "output",
                 "target": "item",
@@ -50,7 +50,7 @@
             "x": 0,
             "y": 1,
             "z": 0,
-            "description": "Replace the block right on top of the controller into any of the machine upgraders to increase production rate!",
+            "description": "Replace the block right on top of the controller into this block to increase production rate by 150%!",
             "modifier": {
                 "io": "output",
                 "target": "item",

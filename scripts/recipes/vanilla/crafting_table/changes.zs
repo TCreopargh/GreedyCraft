@@ -62,3 +62,49 @@ RecipeUtil.removeAndAdd("birdsfoods_pita", <birdsfoods:pita>, [
     [<ore:foodFlour>, null, <ore:foodFlour>], 
     [<ore:foodFlour>, <ore:foodFlour>, <ore:foodFlour>]
 ]);
+RecipeUtil.removeAndAdd("lens_of_certain_death", <actuallyadditions:item_more_damage_lens>, [
+    [<ore:ingotAeonsteel>, <ore:ingotCrimsonite>, <ore:ingotAeonsteel>],
+    [<ore:ingotCrimsonite>, <actuallyadditions:item_damage_lens>, <ore:ingotCrimsonite>], 
+    [<ore:ingotAeonsteel>, <ore:ingotCrimsonite>, <ore:ingotAeonsteel>]
+]);
+RecipeUtil.removeAndAdd("lens_of_miner", <actuallyadditions:item_mining_lens>, [
+    [<ore:ingotAeonsteel>, <ore:ingotChromium>, <ore:ingotAeonsteel>],
+    [<ore:ingotChromium>, <actuallyadditions:item_misc:18>, <ore:ingotChromium>], 
+    [<ore:ingotAeonsteel>, <ore:ingotChromium>, <ore:ingotAeonsteel>]
+]);
+RecipeUtil.removeAndAdd("master_infusion_crystal", <mysticalagriculture:master_infusion_crystal>, [
+    [<ore:ingotDurasteel>, <ore:blockSupremiumEssence>, <ore:ingotDurasteel>],
+    [<ore:blockSupremiumEssence>, <ore:netherStar>, <ore:blockSupremiumEssence>], 
+    [<ore:ingotDurasteel>, <ore:blockSupremiumEssence>, <ore:ingotDurasteel>]
+]);
+RecipeUtil.removeAndAdd("transmutation_efficiency", <equivalentintegrations:efficiency_catalyst>, [
+    [<charm:charged_emerald>, null, <charm:charged_emerald>],
+    [<charm:charged_emerald>, <projecte:item.pe_matter:1>, <charm:charged_emerald>], 
+    [<charm:charged_emerald>, <charm:charged_emerald>, <charm:charged_emerald>]
+]);
+RecipeUtil.removeAndAdd("transmutation_charm", <equivalentintegrations:soulbound_talisman>, [
+    [<ore:ingotSoulium>, null, <ore:ingotSoulium>],
+    [<ore:ingotSoulium>, <additions:greedycraft-energy_matter_core>, <ore:ingotSoulium>], 
+    [<ore:ingotSoulium>, null, <ore:ingotSoulium>]
+]);
+RecipeUtil.removeAndAdd("transmutation_upgrade", <equivalentintegrations:alchemical_algorithms>, [
+    [<minecraft:book>, null, <minecraft:book>],
+    [<additions:greedycraft-pearl_of_knowledge>, <equivalentintegrations:alchemical_algorithms>, <additions:greedycraft-pearl_of_knowledge>], 
+    [<minecraft:book>, <projecte:item.pe_matter:1>, <minecraft:book>]
+]);
+RecipeUtil.removeAndAdd("transmutation_machine_0", <equivalentintegrations:transmutation_chamber>, [
+    [<ore:ingotAeonsteel>, <ore:ingotAeonsteel>, <ore:ingotAeonsteel>],
+    [<ore:ingotAeonsteel>, <additions:greedycraft-energy_matter_core>, <ore:ingotAeonsteel>], 
+    [<ore:ingotAeonsteel>, <ore:ingotAeonsteel>, <ore:ingotAeonsteel>]
+]);
+RecipeUtil.removeAndAdd("transmutation_machine_1", <equivalentintegrations:transmutation_disassembler>, [
+    [<ore:ingotAeonsteel>, <ore:ingotAeonsteel>, <ore:ingotAeonsteel>],
+    [<ore:ingotDurasteel>, <additions:greedycraft-energy_matter_core>, <ore:ingotDurasteel>], 
+    [<ore:ingotAeonsteel>, <ore:ingotAeonsteel>, <ore:ingotAeonsteel>]
+]);
+RecipeUtil.removeAndAdd("transmutation_machine_2", <equivalentintegrations:transmutation_generator>, [
+    [<ore:ingotAeonsteel>, <ore:ingotElectrumFlux>, <ore:ingotAeonsteel>],
+    [<ore:ingotElectrumFlux>, <additions:greedycraft-energy_matter_core>, <ore:ingotElectrumFlux>], 
+    [<ore:ingotAeonsteel>, <ore:ingotElectrumFlux>, <ore:ingotAeonsteel>]
+]);
+

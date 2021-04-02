@@ -7514,3 +7514,11 @@ mysticalcreations:meteor_crop - 7511
 energeticsheep:energetic_wool - 7512
 treasure2:amethyst_ore - 7513
 treasure2:onyx_ore - 7514
+jaopca:block_crystalclusterasgardium - 7515
+jaopca:block_crystalclusteraqualite - 7516
+jaopca:block_crystalclustermanganese - 7517
+jaopca:block_crystalclustershadowium - 7518
+jaopca:block_crystalclusteraeroite - 7519
+jaopca:block_crystalclusterchromium - 7520
+sakura:barrel_out - 7521
+sakura:teishoku_fish_salt - 7522

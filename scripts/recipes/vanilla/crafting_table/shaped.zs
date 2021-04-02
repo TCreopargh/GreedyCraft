@@ -1378,6 +1378,20 @@ RecipeUtil.addShaped("aa_dough_water_bucket", <actuallyadditions:item_misc:4>, [
     [<ore:foodFlour>, <minecraft:water_bucket>.transformReplace(<minecraft:bucket>), <ore:foodFlour>], 
     [<ore:foodFlour>, <ore:foodFlour>, <ore:foodFlour>]
 ]);
+RecipeUtil.addShaped("crystal_cluster_brick", <bloodmagic:decorative_brick:3> * 4, [
+    [<bloodmagic:decorative_brick:2>, <bloodmagic:decorative_brick:2>],
+    [<bloodmagic:decorative_brick:2>, <bloodmagic:decorative_brick:2>]
+]);
+RecipeUtil.addShaped("auto_gen_1921390605", <extrautils2:teleporter:1>, [
+    [<ore:ingotNihilite>, <ore:ingotEthaxium>, <ore:ingotNihilite>],
+    [<ore:ingotEthaxium>, <ore:netherStar>, <ore:ingotEthaxium>],
+    [<ore:ingotNihilite>, <ore:ingotEthaxium>, <ore:ingotNihilite>]
+]);
+RecipeUtil.addShaped("transmutation_disk", <equivalentintegrations:conjuration_assembler>.withTag({}), [
+    [<ore:ingotAeonsteel>, <ore:pearlFluix>, <ore:ingotAeonsteel>],
+    [<ore:ingotAeonsteel>, <additions:greedycraft-energy_matter_core>, <ore:ingotAeonsteel>], 
+    [<ore:ingotAeonsteel>, <ore:pearlFluix>, <ore:ingotAeonsteel>]
+]);
 
 /* Templates
 

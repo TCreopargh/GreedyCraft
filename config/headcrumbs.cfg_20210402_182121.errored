@@ -4,13 +4,13 @@ general {
     B:"Add player heads as dungeon loot"=true
 
     # Random.nextInt(X / (fortune+1)) == 0
-    I:"Chance of random head drop"=200
+    I:"Chance of random head drop"=100
 
     # Enables tooltips with informations about certain names (mod authors mostly)
     B:"Enable head item tooltips"=true
 
     # Setting this to false will cause only player heads to show in the creative tab and drop updon death
-    B:"Enable mobs and animals heads"=false
+    B:"Enable mobs and animals heads"=true
 
     # Setting this to true allow statues to be built (Turning this off won't destroy existing statues)
     B:"Enable player statues"=true
@@ -21,7 +21,7 @@ general {
     # The bigger this number the easier it will be to find heads in dungeons.
     # Some heads will be rarer than others.
     # Examples: Diamond is 1, Redstone is 10
-    I:"Player heads loot weight"=1
+    I:"Player heads loot weight"=3
 
     # Vanilla Heads (creeper, skeleton, zombie) will drop randomly when entities die
     B:"Vanilla heads drop randomly"=false
@@ -131,6 +131,37 @@ heads {
         Watchful11
         SnowShock35
         Darkosto
+        alxbub
+        9z5
+        7nan
+        Frisk
+        0FAY
+        19st
+        gehy
+        85_q
+        Bluuh_
+        Chowdir
+        Gayye
+        ByMei
+        cars66
+        Cynlo
+        13r0
+        9zk7
+        0fb
+        0ag
+        8bd
+        iCode02
+        ByPuuh
+        blxck_rxse
+        sophiebro
+        cherry_sella
+        Allehh
+        666vhs
+        aSwordB
+        Wukiy
+        toxci
+        000000000000000L
+        everly
      >
     S:hermitcraft <
         Biffa2001
@@ -164,24 +195,6 @@ heads {
         AvidyaZEN
         BlameTC
         Coestar
-        Docm77
-        Guude
-        JSano19
-        kurtmac
-        SuperMCGamer
-        Mhykol
-        Millbee
-        Nebris
-        OMGchad
-        Pakratt0013
-        PauseUnpause
-        Pyro_0
-        SethBling
-        Sevadus
-        Vechs_
-        VintageBeef
-        W92Baj
-        Zisteau
      >
     S:modders <
         sinkillerj
@@ -278,14 +291,204 @@ heads {
         sadris
         Herobrine
         kehaan
+        TCreopargh
+        Badxiaosu
+        Heawn
+        RektSuddenDeath
+        Steve
+        Alex
+        7mD
+        Trump
+        DonaldTrump
+        Creeper
+        ___
+        _J_
+        _K_
+        Hypixel
+        Minikloon
+        ItsHarry
+        ItsJerry
+        MaxKim
+        UncleRed
+        Xtwiti
+        A3tEmis
+        1418
+        48r
+        QwQPanda
+        Aihara__Mei
+        0w0Boo
+        PapiEve
+        Enerx
+        2331
+        1v16
+        Aaela
+        Choa__
+        Ceiqu
+        curena_
+        Daenerysz
+        87O
+        0x47
+        5_ge
+        Bilibili
+        Fei_Yu
+        Miku
+        OwO
+        Wu_xu
+        ChouXiang
+        BlockDeaths
+        mega_bed
+        DojoMax
+        Devot1on
      >
-    S:technic <
-        GenPage
-        Slink730
-        sct
-        KakerMix
-        Skuli_Steinulf
-        Talonos
+    S:technic <        
+        Cliviar
+        Lu_mouren
+        10alfa10alfa10
+        Calendula_YU
+        Yi_Ka
+        XinLan
+        mosuiliunian
+        xing_chen_jun
+        1mgo0D
+        Neko_Vane
+        chihan_zhang
+        lbq25000
+        dapenga
+        CoronaNIMO
+        Pepsiflower24k
+        CoO_s_W
+        Vathy
+        Natsuinokoi
+        GALL__Time
+        GBLTT
+        Winfield_X
+        OldYu
+        Angelayxy
+        fken_
+        jostar233
+        Only_season
+        MC_xj123
+        hjshdhuxu
+        kooljess702
+        ClonkMega
+        pengfang
+        jelly_ance
+        xiegaoxiong
+        san303
+        King__XingMeng
+        Hefang
+        hotrodricky
+        Mr_hostage
+        Woody12138
+        ash_dyf
+        lian_heis
+        Blitz_Momo
+        AWTZA
+        OFFLOOP
+        HeroLNM
+        NNNNNelson
+        yu_ze_fish
+        Rescue_Expert
+        DARK429
+        poisonousHg
+        xsshy
+        tomato2233
+        jelly_ance
+        KenoFasrisInvern
+        AreuDarling
+        travg
+        KUpakupa
+        Q_Qyang
+        dkjc
+        sky_guzhou
+        Eternalnothing
+        chi_hong
+        tian_zja
+        jkjyfe
+        silentccn
+        xinbaisama
+        Salted_Fish_Jun
+        Jinpachee
+        zhangxianyu
+        Lunetda
+        Kurumi_L
+        Mxsly
+        Lazy_fct
+        CB_ssaxxcvv2
+        WQ19940620
+        BaCloud
+        LuLuXYX
+        MartianDovah
+        ZhouXiaoxi
+        Triste_Reimu
+        imorefun
+        Deng_Bowen
+        Lazy_fct
+        wzpMC
+        Scud_123
+        angce
+        Luo_Shu_Li
+        Matsuko_A
+        LiCloudDragon
+        king5777z
+        motantan
+        loveCamile
+        LoserXM
+        Zhongyan_
+        Mariarisaikou
+        MouBackLong
+        HunterLy0213
+        Pab
+        ok135798
+        xuanmoliluo
+        Sophie_Scarlet
+        NanGongYeQi
+        skyer_K
+        xDimor
+        CzechCard
+        Nikopara_
+        The_ChuXin
+        mxx_dreamband
+        Dinosaur_egg
+        DamonUK
+        Xing_XiaoWang
+        JSHT_XY
+        ruoleng
+        HYH_
+        qian_shi1
+        kilopz_
+        zero_MK2_E86
+        Frank__Zero
+        Longxiaoxin
+        Yaku_ink
+        Tensito0
+        Scud_123
+        China12580
+        RocksonLee
+        hua_bo
+        Lv_cheng
+        Skyer_K
+        shijiehim
+        musicrafted
+        QingYU2001
+        onrk
+        Stinkington
+        BDWSSBB
+        onrk
+        MuSan777
+        Ezaki_Hitomi
+        Tensito
+        bilibili_HYF
+        PuerJoy
+        MK_Nuo_Mi_Yu
+        QAQ_Strawberry
+        AsielWang
+        QICQ
+        The_Soy_Man
+        tangce
+        Bilibili_nan_xun
+        YCJIAN
+        TCreopargh
      >
     S:youtubers <
         wyld
@@ -338,16 +541,31 @@ heads {
         BdoubleO100
         tedyhere
         riskable
+        Pigicial
+        Technoblade
+        100KPureHandsome
+        Mynetrix
+        OwOPanda
+        Zi_Min
+        Zi__Min
+        Yan_Huang
+        Da_Cheng_Zi
+        PinkSheep
+        ExplodingTNT
+        The_Little_Black
+        BlueLittle
+        Pa_Xi
+        EagleEyes
+        Melor_
+        BadCen
      >
 }
 
 
 mob {
     # Chance that a human mob will spawn as a baby. Set to -1 to disable.
-    D:"Baby human chance"=0.1
+    D:"Baby human chance"=0.2
     I:"Dimension Blacklist" <
-        1
-        -1
      >
 
     # Setting this to false will disable special drops/weapons for certain celebrities. Existing mobs will still hold the weapons they spawned with.
@@ -355,19 +573,17 @@ mob {
     B:"Enable celebrity mobs"=true
 
     # Setting this to false will force humans to not attack players with the same name as themselves
-    B:"Humans attack twins"=true
+    B:"Humans attack twins"=false
 
     # The maximum size of the group of mobs that will spawn at once
-    I:"Maximum group size"=4
+    I:"Maximum group size"=5
 
     # The minimum size of the group of mobs that will spawn at once
-    I:"Minimum group size"=4
+    I:"Minimum group size"=2
 
     # The change the mob will spawn. Base values: zombies, skeletons, spider, creepers = 100, endermen = 10, witches = 5
-    I:"Spawn probability"=80
+    I:"Spawn probability"=32
 
     # This prefix will be shown in front of celebrities names in-world. Meant to be used to differentiate celebrities from real players.
-    S:prefix=
+    S:prefix=§7[§cUnidentified Entity§7] §d⚛§e
 }
-
-

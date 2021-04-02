@@ -5,7 +5,7 @@
     "pages": [
         {
             "type": "text",
-            "text": "$(c)To make progress in hardmode, defeating some bosses are necessary.$(2) Here's the bosses you will encounter in hardmode.$(br2)$(4)Note: all bosses restore to full health when a player dies and some bosses just disappear instead.$(br)$(c)Note 2: Due to the season system, not all snowing places are actually \"Coid\".$()"
+            "text": "$(c)To make progress in hardmode, defeating some bosses are necessary.$(2) Here's the bosses you will encounter in hardmode.$(br2)$(4)Note: all bosses restore to full health when a player dies and some bosses just disappear instead.$(br)$(c)Note 2: Due to the season system, not all snowing places are actually \"Cold\".$()"
         },
         {
             "type": "entity",

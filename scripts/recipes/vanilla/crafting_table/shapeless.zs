@@ -155,9 +155,6 @@ RecipeUtil.addShapeless("auto_gen_21729634", <minecraft:tallgrass:1>,
 RecipeUtil.addShapeless("auto_gen_1318457067", <minecraft:tallgrass:1>,
     [<biomesoplenty:plant_0>]
 );
-RecipeUtil.addShapeless("auto_gen_1921390605", <extrautils2:teleporter:1>,
-    [<ore:blockCoal>, <ore:blockDiamond>, <ore:blockIron>, <ore:blockGold>]
-);
 RecipeUtil.addShapeless("auto_gen_1910785345", <additions:greedycraft-death_counter>,
     [<tconstruct:pattern>, <minecraft:bone>]
 );
@@ -279,7 +276,7 @@ RecipeUtil.addShapeless("auto_gen_1276343630", <extracells:storage.component:3>,
     [<extracells:storage.component:2>, <extracells:storage.component:2>, <extracells:storage.component:2>, <extracells:storage.component:2>]
 );
 RecipeUtil.addShapeless("auto_gen_462958864", <projectex:energy_link>,
-    [<additions:greedycraft-energy_matter_core>, <rftools:machine_frame>, <ore:ingotProtonium>]
+    [<additions:greedycraft-matter_block>, <rftools:machine_frame>, <ore:ingotProtonium>, <ore:ingotElectronium>]
 );
 RecipeUtil.addShapeless("pack_guide_book", <patchouli:guide_book>.withTag({"patchouli:book":"patchouli:greedycraft_guide_book"}),
     [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]
@@ -477,6 +474,9 @@ RecipeUtil.addShapeless("advanced_coil", <actuallyadditions:item_misc:8>,
     [<actuallyadditions:item_misc:7>, <ore:ingotDurasteel>]
 );
 RecipeUtil.addShapeless("clear_rock_crystal_nbt", <astralsorcery:itemrockcrystalsimple>,
+    [<astralsorcery:itemtunedrockcrystal>]
+);
+RecipeUtil.addShapeless("clear_rock_crystal_nbt_1", <astralsorcery:itemrockcrystalsimple>,
     [<astralsorcery:itemrockcrystalsimple>]
 );
 RecipeUtil.addShapeless("solarium_star", <additions:greedycraft-solarium_star>,
@@ -524,6 +524,22 @@ RecipeUtil.addShapeless("gold_medal_rev", <additions:greedycraft-bounty_hunter_m
 RecipeUtil.addShapeless("silver_medal_rev", <additions:greedycraft-bounty_hunter_medal_bronze> * 9,
     [<additions:greedycraft-bounty_hunter_medal_silver>]
 );
+RecipeUtil.addShapeless("essence_super_0", <mysticalagriculture:storage:1>,
+    [<mysticalagriculture:master_infusion_crystal>, <mysticalagriculture:storage>, <mysticalagriculture:storage>, <mysticalagriculture:storage>, <mysticalagriculture:storage>, <mysticalagriculture:storage>]
+);
+RecipeUtil.addShapeless("essence_super_1", <mysticalagriculture:storage:2>,
+    [<mysticalagriculture:master_infusion_crystal>, <mysticalagriculture:storage:1>, <mysticalagriculture:storage:1>, <mysticalagriculture:storage:1>, <mysticalagriculture:storage:1>, <mysticalagriculture:storage:1>]
+);
+RecipeUtil.addShapeless("essence_super_2", <mysticalagriculture:storage:3>,
+    [<mysticalagriculture:master_infusion_crystal>, <mysticalagriculture:storage:2>, <mysticalagriculture:storage:2>, <mysticalagriculture:storage:2>, <mysticalagriculture:storage:2>, <mysticalagriculture:storage:2>]
+);
+RecipeUtil.addShapeless("essence_super_3", <mysticalagriculture:storage:4>,
+    [<mysticalagriculture:master_infusion_crystal>, <mysticalagriculture:storage:3>, <mysticalagriculture:storage:3>, <mysticalagriculture:storage:3>, <mysticalagriculture:storage:3>, <mysticalagriculture:storage:3>]
+);
+RecipeUtil.addShapeless("essence_super_4", <mysticalagradditions:storage>,
+    [<mysticalagriculture:master_infusion_crystal>, <mysticalagriculture:storage:4>, <mysticalagriculture:storage:4>, <mysticalagriculture:storage:4>, <mysticalagriculture:storage:4>, <mysticalagriculture:storage:4>]
+);
+
 
 /* Template
 

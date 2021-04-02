@@ -210,7 +210,7 @@ global omnipedia as IItemStack = <akashictome:tome>.withTag({
 			Count: 1 as byte,
 			tag: {
 				"akashictome:definedMod": "abyssalcraft",
-				PotEnergy: 0.0 as float
+				PotEnergy: 0.0f
 			},
 			Damage: 0 as short
 		},

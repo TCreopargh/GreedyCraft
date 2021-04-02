@@ -8,7 +8,7 @@
             "x": 0,
             "y": -1,
             "z": 0,
-            "description": "Replace the block right under the controller into any of the machine upgraders to boost machine speed!",
+            "description": "Replace the block right under the controller into this block to reduce crafting time to 75%!",
             "modifier": {
                 "io": "output",
                 "target": "duration",
@@ -21,7 +21,7 @@
             "x": 0,
             "y": -1,
             "z": 0,
-            "description": "Replace the block right under the controller into any of the machine upgraders to boost machine speed!",
+            "description": "Replace the block right under the controller into this block to reduce crafting time to 66%!",
             "modifier": {
                 "io": "output",
                 "target": "duration",
@@ -34,7 +34,7 @@
             "x": 0,
             "y": -1,
             "z": 0,
-            "description": "Replace the block right under the controller into any of the machine upgraders to boost machine speed!",
+            "description": "Replace the block right under the controller into this block to reduce crafting time to 50%!",
             "modifier": {
                 "io": "output",
                 "target": "duration",
@@ -47,7 +47,7 @@
             "x": 0,
             "y": -1,
             "z": 0,
-            "description": "Replace the block right under the controller into any of the machine upgraders to boost machine speed!",
+            "description": "Replace the block right under the controller into this block to reduce crafting time to 33%!",
             "modifier": {
                 "io": "output",
                 "target": "duration",

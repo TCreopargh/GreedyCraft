@@ -34,7 +34,7 @@ for row in converterRecipes {
     var inputStack = row[0] as ILiquidStack;
     var amount = inputStack.amount;
     var alloyEnergy = energy as int;
-    var alloySpeed = Math.ceil((amount as float / 100.0 as float) * speed as float) as int;
+    var alloySpeed = Math.ceil((amount as float / 100.0f) * speed as float) as int;
     var builder = RecipeBuilder.newBuilder(regName + "_alloy_" + inputStack.definition.name, regName, alloySpeed, 0);
     builder.addFluidInput(inputStack);
     builder.addEnergyPerTickInput(alloyEnergy);

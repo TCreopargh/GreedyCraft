@@ -8,7 +8,7 @@
             "x": 0,
             "y": 1,
             "z": 0,
-            "description": "Replace the block right on top of the controller into any of the machine upgraders to increase organic fluid output!",
+            "description": "Replace the block right on top of the controller into this block to increase organic fluid output by 25%!",
             "modifier": {
                 "io": "output",
                 "target": "fluid",
@@ -21,7 +21,7 @@
             "x": 0,
             "y": 1,
             "z": 0,
-            "description": "Replace the block right on top of the controller into any of the machine upgraders to increase organic fluid output!",
+            "description": "Replace the block right on top of the controller into this block to increase organic fluid output by 50%!",
             "modifier": {
                 "io": "output",
                 "target": "fluid",
@@ -34,7 +34,7 @@
             "x": 0,
             "y": 1,
             "z": 0,
-            "description": "Replace the block right on top of the controller into any of the machine upgraders to increase organic fluid output!",
+            "description": "Replace the block right on top of the controller into this block to increase organic fluid output by 100%!",
             "modifier": {
                 "io": "output",
                 "target": "fluid",
@@ -47,7 +47,7 @@
             "x": 0,
             "y": 1,
             "z": 0,
-            "description": "Replace the block right on top of the controller into any of the machine upgraders to increase organic fluid output!",
+            "description": "Replace the block right on top of the controller into this block to increase organic fluid output by 150%!",
             "modifier": {
                 "io": "output",
                 "target": "fluid",

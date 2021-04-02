@@ -208,13 +208,13 @@ for row in crops {
     .setChance(seedChance[tier] as float)
     .addItemOutput(essence)
     .addItemOutput(essence)
-    .setChance(0.25 as float)
+    .setChance(0.25f)
     .addItemOutput(essence)
-    .setChance(0.125 as float)
+    .setChance(0.125f)
     .addItemOutput(essence)
-    .setChance(0.0625 as float)
+    .setChance(0.0625f)
     .addItemOutput(<mysticalagriculture:fertilized_essence>)
-    .setChance(0.01 as float)
+    .setChance(0.01f)
     .build();
     
     recipeId += 1;

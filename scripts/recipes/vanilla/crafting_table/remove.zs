@@ -374,7 +374,9 @@ val removedRecipes as IIngredient[] = [
     <forestry:adventurer_bag_t2>,
     <forestry:builder_bag_t2>,
     <forestry:hunter_bag_t2>,
-    <actuallyadditions:item_misc:4>
+    <actuallyadditions:item_misc:4>,
+    <equivalentintegrations:conjuration_assembler>.withTag({}),
+    <equivalentintegrations:conjuration_assembler>
 ];
 
 val removedRecipeNames as string[] = [
@@ -398,7 +400,12 @@ val removedRecipeNames as string[] = [
     "botania:flighttiara_8",
     "extrabotany:recipe_coregod",
     "natura:common/string",
-    "harvestcraft:string_cropflax"
+    "harvestcraft:string_cropflax",
+    "mysticalagriculture:core/compression/supremium_essence_block_to",
+    "mysticalagriculture:core/compression/superium_essence_block_to",
+    "mysticalagriculture:core/compression/prudentium_essence_block_to",
+    "mysticalagriculture:core/compression/intermedium_essence_block_to",
+    "mysticalagradditions:core/insanium_essence_block_to_infusion"
 ];
 
 for ingredient in removedRecipes {

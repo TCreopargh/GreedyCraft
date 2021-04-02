@@ -66,8 +66,8 @@ events.onEntityLivingDeath(function (event as EntityLivingDeathEvent) {
         }
 
         // Spawn human
-        if (!(Math.random() > DEATH_HUMAN_SPAWN_CHANCE) && !player.creative) {
-            var offset = Math.random() - 0.5 as float;
+        if (Math.random() < DEATH_HUMAN_SPAWN_CHANCE && !player.creative) {
+            var offset = Math.random() - 0.5f;
             /*
             var ent as IEntityLivingBase = <entity:headcrumbs:human>.createEntity(player.world);
             ent.update({Username: player.name as string});
