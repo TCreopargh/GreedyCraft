@@ -377,7 +377,7 @@ for item in loadedMods["jaopca"].items {
         val oreName = "jaopca:item_crystalabyss" + entryName;
         val crystalItem = itemUtils.getItem(oreName);
         if(!isNull(crystalItem)) {
-            recipes.addShapeless("jaopca_fix_" + entryName, item, [crystalItem]);
+            recipes.addShapeless("jaopca_fix_" + entryName, item, [crystalItem, crystalItem, crystalItem, crystalItem, crystalItem, crystalItem, crystalItem, crystalItem, crystalItem]);
         }
         print("Removing broken JAOPCA recipe: " + item.definition.id + " Replacing with " + oreName);
     }
