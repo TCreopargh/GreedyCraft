@@ -1,0 +1,17 @@
+{
+  "name": "§6珈百璃的天使光环",
+  "tooltip": [
+    "§d哈 谁管这些啊 人类就应该自生自灭才对吧",
+    "§b§o赞助者物品 by Totoro"
+  ],
+  "max_stack": 1,
+  "durability": 60,
+  "harvest_level": 0,
+  "harvest_radius_width": 0,
+  "harvest_depth": 0,
+  "efficiency": 0.0,
+  "enchantability": 0,
+  "repair_stacks": {},
+  "tool_classes": [],
+  "type": "additions:multitool"
+}

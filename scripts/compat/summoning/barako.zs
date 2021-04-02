@@ -27,7 +27,7 @@ SummoningDirector.addSummonInfo(
             .setCount(1)
             .setOffset(0,4,0)
             .setSpread(1,1,1)
-            .setData({HandItems: [{id: "additions:greedycraft-solar_seed", Count: 1 as byte, Damage: 0 as short}, {}], HandDropChances: [1.0 as float, 0.0 as float], "Health": BARAKO_HP, "Attributes":[{"Name":"generic.maxHealth","Base": BARAKO_HP}]})
+            .setData({HandItems: [{id: "additions:greedycraft-solar_seed", Count: 1 as byte, Damage: 0 as short}, {}], HandDropChances: [1.0f, 0.0f], "Health": BARAKO_HP, "Attributes":[{"Name":"generic.maxHealth","Base": BARAKO_HP}]})
         )
         .addMob(MobInfo.create()
             .setMob("mowziesmobs:barakoaya")

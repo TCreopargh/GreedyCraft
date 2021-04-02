@@ -38,8 +38,8 @@ poopTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.poopT
 poopTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.poopTrait.desc");
 poopTrait.onHit = function(trait, tool, attacker, target, damage, isCritical) {
     if (attacker instanceof IPlayer && target instanceof IEntityMob) {
-        if (!(Math.random() as double > 0.005)) {
-            var player as IPlayer = attacker;
+        if (Math.random() < 0.005) {
+            val player as IPlayer = attacker;
             player.give(itemUtils.getItem("additions:greedycraft-poop"));
         }
     }
@@ -52,7 +52,7 @@ pinkyTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.pink
 pinkyTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.pinkyTrait.desc");
 pinkyTrait.onBlockHarvestDrops = function(trait, tool, event) {
     if (!event.silkTouch && event.block.definition.id == "minecraft:diamond_ore") {
-        if (Math.random() as double < 0.2) {
+        if (Math.random() < 0.2) {
             event.addItem(<item:sakura:sakura_diamond>);
         }
     }
@@ -65,7 +65,7 @@ cotlifestealTrait.localizedName = game.localize("greedycraft.tconstruct.tool_tra
 cotlifestealTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.cotlifestealTrait.desc");
 cotlifestealTrait.afterHit = function(trait, tool, attacker, target, damageDealt, wasCritical, wasHit) {
     if (attacker instanceof IPlayer && wasHit && target instanceof IEntityMob && !target.isUndead) {
-        if (!(Math.random() as double > 0.33)) {
+        if (Math.random() < 0.33) {
             var heal as float = damageDealt * 0.05f;
             if (heal > 5.0f) {
                 heal = 5.0f;
@@ -81,7 +81,7 @@ superknockpackTrait.color = Color.fromHex("7e57c2").getIntColor();
 superknockpackTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.superknockpackTrait.name");
 superknockpackTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.superknockpackTrait.desc");
 superknockpackTrait.calcCrit = function(trait, tool, attacker, target) {
-    if (!(Math.random() > 0.25)) {
+    if (Math.random() < 0.25) {
         return true;
     }
     return false;
@@ -99,13 +99,14 @@ gambleTrait.color = Color.fromHex("ffa000").getIntColor();
 gambleTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.gambleTrait.name");
 gambleTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.gambleTrait.desc");
 gambleTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
-    if (!(Math.random() as double > 0.15)) {
-        return newDamage * 2 as float; 
+    var dmg = newDamage;
+    var rand as double = Math.random();
+    if (rand < 0.15) {
+        dmg = newDamage * 2 as float; 
+    } else if (rand < 0.45) {
+        dmg = newDamage * 2 as float; 
     }
-    if (!(Math.random() as double > 0.3)) {
-        return newDamage * 0.5 as float; 
-    }
-    return newDamage;
+    return dmg;
 };
 gambleTrait.register();
 
@@ -158,7 +159,7 @@ levelingdamageTrait.extraInfo = function(thisTrait, item, tag) {
     if (!isNull(data)) {
         level = data.level;
     }
-    multiplier = (multiplier - 1.0 as float) * (level / 3) + 1.0 as float;
+    multiplier = (multiplier - 1.0f) * (level / 3) + 1.0f;
     var percentage as int = Math.round((multiplier - 1.0) * 100) as int;
     return [I18n.format("greedycraft.tool_trait.tooltip.damage_increase", "" + percentage)] as string[];
 };
@@ -190,7 +191,7 @@ levelingdamageTrait.calcDamage = function(trait, tool, attacker, target, origina
     if (!isNull(data)) {
         level = data.level;
     }
-    multiplier = (multiplier - 1.0 as float) * (level / 3) + 1.0 as float;
+    multiplier = (multiplier - 1.0f) * (level as float / 3.0f) + 1.0f;
     return newDamage * multiplier as float;
 };
 levelingdamageTrait.register();
@@ -201,7 +202,7 @@ thunderingTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait
 thunderingTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.thunderingTrait.desc");
 thunderingTrait.afterHit = function(trait, tool, attacker, target, damageDealt, wasCritical, wasHit) {
     if (attacker instanceof IPlayer && wasHit && target instanceof IEntityMob) {
-        if (!(Math.random() as double > 0.04)) {
+        if (Math.random() < 0.04) {
             target.world.addWeatherEffect(target.world.createLightningBolt(target.x, target.y, target.z, false));
         }
     }
@@ -245,8 +246,8 @@ reliableTrait.color = Color.fromHex("78909c").getIntColor();
 reliableTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.reliableTrait.name");
 reliableTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.reliableTrait.desc");
 reliableTrait.onToolDamage = function(trait, tool, unmodifiedAmount, newAmount, holder) {
-    if (holder.health > (holder.maxHealth * 0.9 as float)) {
-        if (!(Math.random() > 0.25)) {
+    if (holder.health > (holder.maxHealth * 0.9f)) {
+        if (Math.random() < 0.25) {
             return newAmount;
         } else {
             return 0;
@@ -263,7 +264,7 @@ sacrificialTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trai
 sacrificialTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.sacrificialTrait.desc");
 sacrificialTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
     if (isCritical) {
-        var sacrifice as float = attacker.maxHealth * 0.2 as float;
+        var sacrifice as float = attacker.maxHealth * 0.2f;
         var source as IDamageSource = crafttweaker.damage.IDamageSource.OUT_OF_WORLD();
         source.setDamageIsAbsolute();
         attacker.attackEntityFrom(source, sacrifice);
@@ -279,8 +280,8 @@ halloweenTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.
 halloweenTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.halloweenTrait.desc");
 halloweenTrait.onHit = function(trait, tool, attacker, target, damage, isCritical) {
     if (!isNull(attacker) && !isNull(target) && attacker instanceof IPlayer && target instanceof IEntityMob) {
-        if (!(Math.random() as double > 0.01)) {
-            var player as IPlayer = attacker;
+        if (Math.random() < 0.01) {
+            val player as IPlayer = attacker;
             player.give(<item:extrabotany:candybag>);
         }
     }
@@ -306,12 +307,12 @@ giantslayerTrait.color = Color.fromHex("ffb74d").getIntColor();
 giantslayerTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.giantslayerTrait.name");
 giantslayerTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.giantslayerTrait.desc");
 giantslayerTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
-    var multiplier = 0.05 * (target.health / attacker.maxHealth) as float;
-    if (multiplier < 1.0) {
-        multiplier = 1.0;
+    var multiplier = 0.05f * (target.health / attacker.maxHealth) as float;
+    if (multiplier < 1.0f) {
+        multiplier = 1.0f;
     }
-    if (multiplier > 2.5) { 
-        multiplier = 2.5;
+    if (multiplier > 2.5f) { 
+        multiplier = 2.5f;
     }
     return newDamage * multiplier as float;
 };
@@ -323,10 +324,10 @@ crystalTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.cr
 crystalTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.crystalTrait.desc");
 crystalTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
     if (tool.maxDamage != 0) {
-        var dmg as float = 0.0 as float + tool.damage as float;
-        var maxDmg as float = 0.0 as float + tool.maxDamage as float;
-        var durabilityPercent as float = 1.0 as float - (dmg as float / maxDmg as float) as float;
-        var multiplier as float = 0.8 as float + (durabilityPercent as float * 0.5 as float) as float;
+        var dmg as float = 0.0f + tool.damage as float;
+        var maxDmg as float = 0.0f + tool.maxDamage as float;
+        var durabilityPercent as float = 1.0f - (dmg as float / maxDmg as float) as float;
+        var multiplier as float = 0.8f + (durabilityPercent as float * 0.5f) as float;
         return newDamage as float * multiplier as float;
     }
     return newDamage;
@@ -338,8 +339,8 @@ spartanTrait.color = Color.fromHex("e53935").getIntColor();
 spartanTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.spartanTrait.name");
 spartanTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.spartanTrait.desc");
 spartanTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
-    if ((attacker.health as float / attacker.maxHealth as float) as float < 0.33 as float) {
-        var multiplier as float = 1.5 as float + (1.0 as float - (attacker.health as float / (attacker.maxHealth as float * 0.33) as float)) * 1.0 as float;
+    if ((attacker.health as float / attacker.maxHealth as float) as float < 0.33f) {
+        var multiplier as float = 1.5f + (1.0f - (attacker.health as float / (attacker.maxHealth as float * 0.33) as float)) * 1.0f;
         return newDamage as float * multiplier as float;
     }
     return newDamage;
@@ -352,12 +353,12 @@ knowledgefulTrait.localizedName = game.localize("greedycraft.tconstruct.tool_tra
 knowledgefulTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.knowledgefulTrait.desc");
 knowledgefulTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
     if (attacker instanceof IPlayer) {
-        var player as IPlayer = attacker;
+        val player as IPlayer = attacker;
         var xpLevel = player.xp;
         if (xpLevel > 300) {
             xpLevel = 300;
         }
-        return newDamage as float * (1.0 as float + xpLevel as float * 0.002 as float) as float;
+        return newDamage as float * (1.0f + xpLevel as float * 0.002f) as float;
     }
     return newDamage;
 };
@@ -369,7 +370,7 @@ matterTrait1.localizedName = game.localize("greedycraft.tconstruct.tool_trait.ma
 matterTrait1.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.matterTrait1.desc");
 matterTrait1.afterHit = function(trait, tool, attacker, target, damageDealt, wasCritical, wasHit) {
     if (attacker instanceof IPlayer && target instanceof IEntityMob) {
-        var player as IPlayer = attacker;
+        val player as IPlayer = attacker;
         player.personalEMC = (player.personalEMC as long + (Math.floor(damageDealt * 0.1) as long)) as long;
     }
 };
@@ -381,7 +382,7 @@ matterTrait2.localizedName = game.localize("greedycraft.tconstruct.tool_trait.ma
 matterTrait2.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.matterTrait2.desc");
 matterTrait2.afterHit = function(trait, tool, attacker, target, damageDealt, wasCritical, wasHit) {
     if (attacker instanceof IPlayer && target instanceof IEntityMob) {
-        var player as IPlayer = attacker;
+        val player as IPlayer = attacker;
         player.personalEMC = (player.personalEMC as long + (Math.floor(damageDealt * 0.25) as long)) as long;
     }
 };
@@ -441,7 +442,7 @@ motionTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.mot
 motionTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.motionTrait.desc");
 motionTrait.onPlayerHurt = function(trait, tool, player, attacker, event) {
     if (!isNull(player) && player.isSprinting) {
-        event.amount = event.amount * 1.5 as float;
+        event.amount = event.amount * 1.5f;
     }
 };
 motionTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
@@ -464,10 +465,10 @@ executionerTrait.color = Color.fromHex("e53935").getIntColor();
 executionerTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.executionerTrait.name");
 executionerTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.executionerTrait.desc");
 executionerTrait.onHit = function(trait, tool, attacker, target, damage, isCritical) {
-    if (isNull(target) || !target instanceof IEntityLivingBase || !attacker instanceof IPlayer || damage < 0.1) {
+    if (isNull(target) || !(target instanceof IEntityLivingBase) || !(attacker instanceof IPlayer) || damage < 0.1) {
         return;
     }
-    var player as IPlayer = attacker;
+    val player as IPlayer = attacker;
     var threshold as float = 0.2f;
     if (target.isBoss) {
         threshold = 0.1f;
@@ -486,7 +487,7 @@ penetrationTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trai
 penetrationTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.penetrationTrait.desc");
 penetrationTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
     if (target.totalArmorValue > 0) {
-        var multiplier as float = (target.totalArmorValue as float * 0.02 as float) as float;
+        var multiplier as float = (target.totalArmorValue as float * 0.02f) as float;
         if (multiplier > 1.0f) {
             multiplier = 1.0f;
         }
@@ -537,3 +538,49 @@ bloodlustTrait.calcDamage = function(trait, tool, attacker, target, originalDama
     return newDamage * (1.0f + (1.0f - ratio) * 0.5f) as float;
 };
 bloodlustTrait.register();
+
+val assassinTrait = TraitBuilder.create("assassin");
+assassinTrait.color = Color.fromHex("fff176").getIntColor(); 
+assassinTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.assassinTrait.name");
+assassinTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.assassinTrait.desc");
+assassinTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+    val enemyLooking = target.lookingDirection;
+    val playerLooking = attacker.lookingDirection;
+    if(!isNull(enemyLooking) && !(isNull(playerLooking))) {
+        if(enemyLooking.dotProduct(playerLooking) > 0.0) {
+            return newDamage * 1.4f;
+        }
+    }
+    return newDamage;
+};
+assassinTrait.register();
+
+val madnessTrait = TraitBuilder.create("madness");
+madnessTrait.color = Color.fromHex("2979ff").getIntColor(); 
+madnessTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.madnessTrait.name");
+madnessTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.madnessTrait.desc");
+madnessTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSelected) {
+    if (!(owner instanceof IPlayer)) {
+        return;
+    }
+    val player as IPlayer = owner;
+    if(isSelected) {
+        if(Math.random() < 1.0 / 900.0) {
+            player.warpTemporary += 1;
+        }
+        if(Math.random() < 1.0 / 2400.0) {
+            player.warpNormal += 1;
+        }
+    }
+};
+madnessTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+    
+    if (isNull(target) || !(attacker instanceof IPlayer)) {
+        return newDamage;
+    }
+    val player as IPlayer = attacker;
+    val warpTotal = player.warpNormal + player.warpTemporary + player.warpPermanent;
+    val dmgBoost = Math.sqrt(warpTotal as double) / 40.0;
+    return newDamage * (1.0f + dmgBoost as float);
+};
+madnessTrait.register();

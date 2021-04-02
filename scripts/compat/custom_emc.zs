@@ -265,7 +265,8 @@ val emcMapping as long[IIngredient] = {
     <minecraft:gunpowder> : 24 as long,
     <draconicevolution:draconium_ingot> : 8192 as long,
     <draconicevolution:draconium_block> : 73728 as long,
-    <draconicevolution:nugget> : 910 as long
+    <draconicevolution:nugget> : 910 as long,
+    <additions:greedycraft-energy_matter_core> : 25000000 as long 
 };
 
 for ingredient, value in emcMapping {

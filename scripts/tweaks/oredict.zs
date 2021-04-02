@@ -341,7 +341,7 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
     <ore:blockManaDiamond> : [<botania:storage:3>],
     <ore:plantFiber> : [<ore:plantFibre>],
     <ore:listAllFiber> : [<ore:plantFiber>],
-    <ore:gemRockCrystal> : [<astralsorcery:itemtunedrockcrystal>, <astralsorcery:itemrockcrystalsimple>]
+    <ore:oreDiamond>: [<extrabees:misc:1>]
 };
 
 var removeMap as IIngredient[][IOreDictEntry] = {

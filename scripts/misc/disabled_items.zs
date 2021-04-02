@@ -367,4 +367,18 @@ for recipe in recipes.all {
             }
         }
     }
+
+}
+
+for item in loadedMods["jaopca"].items {
+    if(item.definition.id.startsWith("jaopca:block_crystalcluster")) {
+        recipes.remove(item);
+        val entryName = item.definition.id.substring("jaopca:block_crystalcluster".length());
+        val oreName = "jaopca:item_crystalabyss" + entryName;
+        val crystalItem = itemUtils.getItem(oreName);
+        if(!isNull(crystalItem)) {
+            recipes.addShapeless("jaopca_fix_" + entryName, item, [crystalItem]);
+        }
+        print("Removing broken JAOPCA recipe: " + item.definition.id + " Replacing with " + oreName);
+    }
 }

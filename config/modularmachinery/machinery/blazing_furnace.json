@@ -8,12 +8,13 @@
             "x": 0,
             "y": 1,
             "z": 0,
-            "description": "将控制器上方紧挨着的方块换成机械升级方块以降低流体消耗量！",
+            "description": "将控制器上方紧挨着的方块换成此方块即可33%几率不消耗液体！",
             "modifier": {
                 "io": "input",
                 "target": "fluid",
                 "operation": 1,
-                "multiplier": 0.66
+                "multiplier": 0.66,
+                "affectChance": true
             }
         },
         {
@@ -21,12 +22,13 @@
             "x": 0,
             "y": 1,
             "z": 0,
-            "description": "将控制器上方紧挨着的方块换成机械升级方块以降低流体消耗量！",
+            "description": "将控制器上方紧挨着的方块换成此方块即可50%几率不消耗液体！",
             "modifier": {
                 "io": "input",
                 "target": "fluid",
                 "operation": 1,
-                "multiplier": 0.5
+                "multiplier": 0.5,
+                "affectChance": true
             }
         },
         {
@@ -34,12 +36,13 @@
             "x": 0,
             "y": 1,
             "z": 0,
-            "description": "将控制器上方紧挨着的方块换成机械升级方块以降低流体消耗量！",
+            "description": "将控制器上方紧挨着的方块换成此方块即可67%几率不消耗液体！",
             "modifier": {
                 "io": "input",
                 "target": "fluid",
                 "operation": 1,
-                "multiplier": 0.33
+                "multiplier": 0.33,
+                "affectChance": true
             }
         },
         {
@@ -47,12 +50,13 @@
             "x": 0,
             "y": 1,
             "z": 0,
-            "description": "将控制器上方紧挨着的方块换成机械升级方块以降低流体消耗量！",
+            "description": "将控制器上方紧挨着的方块换成此方块即可75%几率不消耗液体！",
             "modifier": {
                 "io": "input",
                 "target": "fluid",
                 "operation": 1,
-                "multiplier": 0.25
+                "multiplier": 0.25,
+                "affectChance": true
             }
         }
     ],

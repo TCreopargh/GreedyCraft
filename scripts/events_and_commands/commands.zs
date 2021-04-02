@@ -369,10 +369,10 @@ setMaidHealthCommand.execute = function(command, server, sender, args) {
             if (!isNull(player) && !isNull(entity) && entity instanceof IEntityLivingBase) {
                 var entityBase as IEntityLivingBase = entity;
                 var playerHealth as float = player.maxHealth as float;
-                var maidHealth as float = playerHealth * 4.0 as float;
+                var maidHealth as float = playerHealth * 4.0f;
                 //maidHealth = max(maidHealth as float, entityBase.maxHealth as float) as float;
                 entityBase.addPotionEffect(<potion:potioncore:love>.makePotionEffect(1, 0, true, true));
-                var potionLevel as int = Math.floor(maidHealth as float / 4.0 as float) as int;
+                var potionLevel as int = Math.floor(maidHealth as float / 4.0f) as int;
 
                 /*
                 entityBase.addPotionEffect(<potion:minecraft:health_boost>.makePotionEffect(2147483647, potionLevel, false, false));

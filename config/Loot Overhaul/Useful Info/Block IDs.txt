@@ -7514,3 +7514,11 @@ jaopca:fluid_moltenuranium - 7511
 treasure2:amethyst_ore - 7512
 treasure2:onyx_ore - 7513
 energeticsheep:energetic_wool - 7514
+jaopca:block_crystalclusterasgardium - 7515
+sakura:barrel_out - 7516
+jaopca:block_crystalclusteraqualite - 7517
+jaopca:block_crystalclustermanganese - 7518
+sakura:teishoku_fish_salt - 7519
+jaopca:block_crystalclustershadowium - 7520
+jaopca:block_crystalclusteraeroite - 7521
+jaopca:block_crystalclusterchromium - 7522

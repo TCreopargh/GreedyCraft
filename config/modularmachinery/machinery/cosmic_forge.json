@@ -8,7 +8,7 @@
             "x": 0,
             "y": -1,
             "z": 0,
-            "description": "将控制器下方紧挨着的方块换成机械升级方块以提高机器运转速度！",
+            "description": "将控制器下方紧挨着的方块换成此方块以降低配方制作时间至75%！",
             "modifier": {
                 "io": "output",
                 "target": "duration",
@@ -21,7 +21,7 @@
             "x": 0,
             "y": -1,
             "z": 0,
-            "description": "将控制器下方紧挨着的方块换成机械升级方块以提高机器运转速度！",
+            "description": "将控制器下方紧挨着的方块换成此方块以降低配方制作时间至66%！",
             "modifier": {
                 "io": "output",
                 "target": "duration",
@@ -34,7 +34,7 @@
             "x": 0,
             "y": -1,
             "z": 0,
-            "description": "将控制器下方紧挨着的方块换成机械升级方块以提高机器运转速度！",
+            "description": "将控制器下方紧挨着的方块换成此方块以降低配方制作时间至50%！",
             "modifier": {
                 "io": "output",
                 "target": "duration",
@@ -47,7 +47,7 @@
             "x": 0,
             "y": -1,
             "z": 0,
-            "description": "将控制器下方紧挨着的方块换成机械升级方块以提高机器运转速度！",
+            "description": "将控制器下方紧挨着的方块换成此方块以降低配方制作时间至33%！",
             "modifier": {
                 "io": "output",
                 "target": "duration",

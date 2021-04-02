@@ -40,9 +40,9 @@ events.onPlayerLoggedIn(function (event as PlayerLoggedInEvent) {
     var player as IPlayer = event.player;
 
     if (player.hasGameStage("truehero") && !player.hasGameStage("iswuss")) {
-        player.sendRichTextMessage(ITextComponent.fromTranslation("greedycraft.event.true_hero.join", player.name));
+        player.sendRichTextMessage(ITextComponent.fromTranslation("greedycraft.event.true_hero.join", "§e" + player.name));
     } else if (player.hasGameStage("iswuss")) {
-        server.broadcastMessage(ITextComponent.fromTranslation("greedycraft.event.in_cheat.broadcast", player.name));
+        server.broadcastMessage(ITextComponent.fromTranslation("greedycraft.event.in_cheat.broadcast", "§e" + player.name));
         player.sendRichTextMessage(ITextComponent.fromTranslation("greedycraft.event.in_cheat.chat"));
         if (player.creative) {
             player.addGameStage("creative");

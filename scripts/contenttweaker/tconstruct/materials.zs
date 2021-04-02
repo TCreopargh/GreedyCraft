@@ -25,7 +25,7 @@ import mods.contenttweaker.Color;
 import mods.contenttweaker.conarm.ExtendedMaterialBuilder;
 
 function getDrawSpeed(inversed as float) as float {
-    return (1.0 as float / inversed as float) as float;
+    return (1.0f / inversed as float) as float;
 }
 
 val cheese = ExtendedMaterialBuilder.create("cheese");

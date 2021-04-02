@@ -11,6 +11,7 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.data.IData;
 import crafttweaker.item.IIngredient;
 
+import mods.forestry.Carpenter;
 import mods.zenutils.I18n;
 
 val base as IIngredient[] = [<mysticalagriculture:crafting:16>, <mysticalagriculture:crafting:17>, <mysticalagriculture:crafting:18>, <mysticalagriculture:crafting:19>, <mysticalagriculture:crafting:20>, <mysticalagriculture:crafting:21>, <mysticalagradditions:insanium:1>];
@@ -534,9 +535,9 @@ val seedRecipes as IIngredient[][][IItemStack] = {
         [<ore:ingotLumium>, essence[4], <ore:ingotLumium>]
     ],
     <mysticalagriculture:rock_crystal_seeds> : [
-        [<ore:gemRockCrystal>, essence[5], <ore:gemRockCrystal>], 
+        [<astralsorcery:itemrockcrystalsimple>, essence[5], <astralsorcery:itemrockcrystalsimple>], 
         [essence[5], base[5], essence[5]], 
-        [<ore:gemRockCrystal>, essence[5], <ore:gemRockCrystal>]
+        [<astralsorcery:itemrockcrystalsimple>, essence[5], <astralsorcery:itemrockcrystalsimple>]
     ],
     <mysticalagriculture:end_seeds> : [
         [<mysticalagriculture:crafting:9>, essence[4], <mysticalagriculture:crafting:9>], 
@@ -781,5 +782,11 @@ for seed in seedRecipes {
     } else if (<ore:seedsTier6> has seed) {
         tier = 6;
     }
-    mods.forestry.Carpenter.addRecipe(seed, grid, time[tier], <liquid:organic_fluid> * fluid[tier], fertilizer[tier]);
+    Carpenter.addRecipe(seed, grid, time[tier], <liquid:organic_fluid> * fluid[tier], fertilizer[tier]);
 }
+
+Carpenter.addRecipe(<morebees:diamondfragment>, [
+    [null, <morebees:graincrystal>, null],
+    [<morebees:graincrystal>, <morebees:graincrystal>, <morebees:graincrystal>],
+    [null, <morebees:graincrystal>, null]
+], 100, <liquid:water> * 1000, null);

@@ -60,7 +60,7 @@ events.onBlockBreak(function(event as BlockBreakEvent) {
                 if (mobEffectiveSpawned > 20) {
                     mobEffectiveSpawned = 20;
                 }
-                var bonusXP as int = mobEffectiveSpawned * 2 + (Math.random() as double * (mobEffectiveSpawned * 5) as double) as int;
+                var bonusXP as int = mobEffectiveSpawned * 2 + (Math.random() * (mobEffectiveSpawned * 5) as double) as int;
                 var difficultyBonusPercent as int = (event.player.difficulty * 2.0) as int;
                 var totalXP as int = Math.ceil(bonusXP as double * (difficultyBonusPercent as double / 100.0 + 1.0)) as int;
                 event.experience += totalXP;

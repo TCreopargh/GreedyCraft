@@ -214,7 +214,7 @@
 			"imageWidth": 383,
 			"imageHeight": 383,
 			"texture": "greedycraft:mainmenu/bisect.png",
-			"tooltip": "§6§l§需要服务器吗？\n§b贪婪整合包§a由§9Bisect Hosting§a赞助！\n§a使用优惠码§dTCreopargh§a即可获取首月§b25%%优惠§a！\n§e§（建议服务器内存不少于§68GB§e。）",
+			"tooltip": "§6§l需要服务器吗？\n§b贪婪整合包§a由§9Bisect Hosting§a赞助！\n§a使用优惠码§dTCreopargh§a即可获取首月§b25%%优惠§a！\n§e（建议服务器内存不少于§68GB§e。）",
 			"action": {
 				"type": "openLink",
 				"link": "https://bisecthosting.com/TCreopargh"

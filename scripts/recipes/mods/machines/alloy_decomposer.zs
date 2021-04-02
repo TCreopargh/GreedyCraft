@@ -84,7 +84,7 @@ for input in alloyRecipes {
     var outputs as ILiquidStack[] = alloyRecipes[input] as ILiquidStack[];
     var amount = input.amount;
     var alloyEnergy = energy as int;
-    var alloySpeed = Math.ceil((amount as float / 100.0 as float) * speed as float) as int;
+    var alloySpeed = Math.ceil((amount as float / 100.0f) * speed as float) as int;
     var builder = RecipeBuilder.newBuilder(regName + "_alloy_" + input.definition.name + "_" + recipeID, regName, alloySpeed, 0);
         builder.addFluidInput(input);
         builder.addEnergyPerTickInput(alloyEnergy);

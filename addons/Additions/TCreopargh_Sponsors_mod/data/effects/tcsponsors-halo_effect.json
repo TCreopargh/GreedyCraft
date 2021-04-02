@@ -1,0 +1,31 @@
+{
+  "cause": {
+    "item": {
+      "item": "additions:tcsponsors-angel_ring",
+      "damage": "any"
+    },
+    "type": "additions:item_in_inventory"
+  },
+  "effects": [
+    {
+      "command": "/effect @p clear",
+      "command_sender_name": "",
+      "chance": 0.005,
+      "type": "additions:command"
+    },
+    {
+      "potion": {
+        "name": "minecraft:slowness",
+        "duration": 30,
+        "amplifier": 9,
+        "ambient": false,
+        "show_particles": true
+      },
+      "type": "additions:potion"
+    },
+    {
+      "chance": 0.005,
+      "type": "additions:damage_item"
+    }
+  ]
+}

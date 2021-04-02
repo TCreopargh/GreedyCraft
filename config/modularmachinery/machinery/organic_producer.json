@@ -8,7 +8,7 @@
             "x": 0,
             "y": 1,
             "z": 0,
-            "description": "将控制器上方的紧挨着的方块换成机械升级方块以提高有机液产出率！",
+            "description": "将控制器上方的紧挨着的方块换成此方块以提高25%有机液产出率！",
             "modifier": {
                 "io": "output",
                 "target": "fluid",
@@ -21,7 +21,7 @@
             "x": 0,
             "y": 1,
             "z": 0,
-            "description": "将控制器上方的紧挨着的方块换成机械升级方块以提高有机液产出率！",
+            "description": "将控制器上方的紧挨着的方块换成此方块以提高50%有机液产出率！",
             "modifier": {
                 "io": "output",
                 "target": "fluid",
@@ -34,7 +34,7 @@
             "x": 0,
             "y": 1,
             "z": 0,
-            "description": "将控制器上方的紧挨着的方块换成机械升级方块以提高有机液产出率！",
+            "description": "将控制器上方的紧挨着的方块换成此方块以提高100%有机液产出率！",
             "modifier": {
                 "io": "output",
                 "target": "fluid",
@@ -47,7 +47,7 @@
             "x": 0,
             "y": 1,
             "z": 0,
-            "description": "将控制器上方的紧挨着的方块换成机械升级方块以提高有机液产出率！",
+            "description": "将控制器上方的紧挨着的方块换成此方块以提高150%有机液产出率！",
             "modifier": {
                 "io": "output",
                 "target": "fluid",

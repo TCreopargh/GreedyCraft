@@ -72,9 +72,11 @@ events.onGameStageAdd(function(event as GameStageAddEvent) {
             player.give(<contenttweaker:tablet_of_enlightenment>.withTag({stage: event.gameStage, playerName: player.name, playerUUID: player.uuid}));
         }
 
+        /*  Disabled
         if (event.gameStage == "nether") {
             player.addGameStage("roughmobsboss");
         }
+        */
     }
 });
 
