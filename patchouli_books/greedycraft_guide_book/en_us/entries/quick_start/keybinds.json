@@ -5,7 +5,7 @@
     "pages": [
         {
             "type": "text",
-            "text": "$(li)§cR§r: Opens the R-key menu which contains a lot of functions.$(li)§cU§r: Hover mouse over an item and press U to look up its usage in JEI$(li)§cP§r: Hover mouse over an item and press P to look up its recipe in JEI$(li)§cY§r: Hover over and item and press Y to look for the same item in nearby chests, the chest will give out smoke particles if found.$(li)§cDirection keys§r: Adjust the cam position in 3rd person mode."
+            "text": "$(li)§cR§r: Opens the R-key menu which contains a lot of functions.$(li)§cU§r: Hover mouse over an item and press U to look up its usage in JEI$(li)§cP§r: Hover mouse over an item and press P to look up its recipe in JEI$(li)§cY§r: Hover over an item and press Y to look for the same item in nearby chests, the chest will give out smoke particles if found.$(li)§cDirection keys§r: Adjust the cam position in 3rd person mode."
         },
 		{
             "type": "text",
