@@ -791,9 +791,5 @@ zombieawareness:entityscent - 788
 additions:projectile - 789
 cqrepoured:projectile_thrown_block - 790
 cqrepoured:projectile_homing_ender_eye - 791
-cqrepoured:rotating_laser - 792
-cqrepoured:targeting_laser - 793
-cqrepoured:spectre_lord_explosion - 794
-cqrepoured:spectre_lord_curse - 795
-cqrepoured:spectre_lord - 796
-cqrepoured:spectre_lord_illusion - 797
+cqrepoured:projectile_energy_orb - 792
+draconicadditions:chaosheart - 793

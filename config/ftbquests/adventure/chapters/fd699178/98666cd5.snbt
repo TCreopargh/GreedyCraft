@@ -13,12 +13,7 @@
 			item: "appliedenergistics2:interface"
 		}]
 	}],
-	rewards: [{
-		uid: "6d1e0bd2",
-		type: "item",
-		item: "cyclicmagic:item_pipe",
-		count: 64
-	},
+	rewards: [
 	{
 		uid: "b9a81a98",
 		type: "item",

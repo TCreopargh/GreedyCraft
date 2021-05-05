@@ -2,7 +2,7 @@
   "mod_id": "draconicevolution",
   "mod_version": "2.3.20",
   "__verified_comment": "Do not change this to true. If you do so your PR will be automatically rejected.",
-  "verified": true,
+  "verified": false,
   "file": "draconicevolution_dbd2b.md",
   "cycle_icons": false,
   "pages": [
@@ -25,7 +25,7 @@
       "icons": [
         {
           "type": "stack",
-          "draw_slot": true,
+          "draw_hover": false,
           "icon_string": "draconicevolution:draconium_ingot"
         }
       ],
@@ -46,17 +46,17 @@
           "icons": [
             {
               "type": "stack",
-              "draw_slot": true,
+              "draw_hover": false,
               "icon_string": "draconicevolution:draconium_ore"
             },
             {
               "type": "stack",
-              "draw_slot": true,
+              "draw_hover": false,
               "icon_string": "draconicevolution:draconium_ore,1,2"
             },
             {
               "type": "stack",
-              "draw_slot": true,
+              "draw_hover": false,
               "icon_string": "draconicevolution:draconium_ore,1,1"
             }
           ]
@@ -76,7 +76,7 @@
           "icons": [
             {
               "type": "stack",
-              "draw_slot": true,
+              "draw_hover": false,
               "icon_string": "draconicevolution:draconium_dust"
             }
           ]
@@ -96,7 +96,7 @@
           "icons": [
             {
               "type": "stack",
-              "draw_slot": true,
+              "draw_hover": false,
               "icon_string": "draconicevolution:draconium_block"
             }
           ]
@@ -147,7 +147,7 @@
       "icons": [
         {
           "type": "stack",
-          "draw_slot": true,
+          "draw_hover": false,
           "icon_string": "draconicevolution:draconic_ingot"
         }
       ],
@@ -166,7 +166,7 @@
           "icons": [
             {
               "type": "stack",
-              "draw_slot": true,
+              "draw_hover": false,
               "icon_string": "draconicevolution:dragon_heart"
             }
           ]
@@ -182,32 +182,32 @@
       "icons": [
         {
           "type": "stack",
-          "draw_slot": true,
+          "draw_hover": false,
           "icon_string": "draconicevolution:draconic_core"
         },
         {
           "type": "stack",
-          "draw_slot": true,
+          "draw_hover": false,
           "icon_string": "draconicevolution:wyvern_core"
         },
         {
           "type": "stack",
-          "draw_slot": true,
+          "draw_hover": false,
           "icon_string": "draconicevolution:awakened_core"
         },
         {
           "type": "stack",
-          "draw_slot": true,
+          "draw_hover": false,
           "icon_string": "draconicevolution:chaotic_core"
         },
         {
           "type": "stack",
-          "draw_slot": true,
+          "draw_hover": false,
           "icon_string": "draconicevolution:wyvern_energy_core"
         },
         {
           "type": "stack",
-          "draw_slot": true,
+          "draw_hover": false,
           "icon_string": "draconicevolution:draconic_energy_core"
         }
       ],
@@ -227,7 +227,7 @@
           "icons": [
             {
               "type": "stack",
-              "draw_slot": true,
+              "draw_hover": false,
               "icon_string": "draconicevolution:draconic_core"
             }
           ]
@@ -247,7 +247,7 @@
           "icons": [
             {
               "type": "stack",
-              "draw_slot": true,
+              "draw_hover": false,
               "icon_string": "draconicevolution:wyvern_core"
             }
           ]
@@ -267,7 +267,7 @@
           "icons": [
             {
               "type": "stack",
-              "draw_slot": true,
+              "draw_hover": false,
               "icon_string": "draconicevolution:awakened_core"
             }
           ]
@@ -287,7 +287,7 @@
           "icons": [
             {
               "type": "stack",
-              "draw_slot": true,
+              "draw_hover": false,
               "icon_string": "draconicevolution:chaotic_core"
             }
           ]
@@ -307,7 +307,7 @@
           "icons": [
             {
               "type": "stack",
-              "draw_slot": true,
+              "draw_hover": false,
               "icon_string": "draconicevolution:wyvern_energy_core"
             }
           ]
@@ -327,7 +327,7 @@
           "icons": [
             {
               "type": "stack",
-              "draw_slot": true,
+              "draw_hover": false,
               "icon_string": "draconicevolution:draconic_energy_core"
             }
           ]
@@ -343,32 +343,32 @@
       "icons": [
         {
           "type": "stack",
-          "draw_slot": true,
+          "draw_hover": false,
           "icon_string": "draconicevolution:wyvern_pick,1,0,{Energy:4000000}"
         },
         {
           "type": "stack",
-          "draw_slot": true,
+          "draw_hover": false,
           "icon_string": "draconicevolution:wyvern_axe,1,0,{Energy:4000000}"
         },
         {
           "type": "stack",
-          "draw_slot": true,
+          "draw_hover": false,
           "icon_string": "draconicevolution:wyvern_shovel,1,0,{Energy:4000000}"
         },
         {
           "type": "stack",
-          "draw_slot": true,
+          "draw_hover": false,
           "icon_string": "draconicevolution:wyvern_sword,1,0,{Energy:4000000}"
         },
         {
           "type": "stack",
-          "draw_slot": true,
+          "draw_hover": false,
           "icon_string": "draconicevolution:wyvern_bow,1,0,{Energy:4000000}"
         },
         {
           "type": "stack",
-          "draw_slot": true,
+          "draw_hover": false,
           "icon_string": "draconicevolution:draconium_capacitor,1,0,{Energy:64000000}"
         }
       ],
@@ -388,7 +388,7 @@
           "icons": [
             {
               "type": "stack",
-              "draw_slot": true,
+              "draw_hover": false,
               "icon_string": "draconicevolution:wyvern_pick,1,0,{Energy:4000000}"
             }
           ]
@@ -408,7 +408,7 @@
           "icons": [
             {
               "type": "stack",
-              "draw_slot": true,
+              "draw_hover": false,
               "icon_string": "draconicevolution:wyvern_axe,1,0,{Energy:4000000}"
             }
           ]
@@ -428,7 +428,7 @@
           "icons": [
             {
               "type": "stack",
-              "draw_slot": true,
+              "draw_hover": false,
               "icon_string": "draconicevolution:wyvern_shovel,1,0,{Energy:4000000}"
             }
           ]
@@ -448,7 +448,7 @@
           "icons": [
             {
               "type": "stack",
-              "draw_slot": true,
+              "draw_hover": false,
               "icon_string": "draconicevolution:wyvern_sword,1,0,{Energy:4000000}"
             }
           ]
@@ -468,7 +468,7 @@
           "icons": [
             {
               "type": "stack",
-              "draw_slot": true,
+              "draw_hover": false,
               "icon_string": "draconicevolution:wyvern_bow,1,0,{Energy:4000000}"
             }
           ]
@@ -487,7 +487,7 @@
           "icons": [
             {
               "type": "stack",
-              "draw_slot": true,
+              "draw_hover": false,
               "icon_string": "draconicevolution:draconium_capacitor,1,0,{Energy:64000000}"
             }
           ]
@@ -503,37 +503,37 @@
       "icons": [
         {
           "type": "stack",
-          "draw_slot": true,
+          "draw_hover": false,
           "icon_string": "draconicevolution:draconic_axe,1,0,{Energy:16000000}"
         },
         {
           "type": "stack",
-          "draw_slot": true,
+          "draw_hover": false,
           "icon_string": "draconicevolution:draconic_bow,1,0,{Energy:16000000}"
         },
         {
           "type": "stack",
-          "draw_slot": true,
+          "draw_hover": false,
           "icon_string": "draconicevolution:draconic_hoe,1,0,{Energy:16000000}"
         },
         {
           "type": "stack",
-          "draw_slot": true,
+          "draw_hover": false,
           "icon_string": "draconicevolution:draconic_pick,1,0,{Energy:16000000}"
         },
         {
           "type": "stack",
-          "draw_slot": true,
+          "draw_hover": false,
           "icon_string": "draconicevolution:draconic_shovel,1,0,{Energy:16000000}"
         },
         {
           "type": "stack",
-          "draw_slot": true,
+          "draw_hover": false,
           "icon_string": "draconicevolution:draconic_staff_of_power,1,0,{Energy:48000000}"
         },
         {
           "type": "stack",
-          "draw_slot": true,
+          "draw_hover": false,
           "icon_string": "draconicevolution:draconic_sword,1,0,{Energy:16000000}"
         }
       ],
@@ -553,7 +553,7 @@
           "icons": [
             {
               "type": "stack",
-              "draw_slot": true,
+              "draw_hover": false,
               "icon_string": "draconicevolution:draconic_pick,1,0,{Energy:16000000}"
             }
           ]
@@ -573,7 +573,7 @@
           "icons": [
             {
               "type": "stack",
-              "draw_slot": true,
+              "draw_hover": false,
               "icon_string": "draconicevolution:draconic_axe,1,0,{Energy:16000000}"
             }
           ]
@@ -593,7 +593,7 @@
           "icons": [
             {
               "type": "stack",
-              "draw_slot": true,
+              "draw_hover": false,
               "icon_string": "draconicevolution:draconic_shovel,1,0,{Energy:16000000}"
             }
           ]
@@ -613,7 +613,7 @@
           "icons": [
             {
               "type": "stack",
-              "draw_slot": true,
+              "draw_hover": false,
               "icon_string": "draconicevolution:draconic_hoe,1,0,{Energy:16000000}"
             }
           ]
@@ -633,7 +633,7 @@
           "icons": [
             {
               "type": "stack",
-              "draw_slot": true,
+              "draw_hover": false,
               "icon_string": "draconicevolution:draconic_sword,1,0,{Energy:16000000}"
             }
           ]
@@ -653,7 +653,7 @@
           "icons": [
             {
               "type": "stack",
-              "draw_slot": true,
+              "draw_hover": false,
               "icon_string": "draconicevolution:draconic_bow,1,0,{Energy:16000000}"
             }
           ]
@@ -673,7 +673,7 @@
           "icons": [
             {
               "type": "stack",
-              "draw_slot": true,
+              "draw_hover": false,
               "icon_string": "draconicevolution:draconic_staff_of_power,1,0,{Energy:48000000}"
             }
           ]
@@ -692,7 +692,7 @@
           "icons": [
             {
               "type": "stack",
-              "draw_slot": true,
+              "draw_hover": false,
               "icon_string": "draconicevolution:draconium_capacitor,1,1,{Energy:256000000}"
             }
           ]
@@ -708,22 +708,22 @@
       "icons": [
         {
           "type": "stack",
-          "draw_slot": true,
+          "draw_hover": false,
           "icon_string": "draconicevolution:wyvern_helm,1,0,{Energy:4000000}"
         },
         {
           "type": "stack",
-          "draw_slot": true,
+          "draw_hover": false,
           "icon_string": "draconicevolution:wyvern_chest,1,0,{Energy:4000000}"
         },
         {
           "type": "stack",
-          "draw_slot": true,
+          "draw_hover": false,
           "icon_string": "draconicevolution:wyvern_legs,1,0,{Energy:4000000}"
         },
         {
           "type": "stack",
-          "draw_slot": true,
+          "draw_hover": false,
           "icon_string": "draconicevolution:wyvern_boots,1,0,{Energy:4000000}"
         }
       ],
@@ -743,7 +743,7 @@
           "icons": [
             {
               "type": "stack",
-              "draw_slot": true,
+              "draw_hover": false,
               "icon_string": "draconicevolution:wyvern_helm,1,0,{Energy:4000000}"
             }
           ]
@@ -763,7 +763,7 @@
           "icons": [
             {
               "type": "stack",
-              "draw_slot": true,
+              "draw_hover": false,
               "icon_string": "draconicevolution:wyvern_chest,1,0,{Energy:4000000}"
             }
           ]
@@ -783,7 +783,7 @@
           "icons": [
             {
               "type": "stack",
-              "draw_slot": true,
+              "draw_hover": false,
               "icon_string": "draconicevolution:wyvern_legs,1,0,{Energy:4000000}"
             }
           ]
@@ -803,7 +803,7 @@
           "icons": [
             {
               "type": "stack",
-              "draw_slot": true,
+              "draw_hover": false,
               "icon_string": "draconicevolution:wyvern_boots,1,0,{Energy:4000000}"
             }
           ]
@@ -819,22 +819,22 @@
       "icons": [
         {
           "type": "stack",
-          "draw_slot": true,
+          "draw_hover": false,
           "icon_string": "draconicevolution:draconic_helm,1,0,{Energy:16000000}"
         },
         {
           "type": "stack",
-          "draw_slot": true,
+          "draw_hover": false,
           "icon_string": "draconicevolution:draconic_chest,1,0,{Energy:16000000}"
         },
         {
           "type": "stack",
-          "draw_slot": true,
+          "draw_hover": false,
           "icon_string": "draconicevolution:draconic_legs,1,0,{Energy:16000000}"
         },
         {
           "type": "stack",
-          "draw_slot": true,
+          "draw_hover": false,
           "icon_string": "draconicevolution:draconic_boots,1,0,{Energy:16000000}"
         }
       ],
@@ -854,7 +854,7 @@
           "icons": [
             {
               "type": "stack",
-              "draw_slot": true,
+              "draw_hover": false,
               "icon_string": "draconicevolution:draconic_helm,1,0,{Energy:16000000}"
             }
           ]
@@ -874,7 +874,7 @@
           "icons": [
             {
               "type": "stack",
-              "draw_slot": true,
+              "draw_hover": false,
               "icon_string": "draconicevolution:draconic_chest,1,0,{Energy:16000000}"
             }
           ]
@@ -894,7 +894,7 @@
           "icons": [
             {
               "type": "stack",
-              "draw_slot": true,
+              "draw_hover": false,
               "icon_string": "draconicevolution:draconic_legs,1,0,{Energy:16000000}"
             }
           ]
@@ -914,7 +914,7 @@
           "icons": [
             {
               "type": "stack",
-              "draw_slot": true,
+              "draw_hover": false,
               "icon_string": "draconicevolution:draconic_boots,1,0,{Energy:16000000}"
             }
           ]
@@ -984,7 +984,7 @@
       "icons": [
         {
           "type": "stack",
-          "draw_slot": true,
+          "draw_hover": false,
           "icon_string": "draconicevolution:fusion_crafting_core"
         }
       ],
@@ -1004,22 +1004,22 @@
           "icons": [
             {
               "type": "stack",
-              "draw_slot": true,
+              "draw_hover": false,
               "icon_string": "draconicevolution:crafting_injector"
             },
             {
               "type": "stack",
-              "draw_slot": true,
+              "draw_hover": false,
               "icon_string": "draconicevolution:crafting_injector,1,1"
             },
             {
               "type": "stack",
-              "draw_slot": true,
+              "draw_hover": false,
               "icon_string": "draconicevolution:crafting_injector,1,2"
             },
             {
               "type": "stack",
-              "draw_slot": true,
+              "draw_hover": false,
               "icon_string": "draconicevolution:crafting_injector,1,3"
             }
           ]
@@ -1047,7 +1047,7 @@
       "icons": [
         {
           "type": "stack",
-          "draw_slot": true,
+          "draw_hover": false,
           "icon_string": "draconicevolution:draconium_chest"
         }
       ]
@@ -1072,7 +1072,7 @@
       "icons": [
         {
           "type": "stack",
-          "draw_slot": true,
+          "draw_hover": false,
           "icon_string": "draconicevolution:energy_storage_core"
         }
       ],
@@ -1098,7 +1098,7 @@
           "icons": [
             {
               "type": "stack",
-              "draw_slot": true,
+              "draw_hover": false,
               "icon_string": "draconicevolution:particle_generator,1,2"
             }
           ]
@@ -1118,7 +1118,7 @@
           "icons": [
             {
               "type": "stack",
-              "draw_slot": true,
+              "draw_hover": false,
               "icon_string": "draconicevolution:energy_pylon"
             }
           ]
@@ -1145,37 +1145,37 @@
       "icons": [
         {
           "type": "stack",
-          "draw_slot": true,
+          "draw_hover": false,
           "icon_string": "draconicevolution:crystal_binder"
         },
         {
           "type": "stack",
-          "draw_slot": true,
+          "draw_hover": false,
           "icon_string": "draconicevolution:energy_crystal"
         },
         {
           "type": "stack",
-          "draw_slot": true,
+          "draw_hover": false,
           "icon_string": "draconicevolution:energy_crystal,1,1"
         },
         {
           "type": "stack",
-          "draw_slot": true,
+          "draw_hover": false,
           "icon_string": "draconicevolution:energy_crystal,1,2"
         },
         {
           "type": "stack",
-          "draw_slot": true,
+          "draw_hover": false,
           "icon_string": "draconicevolution:energy_crystal,1,3"
         },
         {
           "type": "stack",
-          "draw_slot": true,
+          "draw_hover": false,
           "icon_string": "draconicevolution:energy_crystal,1,4"
         },
         {
           "type": "stack",
-          "draw_slot": true,
+          "draw_hover": false,
           "icon_string": "draconicevolution:energy_crystal,1,5"
         }
       ],
@@ -1194,7 +1194,7 @@
           "icons": [
             {
               "type": "stack",
-              "draw_slot": true,
+              "draw_hover": false,
               "icon_string": "draconicevolution:crystal_binder"
             }
           ]
@@ -1221,17 +1221,17 @@
           "icons": [
             {
               "type": "stack",
-              "draw_slot": true,
+              "draw_hover": false,
               "icon_string": "draconicevolution:energy_crystal,1,3"
             },
             {
               "type": "stack",
-              "draw_slot": true,
+              "draw_hover": false,
               "icon_string": "draconicevolution:energy_crystal,1,4"
             },
             {
               "type": "stack",
-              "draw_slot": true,
+              "draw_hover": false,
               "icon_string": "draconicevolution:energy_crystal,1,5"
             }
           ]
@@ -1258,17 +1258,17 @@
           "icons": [
             {
               "type": "stack",
-              "draw_slot": true,
+              "draw_hover": false,
               "icon_string": "draconicevolution:energy_crystal"
             },
             {
               "type": "stack",
-              "draw_slot": true,
+              "draw_hover": false,
               "icon_string": "draconicevolution:energy_crystal,1,1"
             },
             {
               "type": "stack",
-              "draw_slot": true,
+              "draw_hover": false,
               "icon_string": "draconicevolution:energy_crystal,1,2"
             }
           ]
@@ -1295,17 +1295,17 @@
           "icons": [
             {
               "type": "stack",
-              "draw_slot": true,
+              "draw_hover": false,
               "icon_string": "draconicevolution:energy_crystal,1,6"
             },
             {
               "type": "stack",
-              "draw_slot": true,
+              "draw_hover": false,
               "icon_string": "draconicevolution:energy_crystal,1,7"
             },
             {
               "type": "stack",
-              "draw_slot": true,
+              "draw_hover": false,
               "icon_string": "draconicevolution:energy_crystal,1,8"
             }
           ]
@@ -1348,7 +1348,7 @@
       "icons": [
         {
           "type": "stack",
-          "draw_slot": true,
+          "draw_hover": false,
           "icon_string": "draconicevolution:diss_enchanter"
         }
       ]
@@ -1362,42 +1362,42 @@
       "icons": [
         {
           "type": "stack",
-          "draw_slot": true,
+          "draw_hover": false,
           "icon_string": "draconicevolution:dislocator"
         },
         {
           "type": "stack",
-          "draw_slot": true,
+          "draw_hover": false,
           "icon_string": "draconicevolution:dislocator_advanced,1,0,{}"
         },
         {
           "type": "stack",
-          "draw_slot": true,
+          "draw_hover": false,
           "icon_string": "draconicevolution:dislocator_bound,1,1"
         },
         {
           "type": "stack",
-          "draw_slot": true,
+          "draw_hover": false,
           "icon_string": "draconicevolution:magnet"
         },
         {
           "type": "stack",
-          "draw_slot": true,
+          "draw_hover": false,
           "icon_string": "draconicevolution:magnet,1,1"
         },
         {
           "type": "stack",
-          "draw_slot": true,
+          "draw_hover": false,
           "icon_string": "draconicevolution:dislocator_pedestal"
         },
         {
           "type": "stack",
-          "draw_slot": true,
+          "draw_hover": false,
           "icon_string": "draconicevolution:dislocator_receptacle"
         },
         {
           "type": "stack",
-          "draw_slot": true,
+          "draw_hover": false,
           "icon_string": "draconicevolution:item_dislocation_inhibitor"
         }
       ],
@@ -1416,7 +1416,7 @@
           "icons": [
             {
               "type": "stack",
-              "draw_slot": true,
+              "draw_hover": false,
               "icon_string": "draconicevolution:dislocator"
             }
           ]
@@ -1435,7 +1435,7 @@
           "icons": [
             {
               "type": "stack",
-              "draw_slot": true,
+              "draw_hover": false,
               "icon_string": "draconicevolution:dislocator_advanced,1,0,{}"
             }
           ]
@@ -1454,7 +1454,7 @@
           "icons": [
             {
               "type": "stack",
-              "draw_slot": true,
+              "draw_hover": false,
               "icon_string": "draconicevolution:dislocator_pedestal"
             }
           ]
@@ -1473,7 +1473,7 @@
           "icons": [
             {
               "type": "stack",
-              "draw_slot": true,
+              "draw_hover": false,
               "icon_string": "draconicevolution:dislocator_receptacle"
             }
           ]
@@ -1481,7 +1481,7 @@
         {
           "id": "bound_dislocators",
           "file": "dislocation/bound_dislocators_d4344.md",
-          "cycle_icons": false,
+          "cycle_icons": true,
           "hidden": false,
           "relations": [
             {
@@ -1496,12 +1496,12 @@
           "icons": [
             {
               "type": "stack",
-              "draw_slot": true,
+              "draw_hover": false,
               "icon_string": "draconicevolution:dislocator_bound,1,1"
             },
             {
               "type": "stack",
-              "draw_slot": true,
+              "draw_hover": false,
               "icon_string": "draconicevolution:dislocator_bound,1,2"
             }
           ]
@@ -1520,7 +1520,7 @@
           "icons": [
             {
               "type": "stack",
-              "draw_slot": true,
+              "draw_hover": false,
               "icon_string": "draconicevolution:magnet"
             }
           ]
@@ -1539,7 +1539,7 @@
           "icons": [
             {
               "type": "stack",
-              "draw_slot": true,
+              "draw_hover": false,
               "icon_string": "draconicevolution:magnet,1,1"
             }
           ]
@@ -1558,7 +1558,7 @@
           "icons": [
             {
               "type": "stack",
-              "draw_slot": true,
+              "draw_hover": false,
               "icon_string": "draconicevolution:item_dislocation_inhibitor"
             }
           ]
@@ -1571,7 +1571,6 @@
           "icons": [
             {
               "type": "stack",
-              "draw_slot": true,
               "draw_hover": false,
               "hover_text": "Link crystals via portals!",
               "icon_string": "draconicevolution:crystal_binder,1,0,{\"draconicevolution:binder\":[I;-1,69,4]}"
@@ -1595,7 +1594,7 @@
       "icons": [
         {
           "type": "stack",
-          "draw_slot": true,
+          "draw_hover": false,
           "icon_string": "draconicevolution:generator"
         }
       ]
@@ -1615,7 +1614,7 @@
       "icons": [
         {
           "type": "stack",
-          "draw_slot": true,
+          "draw_hover": false,
           "icon_string": "draconicevolution:energy_infuser"
         }
       ]
@@ -1635,7 +1634,7 @@
       "icons": [
         {
           "type": "stack",
-          "draw_slot": true,
+          "draw_hover": false,
           "icon_string": "draconicevolution:grinder"
         }
       ]
@@ -1656,22 +1655,22 @@
       "icons": [
         {
           "type": "stack",
-          "draw_slot": true,
+          "draw_hover": false,
           "icon_string": "draconicevolution:draconic_spawner,1,0,{BCTileData:{BCManagedData:{spawnerTier:0b,mobSoul:{id:\"draconicevolution:mob_soul\",Count:1b,tag:{EntityName:\"minecraft:pig\"},Damage:0s}}}}"
         },
         {
           "type": "stack",
-          "draw_slot": true,
+          "draw_hover": false,
           "icon_string": "draconicevolution:draconic_spawner,1,0,{BCTileData:{BCManagedData:{spawnerTier:1b,mobSoul:{id:\"draconicevolution:mob_soul\",Count:1b,tag:{EntityName:\"minecraft:creeper\"},Damage:0s}}}}"
         },
         {
           "type": "stack",
-          "draw_slot": true,
+          "draw_hover": false,
           "icon_string": "draconicevolution:draconic_spawner,1,0,{BCTileData:{BCManagedData:{spawnerTier:2b,mobSoul:{id:\"draconicevolution:mob_soul\",Count:1b,tag:{EntityName:\"minecraft:zombie\"},Damage:0s}}}}"
         },
         {
           "type": "stack",
-          "draw_slot": true,
+          "draw_hover": false,
           "icon_string": "draconicevolution:draconic_spawner,1,0,{BCTileData:{BCManagedData:{spawnerTier:3b,mobSoul:{id:\"draconicevolution:mob_soul\",Count:1b,tag:{EntityName:\"minecraft:cow\"},Damage:0s}}}}"
         }
       ]
@@ -1692,7 +1691,7 @@
       "icons": [
         {
           "type": "stack",
-          "draw_slot": true,
+          "draw_hover": false,
           "icon_string": "draconicevolution:mob_soul,1,0,{EntityName:\"[Random-Display]\"}"
         }
       ]
@@ -1713,7 +1712,7 @@
       "icons": [
         {
           "type": "stack",
-          "draw_slot": true,
+          "draw_hover": false,
           "icon_string": "draconicevolution:celestial_manipulator"
         }
       ]
@@ -1734,12 +1733,12 @@
       "icons": [
         {
           "type": "stack",
-          "draw_slot": true,
+          "draw_hover": false,
           "icon_string": "draconicevolution:entity_detector"
         },
         {
           "type": "stack",
-          "draw_slot": true,
+          "draw_hover": false,
           "icon_string": "draconicevolution:entity_detector,1,1"
         }
       ]
@@ -1760,7 +1759,7 @@
       "icons": [
         {
           "type": "stack",
-          "draw_slot": true,
+          "draw_hover": false,
           "icon_string": "draconicevolution:potentiometer"
         }
       ]
@@ -1781,7 +1780,7 @@
       "icons": [
         {
           "type": "stack",
-          "draw_slot": true,
+          "draw_hover": false,
           "icon_string": "draconicevolution:rain_sensor"
         }
       ]
@@ -1801,7 +1800,7 @@
       "icons": [
         {
           "type": "stack",
-          "draw_slot": true,
+          "draw_hover": false,
           "icon_string": "draconicevolution:ender_energy_manipulator"
         }
       ]
@@ -1851,7 +1850,7 @@
       "icons": [
         {
           "type": "stack",
-          "draw_slot": true,
+          "draw_hover": false,
           "icon_string": "draconicevolution:reactor_core"
         }
       ],
@@ -1895,12 +1894,12 @@
       "icons": [
         {
           "type": "stack",
-          "draw_slot": true,
+          "draw_hover": false,
           "icon_string": "draconicevolution:flow_gate"
         },
         {
           "type": "stack",
-          "draw_slot": true,
+          "draw_hover": false,
           "icon_string": "draconicevolution:flow_gate,1,8"
         }
       ]

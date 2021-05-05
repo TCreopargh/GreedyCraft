@@ -108,7 +108,8 @@ knowledgefulTrait.onHurt = function(trait, armor, player, source, damage, newDam
     if (!isNull(player)) {
         reduction = (player.xp as float / 300.0f) as float * 0.36f;
     }
-    return newDamage * (1.0 - calcSingleArmor(reduction as float)) as float;
+    
+    return newDamage * calcSingleArmor(reduction as float) as float;
 };
 knowledgefulTrait.register();
 
@@ -143,7 +144,7 @@ spartanTrait.onHurt = function(trait, armor, player, source, damage, newDamage, 
     if ((player.health as float / player.maxHealth as float) as float < 0.33f) {
         reduction = 0.3f + (1.0f - player.health as float / (player.maxHealth as float * 0.33f)) * 0.45f;
     }
-    return newDamage * (1.0f - calcSingleArmor(reduction as float)) as float;
+    return newDamage * calcSingleArmor(reduction as float) as float;
 };
 spartanTrait.register();
 
@@ -249,9 +250,8 @@ levelingdefenseTrait.extraInfo = function(thisTrait, item, tag) {
             multiplier = 0.5f + (multiplier as float - 1.0f) / 4.0f;
         }
     }
-    multiplier = calcSingleArmor(multiplier);
     var percentage as int = Math.round((1.0f - (1.0f / (multiplier + 1.0f))) * 100.0f) as int;
-    var desc as string[] = [I18n.format("greedycraft.armor_trait.tooltip.damage_reduction", "" + percentage)];
+    var desc as string[] = [I18n.format("greedycraft.armor_trait.tooltip.damage_reduction", "" + calcSingleArmor(percentage))];
     return desc;
 };
 levelingdefenseTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
@@ -277,8 +277,10 @@ levelingdefenseTrait.onHurt = function(trait, armor, player, source, damage, new
             multiplier = 1.0f + (multiplier - 1.0f) / 4.0f;
         }
     }
-    multiplier = calcSingleArmor(multiplier);
-    return (newDamage / (multiplier + 1.0)) as float;
+    // Thanks BDWSSBB for fixing this formula
+    val supposedDamage = newDamage as float / (multiplier + 1.0f);
+    val reduction = 1.0f - supposedDamage;
+    return calcSingleArmor(reduction);
 };
 levelingdefenseTrait.register();
 
@@ -431,3 +433,66 @@ enduranceTrait.onHurt = function(trait, armor, player, source, damage, newDamage
     return newDamage as float;
 };
 enduranceTrait.register();
+
+val vaccineTrait = ArmorTraitBuilder.create("vaccine");
+vaccineTrait.color = Color.fromHex("00ffcc").getIntColor(); 
+vaccineTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.vaccineTrait.name");
+vaccineTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.vaccineTrait.desc");
+vaccineTrait.onAbility = function(trait, level, world, player) {
+    if (!isNull(player)) {
+        if(player.isPotionActive(<potion:abyssalcraft:cplague>)) {
+            player.removePotionEffect(<potion:abyssalcraft:cplague>);
+        }
+    }
+};
+vaccineTrait.register();
+
+val strongVaccineTrait = ArmorTraitBuilder.create("strong_vaccine");
+strongVaccineTrait.color = Color.fromHex("00ffcc").getIntColor(); 
+strongVaccineTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.strongVaccineTrait.name");
+strongVaccineTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.strongVaccineTrait.desc");
+strongVaccineTrait.onAbility = function(trait, level, world, player) {
+    if (!isNull(player)) {
+        if(player.isPotionActive(<potion:abyssalcraft:cplague>)) {
+            player.removePotionEffect(<potion:abyssalcraft:cplague>);
+        }
+        if(player.isPotionActive(<potion:abyssalcraft:dplague>)) {
+            player.removePotionEffect(<potion:abyssalcraft:dplague>);
+        }
+    }
+};
+strongVaccineTrait.register();
+
+val warpDrainTrait = ArmorTraitBuilder.create("warp_drain");
+warpDrainTrait.color = Color.fromHex("ab47bc").getIntColor(); 
+warpDrainTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.warpDrainTrait.name");
+warpDrainTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.warpDrainTrait.desc");
+warpDrainTrait.onAbility = function(trait, level, world, player) {
+    if (!isNull(player)) {
+        if(world.getWorldTime() as long % 18000 == 0) {
+            var success = false;
+            if(player.warpNormal > 0 && Math.random() < 0.25) {
+                player.warpNormal -= 1;
+                success = true;
+            } else if(player.warpTemporary > 0) {
+                player.warpTemporary -= 1;
+                success = true;
+            }
+            if(success) {
+                val random = Math.random();
+                if(random < 0.2) {
+                    player.addPotionEffect(<potion:minecraft:speed>.makePotionEffect(240, 2, false, false));
+                } else if(random < 0.4) {
+                    player.addPotionEffect(<potion:minecraft:strength>.makePotionEffect(200, 2, false, false));
+                } else if(random < 0.6) {
+                    player.addPotionEffect(<potion:minecraft:resistance>.makePotionEffect(200, 1, false, false));
+                } else if(random < 0.8) {
+                    player.addPotionEffect(<potion:minecraft:jump_boost>.makePotionEffect(200, 2, false, false));
+                } else {
+                    player.addPotionEffect(<potion:minecraft:haste>.makePotionEffect(200, 2, false, false));
+                }
+            }
+        }
+    }
+};
+warpDrainTrait.register();

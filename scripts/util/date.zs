@@ -38,4 +38,5 @@ function isLunarNewYear() as bool {
     } else if (date.year == 2027) {
         return date.month == DateUtil.FEBRUARY() && date.day >= 4 && date.day <= 18;
     }
+    return false;
 }

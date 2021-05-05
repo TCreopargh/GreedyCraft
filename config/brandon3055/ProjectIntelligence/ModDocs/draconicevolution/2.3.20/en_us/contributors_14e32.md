@@ -7,9 +7,9 @@ Covers is the biggest DE contributor as far as DE 1.10+ is concerned. His work w
 §rule{colour:0x606060,height:3,width:100%}
 
 §n§6GreatOrator§b§n
-GreatOrator has always been and will always be one of my best friends. He was the first person I met in the modded community when we both played on the same modded 1.4.7 server a few years back. After playing with mods for a while we both decided we wanted to take it a step further. GreatOrator started working on the mod pack that is now known as Tolkiencraft and I decided to start messing with java and working on an add-on for Tolkiencraft that would one day be known as Draconic Evolution.
+GreatOrator has always been and will always be one of my best friends. He was the first person I met in the modded community when we both played on the same modded 1.4.7 server quite a few years back. After playing with mods for a while, we both decided we wanted to take it a step further. GreatOrator started working on the modpack that is now known as Tolkiencraft and I decided to start messing with Java and working on an add-on for Tolkiencraft that would one day be known as Draconic Evolution.
 
-If you told us back then how far we would go we never would have believed it tbh I'm still having a hard time believing it. I think it was the amazing success of the Tolkiencraft pack that what really helped DE become as popular as it is today because as people learned about TC they also learned about DE.
+If you told us back then how far we would go, we never would have believed it! To be honest, I'm still having a hard time believing it. I think it was the amazing success of the Tolkiencraft modpack that really helped DE become as popular as it is today, as when people learned about Tolkiencraft, they also learned about DE.
 §link[https://twitter.com/GreatOrator73]{alt_text:"Visit Twitter",colour:0xE0E0E0,colour_hover:0xFFFFA0,padding:4,link_style:vanilla} §link[https://www.twitch.tv/greatorator]{alt_text:"Visit Twitch",colour:0xE0E0E0,colour_hover:0xFFFFA0,padding:4,link_style:vanilla}
 §rule{colour:0x606060,height:3,width:100%}
 
@@ -211,30 +211,6 @@ I must also thank Sn0wshepherd for her contribution to DE. Almost all of the tex
 <td>
 §6Einhornyordle
 §r(Since Jan 31, 2021)§r
-</td>
-</tr>
-<tr>
-<td>
-
-</td>
-<td>
-
-</td>
-</tr>
-<tr>
-<td>
-
-</td>
-<td>
-
-</td>
-</tr>
-<tr>
-<td>
-
-</td>
-<td>
-
 </td>
 </tr>
 </table>

@@ -71,7 +71,7 @@
 			"texture": "greedycraft:mainmenu/shortbuttonhd.png",
 			"action": {
 				"type": "openLink",
-				"link": "http://greedycraft.tcreopargh.xyz/"
+				"link": "http://greedycraft.com/"
 			}
 		},
 		"options": {

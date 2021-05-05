@@ -5,12 +5,12 @@
 
 §rule{colour:0x606060,height:3,width:100%,top_pad:0}
 
-Thanks to the bound dislocators you now have the ability to transmit power through portals!
+Thanks to bound dislocators, you now have the ability to transmit power through portals!
 To do this simply create two portals and a set of §link[draconicevolution:dislocation/bound_dislocators]{alt_text:"Bound Dislocators"} (Point to Point)
-Then insert those dislocators into the portals to link them. 
-You can now bind a crystal to the receptacle of each portal and it will be as if the two crustals are linked directly to each other.
+Insert those dislocators into the portals to link them.
+You can then bind a crystal to the receptacle of each portal and it will be as if the two crystals are linked directly to each other.
 
-The two portals can be seperated by any distance. They can even be in different dimensions. 
+The two portals can be seperated by any distance. They can even be in different dimensions!
 
 Note: You can only link a single crystal to each portal and both portals need to be chunkloaded in order for the link to work.
 

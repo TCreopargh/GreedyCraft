@@ -6,7 +6,7 @@
 §rule{colour:0x606060,height:3,width:100%,top_pad:0}
 These are the top tier Draconic Evolution tools and weapons.
 
-These tools inherit all of the abilities of the Wyvern tools but the base stats are higher and they can accept draconic tier upgrades. 
+These tools inherit all of the abilities of the Wyvern tools but the base stats are higher and they can accept Draconic tier upgrades. 
 
 §6§nAdjustable Dig Depth.§r
 All of the mining tools have adjustable mining depth.

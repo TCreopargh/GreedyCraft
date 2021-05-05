@@ -1,13 +1,12 @@
 §align:center
 ##### §nDraconium Ore§n
 
-Draconium ore has 3 types found in different dimensions. Each type 
-drops a different amount of draconium dust when harvested.
-Draconium ore is best harvested with fortune 3.
+Draconium ore has 3 types found in different dimensions.
+Draconium ore is best harvested with the highest level of fortune you can get.
 
 Drops:
 2-4 Draconum Dust (when harvested normally)
-2-12 Draconum Dust (when harvested with fortune 3)
+2-12 Draconum Dust (when harvested with Fortune 3)
 
 // ###############################################################################################
 §rule{colour:0x606060,height:3,width:100%,top_pad:0}
@@ -33,7 +32,8 @@ Drops:
 	<td padding="4,2,4,2">
 		Nether
 
-		More common than the overworld variant but still fairly rare and and spawns in slightly smaller clusters than the overworld varient.
+		More common than the overworld variant but still fairly rare.
+Spawns in slightly smaller clusters than the overworld varient.
 
 	</td>
 </tr>
@@ -47,7 +47,7 @@ Drops:
 	<td padding="4,2,4,2">
 		End
 
-		This is the most common variant of draconium ore found on the main island and all other islands in the End
+		This is the most common variant of Draconium ore.  Found on the main island and all other islands in the End.
 	</td>
 </tr>
 </table>

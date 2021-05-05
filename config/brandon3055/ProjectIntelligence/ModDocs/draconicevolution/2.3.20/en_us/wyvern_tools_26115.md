@@ -17,7 +17,7 @@ This helps solve that issue.
 
 §6§n 5 Config Profiles §r
 Having to open a GUI and make changes every time you want adjust say the mining speed or AOE can be annoying.
-So each of these tools has 5 configurable profiles which you can easily switch between using a keybinding (Default is Backslash "\")
+To fix this, each of these tools has 5 configurable profiles which you can easily switch between using a keybind (Default is Backslash "\").
 These profiles can also be renamed for easier identification.
 
 §6§n Area of Effect Tools and Weapons §r
@@ -26,7 +26,7 @@ All of the tools and weapons have AOE functions. The mining tools also have the 
 §6§n AOE Safe Mode §r
 This is a feature with all of the mining tools. When enabled the tool will check for any tile entities (e.g. machines) within its range.
 If it finds any it will not break any blocks and will instead give you a warning.
-This is a good way to avoid say.. accidentally wiping out your processing like when you get home from a mining trip. 
+This is a good way to avoid say... accidentally decimating your processing machines or your ME system when you get home from a mining trip.
 
 §6§n Higher Attack Damage §r
 

@@ -6,13 +6,14 @@
 §rule{colour:0x606060,height:3,width:100%,top_pad:0}
 §b§nStats
 
-§616 Million RF capacity upgradable to 256 Million.
+§616M RF capacity - Upgradable to 256M.
 
-§63x3 base attack radius. Upgradable to 13x13
-Note the AOE attack only works when the sword is fully charged (meaning the recharge time after you swing the sword has expired).
+§63x3 base attack radius - Upgradable to 13x13.
+Note: The AOE attack only works when the sword is fully charged.
 (Referring to the new vanilla charging mechanic)
 
-§635 base Attack. Upgradable to 61.25
+
+§635 base Attack - Upgradable to 61.25.
 
 §rule{colour:0x606060,height:3,width:100%,top_pad:0}
 §recipe[draconicevolution:draconic_sword]{spacing:2}

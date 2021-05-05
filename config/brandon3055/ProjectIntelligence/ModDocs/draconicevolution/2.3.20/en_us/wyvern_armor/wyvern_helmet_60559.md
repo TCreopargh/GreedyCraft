@@ -6,7 +6,7 @@
 §rule{colour:0x606060,height:3,width:100%,top_pad:0}
 §bStats
 
-+20 Base Shield Capacity
++38 Base Shield Capacity
 +2 Armor Toughness
 +3 Armor
 

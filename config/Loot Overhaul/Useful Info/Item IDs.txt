@@ -7195,6 +7195,7 @@ cqrepoured:exporter_chest_vanilla_stronghold - 10877
 cqrepoured:exporter_chest_vanilla_stronghold_library - 10878
 cqrepoured:exporter_chest_vanilla_stronghold_storeroom - 10879
 cqrepoured:phylactery - 10880
+draconicadditions:hermal_chest - 10881
 colytra:elytra_bauble - 10882
 comforts:sleeping_bag - 10883
 comforts:hammock - 10884
@@ -14388,3 +14389,10 @@ jaopca:item_dustdirtyaqualite - 18071
 jaopca:item_dustdirtymanganese - 18072
 sakura:barrel_out - 18073
 sakura:teishoku_fish_salt - 18074
+draconicadditions:hermal_legs - 18075
+draconicadditions:chaotic_bow - 18076
+draconicadditions:hermal - 18077
+draconicadditions:chaos_heart - 18078
+draconicadditions:hermal_helm - 18079
+draconicadditions:hermal_boots - 18080
+draconicadditions:chaos_crystal_stable - 18081

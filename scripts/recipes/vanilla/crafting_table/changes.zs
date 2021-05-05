@@ -89,7 +89,7 @@ RecipeUtil.removeAndAdd("transmutation_charm", <equivalentintegrations:soulbound
 ]);
 RecipeUtil.removeAndAdd("transmutation_upgrade", <equivalentintegrations:alchemical_algorithms>, [
     [<minecraft:book>, null, <minecraft:book>],
-    [<additions:greedycraft-pearl_of_knowledge>, <equivalentintegrations:alchemical_algorithms>, <additions:greedycraft-pearl_of_knowledge>], 
+    [<additions:greedycraft-pearl_of_knowledge>, <additions:greedycraft-energy_matter_core>, <additions:greedycraft-pearl_of_knowledge>], 
     [<minecraft:book>, <projecte:item.pe_matter:1>, <minecraft:book>]
 ]);
 RecipeUtil.removeAndAdd("transmutation_machine_0", <equivalentintegrations:transmutation_chamber>, [
@@ -106,5 +106,20 @@ RecipeUtil.removeAndAdd("transmutation_machine_2", <equivalentintegrations:trans
     [<ore:ingotAeonsteel>, <ore:ingotElectrumFlux>, <ore:ingotAeonsteel>],
     [<ore:ingotElectrumFlux>, <additions:greedycraft-energy_matter_core>, <ore:ingotElectrumFlux>], 
     [<ore:ingotAeonsteel>, <ore:ingotElectrumFlux>, <ore:ingotAeonsteel>]
+]);
+RecipeUtil.removeAndAdd("diamond_horse_armor", <minecraft:diamond_horse_armor>, [
+    [<ore:gemDiamond>, <ore:gemDiamond>, <ore:gemDiamond>],
+    [<ore:leather>, <ore:wool>, <ore:leather>],
+    [<ore:gemDiamond>, <ore:gemDiamond>, <ore:gemDiamond>]
+]);
+RecipeUtil.removeAndAdd("gold_horse_armor", <minecraft:golden_horse_armor>, [
+    [<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>],
+    [<ore:leather>, <ore:wool>, <ore:leather>],
+    [<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>]
+]);
+RecipeUtil.removeAndAdd("iron_horse_armor", <minecraft:iron_horse_armor>, [
+    [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>],
+    [<ore:leather>, <ore:wool>, <ore:leather>],
+    [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]
 ]);
 

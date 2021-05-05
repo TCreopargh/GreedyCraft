@@ -5,17 +5,17 @@
 ###### §nStats
 
 §9Basic§r
-Capacity: 4 Million
+Capacity: 4M
 Max Links: 4
 Max Wireless Links: 16
 
 §5Wyvern§r
-Capacity: 16 Million
+Capacity: 16M
 Max Links: 8
 Max Wireless Links: 32
 
 §6Draconic§r
-Capacity: 64 Million
+Capacity: 64M
 Max Links: 16
 Max Wireless Links: 64
 

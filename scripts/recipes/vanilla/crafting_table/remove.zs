@@ -405,7 +405,7 @@ val removedRecipeNames as string[] = [
     "mysticalagriculture:core/compression/superium_essence_block_to",
     "mysticalagriculture:core/compression/prudentium_essence_block_to",
     "mysticalagriculture:core/compression/intermedium_essence_block_to",
-    "mysticalagradditions:core/insanium_essence_block_to_infusion"
+    "mysticalagradditions:insanium_essence_block_to_infusion"
 ];
 
 for ingredient in removedRecipes {

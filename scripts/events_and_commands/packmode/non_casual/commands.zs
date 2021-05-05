@@ -107,8 +107,11 @@ events.onPlayerTick(function (event as PlayerTickEvent) {
     
     var showScoreboard as bool = true;
 
-    if (!isNull(IWorld.getFromID(0)) && !isNull(IWorld.getFromID(0).getCustomWorldData()) && (IWorld.getFromID(0).getCustomWorldData() has "showScoreboard") && IWorld.getFromID(0).getCustomWorldData().memberGet("showScoreboard") == false) {
-        showScoreboard = false;
+    if (!isNull(IWorld.getFromID(0)) && !isNull(IWorld.getFromID(0).getCustomWorldData()) && (IWorld.getFromID(0).getCustomWorldData() has "showScoreboard") && !isNull(IWorld.getFromID(0).getCustomWorldData().memberGet("showScoreboard"))) {
+        val doShowScoreboard as bool = IWorld.getFromID(0).getCustomWorldData().memberGet("showScoreboard") as bool;
+        if(!doShowScoreboard) {
+            showScoreboard = false;
+        }
     }
 
     if (!showScoreboard || (event.player.world.getWorldTime() as long) % 200 != 0 || event.player.world.remote || event.phase != "END" || event.side != "SERVER") {

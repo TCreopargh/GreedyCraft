@@ -17,6 +17,8 @@ import mods.zensummoning.SummoningAttempt;
 import mods.zensummoning.SummoningInfo;
 import mods.zensummoning.MobInfo;
 
+import scripts.util.lang as LangUtil;
+
 SummoningDirector.addSummonInfo(
     SummoningInfo.create()
         .setCatalyst(<additions:greedycraft-sun_totem>)
@@ -68,21 +70,21 @@ SummoningDirector.addSummonInfo(
             }
             if (!pass1) {
                 attempt.success = false;
-                attempt.message = game.localize("greedycraft.zensummoning.barako.fail.1");
+                attempt.message = LangUtil.translate("greedycraft.zensummoning.barako.fail.1");
             } else if (!pass2) {
                 attempt.success = false;
-                attempt.message = game.localize("greedycraft.zensummoning.barako.fail.2");
+                attempt.message = LangUtil.translate("greedycraft.zensummoning.barako.fail.2");
             } else if (attempt.world.isRaining()) {
                 attempt.success = false;
-                attempt.message = game.localize("greedycraft.zensummoning.barako.fail.3");
+                attempt.message = LangUtil.translate("greedycraft.zensummoning.barako.fail.3");
             } else if (!attempt.world.dayTime) {
                 attempt.success = false;
-                attempt.message = game.localize("greedycraft.zensummoning.barako.fail.4");
+                attempt.message = LangUtil.translate("greedycraft.zensummoning.barako.fail.4");
             } else if (attempt.world.getProvider().getDimensionID() != 0) {
                 attempt.success = false;
-                attempt.message = game.localize("greedycraft.zensummoning.barako.fail.5");
+                attempt.message = LangUtil.translate("greedycraft.zensummoning.barako.fail.5");
             } else { 
-                attempt.message = game.localize("greedycraft.zensummoning.barako.success");
+                attempt.message = LangUtil.translate("greedycraft.zensummoning.barako.success");
             }
         })
 );

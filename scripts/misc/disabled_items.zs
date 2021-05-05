@@ -297,7 +297,13 @@ val disabledItems as IIngredient[] = [
     <sakura:samurai_chest>,
     <sakura:samurai_pants>,
     <sakura:samurai_shoes>,
-    <inventorypets:item_petrifier>
+    <inventorypets:item_petrifier>,
+    <cyclicmagic:fluid_pipe>,
+    <cyclicmagic:fluid_pump>,
+    <cyclicmagic:energy_pipe>,
+    <cyclicmagic:item_pipe>,
+    <cyclicmagic:item_pump>,
+    <cyclicmagic:energy_pump>
 ] as IIngredient[];
 
 val disabledRecipeRegex as string[] = [

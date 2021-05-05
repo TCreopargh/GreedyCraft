@@ -11,6 +11,7 @@ import crafttweaker.data.IData;
 import crafttweaker.item.IIngredient;
 
 import scripts.util.recipes as RecipeUtil;
+import scripts.util.lang as LangUtil;
 
 ////////////////////////////////
 //                            //
@@ -83,6 +84,11 @@ RecipeUtil.addShaped("spawn_slime", <minecraft:spawn_egg>.withTag({EntityTag: {i
     [<ore:slimeball>, <minecraft:egg>, <ore:slimeball>],
     [null, <ore:slimeball>, null]
 ]);
+RecipeUtil.addShaped("villager_vial", <enderio:item_soul_vial:1>.withTag({entityId: "minecraft:villager"}), [
+    [null, <minecraft:emerald>, null],
+    [<minecraft:emerald>, <enderio:item_soul_vial>, <minecraft:emerald>],
+    [null, <minecraft:emerald>, null]
+]);
 RecipeUtil.addShaped("auto_gen_2051907122", <minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:villager"}}), [
     [null, <minecraft:emerald>, null],
     [<minecraft:emerald>, <minecraft:egg>, <minecraft:emerald>],
@@ -128,7 +134,7 @@ RecipeUtil.addShaped("auto_gen_11266081", <additions:greedycraft-item_purger>, [
     [null, <minecraft:stick>, null],
     [<minecraft:wheat>, null, null]
 ]);
-RecipeUtil.addShaped("auto_gen_-2104803001", <minecraft:splash_potion>.withTag({CustomPotionEffects: [{ShowParticles: 0 as byte, Duration: 2400, Id: 1, Amplifier: 126}, {ShowParticles: 0 as byte, Duration: 2400, Id: 8, Amplifier: 126}], CustomPotionColor: 720859, display: {Lore: [game.localize("greedycraft.misc.lightspeedpotion.tooltip")], Name: game.localize("greedycraft.misc.lightspeedpotion.name")}}), [
+RecipeUtil.addShaped("auto_gen_-2104803001", <minecraft:splash_potion>.withTag({CustomPotionEffects: [{ShowParticles: 0 as byte, Duration: 2400, Id: 1, Amplifier: 126}, {ShowParticles: 0 as byte, Duration: 2400, Id: 8, Amplifier: 126}], CustomPotionColor: 720859, display: {Lore: [LangUtil.translate("greedycraft.misc.lightspeedpotion.tooltip")], Name: LangUtil.translate("greedycraft.misc.lightspeedpotion.name")}}), [
     [<minecraft:chorus_fruit>, <minecraft:chorus_fruit>, <minecraft:chorus_fruit>],
     [<minecraft:chorus_fruit>, <minecraft:glass_bottle>, <minecraft:chorus_fruit>],
     [<minecraft:chorus_fruit>, <minecraft:chorus_fruit>, <minecraft:chorus_fruit>]
@@ -148,17 +154,17 @@ RecipeUtil.addShaped("auto_gen_558684333", <ftbquests:lootcrate>.withTag({type:"
     [<ftbquests:lootcrate>.withTag({type:"loot_level_3"}), <ftbquests:lootcrate>.withTag({type:"loot_level_3"}), <ftbquests:lootcrate>.withTag({type:"loot_level_3"})],
     [<ftbquests:lootcrate>.withTag({type:"loot_level_3"}), <ftbquests:lootcrate>.withTag({type:"loot_level_3"}), <ftbquests:lootcrate>.withTag({type:"loot_level_3"})]
 ]);
-RecipeUtil.addShaped("auto_gen_-1874338203", <minecraft:splash_potion>.withTag({CustomPotionEffects: [{ShowParticles: 0 as byte, Duration: 1200, Id: 25, Amplifier: 126}], CustomPotionColor: 16722379, display: {Lore: [game.localize("greedycraft.misc.flyingpotion.tooltip")], Name: game.localize("greedycraft.misc.flyingpotion.name")}}), [
+RecipeUtil.addShaped("auto_gen_-1874338203", <minecraft:splash_potion>.withTag({CustomPotionEffects: [{ShowParticles: 0 as byte, Duration: 1200, Id: 25, Amplifier: 126}], CustomPotionColor: 16722379, display: {Lore: [LangUtil.translate("greedycraft.misc.flyingpotion.tooltip")], Name: LangUtil.translate("greedycraft.misc.flyingpotion.name")}}), [
     [<minecraft:feather>, <minecraft:feather>, <minecraft:feather>],
     [<minecraft:feather>, <minecraft:glass_bottle>, <minecraft:feather>],
     [<minecraft:feather>, <minecraft:feather>, <minecraft:feather>]
 ]);
-RecipeUtil.addShaped("auto_gen_6394519", <minecraft:splash_potion>.withTag({CustomPotionEffects: [{ShowParticles: 0 as byte, Duration: 6000, Id: 27, Amplifier: 126}], CustomPotionColor: 0, display: {Lore: [game.localize("greedycraft.misc.badluckpotion.tooltip")], Name: game.localize("greedycraft.misc.badluckpotion.name")}}), [
+RecipeUtil.addShaped("auto_gen_6394519", <minecraft:splash_potion>.withTag({CustomPotionEffects: [{ShowParticles: 0 as byte, Duration: 6000, Id: 27, Amplifier: 126}], CustomPotionColor: 0, display: {Lore: [LangUtil.translate("greedycraft.misc.badluckpotion.tooltip")], Name: LangUtil.translate("greedycraft.misc.badluckpotion.name")}}), [
     [<ore:dyeBlack>, <ore:dyeBlack>, <ore:dyeBlack>],
     [<ore:dyeBlack>, <minecraft:glass_bottle>, <ore:dyeBlack>],
     [<ore:dyeBlack>, <ore:dyeBlack>, <ore:dyeBlack>]
 ]);
-RecipeUtil.addShaped("auto_gen_684700803", <minecraft:stick>.withTag({ench: [{lvl: 10, id: 19}], display: {Lore: [game.localize("greedycraft.misc.knockbackwand.tooltip")], Name: game.localize("greedycraft.misc.knockbackwand.name")}}), [
+RecipeUtil.addShaped("auto_gen_684700803", <minecraft:stick>.withTag({ench: [{lvl: 10, id: 19}], display: {Lore: [LangUtil.translate("greedycraft.misc.knockbackwand.tooltip")], Name: LangUtil.translate("greedycraft.misc.knockbackwand.name")}}), [
     [<ore:blockSlime>, <ore:blockDiamond>, <ore:blockSlime>],
     [<ore:blockDiamond>, <minecraft:stick>, <ore:blockDiamond>],
     [<ore:blockSlime>, <ore:blockDiamond>, <ore:blockSlime>]

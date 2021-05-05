@@ -7,6 +7,7 @@
 #no_fix_recipe_book
 
 global whitelistedCommands as string[] = [
+    "ping",
     "me", 
     "say", 
     "help", 

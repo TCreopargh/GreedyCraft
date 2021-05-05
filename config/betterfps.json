@@ -1,1 +1,1 @@
-{"algorithm":"rivens-half","updateChecker":false,"preallocateMemory":true,"fog":false,"beaconBeam":false,"fastHopper":true,"fastBeacon":true,"fastSearch":true,"asyncSearch":true}
+{"algorithm":"rivens-full","updateChecker":false,"preallocateMemory":true,"fog":false,"beaconBeam":false,"fastHopper":true,"fastBeacon":true,"fastSearch":true,"asyncSearch":true}

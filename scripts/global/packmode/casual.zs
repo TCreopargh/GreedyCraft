@@ -2,8 +2,8 @@
 #no_fix_recipe_book
 #packmode casual
 
-global FROSTMAW_HP as int = 16000;
-global BARAKO_HP as int = 40000;
+global FROSTMAW_HP as int = 12500;
+global BARAKO_HP as int = 30000;
 global BARAKO_MINION_COUNT as int = 2;
 global FROSTMAW_MINION_COUNT as int = 3;
 global PACKMODE as int = MODE_CASUAL;

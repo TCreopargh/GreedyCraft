@@ -1,17 +1,19 @@
 §align:center
 ##### §nFusion Upgrades§n
 
-Using the fusion crafting system it is possible to upgrade your tools and weapons.
-To do this you will need an upgrade key for the upgrade you want 
-and the required ingredients for the upgrade level you want to apply.
+Using the Fusion Crafting system, it is possible to upgrade your tools and weapons.
+To do this, you will need an upgrade key and the required ingredients for the upgrade level.
 
-Most upgrades have 4 tiers. Basic, Wyvern, Draconic, and Chaotic (Note: chaotic cannot yet be applied to any items)
+Most upgrades have 4 tiers: Basic, Wyvern, Draconic, and Chaotic.
+
+(Note: Chaotic cannot be applied to any item and there are no plans to add this for the 1.12.2 version. If you cannot wait for the 1.16+ version or want this functionality in 1.12.2, check out Draconic Additions)
+
 You must have the previous tier applied before you can apply a higher tier upgrade.
 
-Each upgrade tier requires different ingredients and its respective tier fusion crafter.
+Each upgrade tier requires different ingredients and its respective tier Fusion Crafter.
 To find the ingredients required for an upgrade key, simply hover over the key in your inventory and hold shift.
 You will see a list of all ingredients required. It will cycle through the tiers every 5 seconds.
-To pause the display, simply hold CTRL as well. Try it on some of the keys below. 
+To pause the display, simply hold CTRL as well. Try it on some of the keys below! 
 
 §rule{colour:0x606060,height:3,width:100%,top_pad:0}
 
@@ -32,5 +34,5 @@ To pause the display, simply hold CTRL as well. Try it on some of the keys below
 
 §rule{colour:0x606060,height:3,width:100%,top_pad:0}
 Note these upgrades are only applicable to Draconic Evolution items or other mods items if they support the upgrade API.
-§link[draconicevolution:fusion_crafting]{alt_text:"Click here to learn more about fusion crafting!"}
+§link[draconicevolution:fusion_crafting]{alt_text:"Click here to learn more about Fusion Crafting!"}
 §rule{colour:0x606060,height:3,width:100%}

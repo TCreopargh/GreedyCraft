@@ -1431,16 +1431,6 @@ cyclicmagic:snow
        cyclicmagic:potion.snow - 3600 - 0 - false - true
 
 
-cyclicmagic:butter
-   - Effects: 
-       cyclicmagic:potion.butter - 3600 - 0 - false - true
-
-
-cyclicmagic:butter2
-   - Effects: 
-       cyclicmagic:potion.butter - 1800 - 1 - false - true
-
-
 cyclicmagic:slowfall
    - Effects: 
        cyclicmagic:potion.slowfall - 3600 - 0 - false - true

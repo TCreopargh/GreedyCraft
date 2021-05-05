@@ -1680,3 +1680,43 @@ extrautils2:effect.xu2.purging
 	- Is Beneficial: false
 
 
+xaeroworldmap:no_world_map
+   - Id: 209
+   - Color: -16777216
+   - Is Instant: false
+   - Is Bad: true
+	- Is Beneficial: false
+
+
+xaerominimap:no_entity_radar
+   - Id: 210
+   - Color: -16777216
+   - Is Instant: false
+   - Is Bad: true
+	- Is Beneficial: false
+
+
+xaerominimap:no_minimap
+   - Id: 211
+   - Color: -16777216
+   - Is Instant: false
+   - Is Bad: true
+	- Is Beneficial: false
+
+
+xaerominimap:no_waypoints
+   - Id: 212
+   - Color: -16777216
+   - Is Instant: false
+   - Is Bad: true
+	- Is Beneficial: false
+
+
+xaerominimap:no_cave_maps
+   - Id: 213
+   - Color: -16777216
+   - Is Instant: false
+   - Is Bad: true
+	- Is Beneficial: false
+
+

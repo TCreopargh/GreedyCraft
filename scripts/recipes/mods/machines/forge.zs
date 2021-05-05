@@ -100,9 +100,9 @@ MMUtil.addForgeRecipe("aeonsteel_forge", MMUtil.getStack(<additions:aeonsteel_in
         speed: 0.2,
         energy: 0.2
     }, 
-    <mekanism:controlcircuit:3> : {
-        speed: 0.35,
-        energy: 0.35
+    <botanicadds:gaiasteel_ingot> : {
+        speed: 0.5,
+        energy: 0.4
     },
     <additions:greedycraft-time_shard> : {
         speed: 0.15,

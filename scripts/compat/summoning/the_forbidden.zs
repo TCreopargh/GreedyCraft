@@ -17,6 +17,8 @@ import mods.zensummoning.SummoningAttempt;
 import mods.zensummoning.SummoningInfo;
 import mods.zensummoning.MobInfo;
 
+import scripts.util.lang as LangUtil;
+
 SummoningDirector.addSummonInfo(
     SummoningInfo.create()
         .setCatalyst(<additions:greedycraft-forbidden_bible>)
@@ -27,7 +29,7 @@ SummoningDirector.addSummonInfo(
             .setCount(1)
             .setOffset(0,4,0)
             .setSpread(1,1,1)
-            .setData({HandItems: [{id: "avaritia:infinity_sword", Count: 1 as byte, Damage: 0 as short}, {id: "additions:greedycraft-huaji", Count: 64 as byte, Damage: 0 as short}], HandDropChances: [-10000 as float, 1 as float], CustomName: game.localize("greedycraft.zensummoning.tcreopargh.name"), Username: "TCreopargh", Health: 1919810, Attributes:[{"Name":"generic.maxHealth","Base": 114514}]})
+            .setData({HandItems: [{id: "avaritia:infinity_sword", Count: 1 as byte, Damage: 0 as short}, {id: "additions:greedycraft-huaji", Count: 64 as byte, Damage: 0 as short}], HandDropChances: [-10000 as float, 1 as float], CustomName: LangUtil.translate("greedycraft.zensummoning.tcreopargh.name"), Username: "TCreopargh", Health: 1919810, Attributes:[{"Name":"generic.maxHealth","Base": 114514}]})
         )
         .addMob(MobInfo.create()
             .setMob("headcrumbs:human")
@@ -69,15 +71,15 @@ SummoningDirector.addSummonInfo(
             }
             if (attempt.world.getProvider().getDimensionID() != -1) {
                 attempt.success = false;
-                attempt.message = game.localize("greedycraft.zensummoning.tcreopargh.fail.1");
+                attempt.message = LangUtil.translate("greedycraft.zensummoning.tcreopargh.fail.1");
             } else if (!pass1) {
                 attempt.success = false;
-                attempt.message = game.localize("greedycraft.zensummoning.tcreopargh.fail.2");
+                attempt.message = LangUtil.translate("greedycraft.zensummoning.tcreopargh.fail.2");
             } else if (!pass2) {
                 attempt.success = false;
-                attempt.message = game.localize("greedycraft.zensummoning.tcreopargh.fail.3");
+                attempt.message = LangUtil.translate("greedycraft.zensummoning.tcreopargh.fail.3");
             } else {
-                attempt.message = game.localize("greedycraft.zensummoning.tcreopargh.success");
+                attempt.message = LangUtil.translate("greedycraft.zensummoning.tcreopargh.success");
             }
         })
 );

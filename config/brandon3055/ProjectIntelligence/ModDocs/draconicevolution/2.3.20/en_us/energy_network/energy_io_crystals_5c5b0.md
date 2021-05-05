@@ -5,15 +5,15 @@
 ###### §nStats
 
 §9Basic§r
-Capacity: 4 Million
+Capacity: 4M
 Max Links: 2 
 
 §5Wyvern§r
-Capacity: 16 Million
+Capacity: 16M
 Max Links: 3
 
 §6Draconic§r
-Capacity: 64 Million
+Capacity: 64M
 Max Links: 4
 
 §rule{colour:0x606060,height:3,width:100%,top_pad:0}

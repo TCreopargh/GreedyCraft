@@ -12,12 +12,14 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.data.IData;
 import crafttweaker.item.IIngredient;
 
-val errorStone = <minecraft:stone>.withTag({display: {Name: game.localize("greedycraft.misc.bug_stone.name"), Lore: [game.localize("greedycraft.misc.bug_stone.tooltip.1"), game.localize("greedycraft.misc.bug_stone.tooltip.2")]}}) as IItemStack;
+import scripts.util.lang as LangUtil;
+
+val errorStone = <minecraft:stone>.withTag({display: {Name: LangUtil.translate("greedycraft.misc.bug_stone.name"), Lore: [LangUtil.translate("greedycraft.misc.bug_stone.tooltip.1"), LangUtil.translate("greedycraft.misc.bug_stone.tooltip.2")]}}) as IItemStack;
 
 recipes.addShapeless("nametag_to_human_spawn_egg", <minecraft:spawn_egg>, [<minecraft:name_tag>.marked("nametag"), <minecraft:egg>], 
 function(out, ins, cInfo) {
     var name = ins.nametag.displayName;
-    return <minecraft:spawn_egg>.withTag({display: {Name: "§e" + name + game.localize("greedycraft.misc.spawn_egg")}, EntityTag: {Username: name, id: "headcrumbs:human"}});
+    return <minecraft:spawn_egg>.withTag({display: {Name: "§e" + name + LangUtil.translate("greedycraft.misc.spawn_egg")}, EntityTag: {Username: name, id: "headcrumbs:human"}});
 }, null);
 recipes.addShapeless("head_to_human_spawn_egg", <minecraft:spawn_egg>, [<minecraft:skull:3>.marked("head"), <minecraft:egg>], 
 function(out, ins, cInfo) {
@@ -31,12 +33,12 @@ function(out, ins, cInfo) {
             name = nameData.asString();
         }
     }
-    return <minecraft:spawn_egg>.withTag({display: {Name: "§e" + name + game.localize("greedycraft.misc.spawn_egg")}, EntityTag: {Username: name, id: "headcrumbs:human"}});
+    return <minecraft:spawn_egg>.withTag({display: {Name: "§e" + name + LangUtil.translate("greedycraft.misc.spawn_egg")}, EntityTag: {Username: name, id: "headcrumbs:human"}});
 },null);
 recipes.addShapeless("nametag_to_head", <minecraft:skull>, [<minecraft:name_tag>.marked("nametag1"), <minecraft:skull:*>], 
 function(out, ins, cInfo) {
     var name = ins.nametag1.displayName;
-    return <minecraft:skull:3>.withTag({display: {Name: "§e" + name + game.localize("greedycraft.misc.head")}, SkullOwner: name});
+    return <minecraft:skull:3>.withTag({display: {Name: "§e" + name + LangUtil.translate("greedycraft.misc.head")}, SkullOwner: name});
 },null);
 
 recipes.addShaped("dank_null_1", <danknull:dank_null_1>, [
@@ -224,7 +226,7 @@ function(out, ins, cInfo) {
     if (modifiersFrom.asString().contains("leveling_armor")) {
         for i in 0 to modifiersFrom.length {
             var current as IData = modifiersFrom[i];
-            if ("toolleveling" == current.memberGet("identifier")) {
+            if ("leveling_armor" == current.memberGet("identifier")) {
                 toolLevel = current;
                 if(toolLevel has "level") {
                     level = toolLevel.memberGet("level") as int;
@@ -234,10 +236,10 @@ function(out, ins, cInfo) {
         }
     }
     
-    if (modifiersTo.asString().contains("toolleveling")) {
+    if (modifiersTo.asString().contains("leveling_armor")) {
         for i in 0 to modifiersTo.length {
             var current as IData = modifiersTo[i];
-            if ("toolleveling" == current.memberGet("identifier")) {
+            if ("leveling_armor" == current.memberGet("identifier")) {
                 toolLevelOld = current;
                 if(toolLevelOld has "level") {
                     oldLevel = toolLevelOld.memberGet("level") as int;

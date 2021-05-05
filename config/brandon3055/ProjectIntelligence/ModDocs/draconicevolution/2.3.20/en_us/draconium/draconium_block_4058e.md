@@ -5,7 +5,7 @@
 
 §rule{colour:0x606060,height:3,width:100%,top_pad:0}
 Draconium in its block form. 
-This block is resistant to most mobs including the Wither and EnderDragon.
+This block is resistant to most mobs, including the Wither and Ender Dragon.
 Equivalent to 4 book shelves when used as an enchanting booster.
 
 §rule{colour:0x606060,height:3,width:100%,top_pad:0}
