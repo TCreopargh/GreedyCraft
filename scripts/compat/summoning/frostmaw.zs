@@ -17,6 +17,8 @@ import mods.zensummoning.SummoningAttempt;
 import mods.zensummoning.SummoningInfo;
 import mods.zensummoning.MobInfo;
 
+import scripts.util.lang as LangUtil;
+
 SummoningDirector.addSummonInfo(
     SummoningInfo.create()
         .setCatalyst(<additions:greedycraft-beast_hand>)
@@ -68,21 +70,21 @@ SummoningDirector.addSummonInfo(
             }
             if (!pass1) {
                 attempt.success = false;
-                attempt.message = game.localize("greedycraft.zensummoning.frostmaw.fail.1");
+                attempt.message = LangUtil.translate("greedycraft.zensummoning.frostmaw.fail.1");
             } else if (!pass2) {
                 attempt.success = false;
-                attempt.message = game.localize("greedycraft.zensummoning.frostmaw.fail.2");
+                attempt.message = LangUtil.translate("greedycraft.zensummoning.frostmaw.fail.2");
             } else if (!world.getBiome(pos).isSnowyBiome && world.seasonState.season != 3) {
                 attempt.success = false;
-                attempt.message = game.localize("greedycraft.zensummoning.frostmaw.fail.3");
+                attempt.message = LangUtil.translate("greedycraft.zensummoning.frostmaw.fail.3");
             } else if (!world.raining) {
                 attempt.success = false;
-                attempt.message = game.localize("greedycraft.zensummoning.frostmaw.fail.4");
+                attempt.message = LangUtil.translate("greedycraft.zensummoning.frostmaw.fail.4");
             } else if (attempt.world.getProvider().getDimensionID() != 0) {
                 attempt.success = false;
-                attempt.message = game.localize("greedycraft.zensummoning.frostmaw.fail.5");
+                attempt.message = LangUtil.translate("greedycraft.zensummoning.frostmaw.fail.5");
             } else {
-                attempt.message = game.localize("greedycraft.zensummoning.frostmaw.success");
+                attempt.message = LangUtil.translate("greedycraft.zensummoning.frostmaw.success");
             }
         })
 );

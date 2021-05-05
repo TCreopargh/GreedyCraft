@@ -1,0 +1,498 @@
+{
+  "mod_id": "draconicadditions",
+  "mod_version": "1.16.0",
+  "__verified_comment": "Do not change this to true. If you do so your PR will be automatically rejected.",
+  "verified": false,
+  "file": "draconicadditions_722bd.md",
+  "icons": [
+    {
+      "type": "stack",
+      "draw_hover": false,
+      "icon_string": "draconicadditions:chaotic_energy_core"
+    }
+  ],
+  "cycle_icons": false,
+  "pages": [
+    {
+      "id": "necklace_of_shielding",
+      "file": "necklace_of_shielding_e1569.md",
+      "cycle_icons": true,
+      "hidden": false,
+      "sorting_weight": 4,
+      "icons": [
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "draconicadditions:draconic_shield_necklace,1,0,{Energy:200000}"
+        },
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "draconicadditions:wyvern_shield_necklace,1,0,{Energy:100000}"
+        },
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "draconicadditions:basic_shield_necklace,1,0,{Energy:50000}"
+        }
+      ],
+      "pages": [
+        {
+          "id": "basic_shield_necklace",
+          "file": "necklace_of_shielding/basic_shield_necklace_8a3bf.md",
+          "cycle_icons": false,
+          "hidden": false,
+          "sorting_weight": 1,
+          "icons": [
+            {
+              "type": "stack",
+              "draw_hover": false,
+              "icon_string": "draconicadditions:basic_shield_necklace,1,0,{Energy:50000}"
+            }
+          ]
+        },
+        {
+          "id": "wyvern_shield_necklace",
+          "file": "necklace_of_shielding/wyvern_shield_necklace_7434c.md",
+          "cycle_icons": false,
+          "hidden": false,
+          "sorting_weight": 2,
+          "icons": [
+            {
+              "type": "stack",
+              "draw_hover": false,
+              "icon_string": "draconicadditions:wyvern_shield_necklace,1,0,{Energy:100000}"
+            }
+          ]
+        },
+        {
+          "id": "draconic_shield_necklace",
+          "file": "necklace_of_shielding/draconic_shield_necklace_7bdfa.md",
+          "cycle_icons": false,
+          "hidden": false,
+          "sorting_weight": 3,
+          "icons": [
+            {
+              "type": "stack",
+              "draw_hover": false,
+              "icon_string": "draconicadditions:draconic_shield_necklace,1,0,{Energy:200000}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chaotic_armor",
+      "file": "chaotic_armor_4e2f6.md",
+      "cycle_icons": true,
+      "hidden": false,
+      "sorting_weight": 3,
+      "icons": [
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "draconicadditions:chaotic_helm,1,0,{Energy:16000000}"
+        },
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "draconicadditions:chaotic_chest,1,0,{Energy:16000000}"
+        },
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "draconicadditions:chaotic_legs,1,0,{Energy:16000000}"
+        },
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "draconicadditions:chaotic_boots,1,0,{Energy:16000000}"
+        }
+      ],
+      "pages": [
+        {
+          "id": "chaotic_helm",
+          "file": "chaotic_armor/chaotic_helm_99928.md",
+          "cycle_icons": false,
+          "hidden": false,
+          "sorting_weight": 1,
+          "icons": [
+            {
+              "type": "stack",
+              "draw_hover": false,
+              "icon_string": "draconicadditions:chaotic_helm,1,0,{Energy:16000000}"
+            }
+          ]
+        },
+        {
+          "id": "chaotic_chest",
+          "file": "chaotic_armor/chaotic_chest_63dd6.md",
+          "cycle_icons": false,
+          "hidden": false,
+          "sorting_weight": 2,
+          "icons": [
+            {
+              "type": "stack",
+              "draw_hover": false,
+              "icon_string": "draconicadditions:chaotic_chest,1,0,{Energy:16000000}"
+            }
+          ]
+        },
+        {
+          "id": "chaotic_legs",
+          "file": "chaotic_armor/chaotic_legs_570c3.md",
+          "cycle_icons": false,
+          "hidden": false,
+          "sorting_weight": 3,
+          "icons": [
+            {
+              "type": "stack",
+              "draw_hover": false,
+              "icon_string": "draconicadditions:chaotic_legs,1,0,{Energy:16000000}"
+            }
+          ]
+        },
+        {
+          "id": "chaotic_boots",
+          "file": "chaotic_armor/chaotic_boots_8322c.md",
+          "cycle_icons": false,
+          "hidden": false,
+          "sorting_weight": 4,
+          "icons": [
+            {
+              "type": "stack",
+              "draw_hover": false,
+              "icon_string": "draconicadditions:chaotic_boots,1,0,{Energy:16000000}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inertia_cancellation_ring",
+      "file": "inertia_cancellation_ring_c99ef.md",
+      "cycle_icons": false,
+      "hidden": false,
+      "sorting_weight": 5,
+      "icons": [
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "draconicadditions:inertia_cancel_ring"
+        }
+      ]
+    },
+    {
+      "id": "potato_armor",
+      "file": "potato_armor_6a942.md",
+      "cycle_icons": true,
+      "hidden": false,
+      "sorting_weight": 2,
+      "icons": [
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "draconicadditions:potato_helm,1,0,{Energy:100000}"
+        },
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "draconicadditions:potato_chest,1,0,{Energy:100000}"
+        },
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "draconicadditions:potato_legs,1,0,{Energy:100000}"
+        },
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "draconicadditions:potato_boots,1,0,{Energy:100000}"
+        }
+      ],
+      "pages": [
+        {
+          "id": "potato_chest",
+          "file": "potato_armor/potato_chest_5e8ca.md",
+          "cycle_icons": false,
+          "hidden": false,
+          "sorting_weight": 2,
+          "icons": [
+            {
+              "type": "stack",
+              "draw_hover": false,
+              "icon_string": "draconicadditions:potato_chest,1,0,{Energy:100000}"
+            }
+          ]
+        },
+        {
+          "id": "potato_legs",
+          "file": "potato_armor/potato_legs_5ca2a.md",
+          "cycle_icons": false,
+          "hidden": false,
+          "sorting_weight": 3,
+          "icons": [
+            {
+              "type": "stack",
+              "draw_hover": false,
+              "icon_string": "draconicadditions:potato_legs,1,0,{Energy:100000}"
+            }
+          ]
+        },
+        {
+          "id": "potato_boots",
+          "file": "potato_armor/potato_boots_a90f6.md",
+          "cycle_icons": false,
+          "hidden": false,
+          "sorting_weight": 4,
+          "icons": [
+            {
+              "type": "stack",
+              "draw_hover": false,
+              "icon_string": "draconicadditions:potato_boots,1,0,{Energy:100000}"
+            }
+          ]
+        },
+        {
+          "id": "potato_helm",
+          "file": "potato_armor/potato_helm_72a8e.md",
+          "cycle_icons": false,
+          "hidden": false,
+          "sorting_weight": 1,
+          "icons": [
+            {
+              "type": "stack",
+              "draw_hover": false,
+              "icon_string": "draconicadditions:potato_helm,1,0,{Energy:100000}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "infused_potato_armor",
+      "file": "infused_potato_armor_5d628.md",
+      "cycle_icons": true,
+      "hidden": false,
+      "sorting_weight": 1,
+      "icons": [
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "draconicadditions:infused_potato_helm"
+        },
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "draconicadditions:infused_potato_chest"
+        },
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "draconicadditions:infused_potato_legs"
+        },
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "draconicadditions:infused_potato_boots"
+        }
+      ],
+      "pages": [
+        {
+          "id": "infused_potato_chest",
+          "file": "infused_potato_armor/infused_potato_chest_298f4.md",
+          "cycle_icons": false,
+          "hidden": false,
+          "sorting_weight": 2,
+          "icons": [
+            {
+              "type": "stack",
+              "draw_hover": false,
+              "icon_string": "draconicadditions:infused_potato_chest"
+            }
+          ]
+        },
+        {
+          "id": "infused_potato_legs",
+          "file": "infused_potato_armor/infused_potato_legs_ba2da.md",
+          "cycle_icons": false,
+          "hidden": false,
+          "sorting_weight": 3,
+          "icons": [
+            {
+              "type": "stack",
+              "draw_hover": false,
+              "icon_string": "draconicadditions:infused_potato_legs"
+            }
+          ]
+        },
+        {
+          "id": "infused_potato_boots",
+          "file": "infused_potato_armor/infused_potato_boots_31ddc.md",
+          "cycle_icons": false,
+          "hidden": false,
+          "sorting_weight": 4,
+          "icons": [
+            {
+              "type": "stack",
+              "draw_hover": false,
+              "icon_string": "draconicadditions:infused_potato_boots"
+            }
+          ]
+        },
+        {
+          "id": "infused_potato_helm",
+          "file": "infused_potato_armor/infused_potato_helm_745f8.md",
+          "cycle_icons": false,
+          "hidden": false,
+          "sorting_weight": 1,
+          "icons": [
+            {
+              "type": "stack",
+              "draw_hover": false,
+              "icon_string": "draconicadditions:infused_potato_helm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vampiric_shirt",
+      "file": "vampiric_shirt_13ed3.md",
+      "cycle_icons": false,
+      "hidden": false,
+      "sorting_weight": 6,
+      "icons": [
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "draconicadditions:vampiric_shirt"
+        }
+      ]
+    },
+    {
+      "id": "overloading_belt",
+      "file": "overloading_belt_f42e9.md",
+      "cycle_icons": false,
+      "hidden": false,
+      "sorting_weight": 7,
+      "icons": [
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "draconicadditions:overload_belt"
+        }
+      ]
+    },
+    {
+      "id": "chaotic_staff_of_power",
+      "file": "chaotic_staff_of_power_84700.md",
+      "cycle_icons": false,
+      "hidden": false,
+      "sorting_weight": 3,
+      "icons": [
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "draconicadditions:chaotic_staff_of_power,1,0,{Energy:60000000}"
+        }
+      ]
+    },
+    {
+      "id": "chaos_stabilizer",
+      "file": "chaos_stabilizer_80dc2.md",
+      "cycle_icons": false,
+      "hidden": false,
+      "sorting_weight": 3,
+      "icons": [
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "draconicadditions:chaos_stabilizer_core"
+        }
+      ]
+    },
+    {
+      "id": "armor_generator",
+      "file": "armor_generator_7415f.md",
+      "cycle_icons": false,
+      "hidden": false,
+      "icons": [
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "draconicadditions:armor_generator"
+        }
+      ]
+    },
+    {
+      "id": "chaos_liquifier",
+      "file": "chaos_liquifier_7a2a5.md",
+      "cycle_icons": false,
+      "hidden": false,
+      "icons": [
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "draconicadditions:chaos_liquefier"
+        }
+      ]
+    },
+    {
+      "id": "item_drainer",
+      "file": "item_drainer_30005.md",
+      "cycle_icons": false,
+      "hidden": false,
+      "icons": [
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "draconicadditions:item_drainer"
+        }
+      ]
+    },
+    {
+      "id": "portable_wired_charger",
+      "file": "portable_wired_charger_f2f41.md",
+      "cycle_icons": true,
+      "hidden": false,
+      "relations": [
+        {
+          "type": "STACK",
+          "content": "draconicadditions:portable_wired_charger",
+          "ignore_meta": true
+        }
+      ],
+      "icons": [
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "draconicadditions:portable_wired_charger"
+        },
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "draconicadditions:portable_wired_charger,1,1"
+        },
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "draconicadditions:portable_wired_charger,1,2"
+        }
+      ]
+    },
+    {
+      "id": "chaos_heart",
+      "file": "chaos_heart_8718f.md",
+      "cycle_icons": false,
+      "hidden": false,
+      "icons": [
+        {
+          "type": "stack",
+          "draw_hover": false,
+          "icon_string": "draconicadditions:chaos_heart"
+        }
+      ]
+    }
+  ]
+}

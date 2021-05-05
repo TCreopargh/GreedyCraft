@@ -26,13 +26,13 @@ You have 4 extra bauble slots!
 Always have a pouch of unknown with you!
 Read the Elysian Project book when you have time!
 Memory usage is too high? Try allocating some more virtual memory!
-If your game crashes without a warning, Your game most probably runs out of memory.
+If your game crashes without a warning, Your game most probably ran out of memory.
 Some special events may happen at specific times of a year!
 If you think you are experienced, try Expert mode. Don't be afraid.
 Use /suicide command to kill yourself, if you want to.
-Team up with your friends using /togetherforever command to sync game stages!
+Team up with your friends using the /togetherforever command to sync game stages!
 Claim chunks to avoid grief and destructions!
-Don't have too many chunks keep loading, it lags your game.
+Don't have too many chunks loaded, it can lag your game.
 Try not to put backpacks into AE2 system, or you will have a hard time taking it out.
 You can always restore a world backup by clicking on [Backups] in world selection menu.
 Skills are important. Spend your XP on them!
@@ -63,7 +63,7 @@ Make sure you have a good network connection when loading into the game.
 Equivalent Exchange is not equivalent.
 Getting lag when you have just joined a world is normal. Look around to get things loaded.
 Use sharpening kits to repair tinker's tools, and polishing kits to repair armors.
-Be patient when the game is loading. Don't spam clicks.
+Be patient when the game is loading. Don't spam click.
 Join our discord for discussion and help!
 This modpack is made by TCreopargh.
 Botania is a tech mod.

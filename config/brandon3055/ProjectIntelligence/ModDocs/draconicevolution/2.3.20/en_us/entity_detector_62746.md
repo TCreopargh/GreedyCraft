@@ -11,19 +11,19 @@ These detectors send out scanning pulses at a configurable frequency and then up
 
 §bFeatures:
 §3Basic:§6
-10 Block max scanning range.
-1.5 Second max scanning rate.
-60 Second min scanning rate.
-0.25 Second max scanning rate
+10 block max scanning range.
+1.5 second max scanning rate.
+60 second min scanning rate.
+0.25 second max scanning rate.
 Filter by Player, Hostile, Passive, or any combination.
 
 §5Advanced:§6
-64 Block max range
-0.25 Second max scanning rate
+64 block max range
+0.25 second max scanning rate
 Filter by Player, Hostile, Passive, Other, or any combination.
 White List / Black List§r
 
-The blacklist/whitelist in the advanced detector can be set to search for or ignore pretty much any entity in the game. And not just living entities either!
+The blacklist/whitelist in the advanced detector can be set to search for or ignore pretty much any entity in the game, even non-living entities!
 It can also search for specific players.
 
 §4Redstone:§r

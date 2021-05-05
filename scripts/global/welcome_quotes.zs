@@ -11,7 +11,7 @@ import crafttweaker.data.IData;
 global welcomeQuotes as IData[][string] = {
     zh_cn: [
         ["", {text: "感到卡顿？请在内存占用较高时使用§6R§e键菜单中的§6释放内存§e按钮手动清理内存！", color: "yellow"}], 
-        ["", {text: "如果你对这个整合包感到满意，可以考虑赞助一下作者！"}, {text: "赞助通道", color: "light_purple", underlined: true, clickEvent: {action: "open_url", "value": "http://donate.tcreopargh.xyz/", color: "yellow"}}, {text: "  "}, {text: "View Sponsor List", bold: true, underlined: true,color: "light_purple", clickEvent: {action: "run_command", value: "/sponsors list"}}],
+        ["", {text: "如果你对这个整合包感到满意，可以考虑赞助一下作者！"}, {text: "赞助通道", color: "light_purple", underlined: true, clickEvent: {action: "open_url", "value": "http://donate.tcreopargh.xyz/", color: "yellow"}}, {text: "  "}, {text: "View Sponsor List", bold: true, underlined: true, color: "light_purple", clickEvent: {action: "run_command", value: "/sponsors list"}}],
         ["", {text: "感谢游玩贪婪整合包！如果你在游戏中遇到了问题，请先查阅§6《贪婪整合包——从入门到精通》", color: "yellow"}], 
         ["", {text: "如果你遇到了模组相关的问题，请查阅§6百科全书§e！模组的指导手册都可以在这里找到。", color: "yellow"}], 
         ["", {text: "在游戏过程中遇到了Bug？请前往", color: "yellow"}, {text: "GitHub Issues", color:"blue", underlined: true, clickEvent: {action: "open_url", "value": "https://github.com/TCreopargh/GreedyCraft/issues"}}, {text: "反馈！", color: "yellow"}], 

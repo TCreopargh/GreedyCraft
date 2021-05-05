@@ -1,0 +1,11 @@
+{
+  "name": "§9丛雨",
+  "shines": true,
+  "tooltip": [
+    "§e吾会守护好狗修金的！",
+    "§b§o赞助者物品 by 白鬼院绘樱"
+  ],
+  "max_stack": 1,
+  "material": "ADDITIONS-TCSPONSORS-DRAGON_ASPECT",
+  "type": "additions:sword"
+}

@@ -11,7 +11,7 @@
 
 ABC...LMN§cDraconic Evolution§rQR...WXYZ
 §rule{colour:0x606060,height:3,width:100%,bottom_pad:4}
-Draconic Evolution is a mod that blends together magic and tech giving you some extremely powerful end game content. Bellow is a summery of just some of the content added by DE.
+Draconic Evolution is a mod that blends together magic and tech giving you some extremely powerful end game content. Below is a summery of just some of the content added by DE.
 §rule{colour:0x606060,height:3,width:100%,top_pad:3,bottom_pad:0}
 
 // ##########################################################################
@@ -21,25 +21,25 @@ Draconic Evolution is a mod that blends together magic and tech giving you some 
 DE currently adds 2 tiers of highly upgradable tools and armor.
 
 §a-Teleportation§a
-Among other things DE is currently the only mod i know of that adds point to point teleportation where the end points can be moved by things like frames and remain connected.
+Among other things, DE is currently the only mod I know of that adds point-to-point teleportation where the end points can be moved by things like frames and remain connected.
 
-§a-Time and weather control§a
-Ability to start or stop rain/stormy weather. As Well as skip the night or day if you so desire.
+§a-Time and Weather Control§a
+DE adds the ability to start or stop rain/stormy weather, as well as skipping the night or day if you so desire.
 
 §a-Mob Farming§a
-Both mob spawning and mob grinding
+Both mob spawning and mob grinding!
           
 §a-Practically infinite energy storage (at a price to match).§a
-Lets face it nothing in minecraft is truly infinite but this gets pretty close!
+Let's face it; nothing in minecraft is truly infinite, but this gets pretty close!
 
 §a-Extreme(ly Dangerous) power generation§a
-With great power comes great destructive potential. DE's reactor is no exception. It will happily perform a rapid unscheduled disassembly of your entire world if your not careful!
+With great power comes great destructive potential. DE's reactor is no exception. It will happily perform a rapid unscheduled disassembly of your entire world if you're not careful!
 
 §a-Fancy visual effects!§a
-Who doesn't like fancy visual effects!
+Who doesn't like fancy visual effects?!
 
 §a-One of the most powerful bosses in modded minecraft§a
-Enchanted diamond armor? You would probably have better luck wrapping yourself in tissue paper...
+Enchanted diamond armor? Ha! You would probably have better luck wrapping yourself in toilet paper.
 </td></tr></table>
 
 §rule{colour:0x606060,height:3,width:100%,top_pad:0}
@@ -67,7 +67,7 @@ Enchanted diamond armor? You would probably have better luck wrapping yourself i
 §table{width:100%,colour:0x0,render_cells:false} 
 <table column_layout="1*,90">
 <tr padding="2,0,1,3" align="middle">
-	<td>§colour[0x088700]§link[http://partners.creeper.host/r/brandon30557nc]{tooltip:"Use this link to get a 15% discount on your first month!",alt_text:I am partnered with Creeper Host. If you need to rent a server at a fair price i suggest you check them out!}</td>
+	<td>§colour[0x088700]§link[http://partners.creeper.host/r/brandon30557nc]{tooltip:"Use this link to get a 15% discount on your first month!",alt_text:I am partnered with Creeper Host. If you need to rent a server at a fair price, I suggest you check them out!}</td>
 	<td>§img[http://ss.brandon3055.com/0f927]{tooltip:"Use this link to get a 15% discount on your first month!",width:100%,link_to:"http://partners.creeper.host/r/brandon30557nc"}</td>
 </tr>
 </table>

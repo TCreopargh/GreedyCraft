@@ -74,11 +74,11 @@
     "enabled": true,
     "entityBlacklist": [],
     "alwaysOnEntity": [],
-    "tier": 1
+    "tier": 2
   },
   {
     "identifier": "infested",
-    "enabled": true,
+    "enabled": false,
     "entityBlacklist": [],
     "alwaysOnEntity": [],
     "tier": 2

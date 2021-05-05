@@ -1,0 +1,12 @@
+{
+  "name": "§d【秘】§c未发行歌曲合集",
+  "tooltip": [
+    "§6New Prisoners, Devil\u0027s Advocate 与 Blue Trail Tears的未发行歌曲合集",
+    "§e恭喜你发现了商业机密！这些歌曲将会在3年后发行（大概吧），或许可以拿来卖钱",
+    "§b§o赞助者物品 by 3512449078"
+  ],
+  "max_stack": 1,
+  "music": "minecraft:ambient.cave",
+  "description": "§4绝密歌曲",
+  "type": "additions:record"
+}

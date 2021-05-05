@@ -201,16 +201,6 @@ randomthings:strong_collapse
        randomthings:collapse - 300 - 1 - false - true
 
 
-enderio:withering
-   - Effects: 
-       minecraft:wither - 900 - 0 - false - true
-
-
-enderio:long_withering
-   - Effects: 
-       minecraft:wither - 2400 - 0 - false - true
-
-
 enderio:floating
    - Effects: 
        minecraft:levitation - 140 - 0 - false - true
@@ -236,19 +226,14 @@ enderio:long_confusion
        minecraft:nausea - 2400 - 0 - false - true
 
 
-quark:resilience
+enderio:withering
    - Effects: 
-       quark:resilience - 3600 - 0 - false - true
+       minecraft:wither - 900 - 0 - false - true
 
 
-quark:long_resilience
+enderio:long_withering
    - Effects: 
-       quark:resilience - 9600 - 0 - false - true
-
-
-quark:strong_resilience
-   - Effects: 
-       quark:resilience - 1800 - 1 - false - true
+       minecraft:wither - 2400 - 0 - false - true
 
 
 quark:haste
@@ -304,6 +289,21 @@ quark:danger_sight
 quark:long_danger_sight
    - Effects: 
        quark:danger_sight - 9600 - 0 - false - true
+
+
+quark:resilience
+   - Effects: 
+       quark:resilience - 3600 - 0 - false - true
+
+
+quark:long_resilience
+   - Effects: 
+       quark:resilience - 9600 - 0 - false - true
+
+
+quark:strong_resilience
+   - Effects: 
+       quark:resilience - 1800 - 1 - false - true
 
 
 potioncore:saturation
@@ -1429,16 +1429,6 @@ cyclicmagic:ender
 cyclicmagic:snow
    - Effects: 
        cyclicmagic:potion.snow - 3600 - 0 - false - true
-
-
-cyclicmagic:butter
-   - Effects: 
-       cyclicmagic:potion.butter - 3600 - 0 - false - true
-
-
-cyclicmagic:butter2
-   - Effects: 
-       cyclicmagic:potion.butter - 1800 - 1 - false - true
 
 
 cyclicmagic:slowfall

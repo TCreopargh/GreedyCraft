@@ -302,6 +302,26 @@
                     "type": "item",
                     "name": "additions:tcsponsors-angel_ring",
                     "weight": 1
+                },
+				{
+                    "type": "item",
+                    "name": "additions:tcsponsors-song_collection",
+                    "weight": 1
+                },
+				{
+                    "type": "item",
+                    "name": "additions:tcsponsors-congyu",
+                    "weight": 1
+                },
+				{
+                    "type": "item",
+                    "name": "additions:tcsponsors-flask_bottle",
+                    "weight": 1
+                },
+				{
+                    "type": "item",
+                    "name": "additions:tcsponsors-strange_steak",
+                    "weight": 1
                 }
             ]
         }

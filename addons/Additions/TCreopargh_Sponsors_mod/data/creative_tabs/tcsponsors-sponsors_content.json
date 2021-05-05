@@ -176,6 +176,18 @@
         },
         {
             "item": "additions:tcsponsors-angel_ring"
+        },
+        {
+            "item": "additions:tcsponsors-song_collection"
+        },
+        {
+            "item": "additions:tcsponsors-congyu"
+        },
+        {
+            "item": "additions:tcsponsors-flask_bottle"
+        },
+        {
+            "item": "additions:tcsponsors-strange_steak"
         }
     ]
 }

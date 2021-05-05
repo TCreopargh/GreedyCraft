@@ -3,18 +3,18 @@
   "base_files": [
     {
       "file_path": "structure/structure.json",
-      "url": "http://pi.brandon3055.com/objects/48/48aa67953c3b9c4470222e8edd10a0e6e478c55c",
-      "sha1": "48aa67953c3b9c4470222e8edd10a0e6e478c55c"
+      "url": "http://pi.brandon3055.com/objects/56/564d3079f70e5272559ba87408a41d425f6e114a",
+      "sha1": "564d3079f70e5272559ba87408a41d425f6e114a"
     },
     {
       "file_path": "structure/en_us/draconicadditions_722bd.md",
-      "url": "http://pi.brandon3055.com/objects/38/3821da7e19abd8cb8ab8bd6502428a6c22ec7df7",
-      "sha1": "3821da7e19abd8cb8ab8bd6502428a6c22ec7df7"
+      "url": "http://pi.brandon3055.com/objects/92/92ca5bda75dc3539554cd38caf29322a84b93ec4",
+      "sha1": "92ca5bda75dc3539554cd38caf29322a84b93ec4"
     },
     {
       "file_path": "structure/lang/en_us.json",
-      "url": "http://pi.brandon3055.com/objects/21/216425a11e7dc9c4abe3c07ddf7ff689d1161894",
-      "sha1": "216425a11e7dc9c4abe3c07ddf7ff689d1161894"
+      "url": "http://pi.brandon3055.com/objects/56/56f5b3be409e3f22f3797f37e9b1496dad580576",
+      "sha1": "56f5b3be409e3f22f3797f37e9b1496dad580576"
     }
   ],
   "lang_files": [
@@ -176,8 +176,14 @@
     },
     {
       "file_path": "en_us/chaos_liquifier_7a2a5.md",
-      "url": "http://pi.brandon3055.com/objects/5d/5dec2c0a44da93e9c97fdf847ef3499a6e839bc2",
-      "sha1": "5dec2c0a44da93e9c97fdf847ef3499a6e839bc2",
+      "url": "http://pi.brandon3055.com/objects/e6/e6a264c913e83c50c538bdcd13d91a1c449576a9",
+      "sha1": "e6a264c913e83c50c538bdcd13d91a1c449576a9",
+      "lang": "en_us"
+    },
+    {
+      "file_path": "en_us/chaos_heart_8718f.md",
+      "url": "http://pi.brandon3055.com/objects/a4/a41896d321f3b53aed8d3eed750cb46c7e46f698",
+      "sha1": "a41896d321f3b53aed8d3eed750cb46c7e46f698",
       "lang": "en_us"
     },
     {

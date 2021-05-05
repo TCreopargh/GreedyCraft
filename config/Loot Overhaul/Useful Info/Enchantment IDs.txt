@@ -216,52 +216,52 @@ randomthings:magnetic
    - Max Level: 1
 
 
-endercore:autosmelt
-   - Id: 26
-   - Rarity: RARE
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 1
-
-
 endercore:xpboost
-   - Id: 27
+   - Id: 26
    - Rarity: UNCOMMON
    - Treasure: false
    - Min Level: 1
    - Max Level: 3
 
 
-enderio:shimmer
+endercore:autosmelt
+   - Id: 27
+   - Rarity: RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 1
+
+
+enderio:soulbound
    - Id: 28
+   - Rarity: VERY_RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 1
+
+
+enderio:shimmer
+   - Id: 29
    - Rarity: VERY_RARE
    - Treasure: true
    - Min Level: 1
    - Max Level: 1
 
 
-enderio:repellent
-   - Id: 29
-   - Rarity: VERY_RARE
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 4
-
-
-enderio:soulbound
-   - Id: 30
-   - Rarity: VERY_RARE
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 1
-
-
 enderio:witherweapon
-   - Id: 31
+   - Id: 30
    - Rarity: UNCOMMON
    - Treasure: false
    - Min Level: 1
    - Max Level: 1
+
+
+enderio:repellent
+   - Id: 31
+   - Rarity: VERY_RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 4
 
 
 minecraft:efficiency

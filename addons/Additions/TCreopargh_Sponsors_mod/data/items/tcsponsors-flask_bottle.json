@@ -1,0 +1,17 @@
+{
+  "name": "§2FATPOLI的水杯",
+  "tooltip": [
+    "§e累了吧，喝口水吧",
+    "§b§o赞助者物品 by 李月半"
+  ],
+  "max_stack": 1,
+  "durability": 3,
+  "harvest_level": 0,
+  "harvest_radius_width": 0,
+  "harvest_depth": 0,
+  "efficiency": 0.0,
+  "enchantability": 0,
+  "repair_stacks": {},
+  "tool_classes": [],
+  "type": "additions:multitool"
+}

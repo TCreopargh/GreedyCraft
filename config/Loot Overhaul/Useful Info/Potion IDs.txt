@@ -1600,8 +1600,48 @@ tconevo:damage_boost
 	- Is Beneficial: true
 
 
-thaumadditions:sonus
+xaerominimap:no_minimap
    - Id: 199
+   - Color: -16777216
+   - Is Instant: false
+   - Is Bad: true
+	- Is Beneficial: false
+
+
+xaerominimap:no_entity_radar
+   - Id: 200
+   - Color: -16777216
+   - Is Instant: false
+   - Is Bad: true
+	- Is Beneficial: false
+
+
+xaerominimap:no_waypoints
+   - Id: 201
+   - Color: -16777216
+   - Is Instant: false
+   - Is Bad: true
+	- Is Beneficial: false
+
+
+xaerominimap:no_cave_maps
+   - Id: 202
+   - Color: -16777216
+   - Is Instant: false
+   - Is Bad: true
+	- Is Beneficial: false
+
+
+xaeroworldmap:no_world_map
+   - Id: 203
+   - Color: -16777216
+   - Is Instant: false
+   - Is Bad: true
+	- Is Beneficial: false
+
+
+thaumadditions:sonus
+   - Id: 204
    - Color: 16755200
    - Is Instant: false
    - Is Bad: false
@@ -1609,7 +1649,7 @@ thaumadditions:sonus
 
 
 thaumadditions:sanity_checker
-   - Id: 200
+   - Id: 205
    - Color: -1
    - Is Instant: false
    - Is Bad: false
@@ -1617,7 +1657,7 @@ thaumadditions:sanity_checker
 
 
 extrautils2:effect.xu2.doom
-   - Id: 201
+   - Id: 206
    - Color: 3149840
    - Is Instant: false
    - Is Bad: true
@@ -1625,7 +1665,7 @@ extrautils2:effect.xu2.doom
 
 
 extrautils2:effect.xu2.gravity
-   - Id: 202
+   - Id: 207
    - Color: 2105376
    - Is Instant: false
    - Is Bad: true
@@ -1633,7 +1673,7 @@ extrautils2:effect.xu2.gravity
 
 
 extrautils2:effect.xu2.second.chance
-   - Id: 203
+   - Id: 208
    - Color: 6356848
    - Is Instant: false
    - Is Bad: false
@@ -1641,7 +1681,7 @@ extrautils2:effect.xu2.second.chance
 
 
 extrautils2:effect.xu2.greek.fire
-   - Id: 204
+   - Id: 209
    - Color: 16732160
    - Is Instant: false
    - Is Bad: true
@@ -1649,7 +1689,7 @@ extrautils2:effect.xu2.greek.fire
 
 
 extrautils2:effect.xu2.fizzy.lifting
-   - Id: 205
+   - Id: 210
    - Color: 10547296
    - Is Instant: false
    - Is Bad: true
@@ -1657,7 +1697,7 @@ extrautils2:effect.xu2.fizzy.lifting
 
 
 extrautils2:effect.xu2.relapse
-   - Id: 206
+   - Id: 211
    - Color: 6312191
    - Is Instant: false
    - Is Bad: false
@@ -1665,7 +1705,7 @@ extrautils2:effect.xu2.relapse
 
 
 extrautils2:effect.xu2.love
-   - Id: 207
+   - Id: 212
    - Color: 16761051
    - Is Instant: true
    - Is Bad: false
@@ -1673,7 +1713,7 @@ extrautils2:effect.xu2.love
 
 
 extrautils2:effect.xu2.purging
-   - Id: 208
+   - Id: 213
    - Color: 16738816
    - Is Instant: true
    - Is Bad: true

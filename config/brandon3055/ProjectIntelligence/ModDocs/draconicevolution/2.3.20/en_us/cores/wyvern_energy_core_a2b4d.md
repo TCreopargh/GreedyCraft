@@ -1,5 +1,5 @@
 §align:center
-##### §Wyvern Energy Core§n
+##### §nWyvern Energy Core§n
 
 §stack[draconicevolution:wyvern_energy_core]{size:64}
 
