@@ -7521,3 +7521,5 @@ jaopca:fluid_moltenmithril - 7518
 jaopca:fluid_moltenshadowium - 7519
 jaopca:fluid_moltentitanium - 7520
 jaopca:fluid_moltenuranium - 7521
+thaumicaugmentation:item_grate - 7522
+thaumicaugmentation:glass_tube - 7523

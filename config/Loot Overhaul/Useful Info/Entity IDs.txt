@@ -793,3 +793,5 @@ rfp2:playerdummy - 790
 tumbleweed:tumbleweed - 791
 zombieawareness:entityscent - 792
 additions:projectile - 793
+thaumicaugmentation:item_important - 794
+thaumicaugmentation:celestial_observer - 795

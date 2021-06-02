@@ -14450,3 +14450,11 @@ jaopca:fluid_moltenmithril - 18132
 jaopca:fluid_moltenshadowium - 18133
 jaopca:fluid_moltentitanium - 18134
 jaopca:fluid_moltenuranium - 18135
+logisticspipes:pipe_fluid_terminus - 18136
+additions:tcsponsors-coffin_lifter - 18137
+thaumicaugmentation:thaumium_robes_hood - 18138
+thaumicaugmentation:celestial_observer_placer - 18139
+thaumicaugmentation:item_grate - 18140
+thaumicaugmentation:thaumium_robes_chestplate - 18141
+thaumicaugmentation:thaumium_robes_leggings - 18142
+thaumicaugmentation:glass_tube - 18143

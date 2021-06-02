@@ -1604,7 +1604,7 @@ xaerominimap:no_minimap
    - Id: 199
    - Color: -16777216
    - Is Instant: false
-   - Is Bad: true
+   - Is Bad: false
 	- Is Beneficial: false
 
 
@@ -1612,7 +1612,7 @@ xaerominimap:no_entity_radar
    - Id: 200
    - Color: -16777216
    - Is Instant: false
-   - Is Bad: true
+   - Is Bad: false
 	- Is Beneficial: false
 
 
@@ -1620,7 +1620,7 @@ xaerominimap:no_waypoints
    - Id: 201
    - Color: -16777216
    - Is Instant: false
-   - Is Bad: true
+   - Is Bad: false
 	- Is Beneficial: false
 
 
@@ -1628,7 +1628,7 @@ xaerominimap:no_cave_maps
    - Id: 202
    - Color: -16777216
    - Is Instant: false
-   - Is Bad: true
+   - Is Bad: false
 	- Is Beneficial: false
 
 
@@ -1636,7 +1636,7 @@ xaeroworldmap:no_world_map
    - Id: 203
    - Color: -16777216
    - Is Instant: false
-   - Is Bad: true
+   - Is Bad: false
 	- Is Beneficial: false
 
 
@@ -1718,5 +1718,85 @@ extrautils2:effect.xu2.purging
    - Is Instant: true
    - Is Bad: true
 	- Is Beneficial: false
+
+
+xaerominimap:no_minimap_harmful
+   - Id: 214
+   - Color: -16777216
+   - Is Instant: false
+   - Is Bad: true
+	- Is Beneficial: false
+
+
+xaerominimap:no_entity_radar_harmful
+   - Id: 215
+   - Color: -16777216
+   - Is Instant: false
+   - Is Bad: true
+	- Is Beneficial: false
+
+
+xaeroworldmap:no_world_map_harmful
+   - Id: 216
+   - Color: -16777216
+   - Is Instant: false
+   - Is Bad: true
+	- Is Beneficial: false
+
+
+xaerominimap:no_waypoints_beneficial
+   - Id: 217
+   - Color: -16777216
+   - Is Instant: false
+   - Is Bad: false
+	- Is Beneficial: true
+
+
+xaerominimap:no_waypoints_harmful
+   - Id: 218
+   - Color: -16777216
+   - Is Instant: false
+   - Is Bad: true
+	- Is Beneficial: false
+
+
+xaerominimap:no_cave_maps_harmful
+   - Id: 219
+   - Color: -16777216
+   - Is Instant: false
+   - Is Bad: true
+	- Is Beneficial: false
+
+
+xaerominimap:no_minimap_beneficial
+   - Id: 220
+   - Color: -16777216
+   - Is Instant: false
+   - Is Bad: false
+	- Is Beneficial: true
+
+
+xaeroworldmap:no_world_map_beneficial
+   - Id: 221
+   - Color: -16777216
+   - Is Instant: false
+   - Is Bad: false
+	- Is Beneficial: true
+
+
+xaerominimap:no_cave_maps_beneficial
+   - Id: 222
+   - Color: -16777216
+   - Is Instant: false
+   - Is Bad: false
+	- Is Beneficial: true
+
+
+xaerominimap:no_entity_radar_beneficial
+   - Id: 223
+   - Color: -16777216
+   - Is Instant: false
+   - Is Bad: false
+	- Is Beneficial: true
 
 

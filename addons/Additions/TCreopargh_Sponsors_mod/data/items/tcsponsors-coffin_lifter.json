@@ -1,0 +1,17 @@
+{
+  "name": "§1高手抬棺失手进棺",
+  "tooltip": [
+    "§7物如其名，你需要操作",
+    "§b§o赞助者物品 by tangce"
+  ],
+  "max_stack": 1,
+  "durability": 2,
+  "harvest_level": 0,
+  "harvest_radius_width": 0,
+  "harvest_depth": 0,
+  "efficiency": 0.0,
+  "enchantability": 0,
+  "repair_stacks": {},
+  "tool_classes": [],
+  "type": "additions:multitool"
+}

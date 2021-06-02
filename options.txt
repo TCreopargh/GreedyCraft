@@ -94,9 +94,9 @@ key_key.configurator_mode.desc:0
 key_key.configurator_filter.desc:0
 key_key.configurator_path.desc:0
 key_keybind.baublesinventory:18:ALT
-key_quark.keybind.lockBuilding:0
 key_quark.keybind.dropoff:0
 key_quark.keybind.changeHotbar:184
+key_quark.keybind.lockBuilding:0
 key_quark.emote.no:0
 key_quark.emote.yes:0
 key_quark.emote.wave:0
@@ -295,6 +295,9 @@ key_mekanism.key.feetMode:35
 key_mekanism.key.voice:22
 key_key.inventoryhud.toggle:76
 key_key.inventoryhud.openconfig:23:CONTROL
+key_key.inventoryhud.togglepot:-1
+key_key.inventoryhud.togglearm:-1
+key_key.inventoryhud.toggleall:-1
 key_key.categories.naming:49:ALT
 key_invtweaks.key.sort:19
 key_jecalculation.key.gui_craft:0:ALT
