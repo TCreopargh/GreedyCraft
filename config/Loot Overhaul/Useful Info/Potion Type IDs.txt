@@ -211,6 +211,16 @@ enderio:long_confusion
        minecraft:nausea - 2400 - 0 - false - true
 
 
+enderio:withering
+   - Effects: 
+       minecraft:wither - 900 - 0 - false - true
+
+
+enderio:long_withering
+   - Effects: 
+       minecraft:wither - 2400 - 0 - false - true
+
+
 enderio:floating
    - Effects: 
        minecraft:levitation - 140 - 0 - false - true
@@ -224,16 +234,6 @@ enderio:strong_floating
 enderio:long_floating
    - Effects: 
        minecraft:levitation - 560 - 0 - false - true
-
-
-enderio:withering
-   - Effects: 
-       minecraft:wither - 900 - 0 - false - true
-
-
-enderio:long_withering
-   - Effects: 
-       minecraft:wither - 2400 - 0 - false - true
 
 
 quark:resilience

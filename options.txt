@@ -94,8 +94,10 @@ key_key.configurator_mode.desc:0
 key_key.configurator_filter.desc:0
 key_key.configurator_path.desc:0
 key_keybind.baublesinventory:18:ALT
-key_quark.keybind.lockBuilding:0
 key_quark.keybind.toggleAutojump:0
+key_quark.keybind.lockBuilding:0
+key_quark.keybind.dropoff:0
+key_quark.keybind.changeHotbar:184
 key_quark.emote.no:0
 key_quark.emote.yes:0
 key_quark.emote.wave:0
@@ -114,8 +116,6 @@ key_quark.emote.dab:0
 key_quark.emote.jet:0
 key_quark.emote.exorcist:0
 key_quark.emote.zombie:0
-key_quark.keybind.dropoff:0
-key_quark.keybind.changeHotbar:184
 key_pe.key.armor_toggle:49:CONTROL
 key_pe.key.charge:47:ALT
 key_pe.key.extra_function:45:ALT
@@ -156,7 +156,7 @@ key_key.findme.search:21
 key_key.ftbguides.guide:0
 key_key.ftbutilities.nbt:49:ALT
 key_key.ftbutilities.trash:211
-key_key.ftbquests.quests:0
+key_key.ftbquests.quests:28
 key_key.fart.desc:78
 key_hiddenarmor.key.disableHiddenArmor:0
 key_key.hooked.fire:16
@@ -166,7 +166,6 @@ key_oreexcavation.key.excavate:41
 key_openblocks.keybind.vario_switch:47
 key_openblocks.keybind.vario_vol_up:0
 key_openblocks.keybind.vario_vol_down:0
-key_key.craftpresence.config_keycode.name:201
 key_Difficulty Meter - Show:49
 key_Difficulty Meter - Show Always:0
 key_keys.servertabinfo.show:29
@@ -185,6 +184,7 @@ key_key.open_wpt.desc:0
 key_dshuds.keybind.SelectionBox:37:ALT
 key_dshuds.keybind.LightLevel:38:ALT
 key_dshuds.keybind.ChunkBorders:36:ALT
+key_key.craftpresence.config_keycode.name:201
 key_key.pickup.item:0
 key_key.dismount:42
 key_key.narrator:0
@@ -252,7 +252,6 @@ key_binniecore.key.hold.for.help.tooltips:0
 key_key.settings_menu:34
 key_key.range:19
 key_key.undo:22
-key_key.ftbquests.quests:28
 key_key.anchor:35
 key_key.fuzzy:0
 key_key.connected_area:0
@@ -376,7 +375,7 @@ key_enderio.keybind.fovplus:0
 key_enderio.keybind.fovminus:0
 key_enderio.keybind.fovplusfast:0
 key_enderio.keybind.fovminusfast:0
-soundCategory_master:0.75000006
+soundCategory_master:0.7500001
 soundCategory_music:0.85915494
 soundCategory_record:1.0
 soundCategory_weather:0.70422536

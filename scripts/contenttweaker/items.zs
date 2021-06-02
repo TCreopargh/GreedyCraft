@@ -47,7 +47,7 @@ eTablet.onItemUpdate = function(itemStack, world, owner, slot, isSelected) {
     if(owner instanceof IPlayer && !world.remote) {
         val player as IPlayer = owner;
         if(!(itemStack.tag has "playerName") || !(itemStack.tag has "playerUUID")) {
-            itemStack.setTag(itemStack.tag.update({playerName: player.name, playerUUID: player.uuid}));
+            itemStack.mutable().withTag(itemStack.tag.update({playerName: player.name, playerUUID: player.uuid}));
         }
     }
 };

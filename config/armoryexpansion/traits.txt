@@ -269,7 +269,6 @@
   "diffuse",
   "body",
   "aquaspeed_armor",
-  "tconevo.aura_affinity1_armor",
   "milky",
   "ported",
   "insatiable",
