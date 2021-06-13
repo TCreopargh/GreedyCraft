@@ -18,7 +18,7 @@
 	{
 		uid: "b9a81a98",
 		type: "item",
-		item: "cyclicmagic:item_pump",
+		item: "minecraft:diamond",
 		count: 32
 	},
 	{

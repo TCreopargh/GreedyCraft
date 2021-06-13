@@ -1192,6 +1192,31 @@
                 "restriction": "whitelist",
                 "value": [1]
             }
+        },
+        "astral_metal": {
+            "enabled": "true",
+            "distribution": "gaussian",
+            "generator": {
+                "type": "sparse-cluster",
+                "block": [{
+                    "name": "astralsorcery:blockcustomore",
+                    "metadata": 1,
+                    "weight": 100
+                }],
+                "material": "minecraft:stone",
+                "cluster-size": 32
+            },
+            "cluster-count": 2,
+            "chunk-chance": 2,
+            "center-height": 86,
+            "spread": 16,
+            "smoothness": 3,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [-1, 1]
+            }
         }
     }
 }

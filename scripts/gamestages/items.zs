@@ -458,6 +458,7 @@ GameStagesUtil.stageHardmode.addIngredients([
 ], true);
 
 GameStagesUtil.stageInfinity.addIngredients([
+    <thaumcraft:thaumonomicon:1>,
     <additions:greedycraft-pioneer_medal>,
     <additions:greedycraft-greedy_medal>,
     <ore:blockCompressedInfinity>,
@@ -506,7 +507,6 @@ GameStagesUtil.stageGraduated.addIngredients([
     <wct:wct_creative>,
     <wit:wit_creative>,
     <wft:wft_creative>,
-    <thaumcraft:thaumonomicon:1>,
     <storagedrawers:upgrade_creative:1>,
     <extrautils2:spike_creative>,
     <extrautils2:creativechest>,

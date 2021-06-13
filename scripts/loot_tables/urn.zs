@@ -34,7 +34,7 @@ function addItem(item as IItemStack, weight as int, quality as int, minCount as 
         urn.getPool("rare")
     ];
     for pool in pools {
-        pool.addItemEntryHelper(item, weight, quality, [Functions.setCount(minCount, maxCount)], []);
+        pool.addItemEntry(item, weight, quality, [Functions.setCount(minCount, maxCount)], []);
     }
 }
 

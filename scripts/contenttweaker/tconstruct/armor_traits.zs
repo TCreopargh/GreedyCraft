@@ -38,7 +38,14 @@ import mods.zenutils.I18n;
 // Many traits are implemented to bethe effect of 4 pieces of armor stacked together; This turns them into what the effect of a single armor piece should be.
 // Special thanks to BDWSSBB
 function calcSingleArmor(reduction as float) as float {
-    return pow(1.0 - reduction as double, 0.25) as float;
+    // Bounds check to be safe
+    var reduct = reduction;
+    if (reduct > 1.0f) {
+        reduct = 1.0f;
+    } else if (reduct < 0.0f) {
+        reduct = 0.0f;
+    }
+    return pow(1.0 - reduct as double, 0.25) as float;
 }
 
 val warmTrait = ArmorTraitBuilder.create("warm");
@@ -106,7 +113,11 @@ knowledgefulTrait.localizedDescription = game.localize("greedycraft.tconstruct.a
 knowledgefulTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
     var reduction = 0.0f;
     if (!isNull(player)) {
-        reduction = (player.xp as float / 300.0f) as float * 0.36f;
+        var xp = player.xp as float;
+        if(xp > 300.0f) {
+            xp = 300.0f;
+        }
+        reduction = (xp / 300.0f) as float * 0.36f;
     }
     
     return newDamage * calcSingleArmor(reduction as float) as float;
@@ -278,9 +289,8 @@ levelingdefenseTrait.onHurt = function(trait, armor, player, source, damage, new
         }
     }
     // Thanks BDWSSBB for fixing this formula
-    val supposedDamage = newDamage as float / (multiplier + 1.0f);
-    val reduction = 1.0f - supposedDamage;
-    return calcSingleArmor(reduction);
+    val reduction = 1.0f - 1.0f / (multiplier + 1.0f);
+    return newDamage as float * calcSingleArmor(reduction);
 };
 levelingdefenseTrait.register();
 

@@ -22,6 +22,14 @@ function addShapeless(name as string, output as IItemStack, recipe as IIngredien
     recipes.addShapeless(name, output, recipe);
 }
 
+function addShapelessOf(name as string, output as IItemStack, ingredient as IIngredient, count as int) {
+    var recipe as IIngredient[] = [];
+    for i in 0 to count {
+        recipe += ingredient;
+    }
+    addShapeless(name, output, recipe);
+}
+
 function remove(output as IIngredient) {
     // TODO: Handle removed recipe here
 

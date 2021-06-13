@@ -1608,160 +1608,8 @@ xaerominimap:no_minimap
 	- Is Beneficial: false
 
 
-xaerominimap:no_entity_radar
-   - Id: 200
-   - Color: -16777216
-   - Is Instant: false
-   - Is Bad: false
-	- Is Beneficial: false
-
-
-xaerominimap:no_waypoints
-   - Id: 201
-   - Color: -16777216
-   - Is Instant: false
-   - Is Bad: false
-	- Is Beneficial: false
-
-
-xaerominimap:no_cave_maps
-   - Id: 202
-   - Color: -16777216
-   - Is Instant: false
-   - Is Bad: false
-	- Is Beneficial: false
-
-
-xaeroworldmap:no_world_map
-   - Id: 203
-   - Color: -16777216
-   - Is Instant: false
-   - Is Bad: false
-	- Is Beneficial: false
-
-
-thaumadditions:sonus
-   - Id: 204
-   - Color: 16755200
-   - Is Instant: false
-   - Is Bad: false
-	- Is Beneficial: false
-
-
-thaumadditions:sanity_checker
-   - Id: 205
-   - Color: -1
-   - Is Instant: false
-   - Is Bad: false
-	- Is Beneficial: false
-
-
-extrautils2:effect.xu2.doom
-   - Id: 206
-   - Color: 3149840
-   - Is Instant: false
-   - Is Bad: true
-	- Is Beneficial: false
-
-
-extrautils2:effect.xu2.gravity
-   - Id: 207
-   - Color: 2105376
-   - Is Instant: false
-   - Is Bad: true
-	- Is Beneficial: false
-
-
-extrautils2:effect.xu2.second.chance
-   - Id: 208
-   - Color: 6356848
-   - Is Instant: false
-   - Is Bad: false
-	- Is Beneficial: false
-
-
-extrautils2:effect.xu2.greek.fire
-   - Id: 209
-   - Color: 16732160
-   - Is Instant: false
-   - Is Bad: true
-	- Is Beneficial: false
-
-
-extrautils2:effect.xu2.fizzy.lifting
-   - Id: 210
-   - Color: 10547296
-   - Is Instant: false
-   - Is Bad: true
-	- Is Beneficial: false
-
-
-extrautils2:effect.xu2.relapse
-   - Id: 211
-   - Color: 6312191
-   - Is Instant: false
-   - Is Bad: false
-	- Is Beneficial: false
-
-
-extrautils2:effect.xu2.love
-   - Id: 212
-   - Color: 16761051
-   - Is Instant: true
-   - Is Bad: false
-	- Is Beneficial: false
-
-
-extrautils2:effect.xu2.purging
-   - Id: 213
-   - Color: 16738816
-   - Is Instant: true
-   - Is Bad: true
-	- Is Beneficial: false
-
-
 xaerominimap:no_minimap_harmful
-   - Id: 214
-   - Color: -16777216
-   - Is Instant: false
-   - Is Bad: true
-	- Is Beneficial: false
-
-
-xaerominimap:no_entity_radar_harmful
-   - Id: 215
-   - Color: -16777216
-   - Is Instant: false
-   - Is Bad: true
-	- Is Beneficial: false
-
-
-xaeroworldmap:no_world_map_harmful
-   - Id: 216
-   - Color: -16777216
-   - Is Instant: false
-   - Is Bad: true
-	- Is Beneficial: false
-
-
-xaerominimap:no_waypoints_beneficial
-   - Id: 217
-   - Color: -16777216
-   - Is Instant: false
-   - Is Bad: false
-	- Is Beneficial: true
-
-
-xaerominimap:no_waypoints_harmful
-   - Id: 218
-   - Color: -16777216
-   - Is Instant: false
-   - Is Bad: true
-	- Is Beneficial: false
-
-
-xaerominimap:no_cave_maps_harmful
-   - Id: 219
+   - Id: 200
    - Color: -16777216
    - Is Instant: false
    - Is Bad: true
@@ -1769,34 +1617,186 @@ xaerominimap:no_cave_maps_harmful
 
 
 xaerominimap:no_minimap_beneficial
-   - Id: 220
+   - Id: 201
    - Color: -16777216
    - Is Instant: false
    - Is Bad: false
 	- Is Beneficial: true
 
 
-xaeroworldmap:no_world_map_beneficial
-   - Id: 221
+xaerominimap:no_entity_radar
+   - Id: 202
    - Color: -16777216
    - Is Instant: false
    - Is Bad: false
-	- Is Beneficial: true
+	- Is Beneficial: false
 
 
-xaerominimap:no_cave_maps_beneficial
-   - Id: 222
+xaerominimap:no_entity_radar_harmful
+   - Id: 203
    - Color: -16777216
    - Is Instant: false
-   - Is Bad: false
-	- Is Beneficial: true
+   - Is Bad: true
+	- Is Beneficial: false
 
 
 xaerominimap:no_entity_radar_beneficial
-   - Id: 223
+   - Id: 204
    - Color: -16777216
    - Is Instant: false
    - Is Bad: false
 	- Is Beneficial: true
+
+
+xaerominimap:no_waypoints
+   - Id: 205
+   - Color: -16777216
+   - Is Instant: false
+   - Is Bad: false
+	- Is Beneficial: false
+
+
+xaerominimap:no_waypoints_harmful
+   - Id: 206
+   - Color: -16777216
+   - Is Instant: false
+   - Is Bad: true
+	- Is Beneficial: false
+
+
+xaerominimap:no_waypoints_beneficial
+   - Id: 207
+   - Color: -16777216
+   - Is Instant: false
+   - Is Bad: false
+	- Is Beneficial: true
+
+
+xaerominimap:no_cave_maps
+   - Id: 208
+   - Color: -16777216
+   - Is Instant: false
+   - Is Bad: false
+	- Is Beneficial: false
+
+
+xaerominimap:no_cave_maps_harmful
+   - Id: 209
+   - Color: -16777216
+   - Is Instant: false
+   - Is Bad: true
+	- Is Beneficial: false
+
+
+xaerominimap:no_cave_maps_beneficial
+   - Id: 210
+   - Color: -16777216
+   - Is Instant: false
+   - Is Bad: false
+	- Is Beneficial: true
+
+
+xaeroworldmap:no_world_map
+   - Id: 211
+   - Color: -16777216
+   - Is Instant: false
+   - Is Bad: false
+	- Is Beneficial: false
+
+
+xaeroworldmap:no_world_map_harmful
+   - Id: 212
+   - Color: -16777216
+   - Is Instant: false
+   - Is Bad: true
+	- Is Beneficial: false
+
+
+xaeroworldmap:no_world_map_beneficial
+   - Id: 213
+   - Color: -16777216
+   - Is Instant: false
+   - Is Bad: false
+	- Is Beneficial: true
+
+
+thaumadditions:sonus
+   - Id: 214
+   - Color: 16755200
+   - Is Instant: false
+   - Is Bad: false
+	- Is Beneficial: false
+
+
+thaumadditions:sanity_checker
+   - Id: 215
+   - Color: -1
+   - Is Instant: false
+   - Is Bad: false
+	- Is Beneficial: false
+
+
+extrautils2:effect.xu2.doom
+   - Id: 216
+   - Color: 3149840
+   - Is Instant: false
+   - Is Bad: true
+	- Is Beneficial: false
+
+
+extrautils2:effect.xu2.gravity
+   - Id: 217
+   - Color: 2105376
+   - Is Instant: false
+   - Is Bad: true
+	- Is Beneficial: false
+
+
+extrautils2:effect.xu2.second.chance
+   - Id: 218
+   - Color: 6356848
+   - Is Instant: false
+   - Is Bad: false
+	- Is Beneficial: false
+
+
+extrautils2:effect.xu2.greek.fire
+   - Id: 219
+   - Color: 16732160
+   - Is Instant: false
+   - Is Bad: true
+	- Is Beneficial: false
+
+
+extrautils2:effect.xu2.fizzy.lifting
+   - Id: 220
+   - Color: 10547296
+   - Is Instant: false
+   - Is Bad: true
+	- Is Beneficial: false
+
+
+extrautils2:effect.xu2.relapse
+   - Id: 221
+   - Color: 6312191
+   - Is Instant: false
+   - Is Bad: false
+	- Is Beneficial: false
+
+
+extrautils2:effect.xu2.love
+   - Id: 222
+   - Color: 16761051
+   - Is Instant: true
+   - Is Bad: false
+	- Is Beneficial: false
+
+
+extrautils2:effect.xu2.purging
+   - Id: 223
+   - Color: 16738816
+   - Is Instant: true
+   - Is Bad: true
+	- Is Beneficial: false
 
 

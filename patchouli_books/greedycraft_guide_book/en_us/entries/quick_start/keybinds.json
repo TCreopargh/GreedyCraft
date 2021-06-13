@@ -9,7 +9,7 @@
         },
 		{
             "type": "text",
-            "text": "$(li)§cM§r: Opens full-screen map$(li)§c~§r: Excavate blocks (View $(l:quick_start/excavation) for more info)$(li)§cNumpad /§r: Toss item (Not Q) Hold to toss with more power.$(li)§cDEL§r: Hover over an item and press DEL to put it into the trash slot ($(5)Shift+DEL$(4) Deletes all items of the same type in you inventory$())$(li)§cAlt+Numpad DEL(.)§r: Toggles fluid display"
+            "text": "$(li)§cM§r: Opens full-screen map$(li)§c~§r: Excavate blocks, View $(l:quick_start/excavation) for more info$(li)§cNumpad /§r: Toss item (Not Q) Hold to toss with more power.$(li)§cDEL§r: Hover over an item and press DEL to put it into the trash slot ($(5)Shift+DEL$(4) Deletes all items of the same type in you inventory$())$(li)§cAlt+Numpad DEL(.)§r: Toggles fluid display"
         },
 		{
             "type": "text",

@@ -25,7 +25,7 @@
         },
         {
             "type": "text",
-            "text": "$(li) It's recommended to use 'Internal' than 'off' if you're gonna turn off shaders$(li) Use medkits to regenerate health in battles!$(li) Real first player toggle can be found in R-button menu.$(li) Draconic Evolution's tools and armors are disabled, use Tinkers' material instead.$(li) Push a cow into your smeltery to get milk!$(li) You can craft any player's skull by combining any mob head with a named name tag."
+            "text": "$(li) It's recommended to use 'Internal' than 'off' if you're gonna turn off shaders$(li) Use medkits to regenerate health in battles!$(li) Real first person mode toggle can be found in R-button menu.$(li) Draconic Evolution's tools and armors are disabled, use Tinkers' material instead.$(li) Push a cow into your smeltery to get milk!$(li) You can craft any player's skull by combining any mob head with a named name tag."
         },
         {
             "type": "text",

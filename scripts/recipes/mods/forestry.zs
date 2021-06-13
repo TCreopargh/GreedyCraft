@@ -535,9 +535,9 @@ val seedRecipes as IIngredient[][][IItemStack] = {
         [<ore:ingotLumium>, essence[4], <ore:ingotLumium>]
     ],
     <mysticalagriculture:rock_crystal_seeds> : [
-        [<astralsorcery:itemrockcrystalsimple>, essence[5], <astralsorcery:itemrockcrystalsimple>], 
+        [<astralsorcery:blockcustomore:0>, essence[5], <astralsorcery:blockcustomore:0>], 
         [essence[5], base[5], essence[5]], 
-        [<astralsorcery:itemrockcrystalsimple>, essence[5], <astralsorcery:itemrockcrystalsimple>]
+        [<astralsorcery:blockcustomore:0>, essence[5], <astralsorcery:blockcustomore:0>]
     ],
     <mysticalagriculture:end_seeds> : [
         [<mysticalagriculture:crafting:9>, essence[4], <mysticalagriculture:crafting:9>], 

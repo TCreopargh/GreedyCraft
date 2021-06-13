@@ -341,7 +341,23 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
     <ore:blockManaDiamond> : [<botania:storage:3>],
     <ore:plantFiber> : [<ore:plantFibre>],
     <ore:listAllFiber> : [<ore:plantFiber>],
-    <ore:oreDiamond>: [<extrabees:misc:1>]
+    <ore:oreDiamond>: [<extrabees:misc:1>],
+    <ore:petDisabled>: [
+        <inventorypets:enderman_pet>,
+        <inventorypets:anvil_pet>,
+        <inventorypets:bed_pet>,
+        <inventorypets:enchanting_table_pet>,
+        <inventorypets:jukebox_pet>,
+        <inventorypets:nether_portal_pet>,
+        <inventorypets:grave_pet>,
+        <inventorypets:loot_pet>,
+        <inventorypets:wither_pet>,
+        <inventorypets:slime_pet>,
+        <inventorypets:pufferfish_pet>,
+        <inventorypets:black_hole_pet>,
+        <inventorypets:juggernaut_pet>,
+        <inventorypets:pingot_pet>
+    ]
 };
 
 var removeMap as IIngredient[][IOreDictEntry] = {
