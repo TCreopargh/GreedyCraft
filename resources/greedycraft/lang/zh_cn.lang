@@ -454,6 +454,7 @@ greedycraft.tooltip.tombmanygraves.death_list.2=§e按住Shift走上墓碑即可
 greedycraft.tooltip.torchmaster.feral_flare_lantern.1=§e请勿放到星辉魔法的法阵或Boss场地旁边
 greedycraft.tooltip.torchmaster.feral_flare_lantern.2=§e其产生的隐形光源也是方块并且会干扰多方块结构的判定
 greedycraft.tooltip.twilightforest.uncrafting_table.1=§e注意：无法拆解物品
+greedycraft.tooltip.disabled_pet_reroll=§e禁用的宠物可以放入工作台中以重新抽取。
 greedycraft.yay.torcherino.1=§e在？PY又痒了？
 greedycraft.yay.torcherino.2=§e把加速火把插到你PY里，给你好好加个速！
 greedycraft.yay.torcherino.3=§5       ——一位不愿透露姓名的bat

@@ -74,8 +74,6 @@ for ingredient in hides {
 }
 
 for ingredient in descriptions {
-    for item in ingredient.items {
-        var description = descriptions[ingredient] as string[];
-        JEI.addDescription(item, description);
-    }
+    var description = descriptions[ingredient] as string[];
+    JEI.addDescription(ingredient, description);
 }

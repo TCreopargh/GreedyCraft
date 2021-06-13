@@ -44,7 +44,7 @@ for ingredient in foodList {
     for item in ingredient.items {
         if (!LootUtil.isBlacklisted(item)) {
             if (item.metadata != 32767) {
-                foodTableMainPool.addItemEntryHelper(item, 1, 1, [Functions.setCount(1, 4)], []);
+                foodTableMainPool.addItemEntry(item, 1, 1, [Functions.setCount(1, 4)], []);
             }
         }
     }

@@ -56,36 +56,36 @@ val slimeTables as string[] = [
 
 LootTweaker.getTable("betterslimes:quazar").getPool("main").setRolls(1.0, 1.0);
 LootTweaker.getTable("betterslimes:quazar").getPool("main").setBonusRolls(0.0, 0.0);
-LootTweaker.getTable("betterslimes:quazar").getPool("main").addItemEntryHelper(<additions:greedycraft-royal_gel>, 100, 1, [Functions.setCount(24, 50)], []);
+LootTweaker.getTable("betterslimes:quazar").getPool("main").addItemEntry(<additions:greedycraft-royal_gel>, 100, 1, [Functions.setCount(24, 50)], []);
 var quazarLootPool = LootTweaker.getTable("betterslimes:quazar").addPool("loot", 1.0, 1.0, 0.0, 0.0);
-quazarLootPool.addLootTableEntryHelper("minecraft:chests/simple_dungeon", 1, 1, [Conditions.killedByPlayer()]);
+quazarLootPool.addLootTableEntry("minecraft:chests/simple_dungeon", 1, 1, [Conditions.killedByPlayer()]);
 
 LootTweaker.getTable("betterslimes:knight_slime").getPool("main").setRolls(1.0, 1.0);
 LootTweaker.getTable("betterslimes:knight_slime").getPool("main").setBonusRolls(0.0, 0.0);
-LootTweaker.getTable("betterslimes:knight_slime").getPool("main").addConditionsHelper([Conditions.randomChance(0.5)]);
-LootTweaker.getTable("betterslimes:knight_slime").getPool("main").addItemEntryHelper(<tconstruct:nuggets:3>, 100, 1, [Functions.setCount(1, 2)], []);
-LootTweaker.getTable("betterslimes:knight_slime").getPool("main").addItemEntryHelper(<tconstruct:nuggets:3>, 10, 1, [Functions.setCount(2, 7)], []);
-LootTweaker.getTable("betterslimes:knight_slime").getPool("main").addItemEntryHelper(<tconstruct:ingots:3>, 4, 1, [Functions.setCount(1, 2)], []);
+LootTweaker.getTable("betterslimes:knight_slime").getPool("main").addConditions([Conditions.randomChance(0.5)]);
+LootTweaker.getTable("betterslimes:knight_slime").getPool("main").addItemEntry(<tconstruct:nuggets:3>, 100, 1, [Functions.setCount(1, 2)], []);
+LootTweaker.getTable("betterslimes:knight_slime").getPool("main").addItemEntry(<tconstruct:nuggets:3>, 10, 1, [Functions.setCount(2, 7)], []);
+LootTweaker.getTable("betterslimes:knight_slime").getPool("main").addItemEntry(<tconstruct:ingots:3>, 4, 1, [Functions.setCount(1, 2)], []);
 LootTweaker.getTable("betterslimes:gold_slime").getPool("main").setRolls(1.0, 1.0);
 LootTweaker.getTable("betterslimes:gold_slime").getPool("main").setBonusRolls(0.0, 0.0);
-LootTweaker.getTable("betterslimes:gold_slime").getPool("main").addConditionsHelper([Conditions.randomChance(0.5)]);
-LootTweaker.getTable("betterslimes:gold_slime").getPool("main").addItemEntryHelper(<minecraft:gold_nugget>, 200, 1, [Functions.setCount(1, 3)], []);
-LootTweaker.getTable("betterslimes:gold_slime").getPool("main").addItemEntryHelper(<minecraft:gold_ingot>, 20, 1, [Functions.setCount(1, 2)], []);
-LootTweaker.getTable("betterslimes:gold_slime").getPool("main").addItemEntryHelper(<minecraft:golden_apple>, 10, 1, [Functions.setCount(1, 1)], []);
-LootTweaker.getTable("betterslimes:gold_slime").getPool("main").addItemEntryHelper(<minecraft:golden_apple:1>, 1, 1, [Functions.setCount(1, 1)], []);
+LootTweaker.getTable("betterslimes:gold_slime").getPool("main").addConditions([Conditions.randomChance(0.5)]);
+LootTweaker.getTable("betterslimes:gold_slime").getPool("main").addItemEntry(<minecraft:gold_nugget>, 200, 1, [Functions.setCount(1, 3)], []);
+LootTweaker.getTable("betterslimes:gold_slime").getPool("main").addItemEntry(<minecraft:gold_ingot>, 20, 1, [Functions.setCount(1, 2)], []);
+LootTweaker.getTable("betterslimes:gold_slime").getPool("main").addItemEntry(<minecraft:golden_apple>, 10, 1, [Functions.setCount(1, 1)], []);
+LootTweaker.getTable("betterslimes:gold_slime").getPool("main").addItemEntry(<minecraft:golden_apple:1>, 1, 1, [Functions.setCount(1, 1)], []);
 
 LootTweaker.getTable("mowziesmobs:entities/ferrous_wroughtnaut").getPool("main").setRolls(2.0, 2.0);
 LootTweaker.getTable("mowziesmobs:entities/ferrous_wroughtnaut").getPool("main").setBonusRolls(0.0, 0.0);
-LootTweaker.getTable("mowziesmobs:entities/ferrous_wroughtnaut").getPool("main").addItemEntryHelper(<thermalfoundation:material:160>, 1, 1, [Functions.setCount(4, 16)], []);
-LootTweaker.getTable("mowziesmobs:entities/ferrous_wroughtnaut").getPool("main").addItemEntryHelper(<minecraft:iron_ingot>, 1, 1, [Functions.setCount(32, 64)], []);
-LootTweaker.getTable("mowziesmobs:entities/ferrous_wroughtnaut").getPool("main").addLootTableEntryHelper("minecraft:chests/simple_dungeon", 1, 1, [Conditions.killedByPlayer()]);
+LootTweaker.getTable("mowziesmobs:entities/ferrous_wroughtnaut").getPool("main").addItemEntry(<thermalfoundation:material:160>, 1, 1, [Functions.setCount(4, 16)], []);
+LootTweaker.getTable("mowziesmobs:entities/ferrous_wroughtnaut").getPool("main").addItemEntry(<minecraft:iron_ingot>, 1, 1, [Functions.setCount(32, 64)], []);
+LootTweaker.getTable("mowziesmobs:entities/ferrous_wroughtnaut").getPool("main").addLootTableEntry("minecraft:chests/simple_dungeon", 1, 1, [Conditions.killedByPlayer()]);
 
 if (CalendarUtil.isChristmas()) {
     for mob in mobList {
         var table as LootTable = LootTweaker.getTable("minecraft:entities/" + mob);
         var pool as LootPool = table.addPool("christmas_gift", 1, 1, 0, 0);
-        pool.addItemEntryHelper(<additions:greedycraft-gift>, 1, 1, [Functions.setCount(1, 1)], []);
-        pool.addConditionsHelper([Conditions.randomChanceWithLooting(0.00, 0.005), Conditions.killedByPlayer()]);
+        pool.addItemEntry(<additions:greedycraft-gift>, 1, 1, [Functions.setCount(1, 1)], []);
+        pool.addConditions([Conditions.randomChanceWithLooting(0.00, 0.005), Conditions.killedByPlayer()]);
     }
 }
 
@@ -93,14 +93,14 @@ if (CalendarUtil.isLunarNewYear()) {
     for mob in mobList {
         var table as LootTable = LootTweaker.getTable("minecraft:entities/" + mob);
         var pool as LootPool = table.addPool("red_envelope", 1, 1, 0, 0);
-        pool.addItemEntryHelper(<additions:greedycraft-red_packet>, 1, 1, [Functions.setCount(1, 1)], []);
-        pool.addConditionsHelper([Conditions.randomChanceWithLooting(0.00, 0.005), Conditions.killedByPlayer()]);
+        pool.addItemEntry(<additions:greedycraft-red_packet>, 1, 1, [Functions.setCount(1, 1)], []);
+        pool.addConditions([Conditions.randomChanceWithLooting(0.00, 0.005), Conditions.killedByPlayer()]);
     }
 }
 
 for table in slimeTables {
     var table as LootTable = LootTweaker.getTable(table);
     var pool as LootPool = table.addPool("slime_crown", 1, 1, 0, 0); 
-    pool.addItemEntryHelper(<additions:greedycraft-slime_crown>, 1, 1, [Functions.setCount(1, 1)], []);
-    pool.addConditionsHelper([Conditions.randomChanceWithLooting(0.005, 0.0025), Conditions.killedByPlayer()]);
+    pool.addItemEntry(<additions:greedycraft-slime_crown>, 1, 1, [Functions.setCount(1, 1)], []);
+    pool.addConditions([Conditions.randomChanceWithLooting(0.005, 0.0025), Conditions.killedByPlayer()]);
 }

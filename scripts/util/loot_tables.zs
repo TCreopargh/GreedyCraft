@@ -78,7 +78,7 @@ static hardmodePools as LootPool[] = [
 ];
 
 for pool in hardmodePools {
-    pool.addConditionsJson([{
+    pool.addConditions([{
 		"condition": "required_stage",
 		"stage_name": "hardmode"
 	}, {
@@ -109,12 +109,12 @@ function isBlacklisted(target as IItemStack) as bool {
 
 function addItem(item as IItemStack, weight as int, quality as int, minCount as int, maxCount as int) {
     for pool in pools {
-        pool.addItemEntryHelper(item, weight, quality, [Functions.setCount(minCount, maxCount)], []);
+        pool.addItemEntry(item, weight, quality, [Functions.setCount(minCount, maxCount)], []);
     }
 }
 
 function addHardmodeItem(item as IItemStack, weight as int, quality as int, minCount as int, maxCount as int) {
     for pool in hardmodePools {
-        pool.addItemEntryHelper(item, weight, quality, [Functions.setCount(minCount, maxCount)], []);
+        pool.addItemEntry(item, weight, quality, [Functions.setCount(minCount, maxCount)], []);
     }
 }

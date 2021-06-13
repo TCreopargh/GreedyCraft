@@ -106,11 +106,15 @@ events.onCommand(function (event as CommandEvent) {
 events.onPlayerTick(function (event as PlayerTickEvent) {
     
     var showScoreboard as bool = true;
-
-    if (!isNull(IWorld.getFromID(0)) && !isNull(IWorld.getFromID(0).getCustomWorldData()) && (IWorld.getFromID(0).getCustomWorldData() has "showScoreboard") && !isNull(IWorld.getFromID(0).getCustomWorldData().memberGet("showScoreboard"))) {
-        val doShowScoreboard as bool = IWorld.getFromID(0).getCustomWorldData().memberGet("showScoreboard") as bool;
-        if(!doShowScoreboard) {
-            showScoreboard = false;
+    val overworld as IWorld = IWorld.getFromID(0);
+    if(!isNull(overworld)) {
+        val overWorldData as IData = overworld.getCustomWorldData();
+        val showScoreboardData as IData = overWorldData.memberGet("showScoreboard");
+        if (!isNull(showScoreboardData)) {
+            val doShowScoreboard as bool = showScoreboardData as bool;
+            if(!doShowScoreboard) {
+                showScoreboard = false;
+            }
         }
     }
 

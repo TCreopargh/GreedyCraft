@@ -23,11 +23,11 @@ val furnitureTable = LootTweaker.newTable("loottweaker:furniture_crate_loot_tabl
 var furnitureTableMainPool = furnitureTable.addPool("main", 3, 10, 0, 0);
 for item in loadedMods["bibliocraft"].items {
     if (!LootUtil.isBlacklisted(item)) {
-        furnitureTableMainPool.addItemEntryHelper(item, 1, 1, [Functions.setCount(1, 3)], []);
+        furnitureTableMainPool.addItemEntry(item, 1, 1, [Functions.setCount(1, 3)], []);
     }
 }
 for item in loadedMods["cfm"].items {
     if (!LootUtil.isBlacklisted(item)) {
-        furnitureTableMainPool.addItemEntryHelper(item, 1, 1, [Functions.setCount(1, 3)], []);
+        furnitureTableMainPool.addItemEntry(item, 1, 1, [Functions.setCount(1, 3)], []);
     }
 }

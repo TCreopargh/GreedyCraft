@@ -540,6 +540,12 @@ RecipeUtil.addShapeless("essence_super_3", <mysticalagriculture:storage:4>,
 RecipeUtil.addShapeless("essence_super_4", <mysticalagradditions:storage>,
     [<mysticalagriculture:master_infusion_crystal>, <mysticalagriculture:storage:4>, <mysticalagriculture:storage:4>, <mysticalagriculture:storage:4>, <mysticalagriculture:storage:4>, <mysticalagriculture:storage:4>]
 );
+RecipeUtil.addShapeless("pet_reroll", <inventorypets:meta_pet>,
+    [<ore:petDisabled>]
+);
+RecipeUtil.addShapelessOf("rock_crystal_compress", <astralsorcery:blockcustomore:0>,
+    <astralsorcery:itemrockcrystalsimple>, 9
+);
 
 
 /* Template
